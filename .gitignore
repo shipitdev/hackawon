@@ -5,6 +5,9 @@ CLAUDE.md
 .env
 .env.*
 !.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
 
 # Derived working copy of the data (rebuilt from data/*.json by the jobs)
 *.sqlite
