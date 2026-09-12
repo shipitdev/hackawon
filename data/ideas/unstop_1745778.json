@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-12T10:34:29.275347+05:30",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745778",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response pipeline featuring an evidence gate, verified automated repairs, real pull requests, and automated write-backs to DataHub.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "claude",
+        "data-engineering",
+        "data-lineage"
+      ],
+      "title": "ConvergenceGate",
+      "track": "",
+      "why_it_could_win": "Directly maps to the grand prize winning pattern of blackbox-datahub by demonstrating architectural resilience and real-world utility, perfectly matching the System Convergence ethos."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router utilizing kNN over an exemplar index with LLM-judge writeback to continuously optimize routing accuracy and minimize inference cost under production stress.",
+      "stack": [
+        "Python",
+        "llm-routing",
+        "qwen",
+        "semantic-router",
+        "superlinked"
+      ],
+      "title": "ResilientRouter",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of darwin-router by providing concrete, measurable efficiency gains and architectural depth that judges can verify live."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis engine for enterprise AI workflows that uses coded agents to enforce strict governance protocols.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "ai-governance",
+        "bpmn",
+        "human-in-the-loop"
+      ],
+      "title": "BPMN-RiskAgent",
+      "track": "",
+      "why_it_could_win": "Follows the winning blueprint of fde-agent-uipath by targeting complex enterprise workflows and human-in-the-loop governance demanded by rigorous engineering judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A testing environment where two identical AI agents engage in strategic economic games to autonomously discover emergent deception and adversarial vulnerabilities without pre-programmed instructions.",
+      "stack": [
+        "Python",
+        "adversarial-ai",
+        "braintrust",
+        "datadog",
+        "elevenlabs"
+      ],
+      "title": "AdversarialCrucible",
+      "track": "",
+      "why_it_could_win": "Captures the technical depth and novelty that secured 1st place in the crucible win by showcasing unpredictable agent dynamics and system safety limits."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An efficient reasoning framework enabling LLMs to execute complex multi-step logic checks using reinforcement learning and rainbow decoding paths for low-latency execution.",
+      "stack": [
+        "Python",
+        "llm",
+        "rainbow",
+        "reinforcement-learning"
+      ],
+      "title": "HyperReason",
+      "track": "",
+      "why_it_could_win": "Builds on the rigorous algorithmic execution seen in the hyperreasoning win, appealing directly to judges looking for deep technical optimization rather than superficial wrappers."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

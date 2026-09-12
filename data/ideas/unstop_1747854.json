@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-12T10:36:54.981475+05:30",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1747854",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous multi-agent diagnostic platform for campus electrical and electronics hardware labs, using fast machine learning and LLMs to detect power grid anomalies and equipment failures in real time.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Gemini API"
+      ],
+      "title": "Smart Campus IoT Anomaly Detector",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Targeting the Hardware & Software track with a direct focus on institutional campus operations makes the problem instantly relatable to ECE/EE departments and judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router and retrieval engine designed specifically to parse complex VLSI chip datasheets and hardware documentation for instant query routing.",
+      "stack": [
+        "Python",
+        "Semantic Router",
+        "Qwen",
+        "Superlinked"
+      ],
+      "title": "Semantic VLSI Datasheet Router",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Directly appeals to the VLSI Design & Technology department organizing the event by solving a tedious literature-search problem for hardware engineers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first AI code review assistant tailored for embedded systems and microcontroller firmware, catching memory leaks and race conditions before deployment.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Local LLMs"
+      ],
+      "title": "Autonomous Embedded Code Review Agent",
+      "track": "Software Track",
+      "why_it_could_win": "Combines software intelligence with hardware-centric development workflows, fitting the exact interdisciplinary theme of the ECE/EE departments."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A pre-deployment risk diagnosis and compliance validator for university lab experiments, mapping safety protocols using BPMN workflows and automated agentic reasoning.",
+      "stack": [
+        "Python",
+        "BPMN",
+        "AI Agents"
+      ],
+      "title": "BPMN-Orchestrated Lab Safety Workflow Engine",
+      "track": "Software Track",
+      "why_it_could_win": "Demonstrates strict governance and process automation, appealing to judges looking for robust, production-ready safety implementation plans."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1214808895",
+        "github:1274911437"
+      ],
+      "pitch": "A lightweight inference optimization framework that helps resource-constrained edge hardware run complex reasoning models efficiently without sacrificing accuracy.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "ONNX"
+      ],
+      "title": "Inference-Optimized Edge Compute Benchmarker",
+      "track": "Hardware Track",
+      "why_it_could_win": "Addresses hardware constraints directly, which will resonate heavily with the VLSI and ECE faculty members serving on the judging panel."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

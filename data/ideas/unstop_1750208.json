@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-12T10:38:46.365351+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750208",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI code reviewer optimized for student project submissions that runs locally on Snapdragon hardware to ensure submission privacy and zero cloud latency.",
+      "stack": [
+        "Python",
+        "Snapdragon NPU SDK",
+        "FastAPI"
+      ],
+      "title": "CampusNPU-Reviewer",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Follows the winning pattern of deploying on edge hardware and addresses a concrete logistical bottleneck for hackathon organizers evaluating hundreds of projects offline."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis tool for student cloud deployments, integrating human-in-the-loop approvals for university server resource allocation.",
+      "stack": [
+        "Python",
+        "BPMN",
+        "AI Agents",
+        "FastAPI"
+      ],
+      "title": "BPMN-Campus-Risk",
+      "track": "Cloud",
+      "why_it_could_win": "Leverages workflow orchestration and governance patterns proven successful in UiPath AgentHack submissions, appealing to academic IT administrators."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router that classifies student queries about university timetables and exams, continuously upgrading accuracy via LLM-judge feedback.",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Superlinked",
+        "Semantic Router"
+      ],
+      "title": "Semantic-Syllabus-Router",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Adapts the exact architecture of a Superlinked × Qwen hackathon winner to solve a campus administration pain point that judges experience daily."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Autonomous data incident response agent with an evidence gate and verified repair for student-managed university club databases and data pipelines.",
+      "stack": [
+        "Python",
+        "DataHub",
+        "Claude",
+        "Data Engineering"
+      ],
+      "title": "DataHub-Campus-Lineage",
+      "track": "Emerging Technologies",
+      "why_it_could_win": "Replicates the architectural rigor of a DataHub Agent Hackathon grand prize winner, focusing on verifiable automated data remediation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two identical AI grading agents that evaluate student assignments via adversarial debate to surface hidden plagiarism and logic flaws without pre-programmed rubrics.",
+      "stack": [
+        "Python",
+        "Adversarial AI",
+        "Braintrust",
+        "ElevenLabs"
+      ],
+      "title": "Adversarial-Peer-Review",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Applies the self-improving adversarial agent architecture that won Datadog's hackathon, showcasing genuinely hard multi-agent engineering."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

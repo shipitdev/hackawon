@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-09-12T10:32:03.905939+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1743110",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An interactive Python script execution visualizer specifically designed to help Grades 9-12 students step through complex logic puzzles, recursion, and sorting algorithms used in competitive coding.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Ast"
+      ],
+      "title": "LogicPython Visualizer for High Schoolers",
+      "track": "",
+      "why_it_could_win": "Since the hackathon is organized by St. Jude's Public School for Grades 9-12 with a strong focus on Python and logical reasoning, a tool that directly helps students master competitive programming logic will resonate heavily with the school judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A Python-based CLI assistant that takes failing student code snippets in Python, C, C++, or Java, and explains the logical fallacy without giving away the direct solution, fostering true problem-solving skills.",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Rich"
+      ],
+      "title": "CodeArena AI Coach",
+      "track": "",
+      "why_it_could_win": "Matches the exact stated goal of the event to hone logical reasoning and programming in Python, C, C++, and Java, serving as an educational companion that judges will immediately appreciate for student growth."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A lightweight Python benchmarking tool that tests student-submitted Python and C++ functions against edge cases, automatically measuring time and space complexity to prevent Time Limit Exceeded errors.",
+      "stack": [
+        "Python",
+        "Subprocess",
+        "Matplotlib"
+      ],
+      "title": "Algorithmic Complexity Benchmarker",
+      "track": "",
+      "why_it_could_win": "Addresses a pain point familiar to both students and organizers hosting online coding challenges by catching inefficient algorithmic approaches early."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A mini multiplayer puzzle platformer controlled purely by writing short Python scripts to solve logic puzzles under a tight 24-hour hackathon timeframe.",
+      "stack": [
+        "Python",
+        "Pygame"
+      ],
+      "title": "Python Logic Duel Arena",
+      "track": "",
+      "why_it_could_win": "Gamifies logical reasoning in Python, fitting the exact skill sets tested during St. Jude's Code Arena while providing an engaging demo for judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A translator utility that converts basic algorithmic logic written in Python to C, C++, and Java to help high school students transition between the supported contest languages.",
+      "stack": [
+        "Python",
+        "Jinja2",
+        "FastAPI"
+      ],
+      "title": "Multi-Language Syntax Bridge",
+      "track": "",
+      "why_it_could_win": "Directly supports the four official languages of the hackathon (C, C++, Java, Python 3+), making it a practical utility for participants tackling multi-language problem sets."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

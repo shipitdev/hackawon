@@ -62,7 +62,6 @@ def build(data_dir: Path | None = None) -> dict:
     records = read_hackathons(data_dir or DATA_DIR)
     labels = _labels("hackathons", data_dir)
     ideas = _ideas(data_dir)
-    projects = read_projects(data_dir or DATA_DIR) if ideas else []
     # Sort by whatever date the student actually acts on: the event if we know it, else the
     # registration deadline. Unstop publishes no event start for most listings.
     far_future = datetime.max.replace(tzinfo=UTC)
@@ -81,26 +80,11 @@ def build(data_dir: Path | None = None) -> dict:
         # Unlabelled hackathons still appear; they just won't match a category filter.
         row["domains"] = labels.get(record.uid, {}).get("domains", [])
 
+        # Only the COUNT goes in the index. Ideas and exemplars were 79% of the payload
+        # (988 KB of 1.25 MB) and nobody needs them until they open a card, so each hackathon
+        # gets its own file fetched on demand.
         stored = ideas.get(record.uid)
-        if stored:
-            row["ideas"] = stored["ideas"]
-            row["grounding"] = stored.get("grounding", {})
-            # Exemplars are embedded per hackathon rather than shipped as one winners index:
-            # only a handful are referenced, and this keeps the bundle small.
-            referenced = {i for idea in stored["ideas"] for i in idea.get("inspired_by", [])}
-            row["exemplars"] = [
-                {
-                    "uid": p.uid,
-                    "title": p.title,
-                    "url": p.url,
-                    "prize": p.prize,
-                    "hackathon_name": p.hackathon_name,
-                    "year": p.year,
-                    "tech": p.tech[:4],
-                }
-                for p in projects
-                if p.uid in referenced
-            ]
+        row["idea_count"] = len(stored["ideas"]) if stored else 0
         rows.append(row)
 
     taxonomy_path = (data_dir or DATA_DIR) / "taxonomy.yml"
@@ -124,12 +108,50 @@ def build(data_dir: Path | None = None) -> dict:
     }
 
 
+def write_idea_files(data_dir: Path | None, out: Path) -> int:
+    """One file per hackathon: its ideas plus just the exemplars those ideas actually cite."""
+    ideas = _ideas(data_dir)
+    if not ideas:
+        return 0
+    projects = {p.uid: p for p in read_projects(data_dir or DATA_DIR)}
+    target = out / "ideas"
+    target.mkdir(parents=True, exist_ok=True)
+
+    for uid, stored in ideas.items():
+        cited = {i for idea in stored["ideas"] for i in idea.get("inspired_by", [])}
+        payload = {
+            "ideas": stored["ideas"],
+            "grounding": stored.get("grounding", {}),
+            "exemplars": [
+                {
+                    "uid": p.uid,
+                    "title": p.title,
+                    "url": p.url,
+                    "prize": p.prize,
+                    "hackathon_name": p.hackathon_name,
+                    "year": p.year,
+                    "tech": p.tech[:4],
+                }
+                for uid_ref in cited
+                if (p := projects.get(uid_ref)) is not None
+            ],
+        }
+        (target / f"{uid.replace(':', '_')}.json").write_text(
+            json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+        )
+    return len(ideas)
+
+
 def run(data_dir: Path | None = None, output_dir: Path | None = None) -> Path:
     bundle = build(data_dir)
     out = output_dir or OUTPUT_DIR
     out.mkdir(parents=True, exist_ok=True)
     path = out / "hackathons.json"
     path.write_text(json.dumps(bundle, ensure_ascii=False), encoding="utf-8")
+
+    written = write_idea_files(data_dir, out)
+    if written:
+        print(f"  wrote {written} per-hackathon idea files")
 
     runs = (data_dir or DATA_DIR) / "source_runs.json"
     if runs.exists():

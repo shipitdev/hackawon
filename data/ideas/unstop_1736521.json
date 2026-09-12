@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-12T10:31:01.242169+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1736521",
+  "ideas": [
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1181344931"
+      ],
+      "pitch": "An edge-deployable acoustic signal processing platform that detects mechanical anomalies in rotating machinery using streaming FFT and lightweight neural networks, tailored for IEEE Signal Processing Society judges.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "FastAPI",
+        "React"
+      ],
+      "title": "SignalSentry: Real-Time Audio Anomaly Detection for Industrial Machinery",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the IEEE Signal Processing Society context of the hackathon, appealing to judges with deep signal processing backgrounds by focusing on raw frequency-domain analysis rather than generic UI wrappers."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1275874285"
+      ],
+      "pitch": "A robust 1D convolutional neural network pipeline that extracts QRS complex features from raw ECG sensor streams for continuous biometric user authentication.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Librosa",
+        "Streamlit"
+      ],
+      "title": "BioSignal-Verify: Electrocardiogram Biometric Authentication Pipeline",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in biomedical signal processing, which immediately stands out to IEEE SPS judges looking for rigorous mathematical and algorithmic applications."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "A digital signal processing web utility that applies adaptive filter algorithms and wavelet packet decomposition to clean up degraded radio and voice transmissions in real-time.",
+      "stack": [
+        "JavaScript",
+        "Web Audio API",
+        "WebAssembly",
+        "React"
+      ],
+      "title": "ClearComm: Adaptive Subband Noise Suppression for Emergency Dispatch",
+      "track": "",
+      "why_it_could_win": "Combines clear societal impact with classic DSP textbook concepts implemented in a modern web interface, making it universally understandable and deeply technical."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A spectrum analysis dashboard that processes IQ data samples to classify wireless communication modulations and detect narrow-band RF interference sources.",
+      "stack": [
+        "Python",
+        "Bokeh",
+        "NumPy",
+        "Flask"
+      ],
+      "title": "SpectrumScope: RF Signal Classification and Interference Finder",
+      "track": "",
+      "why_it_could_win": "Directly addresses core wireless communication and telemetry themes dear to IEEE chapters, leveraging concrete mathematical modeling and visualization."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping tool for acoustic engineers that computes and simulates room impulse responses (RIR) using the image source method for virtual acoustics.",
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Web Audio API",
+        "TailwindCSS"
+      ],
+      "title": "EchoSpatial: Binaural Audio Room Impulse Response Synthesizer",
+      "track": "",
+      "why_it_could_win": "Solves a niche computational problem with immediate visual gratification during judging demos, hitting the sweet spot of algorithmic complexity and 10-hour hackathon feasibility."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-12T10:25:50.610559+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hackrpi-2026",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A forecasting tool tailored for campus energy consumption and local microgrid resilience using Poisson regression and historical weather models.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CampusGrid RPI: AI Microgrid Load Forecaster",
+      "track": "",
+      "why_it_could_win": "Follows the exact success pattern of predicting complex systems with calibrated confidence intervals and appeals directly to institutional infrastructure themes."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An investigative dashboard mapping off-campus housing scams, suspicious landlord transactions, and anomalous rental listings using graph intelligence.",
+      "stack": [
+        "TypeScript",
+        "Neo4j",
+        "Next.js",
+        "LightGBM"
+      ],
+      "title": "TroyRentGuard: Student Housing Scam & AML Graph Detector",
+      "track": "",
+      "why_it_could_win": "Solves a problem every college student and local resident in Troy, New York feels deeply every leasing season."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered meal recommendation and nutritional tracking platform that optimizes local dining hall menus and redirects surplus food to campus food banks.",
+      "stack": [
+        "Python",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "RPI Dining AI Nutritionist & Surplus Matcher",
+      "track": "",
+      "why_it_could_win": "Combines personal health utility with a clear, quantified campus-wide social impact metric."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An AI agent-powered ride-pooling and micro-transit coordinator connecting RPI students with elderly residents in Troy for grocery runs and medical appointments.",
+      "stack": [
+        "TypeScript",
+        "Google Maps API",
+        "OpenAI API",
+        "React Native"
+      ],
+      "title": "CapitalRegion ShuttleSync",
+      "track": "",
+      "why_it_could_win": "Targets regional community needs with a tangible social good angle that resonates strongly with local hackathon judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite imagery monitoring tool tracking industrial land changes and environmental runoff along the Hudson River near Troy.",
+      "stack": [
+        "TypeScript",
+        "Sentinel Hub API",
+        "Python",
+        "Leaflet.js"
+      ],
+      "title": "HudsonRiver EcoSat: Industrial Runoff Tracker",
+      "track": "",
+      "why_it_could_win": "Uses hard environmental data visualization and satellite APIs to demonstrate measurable ecological oversight."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-12T10:31:05.185263+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "web3",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1737351",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated risk diagnosis tool for autonomous agent actions operating on generative AI backends.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "BPMN.io"
+      ],
+      "title": "AgenticWorkflowAuditor",
+      "track": "",
+      "why_it_could_win": "Leverages the proven high-scoring pattern of combining BPMN orchestration with human-in-the-loop AI governance, matching the winning architecture from UiPath AgentHack."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router using kNN over exemplar indices to dynamically route prompts between different LLMs.",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "SemanticRouterLite",
+      "track": "",
+      "why_it_could_win": "Directly implements the highly successful architecture of the Superlinked x Qwen Hackathon winner, demonstrating advanced algorithmic efficiency within a tight 8-hour window."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge gated community portal where human users and autonomous Generative AI agents coexist and verify credentials privately.",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "Base",
+        "OpenAI API"
+      ],
+      "title": "ZKAgentGated",
+      "track": "",
+      "why_it_could_win": "Replicates the unique winning formula of Synthesis Hackathon by blending AI agents with ZK privacy circuits, which judges favor for technical ambition."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace that executes transactions and manages service verification using stablecoin escrow payments.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Locus"
+      ],
+      "title": "AutonomousEscrowAgent",
+      "track": "",
+      "why_it_could_win": "Matches the exact blueprint of the Locus Track winner at Synthesis Hackathon, providing a complete functional utility for on-chain AI economies."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A lightweight reasoning wrapper that optimises LLM reasoning loops to reduce token consumption and latency during generative tasks.",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "PyTorch"
+      ],
+      "title": "ReasoningOptimizer",
+      "track": "",
+      "why_it_could_win": "Mirrors the OpenAI/Jetbrains hackathon winner by solving a universally felt developer pain point: making LLMs think faster and cheaper."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

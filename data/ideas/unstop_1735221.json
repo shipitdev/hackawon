@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-12T10:30:34.096719+05:30",
+  "grounding": {
+    "domains": [
+      "civic",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1735221",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A human-in-the-loop audit agent built using UiPath Maestro BPMN that validates country-specific privacy compliance for national identity partner integrations before data sync with the core MOSIP resident database.",
+      "stack": [
+        "Python",
+        "UiPath Maestro",
+        "BPMN",
+        "FastAPI"
+      ],
+      "title": "MOSIP-Guard: BPMN-Orchestrated Biometric Data Consent Audit Agent",
+      "track": "",
+      "why_it_could_win": "Directly targets MOSIP’s guiding principles of privacy, security, and modularity using a proven hackathon pattern of BPMN-orchestrated agentic workflows."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router using kNN and exemplar indexing to instantly direct localized citizen service inquiries to the correct national micro-service endpoints across multilingual dialects.",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "Embeddings"
+      ],
+      "title": "Aadhaar/MOSIP-Bridge Semantic Query Router",
+      "track": "",
+      "why_it_could_win": "Addresses the severe scalability and multi-tenant routing challenges faced by governments adopting MOSIP across 31 countries with diverse languages."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An edge-computed offline verification tool that runs Poisson regression forecasting and local cryptographic validation for remote field officers syncing decentralized MOSIP credentials.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "SQLite",
+        "FastAPI"
+      ],
+      "title": "Offline-First Credential Verifier for Remote ID Sync",
+      "track": "",
+      "why_it_could_win": "Solves the exact rural infrastructure limitation of intermittent internet connectivity that 31 developing nation adopters struggle with."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1228867095"
+      ],
+      "pitch": "A voice-first agent leveraging edge models to help elderly or digitally illiterate citizens navigate complex national biometric re-authentication flows without falling victim to local fraud.",
+      "stack": [
+        "Swift",
+        "Cloudflare Workers",
+        "GLM-4",
+        "WebRTC"
+      ],
+      "title": "Voice-First Elder Identity Recovery Companion",
+      "track": "",
+      "why_it_could_win": "Combines a high-impact social welfare use-case with agentic voice technology, matching the winning formula of global good and senior accessibility hackathon projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A high-performance server log and audit tracking system tailored for national ID registrars to ensure immutable record-keeping of administrator access to citizen PII.",
+      "stack": [
+        "Python",
+        "MongoDB",
+        "HTML",
+        "TailwindCSS"
+      ],
+      "title": "MOSIP-Log: Zero-Knowledge Server and Audit Log Management",
+      "track": "",
+      "why_it_could_win": "Builds directly on foundational security auditing requirements needed by government ministries deploying sovereign digital ID platforms."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

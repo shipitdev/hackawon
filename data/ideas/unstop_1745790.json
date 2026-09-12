@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-12T10:34:33.431588+05:30",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745790",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An anti-money laundering and risk detection dashboard tailored for regional cooperative banks, integrating graph intelligence to spot simulated quantum-resistant transaction laundering patterns.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "QuantumLedger AML",
+      "track": "Track 1: Quantum FinTech",
+      "why_it_could_win": "Directly addresses the Quantum FinTech track by applying advanced graph intelligence to financial crime, similar to how Bito won by building AML risk detection platforms."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:901472660"
+      ],
+      "pitch": "A mobile-first offline-first asset and consumables tracking tool for local panchayats to monitor public utility infrastructure and welfare funds transparently.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "GramAsset Manager",
+      "track": "Track 2: Sof",
+      "why_it_could_win": "Mirrors the success of JalSetu at the Smart India Hackathon by solving local public administration and social welfare delivery bottlenecks directly relevant to regional judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first health awareness application that provides rural citizens with localized vaccine schedules and immediate symptom guidance during local disease outbreaks.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Flutter",
+        "OpenAI Whisper"
+      ],
+      "title": "ArogyaSetu Mobile AI",
+      "track": "Track 2: Sof",
+      "why_it_could_win": "Follows the winning blueprint of SAGACITY by targeting rural health literacy and preventive care, a high-impact social welfare problem."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An autonomous AI agent platform that coordinates community volunteers to group and transport nearby senior citizens to essential medical and social outings.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "CivicRide Agent",
+      "track": "Track 2: Sof",
+      "why_it_could_win": "Adapts the Grand Prize-winning Outreach model to solve a clear public-safety and social welfare coordination challenge with measurable community benefit."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A Poisson regression and probabilistic forecasting tool designed to predict financial liquidity stress events and micro-economic market shocks for student fintech startups.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "QuantRisk Forecaster",
+      "track": "Track 1: Quantum FinTech",
+      "why_it_could_win": "Combines rigorous statistical forecasting with fintech use cases, echoing the winning predictive modeling approach seen in the Apart Research AI Forecasting Hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

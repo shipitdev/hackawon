@@ -25,9 +25,15 @@ export interface Hackathon {
   team_max: number | null;
   participants_count: number | null;
   domains: string[];
-  ideas?: Idea[];
-  exemplars?: Exemplar[];
-  grounding?: Grounding;
+  /** Ideas themselves live in a separate file — see IdeaSet. */
+  idea_count: number;
+}
+
+/** Fetched from data/ideas/<uid>.json only when a card is opened. */
+export interface IdeaSet {
+  ideas: Idea[];
+  exemplars: Exemplar[];
+  grounding: Grounding;
 }
 
 export interface Idea {

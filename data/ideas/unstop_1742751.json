@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-09-12T10:31:49.689950+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742751",
+  "ideas": [
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An automated step-by-step visualizer for complex graph and dynamic programming algorithms tailored specifically to debug GFG and competitive programming problem statements.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Vis.js"
+      ],
+      "title": "CP-Visualizer",
+      "track": "",
+      "why_it_could_win": "Addresses the core pain point of competitive programmers who struggle to debug intricate DP states or graph traversals under time pressure."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A terminal-based local testing utility that fetches test cases directly from online judge problem statements and runs automated stress tests against brute-force solutions.",
+      "stack": [
+        "C++",
+        "Python",
+        "Click"
+      ],
+      "title": "Algorun-CLI",
+      "track": "",
+      "why_it_could_win": "Speeds up the debugging workflow for solo competitive programmers during short-format timed contests."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A lightweight browser extension that parses competitive programming problem constraints and predicts optimal time complexities and potential bottleneck data structures.",
+      "stack": [
+        "TypeScript",
+        "Web Extension API"
+      ],
+      "title": "CodeLens-CP",
+      "track": "",
+      "why_it_could_win": "Directly aids algorithmic thinking and helps contestants quickly identify expected constraints versus chosen approaches."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A semantic search engine for classic competitive programming problem templates and editorials using custom vector embeddings.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "FAISS"
+      ],
+      "title": "CP-Archive-Search",
+      "track": "",
+      "why_it_could_win": "Solves the problem of recalling exact algorithmic templates and standard problem patterns during intense contests."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "An automated timer and leaderboard strategy tracker that calculates optimal time allocation per problem based on live difficulty distribution.",
+      "stack": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "title": "Contest-Pacing-Bot",
+      "track": "",
+      "why_it_could_win": "Targets the strategic time-management aspect that determines success in short 135-minute competitive programming contests."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

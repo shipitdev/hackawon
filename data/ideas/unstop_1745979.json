@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-12T10:34:42.802764+05:30",
+  "grounding": {
+    "domains": [
+      "data",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "unique-data",
+      "impact",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745979",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:544506500"
+      ],
+      "pitch": "An interactive dashboard visualizing real-time Parker Solar Probe telemetry and predicting geomagnetic disruptions affecting regional power grids.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "NASA APIs"
+      ],
+      "title": "Parker-Vswr: Solar Wind Anomaly & Flare Predictor",
+      "track": "",
+      "why_it_could_win": "Directly matches the winning formula of earth-wind-and-flare by processing complex NASA open heliophysics data into an intuitive, high-impact display for judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1177555968",
+        "github:1079913400"
+      ],
+      "pitch": "A spatial web dashboard simulating regional flora and fauna population dynamics under climate change scenarios using NASA Earth observation datasets.",
+      "stack": [
+        "JavaScript",
+        "Cytoscape.js",
+        "React",
+        "Node.js"
+      ],
+      "title": "EcoSpecies-Raipur: Local Ecosystem Biodiversity Digital Twin",
+      "track": "",
+      "why_it_could_win": "Follows the winning blueprint of Eco_Track by providing localized public awareness and simulation analytics on top of rigorous environmental data."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1201753877",
+        "github:199694943"
+      ],
+      "pitch": "A predictive analytics platform combining NASA surface meteorology data with local grid telemetry to forecast urban cooling loads and prevent blackouts.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Jupyter Notebook",
+        "React"
+      ],
+      "title": "GridPulse-Sat: Satellite-Powered HVAC & Energy Demand Forecasting",
+      "track": "",
+      "why_it_could_win": "Leverages heavy demand-forecasting concepts from AURA-AI-HVAC-Intelligence combined with NASA's open climate data to show concrete economic and social impact."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213154728"
+      ],
+      "pitch": "A full-stack mapping tool linking regional coal and mineral extraction sites to local power generation plants using satellite imagery and federal mining datasets.",
+      "stack": [
+        "Python",
+        "Snowflake",
+        "React",
+        "Leaflet.js"
+      ],
+      "title": "MineToGrid: NASA Earth Observation Supply Chain Tracer",
+      "track": "",
+      "why_it_could_win": "Utilizes the 'data nobody else had' winning pattern by integrating hard-to-source geospatial data feeds into an easily digestible intelligence map."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:310878830",
+        "github:340730488"
+      ],
+      "pitch": "A commuter and freight carbon-emission visualization engine that contrasts ground travel footprints with optimized satellite-routed logistics data.",
+      "stack": [
+        "JavaScript",
+        "Mapbox GL",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CarbonRoute-Space: Orbital vs. Terrestrial Carbon Tracker",
+      "track": "",
+      "why_it_could_win": "Builds directly upon the proven track-record of open-hack by elevating standard carbon-tracking metrics into multi-modal spatial intelligence."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

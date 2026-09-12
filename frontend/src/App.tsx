@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Detail } from "./Detail";
+import { Hero } from "./Hero";
 import type { Bundle, Hackathon, Mode } from "./types";
 import {
   applyFilters,
@@ -25,15 +26,6 @@ const MODES: { value: Mode | "all"; label: string }[] = [
   { value: "online", label: "Online" },
 ];
 
-function chipClass(active: boolean): string {
-  return [
-    "inline-flex items-center rounded-full border px-3 py-1 text-sm transition",
-    active
-      ? "border-accent bg-accent/12 text-accent"
-      : "border-line text-muted hover:border-accent/40 hover:text-ink",
-  ].join(" ");
-}
-
 function Pill({
   children,
   tone = "plain",
@@ -41,14 +33,15 @@ function Pill({
   children: React.ReactNode;
   tone?: "plain" | "urgent" | "topic";
 }) {
-  const styles =
-    tone === "urgent"
-      ? "bg-accent/12 text-accent border-accent/25"
-      : tone === "topic"
-        ? "bg-ink/6 text-ink/80 border-line font-medium"
-        : "bg-ink/4 text-muted border-line";
+  const tones = {
+    urgent: "border-accent/35 bg-accent/12 text-accent",
+    topic: "border-accent-cool/25 bg-accent-cool/10 text-accent-cool",
+    plain: "border-white/8 bg-white/[0.03] text-muted",
+  };
   return (
-    <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs ${styles}`}>
+    <span
+      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[0.7rem] leading-5 ${tones[tone]}`}
+    >
       {children}
     </span>
   );
@@ -65,26 +58,36 @@ function Card({
 }) {
   const deadline = deadlineLabel(h);
   const prize = formatPrize(h);
-  const ideaCount = h.ideas?.length ?? 0;
+  const ideaCount = h.idea_count;
+
   return (
     <button
       type="button"
       onClick={onOpen}
-      className="group flex w-full flex-col gap-3 rounded-xl border border-line bg-surface p-4 text-left transition hover:border-accent/40 hover:shadow-sm"
+      className="group card-lift reveal glass relative flex w-full flex-col gap-3 overflow-hidden rounded-2xl p-4 text-left sm:p-5"
     >
+      {/* A sliver of light that sweeps in from the left edge on hover. */}
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-accent/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+      />
+
       <div className="flex items-start justify-between gap-3">
-        <h3 className="font-semibold leading-snug group-hover:text-accent">{h.title}</h3>
-        <span className="shrink-0 text-xs text-muted">{SOURCE_LABELS[h.source] ?? h.source}</span>
+        <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
+          {h.title}
+        </h3>
+        <span className="shrink-0 text-[0.68rem] uppercase tracking-wider text-faint">
+          {SOURCE_LABELS[h.source] ?? h.source}
+        </span>
       </div>
 
-      {h.tagline && <p className="line-clamp-2 text-sm text-muted">{h.tagline}</p>}
+      {h.tagline && <p className="line-clamp-2 text-sm leading-relaxed text-muted">{h.tagline}</p>}
 
-      <div className="flex flex-wrap items-center gap-1.5">
+      <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-1">
         {deadline && <Pill tone="urgent">{deadline}</Pill>}
         <Pill>{formatDates(h)}</Pill>
         <Pill>{where(h)}</Pill>
         {prize && <Pill>{prize}</Pill>}
-        {h.team_max && <Pill>Team up to {h.team_max}</Pill>}
         {h.domains.map((d) => (
           <Pill key={d} tone="topic">
             {topics.get(d) ?? d}
@@ -92,18 +95,42 @@ function Card({
         ))}
       </div>
 
-      {h.tracks.length > 0 && (
-        <p className="text-xs text-muted">
-          <span className="font-medium">Tracks:</span> {h.tracks.slice(0, 3).join(" · ")}
-          {h.tracks.length > 3 && ` +${h.tracks.length - 3}`}
-        </p>
-      )}
-
       {ideaCount > 0 && (
         <p className="text-xs font-medium text-accent">
-          {ideaCount} project ideas →
+          {ideaCount} project ideas
+          <span className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
         </p>
       )}
+    </button>
+  );
+}
+
+function Control({
+  active,
+  onClick,
+  children,
+  title,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+  title?: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      title={title}
+      className={`rounded-xl border px-3 py-2 text-sm transition ${
+        active
+          ? "border-accent/45 bg-accent/12 text-accent"
+          : "border-white/8 bg-white/[0.03] text-muted hover:border-white/20 hover:text-ink"
+      }`}
+    >
+      {children}
     </button>
   );
 }
@@ -128,6 +155,7 @@ export default function App() {
   const shown = useMemo(() => applyFilters(all, filters), [all, filters]);
   const urgentCount = useMemo(() => all.filter((h) => isUrgent(h)).length, [all]);
   const abroadCount = useMemo(() => all.filter(isKnownAbroad).length, [all]);
+  const ideaTotal = useMemo(() => all.filter((h) => h.idea_count > 0).length, [all]);
   const topicLabels = useMemo(
     () => new Map((bundle?.domains ?? []).map((d) => [d.id, d.label])),
     [bundle],
@@ -137,137 +165,135 @@ export default function App() {
     setFilters((f) => ({ ...f, [key]: value }));
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-      <header className="mb-6">
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">HackRadar</h1>
-        <p className="mt-1 text-sm text-muted">
-          Upcoming hackathons for students, gathered from Devfolio, Unstop and MLH.
-        </p>
-      </header>
+    <>
+      <Hero
+        count={bundle?.count ?? 0}
+        winners={675}
+        topics={(bundle?.domains ?? []).length}
+      />
 
-      <div className="mb-5 flex flex-wrap items-center gap-2">
-        <input
-          type="search"
-          value={filters.query}
-          onChange={(e) => set("query", e.target.value)}
-          placeholder="Search by name, city, theme or sponsor…"
-          aria-label="Search hackathons"
-          className="min-w-56 flex-1 rounded-lg border border-line bg-surface px-3 py-2 text-sm outline-none focus:border-accent"
-        />
-        <select
-          value={filters.mode}
-          onChange={(e) => set("mode", e.target.value as Mode | "all")}
-          aria-label="Filter by mode"
-          className="rounded-lg border border-line bg-surface px-3 py-2 text-sm"
-        >
-          {MODES.map((m) => (
-            <option key={m.value} value={m.value}>
-              {m.label}
-            </option>
-          ))}
-        </select>
-        <select
-          value={filters.source}
-          onChange={(e) => set("source", e.target.value)}
-          aria-label="Filter by source"
-          className="rounded-lg border border-line bg-surface px-3 py-2 text-sm"
-        >
-          <option value="all">All sources</option>
-          {Object.entries(SOURCE_LABELS).map(([key, label]) => (
-            <option key={key} value={key}>
-              {label}
-            </option>
-          ))}
-        </select>
-        <button
-          type="button"
-          onClick={() => set("onlyUrgent", !filters.onlyUrgent)}
-          aria-pressed={filters.onlyUrgent}
-          className={`rounded-lg border px-3 py-2 text-sm transition ${
-            filters.onlyUrgent
-              ? "border-accent bg-accent/12 text-accent"
-              : "border-line hover:border-accent/40"
-          }`}
-        >
-          Closing soon{urgentCount > 0 && ` (${urgentCount})`}
-        </button>
-        <button
-          type="button"
-          onClick={() => set("hideAbroad", !filters.hideAbroad)}
-          aria-pressed={filters.hideAbroad}
-          title="Hides events we know are outside India. Listings with no country stay visible."
-          className={`rounded-lg border px-3 py-2 text-sm transition ${
-            filters.hideAbroad
-              ? "border-accent bg-accent/12 text-accent"
-              : "border-line hover:border-accent/40"
-          }`}
-        >
-          Skip events abroad{abroadCount > 0 && ` (${abroadCount})`}
-        </button>
-      </div>
-
-      {bundle && bundle.domains.length > 0 && (
-        <div className="mb-5 flex flex-wrap gap-1.5">
-          <button
-            type="button"
-            onClick={() => set("domain", "all")}
-            aria-pressed={filters.domain === "all"}
-            className={chipClass(filters.domain === "all")}
-          >
-            All topics
-          </button>
-          {bundle.domains.map((d) => (
-            <button
-              key={d.id}
-              type="button"
-              onClick={() => set("domain", filters.domain === d.id ? "all" : d.id)}
-              aria-pressed={filters.domain === d.id}
-              className={chipClass(filters.domain === d.id)}
+      <main className="mx-auto max-w-5xl px-5 pb-20 sm:px-6">
+        {/* Sticky so the filters stay reachable through a long list. */}
+        <div className="sticky top-0 z-30 -mx-5 mb-5 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
+          <div className="flex flex-wrap items-center gap-2">
+            <input
+              type="search"
+              value={filters.query}
+              onChange={(e) => set("query", e.target.value)}
+              placeholder="Search by name, city, theme or sponsor…"
+              aria-label="Search hackathons"
+              className="min-w-56 flex-1 rounded-xl border border-white/8 bg-white/[0.03] px-3.5 py-2 text-sm text-ink outline-none transition placeholder:text-faint focus:border-accent/50 focus:bg-white/[0.05]"
+            />
+            <select
+              value={filters.mode}
+              onChange={(e) => set("mode", e.target.value as Mode | "all")}
+              aria-label="Filter by mode"
+              className="rounded-xl border border-white/8 bg-raised px-3 py-2 text-sm text-muted"
             >
-              {d.label}
-              <span className="ml-1.5 opacity-60">{d.count}</span>
-            </button>
-          ))}
+              {MODES.map((m) => (
+                <option key={m.value} value={m.value}>
+                  {m.label}
+                </option>
+              ))}
+            </select>
+            <select
+              value={filters.source}
+              onChange={(e) => set("source", e.target.value)}
+              aria-label="Filter by source"
+              className="rounded-xl border border-white/8 bg-raised px-3 py-2 text-sm text-muted"
+            >
+              <option value="all">All sources</option>
+              {Object.entries(SOURCE_LABELS).map(([key, label]) => (
+                <option key={key} value={key}>
+                  {label}
+                </option>
+              ))}
+            </select>
+            <Control active={filters.onlyUrgent} onClick={() => set("onlyUrgent", !filters.onlyUrgent)}>
+              Closing soon{urgentCount > 0 && ` (${urgentCount})`}
+            </Control>
+            <Control
+              active={filters.hideAbroad}
+              onClick={() => set("hideAbroad", !filters.hideAbroad)}
+              title="Hides events we know are outside India. Listings with no country stay visible."
+            >
+              Skip abroad{abroadCount > 0 && ` (${abroadCount})`}
+            </Control>
+          </div>
         </div>
-      )}
 
-      {error && (
-        <p className="rounded-lg border border-line p-4 text-sm text-muted">
-          Could not load hackathons: {error}
-        </p>
-      )}
-
-      {!bundle && !error && <p className="text-sm text-muted">Loading…</p>}
-
-      {bundle && (
-        <>
-          <p className="mb-3 text-sm text-muted">
-            {shown.length} of {all.length} hackathons
-          </p>
-          <div className="grid gap-3 sm:grid-cols-2">
-            {shown.map((h) => (
-              <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => setSelected(h)} />
+        {bundle && bundle.domains.length > 0 && (
+          <div className="mb-6 flex flex-wrap gap-1.5">
+            <Control active={filters.domain === "all"} onClick={() => set("domain", "all")}>
+              All topics
+            </Control>
+            {bundle.domains.map((d) => (
+              <Control
+                key={d.id}
+                active={filters.domain === d.id}
+                onClick={() => set("domain", filters.domain === d.id ? "all" : d.id)}
+              >
+                {d.label}
+                <span className="ml-1.5 tabular-nums opacity-50">{d.count}</span>
+              </Control>
             ))}
           </div>
-          {shown.length === 0 && (
-            <p className="rounded-lg border border-line p-6 text-center text-sm text-muted">
-              Nothing matches those filters.
-            </p>
-          )}
-          {selected && (
-            <Detail
-              hackathon={selected}
-              topics={topicLabels}
-              onClose={() => setSelected(null)}
-            />
-          )}
+        )}
 
-          <footer className="mt-10 border-t border-line pt-4 text-xs text-muted">
-            Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · open source ·
-            listings link to the organiser's own page
-          </footer>
-        </>
-      )}
-    </div>
+        {error && (
+          <p className="glass rounded-2xl p-5 text-sm text-muted">
+            Could not load hackathons: {error}
+          </p>
+        )}
+
+        {!bundle && !error && (
+          <div className="grid gap-3 sm:grid-cols-2">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="glass h-36 animate-pulse rounded-2xl opacity-60" />
+            ))}
+          </div>
+        )}
+
+        {bundle && (
+          <>
+            <p className="mb-3 text-xs text-faint">
+              {shown.length} of {all.length} hackathons
+              {ideaTotal > 0 && ` · ${ideaTotal} with generated ideas`}
+            </p>
+
+            <div className="grid gap-3 sm:grid-cols-2">
+              {shown.map((h) => (
+                <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => setSelected(h)} />
+              ))}
+            </div>
+
+            {shown.length === 0 && (
+              <p className="glass rounded-2xl p-8 text-center text-sm text-muted">
+                Nothing matches those filters.
+              </p>
+            )}
+
+            {selected && (
+              <Detail
+                hackathon={selected}
+                topics={topicLabels}
+                onClose={() => setSelected(null)}
+              />
+            )}
+
+            <footer className="mt-14 border-t border-white/6 pt-5 text-xs leading-relaxed text-faint">
+              Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · open source ·
+              listings link to the organiser's own page ·{" "}
+              <a
+                href="https://github.com/shipitdev/hackawon"
+                className="underline transition hover:text-muted"
+              >
+                source
+              </a>
+            </footer>
+          </>
+        )}
+      </main>
+    </>
   );
 }

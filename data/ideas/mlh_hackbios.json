@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-12T10:24:34.424526+05:30",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hackbios",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1170846981"
+      ],
+      "pitch": "A clinical-grade mobile web app that measures heart rate via smartphone camera using rPPG and provides multi-language triage in Hindi and Chhattisgarhi for local health workers.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenCV",
+        "Gemini API"
+      ],
+      "title": "Bhilai-Pulse: rPPG Triage for Rural Health Camps",
+      "track": "",
+      "why_it_could_win": "Directly builds on proven winning patterns from mediscan-ai and SAGACITY, adapting clinical-grade AI triage and multilingual local awareness for regional healthcare needs in Chhattisgarh."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition platform that scans midday meal plates using computer vision to evaluate macro-nutrient content against local dietary standards and suggests corrections.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Google GenAI SDK"
+      ],
+      "title": "AaharScan: AI Nutritionist for Chhattisgarh Public Schools",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of E-Foodiee-AI-Nutrition-Assistant by shifting focus to a concrete regional public health utility with measurable social impact."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1208831994"
+      ],
+      "pitch": "A lightweight browser tool that records a 60-second voice sample and runs audio spectrogram analysis using LLMs to screen for early signs of neurological disorders.",
+      "stack": [
+        "Python",
+        "Audio API",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "VoiceNeuro: 60-Second Parkinson's Voice Screening in Hindi",
+      "track": "",
+      "why_it_could_win": "Replicates the grand prize-winning audio-diagnosis approach of Timbre while adding localized language support to make the demo immediately relevant to regional judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered patient acquisition and trust engine combined with a computer vision rubric to help dental clinics evaluate procedural consultation transcripts.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "MediaPipe",
+        "Gemini API"
+      ],
+      "title": "ClinicTrust: AI Patient Acquisition & Prosthodontic Simulator",
+      "track": "",
+      "why_it_could_win": "Combines the proven architectures of Global-Smile and Clinical-Simulator into a practical, demo-ready workflow that appeals to judges looking for commercial viability."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent AI system that audits automated health insurance claim rejections for algorithmic bias using verifiable prompt chains and generates an appeal package.",
+      "stack": [
+        "Python",
+        "Google ADK",
+        "Gemini",
+        "Streamlit"
+      ],
+      "title": "ClaimAudit: Multi-Agent Insurance Authorization Bias Checker",
+      "track": "",
+      "why_it_could_win": "Follows the exact blueprint of the Google Code Cure Hackathon winner claim-bias-evaluator, leveraging multi-agent auditing for high-impact social fairness demonstrations."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}
