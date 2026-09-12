@@ -31,6 +31,7 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     domains: [],
     idea_count: 0,
     idea_teaser: null,
+    slug: "hack-something-1",
     topic_labels: [],
     ...overrides,
   };

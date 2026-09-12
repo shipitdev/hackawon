@@ -162,6 +162,28 @@ export default function App() {
   const set = <K extends keyof Filters>(key: K, value: Filters[K]) =>
     setFilters((f) => ({ ...f, [key]: value }));
 
+  // Opening a card puts its own URL in the address bar, so a hackathon can be shared or
+  // bookmarked from inside the app. A reload on that URL lands on the prerendered static page
+  // that the build produced, which is also what search engines and link previews see.
+  function open(h: Hackathon) {
+    setSelected(h);
+    if (h.slug) {
+      window.history.pushState({ slug: h.slug }, "", `${import.meta.env.BASE_URL}h/${h.slug}/`);
+    }
+  }
+
+  function close() {
+    setSelected(null);
+    // Use the history stack so the back button and the close button agree.
+    if (window.history.state?.slug) window.history.back();
+  }
+
+  useEffect(() => {
+    const onPop = () => setSelected(null);
+    window.addEventListener("popstate", onPop);
+    return () => window.removeEventListener("popstate", onPop);
+  }, []);
+
   return (
     <>
       <Hero
@@ -261,7 +283,7 @@ export default function App() {
 
             <div className="grid gap-3 sm:grid-cols-2">
               {shown.map((h) => (
-                <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => setSelected(h)} />
+                <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => open(h)} />
               ))}
             </div>
 
@@ -275,7 +297,7 @@ export default function App() {
               <Detail
                 hackathon={selected}
                 topics={topicLabels}
-                onClose={() => setSelected(null)}
+                onClose={close}
               />
             )}
 

@@ -10,6 +10,8 @@ keeps the site working.
 from __future__ import annotations
 
 import json
+import re
+import unicodedata
 from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
@@ -33,6 +35,37 @@ def to_web(record: HackathonRecord) -> dict:
         text = " ".join(record.description.split())
         data["excerpt"] = text[:280] + ("…" if len(text) > 280 else "")
     return data
+
+
+_SLUG_STRIP = re.compile(r"[^a-z0-9]+")
+
+#: Keep URLs readable but bounded; the id fragment guarantees uniqueness.
+SLUG_TITLE_CHARS = 60
+SLUG_ID_CHARS = 8
+
+
+def make_slug(title: str, source_id: str) -> str:
+    """A hackathon's public URL identity: readable title plus a fragment of its source id.
+
+    Derived only from fields that do not drift, because a changed slug breaks every link anyone
+    has shared. Titles are not unique (annual events repeat, and two sites use the same name), so
+    the id fragment does the disambiguating.
+    """
+    ascii_title = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode()
+    words = _SLUG_STRIP.sub("-", ascii_title.lower()).strip("-")[:SLUG_TITLE_CHARS].strip("-")
+    words = words or "hackathon"
+
+    clean_id = _SLUG_STRIP.sub("-", source_id.lower()).strip("-")
+    # Two kinds of id in the wild: opaque (Devfolio's 32-char uuids, Unstop's numbers) and
+    # already-readable (MLH uses slugs like "hack-the-north"). Truncating the readable kind turned
+    # "the-north" into "the-nort" and broke the stutter check below, so only shorten opaque ids.
+    opaque = "-" not in clean_id and len(clean_id) > SLUG_ID_CHARS
+    fragment = clean_id[:SLUG_ID_CHARS] if opaque else clean_id
+
+    # MLH ids are themselves slugs, so joining naively produced "hackrice-hackrice".
+    if words == fragment or words.endswith(f"-{fragment}"):
+        return words
+    return f"{words}-{fragment}"
 
 
 def _labels(kind: str, data_dir: Path | None) -> dict:
@@ -100,6 +133,9 @@ def build(data_dir: Path | None = None) -> dict:
         # One idea title as a teaser. The full set is ~988 KB and stays out of the index, but the
         # ideas are the most interesting thing here and were invisible until someone clicked.
         row["idea_teaser"] = stored["ideas"][0]["title"] if stored and stored["ideas"] else None
+        # The public URL. Stored on the record so the frontend, the prerenderer and the sitemap
+        # cannot disagree about where a hackathon lives.
+        row["slug"] = make_slug(record.title, record.source_id)
         rows.append(row)
 
     taxonomy_path = (data_dir or DATA_DIR) / "taxonomy.yml"
