@@ -27,7 +27,9 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     team_max: 4,
     participants_count: null,
     domains: ["ai-ml"],
+    topic_labels: ["AI & Machine Learning"],
     idea_count: 0,
+    idea_teaser: null,
     ...overrides,
   };
 }

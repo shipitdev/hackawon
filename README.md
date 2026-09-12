@@ -1,9 +1,10 @@
-# HackRadar
+# Hackawon
 
 **[shipitdev.github.io/hackawon](https://shipitdev.github.io/hackawon/)**
 
-Upcoming hackathons for students — gathered from Devfolio, Unstop and MLH, categorised by topic,
-and sorted by what closes soonest. Free to use, free to run, open source.
+Upcoming hackathons for students, categorised by topic and sorted by what closes soonest —
+each one with project ideas grounded in what has actually won before. Free to use, free to run,
+open source.
 
 Built for Indian students, who currently have to check three or four sites to find out what's on.
 
@@ -32,10 +33,11 @@ correction can arrive as a pull request that a human reads before merging.
 
 | Working | Not yet |
 |---|---|
-| 262 hackathons, refreshed every 6 hours | Idea generation |
-| Topic categories and filters | Hackathon detail pages |
-| 675 verified past winners collected | Using winners to suggest ideas |
-| Daily canary that files an issue when a scraper breaks | Community submissions |
+| 264 hackathons, refreshed every 6 hours | A page per hackathon (real URLs, shareable) |
+| 15 topic categories, filters and search | Toolkit of free tools and API credits |
+| 675 verified past winners, labelled by why they won | Sign in with GitHub, favourites, reminders |
+| 1,310 project ideas — 5 per hackathon, citing the winners that inspired them | Community submissions |
+| Daily canary that files an issue when a scraper breaks | |
 
 ## Running it locally
 

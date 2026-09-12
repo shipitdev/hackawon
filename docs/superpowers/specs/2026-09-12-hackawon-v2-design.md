@@ -137,11 +137,25 @@ into Postgres because accounts arrived would add cost and fragility for no gain.
    `favourites` table will reference. They must not be regenerated on a whim; the slug is derived
    from fields that do not drift.
 
-**When it is built** (not now): Supabase is the likely fit — Postgres, auth and row-level security
-on a free tier, which keeps per-user data cheap at small scale. The FastAPI app in the original
-plan was never written; accounts are what will justify writing it, containerised so it can run on
-any host. Reminders need a transactional email provider and a scheduled job, neither of which
-exists yet.
+### Step 4 (decided, built later): GitHub sign-in and favourites
+
+**Sign in with GitHub only** to start; other providers later. It fits the audience exactly —
+hackathon participants already have GitHub accounts — and it means no password handling of any
+kind.
+
+The useful consequence: **this does not require a server.** Supabase's browser client can perform
+the GitHub OAuth flow and read and write per-user rows directly from the static site, with row
+level security ensuring a signed-in user can only touch their own rows. So sign-in, favourites and
+"I'm participating in this" stay inside the free static architecture.
+
+A server becomes necessary only for **sending** reminders, since that runs on a schedule with
+nobody's browser open. Options at that point, cheapest first: a Supabase scheduled function, or a
+GitHub Actions cron reading Supabase and posting to a transactional email provider. The FastAPI
+app from the original plan was never written, and on this path may never need to be.
+
+Tables, when built: `profiles` (linked to the GitHub identity), `favourites` (user + hackathon
+`uid`), `participating` (user + hackathon `uid`), `reminder_prefs`. All referencing the stable
+`uid`, which is why it must not be regenerated.
 
 ## Not doing
 

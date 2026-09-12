@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Detail } from "./Detail";
 import { Hero } from "./Hero";
+import { loadIndex } from "./data";
 import type { Bundle, Hackathon, Mode } from "./types";
 import {
   applyFilters,
@@ -72,14 +73,9 @@ function Card({
         className="pointer-events-none absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-accent/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
 
-      <div className="flex items-start justify-between gap-3">
-        <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
-          {h.title}
-        </h3>
-        <span className="shrink-0 text-[0.68rem] uppercase tracking-wider text-faint">
-          {SOURCE_LABELS[h.source] ?? h.source}
-        </span>
-      </div>
+      <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
+        {h.title}
+      </h3>
 
       {h.tagline && <p className="line-clamp-2 text-sm leading-relaxed text-muted">{h.tagline}</p>}
 
@@ -95,13 +91,19 @@ function Card({
         ))}
       </div>
 
-      {ideaCount > 0 && (
-        <p className="text-xs font-medium text-accent">
-          {ideaCount} project ideas
-          <span className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1">
-            →
-          </span>
-        </p>
+      {h.idea_teaser && (
+        <div className="mt-1 border-t border-white/6 pt-2.5">
+          <p className="line-clamp-2 text-[0.82rem] font-medium leading-snug text-accent">
+            <span className="mr-1 opacity-60">▸</span>
+            {h.idea_teaser}
+          </p>
+          <p className="mt-1 text-[0.7rem] text-faint">
+            {ideaCount === 1 ? "1 idea" : `+${ideaCount - 1} more ideas`}
+            <span className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </p>
+        </div>
       )}
     </button>
   );
@@ -142,11 +144,7 @@ export default function App() {
   const [selected, setSelected] = useState<Hackathon | null>(null);
 
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}data/hackathons.json`)
-      .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        return r.json();
-      })
+    loadIndex()
       .then(setBundle)
       .catch((e) => setError(String(e)));
   }, []);
@@ -282,13 +280,14 @@ export default function App() {
             )}
 
             <footer className="mt-14 border-t border-white/6 pt-5 text-xs leading-relaxed text-faint">
-              Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · open source ·
-              listings link to the organiser's own page ·{" "}
+              Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · every listing
+              links to the organiser's own page, where registration happens · aggregated from
+              Devfolio, Unstop and MLH ·{" "}
               <a
                 href="https://github.com/shipitdev/hackawon"
                 className="underline transition hover:text-muted"
               >
-                source
+                open source
               </a>
             </footer>
           </>
