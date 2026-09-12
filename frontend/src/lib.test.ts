@@ -137,3 +137,33 @@ describe("filtering", () => {
     expect(out.map((h) => h.uid)).toEqual(["c"]);
   });
 });
+
+describe("the abroad filter", () => {
+  const items = [
+    make({ uid: "in", country: "India", mode: "in_person" }),
+    make({ uid: "us", country: "US", mode: "in_person" }),
+    make({ uid: "unknown", country: null, mode: "in_person" }),
+    make({ uid: "online", country: "US", mode: "online" }),
+  ];
+
+  it("hides events we know are abroad", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, hideAbroad: true }, NOW);
+    expect(out.map((h) => h.uid)).not.toContain("us");
+  });
+
+  it("keeps listings with no country", () => {
+    // Unstop publishes no country and is our most India-heavy source; treating unknown as
+    // foreign would hide most of the useful listings.
+    const out = applyFilters(items, { ...EMPTY_FILTERS, hideAbroad: true }, NOW);
+    expect(out.map((h) => h.uid)).toContain("unknown");
+  });
+
+  it("keeps online events wherever they are run from", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, hideAbroad: true }, NOW);
+    expect(out.map((h) => h.uid)).toContain("online");
+  });
+
+  it("is off by default", () => {
+    expect(applyFilters(items, EMPTY_FILTERS, NOW)).toHaveLength(4);
+  });
+});

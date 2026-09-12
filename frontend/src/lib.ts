@@ -65,6 +65,7 @@ export interface Filters {
   source: string | "all";
   domain: string | "all";
   onlyUrgent: boolean;
+  hideAbroad: boolean;
 }
 
 export const EMPTY_FILTERS: Filters = {
@@ -73,6 +74,7 @@ export const EMPTY_FILTERS: Filters = {
   source: "all",
   domain: "all",
   onlyUrgent: false,
+  hideAbroad: false,
 };
 
 function haystack(h: Hackathon): string {
@@ -82,6 +84,21 @@ function haystack(h: Hackathon): string {
     .toLowerCase();
 }
 
+const INDIA = new Set(["india", "in"]);
+
+/**
+ * True when we positively know the event is abroad.
+ *
+ * Deliberately asymmetric: Unstop publishes no country at all, and it is the most India-heavy
+ * source we have. Treating "unknown" as foreign would hide most of the useful listings, so this
+ * only excludes events whose country is known AND is not India.
+ */
+export function isKnownAbroad(h: Hackathon): boolean {
+  if (h.mode === "online") return false;
+  const country = (h.country ?? "").trim().toLowerCase();
+  return country !== "" && !INDIA.has(country);
+}
+
 export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): Hackathon[] {
   const query = f.query.trim().toLowerCase();
   return items.filter((h) => {
@@ -89,6 +106,7 @@ export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): 
     if (f.source !== "all" && h.source !== f.source) return false;
     if (f.domain !== "all" && !h.domains.includes(f.domain)) return false;
     if (f.onlyUrgent && !isUrgent(h, now)) return false;
+    if (f.hideAbroad && isKnownAbroad(h)) return false;
     if (query && !haystack(h).includes(query)) return false;
     return true;
   });

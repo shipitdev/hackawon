@@ -7,6 +7,7 @@ import {
   EMPTY_FILTERS,
   formatDates,
   formatPrize,
+  isKnownAbroad,
   isUrgent,
   where,
   type Filters,
@@ -126,6 +127,7 @@ export default function App() {
   const all = bundle?.hackathons ?? [];
   const shown = useMemo(() => applyFilters(all, filters), [all, filters]);
   const urgentCount = useMemo(() => all.filter((h) => isUrgent(h)).length, [all]);
+  const abroadCount = useMemo(() => all.filter(isKnownAbroad).length, [all]);
   const topicLabels = useMemo(
     () => new Map((bundle?.domains ?? []).map((d) => [d.id, d.label])),
     [bundle],
@@ -188,6 +190,19 @@ export default function App() {
           }`}
         >
           Closing soon{urgentCount > 0 && ` (${urgentCount})`}
+        </button>
+        <button
+          type="button"
+          onClick={() => set("hideAbroad", !filters.hideAbroad)}
+          aria-pressed={filters.hideAbroad}
+          title="Hides events we know are outside India. Listings with no country stay visible."
+          className={`rounded-lg border px-3 py-2 text-sm transition ${
+            filters.hideAbroad
+              ? "border-accent bg-accent/12 text-accent"
+              : "border-line hover:border-accent/40"
+          }`}
+        >
+          Skip events abroad{abroadCount > 0 && ` (${abroadCount})`}
         </button>
       </div>
 

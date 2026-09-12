@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-12T10:21:19.841891+05:30",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "unusual-hardware",
+      "technical-depth",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:6434a62d05344438895df8ab42f5a3ef",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-powered automated waste segregation bin that classifies organic, recyclable, and hazardous waste using computer vision and sorts them via microcontrollers.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV"
+      ],
+      "title": "Smart Campus Waste Sorter",
+      "track": "Best Hardware",
+      "why_it_could_win": "Targets the Best Hardware track directly by featuring an IoT physical build and working directly off the winning pattern of a physical robotics garbage classifier."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline developer tool that runs code reviews for vulnerabilities locally on hardware NPUs without sending proprietary source code to external servers.",
+      "stack": [
+        "Python",
+        "ONNX Runtime"
+      ],
+      "title": "Local NPU Code Security Auditor",
+      "track": "Best Software",
+      "why_it_could_win": "Aligns with the Devfolio sponsor tooling ecosystem and matches the winning architecture of running offline AI models on specialized hardware accelerators."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A closed-loop operations dashboard that aggregates IoT smart meter data from college labs and triggers automated diagnostic alerts for abnormal power drains.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "TimescaleDB"
+      ],
+      "title": "Campus Energy Anomaly Watcher",
+      "track": "Grand Prize",
+      "why_it_could_win": "Combines multi-agent workflow concepts with real-world utility tracking, mirroring the exact patterns of the SEAL Hackathon 3rd place winner."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A web interface tailored for local water authorities in Kerala to predict algal bloom risks in backwaters using historical sensor data and machine learning.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-Learn"
+      ],
+      "title": "Water Body Algal Risk Predictor",
+      "track": "Best Software",
+      "why_it_could_win": "Solves a localized, highly practical environmental problem with a working predictive interface, matching the formula of the AquaSense IoT Hackathon winner."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A mobile-first component library and accessibility testing suite designed specifically for regional government portals in Kerala to ensure high contrast and screen-reader compliance.",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Figma"
+      ],
+      "title": "Minimalist Accessible Design System",
+      "track": "Best Design",
+      "why_it_could_win": "Specifically targets the Best Design track by focusing heavily on UI/UX accessibility standards, clear typography, and a polished user journey."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}
