@@ -190,6 +190,11 @@ Projects:
 Return one entry per project, echoing its id exactly."""
 
 
+#: Persist part-way through: labelling the full winners corpus takes ~12 minutes against a free
+#: tier, and losing all of it to one crash near the end would be infuriating and expensive.
+SAVE_EVERY = 5
+
+
 def _run_batches(
     llm: LLM,
     pairs: list[tuple[str, str]],
@@ -197,20 +202,23 @@ def _run_batches(
     prompt_for,
     tax: Taxonomy,
     on_progress=None,
+    on_partial=None,
 ) -> dict[str, dict[str, Any]]:
     labelled: dict[str, dict[str, Any]] = {}
-    for start in range(0, len(pairs), BATCH_SIZE):
+    for index, start in enumerate(range(0, len(pairs), BATCH_SIZE), 1):
         batch = pairs[start : start + BATCH_SIZE]
         try:
             rows = llm.generate_json(prompt_for(tax, batch), schema)
         except Exception as exc:  # a bad batch must not lose the work already done
-            print(f"    batch {start // BATCH_SIZE + 1} failed: {type(exc).__name__}: {exc}")
+            print(f"    batch {index} failed: {type(exc).__name__}: {exc}")
             continue
         valid_keys = {key for key, _ in batch}
         for row in rows if isinstance(rows, list) else []:
             key = row.get("id")
             if key in valid_keys:
                 labelled[key] = {k: v for k, v in row.items() if k != "id"}
+        if on_partial and index % SAVE_EVERY == 0:
+            on_partial(labelled)
         if on_progress:
             on_progress(min(start + BATCH_SIZE, len(pairs)), len(pairs))
     return labelled
@@ -245,9 +253,29 @@ def classify(
     if pending:
         schema = _hackathon_schema(tax) if kind == "hackathons" else _project_schema(tax)
         prompt_for = _hackathon_prompt if kind == "hackathons" else _project_prompt
-        fresh = _run_batches(llm, pending, schema, prompt_for, tax, on_progress)
-        for uid, labels in fresh.items():
-            cache[uid] = {**labels, "hash": _digest(items[uid], tax.version), "v": tax.version}
+
+        def merge(fresh: dict[str, dict[str, Any]]) -> None:
+            for uid, labels in fresh.items():
+                cache[uid] = {**labels, "hash": _digest(items[uid], tax.version), "v": tax.version}
+
+        def save_partial(fresh: dict[str, dict[str, Any]]) -> None:
+            merge(fresh)
+            _save_cache(kind, cache)
+
+        fresh = _run_batches(llm, pending, schema, prompt_for, tax, on_progress, save_partial)
+        merge(fresh)
         _save_cache(kind, cache)
 
     return {uid: cache[uid] for uid in items if uid in cache}
+
+
+def normalise_domains(domains: list[str] | None) -> list[str]:
+    """Drop the catch-all when real topics are present.
+
+    "general" means "no particular subject", so ["ai-ml", "general"] is self-contradictory — and
+    it inflates the count of themeless events. The model produced this for 78 of 675 winners,
+    which is cheaper to fix here than to re-label.
+    """
+    values = [d for d in (domains or []) if d]
+    specific = [d for d in values if d != "general"]
+    return specific or (["general"] if values else [])

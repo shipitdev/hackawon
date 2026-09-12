@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-12T10:18:15.050138+05:30",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:14416",
+  "ideas": [
+    {
+      "build_hours": 80,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that monitors data pipelines in DataHub, detects schema drift and broken lineage, uses an evidence gate to verify repairs, and automatically submits real pull requests with write-back capabilities.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "claude",
+        "data-engineering",
+        "data-lineage"
+      ],
+      "title": "DataHub-Sentinel: Autonomous Data Governance & Lineage Healing Agent",
+      "track": "",
+      "why_it_could_win": "Leverages the proven winning pattern of building advanced data engineering agents that integrate directly with data governance APIs like DataHub."
+    },
+    {
+      "build_hours": 60,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A developer-focused toolkit that seamlessly handles TOON-native auto-embeddings and vector indexing inside MariaDB to power lightning-fast retrieval-augmented generation pipelines.",
+      "stack": [
+        "Python",
+        "embeddings",
+        "hnsw",
+        "llm",
+        "mariadb"
+      ],
+      "title": "MariaDB-TOON: Seamless RAG & Auto-Embedding Toolkit",
+      "track": "",
+      "why_it_could_win": "Targeting database-specific hackathon tracks with specialized RAG infrastructure has historically secured top placement prizes."
+    },
+    {
+      "build_hours": 90,
+      "inspired_by": [
+        "github:1363148261"
+      ],
+      "pitch": "An autonomous multi-agent workflow that ingests unstructured script data, evaluates market trends, and simulates executive greenlight decisions with detailed data-driven justifications.",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "ai-agents",
+        "ClickHouse"
+      ],
+      "title": "CineExec: Autonomous Greenlight Simulator & Studio Executive Agent",
+      "track": "",
+      "why_it_could_win": "Follows the winning grand prize formula from agentic cinema hackathons by combining complex multi-agent reasoning with structured media analytics."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "An AI-powered interface that converts natural language data queries directly into interactive Tableau dashboards in seconds using the Tableau REST API and automated data modeling.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Tableau REST API",
+        "ai-agents"
+      ],
+      "title": "Tableau-TextFlow: Instant Text-to-Dashboard Generator",
+      "track": "",
+      "why_it_could_win": "Directly mimics the exact recipe of previous Tableau DataDev hackathon winners by solving developer friction in Business Intelligence reporting."
+    },
+    {
+      "build_hours": 70,
+      "inspired_by": [
+        "github:1079913400"
+      ],
+      "pitch": "A frontend-heavy predictive data visualization platform that ingests raw battery telemetry to monitor health degradation and render real-time digital twin analytics.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Vite",
+        "REST APIs",
+        "digital-twin"
+      ],
+      "title": "BatteryTwin: AI Battery Health & Predictive Digital Twin",
+      "track": "",
+      "why_it_could_win": "Combines robust frontend data visualization with complex industrial IoT telemetry, a proven combination for high-scoring frontend and data hackathon entries."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

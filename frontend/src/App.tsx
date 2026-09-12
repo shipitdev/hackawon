@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { Detail } from "./Detail";
 import type { Bundle, Hackathon, Mode } from "./types";
 import {
   applyFilters,
@@ -52,15 +53,23 @@ function Pill({
   );
 }
 
-function Card({ h, topics }: { h: Hackathon; topics: Map<string, string> }) {
+function Card({
+  h,
+  topics,
+  onOpen,
+}: {
+  h: Hackathon;
+  topics: Map<string, string>;
+  onOpen: () => void;
+}) {
   const deadline = deadlineLabel(h);
   const prize = formatPrize(h);
+  const ideaCount = h.ideas?.length ?? 0;
   return (
-    <a
-      href={h.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group flex flex-col gap-3 rounded-xl border border-line bg-surface p-4 transition hover:border-accent/40 hover:shadow-sm"
+    <button
+      type="button"
+      onClick={onOpen}
+      className="group flex w-full flex-col gap-3 rounded-xl border border-line bg-surface p-4 text-left transition hover:border-accent/40 hover:shadow-sm"
     >
       <div className="flex items-start justify-between gap-3">
         <h3 className="font-semibold leading-snug group-hover:text-accent">{h.title}</h3>
@@ -88,7 +97,13 @@ function Card({ h, topics }: { h: Hackathon; topics: Map<string, string> }) {
           {h.tracks.length > 3 && ` +${h.tracks.length - 3}`}
         </p>
       )}
-    </a>
+
+      {ideaCount > 0 && (
+        <p className="text-xs font-medium text-accent">
+          {ideaCount} project ideas →
+        </p>
+      )}
+    </button>
   );
 }
 
@@ -96,6 +111,7 @@ export default function App() {
   const [bundle, setBundle] = useState<Bundle | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+  const [selected, setSelected] = useState<Hackathon | null>(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/hackathons.json`)
@@ -215,7 +231,7 @@ export default function App() {
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {shown.map((h) => (
-              <Card key={h.uid} h={h} topics={topicLabels} />
+              <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => setSelected(h)} />
             ))}
           </div>
           {shown.length === 0 && (
@@ -223,6 +239,14 @@ export default function App() {
               Nothing matches those filters.
             </p>
           )}
+          {selected && (
+            <Detail
+              hackathon={selected}
+              topics={topicLabels}
+              onClose={() => setSelected(null)}
+            />
+          )}
+
           <footer className="mt-10 border-t border-line pt-4 text-xs text-muted">
             Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · open source ·
             listings link to the organiser's own page

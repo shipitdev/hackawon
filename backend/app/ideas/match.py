@@ -16,6 +16,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from app.models import HackathonRecord, ProjectRecord
+from app.taxonomy import normalise_domains
 
 #: Below this many exemplars a category's advice is too thin to state confidently.
 THIN_EVIDENCE = 5
@@ -69,7 +70,7 @@ def score(
     labels: dict[str, Any],
     now_year: int,
 ) -> tuple[float, list[str]]:
-    project_domains = labels.get("domains") or []
+    project_domains = normalise_domains(labels.get("domains"))
     shared = [d for d in project_domains if d in hackathon_domains and d != "general"]
 
     total = W_DOMAIN * len(shared)

@@ -17,7 +17,7 @@ from pathlib import Path
 import yaml
 
 from app.models import HackathonRecord
-from app.store import DATA_DIR, read_hackathons
+from app.store import DATA_DIR, read_hackathons, read_projects
 
 OUTPUT_DIR = Path(__file__).resolve().parents[3] / "frontend" / "public" / "data"
 
@@ -42,9 +42,27 @@ def _labels(kind: str, data_dir: Path | None) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _ideas(data_dir: Path | None) -> dict[str, dict]:
+    """uid -> the stored ideas record, keyed back to the hackathon it belongs to."""
+    root = (data_dir or DATA_DIR) / "ideas"
+    if not root.exists():
+        return {}
+    out = {}
+    for path in root.glob("*.json"):
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        if record.get("hackathon_uid"):
+            out[record["hackathon_uid"]] = record
+    return out
+
+
 def build(data_dir: Path | None = None) -> dict:
     records = read_hackathons(data_dir or DATA_DIR)
     labels = _labels("hackathons", data_dir)
+    ideas = _ideas(data_dir)
+    projects = read_projects(data_dir or DATA_DIR) if ideas else []
     # Sort by whatever date the student actually acts on: the event if we know it, else the
     # registration deadline. Unstop publishes no event start for most listings.
     far_future = datetime.max.replace(tzinfo=UTC)
@@ -62,6 +80,27 @@ def build(data_dir: Path | None = None) -> dict:
         row = to_web(record)
         # Unlabelled hackathons still appear; they just won't match a category filter.
         row["domains"] = labels.get(record.uid, {}).get("domains", [])
+
+        stored = ideas.get(record.uid)
+        if stored:
+            row["ideas"] = stored["ideas"]
+            row["grounding"] = stored.get("grounding", {})
+            # Exemplars are embedded per hackathon rather than shipped as one winners index:
+            # only a handful are referenced, and this keeps the bundle small.
+            referenced = {i for idea in stored["ideas"] for i in idea.get("inspired_by", [])}
+            row["exemplars"] = [
+                {
+                    "uid": p.uid,
+                    "title": p.title,
+                    "url": p.url,
+                    "prize": p.prize,
+                    "hackathon_name": p.hackathon_name,
+                    "year": p.year,
+                    "tech": p.tech[:4],
+                }
+                for p in projects
+                if p.uid in referenced
+            ]
         rows.append(row)
 
     taxonomy_path = (data_dir or DATA_DIR) / "taxonomy.yml"

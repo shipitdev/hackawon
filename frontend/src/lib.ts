@@ -93,3 +93,58 @@ export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): 
     return true;
   });
 }
+
+/**
+ * A ready-made prompt the student pastes into their own ChatGPT/Gemini.
+ *
+ * This is how personalisation works without a server: no API key of ours is exposed, nothing
+ * costs us anything, and the student uses their own free account.
+ */
+export function buildPrompt(h: Hackathon): string {
+  const lines = [
+    `I'm entering a hackathon and want project ideas that could win it.`,
+    ``,
+    `Hackathon: ${h.title}`,
+    h.tagline ? `Tagline: ${h.tagline}` : "",
+    `Format: ${h.mode.replace("_", " ")}${h.city ? ` in ${h.city}` : ""}`,
+    `Dates: ${formatDates(h)}`,
+    h.team_max ? `Team size: up to ${h.team_max}` : "",
+    formatPrize(h) ? `Prize pool: ${formatPrize(h)}` : "",
+    h.sponsors.length ? `Sponsors: ${h.sponsors.join(", ")}` : "",
+    h.tracks.length ? `Prize tracks:\n${h.tracks.map((t) => `- ${t}`).join("\n")}` : "",
+    h.excerpt ? `\nAbout: ${h.excerpt}` : "",
+  ].filter(Boolean);
+
+  if (h.exemplars?.length) {
+    lines.push(
+      ``,
+      `Projects that won similar hackathons:`,
+      ...h.exemplars.map(
+        (e) =>
+          `- ${e.title}${e.prize ? ` — ${e.prize}` : ""}${
+            e.hackathon_name ? ` at ${e.hackathon_name}` : ""
+          }${e.tech.length ? ` [${e.tech.join(", ")}]` : ""}`,
+      ),
+    );
+  }
+
+  lines.push(
+    ``,
+    `My skills: (describe what you know — e.g. React, Python, no ML experience)`,
+    `Time available: (e.g. 24 hours, 3 people)`,
+    ``,
+    `Give me 5 specific ideas I could realistically finish in that time, each aimed at one of`,
+    `the prize tracks above, and say why each one could win. No generic ideas.`,
+  );
+
+  return lines.join("\n");
+}
+
+export async function copyPrompt(h: Hackathon): Promise<boolean> {
+  try {
+    await navigator.clipboard.writeText(buildPrompt(h));
+    return true;
+  } catch {
+    return false;
+  }
+}

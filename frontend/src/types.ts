@@ -25,6 +25,36 @@ export interface Hackathon {
   team_max: number | null;
   participants_count: number | null;
   domains: string[];
+  ideas?: Idea[];
+  exemplars?: Exemplar[];
+  grounding?: Grounding;
+}
+
+export interface Idea {
+  title: string;
+  pitch: string;
+  why_it_could_win: string;
+  stack: string[];
+  track?: string;
+  inspired_by: string[];
+  build_hours?: number;
+}
+
+export interface Exemplar {
+  uid: string;
+  title: string;
+  url: string;
+  prize: string | null;
+  hackathon_name: string | null;
+  year: number | null;
+  tech: string[];
+}
+
+export interface Grounding {
+  exemplar_count: number;
+  domains: string[];
+  thin: boolean;
+  patterns: string[];
 }
 
 export interface Domain {

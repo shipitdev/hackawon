@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-12T10:17:57.310202+05:30",
+  "grounding": {
+    "domains": [
+      "web3",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:ccf87307485e40fa8eed85cc9e9791a2",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "An autonomous AI agent that monitors mempool traffic and automatically coordinates CoinJoin transactions on behalf of users when network fees are optimal.",
+      "stack": [
+        "Python",
+        "Bitcoin Core RPC",
+        "LangChain",
+        "Lightning Network"
+      ],
+      "title": "CoinJoin-Agent",
+      "track": "Best in Machine Money",
+      "why_it_could_win": "Directly targets both the Privacy and AI boss fights by combining automated tooling with surveillance-resistant transaction grouping, fitting the Bitshala focus on deep Bitcoin OSS."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1096767403"
+      ],
+      "pitch": "A client-side browser extension that allows users to broadcast and receive reusable stealth payment addresses over Nostr relays without exposing their main public identity.",
+      "stack": [
+        "TypeScript",
+        "Nostr Protocol",
+        "React",
+        "Bitcoin APIs"
+      ],
+      "title": "Nostr-Stealth-Pay",
+      "track": "Best in Cypherpunk",
+      "why_it_could_win": "Combines Nostr communication primitives with on-chain privacy, aligning perfectly with Bitshala's Cypherpunk and Nostr tracks while solving a genuine metadata leak."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:776580131"
+      ],
+      "pitch": "A multi-party computation signing tool leveraging Nostr NIP-XX for decentralized, untraceable collaborative transaction approvals among distributed peers.",
+      "stack": [
+        "Rust",
+        "Nostr SDK",
+        "Secp256k1"
+      ],
+      "title": "SilentSign",
+      "track": "Best in Freedom Stack",
+      "why_it_could_win": "Solves a hard engineering problem using the exact decentralized communication layer promoted by the Nostr track, appealing to judges looking for robust OSS primitives."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A local Retrieval-Augmented Generation agent trained exclusively on Bitcoin developer documentation, BIPs, and mailing list archives to assist protocol engineers.",
+      "stack": [
+        "Python",
+        "LlamaIndex",
+        "Ollama",
+        "ChromaDB"
+      ],
+      "title": "Lightning-RAG-Bot",
+      "track": "Best in Machine Money",
+      "why_it_could_win": "Brings high-utility AI directly into the Bitcoin ecosystem, targeting the AI track by saving developer hours and lowering the barrier to entry for protocol contributions."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:614169755"
+      ],
+      "pitch": "A censorship-resistant data attestation tool that anchors state hashes and fact-checking proofs to Nostr events instead of centralized servers.",
+      "stack": [
+        "JavaScript",
+        "Nostr Relays",
+        "Cryptography"
+      ],
+      "title": "Nostr-Witness",
+      "track": "Best in Freedom Stack",
+      "why_it_could_win": "Leverages the immutable relay network of Nostr for trustless verification, directly hitting the Nostr track's emphasis on censorship-resistant communication infrastructure."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

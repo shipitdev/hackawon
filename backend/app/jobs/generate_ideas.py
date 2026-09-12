@@ -20,7 +20,7 @@ from app.ideas.generate import PROMPT_VERSION, generate_ideas
 from app.ideas.llm import get_llm
 from app.ideas.match import match_winners
 from app.store import DATA_DIR, read_hackathons, read_projects
-from app.taxonomy import load_taxonomy
+from app.taxonomy import load_taxonomy, normalise_domains
 
 IDEAS_DIR = DATA_DIR / "ideas"
 
@@ -79,7 +79,8 @@ def run(limit: int | None, provider: str | None, force: bool) -> int:
 
     written = 0
     for index, h in enumerate(todo, 1):
-        domains = (hackathon_labels.get(h.uid) or {}).get("domains") or ["general"]
+        labelled = (hackathon_labels.get(h.uid) or {}).get("domains")
+        domains = normalise_domains(labelled) or ["general"]
         grounding = match_winners(h, domains, projects, project_labels, now_year)
         try:
             record = generate_ideas(h, grounding, tax, llm)

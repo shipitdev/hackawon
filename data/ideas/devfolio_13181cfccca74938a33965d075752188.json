@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-12T10:15:38.132295+05:30",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "security",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth",
+      "polish"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:13181cfccca74938a33965d075752188",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1188643990"
+      ],
+      "pitch": "A quantitative cyber risk quantification engine that ingests company asset metadata and simulates Monte Carlo probabilistic outage distributions to calculate predicted financial losses from ransomware attacks.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "NumPy"
+      ],
+      "title": "ActuaryRisk CyberMesh",
+      "track": "Best Overall Project In Cybersecurity",
+      "why_it_could_win": "Directly hits the Best Overall Project In Cybersecurity and Best UI/UX in CyberSecurity tracks by marrying actuarial science with cybersecurity loss estimation."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1181344931",
+        "github:35907421"
+      ],
+      "pitch": "An insurance pricing and loan default predictive platform using LightGBM and explainable feature attributions to price micro-loans based on non-traditional alternative credit scoring data.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "DefaultProphet",
+      "track": "Best Overall Project In FinTech",
+      "why_it_could_win": "Aligns perfectly with the FinTech track and the actuarial mandate of predicting outcomes and quantifying risk under uncertainty."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1247716283",
+        "github:292824779"
+      ],
+      "pitch": "A predictive analytics dashboard for educational institutions that calculates student dropout risk using historical grade sequences and behavioral telemetry, recommending timely interventions.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Python"
+      ],
+      "title": "DropoutQuant",
+      "track": "Best Overall Project In EdTech",
+      "why_it_could_win": "Targets the EdTech track by focusing on statistical predictive modeling of student performance rather than a generic tutor chatbot."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A zero-knowledge encrypted self-assessment vault where SMEs can securely input proprietary security audit logs without leaking raw data, automatically calculating an empirical cyber insurance premium.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Python",
+        "Encryption"
+      ],
+      "title": "CyberRisk UX Valuator",
+      "track": "Best UI/UX in CyberSecurity",
+      "why_it_could_win": "Competes strongly in the Best UI/UX in CyberSecurity track by blending high-polish user onboarding with cryptographic data privacy."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:600524805",
+        "github:292824779"
+      ],
+      "pitch": "An exam preparation analytics app that models student probability of passing actuarial or high-stakes professional exams based on practice test telemetry and spaced repetition decay curves.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Chart.js"
+      ],
+      "title": "ActuarialEd Exam Risk Analyzer",
+      "track": "Best UI/UX in EdTech",
+      "why_it_could_win": "Organized by the London Institute of Actuarial Studies, the judging panel will appreciate a project directly tailored to actuarial exam preparedness and probabilistic skill mastery."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

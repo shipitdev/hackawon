@@ -136,3 +136,26 @@ class TestTextForLabelling:
         )
         text = project_text(project)
         assert "MongoDB AI Hackathon" in text and "1st place" in text and "Python" in text
+
+
+class TestPartialSaves:
+    def test_progress_survives_a_crash_mid_run(self, labels_dir, tax, monkeypatch):
+        """Labelling the winners corpus takes ~12 minutes; losing it all to one crash near the
+        end would waste both time and free-tier quota."""
+        monkeypatch.setattr(tax_mod, "BATCH_SIZE", 1)
+        monkeypatch.setattr(tax_mod, "SAVE_EVERY", 1)
+
+        class DiesLate(FakeLLM):
+            def generate_json(self, prompt, schema):
+                if "item7" in prompt:
+                    raise KeyboardInterrupt("user gave up")
+                return super().generate_json(prompt, schema)
+
+        items = {f"uid{i}": f"item{i}" for i in range(9)}
+        with pytest.raises(KeyboardInterrupt):
+            classify("hackathons", items, DiesLate(), tax)
+
+        # A fresh run should only need the items that never got labelled.
+        llm = FakeLLM()
+        classify("hackathons", items, llm, tax)
+        assert len(llm.calls) < len(items), "earlier batches should have been cached"
