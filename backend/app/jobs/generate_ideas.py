@@ -21,7 +21,12 @@ from app.ideas.generate import PROMPT_VERSION, generate_ideas
 from app.ideas.llm import get_llm
 from app.ideas.match import match_winners
 from app.store import DATA_DIR, read_hackathons, read_projects
-from app.taxonomy import load_taxonomy, normalise_domains
+from app.taxonomy import (
+    load_taxonomy,
+    normalise_domains,
+    project_text,
+    prune_unsupported_patterns,
+)
 
 IDEAS_DIR = DATA_DIR / "ideas"
 
@@ -65,6 +70,14 @@ def run(
     project_labels = _labels("winners")
     projects = read_projects()
     now_year = datetime.now(UTC).year
+
+    # Apply the sponsor-tech guard on read: the model assigns it from event names, and an
+    # unsupported reason is worse than none — it would tell every student the same thing.
+    project_labels = {
+        p.uid: prune_unsupported_patterns(project_labels[p.uid], project_text(p))
+        for p in projects
+        if p.uid in project_labels
+    }
 
     if not project_labels:
         print("  no labelled winners yet — run: python -m app.jobs.classify --kind winners")
