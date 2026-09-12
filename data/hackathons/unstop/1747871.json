@@ -1,11 +1,11 @@
 {
   "city": null,
   "country": null,
-  "description": null,
+  "description": "TigerGraph Agentic GraphRAG Hackathon Some questions can be answered with a single retrieval step. But the hard ones - the ones that actually matter - need a system that can break the question apart, figure out what to retrieve, evaluate what comes back, spot gaps, and keep digging until it has a real answer. This hackathon is about building that. You'll create an Agentic GraphRAG system on TigerGraph that autonomously investigates complex questions using graph, vector, and document evidence. The goal isn't to prove agentic is always better; it's to figure out exactly where it matters and where simpler approaches are enough. Open to college students and working professionals. Solo participants or teams of up to 5 are allowed. Free to register. Join the community for questions, debugging help, and office hours during the build window. All important updates - guidebook, dataset releases, deadline reminders, and announcements - will be shared here first: Discord: https://discord.gg/eKWm3mbkw2 WhatsApp Group: https://chat.whatsapp.com/GN0x6yajuroDJTzLMEZvBR Guidebook: https://alluring-beryllium-491.notion.site/Agentic-GraphRAG-Hackathon-Guidebook-34fc2cb129c08146998af3568d7d2594 Dataset: https://drive.google.com/drive/folders/10C0hzRaHlm00VYPFbjapKtWj0EPmLvQ9?usp=drive_link Why This Is Hard A basic RAG pipeline retrieves some text and generates an answer. That works for simple questions. GraphRAG adds structure — entities, relationships, community context — and that works for harder ones. But some questions need the system to actually think. Break the problem down. Decide what to look up. Evaluate what came back. Realize something's missing. Go back and retrieve more. Change strategy mid-investigation. Decide when it has enough to answer. That's the agentic part, and that's where this challenge lives. The Challenge Core (everyone builds this): An Agentic GraphRAG system that can plan and execute a multi-step investigation. Your system should include: An agent harness to",
   "ends_at": "2026-10-05T00:00:00+05:30",
   "mode": "online",
   "organiser": "TigerGraph",
-  "participants_count": 498,
+  "participants_count": 500,
   "prize_amount": 70000,
   "prize_currency": "INR",
   "projects_submitted": null,
@@ -224,7 +224,7 @@
     ],
     "public_url": "hackathons/agentic-graphrag-hackathon-tigergraph-1747871",
     "region": "online",
-    "registerCount": 498,
+    "registerCount": 500,
     "regnRequirements": {
       "eligibility": "{\"sector\":[\"students\",\"fresher\",\"corporates\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-09-14T00:00:00+05:30",
@@ -237,7 +237,7 @@
         "durations": "1",
         "text": "day left"
       },
-      "remaining_time": 139933,
+      "remaining_time": 136649,
       "show_deadline": 1,
       "start_regn_dt": "2026-09-02T00:00:00+05:30",
       "work_location_type": "city"
@@ -288,7 +288,7 @@
     "title": "Agentic GraphRAG Hackathon",
     "type": "hackathons",
     "updated_at": "2026-09-10T20:14:12+05:30",
-    "viewsCount": 25102,
+    "viewsCount": 25152,
     "visibility": "public",
     "workfunction": [
       {

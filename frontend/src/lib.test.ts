@@ -28,6 +28,7 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     team_min: null,
     team_max: null,
     participants_count: null,
+    domains: [],
     ...overrides,
   };
 }
@@ -113,6 +114,22 @@ describe("filtering", () => {
   it("searches sponsors and tracks, not just titles", () => {
     const withSponsor = [make({ uid: "s", sponsors: ["ElevenLabs"] })];
     expect(applyFilters(withSponsor, { ...EMPTY_FILTERS, query: "elevenlabs" }, NOW)).toHaveLength(1);
+  });
+
+  it("filters by topic", () => {
+    const tagged = [
+      make({ uid: "ai", domains: ["ai-ml"] }),
+      make({ uid: "fin", domains: ["fintech"] }),
+      make({ uid: "both", domains: ["ai-ml", "fintech"] }),
+    ];
+    const out = applyFilters(tagged, { ...EMPTY_FILTERS, domain: "ai-ml" }, NOW);
+    expect(out.map((h) => h.uid)).toEqual(["ai", "both"]);
+  });
+
+  it("hides unlabelled hackathons from a topic filter but not from the default view", () => {
+    const items = [make({ uid: "none", domains: [] })];
+    expect(applyFilters(items, EMPTY_FILTERS, NOW)).toHaveLength(1);
+    expect(applyFilters(items, { ...EMPTY_FILTERS, domain: "ai-ml" }, NOW)).toHaveLength(0);
   });
 
   it("combines filters", () => {

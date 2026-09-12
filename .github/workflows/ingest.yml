@@ -36,6 +36,15 @@ jobs:
         working-directory: backend
         run: uv run python -m app.jobs.ingest
 
+      - name: Label new hackathons by topic
+        working-directory: backend
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Labels are cached by content hash, so this only calls the API for genuinely new or
+        # changed hackathons — usually a handful per run. Never fail the job over it: stale
+        # labels are much better than losing a whole ingest.
+        run: uv run python -m app.jobs.classify --kind hackathons --provider gemini || true
+
       - name: Rebuild the site bundle
         working-directory: backend
         run: uv run python -m app.jobs.export_site

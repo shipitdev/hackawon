@@ -63,6 +63,7 @@ export interface Filters {
   query: string;
   mode: Mode | "all";
   source: string | "all";
+  domain: string | "all";
   onlyUrgent: boolean;
 }
 
@@ -70,6 +71,7 @@ export const EMPTY_FILTERS: Filters = {
   query: "",
   mode: "all",
   source: "all",
+  domain: "all",
   onlyUrgent: false,
 };
 
@@ -85,6 +87,7 @@ export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): 
   return items.filter((h) => {
     if (f.mode !== "all" && h.mode !== f.mode) return false;
     if (f.source !== "all" && h.source !== f.source) return false;
+    if (f.domain !== "all" && !h.domains.includes(f.domain)) return false;
     if (f.onlyUrgent && !isUrgent(h, now)) return false;
     if (query && !haystack(h).includes(query)) return false;
     return true;

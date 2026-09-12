@@ -13,6 +13,8 @@ Two quirks, both measured 2026-09-12:
 
 from __future__ import annotations
 
+import re
+from html import unescape
 from typing import Any
 
 from app.models import HackathonRecord
@@ -48,6 +50,20 @@ def _url(row: dict[str, Any]) -> str | None:
     return None
 
 
+_TAG = re.compile(r"<[^>]+>")
+_WHITESPACE = re.compile(r"\s+")
+
+
+def _plain_text(html: str | None, limit: int = 2000) -> str | None:
+    """Unstop's `details` is a multi-KB HTML blob — usually the only place the actual theme,
+    tracks and problem statements are written down. Without it almost everything classifies as
+    "no particular theme", so it is worth carrying despite the noise."""
+    if not html:
+        return None
+    text = _WHITESPACE.sub(" ", unescape(_TAG.sub(" ", html))).strip()
+    return text[:limit] or None
+
+
 def _themes(row: dict[str, Any]) -> list[str]:
     return [
         f["name"]
@@ -71,6 +87,7 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
                 source_id=str(row["id"]),
                 title=row.get("title") or str(row["id"]),
                 url=url,
+                description=_plain_text(row.get("details")),
                 # `start_date` is almost always null here. Do NOT fall back to the registration
                 # opening date: it is often months before the event and renders as a bogus range.
                 starts_at=parse_dt(row.get("start_date")),

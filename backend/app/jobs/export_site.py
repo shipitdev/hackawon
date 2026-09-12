@@ -10,8 +10,11 @@ keeps the site working.
 from __future__ import annotations
 
 import json
+from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
+
+import yaml
 
 from app.models import HackathonRecord
 from app.store import DATA_DIR, read_hackathons
@@ -32,8 +35,16 @@ def to_web(record: HackathonRecord) -> dict:
     return data
 
 
+def _labels(kind: str, data_dir: Path | None) -> dict:
+    path = (data_dir or DATA_DIR) / "labels" / f"{kind}.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def build(data_dir: Path | None = None) -> dict:
     records = read_hackathons(data_dir or DATA_DIR)
+    labels = _labels("hackathons", data_dir)
     # Sort by whatever date the student actually acts on: the event if we know it, else the
     # registration deadline. Unstop publishes no event start for most listings.
     far_future = datetime.max.replace(tzinfo=UTC)
@@ -45,10 +56,32 @@ def build(data_dir: Path | None = None) -> dict:
         return chosen if chosen.tzinfo else chosen.replace(tzinfo=UTC)
 
     records.sort(key=when)
+
+    rows = []
+    for record in records:
+        row = to_web(record)
+        # Unlabelled hackathons still appear; they just won't match a category filter.
+        row["domains"] = labels.get(record.uid, {}).get("domains", [])
+        rows.append(row)
+
+    taxonomy_path = (data_dir or DATA_DIR) / "taxonomy.yml"
+    domains = []
+    if taxonomy_path.exists():
+        tax = yaml.safe_load(taxonomy_path.read_text(encoding="utf-8"))
+        counts = Counter(d for row in rows for d in row["domains"])
+        # Ship labels and counts with the data so the UI needs no hardcoded copy of the taxonomy.
+        domains = [
+            {"id": d["id"], "label": d["label"], "count": counts.get(d["id"], 0)}
+            for d in tax["domains"]
+            if counts.get(d["id"], 0) > 0
+        ]
+        domains.sort(key=lambda d: -d["count"])
+
     return {
         "generated_at": datetime.now(UTC).isoformat(),
         "count": len(records),
-        "hackathons": [to_web(r) for r in records],
+        "domains": domains,
+        "hackathons": rows,
     }
 
 

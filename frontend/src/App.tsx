@@ -23,11 +23,28 @@ const MODES: { value: Mode | "all"; label: string }[] = [
   { value: "online", label: "Online" },
 ];
 
-function Pill({ children, tone = "plain" }: { children: React.ReactNode; tone?: "plain" | "urgent" }) {
+function chipClass(active: boolean): string {
+  return [
+    "inline-flex items-center rounded-full border px-3 py-1 text-sm transition",
+    active
+      ? "border-accent bg-accent/12 text-accent"
+      : "border-line text-muted hover:border-accent/40 hover:text-ink",
+  ].join(" ");
+}
+
+function Pill({
+  children,
+  tone = "plain",
+}: {
+  children: React.ReactNode;
+  tone?: "plain" | "urgent" | "topic";
+}) {
   const styles =
     tone === "urgent"
       ? "bg-accent/12 text-accent border-accent/25"
-      : "bg-ink/4 text-muted border-line";
+      : tone === "topic"
+        ? "bg-ink/6 text-ink/80 border-line font-medium"
+        : "bg-ink/4 text-muted border-line";
   return (
     <span className={`inline-flex items-center rounded-full border px-2 py-0.5 text-xs ${styles}`}>
       {children}
@@ -35,7 +52,7 @@ function Pill({ children, tone = "plain" }: { children: React.ReactNode; tone?: 
   );
 }
 
-function Card({ h }: { h: Hackathon }) {
+function Card({ h, topics }: { h: Hackathon; topics: Map<string, string> }) {
   const deadline = deadlineLabel(h);
   const prize = formatPrize(h);
   return (
@@ -58,6 +75,11 @@ function Card({ h }: { h: Hackathon }) {
         <Pill>{where(h)}</Pill>
         {prize && <Pill>{prize}</Pill>}
         {h.team_max && <Pill>Team up to {h.team_max}</Pill>}
+        {h.domains.map((d) => (
+          <Pill key={d} tone="topic">
+            {topics.get(d) ?? d}
+          </Pill>
+        ))}
       </div>
 
       {h.tracks.length > 0 && (
@@ -88,6 +110,10 @@ export default function App() {
   const all = bundle?.hackathons ?? [];
   const shown = useMemo(() => applyFilters(all, filters), [all, filters]);
   const urgentCount = useMemo(() => all.filter((h) => isUrgent(h)).length, [all]);
+  const topicLabels = useMemo(
+    () => new Map((bundle?.domains ?? []).map((d) => [d.id, d.label])),
+    [bundle],
+  );
 
   const set = <K extends keyof Filters>(key: K, value: Filters[K]) =>
     setFilters((f) => ({ ...f, [key]: value }));
@@ -149,6 +175,31 @@ export default function App() {
         </button>
       </div>
 
+      {bundle && bundle.domains.length > 0 && (
+        <div className="mb-5 flex flex-wrap gap-1.5">
+          <button
+            type="button"
+            onClick={() => set("domain", "all")}
+            aria-pressed={filters.domain === "all"}
+            className={chipClass(filters.domain === "all")}
+          >
+            All topics
+          </button>
+          {bundle.domains.map((d) => (
+            <button
+              key={d.id}
+              type="button"
+              onClick={() => set("domain", filters.domain === d.id ? "all" : d.id)}
+              aria-pressed={filters.domain === d.id}
+              className={chipClass(filters.domain === d.id)}
+            >
+              {d.label}
+              <span className="ml-1.5 opacity-60">{d.count}</span>
+            </button>
+          ))}
+        </div>
+      )}
+
       {error && (
         <p className="rounded-lg border border-line p-4 text-sm text-muted">
           Could not load hackathons: {error}
@@ -164,7 +215,7 @@ export default function App() {
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             {shown.map((h) => (
-              <Card key={h.uid} h={h} />
+              <Card key={h.uid} h={h} topics={topicLabels} />
             ))}
           </div>
           {shown.length === 0 && (

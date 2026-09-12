@@ -1,0 +1,111 @@
+# The shared vocabulary for both hackathons and past projects.
+#
+# Why a fixed list instead of letting the AI invent labels: free-form tags drift ("AI", "A.I.",
+# "artificial intelligence", "ml") and you can never filter or count reliably. A closed list also
+# lets us reject anything the model makes up.
+#
+# Bump `version` whenever the labels change — cached labels from an older version are re-run.
+version: 1
+
+# What a project or hackathon is ABOUT. A hackathon can have several; most have one or none.
+domains:
+  - id: ai-ml
+    label: AI & Machine Learning
+    hint: LLMs, agents, computer vision, NLP, generative models, ML pipelines.
+  - id: web3
+    label: Web3 & Blockchain
+    hint: Smart contracts, DeFi, NFTs, wallets, zero-knowledge proofs, DAOs.
+  - id: fintech
+    label: Fintech
+    hint: Payments, banking, lending, insurance, trading, personal finance.
+  - id: healthtech
+    label: Health & Medicine
+    hint: Diagnostics, patient care, mental health, fitness, biotech, medical imaging.
+  - id: edtech
+    label: Education
+    hint: Learning tools, tutoring, exam prep, classroom software, student productivity.
+  - id: sustainability
+    label: Climate & Sustainability
+    hint: Energy, emissions, recycling, conservation, clean transport.
+  - id: agritech
+    label: Agriculture
+    hint: Farming, crop and soil monitoring, supply chains for produce, rural livelihoods.
+  - id: civic
+    label: Civic & Social Impact
+    hint: Government services, accessibility, disaster relief, safety, NGOs, public transport.
+  - id: security
+    label: Cybersecurity
+    hint: Threat detection, cryptography, privacy, CTFs, authentication, secure infrastructure.
+  - id: devtools
+    label: Developer Tools
+    hint: SDKs, CLIs, testing, CI/CD, code assistants, APIs, observability, cloud infrastructure.
+  - id: hardware
+    label: IoT & Hardware
+    hint: Sensors, robotics, embedded systems, drones, wearables, electronics.
+  - id: arvr
+    label: AR, VR & Spatial
+    hint: Augmented and virtual reality, 3D, metaverse, spatial computing.
+  - id: gaming
+    label: Gaming
+    hint: Games, game engines, interactive entertainment, game jams.
+  - id: data
+    label: Data & Analytics
+    hint: Dashboards, visualisation, big data, business intelligence, datathons.
+  - id: general
+    label: Open Innovation
+    hint: >-
+      No fixed theme — build anything. Use this alone when a hackathon sets no subject,
+      which is very common for student events.
+
+# The SHAPE of a project. Projects only; hackathons never get one.
+archetypes:
+  - id: web-app
+    label: Web app
+  - id: mobile-app
+    label: Mobile app
+  - id: browser-extension
+    label: Browser extension
+  - id: chatbot-agent
+    label: Chatbot or AI agent
+  - id: dashboard
+    label: Dashboard or visualisation
+  - id: dev-tool
+    label: Developer tool or CLI
+  - id: ml-model
+    label: ML model or research demo
+  - id: hardware-build
+    label: Hardware build
+  - id: game
+    label: Game
+  - id: api-infra
+    label: API or infrastructure
+  - id: other
+    label: Something else
+
+# WHY a project beat the others. The most valuable axis: a student can reuse these.
+# Winners only, and only when the evidence actually supports it.
+winning_patterns:
+  - id: judge-pain
+    label: Solved a problem the judges feel themselves
+    hint: Targets a pain familiar to developers, students or organisers in the room.
+  - id: sponsor-tech
+    label: Showcased a sponsor's technology
+    hint: Built prominently on a sponsor's API, model or chain — often how track prizes are won.
+  - id: working-demo
+    label: Demo that actually worked live
+    hint: Emphasises a real, working, demonstrable product rather than a concept.
+  - id: unique-data
+    label: Used data nobody else had
+    hint: Built on a novel, scraped, proprietary or hard-to-get dataset.
+  - id: unusual-hardware
+    label: Unusual physical build
+    hint: Custom hardware, sensors or robotics that stood out in a room of web apps.
+  - id: polish
+    label: Exceptional polish
+    hint: Design, UX or completeness far beyond typical hackathon quality.
+  - id: impact
+    label: Clear measurable impact
+    hint: Concrete social, environmental or economic benefit, ideally quantified.
+  - id: technical-depth
+    label: Genuinely hard engineering
+    hint: Solved something technically difficult — distributed systems, ZK, novel ML.

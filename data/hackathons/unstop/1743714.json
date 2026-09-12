@@ -1,7 +1,7 @@
 {
   "city": null,
   "country": null,
-  "description": null,
+  "description": "The Pareidolia Paradox is an online machine learning challenge focused on image classification and computer vision. Challenge Objective Participants must classify 256 × 256 grayscale lunar surface images into one of two categories: Class 0: Depth: Craters, holes, and surface depressions Class 1 :Rise: Mounds, hills, rocks, and boulders The Challenge The appearance of lunar terrain changes depending on the direction of sunlight. A crater illuminated from one direction can appear like a depression, while the same formation under different lighting can resemble a raised surface. This phenomenon is known as topographic inversion . To account for this, each image is accompanied by a sun_azimuth_angle in the metadata. Participants are expected to use this information appropriately while developing their models. Dataset Participants will receive: 7,854 training images 2,000 evaluation images train_metadata.csv containing image_id , sun_azimuth_angle , and label test_metadata.csv containing image_id and sun_azimuth_angle The evaluation labels will remain hidden and will be used for final scoring. Submission Participants must train a classification model on the provided training dataset and generate predictions for all 2,000 evaluation images . The submission must be a single CSV file containing exactly: image_id,label Example: image_id,label eval_00001.png,0 eval_00002.png,1 Evaluation Submissions will be evaluated using Balanced Accuracy . Participants are encouraged to focus on the underlying terrain rather than relying solely on visual shadow patterns. The dataset composition and metadata structure are specified in the competition document. The problem statement confirms the classification task, use of solar azimuth information, submission format, and Balanced Accuracy metric. Event Timeline Competition Opens: 1 September 2026, 12:00 AM Competition Closes: 21 September 2026, 11:59 PM Submission Deadline: 21 September 2026, 11:59 PM Participants can register, access the c",
   "ends_at": "2026-09-21T23:59:00+05:30",
   "mode": "online",
   "organiser": "SIES GST Nerul",
@@ -133,7 +133,7 @@
         "durations": 9,
         "text": " days left"
       },
-      "remaining_time": 811285,
+      "remaining_time": 808129,
       "show_deadline": 1,
       "start_regn_dt": "2026-08-24T18:30:00+05:30",
       "work_location_type": "city"
@@ -228,7 +228,7 @@
     "title": "The Pareidolia Paradox",
     "type": "hackathons",
     "updated_at": "2026-09-07T17:32:48+05:30",
-    "viewsCount": 96460,
+    "viewsCount": 96561,
     "visibility": "public",
     "workfunction": [
       {

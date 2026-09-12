@@ -24,10 +24,18 @@ export interface Hackathon {
   team_min: number | null;
   team_max: number | null;
   participants_count: number | null;
+  domains: string[];
+}
+
+export interface Domain {
+  id: string;
+  label: string;
+  count: number;
 }
 
 export interface Bundle {
   generated_at: string;
   count: number;
+  domains: Domain[];
   hackathons: Hackathon[];
 }
