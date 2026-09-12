@@ -12,7 +12,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from app.models import HackathonRecord
 from app.sources import devfolio, mlh, unstop
@@ -37,12 +37,12 @@ def _last_date(record: HackathonRecord) -> datetime | None:
 
 def is_current(record: HackathonRecord, now: datetime | None = None) -> bool:
     """Undated events are kept: better a stale listing than silently dropping a real hackathon."""
-    now = now or datetime.now(timezone.utc)
+    now = now or datetime.now(UTC)
     last = _last_date(record)
     if last is None:
         return True
     if last.tzinfo is None:
-        last = last.replace(tzinfo=timezone.utc)
+        last = last.replace(tzinfo=UTC)
     return last >= now - GRACE
 
 
@@ -74,14 +74,24 @@ def run(dry_run: bool = False) -> int:
             current = [r for r in fetched if is_current(r)]
             collected.extend(current)
             runs.append(
-                {"source": module.NAME, "ok": True, "fetched": len(fetched),
-                 "current": len(current), "error": None}
+                {
+                    "source": module.NAME,
+                    "ok": True,
+                    "fetched": len(fetched),
+                    "current": len(current),
+                    "error": None,
+                }
             )
             print(f"  {module.NAME}: {len(fetched)} fetched, {len(current)} current")
         except Exception as exc:  # one site's redesign must not stop the rest
             runs.append(
-                {"source": module.NAME, "ok": False, "fetched": 0, "current": 0,
-                 "error": f"{type(exc).__name__}: {exc}"[:300]}
+                {
+                    "source": module.NAME,
+                    "ok": False,
+                    "fetched": 0,
+                    "current": 0,
+                    "error": f"{type(exc).__name__}: {exc}"[:300],
+                }
             )
             print(f"  {module.NAME}: FAILED {type(exc).__name__}: {exc}", file=sys.stderr)
 

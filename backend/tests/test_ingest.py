@@ -1,6 +1,6 @@
 """Tests for the parts of ingest that silently corrupt the dataset when wrong."""
 
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
@@ -8,7 +8,7 @@ from app.jobs.ingest import dedupe, is_current
 from app.models import HackathonRecord
 from app.store import read_hackathons, write_hackathon
 
-NOW = datetime(2026, 9, 12, tzinfo=timezone.utc)
+NOW = datetime(2026, 9, 12, tzinfo=UTC)
 
 
 def make(title="Hack X", source="devfolio", source_id="1", **kw) -> HackathonRecord:

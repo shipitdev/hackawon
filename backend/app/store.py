@@ -23,9 +23,7 @@ def _path_for(record: HackathonRecord, data_dir: Path) -> Path:
 
 def _serialise(record: HackathonRecord) -> str:
     # sort_keys keeps diffs stable when a source reorders its payload.
-    return json.dumps(
-        record.model_dump(mode="json"), indent=2, sort_keys=True, ensure_ascii=False
-    )
+    return json.dumps(record.model_dump(mode="json"), indent=2, sort_keys=True, ensure_ascii=False)
 
 
 def write_hackathon(record: HackathonRecord, data_dir: Path | None = None) -> bool:

@@ -1,0 +1,55 @@
+name: Ingest hackathons
+
+# The scraper is the whole backend: it runs here, commits the results, and GitHub Pages serves
+# them. Nothing else runs between visits.
+#
+# The commit this job makes also counts as repository activity, which is what stops GitHub from
+# disabling these scheduled runs after 60 days of inactivity.
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours, off the hour to avoid the stampede
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+
+      - name: Fetch sources
+        working-directory: backend
+        run: uv run python -m app.jobs.ingest
+
+      - name: Rebuild the site bundle
+        working-directory: backend
+        run: uv run python -m app.jobs.export_site
+
+      - name: Commit any changes
+        run: |
+          git config user.name "hackradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data frontend/public/data
+          if git diff --cached --quiet; then
+            echo "No changes — sources returned the same listings."
+            exit 0
+          fi
+          # Deliberately NOT tagged [skip ci]: that would also skip the Pages deploy, so fresh
+          # data would sit in the repo and never reach the published site.
+          git commit -m "Update hackathon data"
+          git push

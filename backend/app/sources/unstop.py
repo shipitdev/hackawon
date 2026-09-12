@@ -71,8 +71,11 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
                 source_id=str(row["id"]),
                 title=row.get("title") or str(row["id"]),
                 url=url,
-                starts_at=parse_dt(row.get("start_date") or reg.get("start_regn_dt")),
+                # `start_date` is almost always null here. Do NOT fall back to the registration
+                # opening date: it is often months before the event and renders as a bogus range.
+                starts_at=parse_dt(row.get("start_date")),
                 ends_at=parse_dt(row.get("end_date")),
+                reg_opens_at=parse_dt(reg.get("start_regn_dt")),
                 reg_deadline=parse_dt(reg.get("end_regn_dt")),
                 mode=_MODE_BY_REGION.get(row.get("region"), "unknown"),
                 organiser=(row.get("organisation") or {}).get("name"),

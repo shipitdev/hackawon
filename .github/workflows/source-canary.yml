@@ -1,0 +1,77 @@
+name: Source canary
+
+# Scrapers breaking on a site redesign is this project's main long-term maintenance cost. CI only
+# proves the parsers still handle the *saved* fixtures; this job checks them against the live sites
+# and opens an issue the day one stops returning data — rather than the data silently going stale.
+on:
+  schedule:
+    - cron: "40 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+
+      - name: Check every source against the live site
+        id: check
+        working-directory: backend
+        run: |
+          set +e
+          uv run python -m app.jobs.ingest --dry-run 2>&1 | tee canary.log
+          echo "report<<EOF" >> "$GITHUB_OUTPUT"
+          cat canary.log >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+          grep -q "FAILED" canary.log && echo "broken=true" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Open an issue when a source breaks
+        if: steps.check.outputs.broken == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const report = `${{ steps.check.outputs.report }}`;
+            const title = "A source stopped returning data";
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "source-broken",
+            });
+            const body = [
+              "The daily canary could not fetch from at least one source.",
+              "",
+              "```",
+              report.trim(),
+              "```",
+              "",
+              "Usually this means the site changed its markup or its API. Fix the adapter in",
+              "`backend/app/sources/`, then refresh the matching fixture in",
+              "`backend/tests/fixtures/` so the tests cover the new shape.",
+            ].join("\n");
+            // Update the existing issue rather than filing a new one every single day.
+            if (open.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: open[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ["source-broken"],
+              });
+            }
