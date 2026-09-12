@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-12T10:24:15.956467+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hack-ncstate",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An AI-powered campus mobility and shuttle optimization platform tailored for North Carolina State University's Wolfline bus system, predicting overcrowding and dynamically grouping student commuters to reduce wait times.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Jupyter Notebook"
+      ],
+      "title": "PackTransit AI",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to the judges and students in the room who rely daily on the NC State Wolfline, aligning with the pattern of solving a local problem judges feel themselves."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An automated compliance and impact forecasting tool for university research funding proposals, utilizing graph intelligence to map grant dependencies and predict potential project risks.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM"
+      ],
+      "title": "ResearchGrant Graph",
+      "track": "",
+      "why_it_could_win": "Leverages advanced data modeling similar to winning AML and forecasting projects, appealing directly to university-affiliated judges interested in academic research efficiency."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring dashboard tracking soil health and crop yields across North Carolina's Research Triangle agricultural testbeds, providing actionable metrics for local farmers.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Gemini API"
+      ],
+      "title": "Triangle AgTech Satellite Monitor",
+      "track": "",
+      "why_it_could_win": "Combines concrete environmental impact with geospatial satellite data analysis, matching the winning formula of the GeoNex-ATLAS project."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-driven patient acquisition and trust platform built specifically for the NC State student health center and local Raleigh community clinics to streamline appointment intake and triage.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "gemini-api"
+      ],
+      "title": "Wolfpack Patient Trust Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets local healthcare administration pain points and mirrors the rapid implementation strategy of the Global-Smile prize-winning hack."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating local peer-to-peer solar energy sharing in Raleigh, complete with secure micro-transactions.",
+      "stack": [
+        "JavaScript",
+        "base",
+        "usdc"
+      ],
+      "title": "Raleigh Micro-Grid Escrow",
+      "track": "",
+      "why_it_could_win": "Combines autonomous agent workflows with financial escrow mechanisms, directly following the proven architecture of the Dispatch synthesis winning project."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}
