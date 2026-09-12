@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Detail } from "./Detail";
+import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { authConfigured, currentViewer, onViewerChange, signInWithGitHub, signOut } from "./auth";
 import type { Viewer } from "./auth";
@@ -247,6 +248,14 @@ export default function App() {
 
   return (
     <>
+      <Header
+        base={import.meta.env.BASE_URL}
+        viewer={viewer}
+        authEnabled={authConfigured}
+        onSignIn={() => signInWithGitHub()}
+        onSignOut={() => signOut()}
+      />
+
       <Hero
         count={bundle?.count ?? 0}
         winners={675}
@@ -255,7 +264,7 @@ export default function App() {
 
       <main className="mx-auto max-w-5xl px-5 pb-20 sm:px-6">
         {/* Sticky so the filters stay reachable through a long list. */}
-        <div className="sticky top-0 z-30 -mx-5 mb-5 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
+        <div className="sticky top-14 z-30 -mx-5 mb-5 border-b border-white/6 bg-surface/70 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
           <div className="flex flex-wrap items-center gap-2">
             <input
               type="search"
@@ -308,41 +317,7 @@ export default function App() {
                 Saved ({saved.length})
               </Control>
             )}
-            <a
-              href={`${import.meta.env.BASE_URL}tools/`}
-              className="rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-accent"
-            >
-              Toolkit
-            </a>
-            {authConfigured &&
-              (viewer ? (
-                <button
-                  type="button"
-                  onClick={() => signOut()}
-                  title={`Signed in as ${viewer.handle ?? "you"} — click to sign out`}
-                  className="flex items-center gap-2 rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-ink"
-                >
-                  {viewer.avatar && (
-                    <img
-                      src={viewer.avatar}
-                      alt=""
-                      width={18}
-                      height={18}
-                      className="rounded-full"
-                    />
-                  )}
-                  {viewer.handle ?? "Signed in"}
-                </button>
-              ) : (
-                <button
-                  type="button"
-                  onClick={() => signInWithGitHub()}
-                  title="Sign in to keep your saved hackathons across devices"
-                  className="rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-accent"
-                >
-                  Sign in with GitHub
-                </button>
-              ))}
+
           </div>
         </div>
 

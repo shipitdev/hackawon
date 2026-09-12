@@ -91,7 +91,7 @@ export function Hero({
         className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-surface"
       />
 
-      <div className="relative mx-auto max-w-5xl px-5 pb-24 pt-20 sm:px-6 sm:pb-28 sm:pt-28">
+      <div className="relative mx-auto max-w-5xl px-5 pb-24 pt-14 sm:px-6 sm:pb-28 sm:pt-20">
         <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/70 backdrop-blur-md">
           <span className="relative flex h-1.5 w-1.5">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
