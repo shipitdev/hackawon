@@ -5,7 +5,7 @@
 # lets us reject anything the model makes up.
 #
 # Bump `version` whenever the labels change — cached labels from an older version are re-run.
-version: 1
+version: 2
 
 # What a project or hackathon is ABOUT. A hackathon can have several; most have one or none.
 domains:
@@ -90,7 +90,11 @@ winning_patterns:
     hint: Targets a pain familiar to developers, students or organisers in the room.
   - id: sponsor-tech
     label: Showcased a sponsor's technology
-    hint: Built prominently on a sponsor's API, model or chain — often how track prizes are won.
+    hint: >-
+      The project text names a specific product it was built ON (an API, model, chain or SDK).
+      Do NOT infer this from the hackathon's name: winning "the Microsoft AI Hackathon" is not
+      evidence the project showcased Microsoft's tech. Under v1 this label was applied to 266 of
+      350 reasons, mostly from event names, which made it meaningless.
   - id: working-demo
     label: Demo that actually worked live
     hint: Emphasises a real, working, demonstrable product rather than a concept.

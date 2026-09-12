@@ -14,6 +14,7 @@ import re
 import sys
 from datetime import UTC, datetime, timedelta
 
+from app.health import check_counts, load_history, record_counts, save_history
 from app.models import HackathonRecord
 from app.sources import devfolio, mlh, unstop
 from app.store import write_hackathon, write_source_runs
@@ -98,14 +99,25 @@ def run(dry_run: bool = False) -> int:
     unique = dedupe(collected)
     print(f"\n  {len(collected)} current records -> {len(unique)} after dedupe")
 
+    # A source that returns 200 but almost no data is the failure the canary used to miss: every
+    # job succeeds while the site quietly empties out. Compare against this source's own history.
+    counts = {r["source"]: (r["fetched"] if r["ok"] else None) for r in runs}
+    history = load_history()
+    problems = check_counts(history, counts)
+    for problem in problems:
+        print(f"  DROP {problem}", file=sys.stderr)
+
     if dry_run:
         print("  (dry run: nothing written)")
         return 0 if any(r["ok"] for r in runs) else 1
 
     changed = sum(write_hackathon(record) for record in unique)
     write_source_runs(runs)
+    save_history(record_counts(history, counts))
     print(f"  wrote {len(unique)} files ({changed} changed)")
 
+    # A drop is reported but does not fail the ingest: the data we did get is still worth keeping,
+    # and the canary is what turns this into an issue someone reads.
     return 0 if any(r["ok"] for r in runs) else 1
 
 

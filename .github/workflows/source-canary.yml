@@ -36,7 +36,9 @@ jobs:
           echo "report<<EOF" >> "$GITHUB_OUTPUT"
           cat canary.log >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
-          grep -q "FAILED" canary.log && echo "broken=true" >> "$GITHUB_OUTPUT"
+          # FAILED = the scraper raised. DROP = it succeeded but returned far less than usual,
+          # which is the failure mode that used to pass silently.
+          grep -qE "FAILED|DROP" canary.log && echo "broken=true" >> "$GITHUB_OUTPUT"
           exit 0
 
       - name: Open an issue when a source breaks
@@ -45,7 +47,9 @@ jobs:
         with:
           script: |
             const report = `${{ steps.check.outputs.report }}`;
-            const title = "A source stopped returning data";
+            const title = report.includes("DROP")
+              ? "A source is returning far less data than usual"
+              : "A source stopped returning data";
             const { data: open } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -53,14 +57,18 @@ jobs:
               labels: "source-broken",
             });
             const body = [
-              "The daily canary could not fetch from at least one source.",
+              "The daily canary found a problem with at least one source.",
               "",
               "```",
               report.trim(),
               "```",
               "",
-              "Usually this means the site changed its markup or its API. Fix the adapter in",
-              "`backend/app/sources/`, then refresh the matching fixture in",
+              "A FAILED line means the scraper raised. A DROP line means it still worked but",
+              "returned far fewer records than its own recent median — usually a site changed a",
+              "query parameter, which is how Unstop's `oppstatus=open` could silently take the",
+              "listings from 155 to 5.",
+              "",
+              "Fix the adapter in `backend/app/sources/`, then refresh the matching fixture in",
               "`backend/tests/fixtures/` so the tests cover the new shape.",
             ].join("\n");
             // Update the existing issue rather than filing a new one every single day.
