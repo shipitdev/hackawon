@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -55,7 +56,9 @@ def _write(record: dict) -> Path:
     return path
 
 
-def run(limit: int | None, provider: str | None, force: bool) -> int:
+def run(
+    limit: int | None, provider: str | None, force: bool, max_minutes: float | None = None
+) -> int:
     tax = load_taxonomy()
     llm = get_llm(provider)
     hackathon_labels = _labels("hackathons")
@@ -78,7 +81,15 @@ def run(limit: int | None, provider: str | None, force: bool) -> int:
     print(f"  {len(todo)} hackathons need ideas (provider: {llm.name}, {len(projects)} winners)")
 
     written = 0
+    deadline = time.monotonic() + max_minutes * 60 if max_minutes else None
+
     for index, h in enumerate(todo, 1):
+        # Stop early and let the caller commit. A hard CI timeout would kill the job before its
+        # commit step, throwing away every idea generated in the run.
+        if deadline and time.monotonic() > deadline:
+            print(f"    time budget reached — stopping after {index - 1}; the rest resume next run")
+            break
+
         labelled = (hackathon_labels.get(h.uid) or {}).get("domains")
         domains = normalise_domains(labelled) or ["general"]
         grounding = match_winners(h, domains, projects, project_labels, now_year)
@@ -106,9 +117,14 @@ def main() -> int:
     parser.add_argument("--limit", type=int, help="only process this many (useful for testing)")
     parser.add_argument("--provider", help="gemini or fake (default: $LLM_PROVIDER, else fake)")
     parser.add_argument("--force", action="store_true", help="regenerate even if ideas exist")
+    parser.add_argument(
+        "--max-minutes",
+        type=float,
+        help="stop cleanly after this long, so a CI timeout cannot discard the work",
+    )
     args = parser.parse_args()
     try:
-        return run(args.limit, args.provider, args.force)
+        return run(args.limit, args.provider, args.force, args.max_minutes)
     except Exception as exc:
         print(f"  FAILED {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1

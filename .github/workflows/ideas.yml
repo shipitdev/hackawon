@@ -23,8 +23,7 @@ concurrency:
 jobs:
   ideas:
     runs-on: ubuntu-latest
-    # A full regeneration of every hackathon takes ~20 minutes at the free tier's rate limit.
-    timeout-minutes: 60
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v5
@@ -42,7 +41,11 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          uv run python -m app.jobs.generate_ideas --provider gemini \
+          # Each hackathon takes ~30s (large prompt in, ~1.2k tokens out), so a full backfill of
+          # 262 runs for hours. The budget stops it cleanly with time to spare before the job
+          # timeout — otherwise CI would kill the job before the commit step and bin the work.
+          # Whatever is left simply resumes tomorrow night.
+          uv run python -m app.jobs.generate_ideas --provider gemini --max-minutes 50 \
             ${{ inputs.force && '--force' || '' }}
 
       - name: Rebuild the site bundle

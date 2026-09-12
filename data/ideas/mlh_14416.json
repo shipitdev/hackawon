@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-12T10:22:55.106832+05:30",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:14416",
+  "ideas": [
+    {
+      "build_hours": 72,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that intercepts data pipeline failures, queries lineage graphs to find downstream impact, generates verified repair pull requests, and writes the resolution back to metadata hubs.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "claude",
+        "data-engineering",
+        "data-lineage"
+      ],
+      "title": "DataHub-Sentinel: Autonomous Incident Response for Modern Data Stacks",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the winning strategy of the DataHub Agent Hackathon by solving high-friction data engineering incidents with automated agent loops and write-back functionality."
+    },
+    {
+      "build_hours": 64,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A multimodal platform that ingests raw video feeds, extracts visual events and text using vector embeddings, and transforms unstructured footage into instantly searchable analytical databases.",
+      "stack": [
+        "Python",
+        "HTML",
+        "embeddings",
+        "llm"
+      ],
+      "title": "QueryVison: Unstructured Video Intelligence Platform",
+      "track": "",
+      "why_it_could_win": "Follows the proven formula of turning complex unstructured data into accessible, queryable datasets that capture high scores for practical enterprise utility."
+    },
+    {
+      "build_hours": 48,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "An AI agent pipeline that converts raw CSV or SQL queries directly into fully formatted Tableau dashboards within seconds using the Tableau REST API and automated data profiling.",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "ai-agents",
+        "Tableau REST API"
+      ],
+      "title": "AutoTableau-Stream: Natural Language Dashboard Synthesizer",
+      "track": "",
+      "why_it_could_win": "Replicates the winning blueprint of the Tableau DataDev Hackathon by drastically cutting down visualization creation time through direct API automation."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A high-performance RAG and auto-embedding toolkit built specifically for MariaDB, allowing developers to index and query unstructured documents with optimized HNSW vector search.",
+      "stack": [
+        "Python",
+        "embeddings",
+        "hnsw",
+        "llm",
+        "mariadb"
+      ],
+      "title": "MariaDB-SeamlessRAG: Toon-Native Auto-Embedding Toolkit",
+      "track": "",
+      "why_it_could_win": "Capitalizes on sponsor-specific technology integration, following the exact strategy that won 2nd place at the MariaDB Hackathon."
+    },
+    {
+      "build_hours": 55,
+      "inspired_by": [
+        "github:1079913400"
+      ],
+      "pitch": "A frontend analytics dashboard providing real-time battery health monitoring, degradation predictions, and digital twin visualization using React, Vite, and predictive REST endpoints.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Vite",
+        "battery-monitoring",
+        "digital-twin"
+      ],
+      "title": "VoltTwin: AI-Powered Battery Intelligence & Predictive Digital Twin",
+      "track": "",
+      "why_it_could_win": "Employs the successful pattern of building robust predictive data visualization frontends for IoT and industrial digital twin monitoring."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

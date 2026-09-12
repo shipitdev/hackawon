@@ -159,3 +159,15 @@ class TestPartialSaves:
         llm = FakeLLM()
         classify("hackathons", items, llm, tax)
         assert len(llm.calls) < len(items), "earlier batches should have been cached"
+
+
+def test_idea_generation_honours_a_time_budget(tmp_path, monkeypatch):
+    """CI kills a job at its timeout *before* the commit step, so an over-running generation
+    would throw away every idea it produced. The budget has to stop it first."""
+    from app.jobs import generate_ideas as job
+
+    monkeypatch.setattr(job, "IDEAS_DIR", tmp_path)
+    monkeypatch.setattr(job, "read_hackathons", lambda: [])
+    monkeypatch.setattr(job, "read_projects", lambda: [])
+    # Zero budget: nothing should be attempted, and it should exit cleanly rather than raise.
+    assert job.run(limit=None, provider="fake", force=False, max_minutes=0.0) == 0

@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-12T10:22:06.243442+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:9f3e3e2ea4194c7195b519b6808c4779",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient intake agent utilizing ElevenLabs conversational voice synthesis and speech-to-text to collect clinical histories in multiple Indian regional languages and instantly structure them for doctors.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "ElevenLabs API",
+        "OpenAI"
+      ],
+      "title": "VoiceVeda: Indic Voice-First Healthcare Intake",
+      "track": "Best Project Built with ElevenLabs",
+      "why_it_could_win": "Directly targets the Best Project Built with ElevenLabs sponsor track by leveraging voice AI for a localized, high-impact clinical workflow in Kolkata."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An automated builder that spins up a fully customized portfolio website deployed directly onto a registered .xyz domain using an AI-generated project narrative and voiceover pitch.",
+      "stack": [
+        "TypeScript",
+        "Cloudflare Workers",
+        "ElevenLabs API",
+        "TailwindCSS"
+      ],
+      "title": "DomainScribe: Instant .xyz Portfolio and Pitch Generator",
+      "track": "HackSpire'26 Grand Prize",
+      "why_it_could_win": "Appeals directly to the .xyz sponsor by integrating domain generation APIs and showcasing decentralized or creative portfolios built during the hackathon itself."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An n8n-powered automation pipeline that ingests citizen complaints from WhatsApp, categorizes them using NLP, triggers automated municipal alerts, and tracks resolution status.",
+      "stack": [
+        "JavaScript",
+        "n8n",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "WorkflowNode: Automated Local Governance Grievance Router",
+      "track": "HackSpire'26 Grand Prize",
+      "why_it_could_win": "Integrates n8n workflows as the core orchestration engine, matching sponsor tooling preferences while solving a visible local civic infrastructure pain point."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An end-to-end automated audio bulletin that scrapes campus announcements, academic schedules, and tech news, then uses ElevenLabs ultra-realistic voices to broadcast a daily college news summary.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ElevenLabs API",
+        "React"
+      ],
+      "title": "CampusRadio: AI-Curated Autonomous Student Podcaster",
+      "track": "Best Project Built with ElevenLabs",
+      "why_it_could_win": "Demonstrates advanced text-to-speech customization and multi-speaker voice generation capabilities specifically targeted at the ElevenLabs track."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A forecasting dashboard that calculates regional transit risks and automatically executes contingency webhooks using n8n when weather or traffic anomalies are detected in eastern India.",
+      "stack": [
+        "Python",
+        "n8n",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "LogiRoute: Multi-Modal Supply Chain Disruption Predictor",
+      "track": "HackSpire'26 Grand Prize",
+      "why_it_could_win": "Combines predictive analytics with n8n automated action workflows, showcasing both hard data modeling and practical execution capability within the 26-hour limit."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}
