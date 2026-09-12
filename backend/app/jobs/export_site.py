@@ -20,6 +20,8 @@ import yaml
 
 from app.models import HackathonRecord
 from app.store import DATA_DIR, read_hackathons, read_projects
+from app.tools import load_tools
+from app.tools import to_web as tools_to_web
 
 OUTPUT_DIR = Path(__file__).resolve().parents[3] / "frontend" / "public" / "data"
 
@@ -203,6 +205,14 @@ def run(data_dir: Path | None = None, output_dir: Path | None = None) -> Path:
     written = write_idea_files(data_dir, out)
     if written:
         print(f"  wrote {written} per-hackathon idea files")
+
+    tools_path = (data_dir or DATA_DIR) / "tools.yml"
+    if tools_path.exists():
+        payload = tools_to_web(load_tools(tools_path))
+        (out / "tools.json").write_text(
+            json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+        )
+        print(f"  wrote tools.json — {payload['count']} tools")
 
     runs = (data_dir or DATA_DIR) / "source_runs.json"
     if runs.exists():

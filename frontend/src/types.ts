@@ -81,3 +81,20 @@ export interface Bundle {
   domains: Domain[];
   hackathons: Hackathon[];
 }
+
+export interface Tool {
+  name: string;
+  url: string;
+  what_you_get: string;
+  caveat: string | null;
+  free: boolean;
+  checked: string;
+  /** True when no human has confirmed the entry recently; the page says so rather than hiding it. */
+  stale: boolean;
+}
+
+export interface ToolsBundle {
+  categories: { id: string; label: string; tools: Tool[] }[];
+  count: number;
+  stale_after_days: number;
+}

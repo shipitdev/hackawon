@@ -1,6 +1,7 @@
 import { renderToStaticMarkup } from "react-dom/server";
 import { DetailPage } from "./DetailPage";
-import type { Domain, Hackathon, IdeaSet } from "./types";
+import { ToolsPage } from "./ToolsPage";
+import type { Domain, Hackathon, IdeaSet, ToolsBundle } from "./types";
 
 /**
  * Build-time rendering entry point, used by `scripts/prerender.mjs`.
@@ -35,4 +36,8 @@ export function pageMeta(hackathon: Hackathon, ideaCount: number) {
       : `${lead}. Dates, prizes, tracks and how to register.`;
 
   return { title, description: description.slice(0, 300) };
+}
+
+export function renderTools(data: ToolsBundle, base: string): string {
+  return renderToStaticMarkup(<ToolsPage data={data} base={base} />);
 }
