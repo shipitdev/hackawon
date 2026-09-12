@@ -208,3 +208,34 @@ describe("what search looks at", () => {
     expect(applyFilters(ai, { ...EMPTY_FILTERS, query: "machine learning" }, NOW)).toHaveLength(1);
   });
 });
+
+describe("the saved filter", () => {
+  const items = [make({ uid: "a" }), make({ uid: "b" }), make({ uid: "c" })];
+
+  it("shows only what is saved", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, onlySaved: true }, NOW, ["a", "c"]);
+    expect(out.map((h) => h.uid)).toEqual(["a", "c"]);
+  });
+
+  it("is off by default, so nothing is hidden before anyone saves anything", () => {
+    expect(applyFilters(items, EMPTY_FILTERS, NOW, [])).toHaveLength(3);
+  });
+
+  it("shows nothing when the filter is on and nothing is saved", () => {
+    expect(applyFilters(items, { ...EMPTY_FILTERS, onlySaved: true }, NOW, [])).toHaveLength(0);
+  });
+
+  it("combines with other filters", () => {
+    const mixed = [
+      make({ uid: "a", mode: "online" }),
+      make({ uid: "b", mode: "in_person" }),
+    ];
+    const out = applyFilters(
+      mixed,
+      { ...EMPTY_FILTERS, onlySaved: true, mode: "online" },
+      NOW,
+      ["a", "b"],
+    );
+    expect(out.map((h) => h.uid)).toEqual(["a"]);
+  });
+});

@@ -1,6 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Detail } from "./Detail";
 import { Hero } from "./Hero";
+import { authConfigured, currentViewer, onViewerChange, signInWithGitHub, signOut } from "./auth";
+import type { Viewer } from "./auth";
+import { loadFavourites, persistFavourite, toggle, writeLocal } from "./favourites";
 import { loadIndex } from "./data";
 import type { Bundle, Hackathon, Mode } from "./types";
 import {
@@ -52,10 +55,14 @@ function Card({
   h,
   topics,
   onOpen,
+  saved,
+  onToggleSave,
 }: {
   h: Hackathon;
   topics: Map<string, string>;
   onOpen: () => void;
+  saved: boolean;
+  onToggleSave: () => void;
 }) {
   const deadline = deadlineLabel(h);
   const prize = formatPrize(h);
@@ -73,9 +80,35 @@ function Card({
         className="pointer-events-none absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-accent/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
 
-      <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
-        {h.title}
-      </h3>
+      <div className="flex items-start justify-between gap-2">
+        <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
+          {h.title}
+        </h3>
+        <span
+          role="button"
+          tabIndex={0}
+          aria-label={saved ? `Remove ${h.title} from saved` : `Save ${h.title}`}
+          aria-pressed={saved}
+          title={saved ? "Saved — click to remove" : "Save for later"}
+          onClick={(e) => {
+            // The whole card is a button; without this the modal opens too.
+            e.stopPropagation();
+            onToggleSave();
+          }}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              e.stopPropagation();
+              onToggleSave();
+            }
+          }}
+          className={`-m-1 shrink-0 cursor-pointer rounded-lg p-1 text-base leading-none transition ${
+            saved ? "text-accent" : "text-faint hover:text-accent"
+          }`}
+        >
+          {saved ? "★" : "☆"}
+        </span>
+      </div>
 
       {h.tagline && <p className="line-clamp-2 text-sm leading-relaxed text-muted">{h.tagline}</p>}
 
@@ -142,6 +175,8 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [selected, setSelected] = useState<Hackathon | null>(null);
+  const [viewer, setViewer] = useState<Viewer | null>(null);
+  const [saved, setSaved] = useState<string[]>([]);
 
   useEffect(() => {
     loadIndex()
@@ -149,8 +184,34 @@ export default function App() {
       .catch((e) => setError(String(e)));
   }, []);
 
+  // Favourites work signed out (stored in this browser) and merge into the account on sign-in,
+  // so saving something is useful immediately and nothing is lost by signing in later.
+  useEffect(() => {
+    currentViewer().then(setViewer);
+    return onViewerChange(setViewer);
+  }, []);
+
+  // A ref alongside the state: two quick clicks must compose, and reading `saved` from a closure
+  // gave the second click a stale list that overwrote the first.
+  const savedRef = useRef<string[]>([]);
+
+  useEffect(() => {
+    loadFavourites(viewer).then((list) => {
+      savedRef.current = list;
+      setSaved(list);
+    });
+  }, [viewer]);
+
+  function toggleSaved(uid: string) {
+    const next = toggle(savedRef.current, uid);
+    savedRef.current = next;
+    setSaved(next);
+    writeLocal(next);
+    void persistFavourite(uid, next.includes(uid), viewer);
+  }
+
   const all = bundle?.hackathons ?? [];
-  const shown = useMemo(() => applyFilters(all, filters), [all, filters]);
+  const shown = useMemo(() => applyFilters(all, filters, new Date(), saved), [all, filters, saved]);
   const urgentCount = useMemo(() => all.filter((h) => isUrgent(h)).length, [all]);
   const abroadCount = useMemo(() => all.filter(isKnownAbroad).length, [all]);
   const ideaTotal = useMemo(() => all.filter((h) => h.idea_count > 0).length, [all]);
@@ -239,12 +300,49 @@ export default function App() {
             >
               Skip abroad{abroadCount > 0 && ` (${abroadCount})`}
             </Control>
+            {saved.length > 0 && (
+              <Control
+                active={filters.onlySaved}
+                onClick={() => set("onlySaved", !filters.onlySaved)}
+              >
+                Saved ({saved.length})
+              </Control>
+            )}
             <a
               href={`${import.meta.env.BASE_URL}tools/`}
               className="rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-accent"
             >
               Toolkit
             </a>
+            {authConfigured &&
+              (viewer ? (
+                <button
+                  type="button"
+                  onClick={() => signOut()}
+                  title={`Signed in as ${viewer.handle ?? "you"} — click to sign out`}
+                  className="flex items-center gap-2 rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-ink"
+                >
+                  {viewer.avatar && (
+                    <img
+                      src={viewer.avatar}
+                      alt=""
+                      width={18}
+                      height={18}
+                      className="rounded-full"
+                    />
+                  )}
+                  {viewer.handle ?? "Signed in"}
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => signInWithGitHub()}
+                  title="Sign in to keep your saved hackathons across devices"
+                  className="rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-accent"
+                >
+                  Sign in with GitHub
+                </button>
+              ))}
           </div>
         </div>
 
@@ -289,7 +387,14 @@ export default function App() {
 
             <div className="grid gap-3 sm:grid-cols-2">
               {shown.map((h) => (
-                <Card key={h.uid} h={h} topics={topicLabels} onOpen={() => open(h)} />
+                <Card
+                key={h.uid}
+                h={h}
+                topics={topicLabels}
+                onOpen={() => open(h)}
+                saved={saved.includes(h.uid)}
+                onToggleSave={() => toggleSaved(h.uid)}
+              />
               ))}
             </div>
 

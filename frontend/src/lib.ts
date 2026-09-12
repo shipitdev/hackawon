@@ -66,6 +66,7 @@ export interface Filters {
   domain: string | "all";
   onlyUrgent: boolean;
   hideAbroad: boolean;
+  onlySaved: boolean;
 }
 
 export const EMPTY_FILTERS: Filters = {
@@ -75,6 +76,7 @@ export const EMPTY_FILTERS: Filters = {
   domain: "all",
   onlyUrgent: false,
   hideAbroad: false,
+  onlySaved: false,
 };
 
 function haystack(h: Hackathon): string {
@@ -113,9 +115,15 @@ export function isKnownAbroad(h: Hackathon): boolean {
   return country !== "" && !INDIA.has(country);
 }
 
-export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): Hackathon[] {
+export function applyFilters(
+  items: Hackathon[],
+  f: Filters,
+  now = new Date(),
+  saved: string[] = [],
+): Hackathon[] {
   const query = f.query.trim().toLowerCase();
   return items.filter((h) => {
+    if (f.onlySaved && !saved.includes(h.uid)) return false;
     if (f.mode !== "all" && h.mode !== f.mode) return false;
     if (f.source !== "all" && h.source !== f.source) return false;
     if (f.domain !== "all" && !h.domains.includes(f.domain)) return false;
