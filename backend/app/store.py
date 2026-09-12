@@ -11,7 +11,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-from app.models import HackathonRecord
+from app.models import HackathonRecord, ProjectRecord
 
 #: repo root -> data/
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
@@ -54,3 +54,26 @@ def write_source_runs(runs: list[dict], data_dir: Path | None = None) -> Path:
     payload = {"updated_at": datetime.now().astimezone().isoformat(), "runs": runs}
     path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
     return path
+
+
+def write_project(record: ProjectRecord, data_dir: Path | None = None) -> bool:
+    """Write a past project. Same change-detection contract as `write_hackathon`."""
+    path = (data_dir or DATA_DIR) / "winners" / record.source / f"{record.source_id}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = json.dumps(
+        record.model_dump(mode="json"), indent=2, sort_keys=True, ensure_ascii=False
+    )
+    if path.exists() and path.read_text(encoding="utf-8") == payload:
+        return False
+    path.write_text(payload, encoding="utf-8")
+    return True
+
+
+def read_projects(data_dir: Path | None = None) -> list[ProjectRecord]:
+    root = (data_dir or DATA_DIR) / "winners"
+    if not root.exists():
+        return []
+    return [
+        ProjectRecord.model_validate_json(p.read_text(encoding="utf-8"))
+        for p in sorted(root.glob("*/*.json"))
+    ]
