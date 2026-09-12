@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-12T10:41:06.520477+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754530",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous multi-agent system designed for college administration that automatically detects, categorizes, and routes infrastructure or student grievances to the correct department using self-improving semantic routing.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Semantic Router",
+        "LangChain"
+      ],
+      "title": "CampusIncidentAgent",
+      "track": "",
+      "why_it_could_win": "Targets an operational pain point directly felt by the organizing institution, Mahendra Engineering College, making it immediately relatable to the judging panel."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual workflow orchestration tool for student club event approvals that uses BPMN models to govern autonomous multi-agent execution with human-in-the-loop checkpoints.",
+      "stack": [
+        "Python",
+        "Bpmn-js",
+        "UIPath Maestro",
+        "OpenAI API"
+      ],
+      "title": "BPMNAgentFlow",
+      "track": "",
+      "why_it_could_win": "Demonstrates strict enterprise process governance and workflow control, appealing to judges looking for structured, production-ready agentic architectures."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895",
+        "github:1163393786"
+      ],
+      "pitch": "An educational reinforcement learning environment where two AI student agents debate complex engineering concepts to find gaps in each other's reasoning and summarize findings for users.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit",
+        "Transformers"
+      ],
+      "title": "AdversarialStudyGroup",
+      "track": "",
+      "why_it_could_win": "Leverages advanced multi-agent game theory and self-play mechanics, showcasing deep technical implementation beyond basic API wrappers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An on-device local AI code review agent running on lightweight NPUs to provide privacy-first, zero-latency code quality checks and refactoring suggestions for student programming labs.",
+      "stack": [
+        "Python",
+        "LlamaIndex",
+        "Ollama",
+        "ONNX Runtime"
+      ],
+      "title": "OfflineCodeMentor",
+      "track": "",
+      "why_it_could_win": "Solves the practical hardware and internet connectivity constraints often faced during campus-hosted hackathons while emphasizing hardware acceleration."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data governance agent that monitors campus database schemas, detects schema drifts or anomalies, validates the fix, and automatically submits pull requests with audit logs.",
+      "stack": [
+        "Python",
+        "DataHub API",
+        "Claude API",
+        "GitPython"
+      ],
+      "title": "DataLineageAgent",
+      "track": "",
+      "why_it_could_win": "Implements complex end-to-end data lifecycle tracing with automated verification, satisfying the judging criteria for technical complexity and real-world impact."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-12T10:31:09.434890+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1737808",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router that dynamically categorizes and routes incoming student problem statements at Alegria to the correct department with minimal latency and cost.",
+      "stack": [
+        "Python",
+        "llm-routing",
+        "qwen",
+        "semantic-router",
+        "superlinked"
+      ],
+      "title": "Alegria Semantic Router for Support",
+      "track": "General",
+      "why_it_could_win": "Directly tackles the specific operational workflow of the event organizers using a proven high-performance architecture."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis and agentic execution layer specifically tailored for the Alegria tech portal submission pipelines.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "ai-governance",
+        "bpmn",
+        "human-in-the-loop"
+      ],
+      "title": "BPMN Agent Workflow for Alegria",
+      "track": "General",
+      "why_it_could_win": "Leverages human-in-the-loop agent governance which heavily appeals to enterprise workflow automation judges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A lightweight rainbow-based reinforcement learning wrapper designed to make large language models execute reasoning tasks with significantly fewer tokens during hackathon evaluation.",
+      "stack": [
+        "Python",
+        "llm",
+        "rainbow",
+        "reinforcement-learning"
+      ],
+      "title": "Reasoning Optimizer for Alegria LLMs",
+      "track": "General",
+      "why_it_could_win": "Demonstrates advanced ML engineering that stands out from typical wrapper applications."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent with an evidence gate and verified repair mechanism for the backend databases running the Alegria registration portal.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "claude",
+        "data-engineering",
+        "data-lineage"
+      ],
+      "title": "Autonomous Data Incident Agent for Tech Alegria",
+      "track": "General",
+      "why_it_could_win": "Solves real infrastructure pain points familiar to hackathon organizers and system administrators."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two identical adversarial AI agents that evaluate and stress-test student code submissions for vulnerabilities and edge cases before final evaluation.",
+      "stack": [
+        "Python",
+        "adversarial-ai",
+        "braintrust",
+        "datadog",
+        "elevenlabs"
+      ],
+      "title": "Adversarial Code Integrity Agent for HackCelestial",
+      "track": "General",
+      "why_it_could_win": "Showcases complex multi-agent adversarial mechanics that capture judges' attention through sheer technical ambition."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

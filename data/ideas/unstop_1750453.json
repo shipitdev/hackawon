@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-09-12T10:39:13.237433+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750453",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A practice arena web app for students preparing for blind coding challenges, featuring audio feedback and syntax memory drills.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Web Audio API"
+      ],
+      "title": "CodeClash Blind-Coding Simulator",
+      "track": "Blind Coding",
+      "why_it_could_win": "Directly targets the unique event format of CodeClash by providing a training tool for the organizers' own featured Blind Coding round."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A real-time spectator and visualization dashboard for head-to-head DSA battles, showing live memory and execution metrics.",
+      "stack": [
+        "Python",
+        "WebSockets",
+        "React"
+      ],
+      "title": "Algorithmic Duel Visualizer",
+      "track": "DSA Battle",
+      "why_it_could_win": "Solves a problem the judges and organizers face during live competitive programming events by making battles engaging for spectators."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A specialized code editor extension that trains developers to recall syntax without visual cues by blanking the screen periodically during timed sprints.",
+      "stack": [
+        "TypeScript",
+        "VS Code API"
+      ],
+      "title": "MemoryTrace IDE Extension",
+      "track": "Blind Coding",
+      "why_it_could_win": "Built for the exact demographic of 1st and 2nd-year students participating in the CodeClash foundation-building challenges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated test harness and judge system that runs custom edge-case benchmarks for competitive programming problem sets.",
+      "stack": [
+        "Python",
+        "Docker",
+        "FastAPI"
+      ],
+      "title": "DSA Battle Benchmark Engine",
+      "track": "DSA Battle",
+      "why_it_could_win": "Targets the technical core of the DSA Battle track by providing robust evaluation tooling for real-time problem sets."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A peer-to-peer coding culture and mentorship matching platform designed for early-stage programming students to find study groups.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Cosmos Culture Companion",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the host organization Cosmos's mission of building a genuine campus coding culture."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

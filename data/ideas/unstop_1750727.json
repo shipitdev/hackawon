@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-12T10:39:22.986725+05:30",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750727",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An edge-deployed IoT system using low-cost turbidity and pH sensors connected via ESP32 to predict and alert authorities about industrial water pollution spikes in real time.",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "TypeScript"
+      ],
+      "title": "AquaSense-IoT-Spill-Detector",
+      "track": "Energy & Sustainable Technologies",
+      "why_it_could_win": "Aligns with Energy & Sustainable Technologies while mimicking the predictive environmental monitoring approach that won 1st place at the AquaSense IoT Hackathon."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A microcontroller-driven waste sorting bin utilizing a camera module and a lightweight computer vision model to physically separate metal, plastic, and organic waste on a conveyor belt.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV"
+      ],
+      "title": "Autonomous-Garbage-Segregator",
+      "track": "Smart Infrastructure & Digital Ecosystems",
+      "why_it_could_win": "Directly targets Smart Infrastructure & Digital Ecosystems by delivering a physical, working prototype in line with the successful TechnoMorph garbage classifier project."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An autonomous drone flight controller and satellite data integration pipeline that scans industrial perimeters for unauthorized land use changes and boundary violations.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Qdrant",
+        "C++"
+      ],
+      "title": "GeoNex-Industrial-Compliance-Drone",
+      "track": "Resilience & Emerging Technologies",
+      "why_it_could_win": "Leverages the proven high-scoring formula of the GeoNex-ATLAS satellite monitoring project, appealing to Resilience & Emerging Technologies judges looking for real-world enforcement tools."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent IoT diagnostic platform running locally on edge hardware to detect micro-grid power anomalies and autonomously reroute distribution feeds using fast machine learning.",
+      "stack": [
+        "TypeScript",
+        "Gemini",
+        "LangGraph",
+        "TimescaleDB"
+      ],
+      "title": "AutoOps-Smart-Grid-Diagnostic",
+      "track": "Intelligent & Autonomous Systems",
+      "why_it_could_win": "Combines robust closed-loop industrial IoT operations with proven multi-agent diagnostic patterns that secured 3rd place at SEAL Hackathon."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "A solar-powered mesh network node equipped with thermal and gas sensors running local anomaly detection models to provide early wildfire risk assessment in remote forest regions.",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "TensorFlow Lite"
+      ],
+      "title": "Wildfire-Edge-Sentinel",
+      "track": "Energy & Sustainable Technologies",
+      "why_it_could_win": "Matches the exact focus of the Sacramento State AI Hackathon winner by providing a quantifiable risk assessment tool for environmental disaster prevention."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

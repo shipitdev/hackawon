@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-12T10:26:04.775372+05:30",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hackumass",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive analytics dashboard tailored for university administrators in Amherst to forecast campus safety incidents, resource bottlenecks, and student support demand using historical campus data and Poisson regression.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "CampusPulse AI: Student Incident and Resource Forecaster",
+      "track": "",
+      "why_it_could_win": "Targets a problem university judges and local organizers feel directly, echoing the predictive accuracy and backtesting approach seen in winning forecasting models."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace and USDC escrow system designed specifically to streamline budgeting and reimbursements for student organizations at UMass Amherst.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Solidity",
+        "Base"
+      ],
+      "title": "PioneerPay: Autonomous Club Funding & Escrow Agent",
+      "track": "",
+      "why_it_could_win": "Combines autonomous agent mechanics with clear financial utility, following the success formula of decentralized escrow marketplace applications."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutritional assistant that integrates directly with UMass Dining menus to generate personalized meal plans, track micronutrients, and accommodate severe dietary restrictions for students.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "Amherst Dining NutriGuide AI",
+      "track": "",
+      "why_it_could_win": "Solves a hyper-local problem using highly practical wellness AI technology, mirroring the rapid success of localized student nutrition apps."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An intelligent routing and matching app that connects senior citizens in the Pioneer Valley with student volunteer drivers for grocery runs and medical appointments.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "Google Maps API"
+      ],
+      "title": "ValleyConnect Senior Shuttle",
+      "track": "",
+      "why_it_could_win": "Delivers a clear, quantified social impact for the local Amherst community, matching the criteria that win social good hackathon tracks."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool to track green space changes, construction runoff, and environmental compliance across the UMass Amherst campus footprint.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Leaflet.js",
+        "Sentinel Hub API"
+      ],
+      "title": "EcoMonitor UMass: Satellite Land Compliance",
+      "track": "",
+      "why_it_could_win": "Leverages advanced geospatial AI for measurable environmental monitoring, following the architectural patterns of successful industrial compliance tools."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

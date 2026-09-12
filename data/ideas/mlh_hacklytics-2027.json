@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-12T10:25:24.105060+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hacklytics-2027",
+  "ideas": [
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1079913400",
+        "github:1207207353"
+      ],
+      "pitch": "An AI-powered digital twin of Atlanta traffic patterns that integrates real-time GDOT sensor feeds with local event data using an auto-embedding vector store to predict bottleneck incidents before they cascade.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Leaflet.js",
+        "PostgreSQL",
+        "HNSW"
+      ],
+      "title": "Atlanta Traffic Digital Twin and Predictive Congestion RAG",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of combining complex data visualization and digital twins with local spatial data, making it highly relevant for judges looking for real-world impact in Atlanta."
+    },
+    {
+      "build_hours": 60,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that monitors incoming public health data streams, detects anomalies in patient metrics, automatically generates data lineage graphs, and opens verified pull requests to fix upstream parsing issues.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "DataHub",
+        "Docker",
+        "GitHub REST API"
+      ],
+      "title": "Auto-ML Data Lineage Incident Response Agent for Healthcare Datasets",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the architecture of recent grand-prize-winning data engineering and agentic incident response projects by demonstrating automated repair with an evidence gate."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A 3-turn evaluation benchmark suite deployed locally at the hackathon to measure self-correction and reasoning convergence rates across various 8B parameter open-source models.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Ollama",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "Metacognition Benchmark for Local Open-Source Small Language Models",
+      "track": "",
+      "why_it_could_win": "Follows the exact blueprint of the DeepMind x Kaggle 'Measuring Progress Toward AGI' hackathon winner by focusing on rigorous evaluation and metacognition benchmarking."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "A natural language interface that converts complex public safety datasets into interactive, production-ready dashboards in seconds using automated query generation and charting APIs.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Tableau REST API",
+        "OpenAI API",
+        "Node.js"
+      ],
+      "title": "Text-to-Dashboard Public Safety Analytics Engine for Georgia",
+      "track": "",
+      "why_it_could_win": "Replicates the proven formula of the Tableau DataDev Hackathon winner by drastically reducing the friction between natural language text prompts and fully rendered data visualization dashboards."
+    },
+    {
+      "build_hours": 55,
+      "inspired_by": [
+        "github:1363148261"
+      ],
+      "pitch": "An agentic greenlight simulator that ingests unstructured pitch decks and historical regional box office data to autonomously evaluate script viability, budget risks, and casting recommendations.",
+      "stack": [
+        "Python",
+        "ClickHouse",
+        "Streamlit",
+        "Claude API",
+        "LangGraph"
+      ],
+      "title": "Autonomous Studio Executive for Local Atlanta Film Archives",
+      "track": "",
+      "why_it_could_win": "Built directly on the grand prize-winning concept of agentic cinema workflows, appealing to judges interested in creative industries combined with rigorous multi-agent reasoning."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

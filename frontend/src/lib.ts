@@ -1,4 +1,4 @@
-import type { Hackathon, Mode } from "./types";
+import type { Exemplar, Hackathon, Mode } from "./types";
 
 const startOfDay = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
 
@@ -118,7 +118,7 @@ export function applyFilters(items: Hackathon[], f: Filters, now = new Date()): 
  * This is how personalisation works without a server: no API key of ours is exposed, nothing
  * costs us anything, and the student uses their own free account.
  */
-export function buildPrompt(h: Hackathon): string {
+export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
   const lines = [
     `I'm entering a hackathon and want project ideas that could win it.`,
     ``,
@@ -133,11 +133,11 @@ export function buildPrompt(h: Hackathon): string {
     h.excerpt ? `\nAbout: ${h.excerpt}` : "",
   ].filter(Boolean);
 
-  if (h.exemplars?.length) {
+  if (exemplars.length) {
     lines.push(
       ``,
       `Projects that won similar hackathons:`,
-      ...h.exemplars.map(
+      ...exemplars.map(
         (e) =>
           `- ${e.title}${e.prize ? ` — ${e.prize}` : ""}${
             e.hackathon_name ? ` at ${e.hackathon_name}` : ""
@@ -158,11 +158,22 @@ export function buildPrompt(h: Hackathon): string {
   return lines.join("\n");
 }
 
-export async function copyPrompt(h: Hackathon): Promise<boolean> {
+export async function copyPrompt(h: Hackathon, exemplars: Exemplar[] = []): Promise<boolean> {
   try {
-    await navigator.clipboard.writeText(buildPrompt(h));
+    await navigator.clipboard.writeText(buildPrompt(h, exemplars));
     return true;
   } catch {
     return false;
   }
+}
+
+/**
+ * Where a hackathon's ideas live.
+ *
+ * The backend writes these filenames in `export_site.py` using the same rule. A mismatch would
+ * 404 every idea file silently, so it is one function with a test rather than an inline replace
+ * in two codebases.
+ */
+export function ideaFileName(uid: string): string {
+  return `${uid.replace(":", "_")}.json`;
 }

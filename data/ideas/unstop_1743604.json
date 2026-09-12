@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-12T10:32:59.960986+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1743604",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data cleaning and incident response agent built on Amazon product datasets to automatically fix missing attributes, correct erroneous taxonomies, and generate pull requests for catalog updates.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Pandas",
+        "AWS Lambda",
+        "Claude"
+      ],
+      "title": "AmazonCatalogAgent",
+      "track": "",
+      "why_it_could_win": "Directly targets the core premise of the Amazon ML Challenge by working with Amazon-scale datasets and utilizing data-engineering agent patterns that previously won the DataHub Agent Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A video intelligence platform tailored for Amazon sellers to convert unstructured product unboxing and review videos into searchable feature tags, sentiment analytics, and compliance checklists.",
+      "stack": [
+        "Python",
+        "AWS Rekognition",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AWSBuilderVision",
+      "track": "",
+      "why_it_could_win": "Replicates the winning strategy of the Data & Design Hackathon by tackling unstructured multimedia data and transforming it into enterprise-ready searchable assets."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A high-performance RAG and auto-embedding toolkit optimized for AWS database infrastructure to let internal Amazon category managers query vast vendor policies and historical sales trends instantly.",
+      "stack": [
+        "Python",
+        "PostgreSQL",
+        "pgvector",
+        "LangChain",
+        "AWS Bedrock"
+      ],
+      "title": "AmazonSemanticRAG",
+      "track": "",
+      "why_it_could_win": "Leverages the proven architecture of database-native RAG systems that secured top placements in recent database-centric hackathons."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A multi-turn evaluation benchmark specifically designed to test the reasoning limits and hallucination rates of large language models when performing automated product categorization tasks for e-commerce.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Streamlit"
+      ],
+      "title": "CatalogMetacognitionEval",
+      "track": "",
+      "why_it_could_win": "Adapts award-winning metacognition benchmark frameworks to a high-value e-commerce domain, appealing directly to ML judges looking for rigorous evaluation methodologies."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1363148261"
+      ],
+      "pitch": "An autonomous forecasting agent that simulates market demand, competitor pricing, and supply chain bottlenecks for newly proposed private-label Amazon products before they are greenlit.",
+      "stack": [
+        "Python",
+        "AutoGPT",
+        "Streamlit",
+        "AWS S3",
+        "Pandas"
+      ],
+      "title": "AmazonExecutiveGreenlightAgent",
+      "track": "",
+      "why_it_could_win": "Implements the complex agentic studio and simulation executive pattern that won top honors at the Agentic Cinema Hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

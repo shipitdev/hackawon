@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import type { Hackathon } from "./types";
-import { copyPrompt, formatDates, formatPrize, where } from "./lib";
+import type { Hackathon, IdeaSet } from "./types";
+import { copyPrompt, formatDates, formatPrize, ideaFileName, where } from "./lib";
 
 /**
  * The panel behind a hackathon card: what it is, ideas grounded in past winners, and the
@@ -19,9 +19,28 @@ export function Detail({
   onClose: () => void;
 }) {
   const [copied, setCopied] = useState(false);
-  const ideas = hackathon.ideas ?? [];
-  const exemplars = hackathon.exemplars ?? [];
+  const [set, setSet] = useState<IdeaSet | null>(null);
+  const [failed, setFailed] = useState(false);
+
+  const ideas = set?.ideas ?? [];
+  const exemplars = set?.exemplars ?? [];
   const byUid = new Map(exemplars.map((e) => [e.uid, e]));
+  const loading = hackathon.idea_count > 0 && !set && !failed;
+
+  // Ideas are ~6 KB each and most visitors open only a couple, so they are fetched here rather
+  // than shipped in the index — that kept the initial download at 42 KB instead of 264 KB.
+  useEffect(() => {
+    if (hackathon.idea_count === 0) return;
+    let live = true;
+    const file = `${import.meta.env.BASE_URL}data/ideas/${ideaFileName(hackathon.uid)}`;
+    fetch(file)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((data: IdeaSet) => live && setSet(data))
+      .catch(() => live && setFailed(true));
+    return () => {
+      live = false;
+    };
+  }, [hackathon.uid, hackathon.idea_count]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -35,19 +54,19 @@ export function Detail({
   }, [onClose]);
 
   async function handleCopy() {
-    const ok = await copyPrompt(hackathon);
+    const ok = await copyPrompt(hackathon, exemplars);
     setCopied(ok);
     setTimeout(() => setCopied(false), 2500);
   }
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/50 p-4 sm:p-6"
+      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/70 p-4 backdrop-blur-sm sm:p-6"
       onClick={onClose}
       role="presentation"
     >
       <div
-        className="my-4 w-full max-w-2xl rounded-xl border border-line bg-surface p-5 shadow-xl sm:p-6"
+        className="glass my-4 w-full max-w-2xl rounded-3xl p-5 shadow-2xl shadow-black/60 sm:p-6"
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
@@ -55,14 +74,14 @@ export function Detail({
       >
         <div className="mb-4 flex items-start justify-between gap-4">
           <div>
-            <h2 className="text-xl font-bold leading-tight">{hackathon.title}</h2>
+            <h2 className="text-xl font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-2xl">{hackathon.title}</h2>
             {hackathon.tagline && <p className="mt-1 text-sm text-muted">{hackathon.tagline}</p>}
           </div>
           <button
             type="button"
             onClick={onClose}
             aria-label="Close"
-            className="shrink-0 rounded-lg border border-line px-2.5 py-1 text-sm text-muted hover:border-accent/40"
+            className="shrink-0 rounded-xl border border-white/10 px-2.5 py-1 text-sm text-muted transition hover:border-accent/50 hover:text-accent"
           >
             ✕
           </button>
@@ -78,7 +97,7 @@ export function Detail({
           ]
             .filter(Boolean)
             .map((label, i) => (
-              <span key={i} className="rounded-full border border-line bg-ink/4 px-2 py-0.5">
+              <span key={i} className="rounded-full border border-white/8 bg-white/[0.03] px-2 py-0.5 text-muted">
                 {label}
               </span>
             ))}
@@ -96,14 +115,14 @@ export function Detail({
             href={hackathon.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg bg-accent px-3 py-2 text-sm font-medium text-white hover:opacity-90"
+            className="rounded-xl bg-accent px-4 py-2 text-sm font-medium text-surface transition hover:brightness-110"
           >
             Register on {hackathon.source}
           </a>
           <button
             type="button"
             onClick={handleCopy}
-            className="rounded-lg border border-line px-3 py-2 text-sm hover:border-accent/40"
+            className="rounded-xl border border-white/10 px-4 py-2 text-sm text-muted transition hover:border-accent/50 hover:text-ink"
             title="Copies a ready-made prompt you can paste into ChatGPT or Gemini"
           >
             {copied ? "Copied ✓" : "Copy prompt for your own AI"}
@@ -111,18 +130,35 @@ export function Detail({
         </div>
 
         <h3 className="mb-2 text-sm font-semibold">
-          Project ideas{ideas.length > 0 && ` (${ideas.length})`}
+          Project ideas{hackathon.idea_count > 0 && ` (${hackathon.idea_count})`}
         </h3>
 
-        {ideas.length === 0 && (
-          <p className="rounded-lg border border-line p-4 text-sm text-muted">
+        {loading && (
+          <div className="space-y-3">
+            {Array.from({ length: Math.min(hackathon.idea_count, 3) }).map((_, i) => (
+              <div
+                key={i}
+                className="h-24 animate-pulse rounded-2xl border border-white/8 bg-white/[0.02]"
+              />
+            ))}
+          </div>
+        )}
+
+        {failed && (
+          <p className="rounded-2xl border border-white/8 p-4 text-sm leading-relaxed text-muted">
+            Could not load the ideas for this one. The “Copy prompt” button above still works.
+          </p>
+        )}
+
+        {!loading && !failed && ideas.length === 0 && (
+          <p className="rounded-2xl border border-white/8 p-4 text-sm leading-relaxed text-muted">
             No ideas generated for this one yet. The “Copy prompt” button above gives you a
             ready-made prompt with this hackathon's tracks and sponsors filled in.
           </p>
         )}
 
-        {hackathon.grounding?.thin && ideas.length > 0 && (
-          <p className="mb-3 rounded-lg border border-line bg-ink/4 p-3 text-xs text-muted">
+        {set?.grounding?.thin && ideas.length > 0 && (
+          <p className="mb-3 rounded-xl border border-white/8 bg-white/[0.03] p-3 text-xs leading-relaxed text-muted">
             Few closely-matching past winners were found, so these ideas lean on this hackathon's
             own tracks rather than on proven patterns. Treat them as starting points.
           </p>
@@ -130,8 +166,8 @@ export function Detail({
 
         <ol className="space-y-3">
           {ideas.map((idea, i) => (
-            <li key={i} className="rounded-lg border border-line p-4">
-              <h4 className="font-semibold">{idea.title}</h4>
+            <li key={i} className="rounded-2xl border border-white/8 bg-white/[0.02] p-4">
+              <h4 className="font-semibold tracking-[-0.01em] text-ink">{idea.title}</h4>
               <p className="mt-1 text-sm">{idea.pitch}</p>
               <p className="mt-2 text-sm text-muted">
                 <span className="font-medium text-ink/80">Why it could win: </span>
@@ -139,17 +175,17 @@ export function Detail({
               </p>
               <div className="mt-2 flex flex-wrap gap-1.5 text-xs text-muted">
                 {idea.track && (
-                  <span className="rounded-full border border-accent/25 bg-accent/10 px-2 py-0.5 text-accent">
+                  <span className="rounded-full border border-accent/30 bg-accent/12 px-2 py-0.5 text-accent">
                     {idea.track}
                   </span>
                 )}
                 {idea.build_hours ? (
-                  <span className="rounded-full border border-line px-2 py-0.5">
+                  <span className="rounded-full border border-white/8 px-2 py-0.5">
                     ~{idea.build_hours}h
                   </span>
                 ) : null}
                 {idea.stack.slice(0, 6).map((tech) => (
-                  <span key={tech} className="rounded-full border border-line px-2 py-0.5">
+                  <span key={tech} className="rounded-full border border-white/8 px-2 py-0.5">
                     {tech}
                   </span>
                 ))}

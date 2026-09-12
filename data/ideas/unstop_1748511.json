@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-12T10:37:25.818046+05:30",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1748511",
+  "ideas": [
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool specifically tracking urban sprawl, illegal deforestation, and water body degradation around Pune's industrial and protected zones.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "EcoWatch Pune: Satellite Land Cover and Deforestation Monitor",
+      "track": "SDG 15: Life on Land",
+      "why_it_could_win": "Follows the exact winning pattern of GeoNex-ATLAS by applying satellite data monitoring to real environmental SDG challenges, which deeply appeals to ACM academic judges focused on sustainability."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A machine learning platform predicting pollution spikes and dissolved oxygen depletion in local rivers 48 hours in advance using historical sensor data and weather inputs.",
+      "stack": [
+        "Python",
+        "Scikit-learn",
+        "Flask",
+        "TypeScript",
+        "Leaflet.js"
+      ],
+      "title": "AquaSense Pune: Mula-Mutha River Water Quality Predictor",
+      "track": "SDG 6: Clean Water and Sanitation",
+      "why_it_could_win": "Mirrors the iForeSea-AquaSense win by addressing a local, urgent environmental metric (river health) with clear, actionable predictive models."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision garbage classification system optimized for local municipal waste streams, paired with an Arduino prototype simulation to assist dry and wet waste routing.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Arduino",
+        "JavaScript"
+      ],
+      "title": "WasteSort AI: Smart Municipal Segregation Assistant",
+      "track": "SDG 11: Sustainable Cities and Communities",
+      "why_it_could_win": "Directly builds on the TechnoMorph Hackathon runner-up project, providing a physical and practical AI application that targets urban solid waste management under SDG 11."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "A machine learning pipeline that forecasts solar and wind energy output using local meteorological data to optimize microgrid storage efficiency.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "XGBoost",
+        "Streamlit"
+      ],
+      "title": "GridPulse: Renewable Energy Generation Forecasting for Local Microgrids",
+      "track": "SDG 7: Affordable and Clean Energy",
+      "why_it_could_win": "Replicates the winning architecture of the Energy A.I. Hackathon 2025 by delivering a production-ready forecasting backend that supports clean energy transitions."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "An AI risk-assessment platform calculating dryness indices and wildfire probability for rural agricultural belts surrounding Maharashtra using satellite indices and weather feeds.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "GeoPandas",
+        "React",
+        "Node.js"
+      ],
+      "title": "AgroShield AI: Hyper-Local Wildfire and Crop Risk Assessment",
+      "track": "SDG 13: Climate Action",
+      "why_it_could_win": "Adapts the Sacramento State AI Hackathon winning formula to regional agricultural vulnerabilities, providing measurable risk mitigation scores for farmers."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

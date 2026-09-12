@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildPrompt } from "./lib";
+import { buildPrompt, ideaFileName } from "./lib";
 import type { Hackathon } from "./types";
 
 function make(overrides: Partial<Hackathon> = {}): Hackathon {
@@ -27,6 +27,7 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     team_max: 4,
     participants_count: null,
     domains: ["ai-ml"],
+    idea_count: 0,
     ...overrides,
   };
 }
@@ -42,21 +43,18 @@ describe("the copy-prompt fallback", () => {
   });
 
   it("includes past winners when we have them", () => {
-    const prompt = buildPrompt(
-      make({
-        exemplars: [
-          {
-            uid: "github:1",
-            title: "Haven",
-            url: "https://x/1",
-            prize: "1st place",
-            hackathon_name: "MongoDB AI Hackathon",
-            year: 2025,
-            tech: ["Python"],
-          },
-        ],
-      }),
-    );
+    // Exemplars now arrive from a separately-fetched file, so they are passed in.
+    const prompt = buildPrompt(make(), [
+      {
+        uid: "github:1",
+        title: "Haven",
+        url: "https://x/1",
+        prize: "1st place",
+        hackathon_name: "MongoDB AI Hackathon",
+        year: 2025,
+        tech: ["Python"],
+      },
+    ]);
     expect(prompt).toContain("Haven");
     expect(prompt).toContain("MongoDB AI Hackathon");
   });
@@ -72,5 +70,14 @@ describe("the copy-prompt fallback", () => {
     expect(prompt).toContain("HackSpire'26");
     expect(prompt).not.toContain("undefined");
     expect(prompt).not.toContain("null");
+  });
+});
+
+describe("idea file naming", () => {
+  it("matches the filename the backend writes", () => {
+    // backend: data/ideas/<uid with ':' -> '_'>.json
+    expect(ideaFileName("devfolio:9f3e3e2e")).toBe("devfolio_9f3e3e2e.json");
+    expect(ideaFileName("unstop:1737808")).toBe("unstop_1737808.json");
+    expect(ideaFileName("mlh:14416")).toBe("mlh_14416.json");
   });
 });

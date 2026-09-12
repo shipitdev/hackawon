@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-09-12T10:36:16.888817+05:30",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1747088",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive web debugger for C++ and Python engineers that steps through complex sliding window and monotonic stack algorithmic problems visually, highlighting time complexity bottlenecks.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "C++",
+        "WebAssembly"
+      ],
+      "title": "SlidingWindowVisualizer & Monotonic Stack Analyzer",
+      "track": "",
+      "why_it_could_win": "Directly targets the core topics of Section A (Arrays, Sliding Window, Monotonic Stack) and Section C (C++, OOP, STL), making it an instant hit with evaluators testing technical fundamentals."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight browser extension and sandbox environment that diagnoses CORS headers, HTTP status codes, and REST API payload discrepancies in real time during coding assessments.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Chrome Extensions"
+      ],
+      "title": "CORS & REST API Sandbox for Online Assessments",
+      "track": "",
+      "why_it_could_win": "Directly aligns with Section B topics (HTTP, REST APIs, and CORS) evaluated in the technical assessment format."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A diagnostic CLI tool and web dashboard that monitors C++ pointer allocations, object references, and polymorphic vtable structures to catch dangling pointers and memory leaks instantly.",
+      "stack": [
+        "C++",
+        "Python",
+        "Flask",
+        "Valgrind"
+      ],
+      "title": "C++ STL Memory & Pointer Inspector",
+      "track": "",
+      "why_it_could_win": "Addresses the heavy C++ focus in Section C (Pointers, References, OOP, Polymorphism, and STL) by providing an educational and debugging utility judges will immediately appreciate."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first code analysis agent that parses candidate submissions to predict time and space complexity classes for array and sliding window problems before final test runner execution.",
+      "stack": [
+        "Python",
+        "AST",
+        "FastAPI"
+      ],
+      "title": "Assessment Copilot: Algorithmic Complexity Estimator",
+      "track": "",
+      "why_it_could_win": "Taps into the requirement for efficient solutions emphasized in the assessment rules by giving candidates immediate feedback on their Big-O performance."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "A unified platform combining C++ STL reference cards, interactive HTTP/CORS quiz modules, and timed sliding window coding challenges modeled directly on the assessment syllabus.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "title": "Multi-Language Technical Assessment Mock Suite",
+      "track": "",
+      "why_it_could_win": "Covers all three sections of the technical assessment (Coding, Web Development, and C++) into a single comprehensive prep tool for future participants."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

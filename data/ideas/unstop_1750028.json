@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-12T10:38:36.959695+05:30",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750028",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447",
+        "github:1022783746"
+      ],
+      "pitch": "A defense-in-depth personal security agent that detects phishing emails and malicious network anomalies using local LLMs and prompt-injection hardening.",
+      "stack": [
+        "TypeScript",
+        "ai-agent",
+        "claude",
+        "defense-in-depth"
+      ],
+      "title": "SecuraGuard Agent",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the defensive cybersecurity workshop and anomaly detection focus of Secura."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge gated community and alert-sharing portal where verified security analysts can share threat intel without leaking infrastructure details.",
+      "stack": [
+        "TypeScript",
+        "ai-agents",
+        "base-chain",
+        "noir-lang"
+      ],
+      "title": "ZeroTrust Stoa",
+      "track": "",
+      "why_it_could_win": "Combines advanced defensive concepts with ZK-gating, mimicking successful privacy-preserving hackathon entries."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A governable, jam-resilient cooperative edge threat detector that spots network anomalies and keeps human-in-the-loop validation off the automated kill chain.",
+      "stack": [
+        "TypeScript",
+        "amazon-bedrock",
+        "aws",
+        "defense-tech"
+      ],
+      "title": "Aegis-Edge Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Solves technically difficult defensive engineering challenges relevant to real-time incident response."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An AI platform specifically designed to detect, explain, and mitigate bias and false-positive anomalies in automated cybersecurity classification systems.",
+      "stack": [
+        "TypeScript",
+        "ai-fairness",
+        "bias-detection",
+        "artificial-intelligence"
+      ],
+      "title": "FairThreat ML Inspector",
+      "track": "",
+      "why_it_could_win": "Addresses false positives, a major pain point in threat detection that judges care about."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An offline acoustic and radio mesh network tool for ultra-fast communication and incident alert propagation during simulated cybersecurity blackouts.",
+      "stack": [
+        "TypeScript",
+        "hardware",
+        "radio",
+        "teamwork"
+      ],
+      "title": "EchoMesh Incident Responder",
+      "track": "",
+      "why_it_could_win": "Features unusual physical or offline networking builds that stand out in a room full of standard web applications."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-09-12T10:35:32.865382+05:30",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746479",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive step-by-step memory and call-stack visualizer for algorithmic problem solving, designed to debug hidden test case failures in online assessments.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "Coding Problems",
+      "why_it_could_win": "Directly targets the core evaluation focus of algorithmic problem-solving and code reasoning required in technical assessments."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A targeted adaptive testing engine for core computer science concepts and domain-based multiple choice questions with detailed architectural explanations.",
+      "stack": [
+        "TypeScript",
+        "Python"
+      ],
+      "title": "DomainMock CS Engine",
+      "track": "Domain-Based MCQs",
+      "why_it_could_win": "Aligns with the specific format of domain-based and programming language MCQs evaluated during the assessment."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A language-specific code reasoning assistant that identifies edge cases, constraints violations, and performance bottlenecks in candidate submissions.",
+      "stack": [
+        "Python",
+        "AST"
+      ],
+      "title": "SyntaxLint Pro",
+      "track": "Programming Language MCQs",
+      "why_it_could_win": "Solves a problem judges and candidates face in technical assessments regarding correctness and algorithmic efficiency."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:618728877"
+      ],
+      "pitch": "An automated complexity analyzer that profiles Python and C++ solutions against custom constraints and hidden test case scenarios.",
+      "stack": [
+        "Python",
+        "Docker"
+      ],
+      "title": "Complexity Benchmarker",
+      "track": "Coding Problems",
+      "why_it_could_win": "Addresses the explicit requirement for efficiency and constraint validation in technical coding challenges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An efficient chain-of-thought reasoner specialized in evaluating and explaining complex computer science fundamentals and code logic.",
+      "stack": [
+        "Python",
+        "LLM"
+      ],
+      "title": "Reasoning Trace AI",
+      "track": "Domain-Based MCQs",
+      "why_it_could_win": "Applies advanced code reasoning patterns to improve fundamental computer science evaluation."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

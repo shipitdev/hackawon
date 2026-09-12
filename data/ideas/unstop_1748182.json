@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-12T10:37:07.373080+05:30",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1748182",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A hybrid classical-quantum semantic router that offloads embedding classification tasks to Qiskit-simulated parameterized quantum circuits, improving routing accuracy on ambiguous intents.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "PyTorch",
+        "semantic-router"
+      ],
+      "title": "QDiff-Router",
+      "track": "Hybrid Quantum-Classical Computing",
+      "why_it_could_win": "Directly leverages Qiskit for a practical hybrid system, matching the sponsor's focus on hybrid classical-quantum computing applications."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An automated Variational Quantum Eigensolver optimizer that uses reinforcement learning to dynamically adjust ansatz parameters and reduce gate depth for molecular simulation.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "qiskit-nature",
+        "gymnasium"
+      ],
+      "title": "VQE-Chain",
+      "track": "Quantum Optimisation",
+      "why_it_could_win": "Tackles genuine hard engineering in quantum simulation and optimization, appealing directly to researchers and judges evaluating technical depth in Qiskit."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A quantum neural network classifier designed to detect adversarial perturbations in classical financial datasets using parameterized quantum circuits.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "scikit-learn",
+        "PennyLane"
+      ],
+      "title": "QML-Shield",
+      "track": "Quantum Machine Learning (QML)",
+      "why_it_could_win": "Showcases Quantum Machine Learning (QML) and Quantum Neural Networks (QNNs), aligning perfectly with the core technical domains highlighted in the event description."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous debugging agent that analyzes Qiskit circuit compilation errors, diagnoses gate-fidelity bottlenecks, and automatically applies transpiler optimization passes.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "title": "CircuitMetrics",
+      "track": "Quantum Algorithms",
+      "why_it_could_win": "Solves a persistent, painful problem for developers building with Qiskit during the hackathon, directly addressing the judges' familiarity with the tooling."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A simulation toolkit for distributing entanglement across multi-node quantum networks using Qiskit protocols and classical message passing.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "WebSockets"
+      ],
+      "title": "EntangleNet",
+      "track": "Quantum Computing Fundamentals",
+      "why_it_could_win": "Focuses on advanced quantum networking concepts, offering an impressive visual and architectural demonstration for the final presentations."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

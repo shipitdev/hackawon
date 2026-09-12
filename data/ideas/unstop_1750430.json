@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-12T10:39:09.134369+05:30",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750430",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered matching and dispatch platform that connects Seattle-area community service nonprofits with vetted local volunteers based on real-time needs and geolocation.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "Seattle Nonprofit Volunteer & Resource Dispatcher",
+      "track": "",
+      "why_it_could_win": "Directly targets the core mission of Seattle GiveCamp by providing an immediate, production-ready tool for local nonprofits to manage community outreach, aligning with past civic tech and social impact winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1228867095",
+        "github:1194555365"
+      ],
+      "pitch": "A voice-first macOS and web assistant designed for elderly residents of Seattle, leveraging local LLM capabilities to detect and flag fraudulent emails and phone scams in real time.",
+      "stack": [
+        "Swift",
+        "TypeScript",
+        "Cloudflare Workers",
+        "Web Speech API"
+      ],
+      "title": "Senior Scam Shield Voice Agent for Local Outreach",
+      "track": "",
+      "why_it_could_win": "Solves a deeply felt community protection problem with tangible local impact, mirroring the technical approach of award-winning senior safety agents."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized multilingual AI chatbot providing health awareness, preventive care guidelines, and vaccination scheduling specifically tailored for semi-urban and immigrant populations in King County.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "LLM API"
+      ],
+      "title": "Community Health and Vaccine Schedule Multilingual Copilot",
+      "track": "",
+      "why_it_could_win": "Builds on proven winning concepts for community health awareness, offering measurable social utility for local public health non-profits."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1143576965"
+      ],
+      "pitch": "A forecasting dashboard for Seattle charitable organizations to predict spikes in community service demand (such as food bank usage or shelter needs) using regression models and local demographic data.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "Civic Incident Forecaster for Regional Nonprofits",
+      "track": "",
+      "why_it_could_win": "Leverages advanced statistical forecasting to solve practical logistics problems for local charities, directly matching the scoring criteria of past forecasting hackathon winners."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1288000962"
+      ],
+      "pitch": "An AI Chief of Staff agent customized for Seattle-area non-profit directors to automate grant writing, donor follow-up emails, and board meeting summary generation.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LangChain",
+        "Supabase"
+      ],
+      "title": "CivicFlow AI Operations Coordinator for Nonprofit Executives",
+      "track": "",
+      "why_it_could_win": "Targets the administrative overhead faced by every non-profit leader in the room, making the judges instantly recognize its practical utility."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

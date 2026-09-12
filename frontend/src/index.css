@@ -1,25 +1,120 @@
 @import "tailwindcss";
 
+/* This design commits to dark. The hero is a light-emitting surface, and a light theme would
+   fight it rather than complement it. */
 @theme {
-  --color-ink: oklch(0.22 0.02 260);
-  --color-muted: oklch(0.55 0.02 260);
-  --color-accent: oklch(0.58 0.19 15);
-  --color-surface: oklch(0.99 0.003 260);
-  --color-line: oklch(0.91 0.008 260);
-}
+  --color-surface: oklch(0.145 0.012 275);
+  --color-raised: oklch(0.185 0.015 275);
+  --color-ink: oklch(0.97 0.005 275);
+  --color-muted: oklch(0.68 0.015 275);
+  --color-faint: oklch(0.52 0.015 275);
+  --color-line: oklch(0.30 0.018 275);
+  --color-accent: oklch(0.72 0.17 350);
+  --color-accent-cool: oklch(0.72 0.15 280);
 
-@media (prefers-color-scheme: dark) {
-  @theme {
-    --color-ink: oklch(0.94 0.01 260);
-    --color-muted: oklch(0.68 0.02 260);
-    --color-accent: oklch(0.72 0.17 15);
-    --color-surface: oklch(0.17 0.015 260);
-    --color-line: oklch(0.28 0.02 260);
-  }
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 html {
   background: var(--color-surface);
   color: var(--color-ink);
-  color-scheme: light dark;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Respect the setting properly: kill motion everywhere, not just in the shader. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* A frozen approximation of the shader, shown while WebGL loads and permanently on devices that
+   opt out. Without it the hero would flash from flat black to full colour. */
+@utility bg-hero-fallback {
+  background:
+    radial-gradient(120% 85% at 12% 8%, oklch(0.42 0.19 300 / 0.55), transparent 60%),
+    radial-gradient(95% 75% at 88% 22%, oklch(0.55 0.2 12 / 0.4), transparent 62%),
+    radial-gradient(130% 95% at 55% 105%, oklch(0.45 0.17 255 / 0.45), transparent 68%),
+    var(--color-surface);
+}
+
+/* Frosted panel. Falls back to a solid raised colour where backdrop-filter is unsupported. */
+@utility glass {
+  background: color-mix(in oklab, var(--color-raised) 72%, transparent);
+  border: 1px solid oklch(1 0 0 / 0.08);
+}
+
+@supports (backdrop-filter: blur(1px)) {
+  .glass {
+    background: oklch(1 0 0 / 0.045);
+    backdrop-filter: blur(14px) saturate(150%);
+  }
+}
+
+/* Cards lift toward the light on hover; the border catches it first. */
+@utility card-lift {
+  transition:
+    transform 260ms cubic-bezier(0.2, 0.7, 0.3, 1),
+    border-color 260ms ease,
+    box-shadow 260ms ease;
+}
+
+.card-lift:hover {
+  transform: translateY(-3px);
+  border-color: oklch(1 0 0 / 0.16);
+  box-shadow:
+    0 1px 0 0 oklch(1 0 0 / 0.06) inset,
+    0 18px 40px -24px oklch(0 0 0 / 0.9);
+}
+
+/* Content reveals as it scrolls in. Progressive enhancement: without support, it is simply
+   visible, which is the correct failure mode. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 32%;
+    }
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Thin, unobtrusive scrollbar so the dark surface stays uninterrupted. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+/* Gradient-filled text. Written as a real class because the arbitrary-property version silently
+   fell back to a solid block: the `background` shorthand and the clip have to land together, and
+   `-webkit-text-fill-color` must be set explicitly or WebKit keeps painting the glyphs. */
+@utility text-liquid {
+  background-image: linear-gradient(100deg, #c4b5fd 0%, #f9a8d4 46%, #93c5fd 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }

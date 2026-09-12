@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-12T10:29:59.740354+05:30",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "healthtech",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1730263",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A lightweight offline-first mesh networking protocol utilizing Bluetooth LE and Wi-Fi Direct to allow disconnected nodes to relay emergency text messages, vital health logs, and barter inventories without internet infrastructure.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React Native",
+        "BLE"
+      ],
+      "title": "MeshNet Protocol for Post-Collapse Communities",
+      "track": "communication systems",
+      "why_it_could_win": "Directly targets the Day Zero mission of engineering foundational communication infrastructure for civilization's restart."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "An edge-computing dashboard for managing and routing erratic power output from small-scale solar and kinetic generators among critical survival loads in a micro-community.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BioGen: Decentralized Micro-Grid Energy Allocator",
+      "track": "energy",
+      "why_it_could_win": "Addresses energy resilience and sustainable engineering, two core evaluation pillars of the Day Zero civilizational reboot."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An edge-AI clinical triage assistant running locally on low-power hardware that guides untrained survivors through trauma assessment, wound care, and triage categorization using computer vision and symptom trees.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "FastAPI",
+        "React"
+      ],
+      "title": "MedTriage AI: Offline First-Responder Diagnostics",
+      "track": "healthcare",
+      "why_it_could_win": "Builds on proven medical simulation win patterns while strictly pivoting to offline post-collapse healthcare scenarios."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:672563514"
+      ],
+      "pitch": "A localized database and companion recommendation engine matching soil pH and micro-climates with optimal heirloom seed rotation schedules to prevent agricultural failure in a restarted society.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "SQLite",
+        "React"
+      ],
+      "title": "SeedVault: Heirloom Crop & Soil Regeneration Ledger",
+      "track": "education",
+      "why_it_could_win": "Solves the fundamental food security and education challenges required to restart civilization from scratch."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1182199849",
+        "github:855192292"
+      ],
+      "pitch": "A computer vision mobile web tool that analyzes colorimetric test strips dipped in water sources to instantly detect heavy metals and biological pathogens without laboratory equipment.",
+      "stack": [
+        "TypeScript",
+        "OpenCV.js",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AquaFilter: Low-Tech Contaminant Vision Scanner",
+      "track": "infrastructure",
+      "why_it_could_win": "Combines practical engineering with immediate health infrastructure needs for survivalist communities."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

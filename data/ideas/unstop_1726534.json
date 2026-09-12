@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-12T10:29:48.806226+05:30",
+  "grounding": {
+    "domains": [
+      "edtech",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1726534",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1352073210",
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered academic copilot connecting institution management systems and document repositories using Model Context Protocol and RAG for automated workflow management.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "FastAPI"
+      ],
+      "title": "EduFlow MCP Copilot",
+      "track": "",
+      "why_it_could_win": "Directly targets the hackathon's core objective of eliminating administrative inefficiencies and integrating workflows rather than building isolated features, heavily mirroring past winning architectural patterns."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1074933780"
+      ],
+      "pitch": "An AI-powered clinical examination training platform for university medical and nursing departments, featuring real-time rubric scoring and interactive simulated patient interviews.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Google Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "CampusClinic AI OSCE",
+      "track": "",
+      "why_it_could_win": "Leverages the proven high-impact domain-specific simulation pattern that won major hackathons by offering a production-ready vertical tool for higher education."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1034488175"
+      ],
+      "pitch": "An intelligent document transformation engine that turns static university syllabi, lecture notes, and administrative PDFs into interactive semantic knowledge graphs and AI study assistants.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "Syllabus2Knowledge Base",
+      "track": "",
+      "why_it_could_win": "Solves the fragmented communication and manual resource management problems faced by educational organizations by converting raw institutional files into structured digital utilities."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1152129601"
+      ],
+      "pitch": "A smart university app that matches students for peer-to-peer exam prep and collaborative study groups while automatically maintaining and organizing their verified academic portfolios.",
+      "stack": [
+        "React",
+        "Django",
+        "TailwindCSS",
+        "SQLite"
+      ],
+      "title": "PeerStudy & Portfolio Matcher",
+      "track": "",
+      "why_it_could_win": "Addresses student-facing collaboration and administrative bottlenecks in colleges, following a proven winning blueprint from university-focused hackathons."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support platform tailored for campus sustainability initiatives, tracking green metrics and providing personalized guidance for institutional eco-programs.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Node.js"
+      ],
+      "title": "EduGreen Agentic Hub",
+      "track": "",
+      "why_it_could_win": "Combines multi-agent system architecture with real-world institutional impact, aligning with judges' preference for scalable, production-ready software solutions."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 1
+}

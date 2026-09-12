@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HackRadar — hackathons for students</title>
     <meta name="description" content="Upcoming hackathons for students, with project ideas grounded in what actually wins." />
+    <meta name="theme-color" content="#17161f" />
+    <!-- One display face, used for exactly one word; everything else is the system stack, which
+         costs nothing. Loaded here rather than via CSS @import: Tailwind expands ahead of the
+         import, which makes the ordering invalid and the font unreliable. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
+    />
   </head>
   <body>
     <div id="root"></div>
