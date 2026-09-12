@@ -1,5 +1,5 @@
 """Tests for hackathon slugs — the public URL identity."""
-import pytest
+
 from app.jobs.export_site import make_slug
 
 
