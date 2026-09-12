@@ -239,6 +239,12 @@ export default function App() {
             >
               Skip abroad{abroadCount > 0 && ` (${abroadCount})`}
             </Control>
+            <a
+              href={`${import.meta.env.BASE_URL}tools/`}
+              className="rounded-xl border border-white/8 bg-white/[0.03] px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-accent"
+            >
+              Toolkit
+            </a>
           </div>
         </div>
 

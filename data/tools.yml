@@ -1,0 +1,227 @@
+# Tools worth knowing about during a hackathon.
+#
+# THIS LIST IS EARLY AND INCOMPLETE. Adding to it is the easiest useful contribution to this
+# project: append an entry below and open a pull request.
+#
+# Rules for entries, learned the hard way:
+#
+#   * `what_you_get` must say what you ACTUALLY get. "Generous free tier" helps nobody at 2am.
+#   * Only state a number you have checked. Free tiers change constantly — during this project
+#     Google retired a Gemini model mid-build, and xAI's $150/month free credits ended in May 2025
+#     while half the internet still recommends them.
+#   * `checked` is the date a human last confirmed the entry. The site greys out anything older
+#     than 90 days rather than pretending it is current.
+#   * `caveat` is for the thing that bites you after you have committed to the tool.
+version: 1
+
+tools:
+  # ---------------------------------------------------------------- AI and model APIs
+  - name: Google AI Studio (Gemini API)
+    url: https://aistudio.google.com/apikey
+    category: ai-credits
+    what_you_get: "Free tier, no card: roughly 15 requests/min and ~1,000-1,500/day on Flash models."
+    caveat: "Pro models left the free tier in April 2026, and model ids get retired with little notice — pin an exact one."
+    free: true
+    checked: 2026-09-12
+
+  - name: Groq
+    url: https://console.groq.com
+    category: ai-credits
+    what_you_get: "Free tier with very high daily request counts on smaller Llama models, and the fastest inference of anything free."
+    caveat: "Per-minute token limits bite before the daily request limit does."
+    free: true
+    checked: 2026-09-12
+
+  - name: xAI (Grok) API
+    url: https://console.x.ai
+    category: ai-credits
+    what_you_get: "$25 of credit on sign-up. That is all."
+    caveat: "NOT a free tier. The $150/month data-sharing programme ended in May 2025, but plenty of blog posts still recommend it."
+    free: false
+    checked: 2026-09-12
+
+  - name: OpenRouter
+    url: https://openrouter.ai
+    category: ai-credits
+    what_you_get: "One API key for many models, including a rotating set marked `:free`."
+    caveat: "Which models are free changes often, and free ones are rate-limited and can queue."
+    free: true
+    checked: 2026-09-12
+
+  - name: Hugging Face
+    url: https://huggingface.co
+    category: ai-credits
+    what_you_get: "Free hosted inference for many open models, plus free Spaces to host a demo (Docker supported)."
+    caveat: "Free Spaces sleep when idle, so a judge clicking your link may wait for a cold start."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Auth, backend, database
+  - name: Supabase
+    url: https://supabase.com
+    category: auth
+    what_you_get: "Free: Postgres (500 MB), authentication with 50,000 monthly active users, 1 GB file storage, 500k edge-function calls, 2 projects."
+    caveat: "Free projects pause after about a week of inactivity — wake it before you demo."
+    free: true
+    checked: 2026-09-12
+
+  - name: Clerk
+    url: https://clerk.com
+    category: auth
+    what_you_get: "Drop-in sign-in UI with a free tier for small monthly active user counts."
+    caveat: "Check the current MAU allowance; it is the limit that matters and it moves."
+    free: true
+    checked: 2026-09-12
+
+  - name: Neon
+    url: https://neon.com
+    category: database
+    what_you_get: "Free serverless Postgres, ~0.5 GB, with no pause on inactivity."
+    caveat: "Compute suspends when idle, so the first query after a quiet spell is slow."
+    free: true
+    checked: 2026-09-12
+
+  - name: Upstash
+    url: https://upstash.com
+    category: database
+    what_you_get: "Free Redis and Kafka on a per-request basis — good for rate limiting and queues."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Hosting a demo
+  - name: Cloudflare Pages
+    url: https://pages.cloudflare.com
+    category: hosting
+    what_you_get: "Free static hosting: unlimited bandwidth and sites, 500 builds a month."
+    free: true
+    checked: 2026-09-12
+
+  - name: Vercel
+    url: https://vercel.com
+    category: hosting
+    what_you_get: "Free hobby tier for frontends and serverless functions, deploying straight from a repo."
+    caveat: "Hobby is non-commercial, and function execution limits are tight."
+    free: true
+    checked: 2026-09-12
+
+  - name: GitHub Pages
+    url: https://pages.github.com
+    category: hosting
+    what_you_get: "Free static hosting for public repos, with unlimited Actions minutes to build it."
+    caveat: "Static only — no server-side code. This site runs on it."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Slides and the demo itself
+  - name: Slidev
+    url: https://sli.dev
+    category: slides
+    what_you_get: "Open source. Write slides in Markdown, get animations, code highlighting and live components."
+    caveat: "Built for developers — it expects you to be comfortable in a terminal."
+    free: true
+    checked: 2026-09-12
+
+  - name: Marp
+    url: https://marp.app
+    category: slides
+    what_you_get: "Open source. Markdown to slides, with a VS Code extension and PDF export."
+    free: true
+    checked: 2026-09-12
+
+  - name: reveal.js
+    url: https://revealjs.com
+    category: slides
+    what_you_get: "Open source HTML presentation framework — the classic, and still the most flexible."
+    free: true
+    checked: 2026-09-12
+
+  - name: Excalidraw
+    url: https://excalidraw.com
+    category: slides
+    what_you_get: "Free hand-drawn-style diagrams. The fastest way to draw an architecture slide judges can follow."
+    free: true
+    checked: 2026-09-12
+
+  - name: asciinema
+    url: https://asciinema.org
+    category: slides
+    what_you_get: "Free terminal recording that stays selectable text, not a blurry video."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Making it look finished
+  - name: shadcn/ui
+    url: https://ui.shadcn.com
+    category: ui-kits
+    what_you_get: "Open source. Copy-paste React components you own outright, built on Radix and Tailwind."
+    free: true
+    checked: 2026-09-12
+
+  - name: Aceternity UI
+    url: https://ui.aceternity.com
+    category: ui-kits
+    what_you_get: "Free animated React/Tailwind components — the kind of motion that makes a demo look expensive."
+    caveat: "Heavy effects can tank performance on the laptop you demo from."
+    free: true
+    checked: 2026-09-12
+
+  - name: Lucide
+    url: https://lucide.dev
+    category: ui-kits
+    what_you_get: "Open source icon set, 1,000+ icons, tree-shakeable."
+    free: true
+    checked: 2026-09-12
+
+  - name: react-three-fiber
+    url: https://r3f.docs.pmnd.rs
+    category: ui-kits
+    what_you_get: "Open source React renderer for three.js — 3D and shader effects in the browser."
+    caveat: "About 245 KB gzipped with three.js. Load it lazily or your first paint suffers."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Data to build on
+  - name: data.gov.in
+    url: https://data.gov.in
+    category: datasets
+    what_you_get: "India's open government data — census, transport, agriculture, health."
+    caveat: "Quality varies a lot by dataset, and some downloads are stale."
+    free: true
+    checked: 2026-09-12
+
+  - name: Hugging Face Datasets
+    url: https://huggingface.co/datasets
+    category: datasets
+    what_you_get: "Hundreds of thousands of open datasets, loadable in one line of Python."
+    free: true
+    checked: 2026-09-12
+
+  - name: Kaggle
+    url: https://www.kaggle.com/datasets
+    category: datasets
+    what_you_get: "Large dataset library plus free GPU/TPU notebook hours each week."
+    free: true
+    checked: 2026-09-12
+
+  # ---------------------------------------------------------------- Small things that save an hour
+  - name: Cloudflare Tunnel
+    url: https://developers.cloudflare.com/pages/how-to/preview-with-cloudflare-tunnel/
+    category: dev-tools
+    what_you_get: "Free public HTTPS URL for something running on your laptop — for demoing a webhook or a phone."
+    free: true
+    checked: 2026-09-12
+
+  - name: Hoppscotch
+    url: https://hoppscotch.io
+    category: dev-tools
+    what_you_get: "Open source API client in the browser. No account needed, no 400 MB download."
+    free: true
+    checked: 2026-09-12
+
+  - name: Resend
+    url: https://resend.com
+    category: dev-tools
+    what_you_get: "Free transactional email tier — enough to demo sign-up or notification flows."
+    caveat: "Sending to arbitrary addresses needs a verified domain; test mode is limited to your own."
+    free: true
+    checked: 2026-09-12

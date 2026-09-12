@@ -36,7 +36,7 @@ function fail(message) {
 if (!existsSync(DIST)) fail("dist/ missing — run `vite build` first");
 if (!existsSync(SSR_ENTRY)) fail("dist-ssr/ missing — run `vite build --ssr src/entry-server.tsx`");
 
-const { renderHackathon, pageMeta } = await import(SSR_ENTRY);
+const { renderHackathon, renderTools, pageMeta } = await import(SSR_ENTRY);
 
 const bundle = JSON.parse(await readFile(path.join(DIST, "data/hackathons.json"), "utf8"));
 
@@ -103,6 +103,25 @@ for (const hackathon of bundle.hackathons) {
 
   urls.push(url);
   written++;
+}
+
+// The toolkit page, if its data has been exported.
+const toolsFile = path.join(DIST, "data/tools.json");
+if (existsSync(toolsFile)) {
+  const tools = JSON.parse(await readFile(toolsFile, "utf8"));
+  const url = `${ORIGIN}${BASE}tools/`;
+  await mkdir(path.join(DIST, "tools"), { recursive: true });
+  await writeFile(
+    path.join(DIST, "tools", "index.html"),
+    document({
+      title: "The hackathon toolkit — free API credits, auth, slides | Hackawon",
+      description: `${tools.count} tools worth knowing about before a hackathon starts: model API free tiers, auth and databases, hosting, slide decks and UI kits. Each entry says what you actually get.`,
+      url,
+      body: renderTools(tools, BASE),
+    }),
+  );
+  urls.push(url);
+  console.log("prerender: tools page");
 }
 
 const lastmod = (bundle.generated_at ?? new Date().toISOString()).slice(0, 10);
