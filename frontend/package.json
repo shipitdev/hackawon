@@ -10,7 +10,8 @@
     "test": "vitest run",
     "lint": "eslint src",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist-ssr",
-    "prerender": "node scripts/prerender.mjs"
+    "prerender": "node scripts/prerender.mjs",
+    "check": "tsc -b && vitest run"
   },
   "dependencies": {
     "@react-three/fiber": "^9.7.0",
