@@ -41,7 +41,7 @@ class TestToolsFile:
             assert tool.checked <= date.today(), f"{tool.name}: checked date is in the future"
 
     def test_what_you_get_is_specific_not_marketing(self, tools):
-        """"Generous free tier" helps nobody. Reject the words that mean nothing."""
+        """ "Generous free tier" helps nobody. Reject the words that mean nothing."""
         banned = ("generous", "amazing", "best-in-class", "powerful")
         for tool in tools:
             lowered = tool.what_you_get.lower()

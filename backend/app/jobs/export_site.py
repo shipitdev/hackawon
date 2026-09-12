@@ -209,9 +209,7 @@ def run(data_dir: Path | None = None, output_dir: Path | None = None) -> Path:
     tools_path = (data_dir or DATA_DIR) / "tools.yml"
     if tools_path.exists():
         payload = tools_to_web(load_tools(tools_path))
-        (out / "tools.json").write_text(
-            json.dumps(payload, ensure_ascii=False), encoding="utf-8"
-        )
+        (out / "tools.json").write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
         print(f"  wrote tools.json — {payload['count']} tools")
 
     runs = (data_dir or DATA_DIR) / "source_runs.json"
