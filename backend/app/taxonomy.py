@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -279,3 +280,33 @@ def normalise_domains(domains: list[str] | None) -> list[str]:
     values = [d for d in (domains or []) if d]
     specific = [d for d in values if d != "general"]
     return specific or (["general"] if values else [])
+
+
+#: Phrases that indicate a project was built ON a named product, rather than merely entered a
+#: competition named after one.
+_BUILT_ON = re.compile(
+    r"\b(built (?:on|with|using)|powered by|uses?|using|integrat\w+ with|on top of|"
+    r"leverag\w+|via the .{0,20}api)\b",
+    re.I,
+)
+
+
+def prune_unsupported_patterns(labels: dict[str, Any], text: str) -> dict[str, Any]:
+    """Drop `sponsor-tech` unless the text says what the project was built on.
+
+    The model infers this label from the hackathon's name — "winner of the Bytom blockchain
+    challenge" tells you nothing about what was used. Tightening the prompt cut it from 266
+    assignments to 209, still 69% of every reason given, and hand-checking eight found three or
+    four unsupported. A claim that appears everywhere carries no information, and the whole point
+    of this axis is to tell a student something reusable.
+
+    Deterministic and free, so it runs on read rather than costing another labelling pass.
+    """
+    patterns = labels.get("winning_patterns") or []
+    if "sponsor-tech" not in patterns:
+        return labels
+
+    if _BUILT_ON.search(text or ""):
+        return labels
+
+    return {**labels, "winning_patterns": [p for p in patterns if p != "sponsor-tech"]}
