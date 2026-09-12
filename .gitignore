@@ -1,0 +1,35 @@
+# Private working memory for LLM sessions — never committed (see docs/ for the public design)
+CLAUDE.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Derived working copy of the data (rebuilt from data/*.json by the jobs)
+*.sqlite
+*.sqlite3
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+.vite/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
