@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:15:38.132295+05:30",
+  "generated_at": "2026-09-12T10:20:53.342448+05:30",
   "grounding": {
     "domains": [
       "fintech",
@@ -20,20 +20,18 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1181344931",
-        "github:1188643990"
+        "github:1181344931"
       ],
-      "pitch": "A quantitative cyber risk quantification engine that ingests company asset metadata and simulates Monte Carlo probabilistic outage distributions to calculate predicted financial losses from ransomware attacks.",
+      "pitch": "A quantitative cyber risk assessment dashboard that estimates financial loss exposure using Monte Carlo simulations on threat intelligence feeds.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "TailwindCSS",
         "NumPy"
       ],
       "title": "ActuaryRisk CyberMesh",
       "track": "Best Overall Project In Cybersecurity",
-      "why_it_could_win": "Directly hits the Best Overall Project In Cybersecurity and Best UI/UX in CyberSecurity tracks by marrying actuarial science with cybersecurity loss estimation."
+      "why_it_could_win": "Directly hits the Best Overall Project In Cybersecurity track and aligns with the London Institute of Actuarial Studies' focus on risk, uncertainty, and probabilistic financial modelling."
     },
     {
       "build_hours": 18,
@@ -41,16 +39,16 @@
         "github:1181344931",
         "github:35907421"
       ],
-      "pitch": "An insurance pricing and loan default predictive platform using LightGBM and explainable feature attributions to price micro-loans based on non-traditional alternative credit scoring data.",
+      "pitch": "An insurance pricing and loan default probability calculator that evaluates micro-credit risks using explainable Gradient Boosting trees.",
       "stack": [
         "Python",
+        "LightGBM",
         "Streamlit",
-        "Scikit-Learn",
         "Pandas"
       ],
       "title": "DefaultProphet",
       "track": "Best Overall Project In FinTech",
-      "why_it_could_win": "Aligns perfectly with the FinTech track and the actuarial mandate of predicting outcomes and quantifying risk under uncertainty."
+      "why_it_could_win": "Targets the Best Overall Project In FinTech track by fusing actuarial science with modern machine learning for predictive financial decision-making."
     },
     {
       "build_hours": 22,
@@ -58,49 +56,49 @@
         "github:1247716283",
         "github:292824779"
       ],
-      "pitch": "A predictive analytics dashboard for educational institutions that calculates student dropout risk using historical grade sequences and behavioral telemetry, recommending timely interventions.",
+      "pitch": "A predictive analytics dashboard for educational institutions to forecast student dropout risk and recommend personalized interventions based on historical grade and attendance distributions.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "PostgreSQL",
-        "Python"
+        "Python",
+        "Scikit-learn"
       ],
-      "title": "DropoutQuant",
+      "title": "EduAt-Risk Analytics",
       "track": "Best Overall Project In EdTech",
-      "why_it_could_win": "Targets the EdTech track by focusing on statistical predictive modeling of student performance rather than a generic tutor chatbot."
+      "why_it_could_win": "Optimized specifically for the Best Overall Project In EdTech track by applying quantitative probability and statistics to solve a real institutional retention problem."
     },
     {
-      "build_hours": 21,
+      "build_hours": 20,
       "inspired_by": [
         "github:1188643990"
       ],
-      "pitch": "A zero-knowledge encrypted self-assessment vault where SMEs can securely input proprietary security audit logs without leaking raw data, automatically calculating an empirical cyber insurance premium.",
+      "pitch": "A zero-knowledge cryptographic credential vault and biometric authentication portal designed to securely store and audit compliance documents for financial firms.",
       "stack": [
         "Dart",
         "Flutter",
-        "Python",
-        "Encryption"
+        "TypeScript",
+        "TailwindCSS"
       ],
-      "title": "CyberRisk UX Valuator",
+      "title": "ZkCyberVault",
       "track": "Best UI/UX in CyberSecurity",
-      "why_it_could_win": "Competes strongly in the Best UI/UX in CyberSecurity track by blending high-polish user onboarding with cryptographic data privacy."
+      "why_it_could_win": "Aims for the Best UI/UX in CyberSecurity track by combining military-grade zero-knowledge privacy with exceptional front-end design polish."
     },
     {
-      "build_hours": 19,
+      "build_hours": 16,
       "inspired_by": [
         "github:600524805",
-        "github:292824779"
+        "github:642839338"
       ],
-      "pitch": "An exam preparation analytics app that models student probability of passing actuarial or high-stakes professional exams based on practice test telemetry and spaced repetition decay curves.",
+      "pitch": "An interactive web simulator that teaches students and junior actuaries about tail-risk, ruin probability, and insurance pricing through actuarial game theory.",
       "stack": [
-        "TypeScript",
+        "JavaScript",
         "React",
-        "Node.js",
-        "Chart.js"
+        "Chart.js",
+        "CSS"
       ],
-      "title": "ActuarialEd Exam Risk Analyzer",
+      "title": "ActuarialEd Gamified Risk",
       "track": "Best UI/UX in EdTech",
-      "why_it_could_win": "Organized by the London Institute of Actuarial Studies, the judging panel will appreciate a project directly tailored to actuarial exam preparedness and probabilistic skill mastery."
+      "why_it_could_win": "Aims for the Best UI/UX in EdTech track by leveraging interactive pedagogical patterns that appeal directly to the organizing actuarial institute's educational mission."
     }
   ],
   "prompt_version": 1,

@@ -71,10 +71,16 @@ class TestScoring:
 
 class TestMatching:
     def test_prefers_on_topic_winners(self):
-        ai = [project(f"ai{i}", ) for i in range(6)]
+        ai = [
+            project(
+                f"ai{i}",
+            )
+            for i in range(6)
+        ]
         game = [project(f"g{i}") for i in range(6)]
-        labels = labels_for(*[(p, ["ai-ml"], ["working-demo"]) for p in ai],
-                            *[(p, ["gaming"], []) for p in game])
+        labels = labels_for(
+            *[(p, ["ai-ml"], ["working-demo"]) for p in ai], *[(p, ["gaming"], []) for p in game]
+        )
         result = match_winners(hackathon(), ["ai-ml"], ai + game, labels, NOW_YEAR, limit=5)
         assert all("ai" in m.project.source_id for m in result.matches)
         assert result.thin is False
@@ -121,3 +127,41 @@ class TestMatching:
 def test_thin_threshold_is_a_named_constant():
     """So the UI and the prompt agree on what 'thin' means."""
     assert THIN_EVIDENCE >= 3
+
+
+class TestThemelessHackathons:
+    """Most student hackathons set no theme. They are the common case, not an edge case."""
+
+    def test_themeless_is_not_flagged_as_thin(self):
+        """Warning on 70% of pages trains students to ignore the warning that matters."""
+        winners = [project(str(i)) for i in range(20)]
+        labels = labels_for(*[(p, ["ai-ml"], []) for p in winners])
+        result = match_winners(hackathon(), ["general"], winners, labels, NOW_YEAR)
+        assert result.thin is False
+        assert len(result.matches) > 0
+
+    def test_a_themed_hackathon_with_no_matches_is_still_flagged(self):
+        winners = [project(str(i)) for i in range(20)]
+        labels = labels_for(*[(p, ["gaming"], []) for p in winners])
+        result = match_winners(hackathon(), ["arvr"], winners, labels, NOW_YEAR)
+        assert result.thin is True
+
+    def test_themeless_grounding_spans_several_domains(self):
+        """AI dominates the corpus, so the naive top-8 would be eight AI projects."""
+        ai = [project(f"ai{i}") for i in range(10)]
+        fin = [project(f"fin{i}") for i in range(10)]
+        civic = [project(f"civ{i}") for i in range(10)]
+        labels = labels_for(
+            *[(p, ["ai-ml"], []) for p in ai],
+            *[(p, ["fintech"], []) for p in fin],
+            *[(p, ["civic"], []) for p in civic],
+        )
+        result = match_winners(hackathon(), ["general"], ai + fin + civic, labels, NOW_YEAR)
+        domains = {labels[m.project.uid]["domains"][0] for m in result.matches}
+        assert len(domains) >= 3, "themeless grounding should show variety"
+
+    def test_still_fills_the_quota_when_variety_runs_out(self):
+        only_ai = [project(str(i)) for i in range(10)]
+        labels = labels_for(*[(p, ["ai-ml"], []) for p in only_ai])
+        result = match_winners(hackathon(), ["general"], only_ai, labels, NOW_YEAR, limit=6)
+        assert len(result.matches) == 6

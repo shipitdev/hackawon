@@ -1,0 +1,62 @@
+name: Generate ideas
+
+# Ideas are written once per hackathon and then served to every visitor from a file, so cost
+# scales with the number of hackathons rather than with traffic. After the first full run this
+# only covers newly-ingested hackathons — usually a handful a night.
+on:
+  schedule:
+    - cron: "35 2 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Regenerate ideas that already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ideas
+  cancel-in-progress: false
+
+jobs:
+  ideas:
+    runs-on: ubuntu-latest
+    # A full regeneration of every hackathon takes ~20 minutes at the free tier's rate limit.
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+
+      - name: Generate
+        working-directory: backend
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          uv run python -m app.jobs.generate_ideas --provider gemini \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Rebuild the site bundle
+        working-directory: backend
+        run: uv run python -m app.jobs.export_site
+
+      - name: Commit any changes
+        run: |
+          git config user.name "hackradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data frontend/public/data
+          if git diff --cached --quiet; then
+            echo "No new ideas."
+            exit 0
+          fi
+          git commit -m "Update generated ideas"
+          git push

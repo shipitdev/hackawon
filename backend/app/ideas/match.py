@@ -90,6 +90,32 @@ def score(
     return total, shared
 
 
+#: Cap per domain when spreading, so a themeless hackathon sees variety rather than eight AI apps.
+MAX_PER_DOMAIN = 2
+
+
+def _diverse(
+    scored: list[Match], project_labels: dict[str, dict[str, Any]], limit: int
+) -> list[Match]:
+    """Take the strongest winners while capping how many come from any one domain."""
+    used: Counter[str] = Counter()
+    chosen: list[Match] = []
+    for match in scored:
+        domains = normalise_domains(project_labels.get(match.project.uid, {}).get("domains"))
+        key = domains[0] if domains else "general"
+        if used[key] >= MAX_PER_DOMAIN:
+            continue
+        used[key] += 1
+        chosen.append(match)
+        if len(chosen) >= limit:
+            break
+    # If the cap was too strict to fill the quota, top up with the next best regardless.
+    if len(chosen) < limit:
+        taken = {m.project.uid for m in chosen}
+        chosen += [m for m in scored if m.project.uid not in taken][: limit - len(chosen)]
+    return chosen
+
+
 def match_winners(
     hackathon: HackathonRecord,
     hackathon_domains: list[str],
@@ -99,6 +125,8 @@ def match_winners(
     limit: int = 8,
 ) -> Grounding:
     """Rank `projects` for one hackathon and report how well-grounded the result is."""
+    specific = [d for d in hackathon_domains if d != "general"]
+
     scored: list[Match] = []
     for project in projects:
         labels = project_labels.get(project.uid)
@@ -110,8 +138,7 @@ def match_winners(
 
     on_topic = len(scored)
 
-    # Fall back to generally strong winners rather than showing nothing: a themeless hackathon
-    # still deserves examples, and the UI says when grounding is thin.
+    # Fall back to generally strong winners rather than showing nothing.
     if on_topic < THIN_EVIDENCE:
         for project in projects:
             labels = project_labels.get(project.uid)
@@ -121,7 +148,14 @@ def match_winners(
             scored.append(Match(project, value * 0.4, []))
 
     scored.sort(key=lambda m: (-m.score, -(m.project.year or 0), m.project.title))
-    top = scored[:limit]
+
+    if specific:
+        top = scored[:limit]
+    else:
+        # A themeless hackathon ("build anything") has no on-topic set to find, so the useful
+        # grounding is a SPREAD of strong winners rather than the top of one category — which
+        # would otherwise be eight AI projects, since AI dominates the corpus.
+        top = _diverse(scored, project_labels, limit)
 
     patterns = Counter(
         pattern
@@ -131,7 +165,10 @@ def match_winners(
 
     return Grounding(
         matches=top,
-        domains=[d for d in hackathon_domains if d != "general"],
+        domains=specific,
         patterns=patterns.most_common(4),
-        thin=on_topic < THIN_EVIDENCE,
+        # "Thin" means we expected on-topic evidence and did not find it. A themeless hackathon
+        # never had an on-topic set to begin with, so flagging it would put a warning on most
+        # pages and train students to ignore the one that matters.
+        thin=bool(specific) and on_topic < THIN_EVIDENCE,
     )

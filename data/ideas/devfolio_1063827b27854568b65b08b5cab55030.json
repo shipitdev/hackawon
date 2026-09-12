@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:15:34.229111+05:30",
+  "generated_at": "2026-09-12T10:20:49.488564+05:30",
   "grounding": {
     "domains": [
       "security",
@@ -21,7 +21,7 @@
       "inspired_by": [
         "github:690893685"
       ],
-      "pitch": "Acoustic sensor network running on edge devices to instantly detect gunshots, classify weapon caliber using ML, and stream precise coordinates to tactical maps for rapid civilian evacuation and defense response.",
+      "pitch": "A low-latency acoustic sensor network running on edge devices that detects gunshots or explosions, extracts MFCC features, and streams precise geolocations to a tactical map for rapid military or border defense response.",
       "stack": [
         "Python",
         "PyTorch",
@@ -29,74 +29,75 @@
         "React",
         "WebSockets"
       ],
-      "title": "AegisAudio: Edge Gunshot Triangulation and Threat Classification",
+      "title": "AegisAudio: Edge Gunshot & Explosive Triangulation Network",
       "track": "National Security and Defence Technologies",
-      "why_it_could_win": "Directly targets national security and defense technologies under the Blueprint for Peace theme, mirroring the architecture of proven acoustic detection systems while adding edge computing for field reliability."
+      "why_it_could_win": "Directly targets the national security and defense technologies theme of Hackify 3.0, following the proven architecture of past winners that handle live audio telemetry and spatial mapping."
     },
     {
-      "build_hours": 30,
+      "build_hours": 34,
       "inspired_by": [
         "github:243065226"
       ],
-      "pitch": "Low-bandwidth CCTV stream analyzer that performs localized face embeddings matching against encrypted watchlists, instantly alerting local security posts with automated snapshot emails and live tracking.",
+      "pitch": "An integrated web and mobile application that hooks into public or perimeter CCTV feeds, runs real-time face recognition against a classified database of threats, and instantly dispatches encrypted email alerts with snapshots to defense personnel.",
       "stack": [
-        "Python",
-        "OpenCV",
-        "Face Recognition",
-        "Node.js",
-        "Android"
+        "Java",
+        "Android",
+        "Django REST Framework",
+        "Express",
+        "OpenCV"
       ],
-      "title": "SentinelCCTV: Real-Time Wanted Criminal and Missing Person Face Surveillance",
-      "track": "Civilian Protection and Cyber Defence",
-      "why_it_could_win": "Solves an urgent public safety challenge using computer vision, following a proven runner-up architecture tailored for civilian protection and border security."
+      "title": "SentinelCCTV: Automated Wanted Criminal & Intruder Watcher",
+      "track": "Cyber Defence and Civilian Protection",
+      "why_it_could_win": "Addresses cyber defence and civilian protection priorities by providing actionable, automated surveillance capabilities that judges in security-focused hackathons reward for practical field applicability."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1326164711"
+        "github:71175478"
       ],
-      "pitch": "Post-disaster reconstruction transparency platform where every relief supply request and fund allocation carries a cryptographic seal, ensuring zero leakage and verifiable public accountability in rebuilding nations.",
+      "pitch": "A lightweight indoor mapping and location tracking web interface designed specifically for firefighters and rescue teams operating in signal-denied or collapsed buildings during post-war reconstruction and disaster zones.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-        "Cryptography"
+        "React",
+        "Node.js",
+        "Leaflet.js"
       ],
-      "title": "ResQMap: Cryptographically Sealed Humanitarian Aid and Resource Tracking",
+      "title": "BeaconFloor: Resilient Indoor Positioning for First Responders",
       "track": "Humanitarian Response and Post-War Reconstruction",
-      "why_it_could_win": "Aligns with the 'Rebuilding Nations' track by offering verifiable public accountability for post-war or post-disaster reconstruction funds, combining security with high social impact."
+      "why_it_could_win": "Solves a critical safety problem for humanitarian response and rebuilding operations, mirroring past winning tools built for emergency workers in hazardous environments."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:71175478"
-      ],
-      "pitch": "An offline-first mobile application utilizing ambient Wi-Fi and Bluetooth signal strength profiling to map multi-story indoor locations, guiding rescue workers safely through smoke-filled or compromised structures.",
-      "stack": [
-        "TypeScript",
-        "React Native",
-        "Bluetooth LE",
-        "Node.js"
-      ],
-      "title": "BeaconFloor: Indoor RF Localization for First Responders in Hostile Environments",
-      "track": "Humanitarian Response and Post-War Reconstruction",
-      "why_it_could_win": "Directly solves the life-safety navigation problem for defense personnel and emergency responders operating in unfamiliar or damaged infrastructure."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
         "github:16747893"
       ],
-      "pitch": "Secure, self-destructing communication platform for field operatives and civilian protection agencies to transmit sensitive coordinates and intelligence without leaving server-side footprints.",
+      "pitch": "A secure, zero-knowledge document transmission platform that acts like Snapchat for sensitive defense briefings and intelligence files, ensuring documents self-destruct after viewing and leave no forensic trail.",
       "stack": [
         "JavaScript",
-        "React",
-        "Express",
-        "AES-256"
+        "Node.js",
+        "WebCrypto API",
+        "TailwindCSS"
       ],
-      "title": "GhostDispatch: Zero-Knowledge Sensitive Intelligence Drop",
-      "track": "Cyber Defence and National Security",
-      "why_it_could_win": "Addresses cyber defence and secure military communications by combining ephemeral data transport with legal-grade cryptographic shredding."
+      "title": "CryptoVault: Ephemeral Secure Document Exchange for Field Operatives",
+      "track": "National Security and Defence Technologies",
+      "why_it_could_win": "Combines hard engineering in secure data handling with high-stakes operational utility, appealing to judges looking for robust cybersecurity and information protection measures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1326164711"
+      ],
+      "pitch": "A public transparency dashboard for post-war reconstruction funds and aid distribution where every resource allocation request carries a cryptographic seal that citizens and NGOs can independently audit.",
+      "stack": [
+        "HTML",
+        "TypeScript",
+        "Node.js",
+        "SQLite",
+        "CryptoJS"
+      ],
+      "title": "AidLedger: Cryptographically Sealed Humanitarian Relief Tracking",
+      "track": "Humanitarian Response and Post-War Reconstruction",
+      "why_it_could_win": "Delivers clear measurable impact and public accountability for rebuilding nations, fulfilling the core ethos of transparent humanitarian governance highlighted in recent hackathon winners."
     }
   ],
   "prompt_version": 1,

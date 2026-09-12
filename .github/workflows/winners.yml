@@ -1,0 +1,59 @@
+name: Collect winners
+
+# The winners corpus grows slowly and old entries never expire, so weekly is plenty. It is the
+# evidence base behind every generated idea, which is why it runs on its own schedule rather than
+# being bolted onto the 6-hourly ingest.
+on:
+  schedule:
+    - cron: "50 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: winners
+  cancel-in-progress: false
+
+jobs:
+  winners:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+
+      - name: Search GitHub for hackathon winners
+        working-directory: backend
+        env:
+          # The default token is enough for search, and raises the rate limit from 10 to 30
+          # requests per minute.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run python -m app.jobs.ingest_winners
+
+      - name: Label the new ones
+        working-directory: backend
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Cached by content hash, so only genuinely new winners cost anything.
+        run: uv run python -m app.jobs.classify --kind winners --provider gemini || true
+
+      - name: Commit any changes
+        run: |
+          git config user.name "hackradar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No new winners."
+            exit 0
+          fi
+          git commit -m "Update winners corpus"
+          git push
