@@ -78,7 +78,21 @@ export const EMPTY_FILTERS: Filters = {
 };
 
 function haystack(h: Hackathon): string {
-  return [h.title, h.tagline, h.organiser, h.city, h.country, ...h.themes, ...h.tracks, ...h.sponsors]
+  // Topic labels and the description matter as much as the name. Without them, searching
+  // "fintech" returned 2 of the 13 hackathons actually labelled Fintech, because events like
+  // "Buildonomics" never spell the word out.
+  return [
+    h.title,
+    h.tagline,
+    h.organiser,
+    h.city,
+    h.country,
+    h.excerpt,
+    ...h.themes,
+    ...h.tracks,
+    ...h.sponsors,
+    ...h.topic_labels,
+  ]
     .filter(Boolean)
     .join(" ")
     .toLowerCase();

@@ -25,8 +25,12 @@ export interface Hackathon {
   team_max: number | null;
   participants_count: number | null;
   domains: string[];
+  /** Human-readable topic names, denormalised so search can match what a student types. */
+  topic_labels: string[];
   /** Ideas themselves live in a separate file — see IdeaSet. */
   idea_count: number;
+  /** First idea's title, shown on the card so the best content is not hidden behind a click. */
+  idea_teaser: string | null;
 }
 
 /** Fetched from data/ideas/<uid>.json only when a card is opened. */

@@ -58,10 +58,19 @@ def _ideas(data_dir: Path | None) -> dict[str, dict]:
     return out
 
 
+def _domain_labels(data_dir: Path | None) -> dict[str, str]:
+    path = (data_dir or DATA_DIR) / "taxonomy.yml"
+    if not path.exists():
+        return {}
+    tax = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return {d["id"]: d["label"] for d in tax.get("domains", [])}
+
+
 def build(data_dir: Path | None = None) -> dict:
     records = read_hackathons(data_dir or DATA_DIR)
     labels = _labels("hackathons", data_dir)
     ideas = _ideas(data_dir)
+    domain_labels = _domain_labels(data_dir)
     # Sort by whatever date the student actually acts on: the event if we know it, else the
     # registration deadline. Unstop publishes no event start for most listings.
     far_future = datetime.max.replace(tzinfo=UTC)
@@ -79,12 +88,18 @@ def build(data_dir: Path | None = None) -> dict:
         row = to_web(record)
         # Unlabelled hackathons still appear; they just won't match a category filter.
         row["domains"] = labels.get(record.uid, {}).get("domains", [])
+        # Denormalise the human label so search can match "machine learning", not just "ai-ml".
+        # Roughly 20 bytes per record, and it fixed search returning 2 of 13 fintech events.
+        row["topic_labels"] = [domain_labels[d] for d in row["domains"] if d in domain_labels]
 
         # Only the COUNT goes in the index. Ideas and exemplars were 79% of the payload
         # (988 KB of 1.25 MB) and nobody needs them until they open a card, so each hackathon
         # gets its own file fetched on demand.
         stored = ideas.get(record.uid)
         row["idea_count"] = len(stored["ideas"]) if stored else 0
+        # One idea title as a teaser. The full set is ~988 KB and stays out of the index, but the
+        # ideas are the most interesting thing here and were invisible until someone clicked.
+        row["idea_teaser"] = stored["ideas"][0]["title"] if stored and stored["ideas"] else None
         rows.append(row)
 
     taxonomy_path = (data_dir or DATA_DIR) / "taxonomy.yml"

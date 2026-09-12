@@ -17,7 +17,7 @@ from dateutil import parser as dateparser
 from app.models import HackathonRecord
 
 #: Identifies us to the sites we read, so an operator can see who we are and contact us.
-USER_AGENT = "HackRadar/0.1 (+https://github.com/hackradar/hackradar; open-source student tool)"
+USER_AGENT = "Hackawon/0.1 (+https://github.com/shipitdev/hackawon; open-source student tool)"
 
 #: Politeness floor between requests to the same host.
 MIN_INTERVAL_SECONDS = 1.0

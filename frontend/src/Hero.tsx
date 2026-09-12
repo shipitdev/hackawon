@@ -111,8 +111,8 @@ export function Hero({
         </h1>
 
         <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/60 sm:text-lg">
-          Every open hackathon from Devfolio, Unstop and MLH in one place — with project ideas
-          grounded in what has actually won before.
+          Every open hackathon in one place, each with project ideas grounded in what has
+          actually won before.
         </p>
 
         <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-5">

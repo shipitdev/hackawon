@@ -30,6 +30,8 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     participants_count: null,
     domains: [],
     idea_count: 0,
+    idea_teaser: null,
+    topic_labels: [],
     ...overrides,
   };
 }
@@ -166,5 +168,42 @@ describe("the abroad filter", () => {
 
   it("is off by default", () => {
     expect(applyFilters(items, EMPTY_FILTERS, NOW)).toHaveLength(4);
+  });
+});
+
+describe("what search looks at", () => {
+  // Measured 2026-09-12: typing "fintech" returned 2 results while 13 hackathons carried the
+  // Fintech label, because search ignored the labels we generate and the description.
+  const items = [
+    make({ uid: "named", title: "Fintech Jam" }),
+    make({ uid: "labelled", title: "Buildonomics", topic_labels: ["Fintech"] }),
+    make({ uid: "described", title: "Tejas India", excerpt: "Build for banking and payments" }),
+    make({ uid: "unrelated", title: "Game Off", topic_labels: ["Gaming"] }),
+  ];
+
+  it("finds a hackathon by its topic label, not just its name", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, query: "fintech" }, NOW);
+    expect(out.map((h) => h.uid)).toContain("labelled");
+  });
+
+  it("still finds it by name", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, query: "fintech" }, NOW);
+    expect(out.map((h) => h.uid)).toContain("named");
+  });
+
+  it("searches the description too", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, query: "banking" }, NOW);
+    expect(out.map((h) => h.uid)).toEqual(["described"]);
+  });
+
+  it("does not drag in unrelated topics", () => {
+    const out = applyFilters(items, { ...EMPTY_FILTERS, query: "fintech" }, NOW);
+    expect(out.map((h) => h.uid)).not.toContain("unrelated");
+  });
+
+  it("matches the human label, not the internal id", () => {
+    // A student types "AI", never "ai-ml".
+    const ai = [make({ uid: "a", domains: ["ai-ml"], topic_labels: ["AI & Machine Learning"] })];
+    expect(applyFilters(ai, { ...EMPTY_FILTERS, query: "machine learning" }, NOW)).toHaveLength(1);
   });
 });

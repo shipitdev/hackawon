@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Hackathon, IdeaSet } from "./types";
-import { copyPrompt, formatDates, formatPrize, ideaFileName, where } from "./lib";
+import { loadIdeas } from "./data";
+import { copyPrompt, formatDates, formatPrize, where } from "./lib";
 
 /**
  * The panel behind a hackathon card: what it is, ideas grounded in past winners, and the
@@ -32,10 +33,8 @@ export function Detail({
   useEffect(() => {
     if (hackathon.idea_count === 0) return;
     let live = true;
-    const file = `${import.meta.env.BASE_URL}data/ideas/${ideaFileName(hackathon.uid)}`;
-    fetch(file)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((data: IdeaSet) => live && setSet(data))
+    loadIdeas(hackathon.uid)
+      .then((data) => live && setSet(data))
       .catch(() => live && setFailed(true));
     return () => {
       live = false;
