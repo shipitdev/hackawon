@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:28:54.728001+05:30",
+  "generated_at": "2026-09-13T07:49:12.659180+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,81 +16,83 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A real-time predictive dashboard for Wolfline buses and campus parking decks using historical arrival logs and live GPS feeds to forecast crowding and suggest optimal commute routes for NC State students.",
+      "pitch": "A predictive spatial-temporal incident forecasting tool for NC State campus security using historical crime data and Poisson regression to generate risk heatmaps.",
       "stack": [
-        "TypeScript",
-        "Next.js",
         "Python",
-        "Poisson-regression"
+        "Jupyter Notebook",
+        "Poisson-Regression",
+        "Leaflet.js"
       ],
-      "title": "PackTransit Live: NC State Campus Bus & Parking Occupancy Forecaster",
+      "title": "PackPulse Campus Safety Forecaster",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges feel themselves every single day on the NC State campus, guaranteeing high engagement and immediate utility during live demos."
+      "why_it_could_win": "Follows the exact pattern of the AI incident forecasting winner by using rigorous statistical modeling rather than a generic UI, which heavily appeals to technical judges."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1087704265"
+        "github:1181344931"
       ],
-      "pitch": "A forecasting platform that models peak electricity demand for local microgrids using historical weather data and industrial consumption metrics from the Raleigh area.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Scikit-learn"
-      ],
-      "title": "WolfGrid: AI-Driven Energy Load Predictor for Research Triangle Smart Grids",
-      "track": "",
-      "why_it_could_win": "Leverages rigorous forecasting methodologies similar to winning AI incident predictors, appealing directly to judges looking for data-heavy, mathematically sound backends."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An automated logistics and outreach platform that groups isolated seniors in Wake County into shared social outings and pairs them with verified student volunteer drivers.",
+      "pitch": "An AWS-powered AML and anomaly detection platform adapted for public transit tracking, combining graph intelligence to flag suspicious delays or route bottlenecks in real-time.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "AWS",
+        "NetworkX",
+        "React"
       ],
-      "title": "RaleighShelterConnect: AI Matchmaker for Local Volunteer Drivers and Seniors",
+      "title": "WolfLine Transit Graph Intelligence Monitor",
       "track": "",
-      "why_it_could_win": "Targets clear measurable social impact with a quantified community benefit, mirroring the exact formula that won the Vanderbilt Global Good Hackathon."
+      "why_it_could_win": "Emulates the winning Bito architecture by leveraging complex graph intelligence and explainable outputs, solving a painful localized problem for NC State students."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1275874285"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered nutrition and logistics app that redirects surplus dining hall food from NC State eateries to student food pantries while generating healthy meal plans for recipients.",
+      "pitch": "A localized multi-agent student support platform built with LangGraph and RAG specifically tailored to answer sustainability guidelines, grant applications, and facility scheduling for NC State.",
       "stack": [
-        "Python",
         "TypeScript",
+        "LangGraph",
+        "Next.js",
         "OpenAI API"
       ],
-      "title": "TriangleMealMatch: NC State Campus Food Insecurity & Dining Hall Rescue",
+      "title": "Triangle Green-Campus Multi-Agent Assistant",
       "track": "",
-      "why_it_could_win": "Combines a campus-specific logistical pain point with personalized AI nutrition guidance, directly replicating the winning formula of the Hour Hackathon nutrition assistant."
+      "why_it_could_win": "Replicates the multi-agent RAG architecture of the GreenNovation Hackathon winner, making it robust and immediately useful for university administrators."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition and wellness platform that ingests daily menus from NC State dining halls and delivers personalized, budget-friendly meal recommendations for students.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini-API",
+        "TailwindCSS"
+      ],
+      "title": "Wolfpack Dining AI Nutrition & Meal Planner",
+      "track": "",
+      "why_it_could_win": "Adapts the E-Foodiee-AI-Nutrition-Assistant winning formula to a hyper-local dataset (campus dining), providing instant practical utility that judges love to see."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered geospatial monitoring tool that analyzes periodic satellite imagery of Raleigh-Durham industrial corridors to detect zoning violations and environmental runoff changes.",
+      "pitch": "An AI-powered satellite monitoring tool that scans satellite imagery of Wake County industrial zones to automatically detect unauthorized land clearing and environmental compliance violations.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "OpenCV",
+        "Mapbox"
       ],
-      "title": "PackAI Compliance: Satellite Monitoring for Triangle Industrial Land Use",
+      "title": "Raleigh Industrial Satellite Land Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by processing complex geospatial data and computer vision models within the tight 31-hour timeframe."
+      "why_it_could_win": "Mirrors the hard-engineering approach of GeoNex-ATLAS, showcasing geospatial computer vision that stands out among standard web app submissions."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

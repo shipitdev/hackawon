@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:38:42.550551+05:30",
+  "generated_at": "2026-09-13T07:58:39.538190+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +16,84 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring platform tailored for regional agricultural and industrial land compliance checks in India, flagging illegal encroachments and zoning violations using multimodal spatial models.",
+      "pitch": "Satellite imagery and AI-powered monitoring platform for tracking agricultural land encroachment and crop health compliance tailored to Indian regional land records.",
       "stack": [
         "TypeScript",
         "Python",
         "Next.js",
-        "TailwindCSS"
+        "Satellite API"
       ],
-      "title": "KrishiAI Land Compliance Monitor",
-      "track": "Open Innovation",
-      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by applying satellite monitoring to a critical domestic regulatory problem that local judges and Indian state bodies immediately recognize."
+      "title": "AgriSathi-AI-Land-Monitoring",
+      "track": "",
+      "why_it_could_win": "Leverages the proven satellite monitoring architecture from GeoNex-ATLAS, targeting pressing real-world agricultural and land compliance issues relevant to Indian national infrastructure."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An automated community-coordinating web application that groups nearby urban or rural seniors into social outings and matches them securely with verified volunteer drivers and student assistants.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "Sahayak Outreach Network",
-      "track": "Social Impact",
-      "why_it_could_win": "Directly replicates the social-good grand prize strategy of Outreach by addressing visible local elder-care and social isolation problems with clean, logistical grouping algorithms."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition and regional wellness platform that analyzes traditional Indian thalis and homemade meals to deliver personalized macro insights and dietary guidance.",
+      "pitch": "Localized AI nutrition and wellness assistant delivering personalized meal plans and macro breakdowns based on traditional Indian regional diets and local grocery availability.",
       "stack": [
         "Python",
-        "Streamlit",
         "FastAPI",
-        "Gemini API"
+        "React",
+        "OpenAI API"
       ],
-      "title": "BhojanAI Local Nutritionist",
-      "track": "HealthTech",
-      "why_it_could_win": "Follows the blueprint of E-Foodiee-AI-Nutrition-Assistant by solving a relatable, everyday wellness pain point using accessible LLM and vision APIs wrapped in a slick mobile-first PWA."
+      "title": "Swasthya-AI-Nutrition-Regional",
+      "track": "",
+      "why_it_could_win": "Adapts the 24-hour winning nutrition formula of E-Foodiee into a culturally relevant context that instantly resonates with local judges and users."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous micro-task and gig-worker marketplace featuring escrow payment settlements designed specifically for the Indian gig economy to guarantee instant payouts upon task verification.",
-      "stack": [
-        "JavaScript",
-        "Next.js",
-        "Solidity",
-        "Node.js"
-      ],
-      "title": "Bharat Autonomous Escrow Dispatch",
-      "track": "Fintech",
-      "why_it_could_win": "Leverages the proven autonomous agent and escrow pattern seen in Dispatch, addressing a high-friction financial pain point for local gig workers and freelancers."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-driven patient acquisition, trust-building, and consultation booking engine tailored for specialized dental clinics across India to convert online inquiries into confirmed appointments.",
+      "pitch": "Graph-intelligence and machine learning platform designed to detect fraudulent ring topologies and AML risks in high-frequency UPI transaction networks.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Python",
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "ClinicTrust Prosthodontic Engine",
-      "track": "HealthTech",
-      "why_it_could_win": "Adapts the precise winning playbook of Global-Smile by building a hyper-targeted vertical SaaS tool that solves an immediate economic pain for local medical practitioners."
+      "title": "FinGuard-UPI-AML-Engine",
+      "track": "",
+      "why_it_could_win": "Employs heavy graph intelligence and explainable machine learning techniques similar to the Bito award-winning financial platform, solving an urgent fintech problem in India."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Poisson regression and automated GAM forecasting tool for predicting and auditing AI safety incidents and regulatory compliance flags for Indian tech startups.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Statsmodels"
+      ],
+      "title": "AI-Incident-Tracker-India",
+      "track": "",
+      "why_it_could_win": "Replicates the sophisticated statistical modeling approach of the Apart Research AI Forecasting hackathon winner, showcasing genuinely hard engineering in a 24-hour window."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1213911408"
+      ],
+      "pitch": "Autonomous AI agent marketplace with smart contract escrow payments for connecting rural artisans and farmers directly with government subsidy schemes.",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "LangGraph",
+        "USDC"
+      ],
+      "title": "Kisaan-Autonomous-Grant-Escrow",
+      "track": "",
+      "why_it_could_win": "Combines multi-agent workflow architecture with escrow mechanics, mirroring the winning Dispatch autonomous agent pattern while solving grassroots economic distribution."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

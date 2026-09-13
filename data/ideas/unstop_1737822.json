@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:31:14.399252+05:30",
+  "generated_at": "2026-09-13T07:51:27.805936+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -8,9 +8,9 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech",
+      "working-demo"
     ],
     "thin": false
   },
@@ -18,85 +18,86 @@
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "An automated feedback and performance intelligence dashboard tailored for schools, leveraging natural language processing to synthesize student engagement metrics and teacher notes.",
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A smart school administration and attendance integration tool inspired by Code-X-Novas's own product ecosystem, combining smart attendance logging with real-time student sentiment feedback loops.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "VidyaOS Automated Attendance and Feedback Intelligence",
+      "track": "",
+      "why_it_could_win": "Code-X-Novas organizes the hackathon and focuses heavily on education technology platforms like VidyaOS 360 and SAS 360; aligning the project directly with their core business domain provides an immediate strategic advantage with judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual workflow orchestration engine that monitors automated school administrative processes and flags compliance and operational risks before deployment across institutional networks.",
+      "stack": [
         "Python",
+        "ai-agents",
+        "bpmn",
         "FastAPI"
       ],
-      "title": "VidyaAnalytics 360",
-      "track": "education technology",
-      "why_it_could_win": "Code-X-Novas operates VidyaOS 360 and an education ecosystem reaching 700+ schools, making an edtech analytics tool deeply relevant to the organizers' core business interests."
+      "title": "BPMN-Orchestrated EdTech Risk Workflow",
+      "track": "",
+      "why_it_could_win": "Mirrors the architectural rigor of UiPath AgentHack winners by using BPMN orchestration for practical enterprise and institutional risk management."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1182199849"
+        "github:1334000568"
       ],
-      "pitch": "A privacy-first classroom attendance system utilizing edge computer vision to log student presence without requiring specialized hardware setups.",
+      "pitch": "A training-free semantic router that classifies student and institutional support queries, routing them to appropriate automated workflows while self-improving via LLM-judge feedback loops.",
       "stack": [
         "Python",
-        "OpenCV",
-        "MediaPipe",
-        "TypeScript"
+        "qwen",
+        "semantic-router",
+        "superlinked"
       ],
-      "title": "SmartAttend Vision",
-      "track": "automation",
-      "why_it_could_win": "Directly mirrors the organizers' existing product ecosystem, specifically their smart attendance solution SAS 360, catching the eye of judges looking for practical institutional products."
+      "title": "Self-Improving Semantic Routing for EdTech Support",
+      "track": "",
+      "why_it_could_win": "Adapts the proven architecture of the Superlinked x Qwen Hackathon winner into the educational domain, demonstrating hard engineering in routing and prompt optimization."
     },
     {
-      "build_hours": 28,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1213911408"
+        "github:1163393786"
       ],
-      "pitch": "An AI-powered customer feedback triage and sentiment routing engine that categorizes audio and text complaints for enterprise clients.",
+      "pitch": "Two specialized business intelligence agents simulating client-vendor negotiations over service-level agreements to stress-test enterprise contracts before human deployment.",
       "stack": [
         "Python",
-        "OpenAI API",
-        "LangChain",
+        "adversarial-ai",
+        "LLM",
         "FastAPI"
       ],
-      "title": "Vrise Voice Insights",
-      "track": "artificial intelligence",
-      "why_it_could_win": "Aligns directly with the host's Vrise Network concept, demonstrating immediate commercial utility for their enterprise and client-project focus."
+      "title": "Adversarial Business Intelligence Negotiation Agent",
+      "track": "",
+      "why_it_could_win": "Uses the complex multi-agent adversarial dynamic seen in the Datadog Self-Improving Agents Hack winner, showcasing advanced autonomous agent behavior."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1282252864"
+        "github:1296916648"
       ],
-      "pitch": "A workflow orchestration tool for educational institutions to automate administrative enrollment and document verification processes using visual BPMN logic and AI agents.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "BPMN.io",
-        "LangGraph"
-      ],
-      "title": "EduFlow BPMN Automator",
-      "track": "software development",
-      "why_it_could_win": "Blends workflow governance with education technology, hitting two core focus areas of the organizing company."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free routing layer that directs student query queries efficiently between foundational LLMs and specialized tutoring models based on semantic similarity indexes.",
+      "pitch": "A local developer tool that reviews student codebase submissions for security flaws and performance bottlenecks completely offline using hardware-accelerated NPUs.",
       "stack": [
         "Python",
-        "Qwen",
-        "Semantic Router",
-        "FastAPI"
+        "ONNX",
+        "LLM",
+        "Local NPU SDK"
       ],
-      "title": "EdTech Semantic Router",
-      "track": "artificial intelligence",
-      "why_it_could_win": "Applies a proven, high-performing hackathon architecture directly to the edtech domain valued by the organizers."
+      "title": "Offline-First NPU Code Reviewer for Student Projects",
+      "track": "",
+      "why_it_could_win": "Follows the hardware-adjacent, local-first utility pattern of the Qualcomm Snapdragon Multiverse runner-up, focusing on practical developer tooling."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

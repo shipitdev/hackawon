@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-13T07:52:03.931851+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742433",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An automated e-waste or organic scrap composting bin powered by low-cost microcontrollers that monitors temperature, humidity, and decomposition rates, optimized specifically for campus hostel waste.",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "Arduino"
+      ],
+      "title": "EcoJugaad IoT Composter",
+      "track": "JUGAAD – Scrap to Solution",
+      "why_it_could_win": "Directly addresses the hackathon's core theme of 'Scrap to Solution' by utilizing discarded electronic parts and local waste materials to create a functional, high-utility IoT device."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A computer vision mobile application running lightweight object detection models on edge devices to instantly classify household and industrial scrap items for upcycling and recycling potential.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "Flutter",
+        "OpenCV"
+      ],
+      "title": "ScrapSort AI",
+      "track": "JUGAAD – Scrap to Solution",
+      "why_it_could_win": "Combines sustainability with practical software utility, giving judges a tangible way to see waste turned into sorted resources."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated irrigation valve controller built entirely from discarded plastic bottles, old PVC pipes, and surplus solenoid valves salvaged from discarded appliances, controlled via local Bluetooth.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Bluetooth"
+      ],
+      "title": "AgriJugaad Drip Controller",
+      "track": "JUGAAD – Scrap to Solution",
+      "why_it_could_win": "Emphasizes the literal 'scrap to solution' mantra by repurposing everyday trash into heavy-duty agricultural hardware suited for rural Punjab."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A hyper-local web platform connecting local artisans and students who create functional furniture and decor items out of industrial scrap and discarded materials with buyers in the region.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "UpcycleMarketplace",
+      "track": "JUGAAD – Scrap to Solution",
+      "why_it_could_win": "Provides a commercial and social ecosystem that validates the real-world economic viability of upcycled scrap products."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A web calculator and testing simulator for agricultural stubble and plastic waste mixture ratios used to compress durable, low-cost building bricks.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python"
+      ],
+      "title": "BioBrick Calculator",
+      "track": "JUGAAD – Scrap to Solution",
+      "why_it_could_win": "Tackles the massive local problem of agricultural stubble burning in Punjab by turning it into a structured, engineer-friendly construction metric tool."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

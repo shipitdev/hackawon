@@ -1,96 +1,96 @@
 {
-  "generated_at": "2026-09-12T10:40:20.654781+05:30",
+  "generated_at": "2026-09-13T08:00:18.609366+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1752198",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Smart waste sorting assistant using computer vision and LLMs to optimize neighborhood organic waste collection and composting efficiency.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "OpenAI API"
-      ],
-      "title": "CommunityCompost AI",
-      "track": "Smart & Sustainable Future",
-      "why_it_could_win": "Directly addresses the Smart & Sustainable Future problem statement with a clear, measurable environmental benefit and localized community impact."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "AI-powered voice app that matches elderly community members with local volunteers for errands and social visits.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ElderLink Companion",
-      "track": "Inclusive Technology",
-      "why_it_could_win": "Matches the exact pattern of Vanderbilt Global Good winner Outreach by solving a relatable social isolation pain point with clear community impact."
-    },
-    {
       "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An AI-powered local waterlogging and drainage capacity forecasting tool tailored for municipal community planning, using Poisson regression and historical rainfall maps.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "Community Flood & Drainage Predictor",
+      "track": "Smart & Sustainable Future",
+      "why_it_could_win": "It directly targets the Smart & Sustainable Future track by applying rigorous statistical forecasting to everyday climate resilience challenges."
+    },
+    {
+      "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "Browser extension and email scanner that detects sophisticated phishing tactics and multi-channel social engineering threats in real-time.",
+      "pitch": "An automated browser extension and API backend that uses graph intelligence and fine-tuned transformers to detect sophisticated spear-phishing campaigns targeting small businesses.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "TypeScript"
+        "TypeScript",
+        "Node.js",
+        "Transformers.js",
+        "TailwindCSS"
       ],
-      "title": "PhishingGuard AI",
+      "title": "Phishing-Shield AI: Enterprise Email Social Engineering Analyzer",
       "track": "Digital Safety & Cybersecurity",
-      "why_it_could_win": "Targets the Digital Safety & Cybersecurity track by addressing modern cyber threats that judges and everyday users face constantly."
+      "why_it_could_win": "Fits the Digital Safety & Cybersecurity track with an actionable, enterprise-grade prevention mechanism that defends digital systems from modern threats."
     },
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "Personalized meal planning assistant that suggests recipes utilizing surplus local grocery items to reduce food waste and improve diet.",
+      "pitch": "An AI-powered nutrition platform that generates hyper-personalized meal plans and regional dietary substitutes for communities with limited access to standard healthcare nutritional advice.",
       "stack": [
         "Python",
-        "Streamlit",
+        "FastAPI",
+        "Next.js",
         "Gemini API"
       ],
-      "title": "LocalFood Nutrition & Waste AI",
-      "track": "AI for Everyday Life",
-      "why_it_could_win": "Combines elements of nutrition tracking with sustainability, hitting both Everyday Life and Smart & Sustainable Future tracks effectively."
+      "title": "AuraDiet: Culturally Adaptive Nutrition Assistant",
+      "track": "Inclusive Technology",
+      "why_it_could_win": "Aligns with the Inclusive Technology track by focusing on accessible health guidance and localized dietary education."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "Offline-capable speech and language practice tool designed specifically to assist students with learning disabilities and speech impediments.",
+      "pitch": "An everyday routing app that computes real-time carbon footprints for micro-journeys using public transit, walking, and micro-mobility, incentivizing sustainable habits for individuals.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Web Audio API"
+        "React",
+        "Mapbox GL",
+        "Node.js"
       ],
-      "title": "EduAccess Speech Tutor",
+      "title": "EcoRoute: Carbon-Optimized Local Commute Assistant",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Addresses the AI for Everyday Life problem statement by solving a practical sustainability challenge faced by daily commuters."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "A computer vision web application that uses real-time hand-tracking models to verify correct sign language grammar for students, bridging communication gaps in educational settings.",
+      "stack": [
+        "TypeScript",
+        "MediaPipe",
+        "Next.js",
+        "Python"
+      ],
+      "title": "SignBridge: Interactive Sign Language Learning & Verification Engine",
       "track": "Inclusive Technology",
-      "why_it_could_win": "Fits the Inclusive Technology track by improving educational accessibility through targeted AI speech analysis."
+      "why_it_could_win": "Combines difficult computer vision engineering with the Inclusive Technology track's core focus on accessibility and education."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

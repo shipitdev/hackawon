@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:29:48.806226+05:30",
+  "generated_at": "2026-09-13T07:50:06.614844+00:00",
   "grounding": {
     "domains": [
       "edtech",
@@ -18,86 +18,87 @@
       "build_hours": 36,
       "inspired_by": [
         "github:1352073210",
-        "github:1213911408"
+        "github:1034488175"
       ],
-      "pitch": "An AI-powered academic copilot connecting institution management systems and document repositories using Model Context Protocol and RAG for automated workflow management.",
+      "pitch": "An AI academic copilot integrating Canvas LMS and institutional document repositories using LangGraph agents and MCP servers to automate student advising and administrative workflows.",
       "stack": [
-        "TypeScript",
         "Python",
         "LangGraph",
-        "FastAPI"
+        "FastAPI",
+        "React",
+        "Canvas API"
       ],
-      "title": "EduFlow MCP Copilot",
+      "title": "CampusFlow RAG & MCP Copilot",
       "track": "",
-      "why_it_could_win": "Directly targets the hackathon's core objective of eliminating administrative inefficiencies and integrating workflows rather than building isolated features, heavily mirroring past winning architectural patterns."
+      "why_it_could_win": "Directly tackles administrative inefficiencies and fragmented communication in universities, aligning with the core problem statement of the Paper Buddy EduVerse Hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1074933780"
+      ],
+      "pitch": "An AI-powered career mentor for college students that analyzes university transcripts and project portfolios to dynamically generate personalized skill roadmaps and interview simulations.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "EduMentor AI Career & Roadmap Engine",
+      "track": "",
+      "why_it_could_win": "Follows the proven winning formula of CodeADA Hackathon by turning static academic data into actionable, interactive career guidance."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1182199849",
-        "github:1074933780"
+        "github:1104248361"
       ],
-      "pitch": "An AI-powered clinical examination training platform for university medical and nursing departments, featuring real-time rubric scoring and interactive simulated patient interviews.",
+      "pitch": "An interactive AI oral examination simulator that conducts voice-based vivas for university students, scoring responses against a multi-dimensional rubric using local multimodal models.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Google Gemini API",
-        "TailwindCSS"
+        "Vue",
+        "Express",
+        "Gemini API",
+        "Web Speech API"
       ],
-      "title": "CampusClinic AI OSCE",
+      "title": "VivaSim Clinical & Academic Evaluator",
       "track": "",
-      "why_it_could_win": "Leverages the proven high-impact domain-specific simulation pattern that won major hackathons by offering a production-ready vertical tool for higher education."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1034488175"
-      ],
-      "pitch": "An intelligent document transformation engine that turns static university syllabi, lecture notes, and administrative PDFs into interactive semantic knowledge graphs and AI study assistants.",
-      "stack": [
-        "Python",
-        "LangChain",
-        "PostgreSQL",
-        "React"
-      ],
-      "title": "Syllabus2Knowledge Base",
-      "track": "",
-      "why_it_could_win": "Solves the fragmented communication and manual resource management problems faced by educational organizations by converting raw institutional files into structured digital utilities."
+      "why_it_could_win": "Leverages live multimodal audio interactions and automated rubrics which consistently win judging panels looking for production-ready educational tools."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1152129601"
       ],
-      "pitch": "A smart university app that matches students for peer-to-peer exam prep and collaborative study groups while automatically maintaining and organizing their verified academic portfolios.",
+      "pitch": "A campus-wide platform that matches students for exam preparation and study groups based on active coursework, learning styles, and verified project portfolios.",
       "stack": [
         "React",
         "Django",
-        "TailwindCSS",
-        "SQLite"
+        "PostgreSQL",
+        "CSS"
       ],
-      "title": "PeerStudy & Portfolio Matcher",
+      "title": "StudySync Peer & Portfolio Matcher",
       "track": "",
-      "why_it_could_win": "Addresses student-facing collaboration and administrative bottlenecks in colleges, following a proven winning blueprint from university-focused hackathons."
+      "why_it_could_win": "Replicates the winning approach of the KMC Hackathon by solving student isolation and study partner discovery through a functional, clean web application."
     },
     {
-      "build_hours": 35,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1213911408"
+        "github:918466502"
       ],
-      "pitch": "An AI-powered multi-agent student support platform tailored for campus sustainability initiatives, tracking green metrics and providing personalized guidance for institutional eco-programs.",
+      "pitch": "An app that connects students learning foreign languages through short-form video exchange, utilizing natural language processing to suggest vocabulary and correct grammar in real-time.",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "OpenAI API",
-        "Node.js"
+        "Python",
+        "React Native",
+        "FastAPI",
+        "NLP Libraries"
       ],
-      "title": "EduGreen Agentic Hub",
+      "title": "LinguaSpark Short-Form Language Exchange",
       "track": "",
-      "why_it_could_win": "Combines multi-agent system architecture with real-world institutional impact, aligning with judges' preference for scalable, production-ready software solutions."
+      "why_it_could_win": "Adapts the UofTHacks winning concept of user-generated educational video feeds for institutional language departments and coaching institutes."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

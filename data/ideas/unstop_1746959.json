@@ -1,17 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:36:08.221551+05:30",
+  "generated_at": "2026-09-13T07:56:06.498068+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
-      "security",
-      "civic"
+      "security"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech",
+      "unique-data"
     ],
     "thin": false
   },
@@ -20,89 +18,93 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:690893685"
+        "github:1069255350",
+        "github:1181344931"
       ],
-      "pitch": "An edge-AI acoustic monitoring network using MFCCs and lightweight PyTorch models to detect structural cracks and pipe fractures in urban water grids, instantly streaming geolocated alerts to municipal dashboards.",
+      "pitch": "A multi-agent platform for industrial IoT network monitoring that combines graph intelligence with automated anomaly detection to prevent OT/ICS cyber attacks.",
       "stack": [
         "Python",
-        "PyTorch",
+        "FastAPI",
+        "NetworkX",
         "React",
-        "Django",
-        "TailwindCSS"
+        "Gemini API"
       ],
-      "title": "AcousticPulse Grid",
-      "track": "AI in Smart Cities",
-      "why_it_could_win": "Directly targets the AI in Smart Cities track by combining low-level audio signal processing with a clear municipal infrastructure use case, matching the winning architecture of previous acoustic detection hacks."
+      "title": "AutoGraph Industrial Threat Hunter",
+      "track": "AI in Cybersecurity",
+      "why_it_could_win": "Combines genuine hard engineering in network topology analysis with the AI in Cybersecurity and AI in Industry Automation tracks."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1181344931",
-        "github:1228867095"
+        "github:1196410850"
       ],
-      "pitch": "A real-time browser extension and API gateway that uses graph neural networks and transformer models to intercept zero-day phishing campaigns and voice-impersonation scam calls targeting enterprise IT infrastructure.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "FastAPI",
-        "NetworkX",
-        "Chrome Extensions API"
-      ],
-      "title": "PhishVigil AI",
-      "track": "AI in Cybersecurity",
-      "why_it_could_win": "Wins the AI in Cybersecurity track by moving beyond basic signature matching into predictive threat intelligence and real-time intervention, solving an acute pain point for corporate security judges."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "An automated computer vision quality-control platform for industrial assembly lines that flags micro-defects on high-speed conveyor belts using YOLOv8 models optimized for edge devices.",
+      "pitch": "An AI-powered CCTV log and traffic stream analyzer that detects unauthorized vehicle access in restricted smart city zones and coordinates emergency response.",
       "stack": [
         "Python",
-        "OpenCV",
         "YOLOv8",
-        "Flask",
-        "React"
+        "OpenCV",
+        "FastAPI",
+        "Next.js"
       ],
-      "title": "AutoLine Inspector",
-      "track": "AI in Industry Automation",
-      "why_it_could_win": "Hits the AI in Industry Automation track squarely by showcasing quantifiable economic value through reduced defect rates and lower compute overhead for factory floors."
+      "title": "UrbanFlow AI Traffic Sentinel",
+      "track": "AI in Smart Cities",
+      "why_it_could_win": "Targets the AI in Smart Cities track directly by using real-time computer vision feeds and structured alert routing."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1087704265"
+        "github:985196561",
+        "github:1181344931"
       ],
-      "pitch": "A predictive maintenance engine for automated industrial robotics that forecasts component failures using Poisson regression and multivariate time-series forecasting before downtime occurs.",
+      "pitch": "An automated threat investigation dashboard that ingests raw server logs, runs local anomaly detection, and provides explainable mitigation playbooks for security analysts.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "SecureGuard SIEM Log Copilot",
+      "track": "AI in Cybersecurity",
+      "why_it_could_win": "Directly addresses AI in Cybersecurity by automating high-volume log triage, mirroring award-winning log analysis architectures."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1196410850",
+        "github:1069255350"
+      ],
+      "pitch": "An edge-ready multi-agent diagnostic system that analyzes industrial sensor telemetry to predict machinery failures before they halt factory production lines.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Scikit-learn",
+        "LangGraph",
         "Streamlit",
-        "Pandas"
+        "Pandas",
+        "Scikit-learn"
       ],
-      "title": "GridShield ML",
+      "title": "FactoryFlow Predictive Maintenance Agent",
       "track": "AI in Industry Automation",
-      "why_it_could_win": "Applies rigorous statistical forecasting techniques directly to industrial automation, aligning with patterns of winning entries that solve hard predictive modeling challenges."
+      "why_it_could_win": "Fits the AI in Industry Automation track by delivering measurable cost-saving metrics that manufacturing judges prioritize."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1192028384"
+        "github:1069255350"
       ],
-      "pitch": "An intelligent multi-agent traffic orchestration system that dynamically adjusts smart city traffic light timings in real-time based on live computer vision vehicle counts and emergency vehicle priority.",
+      "pitch": "A decentralized anomaly detection network for municipal smart grids that flags power surge patterns and isolates compromised sensor nodes automatically.",
       "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
         "Python",
-        "LangGraph",
-        "FastAPI",
-        "React",
-        "Mapbox GL JS"
+        "Chart.js"
       ],
-      "title": "UrbanFlow Autonomous Traffic Co-Pilot",
+      "title": "SmartGrid Resilience Mesh",
       "track": "AI in Smart Cities",
-      "why_it_could_win": "Directly targets the AI in Smart Cities track with an impressive agentic architecture and immediate, highly visual impact that appeals strongly to hackathon judges."
+      "why_it_could_win": "Demonstrates complex distributed systems and robust fault tolerance tailored for the AI in Smart Cities track."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

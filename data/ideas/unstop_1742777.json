@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:31:54.952462+05:30",
+  "generated_at": "2026-09-13T07:52:16.564163+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,81 +14,81 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered web platform specifically tuned to assist students in parsing, visualizing, and systematically breaking down non-routine mathematics problems using symbolic math engines and graph-based reasoning.",
+      "pitch": "An AI-assisted theorem prover and pattern recognition engine tailored specifically for Olympiad-style non-routine mathematics problems.",
       "stack": [
         "Python",
-        "TypeScript",
-        "Next.js",
-        "SymPy"
+        "SymPy",
+        "LangChain",
+        "Next.js"
       ],
-      "title": "NonRoutine Solver Copilot",
+      "title": "NonRoutineProofSearch",
       "track": "",
-      "why_it_could_win": "Directly aligns with the core thesis of Math-O-Stellar, which focuses on non-routine mathematics, pattern recognition, and flexible logical reasoning rather than standard curriculum memory."
+      "why_it_could_win": "Aligns directly with the core theme of the Math-O-Stellar competition, targeting logical reasoning and flexible thinking rather than standard routine curriculum."
     },
     {
-      "build_hours": 30,
+      "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A browser-based collaborative canvas for sketching out proofs and counterexamples for complex non-routine math contest questions with real-time algebraic verification.",
+      "pitch": "An interactive canvas that helps students visualize recursive sequences, number theory invariants, and geometric transformations to spot hidden patterns quickly.",
       "stack": [
         "TypeScript",
         "React",
         "Canvas API",
         "Python"
       ],
-      "title": "AxiomProof Interactive",
+      "title": "MathPatternExplorer",
       "track": "",
-      "why_it_could_win": "Targeting the specific format of the competition (browser-based platform and non-routine problem solving) makes this immediately appealing to the event organizers and judges."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A machine learning pipeline that takes initial numerical sequences or geometric parameters from combinatorial problems and predicts general closed-form formulas and invariants.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Streamlit"
-      ],
-      "title": "MathPattern ML Forecaster",
-      "track": "",
-      "why_it_could_win": "Draws heavily on the winning Poisson regression forecasting pattern by applying statistical modeling and pattern recognition directly to mathematical sequence problems."
+      "why_it_could_win": "Directly aids competitors in pattern recognition and insight generation, which are heavily tested in non-routine mathematics formats."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "A graph intelligence tool that maps logical dependencies in multi-step mathematical proofs to spot circular reasoning and missing premises in non-routine problem solutions.",
+      "pitch": "A benchmarking and hint-generation pipeline that evaluates LLM reasoning paths against multi-step mathematical proofs with confidence intervals.",
       "stack": [
-        "TypeScript",
-        "Neo4j",
         "Python",
+        "Jupyter Notebook",
+        "OpenAI API",
         "FastAPI"
       ],
-      "title": "ProofGraph Analytics",
+      "title": "OlympiadSolverBench",
       "track": "",
-      "why_it_could_win": "Leverages complex graph intelligence architectures seen in successful security and AML hackathon wins, adapting them to the domain of mathematical logic and rigorous verification."
+      "why_it_could_win": "Combines hard algorithmic engineering with mathematical rigor, appealing to judges who value technical depth over generic wrappers."
     },
     {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "An automated grading and formatting checker tailored for non-routine math competition answer files, ensuring algebraic expressions and logical steps are parseable before final submission.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "Python",
-        "LaTeX parser"
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
       ],
-      "title": "MathOStellar Submission Verifier",
+      "pitch": "A graph-based intelligence tool that maps out logical dependencies and sub-goals in complex mathematical proofs.",
+      "stack": [
+        "TypeScript",
+        "D3.js",
+        "Python",
+        "NetworkX"
+      ],
+      "title": "ProofGraphViz",
       "track": "",
-      "why_it_could_win": "Solves a pain point familiar to both participants and organizers handling uploaded answer files and browser-based platform constraints during time-sensitive contests."
+      "why_it_could_win": "Showcases graph intelligence applied to logical reasoning, solving a technically difficult problem relevant to advanced problem solvers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A real-time collaborative workspace for teams of 1-2 to solve complex math problems together with integrated LaTeX rendering and scratchpad tools.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebSockets",
+        "KaTeX"
+      ],
+      "title": "MathCollabPad",
+      "track": "",
+      "why_it_could_win": "Provides essential tooling for the exact format of the hackathon, making it an immediately useful utility for participants."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

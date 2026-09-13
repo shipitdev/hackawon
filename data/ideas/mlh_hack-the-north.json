@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:24:25.018945+05:30",
+  "generated_at": "2026-09-13T07:44:48.232001+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,85 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1185920891",
-        "github:1194555365"
-      ],
-      "pitch": "An autonomous AI agent using regional transit data and USDC micro-payments to coordinate carpools and shared rides for students navigating Waterloo during cold winter months.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Base",
-        "USDC"
-      ],
-      "title": "Waterloo Transit Agent",
-      "track": "",
-      "why_it_could_win": "Targets a local pain felt directly by students in Waterloo during Hack the North, mirroring the winning pattern of solving local logistics and autonomous agent marketplaces."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A machine learning platform that forecasts Waterloo co-op interview probabilities and skill match rates using historical job board data and calibrated prediction intervals.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "TypeScript"
-      ],
-      "title": "Co-op Interview Forecaster",
-      "track": "",
-      "why_it_could_win": "Solves an intense, highly relatable problem for every single university student participating in the Hack the North event regarding the continuous co-op application cycle."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered wellness assistant tailored for hackathons that tracks macro-nutrients and hydration from quick cafeteria photos to keep builders energized throughout the 49-hour sprint.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "Hackathon Health & Nutrition Tracker",
-      "track": "",
-      "why_it_could_win": "Addresses immediate physical burnout and health tracking during an intense multi-day hackathon sprint, following the successful pattern of targeted utility apps."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered financial compliance and anti-money laundering risk detection dashboard utilizing graph intelligence and explainable machine learning models for fintech APIs.",
+      "pitch": "An automated risk and anomaly detection platform for regional transit networks using graph intelligence and LightGBM, custom-built for local infrastructure analysis.",
       "stack": [
         "TypeScript",
         "Python",
-        "AWS",
-        "LightGBM"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "Quantum Risk AML Detector",
+      "title": "Waterloo Transit Graph Intel",
       "track": "",
-      "why_it_could_win": "Showcases complex enterprise-grade data structures and graph intelligence that technical judges look for in rigorous developer challenges."
+      "why_it_could_win": "Mirrors the exact technical architecture of Bito which won 1st place at the DIGITIMES AI Innovation Hackathon by combining graph intelligence and explainable machine learning."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized marketplace where student autonomous AI agents complete campus errands and micro-tasks, settling payments instantly via USDC escrow on Base.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "Autonomous Campus Agent Escrow",
+      "track": "",
+      "why_it_could_win": "Follows the winning pattern of Dispatch at the Synthesis Hackathon by implementing a functional autonomous agent marketplace with real crypto payment escrow."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool to track campus infrastructure changes, construction progress, and environmental land compliance around the university grounds.",
+      "pitch": "AI-powered satellite imagery monitoring platform that tracks and flags industrial land compliance and environmental changes around Ontario industrial zones.",
       "stack": [
         "TypeScript",
         "Python",
-        "PostGIS",
+        "OpenCV",
+        "PostGIS"
+      ],
+      "title": "EcoGrid Satellite Monitor",
+      "track": "",
+      "why_it_could_win": "Employs genuine hard engineering solving a complex computer vision and spatial data pipeline challenge, similar to the GeoNex-ATLAS runner-up project."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support and sustainability resource platform combining LangGraph, RAG, and personalized AI agents to optimize campus energy usage.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
         "Next.js"
       ],
-      "title": "Campus Satellite CompliCheck",
+      "title": "Campus GreenNovation Multi-Agent Hub",
       "track": "",
-      "why_it_could_win": "Combines geospatial data analysis with automated computer vision reporting, standing out through difficult technical execution similar to top-performing monitoring hacks."
+      "why_it_could_win": "Directly builds on the winning architecture of the greennovation-ai-platform by utilizing multi-agent orchestration and advanced retrieval systems."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive risk dashboard using Poisson GAMs and multinomial share models to forecast algorithmic trading anomalies and financial system incidents with calibrated 90% prediction intervals.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "AI Incident Forecaster for Local Fintech",
+      "track": "",
+      "why_it_could_win": "Replicates the rigorous quantitative modeling and statistical depth that secured 1st place for the ai-incident-forecasting project at Apart Research."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

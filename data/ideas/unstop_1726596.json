@@ -1,102 +1,103 @@
 {
-  "generated_at": "2026-09-12T10:29:55.655136+05:30",
+  "generated_at": "2026-09-13T07:50:11.329997+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1726596",
   "ideas": [
     {
-      "build_hours": 22,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered automated review platform for educators and institutions to scan lesson plans and syllabus drafts for hidden biases, misinformation, outdated facts, and pedagogical consistency using custom LLM evaluation rubrics.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "EduShield AI Curriculum Vulnerability Scanner",
-      "track": "AI with Education",
-      "why_it_could_win": "Directly targets the core theme of AI with Education by solving a real-world workflow problem for teachers and school administrators who are rapidly adopting generative AI without quality control tools."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An educational platform for university student teams that breaks down hackathon or semester-long project requirements into milestone tasks, uses AI to automatically parse meeting transcripts into contribution logs, and maps them to academic grading rubrics.",
+      "pitch": "An AI-powered predictive platform for educational institutions that uses Poisson regression and risk-scoring models to forecast student dropout risks, academic stress spikes, and institutional safety incidents based on attendance and behavioral telemetry.",
       "stack": [
         "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-learn",
         "FastAPI",
-        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "EduShield AI: Automated Student Vulnerability and Incident Forecaster",
+      "track": "AI with Education",
+      "why_it_could_win": "Directly aligns with the AI with Education theme while adopting the winning quantitative modeling and statistical forecasting approach seen in the Apart Research AI Forecasting hackathon win."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An intelligent graph-intelligence platform built for educational administrative boards to detect illicit fund routing, scholarship embezzlement, and grant allocation anomalies using explainable graph algorithms.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Neo4j",
+        "LightGBM",
         "React"
       ],
-      "title": "PeerScribe: AI Group Project Accountability & Rubric Mapping Engine",
+      "title": "GraphEdu: Institutional AML and Grant Fraud Risk Detector",
       "track": "AI with Education",
-      "why_it_could_win": "Solves a problem the judges feel themselves as students and educators dealing with team friction and unstructured group assignments in project-based learning."
+      "why_it_could_win": "Leverages the powerful graph intelligence and explainability architecture that won the DIGITIMES AI Innovation Hackathon, applying it to educational finance and administrative accountability."
     },
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "An AI language-learning application tailored for regional students that teaches complex technical subjects by dynamically blending regional languages with technical English through interactive conversational roleplay.",
+      "pitch": "A multi-agent AI student support system utilizing LangGraph and Retrieval-Augmented Generation (RAG) to dynamically spin up specialized tutor agents targeting individual learning gaps identified during continuous assessments.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Whisper API",
-        "Gemini API"
-      ],
-      "title": "VocabQuest: Adaptive Multilingual AI Code-Switching Tutor",
-      "track": "AI with Education",
-      "why_it_could_win": "Addresses accessibility and language barriers in technical education, appealing directly to regional educational inclusion goals valued by judges in student hackathons."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1275874285"
-      ],
-      "pitch": "An offline-first educational utility that ingests heavy PDF textbooks, research papers, or syllabus documents, extracts core concepts, and automatically generates interactive spaced-repetition flashcards and conceptual knowledge graphs.",
-      "stack": [
+        "LangGraph",
         "Python",
-        "Streamlit",
-        "LangChain",
-        "NetworkX"
+        "FastAPI",
+        "Next.js"
       ],
-      "title": "Syllabus2Flashcard Automated Knowledge Graph Generator",
+      "title": "LearnGraph: Multi-Agent Personalized Remedial Tutor Network",
       "track": "AI with Education",
-      "why_it_could_win": "Delivers immediate, measurable utility for students studying under tight exam deadlines, hitting high marks on practical execution and problem-solving."
+      "why_it_could_win": "Replicates the multi-agent orchestration pattern that secured 1st place at the GreenNovation Hackathon, tailored specifically for student-centric pedagogical support under the Horizon theme."
     },
     {
       "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition and wellness web application designed for campus dining halls that delivers personalized meal recommendations, tracks caloric macros via image recognition, and provides actionable student health insights.",
+      "stack": [
+        "Python",
+        "Flask",
+        "OpenAI API",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "NutriEd AI: Multimodal Dietary and Nutritional Guidance for Campuses",
+      "track": "AI with Education",
+      "why_it_could_win": "Directly adapts the winning concept from the Mealzy 24-Hour Hackathon to solve student wellness and health challenges within educational ecosystems."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An interactive voice-based AI examiner that conducts simulated viva voce examinations for engineering students, asking follow-up questions based on their verbal explanations of code repositories or project architecture diagrams.",
+      "pitch": "An AI-driven platform for vocational and educational institutions to manage prospective student acquisition, analyze sentiment across community touchpoints, and build institutional trust through automated personalized engagement.",
       "stack": [
         "TypeScript",
-        "React",
-        "Web Speech API",
-        "OpenAI GPT-4o Mini"
+        "Gemini API",
+        "Next.js",
+        "PostgreSQL"
       ],
-      "title": "VivaVoce: AI Mock Examiner for Technical Vivas and Interviews",
+      "title": "CampusTrust AI: Institutional Reputation and Student Acquisition Engine",
       "track": "AI with Education",
-      "why_it_could_win": "Combines software development evaluation with product thinking, directly addressing the anxiety and preparation gaps students face during university practical exams."
+      "why_it_could_win": "Utilizes the high-converting patient acquisition and trust engine architecture that won 1st prize at the Elevate X sprint, pivoting the domain to educational enrollment pipelines."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:28:13.683345+05:30",
+  "generated_at": "2026-09-13T07:48:31.853965+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,80 +14,80 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered transit coordination app for the Lower Mainland that groups students and commuters in Burnaby into dynamic carpools and shuttle schedules based on real-time SkyTrain delays.",
+      "pitch": "A regional incident forecasting dashboard using Poisson regression and rolling backtests to predict municipal utility outages in Burnaby during severe weather.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "Jupyter Notebook",
+        "Python",
+        "Poisson-regression"
       ],
-      "title": "PacificTransit Sync",
+      "title": "PacificStorm AI Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Targeting a problem every judge in Burnaby faces daily—commuting to the venue or campus—makes the pain instantly relatable, matching the pattern of solving problems judges feel themselves."
+      "why_it_could_win": "Leverages the proven winning pattern of rigorous statistical forecasting and predictive modeling seen in top AI forecasting hackathons."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Computer vision and satellite monitoring tool designed to track green space usage, urban heat islands, and infrastructure wear across university campuses in British Columbia.",
+      "pitch": "Satellite monitoring and AI-powered land compliance tracker designed to flag unauthorized industrial zoning changes in British Columbia.",
       "stack": [
         "TypeScript",
-        "Python",
-        "Mapbox"
+        "Next.js",
+        "Python"
       ],
-      "title": "CampusScan AI",
+      "title": "Burnaby Compliance Watch",
       "track": "",
-      "why_it_could_win": "Combines clear, measurable environmental impact with spatial data, following the pattern of high-scoring geospatial and resource-monitoring hackathon projects."
+      "why_it_could_win": "Mirrors the runner-up winning pattern of combining GIS data with computer vision for real-world municipal auditing and compliance."
     },
     {
-      "build_hours": 22,
+      "build_hours": 25,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A localized predictive forecasting tool that ingests regional weather data and historical telemetry to output hyper-local wildfire risk metrics and evacuation bottlenecks for local municipalities.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn"
-      ],
-      "title": "BC Wildfire Risk Predictor",
-      "track": "",
-      "why_it_could_win": "Leverages statistical forecasting and high-stakes risk modeling, mimicking the exact architecture of winning prediction and regression hacks."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An explainable graph intelligence and risk-scoring dashboard that detects anomalous student loan and micro-transaction patterns for local credit unions.",
+      "pitch": "An AI-powered multi-agent student support platform utilizing LangGraph and RAG to dynamically route university resources and sustainability queries.",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM"
+        "LangGraph",
+        "Next.js"
       ],
-      "title": "FinTech Guard BC",
+      "title": "CampusGreen Multi-Agent Support",
       "track": "",
-      "why_it_could_win": "Showcases genuinely hard engineering by combining graph databases with explainable machine learning models for financial compliance."
+      "why_it_could_win": "Follows the winning blueprint of multi-agent orchestration frameworks tailored specifically for student-centric ecosystems."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1275874285"
+        "github:1241231621"
       ],
-      "pitch": "A localized dietary planning assistant that optimizes meal recommendations based on real-time inventory and pricing from grocery stores across Burnaby.",
+      "pitch": "An AI-driven patient acquisition and trust engine optimized for local British Columbia dental and prosthodontic clinics.",
       "stack": [
-        "Python",
-        "React",
-        "FastAPI"
+        "TypeScript",
+        "Gemini-API",
+        "Next.js"
       ],
-      "title": "LocalBites AI Nutrition",
+      "title": "BC-Smile Patient Acquisition",
       "track": "",
-      "why_it_could_win": "Delivers concrete economic and health benefits tailored to local student budgets, following the blueprint of successful wellness hackathon winners."
+      "why_it_could_win": "Replicates a proven rapid-sprint winning formula focusing on high-value local business conversion metrics."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous AI agent marketplace featuring USDC escrow payments for peer-to-peer local student services in Burnaby.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC"
+      ],
+      "title": "EscrowAgent Pacific",
+      "track": "",
+      "why_it_could_win": "Combines practical autonomous agent logic with secure escrow transactions, directly mapping to proven financial hackathon winners."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

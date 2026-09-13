@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:40:16.789867+05:30",
+  "generated_at": "2026-09-13T08:00:14.012326+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered candidate screening and hiring mismatch detector that parses technical portfolios and live coding video submissions to flag inflated resumes for remote recruiters.",
+      "pitch": "A graph-intelligence and LightGBM-powered AML risk screening and investigation platform tailored to detect fraudulent funding patterns and suspicious transactions in hiring pipelines or gig-economy payouts.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Python",
+        "LightGBM",
+        "Neo4j",
+        "AWS"
       ],
-      "title": "TalentSignal AI",
+      "title": "TalentGraph AML Compliance & Risk Screening Platform",
       "track": "",
-      "why_it_could_win": "Since this is a hiring-focused hackathon, building a tool that solves recruiter fatigue and hiring friction directly targets a pain the judges feel themselves."
+      "why_it_could_win": "Leverages complex graph intelligence and explainable ML, mirroring a proven architecture that won a major innovation hackathon."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A milestone-based freelance marketplace tailored for hackathon projects, using automated code verification to release funds safely upon passing GitHub workflow tests.",
+      "pitch": "An autonomous AI agent marketplace where specialized career-coaching and recruitment agents operate independently and execute transactions using USDC escrow payments.",
       "stack": [
         "JavaScript",
         "Base",
+        "Locus",
         "USDC",
         "Node.js"
       ],
-      "title": "SkillEscrow",
+      "title": "AgenticTalent: Autonomous AI Agent Marketplace on Base",
       "track": "",
-      "why_it_could_win": "Demonstrates complex product thinking and a concrete economic benefit, matching patterns of winners that solve real monetary trust problems."
+      "why_it_could_win": "Integrates autonomous agent workflows with crypto-economic settlement rails, capturing high technical execution scores."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support and wellness platform combining LangGraph, RAG, and personalized AI agents to resolve administrative queries and mental health resources instantly.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Next.js",
+        "OpenAI"
+      ],
+      "title": "EcoCampus AI: Multi-Agent Student Support Platform",
+      "track": "",
+      "why_it_could_win": "Directly targets institutional productivity and student success metrics, aligning with core themes of practical problem-solving."
     },
     {
       "build_hours": 42,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite and drone image monitoring dashboard that automatically flags unauthorized industrial zoning changes and environmental compliance breaches.",
+      "pitch": "An AI-powered satellite imagery monitoring system that tracks industrial land compliance and environmental regulation adherence using automated geospatial computer vision models.",
       "stack": [
         "TypeScript",
         "Python",
-        "GIS",
-        "Leaflet.js"
+        "PostGIS",
+        "Leaflet.js",
+        "TensorFlow"
       ],
-      "title": "AeroCompliance",
+      "title": "GeoCompliance: Satellite Monitoring for Industrial Land Standards",
       "track": "",
-      "why_it_could_win": "Features genuinely hard technical execution combining geospatial data processing with computer vision classification."
+      "why_it_could_win": "Showcases genuinely hard engineering by combining geospatial raster data analysis with automated compliance report generation."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "AI-powered logistics scheduler that groups isolated seniors into community social outings and matches them with verified local volunteer drivers.",
+      "pitch": "A Poisson GAM and multinomial share model forecasting platform designed to predict hiring bottlenecks, talent churn incidents, and workforce pipeline failures with calibrated 90% prediction intervals.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "OpenRouteService",
-        "PostgreSQL"
-      ],
-      "title": "ElderRoute",
-      "track": "",
-      "why_it_could_win": "Presents clear, quantifiable social impact and solves a deeply felt community accessibility problem."
-    },
-    {
-      "build_hours": 44,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated Anti-Money Laundering risk detection platform utilizing graph intelligence and explainable machine learning models to trace suspicious transaction clusters.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "Neo4j"
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "RiskGraph AML",
+      "title": "AI Incident Forecaster for Tech Hiring Pipelines",
       "track": "",
-      "why_it_could_win": "Relies on advanced graph intelligence and rigorous mathematical modeling that immediately impresses technical judges."
+      "why_it_could_win": "Applies rigorous statistical forecasting models (GAMs and Poisson regression) instead of relying on a generic wrapper chatbot."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:25:54.709093+05:30",
+  "generated_at": "2026-09-13T07:46:21.761029+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,79 +16,87 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive bus arrival and overcrowding forecasting tool built for the Rutgers University Campus bus system using historical GPS data and Poisson regression.",
+      "pitch": "A predictive dashboard utilizing Poisson regression and rolling backtests to forecast bus crowding and emissions across Rutgers campus routes based on weather, class schedules, and event data.",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "FastAPI",
-        "TypeScript"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "Rutgers Student Transit Predictor",
+      "title": "Rutgers Campus Transit Demand & Carbon Forecaster",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges feel themselves every single day on the Rutgers campus, creating immediate resonance during live judging."
+      "why_it_could_win": "Matches the proven predictive modeling and safety forecasting pattern of past winning projects like ai-incident-forecasting, appealing strongly to university-level evaluators looking for practical campus utility."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1181344931"
+        "github:1181344931",
+        "github:1155558847"
       ],
-      "pitch": "An automated risk-scoring and graph intelligence platform to detect anomalies and potential fraud in local New Jersey municipal vendor bidding.",
+      "pitch": "An automated platform combining graph intelligence and LightGBM to monitor campus smart devices and IoT networks, highlighting potential security vulnerabilities and compliance risks.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "New Jersey Local Government Procurement AML Guard",
+      "title": "ScarletSecure: Rutgers IoT Device Anomaly & Risk Detector",
       "track": "",
-      "why_it_could_win": "Targets local civic utility and administrative transparency, appealing directly to regional public-sector focused judges."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered application that coordinates local New Jersey senior citizens with student volunteer drivers for grocery and medical outings.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "Scarlet Senior Social Mobility Network",
-      "track": "",
-      "why_it_could_win": "Features clear measurable social impact with a quantified benefit for local New Jersey communities."
+      "why_it_could_win": "Leverages the winning formula of combining graph intelligence and explainable machine learning seen in top financial and industrial monitoring hackathon winners."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "An AI nutrition assistant tailored specifically to the daily menus of Rutgers dining halls to build personalized, healthy meal plans for students.",
+      "pitch": "A localized nutrition tracking app that scans Rutgers dining hall menus, optimizes daily meal choices based on student fitness goals, and tracks food waste metrics for sustainability.",
       "stack": [
         "Python",
         "Next.js",
-        "FastAPI"
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "New Brunswick Dining Hall Nutrition Optimizer",
+      "title": "DiningHall AI: Rutgers Sustainable Nutrition Assistant",
       "track": "",
-      "why_it_could_win": "Directly targets student lifestyle pain points at Rutgers, making the demonstration hyper-relevant to the room."
+      "why_it_could_win": "Replicates the practical, consumer-facing health utility that secured first prize at the Mealzy 24-Hour Hackathon, targeting an immediate student pain point."
     },
     {
-      "build_hours": 28,
+      "build_hours": 25,
       "inspired_by": [
-        "github:1155558847"
+        "github:1185920891"
       ],
-      "pitch": "Satellite monitoring system utilizing image processing to track environmental compliance and zoning changes in New Jersey industrial zones.",
+      "pitch": "An autonomous agent platform that automates club budgeting and reimbursement payouts using USDC escrow smart contracts on Base, removing administrative friction for student organizations.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity",
+        "Next.js"
+      ],
+      "title": "KnightPay: Autonomous Student Club Expense Escrow",
+      "track": "",
+      "why_it_could_win": "Directly applies the autonomous agent and escrow pattern that won the Synthesis Hackathon Locus track, offering tangible administrative utility for university groups."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support system utilizing LangGraph and RAG to match Rutgers course codes with personalized AI tutor agents and verified student study materials.",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV"
+        "LangGraph",
+        "OpenAI API",
+        "Pinecone",
+        "Next.js"
       ],
-      "title": "Piscataway Industrial Land Compliance Sentinel",
+      "title": "StudyMesh: Multi-Agent Peer Tutoring & Resource Hub",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering through geospatial data processing within a tight timeframe."
+      "why_it_could_win": "Mirrors the architecture of the GreenNovation Hackathon winner by deploying specialized multi-agent workflows to solve educational coordination problems."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

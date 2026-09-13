@@ -1,106 +1,103 @@
 {
-  "generated_at": "2026-09-12T10:29:27.048136+05:30",
+  "generated_at": "2026-09-13T07:49:44.435131+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1719658",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847",
+        "github:1213911408"
       ],
-      "pitch": "An agentic AI system that continuously scans cloud infrastructure logs and threat intelligence feeds to forecast zero-day vulnerabilities and compliance violations before they occur, featuring automated remediation playbooks.",
+      "pitch": "An autonomous multi-agent system utilizing satellite imagery analysis to continuously monitor industrial zones for environmental and land-use regulation violations, generating automated audit reports.",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "LangChain",
-        "FastAPI",
-        "Docker",
-        "React"
+        "LangGraph",
+        "Satellite API"
       ],
-      "title": "AegisAgent: Autonomous AI Incident Forecaster for Critical Infrastructure",
+      "title": "Agentic Compliance Auditor for Industrial Lands",
       "track": "Artificial Intelligence & Agentic AI",
-      "why_it_could_win": "Directly targets the Artificial Intelligence & Agentic AI and Cyber Security & Digital Forensics domains while mirroring proven winner mechanics from the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Targets the Artificial Intelligence & Agentic AI track while solving real regional environmental challenges relevant to Indian industrial development authorities like CSIDC, matching the technical depth seen in GeoNex-ATLAS."
     },
     {
-      "build_hours": 28,
+      "build_hours": 36,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated enterprise sustainability tool that ingests supply chain invoices, shipping manifests, and IoT sensor streams to calculate, forecast, and optimize Scope 3 carbon emissions using graph neural networks.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Neo4j",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "SupplyLedger AI: Carbon Footprint and Scope 3 Emission Auditor",
-      "track": "Sustainability & Climate Technology",
-      "why_it_could_win": "Addresses the Sustainability & Climate Technology domain with a rigorous data-driven approach that provides clear, measurable environmental impact."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered HIPAA-compliant triage and patient acquisition platform that matches local patients with clinical trials by parsing unstructured electronic health records while preserving total data privacy.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "PostgreSQL",
-        "Prisma"
-      ],
-      "title": "MedFlow AI: Autonomous Clinical Trial Patient Matching and Trust Engine",
-      "track": "Healthcare & MedTech",
-      "why_it_could_win": "Aligns with the Healthcare & MedTech domain and adopts the proven patient-trust acquisition framework from the Elevate X hackathon winner."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-powered transaction monitoring and Anti-Money Laundering platform that detects circular money laundering rings and high-risk wallet flows in real time using graph intelligence and explainable machine learning models.",
+      "pitch": "A graph-intelligence-powered anti-money laundering risk detection platform that maps suspicious wallet clusters and generates explainable risk scores for digital assets.",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "AWS Lambda",
-        "D3.js"
+        "NetworkX",
+        "PostgreSQL"
       ],
-      "title": "GraphAML: Real-Time FinTech Risk Detection and Network Visualizer",
+      "title": "CryptoGraph AML: Real-Time Transaction Forensics",
       "track": "FinTech & Digital Economy",
-      "why_it_could_win": "Fits squarely into the FinTech & Digital Economy domain by directly reusing the winning architecture and explainability patterns of the DIGITIMES AI Innovation Hackathon champion."
+      "why_it_could_win": "Directly addresses the FinTech & Digital Economy track by delivering hard engineering graph analytics similar to Bito's winning AML platform."
     },
     {
-      "build_hours": 26,
+      "build_hours": 30,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A developer tool agent that integrates with GitHub and AWS/GCP to predict cloud infrastructure cost overruns and deployment failures prior to merging code, offering instant automated rollback patches.",
+      "pitch": "A statistical and machine learning pipeline utilizing Poisson regression and rolling backtests to forecast infrastructure failures and grid incidents with calibrated 90 percent prediction intervals.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Pandas",
+        "Docker"
+      ],
+      "title": "AI Incident Forecasting Engine for Smart Grids",
+      "track": "Cloud Computing, DevOps & Developer Tools",
+      "why_it_could_win": "Fits the Cloud Computing, DevOps & Developer Tools track by focusing on hardcore backend forecasting and system reliability metrics, reflecting the winner of the Apart Research AI Forecasting Hackathon."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient onboarding and clinical trust verification assistant tailored for specialized medical practices, combining automated intake questionnaires with secure health record synthesis.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "Docker",
-        "OpenAI API",
-        "Next.js"
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "DevPulse: Autonomous Cloud Cost and DevOps Incident Forecaster",
-      "track": "Cloud Computing, DevOps & Developer Tools",
-      "why_it_could_win": "Targets the Cloud Computing, DevOps & Developer Tools domain by solving an immediate, daily pain point felt by every developer and judge in the room."
+      "title": "Clinical Trust & Patient Acquisition Engine",
+      "track": "Healthcare & MedTech",
+      "why_it_could_win": "Targets the Healthcare & MedTech track with a production-ready vertical SaaS workflow proven to win competitive health tech sprints."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized marketplace where autonomous AI agents trade verified carbon offsets, utilizing zero-friction escrow logic and automated verification pipelines.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js",
+        "AI SDK"
+      ],
+      "title": "Autonomous Carbon Credit Escrow Marketplace",
+      "track": "Sustainability & Climate Technology",
+      "why_it_could_win": "Bridges the Sustainability & Climate Technology track with autonomous agent mechanics, echoing the award-winning architecture of Dispatch."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

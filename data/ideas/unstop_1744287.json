@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:33:35.499208+05:30",
+  "generated_at": "2026-09-13T07:53:38.264527+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +16,85 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An anti-money laundering risk detection and investigation platform tailored for emerging financial transactions, integrating graph intelligence with simulated quantum key distribution audit logs.",
+      "pitch": "A hybrid cryptography auditing suite that simulates post-quantum lattice-based encryption transitions for corporate cybersecurity pipelines.",
       "stack": [
-        "TypeScript",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "TypeScript",
+        "Kyber",
+        "FastAPI"
       ],
-      "title": "QuantumRisk-AML: Graph-Based Quantum-Resistant Transaction Monitor",
-      "track": "Quantum Technologies and Cybersecurity",
-      "why_it_could_win": "Targeting the club's focus on quantum technology and emerging paradigms, mirroring the Bito AML risk detection win by combining graph intelligence with high-demand financial security use cases."
+      "title": "Q-Shield: Quantum-Resistant Key Exchange and Audit Platform",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the Q-Bits club focus on quantum technologies and cybersecurity, addressing an urgent national infrastructure security concern that appeals heavily to technical judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1183964401"
       ],
-      "pitch": "A forecasting tool using Poisson regression and statistical backtesting to predict quantum processor gate fidelity degradation and qubit decoherence spikes over rolling windows.",
+      "pitch": "A financial portfolio optimization tool leveraging simulated quantum annealing heuristics to solve complex Markowitz portfolio selection problems faster than classical solvers.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Scikit-Learn",
-        "Streamlit"
+        "Qiskit",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "Q-Forecast: Calibrated Prediction Intervals for Quantum Hardware Error Rates",
-      "track": "Emerging Computing Paradigms",
-      "why_it_could_win": "Solves a technical problem familiar to organizers from Q-Bits (the quantum club hosting the event), directly applying statistical forecasting techniques that won the Apart Research AI Forecasting hackathon."
+      "title": "Quantum Portfolio Optimizer",
+      "track": "",
+      "why_it_could_win": "Combines quantitative finance with emerging quantum computing paradigms, matching the quant-focused name and theme of the hackathon."
     },
     {
       "build_hours": 34,
       "inspired_by": [
+        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform designed to audit campus land use, solar panel efficiency, and green cover compliance for large university grounds.",
+      "pitch": "An AI-assisted molecular docking visualization dashboard that uses graph neural networks to predict binding affinities for drug discovery.",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "Next.js"
+        "PyTorch",
+        "Three.js"
       ],
-      "title": "EcoAero-Campus: Satellite Monitoring for Institutional Carbon Footprints",
-      "track": "Artificial Intelligence and Sustainability",
-      "why_it_could_win": "Leverages satellite monitoring patterns that won regional hackathons, giving university organizers a direct tool to showcase sustainability on their own campus."
+      "title": "Bio-Quantum Molecular Docking Simulator",
+      "track": "",
+      "why_it_could_win": "Taps into advanced AI and scientific computing, delivering genuine technical difficulty that stands out against standard web apps."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1185920891",
+        "github:1213911408"
       ],
-      "pitch": "An autonomous AI agent marketplace with USDC escrow payments on Base, built to streamline micro-grants and resource sharing for student-led quantum and AI research projects.",
+      "pitch": "An autonomous AI agent network that aggregates vulnerability feeds, verifies threat intelligence via multi-agent consensus, and logs payouts using smart contracts.",
       "stack": [
         "JavaScript",
-        "Base",
+        "LangGraph",
         "Solidity",
-        "USDC"
+        "Base"
       ],
-      "title": "Decentralized-Campus-Credit: USDC Escrow for Student Research Grants",
-      "track": "Blockchain and Decentralized Systems",
-      "why_it_could_win": "Implements autonomous agent workflows and escrow rails that successfully won the Synthesis Hackathon, fitting the event's tech innovator profile."
+      "title": "Aegis-Agent: Decentralized Threat Intelligence Marketplace",
+      "track": "",
+      "why_it_could_win": "Integrates autonomous AI agents with blockchain security, ticking multiple core technology pillars emphasized by the organizers."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1241231621"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine customized for institutional medical clinics, automating intake triage, appointment matching, and secure health record summaries.",
+      "pitch": "A smart city congestion management engine utilizing QUBO (Quadratic Unconstrained Binary Optimization) formulations to coordinate traffic light grids in real time.",
       "stack": [
-        "TypeScript",
-        "Gemini API",
+        "Python",
+        "NetworkX",
         "Next.js",
-        "TailwindCSS"
+        "Leaflet.js"
       ],
-      "title": "MedTrust-AI: Patient Acquisition & Trust Engine for University Hospitals",
-      "track": "Artificial Intelligence",
-      "why_it_could_win": "Targets real healthcare operational friction experienced by institutional medical setups, replicating the exact strategy of the 1st Prize Elevate X win."
+      "title": "Q-Route: Quantum-Inspired Traffic Flow Optimization",
+      "track": "",
+      "why_it_could_win": "Addresses real-world urban infrastructure problems using advanced optimization algorithms that impress academic and industry judges alike."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

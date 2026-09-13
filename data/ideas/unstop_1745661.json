@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-09-12T10:34:25.062728+05:30",
+  "generated_at": "2026-09-13T07:54:27.945229+00:00",
   "grounding": {
     "domains": [
       "fintech",
-      "web3"
+      "web3",
+      "data"
     ],
     "exemplar_count": 8,
-    "patterns": [
-      "sponsor-tech",
-      "technical-depth"
-    ],
+    "patterns": [],
     "thin": false
   },
   "hackathon_uid": "unstop:1745661",
@@ -17,33 +15,19 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered sentiment and crowd-consensus intelligence platform that aggregates forecasting data from Glimpse to auto-generate trading signals and strategy insights for Bitcoin and altcoins.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "GlimpseCrowdPulse",
-      "track": "",
-      "why_it_could_win": "Directly leverages Glimpse's core dataset (what thousands of people believe will happen next), fulfilling the exact mission of building a product using real-world forecasting and market data."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
+        "github:1183964401",
         "github:784668009"
       ],
-      "pitch": "A funding rate and prediction arbitrage dashboard that compares perpetual futures funding rates across DEXs with crowdsourced price expectations from Glimpse forecasting markets.",
+      "pitch": "An automated strategy execution engine that analyzes crowd forecasting data from Glimpse and compares it against live funding rates and perpetual futures pricing to execute delta-neutral arbitrage.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Web3.py"
+        "FastAPI",
+        "Web3.py",
+        "Glimpse API"
       ],
-      "title": "SatoshiSqueeze",
+      "title": "GlimpseCrowdArbitrage",
       "track": "",
-      "why_it_could_win": "Combines advanced trading mechanics with Glimpse's crowd sentiment data, appealing to judges looking for deep quantitative market utilities."
+      "why_it_could_win": "It leverages the exact unique dataset provided by Glimpse—what thousands of people believe will happen next—and turns it into a financial tool, directly aligning with the core mission of the hackathon."
     },
     {
       "build_hours": 40,
@@ -51,49 +35,68 @@
         "github:1185920891",
         "github:1131796276"
       ],
-      "pitch": "An autonomous AI agent framework that uses free starting sats to automatically participate in Glimpse forecasting rounds based on on-chain momentum indicators and sentiment analysis.",
+      "pitch": "An autonomous AI agent that takes a user's initial 5,000 sats provided by Glimpse and autonomously places forecasts on Bitcoin and Solana price targets based on real-time sentiment analysis and technical indicators.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "OpenAI API"
+        "LangChain",
+        "OpenAI API",
+        "Lightning Network SDK"
       ],
-      "title": "AgentForecaster",
+      "title": "SatsAgentForecaster",
       "track": "",
-      "why_it_could_win": "Taps into the growing agentic workflow trend by automating participation in Bitcoin forecasting markets using the platform's initial sat allocations."
+      "why_it_could_win": "Judges looking for products built at the intersection of AI agents, Bitcoin, and forecasting markets will immediately see the utility of an automated forecasting portfolio manager."
     },
     {
-      "build_hours": 28,
+      "build_hours": 30,
       "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "A social copy-forecasting platform allowing retail users to mirror the exact Bitcoin and asset price predictions of top-performing forecasters on Glimpse using their sat balances.",
+      "pitch": "A social copy-forecasting platform that lets users track the top-performing forecasters on Glimpse using their satoshi balances, allowing smaller participants to mirror the predictions of historical winners automatically.",
       "stack": [
-        "JavaScript",
         "React",
-        "PostgreSQL"
+        "Node.js",
+        "PostgreSQL",
+        "Glimpse API"
       ],
-      "title": "GlimpseMirror",
+      "title": "GlimpseCopyTrader",
       "track": "",
-      "why_it_could_win": "Brings viral social trading dynamics directly to forecasting markets, making it an engaging product demonstration for judges evaluating portfolio-ready apps."
+      "why_it_could_win": "It solves the onboarding friction for new forecasters by letting them immediately leverage the top alpha on the platform, presenting a polished product ready for the Glimpse portfolio."
     },
     {
-      "build_hours": 34,
+      "build_hours": 42,
       "inspired_by": [
-        "github:980599492",
-        "github:619126149"
+        "github:980599492"
       ],
-      "pitch": "A micro-hedging tool that utilizes Glimpse prediction market outcomes to automatically lock in Bitcoin value against downside volatility using short-term price targets.",
+      "pitch": "A self-custodial smart contract vault that automatically locks USDC or Bitcoin collateral and uses Glimpse forecast outcomes as an oracle trigger to hedge user spot portfolios against major market drops.",
       "stack": [
+        "Solidity",
         "TypeScript",
         "Ethers.js",
         "Next.js"
       ],
-      "title": "HedgeSats",
+      "title": "PredictionHedgeVault",
       "track": "",
-      "why_it_could_win": "Solves real risk-management problems for holders of Bitcoin and sats, aligning with the Bitcoin-focused ethos of the hackathon organizers."
+      "why_it_could_win": "It expands Glimpse data beyond a simple game into a functional hedging primitive, proving that crowdsourced forecasts can secure actual financial risk management tools."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:784668009"
+      ],
+      "pitch": "A real-time analytics dashboard aggregating prediction shifts on Glimpse for Bitcoin, Ethereum, and Gold to generate quantified market sentiment indices and volatility alerts for traders.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly",
+        "Glimpse API"
+      ],
+      "title": "SentimentAlphaDashboard",
+      "track": "",
+      "why_it_could_win": "Glimpse specifically highlights the unique dataset of what thousands of people believe will happen next; this project directly exposes that dataset as a valuable institutional-grade tool."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

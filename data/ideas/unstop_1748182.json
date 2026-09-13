@@ -1,14 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:37:07.373080+05:30",
+  "generated_at": "2026-09-13T07:57:05.018130+00:00",
   "grounding": {
-    "domains": [
-      "devtools"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -17,85 +14,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1183964401"
       ],
-      "pitch": "A hybrid classical-quantum semantic router that offloads embedding classification tasks to Qiskit-simulated parameterized quantum circuits, improving routing accuracy on ambiguous intents.",
+      "pitch": "A hybrid quantum-classical web application that uses Qiskit's VQE (Variational Quantum Eigensolver) to optimize liquidity pool distributions across decentralized finance protocols for maximum risk-adjusted return.",
       "stack": [
         "Python",
         "Qiskit",
-        "PyTorch",
-        "semantic-router"
+        "TypeScript",
+        "Next.js",
+        "Web3.py"
       ],
-      "title": "QDiff-Router",
-      "track": "Hybrid Quantum-Classical Computing",
-      "why_it_could_win": "Directly leverages Qiskit for a practical hybrid system, matching the sponsor's focus on hybrid classical-quantum computing applications."
+      "title": "Quantum Portfolio Optimizer for DeFi Yields",
+      "track": "Quantum Optimisation",
+      "why_it_could_win": "Directly applies Qiskit optimization algorithms to a high-value real-world financial domain, perfectly aligning with the IBM Quantum ecosystem focus."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1214808895"
+        "github:1087704265"
       ],
-      "pitch": "An automated Variational Quantum Eigensolver optimizer that uses reinforcement learning to dynamically adjust ansatz parameters and reduce gate depth for molecular simulation.",
+      "pitch": "A quantum machine learning pipeline utilizing parameterized quantum circuits via Qiskit Machine Learning to classify molecular toxicity far faster than classical deep learning models on small datasets.",
       "stack": [
         "Python",
         "Qiskit",
-        "qiskit-nature",
-        "gymnasium"
+        "Qiskit Machine Learning",
+        "PyTorch",
+        "Scikit-Learn"
       ],
-      "title": "VQE-Chain",
-      "track": "Quantum Optimisation",
-      "why_it_could_win": "Tackles genuine hard engineering in quantum simulation and optimization, appealing directly to researchers and judges evaluating technical depth in Qiskit."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "A quantum neural network classifier designed to detect adversarial perturbations in classical financial datasets using parameterized quantum circuits.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "scikit-learn",
-        "PennyLane"
-      ],
-      "title": "QML-Shield",
+      "title": "QML-Driven Drug Toxicity Screening",
       "track": "Quantum Machine Learning (QML)",
-      "why_it_could_win": "Showcases Quantum Machine Learning (QML) and Quantum Neural Networks (QNNs), aligning perfectly with the core technical domains highlighted in the event description."
+      "why_it_could_win": "Leverages Quantum Neural Networks and QML, hitting the exact technical evaluation vectors highlighted in the hackathon's focus areas."
     },
     {
       "build_hours": 30,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous debugging agent that analyzes Qiskit circuit compilation errors, diagnoses gate-fidelity bottlenecks, and automatically applies transpiler optimization passes.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "LangChain",
-        "OpenAI API"
-      ],
-      "title": "CircuitMetrics",
-      "track": "Quantum Algorithms",
-      "why_it_could_win": "Solves a persistent, painful problem for developers building with Qiskit during the hackathon, directly addressing the judges' familiarity with the tooling."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A simulation toolkit for distributing entanglement across multi-node quantum networks using Qiskit protocols and classical message passing.",
+      "inspired_by": [],
+      "pitch": "A developer utility dashboard that visualizes quantum circuit noise and applies automated measurement error mitigation routines using Qiskit Aer simulations and IBM runtime primitives.",
       "stack": [
         "Python",
         "Qiskit",
         "FastAPI",
-        "WebSockets"
+        "React",
+        "Chart.js"
       ],
-      "title": "EntangleNet",
+      "title": "Entangled State Error Mitigation Tool",
       "track": "Quantum Computing Fundamentals",
-      "why_it_could_win": "Focuses on advanced quantum networking concepts, offering an impressive visual and architectural demonstration for the final presentations."
+      "why_it_could_win": "Addresses the most prominent engineering bottleneck in near-term quantum computing (NISQ era noise), showcasing hard systems-level engineering."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An enterprise logistics dashboard that solves the Vehicle Routing Problem by offloading combinatorial optimization subproblems to Qiskit's QAOA algorithm while handling constraints classically.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NetworkX",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "Hybrid Quantum-Classical Supply Chain Routing",
+      "track": "Quantum Optimisation",
+      "why_it_could_win": "Translates abstract quantum algorithms into an enterprise-ready dashboard application with clear commercial utility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An educational drag-and-drop web IDE that compiles visual quantum gate arrangements into optimized Qiskit Python code and simulates statevector evolution in real-time.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Flask",
+        "Qiskit"
+      ],
+      "title": "Quantum Circuit Synthesis Visualizer",
+      "track": "Quantum Algorithms",
+      "why_it_could_win": "Appeals strongly to university judges and organizers who prioritize developer tooling and onboarding tools for new quantum computing students."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

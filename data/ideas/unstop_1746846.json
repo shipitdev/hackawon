@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:36:03.731620+05:30",
+  "generated_at": "2026-09-13T07:56:01.644541+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,7 +7,6 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "impact",
       "working-demo"
     ],
@@ -20,82 +19,83 @@
       "inspired_by": [
         "github:1185527998"
       ],
-      "pitch": "A clinical-grade triage and rPPG heart rate sensing platform supporting regional languages for immediate rural healthcare assessment.",
+      "pitch": "A clinical-grade AI health platform featuring remote photoplethysmography (rPPG) heart rate sensing via webcam, multi-language triage, and secure medical data management tailored for rural clinics.",
       "stack": [
         "JavaScript",
-        "ai-triage",
-        "healthcare-it",
-        "opencv"
+        "Python",
+        "OpenCV",
+        "React"
       ],
-      "title": "MediTriage Multi-Language AI",
+      "title": "MediTriage Multi-Language & rPPG",
       "track": "",
-      "why_it_could_win": "Directly aligns with the hackathon's focus on healthcare sector real-world challenges and leverages the proven success pattern of multi-language triage systems."
+      "why_it_could_win": "Directly targets effective use of AI and practical feasibility by utilizing proven open-source computer vision for vitals, fitting the healthcare focus of Hacknexus."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1182199849"
       ],
-      "pitch": "An AI-powered training platform for medical students featuring interactive AI patient interviews and camera-based pose tracking for procedural practice.",
+      "pitch": "An AI training platform for medical students where users can interview an AI patient scored on a 6-dimension rubric and practice clinical assessments.",
       "stack": [
         "TypeScript",
-        "computer-vision",
-        "healthcare",
-        "llm",
-        "mediapipe"
+        "LLM API",
+        "Next.js",
+        "Tailwind"
       ],
       "title": "Clinical-Simulator AI Patient",
       "track": "",
-      "why_it_could_win": "Combines computer vision and LLMs to solve medical training bottlenecks, matching a grand-prize-winning architectural pattern."
+      "why_it_could_win": "Judges value educational and clinical impact, and a working interactive LLM simulation is highly engaging during a live demo presentation."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1208831994"
       ],
-      "pitch": "A rapid 60-second voice analysis tool designed to screen for neurological indicators using audio processing and AI models.",
+      "pitch": "A 60-second voice analysis web tool that screens for early vocal biomarkers associated with Parkinson's Disease.",
       "stack": [
         "Python",
+        "Streamlit",
         "AudioProcessing",
-        "MachineLearning"
+        "OpenAI API"
       ],
-      "title": "Voice Voice Biomarker Diagnosis",
+      "title": "VoiceDx Parkinson's Screen",
       "track": "",
-      "why_it_could_win": "Offers a highly specific, lightning-fast diagnostic demo that captures judges' attention through instant utility."
+      "why_it_could_win": "Demonstrates rapid medical diagnostic capability with a concrete, quantifiable output, matching the innovation and relevance criteria."
     },
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1170846981"
-      ],
-      "pitch": "A multilingual AI chatbot specifically tailored for semi-urban and rural health awareness, covering preventive care and vaccination schedules.",
-      "stack": [
-        "Python",
-        "LLM",
-        "NLP"
-      ],
-      "title": "Rural Health Outreach Bot",
-      "track": "",
-      "why_it_could_win": "Solves a critical real-world healthcare accessibility challenge, scoring high on practical feasibility and social impact criteria."
-    },
-    {
-      "build_hours": 38,
+      "build_hours": 42,
       "inspired_by": [
         "github:1353074073"
       ],
-      "pitch": "A multi-agent AI system that audits medical prior authorization decisions to detect and correct algorithmic bias.",
+      "pitch": "A multi-agent AI system that audits insurance prior authorization decisions in healthcare for algorithmic bias and justification fairness.",
       "stack": [
         "Python",
-        "ai-agents",
-        "algorithmic-bias",
-        "gemini"
+        "Gemini API",
+        "LangChain",
+        "FastAPI"
       ],
-      "title": "AI Insurance Claim Bias Auditor",
+      "title": "ClaimBias AI Auditor",
       "track": "",
-      "why_it_could_win": "Employs advanced multi-agent architecture targeting administrative inefficiencies in the healthcare sector, satisfying technical implementation criteria."
+      "why_it_could_win": "Addresses real-world healthcare administrative pain points with advanced agentic workflows that stand out to technical juries."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered trust and acquisition engine tailored for specialized dental and prosthodontic clinics to convert patient inquiries into booked procedures.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "Prisma"
+      ],
+      "title": "Prosthodontic Patient Acquisition Engine",
+      "track": "",
+      "why_it_could_win": "Combines healthcare vertical depth with commercial viability, appealing directly to the practical feasibility and potential impact criteria."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

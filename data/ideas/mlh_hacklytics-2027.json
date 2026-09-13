@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:25:24.105060+05:30",
+  "generated_at": "2026-09-13T07:45:49.793629+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,10 +7,10 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "working-demo",
       "technical-depth",
-      "unique-data",
-      "working-demo"
+      "sponsor-tech",
+      "unique-data"
     ],
     "thin": false
   },
@@ -19,92 +19,91 @@
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1079913400",
-        "github:1207207353"
+        "github:1155558847",
+        "github:1341712439"
       ],
-      "pitch": "An AI-powered digital twin of Atlanta traffic patterns that integrates real-time GDOT sensor feeds with local event data using an auto-embedding vector store to predict bottleneck incidents before they cascade.",
+      "pitch": "Real-time satellite and IoT anomaly detection platform monitoring urban heat islands and industrial compliance in Atlanta.",
       "stack": [
+        "TypeScript",
         "Python",
-        "FastAPI",
-        "React",
-        "Leaflet.js",
-        "PostgreSQL",
-        "HNSW"
+        "Gemini 2.5",
+        "LangGraph",
+        "PostGIS"
       ],
-      "title": "Atlanta Traffic Digital Twin and Predictive Congestion RAG",
+      "title": "GeoStream-Atlanta",
       "track": "",
-      "why_it_could_win": "Leverages the winning pattern of combining complex data visualization and digital twins with local spatial data, making it highly relevant for judges looking for real-world impact in Atlanta."
-    },
-    {
-      "build_hours": 60,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous agent that monitors incoming public health data streams, detects anomalies in patient metrics, automatically generates data lineage graphs, and opens verified pull requests to fix upstream parsing issues.",
-      "stack": [
-        "Python",
-        "LangChain",
-        "DataHub",
-        "Docker",
-        "GitHub REST API"
-      ],
-      "title": "Auto-ML Data Lineage Incident Response Agent for Healthcare Datasets",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the architecture of recent grand-prize-winning data engineering and agentic incident response projects by demonstrating automated repair with an evidence gate."
+      "why_it_could_win": "Combines high-difficulty spatial data processing with real-world utility, echoing patterns from GeoNex-ATLAS and iot-smart-home-ai-ops."
     },
     {
       "build_hours": 45,
       "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "Automated bias-detection and mitigation platform specifically tailored for clinical readmission prediction models.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit",
+        "TypeScript"
+      ],
+      "title": "FairLens-Health",
+      "track": "",
+      "why_it_could_win": "Merges fairness tracking with high-accuracy healthcare analytics, building directly on proven concepts from patient-readmission-prediction and fairlens-ai-."
+    },
+    {
+      "build_hours": 60,
+      "inspired_by": [
         "github:1189359296"
       ],
-      "pitch": "A 3-turn evaluation benchmark suite deployed locally at the hackathon to measure self-correction and reasoning convergence rates across various 8B parameter open-source models.",
+      "pitch": "An automated 3-turn metacognition benchmarking framework to test the self-correction and reasoning limits of local LLMs.",
       "stack": [
         "Python",
         "PyTorch",
-        "Ollama",
-        "Streamlit",
-        "Pandas"
+        "HuggingFace",
+        "FastAPI"
       ],
-      "title": "Metacognition Benchmark for Local Open-Source Small Language Models",
+      "title": "Metacog-Eval",
       "track": "",
-      "why_it_could_win": "Follows the exact blueprint of the DeepMind x Kaggle 'Measuring Progress Toward AGI' hackathon winner by focusing on rigorous evaluation and metacognition benchmarking."
+      "why_it_could_win": "Directly targets the rigorous evaluation paradigm that won the Google DeepMind x Kaggle AGI hackathon."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1026027777"
+        "github:985196561"
       ],
-      "pitch": "A natural language interface that converts complex public safety datasets into interactive, production-ready dashboards in seconds using automated query generation and charting APIs.",
+      "pitch": "Autonomous NGINX and server log anomaly detection dashboard that translates raw operational data into instant natural language insights.",
       "stack": [
-        "JavaScript",
-        "React",
-        "Tableau REST API",
-        "OpenAI API",
-        "Node.js"
+        "TypeScript",
+        "FastAPI",
+        "Gemini",
+        "Next.js",
+        "NGINX"
       ],
-      "title": "Text-to-Dashboard Public Safety Analytics Engine for Georgia",
+      "title": "LogSight-AI",
       "track": "",
-      "why_it_could_win": "Replicates the proven formula of the Tableau DataDev Hackathon winner by drastically reducing the friction between natural language text prompts and fully rendered data visualization dashboards."
+      "why_it_could_win": "Leverages live data visualization and anomaly detection patterns that successfully won the UCC ACM Hackathon."
     },
     {
       "build_hours": 55,
       "inspired_by": [
-        "github:1363148261"
+        "github:1200926140"
       ],
-      "pitch": "An agentic greenlight simulator that ingests unstructured pitch decks and historical regional box office data to autonomously evaluate script viability, budget risks, and casting recommendations.",
+      "pitch": "An AI-powered video intelligence pipeline that instantly transforms unstructured local video feeds into fully searchable queryable databases.",
       "stack": [
+        "HTML",
         "Python",
-        "ClickHouse",
-        "Streamlit",
-        "Claude API",
-        "LangGraph"
+        "OpenCV",
+        "Vector DB",
+        "Next.js"
       ],
-      "title": "Autonomous Studio Executive for Local Atlanta Film Archives",
+      "title": "DataQuery-Video",
       "track": "",
-      "why_it_could_win": "Built directly on the grand prize-winning concept of agentic cinema workflows, appealing to judges interested in creative industries combined with rigorous multi-agent reasoning."
+      "why_it_could_win": "Employs heavy data indexing and multimodal search capabilities proven by the LibrAI data and design hackathon winner."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

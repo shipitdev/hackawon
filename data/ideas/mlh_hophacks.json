@@ -1,14 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:26:31.468277+05:30",
+  "generated_at": "2026-09-13T07:46:57.397169+00:00",
   "grounding": {
-    "domains": [
-      "healthtech"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "impact",
-      "working-demo"
+      "technical-depth",
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -17,87 +14,82 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1185527998",
-        "github:1170846981"
+        "github:1087704265"
       ],
-      "pitch": "A localized multi-language emergency triage assistant designed specifically for Baltimore community health clinics to reduce wait times and assess non-urgent walk-ins.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "Hopkins-Med-Triage",
-      "track": "",
-      "why_it_could_win": "Directly taps into the regional healthcare focus seen in past wins like mediscan-ai and SAGACITY, which appeal strongly to local medical and academic judging panels."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1208831994"
-      ],
-      "pitch": "A rapid 60-second voice biomarker analysis tool tailored for local neurology outpatient screening in Maryland.",
+      "pitch": "Real-time incident forecasting and predictive risk mapping for Baltimore public transit routes using historical MTA data and Poisson regression.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Audio processing libraries",
-        "OpenAI API"
+        "Jupyter Notebook",
+        "Poisson-Regression",
+        "Leaflet.js"
       ],
-      "title": "CharmCity-Voice-Parkinsons",
+      "title": "CharmCity-Transit-Risk",
       "track": "",
-      "why_it_could_win": "Mirrors the exact winning formula of Timbre by packaging complex audio-based health diagnostics into a fast, highly demonstrable 60-second live demo."
+      "why_it_could_win": "Follows the exact blueprint of high-scoring analytical projects like ai-incident-forecasting by combining robust statistical modeling with local civic infrastructure utility, which appeals strongly to judges looking for tangible community impact."
     },
     {
-      "build_hours": 40,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1241231621",
-        "github:1182199849"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered clinical interview and physical exam simulator using computer vision pose tracking to grade medical students on patient empathy and CPR technique.",
+      "pitch": "AI-powered satellite and IoT sensor monitoring platform for tracking water quality anomalies and industrial runoff around the Baltimore Inner Harbor.",
       "stack": [
         "TypeScript",
-        "MediaPipe",
+        "Python",
         "Next.js",
-        "LLM API"
+        "OpenCV"
       ],
-      "title": "MedStudent-OSCE-Simulator",
+      "title": "InnerHarbor-Water-Guard",
       "track": "",
-      "why_it_could_win": "Leverages the proven grand-prize-winning architecture of Clinical-Simulator, which judges love because it showcases complex computer vision working live in a browser."
+      "why_it_could_win": "Mirrors the technical execution of GeoNex-ATLAS by applying environmental monitoring tools to a localized geographic problem that local judges will immediately recognize and appreciate."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Automated patient acquisition and trust verification engine tailored for community health clinics in the Baltimore medical corridor.",
+      "stack": [
+        "TypeScript",
+        "Gemini-API",
+        "Next.js"
+      ],
+      "title": "MedCity-Patient-Trust",
+      "track": "",
+      "why_it_could_win": "Builds directly upon the rapid prototyping success of Global-Smile, delivering high-utility workflow automation for local healthcare providers within a tight weekend timeframe."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1353074073"
+        "github:1213911408"
       ],
-      "pitch": "A multi-agent AI framework that reviews health insurance prior authorization denials for demographic and socioeconomic bias before submission.",
+      "pitch": "Multi-agent student support and campus energy optimization platform utilizing LangGraph and local university energy consumption metrics.",
       "stack": [
-        "Python",
-        "Google ADK",
-        "Streamlit",
-        "Gemini API"
+        "TypeScript",
+        "LangGraph",
+        "Python"
       ],
-      "title": "InsureCheck-Bias-Auditor",
+      "title": "CharmGrid-Green-Agents",
       "track": "",
-      "why_it_could_win": "Adopted directly from the claim-bias-evaluator winning strategy, targeting high-value administrative pain points in healthcare systems using multi-agent verification."
+      "why_it_could_win": "Combines the multi-agent architecture of the greennovation-ai-platform with campus sustainability tracking, directly targeting a domain that resonates with university-hosted hackathon judges."
     },
     {
-      "build_hours": 28,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1275874285"
+        "github:1181344931"
       ],
-      "pitch": "An AI nutrition and meal planning assistant customized for local Maryland food desert constraints, optimizing cheap, accessible grocery items for specific health profiles.",
+      "pitch": "Graph-intelligence platform for tracing local supply chain vulnerabilities and detecting fraudulent transaction patterns for Baltimore small businesses.",
       "stack": [
-        "Python",
-        "Flask",
-        "React",
-        "OpenAI API"
+        "TypeScript",
+        "LightGBM",
+        "Neo4j"
       ],
-      "title": "CharmCity-NutriFit-AI",
+      "title": "BMore-Supply-Graph",
       "track": "",
-      "why_it_could_win": "Combines the proven first-prize mechanics of E-Foodiee with a hyper-local social impact angle that resonates well with community-minded hackathon judges."
+      "why_it_could_win": "Adopts the graph intelligence and explainable risk-scoring framework demonstrated by Bito, showcasing genuinely hard engineering that stands out in technical judging rubrics."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

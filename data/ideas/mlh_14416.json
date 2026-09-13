@@ -1,105 +1,108 @@
 {
-  "generated_at": "2026-09-12T10:22:55.106832+05:30",
+  "generated_at": "2026-09-13T07:43:15.132196+00:00",
   "grounding": {
     "domains": [
       "data"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "unique-data",
-      "working-demo"
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:14416",
   "ideas": [
     {
-      "build_hours": 72,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous agent that intercepts data pipeline failures, queries lineage graphs to find downstream impact, generates verified repair pull requests, and writes the resolution back to metadata hubs.",
-      "stack": [
-        "Python",
-        "ai-agents",
-        "claude",
-        "data-engineering",
-        "data-lineage"
-      ],
-      "title": "DataHub-Sentinel: Autonomous Incident Response for Modern Data Stacks",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the winning strategy of the DataHub Agent Hackathon by solving high-friction data engineering incidents with automated agent loops and write-back functionality."
-    },
-    {
-      "build_hours": 64,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "A multimodal platform that ingests raw video feeds, extracts visual events and text using vector embeddings, and transforms unstructured footage into instantly searchable analytical databases.",
-      "stack": [
-        "Python",
-        "HTML",
-        "embeddings",
-        "llm"
-      ],
-      "title": "QueryVison: Unstructured Video Intelligence Platform",
-      "track": "",
-      "why_it_could_win": "Follows the proven formula of turning complex unstructured data into accessible, queryable datasets that capture high scores for practical enterprise utility."
-    },
-    {
       "build_hours": 48,
       "inspired_by": [
-        "github:1026027777"
+        "github:1341712439",
+        "github:1329458499",
+        "github:985196561"
       ],
-      "pitch": "An AI agent pipeline that converts raw CSV or SQL queries directly into fully formatted Tableau dashboards within seconds using the Tableau REST API and automated data profiling.",
+      "pitch": "An autonomous log analysis and incident remediation pipeline that parses multi-server NGINX and application logs in real-time, isolates root causes using anomaly detection, and automatically generates verified pull requests to fix configuration errors.",
       "stack": [
-        "JavaScript",
-        "Python",
-        "ai-agents",
-        "Tableau REST API"
+        "TypeScript",
+        "FastAPI",
+        "Gemini",
+        "Next.js",
+        "LangGraph"
       ],
-      "title": "AutoTableau-Stream: Natural Language Dashboard Synthesizer",
+      "title": "LogSentry-AI",
       "track": "",
-      "why_it_could_win": "Replicates the winning blueprint of the Tableau DataDev Hackathon by drastically cutting down visualization creation time through direct API automation."
+      "why_it_could_win": "Combines high-difficulty data engineering with automated closed-loop remediation, directly mirroring the winning architecture of autonomous data incident response platforms."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "An automated data preprocessing and ML pipeline auditing tool that detects, explains, and provides concrete data-mitigation strategies for hidden demographic and socioeconomic bias in tabular datasets.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "SHAP"
+      ],
+      "title": "FairLens Pipeline",
+      "track": "",
+      "why_it_could_win": "Addresses the critical need for transparent, responsible AI by focusing specifically on bias mitigation at the data ingestion and preprocessing layer."
+    },
+    {
+      "build_hours": 60,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A satellite imagery monitoring dashboard that processes multi-spectral data to track industrial land use changes, flag unauthorized environmental footprint expansions, and automate compliance reporting.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostGIS",
+        "Next.js"
+      ],
+      "title": "GeoPulse Industrial",
+      "track": "",
+      "why_it_could_win": "Leverages complex geospatial data workflows to solve a tangible regulatory problem, following the proven trajectory of winning satellite monitoring projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A multi-turn metacognition testing framework that evaluates and visualizes the self-correction and reasoning limits of open-source LLMs across complex data extraction tasks.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "MetaEval Benchmark",
+      "track": "",
+      "why_it_could_win": "Focuses on rigorous evaluation methodology and benchmarking, mirroring the approach of grand prize winners in measuring progress toward advanced AI systems."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1207207353"
+        "github:1200926140",
+        "github:1341712439"
       ],
-      "pitch": "A high-performance RAG and auto-embedding toolkit built specifically for MariaDB, allowing developers to index and query unstructured documents with optimized HNSW vector search.",
+      "pitch": "A video intelligence platform that ingests unstructured streaming data, builds a searchable vector index of visual and auditory events, and allows natural language querying across long-form video archives.",
       "stack": [
+        "HTML",
+        "TypeScript",
         "Python",
-        "embeddings",
-        "hnsw",
-        "llm",
-        "mariadb"
+        "Qdrant",
+        "Gemini"
       ],
-      "title": "MariaDB-SeamlessRAG: Toon-Native Auto-Embedding Toolkit",
+      "title": "StreamIntel Video Hub",
       "track": "",
-      "why_it_could_win": "Capitalizes on sponsor-specific technology integration, following the exact strategy that won 2nd place at the MariaDB Hackathon."
-    },
-    {
-      "build_hours": 55,
-      "inspired_by": [
-        "github:1079913400"
-      ],
-      "pitch": "A frontend analytics dashboard providing real-time battery health monitoring, degradation predictions, and digital twin visualization using React, Vite, and predictive REST endpoints.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "Vite",
-        "battery-monitoring",
-        "digital-twin"
-      ],
-      "title": "VoltTwin: AI-Powered Battery Intelligence & Predictive Digital Twin",
-      "track": "",
-      "why_it_could_win": "Employs the successful pattern of building robust predictive data visualization frontends for IoT and industrial digital twin monitoring."
+      "why_it_could_win": "Delivers a fully functional, live-demoable multi-modal pipeline that transforms unstructured data into instantly searchable assets, matching recent hackathon-winning user experience standards."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

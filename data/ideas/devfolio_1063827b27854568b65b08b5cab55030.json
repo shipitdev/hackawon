@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:20:49.488564+05:30",
+  "generated_at": "2026-09-13T07:36:43.219730+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -7,10 +7,9 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "judge-pain",
+      "working-demo",
       "technical-depth",
-      "impact"
+      "unique-data"
     ],
     "thin": false
   },
@@ -21,7 +20,7 @@
       "inspired_by": [
         "github:690893685"
       ],
-      "pitch": "A low-latency acoustic sensor network running on edge devices that detects gunshots or explosions, extracts MFCC features, and streams precise geolocations to a tactical map for rapid military or border defense response.",
+      "pitch": "A real-time audio surveillance edge-node network that processes urban or border noise via lightweight neural networks to instantly classify explosive signatures and stream precise GIS coordinates to field personnel.",
       "stack": [
         "Python",
         "PyTorch",
@@ -29,78 +28,80 @@
         "React",
         "WebSockets"
       ],
-      "title": "AegisAudio: Edge Gunshot & Explosive Triangulation Network",
-      "track": "National Security and Defence Technologies",
-      "why_it_could_win": "Directly targets the national security and defense technologies theme of Hackify 3.0, following the proven architecture of past winners that handle live audio telemetry and spatial mapping."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:243065226"
-      ],
-      "pitch": "An integrated web and mobile application that hooks into public or perimeter CCTV feeds, runs real-time face recognition against a classified database of threats, and instantly dispatches encrypted email alerts with snapshots to defense personnel.",
-      "stack": [
-        "Java",
-        "Android",
-        "Django REST Framework",
-        "Express",
-        "OpenCV"
-      ],
-      "title": "SentinelCCTV: Automated Wanted Criminal & Intruder Watcher",
-      "track": "Cyber Defence and Civilian Protection",
-      "why_it_could_win": "Addresses cyber defence and civilian protection priorities by providing actionable, automated surveillance capabilities that judges in security-focused hackathons reward for practical field applicability."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:71175478"
-      ],
-      "pitch": "A lightweight indoor mapping and location tracking web interface designed specifically for firefighters and rescue teams operating in signal-denied or collapsed buildings during post-war reconstruction and disaster zones.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "Leaflet.js"
-      ],
-      "title": "BeaconFloor: Resilient Indoor Positioning for First Responders",
-      "track": "Humanitarian Response and Post-War Reconstruction",
-      "why_it_could_win": "Solves a critical safety problem for humanitarian response and rebuilding operations, mirroring past winning tools built for emergency workers in hazardous environments."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:16747893"
-      ],
-      "pitch": "A secure, zero-knowledge document transmission platform that acts like Snapchat for sensitive defense briefings and intelligence files, ensuring documents self-destruct after viewing and leave no forensic trail.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "WebCrypto API",
-        "TailwindCSS"
-      ],
-      "title": "CryptoVault: Ephemeral Secure Document Exchange for Field Operatives",
-      "track": "National Security and Defence Technologies",
-      "why_it_could_win": "Combines hard engineering in secure data handling with high-stakes operational utility, appealing to judges looking for robust cybersecurity and information protection measures."
+      "title": "Acoustic Threat Triangulation Grid",
+      "track": "National Security and Defence",
+      "why_it_could_win": "Directly aligns with the Blueprint for Peace theme on national security and defense technologies, replicating the proven architecture of hardware-integrated audio detection that wins security hackathons."
     },
     {
       "build_hours": 30,
       "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An autonomous AI agent pipeline that scrapes regional disaster-zone supply marketplaces and logistics feeds to optimize civilian relief allocation and detect fraudulent aid distribution in real-time.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ai-agents",
+        "LangGraph",
+        "React"
+      ],
+      "title": "Multi-Agent Humanitarian Logistics Pipeline",
+      "track": "Humanitarian Response and Civilian Protection",
+      "why_it_could_win": "Leverages complex multi-agent architectures on fresh scraped data, a pattern demonstrated by winning teams tackling logistical and trafficking challenges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
         "github:1326164711"
       ],
-      "pitch": "A public transparency dashboard for post-war reconstruction funds and aid distribution where every resource allocation request carries a cryptographic seal that citizens and NGOs can independently audit.",
+      "pitch": "A public-accountability mapping platform where every reconstruction contract and fund request carries a cryptographic seal, allowing citizens to independently verify fund allocation and resource delivery.",
       "stack": [
         "HTML",
         "TypeScript",
         "Node.js",
-        "SQLite",
-        "CryptoJS"
+        "Leaflet.js",
+        "PostgreSQL"
       ],
-      "title": "AidLedger: Cryptographically Sealed Humanitarian Relief Tracking",
-      "track": "Humanitarian Response and Post-War Reconstruction",
-      "why_it_could_win": "Delivers clear measurable impact and public accountability for rebuilding nations, fulfilling the core ethos of transparent humanitarian governance highlighted in recent hackathon winners."
+      "title": "Cryptographic Post-War Infrastructure Ledger",
+      "track": "Post-War Reconstruction",
+      "why_it_could_win": "Combines public transparency with verifiable cryptographic proof, matching the exact winning formula of trust-centric public works hackathon projects."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:243065226"
+      ],
+      "pitch": "An edge-computing video processing pipeline designed to ingest public CCTV streams, run local face-recognition against a dynamic watchlist, and securely dispatch encrypted alert emails to security officials.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Django REST Framework",
+        "React Native",
+        "SQLite"
+      ],
+      "title": "CCTV Wanted Criminal Biometric Edge Screener",
+      "track": "Cyber Defence and Civilian Protection",
+      "why_it_could_win": "Tackles critical civilian protection infrastructure with a fully demonstrable end-to-end pipeline that judges in defense and public safety tracks can immediately test live."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive modeling tool using Poisson Generalized Additive Models to forecast regional security incidents and civil unrest spikes, providing calibrated prediction intervals to defense strategists.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "AI Conflict Incident Forecasting Engine",
+      "track": "National Security and Defence",
+      "why_it_could_win": "Implements rigorous quantitative forecasting and statistical validation, giving technical judges hard mathematical models rather than hand-wavy AI wrappers."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:21:42.566484+05:30",
+  "generated_at": "2026-09-13T07:39:50.328860+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,86 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1194555365"
+        "github:1155558847"
       ],
-      "pitch": "A transparent supply chain tracking system that detects and flags hidden animal welfare violations using supplier telemetry and multi-modal audit logs.",
+      "pitch": "An AI-powered infrastructure monitoring tool that analyzes satellite thermal data and acoustic sensor inputs to detect invisible water and gas pipeline leaks beneath Kolkata streets before surface collapse occurs.",
       "stack": [
         "TypeScript",
+        "Python",
         "Next.js",
-        "Python",
-        "PostgreSQL"
+        "Gemini API"
       ],
-      "title": "InvisibleFootprint: Ethical Supply Chain Ledger for Mercy For Animals",
+      "title": "SubsurfaceLeak",
       "track": "",
-      "why_it_could_win": "Directly aligns with Mercy For Animals' mission as a sponsor, targeting social impact and transparent auditing similar to the winning Vanderbilt Good Good Hackathon project."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An intelligent dashboard that surfaces hidden performance bottlenecks and dependency vulnerabilities across multi-repository student projects using custom graph traversal.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "AST Parser",
-        "TailwindCSS"
-      ],
-      "title": "DevnovateLens: Automated Code Review and Architectural Vulnerability Mapper",
-      "track": "",
-      "why_it_could_win": "Targeting the Devnovate sponsor ecosystem by solving a pain point familiar to student builders and judges alike—maintaining clean, scalable architectures under tight deadlines."
+      "why_it_could_win": "Aligns perfectly with the hackathon's tagline 'Build beyond what's visible' and the sponsor Mercy For Animals/infrastructure themes by surfacing hidden ecological and urban hazards."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1183964401"
+        "github:1181344931"
       ],
-      "pitch": "A platform built for CodeCrafters users that evaluates backend protocol implementations in real time and suggests hidden performance optimizations through differential testing.",
+      "pitch": "An automated risk-scoring and compliance engine for local supply chains, combining graph intelligence and anomaly detection to flag hidden fraud and regulatory non-compliance in real-time.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "ChainSight",
+      "track": "",
+      "why_it_could_win": "Uses advanced graph intelligence and explainable machine learning, mirroring the technical complexity seen in top-tier winning projects."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent navigation system that optimizes delivery and commute routes in Kolkata by predicting hidden congestion bottlenecks and air pollution pockets using real-time environmental data.",
       "stack": [
         "TypeScript",
-        "Docker",
-        "Go",
-        "Redis"
+        "LangGraph",
+        "Next.js",
+        "Python"
       ],
-      "title": "CodeCrafted-CI: Gamified Code Refactoring and Automated Benchmark Runner",
+      "title": "EcoRoute AI",
       "track": "",
-      "why_it_could_win": "Leverages the CodeCrafters sponsor track, showcasing hard engineering and rigorous backend validation that appeals directly to technical judges."
+      "why_it_could_win": "Leverages multi-agent architectures and RAG frameworks which frequently sweep AI innovation hackathons."
     },
     {
-      "build_hours": 16,
+      "build_hours": 19,
       "inspired_by": [
-        "github:1241231621"
+        "github:1185920891"
       ],
-      "pitch": "An extension utilizing the Miro API to automatically transform disorganized brainstorming sticky notes into structured, executable system microservice diagrams.",
+      "pitch": "An autonomous AI agent marketplace specifically built for micro-task automation, utilizing secure escrow contracts for instant, trustless verification and settlement.",
       "stack": [
         "JavaScript",
-        "Miro Web SDK",
-        "OpenAI API",
-        "React"
+        "Base",
+        "USDC",
+        "Node.js"
       ],
-      "title": "MiroMind: Spatial AI Canvas for Collaborative System Architecture Mapping",
+      "title": "MicroEscrow Agent",
       "track": "",
-      "why_it_could_win": "Integrates deeply with the Miro sponsor API, capitalizing on the proven hackathon winning pattern of highlighting sponsor technology."
+      "why_it_could_win": "Directly implements an autonomous agent marketplace architecture with verified escrow payment execution."
     },
     {
-      "build_hours": 20,
+      "build_hours": 21,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1275874285"
       ],
-      "pitch": "A predictive analytics tool that forecasts maintainer burnout and sudden project abandonment in open-source dependencies using statistical time-series models.",
+      "pitch": "A predictive health companion that forecasts nutritional deficiencies and fatigue levels days before symptoms appear by analyzing subtle biometric trends and dietary logs.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Pandas",
-        "Scikit-learn"
+        "Jupyter Notebook",
+        "FastAPI",
+        "React"
       ],
-      "title": "OSEN-Trace: Open Source Ecosystem Health and Contributor Risk Forecaster",
+      "title": "BioSignal Wellness",
       "track": "",
-      "why_it_could_win": "Integrates with OSEN interests by predicting critical incident risks in public infrastructure, directly mirroring the Apart Research AI Forecasting winner."
+      "why_it_could_win": "Applies predictive modeling techniques like calibrated regression intervals to personal health data, creating immediate utility for judges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

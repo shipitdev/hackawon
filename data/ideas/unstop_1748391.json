@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:37:11.989786+05:30",
+  "generated_at": "2026-09-13T07:57:09.822548+00:00",
   "grounding": {
     "domains": [
       "devtools",
@@ -7,99 +7,97 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1748391",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1329458499"
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "A complete, self-hostable hackathon submission and judging pipeline that boots instantly via Docker Compose, including offline SQLite data seeding, automated eligibility checks, and normalization scoring.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "SQLite",
+        "Docker",
+        "TailwindCSS"
       ],
-      "pitch": "A self-hostable submission and scoring engine that provides transparent data lineage for every score adjustment, ensuring tamper-proof final results using a local event log.",
+      "title": "RaptorPipe: Zero-Config Dockerized Hackathon Engine",
+      "track": "",
+      "why_it_could_win": "The prompt explicitly states the winning project will be forked, self-hosted, and put into production for Hackathon Raptors. Building a bulletproof, zero-config local engine that fulfills the exact lifecycle specification hits the core evaluation metric."
+    },
+    {
+      "build_hours": 48,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1334000568"
+      ],
+      "pitch": "An embedded AI agent pipeline that automatically ingests submitted GitHub repositories, verifies local Docker execution compatibility, runs static analysis, and normalizes scores against a rubric.",
       "stack": [
         "Python",
         "FastAPI",
-        "Docker",
-        "SQLite",
-        "TailwindCSS"
+        "LangChain",
+        "Docker SDK",
+        "PostgreSQL"
       ],
-      "title": "RaptorPipeline Local Data Lineage & Judge Audit",
+      "title": "AgentJudge: Automated Semantic Code and Pitch Review Pipeline",
       "track": "",
-      "why_it_could_win": "Directly targets the core hackathon problem: building the platform the organizers will use, leveraging the data engineering patterns seen in winning data lineage projects."
+      "why_it_could_win": "Leveraging local LLMs or lightweight evaluation agents directly solves the massive bottleneck of manual preliminary judging for Hackathon Raptors events."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A transparent scoring normalization engine with statistical outlier detection for judges, paired with a local batch certificate generator and immutable verification hashing.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PDFKit",
+        "SQLite",
+        "Chart.js"
+      ],
+      "title": "CertGen Vault: Cryptographic Credentialing & Result Normalization",
+      "track": "",
+      "why_it_could_win": "Handling the final stages of the hackathon lifecycle—results, normalization, and certificates—solves administrative pain points that organizers face after every single event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An embedded team formation portal and repository submission wizard featuring real-time local collaboration states, automated schema validation, and instant fixture seeding.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Express",
+        "SQLite",
+        "Docker Compose"
+      ],
+      "title": "TeamSync Local: Offline-First Matchmaking and Submission Portal",
+      "track": "",
+      "why_it_could_win": "By nailing the registration and team formation phase of the pipeline with a delightful local-first interface, it directly addresses the onboarding friction of hackathon participants."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1334000568"
+        "github:1329458499"
       ],
-      "pitch": "An offline-first LLM semantic routing module embedded within the judging pipeline to auto-categorize and pre-score submissions against project specifications without external APIs.",
+      "pitch": "A verification module that sits between submission and judging to detect plagiarism, track code provenance across commits, and enforce strict eligibility criteria with zero external API dependencies.",
       "stack": [
         "Python",
-        "LangChain",
-        "ChromaDB",
+        "GitPython",
         "FastAPI",
-        "Docker Compose"
-      ],
-      "title": "DockerJudge AI Semantic Routing and Scoring Assistant",
-      "track": "",
-      "why_it_could_win": "Solves the exact heavy workload judges face by automating rubric compliance checking using local vector search and routing techniques."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A visual workflow orchestration engine using BPMN state machines to manage the entire hackathon data pipeline from team registration to certificate generation via docker-compose.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "bpmn-js",
-        "PostgreSQL",
+        "SQLite",
         "Docker"
       ],
-      "title": "BPMN Hackathon Lifecycle Orchestrator",
+      "title": "RaptorAudit: Automated Data Lineage & Submission Integrity Guard",
       "track": "",
-      "why_it_could_win": "Organizers struggle with manual process handoffs between registration, judging, and archiving; a robust state machine solves their daily operational nightmare."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "A standalone zero-dependency containerized storage backend with automated fixture seeding that boots instantly via docker compose up to handle massive submission payloads locally.",
-      "stack": [
-        "Python",
-        "MariaDB",
-        "SQLAlchemy",
-        "Docker Compose"
-      ],
-      "title": "Zero-Config Hackathon Fixture Seed & Archive Engine",
-      "track": "",
-      "why_it_could_win": "Fulfills the strict requirement that the platform must run locally with a single command and zero external cloud dependencies or accounts."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1351321536"
-      ],
-      "pitch": "A lightweight operational dashboard and CLI tool that orchestrates local container lifecycles, real-time submission ingestion, and normalized scoring distribution for hackathon admins.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Dockerode",
-        "Node.js"
-      ],
-      "title": "OS-Orchestrated Local Hackathon CLI & Dashboard",
-      "track": "",
-      "why_it_could_win": "Wins by providing the ultimate developer-first operational control panel that judges can immediately spin up and test on their own machines."
+      "why_it_could_win": "Organizers struggle heavily with verifying submission authenticity and metadata integrity. This directly targets the eligibility and archiving hurdles mentioned in the prompt."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

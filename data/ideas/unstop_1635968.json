@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:28:58.783474+05:30",
+  "generated_at": "2026-09-13T07:49:17.092139+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -15,82 +13,80 @@
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered interview and coding readiness platform tailored specifically for college engineering students preparing for campus recruitment drives.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "PlacementPrep AI Tracker",
-      "track": "",
-      "why_it_could_win": "Targets a pain familiar to students and organisers in the room by solving immediate placement anxiety, matching the spirit of an E-Cell coding and entrepreneurship fest."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A personalized meal recommender and nutritional insight generator specifically optimized for hostel and college mess food options.",
+      "inspired_by": [],
+      "pitch": "An online assessment platform tailored for college students featuring timed logic challenges, algorithmic problem simulation, and detailed performance analytics.",
       "stack": [
         "Python",
-        "Streamlit",
-        "OpenAI API"
+        "FastAPI",
+        "React",
+        "PostgreSQL"
       ],
-      "title": "CampusEats Nutrition Assistant",
+      "title": "PlacementPredict - Engineer's Day Competitive Coding & Aptitude Analytics",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges feel themselves on a daily basis by bringing health and wellness tracking directly to campus life."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A real-time performance forecasting and problem-solving trend analytics tool designed to track participant progress during online competitive coding rounds.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Chart.js"
-      ],
-      "title": "CodeFest Leaderboard Analytics",
-      "track": "",
-      "why_it_could_win": "Aligns with the core competitive programming theme of Navachar Code Fest, providing instant utility for event organisers and participants."
+      "why_it_could_win": "Directly aligns with the core theme of Engineer's Day and the competitive coding background of Navachar - Code Fest 2026, appealing heavily to the student organizers from the Entrepreneurship Cell."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "An automated networking platform that groups junior college students with nearby alumni based on specific technical skill sets and career goals.",
+      "pitch": "An AI-powered multi-agent platform combining RAG to help college students debug competitive programming code and explain complex data structures in real-time.",
       "stack": [
         "TypeScript",
-        "React",
-        "TailwindCSS"
+        "LangGraph",
+        "Next.js",
+        "OpenAI API"
       ],
-      "title": "AlumniConnect Peer Mentorship Engine",
+      "title": "CodeMentor AI - Multi-Agent Student Support & Coding Assistant",
       "track": "",
-      "why_it_could_win": "Provides a clear, measurable social and institutional benefit for college entrepreneurship cells looking to strengthen alumni relations."
+      "why_it_could_win": "Follows the proven winner pattern of multi-agent student support platforms from the GreenNovation Hackathon while addressing the exact needs of student coders."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A gamified portfolio and problem-solving tracking platform for college students to showcase their algorithmic capabilities and technical projects to peers and recruiters.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TailwindCSS",
+        "MongoDB"
+      ],
+      "title": "SkillMatrix - College Talent Showcase & Problem-Solving Engine",
+      "track": "",
+      "why_it_could_win": "Fulfills the E-Cell's objective of providing students with a platform to showcase problem-solving skills and enhance logical thinking."
     },
     {
       "build_hours": 42,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A lightweight satellite and image-based monitoring tool to track cleanliness and green zone compliance across college campus grounds.",
+      "inspired_by": [],
+      "pitch": "A lightweight browser-based competitive programming arena enabling college students to challenge each other in rapid-fire 15-minute coding duels with instant test case execution.",
       "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js"
+        "JavaScript",
+        "WebSockets",
+        "Docker",
+        "Express"
       ],
-      "title": "EcoCampus Land & Waste Monitor",
+      "title": "AlgoDuel - Real-Time 1v1 Competitive Coding Arena",
       "track": "",
-      "why_it_could_win": "Demonstrates genuine technical ambition by adapting geospatial monitoring concepts into a lightweight dashboard suitable for university campuses."
+      "why_it_could_win": "Combines the competitive coding nature of the fest with engaging multiplayer mechanics built within a strict 48-hour solo development scope."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI utility that scans student resumes, maps them against historical competitive programming and aptitude metrics, and generates personalized interview preparation roadmaps.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "spaCy",
+        "Google Gemini API"
+      ],
+      "title": "ResumeParser & Aptitude Matcher for Campus Placements",
+      "track": "",
+      "why_it_could_win": "Provides immediate, practical utility to college students preparing for campus placements, matching the entrepreneurship and career-development focus of MIT Meerut's E-Cell."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

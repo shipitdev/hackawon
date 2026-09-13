@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-12T10:36:39.501961+05:30",
+  "generated_at": "2026-09-13T07:56:37.904775+00:00",
   "grounding": {
     "domains": [
       "hardware",
+      "ai-ml",
       "devtools"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech",
+      "working-demo"
     ],
     "thin": false
   },
@@ -20,85 +21,79 @@
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A high-performance C++ dynamic routing daemon for edge mesh networks that self-heals dropped node topologies in real-time.",
+      "pitch": "A high-performance C++ dynamic packet routing module for edge mesh networks utilizing SIMD vectorization for ultra-low latency multi-hop routing table updates.",
       "stack": [
         "C++",
         "CMake",
-        "Socket Programming",
-        "ZeroMQ"
+        "ZeroMQ",
+        "Google Benchmark"
       ],
-      "title": "MeshRoute-C++: Dynamic Node Routing Optimizer",
-      "track": "Dynamic Node Routing",
-      "why_it_could_win": "Directly targets the core hackathon theme of dynamic node routing and swarm network optimization, which will immediately appeal to C++ enthusiast judges evaluating low-level open source edge infrastructure."
+      "title": "MeshRouter-SIMD",
+      "track": "",
+      "why_it_could_win": "Directly addresses the hackathon's core requirement of solving real-world GitHub issues in dynamic node routing and C++ edge infrastructure."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An open-source telemetry serialization and compaction library in C++ designed specifically for resource-constrained edge robotics and low-bandwidth mesh links.",
+      "stack": [
+        "C++",
+        "Protocol Buffers",
+        "Embedded Linux"
+      ],
+      "title": "SwarmTelemetry-Compact",
+      "track": "",
+      "why_it_could_win": "Aligns with the contribution-based evaluation model targeting edge systems optimization and protocol robustness."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1341712439",
-        "github:1351321536"
+        "github:1163393786"
       ],
-      "pitch": "An autonomous diagnostic agent running on constrained edge devices that detects network anomalies and triggers local self-healing routines.",
+      "pitch": "A fault injection and network partition testing framework for decentralized mesh protocols to validate self-healing swarm topologies under heavy packet loss.",
       "stack": [
         "C++",
         "Python",
-        "MQTT",
-        "Protocol Buffers"
+        "Linux namespaces",
+        "iptables"
       ],
-      "title": "SwarmTelemetry: Edge Node Diagnostics Agent",
-      "track": "Swarm Network Optimization",
-      "why_it_could_win": "Mirrors winning autonomous operations patterns by solving real reliability pain points inherent in decentralized mesh topologies."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An open-source documentation generator tailored for C++ mesh protocol headers, automatically parsing packet structures and outputting live network topologies.",
-      "stack": [
-        "Python",
-        "Clang AST",
-        "Markdown",
-        "TypeScript"
-      ],
-      "title": "MeshDoc-Gen: Automated API & Protocol Documenter",
-      "track": "Documentation & Testing",
-      "why_it_could_win": "Addresses documentation and testing tasks explicitly listed in the hackathon's scope, providing immense value to judges looking for robust open-source contributions."
+      "title": "EdgeMesh-ChaosTester",
+      "track": "",
+      "why_it_could_win": "Judges in protocol and infrastructure hackathons heavily reward rigorous testing tools that prove system resilience under adverse conditions."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1282252864"
+        "github:1296916648"
       ],
-      "pitch": "A lightweight simulation harness for testing decentralized mesh routing protocols under simulated network partitions, high packet loss, and node latency.",
+      "pitch": "A lightweight peer discovery and neighbor state synchronization daemon written in C++ for ad-hoc wireless mesh networks operating without central coordinators.",
       "stack": [
         "C++",
-        "Python",
-        "Docker",
-        "Asyncio"
+        "UDP Sockets",
+        "Asio"
       ],
-      "title": "EdgePacket-TestBed: Simulating High-Loss Mesh Environments",
-      "track": "Testing & QA",
-      "why_it_could_win": "Solves testing challenges for edge protocol developers, fulfilling the hackathon's explicit focus on building robust edge infrastructure and testing suites."
+      "title": "Decentralized-DiscoveryD",
+      "track": "",
+      "why_it_could_win": "Targets core distributed systems mechanics which are central to open-source contributions evaluated in this challenge."
     },
     {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1274911437",
-        "github:1329458499"
-      ],
-      "pitch": "A minimal consensus and state synchronization library designed for resource-constrained edge nodes operating over unreliable mesh links.",
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated documentation and protocol state-machine visualizer parser for C++ header-only decentralized mesh protocol libraries.",
       "stack": [
-        "C++",
-        "Raft Consensus",
-        "UDP",
-        "JSON"
+        "Python",
+        "Clang AST",
+        "Doxygen",
+        "Markdown"
       ],
-      "title": "SwarmSync: Lightweight State Synchronization for Edge Swarms",
-      "track": "Swarm Network Optimization",
-      "why_it_could_win": "Tackles hard engineering problems in distributed systems, matching winning patterns of high-difficulty technical execution."
+      "title": "SwarmDoc-Gen",
+      "track": "",
+      "why_it_could_win": "Directly tackles the documentation and testing issues category highlighted in the hackathon's official problem statement pool."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

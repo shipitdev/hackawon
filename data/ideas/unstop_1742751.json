@@ -1,83 +1,91 @@
 {
-  "generated_at": "2026-09-12T10:31:49.689950+05:30",
+  "generated_at": "2026-09-13T07:52:12.715148+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1742751",
   "ideas": [
     {
-      "build_hours": 15,
+      "build_hours": 36,
       "inspired_by": [],
-      "pitch": "An automated step-by-step visualizer for complex graph and dynamic programming algorithms tailored specifically to debug GFG and competitive programming problem statements.",
+      "pitch": "A standalone interactive browser extension and parser that steps through complex graph and dynamic programming solutions line by line, visualizing the state transitions and memory allocations during execution.",
       "stack": [
-        "Python",
         "JavaScript",
-        "Vis.js"
+        "TypeScript",
+        "HTML5 Canvas",
+        "Python"
       ],
-      "title": "CP-Visualizer",
+      "title": "CP-Visualizer & Debugger Engine",
       "track": "",
-      "why_it_could_win": "Addresses the core pain point of competitive programmers who struggle to debug intricate DP states or graph traversals under time pressure."
+      "why_it_could_win": "Targeted directly at competitive programmers participating in the Tech Zephyr 4.0 CP Contest, offering immediate utility for analyzing complex algorithms during or after the contest."
     },
     {
-      "build_hours": 10,
-      "inspired_by": [],
-      "pitch": "A terminal-based local testing utility that fetches test cases directly from online judge problem statements and runs automated stress tests against brute-force solutions.",
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A machine learning model trained on competitive programming submissions that predicts whether a given Python or C++ solution will pass time and memory limits based on its abstract syntax tree and loop structures.",
       "stack": [
-        "C++",
         "Python",
-        "Click"
+        "scikit-learn",
+        "AST Parser",
+        "FastAPI"
       ],
-      "title": "Algorun-CLI",
+      "title": "Algorithmic Complexity Predictor",
       "track": "",
-      "why_it_could_win": "Speeds up the debugging workflow for solo competitive programmers during short-format timed contests."
+      "why_it_could_win": "Leverages genuine algorithmic engineering and technical depth, aligning with patterns seen in winning submissions that solve hard technical challenges."
     },
     {
-      "build_hours": 12,
-      "inspired_by": [],
-      "pitch": "A lightweight browser extension that parses competitive programming problem constraints and predicts optimal time complexities and potential bottleneck data structures.",
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent companion tool that analyzes a coder's submission history on GFG and CodeForces, identifies weak algorithmic patterns, and automatically curates a personalized upsolving list with hints instead of full solutions.",
       "stack": [
         "TypeScript",
-        "Web Extension API"
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "CodeLens-CP",
+      "title": "CodeForces/GFG Upsolving Companion",
       "track": "",
-      "why_it_could_win": "Directly aids algorithmic thinking and helps contestants quickly identify expected constraints versus chosen approaches."
+      "why_it_could_win": "Provides high utility for the exact demographic of competitive programming students participating in this individual contest format."
     },
     {
-      "build_hours": 18,
+      "build_hours": 42,
       "inspired_by": [],
-      "pitch": "A semantic search engine for classic competitive programming problem templates and editorials using custom vector embeddings.",
+      "pitch": "A real-time 1v1 coding sandbox allowing solo participants to challenge peers to rapid 15-minute problem-solving sprints with automated test case evaluation.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Node.js",
+        "Docker"
+      ],
+      "title": "CP Duel Matchmaking Sandbox",
+      "track": "",
+      "why_it_could_win": "Enhances the competitive programming experience of the contest by adding a live interactive sparring feature that appeals to participants wanting extra practice."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A command-line tool for competitive programmers that quickly generates randomized edge cases and compares a slow brute-force solution against an optimized solution to catch edge-case bugs before submission.",
       "stack": [
         "Python",
-        "FastAPI",
-        "FAISS"
+        "Click",
+        "Subprocess"
       ],
-      "title": "CP-Archive-Search",
+      "title": "Contest Stress-Tester CLI",
       "track": "",
-      "why_it_could_win": "Solves the problem of recalling exact algorithmic templates and standard problem patterns during intense contests."
-    },
-    {
-      "build_hours": 8,
-      "inspired_by": [],
-      "pitch": "An automated timer and leaderboard strategy tracker that calculates optimal time allocation per problem based on live difficulty distribution.",
-      "stack": [
-        "JavaScript",
-        "Node.js"
-      ],
-      "title": "Contest-Pacing-Bot",
-      "track": "",
-      "why_it_could_win": "Targets the strategic time-management aspect that determines success in short 135-minute competitive programming contests."
+      "why_it_could_win": "Solves an immediate, highly practical pain point for solo developers participating in fast-paced timed coding contests."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:37:39.242121+05:30",
+  "generated_at": "2026-09-13T07:57:36.856160+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,85 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1185920891"
+        "github:1213911408"
       ],
-      "pitch": "A decentralized peer-to-peer micro-marketplace for RV University students featuring automated dispute resolution and secure USDC escrows on Base.",
+      "pitch": "An AI-powered regulatory and compliance tracker tailored for student incubators and early-stage startups in India, automating GST filing workflows, MSME registrations, and local entity compliance alerts.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Base",
-        "USDC"
+        "Python",
+        "LangChain",
+        "Gemini API"
       ],
-      "title": "CampusEscrow",
+      "title": "RVU Startup Ecosystem Compliance Agent",
       "track": "",
-      "why_it_could_win": "Leverages the proven winning formula of combining autonomous escrow infrastructure with a hyper-local student market, matching the pattern seen in the Synthesis Hackathon win."
+      "why_it_could_win": "Since the hackathon is organized by the Entrepreneurship Cell (ECell) and RV University, judges composed of entrepreneurship mentors and local founders will immediately see the high real-world value for early-stage startups."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A hyper-local P2P marketplace for college students featuring milestone-based escrow payments to prevent peer-to-peer transaction fraud on campus.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "React"
+      ],
+      "title": "CampusCart Secure Escrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Directly addresses a genuine pain point for college campuses with thousands of students buying and selling textbooks, electronics, and project supplies locally."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutritional analysis and smart menu planner tailored specifically for Indian university hostel messes and student dining halls.",
+      "pitch": "A localized nutritional assistant that parses RV University campus mess and canteen menus daily, generating personalized macro-tracking and dietary plans for students.",
       "stack": [
         "Python",
         "FastAPI",
-        "Gemini API",
-        "React"
-      ],
-      "title": "Mess-AI Nutrition Tracker",
-      "track": "",
-      "why_it_could_win": "Targets an immediate daily pain point felt by every student and faculty member in the room—bad hostel food and nutrition—matching the localized problem-solving pattern."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite and drone-imagery monitoring dashboard to track green cover and construction waste compliance across large university and industrial campuses.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "OpenCV"
-      ],
-      "title": "EcoCompliant-RVU",
-      "track": "",
-      "why_it_could_win": "Solves complex environmental auditing challenges using geospatial intelligence, mirroring the technical approach of the Xcelerate Hackathon runner-up."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An AI-driven logistics and volunteer dispatch application designed to coordinate weekend transit and social outings for elderly residents in Bengaluru neighborhoods near RV University.",
-      "stack": [
-        "TypeScript",
         "React Native",
-        "Node.js",
-        "PostgreSQL"
+        "OpenAI API"
       ],
-      "title": "ElderRide Campus Connect",
+      "title": "Campus Canteen AI Nutrition & Meal Planning",
       "track": "",
-      "why_it_could_win": "Demonstrates clear, quantifiable social impact and community value, directly replicating the winning blueprint of the Vanderbilt Global Good Hackathon."
+      "why_it_could_win": "Combines hyper-localized campus relevance with proven hackathon-winning architecture from food and nutrition tech."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An explainable graph-based risk intelligence platform for detecting anomalous transaction patterns in regional fintech onboarding flows.",
+      "pitch": "Computer-vision and IoT data aggregator that tracks waste disposal bins and smart meter electricity usage across university buildings to generate automated sustainability compliance reports.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM",
-        "Neo4j"
+        "TensorFlow.js",
+        "TailwindCSS"
       ],
-      "title": "RiskLens AML India",
+      "title": "EcoCampus AI Waste & Energy Audit System",
       "track": "",
-      "why_it_could_win": "Showcases genuinely hard engineering by implementing graph intelligence and explainable machine learning models, aligning with the DIGITIMES AI Innovation Hackathon winner."
+      "why_it_could_win": "Applies rigorous multi-modal monitoring techniques seen in industrial compliance wins to a tangible campus sustainability problem that university administrators care about."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated patient intake, consultation summary, and trust-building platform designed for university dental hospitals and local clinics to improve appointment conversion rates.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "AI Patient Acquisition & Trust Engine for Student Dental Clinics",
+      "track": "",
+      "why_it_could_win": "Leverages a proven, specialized workflow engine that won previous fast-paced sprints, adapted directly for local medical and dental practices."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,100 +1,98 @@
 {
-  "generated_at": "2026-09-12T10:38:59.881810+05:30",
+  "generated_at": "2026-09-13T07:58:57.821965+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1750278",
   "ideas": [
     {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An AI-powered predictive analytics platform for local agricultural cold storage units in Indore to forecast crop spoilage and optimize logistics using Poisson regression and weather data.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "AgriSutra AI: Supply Chain Risk & Spoilage Predictor",
+      "track": "",
+      "why_it_could_win": "Leverages heavy localized real-world impact for regional infrastructure, matching the winning pattern of hard data-driven forecasting seen in ai-incident-forecasting."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A hyper-localized web application that helps independent dental and medical clinics in Indore automate patient outreach, trust-building, and appointment booking using Gemini API.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Gemini API"
+      ],
+      "title": "MedTrust Local: Patient Acquisition & Trust Engine for Tier-2 Clinics",
+      "track": "",
+      "why_it_could_win": "Directly replicates the rapid 12-hour win formula of Global-Smile by solving a practical business acquisition problem for local healthcare providers."
+    },
+    {
       "build_hours": 32,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered hyperlocal supply chain optimization and micro-fulfillment routing specifically tailored for Indore's busy commercial hubs like Rajwada and Siyaganj.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "Leaflet.js"
-      ],
-      "title": "IndoreLocals AI Logistics",
-      "track": "",
-      "why_it_could_win": "Targets local economic realities and regional infrastructure pain points that regional judges in Indore will immediately recognize and value."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An offline-first, privacy-preserving biometric and geofenced attendance verification system built for Indian college campuses using edge AI models.",
+      "pitch": "An automated satellite imagery analysis tool that detects unauthorized industrial waste dumping and illegal deforestation around the Indore region to aid municipal compliance.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
+        "Leaflet.js",
         "OpenCV"
       ],
-      "title": "CampusPulse AI Attendance & Trust Engine",
+      "title": "EcoIndore: Satellite Monitoring for Urban Green Cover & Waste Dumping",
       "track": "",
-      "why_it_could_win": "Solves an administrative headache that college faculty and organizing student bodies at CDGI experience on a daily basis."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Poisson regression and geospatial analytics platform forecasting agricultural yield risks and localized weather anomalies for rural Madhya Pradesh farmers.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "KrishiKavach AI Crop Insurance Forecaster",
-      "track": "",
-      "why_it_could_win": "Combines robust statistical modeling with clear, quantifiable economic and social impact on agriculture."
+      "why_it_could_win": "Employs geographic data processing to address civic infrastructure problems, following the proven success pattern of GeoNex-ATLAS at regional hackathons."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1275874285"
+        "github:1213911408"
       ],
-      "pitch": "AI-powered meal planning and inventory tracker for large institutional hostels and student messes to minimize food wastage while maximizing nutritional intake.",
-      "stack": [
-        "Python",
-        "Gemini API",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "SmartMess Nutrition & Waste Optimizer",
-      "track": "",
-      "why_it_could_win": "Directly addresses campus hostel living conditions, connecting personal health tracking with institutional cost savings."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A community-driven ridesharing and errand coordination platform connecting elderly residents in Indore neighborhoods with student volunteers.",
+      "pitch": "A multi-agent RAG system built specifically for college student support and automated curriculum navigation, combining LangGraph and vector embeddings for instant student query resolution.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "PostgreSQL"
+        "Python",
+        "LangGraph",
+        "Supabase"
       ],
-      "title": "Sahayak Senior Mobility Pool",
+      "title": "CampusGraph: Multi-Agent Academic Support & Peer Mentorship Platform",
       "track": "",
-      "why_it_could_win": "Features an undeniable community benefit and strong social impact angle that resonates well with institutional judging panels."
+      "why_it_could_win": "Applies advanced multi-agent orchestration that judges heavily favor in student-centric hackathons, directly modeled after the greennovation-ai-platform win."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition application tailored to Indian regional meal thalis, delivering personalized macronutrient insights and healthy diet recommendations using localized food databases.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "NutriThali: AI Regional Diet and Wellness Companion",
+      "track": "",
+      "why_it_could_win": "Adopt the consumer-focused health wellness track that secured 1st prize at the Mealzy 24-Hour Hackathon with high UI polish and fast execution."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

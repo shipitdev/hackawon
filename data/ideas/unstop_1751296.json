@@ -1,90 +1,86 @@
 {
-  "generated_at": "2026-09-12T10:39:49.546934+05:30",
+  "generated_at": "2026-09-13T07:59:46.713996+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1751296",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A real-time 1v1 competitive coding platform built specifically for solo participants to practice 30-minute MCQ and rapid problem-solving formats like CodeClash.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "WebSockets"
-      ],
-      "title": "CodeClash Duels Engine",
-      "track": "",
-      "why_it_could_win": "CodeClash is organized by HackKro on Unstop as a competitive coding and MCQ challenge, so targeting the exact user base of competitive programmers and students creates instant relevance for the organizers."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered tool that automatically parses data structures and core programming documentation to instantly generate high-difficulty multiple-choice questions for competitive coding trainers.",
+      "pitch": "A real-time 1v1 competitive coding platform featuring automated test case generation via LLMs and an isolated multi-language code execution sandbox.",
       "stack": [
         "Python",
         "FastAPI",
-        "Gemini API"
+        "React",
+        "Docker"
       ],
-      "title": "Algorize MCQ Generator",
+      "title": "CodeClash Duels Engine",
       "track": "",
-      "why_it_could_win": "Since the hackathon round consists entirely of 30 multiple-choice questions on core programming and data structures, this directly solves the bottleneck of creating reliable quiz questions for judges and event organizers."
+      "why_it_could_win": "Directly aligns with the host organization's core focus on competitive coding and problem-solving platforms, targeting a live coding challenge experience."
     },
     {
-      "build_hours": 22,
+      "build_hours": 24,
       "inspired_by": [],
-      "pitch": "An interactive logic-tracing visualizer designed to help beginners step through basic data structures and core programming snippet executions line by line.",
+      "pitch": "An adaptive quantitative aptitude and core programming quiz platform that dynamically adjusts question difficulty based on real-time performance analytics.",
       "stack": [
         "TypeScript",
-        "React",
-        "Monaco Editor"
-      ],
-      "title": "DataStruct Visually",
-      "track": "",
-      "why_it_could_win": "The hackathon specifically caters to both beginners and experienced developers focusing on Data Structures Basics, making educational tools with clear usability highly appealing to judges."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "A gamified rapid-fire aptitude and logical reasoning trainer optimized for mobile web browsers to help students drill under 30-minute time constraints.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "TailwindCSS"
+        "Next.js",
+        "PostgreSQL"
       ],
       "title": "AptitudeArena",
       "track": "",
-      "why_it_could_win": "Aptitude and logical reasoning form a core evaluation component of the CodeClash 1.0 syllabus, making a targeted prep tool extremely practical for participants."
+      "why_it_could_win": "Matches the exact evaluation topics of CodeClash 1.0 which focuses heavily on core programming MCQs, data structures, and logical reasoning."
     },
     {
-      "build_hours": 20,
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An interactive data structure visualizer and execution tracer designed to help students debug complex logical reasoning and pointer-based problems.",
+      "stack": [
+        "TypeScript",
+        "React Flow",
+        "TailwindCSS"
+      ],
+      "title": "LogicTrace",
+      "track": "",
+      "why_it_could_win": "Provides high utility for the student demographic participating in competitive coding events by bridging the gap between theoretical data structures and runtime behavior."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A performance benchmarking dashboard that ingests past competitive coding quiz results and provides personalized weak-spot analysis for core programming and data structures.",
+      "pitch": "An automated code review and complexity analysis tool that evaluates competitive programming solutions for time and space complexity bottlenecks.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Pandas"
+        "AST",
+        "Streamlit"
       ],
-      "title": "CodeClash Analytics",
+      "title": "CodeMetric AI",
       "track": "",
-      "why_it_could_win": "Appeals directly to the organizers' goal of boosting technical growth and measuring problem-solving skills among college students across all streams."
+      "why_it_could_win": "Solves a core pain point for competitive programmers looking to optimize their algorithms before submission, leveraging technical depth similar to winning machine learning and analysis hacks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A collaborative peer-to-peer code discussion board with integrated multi-language REPL environments for instant doubt resolution during coding contests.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Node.js"
+      ],
+      "title": "SyntaxSync",
+      "track": "",
+      "why_it_could_win": "Addresses community-driven technical growth, fitting the stated objective of HackKro to enhance logical thinking and peer learning."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

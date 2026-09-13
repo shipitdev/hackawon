@@ -1,101 +1,103 @@
 {
-  "generated_at": "2026-09-12T10:35:09.429796+05:30",
+  "generated_at": "2026-09-13T07:55:12.662862+00:00",
   "grounding": {
     "domains": [
       "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "unusual-hardware",
+      "working-demo",
       "technical-depth",
-      "working-demo"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1746261",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A high-speed autonomous rover utilizing open-source OpenCV on a Raspberry Pi Zero to navigate the obstacle track under the 3-minute limit without human intervention.",
+      "pitch": "A compact 30x30cm differential drive robot running custom PID line-following algorithms with an ultrasonic obstacle-avoidance override to minimize run time.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "PID Control",
+        "Hardware Sensors"
+      ],
+      "title": "Speed-Optimized Line & Obstacle Rover",
+      "track": "",
+      "why_it_could_win": "Directly targets the primary judging criteria of completion time and obstacles cleared using a robust, highly tuned hardware build reminiscent of award-winning autonomous rovers."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An autonomous robot utilizing an ESP32-CAM module running lightweight color or contour detection to navigate complex obstacle courses without manual intervention.",
       "stack": [
         "Python",
         "OpenCV",
         "C++",
-        "Arduino"
+        "ESP32"
       ],
-      "title": "SpeedyLine Autonomous Line & Obstacle Rover",
-      "track": "Fully Autonomous",
-      "why_it_could_win": "Directly targets the core judging criteria of completion time and minimum obstacles hit by using precise computer vision instead of slow manual reaction times."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1010199928"
-      ],
-      "pitch": "An ESP32-powered wireless rover featuring a low-latency WebSockets control interface alongside fallback automated wall-following ultrasonic sensors.",
-      "stack": [
-        "C++",
-        "ESP32",
-        "HTML5",
-        "WebSockets"
-      ],
-      "title": "Dual-Mode RC Hybrid Racing Bot",
-      "track": "Remote-Controlled",
-      "why_it_could_win": "Combines strict adherence to mechanical constraints (30x30x30cm) with dual-mode versatility to tackle unpredictable track layouts quickly."
+      "title": "Vision-Guided Maze Navigator",
+      "track": "",
+      "why_it_could_win": "Leans into the autonomous category rules, scoring heavily on technical complexity and flawless execution of live runs."
     },
     {
       "build_hours": 20,
       "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A low-latency radio frequency remote control unit equipped with an emergency stop and telemetry feedback to ensure strict compliance with safety rules and time limits.",
+      "stack": [
+        "Hardware",
+        "RF Modules",
+        "C++",
+        "Microcontrollers"
+      ],
+      "title": "Wireless Fail-Safe Remote Override System",
+      "track": "",
+      "why_it_could_win": "Addresses the reliability and penalty-avoidance metrics in the judging criteria by preventing runaway crashes and tracking maximum run times accurately."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
         "github:1281918590"
       ],
-      "pitch": "An ultra-compact Arduino-driven robot utilizing precise infrared and ultrasonic array feedback with tuned PID loops to rapidly clear narrow qualifying runs.",
+      "pitch": "A specialized chassis built under strict 30cm dimension limits featuring dual infrared distance sensors for rapid wall-following and high-speed straight-line bursts.",
       "stack": [
         "C++",
         "Arduino",
-        "ATmega328P"
+        "IR Sensors",
+        "Custom PCB"
       ],
-      "title": "Precision PID Wall-Hugger",
-      "track": "Timed Runs",
-      "why_it_could_win": "Optimizes strictly for completion time and obstacle clearance by avoiding heavy compute overhead and relying on hardened real-time microcontrollers."
+      "title": "Modular Wall-Hugger Speedster",
+      "track": "",
+      "why_it_could_win": "Optimized purely for the technical inspection and qualifying run speed tests, giving the team a massive advantage in completion time."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1259981732"
+        "github:1259981732",
+        "github:1010199928"
       ],
-      "pitch": "A holonomic drive robot equipped with omni-directional wheels for instantaneous strafing capabilities to navigate tight hairpin turns and obstacles on the Robo Race track.",
+      "pitch": "An intelligent micro-robot that maps obstacles during its first qualifying run and optimizes its path for the final head-to-head showdown.",
       "stack": [
         "Python",
-        "Raspberry Pi",
-        "Motor Drivers"
+        "C++",
+        "SLAM algorithms",
+        "Raspberry Pi Pico"
       ],
-      "title": "Omni-Wheel Agility Sprint Bot",
-      "track": "Final Round",
-      "why_it_could_win": "Standard differential drives lose time on tight turns; omni-wheels directly target faster completion times, which is a top judging metric."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1081554659",
-        "github:1341712439"
-      ],
-      "pitch": "A companion trackside dashboard that streams real-time battery voltage, motor temperature, and lap times via BLE from the racing bot to a spectator interface.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "BLE",
-        "Node.js"
-      ],
-      "title": "Telemetry-Tracked Diagnostic Pitstop Hub",
+      "title": "Dynamic Path-Recalculating Autonomous Bot",
       "track": "",
-      "why_it_could_win": "Provides an impressive hardware-software telemetry demo that stands out during technical inspection and staging presentations."
+      "why_it_could_win": "Exceeds standard remote-controlled entries by showcasing advanced autonomy, making it a favorite for top rankings in the final round."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

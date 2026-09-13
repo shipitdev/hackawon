@@ -1,101 +1,103 @@
 {
-  "generated_at": "2026-09-12T10:35:14.867089+05:30",
+  "generated_at": "2026-09-13T07:55:17.337268+00:00",
   "grounding": {
     "domains": [
       "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "unusual-hardware",
+      "working-demo",
       "technical-depth",
-      "working-demo"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1746264",
   "ideas": [
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1259981732"
-      ],
-      "pitch": "An advanced line-following robot utilizing an array of QTR-8RC reflectance sensors and a finely-tuned PID control algorithm running on an ESP32 microcontroller to maximize cornering speeds without losing track contact.",
-      "stack": [
-        "C++",
-        "Arduino",
-        "ESP32",
-        "QTR-8RC Sensors"
-      ],
-      "title": "PID-Optimized High-Speed Line Follower",
-      "track": "",
-      "why_it_could_win": "Directly targets the core judging criteria of track completion time and path-following accuracy by replacing crude threshold logic with real-time mathematical error correction."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A robust autonomous rover that combines an optical line sensor array with an MPU6050 IMU to detect sharp turns and dead ends preemptively, applying inertial corrections before visual drift causes boundary violations.",
+      "pitch": "An Arduino and QTR sensor-based line follower utilizing real-time PID control loops and dynamic lighting calibration to navigate complex tracks without losing grip.",
       "stack": [
         "C++",
         "Arduino",
-        "MPU6050",
-        "STM32"
+        "QTR Sensors",
+        "PID Controller"
       ],
-      "title": "Dual-Sensor Fusion Adaptive Line Tracer",
+      "title": "PID-Tuned High-Speed Line Follower with Adaptive Thresholding",
       "track": "",
-      "why_it_could_win": "Minimizes checkpoint penalties and boundary violations by anticipating complex track geometries rather than reacting solely to momentary sensor loss."
+      "why_it_could_win": "Directly targets the primary judging criteria of track completion time and path-following accuracy by eliminating oscillation on sharp turns."
     },
     {
-      "build_hours": 18,
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A compact autonomous robot featuring an IR array for line tracking paired with an ultrasonic sensor module to detect and dynamically reroute around unexpected track blocks.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Ultrasonic Sensor",
+        "IR Sensor Array"
+      ],
+      "title": "Dual-Sensor Hybrid Line and Obstacle Navigator",
+      "track": "",
+      "why_it_could_win": "Leverages robust hardware-software integration and handles complex track variations better than basic analog comparators."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1144331507"
+      ],
+      "pitch": "A high-speed line tracking robot leveraging a low-power FPGA module for parallelized pixel processing from a miniature onboard camera instead of standard IR arrays.",
+      "stack": [
+        "Verilog",
+        "FPGA",
+        "Camera Module",
+        "Motor Driver"
+      ],
+      "title": "FPGA-Accelerated Vision-Assisted Line Tracker",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by moving line detection processing to hardware logic, setting it apart from standard microcontroller builds."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1281918590"
       ],
-      "pitch": "A custom 25x25cm laser-cut and 3D-printed chassis engineered for maximum aerodynamic stability, featuring adjustable wheel baselines and an easily accessible modular electronics deck to prevent size limit disqualifications.",
-      "stack": [
-        "CAD",
-        "3D Printing",
-        "PLA",
-        "Acrylic"
-      ],
-      "title": "Modular 3D-Printed Low-Center-of-Gravity Chassis",
-      "track": "",
-      "why_it_could_win": "Ensures absolute compliance with the strict physical dimension limits while providing superior weight distribution to shave crucial seconds off final lap times."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1341712439"
-      ],
-      "pitch": "A line-following robot equipped with an onboard OLED status display and tactile override buttons that log exact error states, lap times, and checkpoint re-entry counts for rapid manual debugging during penalty phases.",
+      "pitch": "A modular 3D-printed chassis robot equipped with magnetic encoders on the wheel motors for precise odometry and automated checkpoint distance logging.",
       "stack": [
         "C++",
-        "ESP8266",
-        "OLED Display",
-        "MicroPython"
+        "STM32",
+        "Rotary Encoders",
+        "CAD"
       ],
-      "title": "Smart Checkpoint Recovery & Telemetry Rover",
+      "title": "Modular Checkpoint-Recovery Line Tracer",
       "track": "",
-      "why_it_could_win": "Provides transparent diagnostic feedback that helps teams optimize their path parameters between the qualification round and the more complex final round."
+      "why_it_could_win": "Minimizes manual restart time penalties by tracking exact checkpoint intervals through wheel encoder feedback."
     },
     {
-      "build_hours": 22,
+      "build_hours": 32,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A specialized firmware module for autonomous line followers that detects perpendicular junction markers and cross-intersections, executing pre-programmed navigational logic to navigate complex multi-path tracks accurately.",
+      "pitch": "An ESP32-powered high-traction line follower that uses an onboard finite state machine to instantly adjust motor PWM profiles based on surface friction and turn sharpness.",
       "stack": [
         "C++",
-        "Arduino",
-        "TCRT5000 Sensor Array"
+        "ESP32",
+        "FreeRTOS",
+        "IR Array"
       ],
-      "title": "Optical Mark Recognition & Intersection Switcher",
+      "title": "State-Machine Managed Multi-Surface Line Racer",
       "track": "",
-      "why_it_could_win": "Gives an edge in the final round where tracks feature complex layouts and multi-branch pathways requiring precise decision-making beyond simple line tracking."
+      "why_it_could_win": "Excels on the Round 2 final complex track by adapting speed dynamically rather than running at a flat, conservative rate."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

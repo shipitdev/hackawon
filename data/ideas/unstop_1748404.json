@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:37:20.774265+05:30",
+  "generated_at": "2026-09-13T07:57:18.398833+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,81 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered coordination platform that connects isolated seniors across countries with vetted volunteer drivers and companions for localized social outings.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "GlobalSeniors: Borderless Volunteer & Senior Pairing",
-      "track": "",
-      "why_it_could_win": "Follows the exact Grand Prize winning pattern of the Vanderbilt Global Good Hackathon by solving a clear, quantified social isolation problem with high emotional resonance for judges."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite imagery monitoring platform that tracks unauthorized industrial land expansion and environmental degradation across national borders.",
+      "pitch": "An AI-powered satellite monitoring platform that tracks industrial land compliance and deforestation changes in real time.",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "Leaflet.js"
+        "Next.js",
+        "Satellite APIs"
       ],
-      "title": "EcoCompliance Atlas: Borderless Satellite Industrial Monitoring",
+      "title": "EcoWatch Satellite Monitoring",
       "track": "",
-      "why_it_could_win": "Leverages the hard engineering and tangible environmental metrics that secured runner-up at the Xcelerate Hackathon, appealing directly to the 'Innovate Without Borders' theme."
+      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by combining geospatial imaging data with automated compliance checks, appealing strongly to judges looking for scalable environmental impact under the Innovate Without Borders theme."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient acquisition and trust engine specifically built for specialized medical clinics operating across international borders.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "GlobalSmile Patient Trust Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the global, borderless scope of the hackathon using proven architectures from the Global-Smile prize winner that streamline patient trust and onboarding."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A quantitative forecasting dashboard using Poisson regression and multinomial share models to predict cross-border AI safety and governance incidents with calibrated prediction intervals.",
+      "pitch": "A multi-agent student support platform that assists international learners by combining LangGraph, RAG, and personalized AI agents.",
       "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Streamlit"
+        "TypeScript",
+        "LangGraph",
+        "RAG"
       ],
-      "title": "AI Incident Forecaster Global",
+      "title": "GreenNovation Multi-Agent Student Support",
       "track": "",
-      "why_it_could_win": "Modeled directly after the 1st place Apart Research AI Forecasting winner, showcasing rigorous statistical modeling that technical judges heavily reward."
+      "why_it_could_win": "Leverages the proven winning architecture of the greennovation-ai-platform to deliver localized, reliable mentorship across educational institutions worldwide."
     },
     {
-      "build_hours": 28,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1275874285"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform that delivers personalized meal recommendations based on regionally available ingredients and cultural dietary restrictions worldwide.",
+      "pitch": "An AML risk detection and investigation platform that combines graph intelligence and explainable machine learning models for cross-border financial transactions.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
+        "TypeScript",
+        "LightGBM",
+        "Graph Intelligence"
       ],
-      "title": "NutriBorder: Cross-Cultural AI Nutrition Assistant",
+      "title": "Bito AML Risk Detective",
       "track": "",
-      "why_it_could_win": "Directly mirrors the Hour Hackathon 1st place winner by targeting personal health with immediate, actionable utility and a polished user interface."
+      "why_it_could_win": "Replicates the technical depth and compliance-focus of Bito, addressing the heavy due-diligence priorities of enterprise-minded hackathon judges."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating cross-border micro-tasks with USDC escrow payments to enable friction-free international collaboration.",
+      "pitch": "An autonomous AI agent marketplace facilitating instant services with USDC escrow payments settled on low-cost layer-2 chains.",
       "stack": [
         "JavaScript",
         "Base",
-        "Solidity",
-        "Node.js"
+        "USDC"
       ],
-      "title": "AgentEscrow Global: Borderless Autonomous Marketplace",
+      "title": "Dispatch Cross-Border USDC Escrow",
       "track": "",
-      "why_it_could_win": "Replicates the Synthesis Hackathon 1st place winning architecture by combining autonomous agents with verifiable cryptocurrency escrow."
+      "why_it_could_win": "Builds on the proven Dispatch architecture to demonstrate real-world financial utility for freelancers and remote workers across multiple borders."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

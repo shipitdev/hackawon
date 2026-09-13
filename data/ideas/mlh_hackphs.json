@@ -1,96 +1,100 @@
 {
-  "generated_at": "2026-09-12T10:25:40.957333+05:30",
+  "generated_at": "2026-09-13T07:46:08.395850+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:hackphs",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered coordination platform tailored for Princeton-area community volunteers and senior centers to group nearby seniors into shared social outings with student drivers.",
+      "pitch": "A predictive risk modeling dashboard built for student organizations and event planners to forecast safety, logistical, or compliance incidents at large on-campus gatherings using Poisson regression and rolling backtests.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "Princeton Local Transit & Senior Outings Coordinator",
+      "title": "Princeton Local Campus AI Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Targets clear measurable social impact and replicates the winning formula of the Vanderbilt Global Good Hackathon winner."
+      "why_it_could_win": "Follows the winning formula of bringing rigorous, non-trivial statistical forecasting (Poisson GAM) to a domain that usually relies on guesswork, matching past successful AI forecasting projects."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A forecasting tool utilizing Poisson regression and rolling backtests to predict campus facility maintenance failures or local safety incidents based on historical logs.",
+      "pitch": "An AI-powered satellite monitoring tool configured for Princeton township zoning laws to automatically track land use compliance, illegal dumping, and environmental changes using multi-modal geospatial vision models.",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
         "Python",
-        "Poisson regression"
+        "FastAPI",
+        "Leaflet.js",
+        "OpenAI Vision API"
       ],
-      "title": "AI Campus Incident & Safety Forecasting Dashboard",
+      "title": "Township GreenCompliance Satellite Monitor",
       "track": "",
-      "why_it_could_win": "Leverages rigorous data science and predictive modeling, mirroring the Apart Research AI Forecasting Hackathon winning strategy."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition assistant customized specifically for Princeton University dining hall menus, delivering personalized meal recommendations and dietary tracking.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "OpenAI API"
-      ],
-      "title": "Princeton Dining Hall AI Nutrition & Meal Planner",
-      "track": "",
-      "why_it_could_win": "Solves a problem the judges and students feel themselves every day on campus, directly following the Mealzy 24-Hour Hackathon winning approach."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace enabling students to buy and sell micro-tasks using secure escrow payments on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "AgentKit"
-      ],
-      "title": "Autonomous AI Agent Marketplace for Student Services",
-      "track": "",
-      "why_it_could_win": "Implements modern web3 agentic patterns that secured 1st place at the Synthesis Hackathon."
+      "why_it_could_win": "Combines hard computer vision engineering with local municipal utility, directly mirroring the satellite monitoring and industrial compliance winner from Xcelerate Hackathon."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-powered trust and patient acquisition platform tailored for local dental and medical practices in the Princeton area to streamline onboarding.",
+      "pitch": "A mobile web app tailored specifically to Princeton High School and local student dietary constraints that scans cafeteria menus and generates personalized micronutrient optimization and weekly meal plans.",
       "stack": [
         "TypeScript",
         "Next.js",
+        "TailwindCSS",
         "Gemini API"
       ],
-      "title": "AI Patient Acquisition Engine for Local Princeton Clinics",
+      "title": "DiningHall AI Nutrition & Micro-Meal Planner",
       "track": "",
-      "why_it_could_win": "Delivers immediate local economic value to small businesses, echoing the Elevate X Prize Hackathon winning methodology."
+      "why_it_could_win": "Targets an intensely relatable hyper-local problem with immediate user value, echoing the rapid prototyping success of the 24-hour nutrition assistant hackathon winner."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent collaboration platform powered by LangGraph and RAG that helps high school club presidents automate event scheduling, permission slip tracking, and member communications.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Pinecone",
+        "React"
+      ],
+      "title": "ClubOS Multi-Agent Student Organization Support Hub",
+      "track": "",
+      "why_it_could_win": "Utilizes advanced agentic workflows and RAG architecture which proved successful in winning student support hackathon categories."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered trust and matching platform designed for student-run tutoring networks to optimize peer discovery, build verifiable credibility profiles, and streamline intake.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "PeerTutor Trust & Patient Acquisition Engine",
+      "track": "",
+      "why_it_could_win": "Focuses on trust-building and acquisition loops in a constrained marketplace, following the exact mechanics of the Elevate X prize-winning patient acquisition engine."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

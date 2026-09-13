@@ -1,105 +1,102 @@
 {
-  "generated_at": "2026-09-12T10:28:09.339879+05:30",
+  "generated_at": "2026-09-13T07:48:27.680783+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:steelhacks-xiii",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1155558847",
-        "github:1087704265"
+        "github:1181344931"
       ],
-      "pitch": "Real-time Pittsburgh Port Authority bus and T disruption analyzer that aggregates community reports and predicts cascade delays using spatial routing models.",
+      "pitch": "A supply chain risk and anti-money laundering compliance platform tailored for regional manufacturing and steel logistics, combining graph intelligence with LightGBM risk scoring.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "FastAPI"
+        "LightGBM",
+        "Neo4j",
+        "Next.js"
       ],
-      "title": "SteelCity Transit Sentinel",
+      "title": "SteelSupply Graph AML",
       "track": "",
-      "why_it_could_win": "Targeting local logistics and transportation pain points directly appeals to judges and students living in Pittsburgh who experience commute issues daily."
+      "why_it_could_win": "Leverages the proven high-performance pattern of combining graph intelligence and gradient boosting seen in AML risk platforms, addressing industrial supply chain integrity."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1155558847",
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered document parser and geographic zoning compliance checker tailored specifically for Pittsburgh municipal permitting regulations.",
+      "pitch": "A Poisson-regression and GAM forecasting tool predicting municipal infrastructure and local electrical grid incidents using historical weather and terrain data for the Pittsburgh area.",
       "stack": [
+        "Jupyter Notebook",
         "Python",
-        "Streamlit",
-        "OpenAI API",
-        "PostgreSQL"
+        "Poisson GAM",
+        "Pandas",
+        "Streamlit"
       ],
-      "title": "BurghBuild Compliance Checker",
+      "title": "Grid-Incident Forecaster Pittsburgh",
       "track": "",
-      "why_it_could_win": "Solves a specific local bureaucratic challenge, making it immediately relatable and impactful for regional judges."
+      "why_it_could_win": "Directly replicates the rigorous statistical modeling and calibrated prediction intervals that won the AI forecasting hackathon, focusing on a localized utility use case."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating micro-contracting and automated USDC escrow payments on Base for localized heavy machinery maintenance contractors.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity",
+        "LangChain"
+      ],
+      "title": "RustBelt Autonomous Agent Escrow",
+      "track": "",
+      "why_it_could_win": "Adopts the successful agent marketplace architecture with USDC escrow on Base to solve localized service dispatching problems."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
+        "github:1155558847"
       ],
-      "pitch": "AI-driven community health navigator connecting uninsured or underinsured Pittsburgh residents with free clinic availability and transportation assistance.",
+      "pitch": "An AI-powered satellite monitoring pipeline that tracks industrial land usage changes, environmental runoff, and zoning compliance specifically targeting Rust Belt industrial zones.",
       "stack": [
         "TypeScript",
-        "React",
-        "TailwindCSS",
-        "Node.js"
+        "Python",
+        "OpenCV",
+        "PostGIS",
+        "Next.js"
       ],
-      "title": "Allegheny Patient Bridge",
+      "title": "GeoStream Industrial Land Monitor",
       "track": "",
-      "why_it_could_win": "Demonstrates clear measurable social impact and addresses healthcare access in western Pennsylvania."
+      "why_it_could_win": "Follows the satellite monitoring pattern that secured runner-up finishes by turning complex geospatial raster data into actionable industrial compliance alerts."
     },
     {
-      "build_hours": 22,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1275874285",
-        "github:1194555365"
+        "github:1241231621"
       ],
-      "pitch": "Hyper-local surplus food redistribution platform matching independent Pittsburgh restaurants with campus food pantries and community shelters in real time.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "Express",
-        "MongoDB"
-      ],
-      "title": "LocalBites Pittsburgh",
-      "track": "",
-      "why_it_could_win": "Combines clear economic and environmental benefit with an actionable local scope that can be fully prototyped in a weekend."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1185920891"
-      ],
-      "pitch": "An intelligent project-and-skill graph generator that connects SteelHacks attendees with the exact peer collaborators or mentors best suited to debug their specific code stack.",
+      "pitch": "An AI-driven patient acquisition and trust-building portal for specialized dental and prosthodontic clinics, featuring automated diagnostic intake and transparent treatment path visualizations.",
       "stack": [
         "TypeScript",
+        "Gemini API",
         "Next.js",
-        "Vector Embeddings",
-        "Supabase"
+        "TailwindCSS"
       ],
-      "title": "SteelHacks Mentor Matcher",
+      "title": "PatientTrust Prosthodontic Engine",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges, organizers, and students feel themselves in the room during the 32-hour sprint."
+      "why_it_could_win": "Applies the exact multi-modal AI trust-building framework that won high-paced healthcare hackathons by streamlining patient onboarding."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

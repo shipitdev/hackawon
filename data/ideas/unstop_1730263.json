@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:29:59.740354+05:30",
+  "generated_at": "2026-09-13T07:50:16.039507+00:00",
   "grounding": {
     "domains": [
+      "civic",
       "sustainability",
-      "healthtech",
-      "edtech"
+      "healthtech"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "judge-pain"
+      "impact",
+      "working-demo"
     ],
     "thin": false
   },
@@ -16,85 +17,87 @@
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "A lightweight offline-first mesh networking protocol utilizing Bluetooth LE and Wi-Fi Direct to allow disconnected nodes to relay emergency text messages, vital health logs, and barter inventories without internet infrastructure.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "React Native",
-        "BLE"
+      "inspired_by": [
+        "github:1143576965"
       ],
-      "title": "MeshNet Protocol for Post-Collapse Communities",
+      "pitch": "A localized, battery-efficient offline mesh network protocol using ESP32 nodes and Bluetooth Low Energy that allows survivors post-collapse to broadcast SOS signals and critical medical supply inventories without internet or cellular infrastructure.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "TypeScript",
+        "React"
+      ],
+      "title": "AetherMesh",
       "track": "communication systems",
-      "why_it_could_win": "Directly targets the Day Zero mission of engineering foundational communication infrastructure for civilization's restart."
+      "why_it_could_win": "Directly aligns with the civilization-rebuilding mission by solving foundational communication challenges, featuring a functional hardware/software demo that appeals to practical engineering judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:855192292"
+        "github:901472660"
       ],
-      "pitch": "An edge-computing dashboard for managing and routing erratic power output from small-scale solar and kinetic generators among critical survival loads in a micro-community.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "BioGen: Decentralized Micro-Grid Energy Allocator",
-      "track": "energy",
-      "why_it_could_win": "Addresses energy resilience and sustainable engineering, two core evaluation pillars of the Day Zero civilizational reboot."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1182199849"
-      ],
-      "pitch": "An edge-AI clinical triage assistant running locally on low-power hardware that guides untrained survivors through trauma assessment, wound care, and triage categorization using computer vision and symptom trees.",
-      "stack": [
-        "Python",
-        "TensorFlow Lite",
-        "FastAPI",
-        "React"
-      ],
-      "title": "MedTriage AI: Offline First-Responder Diagnostics",
-      "track": "healthcare",
-      "why_it_could_win": "Builds on proven medical simulation win patterns while strictly pivoting to offline post-collapse healthcare scenarios."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:672563514"
-      ],
-      "pitch": "A localized database and companion recommendation engine matching soil pH and micro-climates with optimal heirloom seed rotation schedules to prevent agricultural failure in a restarted society.",
+      "pitch": "An offline-first agricultural resource and seed-banking ledger designed for low-power tablets, tracking crop rotation cycles, soil nitrogen levels, and heirloom seed viability to prevent agricultural failure in a reset society.",
       "stack": [
         "TypeScript",
-        "Node.js",
+        "React",
         "SQLite",
-        "React"
+        "TailwindCSS"
       ],
-      "title": "SeedVault: Heirloom Crop & Soil Regeneration Ledger",
-      "track": "education",
-      "why_it_could_win": "Solves the fundamental food security and education challenges required to restart civilization from scratch."
+      "title": "VerdantOS",
+      "track": "sustainable engineering",
+      "why_it_could_win": "Follows the winning pattern of clear, measurable impact by addressing food security and sustainability, a core pillar of civilizational resilience."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1182199849",
-        "github:855192292"
+        "github:1234067949"
       ],
-      "pitch": "A computer vision mobile web tool that analyzes colorimetric test strips dipped in water sources to instantly detect heavy metals and biological pathogens without laboratory equipment.",
+      "pitch": "A micro-grid energy distribution dashboard that monitors and dynamically throttles power allocation from localized solar arrays and kinetic generators to critical community assets like water purification pumps and field hospitals.",
       "stack": [
+        "Python",
+        "FastAPI",
         "TypeScript",
-        "OpenCV.js",
-        "React",
-        "TailwindCSS"
+        "React"
       ],
-      "title": "AquaFilter: Low-Tech Contaminant Vision Scanner",
+      "title": "SolisGrid",
+      "track": "energy",
+      "why_it_could_win": "Appeals to the long-term scalability criterion by providing an indispensable infrastructure management tool for early-stage post-collapse settlements."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A quantized, locally-hosted medical triage assistant operating entirely on offline edge hardware, translating basic symptom descriptions into standardized first-aid protocols and herbal remedy preparation guides when pharmaceutical supplies run dry.",
+      "stack": [
+        "Python",
+        "LlamaIndex",
+        "Ollama",
+        "Streamlit"
+      ],
+      "title": "ReviveMed AI",
+      "track": "healthcare",
+      "why_it_could_win": "Directly mirrors successful health-awareness applications while satisfying the hackathon's requirement for engineering solutions that function in zero-connectivity apocalypse scenarios."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1234067949",
+        "github:1143576965"
+      ],
+      "pitch": "An automated turbidity and heavy-metal sensor suite built on low-cost microcontrollers that tests raw collected rainwater and river sources, displaying clear green-light or red-light safety indicators for community water consumption.",
+      "stack": [
+        "C++",
+        "Node.js",
+        "Express",
+        "Chart.js"
+      ],
+      "title": "AquaFilter IoT",
       "track": "infrastructure",
-      "why_it_could_win": "Combines practical engineering with immediate health infrastructure needs for survivalist communities."
+      "why_it_could_win": "Features a working IoT demo that measures critical health and survival metrics, matching the winning formula of concrete real-world utility."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

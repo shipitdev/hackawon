@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:34:06.390269+05:30",
+  "generated_at": "2026-09-13T07:54:09.243268+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,83 +14,85 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
-        "github:1181344931"
+        "github:1185920891"
       ],
-      "pitch": "An AI-powered agricultural credit scoring and micro-loan risk assessment platform for rural banks, combining satellite land compliance monitoring and crop yield forecasting.",
+      "pitch": "Blockchain and AI-powered agricultural supply chain verification platform tracking crop provenance, fair pricing, and cold-chain integrity for rural farmers.",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Gemini API"
+        "Solidity",
+        "Python"
       ],
-      "title": "KisaanCredit-AI",
+      "title": "AgriChain-IoT",
       "track": "Agriculture & Sustainable Development",
-      "why_it_could_win": "Directly targets the Agriculture & Sustainable Development track while leveraging proven satellite monitoring and risk detection architectures from recent hackathon winners."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust engine specifically built for local dental and wellness clinics to automate patient onboarding and treatment education.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "MedTrust-Prostho",
-      "track": "Healthcare & Wellness Tech",
-      "why_it_could_win": "Fits neatly into the Healthcare & Wellness Tech track and replicates the exact winning formula of a rapid patient acquisition engine from similar 12-to-24 hour sprints."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-driven smart learning and adaptive assessment system that converts traditional lecture recordings into localized, interactive revision modules and predictive grade risk profiles.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Jupyter Notebook"
-      ],
-      "title": "EduScribe-Analytics",
-      "track": "EdTech & Smart Learning Systems",
-      "why_it_could_win": "Directly serves the EdTech & Smart Learning Systems track by addressing the immediate academic pain points faced by students and educators in institutional settings."
+      "why_it_could_win": "Directly targets the Agriculture & Sustainable Development track with a high-impact, practical supply chain solution that appeals to entrepreneurship-focused judges."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "An automated supply chain financing and crop invoice factoring platform featuring decentralized escrow payments for local farmers and agricultural co-operatives.",
+      "pitch": "Healthcare insurance fraud detection and claim risk scoring engine combining graph intelligence and explainable machine learning.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "Python",
+        "TypeScript",
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "AgriChain-Escrow",
-      "track": "FinTech & Business Solutions",
-      "why_it_could_win": "Cross-applies secure financial escrow architectures to the Agriculture track, creating high economic clarity and measurable local impact."
+      "title": "MediGraph-AML",
+      "track": "Healthcare & Wellness Tech",
+      "why_it_could_win": "Applies a proven hackathon-winning architecture from financial AML to the Healthcare & Wellness Tech track, offering high technical depth."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent personalized learning platform using RAG and LangGraph to automatically generate custom remediation paths and quizzes for struggling students.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "EdAdapt-Agent",
+      "track": "EdTech & Smart Learning Systems",
+      "why_it_could_win": "Fits the EdTech & Smart Learning Systems track by leveraging modern multi-agent architectures that heavily impress academic and industry judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Smart automation dashboard for predictive maintenance of campus or industrial power infrastructure using anomaly detection and Poisson regression forecasting.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "TypeScript",
+        "FastAPI"
+      ],
+      "title": "GridSmart-Automate",
+      "track": "Smart Automation & Web Development",
+      "why_it_could_win": "Tackles the Smart Automation & Web Development track with rigorous statistical modeling and real-world utility for institutional infrastructure."
     },
     {
       "build_hours": 34,
       "inspired_by": [
-        "github:1087704265"
+        "github:1183964401"
       ],
-      "pitch": "A smart campus resource and energy automation platform that uses IoT telemetry data and predictive modeling to optimize power consumption and facility management across university buildings.",
+      "pitch": "Alternative credit scoring and micro-loan risk assessment engine for local entrepreneurs and small businesses using multi-source digital footprint analysis.",
       "stack": [
         "Python",
         "TypeScript",
-        "MQTT"
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "CampusSync-Automation",
-      "track": "Smart Automation & Web Development",
-      "why_it_could_win": "Addresses the Smart Automation & Web Development track with a physical infrastructure angle that campus judges can immediately relate to and verify."
+      "title": "MicroCred-AI",
+      "track": "FinTech & Business Solutions",
+      "why_it_could_win": "Aligns with the FinTech & Business Solutions track and the organizing E-Cell's focus on entrepreneurship, startups, and practical financial inclusion."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

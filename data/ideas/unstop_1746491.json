@@ -1,88 +1,86 @@
 {
-  "generated_at": "2026-09-12T10:35:36.439114+05:30",
+  "generated_at": "2026-09-13T07:55:39.426267+00:00",
   "grounding": {
     "domains": [
-      "devtools",
-      "data"
+      "devtools"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1746491",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 36,
       "inspired_by": [],
-      "pitch": "An interactive web app tailored for students to visualize complex Java memory models, JVM garbage collection cycles, and step-by-step execution trees for tricky DSA problems like longest subarray with equal zeros and ones.",
+      "pitch": "An interactive web-based sandbox for practicing company-style Online Assessments, featuring real-time evaluation of DSA problems like Longest Subarray With Equal 0s and 1s alongside automated DBMS and Computer Networks MCQs.",
       "stack": [
         "Java",
         "Spring Boot",
         "React",
-        "Vis.js"
+        "H2 Database"
       ],
-      "title": "JavaOA-Visualizer",
+      "title": "JavaOA-Simulator",
       "track": "",
-      "why_it_could_win": "Directly targets the core domains of the assessment—Java concepts, technical fundamentals, and algorithm execution—making it instantly relevant to the evaluators."
-    },
-    {
-      "build_hours": 15,
-      "inspired_by": [],
-      "pitch": "A benchmarking utility specifically written in core Java to profile performance trade-offs between different algorithmic approaches for interval and array-based DSA problems.",
-      "stack": [
-        "Java",
-        "JMH",
-        "Maven"
-      ],
-      "title": "AlgoBench-Java",
-      "track": "",
-      "why_it_could_win": "Aligns tightly with the technical assessment focus on data structures, algorithms, and fundamental Java programming mechanics."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "A specialized quiz and concept-mapping tool designed to drill students on DBMS normalization and Computer Networks protocols in preparation for technical OAs.",
-      "stack": [
-        "Java",
-        "JavaFX",
-        "SQLite"
-      ],
-      "title": "DBMS-Network-FlashCards",
-      "track": "",
-      "why_it_could_win": "Addresses the exact technical MCQ sections of the assessment, offering immediate practical utility for anyone studying for the exam format."
+      "why_it_could_win": "Directly targets the core focus of the assessment format by providing a rigorous platform for practicing the exact types of DSA coding questions and technical MCQs evaluated in the exam."
     },
     {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A timed online assessment simulator featuring automated test case execution for array manipulation and sliding window problems under strict time constraints.",
+      "pitch": "A Java-backed visualization tool specifically designed to step through array and sliding window algorithms, such as finding minimum platforms and equal 0/1 subarrays, to aid conceptual mastery.",
       "stack": [
         "Java",
-        "Docker",
-        "PostgreSQL"
+        "JavaFX",
+        "Algorithms"
       ],
-      "title": "OAMock-Simulator",
+      "title": "DSA-Pattern-Visualizer",
       "track": "",
-      "why_it_could_win": "Mimics the exact online assessment environment and constraints that the event itself is evaluating participants on."
+      "why_it_could_win": "Solves a core technical fundamental measured in the assessment by offering deep visualization into complex algorithmic state changes."
     },
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A lightweight static analysis tool written in Java that scans legacy codebases to identify and refactor anti-patterns related to core Java memory management and concurrency.",
+      "pitch": "A robust command-line and web quiz engine targeting core Java concepts, multithreading, and memory management with instant performance analytics and conceptual breakdowns.",
       "stack": [
         "Java",
-        "JavaParser",
-        "JUnit"
+        "JUnit",
+        "Maven"
       ],
-      "title": "JavaCore-RefactorBot",
+      "title": "CoreJava-QuizEngine",
       "track": "",
-      "why_it_could_win": "Demonstrates deep mastery of advanced Java programming concepts, directly scoring high against the technical criteria of the evaluation."
+      "why_it_could_win": "Directly addresses the high weightage of Java Programming MCQs in the assessment syllabus by reinforcing tricky core language concepts."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A spaced-repetition and dynamic testing platform focusing strictly on DBMS fundamentals and Computer Networks protocols to help students clear technical screening rounds.",
+      "stack": [
+        "Java",
+        "PostgreSQL",
+        "Spring"
+      ],
+      "title": "Network-DB-Flashcards",
+      "track": "",
+      "why_it_could_win": "Covers the technical MCQ domain requirements of the online assessment with targeted question banks and immediate feedback loops."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An individual performance analytics tracker that simulates online assessment constraints, timing, and negative marking patterns for Java developers preparing for technical evaluations.",
+      "stack": [
+        "Java",
+        "SQLite",
+        "Thymeleaf"
+      ],
+      "title": "OA-Performance-Tracker",
+      "track": "",
+      "why_it_could_win": "Aligns with the rigorous time management constraints and individual competition format required by company-style online assessments."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

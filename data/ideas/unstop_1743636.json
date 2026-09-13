@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:33:03.607218+05:30",
+  "generated_at": "2026-09-13T07:53:02.201502+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,9 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,85 +17,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router that uses Moss to instantly classify incoming user utterances and dispatch them to specialized sub-agents without vector database latency overhead.",
-      "stack": [
-        "Python",
-        "Moss",
-        "FastAPI",
-        "LLM"
-      ],
-      "title": "MossRouter: Sub-10ms Semantic Intent Router for Multi-Agent Systems",
-      "track": "",
-      "why_it_could_win": "Directly showcases Moss's core value proposition of sub-10ms semantic search, which judges are specifically looking for in this zero-latency sprint."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1163393786"
       ],
-      "pitch": "An edge-deployable voice agent middleware that uses Moss to instantly retrieve conversation history and facts within 10ms, allowing seamless human interruptions without awkward silence.",
+      "pitch": "A real-time voice agent assistant built on Moss that instantly detects user interruptions using ultra-fast semantic context retrieval without vector database bottlenecks.",
       "stack": [
         "Python",
         "Moss",
         "WebSockets",
-        "ElevenLabs"
+        "ElevenLabs",
+        "FastAPI"
       ],
-      "title": "VoiceGaurd: Real-Time Interruption & Context Injection for Voice Agents",
+      "title": "Sub-10ms Voice Interruption Engine",
+      "track": "Real-Time Voice",
+      "why_it_could_win": "Directly leverages the core sponsor technology (Moss) and targets the low-latency voice requirement highlighted in the hackathon prompt, making it immediately relevant to judges looking for zero-latency AI."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1296916648"
+      ],
+      "pitch": "An offline-capable semantic router powered by Moss that intercepts developer code generation to enforce security policies in under 10ms.",
+      "stack": [
+        "Python",
+        "Moss",
+        "TypeScript",
+        "Tree-sitter",
+        "Qwen"
+      ],
+      "title": "Instant Codebase Compliance Router",
       "track": "",
-      "why_it_could_win": "Targets the real-time voice and low-latency agent focus mentioned prominently in the hackathon brief, making the product feel magically fast."
+      "why_it_could_win": "Combines high-performance engineering with developer tooling, leveraging the sub-10ms retrieval capability of Moss to solve a hard runtime latency problem."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol (MCP) compatible server backed by Moss that injects relevant patient history into real-time medical transcription agents in under 10ms.",
+      "stack": [
+        "Python",
+        "Moss",
+        "MCP SDK",
+        "FastAPI"
+      ],
+      "title": "Zero-Lag Clinical Context Injector",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining MCP architecture with zero-latency retrieval, addressing a critical need for real-time safety in medical AI."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1351321536",
-        "github:1296916648"
+        "github:1351321536"
       ],
-      "pitch": "A local coding assistant extension that leverages Moss to perform instant semantic codebase search in the browser or on-device, providing zero-latency snippet retrieval for real-time code completion.",
+      "pitch": "A browser-based agent memory layer utilizing Moss to fetch relevant long-term agent context locally on device without hitting external vector databases.",
       "stack": [
         "TypeScript",
         "Moss",
-        "Cursor API"
+        "WASM",
+        "LangChain"
       ],
-      "title": "InstantDoc: Sub-10ms Context Injection for Local IDE Copilots",
+      "title": "Edge-Cached Semantic Memory for Agents",
       "track": "",
-      "why_it_could_win": "Solves a developer pain point by eliminating the massive retrieval lag typical in standard RAG-based IDE extensions."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1282252864",
-        "github:1329458499"
-      ],
-      "pitch": "An inline proxy that uses Moss to compare outgoing AI agent tool calls against a database of safety exemplars in under 10ms, blocking dangerous actions before execution.",
-      "stack": [
-        "Python",
-        "Moss",
-        "OpenAI API"
-      ],
-      "title": "MossGuard: Real-Time Hallucination & Policy Gate for AI Actions",
-      "track": "",
-      "why_it_could_win": "Combines hard systems engineering with rigorous safety checks, matching the pattern of winning entries that solve complex runtime constraints."
+      "why_it_could_win": "Exploits Moss's ability to run anywhere (browser/edge/device) to achieve true zero-latency client-side AI agent execution."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1214808895",
-        "github:1274911437"
+        "github:1334000568"
       ],
-      "pitch": "An inference-time compute optimizer that uses Moss to instantly select the top 3 most relevant few-shot examples for an LLM prompt within 10ms, maximizing output quality while minimizing token waste.",
+      "pitch": "A pre-flight evaluation proxy that uses Moss exemplar indexing to catch prompt injections and policy violations in under 10ms before requests hit large language models.",
       "stack": [
         "Python",
         "Moss",
-        "Litellm"
+        "Redis",
+        "FastAPI"
       ],
-      "title": "FlashRecall: Zero-Latency Dynamic Few-Shot Exemplar Selector",
+      "title": "Real-Time Prompt Firewall & Guardrail",
       "track": "",
-      "why_it_could_win": "Applies Moss's ultra-fast retrieval to the cutting-edge domain of inference-time compute and efficient prompt optimization."
+      "why_it_could_win": "Solves an urgent production AI problem with measurable performance metrics, fitting the hackathon's core challenge of making latency a competitive advantage."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

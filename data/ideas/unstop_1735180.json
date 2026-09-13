@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:30:29.141105+05:30",
+  "generated_at": "2026-09-13T07:50:42.574376+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -18,87 +17,88 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A Poisson regression and generalized additive model platform designed to forecast AI failure incidents and safety breaches using historical dataset patterns with calibrated prediction intervals.",
+      "pitch": "A predictive risk dashboard using Poisson GAM and calibrated prediction intervals to forecast upcoming regulatory AI compliance failures and safety incidents based on organizational codebase changes.",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "FastAPI",
-        "Scikit-learn"
+        "React",
+        "Scikit-Learn"
       ],
-      "title": "PredictAI: National AI Incident & Risk Forecasting Engine",
+      "title": "AI Incident Forecaster for Enterprise Compliance",
       "track": "",
-      "why_it_could_win": "It mirrors a proven winning pattern from the Apart Research AI Forecasting Hackathon by focusing heavily on AI governance and risk modeling, which directly satisfies the AI-focused problem statements of a national-level AI hackathon."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing advanced statistical modeling and regression techniques rather than just a basic wrapper API, directly matching the winning formula of previous safety hackathon champions."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered anti-money laundering risk detection platform that combines graph intelligence and explainable machine learning to uncover illicit transaction rings.",
+      "pitch": "An AI-driven platform that combines graph intelligence networks with Focal LightGBM classifiers to detect complex financial money laundering rings and generate automated explainable investigation reports.",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "NetworkX",
-        "AWS Lambda"
+        "Neo4j",
+        "Next.js"
       ],
-      "title": "GraphGuard AML: AI-Powered Financial Crime Investigation",
+      "title": "Graph-Powered AML and Risk Detection Platform",
       "track": "",
-      "why_it_could_win": "By tackling complex financial anomaly detection and leveraging explainable AI, it targets the high technical bar judges look for in rigorous software engineering competitions."
+      "why_it_could_win": "Targeted directly at high-value software evaluation criteria by solving a computationally difficult problem involving graph traversal and machine learning interpretability."
     },
     {
-      "build_hours": 36,
+      "build_hours": 38,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform that automatically detects illegal land encroachments and industrial environmental compliance violations.",
+      "pitch": "An automated satellite imagery analysis tool that processes periodic geospatial data to monitor industrial land use compliance, detecting unauthorized expansions and environmental violations in real-time.",
       "stack": [
         "TypeScript",
         "Python",
         "OpenCV",
-        "Next.js",
-        "PyTorch"
+        "PyTorch",
+        "PostGIS"
       ],
-      "title": "GeoMonitor AI: Satellite-Based Industrial Land Compliance",
+      "title": "Satellite Industrial Land Compliance Monitor",
       "track": "",
-      "why_it_could_win": "It targets real-world national infrastructural monitoring challenges, matching the judging criteria of state and national-level public sector AI hackathons."
+      "why_it_could_win": "Leverages specialized computer vision and spatial data processing which immediately stands out among standard text-based LLM submissions at AI-focused hackathons."
     },
     {
-      "build_hours": 28,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1185920891"
       ],
-      "pitch": "An AI-driven wellness platform that delivers personalized meal recommendations, dynamic dietary tracking, and clinical nutritional insights tailored for regional Indian diets.",
+      "pitch": "A decentralized marketplace where specialized autonomous AI agents can be hired, orchestrated to perform complex software engineering tasks, and securely compensated via automated escrow contracts.",
       "stack": [
-        "Python",
-        "FastAPI",
+        "JavaScript",
+        "LangChain",
         "Next.js",
-        "Gemini API"
+        "Solidity",
+        "Node.js"
       ],
-      "title": "NutriPlan AI: Personalized Clinical Nutrition Assistant",
+      "title": "Autonomous AI Agent Workflow Marketplace",
       "track": "",
-      "why_it_could_win": "It capitalizes on the winning formula from health-tech sprints by offering a polished, consumer-facing utility with practical AI integration."
+      "why_it_could_win": "Combines cutting-edge multi-agent orchestration frameworks with reliable transaction mechanics, hitting the sweet spot for judging panels looking for end-to-end production-ready utility."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "An AI-powered video analysis platform that ingests unstructured video streams and transforms them into fully searchable, queryable knowledge bases using multimodal LLMs.",
+      "pitch": "A video intelligence platform that ingests unstructured long-form video lectures or meetings, indexes visual and audio frames using multimodal embeddings, and provides a semantic query engine with precise timestamp citations.",
       "stack": [
-        "Python",
         "HTML",
-        "TailwindCSS",
-        "OpenAI API",
-        "PostgreSQL"
+        "Python",
+        "FastAPI",
+        "Pinecone",
+        "Gemini API"
       ],
-      "title": "VideoIntell: Unstructured Video Intelligence Platform",
+      "title": "Multimodal Video Intelligence and Search Engine",
       "track": "",
-      "why_it_could_win": "It appeals directly to judges looking for scalable data processing tools that solve common enterprise productivity bottlenecks."
+      "why_it_could_win": "Solves a tangible enterprise pain point of unstructured data overload with a polished, highly demoable user interface that secures high marks in practicality and execution."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

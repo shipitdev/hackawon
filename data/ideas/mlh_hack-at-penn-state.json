@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:23:58.231310+05:30",
+  "generated_at": "2026-09-13T07:44:17.862992+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,89 +14,86 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1194555365",
-        "github:1155558847"
+        "github:1087704265",
+        "github:1213911408"
       ],
-      "pitch": "A localized transportation and safety coordination platform for Penn State students navigating off-campus housing and late-night study sessions, optimizing campus loop and walking routes using real-time density metrics.",
+      "pitch": "A localized forecasting tool that uses historical campus utility data and Poisson regression to predict peak energy demand spikes across University Park buildings, helping facilities management optimize consumption.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Leaflet",
-        "TailwindCSS"
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "FastAPI"
       ],
-      "title": "StateCollab Campus Transit & Safety Planner",
+      "title": "PennState Campus Carbon & Energy Grid Forecaster",
       "track": "",
-      "why_it_could_win": "Targets a problem the judges feel themselves by solving the exact campus safety and transportation hurdles faced daily by students at University Park."
+      "why_it_could_win": "Leverages the proven winning pattern of rigorous predictive modeling and time-series forecasting seen in top AI forecasting hackathons, appealing directly to sustainability-focused judges."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "An edge-computed proctoring and study session analysis tool that evaluates study habits and provides local privacy-first feedback without cloud telemetry leaks.",
+      "pitch": "An AI-powered satellite and aerial image analysis dashboard designed to monitor campus construction and environmental compliance around the Pennsylvania region, providing automated zoning alerts.",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "Jupyter Notebook",
-        "OpenCV",
-        "FastAPI"
+        "OpenCV"
       ],
-      "title": "Nittany AI Academic Integrity & Proctoring Monitor",
+      "title": "Nittany AI Health Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Aligns directly with institutional themes around academic AI governance and safety that academic evaluators at University Park prioritize."
+      "why_it_could_win": "Follows the exact blueprint of spatial intelligence and satellite monitoring projects that excel at regional engineering competitions."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1241231621",
-        "github:1181344931"
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered platform connecting State College small businesses with student consumer co-ops to streamline local inventory purchasing and student discounts.",
+      "pitch": "An AI-driven platform for downtown State College small businesses to automate trust-building reviews, client acquisition funnels, and personalized local marketing campaigns.",
       "stack": [
         "TypeScript",
-        "React",
-        "Node.js",
-        "PostgreSQL"
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "HappyValley Local Merchant Matcher",
+      "title": "StateCollege Local Vendor Trust & Acquisition Engine",
       "track": "",
-      "why_it_could_win": "Delivers clear measurable impact with concrete economic benefits for local businesses around the campus corridor."
+      "why_it_could_win": "Addresses a concrete local economic pain point with a polished UI and rapid AI pipeline, mirroring winning fast-sprint patient and business acquisition engines."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1155558847",
         "github:1275874285"
       ],
-      "pitch": "An automated campus resource usage dashboard that aggregates dining hall food waste metrics and dorm energy draw to gamify sustainability efforts across residence halls.",
+      "pitch": "A personalized wellness and nutrition platform tailored specifically to Penn State dining hall menus, delivering automated real-time dietary insights and custom meal plans for student athletes.",
       "stack": [
-        "TypeScript",
-        "Chart.js",
-        "Next.js",
-        "Python"
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
       ],
-      "title": "PennState Sustainability Carbon Footprint Tracker",
+      "title": "Happy Valley Student Nutrition & Dining Assistant",
       "track": "",
-      "why_it_could_win": "Taps into strong university sustainability goals, giving judges a quantifiable metric for environmental impact."
+      "why_it_could_win": "Combines hyper-localized data ingestion with consumer-friendly wellness features, directly replicating the success of nutrition assistant winners."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1194555365",
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An automated matching service that pairs Penn State alumni working in tech and finance with current students for rapid resume reviews and mock interviews based on calendar availability.",
+      "pitch": "A multi-agent routing system using LangGraph and RAG specifically customized for academic advising, course registration troubleshooting, and mental health resource navigation at Penn State.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Prisma",
-        "OpenAI API"
+        "Python",
+        "LangGraph",
+        "ChromaDB"
       ],
-      "title": "Alumni Network Mentorship Dispatcher",
+      "title": "PennState Student Multi-Agent Support Network",
       "track": "",
-      "why_it_could_win": "Solves a real pain point that student judges and career-focused attendees experience firsthand during recruiting season."
+      "why_it_could_win": "Utilizes complex multi-agent orchestration and retrieval architectures that consistently score high among technical judges looking for hard engineering implementation."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

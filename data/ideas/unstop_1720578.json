@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:29:30.964744+05:30",
+  "generated_at": "2026-09-13T07:49:48.791871+00:00",
   "grounding": {
     "domains": [
-      "hardware",
-      "ai-ml"
+      "ai-ml",
+      "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "working-demo",
       "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -17,88 +17,85 @@
   "hackathon_uid": "unstop:1720578",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1284625256"
+        "github:1340275018"
       ],
-      "pitch": "A localized defense-tech edge node using ESP32 and Arduino to detect, classify, and track unauthorized drone signatures locally without cloud dependency, running lightweight deterministic engagement gates.",
+      "pitch": "A real-time worker safety compliance system running computer vision locally on a Raspberry Pi with a connected camera to detect missing hardhats and vests without sending video streams to the cloud.",
       "stack": [
-        "C++",
-        "Arduino",
-        "ESP32",
-        "OpenCV"
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
       ],
-      "title": "EdgeDefender: Jam-Resilient Autonomous Counter-UAS Node",
-      "track": "ESP32 / Arduino",
-      "why_it_could_win": "Directly addresses the Defence and Security problem domain with a physical hardware prototype, leveraging the Aegis-Edge pattern of jam-resilient edge security."
+      "title": "EdgeGuard Industrial Safety Monitor",
+      "track": "Raspberry Pi / Renesas Kit",
+      "why_it_could_win": "Directly targets the image and signal processing domain and industrial safety requirements while demonstrating a live on-site hardware demo, following the pattern of the hackathon-winning industrial safety detection system."
     },
     {
-      "build_hours": 30,
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated waste segregation prototype utilizing an ESP32 microcontroller, a TCS3200 color sensor, and a servo-driven trapdoor to sort dry and wet waste at the point of disposal.",
+      "stack": [
+        "C++",
+        "Arduino IDE",
+        "ESP32",
+        "Servo Motors"
+      ],
+      "title": "EcoSort Smart Bin",
+      "track": "ESP32 / Arduino",
+      "why_it_could_win": "Aligns with the ESP32/Arduino track and features a physical, interactive hardware prototype that guarantees a reliable live demonstration for judges."
+    },
+    {
+      "build_hours": 32,
       "inspired_by": [
         "github:1140260754"
       ],
-      "pitch": "An embedded biomedical system built on Raspberry Pi that performs real-time edge anomaly detection on patient vitals, triggering local haptic alerts without relying on unstable hospital Wi-Fi.",
+      "pitch": "A wearable biomedical monitoring prototype built on an ESP32 that measures heart rate and SpO2 via a MAX30102 sensor, performing local threshold anomaly detection and triggering local buzzer alarms during critical drops.",
       "stack": [
-        "Python",
-        "Raspberry Pi",
-        "TensorFlow Lite",
-        "C++"
+        "C++",
+        "ESP32",
+        "MAX30102 Sensor",
+        "FreeRTOS"
       ],
-      "title": "BioEdge: Real-Time Post-Operative Vitals Monitor",
-      "track": "Raspberry Pi / Renesas Kit",
-      "why_it_could_win": "Fits the Biomedical Engineering domain while implementing the hard-engineering edge-computing telemetry pattern proven in HardHack winners."
+      "title": "PulseGuard Edge Telemetry Unit",
+      "track": "ESP32 / Arduino",
+      "why_it_could_win": "Matches the Biomedical Engineering problem domain and showcases real-time edge computing for patient telemetry, mirroring winning embedded healthcare concepts."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1234067949"
-      ],
-      "pitch": "A hardware-accelerated water quality monitoring unit using an FPGA platform to process multi-sensor telemetry streams and predict contamination risks locally at the water source.",
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A hardware-implemented finite impulse response (FIR) filter on an FPGA development board to clean up noisy real-time analog signals from environmental sensors instantly.",
       "stack": [
         "Verilog",
         "VHDL",
-        "FPGA",
-        "C++"
+        "Xilinx Vivado",
+        "FPGA Board"
       ],
-      "title": "AquaSense FPGA: Real-Time Algal Bloom Predictor",
+      "title": "FPGA-Accelerated FIR Filter for Sensor Noise",
       "track": "FPGA",
-      "why_it_could_win": "Targets the FPGA track specifically, offering high-performance parallel data processing that wins hardware evaluation rounds."
+      "why_it_could_win": "Targets the FPGA track and the Processor Design / Image and Signal Processing problem domains by showcasing low-level, high-performance hardware description language implementation."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1339682542"
+        "github:1141364034"
       ],
-      "pitch": "A Renesas/Raspberry Pi powered edge vision system that detects missing PPE (helmets, vests) on workers in real-time through a local camera feed, logging violations offline.",
-      "stack": [
-        "Python",
-        "OpenCV",
-        "Raspberry Pi",
-        "YOLOv8-Nano"
-      ],
-      "title": "SafeSite: Edge AI Industrial Safety Compliance Node",
-      "track": "Raspberry Pi / Renesas Kit",
-      "why_it_could_win": "Directly matches the winning industrial safety detection system pattern with a working physical edge-vision live demo."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1010199928",
-        "github:1259981732"
-      ],
-      "pitch": "An ESP32-driven autonomous rover navigating agricultural rows to capture leaf multispectral images and perform immediate disease classification on the edge.",
+      "pitch": "An ESP32-based logistics tracker featuring a conductive ink continuity loop that detects physical seal breakage and immediately alerts local wireless receivers.",
       "stack": [
         "C++",
         "ESP32",
-        "Arduino",
-        "MicroPython"
+        "Analog Sensors",
+        "MQTT"
       ],
-      "title": "AgriRover: Autonomous Crop Health Inspector",
+      "title": "ChainVerify Tamper-Evident Cargo Tag",
       "track": "ESP32 / Arduino",
-      "why_it_could_win": "Combines unusual physical hardware building with computer vision, matching the award-winning Rover and garbage classifier patterns."
+      "why_it_could_win": "Addresses Defence and Security problem domains using cheap edge microcontrollers to detect physical tampering, following the prize-winning anti-counterfeiting hardware logistics pattern."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

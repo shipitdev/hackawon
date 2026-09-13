@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:40:30.071004+05:30",
+  "generated_at": "2026-09-13T08:00:27.940925+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,9 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -20,81 +19,83 @@
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A hybrid quantum-classical Variational Quantum Eigensolver using Qiskit to optimize large-scale financial portfolios under market volatility constraints.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "NumPy",
-        "Matplotlib"
-      ],
-      "title": "VQE-PortfolioOptimizer",
-      "track": "Quantum Computing Track",
-      "why_it_could_win": "Directly targets the core requirement of building with Qiskit and applying quantum computing to a real-world enterprise problem."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "Solving complex logistics routing problems by mapping spatial delivery networks to QAOA (Quantum Approximate Optimization Algorithm) circuits using Qiskit.",
+      "pitch": "A hybrid quantum-classical Variational Quantum Eigensolver (VQE) built using Qiskit to optimize chip layout wire routing, reducing wirelength intersections significantly compared to greedy classical heuristics.",
       "stack": [
         "Python",
         "Qiskit",
         "NetworkX",
-        "SciPy"
+        "NumPy"
       ],
-      "title": "QuantumGraphMaxCut",
-      "track": "Real-World Problem Solving",
-      "why_it_could_win": "Combines a heavily relevant algorithmic framework with tangible logistics applications that judges immediately understand."
+      "title": "VQE-Router: Quantum-Accelerated VLSI Routing",
+      "track": "",
+      "why_it_could_win": "Directly applies Qiskit to a famously intractable real-world NP-hard problem in hardware design, matching the event's core focus on real-world problem solving."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A financial portfolio risk assessment tool using Qiskit's Quantum Amplitude Estimation (QAE) algorithm to achieve quadratic speedup in estimating Value at Risk (VaR) over classical Monte Carlo simulations.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "title": "Q-Portfolio: Quantum Amplitude Estimation for Risk Management",
+      "track": "",
+      "why_it_could_win": "Leverages genuine quantum algorithmic advantages for high-value financial computations, which instantly appeals to judges looking for true quantum utility rather than gimmicks."
     },
     {
       "build_hours": 40,
-      "inspired_by": [],
-      "pitch": "A lightweight quantum chemistry simulation tool built on Qiskit Nature to estimate ground-state energy for simple drug-like molecular structures.",
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Qiskit-powered application that computes the ground state energy of small drug-like molecules using the Unitary Coupled-Cluster ansatz and VQE, targeting early-stage pharmaceutical lead validation.",
       "stack": [
         "Python",
         "Qiskit",
         "Qiskit Nature",
         "PySCF"
       ],
-      "title": "EntangledMoleculeSim",
-      "track": "Quantum Innovation",
-      "why_it_could_win": "Demonstrates domain expertise in quantum simulation, which remains one of the primary near-term value propositions highlighted by quantum judges."
+      "title": "Quantum Molecular Ground State Solver for Drug Discovery",
+      "track": "",
+      "why_it_could_win": "Tackles a domain where quantum computing is predicted to achieve early commercial supremacy, making the abstract and demo video immediately compelling to scientific judges."
     },
     {
-      "build_hours": 28,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1274911437"
+        "github:1296916648"
       ],
-      "pitch": "An educational visualization and runtime middleware suite that applies noise models and zero-noise extrapolation to noisy Qiskit quantum circuits.",
+      "pitch": "A smart grid energy distribution optimizer implementing the Quantum Approximate Optimization Algorithm (QAOA) via Qiskit to minimize power transmission losses across microgrid nodes.",
       "stack": [
         "Python",
         "Qiskit",
-        "Streamlit",
-        "Pandas"
+        "SciPy",
+        "Streamlit"
       ],
-      "title": "QuantumErrorMitigator",
-      "track": "Implementation and Demo",
-      "why_it_could_win": "Addresses hardware limitations directly, showcasing deep technical competence in dealing with Noisy Intermediate-Scale Quantum systems."
+      "title": "QAOA Smart Grid Load Balancer",
+      "track": "",
+      "why_it_could_win": "Solves a critical infrastructure problem using combinatorial optimization, demonstrating clear real-world applicability as mandated by the event guidelines."
     },
     {
-      "build_hours": 42,
+      "build_hours": 35,
       "inspired_by": [
-        "github:1334000568"
+        "github:1282252864"
       ],
-      "pitch": "A quantum-classical hybrid neural network utilizing parameterized quantum circuits via Qiskit Machine Learning for high-dimensional anomaly detection.",
+      "pitch": "A Qiskit implementation of adiabatic quantum simulation principles to dynamically route urban traffic signals and alleviate congestion bottlenecks during peak rush hours.",
       "stack": [
         "Python",
         "Qiskit",
-        "Qiskit Machine Learning",
-        "PyTorch"
+        "OpenStreetMap API",
+        "Folium"
       ],
-      "title": "QML-FraudClassifier",
-      "track": "Real-World Problem Solving",
-      "why_it_could_win": "Bridges the gap between trending machine learning paradigms and quantum computing architectures, satisfying both technical difficulty and real-world relevance."
+      "title": "Q-Traffic: Quantum Annealing-Inspired Traffic Flow Flow Optimizer",
+      "track": "",
+      "why_it_could_win": "Combines a universally relatable urban pain point with a sophisticated quantum circuit simulation, ensuring a high-impact demo video and abstract."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

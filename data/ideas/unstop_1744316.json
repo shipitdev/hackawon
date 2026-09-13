@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:33:44.067173+05:30",
+  "generated_at": "2026-09-13T07:53:47.216489+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,80 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered forecasting and early intervention dashboard built specifically for universities like GCET Jammu to predict student burnout spikes during semester exam periods using historical attendance, assignment submission lags, and Poisson regression models.",
+      "pitch": "A multilingual, multi-modal campus compliance and accessibility tracker tailored for colleges, allowing non-CS and commerce students to audit infrastructural and administrative accessibility.",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Streamlit",
-        "Scikit-Learn"
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "CampusCare AI: Student Stress & Academic Workload Forecaster",
+      "title": "InclusiveCampus",
       "track": "",
-      "why_it_could_win": "Targeting a problem the judges feel themselves (student stress and academic dropouts), directly appealing to the faculty and organizers from GCET Jammu."
+      "why_it_could_win": "Targeted at a hackathon that explicitly welcomes non-engineering and arts/humanities backgrounds, appealing to holistic campus inclusivity."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "A hyper-local matching web app that groups nearby college commuters and school students into shared travel groups and peer-tutoring sessions, solving campus commute bottlenecks and fresher orientation hurdles.",
+      "pitch": "An AI-powered peer tutoring and micro-credential matching network designed for high school and first-time hackathon participants to bridge academic silos.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "PostgreSQL"
+        "Python",
+        "Streamlit",
+        "Gemini API"
       ],
-      "title": "StudyCircle Link: Senior-Junior Peer Mentorship & Carpooling Hub",
+      "title": "SkillBridge AI",
       "track": "",
-      "why_it_could_win": "Follows the proven pattern of community-focused logistics and social grouping that won the Vanderbilt Global Good Hackathon."
+      "why_it_could_win": "Addresses the beginner-friendly focus of the hackathon by empowering freshers and school students to find study partners and skill mentors instantly."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered meal planning and waste reduction assistant for college mess committees that predicts daily student turnout, optimizes raw material procurement, and generates balanced nutritional insights for hostel residents.",
+      "pitch": "Regional nutrition tracking and budget-friendly meal planner optimized for local ingredients and campus canteens, built with an intuitive UI for non-technical majors.",
       "stack": [
         "Python",
-        "Flask",
-        "Gemini API",
+        "FastAPI",
         "React"
       ],
-      "title": "MessMate AI: Hostel Mess Waste & Nutrition Optimizer",
+      "title": "NutriLocal Jammu",
       "track": "",
-      "why_it_could_win": "Directly tackles daily operational expenses and nutrition issues familiar to every college student, fresher, and faculty member on campus."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A commerce and trust platform tailored for local artisans, commerce students, and arts & humanities participants to showcase hand-crafted regional products with AI-generated storytelling and verified buyer reviews.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "Supabase"
-      ],
-      "title": "LocalArtisan Trust Engine: Multi-Disciplinary Heritage Marketplace",
-      "track": "",
-      "why_it_could_win": "Welcomes non-engineering participants (Arts, Commerce, BBA) by focusing on business strategy, content generation, and local economic impact."
+      "why_it_could_win": "Follows the winning formula of consumer wellness apps like E-Foodiee, but customized for local student demographics and budget constraints."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An environmental monitoring tool using open-source satellite data to track green cover density, waste accumulation zones, and construction changes across the GCET Jammu campus grounds.",
+      "pitch": "Low-bandwidth agricultural advisory dashboard for rural students and farming families to diagnose crop health issues using simple smartphone photos.",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "FastAPI"
+        "React",
+        "TensorFlow.js"
       ],
-      "title": "CampusCompliance Satellite: GCET Green Campus Monitor",
+      "title": "AgriSathi AI",
       "track": "",
-      "why_it_could_win": "Showcases hard technical execution using geospatial data, replicating the analytical depth seen in winning spatial hackathon projects."
+      "why_it_could_win": "Combines high-impact social utility with a lightweight mobile-first interface suited for 48-hour delivery by multidisciplinary student teams."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Transparent micro-grant tracking and expense management tool for student clubs and inter-college event organizers to manage budgets without complex accounting software.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "FundFlow Lite",
+      "track": "",
+      "why_it_could_win": "Appeals directly to commerce, BBA, and MBA students participating in the hackathon by solving a real administrative pain point in colleges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

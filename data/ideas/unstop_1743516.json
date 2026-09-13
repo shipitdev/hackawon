@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:32:38.383805+05:30",
+  "generated_at": "2026-09-13T07:52:48.481720+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,83 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
         "github:1087704265"
       ],
-      "pitch": "A real-time predictive dashboard using satellite data and localized sensor inputs to forecast urban heat island spikes and air quality degradation across metropolitan areas.",
+      "pitch": "An AI-powered water resource management dashboard utilizing time-series forecasting to predict municipal reservoir stress and drought risk levels for Washington state water authorities.",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "TypeScript",
         "Next.js"
       ],
-      "title": "EcoWatch Washington: Urban Microclimate & Heat Island Forecasting",
-      "track": "Climate Monitoring & Prediction",
-      "why_it_could_win": "Directly matches the Climate Monitoring & Prediction theme while echoing the satellite-monitoring architecture of GeoNex-ATLAS, which won at a technical hackathon."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-driven hydrological forecasting system that models river basin runoff anomalies and simulates contaminant dispersion timelines for municipal water authorities.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "TypeScript",
-        "TailwindCSS"
-      ],
-      "title": "HydroGuard: Automated Watershed Contamination & Flow Predictor",
+      "title": "AquaPredict WS",
       "track": "Water Resource Management",
-      "why_it_could_win": "Directly targets the Water Resource Management theme and uses robust statistical modeling similar to the Apart Research AI Forecasting winner."
+      "why_it_could_win": "Directly targets the Water Resource Management theme of the hackathon with a heavy engineering backend that judges will favor over basic CRUD dashboards."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An intelligent urban mobility platform that analyzes traffic congestion patterns and dynamically recalculates signal timings to minimize municipal carbon footprints.",
+      "pitch": "Satellite imagery analysis platform leveraging computer vision to monitor urban heat islands and unauthorized land clearing in smart city development zones.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "PostGIS"
+        "Leaflet.js",
+        "FastAPI"
       ],
-      "title": "MetroFlow AI: Dynamic Urban Traffic & Carbon Emission Simulator",
-      "track": "Urban Intelligence: Smart and Sustainable",
-      "why_it_could_win": "Addresses the Urban Intelligence: Smart and Sustainable theme with a clear, measurable environmental impact that appeals to academic judges."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous multi-agent system that ingests acoustic and pressure sensor data from city water grids to instantly detect, map, and prioritize pipe leak repairs.",
-      "stack": [
-        "Python",
-        "JavaScript",
-        "LangChain",
-        "React"
-      ],
-      "title": "Aqueduct: Smart Municipal Water Leakage Triangulation Agent",
-      "track": "Water Resource Management",
-      "why_it_could_win": "Combines cutting-edge agent workflows seen in recent hackathon winners with a critical infrastructure problem under Water Resource Management."
+      "title": "EcoSat Urban Watch",
+      "track": "Urban Intelligence: Smart and Sustain",
+      "why_it_could_win": "Aligns with the Urban Intelligence and Climate themes while utilizing complex spatial intelligence similar to runner-up satellite monitoring hackathon projects."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "A computer vision platform utilizing satellite imagery and LiDAR extracts to audit urban canopy health, predict tree mortality, and quantify neighborhood carbon offsets.",
+      "pitch": "A graph intelligence and machine learning platform that traces indirect corporate carbon emissions and supply chain climate risks in real-time.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "CarbonGraph Climate Monitor",
+      "track": "Climate Monitoring & Prediction",
+      "why_it_could_win": "Combines graph intelligence with climate monitoring, borrowing architectural patterns from successful AML graph intelligence platforms."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An automated irrigation and groundwater depletion prediction system that uses multi-agent LLM reasoning to simulate agricultural water consumption under various climate scenarios.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "TypeScript",
+        "Next.js"
+      ],
+      "title": "HydroPulse AI",
+      "track": "Water Resource Management",
+      "why_it_could_win": "Addresses Water Resource Management by combining predictive analytics with multi-agent orchestration, which performs well in hackathons."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "A predictive urban air quality simulator that aggregates IoT sensor feeds to forecast localized pollution spikes and optimize smart traffic signal redirection.",
       "stack": [
         "Python",
         "TypeScript",
         "TensorFlow.js",
-        "Leaflet"
+        "TailwindCSS"
       ],
-      "title": "CanopyIQ: Urban Tree Canopy Carbon Sequestration & Health Tracker",
-      "track": "Climate Monitoring & Prediction",
-      "why_it_could_win": "Blends the Urban Intelligence and Climate Monitoring themes with heavy geographic data visualization, following the proven playbook of spatial analytics winners."
+      "title": "SmartAir Urban Grid",
+      "track": "Urban Intelligence: Smart and Sustain",
+      "why_it_could_win": "Fits the Urban Intelligence track by offering a dual-purpose application that bridges environmental monitoring with smart city infrastructure."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

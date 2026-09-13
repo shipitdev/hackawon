@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:32:03.905939+05:30",
+  "generated_at": "2026-09-13T07:52:25.859696+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -15,74 +13,77 @@
   "ideas": [
     {
       "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "An interactive Python script execution visualizer specifically designed to help Grades 9-12 students step through complex logic puzzles, recursion, and sorting algorithms used in competitive coding.",
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A Python-based competitive programming sandbox optimized for logical reasoning puzzles designed specifically for high school students.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Ast"
+        "FastAPI",
+        "React"
       ],
-      "title": "LogicPython Visualizer for High Schoolers",
+      "title": "LogicalReasoningPathfinder",
       "track": "",
-      "why_it_could_win": "Since the hackathon is organized by St. Jude's Public School for Grades 9-12 with a strong focus on Python and logical reasoning, a tool that directly helps students master competitive programming logic will resonate heavily with the school judges."
+      "why_it_could_win": "Directly targets the core focus of the St. Jude's Code Arena on logical reasoning and Python proficiency for grades 9-12."
     },
     {
       "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A Python-based CLI assistant that takes failing student code snippets in Python, C, C++, or Java, and explains the logical fallacy without giving away the direct solution, fostering true problem-solving skills.",
+      "inspired_by": [],
+      "pitch": "A peer-to-peer live Python algorithm dueling platform allowing students in grades 9-12 to solve logic problems simultaneously.",
       "stack": [
         "Python",
-        "OpenAI API",
-        "Rich"
+        "WebSockets",
+        "Flask"
       ],
-      "title": "CodeArena AI Coach",
+      "title": "CodeArenaDuels",
       "track": "",
-      "why_it_could_win": "Matches the exact stated goal of the event to hone logical reasoning and programming in Python, C, C++, and Java, serving as an educational companion that judges will immediately appreciate for student growth."
+      "why_it_could_win": "Leverages the competitive nature of an online coding challenge hosted by a school for high schoolers."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A lightweight Python benchmarking tool that tests student-submitted Python and C++ functions against edge cases, automatically measuring time and space complexity to prevent Time Limit Exceeded errors.",
+      "pitch": "An educational Python error analyzer that gives conversational logic explanations rather than raw stack traces for young coders.",
       "stack": [
         "Python",
-        "Subprocess",
-        "Matplotlib"
+        "Ast",
+        "Streamlit"
       ],
-      "title": "Algorithmic Complexity Benchmarker",
+      "title": "SyntaxSagePython",
       "track": "",
-      "why_it_could_win": "Addresses a pain point familiar to both students and organizers hosting online coding challenges by catching inefficient algorithmic approaches early."
+      "why_it_could_win": "Appeals directly to the event's stated goal of sharpening Python and problem-solving skills in a virtual environment."
     },
     {
-      "build_hours": 28,
+      "build_hours": 16,
       "inspired_by": [],
-      "pitch": "A mini multiplayer puzzle platformer controlled purely by writing short Python scripts to solve logic puzzles under a tight 24-hour hackathon timeframe.",
+      "pitch": "An algorithmic generator of custom logical reasoning and math puzzles tailored for grades 9-12 difficulty curves in Python.",
       "stack": [
         "Python",
-        "Pygame"
+        "NetworkX",
+        "Tkinter"
       ],
-      "title": "Python Logic Duel Arena",
+      "title": "LogicPuzzleGenerator",
       "track": "",
-      "why_it_could_win": "Gamifies logical reasoning in Python, fitting the exact skill sets tested during St. Jude's Code Arena while providing an engaging demo for judges."
+      "why_it_could_win": "Solves the exact skill testing requirements emphasized in the St. Jude's Code Arena description."
     },
     {
       "build_hours": 22,
-      "inspired_by": [],
-      "pitch": "A translator utility that converts basic algorithmic logic written in Python to C, C++, and Java to help high school students transition between the supported contest languages.",
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A lightweight performance tracking dashboard for Python code submissions measuring time complexity and logical efficiency.",
       "stack": [
         "Python",
-        "Jinja2",
-        "FastAPI"
+        "Pandas",
+        "Plotly"
       ],
-      "title": "Multi-Language Syntax Bridge",
+      "title": "CodeArenaAnalytics",
       "track": "",
-      "why_it_could_win": "Directly supports the four official languages of the hackathon (C, C++, Java, Python 3+), making it a practical utility for participants tackling multi-language problem sets."
+      "why_it_could_win": "Provides deep technical insight into code performance, aligning with rigorous judging criteria for coding challenges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

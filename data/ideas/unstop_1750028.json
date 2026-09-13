@@ -1,102 +1,100 @@
 {
-  "generated_at": "2026-09-12T10:38:36.959695+05:30",
+  "generated_at": "2026-09-13T07:58:35.062593+00:00",
   "grounding": {
     "domains": [
       "security"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "unusual-hardware"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1750028",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1208011447",
-        "github:1022783746"
+        "github:1208011447"
       ],
-      "pitch": "A defense-in-depth personal security agent that detects phishing emails and malicious network anomalies using local LLMs and prompt-injection hardening.",
+      "pitch": "A local log-analysis agent built with the Vercel AI SDK and strict prompt-injection hardening that parses system logs for unusual privilege escalation attempts and visualizes security anomalies.",
       "stack": [
         "TypeScript",
-        "ai-agent",
-        "claude",
-        "defense-in-depth"
+        "Vercel AI SDK",
+        "Node.js",
+        "TailwindCSS"
       ],
-      "title": "SecuraGuard Agent",
+      "title": "AnomalyGuard",
       "track": "",
-      "why_it_could_win": "Directly aligns with the defensive cybersecurity workshop and anomaly detection focus of Secura."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1188682384"
-      ],
-      "pitch": "A zero-knowledge gated community and alert-sharing portal where verified security analysts can share threat intel without leaking infrastructure details.",
-      "stack": [
-        "TypeScript",
-        "ai-agents",
-        "base-chain",
-        "noir-lang"
-      ],
-      "title": "ZeroTrust Stoa",
-      "track": "",
-      "why_it_could_win": "Combines advanced defensive concepts with ZK-gating, mimicking successful privacy-preserving hackathon entries."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1284625256"
-      ],
-      "pitch": "A governable, jam-resilient cooperative edge threat detector that spots network anomalies and keeps human-in-the-loop validation off the automated kill chain.",
-      "stack": [
-        "TypeScript",
-        "amazon-bedrock",
-        "aws",
-        "defense-tech"
-      ],
-      "title": "Aegis-Edge Anomaly Detector",
-      "track": "",
-      "why_it_could_win": "Solves technically difficult defensive engineering challenges relevant to real-time incident response."
+      "why_it_could_win": "Directly matches the winning formula of defense-in-depth personal agent tooling while staying perfectly aligned with SECURA's focus on detecting and analysing cybersecurity anomalies."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1266090747"
+        "github:1022783746"
       ],
-      "pitch": "An AI platform specifically designed to detect, explain, and mitigate bias and false-positive anomalies in automated cybersecurity classification systems.",
+      "pitch": "A rapid-deployment FastAPI and React application that uses a lightweight fine-tuned BERT model to evaluate incoming phishing links, suspicious SMS payloads, and malicious email headers in real time.",
       "stack": [
-        "TypeScript",
-        "ai-fairness",
-        "bias-detection",
-        "artificial-intelligence"
+        "Python",
+        "FastAPI",
+        "React.js",
+        "Transformers"
       ],
-      "title": "FairThreat ML Inspector",
+      "title": "PhishBERT",
       "track": "",
-      "why_it_could_win": "Addresses false positives, a major pain point in threat detection that judges care about."
+      "why_it_could_win": "Replicates a proven runner-up strategy at cybersecurity hackathons by delivering an immediately practical, high-utility defensive tool against common cyber threats."
     },
     {
-      "build_hours": 44,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1144331507"
+        "github:1004582948"
       ],
-      "pitch": "An offline acoustic and radio mesh network tool for ultra-fast communication and incident alert propagation during simulated cybersecurity blackouts.",
+      "pitch": "An automated security insight generator that scans local repository codebases for hardcoded secrets, misconfigured dependencies, and common vulnerability patterns before producing a clean audit report.",
+      "stack": [
+        "Python",
+        "AST",
+        "Streamlit",
+        "Regex"
+      ],
+      "title": "RepoSentinel",
+      "track": "",
+      "why_it_could_win": "Employs the same automated documentation and security insight generation approach that took first place at Microsoft's global intern hackathon."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight transaction graph analysis dashboard designed to spot suspicious wallet clustering and high-risk transactional nodes using heuristic graph intelligence.",
       "stack": [
         "TypeScript",
-        "hardware",
-        "radio",
-        "teamwork"
+        "D3.js",
+        "Python",
+        "NetworkX"
       ],
-      "title": "EchoMesh Incident Responder",
+      "title": "GraphAML-Lite",
       "track": "",
-      "why_it_could_win": "Features unusual physical or offline networking builds that stand out in a room full of standard web applications."
+      "why_it_could_win": "Adapts complex graph intelligence and risk detection architectures into a tightly scoped, highly visual prototype suitable for a 24 to 48 hour timeframe."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A localized deterministic rule-engine and engagement gate that intercepts unverified network packets at the edge and enforces strict human-in-the-loop validation for suspicious commands.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Express",
+        "Docker"
+      ],
+      "title": "EdgeGate Defense",
+      "track": "",
+      "why_it_could_win": "Leverages the winning edge-defense and deterministic engagement gate architecture seen at top government and defense hackathons."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:21:51.162576+05:30",
+  "generated_at": "2026-09-13T07:40:29.037179+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -18,79 +17,83 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AI-powered anti-money laundering and transaction risk detection platform tailored for banking compliance, leveraging graph intelligence and explainable risk scoring.",
+      "pitch": "An AWS-powered AML and risk detection engine that uses graph intelligence and LightGBM to trace suspicious financial transactions, tailored for banking and fintech compliance.",
       "stack": [
         "TypeScript",
         "Python",
+        "AWS",
         "LightGBM",
         "NetworkX"
       ],
-      "title": "FinSight AML Engine",
-      "track": "Best AI Project",
-      "why_it_could_win": "Directly aligns with IDFC FIRST Bank's focus on fintech and banking security, heavily mirroring the Bito win pattern."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [],
-      "pitch": "An automated credential verification and intelligent candidate vetting platform that connects hiring pipelines securely with decentralized talent pools.",
-      "stack": [
-        "Next.js",
-        "Node.js",
-        "PostgreSQL"
-      ],
-      "title": "WorkTrust Verification Portal",
+      "title": "FinGuard RiskGraph",
       "track": "Best Innovation/Social Impact",
-      "why_it_could_win": "Directly targets the Work2hire sponsor angle by solving recruiter bottlenecks with automated verification workflows."
+      "why_it_could_win": "Directly targets sponsor interests from IDFC FIRST Bank by offering concrete anti-money laundering compliance features that financial institution judges care about."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform that tracks regional crop health and ecological changes to support rural business incubator initiatives.",
+      "pitch": "AI-powered satellite monitoring and geographic data processing platform to track industrial land compliance and agricultural sustainability metrics.",
       "stack": [
         "TypeScript",
         "Python",
+        "PostGIS",
         "Leaflet",
-        "TensorFlow"
+        "TailwindCSS"
       ],
-      "title": "AgriImpact Satellite Monitor",
+      "title": "AgriSustain Atlas",
       "track": "Best Innovation/Social Impact",
-      "why_it_could_win": "Appeals directly to the IIMT Business Incubator Foundation by combining agricultural impact with scalable B2B analytics."
+      "why_it_could_win": "Aligns with the 'Best Innovation/Social Impact' track by solving environmental compliance problems with hard engineering geospatial analysis."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-driven patient onboarding and trust-building platform designed for regional clinics to streamline consultations and health record management securely.",
+      "pitch": "An AI-powered patient trust and clinical intelligence engine that analyzes patient data to provide personalized care pathways and transparent clinic insights.",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Gemini API",
-        "Next.js"
+        "PostgreSQL"
       ],
-      "title": "MediTrust Patient Acquisition Engine",
-      "track": "Winner Devhack 2026",
-      "why_it_could_win": "Leverages proven patterns from healthcare hackathon winners that emphasize trust building and rapid patient acquisition."
+      "title": "MediTrust AI",
+      "track": "Best AI Project",
+      "why_it_could_win": "Leverages proven patterns from healthcare hackathon winners and fits neatly into the 'Best AI Project' track by combining LLMs with rigorous validation."
     },
     {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive modeling dashboard utilizing statistical regression to forecast operational risks and project incidents for enterprise compliance teams.",
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An automated candidate vetting and skill-matching platform designed for incubators and hiring partners to seamlessly source and vet developer talent.",
       "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Streamlit",
-        "Pandas"
+        "JavaScript",
+        "Node.js",
+        "React",
+        "OpenAI API"
       ],
-      "title": "RiskCast AI Incident Forecaster",
+      "title": "WorkFlow Scout",
+      "track": "Winner Devhack 2026",
+      "why_it_could_win": "Appeals directly to the ecosystem priorities of incubators and hiring sponsors like Work2hire and IIMT Business Incubator Foundation."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-code automated trading and strategy execution platform tailored for emerging decentralized financial asset classes.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "AeroTrade Bot",
       "track": "Best AI Project",
-      "why_it_could_win": "Presents rigorous, hard engineering through statistical modeling that stands out to technical judges."
+      "why_it_could_win": "Demonstrates complex algorithmic execution and robust API integrations that appeal to technical judges looking for hard engineering."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,95 +1,100 @@
 {
-  "generated_at": "2026-09-12T10:23:26.430895+05:30",
+  "generated_at": "2026-09-13T07:43:46.315273+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:divhacks",
   "ideas": [
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered platform for local New York small businesses to aggregate customer trust metrics, analyze foot traffic compliance, and automatically package application data for local municipal micro-grants.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "NYC Local Business Trust & Grant Engine",
-      "track": "",
-      "why_it_could_win": "Targets a direct pain point for New York City small businesses and community organizers, echoing the clear social and economic impact seen in winning community projects."
-    },
-    {
       "build_hours": 26,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "Crowdsourced real-time transit delay prediction and alternative routing assistant tailored specifically for New York City MTA commuters, combining live transit feeds with predictive machine learning models.",
+      "pitch": "A predictive analytics tool using Poisson regression and rolling backtests to forecast transit delay clusters and maintenance incidents across New York City subway lines.",
       "stack": [
+        "Jupyter Notebook",
         "Python",
-        "TypeScript",
-        "Jupyter Notebook"
+        "Pandas",
+        "Streamlit"
       ],
-      "title": "Subway Sentinel AI",
+      "title": "NYC Public Transit Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Solves an immediate, universal pain that every judge living and commuting in New York City experiences daily."
+      "why_it_could_win": "It mirrors the exact data science and rigorous statistical forecasting approach that won the Apart Research AI Forecasting Hackathon, standing out among standard UI-heavy student projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An explainable graph intelligence platform designed for New York small business incubators to automatically screen local vendors for financial risk and compliance red flags.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "Local Vendor AML & Compliance Graph",
+      "track": "",
+      "why_it_could_win": "It applies complex graph intelligence and explainable risk detection frameworks that previously secured 1st place in AI innovation competitions."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1155558847"
+        "github:1155558847",
+        "github:1213911408"
       ],
-      "pitch": "An AI satellite imagery monitoring tool that tracks urban green spaces and campus vegetation density over time to audit environmental sustainability goals for New York institutions.",
+      "pitch": "An AI-powered multi-agent student support and environmental monitoring platform that aggregates satellite data and local sensor feeds to optimize urban green roof compliance in NYC.",
       "stack": [
         "TypeScript",
-        "Python"
+        "LangGraph",
+        "Python",
+        "Next.js"
       ],
-      "title": "Campus Green Space Compliance Monitor",
+      "title": "NYC Green Roof Multi-Agent Monitor",
       "track": "",
-      "why_it_could_win": "Mirrors the exact technical approach and measurable environmental impact of GeoNex-ATLAS, which scored a podium finish using spatial and industrial monitoring data."
+      "why_it_could_win": "It leverages a proven multi-agent architecture combined with environmental monitoring, directly replicating the winning formula from the GreenNovation and Xcelerate hackathons."
     },
     {
-      "build_hours": 22,
+      "build_hours": 27,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A localized marketplace prototype utilizing secure escrow smart contracts on Base with USDC to facilitate trustless transactions between independent New York street vendors and wholesale suppliers.",
+      "pitch": "An autonomous AI agent marketplace that coordinates surplus food pickup between NYC restaurants and local shelters, utilizing escrow and verified transaction tracking.",
       "stack": [
         "JavaScript",
-        "base",
-        "usdc"
+        "Base",
+        "Node.js",
+        "USDC"
       ],
-      "title": "Local Vendor Micro-Escrow",
+      "title": "NYC Food Rescue Autonomous Agent Marketplace",
       "track": "",
-      "why_it_could_win": "Employs proven decentralized payment architecture and marketplace mechanics seen in previous hackathon winners."
+      "why_it_could_win": "It adapts the autonomous agent marketplace pattern combined with escrow mechanics that dominated the Synthesis Hackathon."
     },
     {
-      "build_hours": 20,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "A localized nutrition and meal planning assistant that curates affordable, healthy grocery lists from budget supermarkets across the five boroughs for college students.",
+      "pitch": "An AI-powered patient acquisition and trust engine customized for NYC community health clinics to streamline intake, verify insurance trust, and deliver personalized wellness guidelines.",
       "stack": [
-        "Python",
-        "TypeScript"
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "NYC Student Health & Nutrition Planner",
+      "title": "NYC Community Health Trust & Patient Intake Engine",
       "track": "",
-      "why_it_could_win": "Directly targets student lifestyle challenges with a well-scoped personal utility application, similar to the winning nutrition assistant framework."
+      "why_it_could_win": "It targets high-impact local healthcare workflows using the exact Gemini-backed patient acquisition architecture that won the Elevate X prize sprint."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

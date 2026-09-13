@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:37:34.479345+05:30",
+  "generated_at": "2026-09-13T07:57:31.688420+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -8,7 +8,9 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech"
+      "technical-depth",
+      "judge-pain",
+      "impact"
     ],
     "thin": false
   },
@@ -19,82 +21,79 @@
       "inspired_by": [
         "github:1289086869"
       ],
-      "pitch": "An enterprise AI agent that analyzes health insurance claim rejections, compares them against the insurer's policy documents, and automatically generates legally sound appeal arguments.",
+      "pitch": "An enterprise agent that fights wrongful medical insurance denials by grounding every appeal argument directly in the provider's specific policy text and patient EHR logs.",
       "stack": [
         "TypeScript",
         "FastAPI",
-        "LLMs",
-        "Next.js"
+        "LLM",
+        "AI Agents"
       ],
-      "title": "AegisPolicy: Insurance Denial Appeal Agent",
+      "title": "ClaimShield AI",
       "track": "Medicine",
-      "why_it_could_win": "Directly targets the Medicine track while matching a proven winning pattern of building domain-specific reasoning agents against document corpora."
+      "why_it_could_win": "Directly targets the Medicine track while mirroring the winning architecture of Overturn from the RAISE Summit Hackathon."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated anti-money laundering risk detection platform that combines transaction graph intelligence with explainable machine learning models to flag illicit fund movements.",
+      "pitch": "An AML risk detection and transaction investigation platform combining graph intelligence and LightGBM for real-time suspicious pattern flagging.",
       "stack": [
         "Python",
-        "TypeScript",
         "LightGBM",
-        "NetworkX"
+        "NetworkX",
+        "FastAPI"
       ],
-      "title": "GraphAML: Crypto Transaction Risk Visualizer",
+      "title": "GraphAML Sentinel",
       "track": "Finance",
-      "why_it_could_win": "Fits the Finance track perfectly by addressing compliance and transaction risk, echoing the exact success pattern of graph-based AML detection platforms."
+      "why_it_could_win": "Fits the Finance track perfectly and leverages proven graph-based compliance methods that won the DIGITIMES AI Innovation Hackathon."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [],
+      "pitch": "A drone pathfinding and restricted airspace collision avoidance simulator that processes live telemetry data and regulatory geofencing boundaries.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "title": "AeroRoute ML",
+      "track": "Drone Tech & Aviation",
+      "why_it_could_win": "Targets the Drone Tech & Aviation track with hard spatial-graph engineering, addressing a domain judges rarely see built from scratch."
     },
     {
       "build_hours": 25,
       "inspired_by": [],
-      "pitch": "An intelligent aviation system that processes weather patterns, restricted airspace data, and telemetry feeds to dynamically optimize and safety-check drone delivery routes.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "OpenCV",
-        "React"
-      ],
-      "title": "AeroRoute: Drone Flight Path Risk Analyzer",
-      "track": "Drone Tech & Aviation",
-      "why_it_could_win": "Targeting the specialized Drone Tech & Aviation track means facing significantly less competition than general open innovation tracks."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1185527998"
-      ],
-      "pitch": "An AI-powered security log parser that aggregates multi-source infrastructure telemetry and correlates anomalies to generate actionable incident response playbooks for security teams.",
+      "pitch": "An automated compliance and vulnerability scanner that parses internal IT security policies against live AWS infrastructure terraform configurations.",
       "stack": [
         "TypeScript",
         "Python",
-        "TailwindCSS",
-        "OpenAI API"
+        "OpenAI API",
+        "Docker"
       ],
-      "title": "SentinelLog: Cloud Security Threat Correlator",
+      "title": "PolicyAudit LLM",
       "track": "Security",
-      "why_it_could_win": "Directly hits the Security track with a practical, high-utility operational tool that enterprise judges immediately understand."
+      "why_it_could_win": "Directly addresses the Security track by automating an exhausting manual audit process that engineering judges deal with daily."
     },
     {
-      "build_hours": 27,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1170846981",
-        "github:1185527998"
+        "github:1183964401"
       ],
-      "pitch": "A clinical-grade triage assistant that extracts basic vitals and processes voice-based symptom descriptions in multiple regional languages to prioritize patient queues.",
+      "pitch": "An AI-powered strategy builder allowing retail traders to test, verify, and deploy risk-managed algorithmic trading bots via natural language prompts.",
       "stack": [
-        "JavaScript",
         "Python",
-        "FastAPI",
-        "Web Speech API"
+        "TypeScript",
+        "Next.js",
+        "Pandas"
       ],
-      "title": "MediTriage: Multilingual Vital Signs Triage",
-      "track": "Medicine",
-      "why_it_could_win": "Combines healthcare utility with multilingual accessibility, a proven combination that wins hackathons focused on real-world medical impact."
+      "title": "TradeGuard NoCode",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages the Open Innovation track with a polished end-user execution layer, following the winning pattern of ClashX at the Pacifica Hackathon."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

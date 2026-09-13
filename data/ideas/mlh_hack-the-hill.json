@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:24:20.112718+05:30",
+  "generated_at": "2026-09-13T07:44:45.245430+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,80 +14,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
+        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "Satellite-based compliance and monitoring dashboard built for the National Capital Commission to track urban encroachment and green space preservation in Ottawa.",
+      "pitch": "A predictive spatial analysis dashboard forecasting municipal infrastructure failure in Ottawa using historical public works data, Poisson regression, and spatial clustering.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python"
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Leaflet.js",
+        "FastAPI"
       ],
-      "title": "OttawaCivicGrid",
+      "title": "Ottawa Municipal Asset Risk Forecaster",
       "track": "",
-      "why_it_could_win": "Targets environmental and regional compliance monitoring directly relevant to local judges and regional governance in Ottawa."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "AI-powered coordination platform matching isolated seniors in Ottawa with student volunteer drivers for grocery runs and social outings.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Gemini API"
-      ],
-      "title": "RideauElderRoute",
-      "track": "",
-      "why_it_could_win": "Follows the winning formula of creating a clear, measurable social impact addressing a localized community need."
+      "why_it_could_win": "Follows the winning pattern of combining rigorous predictive modeling with a concrete civic use case, mirroring the data-heavy statistical wins seen in AI forecasting hackathons."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "Poisson regression and NLP pipeline forecasting legislative bottlenecks and bill passage probabilities based on historical Canadian parliamentary data.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn"
-      ],
-      "title": "ParliamentWatch AI",
-      "track": "",
-      "why_it_could_win": "Leverages advanced predictive modeling and time-series forecasting tailored to the political hub of Ottawa."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "Graph-based compliance and risk detection platform for Canadian biotech startups tracking supply chain dependencies and regulatory filings.",
+      "pitch": "Satellite imagery monitoring tool tailored for Canadian environmental regulations, tracking industrial land usage changes and flagging unauthorized zoning clearings automatically.",
       "stack": [
         "TypeScript",
-        "Neo4j",
-        "Python"
+        "Next.js",
+        "Python",
+        "OpenCV",
+        "SentinelHub API"
       ],
-      "title": "CanLabTrace",
+      "title": "CanGeo-Compliance AI",
       "track": "",
-      "why_it_could_win": "Solves complex graph-intelligence and risk assessment problems similar to winning enterprise analytics tools."
+      "why_it_could_win": "Directly replicates the hard engineering and satellite-monitoring architecture of the GeoNex-ATLAS runner-up project, appealing to judges looking for tangible environmental and regulatory tech."
     },
     {
-      "build_hours": 28,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "AI nutrition assistant tailored specifically to local Ottawa grocery pricing, seasonal produce, and student dietary constraints.",
+      "pitch": "AI-powered regional nutrition and meal planning platform connecting local Ottawa farmers' market inventory directly to dietary meal prep recommendations for users.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React Native"
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "LocalBites Ottawa",
+      "title": "LocalHarvest Ottawa",
       "track": "",
-      "why_it_could_win": "Addresses a universal student pain point with practical utility and localized economic relevance."
+      "why_it_could_win": "Applies the localized health-tech success pattern from E-Foodiee, tailoring a consumer nutrition engine to a hyper-local geographical supply chain."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent RAG system built for university administrative navigation, utilizing LangGraph to route queries between academic advising, financial aid, and health services.",
+      "stack": [
+        "TypeScript",
+        "LangChain",
+        "LangGraph",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "CampusPulse Multi-Agent Student Support",
+      "track": "",
+      "why_it_could_win": "Leverages the proven architecture of the Greennovation AI winning platform, focusing on robust workflow orchestration rather than a simple wrapper chatbot."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent platform that reviews local Ottawa community project proposals, verifies milestone deliverables via open data sources, and executes conditional USDC micro-grants.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "Node.js",
+        "USDC SDK"
+      ],
+      "title": "CivicTrust Autonomous Micro-Grant Escrow",
+      "track": "",
+      "why_it_could_win": "Combines autonomous agent mechanics with secure decentralized escrow settlements, matching the winning architecture of the Dispatch marketplace project."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

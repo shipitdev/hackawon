@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:40:12.542254+05:30",
+  "generated_at": "2026-09-13T08:00:09.519991+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,84 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A spatial-temporal forecasting tool designed specifically for college campuses that predicts safety bottlenecks and crowd congestion using Poisson regression and historical campus event data.",
+      "pitch": "An AI-powered satellite and local sensor monitoring platform to automatically track land and facility utilization compliance across the SNS AI Campus.",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "CampusAI Guard: AI-Campus Incident Forecasting & Predictive Safety",
-      "track": "",
-      "why_it_could_win": "Targeted directly at the host venue (SNS College of Technology's AI Campus) by solving a problem judges and organizers feel daily on campus, matching winning patterns from predictive hackathon projects."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "A localized nutrition and meal recommendation platform tailored to student hostel diets, generating personalized wellness plans and reducing food waste in college canteens.",
-      "stack": [
-        "Python",
         "TypeScript",
+        "Python",
         "Next.js",
-        "Gemini API"
+        "Leaflet.js"
       ],
-      "title": "AuraHealth: AI-Driven Campus Mess & Nutrition Optimization Assistant",
+      "title": "CampusCompliance AI Monitor",
       "track": "",
-      "why_it_could_win": "Directly mirrors a 24-hour hackathon winner by delivering understandable coding, practical health utility, and immediate consumer impact for students."
+      "why_it_could_win": "Focuses on innovative AI application and clean, understandable coding tailored directly to the host institution's AI campus setting."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring tool to track unauthorized industrial expansion and environmental regulation violations around regional industrial zones.",
+      "pitch": "A multi-agent RAG system built for regional agricultural supply chains to optimize fertilizer usage and local crop yields using localized soil data.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AgriSustain Multi-Agent Advisor",
+      "track": "",
+      "why_it_could_win": "Leverages advanced multi-agent workflow architecture which strongly aligns with the hackathon being hosted at an AI Campus."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An automated AI nutrition and meal planning assistant tailored for institutional mess halls to reduce food waste and optimize student nutritional intake.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API"
+      ],
+      "title": "CampusMess Nutrition & Waste AI",
+      "track": "",
+      "why_it_could_win": "Addresses an immediate, highly relatable campus problem with a polished end-user presentation, matching the judge's focus on better presentation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight graph-intelligence based AML and risk scoring platform for micro-transactions between local campus vendors and student cooperatives.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "GeoAudit AI: Satellite Monitoring for Local Industrial Compliances",
+      "title": "LocalVendor Credit & AML Risk Engine",
       "track": "",
-      "why_it_could_win": "Applies heavy computer vision and real-world compliance tracking, aligning with hackathon wins that solve difficult technical verification problems."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A localized logistics and ride-sharing app that groups nearby college volunteers to safely transport elderly residents or disabled students to essential appointments.",
-      "stack": [
-        "TypeScript",
-        "React Native",
-        "Node.js"
-      ],
-      "title": "CampusLink: Community Volunteer Driver & Senior Mobility Dispatcher",
-      "track": "",
-      "why_it_could_win": "Leverages clear measurable social impact and straightforward coordination logic that judges can instantly evaluate during a 24-hour presentation."
+      "why_it_could_win": "Brings genuinely hard graph-based engineering into a compact, judges-friendly financial inclusion narrative."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1087704265"
       ],
-      "pitch": "A streamlined patient acquisition and feedback-processing platform designed for local clinics to automate intake forms and build digital patient trust securely.",
+      "pitch": "A statistical forecasting tool utilizing Poisson regression models to predict and report local IoT or server infrastructure failures within college labs.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Flask"
       ],
-      "title": "TrustVerify: AI-Powered Trust and Patient Intake Engine for Local Dental & Medical Clinics",
+      "title": "AI Incident Safety Forecaster",
       "track": "",
-      "why_it_could_win": "Provides clear, quantifiable economic value for local businesses, emphasizing presentation quality and understandable coding required by the judges."
+      "why_it_could_win": "Demonstrates rigorous mathematical modeling and calibrated prediction intervals, appealing to judges looking for robust, data-backed execution."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

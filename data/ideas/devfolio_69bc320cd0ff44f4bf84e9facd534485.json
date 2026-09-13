@@ -1,93 +1,100 @@
 {
-  "generated_at": "2026-09-12T10:21:24.676851+05:30",
+  "generated_at": "2026-09-13T07:38:53.278372+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "devfolio:69bc320cd0ff44f4bf84e9facd534485",
   "ideas": [
     {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered developer community health and engagement analytics dashboard that aggregates Discord activity, analyzes sentiment, and predicts contributor churn using advanced RAG and graph intelligence.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "Codivonix Community Pulse",
+      "track": "Team CodeStorm Award",
+      "why_it_could_win": "Aligns directly with the priorities of sponsor Codivonix Community by solving an internal community management problem using hard engineering patterns seen in winning AML and student support platforms."
+    },
+    {
       "build_hours": 30,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A hyper-local discount and promotion matching web application built specifically to leverage the Modisconto ecosystem, helping students and local consumers automatically discover and stack exclusive merchant coupons.",
+      "pitch": "A decentralized peer-to-peer discount and voucher exchange marketplace featuring automated escrow payments and smart contract validation tailored for retail savings.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "React"
       ],
-      "title": "Modisconto Smart Retail Deals Aggregator",
+      "title": "Modisconto DealMesh",
       "track": "Modisconto Merchandise Prize Pack",
-      "why_it_could_win": "Directly targets the Modisconto Merchandise Prize Pack track by featuring their brand ecosystem heavily in the app workflow."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An automated Discord bot and analytics dashboard designed for the Codivonix Community and BuildNest organizers to track team engagement, project repository activity, and real-time mentor requests during the hackathon.",
-      "stack": [
-        "Python",
-        "Discord.py",
-        "FastAPI"
-      ],
-      "title": "CodeStorm Community Pulse",
-      "track": "Team CodeStorm Award",
-      "why_it_could_win": "Solves a problem the organizers and judges feel themselves during an online Discord-based hackathon, securing the Team CodeStorm Award."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A rapid team formation and skill-matching portal for FutureForge participants to pitch ideas, find teammates with complementary tech stacks, and showcase their completed builds instantly.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js"
-      ],
-      "title": "BuildNest Student Project Showcase & Matchmaker",
-      "track": "Team CodeStorm Award",
-      "why_it_could_win": "Directly aligns with the BuildNest sponsor theme by empowering student creators to collaborate efficiently during the short event window."
+      "why_it_could_win": "Directly targets the Modisconto Merchandise Prize Pack track by integrating seamless voucher exchange mechanics with verifiable automated settlement."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1185920891"
+        "github:1155558847"
       ],
-      "pitch": "A lightweight digital loyalty stamp and rewards app that integrates with Modisconto partner merchants to let users earn and redeem cashback rewards seamlessly using QR codes.",
+      "pitch": "An AI-powered satellite monitoring platform that tracks industrial and campus land use changes to quantify carbon offset and sustainability metrics over time.",
       "stack": [
-        "JavaScript",
-        "React Native",
-        "Firebase"
+        "TypeScript",
+        "Python",
+        "GIS APIs",
+        "TensorFlow"
       ],
-      "title": "Modisconto Local Merchant Loyalty Wallet",
-      "track": "Modisconto Merchandise Prize Pack",
-      "why_it_could_win": "Appeals directly to the Modisconto sponsor track by showcasing real-world commercial utility and localized retail integration."
+      "title": "FutureForge Campus Sustainability Tracker",
+      "track": "Team CodeStorm Award",
+      "why_it_could_win": "Applies proven satellite monitoring and computer vision pipelines to sustainability, catching the eye of judges looking for real-world environmental impact."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An intelligent routing tool that pairs hackathon participants with available technical mentors based on specific tech stack queries and automatically schedules video troubleshooting sessions.",
+      "pitch": "An automated AI agent platform that instantly generates full-stack boilerplate code, architecture diagrams, and task breakdowns based on natural language project descriptions for hackathon teams.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "Python"
+      ],
+      "title": "BuildNest Project Scaffolder",
+      "track": "Team CodeStorm Award",
+      "why_it_could_win": "Speaks directly to the developer tooling ecosystem promoted by sponsor BulidNest by accelerating the hackathon creation workflow itself."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive flash-sale pricing and demand forecasting platform that uses Poisson regression models to optimize inventory clearance and dynamic discount rates for e-commerce.",
       "stack": [
         "Python",
-        "Streamlit",
-        "OpenAI API"
+        "Jupyter Notebook",
+        "FastAPI",
+        "React"
       ],
-      "title": "FutureForge Mentor Scheduler & AI Q&A Assistant",
-      "track": "Team CodeStorm Award",
-      "why_it_could_win": "Improves the operational flow of an online-only hackathon hosted by Codivonix Community and BuildNest, ensuring high utility for judges."
+      "title": "Modisconto Dynamic Pricing Engine",
+      "track": "Modisconto Merchandise Prize Pack",
+      "why_it_could_win": "Combines rigorous statistical forecasting with the merchant-focused discount domain of Modisconto to win on technical depth."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

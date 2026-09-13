@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:28:17.957837+05:30",
+  "generated_at": "2026-09-13T07:48:36.280812+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +16,83 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring tool to track urban sprawl and vegetation loss across Alachua County and the University of Florida campus.",
+      "pitch": "Satellite monitoring and industrial land compliance dashboard tailored for local Florida environmental regulations using geospatial imagery and automated change detection.",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Satellite APIs"
+        "Python",
+        "PostGIS"
       ],
-      "title": "GatorGreen Space Audit",
+      "title": "GatorGrid AI",
       "track": "",
-      "why_it_could_win": "Targets environmental monitoring with clear measurable impact and leverages complex spatial data analysis similar to winning entries."
+      "why_it_could_win": "Leverages the proven high-scoring pattern of GeoNex-ATLAS by applying satellite monitoring directly to localized regional compliance use cases that appeal to environmental judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "AI-driven peer-to-peer ride matching and scheduling app specifically designed for UF students commuting from off-campus housing areas like Archer Road.",
+      "pitch": "Multi-agent student and local grower support platform combining LangGraph and localized RAG to optimize supply chain logistics and crop yield predictions in the Southeastern US.",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Google Maps API",
-        "Node.js"
+        "LangGraph",
+        "Python",
+        "RAG"
       ],
-      "title": "SwampSync Campus Carpool",
+      "title": "AgriTrace AI",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges feel themselves by addressing local student transit pain points in Gainesville."
+      "why_it_could_win": "Follows the winning architectural patterns of greennovation-ai-platform by combining multi-agent workflows with practical regional resource optimization."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Personalized meal planning and nutrition tracking platform tailored specifically to on-campus dining hall menus and local Gainesville budget groceries.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
-      ],
-      "title": "GatorGrub AI Nutrition Planner",
-      "track": "",
-      "why_it_could_win": "Delivers concrete health and economic benefits with clear user impact for students."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "AI-powered patient acquisition and trust platform customized for local dental and prosthodontic clinics in the North Florida region.",
+      "pitch": "AI-powered patient acquisition and trust engine specifically optimized for university health centers and local community clinics to streamline intake and triage.",
       "stack": [
         "TypeScript",
         "Gemini API",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "LocalLead Gainesville Prosthodontic Trust Engine",
+      "title": "CampusCare AI",
       "track": "",
-      "why_it_could_win": "Targets local small businesses with a proven rapid-deployment vertical software model."
+      "why_it_could_win": "Replicates the winning formula of Global-Smile by delivering a highly focused, localized patient management and trust automation tool that judges can easily evaluate."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1185920891"
       ],
-      "pitch": "Automated document analysis and risk detection platform for local industrial zoning and environmental compliance in Alachua County.",
+      "pitch": "Autonomous AI agent marketplace with secure crypto-escrow payments optimized for micro-tasks and peer-to-peer campus service delivery.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "GatorRoute Escrow",
+      "track": "",
+      "why_it_could_win": "Mirrors the successful Dispatch project pattern by integrating autonomous agent transactions with escrow mechanics, appealing to technical judges looking for complex integration."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized nutrition and meal planning platform that analyzes local dining hall menus and grocery inventories to deliver tailored dietary recommendations.",
       "stack": [
         "Python",
-        "LangChain",
-        "PostgreSQL",
-        "TypeScript"
+        "FastAPI",
+        "React",
+        "OpenAI API"
       ],
-      "title": "Alachua Compliance Guard",
+      "title": "NutriGator AI",
       "track": "",
-      "why_it_could_win": "Combines complex document processing with hard regulatory engineering to impress technical judges."
+      "why_it_could_win": "Builds directly on the E-Foodiee-AI-Nutrition-Assistant win by targeting an immediate, relatable demographic need for students during a 48-hour sprint."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

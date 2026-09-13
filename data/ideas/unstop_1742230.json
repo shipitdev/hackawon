@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-13T07:51:54.975558+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742230",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered workforce intelligence tool built specifically for Eightfold's talent intelligence ecosystem, analyzing internal employee skills graphs to predict future role readiness and recommend cross-functional project assignments.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "PyTorch",
+        "PostgreSQL"
+      ],
+      "title": "Eightfold Talent Graph & Internal Mobility Engine",
+      "track": "",
+      "why_it_could_win": "Since Eightfold.ai is the co-organizer of the hackathon, building an application that directly extends their talent intelligence paradigm using advanced machine learning models is the highest-leverage strategy to impress their engineering judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An ML-based auditing system that analyzes recruitment resumes and job descriptions for hidden demographic biases, utilizing counterfactual data augmentation and explainable AI to score hiring fairness.",
+      "stack": [
+        "Python",
+        "Scikit-learn",
+        "Transformers",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Resume Bias Auditor & Fairness Inspector",
+      "track": "",
+      "why_it_could_win": "Eightfold.ai focuses heavily on ethical AI and inclusive talent acquisition. A project tackling algorithmic fairness in HR directly aligns with their core enterprise mission."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1275874285"
+      ],
+      "pitch": "A predictive analytics tool designed for university placement cells (targeting IIT and NIT ecosystems) that forecasts industry skill shortages based on historical hiring trends and automatically generates curated learning pathways.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "LightGBM",
+        "TypeScript",
+        "Next.js"
+      ],
+      "title": "Campus Skill Gap Forecaster",
+      "track": "",
+      "why_it_could_win": "The hackathon is organized by IIT Delhi and Eightfold.ai, bringing together top engineering students and HR tech experts who deeply care about campus placement optimization and career readiness."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A real-time technical interview assistant that maps candidate spoken answers and coding snippets directly to a fine-grained competencies graph, providing objective scoring rather than keyword matching.",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "FastAPI",
+        "TypeScript",
+        "React"
+      ],
+      "title": "Skills-First Interview Copilot",
+      "track": "",
+      "why_it_could_win": "Leverages real-world machine learning models for speech and text processing to solve a tangible bottleneck in technical recruitment, a space Eightfold operates in daily."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1200926140"
+      ],
+      "pitch": "An automated document intelligence pipeline that extracts verified academic projects, certifications, and skills from unstructured student transcripts into a standardized, queryable talent graph.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "NetworkX",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "title": "Enterprise Credential Verifier and Graph Mapper",
+      "track": "",
+      "why_it_could_win": "Demonstrates hard engineering in unstructured data processing and knowledge graph generation, matching the technical depth required to win at premier institute hackathons."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

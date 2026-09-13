@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-12T10:40:43.852881+05:30",
+  "generated_at": "2026-09-13T08:00:45.841891+00:00",
   "grounding": {
     "domains": [
-      "data"
+      "data",
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "working-demo",
       "technical-depth",
-      "unique-data",
-      "working-demo"
+      "sponsor-tech",
+      "unique-data"
     ],
     "thin": false
   },
@@ -18,90 +19,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1329458499"
+        "github:1341712439",
+        "github:1228328106"
       ],
-      "pitch": "An agentic data pipeline using Claude and Python that autonomously queries raw NASA Kepler or TESS light curve data, cleans the time-series noise, and flags candidate exoplanet transit dips with zero human intervention.",
+      "pitch": "A rapid-inference pipeline combining FastAPI and time-series anomaly detection to identify orbital debris or exoplanet light-curve transit dips from raw telescope feeds.",
       "stack": [
         "Python",
-        "ai-agents",
-        "claude",
-        "Lightkurve API",
-        "pandas"
+        "FastAPI",
+        "Streamlit",
+        "XGBoost",
+        "Lightkurve"
       ],
-      "title": "Astro-Agent: Autonomous Exoplanet Transit Detector",
+      "title": "AstroAnomalies: Real-Time Space Debris and Exoplanet Transit Detector",
       "track": "",
-      "why_it_could_win": "Directly targets the domain knowledge and technical skills criteria by executing complex astronomical data cleaning which normally takes hours, mirroring the autonomous data incident response pattern of winning agentic hacks."
+      "why_it_could_win": "Directly aligns with the core evaluation criteria of technical skills demonstrated and domain knowledge by handling real astronomical time-series data streams."
     },
     {
-      "build_hours": 30,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1207207353"
+        "github:1228328106"
       ],
-      "pitch": "A vector-indexed retrieval-augmented generation toolkit built specifically for astronomical spectral signatures, allowing researchers to query thousands of stellar spectra using natural language.",
+      "pitch": "A web interface that classifies stellar spectra using machine learning while employing SHAP values to explain which spectral lines drove the classification.",
       "stack": [
         "Python",
-        "embeddings",
-        "hnsw",
-        "llm",
-        "MariaDB"
+        "Streamlit",
+        "SHAP",
+        "Scikit-Learn",
+        "Astropy"
       ],
-      "title": "SpectraMatch RAG: Deep Sky Semantic Database",
+      "title": "SpectraSHAP: Explainable Deep Learning for Star Classification",
       "track": "",
-      "why_it_could_win": "Leverages the proven auto-embedding and RAG toolkit pattern, giving judges an immediately demonstrable application for processing complex, unstructured astronomical literature and data."
+      "why_it_could_win": "Combines high domain knowledge with rigorous explainability, satisfying the evaluation criteria for technical execution and clarity of final results."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1026027777"
-      ],
-      "pitch": "A text-to-dashboard generator tailored for astrophysics datasets, translating natural language queries from astronomers into interactive web visualizations on the fly.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "TailwindCSS",
-        "Python",
-        "Astropy API"
-      ],
-      "title": "CosmoDash: Instant Astronomical Data-to-Dashboard",
-      "track": "",
-      "why_it_could_win": "Replicates the winning formula of the Tableau DataDev Hackathon by bridging the gap between raw data stores and instant, readable visual insights for judges."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1079913400"
-      ],
-      "pitch": "A frontend digital twin platform visualizing active space debris and low-earth orbit satellite constellations with predictive trajectory monitoring and collision risk alerts.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "Three.js",
-        "Space-Track REST API",
-        "Vite"
-      ],
-      "title": "Orbital Digital Twin: Real-Time Satellite Tracking",
-      "track": "",
-      "why_it_could_win": "Matches the proven success of frontend-heavy digital twin and predictive data visualization hacks that score heavily on execution and final results."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
+        "github:1026027777",
         "github:1200926140"
       ],
-      "pitch": "An AI-powered video intelligence platform adapted to scan through high-resolution time-lapse telescope imagery to automatically detect moving Near-Earth Objects (NEOs).",
+      "pitch": "An AI-powered agent that translates natural language queries into complex SQL or ADQL commands to fetch and visualize data from public astronomical archives like Gaia or SIMBAD.",
       "stack": [
-        "HTML",
-        "JavaScript",
-        "Python",
-        "OpenCV",
-        "PyTorch"
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "OpenAI API",
+        "Astropy"
       ],
-      "title": "CosmicVision: Deep Field Video Intelligence",
+      "title": "CosmoQuery: Natural Language Interface for Astronomical Archives",
       "track": "",
-      "why_it_could_win": "Adapts the exact grand prize winning architecture of the Data & Design Hackathon's LibrAI platform to unstructured astronomical video data, maximizing perceived technical novelty."
+      "why_it_could_win": "Leverages text-to-query patterns that have proven successful in previous data hackathons, offering judges a smoothly working live demo."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:985196561",
+        "github:1341712439"
+      ],
+      "pitch": "An operations dashboard analyzing simulated satellite telemetry logs to detect early anomalies in orbital decay or power systems before mission failure.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Isolation Forest",
+        "TailwindCSS"
+      ],
+      "title": "OrbitalGuard: Satellite Telemetry Anomaly & Risk Dashboard",
+      "track": "",
+      "why_it_could_win": "Directly mirrors winning log-analysis and anomaly-detection architectures, showcasing robust engineering execution within a tight timeframe."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A dashboard ingest engine that processes solar imagery metadata and historical flare rates to predict near-term geomagnetic disturbance risks.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly",
+        "SunPy"
+      ],
+      "title": "SolarFlarePredictor: Multimodal Space Weather Monitoring Platform",
+      "track": "",
+      "why_it_could_win": "Addresses a critical and novel computational astronomy problem with a tangible, interactive web demo that highlights domain-specific technical mastery."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

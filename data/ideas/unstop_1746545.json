@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:35:48.805794+05:30",
+  "generated_at": "2026-09-13T07:55:48.452986+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,9 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -20,83 +19,82 @@
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A training-free semantic router for Qiskit job dispatching, combining classical kNN exemplar indexing with quantum circuit feature embeddings to optimize runtime execution costs.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "scikit-learn",
-        "Superlinked"
-      ],
-      "title": "Qiskit Hybrid Semantic Router",
-      "track": "Quantum Computing and Qiskit-focused challenges",
-      "why_it_could_win": "Directly leverages Qiskit as required by the IBM Fall Fest context while mimicking the self-improving semantic routing pattern that won the Superlinked x Qwen Hackathon."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A BPMN-orchestrated workflow engine that evaluates quantum circuit error mitigation strategies and hardware noise profiles before deployment.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "BPMN",
-        "AI Agents"
-      ],
-      "title": "Quantum Agent BPMN Risk Guard",
-      "track": "Quantum Machine Learning",
-      "why_it_could_win": "Combines rigorous workflow automation with quantum reliability metrics, mirroring the structure of the UiPath AgentHack winning entry."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1214808895",
-        "github:1274911437"
-      ],
-      "pitch": "Enables quantum circuits to reason and optimize gate depths more efficiently during execution using reinforcement learning heuristics inspired by inference compute patterns.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "Reinforcement Learning"
-      ],
-      "title": "Qiskit Inference-Time Circuit Optimizer",
-      "track": "Quantum Computing and Qiskit-focused challenges",
-      "why_it_could_win": "Solves the hard engineering problem of noisy intermediate-scale quantum (NISQ) gate overhead, following the winning pattern of the OpenAI and Inference Time Compute hackathons."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous data agent that monitors Qiskit Runtime job failures, executes an evidence gate to check calibration data, and submits verified circuit repairs via pull requests.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "AI Agents",
-        "DataHub"
-      ],
-      "title": "Autonomous Quantum Incident Responder",
-      "track": "Quantum Machine Learning",
-      "why_it_could_win": "Brings the autonomous data engineering repair loop that won the DataHub Agent Hackathon directly into the IBM Qiskit ecosystem."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two competing QML agents play an adversarial game to discover optimal variational quantum eigensolver (VQE) ansatzes without pre-programmed heuristic bias.",
+      "pitch": "A training-free semantic router that uses parameterized quantum circuits to classify user queries before hitting heavy LLM backends.",
       "stack": [
         "Python",
         "Qiskit",
         "PyTorch",
-        "Adversarial AI"
+        "Transformers"
       ],
-      "title": "Adversarial Quantum State Decoupler",
+      "title": "Qiskit Hybrid QML Semantic Router",
       "track": "Quantum Machine Learning",
-      "why_it_could_win": "Showcases truly novel multi-agent exploration in a quantum context, matching the winning self-improving adversarial agent pattern."
+      "why_it_could_win": "Combines Qiskit quantum computing with the proven self-improving semantic routing pattern, directly matching the hackathon's Qiskit and QML focus."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An RL agent trained using Qiskit Runtime primitives to dynamically select error mitigation strategies for noisy intermediate-scale quantum circuits.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Gymnasium",
+        "Ray"
+      ],
+      "title": "Quantum Error Mitigation with Reinforcement Learning",
+      "track": "Quantum Computing",
+      "why_it_could_win": "Solves genuine hardware limitations in quantum computing, ticking the hard engineering pattern which judges heavily favor."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two competing Qiskit agents where one generates noisy quantum circuits and the other attempts to optimize and correct them autonomously.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NetworkX"
+      ],
+      "title": "Adversarial Quantum Circuit Generation",
+      "track": "Quantum Computing",
+      "why_it_could_win": "Leverages the winning adversarial agent pattern, applying game-theoretic agent behavior to quantum circuit optimization."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An automated toolkit that transforms classical graph datasets into quantum state vectors for faster kernel-based machine learning inside Qiskit.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy",
+        "Scikit-Learn"
+      ],
+      "title": "Qiskit-Native Graph Embedding Toolkit",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Directly tackles one of the 100 problem statements by providing a reusable data-processing utility tailored for QML pipelines."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An agentic workflow tool that translates business process diagrams into QUBO problems to solve resource allocation bottlenecks using QAOA via Qiskit.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NetworkX",
+        "BPMN-Parser"
+      ],
+      "title": "Quantum-Assisted BPMN Workflow Optimizer",
+      "track": "Quantum Computing",
+      "why_it_could_win": "Bridges enterprise business process management with cutting-edge quantum optimization, satisfying the practical problem-solving evaluation criteria."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

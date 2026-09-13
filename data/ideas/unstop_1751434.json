@@ -1,13 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:39:54.693171+05:30",
+  "generated_at": "2026-09-13T07:59:52.237801+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "civic"
+    ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "technical-depth",
       "impact",
-      "judge-pain"
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +18,95 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:1132337467",
+        "github:1170846981"
       ],
-      "pitch": "Inspired by the values of Swami Vivekananda, this platform uses NLP and LLMs to analyze student discussion forums, community service logs, and essay submissions to measure character development, empathy, and leadership growth over time.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ValuesGuard AI: Ethics and Character Analytics for Educational Institutions",
-      "track": "",
-      "why_it_could_win": "Directly aligns with the mission of the Ramakrishna Mission Vivekananda Institute of Values, the co-organizer of the hackathon, making it resonate deeply with the judges' core themes."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered logistics and matching application that connects lonely seniors in urban Delhi with nearby college student volunteers for social outings, temple visits, and medical check-ups.",
+      "pitch": "A multilingual value-based education and ethics storytelling platform inspired by Swami Vivekananda's teachings, delivering interactive ethical dilemmas and leadership scenarios to rural and urban school children via mobile web.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-        "OpenAI API"
+        "React",
+        "TailwindCSS",
+        "Gemini AI",
+        "Firebase"
       ],
-      "title": "ElderLink Delhi: Volunteer-Powered Senior Social and Healthcare Escort Network",
+      "title": "VivekaValues AI",
       "track": "",
-      "why_it_could_win": "Leverages a proven grand-prize-winning social impact pattern by addressing urban isolation and elder care directly relevant to the Delhi NCR demographic."
+      "why_it_could_win": "Directly aligns with the values and vision of the co-organizer, the Ramakrishna Mission Vivekananda Institute of Values, appealing directly to the cultural and educational ethos of the judging panel."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1346526259",
+        "github:1143576965"
       ],
-      "pitch": "An automated satellite imagery monitoring platform that detects illegal industrial dumping, unauthorized land use changes, and environmental violations across industrial zones in Delhi-NCR using computer vision.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "PyTorch"
-      ],
-      "title": "EcoAudit AI: Satellite-Based Industrial Land Compliance Monitor for NCR",
-      "track": "",
-      "why_it_could_win": "Tackles a pressing regional environmental pain point familiar to judges living and working in Delhi, following the runner-up satellite monitoring pattern."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A personalized nutrition and meal-planning web app tailored specifically for university mess menus and Indian traditional diets, optimizing for macro-nutrients and local affordability.",
+      "pitch": "A civic tech dashboard and reporting mobile application that uses computer vision to detect garbage hotspots, overflowing bins, and pollution sources across Delhi, automatically routing reports to local municipal authorities.",
       "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "TailwindCSS"
+        "React Native",
+        "OpenCV",
+        "Supabase"
       ],
-      "title": "ArogyaNutri: Regional AI Diet and Nutrition Advisor for Indian Universities",
+      "title": "DelhiClean AI",
       "track": "",
-      "why_it_could_win": "Follows the exact formula of the Hour Hackathon winner by building a localized health utility with immediate relevance to university students in the room."
+      "why_it_could_win": "Addresses pressing real-world environmental challenges in Delhi with a demonstrable, working prototype and clear measurable impact on civic cleanliness."
     },
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1170846981",
+        "github:1194555365"
       ],
-      "pitch": "A decentralized platform connecting DTU and Delhi university students with local MSMEs for short-term technical projects, featuring automated task verification and transparent escrow-style tracking.",
+      "pitch": "An offline-first vernacular AI teaching assistant designed for resource-constrained community schools, helping volunteer educators generate lesson plans and quizzes based on national curriculum standards in regional Indian languages.",
       "stack": [
-        "JavaScript",
+        "TypeScript",
         "Next.js",
-        "Supabase",
-        "TailwindCSS"
+        "Python",
+        "HuggingFace Transformers",
+        "SQLite"
       ],
-      "title": "SkillBridge Delhi: Autonomous Micro-Internship and Mentorship Marketplace",
+      "title": "GuruShikshak",
       "track": "",
-      "why_it_could_win": "Solves the employment and skill-gap crisis directly for students and local businesses in Delhi, appealing to the entrepreneurial spirit of DTU innovation cells."
+      "why_it_could_win": "Focuses on high-impact social welfare and education democratization, following proven winning patterns of impactful civic and community tools."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1228867095",
+        "github:1192028384"
+      ],
+      "pitch": "A voice-first regional language AI companion for elderly citizens in India that screens incoming phone calls and SMS for financial fraud and scam patterns, alerting both the senior and their designated family members.",
+      "stack": [
+        "Swift",
+        "Python",
+        "WebRTC",
+        "OpenAI Whisper",
+        "Cloudflare Workers"
+      ],
+      "title": "ElderSahayak",
+      "track": "",
+      "why_it_could_win": "Solves a deeply personal and urgent safety issue with advanced voice agents, echoing successful agentic hackathon entries that protect vulnerable populations."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1132337467",
+        "github:1194555365"
+      ],
+      "pitch": "A campus-to-community micro-volunteering and skill-matching platform that connects engineering students from DTU and technical institutes across India with local NGOs and community centers needing digital literacy and technical infrastructure help.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Mapbox"
+      ],
+      "title": "SkillSetu DTU",
+      "track": "",
+      "why_it_could_win": "Leverages the institutional context of DTU and national collaboration goals, showcasing a working local ecosystem dashboard that judges can test live during the event."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

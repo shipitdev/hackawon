@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:32:59.960986+05:30",
+  "generated_at": "2026-09-13T07:52:58.026821+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,10 +7,10 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "working-demo",
       "technical-depth",
-      "unique-data",
-      "working-demo"
+      "sponsor-tech",
+      "unique-data"
     ],
     "thin": false
   },
@@ -19,89 +19,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1329458499"
+        "github:1341712439",
+        "github:1228328106"
       ],
-      "pitch": "An autonomous data cleaning and incident response agent built on Amazon product datasets to automatically fix missing attributes, correct erroneous taxonomies, and generate pull requests for catalog updates.",
+      "pitch": "An automated pipeline using fast machine learning and LLMs to detect pricing errors, category misclassifications, and policy-violating product descriptions at scale across millions of Amazon listings.",
       "stack": [
         "Python",
-        "LangChain",
-        "Pandas",
-        "AWS Lambda",
-        "Claude"
-      ],
-      "title": "AmazonCatalogAgent",
-      "track": "",
-      "why_it_could_win": "Directly targets the core premise of the Amazon ML Challenge by working with Amazon-scale datasets and utilizing data-engineering agent patterns that previously won the DataHub Agent Hackathon."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "A video intelligence platform tailored for Amazon sellers to convert unstructured product unboxing and review videos into searchable feature tags, sentiment analytics, and compliance checklists.",
-      "stack": [
-        "Python",
-        "AWS Rekognition",
-        "OpenCV",
         "FastAPI",
-        "React"
+        "XGBoost",
+        "LangGraph",
+        "Streamlit"
       ],
-      "title": "AWSBuilderVision",
+      "title": "Amazon Catalog Quality & Anomaly Intelligence Suite",
       "track": "",
-      "why_it_could_win": "Replicates the winning strategy of the Data & Design Hackathon by tackling unstructured multimedia data and transforming it into enterprise-ready searchable assets."
+      "why_it_could_win": "Addresses Amazon's core business challenge of catalog hygiene using heavy ML techniques and fast tabular anomaly detection, reflecting patterns seen in winning enterprise diagnostic tools."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1207207353"
+        "github:1228328106"
       ],
-      "pitch": "A high-performance RAG and auto-embedding toolkit optimized for AWS database infrastructure to let internal Amazon category managers query vast vendor policies and historical sales trends instantly.",
+      "pitch": "A high-accuracy machine learning platform that predicts customer drop-off and lifetime value on Amazon retail datasets, featuring SHAP-based local and global model interpretability for business stakeholders.",
       "stack": [
         "Python",
-        "PostgreSQL",
-        "pgvector",
-        "LangChain",
-        "AWS Bedrock"
+        "XGBoost",
+        "SHAP",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "AmazonSemanticRAG",
+      "title": "Explainable Customer Churn & Lifetime Value Predictor",
       "track": "",
-      "why_it_could_win": "Leverages the proven architecture of database-native RAG systems that secured top placements in recent database-centric hackathons."
+      "why_it_could_win": "Combines high predictive accuracy on tabular e-commerce data with clinical-grade explainability dashboards, echoing past winning healthcare and ML metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An automated evaluation framework designed to audit Amazon recommendation and search ranking models for demographic and seller-tier bias, offering automated mitigation strategies.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "Next.js"
+      ],
+      "title": "FairLens E-Commerce Algorithmic Bias Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages fairness and bias detection algorithms which are critical for massive tech platforms operating under regulatory scrutiny, matching previous hackathon winning strategies."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1189359296"
+        "github:1341712439",
+        "github:985196561"
       ],
-      "pitch": "A multi-turn evaluation benchmark specifically designed to test the reasoning limits and hallucination rates of large language models when performing automated product categorization tasks for e-commerce.",
+      "pitch": "A multi-agent AWS infrastructure monitoring dashboard that automatically parses log anomalies and diagnoses runtime failures for cloud-hosted machine learning inference endpoints.",
       "stack": [
-        "Python",
-        "PyTorch",
-        "HuggingFace",
-        "Streamlit"
+        "TypeScript",
+        "Gemini API",
+        "LangGraph",
+        "Next.js",
+        "AWS SDK"
       ],
-      "title": "CatalogMetacognitionEval",
+      "title": "AWS Builder Center Automated Log & Error Diagnostic Agent",
       "track": "",
-      "why_it_could_win": "Adapts award-winning metacognition benchmark frameworks to a high-value e-commerce domain, appealing directly to ML judges looking for rigorous evaluation methodologies."
+      "why_it_could_win": "Directly integrates with the mandatory AWS Builder Center profile prerequisite, showcasing deep cloud-native architecture and real-time operational troubleshooting."
     },
     {
-      "build_hours": 40,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1363148261"
+        "github:1026027777",
+        "github:1200926140"
       ],
-      "pitch": "An autonomous forecasting agent that simulates market demand, competitor pricing, and supply chain bottlenecks for newly proposed private-label Amazon products before they are greenlit.",
+      "pitch": "A natural language interface that converts raw sales and inventory CSV queries into interactive, instant Tableau or Streamlit visualizations for Amazon merchants.",
       "stack": [
         "Python",
-        "AutoGPT",
-        "Streamlit",
-        "AWS S3",
-        "Pandas"
+        "FastAPI",
+        "Tableau REST API",
+        "OpenAI API",
+        "Streamlit"
       ],
-      "title": "AmazonExecutiveGreenlightAgent",
+      "title": "Text-to-Dashboard Analytics for Amazon Vendor Central",
       "track": "",
-      "why_it_could_win": "Implements the complex agentic studio and simulation executive pattern that won top honors at the Agentic Cinema Hackathon."
+      "why_it_could_win": "Provides an immediately demonstrable, end-to-end working product that solves tedious reporting friction for enterprise sellers on retail platforms."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

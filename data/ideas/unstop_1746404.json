@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:35:18.631923+05:30",
+  "generated_at": "2026-09-13T07:55:21.472465+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,81 +14,84 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1275874285"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered nutrition and health tracking platform designed specifically for college students on tight budgets, delivering personalized meal recommendations from local dining halls.",
+      "pitch": "An AI-powered multi-agent student support and compliance platform combining LangGraph, RAG, and personalized agents to audit Scope 3 carbon emissions for industrial manufacturing.",
       "stack": [
-        "Python",
+        "TypeScript",
+        "LangGraph",
         "Next.js",
-        "Gemini API"
+        "Python"
       ],
-      "title": "HealthScan AI",
-      "track": "Healthcare & Wellbeing",
-      "why_it_could_win": "Targets the healthcare and wellbeing track directly while addressing a problem the student and organizer judges feel themselves daily."
+      "title": "SupplyChain-Carbon-RAG",
+      "track": "Social Impact & Accessibility",
+      "why_it_could_win": "Aligns with the GreenNovation winning pattern by utilizing a multi-agent LangGraph architecture combined with localized RAG for corporate sustainability audits."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1183964401"
       ],
-      "pitch": "An automated compliance and risk detection tool for developer repositories that flags suspicious dependency injections and malicious commits using graph intelligence.",
+      "pitch": "An AI-powered no-code trading bot platform for building, copying, and executing momentum strategies on decentralized perpetual exchanges using automated triggers.",
       "stack": [
+        "Python",
         "TypeScript",
-        "LightGBM",
-        "Node.js"
+        "FastAPI"
       ],
-      "title": "CodeRoute AML",
-      "track": "Cybersecurity & Privacy",
-      "why_it_could_win": "Combines developer tooling with cybersecurity, a heavy-hitting combination for technical judges looking for complex engineering."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An AI-driven coordination app that matches isolated seniors in local communities with vetted volunteer drivers for essential errands and social outings.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "OpenAI API"
-      ],
-      "title": "ElderLink AI",
-      "track": "Social Impact & Accessibility",
-      "why_it_could_win": "Leverages a proven grand-prize-winning social impact formula with clear, measurable community benefits that appeal strongly to judges."
+      "title": "DeFi-Perp-CopyTrader",
+      "track": "Finance & Commerce",
+      "why_it_could_win": "Directly applies the technical blueprint of a hackathon grand prize winner by integrating automated execution layers with no-code strategy builders."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring dashboard that automatically flags unauthorized industrial land use and environmental violations for local municipalities.",
+      "pitch": "An automated healthcare insurance claim investigation platform combining graph intelligence and explainable gradient boosting to detect anomalies and billing fraud.",
       "stack": [
         "TypeScript",
+        "LightGBM",
         "Python",
-        "TensorFlow"
+        "NetworkX"
       ],
-      "title": "EcoSat Monitor",
-      "track": "Mobility & Urban Systems",
-      "why_it_could_win": "Addresses urban systems and mobility with hard computer vision processing, following the runner-up pattern for high-impact industrial monitoring."
+      "title": "MedClaim-AML-Shield",
+      "track": "Healthcare & Wellbeing",
+      "why_it_could_win": "Leverages the winning formula of graph-based anomaly detection used in high-stakes AML risk platforms to solve a critical healthcare auditing problem."
     },
     {
       "build_hours": 38,
       "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "AI-Powered Satellite Monitoring for Industrial Land Compliance and environmental degradation tracking using multi-spectral imagery processing.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "TensorFlow.js",
+        "PostGIS"
+      ],
+      "title": "Satellite-Land-Watch",
+      "track": "Mobility & Urban Systems",
+      "why_it_could_win": "Matches the runner-up engineering pattern at industrial tech hackathons by turning raw geospatial satellite data into real-time regulatory compliance dashboards."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace featuring secure escrow payments and instant settlement using USDC on the Base network.",
+      "pitch": "An autonomous AI agent marketplace with smart contract USDC escrow payments and agent-to-agent service settlements on a low-fee execution layer.",
       "stack": [
         "JavaScript",
+        "Solidity",
         "Base",
-        "USDC",
-        "Solidity"
+        "Node.js"
       ],
-      "title": "AgentMarket Base",
-      "track": "Finance & Commerce",
-      "why_it_could_win": "Capitalizes on cutting-edge agentic workflows and blockchain microtransactions, showcasing real technical integration that catches hackathon judges' eyes."
+      "title": "Agentic-USDC-Escrow",
+      "track": "Software & Developer Tools",
+      "why_it_could_win": "Follows a proven hackathon-winning architecture combining autonomous agent workflows with verifiable on-chain micro-transactions."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

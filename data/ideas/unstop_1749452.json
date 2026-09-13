@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:38:05.722129+05:30",
+  "generated_at": "2026-09-13T07:58:03.744515+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "An AI-powered risk detection and automated compliance platform tailored for industrial logistics and manufacturing supply chains facing unexpected bottlenecks and regulatory audits.",
+      "pitch": "An AI-powered satellite monitoring tool designed for industrial estates to automatically detect zoning violations, unauthorized land expansions, and environmental non-compliance.",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "LightGBM"
+        "Python",
+        "Satellite Imagery APIs"
       ],
-      "title": "SupplyChain-Guardian",
+      "title": "Industrial Land Compliance and Monitoring Engine",
       "track": "",
-      "why_it_could_win": "Directly targets the core premise of IndustrySolve: solving actual problems that real companies face every day, appealing strongly to a jury of industrial leaders."
+      "why_it_could_win": "Targeting real corporate industrial needs directly aligns with CSIDC/industrial development problem statements by turning complex geospatial data into actionable compliance reports for enterprise juries."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite and IoT data-fusion dashboard that tracks industrial land and factory emissions compliance, providing automated alerts for environmental regulation breaches.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "PostGIS",
-        "Gemini API"
-      ],
-      "title": "EcoMonitor-Industrial",
-      "track": "",
-      "why_it_could_win": "Matches the proven success pattern of industrial monitoring and compliance tooling that wins awards from regional economic and industrial development boards."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An enterprise-grade risk assessment platform for industrial asset financing that uses graph intelligence to flag fraudulent supplier networks and transaction anomalies.",
-      "stack": [
-        "TypeScript",
-        "AWS",
-        "Neo4j",
-        "Python"
-      ],
-      "title": "AssetShield-AML",
-      "track": "",
-      "why_it_could_win": "Leverages complex graph intelligence and financial risk patterns that consistently impress technical juries at innovation competitions."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive maintenance forecasting tool using Poisson regression and calibrated confidence intervals to anticipate industrial machinery failures before they occur.",
+      "pitch": "A predictive risk dashboard utilizing Poisson regression and time-series modeling to forecast operational bottlenecks, supply chain anomalies, and regulatory compliance incidents for manufacturing firms.",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "FastAPI",
         "React"
       ],
-      "title": "PredictOps-Incident",
+      "title": "Enterprise Supply Chain Incident Forecasting & Risk Auditor",
       "track": "",
-      "why_it_could_win": "Applies rigorous statistical modeling and forecasting techniques proven to win technical tracks where judges value rigorous data validation."
+      "why_it_could_win": "Brings rigorous, hard engineering and statistical modeling (Poisson GAM) to corporate operations, appealing strongly to enterprise judges looking for quantitative forecasting rather than basic UI wrappers."
     },
     {
-      "build_hours": 32,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1241231621"
+        "github:1181344931"
       ],
-      "pitch": "An automated vendor acquisition and reputation vetting platform that aggregates industrial compliance history, certifications, and past project performance into a single trust score.",
+      "pitch": "An intelligent graph-based risk investigation platform for B2B supply chains and corporate finance departments to screen suppliers, detect fraud networks, and flag illicit fund flows using explainable ML.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
+        "Python",
+        "Graph Databases",
+        "LightGBM"
       ],
-      "title": "VendorTrust-Engine",
+      "title": "Automated Industrial AML and Counterparty Risk Platform",
       "track": "",
-      "why_it_could_win": "Solves a persistent enterprise procurement pain point, providing clear economic benefit and measurable impact for corporate judges."
+      "why_it_could_win": "Demonstrates genuine technical depth by combining graph intelligence with explainable machine learning, a winning formula for enterprise risk management challenges."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1213911408"
+      ],
+      "pitch": "An autonomous AI agent marketplace tailored for industrial procurement, enabling automated vendor discovery, quotation comparison, and escrow-backed purchase order settlements.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "LangGraph"
+      ],
+      "title": "Autonomous B2B Procurement and Settlement Agent",
+      "track": "",
+      "why_it_could_win": "Applies proven autonomous agent frameworks to real enterprise purchasing workflows, directly addressing B2B transaction friction and operational overhead."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered wellness and posture monitoring platform built for industrial shift workers and corporate environments to deliver personalized ergonomic insights and injury prevention protocols.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "Enterprise Employee Health and Ergonomic Safety Assistant",
+      "track": "",
+      "why_it_could_win": "Solves a persistent enterprise HR and occupational health problem by packaging complex health telemetry into intuitive daily safety recommendations."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

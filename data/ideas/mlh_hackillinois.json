@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:25:09.683279+05:30",
+  "generated_at": "2026-09-13T07:45:33.026902+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +16,83 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An AI-powered predictive incident and emergency forecasting dashboard for the University of Illinois campus using Poisson regression and historical public safety logs.",
+      "pitch": "A predictive model for campus-wide facility maintenance issues and student support service bottlenecks using Poisson GAM and rolling backtests.",
       "stack": [
-        "Python",
         "Jupyter Notebook",
+        "Python",
         "Poisson-Regression",
-        "Streamlit"
+        "Next.js"
       ],
-      "title": "QuadSafe Illinois",
+      "title": "Campus Incident AI Forecasting Engine",
       "track": "",
-      "why_it_could_win": "Targets a pain familiar to students and organisers in the room by predicting campus safety incidents, following the pattern of building solutions for problems judges feel themselves."
+      "why_it_could_win": "Follows the exact technical pattern of the Apart Research AI Forecasting Hackathon winner by using rigorous statistical modeling rather than a generic wrapper."
     },
     {
-      "build_hours": 40,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1194555365"
+        "github:1181344931"
       ],
-      "pitch": "A localized volunteer-driven coordination app that connects elderly residents in Champaign-Urbana with student drivers for grocery runs and medical appointments.",
+      "pitch": "An AWS-powered risk detection platform combining graph intelligence and LightGBM to audit student organization funding requests and detect anomalies.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "PostgreSQL"
+        "AWS",
+        "LightGBM",
+        "Neo4j"
       ],
-      "title": "IlliniSeniors Outreach",
+      "title": "Student Grant AML and Risk Graph",
       "track": "",
-      "why_it_could_win": "Provides a clear measurable impact with concrete social and community benefit tailored directly to the local Urbana region."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph databases and machine learning models, matching the winning architecture of the DIGITIMES AI Innovation Hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace with USDC escrow payments on Base that automatically disburses hackathon team bounties upon verified GitHub PR merges.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Locus",
+        "USDC"
+      ],
+      "title": "Decentralized Hackathon Bounty Escrow",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the Synthesis Hackathon winning project by providing fully autonomous financial execution via escrow on Base."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A localized nutrition and wellness platform that analyzes dining hall menus to deliver personalized meal recommendations and micronutrient tracking for students.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Campus Dining AI Nutritionist",
+      "track": "",
+      "why_it_could_win": "Leverages hyper-local utility tailored directly to student life, echoing the practical, prize-winning health focus of the Mealzy 24-Hour Hackathon."
     },
     {
       "build_hours": 48,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite and aerial imagery monitoring tool to track campus and local industrial land compliance and green space conservation in Champaign County.",
+      "pitch": "AI-powered satellite image monitoring pipeline to detect heat loss and roof-mounted solar panel efficiency across university campus buildings.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "OpenCV",
+        "PostGIS"
       ],
-      "title": "CampusGreen Compliance",
+      "title": "GreenQuad Energy Monitoring Satellite Pipeline",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining geospatial data processing with computer vision for environmental monitoring."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-driven patient acquisition and trust engine optimized for local student health clinics and dental practices around the UIUC campus.",
-      "stack": [
-        "TypeScript",
-        "Gemini-API",
-        "Next.js",
-        "Prisma"
-      ],
-      "title": "MedMatch Champaign",
-      "track": "",
-      "why_it_could_win": "Solves a real-world local business pain point using cutting-edge generative AI APIs for rapid patient onboarding."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition and meal recommendation platform optimized for student budgets, dining hall menus, and dietary restrictions at UIUC.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "GradEats Nutrition",
-      "track": "",
-      "why_it_could_win": "Targets the daily lives of student judges and attendees by solving cheap, healthy eating on a college campus."
+      "why_it_could_win": "Replicates the technical computer vision and GIS integration that won the Xcelerate Hackathon runner-up spot."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }
