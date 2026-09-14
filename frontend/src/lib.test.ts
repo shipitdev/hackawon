@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { applyFilters, daysUntil, deadlineLabel, EMPTY_FILTERS, formatPrize, isUrgent, where } from "./lib";
+import {
+  applyFilters,
+  daysUntil,
+  deadlineLabel,
+  EMPTY_FILTERS,
+  formatDates,
+  formatPrize,
+  isUrgent,
+  where,
+} from "./lib";
 import type { Hackathon } from "./types";
 
 const NOW = new Date("2026-09-12T00:00:00Z");
@@ -36,6 +45,28 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     ...overrides,
   };
 }
+
+describe("formatDates", () => {
+  // These hold whatever zone the machine running the tests is in, which is the point: the build
+  // server is UTC and a visitor's browser is usually IST.
+  it("shows dates in India time, not the machine's", () => {
+    const h = make({ starts_at: "2026-07-31T18:30:00Z", ends_at: "2026-09-30T18:29:00Z" });
+    expect(formatDates(h)).toBe("1 Aug - 30 Sept");
+  });
+
+  it("collapses a one-day event judged by its India date", () => {
+    // 20:00 IST on 12 Sept to 04:00 IST on 13 Sept is the same UTC day but two India days.
+    const overnight = make({ starts_at: "2026-09-12T14:30:00Z", ends_at: "2026-09-12T22:30:00Z" });
+    expect(formatDates(overnight)).toBe("12 Sept - 13 Sept");
+    const sameDay = make({ starts_at: "2026-09-12T04:30:00Z", ends_at: "2026-09-12T12:30:00Z" });
+    expect(formatDates(sameDay)).toBe("12 Sept");
+  });
+
+  it("falls back to the registration deadline, also in India time", () => {
+    const h = make({ starts_at: null, reg_deadline: "2026-09-29T18:31:00Z" });
+    expect(formatDates(h)).toBe("Register by 30 Sept");
+  });
+});
 
 describe("deadlines", () => {
   it("counts whole days", () => {

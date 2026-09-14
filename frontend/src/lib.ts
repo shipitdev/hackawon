@@ -37,21 +37,34 @@ export function isUrgent(h: Hackathon, now = new Date()): boolean {
   return days !== null && days >= 0 && days <= 7;
 }
 
+/**
+ * Dates are shown in India time, whoever renders them.
+ *
+ * The static pages are rendered on a UTC build server, while the app renders in the visitor's
+ * browser. Formatting in the machine's own zone made them disagree for anything near midnight:
+ * Devfolio stores "1 Aug, 00:00 IST" as 2026-07-31T18:30Z, which the build printed as "31 Jul".
+ * Fixing the zone to the audience's makes both say the same thing. (A US event starting late in
+ * its evening can show the next day; for this site's readers that is the accurate date.)
+ */
+const DAY_MONTH: Intl.DateTimeFormatOptions = {
+  day: "numeric",
+  month: "short",
+  timeZone: "Asia/Kolkata",
+};
+
+const dayMonth = (iso: string) => new Date(iso).toLocaleDateString("en-IN", DAY_MONTH);
+
 export function formatDates(h: Hackathon): string {
   // Most Unstop listings publish no event start date, only a registration window. Showing the
   // deadline is honest and is the date a student acts on; inventing a start date is not.
   if (!h.starts_at) {
     if (!h.reg_deadline) return "Dates TBA";
-    const by = new Date(h.reg_deadline);
-    return `Register by ${by.toLocaleDateString("en-IN", { day: "numeric", month: "short" })}`;
+    return `Register by ${dayMonth(h.reg_deadline)}`;
   }
-  const start = new Date(h.starts_at);
-  const opts: Intl.DateTimeFormatOptions = { day: "numeric", month: "short" };
-  const startText = start.toLocaleDateString("en-IN", opts);
+  const startText = dayMonth(h.starts_at);
   if (!h.ends_at) return startText;
-  const end = new Date(h.ends_at);
-  if (start.toDateString() === end.toDateString()) return startText;
-  return `${startText} - ${end.toLocaleDateString("en-IN", opts)}`;
+  const endText = dayMonth(h.ends_at);
+  return startText === endText ? startText : `${startText} - ${endText}`;
 }
 
 export function formatPrize(h: Hackathon): string | null {
