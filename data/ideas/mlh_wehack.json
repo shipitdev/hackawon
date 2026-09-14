@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-13T07:49:03.381472+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:wehack",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "AI-powered satellite monitoring tool that automatically flags unauthorized industrial expansion and zoning violations using multimodal vision models and geographic data.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "Mapbox",
+        "Gemini API"
+      ],
+      "title": "GeoCompliance AI",
+      "track": "",
+      "why_it_could_win": "Leverages hard engineering by combining geospatial APIs with vision models, mirroring the technical complexity seen in winning projects like GeoNex-ATLAS."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace that negotiates micro-services between users and settles transactions securely using smart contract escrow.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "LangChain",
+        "Node.js"
+      ],
+      "title": "AgenticEscrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Focuses on fully functional autonomous agent interactions and secure settlement, following the proven architecture of Dispatch."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated Anti-Money Laundering risk detection and investigation platform that combines graph intelligence and explainable machine learning to flag illicit transactions.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "AWS"
+      ],
+      "title": "RiskGraph AML",
+      "track": "",
+      "why_it_could_win": "Employs rigorous data science models like LightGBM combined with graph networks, matching the winning formula of Bito."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition and wellness platform that delivers personalized meal recommendations and continuous health insights based on real-time biometric inputs.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "NutriSync AI",
+      "track": "",
+      "why_it_could_win": "Delivers an end-to-end consumer utility product with polished frontend and AI integration, successfully demonstrated by E-Foodiee-AI-Nutrition-Assistant."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive analytics dashboard utilizing Poisson regression and rolling backtests to forecast AI safety incidents and regulatory risks.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "IncidentCast",
+      "track": "",
+      "why_it_could_win": "Tackles a mathematically rigorous forecasting challenge with calibrated prediction intervals, following the exact strategy of the Apart Research AI Forecasting winner."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

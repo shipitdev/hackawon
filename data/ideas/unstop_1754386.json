@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-13T08:01:13.242018+00:00",
+  "grounding": {
+    "domains": [
+      "civic",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "unique-data"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754386",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1196410850",
+        "github:1326164711"
+      ],
+      "pitch": "A voice-first autonomous agent pipeline that listens to rural citizens calling via regular telephony in local dialects, files official grievances into public service delivery databases, and generates cryptographic tracking proofs.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Whisper API",
+        "Twilio"
+      ],
+      "title": "AshaVoice: Multilingual Gram Panchayat Grievance Agent",
+      "track": "Agentic AI For Billions",
+      "why_it_could_win": "Directly hits the Agentic AI For Billions track by solving public service delivery at scale with a voice-first interface, tapping into the public accountability angle seen in winning projects like onrecord."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1196410850",
+        "github:690893685"
+      ],
+      "pitch": "A localized web-scraping and computer vision agent pipeline that monitors regional mandi pricing anomalies alongside early-stage blight detection from low-res WhatsApp photos, sending synthesized SMS advisories to farmers.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "Bright Data",
+        "React"
+      ],
+      "title": "KisanGuard: Autonomous Multi-Agent Crop Disease and Market Arbitrage Scanner",
+      "track": "Agentic AI For Billions",
+      "why_it_could_win": "Combines hard engineering multi-agent pipelines with agricultural impact, explicitly aligning with the agricultural use-case examples highlighted in the hackathon's Agentic AI track."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1161237076",
+        "github:243065226"
+      ],
+      "pitch": "An edge-optimized mobile web app that instantly reads complex multilingual bus schedules, handwritten signboards, and public notices aloud using local OCR models without requiring continuous high-speed internet.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TensorFlow.js",
+        "TailwindCSS"
+      ],
+      "title": "SahayakScan: Offline-First Assistive OCR and Text-to-Speech for Visually Impaired Public Transit",
+      "track": "Main Track",
+      "why_it_could_win": "Addresses accessibility and assistive technology directly within the main impact criteria, standing out with a working, highly localized mobile-first demo."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1326164711"
+      ],
+      "pitch": "A localized transparency dashboard that tracks micro-allocation of public welfare funds down to district levels, attaching cryptographic audit seals to every milestone reported by community workers.",
+      "stack": [
+        "Python",
+        "Django",
+        "SQLite",
+        "React"
+      ],
+      "title": "NyayaLedger: Verifiable Public Scheme Fund Tracking",
+      "track": "Agentic AI For Billions",
+      "why_it_could_win": "Leverages the winning pattern of combining public accountability transparency with immutable record-keeping, targeting public institution use-cases."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An autonomous credit-scoring workflow that aggregates alternative transactional data—such as utility bill consistency and digital ledger entries—to generate fair, explainable loan approvals for street vendors.",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "VittiyaAI: Explainable Micro-Credit Risk Scoring Agent for Informal Vendors",
+      "track": "Agentic AI For Billions",
+      "why_it_could_win": "Mirrors the financial inclusion track focus while utilizing explainable AI architecture similar to successful AML and forecasting hackathon winners."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-13T07:45:24.187921+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hackhers-gsu",
+  "ideas": [
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered spatial monitoring and crowdsourced reporting platform for campus safety in Atlanta, utilizing satellite and GIS mapping to highlight poorly lit pedestrian routes.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "GIS API",
+        "Gemini API"
+      ],
+      "title": "Atlanta Campus Safety & Lighting Audit Agent",
+      "track": "",
+      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS by applying spatial intelligence to a real-world civic and campus safety problem, appealing directly to institutional judges at GSU."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A personalized meal planning and wellness app tailored specifically to campus dining hall menus and local student budgets in Atlanta.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "Student Health & Campus Dining Nutrition Optimizer",
+      "track": "",
+      "why_it_could_win": "Replicates the success of E-Foodiee by focusing on hyper-localized, highly practical personal health use cases that resonate immediately with student and faculty judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent academic advisor and student support ecosystem using LangGraph and RAG to help students navigate course prerequisites, financial aid deadlines, and department requirements.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Vector DB",
+        "Next.js"
+      ],
+      "title": "GSU Student Support Multi-Agent RAG Hub",
+      "track": "",
+      "why_it_could_win": "Adapts the winning formula of greennovation-ai-platform to solve administrative friction points specific to large universities like GSU."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating micro-transactions and escrow for student entrepreneurs and local Atlanta makers.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC SDK",
+        "Node.js"
+      ],
+      "title": "Atlanta Local Vendor Autonomous Micro-Marketplace",
+      "track": "",
+      "why_it_could_win": "Leverages the technical execution pattern of Dispatch by building agent-driven commerce workflows that showcase complex state management and payment logic."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive forecasting dashboard using Poisson regression and statistical modeling to anticipate maintenance bottlenecks and facility incidents across campus buildings.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "Campus Incident & Maintenance Forecasting Engine",
+      "track": "",
+      "why_it_could_win": "Employs rigorous predictive modeling and data calibration similar to the ai-incident-forecasting winner, proving technical depth beyond a simple wrapper."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

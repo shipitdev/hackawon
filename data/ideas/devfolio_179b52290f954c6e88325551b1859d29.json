@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-13T07:37:12.924188+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:179b52290f954c6e88325551b1859d29",
+  "ideas": [
+    {
+      "build_hours": 120,
+      "inspired_by": [
+        "github:784668009"
+      ],
+      "pitch": "An automated trading system deployed on Azure that continuously scans perpetual DEXs and centralized exchanges to execute delta-neutral funding rate arbitrage strategies.",
+      "stack": [
+        "Python",
+        "Azure Functions",
+        "Web3.py",
+        "CCXT"
+      ],
+      "title": "AzurePerp: Autonomous Multi-Exchange Funding Rate Arbitrage Engine",
+      "track": "Prize Pool",
+      "why_it_could_win": "Directly targets the core finance and trading thesis of Hefty-Hacks while leveraging Azure for reliable, low-latency cloud execution infrastructure."
+    },
+    {
+      "build_hours": 140,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace that executes over-the-counter options contracts using USDC escrow payments, preventing counterparty risk without manual mediation.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity"
+      ],
+      "title": "EventopiaFi: USDC Escrow Agent for Automated OTC Options Trading",
+      "track": "Prize Pool",
+      "why_it_could_win": "Integrates sponsor tooling from Eventopia while solving a critical execution and trust problem in decentralized financial derivatives."
+    },
+    {
+      "build_hours": 160,
+      "inspired_by": [
+        "github:980599492",
+        "github:1131796276"
+      ],
+      "pitch": "A self-custodial credit and risk engine that assesses under-collateralized lending limits using zero-knowledge identity proofs without revealing private portfolio balances.",
+      "stack": [
+        "TypeScript",
+        "Circom",
+        "Solidity",
+        "Next.js"
+      ],
+      "title": "ZeroKnowRisk: ZK-Identity Based Leveraged Credit Line",
+      "track": "Prize Pool",
+      "why_it_could_win": "Blends institutional risk management requirements with cutting-edge cryptographic compliance, appealing heavily to quants and judges looking for deep domain expertise."
+    },
+    {
+      "build_hours": 130,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A no-code platform allowing retail traders to prompt, backtest, and deploy complex quant strategies and cross-chain execution scripts directly onto perpetual markets.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "PerpNoCode: Natural Language Strategy Builder for Perpetuals",
+      "track": "Prize Pool",
+      "why_it_could_win": "Follows the exact blueprint of previous grand-prize-winning trading bots by lowering the barrier to entry for sophisticated financial tooling."
+    },
+    {
+      "build_hours": 150,
+      "inspired_by": [
+        "github:619126149",
+        "github:774198755"
+      ],
+      "pitch": "A micro-transaction cross-chain bridge optimized specifically for aggregating and arbitraging fractional residual token balances starting from $0.10.",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "Ethers.js",
+        "Node.js"
+      ],
+      "title": "MicroBridge Arbitrage: Cross-Chain Dust Liquidation Engine",
+      "track": "Prize Pool",
+      "why_it_could_win": "Focuses on high-frequency, low-value edge cases in decentralized liquidity that traditional bridges ignore, demonstrating exceptional engineering depth."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

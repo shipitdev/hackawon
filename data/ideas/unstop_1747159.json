@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-13T07:56:21.025931+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1747159",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A machine learning platform built for university professors and administrators at Chandigarh University to forecast student attendance drops and academic failure risks using historical engagement metrics and Poisson regression.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "FastAPI",
+        "Next.js"
+      ],
+      "title": "CampusPulse AI: Student Attendance & Academic Risk Predictor",
+      "track": "",
+      "why_it_could_win": "Targeting campus administration and real operational metrics appeals directly to the judges from Google Developer Groups on Campus who value practical utilities for academic environments."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered nutrition platform tailored for hostel messes to analyze daily meal menus, predict student nutritional deficiencies, and optimize bulk ordering using personalized Gemini API health insights.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "Mess-O-Meter: Smart Campus Dietary and Nutritional Optimizer",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable campus-wide problem at Chandigarh University hostels while demonstrating rapid implementation of Google's Gemini API within a 24-hour window."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1155558847"
+      ],
+      "pitch": "A multi-agent sustainability platform utilizing LangGraph and RAG to audit university building energy consumption, track waste disposal compliance, and generate automated sustainability reports for campus facilities.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "PostgreSQL"
+      ],
+      "title": "EcoCampus AI: Multi-Agent Energy Audit & Waste Monitoring System",
+      "track": "",
+      "why_it_could_win": "Combines a trendy multi-agent architecture with a high-impact institutional use case that resonates strongly with university sustainability initiatives and technical judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An interactive mapping platform for university estate management that leverages satellite imagery and GIS data to monitor unauthorized construction or land encroachment across Chandigarh University's expansive campus.",
+      "stack": [
+        "TypeScript",
+        "Mapbox GL",
+        "Node.js",
+        "PostGIS"
+      ],
+      "title": "CU-SafeGuard: Campus Geofenced Asset & Land Compliance Tracker",
+      "track": "",
+      "why_it_could_win": "Brings geospatial intelligence to an institutional setting, providing a visually striking demo that easily commands judge attention during a fast-paced offline pitching session."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous discovery engine that indexes faculty and student research papers across different departments at Chandigarh University to automatically suggest interdisciplinary collaboration projects and funding opportunities.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Vector Embeddings"
+      ],
+      "title": "PeerSync: Inter-Departmental Research Collaboration & Grant Matcher",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the hackathon's explicit encouragement of interdisciplinary and inter-specialization team formation among university students."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

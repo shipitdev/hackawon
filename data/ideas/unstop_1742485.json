@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-13T07:52:08.172293+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742485",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An autonomous agent that reads web-based compliance documents and orchestrates multi-step form submissions while running pre-deployment risk checks through BPMN workflows.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "bpmn",
+        "playwright"
+      ],
+      "title": "Anakin-BPMN Risk Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-step reasoning and web-browsing capabilities explicitly requested in the hackathon prompt while employing advanced agent governance patterns."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that sits in front of an Anakin Forge web-scraping agent, continuously optimizing its task routing via LLM-judge writebacks and exemplar indexing.",
+      "stack": [
+        "Python",
+        "llm-routing",
+        "qwen",
+        "semantic-router"
+      ],
+      "title": "Self-Improving Semantic Router for Web Agents",
+      "track": "",
+      "why_it_could_win": "Focuses on genuinely hard engineering by solving the routing overhead for autonomous agents that must quickly decide whether to scrape, click, or reason."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two autonomous browser agents play opposing roles—one acts as a chaotic user trying to break a target web application, and the other acts as an auditing agent discovering edge cases and UI flaws.",
+      "stack": [
+        "Python",
+        "adversarial-ai",
+        "playwright",
+        "llm"
+      ],
+      "title": "Adversarial UI Tester Agent",
+      "track": "",
+      "why_it_could_win": "Applies a proven winning pattern of multi-agent adversarial interaction to real web browsing tasks, directly fitting the requirement for agents that take real actions without human clicks."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An autonomous agent leveraging Model Context Protocol (MCP) servers to securely read live clinical portals, compare options, and execute multi-step administrative workflows end-to-end.",
+      "stack": [
+        "TypeScript",
+        "ai-agents",
+        "mcp",
+        "kubernetes"
+      ],
+      "title": "MCP Federated Medical Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates enterprise-grade agent architecture with strict context isolation, which stands out among basic wrapper chatbots in a web-and-action focused hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A lightweight web navigation agent integrated with efficient reasoning loops to drastically cut down token usage and latency when browsing multi-page enterprise dashboards.",
+      "stack": [
+        "Python",
+        "llm",
+        "rainbow",
+        "reinforcement-learning"
+      ],
+      "title": "Hyper-Efficient Reasoning Web Navigator",
+      "track": "",
+      "why_it_could_win": "Tackles the core bottleneck of autonomous web agents—token cost and reasoning latency—which judges evaluating practical utility will immediately value."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

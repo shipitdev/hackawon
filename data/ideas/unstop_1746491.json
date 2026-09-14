@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-09-13T07:55:39.426267+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746491",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive web-based sandbox for practicing company-style Online Assessments, featuring real-time evaluation of DSA problems like Longest Subarray With Equal 0s and 1s alongside automated DBMS and Computer Networks MCQs.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "H2 Database"
+      ],
+      "title": "JavaOA-Simulator",
+      "track": "",
+      "why_it_could_win": "Directly targets the core focus of the assessment format by providing a rigorous platform for practicing the exact types of DSA coding questions and technical MCQs evaluated in the exam."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A Java-backed visualization tool specifically designed to step through array and sliding window algorithms, such as finding minimum platforms and equal 0/1 subarrays, to aid conceptual mastery.",
+      "stack": [
+        "Java",
+        "JavaFX",
+        "Algorithms"
+      ],
+      "title": "DSA-Pattern-Visualizer",
+      "track": "",
+      "why_it_could_win": "Solves a core technical fundamental measured in the assessment by offering deep visualization into complex algorithmic state changes."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A robust command-line and web quiz engine targeting core Java concepts, multithreading, and memory management with instant performance analytics and conceptual breakdowns.",
+      "stack": [
+        "Java",
+        "JUnit",
+        "Maven"
+      ],
+      "title": "CoreJava-QuizEngine",
+      "track": "",
+      "why_it_could_win": "Directly addresses the high weightage of Java Programming MCQs in the assessment syllabus by reinforcing tricky core language concepts."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A spaced-repetition and dynamic testing platform focusing strictly on DBMS fundamentals and Computer Networks protocols to help students clear technical screening rounds.",
+      "stack": [
+        "Java",
+        "PostgreSQL",
+        "Spring"
+      ],
+      "title": "Network-DB-Flashcards",
+      "track": "",
+      "why_it_could_win": "Covers the technical MCQ domain requirements of the online assessment with targeted question banks and immediate feedback loops."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An individual performance analytics tracker that simulates online assessment constraints, timing, and negative marking patterns for Java developers preparing for technical evaluations.",
+      "stack": [
+        "Java",
+        "SQLite",
+        "Thymeleaf"
+      ],
+      "title": "OA-Performance-Tracker",
+      "track": "",
+      "why_it_could_win": "Aligns with the rigorous time management constraints and individual competition format required by company-style online assessments."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

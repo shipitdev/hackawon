@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-13T07:47:38.259523+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:makeuoft",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An offline acoustic mesh network using walkie-talkies and audio frequency modulation to transmit emergency transit delay alerts between subway stations without cellular reception.",
+      "stack": [
+        "TypeScript",
+        "hardware",
+        "radio",
+        "audio-processing"
+      ],
+      "title": "AcousticMesh Transit Alert",
+      "track": "",
+      "why_it_could_win": "Follows the proven hardware and offline communication pattern from ICHack where real radio and mesh implementations stand out dramatically against typical web apps."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI code review assistant running locally on a Raspberry Pi with an attached NPU accelerator to scan Python repositories without internet access.",
+      "stack": [
+        "Python",
+        "npu",
+        "onnx-runtime",
+        "fastapi"
+      ],
+      "title": "EdgeNPU Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Leverages the offline hardware execution pattern proven at Qualcomm Snapdragon Multiverse Hackathon, appealing to judges who value privacy and local inference."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A robotic waste sorting bin powered by a live camera feed and a micro-controller that uses a fast local ML classification model to sort recyclables instantly.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "TensorFlow-Lite"
+      ],
+      "title": "SmartBin Vision Classifier",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the robotics and edge-AI computer vision pattern that won awards at TechnoMorph Hackathon by delivering an engaging live physical demo."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A small autonomous rover equipped with ultrasonic sensors and SLAM mapping to navigate indoor hallways and deliver small items between campus labs.",
+      "stack": [
+        "C++",
+        "ROS2",
+        "lidar",
+        "stm32"
+      ],
+      "title": "Autonomous Campus Rover",
+      "track": "",
+      "why_it_could_win": "Builds on the physical autonomous robotics winning strategy seen at International Hackathon Quanta, which always captivates judges during live judging walk-throughs."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A lightweight edge defense monitor that detects unauthorized drone radio frequencies and triggers a deterministic mechanical lockdown gate without relying on cloud connectivity.",
+      "stack": [
+        "TypeScript",
+        "sdr",
+        "node-red",
+        "hardware-relay"
+      ],
+      "title": "EdgeJam Counter-UAS Monitor",
+      "track": "",
+      "why_it_could_win": "Adopts the robust edge-resilience and deterministic fail-safe engineering pattern that secured wins at the AWS Global Government Hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

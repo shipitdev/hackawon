@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-13T07:38:10.198332+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "ai-ml",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:528f2495b98b4f38ae41139390594a3a",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A recurring micro-payment escrow service built on BSV for autonomous AI agents paying other agents for continuous data feeds.",
+      "stack": [
+        "TypeScript",
+        "BSV SDK",
+        "Node.js",
+        "LangChain"
+      ],
+      "title": "BSV Agent Escrow Subscriptions",
+      "track": "BSV Track",
+      "why_it_could_win": "Directly targets the BSV Blockchain Track by implementing high-frequency, low-fee agentic micropayments which traditional chains cannot support economically."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1131796276",
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge proof authentication gateway allowing AI agents to prove creditworthiness before executing cross-chain service contracts.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "BSV SDK",
+        "Python"
+      ],
+      "title": "ZK-Gated Agent Negotiator",
+      "track": "BSV Track",
+      "why_it_could_win": "Combines hard cryptographic engineering with the agentic payments theme, mirroring winning ZK-auth patterns from recent hackathons."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated risk-scoring agent that monitors BSV transaction graphs in real-time to flag illicit agent-to-agent fund transfers using explainable heuristics.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "BSV SDK"
+      ],
+      "title": "Agentic AML Graph Watchdog",
+      "track": "BSV Track",
+      "why_it_could_win": "Showcases hard graph intelligence engineering applied to compliance, a major priority for enterprise sponsors evaluating agentic payment security."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1183964401",
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized exchange runner where autonomous multi-agent systems negotiate and execute arbitrage loops using instant BSV settlement rails.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "BSV SDK",
+        "FastAPI"
+      ],
+      "title": "Autonomous Arbitrage Agent Market",
+      "track": "BSV Track",
+      "why_it_could_win": "Leverages the winning formula of autonomous agent marketplaces combined with high-throughput financial execution engines."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1349346531"
+      ],
+      "pitch": "An AI options trading agent that autonomously locks collateral and settles payouts on-chain based on real-time volatility triggers.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "BSV SDK"
+      ],
+      "title": "Agentic Options Vault Settlement",
+      "track": "BSV Track",
+      "why_it_could_win": "Applies complex financial logic to agentic workflows, appealing to judges looking for advanced DeFi primitives integrated with AI."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

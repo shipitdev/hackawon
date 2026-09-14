@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-13T07:43:23.795349+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:bigred-hacks-2026",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A time-series forecasting dashboard for regional campus energy consumption and local renewable generation, leveraging Poisson regression and rolling backtests to predict peak load incidents and optimize clean energy dispatch.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "Ithaca Campus Microgrid Carbon Forecaster",
+      "track": "",
+      "why_it_could_win": "Follows the winning pattern of deploying complex econometric and statistical modeling (like Poisson GAMs seen in ai-incident-forecasting) to solve real institutional sustainability challenges."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An investigative graph intelligence platform combining LightGBM and network analysis to monitor commercial runoff and agricultural permit tracking around the Finger Lakes region.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "Cayuga Lake Watershed AML and Compliance Grapher",
+      "track": "",
+      "why_it_could_win": "Leverages the proven high-scoring architecture of combining graph intelligence and explainable machine learning models for risk detection and compliance investigation."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating localized produce supply chains using secure escrow transactions and automated agent bidding.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "Finger Lakes Ag-Tech Autonomous Micro-Marketplace",
+      "track": "",
+      "why_it_could_win": "Adapts the winning formula of autonomous agent marketplaces with trustless escrow mechanics to regional agricultural supply chains."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support and wellness platform combining LangGraph, RAG, and personalized AI nutrition planning tailored to college dining hall menus.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "Upstate New York Student Wellness & Nutrition Multi-Agent RAG",
+      "track": "",
+      "why_it_could_win": "Combines personalized wellness tracking with multi-agent student support frameworks that consistently win hackathons by solving direct student pain points."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite imagery monitoring tool that detects unauthorized industrial land usage changes and environmental zoning infractions in rural upstate counties.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "PostGIS"
+      ],
+      "title": "Industrial Land Compliance Satellite Sentinel for the Northeast",
+      "track": "",
+      "why_it_could_win": "Applies computer vision and geospatial intelligence to regulatory compliance monitoring, matching the successful track record of automated satellite auditing tools."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

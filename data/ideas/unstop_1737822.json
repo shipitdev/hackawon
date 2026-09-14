@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-13T07:51:27.805936+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "edtech",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1737822",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A smart school administration and attendance integration tool inspired by Code-X-Novas's own product ecosystem, combining smart attendance logging with real-time student sentiment feedback loops.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "VidyaOS Automated Attendance and Feedback Intelligence",
+      "track": "",
+      "why_it_could_win": "Code-X-Novas organizes the hackathon and focuses heavily on education technology platforms like VidyaOS 360 and SAS 360; aligning the project directly with their core business domain provides an immediate strategic advantage with judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual workflow orchestration engine that monitors automated school administrative processes and flags compliance and operational risks before deployment across institutional networks.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "bpmn",
+        "FastAPI"
+      ],
+      "title": "BPMN-Orchestrated EdTech Risk Workflow",
+      "track": "",
+      "why_it_could_win": "Mirrors the architectural rigor of UiPath AgentHack winners by using BPMN orchestration for practical enterprise and institutional risk management."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that classifies student and institutional support queries, routing them to appropriate automated workflows while self-improving via LLM-judge feedback loops.",
+      "stack": [
+        "Python",
+        "qwen",
+        "semantic-router",
+        "superlinked"
+      ],
+      "title": "Self-Improving Semantic Routing for EdTech Support",
+      "track": "",
+      "why_it_could_win": "Adapts the proven architecture of the Superlinked x Qwen Hackathon winner into the educational domain, demonstrating hard engineering in routing and prompt optimization."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two specialized business intelligence agents simulating client-vendor negotiations over service-level agreements to stress-test enterprise contracts before human deployment.",
+      "stack": [
+        "Python",
+        "adversarial-ai",
+        "LLM",
+        "FastAPI"
+      ],
+      "title": "Adversarial Business Intelligence Negotiation Agent",
+      "track": "",
+      "why_it_could_win": "Uses the complex multi-agent adversarial dynamic seen in the Datadog Self-Improving Agents Hack winner, showcasing advanced autonomous agent behavior."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A local developer tool that reviews student codebase submissions for security flaws and performance bottlenecks completely offline using hardware-accelerated NPUs.",
+      "stack": [
+        "Python",
+        "ONNX",
+        "LLM",
+        "Local NPU SDK"
+      ],
+      "title": "Offline-First NPU Code Reviewer for Student Projects",
+      "track": "",
+      "why_it_could_win": "Follows the hardware-adjacent, local-first utility pattern of the Qualcomm Snapdragon Multiverse runner-up, focusing on practical developer tooling."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

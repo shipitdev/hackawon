@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-14T08:03:55.817200+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755310",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An automated CLI tool that rapidly unpacks CTF challenge artifacts, parses obscure file formats, and scores the predictive utility of extracted tabular datasets in real-time.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "CTF-Dataset-Scout",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the 4-hour time constraint by automating the bottleneck phase of the CTF challenge before ML modeling begins."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1341712439"
+      ],
+      "pitch": "A robust data-cleaning pipeline designed specifically to automatically detect and discard malicious or intentionally bad decoy datasets uncovered during the CTF phase.",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "Isolation Forest",
+        "Streamlit"
+      ],
+      "title": "NoiseFilter-ML",
+      "track": "",
+      "why_it_could_win": "Directly addresses the core twist of the DataHeist prompt where teams receive poisoned or useless datasets mixed in with valid ones."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A fast-executing automated machine learning wrapper built for 4-hour hackathons that instantly engineers features from mixed data sources and stacks robust predictive models.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-Learn",
+        "Optuna"
+      ],
+      "title": "RapidEnsemble-X",
+      "track": "",
+      "why_it_could_win": "Maximizes predictive accuracy in a compressed timeframe, appealing directly to the judging criteria of building the strongest model quickly."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A centralized dashboard for teams to track discovered CTF clues, flag corrupted training variables, and visualize model performance metrics instantly.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Python"
+      ],
+      "title": "DataHeist-Command-Center",
+      "track": "",
+      "why_it_could_win": "Showcases a working live demo that keeps 1-3 member teams highly organized and efficient during a hyper-short 4-hour sprint."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An automated validation tool that explains feature importances and detects data leakage or severe bias in newly unlocked CTF datasets before they ruin the predictive model.",
+      "stack": [
+        "Python",
+        "SHAP",
+        "Pandas",
+        "FastAPI"
+      ],
+      "title": "FeatureAuditor",
+      "track": "",
+      "why_it_could_win": "Aligns with advanced evaluation techniques seen in winning hackathon projects by ensuring model reliability and preventing overfitting on bad data."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

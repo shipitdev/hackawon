@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-13T07:56:51.470858+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1747854",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1281918590"
+      ],
+      "pitch": "An IoT-based power monitoring system using ESP32 and current sensors that detects anomalous energy consumption spikes in department labs and provides real-time alerts.",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "MQTT",
+        "Streamlit"
+      ],
+      "title": "Smart Campus Energy Grid Monitor",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Targeting the Hardware & Software tracks with a low-cost, immediately deployable prototype fits the ECE & EE department vibe of the organizing institution."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision garbage segregation system running locally on a Raspberry Pi using a lightweight model to sort metal, plastic, and organic waste instantly without cloud dependency.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
+      ],
+      "title": "Edge AI Smart Dustbin Classifier",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Combines physical hardware components with embedded machine learning, echoing proven robotics winning patterns from previous hardware-heavy hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A localized data transmission system leveraging audio frequencies over standard walkie-talkies or speakers to pass short text packets in dead zones where cellular networks fail.",
+      "stack": [
+        "Python",
+        "Audio Processing",
+        "PyAudio",
+        "Hardware"
+      ],
+      "title": "Offline Acoustic Mesh Communicator",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Involves unusual physical build and complex signal processing that immediately stands out against standard web apps in a room of college judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A developer tool running small open-source language models locally via hardware NPUs to scan Python codebases for security vulnerabilities without sending code to external servers.",
+      "stack": [
+        "Python",
+        "ONNX Runtime",
+        "Transformers"
+      ],
+      "title": "NPU-Accelerated Offline Code Auditor",
+      "track": "Software Track",
+      "why_it_could_win": "Leverages local AI hardware execution and targets the growing demand for secure, offline, privacy-first developer tools."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A compact hardware debugging peripheral built on an FPGA development board that captures, decodes, and displays serial communication packets directly on an attached OLED screen.",
+      "stack": [
+        "Verilog",
+        "FPGA",
+        "Embedded C"
+      ],
+      "title": "FPGA-Based UART Protocol Analyzer",
+      "track": "Hardware Track",
+      "why_it_could_win": "Directly aligns with the ECE & EE organizing departments' core focus on VLSI design and hardware testing, appealing heavily to technical faculty judges."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

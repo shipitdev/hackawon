@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-13T07:44:38.267717+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hack-ncstate",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A Poisson regression and time-series forecasting dashboard predicting peak energy demand and infrastructure strain across North Carolina State University buildings using historical meter data.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Poisson-Regression",
+        "Streamlit"
+      ],
+      "title": "NCState-Campus-Energy-Grid-Forecaster",
+      "track": "",
+      "why_it_could_win": "Leverages the proven statistical forecasting pattern from the Apart Research AI Forecasting winner, applying hard domain modeling to local university utility data."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite imagery monitoring platform that automatically flags unauthorized industrial land use and environmental compliance breaches in Wake County.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Mapbox",
+        "OpenCV"
+      ],
+      "title": "Wolfpack-Compliance-Sentinel",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact technical architecture of the GeoNex-ATLAS runner-up by combining geospatial data APIs with computer vision models for automated auditing."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1183964401",
+        "github:1185920891"
+      ],
+      "pitch": "A localized no-code trading and automated dispatch platform enabling peer-to-peer solar energy credit sharing for North Carolina micro-communities using smart contracts.",
+      "stack": [
+        "Python",
+        "Solidity",
+        "Base",
+        "Next.js"
+      ],
+      "title": "Raleigh-Micro-Grid-Trading",
+      "track": "",
+      "why_it_could_win": "Combines the automated agent execution mechanics seen in the ClashX trading platform with decentralized asset escrow."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent RAG student support platform tailored to NC State academic advising data, providing personalized curriculum planning and mental health resource triage.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "Student-Wellbeing-Multiagent-Advisor",
+      "track": "",
+      "why_it_could_win": "Replicates the winning multi-agent architecture and LangGraph orchestration framework used by the GreenNovation AI platform."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered anti-money laundering risk investigation platform utilizing graph intelligence and explainable gradient boosting models tailored for local credit unions.",
+      "stack": [
+        "TypeScript",
+        "AWS",
+        "LightGBM",
+        "Neo4j"
+      ],
+      "title": "Triangle-Fintech-Risk-Graph",
+      "track": "",
+      "why_it_could_win": "Adopts the graph intelligence and explainable Focal LightGBM architecture that secured first place in the DIGITIMES AI Innovation Hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

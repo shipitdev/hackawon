@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-09-13T07:58:30.530897+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749969",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated market research engine tailored for Startup Street's ideation phase, combining web scraping and LLMs to instantly calculate Total Addressable Market (TAM) and competitor density from live data.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "ValuCheck AI Market Validation & TAM Scraper",
+      "track": "",
+      "why_it_could_win": "Since Startup Street explicitly emphasizes business model development and market validation during Day 1, this tool directly helps judges evaluate the viability of other teams' business plans."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An automated carbon footprint and sustainability compliance dashboard designed to help early-stage startups audit their operations and generate green-credential pitches for investors.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph"
+      ],
+      "title": "GreenNovate Business Carbon Ledger",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-agent student platform architecture from past winning hacks to automate heavy regulatory paperwork, appealing to the entrepreneurial focus of the event."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A platform that ingests unstructured early-stage startup metrics and automatically builds a data-backed Shark Tank-style pitch deck complete with predicted customer acquisition costs.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "PitchDeck AI Trust & Traction Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the Shark Tank-style final pitch format on Day 2 by turning raw project ideas into polished venture pitches that judges can easily evaluate."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A satellite and geospatial data monitoring tool that tracks industrial land and agricultural supply chain compliance to mitigate operational risks for agritech startups.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Satellite APIs"
+      ],
+      "title": "AgriChain Risk & Compliance Monitor",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining geospatial APIs with compliance algorithms, mimicking successful technical implementations from past hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered risk detection and financial modeling sandbox that lets early-stage fintech startups run stress tests and present bulletproof risk assessments to angel investors.",
+      "stack": [
+        "TypeScript",
+        "AWS",
+        "LightGBM"
+      ],
+      "title": "FinSight AML Risk & Pitch Simulator",
+      "track": "",
+      "why_it_could_win": "Utilizes a graph intelligence and risk evaluation stack proven to win 1st place at intense innovation hackathons, providing a robust business-to-business product demo."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

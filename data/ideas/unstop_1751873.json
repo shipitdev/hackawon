@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-13T08:00:05.340901+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1751873",
+  "ideas": [
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1181344931"
+      ],
+      "pitch": "A multi-agent autonomous workflow that scans local business operations, invoices, and regulatory updates to automatically generate compliance filings and flag financial risks.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Python"
+      ],
+      "title": "Agentic Compliance Sentinel for MSMEs",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track by building a multi-agent system that reasons over tools and documents rather than just responding to chat inputs, which appeals to judges looking for autonomous capability."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool that automatically analyzes temporal raster data and industrial boundaries to detect unauthorized land usage and environmental zoning violations.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostGIS",
+        "TensorFlow"
+      ],
+      "title": "AgroStream Satellite Land Audit",
+      "track": "Open Innovation",
+      "why_it_could_win": "Employs heavy technical execution combining geospatial APIs with computer vision models, mirroring winning projects that solved difficult engineering and monitoring tasks."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous agent marketplace where micro-agents execute data scraping, invoice parsing, and summarization tasks, settling payouts instantly via crypto escrow.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "OpenAI API"
+      ],
+      "title": "AutoDispatch Micro-Tasker",
+      "track": "Everyday Automation",
+      "why_it_could_win": "Leverages the Everyday Automation track by productizing utility tasks into autonomous agents that complete real operational workflows without human bottlenecks."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A probabilistic forecasting tool using Poisson regression models to predict localized supply chain bottlenecks, providing logistic managers with calibrated prediction intervals.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Pandas"
+      ],
+      "title": "Supply Chain Incident Forecaster",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates rigorous quantitative modeling and statistical validation, an engineering-heavy approach proven to win competitive data-focused tracks."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An agentic system designed for specialized healthcare clinics that handles patient acquisition, trust-building conversational intake, and automated record triage securely.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Autonomous Clinic Intake & Trust Engine",
+      "track": "Agentic AI",
+      "why_it_could_win": "Solves a high-friction vertical workflow with immediate commercial viability, combining specialized LLM agents with secure patient data management."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-13T07:52:12.715148+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742751",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A standalone interactive browser extension and parser that steps through complex graph and dynamic programming solutions line by line, visualizing the state transitions and memory allocations during execution.",
+      "stack": [
+        "JavaScript",
+        "TypeScript",
+        "HTML5 Canvas",
+        "Python"
+      ],
+      "title": "CP-Visualizer & Debugger Engine",
+      "track": "",
+      "why_it_could_win": "Targeted directly at competitive programmers participating in the Tech Zephyr 4.0 CP Contest, offering immediate utility for analyzing complex algorithms during or after the contest."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A machine learning model trained on competitive programming submissions that predicts whether a given Python or C++ solution will pass time and memory limits based on its abstract syntax tree and loop structures.",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "AST Parser",
+        "FastAPI"
+      ],
+      "title": "Algorithmic Complexity Predictor",
+      "track": "",
+      "why_it_could_win": "Leverages genuine algorithmic engineering and technical depth, aligning with patterns seen in winning submissions that solve hard technical challenges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent companion tool that analyzes a coder's submission history on GFG and CodeForces, identifies weak algorithmic patterns, and automatically curates a personalized upsolving list with hints instead of full solutions.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "CodeForces/GFG Upsolving Companion",
+      "track": "",
+      "why_it_could_win": "Provides high utility for the exact demographic of competitive programming students participating in this individual contest format."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "A real-time 1v1 coding sandbox allowing solo participants to challenge peers to rapid 15-minute problem-solving sprints with automated test case evaluation.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Node.js",
+        "Docker"
+      ],
+      "title": "CP Duel Matchmaking Sandbox",
+      "track": "",
+      "why_it_could_win": "Enhances the competitive programming experience of the contest by adding a live interactive sparring feature that appeals to participants wanting extra practice."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A command-line tool for competitive programmers that quickly generates randomized edge cases and compares a slow brute-force solution against an optimized solution to catch edge-case bugs before submission.",
+      "stack": [
+        "Python",
+        "Click",
+        "Subprocess"
+      ],
+      "title": "Contest Stress-Tester CLI",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, highly practical pain point for solo developers participating in fast-paced timed coding contests."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

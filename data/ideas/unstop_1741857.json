@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-13T07:51:45.623826+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1741857",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring pipeline that cross-references multi-spectral spatial imagery with state environmental databases to automatically detect industrial zoning violations and illegal waste dumping.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "PostGIS",
+        "Gemini"
+      ],
+      "title": "EcoCompliant-SAT",
+      "track": "",
+      "why_it_could_win": "Targeting the Data Science department's focus on industry, government, and NGO problem statements, this leverages high-impact geospatial data analysis proven by previous satellite monitoring winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1341712439"
+      ],
+      "pitch": "An automated data lineage and incident response platform tailored for agricultural supply chain logistics, detecting sensor anomalies and automatically generating root-cause audit trails.",
+      "stack": [
+        "Python",
+        "AI Agents",
+        "Claude",
+        "Data Engineering",
+        "TimescaleDB"
+      ],
+      "title": "AgriTrace-Lineage",
+      "track": "",
+      "why_it_could_win": "Combines hard engineering in data pipeline telemetry with real-world utility for agricultural NGOs and government oversight bodies."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A clinical decision support dashboard predicting patient readmission rates using tabular data models, paired with SHAP values to provide doctors with real-time explainable risk factors.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "MediExplain-XGB",
+      "track": "",
+      "why_it_could_win": "Addresses critical healthcare infrastructure challenges demanded by domain experts while guaranteeing strict clinical interpretability via transparent ML tooling."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A standalone fairness and bias auditing platform designed to scan student placement and resume-screening algorithms for demographic bias, generating immediate mitigation reports.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AI Fairness",
+        "Bias Mitigation"
+      ],
+      "title": "FairLens-Campus",
+      "track": "",
+      "why_it_could_win": "Presents a crucial governance and ethical AI tool that directly appeals to academic committees and societal impact evaluation metrics."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A localized video intelligence platform that ingests unstructured public assembly or parliamentary proceedings, transcribing and indexing key policy discussions into a fully searchable knowledge graph.",
+      "stack": [
+        "HTML",
+        "Python",
+        "Vector Search",
+        "Whisper API"
+      ],
+      "title": "GovVideo-Index",
+      "track": "",
+      "why_it_could_win": "Solves real-world document and media accessibility pain points for government organizations and public administrative bodies."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

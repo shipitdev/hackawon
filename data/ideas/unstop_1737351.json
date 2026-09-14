@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-09-13T07:51:18.308362+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1737351",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A rapid prototyping tool that compiles natural language prompts into production-ready web application boilerplate within minutes for the 8-hour sprint.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "QuickGen AI Pipeline",
+      "track": "",
+      "why_it_could_win": "Targeted specifically at the ultra-short 8-hour constraint of HackDay 1.0, prioritizing speed and instant working utility over complex features."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1092573500"
+      ],
+      "pitch": "An autonomous multi-agent system that analyzes GitHub pull requests and provides comprehensive security and style audits instantly.",
+      "stack": [
+        "TypeScript",
+        "OpenAI API",
+        "Node.js"
+      ],
+      "title": "Agentic Peer Reviewer",
+      "track": "",
+      "why_it_could_win": "Leverages the trend of AI agents solving developer workflow problems, highly appealing to the hackathon's developer-centric audience."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1209618925"
+      ],
+      "pitch": "An AI-powered knowledge retrieval assistant that ingests API documentation and answers developer queries via an embedded widget.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "InstantDoc Concierge",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable pain point for international hackathon participants trying to quickly learn new tools under a strict time limit."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A streamlined global time zone coordination and synchronized countdown timer app designed explicitly for remote hackathon teams.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Global Pitch Timer",
+      "track": "",
+      "why_it_could_win": "Addresses the specific logistics of a global online hackathon where participants struggle with tight deadlines across different time zones."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:941346152"
+      ],
+      "pitch": "A zero-config dashboard that transforms raw JSON endpoints into interactive charts instantly through a single-line embedding.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Chart.js"
+      ],
+      "title": "FlashData Visualizer",
+      "track": "",
+      "why_it_could_win": "Delivers immediate visual impact during judging demos, which is critical when evaluators are reviewing dozens of projects submitted in a single day."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

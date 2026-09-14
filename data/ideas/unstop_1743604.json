@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-13T07:52:58.026821+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1743604",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1228328106"
+      ],
+      "pitch": "An automated pipeline using fast machine learning and LLMs to detect pricing errors, category misclassifications, and policy-violating product descriptions at scale across millions of Amazon listings.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "XGBoost",
+        "LangGraph",
+        "Streamlit"
+      ],
+      "title": "Amazon Catalog Quality & Anomaly Intelligence Suite",
+      "track": "",
+      "why_it_could_win": "Addresses Amazon's core business challenge of catalog hygiene using heavy ML techniques and fast tabular anomaly detection, reflecting patterns seen in winning enterprise diagnostic tools."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A high-accuracy machine learning platform that predicts customer drop-off and lifetime value on Amazon retail datasets, featuring SHAP-based local and global model interpretability for business stakeholders.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "Explainable Customer Churn & Lifetime Value Predictor",
+      "track": "",
+      "why_it_could_win": "Combines high predictive accuracy on tabular e-commerce data with clinical-grade explainability dashboards, echoing past winning healthcare and ML metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An automated evaluation framework designed to audit Amazon recommendation and search ranking models for demographic and seller-tier bias, offering automated mitigation strategies.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "Next.js"
+      ],
+      "title": "FairLens E-Commerce Algorithmic Bias Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages fairness and bias detection algorithms which are critical for massive tech platforms operating under regulatory scrutiny, matching previous hackathon winning strategies."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "A multi-agent AWS infrastructure monitoring dashboard that automatically parses log anomalies and diagnoses runtime failures for cloud-hosted machine learning inference endpoints.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "LangGraph",
+        "Next.js",
+        "AWS SDK"
+      ],
+      "title": "AWS Builder Center Automated Log & Error Diagnostic Agent",
+      "track": "",
+      "why_it_could_win": "Directly integrates with the mandatory AWS Builder Center profile prerequisite, showcasing deep cloud-native architecture and real-time operational troubleshooting."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1026027777",
+        "github:1200926140"
+      ],
+      "pitch": "A natural language interface that converts raw sales and inventory CSV queries into interactive, instant Tableau or Streamlit visualizations for Amazon merchants.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Tableau REST API",
+        "OpenAI API",
+        "Streamlit"
+      ],
+      "title": "Text-to-Dashboard Analytics for Amazon Vendor Central",
+      "track": "",
+      "why_it_could_win": "Provides an immediately demonstrable, end-to-end working product that solves tedious reporting friction for enterprise sellers on retail platforms."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-13T07:59:15.963910+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750621",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1188682384",
+        "github:1208011447"
+      ],
+      "pitch": "A privacy-preserving local gateway that wraps autonomous AI agents with zero-knowledge proof verification for sensitive tool executions, ensuring agents cannot leak secret tokens or credentials during enterprise task execution.",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "Vercel AI SDK",
+        "Base-chain"
+      ],
+      "title": "AegisNode: Zero-Trust Encrypted AI Agent Gateway",
+      "track": "CIPHER — Cybersecurity & Digital Trust",
+      "why_it_could_win": "Targets the CIPHER track by addressing AI trust and security, combining ZK-gating concepts proven in recent hackathons with practical enterprise defense-in-depth."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1284625256",
+        "github:1161237076"
+      ],
+      "pitch": "An edge-deployed tracking controller for low-cost drone defense utilizing a deterministic engagement gate and local lightweight LLM verification, ensuring zero reliance on active cloud infrastructure during comms blackouts.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Amazon Bedrock",
+        "OpenCV"
+      ],
+      "title": "AutoSentry: Jam-Resilient Edge Counter-UAS Controller",
+      "track": "APEX — Autonomous Intelligence & AI Agents",
+      "why_it_could_win": "Directly hits the APEX and CIPHER tracks with hard defense-tech engineering, following the proven blueprint of tactical edge-compute systems."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A high-performance transaction monitoring tool utilizing graph intelligence and lightweight gradient boosting to flag synthetic identity fraud rings and multi-hop money laundering in real-time.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "GraphAML: Local Network Risk Mapper for Digital Banking",
+      "track": "CIPHER — Cybersecurity & Digital Trust",
+      "why_it_could_win": "Mirrors the exact stack and domain expertise of 1st-place anti-money laundering platforms by focusing on interpretable graph features that financial judges appreciate."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An IoT and optimization platform that models village-level water tables and predicts scarcity using climatic indicators, automating fair distribution valves to build regional climate resilience.",
+      "stack": [
+        "Python",
+        "React.js",
+        "Pandas",
+        "FastAPI"
+      ],
+      "title": "Pragati-Grid: Decentralized Micro-Watershed Resource Allocator",
+      "track": "TERRA — Planet, Climate & Resilience",
+      "why_it_could_win": "Tailor-made for the TERRA and PRAGATI tracks by solving a localized, high-impact Indian infrastructure problem with tangible environmental metrics."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A CLI and web dashboard that parses local repositories to instantly generate architecture docs, dependency risk trees, and compliance reports specifically tuned for government and enterprise auditing standards.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React.js",
+        "AST parser"
+      ],
+      "title": "RepoDoc-Sentry: Automated Codebase Security & Documentation Auditor",
+      "track": "PRAGATI — Technology for National Transformation",
+      "why_it_could_win": "Builds on the proven success of automated developer productivity and compliance tools that secure top spots in digital transformation hackathons."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

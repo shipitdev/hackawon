@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-09-13T07:55:34.519504+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746479",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive execution visualizer for algorithmic problem solving that traces hidden test cases and highlights data structure mutations in real-time.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Ast"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Aligns with the core evaluation of algorithmic problem-solving and efficiency by giving candidates a tool to debug hidden test case failures instantly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated domain-based MCQ and flashcard generator that parses computer science textbooks to create targeted tests for programming fundamentals.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CS-Concept Synthesizer",
+      "track": "",
+      "why_it_could_win": "Directly targets the domain-based MCQs and programming language concepts tested in the technical assessment structure."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline code analysis utility that evaluates Python and C++ solutions for time and space complexity bottlenecks before submission.",
+      "stack": [
+        "Python",
+        "Numpy"
+      ],
+      "title": "ComplexityOptimizer",
+      "track": "",
+      "why_it_could_win": "Solves the exact constraint of code efficiency evaluation against hidden test cases without relying on slow external APIs."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A sandboxed environment designed for solo developers to test custom implementations of complex data structures under strict time and memory limits.",
+      "stack": [
+        "TypeScript",
+        "Docker"
+      ],
+      "title": "DataStruct Playground",
+      "track": "",
+      "why_it_could_win": "Matches the solo assessment format and directly addresses the requirement for rigorous testing of core computer science fundamentals."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A language-specific code reasoner that flags subtle runtime errors and edge-case bugs common in technical online assessments.",
+      "stack": [
+        "Python",
+        "LLM"
+      ],
+      "title": "SyntaxGuard AI",
+      "track": "",
+      "why_it_could_win": "Leverages code reasoning evaluation patterns to help solo candidates eliminate silly syntax and logic mistakes under time pressure."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-13T07:42:59.799862+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "web3",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:d1b100bab969429eb9bd286cfac13f52",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:614169755",
+        "github:453300418"
+      ],
+      "pitch": "A decentralized medical history storage system that uses zero-knowledge proofs to let patients share specific health credentials with doctors without revealing their entire medical background.",
+      "stack": [
+        "Solidity",
+        "React",
+        "JavaScript",
+        "zero-knowledge-proofs"
+      ],
+      "title": "MediProof ZK Records",
+      "track": "Healthcare",
+      "why_it_could_win": "Combines Healthcare and Web3/Blockchain tracks while leveraging hard engineering patterns seen in winning ZK projects like UC Berkeley ZKP Hackathon entries."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A ZK-gated community platform for HackBIOS participants where human developers and autonomous AI agents can collaboratively review code while keeping implementation secrets hidden.",
+      "stack": [
+        "TypeScript",
+        "ai-agents",
+        "base-chain",
+        "noir-lang"
+      ],
+      "title": "AgentStoa Junwani",
+      "track": "Open Innovation",
+      "why_it_could_win": "Aligns directly with the Open Innovation and AI/ML tracks by implementing advanced AI agents and cryptographic privacy mechanics proven at the Synthesis Hackathon."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:776580131"
+      ],
+      "pitch": "A secure multi-party computation collaboration platform built for EdTech assignments, allowing students to submit collaborative code without exposing individual answers to peers.",
+      "stack": [
+        "Rust",
+        "TypeScript",
+        "filecoin"
+      ],
+      "title": "HermitEd Secure Multi-Party Classroom",
+      "track": "EdTech",
+      "why_it_could_win": "Targets the EdTech track by applying heavy privacy-preserving multi-party computation patterns that previously won the Filecoin data economy hackathon."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:609345126"
+      ],
+      "pitch": "A decentralized authentication and certificate issuance dApp for educational institutions running on Solana to prevent credential fraud during hackathon submissions.",
+      "stack": [
+        "JavaScript",
+        "Solana",
+        "React"
+      ],
+      "title": "SolAuth Campus Credentials",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Fits the Cybersecurity and Web Development tracks using fast, reliable smart contract authentication patterns from Superteam Turkey Solana Hackathon winners."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:633718399"
+      ],
+      "pitch": "A decentralized privacy-first crypto asset management and automated inheritance wallet utilizing zero-knowledge cryptographic primitives.",
+      "stack": [
+        "TypeScript",
+        "ZKSync",
+        "Solidity"
+      ],
+      "title": "WillWallet FinTech Privacy Guard",
+      "track": "FinTech",
+      "why_it_could_win": "Speaks directly to the FinTech track by implementing advanced privacy-preserving transaction protocols proven at the ETH Privacy Istanbul Hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
