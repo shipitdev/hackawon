@@ -1,138 +1,132 @@
-import { Suspense, lazy, useEffect, useRef, useState } from "react";
+import { ArrowDown, ArrowRight } from "@phosphor-icons/react";
+import { daysUntil, where } from "./lib";
+import type { Hackathon } from "./types";
 
-const LiquidHero = lazy(() => import("./LiquidHero"));
-
-/**
- * Decides whether this device should get the shader at all, and never lets that decision hold up
- * the page. The CSS gradient below is what everyone sees first; WebGL fades in over it.
- */
-function useWantsShader(): boolean {
-  const [wants, setWants] = useState(false);
-
-  useEffect(() => {
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    // `saveData` is on by default for a lot of Indian mobile users — respect it.
-    const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
-    const thrifty = connection?.saveData === true;
-    const weak = (navigator.hardwareConcurrency ?? 8) <= 4;
-
-    let webgl = false;
-    try {
-      const canvas = document.createElement("canvas");
-      webgl = Boolean(canvas.getContext("webgl2") ?? canvas.getContext("webgl"));
-    } catch {
-      webgl = false;
-    }
-
-    if (reduced || thrifty || weak || !webgl) return;
-
-    // Wait for the browser to go quiet so the shader never competes with first paint.
-    const idle = window.requestIdleCallback ?? ((cb: () => void) => window.setTimeout(cb, 400));
-    const handle = idle(() => setWants(true));
-    return () => window.clearTimeout(handle as number);
-  }, []);
-
-  return wants;
+function daysLeft(h: Hackathon): string {
+  const d = daysUntil(h.reg_deadline) ?? 0;
+  return d === 0 ? "Today" : d === 1 ? "1 day" : `${d} days`;
 }
 
+/**
+ * Value proposition on the left, the most time-sensitive real listings on the right.
+ *
+ * The right panel is the hero's visual on purpose: for a student the most useful thing on the
+ * page is "what closes this week", so it is shown before anything else rather than illustrated.
+ */
 export function Hero({
   count,
   winners,
-  topics,
+  closing,
+  closingTotal,
+  loading,
+  onOpen,
+  onSeeClosing,
 }: {
   count: number;
   winners: number;
-  topics: number;
+  closing: Hackathon[];
+  closingTotal: number;
+  loading: boolean;
+  onOpen: (h: Hackathon) => void;
+  onSeeClosing: () => void;
 }) {
-  const wantsShader = useWantsShader();
-  const [lit, setLit] = useState(false);
-  const [onScreen, setOnScreen] = useState(true);
-  const section = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    if (!wantsShader) return;
-    // A timer, not requestAnimationFrame: rAF never fires while a tab is in the background, which
-    // would leave the canvas stuck at opacity 0 for anyone who opens the site in a new tab.
-    const id = window.setTimeout(() => setLit(true), 80);
-    return () => window.clearTimeout(id);
-  }, [wantsShader]);
-
-  // Stop animating once the hero scrolls away — a GPU running a full-screen shader nobody can
-  // see is pure battery drain, and phones are where this gets read.
-  useEffect(() => {
-    const node = section.current;
-    if (!node || typeof IntersectionObserver === "undefined") return;
-    const observer = new IntersectionObserver(([entry]) => setOnScreen(entry.isIntersecting), {
-      rootMargin: "120px",
-    });
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <section ref={section} className="relative isolate overflow-hidden">
-      {/* Static fallback: a plausible frozen frame of the shader, so the layout never flashes. */}
-      <div aria-hidden className="absolute inset-0 bg-hero-fallback" />
-
-      {wantsShader && (
-        <Suspense fallback={null}>
-          <div
-            aria-hidden
-            className={`absolute inset-0 transition-opacity duration-1000 ${lit ? "opacity-100" : "opacity-0"}`}
-          >
-            <LiquidHero paused={!onScreen} />
-          </div>
-        </Suspense>
-      )}
-
-      {/* Fade the canvas into the page background so the hero has no hard edge. */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-surface"
-      />
-
-      <div className="relative mx-auto max-w-5xl px-5 pb-24 pt-14 sm:px-6 sm:pb-28 sm:pt-20">
-        <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/70 backdrop-blur-md">
-          <span className="relative flex h-1.5 w-1.5">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-            <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400" />
-          </span>
-          Updated every 6 hours
-        </p>
-
-        <h1 className="max-w-3xl text-[clamp(2.6rem,7vw,5.25rem)] font-semibold leading-[0.95] tracking-[-0.045em] text-white">
-          Find the hackathon.
-          <br />
-          <span className="bg-gradient-to-r from-white via-white to-white/55 bg-clip-text text-transparent">
-            Build the{" "}
-          </span>
-          <em className="text-liquid font-serif italic">winner</em>
-          <span className="text-white">.</span>
+    <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-12 pt-10 sm:px-6 md:grid-cols-12 md:gap-8 md:pb-16 md:pt-16">
+      <div className="min-w-0 md:col-span-7">
+        <h1
+          className="rise max-w-[14ch] text-[clamp(2.5rem,6.2vw,4.4rem)] font-semibold leading-[1.02] tracking-[-0.045em] text-balance"
+          style={{ "--i": 0 } as React.CSSProperties}
+        >
+          Find the hackathon. Build the <span className="text-accent">winner</span>.
         </h1>
 
-        <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/60 sm:text-lg">
-          Every open hackathon in one place, each with project ideas grounded in what has
-          actually won before.
+        <p
+          className="rise mt-5 max-w-[46ch] text-pretty text-base leading-relaxed text-muted sm:text-lg"
+          style={{ "--i": 1 } as React.CSSProperties}
+        >
+          Open hackathons from Devfolio, Unstop and MLH, each with project ideas grounded in{" "}
+          {winners.toLocaleString("en-IN")} past winners.
         </p>
 
-        <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-5">
-          {[
-            { n: count, label: "open hackathons" },
-            { n: winners, label: "winning projects studied" },
-            { n: topics, label: "topics" },
-          ].map((stat) => (
-            <div key={stat.label}>
-              <dt className="sr-only">{stat.label}</dt>
-              <dd className="font-semibold tabular-nums text-white text-[clamp(1.5rem,3.2vw,2rem)] leading-none tracking-tight">
-                {stat.n.toLocaleString("en-IN")}
-              </dd>
-              <p className="mt-1.5 text-xs uppercase tracking-[0.14em] text-white/45">
-                {stat.label}
-              </p>
-            </div>
-          ))}
-        </dl>
+        <a
+          href="#list"
+          className="rise press group mt-8 inline-flex items-center gap-2 rounded-lg bg-ink px-5 py-3 text-sm font-medium text-surface hover:bg-ink/85"
+          style={{ "--i": 2 } as React.CSSProperties}
+        >
+          Browse {count > 0 ? count.toLocaleString("en-IN") : ""} hackathons
+          <ArrowDown
+            size={15}
+            weight="bold"
+            aria-hidden
+            className="transition-transform duration-300 group-hover:translate-y-0.5"
+          />
+        </a>
       </div>
+
+      <aside
+        aria-labelledby="closing-heading"
+        className="rise min-w-0 rounded-2xl border border-line bg-raised p-2 shadow-[0_24px_60px_-32px_oklch(0.3_0.02_286/0.35)] md:col-span-5"
+        style={{ "--i": 3 } as React.CSSProperties}
+      >
+        <div className="flex items-baseline justify-between px-3 pb-2 pt-3">
+          <h2 id="closing-heading" className="text-sm font-semibold">
+            Registration closing soon
+          </h2>
+          {closingTotal > 0 && (
+            <span className="font-mono text-xs tabular-nums text-faint">{closingTotal} this week</span>
+          )}
+        </div>
+
+        {loading ? (
+          <ul aria-hidden className="space-y-1">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <li key={i} className="flex items-center gap-4 rounded-xl px-3 py-3">
+                <span className="h-4 w-12 animate-pulse rounded bg-sunken" />
+                <span className="h-4 flex-1 animate-pulse rounded bg-sunken" />
+              </li>
+            ))}
+          </ul>
+        ) : closing.length === 0 ? (
+          <p className="px-3 pb-4 pt-1 text-sm leading-relaxed text-muted">
+            Nothing closes in the next seven days. The full list below has everything still open.
+          </p>
+        ) : (
+          <ul className="space-y-0.5">
+            {closing.map((h) => (
+              <li key={h.uid}>
+                <button
+                  type="button"
+                  onClick={() => onOpen(h)}
+                  className="press group flex w-full items-center gap-4 rounded-xl px-3 py-2.5 text-left hover:bg-sunken"
+                >
+                  <span className="w-14 shrink-0 font-mono text-sm font-medium tabular-nums text-accent">
+                    {daysLeft(h)}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-sm font-medium">{h.title}</span>
+                    <span className="block truncate text-xs text-faint">{where(h)}</span>
+                  </span>
+                  <ArrowRight
+                    size={14}
+                    aria-hidden
+                    className="shrink-0 text-faint opacity-0 transition group-hover:translate-x-0.5 group-hover:opacity-100"
+                  />
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {closingTotal > closing.length && (
+          <button
+            type="button"
+            onClick={onSeeClosing}
+            className="mt-1 w-full border-t border-line px-3 pb-2 pt-3 text-left text-sm text-muted transition-colors hover:text-ink"
+          >
+            Show all {closingTotal} in the list
+          </button>
+        )}
+      </aside>
     </section>
   );
 }

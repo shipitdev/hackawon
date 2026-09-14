@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { Lightbulb, MagnifyingGlass, Star } from "@phosphor-icons/react";
 import { Detail } from "./Detail";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
@@ -15,15 +16,10 @@ import {
   formatPrize,
   isKnownAbroad,
   isUrgent,
+  SOURCE_LABELS,
   where,
   type Filters,
 } from "./lib";
-
-const SOURCE_LABELS: Record<string, string> = {
-  devfolio: "Devfolio",
-  unstop: "Unstop",
-  mlh: "MLH",
-};
 
 const MODES: { value: Mode | "all"; label: string }[] = [
   { value: "all", label: "Anywhere" },
@@ -31,28 +27,7 @@ const MODES: { value: Mode | "all"; label: string }[] = [
   { value: "online", label: "Online" },
 ];
 
-function Pill({
-  children,
-  tone = "plain",
-}: {
-  children: React.ReactNode;
-  tone?: "plain" | "urgent" | "topic";
-}) {
-  const tones = {
-    urgent: "border-accent/35 bg-accent/12 text-accent",
-    topic: "border-accent-cool/25 bg-accent-cool/10 text-accent-cool",
-    plain: "border-white/8 bg-white/[0.03] text-muted",
-  };
-  return (
-    <span
-      className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[0.7rem] leading-5 ${tones[tone]}`}
-    >
-      {children}
-    </span>
-  );
-}
-
-function Card({
+function Row({
   h,
   topics,
   onOpen,
@@ -67,83 +42,67 @@ function Card({
 }) {
   const deadline = deadlineLabel(h);
   const prize = formatPrize(h);
-  const ideaCount = h.idea_count;
+  const topicText = h.domains
+    .slice(0, 2)
+    .map((d) => topics.get(d) ?? d)
+    .join(", ");
 
   return (
-    <button
-      type="button"
-      onClick={onOpen}
-      className="group card-lift reveal glass relative flex w-full flex-col gap-3 overflow-hidden rounded-2xl p-4 text-left sm:p-5"
-    >
-      {/* A sliver of light that sweeps in from the left edge on hover. */}
-      <span
-        aria-hidden
-        className="pointer-events-none absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-accent/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-      />
+    <article className="reveal group relative grid gap-x-8 gap-y-2 rounded-2xl px-4 py-5 transition-colors hover:bg-raised has-[h3_button:focus-visible]:bg-raised has-[h3_button:focus-visible]:outline-2 has-[h3_button:focus-visible]:outline-accent md:grid-cols-[9.5rem_minmax(0,1fr)_12rem] md:px-5">
+      <div className="font-mono text-xs leading-5 tabular-nums md:pt-0.5">
+        <p className="text-muted">{formatDates(h)}</p>
+        {deadline && <p className="font-medium text-accent">{deadline}</p>}
+      </div>
 
-      <div className="flex items-start justify-between gap-2">
-        <h3 className="text-[0.98rem] font-semibold leading-snug tracking-[-0.01em] text-ink">
-          {h.title}
+      <div className="min-w-0 pr-10 md:pr-0">
+        <h3 className="text-base font-semibold leading-snug tracking-[-0.015em] text-ink">
+          {/* The title is the row's one real button; `after:` stretches its hit area over the
+              whole row, so the save button beside it is a sibling rather than nested inside. */}
+          <button
+            type="button"
+            onClick={onOpen}
+            className="text-left after:absolute after:inset-0 after:rounded-2xl focus-visible:outline-none"
+          >
+            {h.title}
+          </button>
         </h3>
-        <span
-          role="button"
-          tabIndex={0}
-          aria-label={saved ? `Remove ${h.title} from saved` : `Save ${h.title}`}
-          aria-pressed={saved}
-          title={saved ? "Saved — click to remove" : "Save for later"}
-          onClick={(e) => {
-            // The whole card is a button; without this the modal opens too.
-            e.stopPropagation();
-            onToggleSave();
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              e.stopPropagation();
-              onToggleSave();
-            }
-          }}
-          className={`-m-1 shrink-0 cursor-pointer rounded-lg p-1 text-base leading-none transition ${
-            saved ? "text-accent" : "text-faint hover:text-accent"
-          }`}
-        >
-          {saved ? "★" : "☆"}
-        </span>
-      </div>
-
-      {h.tagline && <p className="line-clamp-2 text-sm leading-relaxed text-muted">{h.tagline}</p>}
-
-      <div className="mt-auto flex flex-wrap items-center gap-1.5 pt-1">
-        {deadline && <Pill tone="urgent">{deadline}</Pill>}
-        <Pill>{formatDates(h)}</Pill>
-        <Pill>{where(h)}</Pill>
-        {prize && <Pill>{prize}</Pill>}
-        {h.domains.map((d) => (
-          <Pill key={d} tone="topic">
-            {topics.get(d) ?? d}
-          </Pill>
-        ))}
-      </div>
-
-      {h.idea_teaser && (
-        <div className="mt-1 border-t border-white/6 pt-2.5">
-          <p className="line-clamp-2 text-[0.82rem] font-medium leading-snug text-accent">
-            <span className="mr-1 opacity-60">▸</span>
-            {h.idea_teaser}
-          </p>
-          <p className="mt-1 text-[0.7rem] text-faint">
-            {ideaCount === 1 ? "1 idea" : `+${ideaCount - 1} more ideas`}
-            <span className="ml-1 inline-block transition-transform duration-300 group-hover:translate-x-1">
-              →
+        {h.tagline && <p className="mt-1 line-clamp-1 text-sm text-muted">{h.tagline}</p>}
+        {h.idea_teaser && (
+          <p className="mt-3 flex items-start gap-2 text-sm leading-snug">
+            <Lightbulb size={16} weight="duotone" aria-hidden className="mt-px shrink-0 text-accent" />
+            <span className="line-clamp-2 md:line-clamp-1">
+              {h.idea_teaser}
+              {h.idea_count > 1 && (
+                <span className="text-faint"> and {h.idea_count - 1} more ideas</span>
+              )}
             </span>
           </p>
-        </div>
-      )}
-    </button>
+        )}
+      </div>
+
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-muted md:flex-col md:items-end md:gap-1 md:pr-9 md:text-right">
+        <span className="line-clamp-2">{where(h)}</span>
+        {prize && <span className="font-mono tabular-nums text-ink">{prize}</span>}
+        {topicText && <span className="text-xs text-faint">{topicText}</span>}
+      </div>
+
+      <button
+        type="button"
+        onClick={onToggleSave}
+        aria-label={saved ? `Remove ${h.title} from saved` : `Save ${h.title}`}
+        aria-pressed={saved}
+        title={saved ? "Saved. Click to remove" : "Save for later"}
+        className={`press absolute right-3 top-4 z-10 rounded-lg p-2 md:right-4 ${
+          saved ? "text-accent" : "text-faint hover:bg-sunken hover:text-ink"
+        }`}
+      >
+        <Star size={18} weight={saved ? "fill" : "regular"} aria-hidden />
+      </button>
+    </article>
   );
 }
 
-function Control({
+function Chip({
   active,
   onClick,
   children,
@@ -160,16 +119,19 @@ function Control({
       onClick={onClick}
       aria-pressed={active}
       title={title}
-      className={`rounded-xl border px-3 py-2 text-sm transition ${
+      className={`press shrink-0 whitespace-nowrap rounded-lg border px-3 py-1.5 text-sm ${
         active
-          ? "border-accent/45 bg-accent/12 text-accent"
-          : "border-white/8 bg-white/[0.03] text-muted hover:border-white/20 hover:text-ink"
+          ? "border-ink bg-ink text-surface"
+          : "border-line bg-raised text-muted hover:border-ink/25 hover:text-ink"
       }`}
     >
       {children}
     </button>
   );
 }
+
+const selectClass =
+  "w-[6.75rem] rounded-lg border border-line bg-raised py-2 pl-2.5 pr-2 text-sm sm:w-auto sm:px-3 text-ink transition-colors hover:border-ink/25";
 
 export default function App() {
   const [bundle, setBundle] = useState<Bundle | null>(null);
@@ -213,18 +175,25 @@ export default function App() {
 
   const all = bundle?.hackathons ?? [];
   const shown = useMemo(() => applyFilters(all, filters, new Date(), saved), [all, filters, saved]);
-  const urgentCount = useMemo(() => all.filter((h) => isUrgent(h)).length, [all]);
+  const urgent = useMemo(
+    () =>
+      all
+        .filter((h) => isUrgent(h))
+        .sort((a, b) => (a.reg_deadline ?? "").localeCompare(b.reg_deadline ?? "")),
+    [all],
+  );
   const abroadCount = useMemo(() => all.filter(isKnownAbroad).length, [all]);
   const ideaTotal = useMemo(() => all.filter((h) => h.idea_count > 0).length, [all]);
   const topicLabels = useMemo(
     () => new Map((bundle?.domains ?? []).map((d) => [d.id, d.label])),
     [bundle],
   );
+  const filtered = JSON.stringify(filters) !== JSON.stringify(EMPTY_FILTERS);
 
   const set = <K extends keyof Filters>(key: K, value: Filters[K]) =>
     setFilters((f) => ({ ...f, [key]: value }));
 
-  // Opening a card puts its own URL in the address bar, so a hackathon can be shared or
+  // Opening a row puts its own URL in the address bar, so a hackathon can be shared or
   // bookmarked from inside the app. A reload on that URL lands on the prerendered static page
   // that the build produced, which is also what search engines and link previews see.
   function open(h: Hackathon) {
@@ -248,6 +217,13 @@ export default function App() {
 
   return (
     <>
+      <a
+        href="#list"
+        className="sr-only rounded-lg bg-ink px-3 py-2 text-sm text-surface focus:not-sr-only focus:fixed focus:left-4 focus:top-3 focus:z-50"
+      >
+        Skip to hackathons
+      </a>
+
       <Header
         base={import.meta.env.BASE_URL}
         viewer={viewer}
@@ -259,147 +235,207 @@ export default function App() {
       <Hero
         count={bundle?.count ?? 0}
         winners={675}
-        topics={(bundle?.domains ?? []).length}
+        closing={urgent.slice(0, 5)}
+        closingTotal={urgent.length}
+        loading={!bundle && !error}
+        onOpen={open}
+        onSeeClosing={() => {
+          set("onlyUrgent", true);
+          document.getElementById("list")?.scrollIntoView();
+        }}
       />
 
-      <main className="mx-auto max-w-5xl px-5 pb-20 sm:px-6">
+      <main id="list" className="scroll-mt-14">
         {/* Sticky so the filters stay reachable through a long list. */}
-        <div className="sticky top-14 z-30 -mx-5 mb-5 border-b border-white/6 bg-surface/70 px-5 py-3 backdrop-blur-xl sm:-mx-6 sm:px-6">
-          <div className="flex flex-wrap items-center gap-2">
-            <input
-              type="search"
-              value={filters.query}
-              onChange={(e) => set("query", e.target.value)}
-              placeholder="Search by name, city, theme or sponsor…"
-              aria-label="Search hackathons"
-              className="min-w-56 flex-1 rounded-xl border border-white/8 bg-white/[0.03] px-3.5 py-2 text-sm text-ink outline-none transition placeholder:text-faint focus:border-accent/50 focus:bg-white/[0.05]"
-            />
-            <select
-              value={filters.mode}
-              onChange={(e) => set("mode", e.target.value as Mode | "all")}
-              aria-label="Filter by mode"
-              className="rounded-xl border border-white/8 bg-raised px-3 py-2 text-sm text-muted"
-            >
-              {MODES.map((m) => (
-                <option key={m.value} value={m.value}>
-                  {m.label}
-                </option>
-              ))}
-            </select>
-            <select
-              value={filters.source}
-              onChange={(e) => set("source", e.target.value)}
-              aria-label="Filter by source"
-              className="rounded-xl border border-white/8 bg-raised px-3 py-2 text-sm text-muted"
-            >
-              <option value="all">All sources</option>
-              {Object.entries(SOURCE_LABELS).map(([key, label]) => (
-                <option key={key} value={key}>
-                  {label}
-                </option>
-              ))}
-            </select>
-            <Control active={filters.onlyUrgent} onClick={() => set("onlyUrgent", !filters.onlyUrgent)}>
-              Closing soon{urgentCount > 0 && ` (${urgentCount})`}
-            </Control>
-            <Control
-              active={filters.hideAbroad}
-              onClick={() => set("hideAbroad", !filters.hideAbroad)}
-              title="Hides events we know are outside India. Listings with no country stay visible."
-            >
-              Skip abroad{abroadCount > 0 && ` (${abroadCount})`}
-            </Control>
-            {saved.length > 0 && (
-              <Control
-                active={filters.onlySaved}
-                onClick={() => set("onlySaved", !filters.onlySaved)}
+        <div className="sticky top-14 z-30 border-y border-line bg-surface/85 backdrop-blur-xl">
+          <div className="mx-auto max-w-6xl space-y-2.5 px-4 py-3 sm:px-6">
+            <div className="flex items-center gap-2">
+              <label className="relative min-w-0 flex-1">
+                <span className="sr-only">Search hackathons</span>
+                <MagnifyingGlass
+                  size={16}
+                  aria-hidden
+                  className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-faint"
+                />
+                <input
+                  type="search"
+                  value={filters.query}
+                  onChange={(e) => set("query", e.target.value)}
+                  placeholder="Search name, city, sponsor"
+                  className="w-full rounded-lg border border-line bg-raised py-2 pl-9 pr-3 text-sm text-ink transition-colors placeholder:text-faint hover:border-ink/25 focus:border-accent focus:outline-none"
+                />
+              </label>
+              <select
+                value={filters.mode}
+                onChange={(e) => set("mode", e.target.value as Mode | "all")}
+                aria-label="Filter by mode"
+                className={selectClass}
               >
-                Saved ({saved.length})
-              </Control>
-            )}
+                {MODES.map((m) => (
+                  <option key={m.value} value={m.value}>
+                    {m.label}
+                  </option>
+                ))}
+              </select>
+              <select
+                value={filters.source}
+                onChange={(e) => set("source", e.target.value)}
+                aria-label="Filter by source"
+                className={selectClass}
+              >
+                <option value="all">All sources</option>
+                {Object.entries(SOURCE_LABELS).map(([key, label]) => (
+                  <option key={key} value={key}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </div>
 
+            <div className="rail -mx-4 flex gap-1.5 overflow-x-auto px-4 sm:-mx-6 sm:px-6">
+              <Chip active={filters.onlyUrgent} onClick={() => set("onlyUrgent", !filters.onlyUrgent)}>
+                Closing soon
+                {urgent.length > 0 && (
+                  <span className="ml-1.5 font-mono text-xs tabular-nums opacity-60">{urgent.length}</span>
+                )}
+              </Chip>
+              <Chip
+                active={filters.hideAbroad}
+                onClick={() => set("hideAbroad", !filters.hideAbroad)}
+                title="Hides events we know are outside India. Listings with no country stay visible."
+              >
+                Skip abroad
+                {abroadCount > 0 && (
+                  <span className="ml-1.5 font-mono text-xs tabular-nums opacity-60">{abroadCount}</span>
+                )}
+              </Chip>
+              {saved.length > 0 && (
+                <Chip active={filters.onlySaved} onClick={() => set("onlySaved", !filters.onlySaved)}>
+                  Saved
+                  <span className="ml-1.5 font-mono text-xs tabular-nums opacity-60">{saved.length}</span>
+                </Chip>
+              )}
+              {bundle && bundle.domains.length > 0 && (
+                <span aria-hidden className="mx-1 w-px shrink-0 self-stretch bg-line" />
+              )}
+              {bundle?.domains.map((d) => (
+                <Chip
+                  key={d.id}
+                  active={filters.domain === d.id}
+                  onClick={() => set("domain", filters.domain === d.id ? "all" : d.id)}
+                >
+                  {d.label}
+                  <span className="ml-1.5 font-mono text-xs tabular-nums opacity-60">{d.count}</span>
+                </Chip>
+              ))}
+            </div>
           </div>
         </div>
 
-        {bundle && bundle.domains.length > 0 && (
-          <div className="mb-6 flex flex-wrap gap-1.5">
-            <Control active={filters.domain === "all"} onClick={() => set("domain", "all")}>
-              All topics
-            </Control>
-            {bundle.domains.map((d) => (
-              <Control
-                key={d.id}
-                active={filters.domain === d.id}
-                onClick={() => set("domain", filters.domain === d.id ? "all" : d.id)}
+        <div className="mx-auto max-w-6xl px-4 pb-24 pt-6 sm:px-6">
+          <h2 className="sr-only">All hackathons</h2>
+
+          {error && (
+            <div className="rounded-2xl border border-line bg-raised p-6">
+              <p className="font-medium">Could not load hackathons.</p>
+              <p className="mt-1 font-mono text-xs text-muted">{error}</p>
+              <button
+                type="button"
+                onClick={() => window.location.reload()}
+                className="press mt-4 rounded-lg border border-line px-3 py-1.5 text-sm hover:border-ink/25"
               >
-                {d.label}
-                <span className="ml-1.5 tabular-nums opacity-50">{d.count}</span>
-              </Control>
-            ))}
-          </div>
-        )}
+                Reload
+              </button>
+            </div>
+          )}
 
-        {error && (
-          <p className="glass rounded-2xl p-5 text-sm text-muted">
-            Could not load hackathons: {error}
-          </p>
-        )}
-
-        {!bundle && !error && (
-          <div className="grid gap-3 sm:grid-cols-2">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="glass h-36 animate-pulse rounded-2xl opacity-60" />
-            ))}
-          </div>
-        )}
-
-        {bundle && (
-          <>
-            <p className="mb-3 text-xs text-faint">
-              {shown.length} of {all.length} hackathons
-              {ideaTotal > 0 && ` · ${ideaTotal} with generated ideas`}
-            </p>
-
-            <div className="grid gap-3 sm:grid-cols-2">
-              {shown.map((h) => (
-                <Card
-                key={h.uid}
-                h={h}
-                topics={topicLabels}
-                onOpen={() => open(h)}
-                saved={saved.includes(h.uid)}
-                onToggleSave={() => toggleSaved(h.uid)}
-              />
+          {!bundle && !error && (
+            <div aria-hidden className="space-y-2">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="grid gap-8 px-5 py-5 md:grid-cols-[9.5rem_1fr_12rem]">
+                  <span className="h-4 w-24 animate-pulse rounded bg-sunken" />
+                  <span className="space-y-2">
+                    <span className="block h-4 w-2/3 animate-pulse rounded bg-sunken" />
+                    <span className="block h-3 w-1/2 animate-pulse rounded bg-sunken" />
+                  </span>
+                  <span className="hidden h-4 w-20 animate-pulse justify-self-end rounded bg-sunken md:block" />
+                </div>
               ))}
             </div>
+          )}
 
-            {shown.length === 0 && (
-              <p className="glass rounded-2xl p-8 text-center text-sm text-muted">
-                Nothing matches those filters.
-              </p>
-            )}
+          {bundle && (
+            <>
+              <div className="mb-2 flex flex-wrap items-baseline justify-between gap-2 px-1 text-sm text-muted">
+                <p>
+                  <span className="font-mono tabular-nums text-ink">{shown.length}</span> of{" "}
+                  <span className="font-mono tabular-nums">{all.length}</span> hackathons
+                  {ideaTotal > 0 && (
+                    <span className="text-faint">, {ideaTotal} with project ideas</span>
+                  )}
+                </p>
+                {filtered && (
+                  <button
+                    type="button"
+                    onClick={() => setFilters(EMPTY_FILTERS)}
+                    className="text-sm text-muted underline decoration-line underline-offset-4 transition-colors hover:text-ink hover:decoration-ink"
+                  >
+                    Clear filters
+                  </button>
+                )}
+              </div>
 
-            {selected && (
-              <Detail
-                hackathon={selected}
-                topics={topicLabels}
-                onClose={close}
-              />
-            )}
+              <div className="-mx-4 md:-mx-5">
+                {shown.map((h) => (
+                  <Row
+                    key={h.uid}
+                    h={h}
+                    topics={topicLabels}
+                    onOpen={() => open(h)}
+                    saved={saved.includes(h.uid)}
+                    onToggleSave={() => toggleSaved(h.uid)}
+                  />
+                ))}
+              </div>
 
-            <footer className="mt-14 border-t border-white/6 pt-5 text-xs leading-relaxed text-faint">
-              Updated {new Date(bundle.generated_at).toLocaleString("en-IN")} · every listing
-              links to the organiser's own page, where registration happens · aggregated from
-              Devfolio, Unstop and MLH ·{" "}
-              <a
-                href="https://github.com/shipitdev/hackawon"
-                className="underline transition hover:text-muted"
-              >
-                open source
-              </a>
-            </footer>
-          </>
-        )}
+              {shown.length === 0 && (
+                <div className="rounded-2xl border border-dashed border-line px-6 py-14 text-center">
+                  <p className="font-medium">Nothing matches those filters.</p>
+                  <p className="mt-1 text-sm text-muted">
+                    Try a broader search, or clear the filters to see all {all.length}.
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => setFilters(EMPTY_FILTERS)}
+                    className="press mt-5 rounded-lg bg-ink px-4 py-2 text-sm font-medium text-surface hover:bg-ink/85"
+                  >
+                    Clear filters
+                  </button>
+                </div>
+              )}
+
+              {selected && <Detail hackathon={selected} topics={topicLabels} onClose={close} />}
+
+              <footer className="mt-20 flex flex-col gap-2 border-t border-line pt-6 text-xs leading-relaxed text-faint sm:flex-row sm:justify-between">
+                <p className="max-w-[60ch]">
+                  Aggregated from Devfolio, Unstop and MLH. Registration always happens on the
+                  organiser's own page. Updated{" "}
+                  {new Date(bundle.generated_at).toLocaleString("en-IN", {
+                    dateStyle: "medium",
+                    timeStyle: "short",
+                  })}
+                  .
+                </p>
+                <a
+                  href="https://github.com/shipitdev/hackawon"
+                  className="underline decoration-line underline-offset-4 transition-colors hover:text-ink"
+                >
+                  Open source on GitHub
+                </a>
+              </footer>
+            </>
+          )}
+        </div>
       </main>
     </>
   );

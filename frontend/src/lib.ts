@@ -1,5 +1,11 @@
 import type { Exemplar, Hackathon, Mode } from "./types";
 
+export const SOURCE_LABELS: Record<string, string> = {
+  devfolio: "Devfolio",
+  unstop: "Unstop",
+  mlh: "MLH",
+};
+
 const startOfDay = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
 
 /**
@@ -45,7 +51,7 @@ export function formatDates(h: Hackathon): string {
   if (!h.ends_at) return startText;
   const end = new Date(h.ends_at);
   if (start.toDateString() === end.toDateString()) return startText;
-  return `${startText} – ${end.toLocaleDateString("en-IN", opts)}`;
+  return `${startText} - ${end.toLocaleDateString("en-IN", opts)}`;
 }
 
 export function formatPrize(h: Hackathon): string | null {
@@ -161,7 +167,7 @@ export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
       `Projects that won similar hackathons:`,
       ...exemplars.map(
         (e) =>
-          `- ${e.title}${e.prize ? ` — ${e.prize}` : ""}${
+          `- ${e.title}${e.prize ? ` (${e.prize})` : ""}${
             e.hackathon_name ? ` at ${e.hackathon_name}` : ""
           }${e.tech.length ? ` [${e.tech.join(", ")}]` : ""}`,
       ),
@@ -170,7 +176,7 @@ export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
 
   lines.push(
     ``,
-    `My skills: (describe what you know — e.g. React, Python, no ML experience)`,
+    `My skills: (describe what you know, e.g. React, Python, no ML experience)`,
     `Time available: (e.g. 24 hours, 3 people)`,
     ``,
     `Give me 5 specific ideas I could realistically finish in that time, each aimed at one of`,
