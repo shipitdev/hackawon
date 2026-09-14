@@ -1,10 +1,7 @@
 name: Ingest hackathons
 
-# The scraper is the whole backend: it runs here, commits the results, and GitHub Pages serves
-# them. Nothing else runs between visits.
-#
-# The commit this job makes also counts as repository activity, which is what stops GitHub from
-# disabling these scheduled runs after 60 days of inactivity.
+# The scraper is the whole backend: it runs here, pushes the results to the `data` branch, and
+# starts the Pages deploy. Nothing else runs between visits.
 on:
   schedule:
     - cron: "17 */6 * * *" # every 6 hours, off the hour to avoid the stampede
@@ -12,9 +9,20 @@ on:
 
 permissions:
   contents: write
+  actions: write # to start the deploy
 
+env:
+  # GitHub's own Actions identity: commits show the Actions avatar and link to it, instead of an
+  # unlinked name with a made-up address.
+  GIT_AUTHOR_NAME: github-actions[bot]
+  GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GIT_COMMITTER_NAME: github-actions[bot]
+  GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+# One group for every job that writes the data branch, so they run one at a time and never push
+# over each other.
 concurrency:
-  group: ingest
+  group: data-branch
   cancel-in-progress: false
 
 jobs:
@@ -22,6 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Get the current data
+        run: scripts/data-branch.sh pull
+
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
@@ -45,20 +56,14 @@ jobs:
         # labels are much better than losing a whole ingest.
         run: uv run python -m app.jobs.classify --kind hackathons --provider gemini || true
 
-      - name: Rebuild the site bundle
-        working-directory: backend
-        run: uv run python -m app.jobs.export_site
+      - name: Push to the data branch
+        id: push
+        run: scripts/data-branch.sh push "Update hackathon data"
 
-      - name: Commit any changes
-        run: |
-          git config user.name "hackradar-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data frontend/public/data
-          if git diff --cached --quiet; then
-            echo "No changes — sources returned the same listings."
-            exit 0
-          fi
-          # Deliberately NOT tagged [skip ci]: that would also skip the Pages deploy, so fresh
-          # data would sit in the repo and never reach the published site.
-          git commit -m "Update hackathon data"
-          git push
+      - name: Deploy the site with the new data
+        if: steps.push.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # A push made with the workflow token never triggers other workflows, so the deploy has to
+        # be started explicitly. Starting a workflow by dispatch is the one exception allowed.
+        run: gh workflow run pages.yml --ref main
