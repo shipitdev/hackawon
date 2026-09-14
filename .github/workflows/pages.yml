@@ -1,12 +1,15 @@
 name: Deploy site
 
-# Publishes the static site. Runs after data changes land, so the published listings track the
-# scraper without a second manual step.
+# Publishes the static site: code from main, generated data from the `data` branch. Runs when the
+# site's code or hand-edited data changes on main, and is started by the data jobs after they push.
 on:
   push:
     branches: [main]
     paths:
       - "frontend/**"
+      - "backend/app/**"
+      - "data/*.yml"
+      - "scripts/data-branch.sh"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -24,6 +27,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Get the current data
+        run: scripts/data-branch.sh pull
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Build the site bundle
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+          uv run python -m app.jobs.export_site
       - uses: actions/setup-node@v4
         with:
           node-version: 22
