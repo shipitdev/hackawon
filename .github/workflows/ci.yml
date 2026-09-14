@@ -34,6 +34,19 @@ jobs:
         working-directory: frontend
     steps:
       - uses: actions/checkout@v4
+      # The build prerenders a page per hackathon, so it needs real data from the data branch.
+      - name: Get the current data
+        working-directory: .
+        run: scripts/data-branch.sh pull
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+      - name: Build the site bundle
+        working-directory: backend
+        run: |
+          uv venv
+          uv pip install -e .
+          uv run python -m app.jobs.export_site
       - uses: actions/setup-node@v4
         with:
           node-version: 22

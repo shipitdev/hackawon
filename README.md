@@ -17,19 +17,20 @@ work, so GitHub Actions does all of it and commits the results:
 on a schedule, on GitHub's runners
   scrape Devfolio + Unstop + MLH        every 6 hours
     → normalise, drop finished events, de-duplicate
-    → write data/hackathons/**.json     (this repo IS the database)
+    → write data/hackathons/**.json     (the `data` branch is the database)
     → label each one by topic with an LLM, cached so re-runs are free
   collect winning projects from GitHub  weekly
   generate 5 ideas per hackathon        nightly, grounded in matching past winners
     → prerender a static page per hackathon, plus a sitemap
-  commit → GitHub Pages serves it
+  push to the data branch → deploy → GitHub Pages serves it
 ```
 
 Nothing runs between visits, so it costs nothing to operate and there is no server to fall over at
 2am. A visitor downloads about 48 KB of data and 69 KB of JavaScript.
 
-The data lives in this repo as plain JSON. That gives full history through git, and means a
-correction can arrive as a pull request that a human reads before merging.
+The data lives in this repo as plain JSON on its own `data` branch, so `main` only carries commits
+people made. That still gives full history through git, and a correction can arrive as a pull
+request that a human reads before merging.
 
 **The one exception is per-user data.** Sign-in and saved hackathons go to Supabase, because they
 are the only things that differ per person. Listings and ideas stay static: they are identical for
@@ -62,7 +63,7 @@ make check          # everything CI runs: pytest, ruff, tsc, vitest
 # Backend — scraping, labelling, export
 cd backend
 uv venv && uv pip install -e ".[dev]"
-uv run python -m app.jobs.ingest         # fetch hackathons into data/
+../scripts/data-branch.sh pull           # copy the generated data from the data branch into data/
 uv run python -m app.jobs.export_site    # build what the site reads
 
 # Frontend

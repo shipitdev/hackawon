@@ -38,5 +38,14 @@ frontend/dist-ssr/
 .vscode/
 *.swp
 
-# Ingested data is committed (it IS the store) — but keep local scratch out
+# Generated data lives on the `data` branch (see scripts/data-branch.sh). Only the hand-edited
+# files in data/ are on main, and the site bundle is rebuilt at deploy time.
+data/hackathons/
+data/ideas/
+data/labels/
+data/winners/
+data/source_runs.json
+data/source_health.json
+frontend/public/data/
+
 scratch/

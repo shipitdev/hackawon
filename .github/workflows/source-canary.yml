@@ -17,6 +17,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # The drop check compares against each source's recent counts, which live on the data branch.
+      - name: Get the current data
+        run: scripts/data-branch.sh pull
+
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true

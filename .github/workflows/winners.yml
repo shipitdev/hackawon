@@ -10,9 +10,20 @@ on:
 
 permissions:
   contents: write
+  actions: write # to start the deploy
 
+env:
+  # GitHub's own Actions identity: commits show the Actions avatar and link to it, instead of an
+  # unlinked name with a made-up address.
+  GIT_AUTHOR_NAME: github-actions[bot]
+  GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+  GIT_COMMITTER_NAME: github-actions[bot]
+  GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+
+# One group for every job that writes the data branch, so they run one at a time and never push
+# over each other.
 concurrency:
-  group: winners
+  group: data-branch
   cancel-in-progress: false
 
 jobs:
@@ -21,6 +32,9 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+      - name: Get the current data
+        run: scripts/data-branch.sh pull
+
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
@@ -46,14 +60,14 @@ jobs:
         # Cached by content hash, so only genuinely new winners cost anything.
         run: uv run python -m app.jobs.classify --kind winners --provider gemini || true
 
-      - name: Commit any changes
-        run: |
-          git config user.name "hackradar-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add data
-          if git diff --cached --quiet; then
-            echo "No new winners."
-            exit 0
-          fi
-          git commit -m "Update winners corpus"
-          git push
+      - name: Push to the data branch
+        id: push
+        run: scripts/data-branch.sh push "Update winners corpus"
+
+      - name: Deploy the site with the new data
+        if: steps.push.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # A push made with the workflow token never triggers other workflows, so the deploy has to
+        # be started explicitly. Starting a workflow by dispatch is the one exception allowed.
+        run: gh workflow run pages.yml --ref main
