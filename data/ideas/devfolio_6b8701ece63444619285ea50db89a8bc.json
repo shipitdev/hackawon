@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:21:29.049473+05:30",
+  "generated_at": "2026-09-13T07:39:07.489508+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -15,86 +15,87 @@
   "hackathon_uid": "devfolio:6b8701ece63444619285ea50db89a8bc",
   "ideas": [
     {
-      "build_hours": 60,
+      "build_hours": 50,
       "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
+        "github:1092573500"
       ],
-      "pitch": "An autonomous AI trading agent platform that executes delta-neutral yield strategies on Base using USDC escrow and cross-chain intent solvers.",
+      "pitch": "An autonomous AI agent that analyzes multichain yield opportunities and executes restaking strategies via smart contract wallets.",
       "stack": [
         "TypeScript",
-        "Base",
-        "USDC",
-        "AI Agents"
+        "Solidity",
+        "Claude AI",
+        "Base"
       ],
-      "title": "AgenticPerpGoa",
-      "track": "AI x Crypto",
-      "why_it_could_win": "Combines autonomous agents with DeFi primitives, directly mirroring winning patterns from Synthesis and Pacifica hackathons where agent marketplaces and on-chain execution dominated."
+      "title": "Agentic Liquid Staking Router",
+      "track": "",
+      "why_it_could_win": "Combines advanced AI agents with deep crypto protocol mechanics, aligning with the core AI x Crypto theme and mirroring winning patterns from the Claude Builders Club Hackathon."
     },
     {
-      "build_hours": 68,
+      "build_hours": 60,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "A ZK-gated DAO governance forum where AI agents and verified human holders negotiate treasury allocations using private credentials.",
+      "pitch": "A private collaboration layer where human creators and autonomous AI agents exchange confidential content verified through zero-knowledge proofs.",
       "stack": [
         "TypeScript",
-        "Noir-lang",
+        "Noir",
         "Base",
-        "ZK-proofs"
+        "zk-proofport"
       ],
-      "title": "ZKAgentGated",
-      "track": "AI x Crypto",
-      "why_it_could_win": "Applies zero-knowledge proofs to agentic workflows, satisfying the hard engineering criteria and matching the exact blueprint of openstoa's winning project."
+      "title": "ZK-Gated Agent Workspace",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering with ZK circuits and cryptography, mirroring the technical depth that won the Synthesis Hackathon."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An AI agent marketplace that automatically evaluates GitHub PR submissions, verifies code quality, and triggers instant USDC escrow payments.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Locus SDK"
+      ],
+      "title": "Autonomous USDC Bounty Dispatcher",
+      "track": "",
+      "why_it_could_win": "Directly targets the fast-growing agentic payment ecosystem and automates developer workflows, matching the winning formula of the Synthesis Locus Track."
     },
     {
       "build_hours": 55,
       "inspired_by": [
         "github:941346152"
       ],
-      "pitch": "An autonomous multi-chain AI agent capable of executing cross-chain lending arbitrage between EVM networks and Bitcoin L1 using chain signatures.",
+      "pitch": "An AI agent leveraging chain signatures to autonomously interact with Bitcoin L1 protocols based on natural language triggers.",
       "stack": [
         "TypeScript",
         "NEAR Protocol",
-        "Chain Signatures"
+        "Chain Signatures",
+        "Bitcoin L1"
       ],
-      "title": "CrossChainSignAgent",
-      "track": "Multichain",
-      "why_it_could_win": "Directly targets the multichain mandate of Hacker House Goa 2026 by utilizing advanced cryptographic primitives like chain signatures for native cross-chain interaction."
-    },
-    {
-      "build_hours": 70,
-      "inspired_by": [
-        "github:1092573500"
-      ],
-      "pitch": "An EigenLayer AVS node operator module that uses Claude AI to analyze macroeconomic protocol risk and dynamically adjust restaking strategies on-chain.",
-      "stack": [
-        "Solidity",
-        "EigenLayer",
-        "Claude AI",
-        "TypeScript"
-      ],
-      "title": "AVSClaudeValidator",
-      "track": "AI x Crypto",
-      "why_it_could_win": "Leverages heavy infrastructure tooling and AI validation models, aligning with winning patterns from Claude Builders Club where complex decentralized validation won judges over."
+      "title": "Cross-Chain Bitcoin Agentic Bridge",
+      "track": "",
+      "why_it_could_win": "Solves complex interoperability challenges between smart contract chains and Bitcoin, fitting the high-engineering expectations of the One Trillion Agents Hackathon."
     },
     {
       "build_hours": 65,
       "inspired_by": [
         "github:928533631"
       ],
-      "pitch": "An autonomous MMORPG world where non-player characters are powered by persistent on-chain AI agents trading in-game assets via automated smart contracts.",
+      "pitch": "An autonomous Web3 game master powered by AI that dynamically generates lore, quests, and smart contract rewards for players on-chain.",
       "stack": [
         "TypeScript",
         "Solidity",
-        "AI Agents"
+        "LLMs",
+        "Web3.js"
       ],
-      "title": "AgenticMultiverseGoa",
-      "track": "AI x Crypto",
-      "why_it_could_win": "Replicates the winning formula of ETHGlobal Agentic Hackathon winners by merging immersive Web3 gaming mechanics with fully autonomous on-chain agents."
+      "title": "Agentic Multiverse Quest Generator",
+      "track": "",
+      "why_it_could_win": "Captures the excitement of consumer crypto and AI entertainment, replicating the viral traction of the ETH Global Agentic Hackathon winner."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

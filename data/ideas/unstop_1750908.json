@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:39:31.772734+05:30",
+  "generated_at": "2026-09-13T07:59:29.161541+00:00",
   "grounding": {
     "domains": [
       "sustainability",
@@ -8,7 +8,7 @@
     "exemplar_count": 8,
     "patterns": [
       "impact",
-      "sponsor-tech"
+      "working-demo"
     ],
     "thin": false
   },
@@ -17,83 +17,85 @@
     {
       "build_hours": 7,
       "inspired_by": [
+        "github:781211861",
         "github:769262834",
-        "github:769127191"
+        "github:714473994"
       ],
-      "pitch": "A localized mobile and web dashboard that maps overflowing public waste bins and unmanaged dumping spots, automatically optimizing collection routes for municipal workers or local volunteers.",
+      "pitch": "A mobile application tailored for local municipalities to incentivize household waste segregation through QR-coded drop-off bins and token rewards.",
       "stack": [
+        "TypeScript",
         "React Native",
         "Node.js",
-        "MongoDB",
-        "Leaflet.js"
+        "Supabase"
       ],
-      "title": "EcoRoute: Community Waste & Sanitation Dispatch",
+      "title": "EcoKottayam Waste-to-Reward Hub",
       "track": "",
-      "why_it_could_win": "Directly targets UN Sustainable Development Goal 11 (Sustainable Cities and Communities) and mirrors the proven social-good impact of previous winning entries like EcoSaathi and WasteX."
+      "why_it_could_win": "Aligns directly with UN Sustainable Development Goal 12 (Responsible Consumption and Production) and mirrors proven winning mechanics from past sustainability hackathons."
     },
     {
-      "build_hours": 8,
+      "build_hours": 7,
       "inspired_by": [
         "github:901472660"
       ],
-      "pitch": "An offline-first mobile application tailored for local panchayats to monitor public water tap assets, log periodic water quality test results, and report pipe leaks with photo uploads.",
+      "pitch": "A lightweight dashboard and mobile tracker for local panchayats and community bodies to log water pump maintenance logs, pipe leakage complaints, and resource distribution.",
       "stack": [
-        "React Native",
-        "Express",
-        "SQLite",
-        "Node.js"
+        "TypeScript",
+        "Node.js",
+        "React"
       ],
-      "title": "JalNet: Rural Water Asset & Quality Tracker",
+      "title": "JalSetu Local Water Asset Manager",
       "track": "",
-      "why_it_could_win": "Aligns with UN SDG 6 (Clean Water and Sanitation) and uses the exact framework of asset and resource management that won runner-up at the Smart India Hackathon."
+      "why_it_could_win": "Targets UN SDG 6 (Clean Water and Sanitation) with a practical governance tool modeled after major national hackathon runners-up."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:714473994"
+        "github:1179029975"
       ],
-      "pitch": "A mobile utility that lets users scan product barcodes at grocery stores or home to instantly display local disposal instructions, material breakdown, and carbon footprint reduction tips.",
+      "pitch": "A crowdsourced mobile platform enabling commuters to log pothole coordinates, unlit street corners, and road damage with automated severity scoring for civic bodies.",
       "stack": [
-        "Flutter",
-        "Dart",
-        "OpenFoodFacts API"
+        "Python",
+        "FastAPI",
+        "React",
+        "Leaflet.js"
       ],
-      "title": "GreenLens: Instant Recyclability Barcode Scanner",
+      "title": "MargMitra Kerala Road Hazard Reporter",
       "track": "",
-      "why_it_could_win": "Directly addresses UN SDG 12 (Responsible Consumption and Production) while replicating the exact winning formula of Sunhacks Best Hack winner 'garbage-scan'."
+      "why_it_could_win": "Addresses UN SDG 11 (Sustainable Cities and Communities) by offering an immediately deployable safety asset for local infrastructure management."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:927292639"
+      ],
+      "pitch": "An offline-first mobile app using a lightweight computer vision model to diagnose common crop blights in regional staple crops, connecting farmers with local cooperative solutions.",
+      "stack": [
+        "Python",
+        "Flutter",
+        "TensorFlow Lite"
+      ],
+      "title": "AgriYield Local Crop Disease Triage",
+      "track": "",
+      "why_it_could_win": "Focuses on UN SDG 2 (Zero Hunger) by delivering actionable agricultural support tailored to regional farming contexts."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:1346526259"
       ],
-      "pitch": "A quick-response web portal that connects local smallholder farmers with nearby food banks and markets to list surplus produce before it spoils, minimizing food waste.",
+      "pitch": "An AI-powered dashboard for local rural artisans and small shops to track carbon footprint reduction metrics and generate localized digital promotions.",
       "stack": [
+        "TypeScript",
         "React",
-        "TailwindCSS",
-        "Supabase"
+        "Supabase",
+        "LLM API"
       ],
-      "title": "AgriSustain: Local Farm Supply & Surplus Matcher",
+      "title": "GreenShop AI Local Commerce Optimizer",
       "track": "",
-      "why_it_could_win": "Tackles UN SDG 2 (Zero Hunger) and SDG 12 by offering a quantified social benefit and clear economic incentive for local communities."
-    },
-    {
-      "build_hours": 8,
-      "inspired_by": [
-        "github:1143576965"
-      ],
-      "pitch": "A lightweight mapping tool enabling citizens in disaster-prone regions to crowd-source blocked roads, flooded areas, and fallen power lines using low-bandwidth SMS integration or local mesh networks.",
-      "stack": [
-        "JavaScript",
-        "Leaflet.js",
-        "Firebase"
-      ],
-      "title": "DisasterRoute: Offline Emergency Hazard Mapper",
-      "track": "",
-      "why_it_could_win": "Directly aligns with UN SDG 13 (Climate Action) and follows the proven success pattern of real-time disaster management platforms like Oarfin."
+      "why_it_could_win": "Combines UN SDG 8 (Decent Work and Economic Growth) with the winning blueprint of combining small business tools and impact reporting."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

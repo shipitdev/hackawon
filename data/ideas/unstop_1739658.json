@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:31:18.477921+05:30",
+  "generated_at": "2026-09-13T07:51:32.150995+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,82 +16,86 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated AML and high-risk transaction monitoring dashboard tailored for Indian fintech gateways, leveraging graph intelligence and gradient boosting to spot money laundering patterns.",
+      "pitch": "An AWS-powered anti-money laundering risk detection platform utilizing graph intelligence and explainable LightGBM specifically tailored for Indian UPI transaction networks.",
       "stack": [
         "TypeScript",
         "Python",
+        "AWS",
         "LightGBM",
-        "Next.js"
+        "NetworkX"
       ],
-      "title": "CryptoGraph Risk-Shield",
+      "title": "FinGraph AML Sentinel",
       "track": "FinTech",
-      "why_it_could_win": "Targets the FinTech track directly by applying advanced machine learning to compliance, mirroring the winning pattern of combining graph intelligence and risk scoring."
+      "why_it_could_win": "Targeting the FinTech track with a production-grade risk detection model inspired by proven graph intelligence architectures will impress judges looking for heavy backend engineering over basic API wrappers."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "An AI-driven regional diet and wellness platform designed for Indian dietary habits, delivering personalized macronutrient insights, health risk alerts, and local meal recommendations.",
+      "pitch": "An AI-powered regional nutrition and wellness platform delivering personalized meal recommendations integrating traditional Indian dietary practices with modern macro tracking.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
+        "Next.js",
+        "Gemini API",
+        "PostgreSQL"
       ],
-      "title": "AuraDiet AI Nutrition",
+      "title": "AyurNutri AI Assistant",
       "track": "HealthTech",
-      "why_it_could_win": "Directly fits the HealthTech track and replicates a proven first-place formula by turning nutritional data into instant, practical lifestyle guidance."
+      "why_it_could_win": "Aligns with the HealthTech track by taking a proven nutrition platform architecture and localizing it for the Indian demographic, addressing a high-priority problem for local wellness judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring application that detects industrial land use violations and carbon footprint anomalies in Indian manufacturing zones using open-source geospatial data.",
+      "pitch": "An AI-powered satellite monitoring tool that automatically flags industrial land use violations and environmental waste discharge against permitted municipal zones in India.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "TensorFlow"
+        "OpenCV",
+        "SentinelHub API",
+        "PostGIS"
       ],
-      "title": "EcoAudit Satellite Tracker",
+      "title": "EcoWatch Industrial Compliance",
       "track": "Sustainability",
-      "why_it_could_win": "Fits the Sustainability track with concrete, measurable environmental impact metrics that appeal directly to municipal and corporate governance judges."
+      "why_it_could_win": "Directly targets the Sustainability track with genuine hard engineering combining geospatial data processing and computer vision, mirroring successful regional hackathon winners."
     },
     {
-      "build_hours": 28,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1183964401"
       ],
-      "pitch": "An AI-driven patient acquisition and trust engine for specialized dental and clinical practices in India, automating patient follow-ups, trust verification, and appointment booking.",
+      "pitch": "An AI-powered algorithmic trading bot optimized for cross-border liquidity hedging and alternative asset pricing feeds.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "WebSockets"
+      ],
+      "title": "Pacifica UPI Arbitrage Bot",
+      "track": "FinTech",
+      "why_it_could_win": "Captures the FinTech track by adapting a winning perpetuals trading engine into an automated no-code strategy builder that appeals to technical finance judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent sustainability reporting and student carbon footprint tracking platform built using LangGraph and localized RAG pipelines.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "LangGraph",
+        "Python",
+        "VectorDB"
       ],
-      "title": "MediTrust Dental Acquisition",
-      "track": "HealthTech",
-      "why_it_could_win": "Wins by targeting local healthcare providers with a high-impact business tool, matching the rapid-delivery and high-utility profile of past short-sprint winners."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "A transparent carbon accounting and micro-ledger platform that helps local Indian manufacturers track and offset Scope 1 and Scope 2 emissions through verified green credits.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "GreenLedger Supply Chain",
+      "title": "GreenGraph Campus Multi-Agent Support",
       "track": "Sustainability",
-      "why_it_could_win": "Provides measurable economic and environmental benefit within the Sustainability track, addressing the rising compliance pressures faced by Indian industries."
+      "why_it_could_win": "Fits the Sustainability track by utilizing advanced multi-agent orchestration to solve institutional green auditing, standing out from superficial wrapper submissions."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

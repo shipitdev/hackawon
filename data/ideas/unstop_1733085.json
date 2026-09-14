@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:30:10.053899+05:30",
+  "generated_at": "2026-09-13T07:50:24.043336+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -8,9 +8,10 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "sponsor-tech",
-      "impact",
-      "working-demo"
+      "technical-depth",
+      "impact"
     ],
     "thin": false
   },
@@ -19,90 +20,79 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1346526259"
+        "github:1010199928"
       ],
-      "pitch": "An AI-powered mobile web tool that allows citizens to snap photos of street garbage or overflowing municipal bins, automatically classifying the waste type, severity, and exact GPS coordinates for routing to local sanitation squads.",
+      "pitch": "An affordable AI garbage classification system using Python, OpenCV, and Arduino that automatically detects and segregates wet and dry waste.",
       "stack": [
-        "TypeScript",
-        "React",
-        "Supabase",
-        "TailwindCSS",
-        "Google Maps API"
+        "Python",
+        "Arduino",
+        "OpenCV"
       ],
-      "title": "CleanStreet AI - Geo-tagged Garbage & Overflow Detector",
-      "track": "street action",
-      "why_it_could_win": "Directly tackles street action and waste collection tracks with a GPS-driven community workflow, mirroring successful civic tech pattern of live municipal dashboards."
+      "title": "SmartBin AI Segregator",
+      "track": "waste collection & segregation",
+      "why_it_could_win": "Directly builds on proven robotics classification projects from previous hackathons and focuses on waste collection and segregation, a core track."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1234067949",
-        "github:1341712439"
+        "github:1341712439",
+        "github:1234067949"
       ],
-      "pitch": "A simulated IoT edge-monitoring dashboard using ultrasonic distance sensors and camera feeds to predict urban water-logging and garbage choke-points in drainage systems before monsoons.",
+      "pitch": "An AI-powered IoT sensor network using TypeScript and anomaly detection to monitor urban drainage blockage and overflow risks in real-time.",
       "stack": [
-        "Python",
-        "Flask",
-        "OpenCV",
-        "Arduino",
-        "TimescaleDB"
+        "TypeScript",
+        "LangGraph",
+        "Qdrant"
       ],
-      "title": "DrainSight - IoT & Vision-Based Drain Blockage Monitor",
+      "title": "DrainSentry IoT Monitor",
       "track": "drain monitoring",
-      "why_it_could_win": "Focuses on drain monitoring, a highly specific and critical problem in Indian cities during monsoons, combining hardware simulation with predictive analytics."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1010199928"
-      ],
-      "pitch": "A computer vision pipeline that runs on a Raspberry Pi or webcam simulation to instantly classify dry, wet, hazardous, and electronic waste, guiding informal waste pickers with voice prompts in regional Indian languages.",
-      "stack": [
-        "Python",
-        "TensorFlow Lite",
-        "OpenCV",
-        "FastAPI",
-        "React"
-      ],
-      "title": "BinBot Vision - Edge AI Waste Segregator",
-      "track": "waste collection & segregation",
-      "why_it_could_win": "Targets hardware & IoT and waste collection & segregation tracks with practical edge AI that can be demonstrated live via webcam."
+      "why_it_could_win": "Combines hard IoT engineering with measurable environmental impact, matching the drain monitoring track."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1346526259"
+        "github:1155558847"
       ],
-      "pitch": "An AI-matching platform connecting local ragpickers and small kabadiwalas (scrap dealers) with industrial recycling units, streamlining scrap pickup schedules and fair-pricing transparency.",
+      "pitch": "Using satellite imagery and computer vision to automatically detect illegal open garbage dumps and overflowing community bins across Indian cities.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "OpenAI API",
-        "Next.js"
+        "Python"
       ],
-      "title": "EcoKabaad - Circular Economy B2B Scrap Matchmaker",
-      "track": "recycling & circular economy",
-      "why_it_could_win": "Addresses the recycling & circular economy track by creating clear economic incentives and quantifiable waste diversion metrics for informal workers."
+      "title": "GeoTrash Satellite Tracker",
+      "track": "street action",
+      "why_it_could_win": "Leverages satellite monitoring patterns that have won major infrastructure hackathons previously."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1341712439"
+        "github:1346526259"
       ],
-      "pitch": "An interactive WhatsApp or web-based AI assistant that teaches children and housing societies proper waste segregation rules through region-specific quizzes, image-based audit challenges, and point systems.",
+      "pitch": "A mobile web app that rewards citizens with tokens for reporting uncleared garbage spots and participating in neighborhood cleanup drives.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase"
+      ],
+      "title": "CivicClean Walk-to-Earn",
+      "track": "civic education",
+      "why_it_could_win": "Adapts a winning real-world impact civic tech model into an engaging civic education platform."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first AI recommendation platform connecting municipal waste aggregators with recycling plants for raw material exchange.",
       "stack": [
         "Python",
-        "Streamlit",
-        "LangChain",
-        "Gemini API"
+        "React"
       ],
-      "title": "KachraKosh - Multilingual Gamified Civic Education Copilot",
-      "track": "civic education",
-      "why_it_could_win": "Solves the civic education track by leveraging LLMs to deliver hyper-local, multilingual guidance tailored to Indian municipal waste norms."
+      "title": "CircularMatch B2B Waste Marketplace",
+      "track": "recycling & circular economy",
+      "why_it_could_win": "Targets the recycling and circular economy track with a clear economic and environmental quantifiable benefit."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

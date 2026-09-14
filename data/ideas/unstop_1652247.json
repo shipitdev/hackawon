@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:29:03.634596+05:30",
+  "generated_at": "2026-09-13T07:49:21.934021+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,9 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,85 +17,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1329458499",
-        "github:1282252864"
+        "github:1334000568",
+        "github:1199751414"
       ],
-      "pitch": "An autonomous governance agent that audits student GitHub submissions against 3SVK research submission guidelines, automatically generating evaluation pull requests and verifying document lineages.",
+      "pitch": "A federated model router and governance audit log built specifically to process and verify participant code submissions and PRs submitted to the 3SVK portal.",
       "stack": [
         "Python",
-        "ai-agents",
-        "GitHub API",
-        "FastAPI"
+        "FastAPI",
+        "Docker",
+        "GitHub API"
       ],
-      "title": "3SVK Cloud-Native Student Research Audit Agent",
-      "track": "",
-      "why_it_could_win": "Directly targets the official execution workflow of the 3SVK organizers who are actively processing 4,000+ GitHub pull requests and project submissions."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router that classifies incoming student research papers and code repositories into appropriate evaluation tracks using kNN exemplar indexes over Qwen embeddings.",
-      "stack": [
-        "Python",
-        "llm-routing",
-        "qwen",
-        "semantic-router"
-      ],
-      "title": "Semantic Research Router for 3SVK Submissions",
-      "track": "",
-      "why_it_could_win": "Mirrors the exact winning architecture of top semantic routing hacks by solving high-volume categorization tasks for judges."
+      "title": "3SVK Research Cloud-Native Agent Mesh",
+      "track": "Research & AI Innovation",
+      "why_it_could_win": "Directly targets the core workflow of the 3SVK Ecosystem Platform team who are actively processing 4,000+ GitHub PRs and code audits during the evaluation window."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1329458499"
+        "github:1296916648"
       ],
-      "pitch": "An automated data lineage and incident response tool that tracks student cloud resource usage during research challenges and generates verifiable repair PRs upon configuration drift.",
+      "pitch": "An offline-first, local model execution pipeline that audits code repositories for vulnerabilities and compliance without sending student source code to external servers.",
       "stack": [
         "Python",
-        "ai-agents",
-        "DataHub",
-        "Data Engineering"
+        "ONNX",
+        "Transformers",
+        "Streamlit"
       ],
-      "title": "Autonomous Data Lineage for Student Cloud Labs",
-      "track": "",
-      "why_it_could_win": "Leverages complex data engineering patterns that impress technical reviewers conducting deep code audits."
+      "title": "SVK-NPU Offline Code Security Auditor",
+      "track": "Research & AI Innovation",
+      "why_it_could_win": "Leverages the demand for secure, local processing of sensitive research code submissions matching student ecosystem growth tracks."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1296916648"
+        "github:1334000568",
+        "github:1207207353"
       ],
-      "pitch": "An edge-optimized code review utility running on local hardware NPUs that audits student submissions for security vulnerabilities and style violations without relying on external cloud APIs.",
+      "pitch": "A self-improving semantic retrieval engine that indexes student abstracts from the 3SVK research portal, automatically routing submissions to the most relevant peer reviewers using vector embeddings.",
       "stack": [
         "Python",
-        "Snapdragon NPU SDK",
-        "AST Parsing"
+        "Qdrant",
+        "HuggingFace",
+        "Flask"
       ],
-      "title": "Offline NPU-Accelerated Code Reviewer for Student Repos",
-      "track": "",
-      "why_it_could_win": "Focuses on hard engineering constraints and offline local execution, standing out among standard cloud-wrapper projects."
+      "title": "Semantic Peer Review Index for Student Research",
+      "track": "Research & AI Innovation",
+      "why_it_could_win": "Solves the scaling bottleneck of reviewing thousands of research papers and project submissions submitted to the 3SVK ecosystem."
     },
     {
-      "build_hours": 38,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1163393786"
+        "github:1282252864"
       ],
-      "pitch": "Two identical AI reviewer agents that debate the validity and novelty of submitted student research papers to catch inconsistencies and hallucinated citations before human audit.",
+      "pitch": "A compliance and pre-deployment risk diagnosis tool that maps student startup applications to strict evaluation criteria and automated BPMN governance flows.",
       "stack": [
         "Python",
-        "adversarial-ai",
-        "Braintrust",
-        "LLM"
+        "Bpmn-js",
+        "LangChain",
+        "PostgreSQL"
       ],
-      "title": "Adversarial Peer Review Simulator for Student Research",
-      "track": "",
-      "why_it_could_win": "Demonstrates advanced multi-agent self-improving dynamics and adversarial evaluation that immediately captivates general judges."
+      "title": "BPMN-Orchestrated Student Innovation Workflow",
+      "track": "Enterprise Tracks",
+      "why_it_could_win": "Aligns with enterprise-track expansion goals by introducing rigorous, automated business process management to student startup mentorship pipelines."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786",
+        "github:1214808895"
+      ],
+      "pitch": "Two specialized AI agents that independently evaluate and debate the novelty of student research proposals, refining their grading rubric iteratively through self-play.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "OpenAI API",
+        "Redis"
+      ],
+      "title": "Self-Optimizing Agentic Research Evaluator",
+      "track": "Research & AI Innovation",
+      "why_it_could_win": "Demonstrates advanced self-improving agent capabilities, directly addressing the continuous research opportunities promoted by the organizers."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:39:13.237433+05:30",
+  "generated_at": "2026-09-13T07:59:10.619557+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,69 +14,69 @@
     {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A practice arena web app for students preparing for blind coding challenges, featuring audio feedback and syntax memory drills.",
+      "pitch": "A practice sandbox built specifically for preparing for blind coding challenges, featuring audio feedback for syntax errors without revealing visual text.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Web Audio API"
+        "Web Audio API",
+        "Monaco Editor"
       ],
-      "title": "CodeClash Blind-Coding Simulator",
+      "title": "BlindType IDE",
       "track": "Blind Coding",
-      "why_it_could_win": "Directly targets the unique event format of CodeClash by providing a training tool for the organizers' own featured Blind Coding round."
+      "why_it_could_win": "It targets the exact niche of the event's Blind Coding round, giving students a tool to train for the competition format itself."
     },
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A real-time spectator and visualization dashboard for head-to-head DSA battles, showing live memory and execution metrics.",
+      "pitch": "A real-time visualizer for head-to-head DSA problem solving that tracks AST diffs and execution traces during live duels.",
       "stack": [
         "Python",
         "WebSockets",
         "React"
       ],
-      "title": "Algorithmic Duel Visualizer",
+      "title": "Algorunner Live",
       "track": "DSA Battle",
-      "why_it_could_win": "Solves a problem the judges and organizers face during live competitive programming events by making battles engaging for spectators."
+      "why_it_could_win": "Directly enhances the live competitive programming format of the DSA Battle with unique observability tools."
     },
     {
       "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A specialized code editor extension that trains developers to recall syntax without visual cues by blanking the screen periodically during timed sprints.",
+      "pitch": "An IDE extension that trains developers to rely purely on syntax memory by progressively obfuscating lines of code as typing speed increases.",
       "stack": [
         "TypeScript",
-        "VS Code API"
+        "VS Code Extension API"
       ],
-      "title": "MemoryTrace IDE Extension",
+      "title": "MemoryScope",
       "track": "Blind Coding",
-      "why_it_could_win": "Built for the exact demographic of 1st and 2nd-year students participating in the CodeClash foundation-building challenges."
+      "why_it_could_win": "Appeals directly to the fundamentals-first, high-pressure memory test ethos of the blind coding challenge."
     },
     {
-      "build_hours": 30,
+      "build_hours": 40,
       "inspired_by": [],
-      "pitch": "An automated test harness and judge system that runs custom edge-case benchmarks for competitive programming problem sets.",
+      "pitch": "An automated sparring partner that generates adversarial test cases for data structure implementations in real time during head-to-head algorithm battles.",
       "stack": [
         "Python",
-        "Docker",
-        "FastAPI"
+        "FastAPI",
+        "Docker"
       ],
-      "title": "DSA Battle Benchmark Engine",
+      "title": "DSADealer",
       "track": "DSA Battle",
-      "why_it_could_win": "Targets the technical core of the DSA Battle track by providing robust evaluation tooling for real-time problem sets."
+      "why_it_could_win": "Solves a core friction point in competitive programming practice by dynamically stressing code against edge cases."
     },
     {
-      "build_hours": 24,
+      "build_hours": 18,
       "inspired_by": [],
-      "pitch": "A peer-to-peer coding culture and mentorship matching platform designed for early-stage programming students to find study groups.",
+      "pitch": "A flashcard and muscle-memory training game for standard library functions and boilerplate code needed in blind coding competitions.",
       "stack": [
         "TypeScript",
-        "Next.js",
+        "React",
         "TailwindCSS"
       ],
-      "title": "Cosmos Culture Companion",
-      "track": "",
-      "why_it_could_win": "Aligns directly with the host organization Cosmos's mission of building a genuine campus coding culture."
+      "title": "SyntaxRecall",
+      "track": "Blind Coding",
+      "why_it_could_win": "Provides tangible utility for the first and second-year students participating in the foundational blind coding track."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

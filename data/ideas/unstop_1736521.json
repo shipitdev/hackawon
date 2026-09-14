@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:31:01.242169+05:30",
+  "generated_at": "2026-09-13T07:51:13.871783+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,87 +14,86 @@
     {
       "build_hours": 9,
       "inspired_by": [
-        "github:1155558847",
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An edge-deployable acoustic signal processing platform that detects mechanical anomalies in rotating machinery using streaming FFT and lightweight neural networks, tailored for IEEE Signal Processing Society judges.",
+      "pitch": "An offline-first digital signal processing toolkit powered by edge machine learning for real-time noise reduction and anomaly detection in sensor streams.",
       "stack": [
         "Python",
         "NumPy",
         "SciPy",
+        "TensorFlow Lite"
+      ],
+      "title": "SignalPulse AI",
+      "track": "",
+      "why_it_could_win": "Since this is hosted by the IEEE Signal Processing Society (SPS), judges will heavily favor rigorous signal processing combined with modern AI models over generic web apps."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite and IoT sensor signal analytics platform designed to detect industrial land and power grid compliance violations automatically.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "GeoPandas",
+        "Next.js"
+      ],
+      "title": "EcoGrid Signal",
+      "track": "",
+      "why_it_could_win": "Leverages heavy data analysis and geo-spatial sensor monitoring, directly appealing to IEEE SPS technical judges looking for practical infrastructure utility."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "A localized acoustic biomarker analysis tool that processes voice and respiratory signals to screen for early signs of respiratory distress.",
+      "stack": [
+        "Python",
+        "Librosa",
         "FastAPI",
         "React"
       ],
-      "title": "SignalSentry: Real-Time Audio Anomaly Detection for Industrial Machinery",
+      "title": "BioVoice Health",
       "track": "",
-      "why_it_could_win": "Targeted directly at the IEEE Signal Processing Society context of the hackathon, appealing to judges with deep signal processing backgrounds by focusing on raw frequency-domain analysis rather than generic UI wrappers."
+      "why_it_could_win": "Combines audio signal processing with healthcare diagnostics, hitting the sweet spot for an IEEE Signal Processing Society event."
     },
     {
       "build_hours": 9,
       "inspired_by": [
-        "github:1181344931",
-        "github:1275874285"
+        "github:1181344931"
       ],
-      "pitch": "A robust 1D convolutional neural network pipeline that extracts QRS complex features from raw ECG sensor streams for continuous biometric user authentication.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "Librosa",
-        "Streamlit"
-      ],
-      "title": "BioSignal-Verify: Electrocardiogram Biometric Authentication Pipeline",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering in biomedical signal processing, which immediately stands out to IEEE SPS judges looking for rigorous mathematical and algorithmic applications."
-    },
-    {
-      "build_hours": 8,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A digital signal processing web utility that applies adaptive filter algorithms and wavelet packet decomposition to clean up degraded radio and voice transmissions in real-time.",
-      "stack": [
-        "JavaScript",
-        "Web Audio API",
-        "WebAssembly",
-        "React"
-      ],
-      "title": "ClearComm: Adaptive Subband Noise Suppression for Emergency Dispatch",
-      "track": "",
-      "why_it_could_win": "Combines clear societal impact with classic DSP textbook concepts implemented in a modern web interface, making it universally understandable and deeply technical."
-    },
-    {
-      "build_hours": 9,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "A spectrum analysis dashboard that processes IQ data samples to classify wireless communication modulations and detect narrow-band RF interference sources.",
-      "stack": [
-        "Python",
-        "Bokeh",
-        "NumPy",
-        "Flask"
-      ],
-      "title": "SpectrumScope: RF Signal Classification and Interference Finder",
-      "track": "",
-      "why_it_could_win": "Directly addresses core wireless communication and telemetry themes dear to IEEE chapters, leveraging concrete mathematical modeling and visualization."
-    },
-    {
-      "build_hours": 8,
-      "inspired_by": [],
-      "pitch": "A rapid prototyping tool for acoustic engineers that computes and simulates room impulse responses (RIR) using the image source method for virtual acoustics.",
+      "pitch": "Graph-based transaction signal intelligence platform that maps money laundering patterns using high-frequency network telemetry.",
       "stack": [
         "TypeScript",
-        "Three.js",
-        "Web Audio API",
-        "TailwindCSS"
+        "Python",
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "EchoSpatial: Binaural Audio Room Impulse Response Synthesizer",
+      "title": "SonarGraph AML",
       "track": "",
-      "why_it_could_win": "Solves a niche computational problem with immediate visual gratification during judging demos, hitting the sweet spot of algorithmic complexity and 10-hour hackathon feasibility."
+      "why_it_could_win": "Directly applies advanced graph intelligence and telemetry analysis, echoing proven winning patterns from high-level technical hackathons."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An offline multi-agent student tutor leveraging local vector embeddings and signal-based retrieval augmentation for instant academic query resolution.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "ChromaDB"
+      ],
+      "title": "NeuroStream RAG",
+      "track": "",
+      "why_it_could_win": "Fits a tight 10-hour offline hackathon format by relying on pre-packaged open-source AI pipelines and a clean local interface."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

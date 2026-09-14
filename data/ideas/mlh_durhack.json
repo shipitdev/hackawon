@@ -1,100 +1,102 @@
 {
-  "generated_at": "2026-09-12T10:23:35.408864+05:30",
+  "generated_at": "2026-09-13T07:43:55.195672+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:durhack",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A localized forecasting and risk assessment tool for the River Wear in Durham, using historical hydrological data and Poisson regression to predict localized flood incidents and infrastructure strain.",
+      "pitch": "A spatial-temporal forecasting tool using Poisson regression and geospatial mapping to predict structural maintenance risks for historical buildings in County Durham.",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "Poisson-Regression",
         "Leaflet.js"
       ],
-      "title": "Durham Historic Flood and Drainage Forecaster",
+      "title": "Durham Historic Infrastructure Risk Forecaster",
       "track": "",
-      "why_it_could_win": "Follows the pattern of winning AI incident forecasting by applying rigorous modeling to a localized physical safety problem that directly impacts the Durham community and university area."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated auditing platform for Durham University student union grants and club treasuries, combining graph intelligence and anomaly detection to flag high-risk transactions or compliance issues.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "LightGBM",
-        "Python"
-      ],
-      "title": "Student Society Grant and AML Risk Auditor",
-      "track": "",
-      "why_it_could_win": "Solves a problem the judges and student organizers feel directly by automating the tedious compliance and auditing process for university societies."
+      "why_it_could_win": "Follows the winning pattern of combining rigorous predictive modeling with localized data, which appeals to judges looking for tangible real-world regional impact."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1275874285",
+        "github:1213911408"
       ],
-      "pitch": "An autonomous AI agent platform that connects independent Durham student freelancers and local independent shops with secure escrow-backed micro-payments.",
+      "pitch": "An autonomous AI agent platform that aggregates real-time student wearable metrics to dynamically adjust study schedules and trigger localized healthy meal deliveries.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "Python"
       ],
-      "title": "Durham Local Business Autonomous Micro-Marketplace",
+      "title": "Wearable-Integrated Student Stress & Nutrition Dispatcher",
       "track": "",
-      "why_it_could_win": "Demonstrates clear local economic benefit and taps into the proven winning pattern of autonomous agent marketplaces with secure settlement mechanics."
+      "why_it_could_win": "Combines multi-agent workflow architecture with health data utility, reflecting the formula of previous winners focused on wellness and autonomous orchestration."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated risk-scoring and graph intelligence platform to trace research grant allocations and flag potential compliance violations or anomalies in real time.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "Graph-Based Compliance & Anomaly Detector for University Grants",
+      "track": "",
+      "why_it_could_win": "Leans into hard engineering by utilizing graph intelligence and explainable machine learning models, mirroring the technical depth seen in previous AML and compliance winners."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1194555365"
+        "github:1241231621",
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered logistics app that groups elderly residents in County Durham into shared social outings and pairs them with verified student volunteer drivers.",
+      "pitch": "A multi-agent AI system that simulates and optimizes campus energy grids, minimizing carbon footprints through automated predictive scheduling.",
       "stack": [
         "TypeScript",
-        "Next.js",
+        "Python",
         "Gemini API",
         "TailwindCSS"
       ],
-      "title": "Wearside Senior Community Transport Dispatch",
+      "title": "Eco-Campus Multi-Agent Resource Allocator",
       "track": "",
-      "why_it_could_win": "Targets concrete social impact with a quantified community benefit, mirroring the grand prize winner at the Vanderbilt Global Good Hackathon."
+      "why_it_could_win": "Leverages the winning combination of multi-agent student support frameworks applied to sustainability challenges, matching the success criteria of green tech hackathons."
     },
     {
-      "build_hours": 22,
+      "build_hours": 27,
       "inspired_by": [
-        "github:1241231621"
+        "github:1183964401",
+        "github:1185920891"
       ],
-      "pitch": "An AI-powered guest acquisition and verified review trust engine tailored for Durham college formals, catering services, and student-run formals coordination.",
+      "pitch": "A no-code strategy builder and execution platform for synthetic student-led prediction markets and micro-perpetuals utilizing decentralized escrow.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Python"
       ],
-      "title": "Durham College Formal & Event Trust Engine",
+      "title": "Micro-Perp Campus Prediction Market",
       "track": "",
-      "why_it_could_win": "Builds on a proven trust-engine framework while targeting a deeply familiar local pain point for students organizing college balls and formals."
+      "why_it_could_win": "Packs sophisticated financial logic and automated execution into an intuitive no-code interface, matching the grand prize-winning formula of trading platform simplifiers."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

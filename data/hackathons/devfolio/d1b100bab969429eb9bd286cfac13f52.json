@@ -5,7 +5,7 @@
   "ends_at": "2026-10-09T18:30:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 228,
+  "participants_count": 277,
   "prize_amount": null,
   "prize_currency": null,
   "projects_submitted": 0,
@@ -69,6 +69,16 @@
         "answer": "You can join the Discord server for any Query : [https://discord.gg/kDpNBsU3qt](https://discord.gg/kDpNBsU3qt)",
         "question": "I still have questions. Where can i ask?",
         "uuid": "5ba3e0f8eb7148b1a5528cd1f51e8a64"
+      },
+      {
+        "answer": "Accommodation will not be provided but a common rest area will be given.",
+        "question": "Will there be any accommodation provided?",
+        "uuid": "cd5a0eb6ccd1466d9963c64ac44dcaf3"
+      },
+      {
+        "answer": "No, travel expenses need to be borne by the participants themselves.",
+        "question": "Will Travel expense be reimbursed?",
+        "uuid": "abd1d724d642478eb3215326798bdf09"
       }
     ],
     "hackathon_setting": {
@@ -101,7 +111,7 @@
     "judges": [],
     "location": "SSTC, Junwani, Chhattisgarh, India",
     "name": "HACKBIOS 2K26",
-    "participants_count": 228,
+    "participants_count": 277,
     "participants_details": [
       {
         "first_name": "Gunjan",
@@ -144,16 +154,74 @@
         "height": null,
         "name": "DIAMOND",
         "position": 1,
-        "sponsors": [],
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "devfolio.co",
+              "logo": null,
+              "name": "Devfolio",
+              "uuid": "89b098bdc57d448badcd5667ba31dcd7",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/sponsors/4ae070383f9d4abd82dba2a086a9fc45/985.png",
+            "name": "Devfolio",
+            "position": 1,
+            "uuid": "4ae070383f9d4abd82dba2a086a9fc45"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "github.com",
+              "logo": null,
+              "name": "GitHub",
+              "uuid": "5663f667788740c88725dc596f6f2d63",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/sponsors/6cbf992a47b9478a80dfbcce8fb12cb8/302.png",
+            "name": "GitHub",
+            "position": 2,
+            "uuid": "6cbf992a47b9478a80dfbcce8fb12cb8"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "elevenlabs.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/elevenlabs.io.png",
+              "name": "ElevenLabs",
+              "uuid": "a46baa7955334325926ef81ba2f77b42",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/sponsors/399dc81635c442a1b2547ba6589b8d14/937.png",
+            "name": "ElevenLabs",
+            "position": 3,
+            "uuid": "399dc81635c442a1b2547ba6589b8d14"
+          }
+        ],
         "uuid": "87b729a2780b45ff9aca8f993e80f444",
-        "width": 400
+        "width": 300
       },
       {
         "about": "",
         "height": null,
         "name": "GOLD",
         "position": 2,
-        "sponsors": [],
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "quillbot.com",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/quillbot.com.png",
+              "name": "QuillBot",
+              "uuid": "8f705a91e52b47d2b3e965ea525edbf7",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/sponsors/a633cd1b152b408396ebc518a251d8a1/373.png",
+            "name": "QuillBot",
+            "position": 1,
+            "uuid": "a633cd1b152b408396ebc518a251d8a1"
+          }
+        ],
         "uuid": "3fbb4f59e13f4efea3c3cb492d630480",
         "width": 250
       },
@@ -171,7 +239,22 @@
         "height": null,
         "name": "BRONZE",
         "position": 4,
-        "sponsors": [],
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "gen.xyz",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/gen.xyz.png",
+              "name": "XYZ",
+              "uuid": "2e303093953941c4be5486ced5bf992a",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/d1b100bab969429eb9bd286cfac13f52/sponsors/29a7ab26073148d2baac35bfa144b04e/291.png",
+            "name": ".xyz",
+            "position": 1,
+            "uuid": "29a7ab26073148d2baac35bfa144b04e"
+          }
+        ],
         "uuid": "43423c235fa84678b79670dae853b562",
         "width": 200
       }
@@ -195,7 +278,13 @@
   "reg_opens_at": null,
   "source": "devfolio",
   "source_id": "d1b100bab969429eb9bd286cfac13f52",
-  "sponsors": [],
+  "sponsors": [
+    "Devfolio",
+    "GitHub",
+    "ElevenLabs",
+    "QuillBot",
+    ".xyz"
+  ],
   "starts_at": "2026-10-08T18:30:00Z",
   "tagline": "Where Ideas Boot Into Reality",
   "team_max": 4,

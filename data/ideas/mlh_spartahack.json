@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:28:04.593718+05:30",
+  "generated_at": "2026-09-13T07:48:23.122307+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,85 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1194555365",
-        "github:1241231621"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered student organization and event discovery platform that pairs incoming freshmen at Michigan State University with campus clubs based on schedule compatibility, skill sets, and peer recommendations.",
+      "pitch": "A localized predictive analytics engine using Poisson GAM and rolling backtests to forecast regional infrastructure and energy load anomalies in Michigan during severe winter weather.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "SpartyMatch",
+      "title": "SpartanGrid AI Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Targets a problem that university organizers and students in the room feel directly on campus every semester, mirroring the localized community impact of winning projects like Outreach."
+      "why_it_could_win": "Follows the exact hard engineering pattern from the Apart Research AI Forecasting win by utilizing statistical modeling and calibrated prediction intervals instead of a generic wrapper."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "Satellite-based environmental monitoring tool that tracks canopy coverage, urban heat islands, and green space maintenance needs across the Michigan State University campus using multi-spectral imagery.",
+      "pitch": "An AWS-powered graph intelligence and LightGBM platform designed to detect suspicious peer-to-peer financial transactions and grant allocation fraud in university student organizations.",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "AWS",
+        "LightGBM",
+        "Neo4j"
       ],
-      "title": "GreenSpace MSU",
+      "title": "CampusShield AML & Fraud Graph",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering combined with clear, measurable environmental impact on the local campus landscape, following the pattern of GeoNex-ATLAS."
+      "why_it_could_win": "Leverages complex graph intelligence and explainable machine learning proven to win financial and AI innovation hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support and sustainability tracker using LangGraph and RAG to audit and optimize campus building energy consumption and waste reduction initiatives.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "Midwest GreenNovation Multi-Agent Advisor",
+      "track": "",
+      "why_it_could_win": "Adapts the winning multi-agent RAG architecture from the GreenNovation Hackathon to solve a practical university-level challenge that local judges will immediately appreciate."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1185920891"
+        "github:1155558847"
       ],
-      "pitch": "Decentralized marketplace and secure escrow platform for MSU student textbook exchanges and subleasing, utilizing instant USDC payments on Base to eliminate scams.",
+      "pitch": "An automated satellite imagery analysis tool that monitors agricultural land use changes and environmental compliance across rural Michigan counties.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity"
+        "TypeScript",
+        "Python",
+        "Leaflet.js",
+        "SentinelHub API"
       ],
-      "title": "CampusCartel",
+      "title": "AgriSustain Satellite Land Monitor",
       "track": "",
-      "why_it_could_win": "Implements autonomous agent logic and crypto escrow payments, directly replicating the exact technical and market architecture of Dispatch."
+      "why_it_could_win": "Replicates the technical execution of the Xcelerate Hackathon runner-up by integrating geospatial APIs for high-impact environmental monitoring."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-driven dining hall nutrition assistant that scans MSU campus dining menus in real-time, delivering personalized macro breakdowns and allergy alerts for students on restricted diets.",
+      "pitch": "An AI-powered nutrition and wellness platform tailored for university dining halls, delivering real-time personalized meal recommendations based on student dietary restrictions and fitness goals.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "OpenAI API"
+        "PostgreSQL"
       ],
-      "title": "NutriSparty",
+      "title": "NutriCampus Personalized Wellness Engine",
       "track": "",
-      "why_it_could_win": "Targets an immediate daily pain point for students eating at campus cafeterias, perfectly aligning with the consumer-health utility seen in E-Foodiee."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An incident-forecasting dashboard that predicts power outages and grid failure probabilities across midwestern municipal sectors using Poisson regression and rolling backtests.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "MidwestGrid Predict",
-      "track": "",
-      "why_it_could_win": "Applies rigorous statistical modeling and predictive analytics to a critical infrastructure domain, mirroring the winning approach of ai-incident-forecasting."
+      "why_it_could_win": "Uses the fast-turnaround consumer utility model that successfully won the Mealzy 24-Hour Hackathon within a tight time window."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

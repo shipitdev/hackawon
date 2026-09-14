@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:26:53.586617+05:30",
+  "generated_at": "2026-09-13T07:47:20.250462+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,84 +14,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "A spatial intelligence platform built to monitor and predict tourist congestion hotspots around Orlando theme parks and attractions, routing micro-transit and volunteer drivers dynamically to underserved zones.",
+      "pitch": "A predictive spatial-temporal intelligence platform that forecasts congestion and optimizes micro-mobility routes around Orlando entertainment corridors using Poisson regression and real-time transit data.",
       "stack": [
-        "TypeScript",
-        "Next.js",
         "Python",
-        "Geospatial API"
+        "Jupyter Notebook",
+        "Poisson-Regression",
+        "FastAPI",
+        "Leaflet.js"
       ],
-      "title": "Orlando Tourist Crowd Flow & Micro-Transit Optimizer",
+      "title": "Orlando Tourist Crowd Flow & Micro-Mobility Predictor",
       "track": "",
-      "why_it_could_win": "Targeting local logistics and tourism pain points familiar to Orlando judges, while matching the proven pattern of tackling clear, measurable social and economic impact."
+      "why_it_could_win": "Follows the exact pattern of the AI Forecasting Hackathon winner by applying rigorous statistical modeling rather than a generic UI wrapper, appealing to judges looking for hard data science."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A predictive developer tool utilizing Poisson regression models to forecast software integration failures and security vulnerabilities before they break university hackathon submission builds.",
+      "pitch": "An automated satellite and aerial monitoring tool for local environmental compliance, tracking canopy cover and urban heat islands using computer vision and GIS spatial indexing.",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
         "Python",
-        "TypeScript"
+        "OpenCV",
+        "PostGIS",
+        "Next.js"
       ],
-      "title": "Student AI Incident & Bug Forecasting Dashboard",
+      "title": "Campus Green Space Compliance & Heatmap Monitor",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges and student competitors feel directly in the room during high-pressure coding sprints."
+      "why_it_could_win": "Emulates the runner-up Xcelerate Hackathon winner by focusing on real-world industrial and municipal land compliance monitoring."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition assistant customized for university dining halls, delivering personalized meal recommendations and allergy insights tailored to student dietary restrictions.",
+      "pitch": "A localized dining hall and budget-grocery AI nutrition assistant that generates hyper-personalized meal plans based on local student budgets and dietary restrictions.",
       "stack": [
         "Python",
+        "Gemini-API",
+        "TypeScript",
         "Next.js",
-        "Gemini API"
+        "TailwindCSS"
       ],
-      "title": "Campus Health & Dining Nutritional Navigator",
+      "title": "Student Health and Nutritional AI Concierge",
       "track": "",
-      "why_it_could_win": "Replicates a proven winning formula by targeting student wellness with concrete health metrics and immediate utility for campus life."
+      "why_it_could_win": "Replicates the winning formula of the Mealzy 24-Hour Hackathon by solving an immediate, relatable daily problem for college students with a polished user experience."
     },
     {
       "build_hours": 42,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous agent marketplace featuring escrow smart contracts where sponsors and organizers can post micro-bounties for specific hackathon deliverables and verify completions automatically.",
+      "pitch": "An autonomous AI agent marketplace where student freelancers securely execute and settle micro-tasks using USDC escrow smart contracts.",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
-        "TypeScript"
+        "LangChain",
+        "Solidity"
       ],
-      "title": "Autonomous Hackathon Project Bounty Marketplace",
+      "title": "Decentralized Campus Micro-Task Escrow Agent",
       "track": "",
-      "why_it_could_win": "Leans into verifiable transaction mechanics and automation that instantly appeal to technical judges looking for complex workflow execution."
+      "why_it_could_win": "Leverages the Synthesis Hackathon winning archetype by combining autonomous agents with real financial settlement on Base."
     },
     {
-      "build_hours": 45,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "An automated risk detection platform utilizing graph intelligence and gradient boosting to evaluate transparency and flag anomalies in student-led startup funding applications.",
+      "pitch": "A multi-agent student success platform combining localized RAG and personalized AI tutors to route academic questions to the right departmental resources.",
       "stack": [
         "TypeScript",
+        "LangGraph",
         "Python",
-        "LightGBM"
+        "Pinecone",
+        "FastAPI"
       ],
-      "title": "Explainable AML & Risk Scorer for Student Venture Grants",
+      "title": "Campus Multi-Agent Academic Support Network",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering through graph-based anomaly detection and explainable machine learning models."
+      "why_it_could_win": "Directly adapts the winning architecture from the GreenNovation Hackathon by implementing a specialized multi-agent student support workflow."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

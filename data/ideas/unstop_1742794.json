@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:31:59.136547+05:30",
+  "generated_at": "2026-09-13T07:52:21.806076+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -16,84 +15,90 @@
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring and orbital debris collision forecasting platform leveraging Poisson regression and spatial mapping.",
+      "pitch": "AI-powered satellite imagery monitoring platform that detects unauthorized commercial developments and environmental infractions in restricted space-port and aerospace manufacturing zones.",
       "stack": [
-        "Python",
         "TypeScript",
-        "Jupyter Notebook",
-        "Next.js"
+        "Python",
+        "Next.js",
+        "PyTorch",
+        "SentinelHub API"
       ],
-      "title": "OrbitalGuard AI",
-      "track": "Space-Inspired Innovation",
-      "why_it_could_win": "Directly matches the 'Where AI Meets the Final Frontier' space-inspired innovation theme of Graviton and utilizes rigorous forecasting inspired by past AI incident forecasting wins."
+      "title": "AstroCompliance Atlas",
+      "track": "",
+      "why_it_could_win": "Directly taps into the space-inspired innovation and emerging technology theme of Graviton by applying heavy geospatial AI similar to past geospatial compliance winners."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "An aerospace supply chain risk detection and compliance investigation platform using graph intelligence and explainable machine learning.",
+      "pitch": "AIsafety and incident prediction model utilizing Poisson regression and rolling backtests to forecast satellite conjunctions and space debris collision cascades in low Earth orbit.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "OrbitalRisk Forecaster",
+      "track": "",
+      "why_it_could_win": "Leverages rigorous statistical modeling and difficult backend forecasting inspired by winning AI safety and incident prediction architectures."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "AWS-powered anti-money laundering and supply chain risk detection platform using graph intelligence to track illicit component sourcing for aerospace hardware manufacturers.",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM"
+        "Node.js",
+        "LightGBM",
+        "Neo4j",
+        "AWS Lambda"
       ],
-      "title": "AeroStream AML",
-      "track": "Emerging Technologies",
-      "why_it_could_win": "Brings heavy-duty graph intelligence and compliance analytics to the aerospace and defense supply chain sector, aligning with CGC University judges' enterprise focus."
+      "title": "CosmoTx AI Supply Shield",
+      "track": "",
+      "why_it_could_win": "Combines graph intelligence and enterprise risk investigation, mirroring the technical complexity of past financial and industrial hackathon champions."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace with secure crypto-economic escrow payments tailored for decentralized space data and telemetry sharing.",
+      "pitch": "Autonomous AI agent marketplace with USDC escrow payments on Base designed for booking and trading decentralized telemetry and space observation data pipelines.",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "AI Agents"
+        "Solidity",
+        "Node.js",
+        "USDC SDK"
       ],
-      "title": "CosmoEscrow Agent",
-      "track": "Artificial Intelligence",
-      "why_it_could_win": "Combines cutting-edge autonomous AI agents with decentralized escrow rails on Base, reproducing a proven hackathon-winning architecture in a space-tech context."
+      "title": "AstroAgent Escrow",
+      "track": "",
+      "why_it_could_win": "Demonstrates full-stack web3 integration and autonomous agent execution, matching the exact winning blueprint of recent autonomous marketplace tracks."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "An AI-powered video intelligence platform that transforms unstructured live telescope and drone feeds into searchable, queryable event logs.",
+      "pitch": "AI-powered video intelligence platform transforming raw, unstructured telescope feeds and mission live-streams into searchable, indexed cosmological events.",
       "stack": [
         "HTML",
         "Python",
-        "Gemini API"
+        "OpenCV",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "AstroVision Video Intelligence",
-      "track": "Space-Inspired Innovation",
-      "why_it_could_win": "Solves the massive data ingestion bottleneck inherent in astronomy and space exploration, echoing the exact structural win of LibrAI."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-driven no-code algorithmic trading and strategy copying platform specialized in space economy assets and perpetuals.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js"
-      ],
-      "title": "NovaTrade Space-Perps",
-      "track": "Emerging Technologies",
-      "why_it_could_win": "Adapts a grand prize-winning trading bot architecture specifically for emerging space market speculations, appealing to the entrepreneurial judges."
+      "title": "Star-Gazer Video Intelligence",
+      "track": "",
+      "why_it_could_win": "Solves unstructured data processing with high utility for space researchers, directly echoing the data-to-insights design focus of previous first-place winners."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

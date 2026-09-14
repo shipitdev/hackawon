@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:23:53.882355+05:30",
+  "generated_at": "2026-09-13T07:44:12.847418+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,85 @@
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered application that coordinates local student volunteers in Charlottesville to group and transport nearby seniors to grocery stores, social events, and appointments.",
+      "pitch": "A quantitative risk-forecasting dashboard that predicts regional student event safety risks using historical campus incident logs and Poisson regression modeling.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "Gemini API"
+        "Jupyter Notebook",
+        "Python",
+        "Poisson-Regression",
+        "Plotly"
       ],
-      "title": "Hoos-Out: Student Senior Companion & Volunteer Coordinator",
+      "title": "HooSafe AI Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Mirrors the exact grand-prize winning pattern of solving local community issues with measurable social impact, which appeals deeply to university judges and local hackathons."
+      "why_it_could_win": "Leverages the winning pattern of hard engineering and probabilistic forecasting demonstrated in the AI-incident-forecasting hackathon win."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
+        "github:1181344931"
       ],
-      "pitch": "An AI-driven nutrition and wellness assistant optimized for college student budgets in Charlottesville, generating personalized meal plans based on local grocery store sales and nutritional needs.",
+      "pitch": "An AWS-powered compliance and transaction graph explorer designed to audit student club funding and sponsorship allocations for anomalies.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
+        "TypeScript",
+        "AWS",
+        "LightGBM",
+        "Neo4j"
       ],
-      "title": "Cavalier-Cents: Student Micro-Budget and Meal Planning AI",
+      "title": "CavGuard AML and Grant Risk Engine",
       "track": "",
-      "why_it_could_win": "Directly targets a major pain point felt by every student judge and attendee in the room—eating well on a strict student budget."
+      "why_it_could_win": "Employs graph intelligence and explainable risk scoring, mirroring the winning blueprint of the Bito AML platform."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1087704265"
+        "github:1183964401"
       ],
-      "pitch": "A Poisson-regression and ML-backed forecasting tool using historical campus and city safety data to predict incident hotspots and optimize late-night campus shuttle routes in real time.",
+      "pitch": "A no-code strategy builder and automated copy-trading platform tailored for decentralized perpetual exchanges.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Scikit-Learn",
-        "Leaflet.js"
+        "FastAPI",
+        "React",
+        "Web3.py"
       ],
-      "title": "Grounds-Guard: Campus Safety Incident Forecaster",
+      "title": "CvillePerp DEX Bot",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard statistical engineering combined with practical campus utility, a combination that stands out among standard web apps."
+      "why_it_could_win": "Captures the grand-prize-winning mechanics of ClashX by offering instant strategy deployment for complex financial markets."
     },
     {
-      "build_hours": 26,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1185920891"
+        "github:1275874285"
       ],
-      "pitch": "A localized, escrow-backed marketplace for university students to safely buy, sell, and trade textbooks, dorm furniture, and services using simple crypto or simulated fiat escrow mechanics.",
+      "pitch": "An on-campus dining hall nutritional assistant that generates real-time personalized meal plans based on daily macronutrient goals and local menu inventory.",
       "stack": [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "PostgreSQL"
+        "Python",
+        "Streamlit",
+        "Gemini-API",
+        "FastAPI"
       ],
-      "title": "Hoos-Trade: Local Student-to-Student Exchange Platform",
+      "title": "CavBites AI Nutritionist",
       "track": "",
-      "why_it_could_win": "Solves an immediate, recurring logistical problem for students moving in and out of Charlottesville apartments and dorms every semester."
+      "why_it_could_win": "Repeats the high-impact consumer utility that secured first place at the Mealzy 24-Hour Hackathon."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered satellite monitoring interface tracking urban sprawl, tree canopy changes, and industrial land compliance around the Charlottesville and Albemarle County area.",
+      "pitch": "A multi-agent student support platform that connects campus green initiatives with local municipal sustainability data using LangGraph and RAG.",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet",
-        "SentinelHub API"
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
       ],
-      "title": "C-Ville Eco-Monitor: Satellite Land & Green Space Tracker",
+      "title": "EcoCville Multi-Agent Sustainability Hub",
       "track": "",
-      "why_it_could_win": "Applies advanced spatial intelligence and computer vision to a tangible local environmental dataset, showcasing high technical execution within the 35-hour limit."
+      "why_it_could_win": "Follows the winning multi-agent architecture proven at the GreenNovation Hackathon."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

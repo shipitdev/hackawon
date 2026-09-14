@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:21:47.166378+05:30",
+  "generated_at": "2026-09-13T07:40:11.641742+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,82 @@
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "An AI incident forecasting tool tailored for GNIT campus facilities using Poisson regression to predict maintenance failures and safety bottlenecks based on historical data.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Streamlit",
-        "Pandas"
-      ],
-      "title": "GNIT Campus Incident & Safety Forecaster",
-      "track": "",
-      "why_it_could_win": "Solves a problem the judges and campus administrators feel directly by addressing localized institutional safety and operational risks."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered participant acquisition and engagement platform built for the GNIT Kolkata ACM Student Chapter to manage hackathon signups, team matching, and automated updates.",
+      "pitch": "An AI-powered campus resource monitoring dashboard built for GNIT that aggregates IoT sensor data to forecast energy spikes and recommend green operational adjustments.",
       "stack": [
         "TypeScript",
+        "Python",
         "Next.js",
-        "Gemini API",
         "TailwindCSS"
       ],
-      "title": "ACM Chapter Event Trust & Outreach Engine",
+      "title": "GNIT Campus Carbon Footprint & Energy Optimizer",
       "track": "",
-      "why_it_could_win": "Directly targets the organizing body (ACM Chapter) by solving their exact pain points around event management and student outreach."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition platform tuned for student diets in Kolkata, offering personalized meal recommendations utilizing local canteens and nearby street food options.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
-      ],
-      "title": "Kolkata Local Vendor Nutrition & Meal Planner",
-      "track": "",
-      "why_it_could_win": "Combines a proven winning hackathon pattern (AI health assistant) with strong hyper-local relevance for students living around GNIT."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A lightweight satellite monitoring dashboard designed to track unauthorized construction and environmental changes around the GNIT institutional zone.",
-      "stack": [
-        "TypeScript",
-        "Leaflet.js",
-        "Python",
-        "FastAPI"
-      ],
-      "title": "Campus Industrial Land Compliance Monitor",
-      "track": "",
-      "why_it_could_win": "Showcases hard technical execution involving geospatial data processing and satellite imagery analysis within a tight timeframe."
+      "why_it_could_win": "Aligns with institutional sustainability priorities and leverages predictive modeling patterns seen in successful green tech hacks."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A micro-task and peer-to-peer service marketplace featuring simulated escrow payments tailored for student freelancers and developers within the GNIT campus network.",
+      "pitch": "A rapid credentialing and attendance tracker for student chapters utilizing cryptographic micro-badges to verify workshop participation at GNIT.",
       "stack": [
-        "JavaScript",
+        "TypeScript",
         "Node.js",
-        "Express",
         "PostgreSQL"
       ],
-      "title": "GNIT Student Peer Autonomous Task Escrow",
+      "title": "ACM Chapter Event Stream & Peer Credentialing Engine",
       "track": "",
-      "why_it_could_win": "Adapts a winning autonomous marketplace model into a localized, highly practical tool for student collaboration during and after the hackathon."
+      "why_it_could_win": "Directly serves the organizing ACM student body by solving a recurring logistical challenge with production-ready code."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A localized predictive analytics tool utilizing lightweight regression models to forecast student support ticket volumes and administrative bottlenecks for technical institutions.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "FastAPI"
+      ],
+      "title": "Local Academic Incident & Query Forecasting Tool",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard statistical engineering within a tight 8-hour window, echoing winning formulaics from advanced forecasting hacks."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A fast-turnaround web utility that helps GNIT hostel residents optimize daily nutritional intake based on real-time rotating menu items available at local campus canteens.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Campus Health & Nutritional Canteen Planner",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable student problem with a polished, consumer-ready interface built in a short sprint."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A lightweight computer vision utility that checks laboratory hardware compliance and workstation safety parameters using browser-based image streams.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TypeScript"
+      ],
+      "title": "GNIT Lab Asset & Compliance Vision Monitor",
+      "track": "",
+      "why_it_could_win": "Applies industrial monitoring concepts to a localized campus setting, showcasing practical engineering execution."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

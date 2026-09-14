@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:29:21.199531+05:30",
+  "generated_at": "2026-09-13T07:49:39.958166+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -14,86 +13,93 @@
   "hackathon_uid": "unstop:1711890",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 32,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AI-powered graph intelligence platform designed for university compliance and financial auditing, using gradient boosting and explainable AI to detect transactional anomalies.",
+      "pitch": "An offline-first graph intelligence and risk detection platform tailored for monitoring suspicious micro-transactions, peer-to-peer lending irregularities, and vendor payouts within a large campus ecosystem.",
       "stack": [
         "TypeScript",
         "Python",
+        "NetworkX",
         "LightGBM",
-        "NetworkX"
+        "Next.js"
       ],
-      "title": "CampusGraph AI: Institutional AML & Risk Investigation Platform",
+      "title": "CampusGraph AML: Financial Risk Intelligence for University Ecosystems",
       "track": "",
-      "why_it_could_win": "Adapts the proven graph intelligence and Focal LightGBM architecture from Bito to target institutional compliance use cases often favored by university-affiliated hackathon judges."
+      "why_it_could_win": "Leverages graph intelligence and explainable models similar to Bito, appealing directly to judges looking for robust enterprise-grade AI architecture applied locally."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring tool tracking land use changes, green cover depletion, and construction compliance around university zones.",
+      "pitch": "An AI-powered satellite imagery monitoring platform designed to track unauthorized land usage, construction changes, and environmental degradation across university or regional municipal boundaries.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet",
-        "PyTorch"
+        "SentinelHub API",
+        "PyTorch",
+        "Leaflet.js"
       ],
-      "title": "GeoNex MUJ: Satellite-Powered Campus Infrastructure & Environmental Compliance",
+      "title": "GeoNex-MUJ: Satellite Land and Infrastructure Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Mirrors the exact technical stack and problem domain of GeoNex-ATLAS, bringing high-impact geospatial intelligence that impresses technical panels."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-driven nutrition assistant tailored for campus mess menus, generating personalized meal recommendations and tracking nutritional intake for students.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
-      ],
-      "title": "Mess-Nutri AI: Personalized Hostel Dining & Nutrition Intelligence",
-      "track": "",
-      "why_it_could_win": "Directly applies the winning formula of E-Foodiee-AI-Nutrition-Assistant to a hyper-local university problem that resonates immediately with hackathon judges."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "An AI video intelligence platform that transforms unstructured lecture recordings into searchable, accessible transcripts, summaries, and Q&A knowledge bases.",
-      "stack": [
-        "HTML",
-        "Python",
-        "Whisper API",
-        "VectorDB"
-      ],
-      "title": "LectureLens: AI Video Intelligence for Multi-Lingual Campus Lectures",
-      "track": "",
-      "why_it_could_win": "Leverages the LibrAI winning blueprint of unstructured data transformation, offering immediate utility to students and faculty at Manipal University Jaipur."
+      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by solving real-world GIS compliance problems with practical computer vision pipelines that judges can immediately visualize."
     },
     {
       "build_hours": 26,
       "inspired_by": [
+        "github:1275874285",
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine optimized for institutional dental and healthcare clinics operating within university ecosystems.",
+      "pitch": "An offline-friendly nutritional intelligence platform that scans campus dining hall menus, predicts daily micronutrient intake, and dynamically generates personalized meal plans for student athletes and residents.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "React Native",
+        "TailwindCSS"
       ],
-      "title": "MediTrust AI: Patient Acquisition & Trust Engine for University Dental Clinics",
+      "title": "NutriCampus AI: Real-time Mess Nutrition and Wellness Optimizer",
       "track": "",
-      "why_it_could_win": "Replicates the Global-Smile winning pattern of combining healthcare workflows with trust-building AI interfaces, a proven pitch for health-tech tracks."
+      "why_it_could_win": "Directly builds on the winning formula of E-Foodiee by targeting an immediate, relatable campus pain point with rapid AI API integration."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A forecasting engine that utilizes Poisson regression and rolling backtests on historical campus security logs and lighting data to predict localized safety incidents and optimize patrol routes.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "IncidentCast AI: Campus Safety and Security Risk Forecaster",
+      "track": "",
+      "why_it_could_win": "Adapts the rigorous statistical forecasting methodology of the Apart Research winning incident forecaster to an impactful institutional safety use case."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A high-speed video intelligence platform that ingests unstructured recorded lecture archives, transcribes and indexes semantic concepts, and generates searchable, time-stamped knowledge graphs.",
+      "stack": [
+        "HTML",
+        "TypeScript",
+        "Whisper API",
+        "VectorDB",
+        "Next.js"
+      ],
+      "title": "LectureLibrAI: Multimodal Video Intelligence for Academic Archives",
+      "track": "",
+      "why_it_could_win": "Replicates the LibrAI winning formula by turning unstructured educational media into instantly queryable data, a major win for university-hosted hackathons."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,102 +1,102 @@
 {
-  "generated_at": "2026-09-12T10:33:12.203766+05:30",
+  "generated_at": "2026-09-13T07:53:11.403339+00:00",
   "grounding": {
-    "domains": [
-      "ai-ml",
-      "devtools"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1743721",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1329458499"
+        "github:1181344931"
       ],
-      "pitch": "An automated AWS resource governance agent that scans student lab accounts for idle EC2 instances and oversized RDS databases, generating auto-remediation scripts via AWS SDK.",
+      "pitch": "An AWS resource monitoring and anomaly detection dashboard built for student clubs and cloud labs to track spending, leverage free tier limits, and prevent accidental bill runaways.",
       "stack": [
         "Python",
-        "Boto3",
-        "FastAPI",
-        "AWS Lambda"
-      ],
-      "title": "AWS Campus Cloud Cost Guardian",
-      "track": "",
-      "why_it_could_win": "Directly targets the AWS SBCL community initiative mentioned by organizers, aligning with cloud computing and cost management pain points for student developer accounts."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline-first AI code review extension tailored for student coding assignments, catching common logic errors and style violations before submission.",
-      "stack": [
-        "Python",
-        "Google Generative AI SDK",
+        "AWS Boto3",
         "FastAPI",
         "React"
       ],
-      "title": "Gemini-Powered Peer Code Reviewer for Campus Labs",
+      "title": "AWS Campus Cloud Cost Optimizer",
       "track": "",
-      "why_it_could_win": "Fits the Google Student Ambassador (GSA) focus and practical learning/mentorship goals of the community by providing instant feedback for student assignments."
+      "why_it_could_win": "Aligns with the community's explicit focus on AWS cloud computing and AWS SBCL student initiatives, directly appealing to cloud judges looking for practical infrastructure utility."
     },
     {
-      "build_hours": 12,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1334000568"
+        "github:1213911408",
+        "github:1241231621"
       ],
-      "pitch": "A context-aware RAG assistant loaded with KNSIT Tech Community schedules, rules, and submission guidelines to answer real-time questions from participating students.",
+      "pitch": "A multi-agent academic assistant using LangGraph and RAG trained specifically on KNSIT syllabus PDFs, previous exam papers, and faculty notes to generate personalized study guides.",
       "stack": [
-        "Python",
-        "LangChain",
-        "Streamlit",
-        "ChromaDB"
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "Gemini API"
       ],
-      "title": "KNSIT Hackathon Event Navigator & FAQ Agent",
+      "title": "KNSIT Peer Study Multi-Agent RAG",
       "track": "",
-      "why_it_could_win": "Solves an immediate logistical pain point for event organizers and student participants during the hackathon lifecycle."
+      "why_it_could_win": "Directly targets student community use-cases by solving an immediate local pain point with advanced multi-agent orchestration, mirroring successful architectures from recent AI hackathons."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1282252864"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A tool that parses a student developer's resume and automatically generates a deployable Terraform script for their personal portfolio website hosted on AWS S3 and CloudFront.",
+      "pitch": "An automated reservation and compliance tracking dashboard for college computer labs utilizing Generative AI models, ensuring fair resource distribution and safe API token usage quotas.",
       "stack": [
         "Python",
-        "Terraform",
-        "AWS SDK",
-        "Streamlit"
+        "Streamlit",
+        "Pandas",
+        "OpenAI API"
       ],
-      "title": "Cloud Resume Architecture Generator",
+      "title": "GenAI Lab Access Scheduler & Safety Monitor",
       "track": "",
-      "why_it_could_win": "Bridges the gap between portfolio building and cloud computing, directly serving the core community goal of guidance for building professional portfolios."
+      "why_it_could_win": "Combines generative AI governance with tangible campus infrastructure administration, which appeals strongly to evaluators looking for real-world institutional implementation."
     },
     {
-      "build_hours": 16,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1351321536"
+        "github:1087704265",
+        "github:1213911408"
       ],
-      "pitch": "A workflow agent that takes messy terminal logs and code snippets from hands-on AI/ML student lab sessions and formats them into clean markdown documentation.",
+      "pitch": "An IoT-simulating dashboard tracking institutional energy consumption patterns across KNSIT departments, providing ML-driven forecasting and recommendations for reducing carbon footprint.",
       "stack": [
+        "TypeScript",
+        "TailwindCSS",
         "Python",
-        "OpenAI API",
-        "Markdown",
-        "FastAPI"
+        "Scikit-learn"
       ],
-      "title": "AI-Assisted Lab Documentation Synthesizer",
+      "title": "Campus Green Energy Tracker",
       "track": "",
-      "why_it_could_win": "Appeals to judges running hands-on sessions on AI, Generative AI, and Machine Learning by automating the tedious task of lab note-taking."
+      "why_it_could_win": "Leverages predictive modeling to address sustainability, following the proven winning formula of combining regression forecasting with clean, localized data dashboards."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An automated resume parser and portfolio builder tailored for KNS Institute of Technology students, matching their project repositories directly with active recruiter listings.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "Gemini API"
+      ],
+      "title": "Internship Match AI for Student Portfolios",
+      "track": "",
+      "why_it_could_win": "Directly fulfills the student community's core mission of providing guidance for building portfolios and securing internships, making it extremely relevant to local organizers."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

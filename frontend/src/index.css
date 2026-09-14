@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
-/* This design commits to dark. The hero is a light-emitting surface, and a light theme would
-   fight it rather than complement it. */
-@theme {
-  --color-surface: oklch(0.145 0.012 275);
-  --color-raised: oklch(0.185 0.015 275);
-  --color-ink: oklch(0.97 0.005 275);
-  --color-muted: oklch(0.68 0.015 275);
-  --color-faint: oklch(0.52 0.015 275);
-  --color-line: oklch(0.30 0.018 275);
-  --color-accent: oklch(0.72 0.17 350);
-  --color-accent-cool: oklch(0.72 0.15 280);
+/* One neutral family (cool zinc), one accent (signal orange), light and dark following the
+   system. The accent is reserved for two jobs: urgency and the primary action. Everything else
+   is ink on surface, so the orange always means something.
 
-  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
-  --font-sans:
-    ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+   Shape system: controls (inputs, buttons, chips, tags) are rounded-lg; containers (rows,
+   panels, idea blocks) are rounded-2xl. Nothing is pill-shaped.
+
+   Layers: filter bar 30, header 40, grain 50. The detail sheet is a native <dialog>, which sits
+   in the browser's top layer above all of them. */
+@theme {
+  --color-surface: oklch(0.984 0.003 286);
+  --color-raised: oklch(0.996 0.001 286);
+  --color-sunken: oklch(0.955 0.004 286);
+  --color-ink: oklch(0.21 0.006 286);
+  --color-muted: oklch(0.45 0.01 286);
+  --color-faint: oklch(0.55 0.01 286);
+  --color-line: oklch(0.905 0.005 286);
+  --color-accent: oklch(0.545 0.19 38);
+  --color-on-accent: oklch(0.99 0.003 286);
+
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface: oklch(0.16 0.004 286);
+    --color-raised: oklch(0.2 0.005 286);
+    --color-sunken: oklch(0.225 0.006 286);
+    --color-ink: oklch(0.96 0.003 286);
+    --color-muted: oklch(0.73 0.01 286);
+    --color-faint: oklch(0.62 0.01 286);
+    --color-line: oklch(0.29 0.006 286);
+    --color-accent: oklch(0.73 0.16 48);
+    --color-on-accent: oklch(0.18 0.01 286);
+  }
 }
 
 html {
   background: var(--color-surface);
   color: var(--color-ink);
-  color-scheme: dark;
+  color-scheme: light dark;
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -28,7 +50,27 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Respect the setting properly: kill motion everywhere, not just in the shader. */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--color-accent) 30%, transparent);
+}
+
+/* Fixed, non-scrolling grain so large flat areas do not band. Never on a scrolling element: that
+   repaints on every frame. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -40,53 +82,26 @@ body {
   }
 }
 
-/* A frozen approximation of the shader, shown while WebGL loads and permanently on devices that
-   opt out. Without it the hero would flash from flat black to full colour. */
-@utility bg-hero-fallback {
-  background:
-    radial-gradient(120% 85% at 12% 8%, oklch(0.42 0.19 300 / 0.55), transparent 60%),
-    radial-gradient(95% 75% at 88% 22%, oklch(0.55 0.2 12 / 0.4), transparent 62%),
-    radial-gradient(130% 95% at 55% 105%, oklch(0.45 0.17 255 / 0.45), transparent 68%),
-    var(--color-surface);
+/* Hero elements rise in once, in reading order. `--i` is set per element. */
+@utility rise {
+  animation: rise 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
 }
 
-/* Frosted panel. Falls back to a solid raised colour where backdrop-filter is unsupported. */
-@utility glass {
-  background: color-mix(in oklab, var(--color-raised) 72%, transparent);
-  border: 1px solid oklch(1 0 0 / 0.08);
-}
-
-@supports (backdrop-filter: blur(1px)) {
-  .glass {
-    background: oklch(1 0 0 / 0.045);
-    backdrop-filter: blur(14px) saturate(150%);
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
   }
 }
 
-/* Cards lift toward the light on hover; the border catches it first. */
-@utility card-lift {
-  transition:
-    transform 260ms cubic-bezier(0.2, 0.7, 0.3, 1),
-    border-color 260ms ease,
-    box-shadow 260ms ease;
-}
-
-.card-lift:hover {
-  transform: translateY(-3px);
-  border-color: oklch(1 0 0 / 0.16);
-  box-shadow:
-    0 1px 0 0 oklch(1 0 0 / 0.06) inset,
-    0 18px 40px -24px oklch(0 0 0 / 0.9);
-}
-
-/* Content reveals as it scrolls in. Progressive enhancement: without support, it is simply
-   visible, which is the correct failure mode. */
+/* Rows reveal as they scroll in. Without support they are simply visible, the right failure. */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {
     .reveal {
       animation: reveal-in linear both;
       animation-timeline: view();
-      animation-range: entry 0% entry 32%;
+      animation-range: entry 0% entry 28%;
     }
   }
 }
@@ -94,27 +109,77 @@ body {
 @keyframes reveal-in {
   from {
     opacity: 0;
-    transform: translateY(14px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
+    transform: translateY(10px);
   }
 }
 
-/* Thin, unobtrusive scrollbar so the dark surface stays uninterrupted. */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--color-line) transparent;
+/* Pressed feedback for anything clickable that is not a text link. */
+@utility press {
+  transition:
+    transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 200ms ease,
+    border-color 200ms ease,
+    color 200ms ease;
+  &:active {
+    transform: translateY(1px) scale(0.985);
+  }
 }
 
-/* Gradient-filled text. Written as a real class because the arbitrary-property version silently
-   fell back to a solid block: the `background` shorthand and the clip have to land together, and
-   `-webkit-text-fill-color` must be set explicitly or WebKit keeps painting the glyphs. */
-@utility text-liquid {
-  background-image: linear-gradient(100deg, #c4b5fd 0%, #f9a8d4 46%, #93c5fd 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+/* A horizontal chip rail that scrolls instead of wrapping into a wall of buttons. */
+@utility rail {
+  scrollbar-width: none;
+  mask-image: linear-gradient(90deg, #000 calc(100% - 3rem), transparent);
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* The detail view: a native modal dialog laid out as a sheet from the right. The dialog gives
+   focus containment, Escape and an inert page for free. */
+.sheet {
+  margin: 0 0 0 auto;
+  width: min(44rem, 100%);
+  max-width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  border-left: 1px solid var(--color-line);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.sheet::backdrop {
+  background: oklch(0.16 0.004 286 / 0.45);
+  backdrop-filter: blur(3px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sheet[open] {
+    animation: sheet-in 380ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .sheet[open]::backdrop {
+    animation: fade-in 300ms ease;
+  }
+}
+
+@keyframes sheet-in {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+/* In the base layer so utilities such as `rail` can override it. */
+@layer base {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line) transparent;
+  }
 }

@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-12T10:39:22.986725+05:30",
+  "generated_at": "2026-09-13T07:59:20.090331+00:00",
   "grounding": {
     "domains": [
       "hardware",
-      "ai-ml",
-      "sustainability"
+      "sustainability",
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "sponsor-tech",
-      "impact",
-      "working-demo"
+      "technical-depth",
+      "impact"
     ],
     "thin": false
   },
@@ -19,84 +20,85 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1234067949"
-      ],
-      "pitch": "An edge-deployed IoT system using low-cost turbidity and pH sensors connected via ESP32 to predict and alert authorities about industrial water pollution spikes in real time.",
-      "stack": [
-        "Python",
-        "C++",
-        "ESP32",
-        "TypeScript"
-      ],
-      "title": "AquaSense-IoT-Spill-Detector",
-      "track": "Energy & Sustainable Technologies",
-      "why_it_could_win": "Aligns with Energy & Sustainable Technologies while mimicking the predictive environmental monitoring approach that won 1st place at the AquaSense IoT Hackathon."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "A microcontroller-driven waste sorting bin utilizing a camera module and a lightweight computer vision model to physically separate metal, plastic, and organic waste on a conveyor belt.",
+      "pitch": "A compact conveyor belt prototype using a low-cost camera and edge AI to classify recyclable waste in real-time, built specifically for sorting facility automation.",
       "stack": [
         "Python",
+        "OpenCV",
         "Arduino",
-        "OpenCV"
+        "TensorFlow Lite"
       ],
-      "title": "Autonomous-Garbage-Segregator",
-      "track": "Smart Infrastructure & Digital Ecosystems",
-      "why_it_could_win": "Directly targets Smart Infrastructure & Digital Ecosystems by delivering a physical, working prototype in line with the successful TechnoMorph garbage classifier project."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An autonomous drone flight controller and satellite data integration pipeline that scans industrial perimeters for unauthorized land use changes and boundary violations.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Qdrant",
-        "C++"
-      ],
-      "title": "GeoNex-Industrial-Compliance-Drone",
-      "track": "Resilience & Emerging Technologies",
-      "why_it_could_win": "Leverages the proven high-scoring formula of the GeoNex-ATLAS satellite monitoring project, appealing to Resilience & Emerging Technologies judges looking for real-world enforcement tools."
+      "title": "EcoSort Edge: Smart Automated Waste Sorting Micro-Rig",
+      "track": "Energy & Sustainable Technologies",
+      "why_it_could_win": "Directly targets the Energy & Sustainable Technologies domain with a physical prototype that can be demonstrated live, following the proven success pattern of working hardware demos."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1341712439"
+        "github:694390550"
       ],
-      "pitch": "A multi-agent IoT diagnostic platform running locally on edge hardware to detect micro-grid power anomalies and autonomously reroute distribution feeds using fast machine learning.",
+      "pitch": "A tabletop 3D machine vision camera setup that scans moving textile samples to instantly flag manufacturing anomalies and halt production.",
       "stack": [
-        "TypeScript",
-        "Gemini",
-        "LangGraph",
-        "TimescaleDB"
+        "Python",
+        "OpenCV",
+        "C++",
+        "Raspberry Pi"
       ],
-      "title": "AutoOps-Smart-Grid-Diagnostic",
-      "track": "Intelligent & Autonomous Systems",
-      "why_it_could_win": "Combines robust closed-loop industrial IoT operations with proven multi-agent diagnostic patterns that secured 3rd place at SEAL Hackathon."
+      "title": "VisionGuard: Industrial Fabric Defect Detection Rig",
+      "track": "Smart Infrastructure & Digital Ecosystems",
+      "why_it_could_win": "Addresses Smart Infrastructure & Digital Ecosystems with heavy industrial utility, replicating the complex sensing and immediate feedback loop that judges reward."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:935702069"
+        "github:1234067949"
       ],
-      "pitch": "A solar-powered mesh network node equipped with thermal and gas sensors running local anomaly detection models to provide early wildfire risk assessment in remote forest regions.",
+      "pitch": "A waterproof floating sensor node measuring turbidity, temperature, and pH levels to predict water quality hazards via onboard machine learning.",
       "stack": [
+        "TypeScript",
         "Python",
-        "C++",
         "ESP32",
-        "TensorFlow Lite"
+        "MQTT"
       ],
-      "title": "Wildfire-Edge-Sentinel",
-      "track": "Energy & Sustainable Technologies",
-      "why_it_could_win": "Matches the exact focus of the Sacramento State AI Hackathon winner by providing a quantifiable risk assessment tool for environmental disaster prevention."
+      "title": "AquaSense Mini: IoT Algal Bloom Early Warning Buoy",
+      "track": "Resilience & Emerging Technologies",
+      "why_it_could_win": "Combines IoT sensing with environmental protection, fitting squarely into Resilience & Emerging Technologies while demonstrating end-to-end data pipelines."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An edge diagnostic box that monitors industrial motor vibrations, detects anomalies using lightweight isolation forests, and triggers automated self-remediation routines.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Arduino"
+      ],
+      "title": "AutoHeal IoT: Closed-Loop Sensor Diagnostic Unit",
+      "track": "Intelligent & Autonomous Systems",
+      "why_it_could_win": "Showcases genuinely hard engineering by implementing automated closed-loop operational workflows on constrained hardware within the Intelligent & Autonomous Systems domain."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A small tracked robotic rover that navigates unstructured terrain independently to map hazards and stream live telemetry back to an operations dashboard.",
+      "stack": [
+        "C++",
+        "Python",
+        "ROS2",
+        "ESP32-CAM"
+      ],
+      "title": "TerraPatrol: Autonomous Terrain Mapping Rover",
+      "track": "Intelligent & Autonomous Systems",
+      "why_it_could_win": "Delivers an impressive, highly visible hardware demonstration that directly answers the 'Experience Innovation' theme by moving hardware ideas off paper into reality."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

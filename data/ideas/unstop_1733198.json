@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:30:13.698804+05:30",
+  "generated_at": "2026-09-13T07:50:28.873873+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -15,89 +15,84 @@
   "hackathon_uid": "unstop:1733198",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:929936040"
-      ],
-      "pitch": "An offline-first autonomous AI agent deployed on Geeta University campus infrastructure to monitor local server latency, optimize Wi-Fi bandwidth allocation during peak hours, and automatically alert campus IT of hardware failures via LLM-parsed syslog data.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Ollama",
-        "SQLite",
-        "TailwindCSS"
-      ],
-      "title": "CampusPulse AI",
-      "track": "real-world AI solutions",
-      "why_it_could_win": "Targeting the real-world AI solutions track with an offline campus-specific utility directly appeals to on-campus judges looking for practical infrastructure use cases."
-    },
-    {
       "build_hours": 36,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A Web3 local produce escrow and micro-payments system built for farmers in Haryana, removing intermediaries by using smart contracts for instant crop payment upon logistics verification.",
+      "pitch": "Autonomous AI agents that negotiate and execute peer-to-peer collateralized lending agreements using USDC escrow and on-chain verification.",
       "stack": [
-        "Solidity",
-        "Next.js",
-        "Ethers.js",
-        "Polygon"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
       ],
-      "title": "AgriSettle Decentralized Mandi",
-      "track": "decentralized Web3 systems",
-      "why_it_could_win": "Fits the decentralized Web3 systems track by solving an immediate local economic problem relevant to the rural-urban setting of Panipat."
+      "title": "AgenticP2PCollateral",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines autonomous agent execution with secure crypto settlement, mirroring winning patterns from agentic hackathons."
     },
     {
-      "build_hours": 32,
+      "build_hours": 40,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "A local zero-knowledge peer-to-peer file sharing and credential locker that operates completely without internet connectivity, utilizing WebRTC and local cryptographic proofs for secure campus collaboration.",
+      "pitch": "A zero-knowledge gated communication portal where human users and AI agents can interact while strictly preserving message provenance and privacy.",
       "stack": [
         "TypeScript",
-        "WebRTC",
         "Noir-lang",
-        "React"
+        "zk-proofs"
       ],
-      "title": "ZeroShare Offline Vault",
-      "track": "open innovations",
-      "why_it_could_win": "Demonstrates genuinely hard engineering with local-first networking and cryptography, targeting the open innovation track."
+      "title": "ZKPrivateAgentChat",
+      "track": "Decentralized Web3 Systems",
+      "why_it_could_win": "Demonstrates genuinely hard engineering using ZK circuits and cryptography which always stands out to technical judges."
     },
     {
-      "build_hours": 26,
+      "build_hours": 30,
+      "inspired_by": [
+        "github:941346152"
+      ],
+      "pitch": "An AI assistant leveraging chain signatures to manage cross-chain assets and execute transactions on Bitcoin L1 directly from chat.",
+      "stack": [
+        "TypeScript",
+        "NEAR Protocol",
+        "Bitcoin L1"
+      ],
+      "title": "MultiChainBitcoinAgent",
+      "track": "Real-world AI Solutions",
+      "why_it_could_win": "Directly replicates the winning formula of combining LLM reasoning with low-level multi-chain cryptographic primitives."
+    },
+    {
+      "build_hours": 38,
       "inspired_by": [
         "github:1092573500"
       ],
-      "pitch": "An AI-powered academic evaluation assistant that parses handwritten assignment images uploaded by professors, runs multi-agent rubric grading, and provides instant personalized feedback loops.",
+      "pitch": "An AVS node operator interface where Claude AI automatically validates and scores decentralized staking and restaking risk parameters.",
       "stack": [
-        "Python",
-        "LangChain",
-        "Tesseract OCR",
-        "Streamlit"
+        "TypeScript",
+        "Solidity",
+        "Claude-ai",
+        "EigenLayer"
       ],
-      "title": "AutoGrade AI",
-      "track": "real-world AI solutions",
-      "why_it_could_win": "Directly impacts the academic environment of Geeta University, making it instantly relatable and practical for judges evaluating real-world AI applications."
+      "title": "EigenValidateAI",
+      "track": "Decentralized Web3 Systems",
+      "why_it_could_win": "Blends advanced LLM tool-calling with decentralized infrastructure, appealing to judges looking for deep technical integration."
     },
     {
-      "build_hours": 24,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1185920891",
-        "github:929936040"
+        "github:928533631"
       ],
-      "pitch": "An autonomous event coordination agent for multi-day offline hackathons that matches lost participants with missing team members, automates mentor scheduling, and handles submission deadline pings.",
+      "pitch": "A procedural text-based MMORPG world where non-player characters are driven by persistent autonomous AI agents interacting on-chain.",
       "stack": [
-        "JavaScript",
-        "Node.js",
-        "Telegram Bot API",
-        "PostgreSQL"
+        "TypeScript",
+        "OpenAI API",
+        "Web3"
       ],
-      "title": "LocalLocus Agent",
-      "track": "open innovations",
-      "why_it_could_win": "Addresses an immediate pain point of running a 24-hour offline hackathon on a university campus, showing high contextual awareness in the open innovation track."
+      "title": "AgenticMMORPGUniverse",
+      "track": "Open Innovation",
+      "why_it_could_win": "Pushes the boundaries of creative agent deployment in gaming environments, a proven winner at recent agentic hackathons."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

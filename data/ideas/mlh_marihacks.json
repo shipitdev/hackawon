@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:27:16.318689+05:30",
+  "generated_at": "2026-09-13T07:47:42.195233+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,84 +16,83 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered routing and community reporting tool built specifically for navigating Montreal's winter sidewalk conditions and unplowed bike paths.",
+      "pitch": "Satellite-based industrial and environmental risk compliance monitoring dashboard tailored for Montreal's port and industrial sectors.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "OpenStreetMap",
-        "TailwindCSS"
+        "Python",
+        "OpenCV"
       ],
-      "title": "MontrealWinterMobility",
+      "title": "MontrealLocalRiskMap",
       "track": "",
-      "why_it_could_win": "Directly targets a pain familiar to students and judges living in Montreal during winter, matching the pattern of solving a problem judges feel themselves."
+      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS by applying satellite monitoring and compliance tracking to a localized industrial use case."
     },
     {
-      "build_hours": 40,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1087704265",
-        "github:1185920891"
+        "github:1275874285"
       ],
-      "pitch": "An autonomous agent that predicts STM metro delays based on historical crowd patterns and live service updates, suggesting alternate bus routes in real time.",
+      "pitch": "AI-powered nutrition platform that integrates local grocery inventories in Montreal to generate budget-friendly healthy meal plans.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "Pandas"
+        "OpenAI API"
       ],
-      "title": "MetroDecongestionAgent",
+      "title": "QuebecAgriNutri",
       "track": "",
-      "why_it_could_win": "Features clear measurable impact and local relevance, appealing directly to a local jury."
+      "why_it_could_win": "Builds directly on the E-Foodiee win by adding localized supermarket supply chain data to make the health recommendations actionable."
     },
     {
-      "build_hours": 38,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1183964401"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered semantic search and document matching engine that pairs local Montreal small businesses with unclaimed provincial and federal grants.",
+      "pitch": "Multi-agent student support and campus sustainability platform designed for Montreal universities to track and reduce energy waste.",
       "stack": [
         "TypeScript",
+        "LangGraph",
         "Python",
-        "LangChain",
-        "Supabase"
+        "TailwindCSS"
       ],
-      "title": "QuebecSmeGrantFinder",
+      "title": "EcoCampusAgent",
       "track": "",
-      "why_it_could_win": "Provides concrete economic benefit and targets local administrative pain points."
+      "why_it_could_win": "Leverages the winning formula of the greennovation-ai-platform by combining multi-agent LangGraph workflows with localized campus utility data."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1275874285"
+        "github:1241231621"
       ],
-      "pitch": "A computer vision platform that gamifies university campus composting by analyzing cafeteria tray waste photos and tracking recycling accuracy.",
+      "pitch": "AI-driven patient acquisition, appointment triage, and trust-building engine specifically customized for specialized clinics in Quebec.",
       "stack": [
-        "Python",
-        "OpenCV",
         "TypeScript",
-        "Next.js"
+        "Next.js",
+        "Gemini API",
+        "PostgreSQL"
       ],
-      "title": "CampusCompostTracker",
+      "title": "LocalProsthoTrust",
       "track": "",
-      "why_it_could_win": "Combines clear environmental impact with a problem easily understood within a university setting."
+      "why_it_could_win": "Replicates the Global-Smile prize-winning approach by solving a high-value niche for local medical professionals with an immediate ROI pitch."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1194555365"
+        "github:1181344931"
       ],
-      "pitch": "An automated logistics app connecting Montreal grocery surplus with local student food banks using geo-matching and volunteer drivers.",
+      "pitch": "AWS-powered graph intelligence and AML risk detection platform for regional fintech startups monitoring supply chain transactions.",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Node.js",
-        "PostgreSQL"
+        "AWS",
+        "Neo4j",
+        "LightGBM"
       ],
-      "title": "LocalFoodRescueNetwork",
+      "title": "MontrealSupplyGraph",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of social good and measurable community impact."
+      "why_it_could_win": "Matches the technically rigorous approach of Bito, emphasizing graph-based anomaly detection that appeals to technical judges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

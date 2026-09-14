@@ -44,9 +44,6 @@ const bundle = JSON.parse(await readFile(path.join(DIST, "data/hackathons.json")
 // styled identically without hardcoding hashed filenames.
 const shell = await readFile(path.join(DIST, "index.html"), "utf8");
 const headLinks = [...shell.matchAll(/<link[^>]+rel="stylesheet"[^>]*>/g)].map((m) => m[0]).join("");
-const fontLinks = [...shell.matchAll(/<link[^>]+fonts\.(googleapis|gstatic)[^>]*>/g)]
-  .map((m) => m[0])
-  .join("");
 
 if (!headLinks) fail("no stylesheet found in dist/index.html — did the client build succeed?");
 
@@ -65,13 +62,15 @@ function document({ title, description, url, body }) {
 <title>${escape(title)}</title>
 <meta name="description" content="${escape(description)}" />
 <link rel="canonical" href="${escape(url)}" />
-<meta name="theme-color" content="#17161f" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f9f9fb" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141417" />
+<link rel="icon" type="image/svg+xml" href="${BASE}favicon.svg" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="${escape(title)}" />
 <meta property="og:description" content="${escape(description)}" />
 <meta property="og:url" content="${escape(url)}" />
 <meta name="twitter:card" content="summary" />
-${fontLinks}${headLinks}
+${headLinks}
 </head>
 <body>${body}</body>
 </html>
@@ -114,7 +113,7 @@ if (existsSync(toolsFile)) {
   await writeFile(
     path.join(DIST, "tools", "index.html"),
     document({
-      title: "The hackathon toolkit — free API credits, auth, slides | Hackawon",
+      title: "The hackathon toolkit: free API credits, auth, slides | Hackawon",
       description: `${tools.count} tools worth knowing about before a hackathon starts: model API free tiers, auth and databases, hosting, slide decks and UI kits. Each entry says what you actually get.`,
       url,
       body: renderTools(tools, BASE),

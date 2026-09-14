@@ -1,101 +1,99 @@
 {
-  "generated_at": "2026-09-12T10:23:48.961227+05:30",
+  "generated_at": "2026-09-13T07:44:08.606301+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:girlhacks",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1194555365",
-        "github:1241231621"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered community coordination platform that connects elderly residents in Newark with student volunteer drivers for grocery runs and medical appointments, optimizing group outings to minimize isolation.",
+      "pitch": "A graph-based AML and public fund tracking platform tailored for local Newark municipal grants, combining LightGBM risk scoring with explainable graph intelligence.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Python",
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "Newark Senior Connect",
+      "title": "NewarkCivicTrace",
       "track": "",
-      "why_it_could_win": "Mirrors the winning formula of Outreach by focusing on clear, measurable social impact and solving a localized community problem that local judges will immediately care about."
+      "why_it_could_win": "Leverages heavy engineering through graph intelligence and localized data to solve a transparent accountability problem, aligning with the pattern of winning hard engineering projects."
     },
     {
-      "build_hours": 26,
+      "build_hours": 24,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite and aerial imagery monitoring tool designed for university campuses and local municipalities in New Jersey to track green space conservation and waste management compliance.",
+      "pitch": "AI-powered satellite and local sensor monitoring platform tracking urban agriculture land compliance and green space initiatives across Newark wards.",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "FastAPI"
+        "GIS APIs",
+        "Next.js"
       ],
-      "title": "CampusGreen Compliance",
+      "title": "AgriGuard Newark",
       "track": "",
-      "why_it_could_win": "Utilizes complex spatial data analysis and machine learning in a lightweight web dashboard, following the proven trajectory of GeoNex-ATLAS."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A hyper-localized AI nutrition assistant tailored to students and low-income residents in Newark, suggesting healthy meal plans based on real-time inventory and sales at nearby local grocery stores and bodegas.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "OpenAI API",
-        "Pandas"
-      ],
-      "title": "NutriNewark",
-      "track": "",
-      "why_it_could_win": "Directly builds on the E-Foodiee win by adding localized economic utility—solving food desert navigation in the host city."
+      "why_it_could_win": "Tackles a tangible environmental and urban planning domain using spatial data visualization, mirroring successful satellite monitoring solutions."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1185920891"
+        "github:1213911408"
       ],
-      "pitch": "An autonomous micro-task marketplace for university students featuring instant escrow settlements via stablecoins on Base, eliminating peer-to-peer payment friction for campus services.",
+      "pitch": "A multi-agent student support and resource navigation platform specifically structured for Newark university campuses, utilizing LangGraph and local RAG indexes.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
-        "React"
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
       ],
-      "title": "MicroEscrow Campus",
+      "title": "CampusCare Multi-Agent",
       "track": "",
-      "why_it_could_win": "Replicates the Dispatch win by integrating blockchain transaction primitives into a practical consumer marketplace application."
+      "why_it_could_win": "Addresses immediate student friction points on campus with robust multi-agent orchestration, matching the architecture of winning hackathon platforms."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1181344931"
+        "github:1185920891"
       ],
-      "pitch": "An explainable graph intelligence dashboard that visualizes local small business scam vulnerabilities and AML risks using lightweight localized transaction and permit data.",
+      "pitch": "An autonomous AI agent marketplace facilitating micro-services and task execution between students with USDC escrow payments settled on Base.",
       "stack": [
-        "TypeScript",
-        "LightGBM",
-        "NetworkX",
-        "Next.js"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity"
       ],
-      "title": "RiskRadar Newark",
+      "title": "MicroVenture Escrow",
       "track": "",
-      "why_it_could_win": "Showcases genuinely hard engineering by combining graph intelligence and explainable analytics, echoing the winning strategy of Bito."
+      "why_it_could_win": "Integrates verifiable transaction flows with autonomous agent execution, following a proven winning blueprint for web3 and agent marketplaces."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered nutrition and meal planning platform optimized for local Newark food deserts, offering culturally tailored affordable meal recommendations and health insights.",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "FastAPI",
+        "React"
+      ],
+      "title": "NutriNewark AI",
+      "track": "",
+      "why_it_could_win": "Solves a localized community health problem with immediate consumer utility, following the winning pattern of personalized AI wellness assistants."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

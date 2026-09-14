@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:38:02.040741+05:30",
+  "generated_at": "2026-09-13T07:57:59.031441+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -15,86 +13,84 @@
   "ideas": [
     {
       "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered web tool tailored for the hackathon sponsor Lovable that ingests legacy frontend code or Figma links and outputs clean, production-ready React components using Tailwind CSS.",
+      "inspired_by": [],
+      "pitch": "A rapid prototyping tool sponsored by Lovable that instantly generates fully responsive, localized e-commerce frontends from rough text prompts and regional language inputs.",
       "stack": [
         "TypeScript",
-        "Next.js",
+        "React",
         "TailwindCSS",
         "OpenAI API"
       ],
-      "title": "Lovable Rapid UI Component Migrator",
+      "title": "LovableFast-UI: AI Component Generator for Localized Indian E-Commerce",
       "track": "",
-      "why_it_could_win": "Since Lovable is the primary sponsor of the event, building a tool that enhances, extends, or celebrates the Lovable developer ecosystem directly appeals to the judges and sponsor priorities."
+      "why_it_could_win": "Since Lovable is the primary sponsor of the event, targeting a specialized frontend generation tool optimized for their platform directly appeals to the sponsor's judging criteria."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive analytics dashboard that ingests GitHub repository activity and CI/CD logs to forecast potential production failures and downtime risks using Poisson regression.",
+      "pitch": "A predictive analytics dashboard using Poisson regression and rolling backtests to forecast retail demand and consumer footfall across tier-2 Indian cities.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
+        "Streamlit",
+        "Pandas",
+        "Scikit-learn"
       ],
-      "title": "AI Incident Forecaster for Open Source Deployments",
+      "title": "PredictX-India: Macroeconomic & Consumer Spending Forecasting Engine",
       "track": "",
-      "why_it_could_win": "Replicates proven 1st-place winning architecture from AI forecasting hackathons by offering rigorous statistical modeling and calibrated prediction intervals that impress technical judges."
+      "why_it_could_win": "Mirrors the hard engineering and statistical rigor of past winning forecasting projects by delivering calibrated prediction intervals instead of basic charts."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An interactive graph-based risk assessment tool for Indian agricultural micro-loans, combining transaction tracing and explainable gradient boosting.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "AgriGraph-Risk: Supply Chain AML & Credit Risk Intelligence Platform",
+      "track": "",
+      "why_it_could_win": "Translates complex graph intelligence and AML risk detection patterns into a localized financial context that resonates with open innovation judges."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "A hyper-localized patient acquisition and automated trust engine designed for small medical and dental practices to streamline incoming inquiries and patient intake.",
+      "pitch": "An AI-powered nutrition assistant tailored specifically to regional Indian cuisines, macro-nutrient tracking, and localized health goal planning.",
       "stack": [
-        "TypeScript",
+        "Python",
+        "FastAPI",
         "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Gemini API"
       ],
-      "title": "AI Patient Acquisition Engine for Local Clinics",
+      "title": "NutriLocal-AI: Regional Indian Diet & Health Guidance Platform",
       "track": "",
-      "why_it_could_win": "Modeled directly after a 1st-prize winner built in a short sprint, focusing on immediate commercial utility for small businesses and clear economic impact."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An automated logistics app that groups nearby senior citizens into neighborhood social outings and pairs them with verified local volunteer drivers.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Leaflet.js"
-      ],
-      "title": "SeniorLink Community Outings Coordinator",
-      "track": "",
-      "why_it_could_win": "Follows the exact pattern of a Grand Prize winner at a global good hackathon by addressing a deeply felt social isolation problem with clear, measurable human impact."
+      "why_it_could_win": "Applies the exact winning formula of targeted consumer wellness platforms by focusing sharply on a high-demand localized utility within a tight 24-hour sprint."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform that detects unauthorized industrial land usage and environmental compliance violations in real time.",
+      "pitch": "A geospatial monitoring tool that uses satellite imagery analysis to automatically detect unauthorized land use changes and industrial environmental compliance violations.",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "Next.js"
+        "Leaflet.js",
+        "OpenCV"
       ],
-      "title": "EcoMonitor AI Industrial Land Compliance",
+      "title": "EcoAudit-Satellite: Automated Industrial Land Compliance Checker",
       "track": "",
-      "why_it_could_win": "Mirrors runner-up winning projects at industrial hackathons by solving concrete regulatory pain points for state and municipal compliance authorities."
+      "why_it_could_win": "Demonstrates high-impact technical execution by processing satellite data, which stands out strongly in open innovation hackathons against standard CRUD apps."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

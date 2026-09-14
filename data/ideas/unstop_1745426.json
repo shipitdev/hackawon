@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-12T10:34:11.165563+05:30",
+  "generated_at": "2026-09-13T07:54:13.983770+00:00",
   "grounding": {
     "domains": [
       "security"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "unusual-hardware"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -19,83 +18,82 @@
       "inspired_by": [
         "github:1208011447"
       ],
-      "pitch": "A defense-in-depth security proxy specifically tailored for testing and hardening LLM-powered applications against zero-day prompt injections and automated extraction flags.",
+      "pitch": "An AI agent leveraging defense-in-depth principles and native tool calling to analyze vulnerable web app binaries and source code to instantly suggest exploitation paths and flag locations.",
       "stack": [
+        "Python",
         "TypeScript",
-        "Node.js",
-        "Express",
-        "LLM APIs"
+        "Vercel AI SDK",
+        "Docker"
       ],
-      "title": "PromptShield CTF Agent",
+      "title": "CTF-Agent-Auditor",
       "track": "",
-      "why_it_could_win": "Directly applies winning patterns from agent hardening challenges and appeals heavily to a technical CTF audience looking for advanced automated vulnerability scanners."
+      "why_it_could_win": "Leverages the winning defense-in-depth and LLM prompt-hardening architecture seen in the BitGN Personal Agent Challenge to build a robust, local CTF helper."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python security intelligence tool that scans code repositories, automatically flags insecure dependencies, and generates comprehensive vulnerability threat reports.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AST",
+        "React"
+      ],
+      "title": "RepoSec-Insights",
+      "track": "",
+      "why_it_could_win": "Directly applies the automated repository security insights and report-generation pattern that won Microsoft's Global Intern Hackathon."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "A zero-knowledge proof verification circuit that allows players to prove they have solved a cryptography CTF challenge without revealing the actual flag to intermediate relay servers.",
+      "pitch": "A specialized fuzzing framework designed to discover cryptographic flaws, weak zero-knowledge proof implementations, and padding oracles in CTF challenges.",
       "stack": [
-        "TypeScript",
-        "Noir",
-        "SnarkJS",
-        "React"
+        "Python",
+        "Rust",
+        "Cryptosystem APIs"
       ],
-      "title": "CryptoCTF Zero-Knowledge Flag Verifier",
+      "title": "CryptoZKFuzzer",
       "track": "",
-      "why_it_could_win": "Leverages complex ZK engineering patterns that consistently impress technical judges who value cryptographic correctness and novel protocol design."
+      "why_it_could_win": "Focuses on genuinely hard engineering and advanced cryptography, meeting the standard of complex technical projects that win security CTFs."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated binary analysis and risk-investigation tool that parses compiled CTF binaries into function call graphs and runs graph intelligence to flag obfuscation and shellcode patterns.",
-      "stack": [
-        "Python",
-        "NetworkX",
-        "Radare2",
-        "FastAPI"
-      ],
-      "title": "MalwarePattern Graph-Detector",
-      "track": "",
-      "why_it_could_win": "Combines hard systems investigation with graph-based intelligence similar to winning anti-money laundering risk detection platforms."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1144331507"
-      ],
-      "pitch": "A signal processing tool designed to solve CTF forensics challenges involving hidden data transmitted via audio steganography, modulated acoustic signals, or RF static.",
-      "stack": [
-        "Python",
-        "NumPy",
-        "SciPy",
-        "Streamlit"
-      ],
-      "title": "Acoustic Exfiltration Analyzer",
-      "track": "",
-      "why_it_could_win": "Taps into unusual physical and signal-processing builds that stand out from typical web-based CTF helper scripts."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
         "github:1022783746"
       ],
-      "pitch": "A fine-tuned transformer model optimized specifically to parse through massive OSINT and email-dump CTF challenges to automatically detect phishing headers, social engineering indicators, and hidden text flags.",
+      "pitch": "A BERT-powered message classification and anomaly detection system tuned to extract hidden steganographic payloads and flag text inside multi-channel CTF data feeds.",
       "stack": [
         "Python",
-        "PyTorch",
         "Transformers",
-        "FastAPI"
+        "FastAPI",
+        "React.js"
       ],
-      "title": "BERT-Powered Phishing Flag Extractor",
+      "title": "SpamShield-CTF",
       "track": "",
-      "why_it_could_win": "Mirrors winning runner-up architectures that use NLP classification to automate tedious manual investigations during cyber competitions."
+      "why_it_could_win": "Reuses the proven NLP classification pipeline architecture that secured a runner-up finish at the Cyber Hackathon 2025."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A lightweight, deterministic web application firewall and reverse proxy designed to instantly block malicious payload injection and capture exploitation telemetry at the edge.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Redis"
+      ],
+      "title": "EdgeWAF-Deterministic",
+      "track": "",
+      "why_it_could_win": "Employs a deterministic engagement gate and high-performance safety architecture akin to the AWS Global Government Hackathon winner."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

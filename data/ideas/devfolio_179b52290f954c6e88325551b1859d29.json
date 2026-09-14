@@ -1,100 +1,100 @@
 {
-  "generated_at": "2026-09-12T10:20:57.400244+05:30",
+  "generated_at": "2026-09-13T07:37:12.924188+00:00",
   "grounding": {
     "domains": [
       "fintech",
-      "web3",
-      "data"
+      "web3"
     ],
     "exemplar_count": 8,
-    "patterns": [
-      "sponsor-tech",
-      "technical-depth"
-    ],
+    "patterns": [],
     "thin": false
   },
   "hackathon_uid": "devfolio:179b52290f954c6e88325551b1859d29",
   "ideas": [
     {
-      "build_hours": 100,
-      "inspired_by": [],
-      "pitch": "A distributed order book simulation engine deployed on Azure using AKS and Event Hubs to test latency bottlenecks in algorithmic trading strategies.",
-      "stack": [
-        "TypeScript",
-        "Azure AKS",
-        "Azure Event Hubs",
-        "Node.js"
-      ],
-      "title": "Azure-Powered High-Frequency Order Book Simulator",
-      "track": "Prize Pool",
-      "why_it_could_win": "Directly leverages Azure cloud infrastructure, satisfying sponsor integration priorities for the Azure sponsor."
-    },
-    {
       "build_hours": 120,
       "inspired_by": [
-        "github:1185920891"
+        "github:784668009"
       ],
-      "pitch": "An autonomous AI trading agent marketplace using USDC escrow payments on Base to execute peer-to-peer liquidity provision strategies.",
+      "pitch": "An automated trading system deployed on Azure that continuously scans perpetual DEXs and centralized exchanges to execute delta-neutral funding rate arbitrage strategies.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Locus"
+        "Python",
+        "Azure Functions",
+        "Web3.py",
+        "CCXT"
       ],
-      "title": "Autonomous USDC Agentic Market Maker on Base",
+      "title": "AzurePerp: Autonomous Multi-Exchange Funding Rate Arbitrage Engine",
       "track": "Prize Pool",
-      "why_it_could_win": "Imitates the winning pattern of Dispatch by combining AI agent marketplaces with stablecoin settlement and rigorous backend engineering."
-    },
-    {
-      "build_hours": 90,
-      "inspired_by": [
-        "github:1091333339"
-      ],
-      "pitch": "A production-ready micropayment gateway implementing the HTTP 402 Payment Required standard to monetize real-time Solana order flow and market analytics.",
-      "stack": [
-        "TypeScript",
-        "Solana",
-        "Triton",
-        "HTTP 402"
-      ],
-      "title": "HTTP 402 Monetized Solana Market Data Gateway",
-      "track": "Prize Pool",
-      "why_it_could_win": "Replicates the exact winning architecture of x402-Triton-Gateway by solving API monetization directly through native crypto micropayments."
+      "why_it_could_win": "Directly targets the core finance and trading thesis of Hefty-Hacks while leveraging Azure for reliable, low-latency cloud execution infrastructure."
     },
     {
       "build_hours": 140,
       "inspired_by": [
-        "github:1131796276"
+        "github:1185920891"
       ],
-      "pitch": "A Zero-Knowledge Identity authentication and authorization system that enforces regulatory compliance checks on decentralized trading platforms without revealing user data.",
+      "pitch": "An autonomous AI agent marketplace that executes over-the-counter options contracts using USDC escrow payments, preventing counterparty risk without manual mediation.",
       "stack": [
-        "TypeScript",
-        "Zero-Knowledge Proofs",
-        "MongoDB",
+        "JavaScript",
+        "Base",
+        "USDC",
         "Solidity"
       ],
-      "title": "ZKID-Secured Compliance Layer for Decentralized Exchanges",
+      "title": "EventopiaFi: USDC Escrow Agent for Automated OTC Options Trading",
       "track": "Prize Pool",
-      "why_it_could_win": "Built on the technical rigor of ZK auth systems proven by x402-zkid, appealing to judges looking for hard engineering in fintech compliance."
+      "why_it_could_win": "Integrates sponsor tooling from Eventopia while solving a critical execution and trust problem in decentralized financial derivatives."
+    },
+    {
+      "build_hours": 160,
+      "inspired_by": [
+        "github:980599492",
+        "github:1131796276"
+      ],
+      "pitch": "A self-custodial credit and risk engine that assesses under-collateralized lending limits using zero-knowledge identity proofs without revealing private portfolio balances.",
+      "stack": [
+        "TypeScript",
+        "Circom",
+        "Solidity",
+        "Next.js"
+      ],
+      "title": "ZeroKnowRisk: ZK-Identity Based Leveraged Credit Line",
+      "track": "Prize Pool",
+      "why_it_could_win": "Blends institutional risk management requirements with cutting-edge cryptographic compliance, appealing heavily to quants and judges looking for deep domain expertise."
+    },
+    {
+      "build_hours": 130,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A no-code platform allowing retail traders to prompt, backtest, and deploy complex quant strategies and cross-chain execution scripts directly onto perpetual markets.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "PerpNoCode: Natural Language Strategy Builder for Perpetuals",
+      "track": "Prize Pool",
+      "why_it_could_win": "Follows the exact blueprint of previous grand-prize-winning trading bots by lowering the barrier to entry for sophisticated financial tooling."
     },
     {
       "build_hours": 150,
       "inspired_by": [
-        "github:1092573500"
+        "github:619126149",
+        "github:774198755"
       ],
-      "pitch": "An EigenLayer Active Verified Service where operator nodes use Claude AI to continuously validate and optimize DeFi staking strategies on-chain.",
+      "pitch": "A micro-transaction cross-chain bridge optimized specifically for aggregating and arbitraging fractional residual token balances starting from $0.10.",
       "stack": [
         "TypeScript",
-        "Solidity",
-        "Claude AI",
-        "EigenLayer"
+        "Rust",
+        "Ethers.js",
+        "Node.js"
       ],
-      "title": "Claude AI-Validated EigenLayer AVS for Staking Yields",
+      "title": "MicroBridge Arbitrage: Cross-Chain Dust Liquidation Engine",
       "track": "Prize Pool",
-      "why_it_could_win": "Follows the winning blueprint of Etherfi by combining AI model inference with complex blockchain restaking infrastructure."
+      "why_it_could_win": "Focuses on high-frequency, low-value edge cases in decentralized liquidity that traditional bridges ignore, demonstrating exceptional engineering depth."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:30:21.080092+05:30",
+  "generated_at": "2026-09-13T07:50:33.888571+00:00",
   "grounding": {
     "domains": [
-      "hardware"
+      "hardware",
+      "gaming"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "unusual-hardware",
       "technical-depth",
+      "sponsor-tech",
       "working-demo"
     ],
     "thin": false
@@ -18,77 +19,82 @@
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1341712439"
+        "github:1341712439",
+        "github:1010199928"
       ],
-      "pitch": "A lightweight sensor dashboard mounted on the RC chassis that streams motor temperature, battery voltage, and RPM over ESP32 Wi-Fi to a web frontend, minimizing mechanical failures during heat races.",
+      "pitch": "A companion web and sensor dashboard that mounts onto the RC car to stream wheel speed, motor temperature, and battery draw via ESP32 to help optimize assembly alignment and racing lines.",
       "stack": [
-        "TypeScript",
         "Python",
-        "ESP32",
-        "WebSocket"
+        "TypeScript",
+        "Arduino",
+        "ESP32"
       ],
-      "title": "PitStop Telemetry: Real-Time RC Car Diagnostics",
+      "title": "PitStopTelemetry: Real-Time RC Car Diagnostics",
       "track": "",
-      "why_it_could_win": "Winners are judged on combined assembly and racing time; catching a failing motor or overheating battery before the final heat prevents catastrophic DNFs."
+      "why_it_could_win": "Since winners are judged on the combined total time of assembly and racing, giving teams a way to quickly diagnose mechanical friction or motor heating directly attacks the scoring metric."
     },
     {
       "build_hours": 14,
-      "inspired_by": [],
-      "pitch": "A mobile-responsive web tool where builders input their assembled gear ratios and chassis weight to instantly calculate optimal cornering speeds and gear configurations for the track layout.",
+      "inspired_by": [
+        "github:682938717"
+      ],
+      "pitch": "A lightweight browser tool where builders can input custom dimensions of their RC chassis to 3D model or paper-craft snap-on aerodynamic downforce wings optimized for the event track layout.",
       "stack": [
         "TypeScript",
-        "Python",
-        "FastAPI"
+        "Three.js",
+        "Python"
       ],
-      "title": "AeroTune: CFD & Gear Ratio Calculator for RC Chassis",
+      "title": "AeroTuner: Computational Body Shell Generator",
       "track": "",
-      "why_it_could_win": "Gives an engineering-focused edge to the assembly phase by translating mechanical changes into predicted track performance."
+      "why_it_could_win": "Directly leans into the manufacturing and creativity pillar of the SME-organized event by providing a tangible engineering edge during the assembly phase."
     },
     {
       "build_hours": 16,
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "A standalone webcam-based lap counter that uses color-tracking and OpenCV to automatically log car lap times and speeds as vehicles pass the finish line.",
+      "pitch": "A standalone webcam-based lap timer utilizing OpenCV and ArUco markers placed on the RC cars to automatically track heat times down to the millisecond without relying on manual stopwatches.",
       "stack": [
         "Python",
         "OpenCV",
         "Flask"
       ],
-      "title": "LapTimer Pro: Computer Vision Race Tracker",
+      "title": "ChronosLap: Computer Vision Gate Timing",
       "track": "",
-      "why_it_could_win": "Provides an automated, demo-ready live timing board that solves the event's need for precise multi-round heat tracking."
+      "why_it_could_win": "Automates the racing phase tracking with high precision, removing human error in timekeeping and providing instant feedback for drivers tuning their cars between rounds."
     },
     {
       "build_hours": 20,
-      "inspired_by": [
-        "github:1259981732"
-      ],
-      "pitch": "An Arduino-based strain gauge and accelerometer module clipped onto the RC suspension during test runs to detect chassis flex and impact forces.",
-      "stack": [
-        "C++",
-        "Arduino",
-        "Python"
-      ],
-      "title": "TorqueGuard: Mechanical Stress Analysis Monitor",
-      "track": "",
-      "why_it_could_win": "Showcases hard engineering and physical hardware prototyping that stands out in a racing competition focused on build quality."
-    },
-    {
-      "build_hours": 15,
       "inspired_by": [],
-      "pitch": "A step-by-step augmented reality web app that uses voice commands and computer vision to verify correct screw sizes and part placements during the high-speed assembly phase.",
+      "pitch": "An interactive, step-by-step augmented assembly guide featuring interactive 3D exploded views of the RC components to speed up the kit-building phase and prevent common alignment mistakes.",
       "stack": [
         "TypeScript",
-        "WebRTC",
-        "TailwindCSS"
+        "React",
+        "Three.js"
       ],
-      "title": "QuickBuild Checklist: AR-Guided RC Assembly Assistant",
+      "title": "GearSim: Assembly Guide & Torque Checklist",
       "track": "",
-      "why_it_could_win": "Directly targets the assembly time component of the final score by reducing human error and assembly mistakes under time pressure."
+      "why_it_could_win": "Targeting the assembly phase time reduction gives teams a direct advantage in the combined total time score, as assembly speed is weighted equally with racing performance."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:280704133",
+        "github:682938717",
+        "github:1259981732"
+      ],
+      "pitch": "A hardware modification kit integrating an Arduino-based steering wheel peripheral with custom tactile feedback to improve driver precision through tight track corners during the semi-finals and finals.",
+      "stack": [
+        "C#",
+        "Arduino",
+        "C++"
+      ],
+      "title": "SteerHaptic: Custom Controller Mod for RC Handling",
+      "track": "",
+      "why_it_could_win": "Combines unusual physical hardware building with a live, demonstrable edge on track handling, mirroring past hardware-focused hackathon winners."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

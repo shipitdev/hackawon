@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:25:59.416897+05:30",
+  "generated_at": "2026-09-13T07:46:25.598506+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,78 +16,83 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "Real-time CapMetro and traffic anomaly forecasting engine built specifically for Austin commuter bottlenecks.",
+      "pitch": "A localized energy grid strain forecasting tool using Poisson regression and historical ERCOT data to predict peak load incidents and price volatility in Austin.",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Poisson-regression"
+        "Poisson-Regression",
+        "Pandas"
       ],
-      "title": "ATX-Transit-Sync",
+      "title": "Austin Grid Load Forecaster",
       "track": "",
-      "why_it_could_win": "Targets a problem local judges feel themselves every day commuting to the venue in Austin."
+      "why_it_could_win": "Follows the winning pattern of hard engineering and predictive modeling from the AI forecasting hackathon, highly relevant to local Austin judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "Autonomous micro-task marketplace for Austin student freelancers utilizing USDC escrow payments.",
+      "pitch": "An autonomous AI agent marketplace for local Austin food trucks and small businesses with automated USDC escrow payments.",
       "stack": [
         "JavaScript",
-        "base",
-        "usdc"
+        "Base",
+        "USDC",
+        "Node.js"
       ],
-      "title": "Austin-Local-AI-Escrow",
+      "title": "ATX Local Merchant Escrow Market",
       "track": "",
-      "why_it_could_win": "Follows the proven track record of autonomous marketplace and escrow setups seen in previous hackathon winners."
+      "why_it_could_win": " Leverages the autonomous agent and escrow payment architecture that won the Synthesis Hackathon."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "Compliance and risk-detection platform tailored for Texas regional fintech transactions using graph intelligence.",
+      "pitch": "AI-powered satellite and aerial land monitoring platform to track environmental compliance for construction sites in Austin.",
       "stack": [
         "TypeScript",
-        "LightGBM",
-        "AWS"
+        "Satellite-API",
+        "Python",
+        "React"
       ],
-      "title": "Lonestar-AML-Monitor",
+      "title": "Austin GreenSite Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Leverages advanced graph intelligence and explainable machine learning which historically wins major technical tracks."
+      "why_it_could_win": "Mirrors the runner-up winner at the Xcelerate Hackathon by combining geospatial data with automated compliance checks."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "AI-powered scheduling and grouping tool matching Austin senior citizens with student volunteer drivers for grocery runs.",
+      "pitch": "A personalized multi-agent student support platform tailored specifically for university curriculum navigation using LangGraph and RAG.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini-API"
+        "LangGraph",
+        "RAG",
+        "Next.js"
       ],
-      "title": "HillCountry-Seniors-Outreach",
+      "title": "UT Austin Student Multi-Agent Support",
       "track": "",
-      "why_it_could_win": "Delivers concrete social and community impact with a clear, quantified benefit that resonates strongly with judges."
+      "why_it_could_win": "Directly replicates the 1st place GreenNovation Hackathon architecture using specialized multi-agent student support frameworks."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "AI-driven patient acquisition and trust engine designed for local dental and health clinics around Austin.",
+      "pitch": "An AI-powered patient acquisition and trust engine specifically built for local specialty health and wellness clinics in Austin.",
       "stack": [
         "TypeScript",
         "Gemini-API",
-        "Next.js"
+        "Next.js",
+        "Tailwind"
       ],
-      "title": "Austin-Prosthodontics-Trust",
+      "title": "Austin Health Trust & Patient Engine",
       "track": "",
-      "why_it_could_win": "Addresses an immediate, localized economic need for small businesses with a polished product execution."
+      "why_it_could_win": "Applies the proven 1st prize-winning blueprint from the Prize Hackathon for localized health trust and acquisition workflows."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

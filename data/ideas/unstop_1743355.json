@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-12T10:32:18.878059+05:30",
+  "generated_at": "2026-09-13T07:52:39.543130+00:00",
   "grounding": {
     "domains": [
       "fintech"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech"
+      "technical-depth"
     ],
     "thin": false
   },
@@ -17,79 +17,83 @@
       "inspired_by": [
         "github:950564513"
       ],
-      "pitch": "An AI-powered platform tailored for Indian retail borrowers that automates credit underwriting and document verification to deliver branch-like banking experiences digitally.",
+      "pitch": "An AI-powered digital branch platform providing automated document verification and conversational credit underwriting specifically tuned for Indian student and young professional micro-loans.",
       "stack": [
-        "JavaScript",
         "Next.js",
         "Node.js",
-        "Python"
+        "Python",
+        "TensorFlow.js"
       ],
-      "title": "LoanSphere AI",
+      "title": "LoanCue NSUT",
       "track": "",
-      "why_it_could_win": "Mirrors the success of CapitalCue at the Standard Chartered Hackathon by directly solving everyday financial access challenges for middle-class consumers."
+      "why_it_could_win": "Directly mirrors the Standard Chartered winning pattern by addressing realistic retail banking pain points with localized workflows."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A graph-intelligence-based AML risk detection platform designed for small-scale fintech lenders in India to flag fraudulent UPI transactions and suspicious cash flows.",
+      "pitch": "An AWS-powered anti-money laundering risk detection tool that uses graph intelligence to flag suspicious UPI and crypto fund flows for everyday retail fintech apps.",
       "stack": [
         "TypeScript",
+        "AWS",
         "Python",
-        "LightGBM"
+        "Neo4j"
       ],
-      "title": "MicroGuard AML",
+      "title": "PaisaGraph AML",
       "track": "",
-      "why_it_could_win": "Leverages advanced graph intelligence and explainable machine learning, a proven winning formula from the DIGITIMES AI Innovation Hackathon."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:980599492"
-      ],
-      "pitch": "A self-custodial virtual credit card backed by decentralized identity verification for Indian freelancers receiving global crypto payments.",
-      "stack": [
-        "TypeScript",
-        "Solidity",
-        "Web3.js"
-      ],
-      "title": "CryptoCard India",
-      "track": "",
-      "why_it_could_win": "Directly targets the cross-border payment utility gap in India using self-custodial decentralized payment patterns that won ETHLisbon."
+      "why_it_could_win": "Leverages heavy engineering patterns like graph intelligence and compliance infrastructure that appeal to finance judges."
     },
     {
       "build_hours": 36,
       "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-driven social trading execution platform tailored for Indian retail investors to safely copy, backtest, and execute algorithmic momentum strategies.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "WebSockets"
+      ],
+      "title": "StrategyCopy India",
+      "track": "",
+      "why_it_could_win": "Builds on the grand prize-winning Pacifica Hackathon architecture by translating institutional algorithmic copy-trading into an accessible consumer interface."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating automated micro-task payouts and service settlements via stablecoin escrow.",
+      "pitch": "An autonomous AI agent marketplace that executes micro-task contracts and instantly settles payments using stablecoin escrow accounts.",
       "stack": [
         "JavaScript",
+        "Solidity",
         "Base",
-        "USDC"
+        "Node.js"
       ],
-      "title": "AgentPay Bazaar",
+      "title": "AgentSettle",
       "track": "",
-      "why_it_could_win": "Adapts the winning autonomous agent marketplace pattern from the Synthesis Hackathon into a scalable B2B gig-economy tool."
+      "why_it_could_win": "Replicates the Synthesis Hackathon winning agent-economy model, showing judges a forward-looking paradigm for decentralized commerce."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1349346531"
+        "github:969245239"
       ],
-      "pitch": "An AI-driven options strategy simulator and hedging assistant for retail investors entering the Indian derivatives market.",
+      "pitch": "A multi-agent orchestration system that automatically performs qualitative market research and generates product-market fit reports for nascent fintech startups.",
       "stack": [
         "TypeScript",
-        "Python",
-        "FastAPI"
+        "LangChain",
+        "OpenAI API",
+        "Next.js"
       ],
-      "title": "RiskShield Options",
+      "title": "AlphaThesis Marketmind",
       "track": "",
-      "why_it_could_win": "Replicates the AI X Options prize-winning architecture seen at the MUBA Hackathon by combining derivative safety with predictive AI."
+      "why_it_could_win": "Follows the CMU AI Valley Grand Prize formula by replacing slow manual financial analysis with synchronized multi-agent reasoning."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

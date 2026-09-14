@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:23:45.144234+05:30",
+  "generated_at": "2026-09-13T07:44:04.054822+00:00",
   "grounding": {
     "domains": [
       "fintech",
@@ -7,8 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "unique-data"
+      "unique-data",
+      "technical-depth"
     ],
     "thin": false
   },
@@ -17,85 +17,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1183964401"
+        "github:680478376",
+        "github:272409903"
       ],
-      "pitch": "An AI-powered copy-trading and strategy execution platform tailored for perpetual decentralized exchanges, allowing students to backtest and deploy automated trading scripts within 47 hours.",
+      "pitch": "A predictive machine learning pipeline specifically analyzing student housing lease turnover and local Gainesville business customer attrition using logistic regression and exploratory data analysis notebooks.",
       "stack": [
         "Python",
-        "TypeScript",
-        "FastAPI",
-        "React"
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Pandas",
+        "Streamlit"
       ],
-      "title": "GatorPerp CopyTrader",
+      "title": "GatorChurnPredictor",
       "track": "",
-      "why_it_could_win": "Leverages the winning formula of ClashX by combining automated trading strategies with a sleek interface for decentralized perpetuals."
+      "why_it_could_win": "It follows a proven track record of winning data science competitions by focusing heavily on customer churn and attrition prediction models."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1091333339"
+        "github:435231380"
       ],
-      "pitch": "A micropayment gateway using HTTP 402 protocol to monetize real-time student housing and campus event data feeds using Solana blockchain microtransactions.",
+      "pitch": "An NLP-powered sentiment and complaint tracking tool tailored for local Florida utilities and municipal services, surfacing actionable insights from unstructured consumer feedback.",
       "stack": [
-        "TypeScript",
-        "Solana",
-        "Express"
+        "Python",
+        "Jupyter Notebook",
+        "Hugging Face",
+        "FastAPI",
+        "React"
       ],
-      "title": "SolanaCampus Flow",
+      "title": "GatorConsumerSentinel",
       "track": "",
-      "why_it_could_win": "Follows the exact architectural pattern of x402-Triton-Gateway by implementing HTTP 402 payment required standards for high-frequency data access."
+      "why_it_could_win": "Leverages text classification patterns from successful consumer complaint analysis hackathon submissions."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931",
-        "github:435231380"
+        "github:1183964401"
       ],
-      "pitch": "An automated risk detection and AML investigation platform using LightGBM and graph intelligence to flag suspicious student-run micro-transactions and wallet flows.",
+      "pitch": "A specialized algorithmic trading strategy sandbox utilizing historical crypto and stock data sets geared towards backtesting automated quantitative trading strategies.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "LightGBM",
+        "Pandas",
+        "Plotly",
         "Streamlit"
       ],
-      "title": "Gator AML Shield",
+      "title": "SwampTradeBot",
       "track": "",
-      "why_it_could_win": "Mirrors the success of Bito by using graph intelligence and machine learning to solve financial compliance and risk detection problems."
+      "why_it_could_win": "Addresses quantitative finance interests typical of quant hackathons with a focus on robust backtesting and strategy execution."
     },
     {
-      "build_hours": 28,
+      "build_hours": 42,
       "inspired_by": [
-        "github:168763765"
+        "github:1181344931"
       ],
-      "pitch": "A localized real estate valuation engine powered by gradient boosted regression and neural networks trained on historical Alachua County property and student housing listings.",
+      "pitch": "An exploratory graph intelligence tool mapping local peer-to-peer transaction flows to flag anomalous financial patterns using light gradient-boosting frameworks.",
       "stack": [
+        "TypeScript",
         "Python",
-        "Scikit-Learn",
-        "Pandas",
-        "Flask"
+        "LightGBM",
+        "NetworkX",
+        "Next.js"
       ],
-      "title": "Gainesville Rental Predictor",
+      "title": "AlachuaAMLGraph",
       "track": "",
-      "why_it_could_win": "Applies proven regression and GBR techniques to a localized dataset, directly replicating the House_Price_Prediction_Hackathon winning methodology."
+      "why_it_could_win": "Applies advanced graph intelligence and explainable machine learning techniques that historically secure top wins in AI innovation tracks."
     },
     {
-      "build_hours": 38,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:2615106"
       ],
-      "pitch": "An autonomous AI agent marketplace that uses USDC escrow on Base to coordinate and pay student freelancers for campus delivery and task automation.",
+      "pitch": "A real-time geospatial visualization dashboard mapping campus micro-transactions and foot traffic patterns using WebSockets and spatial databases.",
       "stack": [
         "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "Node.js",
+        "WebSockets",
+        "Redis",
+        "Leaflet.js"
       ],
-      "title": "Campus Agent Dispatch",
+      "title": "CampusPulseMap",
       "track": "",
-      "why_it_could_win": "Directly implements the winning architecture of Dispatch by pairing autonomous agent workflows with USDC escrow smart contracts."
+      "why_it_could_win": "Replicates the real-time mapping and Redis PubSub architecture that won internal financial technology hackathons."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

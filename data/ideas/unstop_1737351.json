@@ -1,102 +1,95 @@
 {
-  "generated_at": "2026-09-12T10:31:05.185263+05:30",
+  "generated_at": "2026-09-13T07:51:18.308362+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
-      "web3",
-      "devtools"
+      "web3"
     ],
     "exemplar_count": 8,
     "patterns": [
       "sponsor-tech",
-      "technical-depth",
-      "judge-pain"
+      "technical-depth"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1737351",
   "ideas": [
     {
-      "build_hours": 7,
+      "build_hours": 6,
       "inspired_by": [
-        "github:1282252864"
+        "github:1183964401"
       ],
-      "pitch": "A BPMN-orchestrated risk diagnosis tool for autonomous agent actions operating on generative AI backends.",
+      "pitch": "A rapid prototyping tool that compiles natural language prompts into production-ready web application boilerplate within minutes for the 8-hour sprint.",
       "stack": [
         "Python",
         "FastAPI",
-        "LangChain",
-        "BPMN.io"
+        "React"
       ],
-      "title": "AgenticWorkflowAuditor",
+      "title": "QuickGen AI Pipeline",
       "track": "",
-      "why_it_could_win": "Leverages the proven high-scoring pattern of combining BPMN orchestration with human-in-the-loop AI governance, matching the winning architecture from UiPath AgentHack."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free, self-improving semantic router using kNN over exemplar indices to dynamically route prompts between different LLMs.",
-      "stack": [
-        "Python",
-        "Superlinked",
-        "Qwen",
-        "FastAPI"
-      ],
-      "title": "SemanticRouterLite",
-      "track": "",
-      "why_it_could_win": "Directly implements the highly successful architecture of the Superlinked x Qwen Hackathon winner, demonstrating advanced algorithmic efficiency within a tight 8-hour window."
+      "why_it_could_win": "Targeted specifically at the ultra-short 8-hour constraint of HackDay 1.0, prioritizing speed and instant working utility over complex features."
     },
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1188682384"
+        "github:1185920891",
+        "github:1092573500"
       ],
-      "pitch": "A zero-knowledge gated community portal where human users and autonomous Generative AI agents coexist and verify credentials privately.",
+      "pitch": "An autonomous multi-agent system that analyzes GitHub pull requests and provides comprehensive security and style audits instantly.",
       "stack": [
         "TypeScript",
-        "Noir-lang",
-        "Base",
-        "OpenAI API"
+        "OpenAI API",
+        "Node.js"
       ],
-      "title": "ZKAgentGated",
+      "title": "Agentic Peer Reviewer",
       "track": "",
-      "why_it_could_win": "Replicates the unique winning formula of Synthesis Hackathon by blending AI agents with ZK privacy circuits, which judges favor for technical ambition."
+      "why_it_could_win": "Leverages the trend of AI agents solving developer workflow problems, highly appealing to the hackathon's developer-centric audience."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1209618925"
+      ],
+      "pitch": "An AI-powered knowledge retrieval assistant that ingests API documentation and answers developer queries via an embedded widget.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "InstantDoc Concierge",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable pain point for international hackathon participants trying to quickly learn new tools under a strict time limit."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A streamlined global time zone coordination and synchronized countdown timer app designed explicitly for remote hackathon teams.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Global Pitch Timer",
+      "track": "",
+      "why_it_could_win": "Addresses the specific logistics of a global online hackathon where participants struggle with tight deadlines across different time zones."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1185920891"
+        "github:941346152"
       ],
-      "pitch": "An autonomous AI agent marketplace that executes transactions and manages service verification using stablecoin escrow payments.",
+      "pitch": "A zero-config dashboard that transforms raw JSON endpoints into interactive charts instantly through a single-line embedding.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Locus"
+        "TypeScript",
+        "Next.js",
+        "Chart.js"
       ],
-      "title": "AutonomousEscrowAgent",
+      "title": "FlashData Visualizer",
       "track": "",
-      "why_it_could_win": "Matches the exact blueprint of the Locus Track winner at Synthesis Hackathon, providing a complete functional utility for on-chain AI economies."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A lightweight reasoning wrapper that optimises LLM reasoning loops to reduce token consumption and latency during generative tasks.",
-      "stack": [
-        "Python",
-        "OpenAI API",
-        "PyTorch"
-      ],
-      "title": "ReasoningOptimizer",
-      "track": "",
-      "why_it_could_win": "Mirrors the OpenAI/Jetbrains hackathon winner by solving a universally felt developer pain point: making LLMs think faster and cheaper."
+      "why_it_could_win": "Delivers immediate visual impact during judging demos, which is critical when evaluators are reviewing dozens of projects submitted in a single day."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

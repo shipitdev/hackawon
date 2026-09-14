@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:22:18.900416+05:30",
+  "generated_at": "2026-09-13T07:41:56.422137+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,81 +14,85 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "AI-powered satellite and local CCTV monitoring platform that detects campus crowd bottlenecks, safety risks, and industrial or construction land compliance issues around KSR Kalvi Nagar.",
+      "pitch": "An AI-powered predictive incident management and resource allocation dashboard tailored for college campuses, leveraging Poisson regression and risk scoring to forecast and prevent operational bottlenecks.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "React"
+      ],
+      "title": "KSRCE Campus AI Safety and Incident Forecaster",
+      "track": "",
+      "why_it_could_win": "Leverages rigorous statistical forecasting techniques similar to winning AI governance projects, offering tangible utility for campus administration."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered graph intelligence and risk scoring platform designed to audit and detect anomalies in local supply chain transactions and regional business financing.",
       "stack": [
         "TypeScript",
-        "Python",
-        "Next.js",
-        "TailwindCSS"
+        "AWS",
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "KSRCE Campus Flow and Safety Monitor",
+      "title": "Tamil Nadu MSME AML Risk Intelligence Platform",
       "track": "",
-      "why_it_could_win": "Combines geo-spatial analytics with localized campus utility, targeting a pain familiar to college administrators and event organizers in the room."
+      "why_it_could_win": "Directly applies complex graph intelligence and explainable machine learning models to solve real financial compliance problems faced by regional industries."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating secure, escrow-backed transactions for regional agricultural produce using stablecoins on Base.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "AgriCrop Decentralized Escrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Combines cutting-edge autonomous agent workflows with verifiable decentralized escrow mechanisms, standing out through robust full-stack execution."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "Localized wellness and nutritional planner tailored specifically to college mess and canteen menus in Namakkal, giving personalized dietary advice for students.",
+      "pitch": "An AI-driven nutrition and wellness assistant tailored for hostel students, delivering personalized mess-menu nutritional insights and healthy lifestyle guidance.",
       "stack": [
         "Python",
         "Streamlit",
-        "Gemini API"
+        "OpenAI API",
+        "Pandas"
       ],
-      "title": "CampusMinds Peer Health and Nutrition Assistant",
+      "title": "BioNutri AI Campus Wellness Companion",
       "track": "",
-      "why_it_could_win": "Directly tackles student health and wellness, a problem the judges and student peers experience daily, matching the pattern of solving a relatable local problem."
+      "why_it_could_win": "Addresses a universal student pain point with immediate practical application, mirroring proven winners in the wellness hackathon space."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1194555365"
+        "github:1155558847"
       ],
-      "pitch": "Community-driven matching app that organizes elderly residents in rural Tamil Nadu into social outings, pairing them efficiently with student volunteer drivers from KSRCE.",
+      "pitch": "An AI-powered satellite monitoring tool designed to track and verify environmental land compliance and green cover metrics for industrial zones in Tamil Nadu.",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Node.js"
+        "Python",
+        "Leaflet.js",
+        "PyTorch"
       ],
-      "title": "ElderLink Namakkal Volunteer Network",
+      "title": "EcoIndustrial Satellite Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Has clear measurable social impact with a concrete benefit for the local community, matching successful community welfare hackathon projects."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-driven platform for Google Developer Groups chapters to profile past attendees, automate sponsor outreach, and build trust for future seasons like Season 5.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "GDG Event Trust and Alumni Acquisition Engine",
-      "track": "",
-      "why_it_could_win": "Targets the exact pain point of the host organizers (GDG KSRCE) who run these hackathon seasons, ensuring judges instantly relate to the use case."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Decentralized escrow and task marketplace built for student freelancers and micro-services within KSR Kalvi Nagar using simulated USDC settlement.",
-      "stack": [
-        "JavaScript",
-        "Solidity",
-        "Base"
-      ],
-      "title": "CampusEscrow Autonomous Student Marketplace",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering in transaction flows and autonomous agent execution within a short hackathon window."
+      "why_it_could_win": "Utilizes geospatial data processing and computer vision to solve concrete ecological monitoring challenges for state development authorities."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

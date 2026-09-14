@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:24:38.485376+05:30",
+  "generated_at": "2026-09-13T07:45:01.476605+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,85 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265",
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-code trading and copy-bot platform tailored for Pacifica Perpetuals, leveraging automated risk parameters and execution strategies.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "WebSockets"
+      ],
+      "title": "PacificDrift",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of ClashX by targeting a specific perpetuals trading environment with an intuitive, complete toolset that judges can instantly test and evaluate."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered urban micro-climate hazard and localized flood prediction platform specifically tailored for Vancouver geography and rainfall patterns, combining real-time city sensors with predictive modeling.",
+      "pitch": "AI-powered satellite monitoring tool tracking industrial land compliance and environmental changes in British Columbia using geospatial imagery.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "TensorFlow"
+        "Leaflet.js",
+        "PyTorch"
       ],
-      "title": "RainGuard Vancouver",
+      "title": "VancouverScan",
       "track": "",
-      "why_it_could_win": "Targets a highly localized environmental pain point that Vancouver judges and residents experience directly, mirroring the successful pattern of building high-impact predictive tools for regional use."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining geospatial data processing with computer vision, following the winning pattern of GeoNex-ATLAS."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1185920891",
-        "github:1194555365"
+        "github:1185920891"
       ],
-      "pitch": "A decentralized micro-grant and resource coordination platform connecting local Vancouver mutual aid groups with transparent tracking and autonomous payout agents.",
+      "pitch": "An autonomous AI agent marketplace featuring USDC escrow payments built specifically on Base.",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "Solidity"
+        "Solidity",
+        "Node.js"
       ],
-      "title": "PacificPeer",
+      "title": "EscrowAgent",
       "track": "",
-      "why_it_could_win": "Demonstrates clear, measurable community impact with a localized angle that resonates strongly with student judges focused on social good."
+      "why_it_could_win": "Leverages the proven winning blueprint of Dispatch by integrating decentralized escrow payments with autonomous agent workflows within a tight 29-hour window."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
+        "github:1275874285"
       ],
-      "pitch": "An intelligent multi-modal transit synchronization assistant for the Lower Mainland that groups commuters with shared schedules into spontaneous carpools and community rides.",
+      "pitch": "AI-powered nutrition and wellness platform providing personalized meal recommendations tailored to local Vancouver grocery inventory and pricing data.",
       "stack": [
-        "TypeScript",
+        "Python",
         "Gemini API",
-        "React Native"
+        "React",
+        "TailwindCSS"
       ],
-      "title": "CoastalTransit AI",
+      "title": "NutriCamp Vancouver",
       "track": "",
-      "why_it_could_win": "Solves a daily logistical frustration familiar to every student and commuter in Vancouver, mirroring successful hyper-local problem-solving."
+      "why_it_could_win": "Builds directly upon the winning formula of E-Foodiee-AI-Nutrition-Assistant by offering a hyper-localized angle that appeals to local student hackathon judges."
     },
     {
-      "build_hours": 25,
+      "build_hours": 27,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A lightweight financial monitoring and anomaly detection dashboard tailored for student-run club finances and micro-transactions to prevent fraud.",
+      "pitch": "An AWS-powered AML risk detection and investigation platform combining graph intelligence and explainable machine learning models for local fintech compliance.",
       "stack": [
         "TypeScript",
+        "AWS",
         "Python",
         "LightGBM"
       ],
-      "title": "CampusCartel AML",
+      "title": "AuditGuard AI",
       "track": "",
-      "why_it_could_win": "Directly targets an administrative pain point experienced by university organizers and club treasurers in the room."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-driven meal planning and grocery budget assistant that optimizes local Vancouver grocery store flyers and farmers market inventories for affordable nutrition.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "NutriLocal Vancouver",
-      "track": "",
-      "why_it_could_win": "Combines practical consumer utility with localized data feeds, matching the winning formula of highly actionable consumer AI apps."
+      "why_it_could_win": "Employs heavy technical engineering and explainable ML dashboards, replicating the winning evaluation criteria seen in Bito."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:37:16.429690+05:30",
+  "generated_at": "2026-09-13T07:57:13.793553+00:00",
   "grounding": {
-    "domains": [
-      "hardware"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "unusual-hardware",
       "technical-depth",
-      "working-demo"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,85 +14,85 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1296916648"
+        "github:1181344931"
       ],
-      "pitch": "An offline AI-powered code analysis tool running directly on Snapdragon NPUs to provide instant, privacy-first security and performance feedback for local developers.",
+      "pitch": "An on-device AML risk detection and investigation platform running on Snapdragon hardware, utilizing graph intelligence and Focal LightGBM to analyze transaction flows locally without cloud latency.",
       "stack": [
+        "TypeScript",
         "Python",
-        "Snapdragon SDK",
-        "FastAPI",
-        "ONNX Runtime"
+        "Qualcomm Neural Processing SDK",
+        "LightGBM"
       ],
-      "title": "SnapDragon Edge AI Code Reviewer",
-      "track": "Qualcomm Collaboration",
-      "why_it_could_win": "Directly leverages Qualcomm hardware advantages and builds on the proven pattern of winning the Qualcomm Snapdragon Multiverse Hackathon."
+      "title": "Qualcomm EdgeAML Compliance Monitor",
+      "track": "",
+      "why_it_could_win": "Leverages Qualcomm hardware capabilities directly, aligning with the primary collaborator's focus on high-performance edge computing."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1341712439"
+        "github:1155558847"
       ],
-      "pitch": "An autonomous 5-layer multi-agent IoT diagnostic and closed-loop operations platform powered by edge intelligence and vector databases for rapid industrial anomaly detection.",
+      "pitch": "AI-powered satellite monitoring tool that processes real-time imagery on the edge to detect unauthorized industrial land usage and environmental violations automatically.",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Gemini API",
-        "TimescaleDB"
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite"
       ],
-      "title": "Multi-Agent IoT Diagnostic Mesh",
+      "title": "Satellite Industrial Land Compliance Agent",
       "track": "",
-      "why_it_could_win": "Combines advanced multi-agent workflows with IoT telemetry, aligning with hardware-software integration themes favored in Qualcomm collaborations."
-    },
-    {
-      "build_hours": 44,
-      "inspired_by": [
-        "github:1274691349"
-      ],
-      "pitch": "A full superscalar RV32I out-of-order processor implemented in Verilog featuring Tomasulo's algorithm and a 7-stage pipeline suitable for FPGA deployment.",
-      "stack": [
-        "Verilog",
-        "FPGA",
-        "RISC-V",
-        "UVM"
-      ],
-      "title": "RISC-V Superscalar Out-of-Order Core",
-      "track": "",
-      "why_it_could_win": "Addresses hardcore hardware design, directly mirroring the SanDisk Hardware Hackathon winning pattern of deep architectural implementation."
+      "why_it_could_win": "Demonstrates genuinely hard engineering combining geospatial data pipelines with edge AI inference models."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1234067949"
+        "github:1185920891"
       ],
-      "pitch": "A web platform that predicts harmful algal bloom risks days in advance using localized sensor data streams and machine learning models.",
+      "pitch": "Decentralized marketplace enabling IoT devices on Qualcomm chips to autonomously buy and sell compute resources using USDC escrow payments on Base.",
       "stack": [
-        "TypeScript",
-        "Python",
-        "Scikit-Learn",
-        "React"
+        "JavaScript",
+        "Base",
+        "USDC SDK",
+        "Solidity"
       ],
-      "title": "Aquatic Algal Bloom Risk Predictor",
+      "title": "Autonomous USDC Escrow Marketplace for IoT",
       "track": "",
-      "why_it_could_win": "Matches the proven success of the AquaSense IoT Hackathon by turning sensor telemetry into actionable predictive insights for environmental safety."
+      "why_it_could_win": "Integrates cutting-edge autonomous agent frameworks with real-time micropayments, fitting the feasibility and implementation plan criteria."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1010199928"
+        "github:1087704265"
       ],
-      "pitch": "An edge-deployed computer vision garbage classifier using microcontroller hardware and custom Python models to automate sorting in real-time.",
+      "pitch": "Poisson GAM and multinomial share model forecasting system designed to predict hardware failures and grid incidents across connected IoT infrastructure.",
       "stack": [
+        "Jupyter Notebook",
         "Python",
-        "OpenCV",
-        "Arduino",
-        "TensorFlow Lite"
+        "Poisson Regression",
+        "FastAPI"
       ],
-      "title": "AI-Powered Smart Garbage Classifier",
+      "title": "AI Incident Forecasting Engine for Smart Grids",
       "track": "",
-      "why_it_could_win": "Uses physical computing and live demonstration, echoing the TechnoMorph Hackathon runner-up that impressed judges with working robotics and hardware integration."
+      "why_it_could_win": "Provides rigorous statistical validation and calibrated prediction intervals, satisfying the technical depth and potential impact judging criteria."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support platform utilizing LangGraph and local RAG models optimized to run entirely offline on edge hardware for campus deployment.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Ollama"
+      ],
+      "title": "Edge RAG Student Support Assistant",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced multi-agent architecture with a clear feasibility plan for localized hardware implementation."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

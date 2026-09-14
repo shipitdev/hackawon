@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:22:00.313226+05:30",
+  "generated_at": "2026-09-13T07:40:57.605163+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,81 +14,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1181344931"
       ],
-      "pitch": "Real-time student sentiment analysis and campus facility issue forecasting engine built specifically for GLA University student coordinators.",
+      "pitch": "A graph-intelligence and LightGBM-powered transaction monitoring system designed to flag anomalous ticketing and local micro-mobility fund flows in real-time.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "Poisson-Regression"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "CampusPulse GLA",
+      "title": "Mathura-Transit-Graph-AML",
       "track": "1st Prize",
-      "why_it_could_win": "Solves a problem the judges feel themselves directly on their home campus, appealing to organizers from GDG On Campus GLA University."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Personalized AI-powered dietary tracking and meal recommendation platform tailored specifically to the weekly mess menu at GLA University hostels.",
-      "stack": [
-        "Python",
-        "Gemini-API",
-        "Next.js"
-      ],
-      "title": "HostelMess AI Nutrition Planner",
-      "track": "2nd Prize",
-      "why_it_could_win": "Targets an immediate daily pain point for 600+ student hackers living in campus accommodation during the 48-hour event."
+      "why_it_could_win": "Leverages heavy data-science engineering and structured graph models, mirroring the exact technical complexity that won the DIGITIMES AI Innovation Hackathon."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Decentralized autonomous agent marketplace with secure crypto escrow for local artisans around Mathura to sell directly to regional buyers.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
-      ],
-      "title": "MathuraCraft Escrow Market",
-      "track": "3rd Prize",
-      "why_it_could_win": "Combines regional economic impact with decentralized escrow technology, demonstrating clear measurable economic benefit."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "AI-optimized ride and auto-pooling coordination app that groups nearby GLA students traveling between Mathura Junction and campus with verified student drivers.",
-      "stack": [
-        "TypeScript",
-        "Google-Maps-API",
-        "React-Native"
-      ],
-      "title": "GLA Shuttle Share",
-      "track": "1st Prize",
-      "why_it_could_win": "Directly addresses transportation logistics for out-of-town attendees arriving at the venue for the in-person hackathon."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Satellite imagery monitoring tool for agricultural land compliance and crop health tracking across the Mathura district using multi-spectral indices.",
+      "pitch": "An AI-powered satellite monitoring pipeline that tracks unauthorized industrial encroachment on agricultural land around Mathura using multi-spectral imagery.",
       "stack": [
         "TypeScript",
         "Python",
-        "GIS"
+        "OpenCV",
+        "Next.js"
       ],
-      "title": "AgriZone Mathura Satellite Inspector",
+      "title": "Agri-Satellite-Land-Watch-UP",
       "track": "2nd Prize",
-      "why_it_could_win": "Involves hard engineering via geospatial data processing, standing out among standard web apps in a 600+ developer pool."
+      "why_it_could_win": "Directly replicates the satellite monitoring and computer vision execution pattern that secured 2nd runner-up at the Xcelerate Hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "A localized nutrition and meal-planning assistant blending traditional regional dietary wisdom with modern macro-nutrient tracking via a fine-tuned Gemini API.",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Ayurvedic-Nutrition-RAG-Engine",
+      "track": "3rd Prize",
+      "why_it_could_win": "Follows the proven formula of winning wellness and nutrition hackathons by pairing localized utility with high-speed RAG architecture."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1213911408"
+      ],
+      "pitch": "An autonomous AI agent marketplace for university event management featuring automated USDC escrow payments and service verification.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "LangGraph"
+      ],
+      "title": "Campus-Event-Autonomous-Escrow",
+      "track": "1st Prize",
+      "why_it_could_win": "Combines autonomous multi-agent workflows with cryptographic escrow infrastructure, duplicating the winning architecture from the Synthesis Hackathon."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A Poisson GAM regression model engineered to forecast localized power grid anomalies and infrastructure failure risks for campus micro-grids.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "Local-Grid-Load-Forecasting",
+      "track": "2nd Prize",
+      "why_it_could_win": "Features heavy statistical modeling and robust rolling backtests, matching the rigorous technical evaluation criteria of the Apart Research AI Forecasting Hackathon."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

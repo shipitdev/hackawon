@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:26:13.260229+05:30",
+  "generated_at": "2026-09-13T07:46:39.555578+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,88 +14,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "A graph intelligence platform mapping local DFW freight corridors to detect anomalies in supply chain logistics and predict delivery bottlenecks using LightGBM and spatial data.",
+      "pitch": "A graph-intelligence platform mapping campus resource allocation and financial flows to flag compliance risks and anomalies using LightGBM.",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "PostGIS"
+        "NetworkX",
+        "Next.js"
       ],
-      "title": "DFW Supply Chain Guardian",
+      "title": "UTD Campus Grid AML & Anomaly Detection",
       "track": "",
-      "why_it_could_win": "Targeting local enterprise infrastructure makes sense for a large regional hackathon in Texas, leveraging hard ML engineering similar to past winners."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1185920891",
-        "github:1194555365"
-      ],
-      "pitch": "An AI agent marketplace matching student commuter demand with autonomous or volunteer student drivers on campus, complete with escrow payments and route optimization.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Solidity",
-        "Base"
-      ],
-      "title": "Campus Shuttle Autonomous Dispatcher",
-      "track": "",
-      "why_it_could_win": "Solves a problem the judges and students feel themselves every day on a sprawling university campus, while adopting a proven autonomous marketplace architecture."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph intelligence and gradient boosting models into a cohesive dashboard within the 47-hour window."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A Poisson regression and GAM-based forecasting dashboard predicting ERCOT energy pricing spikes and grid incidents with calibrated prediction intervals.",
+      "pitch": "A Poisson regression and GAM forecasting model tailored for regional utility and infrastructure incident prediction with calibrated 90% prediction intervals.",
       "stack": [
         "Jupyter Notebook",
         "Python",
+        "Scikit-Learn",
         "FastAPI",
         "React"
       ],
-      "title": "Texas Grid Load Forecaster",
+      "title": "Texas Grid AI Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Addresses a massive regional pain point in Texas regarding power grid stability, using rigorous predictive modeling seen in winning technical projects."
+      "why_it_could_win": "Applies rigorous statistical modeling (Poisson GAM) rather than a generic wrapper, matching winning patterns from predictive hackathon projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace for local student services featuring automated task negotiation and escrow payments settled on Base.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "LangChain",
+        "Solidity"
+      ],
+      "title": "DFW Autonomous Vendor Marketplace with USDC Escrow",
+      "track": "",
+      "why_it_could_win": "Integrates autonomous agent workflows with real cryptographic escrow, fulfilling the proven hackathon formula of combining agents with on-chain settlement."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1241231621",
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered nutrition assistant integrated with campus dining hall menus to deliver personalized meal plans and micro-nutrient tracking for student athletes and busy hackers.",
+      "pitch": "An AI-powered multi-agent platform designed for local specialized clinics to automate patient intake, trust verification, and personalized healthcare onboarding.",
       "stack": [
-        "Python",
+        "TypeScript",
         "Gemini API",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "Student Health and Nutrition Copilot",
+      "title": "MedTrust AI: Patient Acquisition & Trust Engine for DFW Clinics",
       "track": "",
-      "why_it_could_win": "Targets student wellness directly, building an immediately demonstrable consumer utility that resonated well in past health-tech hackathon tracks."
+      "why_it_could_win": "Targets a clear, high-value vertical (healthcare clinic acquisition) with a polished user-facing application built quickly over a weekend sprint."
     },
     {
-      "build_hours": 26,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1194555365"
+        "github:1155558847"
       ],
-      "pitch": "An intelligent routing platform that matches hacker project queries with the exact available mentors or sponsors who have the matching niche technical expertise in real time.",
+      "pitch": "An AI-powered satellite imagery monitoring tool that tracks changes in industrial and campus land use to flag environmental compliance breaches automatically.",
       "stack": [
         "TypeScript",
-        "OpenAI API",
-        "Next.js",
-        "PostgreSQL"
+        "Python",
+        "Leaflet.js",
+        "OpenCV",
+        "FastAPI"
       ],
-      "title": "HackUTD Mentor Matcher",
+      "title": "EcoCampus AI: Satellite Land Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Solves a meta-problem directly experienced by event organizers and participants during a 47-hour in-person hackathon."
+      "why_it_could_win": "Solves a complex spatial data processing challenge and presents the output through an interactive geospatial interface that immediately grabs judges' attention."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

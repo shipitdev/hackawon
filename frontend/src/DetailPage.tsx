@@ -1,4 +1,6 @@
+import { ArrowLeft } from "@phosphor-icons/react";
 import { HackathonDetail } from "./HackathonDetail";
+import { Wordmark } from "./Header";
 import { buildPrompt } from "./lib";
 import type { Domain, Hackathon, IdeaSet } from "./types";
 
@@ -6,8 +8,8 @@ import type { Domain, Hackathon, IdeaSet } from "./types";
  * The standalone page at `/h/<slug>`, rendered to static HTML at build time.
  *
  * Deliberately ships **no JavaScript**. The content is text, so a static page is faster, cannot
- * break, and is what search engines and link previews read. The one interactive feature — copying
- * a prompt — is provided as a selectable block inside a `<details>` element instead of a button
+ * break, and is what search engines and link previews read. The one interactive feature, copying
+ * a prompt, is provided as a selectable block inside a `<details>` element instead of a button
  * that would need a bundle to work.
  */
 export function DetailPage({
@@ -25,46 +27,54 @@ export function DetailPage({
   const prompt = buildPrompt(hackathon, set?.exemplars ?? []);
 
   return (
-    <div className="mx-auto max-w-2xl px-5 py-10 sm:px-6">
-      <a
-        href={base}
-        className="mb-8 inline-flex items-center gap-1.5 text-sm text-muted transition hover:text-accent"
-      >
-        <span aria-hidden>←</span> All hackathons
-      </a>
-
-      <header className="mb-5">
-        <h1 className="text-2xl font-semibold leading-tight tracking-[-0.025em] text-ink sm:text-3xl">
-          {hackathon.title}
-        </h1>
-        {hackathon.tagline && (
-          <p className="mt-2 text-base leading-relaxed text-muted">{hackathon.tagline}</p>
-        )}
+    <>
+      <header className="border-b border-line">
+        <div className="mx-auto flex h-14 max-w-3xl items-center justify-between px-4 sm:px-6">
+          <Wordmark base={base} />
+          <a
+            href={base}
+            className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm text-muted transition-colors hover:bg-sunken hover:text-ink"
+          >
+            <ArrowLeft size={14} weight="bold" aria-hidden /> All hackathons
+          </a>
+        </div>
       </header>
 
-      <HackathonDetail hackathon={hackathon} set={set} topics={topics} />
+      <main className="mx-auto max-w-3xl px-4 pb-20 pt-10 sm:px-6 sm:pt-14">
+        <div className="mb-8">
+          <h1 className="text-[clamp(1.9rem,5vw,2.9rem)] font-semibold leading-[1.05] tracking-[-0.04em] text-balance">
+            {hackathon.title}
+          </h1>
+          {hackathon.tagline && (
+            <p className="mt-3 max-w-[60ch] text-base leading-relaxed text-muted sm:text-lg">
+              {hackathon.tagline}
+            </p>
+          )}
+        </div>
 
-      <details className="mt-8 rounded-2xl border border-white/8 bg-white/[0.02] p-4">
-        <summary className="cursor-pointer text-sm font-semibold text-ink">
-          Prompt for your own AI — copy this into ChatGPT or Gemini
-        </summary>
-        <p className="mt-2 text-xs leading-relaxed text-faint">
-          Already filled in with this hackathon's tracks, sponsors and the past winners it
-          resembles. Add your skills and how long you have.
-        </p>
-        <pre className="mt-3 max-h-80 overflow-auto whitespace-pre-wrap rounded-xl bg-black/40 p-3 text-xs leading-relaxed text-muted">
-          {prompt}
-        </pre>
-      </details>
+        <HackathonDetail hackathon={hackathon} set={set} topics={topics} />
 
-      <footer className="mt-10 border-t border-white/6 pt-5 text-xs leading-relaxed text-faint">
-        Registration happens on the organiser's own page, linked above. Ideas are generated and
-        grounded in past winning projects — treat them as starting points, not predictions.{" "}
-        <a href={base} className="underline transition hover:text-muted">
-          Browse every open hackathon
-        </a>
-        .
-      </footer>
-    </div>
+        <details className="group mt-10 rounded-2xl border border-line bg-raised">
+          <summary className="cursor-pointer list-none px-5 py-4 text-sm font-semibold [&::-webkit-details-marker]:hidden">
+            Prompt for your own AI
+            <span className="mt-0.5 block text-xs font-normal text-muted">
+              Paste it into ChatGPT or Gemini, then add your skills and how long you have.
+            </span>
+          </summary>
+          <pre className="mx-5 mb-5 max-h-80 overflow-auto whitespace-pre-wrap rounded-xl bg-sunken p-4 font-mono text-xs leading-relaxed text-muted">
+            {prompt}
+          </pre>
+        </details>
+
+        <footer className="mt-14 border-t border-line pt-6 text-xs leading-relaxed text-faint">
+          Registration happens on the organiser's own page, linked above. Ideas are generated from
+          past winning projects, so treat them as starting points, not predictions.{" "}
+          <a href={base} className="underline decoration-line underline-offset-4 hover:text-ink">
+            Browse every open hackathon
+          </a>
+          .
+        </footer>
+      </main>
+    </>
   );
 }

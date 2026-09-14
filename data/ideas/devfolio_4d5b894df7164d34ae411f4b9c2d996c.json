@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:21:02.436499+05:30",
+  "generated_at": "2026-09-13T07:37:34.103553+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,87 +14,87 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1241231621",
-        "github:1194555365"
+        "github:1241231621"
       ],
-      "pitch": "An emergency broadcast and public announcement tool that uses ElevenLabs voice cloning and translation to instantly convert local disaster alerts into regional dialects and broadcast them seamlessly across public loudspeakers.",
+      "pitch": "An AI-powered voiceover and localization workbench designed for regional creators in Central India, allowing instant dubbing into local dialects while matching authentic emotional tone and lip-sync cadence.",
       "stack": [
         "TypeScript",
         "Next.js",
         "ElevenLabs API",
-        "WebSockets"
+        "TailwindCSS"
       ],
-      "title": "VocalVigil: ElevenLabs-Powered Public Announcement Real-Time Translator and Safety Dispatcher",
+      "title": "VoiceCraft Studio",
       "track": "1 Month Free Creator Tier",
-      "why_it_could_win": "Directly targets the ElevenLabs sponsor prize track by deeply integrating their voice API into a real-world public safety scenario."
+      "why_it_could_win": "Leverages ElevenLabs sponsor track directly by integrating cutting-edge voice generation APIs to solve a localized media production problem, maximizing sponsor track win probability."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool specifically tailored for Chhattisgarh industrial zones to detect illegal land encroachment and environmental violations automatically.",
+      "pitch": "An AI-powered satellite monitoring and change-detection platform tailored for tracking industrial land compliance and mining encroachment in the Chhattisgarh region using multi-spectral imagery.",
       "stack": [
         "TypeScript",
         "Python",
-        "SentinelHub API",
-        "PostGIS"
+        "GIS libraries",
+        "OpenAI API",
+        "React"
       ],
-      "title": "GeoCompli-RAIPUR: Industrial Environmental Monitoring & Land Compliance Agent",
+      "title": "BastarGIS Satellite Monitor",
       "track": "Open Innovation",
-      "why_it_could_win": "Replicates the regional context of local industrial development challenges and leverages satellite data analytics proven to win local government-backed hackathons."
+      "why_it_could_win": "Mirrors the exact success pattern of regional infrastructural wins like GeoNex-ATLAS at local state industrial hackathons by tackling a problem of direct public and industrial interest in Raipur."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "A localized nutrition assistant that leverages ElevenLabs text-to-speech to read out personalized dietary advice in regional languages for community health workers.",
+      "pitch": "A voice-first agricultural advisory platform utilizing ElevenLabs for natural language text-to-speech output, helping local farmers navigate mandi prices, crop disease diagnoses, and government welfare schemes in regional languages.",
       "stack": [
         "Python",
         "FastAPI",
         "ElevenLabs API",
-        "React"
+        "React Native"
       ],
-      "title": "VoiceHealth Chhattisgarh: Multilingual AI Nutrition and Health Guidance for Rural Outreach",
-      "track": "1 Month Free Creator Tier",
-      "why_it_could_win": "Combines a proven health-tech hackathon win pattern with ElevenLabs sponsor integration for maximum impact in rural public interest domains."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An interactive voice agent built using ElevenLabs that helps local farmers simulate and practice negotiations for crop pricing at regional agricultural markets.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "ElevenLabs API",
-        "OpenAI"
-      ],
-      "title": "AgriScribe: Voice-First Mandi Price Discovery and Bargaining Simulator",
+      "title": "AgriVoice Advisory",
       "track": "Grand Prize: 3 Months Pro Tier",
-      "why_it_could_win": "Addresses a concrete local economic problem of public interest while putting the spotlight directly on ElevenLabs audio generation capabilities."
+      "why_it_could_win": "Directly targets the ElevenLabs sponsor track by building a practical real-world utility of public interest for the agrarian economy of Central India."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1194555365"
+        "github:1185920891"
       ],
-      "pitch": "A community-focused matching engine that groups elderly residents in urban neighborhoods into social activities and coordinates volunteer transport logistics.",
+      "pitch": "A localized decentralized escrow and autonomous agent marketplace for rural artisans and self-help groups to securely transact with buyers using low-fee settlement layers.",
       "stack": [
-        "TypeScript",
-        "React",
-        "TailwindCSS",
-        "Node.js"
+        "JavaScript",
+        "Solidity",
+        "Base",
+        "USDC SDK"
       ],
-      "title": "Sahayak AI: Automated Volunteer Driver and Senior Citizen Social Outing Coordinator",
+      "title": "GraminChain Escrow",
       "track": "Open Innovation",
-      "why_it_could_win": "Replicates a proven Grand Prize-winning social good application formula by demonstrating immediate, quantifiable community impact."
+      "why_it_could_win": "Adapts the proven fintech-agent marketplace architecture seen in Synthesis Hackathon wins into a context that serves public welfare and regional commerce."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An interactive voice-driven nutrition and wellness companion that analyzes regional diets and delivers spoken personalized meal recommendations and lifestyle guidance using ElevenLabs voice synthesis.",
+      "stack": [
+        "Python",
+        "Next.js",
+        "ElevenLabs API",
+        "Gemini API"
+      ],
+      "title": "NutriVoice Health Assistant",
+      "track": "3 Months Scale Tier",
+      "why_it_could_win": "Combines consumer health tech with the ElevenLabs sponsor track, making it a strong contender for both the general prizes and the creator/scale tier sponsor awards."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

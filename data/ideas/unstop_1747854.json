@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:36:54.981475+05:30",
+  "generated_at": "2026-09-13T07:56:51.470858+00:00",
   "grounding": {
     "domains": [
-      "hardware",
-      "devtools"
+      "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "unusual-hardware",
+      "working-demo",
       "technical-depth",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +18,85 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1341712439"
+        "github:1341712439",
+        "github:1281918590"
       ],
-      "pitch": "An autonomous multi-agent diagnostic platform for campus electrical and electronics hardware labs, using fast machine learning and LLMs to detect power grid anomalies and equipment failures in real time.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "Gemini API"
-      ],
-      "title": "Smart Campus IoT Anomaly Detector",
-      "track": "Hardware & Software",
-      "why_it_could_win": "Targeting the Hardware & Software track with a direct focus on institutional campus operations makes the problem instantly relatable to ECE/EE departments and judges."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router and retrieval engine designed specifically to parse complex VLSI chip datasheets and hardware documentation for instant query routing.",
+      "pitch": "An IoT-based power monitoring system using ESP32 and current sensors that detects anomalous energy consumption spikes in department labs and provides real-time alerts.",
       "stack": [
         "Python",
-        "Semantic Router",
-        "Qwen",
-        "Superlinked"
+        "C++",
+        "ESP32",
+        "MQTT",
+        "Streamlit"
       ],
-      "title": "Semantic VLSI Datasheet Router",
+      "title": "Smart Campus Energy Grid Monitor",
       "track": "Hardware & Software",
-      "why_it_could_win": "Directly appeals to the VLSI Design & Technology department organizing the event by solving a tedious literature-search problem for hardware engineers."
+      "why_it_could_win": "Targeting the Hardware & Software tracks with a low-cost, immediately deployable prototype fits the ECE & EE department vibe of the organizing institution."
     },
     {
       "build_hours": 22,
       "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision garbage segregation system running locally on a Raspberry Pi using a lightweight model to sort metal, plastic, and organic waste instantly without cloud dependency.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
+      ],
+      "title": "Edge AI Smart Dustbin Classifier",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Combines physical hardware components with embedded machine learning, echoing proven robotics winning patterns from previous hardware-heavy hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A localized data transmission system leveraging audio frequencies over standard walkie-talkies or speakers to pass short text packets in dead zones where cellular networks fail.",
+      "stack": [
+        "Python",
+        "Audio Processing",
+        "PyAudio",
+        "Hardware"
+      ],
+      "title": "Offline Acoustic Mesh Communicator",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Involves unusual physical build and complex signal processing that immediately stands out against standard web apps in a room of college judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline-first AI code review assistant tailored for embedded systems and microcontroller firmware, catching memory leaks and race conditions before deployment.",
+      "pitch": "A developer tool running small open-source language models locally via hardware NPUs to scan Python codebases for security vulnerabilities without sending code to external servers.",
       "stack": [
         "Python",
-        "LangChain",
-        "Local LLMs"
+        "ONNX Runtime",
+        "Transformers"
       ],
-      "title": "Autonomous Embedded Code Review Agent",
+      "title": "NPU-Accelerated Offline Code Auditor",
       "track": "Software Track",
-      "why_it_could_win": "Combines software intelligence with hardware-centric development workflows, fitting the exact interdisciplinary theme of the ECE/EE departments."
+      "why_it_could_win": "Leverages local AI hardware execution and targets the growing demand for secure, offline, privacy-first developer tools."
     },
     {
-      "build_hours": 19,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1282252864"
+        "github:1274691349"
       ],
-      "pitch": "A pre-deployment risk diagnosis and compliance validator for university lab experiments, mapping safety protocols using BPMN workflows and automated agentic reasoning.",
+      "pitch": "A compact hardware debugging peripheral built on an FPGA development board that captures, decodes, and displays serial communication packets directly on an attached OLED screen.",
       "stack": [
-        "Python",
-        "BPMN",
-        "AI Agents"
+        "Verilog",
+        "FPGA",
+        "Embedded C"
       ],
-      "title": "BPMN-Orchestrated Lab Safety Workflow Engine",
-      "track": "Software Track",
-      "why_it_could_win": "Demonstrates strict governance and process automation, appealing to judges looking for robust, production-ready safety implementation plans."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1214808895",
-        "github:1274911437"
-      ],
-      "pitch": "A lightweight inference optimization framework that helps resource-constrained edge hardware run complex reasoning models efficiently without sacrificing accuracy.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "ONNX"
-      ],
-      "title": "Inference-Optimized Edge Compute Benchmarker",
+      "title": "FPGA-Based UART Protocol Analyzer",
       "track": "Hardware Track",
-      "why_it_could_win": "Addresses hardware constraints directly, which will resonate heavily with the VLSI and ECE faculty members serving on the judging panel."
+      "why_it_could_win": "Directly aligns with the ECE & EE organizing departments' core focus on VLSI design and hardware testing, appealing heavily to technical faculty judges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

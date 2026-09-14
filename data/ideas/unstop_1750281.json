@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:39:04.286625+05:30",
+  "generated_at": "2026-09-13T07:59:01.644366+00:00",
   "grounding": {
     "domains": [
       "agritech",
@@ -8,7 +8,6 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "impact"
     ],
     "thin": false
@@ -18,85 +17,85 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1299542541"
+        "github:1234067949"
       ],
-      "pitch": "A spatial farm defense network that predicts agricultural pest drift and disease outbreaks using OpenWeather data, Neo4j spatial indexing, and multilingual voice reporting.",
+      "pitch": "A web platform that predicts harmful algal bloom risk in local water bodies 3-5 days in advance using machine learning.",
       "stack": [
-        "JavaScript",
-        "Neo4j",
-        "OpenWeather API",
-        "React Native"
+        "TypeScript",
+        "Python",
+        "Machine Learning",
+        "React"
       ],
-      "title": "AgriDefense Spatial Network",
-      "track": "Agriculture",
-      "why_it_could_win": "Directly targets the Agriculture domain with heavy inspiration from past regional winners that solved localized crop threats using spatial indexing."
+      "title": "BurgasBay Algal Predictor",
+      "track": "Climate & Ocean Intelligence",
+      "why_it_could_win": "Addresses climate and ocean intelligence with a proven hackathon-winning architecture and clear predictive value for marine environments."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1328346693"
-      ],
-      "pitch": "An AI-powered farming companion specifically tailored for Indian smallholder farmers to decide what to plant based on climate shifts, fix soil health, and access local markets.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "Python"
-      ],
-      "title": "Thulir Smallholder AI Advisor",
-      "track": "Agriculture",
-      "why_it_could_win": "Leverages the winning formula of combining practical agronomy with AI-for-good themes highly favored by engineering college judges in India."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
         "github:1075630497"
       ],
-      "pitch": "A coastal intelligence platform monitoring marine temperature anomalies and predicting localized ocean-driven climate shifts affecting agrarian rainfall patterns.",
+      "pitch": "An image-classification mobile app that instantly detects crop diseases and food security risks from smartphone photos.",
       "stack": [
+        "Dart",
+        "Flutter",
         "Python",
-        "Streamlit",
-        "Pandas",
-        "Plotly"
+        "TensorFlow Lite"
       ],
-      "title": "ClimateOcean Marine Tracker",
-      "track": "Climate & Ocean Intelligence",
-      "why_it_could_win": "Addresses the specific Climate & Ocean Intelligence domain, standing out from standard land-only agriculture projects."
+      "title": "AgriSnapp Mobile Classifier",
+      "track": "Agriculture",
+      "why_it_could_win": "Directly targets the Agriculture track by solving immediate yield protection problems using mobile-first image recognition."
     },
     {
-      "build_hours": 32,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:759157889"
       ],
-      "pitch": "An AI-driven nutrition platform that maps local Indian dietary staples, regional food availability, and personal health metrics to deliver hyper-localized nutritional insights.",
+      "pitch": "A digital agriculture dashboard that tracks soil health metrics and optimizes water usage for smallholder farmers.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "NutriGenie AI Regional Meal Planner",
-      "track": "HealthCare",
-      "why_it_could_win": "Replicates the proven success of meal-and-nutrition hackathon winners by prioritizing actionable health advice for local demographics."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:984086555"
-      ],
-      "pitch": "A full-stack transparent supply chain web application connecting local farmer co-ops directly with urban consumers for fresh produce logistics.",
-      "stack": [
+        "CSS",
         "JavaScript",
         "Node.js",
-        "Express",
         "MongoDB"
       ],
-      "title": "KisanBazar Direct-to-Consumer Fresh Network",
+      "title": "Prakriti Digital Ag Dashboard",
       "track": "Agriculture",
-      "why_it_could_win": "Features clear, measurable economic impact for farmers by cutting out middlemen, matching the verified criteria of past supply-chain winners."
+      "why_it_could_win": "Aligns with the Cornell Grand Prize winner pattern of combining agronomy data with a polished, actionable interface."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1200106905"
+      ],
+      "pitch": "An AI-powered agriculture platform offering crop disease detection with 92 percent accuracy alongside offline SMS market price alerts.",
+      "stack": [
+        "TypeScript",
+        "Azure",
+        "Twilio SMS",
+        "Python"
+      ],
+      "title": "AgriConnect SMS & AI Hub",
+      "track": "Agriculture",
+      "why_it_could_win": "Features robust offline accessibility which heavily appeals to judges evaluating practical adoption in rural agricultural contexts."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1299542541"
+      ],
+      "pitch": "A spatial farm defense network predicting agricultural weather drift using OpenWeather APIs, Neo4j spatial indexing, and voice commands.",
+      "stack": [
+        "HTML",
+        "Neo4j",
+        "OpenWeather API",
+        "Sarvam AI"
+      ],
+      "title": "AgriHive Spatial Defense",
+      "track": "Climate & Ocean Intelligence",
+      "why_it_could_win": "Combines advanced spatial data mapping with modern voice interfaces, meeting high-tech expectations for climate and agricultural intelligence."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:33:39.633450+05:30",
+  "generated_at": "2026-09-13T07:53:43.033469+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth"
     ],
     "thin": false
@@ -16,87 +15,94 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered infrastructure risk and incident forecasting tool using Poisson regression and temporal trend models to predict cloud system failures before they occur.",
+      "pitch": "A real-time proxy gateway for enterprise LLM applications that intercepts user prompts, detects adversarial jailbreaks and indirect prompt injections using vector similarity and classifiers, and sanitizes outputs before they reach downstream models.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Scikit-learn",
-        "FastAPI"
+        "FastAPI",
+        "LangChain",
+        "Hugging Face Transformers",
+        "Next.js"
       ],
-      "title": "AutoIncident AI - Cloud Infra Risk Forecaster",
-      "track": "AI/ML",
-      "why_it_could_win": "Directly mirrors a proven winner by applying robust statistical forecasting and machine learning to incident prediction, which appeals heavily to technical judges evaluating rigorous AI/ML implementations."
+      "title": "AegisLog: LLM Prompt Injection & Jailbreak Defense Gateway",
+      "track": "LLMs & Automation",
+      "why_it_could_win": "Aligns perfectly with the LLMs & Automation domain by addressing the most critical production vulnerability facing enterprise AI deployments, capturing judge attention via rigorous security engineering."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An explainable graph intelligence and machine learning platform designed to detect anti-money laundering risks and suspicious transaction patterns in real-time.",
+      "pitch": "An AI-powered monitoring tool that ingests open-source satellite imagery and uses fine-tuned vision models to automatically detect unauthorized industrial land usage, deforestation, and zoning violations for regulatory agencies.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "PyTorch",
+        "Leaflet.js",
+        "PostGIS"
       ],
-      "title": "FinGraph AML - Automated Transaction Fraud Detector",
-      "track": "LLMs & Automation",
-      "why_it_could_win": "Leverages advanced graph analytics and explainable ML, demonstrating the kind of hard engineering and financial domain depth that wins competitive AI hackathons."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
-      ],
-      "pitch": "A natural language interface and autonomous AI agent that interprets plain English trading strategies and safely executes decentralized finance commands on-chain.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "OpenAI API",
-        "Ethers.js"
-      ],
-      "title": "PromptTrade - Autonomous DeFi Execution Agent",
-      "track": "LLMs & Automation",
-      "why_it_could_win": "Combines conversational LLM automation with high-utility execution platforms, matching the profile of hackathon winners that blend AI interfaces with tangible actions."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "A localized AI nutrition assistant that generates real-time, culturally tailored meal recommendations, dietary analytics, and health guidance from user-submitted food photos.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "NutriFlow AI - Automated Meal & Health Planner",
-      "track": "Open Innovation",
-      "why_it_could_win": "Replicates a proven rapid-prototyping win by focusing on consumer-facing multimodal AI utility that judges and everyday users can immediately test and appreciate."
+      "title": "AgriVision: Satellite Land Compliance & Deforestation Tracker",
+      "track": "AI/ML",
+      "why_it_could_win": "Directly mimics a proven hackathon winner by combining geospatial data intelligence with computer vision, solving a tangible regulatory pain point that appeals to judges looking for real-world impact."
     },
     {
       "build_hours": 18,
       "inspired_by": [
+        "github:1181344931",
         "github:1200926140"
       ],
-      "pitch": "An enterprise AI platform that ingests unstructured video lectures or meetings, transcribes them, and transforms them into a fully searchable, queryable semantic knowledge base.",
+      "pitch": "An autonomous multi-agent system that ingests unstructured company policy documents, financial ledgers, and operational logs, then uses collaborative LLM agents to cross-reference regulations and generate comprehensive audit risk reports.",
+      "stack": [
+        "Python",
+        "CrewAI",
+        "LangGraph",
+        "Streamlit",
+        "ChromaDB"
+      ],
+      "title": "AutoAudit: Multi-Agent Regulatory Compliance Pipeline",
+      "track": "LLMs & Automation",
+      "why_it_could_win": "Leverages the powerful LLMs & Automation domain theme with an architecture that demonstrates complex multi-agent orchestration rather than a simple single-prompt wrapper."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An intelligent patient onboarding and triage assistant for specialized clinics that parses unstructured medical histories, validates insurance pre-authorizations, and generates transparent treatment explanations for patients.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Vector Database",
-        "Whisper API"
+        "Google Gemini API",
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "DocuStream AI - Video Intelligence & Knowledge Base",
-      "track": "LLMs & Automation",
-      "why_it_could_win": "Follows a first-prize winning formula by solving the universally painful problem of searching unstructured multimedia data using modern LLM embeddings."
+      "title": "MediTrust: AI-Powered Patient Intake & Trust Engine",
+      "track": "Open Innovation",
+      "why_it_could_win": "Follows the exact blueprint of a verified 1st-prize winner by solving specialized healthcare workflow bottlenecks where trust, accuracy, and clear communication are paramount."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An advanced multimodal search and summarization platform that ingests hours of recorded enterprise meetings or lectures, transcribes audio, extracts key visual frames, and constructs an interactive, queryable knowledge graph.",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "Whisper",
+        "FAISS",
+        "FastAPI"
+      ],
+      "title": "DocuMorph: Unstructured Video & Audio Knowledge Base",
+      "track": "AI/ML",
+      "why_it_could_win": "Replicates a proven first-place winning formula by turning unwieldy unstructured multimedia into instantly searchable and structured intelligence, dazzling judges during live demos."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

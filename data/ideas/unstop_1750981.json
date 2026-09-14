@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:39:41.033204+05:30",
+  "generated_at": "2026-09-13T07:59:38.556196+00:00",
   "grounding": {
     "domains": [
       "web3",
@@ -10,7 +10,8 @@
     "patterns": [
       "sponsor-tech",
       "technical-depth",
-      "working-demo"
+      "working-demo",
+      "unusual-hardware"
     ],
     "thin": false
   },
@@ -22,89 +23,84 @@
         "github:1185920891",
         "github:1259981732"
       ],
-      "pitch": "A decentralized delivery drone dispatch network where autonomous robotics trigger micro-payments via MST Blockchain upon verified package drop-off.",
+      "pitch": "An autonomous rover delivery system that uses AI to navigate campus obstacles and releases USDC escrow payments on the MST Blockchain only upon optical confirmation of package delivery.",
       "stack": [
         "Python",
-        "ROS2",
         "MST Blockchain SDK",
-        "Solidity",
-        "Web3.py"
+        "ROS2",
+        "OpenCV"
       ],
-      "title": "MST Autonomous Micropayment Drone Relay",
-      "track": "Robotics & Blockchain Integration",
-      "why_it_could_win": "Directly targets the core expertise of both co-organizers: MST Blockchain and Newrro's robotics focus. By combining autonomous edge hardware with on-chain payments, it addresses the exact synergy judges will look for."
+      "title": "MST-Newrro Autonomous Delivery Escrow",
+      "track": "Robotics & Blockchain",
+      "why_it_could_win": "Combines the core strengths of both co-organizers—MST Blockchain and Newrro's robotics expertise—directly targeting the intersection of autonomous systems and Web3 payments."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1341712439",
-        "github:1234067949"
+        "github:1341712439"
       ],
-      "pitch": "An IoT mesh network of smart agriculture sensors powered by Newrro robotics principles, utilizing decentralized physical infrastructure networks (DePIN) and an on-chain autonomous AI agent to flag anomalies.",
+      "pitch": "A decentralized physical infrastructure network (DePIN) node run by an AI agent that automatically detects anomalies in local IoT sensor feeds and settles micro-bounties on MST Blockchain.",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Gemini API",
         "MST Blockchain",
-        "MQTT"
+        "TimescaleDB"
       ],
-      "title": "DePIN Agri-Sensor Mesh with LLM Diagnostics",
+      "title": "Agentic DePIN Grid Monitor",
       "track": "DePIN & AI Agents",
-      "why_it_could_win": "Leverages DePIN and AI Agents—two major themes highlighted in the hackathon brief—while incorporating edge data logging suitable for offline demonstration."
+      "why_it_could_win": "Leverages DePIN and AI Agents, two explicitly highlighted domains in the hackathon brief, while showing functional hardware-software integration."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An AI-powered smart garbage sorting robotic bin that issues tokenized Real-World Asset (RWA) recycling credits onto the MST Blockchain based on material classification.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "TensorFlow Lite",
+        "MST Blockchain"
+      ],
+      "title": "RWA Automated Waste Sorting Ledger",
+      "track": "RWA & Robotics",
+      "why_it_could_win": "Directly hits the RWA and Robotics themes by turning physical sorting actions into verifiable on-chain assets, creating a strong physical demo for judges."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1188682384"
+        "github:1188682384",
+        "github:1259981732"
       ],
-      "pitch": "Zero-knowledge proof verification pipeline ensuring autonomous factory inspection robots only transmit decrypted sensor diagnostics to authorized wallet holders on MST Blockchain.",
+      "pitch": "A zero-knowledge access control system allowing only verified human operators or authorized AI agent sub-networks to dispatch campus security and delivery robots.",
       "stack": [
-        "Noir-lang",
-        "Python",
-        "ROS",
+        "TypeScript",
+        "Noir",
+        "ROS2",
         "MST Blockchain"
       ],
-      "title": "ZK-Gated Autonomous Robotic Inspection",
-      "track": "Identity & ZK",
-      "why_it_could_win": "Combines advanced cryptographic primitives with hardware systems, standing out among standard web apps by demonstrating deep systems engineering."
+      "title": "ZK-Gated Autonomous Robot Fleet",
+      "track": "Identity & Robotics",
+      "why_it_could_win": "Brings hard engineering (ZK-proofs and robotics security) to a hackathon co-hosted by a Layer 1 blockchain and a robotics firm, standing out from standard web apps."
     },
     {
       "build_hours": 16,
       "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
+        "github:1209618925"
       ],
-      "pitch": "A consumer payment gateway built on MST Blockchain integrated with an AI agent that automatically executes DeFi yield strategies on unused loyalty cashbacks.",
+      "pitch": "An AI agent integrated into messaging platforms that executes cross-border or local consumer crypto payments on the MST Blockchain using natural language commands.",
       "stack": [
-        "JavaScript",
-        "React",
-        "MST Blockchain",
-        "Node.js",
+        "Python",
+        "FastAPI",
+        "MST Blockchain SDK",
         "OpenAI API"
       ],
-      "title": "MST Consumer Payment & Autonomous Cashback Agent",
-      "track": "Consumer Payments & DeFi",
-      "why_it_could_win": "Consumer payments and DeFi are explicitly named in the prompt's track guidelines; judges favor polished apps that solve a practical retail transaction use case."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Tokenized industrial robotic arms on MST Blockchain that allow fractional RWA ownership and automated lease execution based on machine telemetry.",
-      "stack": [
-        "Solidity",
-        "TypeScript",
-        "MST Blockchain",
-        "Python",
-        "FastAPI"
-      ],
-      "title": "Real-World Asset (RWA) Automated Robotics Leasing",
-      "track": "RWA & Enterprise",
-      "why_it_could_win": "Bridges the RWA narrative with Newrro's industrial robotics background, ticking multiple boxes for the organizing entities."
+      "title": "MST Consumer Payment AI Concierge",
+      "track": "Consumer Payments",
+      "why_it_could_win": "Addresses the Consumer Payments and AI Agents focus areas while providing a polished, highly demonstrable user interface that works out of the box."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

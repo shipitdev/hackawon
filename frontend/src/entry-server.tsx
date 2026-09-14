@@ -26,7 +26,7 @@ export function pageMeta(hackathon: Hackathon, ideaCount: number) {
     hackathon.mode === "online" ? "Online" : (hackathon.city ?? hackathon.country ?? "");
   const bits = [where, hackathon.prize_amount ? "prizes" : null].filter(Boolean).join(", ");
 
-  const title = `${hackathon.title} — hackathon${bits ? ` (${bits})` : ""} | Hackawon`;
+  const title = `${hackathon.title} - hackathon${bits ? ` (${bits})` : ""} | Hackawon`;
 
   // Taglines often already end in punctuation, which produced "Impossible.. 5 project ideas".
   const lead = (hackathon.tagline || hackathon.title).trim().replace(/[.!?]+$/, "");

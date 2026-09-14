@@ -1,102 +1,99 @@
 {
-  "generated_at": "2026-09-12T10:29:35.535988+05:30",
+  "generated_at": "2026-09-13T07:49:53.380339+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1722484",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform tailored to detect unauthorized land use and environmental compliance breaches in Indian industrial corridors.",
+      "pitch": "AI-powered satellite imagery monitoring platform to detect unauthorized industrial encroachment and environmental compliance violations in Indian industrial corridors.",
       "stack": [
         "TypeScript",
         "Python",
-        "Next.js",
-        "TailwindCSS",
-        "OpenCV"
+        "Leaflet.js",
+        "FastAPI",
+        "PyTorch"
       ],
-      "title": "Bharat-GeoLand: Satellite Land Compliance & Industrial Monitoring",
+      "title": "GeoCompliance-Bharat",
       "track": "",
-      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by targeting regional industrial and environmental compliance, a topic of immense interest for institutional partners and local governance boards."
+      "why_it_could_win": "Leverages technical complexity in geospatial data processing, mirroring a proven winning pattern of solving hard engineering problems in regional infrastructure."
     },
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An AI-driven platform designed for small clinics and prosthodontic practices across India to streamline patient acquisition, build digital trust, and automate regional language intake.",
+      "pitch": "Multi-agent AI platform optimizing cold-chain logistics and perishable crop distribution for local farmer producer organizations across Himachal Pradesh.",
       "stack": [
         "TypeScript",
-        "Gemini API",
+        "LangGraph",
         "Next.js",
-        "PostgreSQL"
+        "Python"
       ],
-      "title": "ArogyaPOS: AI-Powered Rural Clinic Patient Acquisition & Trust Engine",
+      "title": "KrishiAI-SupplyChain",
       "track": "",
-      "why_it_could_win": "Directly builds on the winning Global-Smile template by focusing on localized healthcare trust and small clinic acquisition, appealing to judges looking for grassroots commercial impact."
+      "why_it_could_win": "Addresses critical regional economic and agricultural logistics challenges directly relevant to an offline hackathon hosted in Himachal Pradesh."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An app that uses spatial clustering and automated messaging to group nearby senior citizens into social outings, matching them securely with verified student and volunteer drivers.",
-      "stack": [
-        "TypeScript",
-        "React Native",
-        "Node.js",
-        "PostgreSQL"
-      ],
-      "title": "Sahayak-Seniors: Community Outing & Volunteer Driver Matchmaker",
-      "track": "",
-      "why_it_could_win": "Replicates the Outreach grand-prize-winning model by solving a hyper-local societal challenge with clear, measurable human impact and straightforward logistics."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition platform tailored specifically to traditional Indian meal formats, providing hyper-personalized dietary tracking and regional health recommendations.",
+      "pitch": "Personalized dietary and wellness recommendation engine tailored to traditional Indian nutritional profiles, regional ingredients, and local health guidelines.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
       ],
-      "title": "Poshika-Nutrition: Indian Meal & Regional Wellness Assistant",
+      "title": "AyurNutri-Bharat",
       "track": "",
-      "why_it_could_win": "Leverages the successful formula of E-Foodiee-AI-Nutrition-Assistant, pivoting the context explicitly to Indian dietary habits and nutritional needs, which resonates strongly with domestic judges."
+      "why_it_could_win": "Builds on proven consumer health AI architectures while localizing the dataset and recommendations for the Indian demographic."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated risk detection and investigation platform combining graph intelligence and explainable machine learning to flag suspicious high-frequency micro-transactions in peer-to-peer networks.",
+      "pitch": "Graph intelligence and lightweight machine learning platform for detecting suspicious multi-hop micro-transactions in local peer-to-peer payment networks.",
       "stack": [
         "TypeScript",
-        "Python",
         "LightGBM",
         "NetworkX",
-        "FastAPI"
+        "PostgreSQL"
       ],
-      "title": "Suraksha-AML: Graph-Based Financial Risk Detection for UPI Micro-Transactions",
+      "title": "FinShield-AML-India",
       "track": "",
-      "why_it_could_win": "Draws inspiration from the Bito win at the DIGITIMES AI hackathon by bringing enterprise-grade financial crime detection and graph analytics to high-volume payment ecosystems."
+      "why_it_could_win": "Demonstrates heavy algorithmic implementation and financial risk modeling, matching successful fintech and compliance hackathon entries."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Zero-fee escrow and direct marketplace matching platform for localized agricultural produce trading backed by transparent digital receipts.",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "AgriTrade-MicroDex",
+      "track": "",
+      "why_it_could_win": "Focuses on high-impact domestic commerce use cases with tangible utility for rural supply chains in India."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

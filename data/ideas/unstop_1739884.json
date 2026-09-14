@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:31:23.410739+05:30",
+  "generated_at": "2026-09-13T07:51:36.392579+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -7,8 +7,9 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "technical-depth",
       "sponsor-tech",
-      "technical-depth"
+      "unique-data"
     ],
     "thin": false
   },
@@ -19,85 +20,79 @@
       "inspired_by": [
         "github:1208011447"
       ],
-      "pitch": "A defense-in-depth security proxy and runtime sanitizer specifically designed to intercept and neutralize indirect prompt injections and RAG data poisoning attempts in enterprise LLM deployments.",
+      "pitch": "A reverse-proxy gateway designed to intercept, sanitize, and block indirect prompt injections and jailbreaks targeting enterprise LLM APIs in real time.",
       "stack": [
-        "TypeScript",
         "Python",
         "FastAPI",
         "LangChain",
-        "defense-in-depth"
+        "Docker"
       ],
-      "title": "PromptShield-RAG",
-      "track": "AI Security and Defense",
-      "why_it_could_win": "Directly targets core challenge domains like RAG Poisoning and Prompt Injection with a robust defense-in-depth architecture similar to successful security entries."
+      "title": "PromptShield Proxy",
+      "track": "",
+      "why_it_could_win": "Directly targets the core theme of securing the AI-powered enterprise by solving LLM jailbreaking and prompt injection, following the defense-in-depth architectural pattern seen in winning security agents."
     },
     {
       "build_hours": 40,
-      "inspired_by": [
-        "github:1188682384",
-        "github:1208011447"
-      ],
-      "pitch": "An enterprise runtime isolation and permission-bounding layer that prevents Agentic AI privilege escalation by enforcing strict cryptographic constraints on tool-calling and API interactions.",
-      "stack": [
-        "TypeScript",
-        "ai-agents",
-        "connectrpc",
-        "Node.js"
-      ],
-      "title": "AgentGuard-Privilege",
-      "track": "Agentic AI Security",
-      "why_it_could_win": "Addresses the cutting-edge topic of Agentic AI Privilege Escalation, which is a major focus area for red-teamers and AI security evaluators at this event."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1069255350"
-      ],
-      "pitch": "An automated security testing tool and syntax analyzer designed to detect and block NL2SQL Injection vulnerabilities before malicious prompts reach enterprise database execution engines.",
+      "inspired_by": [],
+      "pitch": "A retrieval-augmented generation security layer that scans ingested enterprise documents for training data poisoning and malicious vector embeddings before they enter the vector database.",
       "stack": [
         "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "Regex"
+        "ChromaDB",
+        "HuggingFace",
+        "FastAPI"
       ],
-      "title": "SQLSentry",
-      "track": "NL2SQL and Data Security",
-      "why_it_could_win": "Focuses heavily on NL2SQL Injection, an emerging attack vector unique to the AI-powered enterprise ecosystem that judges will be actively testing."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:985196561"
-      ],
-      "pitch": "An automated scanning framework that maps AI OSINT exposure points and tests enterprise LLM endpoints against advanced multi-turn jailbreaking strategies.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "Gemini API"
-      ],
-      "title": "JailBreak-OSINT-Analyzer",
-      "track": "Red Teaming and Vulnerability Assessment",
-      "why_it_could_win": "Combines AI OSINT and LLM Jailbreaking into a single red-teaming tool, appealing directly to penetration testers and security researchers participating in the challenge."
+      "title": "RAGSanitizer",
+      "track": "",
+      "why_it_could_win": "Addresses RAG Poisoning and Training Data Poisoning, two high-priority vulnerabilities for enterprise AI implementations highlighted in the challenge guidelines."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1266090747"
+        "github:1069255350"
       ],
-      "pitch": "A dependency scanner and integrity verifier for third-party machine learning models and datasets to protect enterprise pipelines against Training Data Poisoning and AI Supply Chain attacks.",
+      "pitch": "An autonomous runtime monitor that detects and blocks privilege escalation attacks and unauthorized tool calls within agentic AI workflows.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "AgenticGuard",
+      "track": "",
+      "why_it_could_win": "Directly tackles Agentic AI Privilege Escalation, providing a novel defense mechanism for multi-agent enterprise deployments using graph intelligence and behavioral anomaly detection."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A specialized security wrapper and query parser that neutralizes Natural Language to SQL (NL2SQL) injection attacks before database execution.",
       "stack": [
         "Python",
+        "SQLAlchemy",
         "FastAPI",
-        "HuggingFace API",
-        "Docker"
+        "Regex"
       ],
-      "title": "SupplyChain-AI-Auditor",
-      "track": "AI Supply Chain Security",
-      "why_it_could_win": "Fills a critical enterprise security gap by targeting AI Supply Chain Security and Training Data Poisoning, aligning with the event's core security scope."
+      "title": "SQLArmor AI",
+      "track": "",
+      "why_it_could_win": "Focuses on NL2SQL Injection, a specific enterprise threat vector mentioned in the challenge criteria, offering robust technical depth and immediate utility for secure database interactions."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated security scanner for checking third-party AI models, datasets, and dependencies for vulnerabilities and backdoor triggers.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "PyTorch",
+        "Bandit"
+      ],
+      "title": "AISupplyChain Auditor",
+      "track": "",
+      "why_it_could_win": "Solves AI Supply Chain Security challenges by combining static analysis with behavioral probing, fulfilling the demand for rigorous red-teaming tools."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

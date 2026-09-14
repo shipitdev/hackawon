@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:27:29.751322+05:30",
+  "generated_at": "2026-09-13T07:47:55.866597+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,85 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265",
-        "github:1194555365"
-      ],
-      "pitch": "An AI-powered public transit delay forecasting and intelligent route-adjustment engine designed specifically for SEPTA commuters in Philadelphia, using historical schedule data and live weather/event feeds.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "Poisson-Regression"
-      ],
-      "title": "PhillyTransit Pulse",
-      "track": "",
-      "why_it_could_win": "Targeting a pain familiar to every student and local judge in the room in Philadelphia by solving real local transit frustrations with clear measurable impact."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A localized platform connecting student volunteers with nearby elderly residents in Philadelphia for coordinated grocery runs and medical appointments, powered by automated route and schedule grouping.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "Google Maps API"
-      ],
-      "title": "CampusCare Match",
-      "track": "",
-      "why_it_could_win": "Directly mirrors a grand prize winning formula by demonstrating a concrete, quantifiable social benefit within the local community."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite and local sensor compliance monitoring tool that tracks industrial emissions and illegal dumping zones across Philadelphia industrial corridors.",
+      "pitch": "Satellite-based urban heat island monitor and tree canopy compliance planner for Philadelphia neighborhoods, combining geospatial mapping with automated prioritization algorithms.",
       "stack": [
         "TypeScript",
         "Python",
         "Leaflet.js",
-        "Gemini API"
+        "TailwindCSS"
       ],
-      "title": "PhillyEco Monitor",
+      "title": "PhillyUrbanCanopy",
       "track": "",
-      "why_it_could_win": "Combines hard technical execution in spatial data processing with clear environmental impact, following successful satellite monitoring templates."
+      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by delivering hard geospatial analytics targeted at practical municipal utility."
     },
     {
-      "build_hours": 20,
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An AI-powered predictive incident forecasting and transit safety optimization tool leveraging historical Philadelphia transit data to anticipate service disruptions.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "PhillyTransitShield",
+      "track": "",
+      "why_it_could_win": "Mirrors the data-driven predictive modeling that won the AI Forecasting Hackathon by using rigorous statistical backtesting."
+    },
+    {
+      "build_hours": 22,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A hyper-local nutrition and budget optimization assistant that crafts personalized meal plans utilizing discounted grocery inventory from Philadelphia campus-area supermarkets.",
+      "pitch": "A hyper-local AI nutrition and meal planning assistant tailored strictly to Philadelphia food desert availability and local urban agriculture inventories.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React Native",
-        "OpenAI API"
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
       ],
-      "title": "StudentMeal AI Planner",
+      "title": "LocalBento",
       "track": "",
-      "why_it_could_win": "Solves an immediate, relatable student problem (budget nutrition) with personalized AI recommendations that appeal directly to hackathon judges."
+      "why_it_could_win": "Adapts the winning health-tech formula of E-Foodiee into a socially impactful local context that appeals directly to community judges."
     },
     {
-      "build_hours": 28,
+      "build_hours": 25,
       "inspired_by": [
-        "github:1181344931"
+        "github:1241231621"
       ],
-      "pitch": "An automated vendor onboarding and risk investigation platform built for Philadelphia local government small business grants, combining graph intelligence and anomaly detection.",
+      "pitch": "An automated trust and patient acquisition engine for local Philadelphia community health clinics, utilizing verified patient sentiment analysis and secure intake pipelines.",
       "stack": [
         "TypeScript",
-        "LightGBM",
-        "Python",
-        "Neo4j"
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "PhillyVendor Trust",
+      "title": "PhillyCivicTrust",
       "track": "",
-      "why_it_could_win": "Uses advanced data structures and AML-style risk scoring which consistently impresses judges looking for robust engineering and compliance tooling."
+      "why_it_could_win": "Directly implements the rapid-deployment framework proven by Global-Smile to solve real administrative bottlenecks for regional providers."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent sustainability platform designed for university campuses in Philadelphia to aggregate resource consumption and orchestrate student-led green initiatives.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "FastAPI"
+      ],
+      "title": "EcoCampusAI",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-agent LangGraph architecture that secured 1st place at GreenNovation, applying it to localized campus environments."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

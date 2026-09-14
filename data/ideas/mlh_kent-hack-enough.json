@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:26:49.430969+05:30",
+  "generated_at": "2026-09-13T07:47:15.549822+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,87 +14,85 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1155558847",
-        "github:1275874285"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered real-time transit companion built for Kent State students that predicts accurate arrival times and crowding levels across campus loops using computer vision and historical scheduling patterns.",
+      "pitch": "A localized predictive dashboard utilizing Poisson regression and rolling backtests to forecast municipal infrastructure strains and emergency incidents in Portage County.",
       "stack": [
-        "TypeScript",
-        "Next.js",
         "Python",
-        "TailwindCSS"
+        "Jupyter Notebook",
+        "Poisson-Regression",
+        "Streamlit"
       ],
-      "title": "Kent Campus Shuttle Guardian",
+      "title": "Kent Local AI-Incident & Infrastructure Forecaster",
       "track": "",
-      "why_it_could_win": "Solves a persistent, daily pain point that every student judge and organizer at Kent Hack Enough feels firsthand during harsh Ohio weather."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1194555365"
-      ],
-      "pitch": "A hyper-local civic issue reporter that automatically categorizes, prioritizes, and maps potholes, broken streetlights, and campus infrastructure damage for the city of Kent using geotagged photos and LLMs.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "OpenStreetMap API"
-      ],
-      "title": "LocalFixer Kent",
-      "track": "",
-      "why_it_could_win": "Demonstrates clear measurable civic impact and addresses a real-world municipal problem relevant to the local university community."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "An intelligent mentor dispatch and scheduling app tailored for multi-hour hackathons, pairing struggling student teams with the most qualified available mentors based on active tech stacks.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Supabase",
-        "TailwindCSS"
-      ],
-      "title": "Hackathon Mentor Match",
-      "track": "",
-      "why_it_could_win": "Targets a pain point directly experienced by event organizers and participants inside the room during Kent Hack Enough."
+      "why_it_could_win": "Follows the proven pattern of hard statistical engineering and forecasting seen in top hackathon wins, offering immediate civic utility for local stakeholders in Kent, Ohio."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "An interactive data visualization dashboard that ingests public EPA water quality metrics for Northeast Ohio and forecasts contamination spikes using lightweight regression models.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Scikit-Learn"
-      ],
-      "title": "Ohio River Watershed AI Sentinel",
-      "track": "",
-      "why_it_could_win": "Combines rigorous forecasting with an environmental angle that appeals to judges looking for tangible regional benefits."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1194555365",
-        "github:1241231621"
-      ],
-      "pitch": "A location-aware peer study group finder designed specifically for Kent State libraries and student centers, grouping students by active coursework and mutual availability.",
+      "pitch": "An AI-powered multi-agent platform combining LangGraph, RAG, and localized university resources to guide Kent State students through sustainability initiatives and course planning.",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Firebase"
+        "LangGraph",
+        "Next.js",
+        "OpenAI"
       ],
-      "title": "StudySync Kent",
+      "title": "Campus GreenNovation Multi-Agent Student Advisor",
       "track": "",
-      "why_it_could_win": "Directly targets student productivity and academic collaboration, making it immediately relatable to university judges."
+      "why_it_could_win": "Leverages the architectural patterns of multi-agent platforms that have secured top placement at recent university-backed hackathons."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI nutrition assistant tailored specifically to inventory from Kent local farmers markets and campus dining halls, delivering instant personalized meal recommendations and nutritional breakdowns.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Gemini-API"
+      ],
+      "title": "LocalEats AI Nutrition & Meal Planner",
+      "track": "",
+      "why_it_could_win": "Applies proven consumer-facing AI wellness patterns to a hyper-localized dataset, making the demo immediately relatable to local judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-driven trust and patient acquisition engine optimized for local healthcare practices in Kent, Ohio, automating intake compliance and reputation management.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini-API",
+        "TailwindCSS"
+      ],
+      "title": "CivicTrust Patient Acquisition Engine for Kent Clinics",
+      "track": "",
+      "why_it_could_win": "Replicates the high-scoring fast-sprint trust and conversion engines that win short-duration hackathons by solving real local business pain points."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring pipeline that tracks industrial land usage changes and zoning compliance along the Cuyahoga River corridor.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostGIS",
+        "Satellite-API"
+      ],
+      "title": "GeoNex Industrial Land Monitor for Ohio Corridors",
+      "track": "",
+      "why_it_could_win": "Demonstrates complex spatial data processing and hard engineering comparable to runner-up projects at regional technical hackathons."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:38:10.520737+05:30",
+  "generated_at": "2026-09-13T07:58:07.953182+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,87 +14,86 @@
     {
       "build_hours": 36,
       "inspired_by": [
+        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring platform detecting illegal agricultural land encroachment and environmental compliance violations for state industrial authorities.",
+      "pitch": "AI-powered satellite monitoring and supply chain risk platform that evaluates industrial land and green compliance against environmental standards.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "Rasterio",
-        "TailwindCSS"
+        "Next.js",
+        "LightGBM"
       ],
-      "title": "AgriCompliance-AI",
+      "title": "EcoGraph Compliance Intelligence",
       "track": "",
-      "why_it_could_win": "Directly mirrors a regional government hackathon winning pattern by solving local industrial monitoring challenges that state bodies care about."
+      "why_it_could_win": "Adapts proven satellite monitoring and graph intelligence patterns to address real-world environmental and industrial challenges, aligning closely with the national engineering and real-world impact goals of Zinnovatio 4.0."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "A localized platform connecting senior citizens in nearby residential areas with student-driven volunteer drivers for social outings and medical visits.",
+      "pitch": "An AI-powered multi-agent student support and peer guidance platform utilizing RAG and specialized workflows to streamline academic counselling.",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Node.js",
-        "PostgreSQL"
+        "Python",
+        "LangGraph",
+        "Gemini API"
       ],
-      "title": "CampusCare Senior Outreach",
+      "title": "CampusCare Multi-Agent Advisor",
       "track": "",
-      "why_it_could_win": "Targets a concrete social good impact with measurable local community benefit, a proven formula for grand prizes at university flagship hackathons."
+      "why_it_could_win": "Leverages multi-agent architectures that have proven successful in similar academic hackathons by directly solving institutional support challenges."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A hyper-localized AI nutrition assistant tailored for university canteens that scans meal trays, tracks macronutrients, and suggests personalized dietary plans.",
+      "pitch": "An AI-driven nutrition and wellness platform tailored for young adults, delivering personalized meal recommendations and lifestyle tracking with localized dietary data.",
       "stack": [
         "Python",
         "FastAPI",
-        "Gemini API",
-        "Flutter"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "CampusMeal AI Nutritionist",
+      "title": "NutriTrack Gen-Z Wellness Engine",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges and students feel themselves every day on campus, making the demo instantly relatable and engaging."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated Anti-Money Laundering risk detection platform utilizing graph intelligence and explainable gradient boosting for regional financial compliance.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "NetworkX",
-        "LightGBM",
-        "PostgreSQL"
-      ],
-      "title": "FinGuard AML Graph",
-      "track": "",
-      "why_it_could_win": "Brings genuinely hard engineering with graph-based fraud detection algorithms that impress technically rigorous CSE faculty judges."
+      "why_it_could_win": "Directly applies the award-winning personalization engine architecture from recent fast-paced health hackathons to target Gen-Z demographics."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265"
       ],
-      "pitch": "An autonomous agent marketplace using smart escrow systems for automated student club budgeting and event resource procurement.",
+      "pitch": "A predictive forecasting dashboard using Poisson regression and statistical modeling to anticipate infrastructure incidents and maintenance bottlenecks on university grounds.",
       "stack": [
-        "JavaScript",
-        "LangChain",
-        "Next.js",
-        "Supabase"
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Streamlit"
       ],
-      "title": "CampusEvent Autonomous Agent Market",
+      "title": "IncidentCast Campus Risk Forecaster",
       "track": "",
-      "why_it_could_win": "Showcases cutting-edge multi-agent orchestration and workflow automation that stands out in a Gen Z innovation-focused hackathon."
+      "why_it_could_win": "Brings rigorous statistical modeling and calibrated prediction intervals to a practical campus management problem, demonstrating genuinely hard engineering."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient acquisition and trust engine designed for regional medical clinics to streamline onboarding and manage patient education securely.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "TrustClinics AI Patient Acquirer",
+      "track": "",
+      "why_it_could_win": "Replicates a proven high-performance template from short-duration medical tech sprints, focusing heavily on user trust and rapid prototyping."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

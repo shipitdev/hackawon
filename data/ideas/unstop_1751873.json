@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:40:07.904089+05:30",
+  "generated_at": "2026-09-13T08:00:05.340901+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,87 @@
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408",
+        "github:1181344931"
       ],
-      "pitch": "An autonomous multi-agent workflow that crawls regional regulatory databases, analyzes a small business's invoice and payroll data, and auto-generates audit-ready compliance filings.",
+      "pitch": "A multi-agent autonomous workflow that scans local business operations, invoices, and regulatory updates to automatically generate compliance filings and flag financial risks.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "LangGraph",
+        "Next.js",
         "Python"
       ],
-      "title": "Agentic Compliance Auditor for Local MSMEs",
+      "title": "Agentic Compliance Sentinel for MSMEs",
       "track": "Agentic AI",
-      "why_it_could_win": "Directly targets the Agentic AI track by building a multi-agent system that uses specialized tools to reason over structured and unstructured data, addressing a genuine operational pain point for local businesses."
+      "why_it_could_win": "Directly targets the Agentic AI track by building a multi-agent system that reasons over tools and documents rather than just responding to chat inputs, which appeals to judges looking for autonomous capability."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool that automatically analyzes temporal raster data and industrial boundaries to detect unauthorized land usage and environmental zoning violations.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostGIS",
+        "TensorFlow"
+      ],
+      "title": "AgroStream Satellite Land Audit",
+      "track": "Open Innovation",
+      "why_it_could_win": "Employs heavy technical execution combining geospatial APIs with computer vision models, mirroring winning projects that solved difficult engineering and monitoring tasks."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1185920891",
-        "github:1194555365"
+        "github:1185920891"
       ],
-      "pitch": "An automated hyperlocal marketplace connecting students who need rapid task execution (e.g., equipment transport, lab setup) with verified peer runners, backed by automated milestone escrow.",
+      "pitch": "An autonomous agent marketplace where micro-agents execute data scraping, invoice parsing, and summarization tasks, settling payouts instantly via crypto escrow.",
       "stack": [
         "JavaScript",
-        "Next.js",
-        "TailwindCSS",
-        "PostgreSQL"
+        "Base",
+        "USDC",
+        "OpenAI API"
       ],
-      "title": "CampusCartel: Student Micro-Task and Resource Dispatch",
+      "title": "AutoDispatch Micro-Tasker",
       "track": "Everyday Automation",
-      "why_it_could_win": "Fits the Everyday Automation track by turning a problem familiar to every student and organizer into a streamlined, functional product with a clear core workflow."
+      "why_it_could_win": "Leverages the Everyday Automation track by productizing utility tasks into autonomous agents that complete real operational workflows without human bottlenecks."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1241231621"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered communication engine that ingests clinical procedural data, generates verified educational breakdowns for patients, and manages secure follow-up workflows for specialized local practices.",
+      "pitch": "A probabilistic forecasting tool using Poisson regression models to predict localized supply chain bottlenecks, providing logistic managers with calibrated prediction intervals.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Pandas"
+      ],
+      "title": "Supply Chain Incident Forecaster",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates rigorous quantitative modeling and statistical validation, an engineering-heavy approach proven to win competitive data-focused tracks."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An agentic system designed for specialized healthcare clinics that handles patient acquisition, trust-building conversational intake, and automated record triage securely.",
       "stack": [
         "TypeScript",
         "Gemini API",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "MediTrust: AI Patient Acquisition & Trust Engine for Local Clinics",
-      "track": "Open Innovation",
-      "why_it_could_win": "Replicates a proven winning formula by delivering a polished vertical SaaS tool with clear economic benefits for service providers, tailored for quick deployment during a tight sprint."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A forecasting dashboard that ingests local agricultural transport logs and weather feeds to predict regional supply bottlenecks and recommend dynamic rerouting in real time.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "Streamlit"
-      ],
-      "title": "AgriRoute: Regional Supply Chain Anomaly Detector",
-      "track": "Open Innovation",
-      "why_it_could_win": "Employs statistical modeling and clear predictive utility, matching the pattern of technical depth and measurable impact seen in top-tier hackathon winners."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An agentic assistant designed for professors and TAs that evaluates student code or written submissions against complex rubrics, generates targeted line-item feedback, and flags potential plagiarism.",
-      "stack": [
-        "TypeScript",
-        "OpenAI API",
-        "Next.js",
-        "Prisma"
-      ],
-      "title": "AutoGrade: Autonomous Assignment Rubric & Feedback Agent",
+      "title": "Autonomous Clinic Intake & Trust Engine",
       "track": "Agentic AI",
-      "why_it_could_win": "Solves a problem the judges (students, developers, and educators) experience daily, ensuring immediate resonance during the evaluation process."
+      "why_it_could_win": "Solves a high-friction vertical workflow with immediate commercial viability, combining specialized LLM agents with secure patient data management."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-12T10:33:53.195848+05:30",
+  "generated_at": "2026-09-13T07:53:56.361456+00:00",
   "grounding": {
     "domains": [
-      "security"
+      "security",
+      "civic"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "working-demo",
       "technical-depth",
-      "unusual-hardware"
+      "unique-data"
     ],
     "thin": false
   },
@@ -17,90 +18,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1022783746",
-        "github:1266090747"
+        "github:690893685"
       ],
-      "pitch": "An AI-powered digital safety and phishing triage pipeline built in collaboration with Indore Police priorities to detect, cluster, and analyze regional cyber fraud reports in real-time.",
+      "pitch": "A real-time audio surveillance integration tool that processes crowd noise and acoustic triggers using lightweight ML, instantly streaming geolocation and threat classification to a local police dashboard.",
       "stack": [
-        "TypeScript",
         "Python",
-        "FastAPI",
-        "React.js",
-        "BERT"
+        "PyTorch",
+        "Django",
+        "React",
+        "WebSockets"
       ],
-      "title": "Indore Police Cyber-Shield Node",
-      "track": "Cybersecurity & Digital Safety",
-      "why_it_could_win": "Directly aligns with the core theme of the hackathon and the official collaboration with Indore Police, solving an immediate real-world digital safety challenge for law enforcement."
+      "title": "Indore-Pulse Geo-Audio Gunshot and Distress Analyzer",
+      "track": "Cybersecurity and Digital Safety",
+      "why_it_could_win": "Directly aligns with the collaboration priority of Indore Police for digital safety and law enforcement tech, matching the proven architecture of previous real-time audio mapping winners."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
+        "github:243065226"
       ],
-      "pitch": "A defense-in-depth personal security agent featuring prompt-injection hardening and automated incident response specifically tailored for securing citizen data against emerging cyber threats.",
+      "pitch": "An edge-optimized video processing pipeline that ingests simulated CCTV feeds, runs fast facial recognition against a localized database of wanted individuals, and dispatches automated alert emails with timestamped snapshots to law enforcement officers.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React",
+        "SQLite"
+      ],
+      "title": "CCTV Wanted-Criminal Face Match and Alert Net",
+      "track": "Cybersecurity and Digital Safety",
+      "why_it_could_win": "Addresses direct public safety workflows established by police departments, copying a proven hackathon runner-up architecture scoped down for a fast MVP."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "A crowd-sourced safety assistant that aggregates anonymous distress reports and municipal lighting data to dynamically calculate and suggest the safest transit routes through urban areas.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "PostgreSQL"
+      ],
+      "title": "SafeRoute AI: Localized Digital Harassment and Darkspot Mapper",
+      "track": "Digital Safety",
+      "why_it_could_win": "Leverages the winning formula of safety assistants that solve hyper-local municipal and citizen protection problems with a polished, working mobile UI."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1326164711"
+      ],
+      "pitch": "A public accountability web application where civic complaints and police station filings are sealed with cryptographic proofs, ensuring that local authorities cannot tamper with or delete public safety logs.",
       "stack": [
         "TypeScript",
-        "Vercel AI SDK",
-        "Python",
-        "LangChain"
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "SovereignAgent Guard",
+      "title": "ProofSeal: Cryptographically Verified Municipal Grievance Portal",
       "track": "Emerging Technology",
-      "why_it_could_win": "Leverages the winning architecture of advanced defense-in-depth personal agents while directly serving the emerging technology and cybersecurity tracks."
+      "why_it_could_win": "Appeals to judges looking for transparency and tamper-proof auditing in public-facing safety infrastructure, matching recent civic-tech hackathon winners."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931",
-        "github:1266090747"
+        "github:1196410850"
       ],
-      "pitch": "An explainable graph intelligence and risk detection platform tailored for tracking suspicious digital financial transactions with built-in bias mitigation for investigative fairness.",
+      "pitch": "An automated multi-agent pipeline that crawls regional social media channels and messaging platforms to detect phishing campaigns and digital scams targeting students and citizens, providing automated risk scoring.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX",
-        "TailwindCSS"
+        "LangGraph",
+        "FastAPI",
+        "Next.js"
       ],
-      "title": "FairTrace AML",
-      "track": "Cybersecurity & Digital Safety",
-      "why_it_could_win": "Combines high-difficulty graph intelligence and anti-money laundering risk detection, replicating the exact strategy that won first place at major AI innovation hackathons."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1284625256",
-        "github:1144331507"
-      ],
-      "pitch": "A governable, offline-resilient emergency coordination mesh network designed for secure communication at the edge during local security incidents.",
-      "stack": [
-        "TypeScript",
-        "Hardware",
-        "Radio",
-        "React"
-      ],
-      "title": "Aegis-Edge Responder",
-      "track": "Emerging Technology",
-      "why_it_could_win": "Presents an impressive offline-first hardware and mesh networking solution that stands out visually and functionally in a room full of standard web applications."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1188682384"
-      ],
-      "pitch": "A zero-knowledge gated reporting portal allowing whistleblowers and citizens to securely and anonymously submit sensitive digital crime evidence to authorities without leaking identity.",
-      "stack": [
-        "TypeScript",
-        "Noir-lang",
-        "Base",
-        "React"
-      ],
-      "title": "ZK-Witness Vault",
-      "track": "Cybersecurity & Digital Safety",
-      "why_it_could_win": "Applies cutting-edge zero-knowledge cryptography to solve a real digital safety and privacy problem, appealing directly to technical judges looking for hard engineering."
+      "title": "PhishTrace: Multi-Agent Cyber Threat Intelligence Scraper",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Combines advanced multi-agent scraping workflows with practical cyber-defense mechanisms requested by law enforcement partners."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

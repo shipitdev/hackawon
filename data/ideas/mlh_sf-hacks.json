@@ -1,100 +1,92 @@
 {
-  "generated_at": "2026-09-12T10:27:56.581792+05:30",
+  "generated_at": "2026-09-13T07:48:13.455740+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
   "hackathon_uid": "mlh:sf-hacks",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered transit route and rider allocation platform that optimizes local community shuttle services for underserved neighborhoods in San Francisco, matching senior citizens with vetted volunteer drivers.",
+      "pitch": "A spatial-temporal forecasting tool using Poisson GAMs and rolling backtests to predict municipal infrastructure failures and emergency service bottlenecks in San Francisco.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Poisson-Regression"
+      ],
+      "title": "SF-Incident-Forecaster",
+      "track": "",
+      "why_it_could_win": "Follows the exact winning pattern of high-complexity predictive modeling seen in AI forecasting hackathons, appealing directly to judges who value rigorous data science over wrapper apps."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated compliance and risk detection platform tailored for regional fintech startups, combining graph intelligence and explainable LightGBM.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
+        "Python",
+        "LightGBM"
       ],
-      "title": "BayArea-Transit-Equity-AI",
+      "title": "BayArea-AML-Graph",
       "track": "",
-      "why_it_could_win": "It targets clear measurable social impact and replicates the exact pattern of community-focused logistics that won the Vanderbilt Global Good Hackathon."
+      "why_it_could_win": "Demonstrates genuine hard engineering by tackling complex financial graph data architectures that stand out in general hackathon judging pools."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265"
+        "github:1183964401"
       ],
-      "pitch": "A predictive machine learning dashboard using spatial-temporal regression to forecast urban infrastructure anomalies and public safety incidents across San Francisco districts.",
+      "pitch": "A localized no-code trading bot builder allowing users to execute perpetual strategies optimized for regional market micro-movements.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Poisson Regression",
-        "Streamlit"
+        "TypeScript"
       ],
-      "title": "SF-Incident-Predictor",
+      "title": "Pacifica-Bay-Bot",
       "track": "",
-      "why_it_could_win": "It showcases genuinely hard engineering through predictive modeling and robust data pipelines, mirroring the Apart Research AI Forecasting Hackathon winning profile."
+      "why_it_could_win": "Replicates a proven grand prize-winning architecture focused on actionable financial tooling and automated execution platforms."
     },
     {
-      "build_hours": 35,
+      "build_hours": 48,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace specifically tailored for local San Francisco pop-up vendors and gig workers, featuring automated USDC escrow payments and instant verification.",
+      "pitch": "An autonomous AI agent marketplace facilitating local gig-economy micro-tasks with trustless USDC escrow settlements.",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "Node.js"
+        "USDC"
       ],
-      "title": "Bay-Area-Vendor-Escrow",
+      "title": "Mission-District-Dispatch",
       "track": "",
-      "why_it_could_win": "It directly implements the winning formula of combining autonomous AI agents with crypto escrow rails seen at the Synthesis Hackathon."
+      "why_it_could_win": "Leverages autonomous agent mechanics combined with crypto-native payment rails, mirroring the exact formula of recent category-winning submissions."
     },
     {
-      "build_hours": 30,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-driven patient acquisition and trust engine designed for urban wellness and specialized clinics in San Francisco, automating intake, personalized care plans, and local reputation management.",
+      "pitch": "An AI-powered nutrition intelligence platform that scans local San Francisco restaurant menus to generate hyper-personalized dietary compliance insights.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "Soma-Health-Trust",
-      "track": "",
-      "why_it_could_win": "It provides a clear economic benefit to local service businesses and follows the proven blueprint of the Elevate X hackathon winner."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite and aerial monitoring tool that scans industrial zones along the San Francisco Bay for environmental compliance and land use infractions.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "OpenCV",
-        "PostGIS"
+        "Next.js",
+        "Gemini-API"
       ],
-      "title": "EcoCompliant-SF",
+      "title": "Bay-Nutri-Agent",
       "track": "",
-      "why_it_could_win": "It applies complex geospatial computer vision to solve a hard regulatory compliance problem, mirroring the Xcelerate Hackathon runner-up."
+      "why_it_could_win": "Takes a proven prize-winning consumer health architecture and adds localized utility that resonates instantly with judges."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

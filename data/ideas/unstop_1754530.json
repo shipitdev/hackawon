@@ -1,104 +1,104 @@
 {
-  "generated_at": "2026-09-12T10:41:06.520477+05:30",
+  "generated_at": "2026-09-13T08:01:17.508989+00:00",
   "grounding": {
     "domains": [
-      "ai-ml",
-      "devtools"
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
-      "technical-depth",
-      "judge-pain"
+      "technical-depth"
     ],
     "thin": false
   },
   "hackathon_uid": "unstop:1754530",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1334000568",
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous multi-agent system designed for college administration that automatically detects, categorizes, and routes infrastructure or student grievances to the correct department using self-improving semantic routing.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Semantic Router",
-        "LangChain"
-      ],
-      "title": "CampusIncidentAgent",
-      "track": "",
-      "why_it_could_win": "Targets an operational pain point directly felt by the organizing institution, Mahendra Engineering College, making it immediately relatable to the judging panel."
-    },
-    {
       "build_hours": 36,
       "inspired_by": [
-        "github:1282252864"
+        "github:1185920891"
       ],
-      "pitch": "A visual workflow orchestration tool for student club event approvals that uses BPMN models to govern autonomous multi-agent execution with human-in-the-loop checkpoints.",
+      "pitch": "A multi-agent autonomous system designed specifically for engineering colleges to handle complex institutional tasks like automated lab equipment scheduling, inter-departmental resource allocation, and grievance escalation via specialized collaborating AI agents.",
       "stack": [
         "Python",
-        "Bpmn-js",
-        "UIPath Maestro",
-        "OpenAI API"
+        "LangChain",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
       ],
-      "title": "BPMNAgentFlow",
+      "title": "AgenticCampus: Autonomous Multi-Agent Academic Workflow & Resource Orchestrator",
       "track": "",
-      "why_it_could_win": "Demonstrates strict enterprise process governance and workflow control, appealing to judges looking for structured, production-ready agentic architectures."
+      "why_it_could_win": "Targeted directly at Mahendra Engineering College judges by solving a relatable, highly practical administrative bottleneck using cutting-edge agentic workflows rather than simple wrappers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An agentic AI monitoring system that ingests regional satellite feeds and IoT sensor data to autonomously detect agricultural stress, predict local yield drops, and trigger multi-agent mitigation advisory reports for local farming cooperatives.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Leaflet.js",
+        "Gemini API",
+        "GeoPandas"
+      ],
+      "title": "AgriGuard-Agents: Autonomous Vision & Satellite Monitoring for Regional Crop Health",
+      "track": "",
+      "why_it_could_win": "Combines high-impact regional relevance with advanced multi-agent spatial analysis, aligning strongly with the judging criteria of impact and relevance for regional development."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1214808895",
-        "github:1163393786"
+        "github:1181344931"
       ],
-      "pitch": "An educational reinforcement learning environment where two AI student agents debate complex engineering concepts to find gaps in each other's reasoning and summarize findings for users.",
+      "pitch": "An agentic compliance officer that uses graph intelligence and explainable machine learning models to autonomously audit transaction streams and flag suspicious multi-hop financial patterns in real-time.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "TailwindCSS"
+      ],
+      "title": "RiskLens-Agent: Explainable AML & Compliance Investigation Platform for Student Fintech Startups",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing graph intelligence and explainable ML, directly mirroring a proven first-place winning architecture from similar innovation hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An ensemble agentic framework that deploys specialized security reviewer agents to scan, simulate execution paths, and forecast zero-day logic vulnerabilities in student-submitted codebases before deployment.",
       "stack": [
         "Python",
-        "PyTorch",
-        "Streamlit",
-        "Transformers"
+        "Jupyter Notebook",
+        "Docker",
+        "Next.js"
       ],
-      "title": "AdversarialStudyGroup",
+      "title": "CodeAudit-Agent: Autonomous Multi-Agent Smart Contract & Vulnerability Forecaster",
       "track": "",
-      "why_it_could_win": "Leverages advanced multi-agent game theory and self-play mechanics, showcasing deep technical implementation beyond basic API wrappers."
+      "why_it_could_win": "Focuses on rigorous technical implementation and AI safety forecasting, appealing to judges looking for deep technical execution and robust agentic self-reflection loops."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1296916648"
+        "github:1241231621",
+        "github:1200926140"
       ],
-      "pitch": "An on-device local AI code review agent running on lightweight NPUs to provide privacy-first, zero-latency code quality checks and refactoring suggestions for student programming labs.",
+      "pitch": "An agentic voice-and-text intake engine that communicates in regional dialects to verify patient symptoms, cross-reference medical history securely, and structure health data for overburdened rural medical practitioners.",
       "stack": [
-        "Python",
-        "LlamaIndex",
-        "Ollama",
-        "ONNX Runtime"
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Web Speech API",
+        "SQLite"
       ],
-      "title": "OfflineCodeMentor",
+      "title": "MedTrust-Agent: Autonomous Patient Intake & Clinical Verification Engine for Rural Clinics",
       "track": "",
-      "why_it_could_win": "Solves the practical hardware and internet connectivity constraints often faced during campus-hosted hackathons while emphasizing hardware acceleration."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous data governance agent that monitors campus database schemas, detects schema drifts or anomalies, validates the fix, and automatically submits pull requests with audit logs.",
-      "stack": [
-        "Python",
-        "DataHub API",
-        "Claude API",
-        "GitPython"
-      ],
-      "title": "DataLineageAgent",
-      "track": "",
-      "why_it_could_win": "Implements complex end-to-end data lifecycle tracing with automated verification, satisfying the judging criteria for technical complexity and real-world impact."
+      "why_it_could_win": "Solves a critical localized healthcare accessibility problem with high social impact, matching the evaluation criteria for real-world usability and high-value presentation."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

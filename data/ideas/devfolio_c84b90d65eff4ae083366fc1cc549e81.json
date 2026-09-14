@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:22:32.237756+05:30",
+  "generated_at": "2026-09-13T07:42:34.652622+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,86 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered platform for local artisans of Odisha to generate trustworthy product listings, verify authentic handloom provenance via image analysis, and streamline digital sales.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "Gemini API"
-      ],
-      "title": "OdishaCraft AI-Commerce & Cultural Trust Engine",
-      "track": "Open Winner",
-      "why_it_could_win": "Aligns with regional pride at NIT Rourkela and utilizes the Fueler Digital Bundle by creating a highly polished creator-facing workflow that can be immediately marketed."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "A forecasting and incident-reporting dashboard designed for university campuses in Eastern India to predict crowding bottlenecks and safety risks using spatial-temporal data.",
+      "pitch": "AI-powered satellite imagery monitoring platform to track illegal mining and industrial land encroachment specifically tailored for the state of Odisha's industrial corridors.",
       "stack": [
+        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "Streamlit",
-        "Poisson Regression"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "CampusPulse Real-time Student Incident & Safety Tracker",
-      "track": "Open Runners Up",
-      "why_it_could_win": "Solves a problem the hackathon organizers and university student judges feel directly on their own campus."
+      "title": "OdishaSat-Compliance",
+      "track": "Open Winner",
+      "why_it_could_win": "Leverages the proven high-scoring pattern of GeoNex-ATLAS by applying satellite monitoring to regional industrial compliance, which appeals strongly to judges looking for localized real-world impact in Eastern India."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI dietary assistant tailored to traditional Eastern Indian cuisine that provides personalized nutritional insights and affordable meal recommendations using local ingredients.",
+      "pitch": "AI-driven localized nutritional assistant that generates meal plans and macro breakdowns using traditional Eastern Indian dietary ingredients and regional cuisines.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
         "OpenAI API"
       ],
-      "title": "SwasthyaSahayak Regional Nutritional & Meal Planner",
-      "track": "Fueler Digital Bundle",
-      "why_it_could_win": "Demonstrates clear local relevance and practical consumer utility, fitting the criteria for the Fueler Digital Bundle."
+      "title": "ArogyaOS-Nutrition",
+      "track": "Open Runners Up",
+      "why_it_could_win": "Adapts the winning health-tech architecture of E-Foodiee-AI-Nutrition-Assistant to a localized cultural context, making the utility immediately recognizable and compelling for judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1194555365"
+        "github:1183964401",
+        "github:1185920891"
       ],
-      "pitch": "An automated logistics app connecting elderly residents in regional towns with verified student volunteer drivers for medical and social outings.",
+      "pitch": "Autonomous peer-to-peer energy trading platform for smart microgrids utilizing decentralized escrow mechanisms and predictive consumption forecasting.",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Node.js",
+        "Solidity",
         "PostgreSQL"
       ],
-      "title": "Sahyog Community Volunteer & Senior Ride Co-Op",
+      "title": "Bhubaneswar-MicroGrid-Trade",
       "track": "Open 2nd Runners Up",
-      "why_it_could_win": "Offers a clear, quantifiable social impact metric that resonates strongly with judges looking for real-world community benefit."
+      "why_it_could_win": "Combines robust forecasting mechanics with transaction flows similar to Dispatch and ClashX, targeting the Open 2nd Runners Up track with complex backend engineering."
     },
     {
-      "build_hours": 34,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "An automated satellite and compliance monitoring dashboard designed to track environmental and zoning regulations for industrial plants in Odisha.",
+      "pitch": "Automated AML and financial anomaly detection platform built specifically for university student club treasuries and festival sponsorship funds.",
       "stack": [
         "TypeScript",
-        "React",
         "Python",
-        "GIS APIs"
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "GridGuardian Industrial Compliance Monitor",
+      "title": "DigiCampus-RiskEngine",
+      "track": "Fueler Digital Bundle",
+      "why_it_could_win": "Directly mimics the graph intelligence and risk-scoring architecture of the DIGITIMES AI winner Bito, adapted for campus financial ecosystems which resonates well with NIT Rourkela organizers."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent academic support system using LangGraph and localized RAG to help first-year engineering students navigate coursework and lab procedures.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Streamlit",
+        "ChromaDB"
+      ],
+      "title": "EdiMent-AgenticMentor",
       "track": "Open Winner",
-      "why_it_could_win": "Tackles a complex domain-specific industrial monitoring problem relevant to the mineral-rich Eastern Indian belt."
+      "why_it_could_win": "Replicates the exact winning multi-agent architecture of the GreenNovation AI platform, targeting student-centric utility that directly solves onboarding pain points at technical institutes."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

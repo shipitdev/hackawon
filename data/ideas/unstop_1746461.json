@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-12T10:35:27.762463+05:30",
+  "generated_at": "2026-09-13T07:55:30.815288+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "devtools"
+    ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,74 +16,76 @@
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "An interactive web-based playground for breaking down complex Data Structures and Algorithms with step-by-step memory tracking and execution flow animations, tailored specifically for the DSAverse rounds.",
+      "pitch": "An interactive execution visualizer for complex graph and tree algorithms that explains state changes in real-time.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS"
+        "React",
+        "D3.js"
       ],
-      "title": "AlgoVisualizer Pro",
+      "title": "AlgoTrace Visualizer",
       "track": "DSA Challenge: Medium & Hard",
-      "why_it_could_win": "Directly targets the core theme of the DSAverse challenge by providing a tool that helps participants master the exact problem-solving and algorithmic concepts being tested."
+      "why_it_could_win": "Directly appeals to a judges' panel focused on DSA mastery by breaking down hard-to-visualize concepts like Red-Black trees or Dijkstra step-by-step."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A benchmarking and optimization suite for competitive programmers to profile memory and execution time of C++ vs Python implementations.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "WebAssembly"
+      ],
+      "title": "BitwiseBench",
+      "track": "DSA Challenge: Medium & Hard",
+      "why_it_could_win": "Solves a core pain point for advanced participants optimizing solutions for tight time limits in DSA rounds."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A smart hints generator that analyses a user's failing code during a DSA challenge and provides Socratic nudges instead of full solutions.",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "RecurseMentor",
+      "track": "DSA Challenge: Easy",
+      "why_it_could_win": "Aligns with the educational and testing spirit of a girls-only coding challenge by helping learners improve problem-solving fundamentals."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1241231621"
+        "github:1296916648"
       ],
-      "pitch": "An AI-powered adaptive practice engine that generates custom multiple-choice quizzes on computer science fundamentals, data structures, and algorithms to help contestants ace Round 1.",
+      "pitch": "A static analysis tool that scans submitted Python or C++ solutions and accurately predicts time and space complexity using abstract syntax trees.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Gemini API"
+        "AST module",
+        "Streamlit"
       ],
-      "title": "QuizPrep AI",
-      "track": "Round 1 — The Quiz",
-      "why_it_could_win": "Solves a problem the judges and participants feel directly by offering targeted preparation for the quiz round of the event."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [],
-      "pitch": "A performance and time-complexity analysis tool that evaluates user-submitted beginner solutions and suggests optimal algorithmic improvements with Big-O breakdown.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Monaco Editor"
-      ],
-      "title": "CodeHeuristics",
-      "track": "DSA Challenge: Easy",
-      "why_it_could_win": "Focuses on genuine technical utility by helping beginner programmers bridge the gap between working code and optimal code for the DSA Challenge tracks."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A collaborative, real-time code-review workspace designed for women developers to solve and discuss complex coding problems together during intense 48-hour sprints.",
-      "stack": [
-        "TypeScript",
-        "WebSockets",
-        "React"
-      ],
-      "title": "PeerCode Studio",
+      "title": "ComplexityPred",
       "track": "DSA Challenge: Medium & Hard",
-      "why_it_could_win": "Aligns with the community-driven, empowering ethos of Elite Her by fostering collaborative problem-solving among women in tech."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by parsing code structures to evaluate Big-O efficiency automatically without running test cases."
     },
     {
       "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A flashcard and pattern-recognition trainer built specifically for mastering common algorithmic paradigms like sliding window, two pointers, and dynamic programming.",
+      "pitch": "A spaced-repetition flashcard platform specifically generated from missed questions in fundamental computer science and DSA quizzes.",
       "stack": [
         "TypeScript",
-        "React",
-        "Local Storage"
+        "TailwindCSS",
+        "IndexedDB"
       ],
-      "title": "Algorithmic Pattern Deck",
+      "title": "DataStructDeck",
       "track": "Round 1 — The Quiz",
-      "why_it_could_win": "Directly targets the pedagogical goals of DSAverse, helping participants internalize patterns needed for both medium and hard coding rounds."
+      "why_it_could_win": "Directly targets the format of Round 1 quizzes by bridging the gap between testing knowledge and long-term retention."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

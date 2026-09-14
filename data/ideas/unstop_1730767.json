@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:30:03.185361+05:30",
+  "generated_at": "2026-09-13T07:50:19.547548+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,83 +14,83 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "Real-time incident forecasting and risk mapping platform for university campuses using Poisson regression and spatial modeling.",
+      "pitch": "An AWS-powered AML risk detection and graph intelligence platform to trace suspicious on-chain transactions and identify money laundering topologies.",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
         "TypeScript",
-        "Next.js"
+        "AWS",
+        "Neo4j",
+        "LightGBM"
       ],
-      "title": "CampusPulse AI",
+      "title": "CryptoCompliance Graph Explorer",
       "track": "",
-      "why_it_could_win": "Targets a pain familiar to judges and organizers in the room by predicting campus safety and operational incidents using robust statistical modeling rather than generic AI wrappers."
+      "why_it_could_win": "Follows the proven pattern of solving genuinely hard engineering problems like distributed systems and complex graph analysis, matching past hackathon winners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace featuring secure USDC escrow payments settled natively on Base.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "LangChain"
+      ],
+      "title": "Agentic USDC Escrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Combines cutting-edge autonomous agents with production-ready crypto rails, a proven winning formula for recent hackathons."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An explainable graph intelligence and risk detection platform tailored for local community credit unions and student micro-transactions.",
+      "pitch": "An AI-powered satellite monitoring pipeline that detects unauthorized industrial land use and environmental compliance breaches.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM"
+        "OpenCV",
+        "GIS"
       ],
-      "title": "LocalLedger AML",
+      "title": "Satellite Industrial Land Monitor",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph intelligence and explainable machine learning models to solve financial crime compliance."
+      "why_it_could_win": "Leverages geospatial data processing to solve a concrete regulatory challenge, matching the technical depth of runner-up winners."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A Poisson GAM and multinomial share model platform for forecasting AI safety incidents with calibrated prediction intervals.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels"
+      ],
+      "title": "AI Incident Forecasting Engine",
+      "track": "",
+      "why_it_could_win": "Focuses on rigorous statistical modeling and predictive analytics, which heavily impressed judges in previous forecasting hackathons."
     },
     {
       "build_hours": 36,
       "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "An automated, no-code strategy builder and execution platform for decentralized perpetual markets, aimed at student trading clubs.",
+      "pitch": "An AI-powered no-code trading bot platform designed to build, backtest, and copy trading strategies on perpetual DEXs.",
       "stack": [
         "Python",
-        "TypeScript",
-        "Next.js"
-      ],
-      "title": "StudentPerp Bot",
-      "track": "",
-      "why_it_could_win": "Follows the winning pattern of building a complete, high-utility trading execution platform rapidly using no-code abstractions."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Personalized meal recommendation and dietary tracking system built specifically for university dining halls and student wellness budgets.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js"
-      ],
-      "title": "CampusCare AI Nutrition",
-      "track": "",
-      "why_it_could_win": "Delivers concrete, measurable impact on student health and nutrition with localized data that judges can immediately test on themselves."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1194555365",
-        "github:1241231621"
-      ],
-      "pitch": "AI-powered coordination app connecting elderly community members with student volunteer drivers for local grocery and medical outings.",
-      "stack": [
-        "TypeScript",
         "Next.js",
-        "Gemini API"
+        "Web3.py"
       ],
-      "title": "SeniorLink Outreach",
+      "title": "Perpetual DEX Strategy Copier",
       "track": "",
-      "why_it_could_win": "Provides clear, quantifiable social impact by solving logistical isolation for seniors, matching the winning profile of community-focused applications."
+      "why_it_could_win": "Brings immediate utility to decentralized finance traders with a polished no-code interface, emulating grand prize-winning platforms."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

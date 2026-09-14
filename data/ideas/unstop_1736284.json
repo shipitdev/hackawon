@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:30:55.992860+05:30",
+  "generated_at": "2026-09-13T07:51:09.804662+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,78 +16,82 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered indoor mapping and resource allocation tool built specifically for IEM Gurukul to optimize lab computers, classrooms, and event spaces in real-time.",
+      "pitch": "An AI-powered satellite imagery monitoring tool tracking unauthorized structural changes and land encroachment around the IEM Gurukul building area.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Python"
+        "Python",
+        "Leaflet.js",
+        "OpenCV"
       ],
-      "title": "CampusPulse AI: IEM Gurukul Space & Resource Optimizer",
+      "title": "IEM-Campus GeoSat Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Solves a problem the judges feel themselves by targeting campus infrastructure bottlenecks directly at the IEM Gurukul venue."
+      "why_it_could_win": "It leverages hard geospatial engineering and computer vision similar to previous regional winners, appealing strongly to technical judges looking for complex spatial data processing done within an 8-hour window."
     },
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1194555365"
+        "github:1213911408"
       ],
-      "pitch": "An AI-driven micro-logistics platform that coordinates nearby student volunteers with elderly residents needing transit or grocery assistance around the campus locality.",
+      "pitch": "An AI-driven multi-agent student support and curriculum navigation platform combining LangGraph and localized RAG specifically tailored for engineering course syllabi.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "LocalCare: Senior and Student Volunteer Matching Network",
-      "track": "",
-      "why_it_could_win": "Follows the proven winning pattern of clear measurable social impact and community-focused utility seen in successful hackathon projects."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A rapid vision-based nutrition and wellness platform tailored for local college canteens that delivers personalized meal recommendations based on student health goals.",
-      "stack": [
         "Python",
-        "Streamlit",
-        "OpenCV"
+        "LangGraph",
+        "Next.js"
       ],
-      "title": "NutriCampus: Instant Mess & Canteen AI Nutritionist",
+      "title": "Academic Multi-Agent Support RAG",
       "track": "",
-      "why_it_could_win": "Mirrors the exact success of rapid 24-hour nutrition assistants that focus on immediate daily student habits and health."
+      "why_it_could_win": "Directly targets student and institutional pain points, utilizing proven multi-agent orchestration frameworks that score well in rapid hackathons."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An automated evaluation tool built specifically for hackathon organizers to rapidly parse participant CVs and GitHub profiles to shortlist top talent.",
+      "pitch": "A statistical forecasting dashboard utilizing Poisson regression and rolling backtests to predict local power grid failures and network downtime risks.",
       "stack": [
         "Python",
-        "FastAPI",
-        "Jupyter Notebook"
+        "Jupyter Notebook",
+        "Pandas",
+        "Plotly"
       ],
-      "title": "CV-Ranker AI: Hackathon Screening Assistant",
+      "title": "AI Incident Forecasting Engine for Local Infrastructure",
       "track": "",
-      "why_it_could_win": "Directly targets the workflow of the organizers hosting Code Voyage, who use CV and GitHub screening for participant selection."
+      "why_it_could_win": "Employs rigorous statistical modeling rather than generic LLM wrappers, matching the technical depth seen in winning forecasting entries."
     },
     {
-      "build_hours": 7,
+      "build_hours": 6,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered trust and patient acquisition engine customized for local dental clinics in Kolkata to automate outreach and appointment bookings.",
+      "pitch": "An automated AI patient trust and acquisition platform tailored for local student health camps and university medical clinics, featuring instant multilingual triage.",
       "stack": [
         "TypeScript",
-        "Gemini API",
-        "Next.js"
+        "Next.js",
+        "Gemini API"
       ],
-      "title": "TrustDent: Patient Acquisition Engine for Local Dental Clinics",
+      "title": "ClinicTrust Patient Acquisition Engine",
       "track": "",
-      "why_it_could_win": "Directly applies proven high-converting patient acquisition patterns designed for short hackathon sprints."
+      "why_it_could_win": "Combines practical utility with an immediate local deployment angle, solving a tangible real-world intake problem within a constrained 8-hour limit."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition assistant that analyzes local hostel and campus canteen menus to deliver personalized meal plans and real-time macro tracking.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Campus Canteen AI Nutritionist",
+      "track": "",
+      "why_it_could_win": "Relates directly to everyday student life at IEM Gurukul, making the demo extremely relatable and practical for the judging panel."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

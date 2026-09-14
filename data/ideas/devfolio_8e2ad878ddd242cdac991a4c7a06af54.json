@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:21:56.610233+05:30",
+  "generated_at": "2026-09-13T07:40:44.985302+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,80 +14,81 @@
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1194555365"
+        "github:1155558847"
       ],
-      "pitch": "A hyper-local coordination app for the Digdoh area that groups students and faculty commuting from nearby transit hubs into shared auto-rickshaws, reducing daily commute costs and traffic congestion.",
+      "pitch": "AI-powered satellite and local sensor monitoring platform for industrial land compliance, built specifically for regional industrial zones.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "TailwindCSS"
+        "Python",
+        "Leaflet.js",
+        "OpenCV"
       ],
-      "title": "Digdoh Campus Local Transit Coordination Network",
+      "title": "Digdoh-Industry-Sentinel",
       "track": "",
-      "why_it_could_win": "It directly targets a logistical pain point familiar to the local organisers, students, and attendees travelling into Digdoh for the event, matching the pattern of solving a problem judges feel themselves."
+      "why_it_could_win": "Follows the exact blueprint of GeoNex-ATLAS which won by addressing local state industrial monitoring needs."
     },
     {
       "build_hours": 5,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-powered submission and summarization tool built specifically for the Grand Innovation Challenge closing ceremony, categorizing project pitches in real-time for judges.",
+      "pitch": "AI-powered personalized nutrition and wellness platform tailored specifically for regional diet habits and mess food availability.",
       "stack": [
         "Python",
         "Streamlit",
         "Gemini API"
       ],
-      "title": "PCE Event Live Engagement and Q&A Intelligence",
+      "title": "NutriLocal-PCE",
       "track": "",
-      "why_it_could_win": "It solves an immediate operational challenge for PCE organisers running a high-paced in-person event, capturing the attention of the judging panel through direct utility."
+      "why_it_could_win": "Replicates the winning formula of E-Foodiee-AI-Nutrition-Assistant by focusing on hyper-localized practical health use cases."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support and administrative query platform combining LangGraph and local RAG to automate college navigation.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "Campus-Agent-Network",
+      "track": "",
+      "why_it_could_win": "Directly applies the multi-agent student support architecture that won the GreenNovation Hackathon."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered patient acquisition and trust engine designed for local dental and healthcare clinics in Digdoh.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "ClinicTrust-PCE",
+      "track": "",
+      "why_it_could_win": "Mirrors the rapid 12-hour winning mechanics of Global-Smile by delivering an immediate go-to-market utility for local businesses."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A lightweight mobile-first web app that allows local shops around Digdoh to log daily stock levels via quick voice notes and auto-generates restocking alerts.",
+      "pitch": "Autonomous task marketplace with smart contract escrow payments built for college students to outsource small gigs securely.",
       "stack": [
         "JavaScript",
-        "React",
-        "Web Speech API"
+        "Base",
+        "USDC"
       ],
-      "title": "Digdoh Regional Small Business Micro-Inventory Tracker",
+      "title": "MicroEscrow-PCE",
       "track": "",
-      "why_it_could_win": "It demonstrates clear, measurable local economic impact for small businesses operating in the immediate vicinity of the venue."
-    },
-    {
-      "build_hours": 5,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A smart queueing and matching web tool that pairs student teams experiencing specific technical roadblocks at the venue with the most qualified mentor on site.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "SQLite"
-      ],
-      "title": "PCE Hackathon Mentor Routing Engine",
-      "track": "",
-      "why_it_could_win": "It addresses a chaotic reality of short 7-hour hackathons where mentor allocation is often bottlenecked, making it deeply relatable to everyone in the room."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A localized environmental monitoring dashboard aggregating open satellite and air quality data specifically for the industrial and semi-urban zones of Digdoh.",
-      "stack": [
-        "Python",
-        "Pandas",
-        "Leaflet.js"
-      ],
-      "title": "Digdoh Green Cover & Dust Monitoring Dashboard",
-      "track": "",
-      "why_it_could_win": "It follows the proven pattern of regional environmental tracking, appealing to judges looking for tangible infrastructure and ecological monitoring solutions."
+      "why_it_could_win": "Leverages the proven autonomous marketplace and escrow architecture seen in the Synthesis Hackathon winner Dispatch."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

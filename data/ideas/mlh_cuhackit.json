@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:23:13.032804+05:30",
+  "generated_at": "2026-09-13T07:43:33.052887+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,85 +14,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1155558847",
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered environmental monitoring dashboard utilizing satellite and drone imagery specifically calibrated for Clemson University campus grounds to track land use efficiency and industrial runoff risks.",
+      "pitch": "A localized environmental monitoring dashboard using satellite and IoT sensor data to track building-level energy usage and green cover changes across the Clemson campus.",
       "stack": [
         "TypeScript",
         "Python",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "Clemson Campus Footprint Optimizer",
+      "title": "Clemson Campus Footprint AI Carbon & Energy Tracker",
       "track": "",
-      "why_it_could_win": "Mirrors the success pattern of GeoNex-ATLAS by applying geospatial analytics to local industrial and campus infrastructure compliance problems that university judges and local stakeholders care about."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust engine specifically built for local Clemson student health clinics to automate intake, triage, and multilingual health guidance.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "TigerCare Patient Trust Engine",
-      "track": "",
-      "why_it_could_win": "Directly replicates the 1st prize winning strategy of Global-Smile by targeting localized healthcare administration pain points with a rapid-deployment LLM wrapper interface."
+      "why_it_could_win": "Leverages the pattern from GeoNex-ATLAS by applying geospatial and satellite monitoring to a hyper-local, recognizable environment like the host university campus, appealing directly to sustainability-minded judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1194555365"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered community coordination platform that matches isolated local senior citizens in Upstate South Carolina with Clemson student volunteer drivers for grocery runs and medical appointments.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "React"
-      ],
-      "title": "Clemson GreenRide Coordinator",
-      "track": "",
-      "why_it_could_win": "Adopts the grand prize-winning formula of Outreach by solving a hyper-local logistical and social good problem with clear, measurable human impact in the host community."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition and wellness web application that instantly scans Clemson dining hall menus to deliver personalized meal plans and macro-nutrient breakdowns for student athletes.",
+      "pitch": "An AI-powered nutrition and campus dining optimization platform that generates personalized meal plans based on student schedules, dietary restrictions, and actual dining hall menus.",
       "stack": [
         "Python",
-        "FastAPI",
         "React",
-        "TailwindCSS"
+        "FastAPI",
+        "Gemini API"
       ],
-      "title": "Clemson Dining Macro Scanner",
+      "title": "Clemson Student Wellness & Meal Planner AI",
       "track": "",
-      "why_it_could_win": "Follows the winning blueprint of E-Foodiee-AI-Nutrition-Assistant by tackling a daily, relatable problem for every single student attending an in-person hackathon."
+      "why_it_could_win": "Adapts the proven formula of the E-Foodiee AI Nutrition Assistant to solve an immediate, relatable problem for students attending the university where the hackathon is hosted."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An automated risk detection and incident forecasting platform for university research grants, utilizing Poisson regression and machine learning models to flag compliance anomalies early.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "Clemson Research Grant Compliance & Risk Forecaster",
+      "track": "",
+      "why_it_could_win": "Combines the rigorous statistical forecasting seen in the AI incident forecasting winner with real institutional use cases that university administrators and judges value."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized micro-task marketplace where student organizations can post project needs and reward contributors using secure escrow smart contracts.",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "React"
+      ],
+      "title": "Clemson Student Club Autonomous Task & Escrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Replicates the autonomous marketplace structure of Dispatch while tailoring the workflow specifically to student club operations and campus engagement."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "An automated no-code trading strategy builder and execution platform designed for decentralized perpetual markets, featuring simulated risk guardrails and backtesting tools.",
+      "pitch": "A lightweight, no-code algorithmic trading strategy builder designed for collegiate finance clubs to test and simulate crypto or stock strategies instantly.",
       "stack": [
         "Python",
-        "TypeScript",
-        "FastAPI",
-        "Web3.js"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "Upstate Micro-Market Arbitrage Bot",
+      "title": "TigerTrading No-Code Strategy Backtester",
       "track": "",
-      "why_it_could_win": "Leverages the advanced technical architecture seen in ClashX, providing judges with a polished, fully functioning financial engineering dashboard within the 47-hour window."
+      "why_it_could_win": "Employs the successful no-code architecture of ClashX while focusing on educational and local collegiate financial club engagement."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

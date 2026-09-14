@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:26:21.985584+05:30",
+  "generated_at": "2026-09-13T07:46:48.445200+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -18,83 +16,85 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite and drone imagery monitoring tool for detecting agricultural land and industrial water-use compliance in rural Texas.",
+      "pitch": "Satellite-based agricultural compliance and water usage monitoring platform tailored for West Texas farming operations.",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
-        "Gemini API"
+        "SentinelHub API"
       ],
-      "title": "West Texas Ag Compliance Vision",
+      "title": "WestTexas-AgriMonitor",
       "track": "",
-      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by delivering concrete visual intelligence that local judges and regional stakeholders in West Texas instantly care about."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "Automated coordination app that groups senior citizens in Lubbock for social outings and matches them with verified local student volunteer drivers.",
-      "stack": [
-        "TypeScript",
-        "React Native",
-        "Node.js",
-        "PostgreSQL"
-      ],
-      "title": "Lubbock Senior Ride Share",
-      "track": "",
-      "why_it_could_win": "Follows the Outreach grand-prize pattern by targeting clear, measurable social impact that immediately resonates with community-focused judges."
+      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by combining geospatial data with industrial monitoring, which appeals heavily to judges in the agricultural region of Lubbock."
     },
     {
       "build_hours": 26,
       "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous grain marketplace with automated USDC escrow payments and regional logistics coordination on Base.",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Base",
+        "USDC"
+      ],
+      "title": "SorghumChain Escrow",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact architecture and win condition of the Dispatch autonomous marketplace project by combining decentralized escrow with local supply chain use cases."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An operational risk and anomaly detection platform for regional energy logistics, combining graph intelligence and explainable machine learning models.",
+      "pitch": "AWS-powered risk detection platform combining graph intelligence and lightGBM to flag fraudulent livestock auction transactions.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "AWS",
+        "LightGBM"
       ],
-      "title": "Permian Basin Rig Risk AML",
+      "title": "RanchRisk AML Engine",
       "track": "",
-      "why_it_could_win": "Applies hard engineering and complex data analytics to domain-specific risks familiar to industries operating in West Texas."
+      "why_it_could_win": "Leverages the proven architecture of Bito to deliver hard engineering via graph intelligence and financial crime detection adapted for regional commerce."
     },
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "AI-powered meal planning and nutrition assistant tailored to local grocery availability and student budgets in Lubbock.",
+      "pitch": "Personalized meal and nutrition planning assistant tailored specifically to regional dietary restrictions and local Texas food supplies.",
       "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "Gemini API"
+        "Gemini API",
+        "React"
       ],
-      "title": "West Texas Campus Health Nutrition",
+      "title": "Oasis Nutrition AI",
       "track": "",
-      "why_it_could_win": "Targets a problem the judges feel themselves—student health and tight budgets—and leverages rapid AI integration for immediate practical utility."
+      "why_it_could_win": "Directly applies the successful formula of E-Foodiee-AI-Nutrition-Assistant with a localized twist that makes the generated health insights immediately practical for local communities."
     },
     {
-      "build_hours": 25,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1213911408"
       ],
-      "pitch": "Poisson GAM and multinomial share model dashboard forecasting infrastructure and automated system incidents with calibrated prediction intervals.",
+      "pitch": "Multi-agent forecasting platform using Poisson regression and rolling backtests to predict local ERCOT power grid incidents and price spikes.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Streamlit",
-        "Scikit-Learn"
+        "Jupyter Notebook",
+        "Poisson Regression",
+        "LangGraph"
       ],
-      "title": "AI Incident Forecaster for Regional Grids",
+      "title": "GridBackstop AI",
       "track": "",
-      "why_it_could_win": "Replicates the rigorous statistical forecasting methodology that won the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Replicates the rigorous statistical methodology of the Apart Research AI Forecasting winner, targeting a critical infrastructure topic deeply relevant to Texas participants."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }

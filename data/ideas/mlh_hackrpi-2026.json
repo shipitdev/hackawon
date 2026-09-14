@@ -1,13 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:25:50.610559+05:30",
+  "generated_at": "2026-09-13T07:46:17.165742+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
       "technical-depth",
-      "impact",
-      "judge-pain"
+      "sponsor-tech"
     ],
     "thin": false
   },
@@ -16,86 +14,87 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A forecasting tool tailored for campus energy consumption and local microgrid resilience using Poisson regression and historical weather models.",
+      "pitch": "A localized energy grid forecasting tool tailored for Upstate New York municipalities to predict peak load and renewable output anomalies using Poisson regression and geospatial satellite monitoring.",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "FastAPI",
-        "React"
+        "Poisson-Regression",
+        "TypeScript"
       ],
-      "title": "CampusGrid RPI: AI Microgrid Load Forecaster",
+      "title": "TroyGrid AI",
       "track": "",
-      "why_it_could_win": "Follows the exact success pattern of predicting complex systems with calibrated confidence intervals and appeals directly to institutional infrastructure themes."
+      "why_it_could_win": "Combines rigorous forecasting with localized regional utility relevance, matching the technical depth seen in winning statistical and satellite monitoring projects."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support and sustainability tracker that coordinates campus resource allocation and carbon footprint reduction initiatives using LangGraph and localized RAG.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Python"
+      ],
+      "title": "CampusGreen Multi-Agent",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the winning multi-agent student platform architecture while targeting a universally appealing university campus improvement use case."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An investigative dashboard mapping off-campus housing scams, suspicious landlord transactions, and anomalous rental listings using graph intelligence.",
+      "pitch": "An AML risk detection and investigation dashboard utilizing graph intelligence and explainable gradient boosting to map and flag suspicious transaction networks for local financial cooperatives.",
       "stack": [
         "TypeScript",
-        "Neo4j",
-        "Next.js",
-        "LightGBM"
+        "Python",
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "TroyRentGuard: Student Housing Scam & AML Graph Detector",
+      "title": "Hudson AML Inspector",
       "track": "",
-      "why_it_could_win": "Solves a problem every college student and local resident in Troy, New York feels deeply every leasing season."
+      "why_it_could_win": "Employs genuine hard engineering through graph intelligence and explainable machine learning models, replicating the winning formula of top fintech hackathon entries."
     },
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [
         "github:1275874285",
         "github:1241231621"
       ],
-      "pitch": "An AI-powered meal recommendation and nutritional tracking platform that optimizes local dining hall menus and redirects surplus food to campus food banks.",
+      "pitch": "An AI-driven regional nutritional assistant that generates personalized meal recommendations and sourcing routes based on inventory from local Upstate New York farmers markets and co-ops.",
       "stack": [
         "Python",
-        "Next.js",
         "Gemini API",
+        "Next.js",
         "TailwindCSS"
       ],
-      "title": "RPI Dining AI Nutritionist & Surplus Matcher",
+      "title": "LocalHarvest Nutrition Engine",
       "track": "",
-      "why_it_could_win": "Combines personal health utility with a clear, quantified campus-wide social impact metric."
+      "why_it_could_win": "Takes the proven winner template of personalized nutrition platforms and grounds it in hyper-local community economics, which local hackathon judges favor."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1194555365"
+        "github:1185920891"
       ],
-      "pitch": "An AI agent-powered ride-pooling and micro-transit coordinator connecting RPI students with elderly residents in Troy for grocery runs and medical appointments.",
+      "pitch": "An autonomous AI agent marketplace facilitating micro-task execution and instant USDC escrow payments tailored for student freelance and research compute sharing.",
       "stack": [
-        "TypeScript",
-        "Google Maps API",
-        "OpenAI API",
-        "React Native"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
       ],
-      "title": "CapitalRegion ShuttleSync",
+      "title": "RPI Autonomous Escrow Dispatch",
       "track": "",
-      "why_it_could_win": "Targets regional community needs with a tangible social good angle that resonates strongly with local hackathon judges."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An automated satellite imagery monitoring tool tracking industrial land changes and environmental runoff along the Hudson River near Troy.",
-      "stack": [
-        "TypeScript",
-        "Sentinel Hub API",
-        "Python",
-        "Leaflet.js"
-      ],
-      "title": "HudsonRiver EcoSat: Industrial Runoff Tracker",
-      "track": "",
-      "why_it_could_win": "Uses hard environmental data visualization and satellite APIs to demonstrate measurable ecological oversight."
+      "why_it_could_win": "Leverages the proven winning pattern of autonomous agent marketplaces paired with cryptographic escrow rails, appealing to judges interested in decentralized automation."
     }
   ],
   "prompt_version": 1,
   "provider": "gemini",
-  "taxonomy_version": 1
+  "taxonomy_version": 2
 }
