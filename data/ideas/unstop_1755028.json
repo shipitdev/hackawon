@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-15T07:58:09.634557+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755028",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "An autonomous AI agent wrapper built with ConnectRPC and Vercel AI SDK that monitors challenge server infrastructure and applies real-time prompt-injection hardening and request validation against automated exploitation tools.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Vercel AI SDK",
+        "ConnectRPC"
+      ],
+      "title": "CTF-Guard Live Defense-in-Depth Agent",
+      "track": "",
+      "why_it_could_win": "Directly addresses security hardening and defense-in-depth principles relevant to competitive capture-the-flag events, mirroring winning strategies from recent personal agent and cybersecurity challenges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-based intelligence platform using LightGBM and network mapping to visualize and score the attack surface of web application binaries and trace complex multi-step exploit chains.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "React"
+      ],
+      "title": "Vulnerability Graph Intelligence Visualizer",
+      "track": "",
+      "why_it_could_win": "Leans into genuinely hard engineering by combining machine learning risk scoring with graph intelligence to accelerate vulnerability discovery during CTF challenges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A ZK-gated submission portal using Noir circuits that allows teams to prove they possess a specific flag or exploit hash on-chain without revealing the raw string or solution to neighboring teams.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Base",
+        "Solidity"
+      ],
+      "title": "Zero-Knowledge Flag Verification Portal",
+      "track": "",
+      "why_it_could_win": "Applies cutting-edge zero-knowledge proofs to solve the classic CTF problem of flag leaking and sharing, showing high technical sophistication that stands out to judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid automated code audit tool that parses repository structures, flags insecure deserialization, hardcoded secrets, and common web exploits before deployment.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AST",
+        "React"
+      ],
+      "title": "RepoInspector Security Insight Engine",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core theme of responsible vulnerability discovery and ethical hacking by providing instant repository security insights."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A real-time log analysis system powered by a fine-tuned BERT model that classifies incoming web requests into legitimate traffic versus malicious exploit payloads, updating the live scoreboard context.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "Transformers"
+      ],
+      "title": "BERT-Powered Exploit Log Classifier",
+      "track": "",
+      "why_it_could_win": "Combines natural language processing with security log analysis, following the proven blueprint of runner-up cyber hackathon winners that integrate robust machine learning classifiers."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

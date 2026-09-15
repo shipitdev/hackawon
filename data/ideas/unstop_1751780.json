@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-15T07:57:56.705102+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1751780",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1341712439"
+      ],
+      "pitch": "A localized IoT relay protection circuit that detects phase imbalances and micro-surges, instantly triggering hardware-level cutoff and transmitting telemetry via ESP32 to a central dashboard.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Arduino",
+        "Relay Modules",
+        "TypeScript",
+        "TimescaleDB"
+      ],
+      "title": "Smart Microgrid Relay Protection Node",
+      "track": "Track 1: Smart Campus & Energy Management (IoT, Microgrids, Relay Protection)",
+      "why_it_could_win": "Directly targets Track 1 (Smart Campus & Energy Management) and leverages the winning formula of combining a physical custom circuit (similar to the washing machine timer circuit) with real-time IoT dashboards."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A wearable vest equipped with ultrasonic sensors and directional haptic vibration motors powered by an Arduino to map obstacles and alert the user without audio interference.",
+      "stack": [
+        "C++",
+        "Arduino Nano",
+        "Ultrasonic Sensors",
+        "Vibration Motors"
+      ],
+      "title": "Haptic Assistive Navigational Vest for the Visually Impaired",
+      "track": "Track 2: MedTech & Assistive Wearables (Embedded Sensors, Haptic Feedback)",
+      "why_it_could_win": "Fits perfectly into Track 2 (MedTech & Assistive Wearables), offering a tangible hardware demo with immediate social impact and utilizing physical embedded sensors."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1010199928"
+      ],
+      "pitch": "A custom-chassis differential drive rover featuring IR array line-following combined with an ESP32-CAM module for real-time obstacle avoidance and remote monitoring.",
+      "stack": [
+        "C++",
+        "ESP32-CAM",
+        "Motor Drivers",
+        "Arduino",
+        "Python"
+      ],
+      "title": "Autonomous Indoor Line-Following Supply Rover",
+      "track": "Track 3: Robotics & Autonomous Systems (Rovers, Motor Drivers, Microcontrollers)",
+      "why_it_could_win": "Directly addresses Track 3 (Robotics & Autonomous Systems) by bringing a fully functional physical robot that performs a live, demonstrable autonomous routine."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An industrial automation prototype using a TCS3200 color sensor and IR counters to sort produce by ripeness on a miniature conveyor belt driven by a stepper motor.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "Stepper Motors",
+        "Color Sensors",
+        "OpenCV"
+      ],
+      "title": "Edge-Powered Automated Sorting Agritech Conveyor",
+      "track": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitor",
+      "why_it_could_win": "Meets the criteria for Track 4 (Open Innovation - AgriTech & Industrial Automation) with a working miniature mechanical build that judges can interact with live on campus."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A custom Verilog-based hardware protocol analyzer implemented on an FPGA board to decode asynchronous serial communications in real-time without an external oscilloscope.",
+      "stack": [
+        "Verilog",
+        "FPGA",
+        "Digital Logic",
+        "C++"
+      ],
+      "title": "FPGA-Accelerated UART Protocol Analyzer",
+      "track": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitor",
+      "why_it_could_win": "Demonstrates genuinely hard digital design and hardware execution, appealing strongly to an ECE-organized department hackathon looking for rigorous circuit-level engineering."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

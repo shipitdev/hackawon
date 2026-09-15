@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-15T07:58:00.160826+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754836",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python and Wireshark-plugin network forensics tool that automatically reconstructs multi-step exfiltration payloads from packet captures during a CTF.",
+      "stack": [
+        "Python",
+        "Scapy",
+        "FastAPI",
+        "React"
+      ],
+      "title": "PCAP-Inspector",
+      "track": "Digital Forensics & Network PCAP Analysis",
+      "why_it_could_win": "Tackles the digital forensics and network PCAP analysis domain by automating complex manual steps, reflecting hard engineering similar to past technical winners."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "An automated cryptographic puzzle solver for custom asymmetric ciphers, small RSA exponent attacks, and common padding oracles encountered in CTF challenges.",
+      "stack": [
+        "Python",
+        "SageMath",
+        "CryptoDome"
+      ],
+      "title": "CryptoForge Analyzer",
+      "track": "Cryptography & Steganography",
+      "why_it_could_win": "Addresses the cryptography and steganography domain directly with algorithm-heavy execution, aligning with the pattern of winning hard engineering projects."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A static binary analysis companion that identifies custom calling conventions and common buffer overflow gadgets in stripped ELF binaries during reverse engineering challenges.",
+      "stack": [
+        "Python",
+        "Ridan",
+        "Capstones",
+        "Radare2"
+      ],
+      "title": "Binary-Guard Decompiler",
+      "track": "Reverse Engineering & Binary Exploitation",
+      "why_it_could_win": "Solves the reverse engineering and binary exploitation domain by automating vulnerability detection patterns judges look for in technical CTF puzzles."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A rapid payload testing environment tailored for complex server-side request forgery (SSRF) and deserialization vulnerabilities found in web exploitation tracks.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Express"
+      ],
+      "title": "WebExploit Sandbox",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Streamlines the web exploitation domain with an efficient, highly focused local testing harness that saves crucial minutes during a 6-hour sprint."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An OSINT framework that aggregates public social footprints, metadata, and infrastructure correlations into a visual node graph to uncover hidden system security flags.",
+      "stack": [
+        "TypeScript",
+        "Neo4j",
+        "React",
+        "Python"
+      ],
+      "title": "OSINT Graph Mapper",
+      "track": "OSINT & System Security",
+      "why_it_could_win": "Provides an edge in the OSINT and system security domain through graph intelligence and quick correlation, mirroring successful analytical platform architectures."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

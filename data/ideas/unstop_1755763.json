@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-15T07:58:27.289881+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755763",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An intelligent conference agenda planner and live Q&A summarizer that uses semantic routing to instantly categorize, route, and answer attendee questions during live tech conferences.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "React",
+        "Qwen"
+      ],
+      "title": "ConfSync AI",
+      "track": "Software Development and Conferences",
+      "why_it_could_win": "Directly targets the core themes of the hackathon focusing on both Software Development and Conferences by solving real-time event engagement challenges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual BPMN-orchestrated platform designed for conference organizers to automate speaker scheduling, submission reviews, and human-in-the-loop risk management for session tracks.",
+      "stack": [
+        "Python",
+        "BPMN",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "BPMN DevConf Workflow Manager",
+      "track": "Software Development and Conferences",
+      "why_it_could_win": "Utilizes complex workflow orchestration which satisfies the expectation for genuinely hard software engineering within a 36-hour timeframe."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data lineage and incident response tool tailored for large-scale conference streaming data and registration pipelines, featuring automated evidence gating and pull request generation.",
+      "stack": [
+        "Python",
+        "DataHub",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "title": "DataHub Conference Metrics",
+      "track": "Software Development",
+      "why_it_could_win": "Demonstrates advanced data engineering capabilities that stand out among typical frontend-heavy hackathon submissions."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-capable AI code reviewer and presentation analyzer that runs locally on hardware to evaluate conference paper submissions and software source code for technical feasibility.",
+      "stack": [
+        "Python",
+        "LLM",
+        "Streamlit",
+        "LangChain"
+      ],
+      "title": "Agentic ConfReviewer",
+      "track": "Software Development and Conferences",
+      "why_it_could_win": " Combines software development evaluation with conference submission workflows, directly fitting the primary twin pillars of Tech Eximius 2.0."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol server platform that securely connects distributed medical conference databases for live collaborative clinical AI agent demonstrations.",
+      "stack": [
+        "HTML",
+        "Python",
+        "Kubernetes",
+        "ArgoCD"
+      ],
+      "title": "MCP Clinical Conf Net",
+      "track": "Software Development",
+      "why_it_could_win": "Tackles distributed systems architecture and federated data challenges, showcasing the 'genuinely hard engineering' pattern seen in top hackathon winners."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
