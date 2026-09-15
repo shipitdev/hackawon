@@ -48,13 +48,13 @@ function Row({
     .join(", ");
 
   return (
-    <article className="reveal group relative grid gap-x-8 gap-y-2 rounded-2xl px-4 py-5 transition-colors hover:bg-raised has-[h3_button:focus-visible]:bg-raised has-[h3_button:focus-visible]:outline-2 has-[h3_button:focus-visible]:outline-accent md:grid-cols-[9.5rem_minmax(0,1fr)_12rem] md:px-5">
-      <div className="font-mono text-xs leading-5 tabular-nums md:pt-0.5">
+    <article className="reveal group relative grid gap-x-8 gap-y-2 rounded-2xl px-4 py-4 transition-colors hover:bg-raised has-[h3_button:focus-visible]:bg-raised has-[h3_button:focus-visible]:outline-2 has-[h3_button:focus-visible]:outline-accent md:grid-cols-[8rem_minmax(0,1fr)] md:px-5 md:py-5 lg:grid-cols-[9.5rem_minmax(0,1fr)_12rem]">
+      <div className="flex flex-wrap gap-x-3 pr-10 font-mono text-xs leading-5 tabular-nums md:block md:pr-0 md:pt-0.5">
         <p className="text-muted">{formatDates(h)}</p>
         {deadline && <p className="font-medium text-accent">{deadline}</p>}
       </div>
 
-      <div className="min-w-0 pr-10 md:pr-0">
+      <div className="min-w-0 md:pr-10 lg:pr-0">
         <h3 className="text-base font-semibold leading-snug tracking-[-0.015em] text-ink">
           {/* The title is the row's one real button; `after:` stretches its hit area over the
               whole row, so the save button beside it is a sibling rather than nested inside. */}
@@ -80,7 +80,7 @@ function Row({
         )}
       </div>
 
-      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-muted md:flex-col md:items-end md:gap-1 md:pr-9 md:text-right">
+      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 text-sm text-muted md:col-start-2 lg:col-start-auto lg:flex-col lg:items-end lg:gap-1 lg:pr-9 lg:text-right">
         <span className="line-clamp-2">{where(h)}</span>
         {prize && <span className="font-mono tabular-nums text-ink">{prize}</span>}
         {topicText && <span className="text-xs text-faint">{topicText}</span>}
@@ -130,8 +130,9 @@ function Chip({
   );
 }
 
+// 16px below `sm`: iOS Safari zooms the page in on focus for anything smaller.
 const selectClass =
-  "w-[6.75rem] rounded-lg border border-line bg-raised py-2 pl-2.5 pr-2 text-sm sm:w-auto sm:px-3 text-ink transition-colors hover:border-ink/25";
+  "min-w-0 flex-1 rounded-lg border border-line bg-raised py-2 pl-2.5 pr-2 text-base text-ink transition-colors hover:border-ink/25 sm:flex-none sm:px-3 sm:text-sm";
 
 export default function App() {
   const [bundle, setBundle] = useState<Bundle | null>(null);
@@ -246,11 +247,11 @@ export default function App() {
       />
 
       <main id="list" className="scroll-mt-14">
-        {/* Sticky so the filters stay reachable through a long list. */}
-        <div className="sticky top-14 z-30 border-y border-line bg-surface/85 backdrop-blur-xl">
+        {/* Sticky so the filters stay reachable through a long list, where there is room for it. */}
+        <div className="z-30 border-y border-line bg-surface/85 backdrop-blur-xl roomy:sticky roomy:top-14">
           <div className="mx-auto max-w-6xl space-y-2.5 px-4 py-3 sm:px-6">
-            <div className="flex items-center gap-2">
-              <label className="relative min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-2 sm:flex-nowrap">
+              <label className="relative w-full min-w-0 sm:w-auto sm:flex-1">
                 <span className="sr-only">Search hackathons</span>
                 <MagnifyingGlass
                   size={16}
@@ -262,7 +263,7 @@ export default function App() {
                   value={filters.query}
                   onChange={(e) => set("query", e.target.value)}
                   placeholder="Search name, city, sponsor"
-                  className="w-full rounded-lg border border-line bg-raised py-2 pl-9 pr-3 text-sm text-ink transition-colors placeholder:text-faint hover:border-ink/25 focus:border-accent focus:outline-none"
+                  className="w-full rounded-lg border border-line bg-raised py-2 pl-9 pr-3 text-base text-ink transition-colors placeholder:text-faint hover:border-ink/25 focus:border-accent focus:outline-none sm:text-sm"
                 />
               </label>
               <select
@@ -352,13 +353,16 @@ export default function App() {
           {!bundle && !error && (
             <div aria-hidden className="space-y-2">
               {Array.from({ length: 6 }).map((_, i) => (
-                <div key={i} className="grid gap-8 px-5 py-5 md:grid-cols-[9.5rem_1fr_12rem]">
+                <div
+                  key={i}
+                  className="grid gap-x-8 gap-y-3 px-4 py-4 md:grid-cols-[8rem_1fr] md:px-5 md:py-5 lg:grid-cols-[9.5rem_1fr_12rem]"
+                >
                   <span className="h-4 w-24 animate-pulse rounded bg-sunken" />
                   <span className="space-y-2">
                     <span className="block h-4 w-2/3 animate-pulse rounded bg-sunken" />
                     <span className="block h-3 w-1/2 animate-pulse rounded bg-sunken" />
                   </span>
-                  <span className="hidden h-4 w-20 animate-pulse justify-self-end rounded bg-sunken md:block" />
+                  <span className="hidden h-4 w-20 animate-pulse justify-self-end rounded bg-sunken lg:block" />
                 </div>
               ))}
             </div>

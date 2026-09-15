@@ -38,12 +38,34 @@
   }
 }
 
+/* Enough room for sticky chrome: on phones, and on anything landscape and short, the filter bar
+   would cover a third of the screen, so it scrolls away instead. */
+@custom-variant roomy (@media (min-width: 40rem) and (min-height: 36rem));
+
 html {
   background: var(--color-surface);
   color: var(--color-ink);
   color-scheme: light dark;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
+}
+
+/* Everything is sized in rem, so stepping the root scales the whole layout on large screens
+   instead of leaving a narrow strip of 14px text. Percentages keep the reader's own font setting. */
+@media (min-width: 96rem) {
+  html {
+    font-size: 106.25%;
+  }
+}
+@media (min-width: 120rem) {
+  html {
+    font-size: 112.5%;
+  }
+}
+@media (min-width: 150rem) {
+  html {
+    font-size: 125%;
+  }
 }
 
 body {

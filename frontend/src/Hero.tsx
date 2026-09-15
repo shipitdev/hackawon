@@ -31,17 +31,17 @@ export function Hero({
   onSeeClosing: () => void;
 }) {
   return (
-    <section className="mx-auto grid max-w-6xl items-center gap-10 px-4 pb-12 pt-10 sm:px-6 md:grid-cols-12 md:gap-8 md:pb-16 md:pt-16">
-      <div className="min-w-0 md:col-span-7">
+    <section className="mx-auto grid max-w-6xl items-center gap-8 px-4 pb-10 pt-6 sm:px-6 sm:pt-10 md:grid-cols-2 md:pb-16 md:pt-16 lg:grid-cols-12">
+      <div className="min-w-0 lg:col-span-7">
         <h1
-          className="rise max-w-[14ch] text-[clamp(2.5rem,6.2vw,4.4rem)] font-semibold leading-[1.02] tracking-[-0.045em] text-balance"
+          className="rise max-w-[14ch] text-[clamp(2rem,6.2vw,4.4rem)] font-semibold leading-[1.02] tracking-[-0.045em] text-balance"
           style={{ "--i": 0 } as React.CSSProperties}
         >
           Find the hackathon. Build the <span className="text-accent">winner</span>.
         </h1>
 
         <p
-          className="rise mt-5 max-w-[46ch] text-pretty text-base leading-relaxed text-muted sm:text-lg"
+          className="rise mt-4 max-w-[46ch] sm:mt-5 text-pretty text-base leading-relaxed text-muted sm:text-lg"
           style={{ "--i": 1 } as React.CSSProperties}
         >
           Open hackathons from Devfolio, Unstop and MLH, each with project ideas grounded in{" "}
@@ -50,7 +50,7 @@ export function Hero({
 
         <a
           href="#list"
-          className="rise press group mt-8 inline-flex items-center gap-2 rounded-lg bg-ink px-5 py-3 text-sm font-medium text-surface hover:bg-ink/85"
+          className="rise press group mt-6 inline-flex sm:mt-8 items-center gap-2 rounded-lg bg-ink px-5 py-3 text-sm font-medium text-surface hover:bg-ink/85"
           style={{ "--i": 2 } as React.CSSProperties}
         >
           Browse {count > 0 ? count.toLocaleString("en-IN") : ""} hackathons
@@ -65,7 +65,7 @@ export function Hero({
 
       <aside
         aria-labelledby="closing-heading"
-        className="rise min-w-0 rounded-2xl border border-line bg-raised p-2 shadow-[0_24px_60px_-32px_oklch(0.3_0.02_286/0.35)] md:col-span-5"
+        className="rise min-w-0 rounded-2xl border border-line bg-raised p-2 shadow-[0_24px_60px_-32px_oklch(0.3_0.02_286/0.35)] lg:col-span-5"
         style={{ "--i": 3 } as React.CSSProperties}
       >
         <div className="flex items-baseline justify-between px-3 pb-2 pt-3">
@@ -91,7 +91,8 @@ export function Hero({
             Nothing closes in the next seven days. The full list below has everything still open.
           </p>
         ) : (
-          <ul className="space-y-0.5">
+          // Three on a phone keeps the list below within reach; "Show all" covers the rest.
+          <ul className="space-y-0.5 max-sm:[&>li:nth-child(n+4)]:hidden">
             {closing.map((h) => (
               <li key={h.uid}>
                 <button
@@ -117,11 +118,11 @@ export function Hero({
           </ul>
         )}
 
-        {closingTotal > closing.length && (
+        {closingTotal > Math.min(closing.length, 3) && (
           <button
             type="button"
             onClick={onSeeClosing}
-            className="mt-1 w-full border-t border-line px-3 pb-2 pt-3 text-left text-sm text-muted transition-colors hover:text-ink"
+            className={`${closingTotal > closing.length ? "" : "sm:hidden"} mt-1 w-full border-t border-line px-3 pb-2 pt-3 text-left text-sm text-muted transition-colors hover:text-ink`}
           >
             Show all {closingTotal} in the list
           </button>
