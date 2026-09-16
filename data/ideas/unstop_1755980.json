@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-16T07:51:08.654684+00:00",
+  "grounding": {
+    "domains": [
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755980",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An automated frontend code review and design compliance tool that analyzes pulled repositories and instantly flags accessibility violations, layout shifts, and bad state management practices.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "AST Parser"
+      ],
+      "title": "FrontendAudit AI",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation criteria of Problem Understanding and Functionality & User Experience by demonstrating deep technical execution in frontend analysis."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A visual state machine debugger and live documentation generator built specifically for complex frontend applications, allowing developers to inspect data flows in real-time.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Canvas API",
+        "Zustand"
+      ],
+      "title": "StateSync UI",
+      "track": "",
+      "why_it_could_win": "Solves a universal frontend problem with high technical complexity, scoring heavily on the 25% Functionality & User Experience weightage."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A drop-in micro-frontend sandbox that enables developers to test accessibility, responsiveness, and dark-mode rendering across multiple viewports simultaneously in a single browser pane.",
+      "stack": [
+        "Next.js",
+        "Web Workers",
+        "TailwindCSS"
+      ],
+      "title": "ComponentFlow",
+      "track": "",
+      "why_it_could_win": "Caters directly to judges looking for polish, exceptional UX, and practical tools that enhance developer productivity."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1092573500"
+      ],
+      "pitch": "An agentic design system generator that turns raw Figma JSON exports or plain text prompts into fully accessible, themeable Tailwind CSS and React component libraries.",
+      "stack": [
+        "TypeScript",
+        "OpenAI API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "DesignToken AI",
+      "track": "",
+      "why_it_could_win": "Leverages modern AI-assisted workflows to solve a tedious frontend problem, aligning with the strong technical execution seen in winning developer tools."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A real-time performance budget enforcer that monitors client-side bundle sizes and rendering metrics directly inside the browser viewport during local development.",
+      "stack": [
+        "JavaScript",
+        "Chrome Extensions API",
+        "React"
+      ],
+      "title": "PerfLens",
+      "track": "",
+      "why_it_could_win": "Demonstrates hard engineering and precise problem understanding around frontend performance metrics, which stands out in a crowded web development competition."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

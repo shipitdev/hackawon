@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-16T07:51:18.061575+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756040",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1213911408"
+      ],
+      "pitch": "An autonomous multi-agent system that analyzes live satellite feeds and regulatory zoning PDFs to generate compliance reports for state industrial development boards.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Gemini API"
+      ],
+      "title": "Agentic Compliance Auditor for Industrial Land",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages the Agentic AI track explicitly called out in the hackathon description while combining hard geo-spatial processing inspired by previous hackathon winners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent platform utilizing specialized LLM agents to monitor student engagement metrics, automatically generate personalized tutoring roadmaps, and flag dropout risks.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Python"
+      ],
+      "title": "Autonomous Multi-Agent Student Support & Intervention Network",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly hits the Agentic AI track requirements for autonomous reasoning and planning, matching proven winning patterns from educational and student support hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive analytics dashboard utilizing Poisson regression and statistical modeling to forecast potential deployment failures and safety incidents in generative AI pipelines.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "AI Incident Forecasting & Safety Registry",
+      "track": "Agentic AI",
+      "why_it_could_win": "Applies rigorous statistical machine learning to safety governance, mimicking award-winning architectures that stand out against standard LLM wrappers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An agentic patient intake workflow that automates consultation booking, automated clinical trust building, and personalized health plan generation for specialized healthcare practices.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "Autonomous Patient Acquisition & Trust Engine for Clinics",
+      "track": "Agentic AI",
+      "why_it_could_win": "Targets high-value operational bottlenecks in healthcare with a fully realized central workflow prototype rather than a basic pitch deck."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An agentic risk detection and investigation platform that combines graph intelligence models to surface suspicious transactional patterns and automate compliance filings.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "Graph-Powered AML Risk Intelligence Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Brings genuine algorithmic complexity to financial crime detection, satisfying judges looking for advanced analytical processing instead of superficial UI wraps."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

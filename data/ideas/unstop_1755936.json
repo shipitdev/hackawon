@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-16T07:51:04.295816+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755936",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated school waste segregation bin using provided sensor kits and microcontroller boards to classify wet and dry waste in real-time.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "C++"
+      ],
+      "title": "Smart Campus Segregator",
+      "track": "Junior Innovators",
+      "why_it_could_win": "Leverages the provided on-campus hardware kits and directly mirrors a proven robotics win style by integrating hardware with practical campus utility."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A computer vision safety monitor that alerts students via buzzer if they handle chemicals without safety goggles or lab coats in the school innovation lab.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi"
+      ],
+      "title": "Lab Safety Guard AI",
+      "track": "Senior Innovators",
+      "why_it_could_win": "Demonstrates a working physical prototype using college-provided lab equipment and addresses an immediate, relatable problem for school innovation labs."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated IoT power conservation node that cuts off classroom lights and fans when motion sensors detect an empty room.",
+      "stack": [
+        "Arduino",
+        "ESP32",
+        "C++"
+      ],
+      "title": "Eco-Watt Classroom Controller",
+      "track": "Junior Innovators",
+      "why_it_could_win": "Uses the provided sensor kits to solve a clear resource-saving problem, fitting the tight 6-hour timeframe with a physical demonstration."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1074933780"
+      ],
+      "pitch": "A localized curriculum roadmap generator tailored for high school board exams, providing practice questions and targeted revision topics.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind"
+      ],
+      "title": "StudyPath AI Mentor",
+      "track": "Senior Innovators",
+      "why_it_could_win": "Directly appeals to the high school demographic and judges by solving a high-value academic stress point within the short hackathon window."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A compact agricultural monitoring device that tracks soil moisture and temperature, automatically triggering a mini water pump via relay circuits.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Sensors"
+      ],
+      "title": "Smart Greenhouse Monitor",
+      "track": "Junior Innovators",
+      "why_it_could_win": "Combines custom circuit components provided by the college with a live, functioning physical demo that is easy for judges to understand and test."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

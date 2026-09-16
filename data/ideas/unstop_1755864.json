@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-16T07:50:59.917156+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755864",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "An offline-first decision support tool for tracking and optimizing drug-resistant tuberculosis drug repurposing shortlists using localized genomic mutation markers.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Biopython"
+      ],
+      "title": "TB-Guard AI",
+      "track": "Precision Biotherapeutics & Drug Discovery",
+      "why_it_could_win": "Directly targets problem statement BB-PB-01 under Precision Biotherapeutics and Drug Discovery, offering judges an immediate, practical tool for urgent clinical needs."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A lightweight web viewer for protein structures that highlights potential binding sites and flags mutations prone to drug resistance.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Three.js",
+        "BioPython"
+      ],
+      "title": "FoldExplorer Lite",
+      "track": "Precision Biotherapeutics & Drug Discovery",
+      "why_it_could_win": "Directly addresses problem statement BB-PB-02 with a working visual interface that bioinformatics judges can test live during judging."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An IoT and mobile dashboard simulator that tracks temperature breaches and predicts spoilage risk for biologics and vaccines in last-mile transit.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "Python",
+        "MQTT"
+      ],
+      "title": "ColdChain Sentinel",
+      "track": "Precision Biotherapeutics & Drug Discovery",
+      "why_it_could_win": "Directly maps to problem statement BB-PB-03, emphasizing measurable economic and health impact by preventing vaccine degradation."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An agricultural biotechnology app that analyzes leaf microbiome profiles via image uploads to recommend targeted bio-pesticides.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "AgriBio YieldGuard",
+      "track": "",
+      "why_it_could_win": "Aligns with the agricultural biotechnology theme, offering a highly practical tool for local farmers with a live image-upload demonstration."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A monitoring dashboard for environmental biotechnology plants optimizing microbial consortium ratios for industrial wastewater treatment.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Pandas"
+      ],
+      "title": "EnviroDigest AI",
+      "track": "",
+      "why_it_could_win": "Appeals to the environmental biotechnology domain by demonstrating concrete economic and ecological efficiency gains through real-time sensor data simulation."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

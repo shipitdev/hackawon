@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-16T07:51:27.633850+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756306",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Autonomous multi-agent AI system that continuously monitors municipal IoT sensor grids and automates emergency ticket routing for public utility failures.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "TypeScript",
+        "Next.js"
+      ],
+      "title": "AegisNode",
+      "track": "Civic & Public Utilities",
+      "why_it_could_win": "Directly targets the Civic & Public Utilities track by replacing slow manual dispatch with deterministic, auditable multi-agent workflows."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-driven patient acquisition and conversational intake trust engine tailored for low-bandwidth rural healthcare clinics.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "ClinicTrust AI",
+      "track": "Low-Bandwidth Healthcare",
+      "why_it_could_win": "Fits the Low-Bandwidth Healthcare track by optimizing media payloads and using edge-caching for low-connectivity environments."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite imagery and Graph Neural Network pipeline that monitors industrial land compliance and urban deforestation risks in real-time.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PyTorch",
+        "Mapbox GL"
+      ],
+      "title": "EcoGraph Analytics",
+      "track": "Climate & Urban Resilience",
+      "why_it_could_win": "Aligns with Climate & Urban Resilience by leveraging computer vision and geospatial analysis to flag regulatory violations automatically."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Autonomous workflow automation agent that screens pull requests for security vulnerabilities, compliance drift, and dependency risks using local AST parsers.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "OpenAI API",
+        "Docker"
+      ],
+      "title": "DevGuard Agent",
+      "track": "Open Innovation & DevTools",
+      "why_it_could_win": "Targets Open Innovation & DevTools with hard engineering that provides immediate, tangible utility to engineering teams."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Poisson regression and incident forecasting tool predicting cascading failures in cloud infrastructure and automated workflow pipelines.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "FaultCast AI",
+      "track": "AI Agents & Workflow Automation",
+      "why_it_could_win": "Matches the AI Agents & Workflow Automation track through advanced statistical modeling and calibrated prediction intervals."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

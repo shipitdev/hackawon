@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-16T07:50:47.220904+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754670",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1155558847"
+      ],
+      "pitch": "A mobile-first web app allowing citizens to photograph local infrastructure issues like potholes or broken streetlights, automatically tagging GPS coordinates and translating descriptions into local official languages for municipal bodies.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "SetuScan: Regional Language Public Infrastructure Auditor",
+      "track": "Online Track",
+      "why_it_could_win": "Targeted directly at a beginner-friendly hybrid hackathon focused on turning local problems into practical solutions, appealing to judges looking for immediate civic utility."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "A lightweight platform connecting local farmers facing crop surplus with nearby micro-enterprises and food banks, optimizing routes to minimize food waste during harvest season.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Leaflet.js",
+        "SQLite"
+      ],
+      "title": "AgriBridge: Direct Farmer-to-Consumer Produce Surplus Matcher",
+      "track": "Offline Track",
+      "why_it_could_win": "Solves a grounded regional economic problem with a clear logistical prototype that judges can easily test and understand within a short timeframe."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered curriculum generator that builds hyper-localized, offline-accessible micro-learning roadmaps for vocational students based on available regional industries.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "IndexedDB",
+        "Ollama"
+      ],
+      "title": "EduSetu: Low-Bandwidth Offline-First Skill Pathway Generator",
+      "track": "Online Track",
+      "why_it_could_win": "Addresses accessibility challenges in hybrid and tier-2 educational settings, resonating well with beginner-friendly impact criteria."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1241231621"
+      ],
+      "pitch": "An emergency logistics prototype mapping regional blood banks and community donors to hospitals in real-time using SMS fallback notifications for areas with poor internet connectivity.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Twilio API",
+        "PostgreSQL"
+      ],
+      "title": "MedRoute: Community Blood and Resource Allocator",
+      "track": "Offline Track",
+      "why_it_could_win": "High emotional and practical resonance for local hackathon judges prioritizing emergency healthcare resilience."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1213911408"
+      ],
+      "pitch": "An IoT and web dashboard simulator that tracks institutional utility usage, providing automated daily reduction targets and gamified leaderboards for student hostels.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Chart.js",
+        "MQTT"
+      ],
+      "title": "CampusFlow: Smart Energy & Water Usage Monitor for Hostels",
+      "track": "Offline Track",
+      "why_it_could_win": "Directly deployable by the hosting institution or local campuses, giving judges a tangible, ready-to-pilot real-world prototype."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

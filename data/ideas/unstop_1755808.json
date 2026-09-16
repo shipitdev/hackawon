@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-16T07:50:55.720508+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755808",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A verification gateway that serializes agent state, memory, and tool definitions into a portable JSON-LD schema, allowing an agent built in LangChain to instantly resume execution inside a Lyzr runtime without state loss.",
+      "stack": [
+        "Python",
+        "Pydantic",
+        "FastAPI",
+        "LangChain",
+        "Lyzr"
+      ],
+      "title": "CrossRuntime Agent Passport Validator",
+      "track": "Agent Building",
+      "why_it_could_win": "Directly addresses the core requirement of the Agent Passport Challenge by proving agent portability and interoperability across different runtimes."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A tool that automatically parses a BPMN workflow diagram and transpiles it into executable multi-agent configurations that can be deployed across different agent frameworks seamlessly.",
+      "stack": [
+        "Python",
+        "BPMN-Parser",
+        "Docker",
+        "OpenAI API"
+      ],
+      "title": "BPMN Agent Runtime Migrator",
+      "track": "Framework Migration",
+      "why_it_could_win": "Leverages the proven success of BPMN-orchestrated AI workflows while focusing on the framework migration and verification checkpoints required by the challenge."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol (MCP) server extension that standardizes tool-calling schemas and context persistence so that autonomous agents can hot-swap their underlying LLM runtime mid-task.",
+      "stack": [
+        "TypeScript",
+        "MCP SDK",
+        "Node.js",
+        "Redis"
+      ],
+      "title": "Federated MCP Agent State Sync",
+      "track": "Open Source Contributions",
+      "why_it_could_win": "Combines federated protocol architectures with rigorous verification checkpoints, aligning with high-scoring engineering patterns from infrastructure hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "An automated testing harness that subjects portable AI agents to adversarial inputs during runtime migration to prove that memory corruption and tool-hallucination do not occur when crossing ecosystems.",
+      "stack": [
+        "Python",
+        "Pytest",
+        "LLM-Judge",
+        "Docker"
+      ],
+      "title": "Adversarial State Verification Harness",
+      "track": "Technical Deep Dives",
+      "why_it_could_win": "Focuses heavily on production-grade documentation and verification checkpoints, which earn direct points in the 21-day challenge milestones."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A cryptographic verification pipeline that generates zero-knowledge proofs of agent execution steps, allowing a client to verify that a portable agent completed its task correctly on an untrusted runtime.",
+      "stack": [
+        "Python",
+        "Rust",
+        "ZK-Circuits",
+        "FastAPI"
+      ],
+      "title": "Zero-Knowledge Agent Proof Passport",
+      "track": "Technical Deep Dives",
+      "why_it_could_win": "Provides genuinely hard engineering that satisfies the verification and proof requirements of the Agent Passport Challenge."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

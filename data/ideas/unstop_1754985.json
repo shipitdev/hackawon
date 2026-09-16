@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-16T07:50:51.227946+00:00",
+  "grounding": {
+    "domains": [
+      "arvr",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754985",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:182363623"
+      ],
+      "pitch": "An augmented reality medical learning tool that overlays interactive 3D skeletal and organ models onto physical textbooks using marker-based tracking.",
+      "stack": [
+        "Unity",
+        "C#",
+        "ARFoundation",
+        "Blender"
+      ],
+      "title": "AnatomyAR",
+      "track": "Education & Healthcare",
+      "why_it_could_win": "Addresses the education and healthcare domain explicitly highlighted in the hackathon description, leveraging practical AR visualization for real-world utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:609381007",
+        "github:182363623"
+      ],
+      "pitch": "A mixed-reality campus or museum tour guide application built for Meta Quest headsets that recreates historical artifacts and environments in 3D space.",
+      "stack": [
+        "Unity",
+        "OpenXR",
+        "C#",
+        "Meta Quest SDK"
+      ],
+      "title": "XRPath",
+      "track": "Tourism & Entertainment",
+      "why_it_could_win": "Targets the tourism and education sectors with an immersive VR experience that demonstrates how spatial computing can transform traditional physical site visits."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:988515862",
+        "github:123678562"
+      ],
+      "pitch": "A computer vision-driven workout trainer that tracks real-time skeletal joints using MediaPipe and renders a 3D avatar mirror in a virtual gym environment.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "PyQt5",
+        "Unity"
+      ],
+      "title": "PoseFit XR",
+      "track": "Industry & Gaming",
+      "why_it_could_win": "Combines advanced machine learning pose estimation with interactive 3D graphics, showing a working live demo that judges can interact with instantly."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1022921066",
+        "github:609381007"
+      ],
+      "pitch": "An immersive VR experience where users talk via voice to AI-driven non-player characters that inhabit a virtual workspace to train users in public speaking.",
+      "stack": [
+        "Python",
+        "Unity",
+        "OpenAI API",
+        "WebSockets"
+      ],
+      "title": "SpatialChat NPC",
+      "track": "Education & Industry",
+      "why_it_could_win": "Solves a real-world professional training problem by fusing generative AI voice pipelines with spatial VR environments for a polished, functional demo."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1069255350",
+        "github:609381007"
+      ],
+      "pitch": "A collaborative virtual reality simulation that visualizes real-time climate data and industrial carbon emissions as an interactive 3D city landscape.",
+      "stack": [
+        "Unity",
+        "C#",
+        "Python",
+        "OpenXR"
+      ],
+      "title": "EcoSim VR",
+      "track": "Industry & Real-World Impact",
+      "why_it_could_win": "Tackles industrial sustainability and real-world impact by translating complex data science metrics into an intuitive immersive XR environment."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
