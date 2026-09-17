@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-17T07:56:22.880098+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "healthtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756453",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A gamified micro-savings and investment education app targeted at college students with localized UPI integration and visual budgeting nodes.",
+      "stack": [
+        "React Native",
+        "TailwindCSS",
+        "Figma"
+      ],
+      "title": "AuraFin",
+      "track": "FinTech",
+      "why_it_could_win": "Focuses heavily on UI/UX and visual design, which is a primary judging criterion for GDG KalaKriti."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1289086869"
+      ],
+      "pitch": "An AI-powered document parser and appeal generator designed to prevent wrongful health insurance claim rejections in India.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "OpenAI API"
+      ],
+      "title": "MediClaim Assist",
+      "track": "Health & Wellness",
+      "why_it_could_win": "Leverages the architectural pattern of enterprise agents fighting insurance denials seen in winning healthtech hackathon projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A hyper-local sustainability dashboard tracking real-time urban air quality and commuting carbon footprints for Mumbai neighborhoods.",
+      "stack": [
+        "React",
+        "Leaflet.js",
+        "Node.js",
+        "Chart.js"
+      ],
+      "title": "EcoPulse Mumbai",
+      "track": "Sustainability / Smart Cities",
+      "why_it_could_win": "Directly tackles the Sustainability and Smart Cities design domain using practical data visualization tailored to local urban challenges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A meal planning and nutrition assistant optimized for Indian college student hostel mess menus and local grocery availability.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "NutriMeal AI",
+      "track": "Health & Wellness",
+      "why_it_could_win": "Adapts proven nutrition platform mechanics into a hyper-localized context that judges will immediately relate to."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An IoT-enabled waste management monitoring interface that optimizes municipal garbage collection routes dynamically.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "SmartBin Network",
+      "track": "Sustainability / Smart Cities",
+      "why_it_could_win": "Addresses Smart Cities infrastructure using clear status dashboards and simulated sensor streams which excel in short-duration designathons."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

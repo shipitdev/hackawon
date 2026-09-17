@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-09-17T07:56:50.039208+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757030",
+  "ideas": [
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A Python and C++ benchmarking engine tailored for 60-minute algorithmic assessments, specifically optimizing pattern-matching and string transformation problems for maximum execution speed under tight constraints.",
+      "stack": [
+        "Python",
+        "C++",
+        "FastAPI"
+      ],
+      "title": "StringAlgorunner",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the focus on string manipulation, arrays, and numbers assessed on the Unstop coding platform, leveraging competitive programming optimization techniques."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "An interactive web-based visualizer for complex array-based algorithms and pointer manipulation techniques frequently tested in timed coding assessments.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "ArrayPatternVisualizer",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep understanding of array mechanics and algorithmic complexity tested in the contest, serving as an educational aid for rapid verification."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "A lightweight CLI tool to automatically generate edge-case test suites for number theory and boundary-condition problems found in algorithmic tests.",
+      "stack": [
+        "Python",
+        "Click"
+      ],
+      "title": "NumericConstraintsValidator",
+      "track": "",
+      "why_it_could_win": "Addresses the requirement for robust input handling and constraint verification under strict time limits."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping harness for testing multiple algorithmic solutions simultaneously against custom string parsing datasets before submission on Unstop.",
+      "stack": [
+        "Python",
+        "Docker"
+      ],
+      "title": "FastSubChecker",
+      "track": "",
+      "why_it_could_win": "Targets the specific pain points of short-duration coding assessments where fast iteration and error-free code execution are paramount."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "An automated complexity analysis utility that scans source code for inefficient string concatenation and substring operations in competitive programming submissions.",
+      "stack": [
+        "Python",
+        "AST"
+      ],
+      "title": "StringMetricAnalyzer",
+      "track": "",
+      "why_it_could_win": "Helps participants avoid Time Limit Exceeded (TLE) errors by flagging inefficient string operations common in beginner implementations."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-17T07:56:27.771901+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756708",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A rapid automated feature engineering and drift detection pipeline built for the 48-hour Kaggle qualifier that automatically alerts when challenge distribution shifts occur.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "Kaggle Auto-Feature & Dynamic Drift Adaptor",
+      "track": "",
+      "why_it_could_win": "Directly targets the core hackathon mandate of cleaning messy data and adapting when new information changes the task."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A lightweight web app leveraging XGBoost and SHAP values to predict patient readmissions and deliver transparent clinical justifications for every output.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "Clinical Readmission Explainer Dashboard",
+      "track": "",
+      "why_it_could_win": "Replicates a proven winning formula by combining high predictive accuracy with interpretability features judges value."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A solo-friendly platform that ingests tabular datasets and trained model predictions to detect, explain, and automatically mitigate demographic and feature-based biases.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "FairLens ML Bias Mitigation Toolkit",
+      "track": "",
+      "why_it_could_win": "Follows a distinct winning pattern of building rigorous diagnostic and governance tools for complex machine learning pipelines."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:985196561",
+        "github:1341712439"
+      ],
+      "pitch": "An AI-powered infrastructure log analysis dashboard utilizing anomaly detection models to flag security incidents and unexpected traffic drops in real time.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Next.js",
+        "Isolation Forest"
+      ],
+      "title": "LogAnomalizer: Automated NGINX Log Diagnostic",
+      "track": "",
+      "why_it_could_win": "Demonstrates robust handling of unstructured operational data under time pressure, mirroring past hackathon champions."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A testing suite and evaluation harness designed to measure multi-turn reasoning degradation and progress indicators across small open-source models.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "HuggingFace Transformers"
+      ],
+      "title": "LLM Metacognition Benchmark Runner",
+      "track": "",
+      "why_it_could_win": "Focuses on rigorous model evaluation metrics which appeal heavily to data science judging panels looking for deep methodology."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

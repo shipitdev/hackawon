@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-17T07:55:52.067707+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754766",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered graph intelligence and risk detection platform specifically engineered to flag fraudulent medical billing, fake insurance claims, and money laundering rings across public and private digital healthcare systems.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "Next.js"
+      ],
+      "title": "MediGraph AML Fraud Shield",
+      "track": "Smart Systems Track: Digital Healthcare / Banking Fraud Detection",
+      "why_it_could_win": "Directly targets two of the official innovation tracks (Digital Healthcare and Banking Fraud Detection) by combining graph intelligence with explainable AI, mirroring the winning strategy of Bito."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A public sector risk forecasting dashboard utilizing Poisson regression and rolling backtests to predict infrastructure bottlenecks and administrative compliance incidents before they impact public delivery.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Streamlit",
+        "Poisson GAM"
+      ],
+      "title": "GovPulse AI-Incident & Public Sector Forecaster",
+      "track": "Smart Systems Track: Public Sector",
+      "why_it_could_win": "Aligns tightly with the Public Sector domain of the Smart Systems Track and implements rigorous statistical modeling similar to top-tier winners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-driven patient acquisition and trust engine custom-built for digital healthcare clinics in India to manage patient onboarding, multilingual intake triage, and automated follow-up workflows.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "TrustDentist Patient Acquisition Engine",
+      "track": "Smart Systems Track: Digital Healthcare",
+      "why_it_could_win": "Builds on a proven 1st-prize architecture designed for rapid deployment during tight sprint windows while directly addressing the Digital Healthcare track."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite monitoring system that uses computer vision and geospatial analysis to automatically flag illegal industrial encroachment and environmental compliance violations for public sector auditing.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Leaflet.js",
+        "OpenCV",
+        "Node.js"
+      ],
+      "title": "GreenTrace Satellite Land & ESG Compliance",
+      "track": "Smart Systems Track: Public Sector",
+      "why_it_could_win": "Combines hard engineering in computer vision with a real public sector use case, leveraging the proven runner-up formula of spatial compliance monitoring."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent nutritional support platform tailored for student and public healthcare populations that generates personalized meal plans and real-time dietary insights using RAG workflows.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "NutriCare AI Campus Wellness Assistant",
+      "track": "Smart Systems Track: Digital Healthcare",
+      "why_it_could_win": "Leverages multi-agent architecture and personalized RAG workflows, mirroring hackathon-winning setups designed to deliver high user engagement under tight deadlines."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

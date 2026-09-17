@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-17T07:56:36.330703+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756925",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline code execution checker running on resource-constrained microcontrollers using lightweight quantization.",
+      "stack": [
+        "Python",
+        "C++",
+        "TensorFlow Lite"
+      ],
+      "title": "Embedded Edge AI Code Verifier",
+      "track": "",
+      "why_it_could_win": "Directly targets the embedded systems and hardware focus of Invente'26 while utilizing NPUs and edge optimization patterns proven in hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent closed-loop operations platform that detects and self-heals anomalies in simulated smart-home IoT telemetry.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python"
+      ],
+      "title": "Autonomous IoT Diagnostic Agent",
+      "track": "",
+      "why_it_could_win": "Combines hardware telemetry with multi-agent diagnosis, aligning with judging criteria for real-world functionality and technical implementation."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that classifies hardware sensor inputs and routes them to optimal lightweight models locally.",
+      "stack": [
+        "Python",
+        "Semantic Router",
+        "FastAPI"
+      ],
+      "title": "Semantic Router for Edge Routing",
+      "track": "",
+      "why_it_could_win": "Features clever algorithmic routing that saves processing power, satisfying judges looking for advanced technical implementation."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An automated risk diagnosis tool that checks firmware updates against safety rule definitions before flashing to hardware.",
+      "stack": [
+        "Python",
+        "BPMN",
+        "C++"
+      ],
+      "title": "Pre-Deployment Risk Guard for Hardware Firmware",
+      "track": "",
+      "why_it_could_win": "Brings rigorous software governance patterns directly to the embedded systems domain, addressing reliability concerns."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An agentic incident response system that detects missing or corrupted sensor logs, creates verified patches, and pushes updates.",
+      "stack": [
+        "Python",
+        "Claude API",
+        "SQLite"
+      ],
+      "title": "Autonomous Data Incident Response for Edge Sensors",
+      "track": "",
+      "why_it_could_win": "Emphasizes a working demo of closed-loop automation, ticking the functionality and presentation evaluation boxes."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

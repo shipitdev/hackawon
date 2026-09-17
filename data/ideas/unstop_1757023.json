@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-17T07:56:46.047191+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757023",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router combined with a Qiskit QAOA module to offload complex combinatorial optimization queries to quantum backends only when classical vector similarity proves inconclusive.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "superlinked",
+        "qwen"
+      ],
+      "title": "Qiskit Hybrid Optimization Router",
+      "track": "",
+      "why_it_could_win": "Directly taps into Qiskit Fall Fest 2026 themes by combining classical routing (proven by Superlinked × Qwen winners) with practical quantum-classical hybrid execution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A workflow orchestrator that uses BPMN diagrams to model and enforce error-mitigation and pre-deployment risk checks for parameterized quantum circuits before execution on cloud QPUs.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "ai-governance",
+        "bpmn"
+      ],
+      "title": "Quantum Circuit BPMN Governance Engine",
+      "track": "",
+      "why_it_could_win": "Leverages the BPMN orchestration and AI governance patterns that won UiPath AgentHack, applying them to the niche of reliable quantum pipeline management."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI code quality analyzer running on localized hardware that translates specific optimization loops into quantum kernels to evaluate speedup potential locally.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "transformers"
+      ],
+      "title": "QPU-Accelerated Offline Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Adapts the Snapdragon Multiverse runner-up concept of offline specialized tooling, shifting the heavy lifting toward local quantum simulation and kernel analysis."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two competing Qiskit-powered RL agents play a zero-sum game of quantum state discrimination, autonomously discovering novel entanglement distillation and error-hiding strategies.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "reinforcement-learning"
+      ],
+      "title": "Adversarial Quantum State Discrimination Agents",
+      "track": "",
+      "why_it_could_win": "Applies the exact winning formula from the Datadog Self-Improving Agents Hack where self-play creates emergent, non-programmed behavioral solutions."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A vector search and retrieval-augmented generation toolkit optimized for querying quantum algorithm research papers, incorporating auto-embedding layers for quantum circuit representations.",
+      "stack": [
+        "Python",
+        "embeddings",
+        "mariadb",
+        "Qiskit"
+      ],
+      "title": "TOON-Native Quantum Embedding RAG",
+      "track": "",
+      "why_it_could_win": "Replicates the MariaDB Hackathon-winning tool architecture, tailoring the indexing specifically to quantum circuit graphs and research literature."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

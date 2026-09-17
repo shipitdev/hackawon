@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-17T07:56:41.421810+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756946",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "A localized computer vision system running on edge devices to instantly detect safety gear violations and hazardous workplace conditions without cloud latency.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Raspberry Pi"
+      ],
+      "title": "Edge-IoT Industrial Safety Sentinel",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages the organizing Department of CSE (IoT) focus by providing a physical edge computing prototype that solves a real-world industrial compliance problem."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "An ESP32-based hardware tag that monitors cold-chain transport parameters and uses analog signature checks to flag supply chain tampering.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "Firebase"
+      ],
+      "title": "Agri-IoT Tamper-Proof Logistics Tag",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines physical IoT sensors with verifiable logging, aligning with the Department of CSE (IoT & BT) profile of the hosting institution."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A closed-loop diagnostic platform powered by lightweight machine learning models to detect and auto-remediate anomalies in smart home IoT networks.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "TimescaleDB"
+      ],
+      "title": "Autonomous Multi-Agent Smart Grid Ops",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates complex multi-agent system orchestration scoped down to run smoothly within a strict 8-hour timeframe."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1106438693"
+      ],
+      "pitch": "A distributed edge computing node system designed to triangulate unknown RF signal sources using synchronized multi-sensor inputs.",
+      "stack": [
+        "Go",
+        "Python",
+        "WebSockets",
+        "Raspberry Pi"
+      ],
+      "title": "RF Signal Triangulation Hub",
+      "track": "Open Innovation",
+      "why_it_could_win": "Brings rigorous, low-level systems engineering and networking to an open innovation hackathon, instantly standing out from standard web apps."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A localized transaction analysis engine combining graph intelligence and light gradient boosting to flag financial anomalies instantly.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "Graph-Powered AML Risk Screener",
+      "track": "Open Innovation",
+      "why_it_could_win": "Applies advanced financial intelligence analytics that judges favor for real-world enterprise applicability and high execution quality."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

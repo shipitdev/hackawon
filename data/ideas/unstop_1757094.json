@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-17T07:56:59.692174+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757094",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1200926140"
+      ],
+      "pitch": "A real-time analytics dashboard that ingests chat transcripts, tracks the emotional arc across multi-turn exchanges, and flags subtle shifts into sarcasm, passive-aggression, and escalation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Hugging Face Transformers",
+        "Recharts"
+      ],
+      "title": "ChatPulse: Multi-Turn Conversation Emotional Arc & Sarcasm Tracker",
+      "track": "PS-01 — Tone Intelligence in Conversations",
+      "why_it_could_win": "Directly targets Problem Statement PS-01 for the Cerebro Hackathon, addressing the exact requirements of sarcasm detection and emotion-arc visualization over conversations."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An NLP pipeline that monitors live customer support chats, calculates rolling sentiment and toxicity metrics, and predicts customer churn or escalation risk before it happens.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "PyTorch",
+        "TailwindCSS"
+      ],
+      "title": "EscalationEye: Customer Support Sentiment Escalation Predictor",
+      "track": "PS-01 — Tone Intelligence in Conversations",
+      "why_it_could_win": "Leverages time-series forecasting and regression patterns seen in winning AI incident models, applied specifically to conversational emotion tracking."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-based sentiment visualization tool that maps interpersonal relationships, hidden tensions, and shifting tone dynamics across group messaging platforms.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "React",
+        "Flask"
+      ],
+      "title": "ToneGraph: Network Analysis of Group Chat Dynamics and Tensions",
+      "track": "PS-01 — Tone Intelligence in Conversations",
+      "why_it_could_win": "Combines graph intelligence with affective computing, providing the technical depth judges look for in CSE department hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A lightweight browser extension and API that highlights ironic or passive-aggressive remarks in long Slack or Discord chat logs with confidence scores.",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "FastAPI",
+        "Chrome Extensions API"
+      ],
+      "title": "SarcasmScope: Fine-Tuned Irony Detector for Multi-Turn Dialogues",
+      "track": "PS-01 — Tone Intelligence in Conversations",
+      "why_it_could_win": "Solves the notoriously difficult NLP problem of sarcasm and irony detection requested in PS-01 with a functional, end-to-end usable product."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1200926140"
+      ],
+      "pitch": "An automated auditing tool that ingests customer success chat histories, visualizes the emotional trajectory, and generates executive summaries of team-to-customer emotional resonance.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Gemini API"
+      ],
+      "title": "EmpathChat: Executive Summary of Conversational Emotional Health",
+      "track": "PS-01 — Tone Intelligence in Conversations",
+      "why_it_could_win": "Translates complex affective computing metrics into clear, actionable business insights that appeal directly to academic and industry judges."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

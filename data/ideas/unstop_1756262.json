@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-17T07:56:19.312070+00:00",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756262",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A vernacular voice-first AI assistant designed for rural healthcare workers to track local immunization schedules, report waterborne disease outbreaks, and log maternal health metrics via simple phone calls or WhatsApp audio messages.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "Twilio",
+        "PostgreSQL"
+      ],
+      "title": "GramSwasthya",
+      "track": "",
+      "why_it_could_win": "Directly targets the rural India community challenge mandate of the hackathon with a working multilingual demo, closely mirroring past winners focused on health awareness and accessibility."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An offline-first progressive web app connecting rural farmer producer organizations directly with urban micro-retailers, cutting out middlemen and predicting optimal perishable produce pricing using lightweight regression.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "title": "AgriLink Supply Chain",
+      "track": "",
+      "why_it_could_win": "Combines both rural production and urban consumption challenges into a single scalable economic solution with clear measurable impact on farmer margins."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1228867095",
+        "github:1087704265"
+      ],
+      "pitch": "A real-time voice call analyzer extension that detects fraudulent financial schemes and loan scams targeting elderly or semi-urban citizens in regional Indian languages.",
+      "stack": [
+        "Python",
+        "WebSockets",
+        "Gemini API",
+        "React Native"
+      ],
+      "title": "Sahayak AI Scams Shield",
+      "track": "",
+      "why_it_could_win": "Applies real-time AI safety engineering to a severe domestic problem, matching the technical sophistication of previous agentic safety winners."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1143576965"
+      ],
+      "pitch": "An automated urban infrastructure reporting tool that ingests dashcam or smartphone video from delivery riders, detects potholes and streetlamp failures using edge computer vision, and auto-routes tickets to municipal dashboards.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "Leaflet.js",
+        "Node.js",
+        "Supabase"
+      ],
+      "title": "CivicPothole AI",
+      "track": "",
+      "why_it_could_win": "Solves a prominent urban community challenge with a live working demo that maps issues directly for city officials, reflecting successful civic tech winning patterns."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An AI-powered matchmaking platform that pairs urban volunteer youth with nearby rural skill-development centers and adult literacy initiatives based on real-time availability and proximity.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "title": "SevaConnect",
+      "track": "",
+      "why_it_could_win": "Demonstrates clear social community impact by bridging urban resources with rural educational deficits within a tightly scoped 24-hour build."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

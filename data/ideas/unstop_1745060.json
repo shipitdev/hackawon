@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-17T07:55:33.932101+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745060",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1079921550"
+      ],
+      "pitch": "An AI-powered digital twin platform to predict thermal degradation and tensile strength of recycled polyethylene blends based on processing temperatures and molecular weight distributions.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "PolymerFlow Digital Twin",
+      "track": "",
+      "why_it_could_win": "Aligns with the core materials science theme of the IIT Madras Amalgam symposium by directly solving industrial recycling and property prediction problems."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:939311314"
+      ],
+      "pitch": "A machine learning pipeline that predicts the carbon footprint and biodegradability rates of newly synthesized bio-polymers from their chemical SMILES strings.",
+      "stack": [
+        "Python",
+        "RDKit",
+        "LightGBM",
+        "Streamlit"
+      ],
+      "title": "GreenPolymer LCA Predictor",
+      "track": "",
+      "why_it_could_win": "Combines materials engineering property prediction with sustainability metrics, which appeals directly to academic judges from IITs and IISc."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An interactive web application combining a machine learning model for polymer melt viscosity estimation with real-time sensor simulation feeds for extrusion manufacturing.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Flask",
+        "Next.js",
+        "Supabase"
+      ],
+      "title": "ViscoPredict IoT Copilot",
+      "track": "",
+      "why_it_could_win": "Features a live interactive demo showcasing predictive capabilities rather than static model metrics, following winning hackathon patterns."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "A web-based interactive tool allowing materials engineers to input filler concentration and polymer matrix types to instantly predict electrical conductivity and glass transition temperature.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "XGBoost",
+        "Streamlit"
+      ],
+      "title": "NanoComposite Property Explorer",
+      "track": "",
+      "why_it_could_win": "Provides an immediately usable domain-specific tool for metallurgical and materials engineering researchers attending the national symposium."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An image classification and property correlation model that takes microscopy images of polymer films and predicts structural tear resistance and crystallinity index.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "PolymerDefect Vision AI",
+      "track": "",
+      "why_it_could_win": "Bridges the gap between computer vision and physical materials characterization, a unique intersection for a metallurgical festival hackathon."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

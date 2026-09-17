@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-17T07:56:54.466264+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757082",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive execution trace visualizer specifically tailored for competitive programming test cases, stepping through memory and variable states line by line.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Monaco Editor"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Directly targets the core theme of ELUCode-4 by helping coders debug complex algorithmic logic failures in real-time."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A smart edge-case generator that ingests a problem statement and automatically outputs adversarial test cases to break naive competitive programming solutions.",
+      "stack": [
+        "Python",
+        "LLM",
+        "FastAPI"
+      ],
+      "title": "CP-Testcase-Gen",
+      "track": "",
+      "why_it_could_win": "Leverages algorithmic thinking and test-case generation, which aligns closely with how ELUCode evaluates code efficiency and correctness."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight static analysis tool that estimates the time and space complexity of submitted code before running it against hidden test cases.",
+      "stack": [
+        "Python",
+        "AST",
+        "Streamlit"
+      ],
+      "title": "Complexity-Oracle",
+      "track": "",
+      "why_it_could_win": "Addresses the specific scoring criteria of ELUCode which heavily rewards efficiency and optimization on hidden test suites."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A minimalist head-to-head competitive coding platform where single players solve mini algorithmic puzzles against an AI bot with adjustable time limits.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "React"
+      ],
+      "title": "DuelCode Arena",
+      "track": "",
+      "why_it_could_win": "Emulates the fast-paced, competitive spirit of EduLinkUp's challenge structure with interactive gamification."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A smart snippet manager for competitive programmers that auto-indexes data structure implementations and graph algorithms for instant retrieval during contests.",
+      "stack": [
+        "TypeScript",
+        "IndexedDB",
+        "TailwindCSS"
+      ],
+      "title": "SnippetVault CP",
+      "track": "",
+      "why_it_could_win": "Provides a practical, productivity-boosting tool tailored directly to the fast-paced 2-hour format of EduLinkUp coding contests."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

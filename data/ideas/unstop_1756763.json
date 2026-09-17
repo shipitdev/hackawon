@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-17T07:56:32.449418+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756763",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered debugging and code refactoring platform specifically targeted at C, Java, and Python syntax traps often found in competitive programming and academic exams.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Babel"
+      ],
+      "title": "SyntaxSage",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the Department of Computer Applications' focus on debugging skills and logic testing, appealing to faculty judges who want to see tooling for academic and competitive programming."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A visual algorithm dependency mapper that takes dense competitive programming problems and generates graph intelligence showing optimal data structures and time complexity pathways.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "NetworkX",
+        "Python"
+      ],
+      "title": "LogicGraph",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering by parsing code logic into graph representations, reflecting patterns from top-tier technical hackathon winners."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A real-time collaborative pair-programming environment designed exclusively for teams of two, featuring synchronized AST analysis to prevent conflicting logic blocks during timed hackathon sprints.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Monaco Editor",
+        "Node.js"
+      ],
+      "title": "CodeDuet",
+      "track": "",
+      "why_it_could_win": "Targeted precisely at the strict two-member team constraint of Optiquest, solving the exact bottleneck duos face when working under tight time limits."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated complexity analyzer that profiles Python, Java, and C solutions against edge-case test suites, predicting memory limits and TLEs before submission.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Flask",
+        "Chart.js"
+      ],
+      "title": "ByteMetric",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the programming competition and problem-solving abilities emphasized by the R.V.R. & J.C. College of Engineering event organizers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated question bank generator that uses AST parsing on GitHub repositories to instantly create multi-level C, Java, and Python multiple-choice questions for technical tests.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Transformers",
+        "SQLite"
+      ],
+      "title": "MCQGen",
+      "track": "",
+      "why_it_could_win": "Mirrors the prelim format of Optiquest (MCQs covering C, Java, and Python syntax), offering immediate practical utility for the event's organizers and department."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
