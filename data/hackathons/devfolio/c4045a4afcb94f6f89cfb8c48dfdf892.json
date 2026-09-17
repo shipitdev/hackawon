@@ -5,7 +5,7 @@
   "ends_at": "2026-11-15T07:30:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 234,
+  "participants_count": 236,
   "prize_amount": null,
   "prize_currency": null,
   "projects_submitted": 0,
@@ -81,7 +81,7 @@
     "judges": [],
     "location": "Guru Nanak Dev Engineering College, Gill Road, Gill Park, Ludhiana, Punjab, India",
     "name": "Hacknauts 2.0",
-    "participants_count": 234,
+    "participants_count": 236,
     "participants_details": [
       {
         "first_name": "Lovish",
@@ -141,6 +141,48 @@
         "name": "Best Girls Team",
         "parent_prize_uuid": null,
         "uuid": "f155c633422d4184ade7b0017dfcf54b"
+      },
+      {
+        "desc": "2-Year CodeCrafters VIP Membership (~$720 value per member) for the 1st Place Champion team. Full access to advanced systems programming challenges — rebuild Redis, Git, SQLite, Kafka & Docker from scratch.",
+        "is_sponsor_prize": false,
+        "name": "CodeCrafters VIP — 1st Place (2-Year Membership)",
+        "parent_prize_uuid": null,
+        "uuid": "49a93cd369514c3888884f70dc5b6b95"
+      },
+      {
+        "desc": "1-Year CodeCrafters VIP Membership (~$360 value per member) for the 2nd Place runner-up team. Year-long unrestricted access to all CodeCrafters tracks & challenges in Rust, Go, Python, C++, TypeScript & more.",
+        "is_sponsor_prize": false,
+        "name": "CodeCrafters VIP — 2nd Place (1-Year Membership)",
+        "parent_prize_uuid": null,
+        "uuid": "bd7baef07c8d44d18e9453c14b4daad1"
+      },
+      {
+        "desc": "6-Month CodeCrafters VIP Membership (~$180 value per member) for the 3rd Place team. Full access to rebuild production systems with instant test runner feedback on git push.",
+        "is_sponsor_prize": false,
+        "name": "CodeCrafters VIP — 3rd Place (6-Month Membership)",
+        "parent_prize_uuid": null,
+        "uuid": "621219b723b348ee8efc3253d4ff002f"
+      },
+      {
+        "desc": "3-Month ElevenLabs Scale Tier license ($897 value / 1.8M credits per month) awarded to the best project built using ElevenLabs Voice AI APIs or Conversational Agents.",
+        "is_sponsor_prize": false,
+        "name": "Track / Bounty Prize (Voice AI Track)",
+        "parent_prize_uuid": null,
+        "uuid": "acdc2db87c4f469fb82662d8afadd880"
+      },
+      {
+        "desc": "3-Month ElevenLabs Pro Tier license ($297 value / 600K credits per month) awarded to all members of the 1st Place Grand Champion team.",
+        "is_sponsor_prize": false,
+        "name": "1st Place Squad Grant (Pro Tier)",
+        "parent_prize_uuid": null,
+        "uuid": "25ec023a72364ed187646b8f8c7ca6b8"
+      },
+      {
+        "desc": "-Month free access with 131,000 character credits provided universally to all registered and verified hackathon participants.",
+        "is_sponsor_prize": false,
+        "name": "Universal Participant Perk (Creator Tier)",
+        "parent_prize_uuid": null,
+        "uuid": "3a8c860eab574216ab61ab863109082e"
       }
     ],
     "projects_submitted": 0,
@@ -175,6 +217,20 @@
             "name": "ElevenLabs",
             "position": 1,
             "uuid": "da8cf2ef80cc47cab47458614c6cee2c"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "codecrafters.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/codecrafters.io.png",
+              "name": "CodeCrafters",
+              "uuid": "6c6fbb0ae7b34e8885e942e914e517c1",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/c4045a4afcb94f6f89cfb8c48dfdf892/sponsors/f555f4052a5941c98696523e43da1f7b/638.png",
+            "name": "CodeCrafters",
+            "position": 2,
+            "uuid": "f555f4052a5941c98696523e43da1f7b"
           }
         ],
         "uuid": "d9c6e954c270430ebc753728f16d4f7f",
@@ -210,7 +266,8 @@
   "source": "devfolio",
   "source_id": "c4045a4afcb94f6f89cfb8c48dfdf892",
   "sponsors": [
-    "ElevenLabs"
+    "ElevenLabs",
+    "CodeCrafters"
   ],
   "starts_at": "2026-11-14T07:30:00Z",
   "tagline": null,
@@ -223,7 +280,13 @@
     "1nd Runner Up",
     "2nd Runner Up",
     "Best Freshers team",
-    "Best Girls Team"
+    "Best Girls Team",
+    "CodeCrafters VIP — 1st Place (2-Year Membership)",
+    "CodeCrafters VIP — 2nd Place (1-Year Membership)",
+    "CodeCrafters VIP — 3rd Place (6-Month Membership)",
+    "Track / Bounty Prize (Voice AI Track)",
+    "1st Place Squad Grant (Pro Tier)",
+    "Universal Participant Perk (Creator Tier)"
   ],
   "url": "https://hacknauts26.devfolio.co/"
 }
