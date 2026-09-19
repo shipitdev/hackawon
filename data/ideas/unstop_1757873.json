@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-19T07:29:22.614523+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757873",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106",
+        "github:1275874285"
+      ],
+      "pitch": "A localized digital twin model targeting Type 2 Diabetes prevalent in India, simulating real-time glucose response based on regional meal intake and simulated wearable continuous glucose monitor (CGM) streams.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "Pandas"
+      ],
+      "title": "GlucoTwin: Type 2 Diabetes Postprandial Glucose Surge Predictor",
+      "track": "",
+      "why_it_could_win": "Directly hits the core prompt requirement to select a specific, highly prevalent chronic condition in India and build a focused proof-of-concept digital twin."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "An AI-powered digital twin prototype that ingests simulated continuous blood pressure and heart rate variability metrics to forecast acute hypertensive episodes 4 hours before onset.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "React"
+      ],
+      "title": "CardioTwin-Risk: Hypertension and Stroke Early Warning Simulator",
+      "track": "",
+      "why_it_could_win": "Focuses on proactive digital health prevention—shifting from reactive care to proactive modeling, which matches the overarching summit philosophy."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:504196992",
+        "github:318387281"
+      ],
+      "pitch": "A localized digital twin combining regional particulate matter (PM2.5) data streams with simulated pulmonary function test histories to predict individual daily asthma exacerbation risks.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "AeroTwin: Urban Asthma and COPD Respiratory Trigger Twin",
+      "track": "",
+      "why_it_could_win": "Leverages real-world environmental health challenges prevalent in Indian metropolitan areas, scoring high on local relevance and practical preventive utility."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:236121938"
+      ],
+      "pitch": "A specialized simulation model replicating metabolic dysfunction-associated steatohepatitis (NASH) trajectories using patient EHR data, diet logs, and synthetic liver enzyme fluctuations.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "NASH-Twin: Metabolic Liver Disease Progression Model",
+      "track": "",
+      "why_it_could_win": "Tackles a complex, emerging lifestyle disease epidemic in India with a clear, niche proof-of-concept scope suitable for a 48-hour build."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A predictive digital twin module estimating eGFR decline rates in diabetic nephropathy patients using longitudinal creatinine and blood pressure time-series records.",
+      "stack": [
+        "Python",
+        "SHAP",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "NephroTwin: Chronic Kidney Disease Deterioration Forecaster",
+      "track": "",
+      "why_it_could_win": "Demonstrates clinical explainability and addresses a massive chronic disease burden in India, fitting the proactive medicine mandate of the Digital Twin Challenge."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

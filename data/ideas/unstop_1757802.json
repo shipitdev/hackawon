@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-19T07:29:09.160114+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757802",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python-based static and dynamic analysis command-line tool that parses OpenAPI specs and intercepts HTTP traffic to automatically test for BOLA and vertical privilege escalation vulnerabilities.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "mitmproxy",
+        "PyYAML"
+      ],
+      "title": "AuthAudit CLI: Automated Broken Object Level Authorization Scanner",
+      "track": "",
+      "why_it_could_win": "Directly targets the API Security and Authentication vs Authorization challenge focus areas, giving judges a practical tool they can immediately use to find real-world flaws."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth middleware proxy that sanitizes incoming API prompts using dual-layer heuristics and deterministic regex boundaries before forwarding requests to backend LLMs.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Vercel AI SDK"
+      ],
+      "title": "PromptShield: Layered Prompt-Injection Hardener for LLM APIs",
+      "track": "",
+      "why_it_could_win": "Leverages the proven defense-in-depth architecture pattern that won past agent challenges, addressing modern API security risks inherent to AI integration."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python tool that ingests raw Burp Suite or OWASP ZAP XML scan files and automatically generates executive-ready markdown reports with severity scores and remediation code snippets.",
+      "stack": [
+        "Python",
+        "Jinja2",
+        "BeautifulSoup",
+        "ReportLab"
+      ],
+      "title": "VulnLens: Automated Web Vulnerability Report Generator",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact architecture and workflow of the Microsoft Global Intern Hackathon winner by transforming security data into actionable developer insights."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "An interactive web dashboard that inspects JSON Web Tokens, tests for common signature algorithm confusion attacks (RS256 to HS256), and audits expiration claims.",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "jsonwebtoken"
+      ],
+      "title": "OAuthScope: JWT Configuration & Misuse Analyzer",
+      "track": "",
+      "why_it_could_win": "Focuses intensely on authentication and authorization fundamentals, hitting the core scoring criteria for practical cybersecurity scenario testing."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "A local-first retrieval-augmented generation assistant loaded with OWASP Top 10 documentation and CWE databases to help junior developers query and remediate secure coding anti-patterns.",
+      "stack": [
+        "Python",
+        "ChromaDB",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "SecAgent: Local RAG-Powered VAPT Assistant",
+      "track": "",
+      "why_it_could_win": "Combines rigorous educational utility with technical execution, appealing to judges evaluating how well participants understand vulnerability analysis."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

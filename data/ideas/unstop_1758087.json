@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-09-19T07:29:26.611660+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758087",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:104920183"
+      ],
+      "pitch": "A pure Python web scraper using BeautifulSoup and lxml that tracks DOM mutations and layout shifts over time across e-commerce pages without using heavy headless browsers.",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "lxml",
+        "requests"
+      ],
+      "title": "RobustHTMLDiffExtractor",
+      "track": "",
+      "why_it_could_win": "Since Selenium and Playwright are strictly prohibited, building a pure lxml/requests-based engine that handles dynamic DOM structures will score maximum points on scraping efficiency and edge-case handling."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated data profiling and integrity validation wrapper for extracted CSV/JSON scraped datasets, instantly checking cardinality, consistency, and missing values.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "DataVeritas-Lite Scraper Profiler",
+      "track": "",
+      "why_it_could_win": "Judges evaluate accuracy, correctness, and processing of extracted information; automating data profiling directly targets their evaluation criteria."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A Python utility that automatically infers optimal regular expressions and CSS selector paths from raw HTML pages to extract semi-structured tabular data reliably.",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "re"
+      ],
+      "title": "RegexPatternAutoDiscovery",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the core technical challenge of analyzing web pages and HTML structures while keeping strictly within lightweight Python constraints."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A high-performance asynchronous scraping pipeline built with httpx and asyncio featuring dynamic backoff and proxy rotation for scraping large static target lists.",
+      "stack": [
+        "Python",
+        "asyncio",
+        "httpx"
+      ],
+      "title": "AsyncScrapeQueue with Adaptive Rate Limiting",
+      "track": "",
+      "why_it_could_win": "Scraping efficiency and edge-case handling are explicitly listed evaluation criteria; an async implementation demonstrates superior software development capability."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A lightweight local vector-embedding search engine over scraped text chunks using compact transformer embeddings to find specific facts across extracted web data.",
+      "stack": [
+        "Python",
+        "Sentence-Transformers",
+        "FAISS"
+      ],
+      "title": "LocalSemanticScraperQuery",
+      "track": "",
+      "why_it_could_win": "Combines robust data extraction with advanced post-processing of extracted information, satisfying the processing and problem-solving approach criteria."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-19T07:28:55.097111+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1719528",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A programmatic treasure hunt platform where clues are dynamically generated smart contracts that require solving cryptographic puzzles and data structure challenges to reveal the next location.",
+      "stack": [
+        "Solidity",
+        "Next.js",
+        "TypeScript",
+        "Ethers.js"
+      ],
+      "title": "CryptoQuest: On-Chain Treasure Hunt Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the core hackathon themes of Quizzes and Treasure Hunt while demanding genuine algorithmic logic and problem-solving."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An interactive web-based escape room where each puzzle is a data structures or logical reasoning problem that players must solve in real-time to unlock the next room.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "TailwindCSS"
+      ],
+      "title": "LogicLabyrinth: Algorithmic Escape Room & Quiz",
+      "track": "",
+      "why_it_could_win": "Combines the required elements of quizzes and treasure hunts into an engaging narrative format that appeals to judges looking for creativity and logic."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A gamified database and algorithm puzzle platform where participants navigate a story by writing complex SQL queries and sorting algorithms to uncover hidden treasure coordinates.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "JavaScript"
+      ],
+      "title": "QueryQuest: Interactive SQL & DSA Treasure Hunt",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on data structures, algorithms, and logical reasoning, aligning with the organizer's stated evaluation criteria for analytical capabilities."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered platform that generates dynamic, personalized riddles and treasure hunt paths based on the participant's past trivia and logic quiz performance.",
+      "stack": [
+        "Next.js",
+        "Gemini API",
+        "TypeScript",
+        "Prisma"
+      ],
+      "title": "RiddleRouter: AI-Generated Adaptive Treasure Hunt",
+      "track": "",
+      "why_it_could_win": "Demonstrates technical execution using LLM APIs to create a unique twist on traditional trivia and treasure hunt formats."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [],
+      "pitch": "A competitive speed-quizzing and treasure hunt platform where solo players solve concurrent logical reasoning rounds and decrypt clues in a synchronized timed race.",
+      "stack": [
+        "Vue.js",
+        "Socket.io",
+        "Node.js",
+        "Redis"
+      ],
+      "title": "CipherSprint: Real-Time Multiplayer Logic Relay",
+      "track": "",
+      "why_it_could_win": "Addresses the competitive coding and critical thinking environment emphasized by Coding Club TIT."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
