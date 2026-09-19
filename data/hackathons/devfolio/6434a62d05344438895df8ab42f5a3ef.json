@@ -5,7 +5,7 @@
   "ends_at": "2026-10-10T07:00:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 253,
+  "participants_count": 268,
   "prize_amount": null,
   "prize_currency": null,
   "projects_submitted": 0,
@@ -31,7 +31,7 @@
       "logo": "https://assets.devfolio.co/hackathons/6434a62d05344438895df8ab42f5a3ef/assets/logo/91.png",
       "medium": null,
       "primary_color": "#db0006",
-      "reg_ends_at": "2026-09-22T18:29:00+00:00",
+      "reg_ends_at": "2026-09-24T18:29:00+00:00",
       "reg_starts_at": "2026-09-07T18:30:00+00:00",
       "review": false,
       "site": "https://define4.csembcet.in",
@@ -50,7 +50,7 @@
     "judges": [],
     "location": "Mar Baselios College of Engineering and Technology (Autonomous), P.O, Nalanchira, Thattinakam, Thiruvananthapuram, Kerala, India",
     "name": "DEFINE 4.0",
-    "participants_count": 253,
+    "participants_count": 268,
     "participants_details": [
       {
         "first_name": "Sujal",
@@ -103,6 +103,13 @@
         "name": "Grand Prize",
         "parent_prize_uuid": null,
         "uuid": "abf3f0d21ded49ca91a3815ac3edd639"
+      },
+      {
+        "desc": "AI Credits",
+        "is_sponsor_prize": false,
+        "name": "AI Credits",
+        "parent_prize_uuid": null,
+        "uuid": "5186b89b721f45d78d98a965106bd8b5"
       }
     ],
     "projects_submitted": 0,
@@ -128,9 +135,85 @@
             "name": "Devfolio",
             "position": 1,
             "uuid": "94177b86a4da44c5bc122c6ab961f795"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "csi.mbcet.in",
+              "logo": null,
+              "name": "CSI SB MBCET",
+              "uuid": "2f157c88183141d7b0194a36c72c14d8",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/6434a62d05344438895df8ab42f5a3ef/sponsors/7fb3b80b7d714dfe887d4a77fa38ec1c/955.png",
+            "name": "CSI SB MBCET",
+            "position": 2,
+            "uuid": "7fb3b80b7d714dfe887d4a77fa38ec1c"
           }
         ],
         "uuid": "9026bd557ff94f608ead422a16158c26",
+        "width": 200
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": "Silver Sponsor",
+        "position": 2,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "elevenlabs.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/elevenlabs.io.png",
+              "name": "ElevenLabs",
+              "uuid": "a46baa7955334325926ef81ba2f77b42",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/6434a62d05344438895df8ab42f5a3ef/sponsors/1038629bfe2346598f6589588dd947bb/516.png",
+            "name": "ElevenLabs",
+            "position": 1,
+            "uuid": "1038629bfe2346598f6589588dd947bb"
+          }
+        ],
+        "uuid": "db9e45ac0cc8493f8a244fcfdba2a5c0",
+        "width": 250
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": "Educational Partners",
+        "position": 3,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "https://instagram.com/catalystiedc",
+              "logo": null,
+              "name": "Catalyst IEDC",
+              "uuid": "299eaae8c54c43f099e1126c0308638c",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/6434a62d05344438895df8ab42f5a3ef/sponsors/d4fd82acb2464a85b97749acb9d772f7/490.png",
+            "name": "Catalyst IEDC",
+            "position": 1,
+            "uuid": "d4fd82acb2464a85b97749acb9d772f7"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://instagram.com/mulearn.mbcet",
+              "logo": null,
+              "name": "µLearn MBCET",
+              "uuid": "f4b7bd4352764188bf0db6cc1a6a47b1",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/6434a62d05344438895df8ab42f5a3ef/sponsors/c54d11892b844fd7ba820d49bb38713e/173.png",
+            "name": "µLearn MBCET",
+            "position": 2,
+            "uuid": "c54d11892b844fd7ba820d49bb38713e"
+          }
+        ],
+        "uuid": "ebf08221fdca462ba404157011f6f02f",
         "width": 200
       }
     ],
@@ -149,12 +232,16 @@
     "uuid": "6434a62d05344438895df8ab42f5a3ef",
     "verified": true
   },
-  "reg_deadline": "2026-09-22T18:29:00Z",
+  "reg_deadline": "2026-09-24T18:29:00Z",
   "reg_opens_at": null,
   "source": "devfolio",
   "source_id": "6434a62d05344438895df8ab42f5a3ef",
   "sponsors": [
-    "Devfolio"
+    "Devfolio",
+    "CSI SB MBCET",
+    "ElevenLabs",
+    "Catalyst IEDC",
+    "µLearn MBCET"
   ],
   "starts_at": "2026-10-09T04:00:00Z",
   "tagline": "The World's Realest Hackathon",
@@ -166,7 +253,8 @@
     "Best Software",
     "Best Hardware",
     "Best Design",
-    "Grand Prize"
+    "Grand Prize",
+    "AI Credits"
   ],
   "url": "https://define4.devfolio.co/"
 }
