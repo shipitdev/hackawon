@@ -56,7 +56,7 @@
       "updated_at": "2026-09-17T10:19:35+05:30",
       "zip": null
     },
-    "approved_date": "2026-09-03 09:51:19 GMT+0530",
+    "approved_date": "2026-09-20 23:48:43 GMT+0530",
     "assignedTag": {
       "tag": null
     },
@@ -233,7 +233,7 @@
         "durations": 25,
         "text": " days left"
       },
-      "remaining_time": 2222293,
+      "remaining_time": 2205444,
       "show_deadline": 1,
       "start_regn_dt": "2026-08-25T00:00:00+05:30",
       "work_location_type": "city"
@@ -241,48 +241,59 @@
     "regn_open": 1,
     "required_skills": [
       {
-        "id": 645910,
-        "pivot": {
-          "ai_generated": true,
-          "entity_id": 1724723,
-          "id": 6139750,
-          "subject_id": 645910
-        },
-        "skill": "Cybersecurity Frameworks",
-        "skill_name": "Cybersecurity Frameworks"
-      },
-      {
         "id": 645981,
         "pivot": {
           "ai_generated": true,
           "entity_id": 1724723,
-          "id": 6139751,
+          "id": 6182700,
           "subject_id": 645981
         },
         "skill": "Digital Forensics",
         "skill_name": "Digital Forensics"
       },
       {
-        "id": 647699,
+        "id": 646862,
         "pivot": {
           "ai_generated": true,
           "entity_id": 1724723,
-          "id": 6139752,
-          "subject_id": 647699
+          "id": 6182701,
+          "subject_id": 646862
         },
-        "skill": "Vulnerability Assessment",
-        "skill_name": "Vulnerability Assessment"
+        "skill": "Open Source Intelligence (OSINT)",
+        "skill_name": "Open Source Intelligence (OSINT)"
       },
       {
-        "id": 644836,
+        "id": 647718,
         "pivot": {
           "ai_generated": true,
           "entity_id": 1724723,
-          "id": 6139753,
-          "subject_id": 644836
+          "id": 6182702,
+          "subject_id": 647718
         },
-        "skill": "Reverse Engineering",
-        "skill_name": "Reverse Engineering"
+        "skill": "Web Application Security Testing",
+        "skill_name": "Web Application Security Testing"
+      },
+      {
+        "id": 643780,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1724723,
+          "id": 6182703,
+          "subject_id": 643780
+        },
+        "skill": "Ethical Hacking",
+        "skill_name": "Ethical Hacking"
+      },
+      {
+        "id": 645370,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1724723,
+          "id": 6182704,
+          "subject_id": 645370
+        },
+        "skill": "Vulnerability Research",
+        "skill_name": "Vulnerability Research"
       },
       {
         "id": 645910,
@@ -305,25 +316,10 @@
     "thumb": null,
     "title": "Seize da Flaq",
     "type": "hackathons",
-    "updated_at": "2026-09-17T10:19:34+05:30",
-    "viewsCount": 21104,
+    "updated_at": "2026-09-20T23:48:43+05:30",
+    "viewsCount": 21789,
     "visibility": "public",
     "workfunction": [
-      {
-        "batch_id": 11,
-        "created_at": "2026-02-06T23:31:46+05:30",
-        "description": "",
-        "id": 2014,
-        "name": "Quizzes & Treasure Hunt",
-        "pivot": {
-          "ai_generated": true,
-          "entity_id": 1724723,
-          "id": 6139755,
-          "subject_id": 2014
-        },
-        "updated_at": "2026-02-06T23:31:46+05:30",
-        "work_function_name": null
-      },
       {
         "batch_id": 11,
         "created_at": "2026-04-09T00:17:10+05:30",
@@ -333,8 +329,23 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1724723,
-          "id": 6139756,
+          "id": 6182705,
           "subject_id": 2092
+        },
+        "updated_at": "2026-04-09T00:17:10+05:30",
+        "work_function_name": null
+      },
+      {
+        "batch_id": 11,
+        "created_at": "2026-04-09T00:17:10+05:30",
+        "description": "",
+        "id": 2103,
+        "name": "Ethical Hacking",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1724723,
+          "id": 6182706,
+          "subject_id": 2103
         },
         "updated_at": "2026-04-09T00:17:10+05:30",
         "work_function_name": null

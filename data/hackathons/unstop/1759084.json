@@ -1,0 +1,234 @@
+{
+  "city": null,
+  "country": null,
+  "description": "The Problem: On Amazon, the delivery promise a customer sees — “Get it by Tuesday” — is among the strongest drivers of conversion. It is not one national number. It varies by pincode, and follows directly from three things Plantex already controls: where stock sits, how much sits there, and order cutoffs. Plantex already plans stock placement against demand clusters and runs the rebalancing engine that acts on those plans. This project closes the loop — measuring the delivery promise those placement decisions actually produce, at pincode granularity, continuously. A working internal prototype already does the hard part: it queries the Selling Partner API (getFulfillmentPreview) for an estimated arrival date for a given SKU to a given pincode, and assembles a SKU x pincode matrix. Your job is to take it from a script to a system. Project Scope: In Scope: Collection: Automated, scheduled, resumable gathering of delivery-promise data via the Amazon SP-API. Storage: A queryable store that holds history, so the same SKU x pincode is comparable week over week. Analytics: Promise by cluster, SKU and category; trend detection; root-cause separation. Interface: A dashboard, or a clean Power BI dataset, readable by a supply chain manager in seconds. Calibration: A method for quantifying the gap between the API-reported promise and the live storefront promise. Alerting: Notification when a cluster degrades materially. Out of Scope: No web scraping. No storefront scraping of amazon.in, flipkart.com or any marketplace — no HTTP scraping, headless browsers, proxy or VPN rotation, no third-party scraped datasets. A first-party API exists that returns structured, authoritative data with no blocking and no account risk; reaching for a scraper instead is a poor engineering judgement and is scored as one. Any submission containing scraping code or scraped data is disqualified before scoring begins. Also out of scope: competitor pricing or catalogue data; any write operation against Am",
+  "ends_at": "2026-10-01T00:21:00+05:30",
+  "mode": "online",
+  "organiser": "Plantex India",
+  "participants_count": 0,
+  "prize_amount": null,
+  "prize_currency": null,
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "The Problem: On Amazon, the delivery promise a customer sees — “Get it by Tuesday” — is among the strongest drivers of conversion. It is not one national number. It varies by pincode, and follows directly from three things Plantex already controls: where stock sits, how much sits there, and order cutoffs. Plantex already plans stock placement against demand clusters and runs the rebalancing engine that acts on those plans. This project closes the loop — measuring the delivery promise those placement decisions actually produce, at pincode granularity, continuously. A working internal prototype already does the hard part: it queries the Selling Partner API (getFulfillmentPreview) for an estimated arrival date for a given SKU to a given pincode, and assembles a SKU x pincode matrix. Your job is to take it from a script to a system. Project Scope: In Scope: Collection: Automated, scheduled, resumable gathering of delivery-promise data via the Amazon SP-API. Storage: A queryable store that holds history, so the same SKU x pincode is comparable week over week. Analytics: Promise by cluster, SKU and category; trend detection; root-cause separation. Interface: A dashboard, or a clean Power BI dataset, readable by a supply chain manager in seconds. Calibration: A method for quantifying the gap between the API-reported promise and the live storefront promise. Alerting: Notification when a cluster degrades materially. Out of Scope: No web scraping. No storefront scraping of amazon.in, flipkart.com or any marketplace — no HTTP scraping, headless browsers, proxy or VPN rotation, no third-party scraped datasets. A first-party API exists that returns structured, authoritative data with no blocking and no account risk; reaching for a scraper instead is a poor engineering judgement and is scored as one. Any submission containing scraping code or scraped data is disqualified before scoring begins. Also out of scope: competitor pricing or catalogue data; any write operation against Amazon (the system is strictly read-only); customer personal data; mobile applications. Working Environment: Teams build against the SP-API sandbox plus a supplied set of several thousand real, anonymised API responses served by a local mock server. Production credentials are never issued externally; shortlisted submissions are validated against the live account by Plantex engineers, with the team present. Deliverables: Four tracks. Tracks A and B are mandatory to qualify. C and D separate a strong submission from an adequate one. Track A — Collection Engine (Mandatory): Scheduled, unattended execution at a configurable cadence. Client-side throttling to the published limit (2 req/s, burst 30) with exponential backoff on HTTP 429. Idempotent and resumable — an interrupted sweep continues without duplicating work. Structured logging and a per-run summary: calls, successes, failures, throttle events. Classified handling of every documented failure mode, including DeliverySLAUnavailable, ItemQuantityNotAvailable and HTTP 403. Credentials from environment or a secret store, never from source. Track B — Data Model and Storage (Mandatory): A schema supporting the time-series question: the same SKU x pincode measured weekly over months. A justified storage choice — PostgreSQL, SQLite, DuckDB or Parquet all acceptable; the reasoning earns the marks. Ingestion that is safe to re-run, plus a documented query interface for downstream consumers. Track C — Analytics and Interface: SKU x cluster promise matrix with clear visual banding, and week-on-week trend per cluster. Root-cause split — unfulfillable (stock placement) versus slow (transit), each quantified. A join against FC stock position showing which SKUs are misplaced relative to demand. Delivered as a web dashboard or a clean Power BI dataset with a sample report; both count equally. Track D — Calibration and Alerting: A reproducible method for measuring the offset between the API-reported promise and what a real customer ",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "",
+      "address_title": "event_location",
+      "addressable_id": 1759084,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "",
+      "city_id": null,
+      "country": null,
+      "country_code": null,
+      "created_at": "2026-09-21T00:11:52+05:30",
+      "deleted_at": null,
+      "id": 1849685,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "",
+      "state_code": null,
+      "updated_at": "2026-09-21T01:57:15+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-09-21 01:58:28 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>The Problem:</strong></p>\n<p>On Amazon, the delivery promise a customer sees &mdash; &ldquo;Get it by Tuesday&rdquo; &mdash; is among the strongest drivers of conversion. It is not one national number. It varies by pincode, and follows directly from three things Plantex already controls: where stock sits, how much sits there, and order cutoffs.</p>\n<p>Plantex already plans stock placement against demand clusters and runs the rebalancing engine that acts on those plans. This project closes the loop &mdash; measuring the delivery promise those placement decisions actually produce, at pincode granularity, continuously.</p>\n<p>A working internal prototype already does the hard part: it queries the Selling Partner API (getFulfillmentPreview) for an estimated arrival date for a given SKU to a given pincode, and assembles a SKU x pincode matrix. Your job is to take it from a script to a system.</p>\n<p><strong>Project Scope:</strong></p>\n<p><strong>In Scope:</strong></p>\n<ul>\n<li>Collection: Automated, scheduled, resumable gathering of delivery-promise data via the Amazon SP-API.</li>\n<li>Storage: A queryable store that holds history, so the same SKU x pincode is comparable week over week.</li>\n<li>Analytics: Promise by cluster, SKU and category; trend detection; root-cause separation.</li>\n<li>Interface: A dashboard, or a clean Power BI dataset, readable by a supply chain manager in seconds.</li>\n<li>Calibration: A method for quantifying the gap between the API-reported promise and the live storefront promise.</li>\n<li>Alerting: Notification when a cluster degrades materially.</li>\n</ul>\n<p><strong>Out of Scope:</strong></p>\n<p>No web scraping. No storefront scraping of amazon.in, flipkart.com or any marketplace &mdash; no HTTP scraping, headless browsers, proxy or VPN rotation, no third-party scraped datasets. A first-party API exists that returns structured, authoritative data with no blocking and no account risk; reaching for a scraper instead is a poor engineering judgement and is scored as one. Any submission containing scraping code or scraped data is disqualified before scoring begins.</p>\n<p>Also out of scope: competitor pricing or catalogue data; any write operation against Amazon (the system is strictly read-only); customer personal data; mobile applications.</p>\n<p><strong>Working Environment:</strong></p>\n<p>Teams build against the SP-API sandbox plus a supplied set of several thousand real, anonymised API responses served by a local mock server. Production credentials are never issued externally; shortlisted submissions are validated against the live account by Plantex engineers, with the team present.</p>\n<p><strong>Deliverables:</strong></p>\n<p>Four tracks. Tracks A and B are mandatory to qualify. C and D separate a strong submission from an adequate one.</p>\n<p><strong>Track A &mdash; Collection Engine (Mandatory):</strong></p>\n<ul>\n<li>Scheduled, unattended execution at a configurable cadence.</li>\n<li>Client-side throttling to the published limit (2 req/s, burst 30) with exponential backoff on HTTP 429.</li>\n<li>Idempotent and resumable &mdash; an interrupted sweep continues without duplicating work.</li>\n<li>Structured logging and a per-run summary: calls, successes, failures, throttle events.</li>\n<li>Classified handling of every documented failure mode, including DeliverySLAUnavailable, ItemQuantityNotAvailable and HTTP 403.</li>\n<li>Credentials from environment or a secret store, never from source.</li>\n</ul>\n<p><strong>Track B &mdash; Data Model and Storage (Mandatory):</strong></p>\n<ul>\n<li>A schema supporting the time-series question: the same SKU x pincode measured weekly over months.</li>\n<li>A justified storage choice &mdash; PostgreSQL, SQLite, DuckDB or Parquet all acceptable; the reasoning earns the marks.</li>\n<li>Ingestion that is safe to re-run, plus a documented query interface for downstream consumers.</li>\n</ul>\n<p><strong>Track C &mdash; Analytics and Interface:</strong></p>\n<ul>\n<li>SKU x cluster promise matrix with clear visual banding, and week-on-week trend per cluster.</li>\n<li>Root-cause split &mdash; unfulfillable (stock placement) versus slow (transit), each quantified.</li>\n<li>A join against FC stock position showing which SKUs are misplaced relative to demand.</li>\n<li>Delivered as a web dashboard or a clean Power BI dataset with a sample report; both count equally.</li>\n</ul>\n<p><strong>Track D &mdash; Calibration and Alerting:</strong></p>\n<ul>\n<li>A reproducible method for measuring the offset between the API-reported promise and what a real customer sees, applied per cluster.</li>\n<li>A statistically defensible alerting rule separating genuine degradation from noise &mdash; state the false-positive rate it implies.</li>\n<li>Notification delivery by email or webhook.</li>\n</ul>",
+    "end_date": "2026-10-01T00:21:00+05:30",
+    "festival": null,
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1759084,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab0287c9b4e3_images.png",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg3\",\"text\":\"Amazon Selling Partner API Integration Challenge\",\"type\":5,\"banner_data\":[3]}",
+      "id": 1455241,
+      "opportunity_id": 1759084,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 2079156,
+      "logoUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-DJQYk8cgSw1056211333699Wn2ZGtD.png",
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-DJQYk8cgSw1056211333699Wn2ZGtD.png",
+      "name": "Plantex India",
+      "official_email_domains": null,
+      "public_url": "c/plantex-india-2079156",
+      "show_evaluator_login_link": false,
+      "tier": null
+    },
+    "organization_id": 2079156,
+    "payment_services": [],
+    "prizes": [],
+    "public_url": "hackathons/amazon-selling-partner-api-integration-challenge-plantex-india-1759084",
+    "region": "online",
+    "registerCount": 0,
+    "regnRequirements": {
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[{\"course\":\"btech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mtech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"integrated\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"mca\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"mca1\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3}],\"bSchools\":[{\"course\":\"mba2\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdManagement\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3}],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
+      "end_regn_dt": "2026-10-01T00:00:00+05:30",
+      "max_team_size": 3,
+      "min_team_size": 1,
+      "opportunity_id": 1759084,
+      "reg_status": "STARTED",
+      "remain_days": "9 days left",
+      "remainingDaysArray": {
+        "durations": 9,
+        "text": " days left"
+      },
+      "remaining_time": 855631,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-09-21T00:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 645559,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183516,
+          "subject_id": 645559
+        },
+        "skill": "API Integration",
+        "skill_name": "API Integration"
+      },
+      {
+        "id": 645949,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183517,
+          "subject_id": 645949
+        },
+        "skill": "Database Design",
+        "skill_name": "Database Design"
+      },
+      {
+        "id": 646725,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183518,
+          "subject_id": 646725
+        },
+        "skill": "Microsoft Power BI",
+        "skill_name": "Microsoft Power BI"
+      },
+      {
+        "id": 647405,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183519,
+          "subject_id": 647405
+        },
+        "skill": "SQL",
+        "skill_name": "SQL"
+      },
+      {
+        "id": 643781,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183520,
+          "subject_id": 643781
+        },
+        "skill": "ETL Development",
+        "skill_name": "ETL Development"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/amazon-selling-partner-api-integration-challenge-plantex-india-1759084",
+    "short_id": "gBdhfW6",
+    "short_url": "https://unstop.com/o/gBdhfW6",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "Amazon Selling Partner API Integration Challenge",
+    "type": "hackathons",
+    "updated_at": "2026-09-21T01:58:28+05:30",
+    "viewsCount": 37,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1907,
+        "name": "Data Engineering",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1759084,
+          "id": 6183521,
+          "subject_id": 1907
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-10-01T00:00:00+05:30",
+  "reg_opens_at": "2026-09-21T00:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1759084",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 3,
+  "team_min": 1,
+  "themes": [],
+  "title": "Amazon Selling Partner API Integration Challenge",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/amazon-selling-partner-api-integration-challenge-plantex-india-1759084"
+}
