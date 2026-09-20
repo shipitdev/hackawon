@@ -6,7 +6,7 @@ advice at all.
 """
 
 from app.ideas.match import THIN_EVIDENCE, Grounding, match_winners, score
-from app.models import HackathonRecord, ProjectRecord
+from app.models import HackathonRecord, ProblemSource, ProjectRecord
 
 NOW_YEAR = 2026
 
@@ -70,6 +70,22 @@ class TestScoring:
 
 
 class TestMatching:
+    def test_problem_statement_overlap_breaks_same_domain_ties(self):
+        relevant = project("relevant", summary="Accessible routes for disabled travellers")
+        generic = project("generic", summary="A generic travel booking dashboard")
+        labels = labels_for((relevant, ["travel"], []), (generic, ["travel"], []))
+        event = hackathon(
+            problem_sources=[
+                ProblemSource(
+                    kind="inline",
+                    text="Make local travel accessible for disabled visitors",
+                    status="parsed",
+                )
+            ]
+        )
+        result = match_winners(event, ["travel"], [generic, relevant], labels, NOW_YEAR)
+        assert result.matches[0].project.uid == relevant.uid
+
     def test_prefers_on_topic_winners(self):
         ai = [
             project(

@@ -11,6 +11,7 @@ Postgres or plain files.
 
 from __future__ import annotations
 
+import re
 from collections import Counter
 from dataclasses import dataclass
 from typing import Any
@@ -27,6 +28,8 @@ W_EVIDENCE = 2.0
 W_RECENCY = 1.5
 W_NAMED = 0.5
 W_NOT_GENERAL = 0.5
+W_PROBLEM = 0.75
+_WORD = re.compile(r"[a-z0-9]{5,}")
 
 
 @dataclass(frozen=True)
@@ -69,6 +72,7 @@ def score(
     project: ProjectRecord,
     labels: dict[str, Any],
     now_year: int,
+    problem_terms: set[str] | None = None,
 ) -> tuple[float, list[str]]:
     project_domains = normalise_domains(labels.get("domains"))
     shared = [d for d in project_domains if d in hackathon_domains and d != "general"]
@@ -86,6 +90,12 @@ def score(
         total += W_NAMED
     if project_domains and project_domains != ["general"]:
         total += W_NOT_GENERAL
+
+    if problem_terms:
+        project_text = " ".join(
+            [project.title, project.tagline or "", project.summary or "", " ".join(project.tech)]
+        ).lower()
+        total += W_PROBLEM * min(3, len(problem_terms & set(_WORD.findall(project_text))))
 
     return total, shared
 
@@ -126,13 +136,16 @@ def match_winners(
 ) -> Grounding:
     """Rank `projects` for one hackathon and report how well-grounded the result is."""
     specific = [d for d in hackathon_domains if d != "general"]
+    problem_terms = set(
+        _WORD.findall(" ".join(source.text or "" for source in hackathon.problem_sources).lower())
+    )
 
     scored: list[Match] = []
     for project in projects:
         labels = project_labels.get(project.uid)
         if not labels:
             continue
-        value, shared = score(hackathon_domains, project, labels, now_year)
+        value, shared = score(hackathon_domains, project, labels, now_year, problem_terms)
         if shared:
             scored.append(Match(project, value, shared))
 
@@ -144,7 +157,7 @@ def match_winners(
             labels = project_labels.get(project.uid)
             if not labels or any(m.project.uid == project.uid for m in scored):
                 continue
-            value, _ = score(hackathon_domains, project, labels, now_year)
+            value, _ = score(hackathon_domains, project, labels, now_year, problem_terms)
             scored.append(Match(project, value * 0.4, []))
 
     scored.sort(key=lambda m: (-m.score, -(m.project.year or 0), m.project.title))

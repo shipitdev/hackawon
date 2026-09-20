@@ -16,6 +16,18 @@ Mode = Literal["in_person", "online", "hybrid", "unknown"]
 # How much we actually know about a past project. Never show a `submitted` project as a winner:
 # Devfolio publishes no prize-to-project mapping, so most of our corpus is unverified.
 Evidence = Literal["winner", "submitted"]
+ProblemKind = Literal["inline", "google_doc", "pdf", "external"]
+ProblemStatus = Literal["parsed", "linked", "unavailable"]
+
+
+class ProblemSource(BaseModel):
+    """Published problem context, or a link to where the organiser published it."""
+
+    kind: ProblemKind
+    title: str | None = None
+    url: str | None = None
+    text: str | None = None
+    status: ProblemStatus
 
 
 class HackathonRecord(BaseModel):
@@ -48,6 +60,7 @@ class HackathonRecord(BaseModel):
     #: Sponsor prizes and prize categories — the signal that makes generated ideas specific.
     tracks: list[str] = Field(default_factory=list)
     sponsors: list[str] = Field(default_factory=list)
+    problem_sources: list[ProblemSource] = Field(default_factory=list)
 
     team_min: int | None = None
     team_max: int | None = None

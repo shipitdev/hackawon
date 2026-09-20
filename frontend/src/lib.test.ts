@@ -11,6 +11,7 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     source_id: "1",
     title: "Hack Something",
     url: "https://example.com/",
+    problem_sources: [],
     tagline: null,
     starts_at: "2026-10-01T00:00:00Z",
     ends_at: null,

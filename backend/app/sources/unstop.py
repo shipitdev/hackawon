@@ -17,7 +17,7 @@ import re
 from html import unescape
 from typing import Any
 
-from app.models import HackathonRecord
+from app.models import HackathonRecord, ProblemSource
 from app.sources.base import PoliteClient, parse_dt
 
 NAME = "unstop"
@@ -43,7 +43,7 @@ def _prize(row: dict[str, Any]) -> tuple[int | None, str | None]:
 
 
 def _url(row: dict[str, Any]) -> str | None:
-    if row.get("seo_url"):
+    if str(row.get("seo_url") or "").startswith("https://unstop.com/hackathons/"):
         return row["seo_url"]
     if row.get("public_url"):
         return f"https://unstop.com/{row['public_url'].lstrip('/')}"
@@ -52,6 +52,8 @@ def _url(row: dict[str, Any]) -> str | None:
 
 _TAG = re.compile(r"<[^>]+>")
 _WHITESPACE = re.compile(r"\s+")
+_LINK = re.compile(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', re.I | re.S)
+_PROBLEM = re.compile(r"\b(problem statements?|challenges?|assessment|tracks?)\b", re.I)
 
 
 def _plain_text(html: str | None, limit: int = 2000) -> str | None:
@@ -62,6 +64,41 @@ def _plain_text(html: str | None, limit: int = 2000) -> str | None:
         return None
     text = _WHITESPACE.sub(" ", unescape(_TAG.sub(" ", html))).strip()
     return text[:limit] or None
+
+
+def _problem_sources(html: str | None) -> list[ProblemSource]:
+    if not html:
+        return []
+
+    text = _plain_text(html, limit=4000)
+    sources: list[ProblemSource] = []
+    if text and _PROBLEM.search(text):
+        sources.append(
+            ProblemSource(
+                kind="inline", title="Published problem context", text=text, status="parsed"
+            )
+        )
+
+    seen: set[str] = set()
+    for match in _LINK.finditer(html):
+        url = unescape(match.group(1)).strip()
+        label = _plain_text(match.group(2), limit=160) or "Problem statement"
+        context = _plain_text(html[max(0, match.start() - 180) : match.end()], limit=360) or label
+        if not url.startswith(("http://", "https://")) or not _PROBLEM.search(context):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        lowered = url.lower()
+        kind = (
+            "google_doc"
+            if "docs.google.com" in lowered or "drive.google.com" in lowered
+            else "pdf"
+            if ".pdf" in lowered
+            else "external"
+        )
+        sources.append(ProblemSource(kind=kind, title=label, url=url, status="linked"))
+    return sources
 
 
 def _themes(row: dict[str, Any]) -> list[str]:
@@ -99,6 +136,7 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
                 prize_amount=prize_amount,
                 prize_currency=prize_currency,
                 themes=_themes(row),
+                problem_sources=_problem_sources(row.get("details")),
                 team_min=reg.get("min_team_size"),
                 team_max=reg.get("max_team_size"),
                 participants_count=row.get("registerCount"),

@@ -76,7 +76,7 @@ export function HackathonDetail({
           rel="noopener noreferrer"
           className="press inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-on-accent hover:brightness-110"
         >
-          Register on {SOURCE_LABELS[hackathon.source] ?? hackathon.source}
+          Apply on {SOURCE_LABELS[hackathon.source] ?? hackathon.source}
           <ArrowUpRight size={15} weight="bold" aria-hidden />
         </a>
         {copySlot}
@@ -88,6 +88,34 @@ export function HackathonDetail({
           <div className="mt-3 flex flex-wrap gap-1.5">
             {hackathon.tracks.map((t) => (
               <Tag key={t}>{t}</Tag>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {hackathon.problem_sources.length > 0 && (
+        <section className="mt-10">
+          <h3 className="text-sm font-semibold">Problem statements</h3>
+          <div className="mt-3 space-y-3">
+            {hackathon.problem_sources.map((source, index) => (
+              <div key={`${source.url ?? source.title}-${index}`} className="border-l-2 border-line pl-3">
+                {source.text && (
+                  <p className="line-clamp-6 max-w-[70ch] text-sm leading-relaxed text-muted">
+                    {source.text}
+                  </p>
+                )}
+                {source.url && (
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-flex items-center gap-1 text-sm text-ink underline decoration-line underline-offset-2 hover:decoration-accent"
+                  >
+                    {source.title || "Open problem statement"}
+                    <ArrowUpRight size={13} weight="bold" aria-hidden />
+                  </a>
+                )}
+              </div>
             ))}
           </div>
         </section>
@@ -128,7 +156,14 @@ export function HackathonDetail({
           </p>
         )}
 
-        {set?.grounding?.thin && ideas.length > 0 && (
+        {set?.grounding?.status === "limited" && ideas.length > 0 && (
+          <p className="mt-4 border-l-2 border-line pl-3 text-xs leading-relaxed text-muted">
+            No published problem statement was available when these ideas were generated. Treat
+            them as broad starting points and verify the organiser's requirements before building.
+          </p>
+        )}
+
+        {set?.grounding?.thin && set?.grounding?.status !== "limited" && ideas.length > 0 && (
           <p className="mt-4 border-l-2 border-line pl-3 text-xs leading-relaxed text-muted">
             Few closely matching past winners were found, so these ideas lean on this hackathon's
             own tracks rather than on proven patterns. Treat them as starting points.
@@ -142,6 +177,12 @@ export function HackathonDetail({
                 {idea.title}
               </h4>
               <p className="mt-2 max-w-[65ch] text-sm leading-relaxed text-ink/90">{idea.pitch}</p>
+
+              {idea.problem_statement && (
+                <p className="mt-2 text-xs leading-relaxed text-muted">
+                  <span className="font-medium text-ink">Targets:</span> {idea.problem_statement}
+                </p>
+              )}
 
               <div className="mt-4 border-l-2 border-accent pl-3">
                 <p className="text-xs font-medium text-accent">Why it could win</p>

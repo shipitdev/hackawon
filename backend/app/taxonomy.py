@@ -81,6 +81,7 @@ def hackathon_text(h: HackathonRecord) -> str:
     parts = [h.title, h.tagline or "", " ".join(h.themes), " ".join(h.tracks)]
     parts.append(" ".join(h.sponsors))
     parts.append((h.description or "")[:600])
+    parts.extend((source.text or "")[:600] for source in h.problem_sources)
     return " | ".join(p for p in parts if p.strip())
 
 

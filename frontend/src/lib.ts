@@ -147,6 +147,11 @@ export function applyFilters(
  * costs us anything, and the student uses their own free account.
  */
 export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
+  const problems = h.problem_sources.flatMap((source) => {
+    if (source.text) return [`- ${source.title ?? "Published context"}: ${source.text}`];
+    if (source.url) return [`- ${source.title ?? "Problem statement"}: ${source.url}`];
+    return [];
+  });
   const lines = [
     `I'm entering a hackathon and want project ideas that could win it.`,
     ``,
@@ -159,6 +164,7 @@ export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
     h.sponsors.length ? `Sponsors: ${h.sponsors.join(", ")}` : "",
     h.tracks.length ? `Prize tracks:\n${h.tracks.map((t) => `- ${t}`).join("\n")}` : "",
     h.excerpt ? `\nAbout: ${h.excerpt}` : "",
+    problems.length ? `\nPublished problem statements:\n${problems.join("\n")}` : "",
   ].filter(Boolean);
 
   if (exemplars.length) {
@@ -179,8 +185,8 @@ export function buildPrompt(h: Hackathon, exemplars: Exemplar[] = []): string {
     `My skills: (describe what you know, e.g. React, Python, no ML experience)`,
     `Time available: (e.g. 24 hours, 3 people)`,
     ``,
-    `Give me 5 specific ideas I could realistically finish in that time, each aimed at one of`,
-    `the prize tracks above, and say why each one could win. No generic ideas.`,
+    `Give me 5 specific ideas I could realistically finish in that time. Each idea must address one published problem`,
+    `statement above when available, use the past winners only as execution evidence, and say why it could win. No generic ideas.`,
   );
 
   return lines.join("\n");

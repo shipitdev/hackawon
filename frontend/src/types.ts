@@ -1,5 +1,13 @@
 export type Mode = "in_person" | "online" | "hybrid" | "unknown";
 
+export interface ProblemSource {
+  kind: "inline" | "google_doc" | "pdf" | "external";
+  title: string | null;
+  url: string | null;
+  text: string | null;
+  status: "parsed" | "linked" | "unavailable";
+}
+
 export interface Hackathon {
   uid: string;
   source: string;
@@ -21,6 +29,7 @@ export interface Hackathon {
   themes: string[];
   tracks: string[];
   sponsors: string[];
+  problem_sources: ProblemSource[];
   team_min: number | null;
   team_max: number | null;
   participants_count: number | null;
@@ -45,6 +54,7 @@ export interface IdeaSet {
 export interface Idea {
   title: string;
   pitch: string;
+  problem_statement?: string;
   why_it_could_win: string;
   stack: string[];
   track?: string;
@@ -67,6 +77,8 @@ export interface Grounding {
   domains: string[];
   thin: boolean;
   patterns: string[];
+  problem_source_count?: number;
+  status?: "problem_grounded" | "theme_grounded" | "limited";
 }
 
 export interface Domain {
