@@ -5,9 +5,32 @@
   "ends_at": "2026-09-30T09:00:00+05:30",
   "mode": "in_person",
   "organiser": "SRM Institute of Science & Technology, Trichy",
-  "participants_count": 815,
+  "participants_count": 953,
   "prize_amount": 100000,
   "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Note: Please join the group today to ensure you do not miss any vital information, as all participant doubts and questions will be cleared directly within this channel. Link: https://chat.whatsapp.com/KBFGoLBCGBe7UoQYBnJfys Overview: What if your next idea could solve a real-world challenge in just 36 hours? Innovation is no longer confined to classrooms—it happens when developers, engineers, designers, AI enthusiasts, and researchers come together to build solutions that create meaningful impact. YUVA MEGATHON 2026, the flagship national hackathon of YUVA'26, is a 36-hour innovation sprint hosted by SRM Institute of Science and Technology, Tiruchirappalli, bringing together multidisciplinary teams from across India to transform ideas into working prototypes. Unlike conventional hackathons, Megathon begins with an idea-driven screening round. Teams first submit a PowerPoint presentation proposing an innovative solution, and shortlisted participants advance to the on-campus finale where the complete problem statements and prototype development challenge unfold. Four Innovation Tracks: Smart Systems Track: Powered by IET Student Chapter Propose an innovative solution under any one of these domains: Digital Healthcare Banking Public Sector Banking Fraud Detection Teams submit their own original idea during Round 1. The detailed problem statement will be revealed only during the 36-hour Megathon for shortlisted teams. EduGenAI Track: Powered by ACM Student Chapter - SRMIST Tiruchirappalli Build an AI-driven concept focused on transforming education using: Generative AI Large Language Models (LLMs) Multimodal AI Intelligent Educational Systems Similar to the Smart Systems Track, participants submit an innovative educational AI idea, while the complete challenge statement will be announced on-site for shortlisted teams. Hardware Innovation Track: CLICK FOR PROBLEM STATEMENT Powered by IEEE Student Chapter - SRMIST Tiruchirappalli Build a working hardware prototype that solves a real-world problem using: Embedded Systems & IoT Robotics & Autonomous Systems Power Electronics & Renewable Energy Medical & Assistive Devices Sustainability & Safety Hardware. Teams should strictly select a problem statement from the officially released Hardware Track Problem Statement and submit their solutions in the form of a PPT for the initial screening process. BioTech Innovation Track: CLICK FOR PROBLEM STATEMENT Powered by Star(T)ech Participants must select one of the officially published BioTech problem statements and develop an innovative biotechnology-based solution around it for the PPT submission. Important Notes: Please read the following carefully before registering. Smart Systems & EduGenAI Tracks: No predefined problem statements are provided for Round 1. Teams must choose their own problem statement within the track's domain and submit an innovative solution. The official detailed challenge will be revealed on the spot during the 36-hour Megathon. Hardware & BioTech Tracks: Teams must select one from the officially released problem statements of their respective tracks and prepare their PPT based on that chosen challenge. Competition Format: Register in teams of 2–4 members. Choose one innovation track. Submit your Round 1 PPT using the official Megathon template. Shortlisted teams will be announced via email. Compete in the 36-hour National Finale (28–30 September 2026) by building and pitching a working prototype. Guidelines: Open to undergraduate students from all colleges. Teams must consist of 2–4 members. Inter-college and interdisciplinary teams are encouraged. Round 1 submissions must use the official PPT template. For Smart Systems and EduGenAI, submit an original idea within the specified domains. For Hardware and BioTech, select one of the official problem statements before preparing your PPT. Only shortlisted teams will pay the ₹800 participation fee. The payment link will be shared after shortlisting. Rules: A participant may",
+      "title": "Published problem context",
+      "url": null
+    },
+    {
+      "kind": "google_doc",
+      "status": "parsed",
+      "text": "﻿Hardware Track Problem Statements Domain 1 — Smart Hardware, IoT & Embedded System Track 1.1: Smart Home & Embedded Automation PS-001: Offline Multi-Actuator Home Automation Hub Build a controller that manages at least three physical actuators (lighting, fan, and an electronic lock) through on-device voice or gesture recognition, with all wake-word and command processing running locally rather than through a cloud speech API. The system must respond reliably to spoken or gestured commands during a live demo and clearly indicate which command was recognized and executed, with no smartphone app or internet connection required for core operation. PS-002: Adaptive Ambient Lighting Controller Design a lighting system that continuously senses ambient light level and room occupancy using onboard sensors (LDR/photodiode array and PIR or mmWave presence sensing), and locally computes the optimal brightness and colour temperature for the space without any manual dimmer input. The controller should demonstrate smooth, flicker-free transitions as conditions change and log occupancy-driven energy savings locally, with all decision logic running on the microcontroller itself. PS-003: Balcony/Garden-Scale Smart Irrigation Controller Develop a compact irrigation controller for a small garden bed or balcony planter that uses soil-moisture, temperature, and rain sensors to decide when and how much to water, driving a solenoid valve or pump accordingly. The system should run entirely on local scheduling logic with no cloud weather API, display live sensor readings and watering history on an onboard screen, and demonstrably prevent both over- and under-watering during a live test cycle. PS-004: Mesh-Based Local Home Automation Bridge Build a bridge device that discovers and controls multiple low-cost sensor/actuator nodes over a local wireless mesh (ESP-NOW, Zigbee, or BLE mesh), presenting a single local control panel or display without relying on any commercial cloud ecosystem. The system must demonstrate device discovery, control, and status reporting for at least four nodes simultaneously, fully offline. Track 1.2: Industrial IoT & Predictive Monitoring PS-005: On-Device Predictive Maintenance for Rotating Machinery Develop a monitoring system for a running motor or fan that continuously tracks vibration, current draw, or acoustic signature and uses an on-device machine learning model to flag a developing fault before outright failure. Inference must execute locally on the microcontroller or single-board computer driving the system, and the setup should visibly distinguish healthy from faulty operating states on real rotating hardware during the demo. PS-006: Local Factory-Floor Environmental Monitoring Gateway Build an edge gateway that aggregates readings from multiple wireless sensor nodes measuring temperature, humidity, gas concentration, and dust/particulate levels across a mock factory-floor bench, displaying live values and triggering local threshold-based alerts. All aggregation and alerting logic must run on the gateway itself with no dependency on an internet connection or cloud dashboard. PS-007: Offline Asset & Tool Tracking System Design a wireless asset-tracking system using RF or BLE beacons on tools/equipment and multiple fixed local anchor nodes that triangulate approximate position without GPS or any cloud positioning service. The system should maintain and display a locally stored map of last-known asset locations, updating in near real time as tagged items move within the demo area. PS-008: Smart Multi-Socket Power Monitor & Scheduler Build a multi-socket power strip that measures current draw per outlet using non-intrusive sensors, displays live per-device consumption on a local screen, and allows scheduling or automatic cutoff of individual sockets based on locally stored rules. The unit must operate as a fully self-contained device requiring no companion cloud app, and should demonstrate at least one automatic load-shedding action live. Track 1.3: Edge AI & TinyML Devices PS-009: TinyML-Based Offline Anomaly Detector Implement a TinyML model running entirely on a microcontroller that detects anomalies from an audio stream or a small sensor array — an abnormal machine sound, a gas/smoke signature, or an unusual vibration pattern — and triggers a local alert the instant the anomaly is detected. The complete pipeline, from sensing to inference to alert, must operate with zero cloud dependency as a standalone battery-powered unit. PS-010: On-Device Object Counting & Classification Camera Build a camera module paired with an edge-compute board that counts and classifies objects passing in front of it (by shape, colour, or category) entirely through on-device inference, with no images or data sent to any cloud vision API. The system should display a running local count/log and correctly classify a mixed, randomly ordered stream of objects during evaluation. PS-011: Offline Keyword-Spotting Appliance Controller Develop a standalone device that recognises a small, fixed set of spoken keywords entirely on-device (no cloud speech API) and uses them to control a connected physical appliance such as a fan, lamp, or lock. The system must demonstrate reliable wake-word and command detection under normal ambient noise and clearly indicate recognized commands via a local display or LED feedback. PS-012: On-Device Gesture Input Device for Accessibility Design an assistive input device that recognises a set of hand gestures or head movements using an onboard IMU/camera and on-device inference, translating them into control signals for a simple interface (cursor movement, selection, or text entry) without any cloud processing. The device should demonstrate reliable, low-latency gesture recognition for a user performing a scripted set of interactions live. Track 1.4: Automation & Physical Security Systems PS-013: Multi-Factor Offline Access Control System Build a secure access-control system that c",
+      "title": "PROBLEM STATEMENT",
+      "url": "https://docs.google.com/document/d/1biSWtAdvgyHe7t05WKLgtY9HkUF8QzGO/edit?usp=drive_link&ouid=105355274335910810598&rtpof=true&sd=true"
+    },
+    {
+      "kind": "google_doc",
+      "status": "linked",
+      "text": null,
+      "title": "PROBLEM STATEMENT",
+      "url": "https://drive.google.com/drive/folders/1B0vZP8c3sR-wj1tDCwq6EqaiD2NttGHR?usp=sharing"
+    }
+  ],
   "projects_submitted": null,
   "raw": {
     "address_with_country_logo": {
@@ -121,8 +144,15 @@
         },
         "reg_amount": null,
         "reg_restricted": 0,
+        "reg_status": "STARTED",
         "registration_config": null,
         "registration_limit": null,
+        "remain_days": "3 days left",
+        "remainingDaysArray": {
+          "durations": 3,
+          "text": " days left"
+        },
+        "remaining_time": 319602,
         "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
         "resume_parser": 0,
         "same_course": 0,
@@ -259,7 +289,7 @@
     ],
     "public_url": "hackathons/yuva-megathon-2026-yuva-srm-institute-of-science-technology-trichy-1754766",
     "region": "offline",
-    "registerCount": 815,
+    "registerCount": 953,
     "regnRequirements": {
       "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-09-20T23:59:00+05:30",
@@ -267,12 +297,12 @@
       "min_team_size": 2,
       "opportunity_id": 1754766,
       "reg_status": "STARTED",
-      "remain_days": "7 hours left",
+      "remain_days": "2 hours left",
       "remainingDaysArray": {
-        "durations": "7",
+        "durations": "2",
         "text": "hours left"
       },
-      "remaining_time": 25299,
+      "remaining_time": 8447,
       "show_deadline": 1,
       "start_regn_dt": "2026-09-14T00:00:00+05:30",
       "work_location_type": "city"
@@ -345,7 +375,7 @@
     "title": "YUVA Megathon 2026",
     "type": "hackathons",
     "updated_at": "2026-09-20T12:53:42+05:30",
-    "viewsCount": 24328,
+    "viewsCount": 25919,
     "visibility": "public",
     "workfunction": [
       {

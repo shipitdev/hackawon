@@ -8,6 +8,15 @@
   "participants_count": 0,
   "prize_amount": 8000,
   "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Event Details Date: 23 October 2026 Time: 4:00 PM – 5:30 PM Venue: Volleyball Court, I.T.S Engineering College, Greater Noida Registration Fee: ₹300/team Prize Pool: ₹8,000 Event Description Robo Soccer is a high-energy robotics football challenge at TechTrix'26, where teams compete using a custom-built, wirelessly controlled robot to maneuver a ball into the opponent's goal. Each team fields only one robot in the arena during a match. Teams must balance speed, control, and defensive strategy to outmaneuver their opponents in a fast-paced knockout tournament — bringing their own robot, controller, and spare parts. Guidelines Team Size & Eligibility 2 participants per team Open to undergraduate/postgraduate students and eligible participants from colleges/institutions Valid college/institutional ID is mandatory Only registered participants may compete; one participant cannot be registered in two teams for the same event Team composition cannot be changed after the registration deadline without written approval from the Event Coordinator The registered team captain is the official point of contact Robot Specifications Specification Requirement Maximum Dimensions 350 × 350 mm (L × W) Maximum Weight 3 kg, including chassis, kicking mechanism, and batteries Maximum Voltage 3S LiPo, 12V DC/3s (fully charged) — IC engines, pneumatics, and compressors prohibited Control Fully wireless (RF or Bluetooth) manual control — no wired tethers, autonomous operation strictly banned Ball Handling At least 50% of the ball's surface must remain exposed at all times — mechanisms that fully trap, grab, suction, or swallow the ball are prohibited Pre-Event Inspection Teams must report to the arena at least 30 minutes before the official start time Every robot undergoes a technical inspection and weigh-in; robots failing weight, dimension, power, or ball-handling checks will be disqualified before the match begins Arena & Match Format Arena: 8 ft × 4 ft, with 60 cm wide goal posts on each side Single-elimination knockout format, with byes (for uneven team counts) assigned via random draw A standard match consists of 2 rounds of up to 90 seconds each; the ball starts at centre with robots inside their defence \"D\" until the referee's signal A round is won by the first team to score; if no goal is scored in 90 seconds, the round is tied A team wins the match by winning both rounds, or winning one and tying the other 30-second break between rounds, with teams switching sides If the ball goes out of bounds, play pauses, robots freeze in place, and the ball resets to centre A robot that completely stops working mid-round causes an automatic round forfeit for that team (it may still play the next round if repaired during the break) Tie-Breaker If tied after 2 rounds, a 3rd Tie-Breaker Round (max 90 seconds, first goal wins) is played If the 3rd round also ends 0-0, the winner is the team with the fewest accumulated penalties across all three rounds If goals and penalties are completely tied, judges decide based on Aggression and Control Judging Criteria Penalties are tallied (not awarded as free kicks) and used as a tie-breaker: Stalling (5-second rule): holding/pinning/trapping the ball in one position for over 5 seconds — 1 penalty point Goal camping (5-second rule): parking entirely inside your own goal for over 5 seconds without playing the ball — 1 penalty point Wall pinning (5-second rule): pinning the opponent against the arena wall while fighting for the ball for over 5 seconds — 1 penalty point Aggressive ramming: intentionally and repeatedly ramming the opponent instead of playing the ball — 1 penalty point Hand touches: manually resetting a flipped/stuck robot — 1 penalty point each Disqualification The following will result in disqualification: Exceeding the published dimensions, weight, or voltage limits Using a wired controller or autonomous operation Ball-trapping/suction mechanisms that leave less than 50% of the ball exposed Deliberately da",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
   "projects_submitted": null,
   "raw": {
     "address_with_country_logo": {
@@ -121,10 +130,17 @@
         },
         "reg_amount": null,
         "reg_restricted": 0,
+        "reg_status": "STARTED",
         "registration_config": {
           "enable_newsletter_subscription": 0
         },
         "registration_limit": null,
+        "remain_days": "29 days left",
+        "remainingDaysArray": {
+          "durations": 29,
+          "text": " days left"
+        },
+        "remaining_time": 2513840,
         "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
         "resume_parser": 0,
         "same_course": 0,
@@ -297,7 +313,7 @@
         "durations": 28,
         "text": " days left"
       },
-      "remaining_time": 2444516,
+      "remaining_time": 2427605,
       "show_deadline": 1,
       "start_regn_dt": "2026-09-05T00:00:00+05:30",
       "work_location_type": "city"
@@ -370,7 +386,7 @@
     "title": "Robo Soccer",
     "type": "hackathons",
     "updated_at": "2026-09-20T00:22:14+05:30",
-    "viewsCount": 2542,
+    "viewsCount": 2824,
     "visibility": "public",
     "workfunction": [
       {

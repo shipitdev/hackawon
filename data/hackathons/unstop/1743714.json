@@ -8,6 +8,15 @@
   "participants_count": 127,
   "prize_amount": null,
   "prize_currency": null,
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "The Pareidolia Paradox is an online machine learning challenge focused on image classification and computer vision. Challenge Objective Participants must classify 256 × 256 grayscale lunar surface images into one of two categories: Class 0: Depth: Craters, holes, and surface depressions Class 1 :Rise: Mounds, hills, rocks, and boulders The Challenge The appearance of lunar terrain changes depending on the direction of sunlight. A crater illuminated from one direction can appear like a depression, while the same formation under different lighting can resemble a raised surface. This phenomenon is known as topographic inversion . To account for this, each image is accompanied by a sun_azimuth_angle in the metadata. Participants are expected to use this information appropriately while developing their models. Dataset Participants will receive: 7,854 training images 2,000 evaluation images train_metadata.csv containing image_id , sun_azimuth_angle , and label test_metadata.csv containing image_id and sun_azimuth_angle The evaluation labels will remain hidden and will be used for final scoring. Submission Participants must train a classification model on the provided training dataset and generate predictions for all 2,000 evaluation images . The submission must be a single CSV file containing exactly: image_id,label Example: image_id,label eval_00001.png,0 eval_00002.png,1 Evaluation Submissions will be evaluated using Balanced Accuracy . Participants are encouraged to focus on the underlying terrain rather than relying solely on visual shadow patterns. The dataset composition and metadata structure are specified in the competition document. The problem statement confirms the classification task, use of solar azimuth information, submission format, and Balanced Accuracy metric. Event Timeline Competition Opens: 1 September 2026, 12:00 AM Competition Closes: 21 September 2026, 11:59 PM Submission Deadline: 21 September 2026, 11:59 PM Participants can register, access the competition resources, build their models, and submit their predictions during the competition period. Join the official group with the below given link Official WhatsApp Group Link",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
   "projects_submitted": null,
   "raw": {
     "address_with_country_logo": {
@@ -128,12 +137,12 @@
       "min_team_size": 1,
       "opportunity_id": 1743714,
       "reg_status": "STARTED",
-      "remain_days": "1 days left",
+      "remain_days": "20 hours left",
       "remainingDaysArray": {
-        "durations": "1",
-        "text": "day left"
+        "durations": "20",
+        "text": "hours left"
       },
-      "remaining_time": 91718,
+      "remaining_time": 75007,
       "show_deadline": 1,
       "start_regn_dt": "2026-08-24T18:30:00+05:30",
       "work_location_type": "city"
@@ -228,7 +237,7 @@
     "title": "The Pareidolia Paradox",
     "type": "hackathons",
     "updated_at": "2026-09-07T17:32:48+05:30",
-    "viewsCount": 109372,
+    "viewsCount": 109795,
     "visibility": "public",
     "workfunction": [
       {

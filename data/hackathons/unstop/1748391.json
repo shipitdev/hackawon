@@ -5,9 +5,18 @@
   "ends_at": "2026-09-25T23:30:00+05:30",
   "mode": "online",
   "organiser": "Hackathon Raptors",
-  "participants_count": 2877,
+  "participants_count": 2900,
   "prize_amount": 250000,
   "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "About the Hackathon Dogfood 2026 is a 72-hour online hackathon built around one challenge: build the platform that will judge you. Hackathon Raptors has run 35+ hackathons across 85+ countries, and this challenge comes directly from the problems encountered while running them. Registration, team formation, submissions, eligibility, judge assignment, scoring, normalization, results, certificates, and archiving all form one complex data pipeline. Your challenge is to build a modern, open-source, self-hostable hackathon submission and judging platform that handles this entire lifecycle. Everyone builds the same product against the same published specification. There are no tracks. This is not a hackathon where you build a demo of a platform. We are asking you to build ours. The winning project will be forked, self-hosted, and put into production for Hackathon Raptors events. You keep ownership of your work, and the project remains open source. The platform must run locally with a single command. A working submission should start with docker compose up , seed itself with the provided fixture data, and work without a cloud account, hosted database, authentication provider, external API, or network connection. Stay Updated All announcements, specification releases, rule clarifications, fixture data, acceptance suite updates, submission instructions, FAQs, and live support happen through the official Hackathon Raptors Discord. Discord Server Invite: Join the Hackathon Raptors Discord Event Website: dogfoodhack.com Organizer: raptors.dev Why Participate Hackathon platforms have largely converged on the same basic features. The interesting engineering problems are what happens underneath them: fair judging, role isolation, score normalization, abuse prevention, reliable data flows, APIs, and software that an organizer can actually self-host and operate. Participants will get to: Build a complete hackathon platform from registration through results. Work on authentication, authorization, teams, submissions, galleries, dashboards, and exports. Design backend-enforced role isolation and permission systems. Build weighted and configurable judging rubrics. Solve cross-judge score normalization. Design fairer community voting and anti-abuse mechanisms. Work with assignment algorithms, ranking systems, and statistical methods. Build an API-first, self-hostable platform. Practice production-oriented DevOps and local deployment. Create software that may actually be used in future Hackathon Raptors events. Demonstrate engineering judgment, technical depth, and ability to ship under constraints. AI coding assistants are allowed and expected. The challenge is not whether AI helped. It is whether you can ship, test, explain, and defend what you built. Eligibility Dogfood is open to: Students. Software developers. Engineers. Researchers. Professionals. Open-source contributors. Full-stack developers. Backend and API engineers. Frontend and design-system builders. Data and algorithms enthusiasts. Security engineers. DevOps and self-hosting enthusiasts. Anyone interested in building serious software, from any country. Team Size 1–4 members. Solo participation is allowed. Teams of 2–4 are recommended. Cross-college teams are allowed. Cross-disciplinary teams are allowed. Event Format The hackathon runs entirely online for 72 hours. Every team builds the same product: an open-source, self-hostable hackathon submission and judging platform. During the event, teams are expected to: Design and implement the platform against the published specification. Build the required core functionality. Implement judging, scoring, normalization, and role isolation. Test the platform against edge cases and failure scenarios. Run the provided acceptance suite against their implementation. Document the architecture, data model, judging system, and technical decisions. Verify that the project can run locally without hosted-service dependencies. Prepare a working demonstrat",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
   "projects_submitted": null,
   "raw": {
     "address_with_country_logo": {
@@ -182,7 +191,7 @@
     ],
     "public_url": "hackathons/dogfood-72-hour-hackathon-hackathon-raptors-1748391",
     "region": "online",
-    "registerCount": 2877,
+    "registerCount": 2900,
     "regnRequirements": {
       "eligibility": null,
       "end_regn_dt": "2026-09-25T23:30:00+05:30",
@@ -195,7 +204,7 @@
         "durations": 5,
         "text": " days left"
       },
-      "remaining_time": 455540,
+      "remaining_time": 438514,
       "show_deadline": 1,
       "start_regn_dt": "2026-09-02T00:00:00+05:30",
       "work_location_type": "city"
@@ -290,7 +299,7 @@
     "title": "Dogfood | 72-Hour Hackathon",
     "type": "hackathons",
     "updated_at": "2026-09-03T18:08:03+05:30",
-    "viewsCount": 188022,
+    "viewsCount": 189237,
     "visibility": "public",
     "workfunction": [
       {
