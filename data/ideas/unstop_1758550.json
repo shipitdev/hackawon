@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-20T07:54:41.284350+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758550",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "An AI-powered crop yield and soil health forecasting platform that integrates localized weather data with multi-spectral drone imagery to predict micro-farming anomalies.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "AgriYield-AI",
+      "track": "Agriculture",
+      "why_it_could_win": "Aligns directly with the Agriculture domain challenge at SUAS Indore, combining hard machine learning models with a clear localized impact on farming."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A clinical decision support dashboard that predicts patient readmission risks using tabular hospital records and provides local explanations via SHAP.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "MediReadmit-Explain",
+      "track": "Healthcare",
+      "why_it_could_win": "Healthcare is a core focus area for the Datathon, and judges prioritize interpretable ML models that can be immediately understood by medical professionals."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "An IoT and CCTV telemetry log analysis system that detects traffic bottlenecks and anomalous congestion patterns in real-time.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Next.js"
+      ],
+      "title": "SmartCity-TrafficAnomaly",
+      "track": "Smart Cities",
+      "why_it_could_win": "Targets the Smart Cities domain explicitly and features a working anomaly detection pipeline similar to successful operational intelligence hacks."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool to track environmental degradation and industrial deforestation over designated green belts.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Leaflet",
+        "FastAPI"
+      ],
+      "title": "EcoAudit-Satellite",
+      "track": "Environment",
+      "why_it_could_win": "Solves an Environment domain problem using geospatial data analysis, matching the winning formula of satellite monitoring systems."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An automated evaluation tool for educational admission and grading datasets that detects, explains, and mitigates algorithmic bias.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "EduFair-BiasAudit",
+      "track": "Education",
+      "why_it_could_win": "Combines the Education domain with fairness and transparency metrics, satisfying the core data science interpretation criteria of the judges."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

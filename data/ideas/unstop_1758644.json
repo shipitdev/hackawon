@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-20T07:54:50.568471+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758644",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A web-based dashboard that automatically parses user-submitted web application workflows, maps them to BPMN standards, and runs real-time risk assessments before code deployment.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "WebFlow Governance Auditor",
+      "track": "",
+      "why_it_could_win": "Tackles a complex engineering problem in 12 hours by applying structured workflow validation to standard web development pipelines, fulfilling the core requirement of building a fully functional web app under strict time constraints."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A zero-training semantic routing interface built as a web dashboard that categorizes incoming web requests and API queries using an exemplar index to cut LLM routing costs.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Semantic Web Router",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing kNN semantic routing over an exemplar index within a tight 12-hour build window, addressing high-performance web tooling demands."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous web application that detects anomalies in web application data pipelines, generates verified repairs, opens actual pull requests, and logs evidence gates in a visual dashboard.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React",
+        "FastAPI"
+      ],
+      "title": "Data Incident Web Console",
+      "track": "",
+      "why_it_could_win": "Solves a concrete data engineering problem with end-to-end automation, appealing directly to judges looking for production-grade operational web tools rather than basic chat interfaces."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A collaborative web coding environment where two isolated AI agents review, test, and stress-test incoming code pull requests for subtle logic bugs and security flaws before human review.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React",
+        "WebSockets"
+      ],
+      "title": "Adversarial Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Leverages multi-agent adversarial interaction within a clean web interface, showing high technical ambition that stands out among standard CRUD apps at a web development hackathon."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A centralized web platform that acts as a federated MCP server dashboard, mapping and routing clinical data queries securely for medical-data web agents.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "Clinical MCP Web Gateway",
+      "track": "",
+      "why_it_could_win": "Combines specialized domain utility with modern web infrastructure architecture, satisfying the demand for fully functional, highly complex web applications built under short deadlines."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

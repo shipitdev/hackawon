@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-20T07:54:10.025684+00:00",
+  "grounding": {
+    "domains": [
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758206",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1276392534"
+      ],
+      "pitch": "A 2D puzzle platformer where the world generation and physics pivot mid-stream based on live spectator chat inputs, adapting the game state in real-time.",
+      "stack": [
+        "TypeScript",
+        "Phaser.js",
+        "WebSockets"
+      ],
+      "title": "ChronoCanvas: Dynamic World-Model Narrative Game",
+      "track": "",
+      "why_it_could_win": "Leverages heavy technical ambition inspired by recent continuous generative video world model winners, captivating judges looking for novel runtime engine mechanics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1022921066",
+        "github:759869516"
+      ],
+      "pitch": "A Unity-based narrative RPG mod that hooks local LLMs via Python bindings to let players converse with non-player characters using real-time voice input.",
+      "stack": [
+        "C#",
+        "Unity",
+        "Python",
+        "Whisper"
+      ],
+      "title": "Echoes of Incarnia: AI Voice NPC Interactor",
+      "track": "",
+      "why_it_could_win": "Demonstrates hard engineering integration between game engines and live speech-to-text models, following proven patterns from real-time AI character hackathon wins."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "An interactive Ren'Py visual novel focused on local resource management and water conservation puzzles, featuring custom illustrated assets and branching logic.",
+      "stack": [
+        "Ren'Py",
+        "Python",
+        "Audacity"
+      ],
+      "title": "AquaGuardian: Eco-Educational Visual Novel",
+      "track": "",
+      "why_it_could_win": "Targeted game jam format execution with an educational spin that historically sweeps social impact tracks and hooks student judges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1052196050"
+      ],
+      "pitch": "A lightweight browser-based strategy mini-game where players deploy autonomous reinforcement learning agents that battle using simplified MOBA mechanics.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "FastAPI",
+        "Phaser"
+      ],
+      "title": "Dota Tactics: Autonomous Minion Autochess",
+      "track": "",
+      "why_it_could_win": "Shows advanced systems programming and machine learning integration scaled down neatly into a hackathon-friendly time frame."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:870537595"
+      ],
+      "pitch": "A retro 8-bit arcade platformer built in React that integrates simulated blockchain token drops and instant minigame transactions on every level clearance.",
+      "stack": [
+        "React",
+        "JavaScript",
+        "HTML5 Canvas"
+      ],
+      "title": "TokenTumble: Retro Arcade Tokenomics",
+      "track": "",
+      "why_it_could_win": "Hits the sweet spot of polished retro styling combined with functional ledger mechanics that previously won game jam prizes."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

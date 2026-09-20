@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-20T07:54:18.642951+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758360",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A Python-based full-stack boilerplate generator that writes its own React frontend and Django backend based on natural language prompts.",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "OpenAI API",
+        "SQLite"
+      ],
+      "title": "PyFullStack AI Assistant",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the core theme of combining full-stack Python development with Generative AI tools."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A self-improving semantic routing proxy for Python APIs that optimizes LLM payload routing based on query complexity.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Qwen",
+        "Semantic Router"
+      ],
+      "title": "SchemaRouter GenAI",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced backend Python engineering paired with Gen-AI optimization, mirroring successful semantic router architectures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A localized natural language to SQL execution agent with built-in schema introspection and human-in-the-loop safety validation for database operations.",
+      "stack": [
+        "Python",
+        "SQLAlchemy",
+        "Streamlit",
+        "LangChain"
+      ],
+      "title": "SQL-GenAgent",
+      "track": "",
+      "why_it_could_win": "Integrates critical full-stack concepts like SQL databases and REST APIs with AI governance."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An automated documentation-to-application RAG toolkit that indexes codebases and auto-generates API client code in Python.",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "FastAPI"
+      ],
+      "title": "DocToStack RAG",
+      "track": "",
+      "why_it_could_win": "Showcases advanced RAG capabilities combined with practical developer tooling."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-capable Git hook and dashboard that reviews pull requests locally using lightweight Python models before code hits the cloud.",
+      "stack": [
+        "Python",
+        "GitPython",
+        "HTML",
+        "TailwindCSS"
+      ],
+      "title": "GitAI Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Addresses deployment, Git fundamentals, and AI-assisted development workflows relevant to freshers and working professionals."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

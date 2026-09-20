@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-20T07:54:28.297717+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758452",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A real-time multiplayer code-dueling platform where two participants solve algorithmic problems simultaneously on a shared canvas with live syntax-aware diffing and automated test-case generation.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebSockets",
+        "Monaco Editor",
+        "Python"
+      ],
+      "title": "AlgoDuet: Collaborative Competitive Programming Arena",
+      "track": "",
+      "why_it_could_win": "Directly targets the competitive programming and algorithmic problem-solving core of CodeVerse by enhancing the participant experience beyond standard platforms."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A static analysis tool that parses submitted source code in Python, C++, or Java, constructs abstract syntax trees, and dynamically estimates both Time and Space complexity while flagging potential TLE bottlenecks.",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "FastAPI",
+        "React"
+      ],
+      "title": "ComplexityLens: Automated Algorithmic Complexity Analyzer",
+      "track": "",
+      "why_it_could_win": "Solves a core problem for competitive programmers during rapid trial-and-error testing phases, appealing directly to the judges' background in data structures and algorithms."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An educational debugging plugin that hooks into competitive programming execution runs to render real-time graphical representations of pointers, trees, graphs, and heap structures in memory.",
+      "stack": [
+        "TypeScript",
+        "D3.js",
+        "WebAssembly",
+        "C++"
+      ],
+      "title": "DataStructViz: Interactive Memory Layout Visualizer",
+      "track": "",
+      "why_it_could_win": "Leverages the hackathon's focus on data structures and algorithms by providing a high-utility visualization tool for complex pointer manipulations."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An LLM-assisted tool that takes a competitive programming problem statement and automatically generates tricky edge cases, maximum constraints, and stress-testing scripts to break naive solutions.",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "Streamlit",
+        "Docker"
+      ],
+      "title": "TestGenie: AI Edge-Case Generator for CP",
+      "track": "",
+      "why_it_could_win": "Combines algorithmic problem understanding with practical developer tooling, echoing the technical problem-solving spirit required in the 90-minute coding round."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A recommendation engine that analyzes a competitive programmer's past submission history and weak spots across arrays, sorting, and graph algorithms to dynamically curate an optimal practice path.",
+      "stack": [
+        "TypeScript",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Python"
+      ],
+      "title": "CP-Route: Optimal Problem Selection Engine",
+      "track": "",
+      "why_it_could_win": "Focuses strictly on logical thinking and algorithmic proficiency tracking, aligning with the evaluation metrics of the competition."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-20T07:54:45.464264+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758602",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A Python-based static analysis and linting CLI tailored specifically for competitive programming snippets in C, C++, Java, and Python to spot common syntax and logical errors instantly.",
+      "stack": [
+        "Python",
+        "AST",
+        "Clang"
+      ],
+      "title": "BugHuntAI CLI",
+      "track": "",
+      "why_it_could_win": "Directly targets the core skill tested in Round 1 of the competition (debugging buggy snippets without code execution)."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An offline execution trace visualizer that maps out variable states step-by-step for C++ and Python data structures during complex algorithm problem solving.",
+      "stack": [
+        "Python",
+        "Rich",
+        "NetworkX"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Addresses logical thinking and problem-solving metrics by making dry-runs visual, highly appealing for programming challenge judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A standalone extension that scans C/C++ and Python codebases to evaluate time and space complexity automatically, flagging suboptimal solutions before submission.",
+      "stack": [
+        "Python",
+        "Tree-sitter"
+      ],
+      "title": "ComplexityMeter",
+      "track": "",
+      "why_it_could_win": "Evaluates solutions directly on efficiency and correctness, which are the main judging criteria for Round 2."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A fast refactoring utility that takes messy, non-readable competitive programming code and formats it for readability and maintainability.",
+      "stack": [
+        "Python",
+        "Black",
+        "ClangFormat"
+      ],
+      "title": "SnippetSanitizer",
+      "track": "",
+      "why_it_could_win": "Targeted explicitly at readability and coding style, two vital pillars of the event's evaluation rubric."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "An automated fuzz testing tool that generates tricky edge cases and boundary inputs for given algorithmic problem statements to stress-test candidate solutions.",
+      "stack": [
+        "Python",
+        "Hypothesis"
+      ],
+      "title": "EdgeCaseGenerator",
+      "track": "",
+      "why_it_could_win": "Emphasizes deep programming concepts and logical thinking by challenging solutions with rigorous failure modes."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

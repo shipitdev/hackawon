@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-20T07:53:29.307906+00:00",
+  "grounding": {
+    "domains": [
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749779",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1022921066"
+      ],
+      "pitch": "A real-time voice-activated tactical assistant for Valorant teams that listens to match audio and displays optimal defensive or offensive setups on an overlay based on enemy economy and callouts.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyQt",
+        "OpenAI Whisper"
+      ],
+      "title": "ValorantStratCoach",
+      "track": "",
+      "why_it_could_win": "Addresses the core theme of the esports tournament by directly enhancing team coordination and strategic decision-making during live matches."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:870537595"
+      ],
+      "pitch": "An automated tournament match analyzer that ingests custom game round data and generates heatmaps, clutch success rates, and team positioning statistics for post-match debriefs.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "BattleZoneStats",
+      "track": "",
+      "why_it_could_win": "Provides immediate practical value to tournament organizers and competing 5-person squads wanting competitive edges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1052196050"
+      ],
+      "pitch": "An autonomous AI bot trained to simulate standard Valorant agent utility usage and gunfight positioning to help tournament teams warm up and practice against specific compositions.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "vLLM"
+      ],
+      "title": "ValorantAgentBot",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced multi-agent coordination and complex state simulation directly relevant to competitive gaming environments."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1276392534"
+      ],
+      "pitch": "A live telemetry dashboard for tournament admins to monitor team communication stress levels, round timings, and technical stability anomalies during matches.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "React"
+      ],
+      "title": "EsportsCommMonitor",
+      "track": "",
+      "why_it_could_win": "Solves real-world operational challenges for an in-person BYOD esports tournament with tight schedules."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:877364534",
+        "github:870537595"
+      ],
+      "pitch": "A gamified companion app for tournament spectators to predict round outcomes and earn points while watching live matches unfold in the venue.",
+      "stack": [
+        "JavaScript",
+        "Firebase",
+        "React"
+      ],
+      "title": "ClutchCompanion",
+      "track": "",
+      "why_it_could_win": "Enhances audience engagement during downtime between tournament rounds at an in-person venue."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-20T07:53:47.415000+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1752017",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A high-torque, low-center-of-gravity wireless robot optimized for rapid cornering and obstacle negotiation within the strict 350x350mm and 3kg limits.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "DC Motors"
+      ],
+      "title": "AgileRover-X",
+      "track": "",
+      "why_it_could_win": "Wins by prioritizing mechanical stability and agility under a continuously running clock, directly matching the core evaluation metrics of the Senior Robo Race."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A robust, low-latency manual wireless control system utilizing dual-frequency RF modules to prevent signal interference on crowded racing tracks.",
+      "stack": [
+        "Python",
+        "C++",
+        "NRF24L01",
+        "ESP32"
+      ],
+      "title": "DualFreq-WirelessLink",
+      "track": "",
+      "why_it_could_win": "Eliminates common packet loss and latency issues faced by competitors on race day, ensuring precise driver control."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1144331507"
+      ],
+      "pitch": "A custom 3D-printed independent suspension chassis designed to absorb shocks from rough obstacle courses while maintaining maximum speed.",
+      "stack": [
+        "CAD",
+        "3D Printing",
+        "Arduino",
+        "DC Motors"
+      ],
+      "title": "TerrainMaster Suspension",
+      "track": "",
+      "why_it_could_win": "Unusual physical build focused entirely on hardware durability and speed through chaotic obstacle courses, standing out in a race format."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A modular, plug-and-play 3S/6S LiPo power distribution board with integrated voltage regulation and quick-release battery housing.",
+      "stack": [
+        "Hardware",
+        "PCB Design",
+        "Power Electronics"
+      ],
+      "title": "QuickSwap LiPo Power Unit",
+      "track": "",
+      "why_it_could_win": "Allows the team to instantly swap depleted batteries between heats without risking wiring failures or losing valuable track time."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A hardware-level momentum dampening circuit using manual trigger overrides for tight hairpin turns on the obstacle course.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Motor Drivers"
+      ],
+      "title": "PrecisionGate Braking Assist",
+      "track": "",
+      "why_it_could_win": "Solves the specific engineering challenge of high-speed overshooting on sharp turns, giving the driver superior handling precision."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

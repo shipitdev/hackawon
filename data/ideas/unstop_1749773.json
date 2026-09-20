@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-20T07:53:16.167105+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749773",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1259981732"
+      ],
+      "pitch": "A 350x350mm omni-directional robot using mecanum wheels for rapid lateral strafing and precision ball-handling under strict size constraints.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Mecanum Wheels",
+        "DC Motors"
+      ],
+      "title": "OmniBot Soccer Chassis",
+      "track": "",
+      "why_it_could_win": "Matches physical build patterns from hardware winners by optimizing mechanical agility within the exact 350x350mm dimension limit for the knockout tournament."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A custom Wi-Fi and ESP-NOW based controller setup minimizing command input latency for instant acceleration and shot response on the volleyball court arena.",
+      "stack": [
+        "ESP32",
+        "MicroPython",
+        "RF Transceiver",
+        "C++"
+      ],
+      "title": "Low-Latency ESP32 Wireless Rig",
+      "track": "",
+      "why_it_could_win": "Prioritizes live demonstration reliability and split-second responsiveness required in fast-paced knockout robotics matches."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1274691349"
+      ],
+      "pitch": "An electromagnetically assisted front-scoop mechanism that locks onto the ball during dribbling and releases instantly on trigger command for penalty shots.",
+      "stack": [
+        "Relay Circuits",
+        "Electromagnets",
+        "Arduino Nano",
+        "Custom PCB"
+      ],
+      "title": "Magnetic Ball-Capture Frontguard",
+      "track": "",
+      "why_it_could_win": "Provides a distinct mechanical advantage in ball retention during high-energy defensive challenges, echoing winning hardware engineering projects."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A 3D-printed modular polycarbonate bumper and chassis skeleton designed to absorb high-velocity impacts from opposing robots during aggressive match play.",
+      "stack": [
+        "CAD",
+        "3D Printing",
+        "Polycarbonate",
+        "Fasteners"
+      ],
+      "title": "Ruggedized Impact-Resistant Chassis",
+      "track": "",
+      "why_it_could_win": "Ensures structural durability throughout a grueling multi-round knockout tournament without requiring major spare part replacements."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1281918590"
+      ],
+      "pitch": "A custom ergonomic handheld transmitter featuring dual joysticks and quick-toggle turbo speed multipliers tailored for competitive robot soccer maneuvers.",
+      "stack": [
+        "Joystick Modules",
+        "nRF24L01",
+        "Arduino",
+        "PCB Design"
+      ],
+      "title": "Dual-Mode Analog-Digital Controller",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on operator ergonomics and precision control, directly addressing the speed and maneuverability criteria of the tournament."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

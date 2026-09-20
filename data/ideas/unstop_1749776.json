@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-20T07:53:25.669959+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749776",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1144331507"
+      ],
+      "pitch": "A highly maneuverable, low-center-of-gravity 3kg combat robot built within the 350x350mm specification, featuring high-torque DC geared motors and an angled wedge design to leverage physics for ring domination.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "DC Motors",
+        "Motor Drivers"
+      ],
+      "title": "TitanSumo 350",
+      "track": "",
+      "why_it_could_win": "Since this is a physical Robo Sumo tournament with a knockout format, a reliable mechanical design with a low center of gravity and high torque will directly outmaneuver and push out less structurally stable opponents."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An RC sumo robot equipped with modular front-flippers and quick-swap tungsten-weighted wedge plates to rapidly adapt to different opponent configurations between matches.",
+      "stack": [
+        "Python",
+        "MicroPython",
+        "ESP32",
+        "RF Transceiver"
+      ],
+      "title": "Vanguard RC Edge",
+      "track": "",
+      "why_it_could_win": "In a single-elimination knockout format, adaptability and mechanical durability are the most critical factors for surviving consecutive rounds against varied opponents."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An RC-controlled sumo robot featuring an onboard wide-angle camera feeding real-time positional telemetry to the pilot's controller screen via local Wi-Fi to optimize blind-spot awareness in the arena.",
+      "stack": [
+        "C++",
+        "ESP32-CAM",
+        "OpenCV",
+        "Wi-Fi Streaming"
+      ],
+      "title": "SumoTactician Pro",
+      "track": "",
+      "why_it_could_win": "Most competitors rely purely on line-of-sight visual driving; adding a low-latency pilot-assist FPV feed gives a tactical edge in judging distance from the ring boundary."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1144331507"
+      ],
+      "pitch": "A heavy-duty 3kg sumo bot utilizing custom high-grip rubber treads and dual-stage gearboxes to maximize friction against the volleyball court boundary surface, ensuring maximum pushing force.",
+      "stack": [
+        "Arduino",
+        "Custom Chassis",
+        "High-Torque Servos",
+        "LiPo Batteries"
+      ],
+      "title": "IronClad Traction",
+      "track": "",
+      "why_it_could_win": "In sumo wrestling matches, pushing power is a direct function of traction and weight distribution; maximizing grip within the 3kg limit wins matches."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "An agile 350x350mm RC sumo robot featuring an active pneumatic-style or servo-actuated side skirt that expands upon button press to widen the pushing footprint just before contact.",
+      "stack": [
+        "C++",
+        "Arduino Nano",
+        "Servo Motors",
+        "FlySky RC Receiver"
+      ],
+      "title": "Apex Shifter",
+      "track": "",
+      "why_it_could_win": "Dynamic geometry catches opponents off guard by changing the effective blocking width instantly, matching the physical dominance criteria of the event."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

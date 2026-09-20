@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-20T07:53:38.115684+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1751540",
+  "ideas": [
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous AI agent pipeline for satellite collision avoidance, processing live TLE data and simulating orbital maneuvers to generate verified collision-avoidance telemetry.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "astropy",
+        "fastapi"
+      ],
+      "title": "OrbitalDebris-AI",
+      "track": "Software",
+      "why_it_could_win": "Addresses a critical real-world aerospace problem and mimics the autonomous incident response pattern seen in previous hackathon winners."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "Real-time telemetry anomaly detection dashboard for sounding rockets using machine learning models on live sensor streams.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "gemini-2-5",
+        "timescaledb"
+      ],
+      "title": "TelemetryGuard",
+      "track": "Software",
+      "why_it_could_win": "Fits the software track perfectly by bringing advanced industrial anomaly detection techniques directly into aerospace telemetry operations."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A semantic routing framework optimized for querying complex aerospace engineering documentation and orbital mechanics guidelines using local embeddings.",
+      "stack": [
+        "Python",
+        "qwen",
+        "semantic-router",
+        "superlinked"
+      ],
+      "title": "AeroSim-Router",
+      "track": "Software",
+      "why_it_could_win": "Demonstrates sophisticated software engineering and efficient LLM routing techniques that stand out among generic chatbot submissions."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An on-board computer vision and flight code reviewer running on constrained hardware NPUs to inspect rocket component imagery pre-launch.",
+      "stack": [
+        "Python",
+        "opencv",
+        "onnx",
+        "numpy"
+      ],
+      "title": "FlightEdge-NPU",
+      "track": "Hardware",
+      "why_it_could_win": "Leverages edge computing principles and hardware-software integration suitable for the hardware-adjacent judging criteria."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "BPMN-orchestrated pre-flight safety checklist and risk diagnosis agent that coordinates multi-system readiness for small satellite launches.",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "bpmn",
+        "fastapi"
+      ],
+      "title": "AeroBPMN-Workflow",
+      "track": "Software",
+      "why_it_could_win": "Brings rigorous enterprise workflow governance to aerospace engineering checklists, impressing judges looking for structured execution."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

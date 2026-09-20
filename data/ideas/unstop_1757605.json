@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-20T07:54:00.603202+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757605",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router tailored for rapid student AI app prototyping during an overnight sprint.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "faiss",
+        "OpenAI"
+      ],
+      "title": "VibeRouter",
+      "track": "",
+      "why_it_could_win": "Leverages the genuinely hard engineering pattern seen in past hackathon winners by implementing a fast kNN index and self-improving feedback loop in under 8 hours."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "Pre-deployment risk diagnosis for multi-agent workflows using a streamlined BPMN orchestration visualizer.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "NetworkX",
+        "LangChain"
+      ],
+      "title": "BPMNGuard",
+      "track": "",
+      "why_it_could_win": "Replicates the architectural rigor of successful agentic governance tools, making complex error checking instantly readable for judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two autonomous agents engaged in a high-stakes resource negotiation game to autonomously study emergent strategic deception.",
+      "stack": [
+        "Python",
+        "Asyncio",
+        "Anthropic API"
+      ],
+      "title": "DeceitSim",
+      "track": "",
+      "why_it_could_win": "Directly applies the adversarial AI pattern where autonomous self-improving interactions create an instantly compelling live demo for judges."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first semantic code reviewer designed to run locally with zero cloud dependencies.",
+      "stack": [
+        "Python",
+        "llama.cpp",
+        "AST module"
+      ],
+      "title": "NanoCache",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering limits like local latency and resource efficiency, which stand out sharply in rapid overnight builds."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "Zero-config auto-embedding RAG toolkit that converts unstructured Markdown documentation instantly into a searchable vector store.",
+      "stack": [
+        "Python",
+        "SQLite",
+        "Sentence-Transformers"
+      ],
+      "title": "AutoToonRAG",
+      "track": "",
+      "why_it_could_win": "Solves an immediate developer pain point with a polished utility tool, scoring high on practical usability during a fast-paced sprint."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

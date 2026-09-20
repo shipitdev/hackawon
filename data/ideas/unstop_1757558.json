@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-20T07:53:56.357921+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757558",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A specialized code editor designed for the Blind Coding event that restricts monitor visibility and relies entirely on advanced voice feedback, syntax audio cues, and LLM-assisted structural error reporting.",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "Web Speech API",
+        "Monaco Editor"
+      ],
+      "title": "BlindCoder IDE",
+      "track": "Blind Coding",
+      "why_it_could_win": "Directly targets the unique event format of Code Clash 2.0's Blind Coding challenge, offering a novel tool for practicing and competing in screen-free programming."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A high-performance competitive programming testing platform that visually animates complex graph algorithms, dynamic programming state matrices, and tree optimizations in real-time during head-to-head DSA battles.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Canvas API"
+      ],
+      "title": "AlgoDuel Graph Visualizer",
+      "track": "DSA Battle",
+      "why_it_could_win": "Addresses the core theme of the DSA Battle track by providing advanced visualization tools for complex data structures and algorithmic problem-solving."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent competitive programming assistant that analyzes memory limits, time complexities, and potential edge-case failures of C++ and Python solutions before submission.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Tree-sitter",
+        "OpenAI API"
+      ],
+      "title": "SyntaxSync AI",
+      "track": "DSA Battle",
+      "why_it_could_win": "Fits the rigorous algorithmic proficiency and problem-solving focus of the DCRUST CSE flagship competitive programming festival."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An inter-departmental innovation platform that pairs computer science students with engineering peers from other disciplines to prototype hardware-software solutions for university automation.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CampusCollab CodeHub",
+      "track": "Innovation Competition",
+      "why_it_could_win": "Capitalizes on the inter-departmental and inter-college nature of DCRUST by bridging different engineering branches for technical creativity."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated testing harness that benchmarks competitive programming submissions against randomized stress tests to expose hidden runtime bottlenecks and memory leaks.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Redis",
+        "Flask"
+      ],
+      "title": "OptiCode Benchmark Engine",
+      "track": "Innovation Competition",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by solving the problem of automated stress testing and rigorous performance evaluation for algorithmic code."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

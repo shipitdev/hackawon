@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-09-20T07:53:06.837028+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749766",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A telemetry-to-tuning companion app that analyzes blackbox logs from Betaflight after a test flight and automatically suggests PID tuning adjustments for tight obstacle courses.",
+      "stack": [
+        "Python",
+        "React",
+        "Betaflight API"
+      ],
+      "title": "AeroTune FPV",
+      "track": "",
+      "why_it_could_win": "Leverages software optimization to improve drone agility and pilot handling for the timed obstacle course without risking hardware mid-event."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-computing gate timer and fault-detection system using an ESP32 and camera module to automatically log lap times and penalize course deviations via computer vision.",
+      "stack": [
+        "C++",
+        "Python",
+        "OpenCV",
+        "ESP32"
+      ],
+      "title": "GateWatch Vision",
+      "track": "",
+      "why_it_could_win": "Provides reliable, automated judging infrastructure that helps race coordinators accurately track adjusted times during the high-speed event."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A low-latency wireless relay system placed across the obstacle course to stream live telemetry and emergency kill-signal overrides directly to the pilot station.",
+      "stack": [
+        "TypeScript",
+        "ESP32",
+        "LoRa"
+      ],
+      "title": "OmniGate Mesh",
+      "track": "",
+      "why_it_could_win": "Focuses on robust hardware communication and safety mechanisms, which aligns well with responsible flight control guidelines."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A lightweight secondary sensor module mounted on the drone chassis that tracks g-force limits, maximum tilt angles, and battery health to ensure compliance with weight and safety limits.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "MPU6050"
+      ],
+      "title": "Inertial Flight Guard",
+      "track": "",
+      "why_it_could_win": "Solves the practical verification challenge of checking drone weight and flight safety parameters before race registration."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An optional FPV overlay simulator built for training pilots on dynamically generated obstacle courses before they take their physical run.",
+      "stack": [
+        "C++",
+        "Godot",
+        "Python"
+      ],
+      "title": "PathFinder HUD",
+      "track": "",
+      "why_it_could_win": "Gives competitors a practical tool to adapt on the spot when the surprise course layout is revealed at the venue."
+    }
+  ],
+  "prompt_version": 1,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
