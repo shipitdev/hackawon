@@ -32,6 +32,10 @@ DROP_FOR_WEB = {"raw", "description"}
 def to_web(record: HackathonRecord) -> dict:
     data = record.model_dump(mode="json", exclude=DROP_FOR_WEB)
     data["uid"] = record.uid
+    for source in data["problem_sources"]:
+        text = source.get("text")
+        if text and len(text) > 600:
+            source["text"] = text[:600] + "…"
     # Truncated so the bundle stays small; the full text is a click away on the source site.
     if record.description:
         text = " ".join(record.description.split())

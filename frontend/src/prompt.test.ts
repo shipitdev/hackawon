@@ -9,6 +9,7 @@ function make(overrides: Partial<Hackathon> = {}): Hackathon {
     source_id: "1",
     title: "HackSpire'26",
     url: "https://x/",
+    problem_sources: [],
     tagline: "Innovate to Inspire",
     starts_at: "2026-10-02T00:00:00Z",
     ends_at: "2026-10-03T00:00:00Z",
@@ -60,6 +61,24 @@ describe("the copy-prompt fallback", () => {
     ]);
     expect(prompt).toContain("Haven");
     expect(prompt).toContain("MongoDB AI Hackathon");
+  });
+
+  it("centres the published problem statements", () => {
+    const prompt = buildPrompt(
+      make({
+        problem_sources: [
+          {
+            kind: "inline",
+            title: "Problem statements",
+            text: "Reduce food waste in college kitchens.",
+            url: null,
+            status: "parsed",
+          },
+        ],
+      }),
+    );
+    expect(prompt).toContain("Reduce food waste in college kitchens");
+    expect(prompt).toContain("Each idea must address one published problem");
   });
 
   it("asks the student for the two things we cannot know", () => {

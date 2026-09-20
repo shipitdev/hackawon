@@ -9,14 +9,16 @@ Its value is upcoming events plus sponsor-prize tracks, and submitted-project co
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
-from app.models import HackathonRecord
+from app.models import HackathonRecord, ProblemSource
 from app.sources.base import PoliteClient, parse_dt
 
 NAME = "devfolio"
 SEARCH_URL = "https://api.devfolio.co/api/search/hackathons"
 PAGE_SIZE = 50
+_URL = re.compile(r"https?://[^\s)\]>]+")
 
 
 def _tracks(source: dict[str, Any]) -> list[str]:
@@ -35,6 +37,38 @@ def _sponsors(source: dict[str, Any]) -> list[str]:
 def _reg_deadline(source: dict[str, Any]):
     setting = source.get("hackathon_setting") or {}
     return parse_dt(setting.get("reg_ends_at"))
+
+
+def _problem_sources(source: dict[str, Any]) -> list[ProblemSource]:
+    description = source.get("desc")
+    if not description or "problem" not in description.lower():
+        return []
+    sources = [
+        ProblemSource(
+            kind="inline",
+            title="Published problem context",
+            text=description[:4000],
+            status="parsed",
+        )
+    ]
+    seen = set()
+    for url in _URL.findall(description):
+        url = url.rstrip(".,")
+        if url in seen:
+            continue
+        seen.add(url)
+        lowered = url.lower()
+        kind = (
+            "google_doc"
+            if "docs.google.com" in lowered or "drive.google.com" in lowered
+            else "pdf"
+            if ".pdf" in lowered
+            else "external"
+        )
+        sources.append(
+            ProblemSource(kind=kind, title="Published problem statement", url=url, status="linked")
+        )
+    return sources
 
 
 def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
@@ -62,6 +96,7 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
                 themes=[t for t in (s.get("themes") or []) if isinstance(t, str)],
                 tracks=_tracks(s),
                 sponsors=_sponsors(s),
+                problem_sources=_problem_sources(s),
                 team_min=s.get("team_min"),
                 team_max=s.get("team_size"),
                 participants_count=s.get("participants_count"),

@@ -16,6 +16,7 @@ from datetime import UTC, datetime, timedelta
 
 from app.health import check_counts, load_history, record_counts, save_history
 from app.models import HackathonRecord
+from app.problems import enrich_problem_sources
 from app.sources import devfolio, mlh, unstop
 from app.store import write_hackathon, write_source_runs
 
@@ -110,6 +111,10 @@ def run(dry_run: bool = False) -> int:
     if dry_run:
         print("  (dry run: nothing written)")
         return 0 if any(r["ok"] for r in runs) else 1
+
+    enriched = enrich_problem_sources(unique)
+    if enriched:
+        print(f"  parsed {enriched} linked problem statement documents")
 
     changed = sum(write_hackathon(record) for record in unique)
     write_source_runs(runs)

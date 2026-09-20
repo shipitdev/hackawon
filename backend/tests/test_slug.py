@@ -1,6 +1,7 @@
 """Tests for hackathon slugs — the public URL identity."""
 
-from app.jobs.export_site import make_slug
+from app.jobs.export_site import make_slug, to_web
+from app.models import HackathonRecord, ProblemSource
 
 
 class TestSlug:
@@ -43,3 +44,14 @@ class TestSlug:
 
     def test_still_appends_when_the_id_adds_information(self):
         assert make_slug("HackRice", "14416") == "hackrice-14416"
+
+
+def test_web_export_bounds_problem_context_in_the_listing_bundle():
+    record = HackathonRecord(
+        source="unstop",
+        source_id="1",
+        title="Hack",
+        url="https://unstop.com/hackathons/hack-1",
+        problem_sources=[ProblemSource(kind="inline", text="x" * 1000, status="parsed")],
+    )
+    assert len(to_web(record)["problem_sources"][0]["text"]) == 601
