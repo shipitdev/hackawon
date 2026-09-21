@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-19T07:29:17.674834+00:00",
+  "generated_at": "2026-09-21T08:36:49.875205+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757858",
@@ -14,74 +17,76 @@
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A competitive programming sparring bot that generates tailored problem sets and instantly explains edge cases using optimized search algorithms.",
+      "pitch": "An interactive execution visualizer for competitive programming solutions that steps through complex algorithms to help debug time limit excesses.",
+      "problem_statement": "Round 2 – Advanced Coding Challenge: Participants who qualify from Round 1 will progress to the second round, which will include more challenging coding problems requiring efficient algorithms, logical reasoning, and optimized solutions.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React"
+        "TypeScript",
+        "Monaco Editor"
       ],
-      "title": "AlgoDuet",
+      "title": "AlgoTrace Visualizer",
       "track": "",
-      "why_it_could_win": "Directly targets the core theme of the Q Hackathon, which focuses on competitive programming, logical reasoning, and algorithmic problem-solving."
+      "why_it_could_win": "Aligns with the focus on advanced algorithms and competitive programming, providing a tangible tool for participants facing algorithmic hurdles."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A localized benchmarking suite that runs stress tests and generates random edge-case test generation scripts to test algorithm efficiency locally.",
+      "problem_statement": "Round 2 – Advanced Coding Challenge: Participants who qualify from Round 1 will progress to the second round, which will include more challenging coding problems requiring efficient algorithms, logical reasoning, and optimized solutions.",
+      "stack": [
+        "C++",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "CP-Benchmark Pro",
+      "track": "",
+      "why_it_could_win": "Directly targets the need for optimized solutions and efficient algorithms under strict time constraints in competitive programming."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A rapid-fire fundamental programming drill platform designed to sharpen syntax precision for beginner coding rounds.",
+      "problem_statement": "Round 1 – Easy-Level Coding Challenge: The first round will assess participants' fundamental programming and problem-solving abilities through easy-level coding problems.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "title": "SyntaxSprint Trainer",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact structure of Round 1, offering immediate utility for students testing fundamental programming abilities."
     },
     {
       "build_hours": 30,
       "inspired_by": [],
-      "pitch": "An online code execution visualizer that steps through advanced algorithms to display time and space complexity graphs in real-time.",
+      "pitch": "An automated complexity analyzer that predicts time and space complexity of source code before execution to prevent submission errors.",
+      "problem_statement": "Round 2 – Advanced Coding Challenge: Participants who qualify from Round 1 will progress to the second round, which will include more challenging coding problems requiring efficient algorithms, logical reasoning, and optimized solutions.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "WebAssembly"
+        "Python",
+        "AST",
+        "Flask"
       ],
-      "title": "ComplexityVisualizer",
+      "title": "CodeLogic Analyzer",
       "track": "",
-      "why_it_could_win": "Appeals to judges evaluating algorithmic thinking and efficient solution design for advanced coding challenges."
+      "why_it_could_win": "Pertains to advanced algorithmic reasoning and evaluation metrics based on test cases and efficiency."
     },
     {
       "build_hours": 40,
       "inspired_by": [],
-      "pitch": "A 1-v-1 real-time competitive coding platform featuring automated test case generation and performance benchmarking for custom algorithms.",
+      "pitch": "A real-time 1v1 coding arena matching platform for practicing timed problem-solving under competitive pressure.",
+      "problem_statement": "About the Opportunity: The Online Coding Hackathon is a two-round competitive programming event designed to provide students with an opportunity to demonstrate and strengthen their coding, logical reasoning, algorithmic thinking, and problem-solving abilities.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "Docker"
-      ],
-      "title": "BitWiseDuel",
-      "track": "",
-      "why_it_could_win": "Matches the exact evaluation metric of automated test case correctness emphasized in Round 1 and Round 2 of the hackathon."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A puzzle-solving benchmark utility for testing and optimizing graph traversal algorithms under strict memory constraints.",
-      "stack": [
-        "Python",
-        "C++",
-        "Streamlit"
-      ],
-      "title": "HeuristicPathfinder",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering and optimized algorithm design, aligning with advanced problem-solving tracks."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered logic debugger that breaks down failed test cases into logical hints without revealing the full solution code.",
-      "stack": [
-        "TypeScript",
-        "OpenAI API",
+        "WebSockets",
+        "Redis",
         "Next.js"
       ],
-      "title": "CodeTutorAI",
+      "title": "CP-Duels",
       "track": "",
-      "why_it_could_win": "Combines continuous learning and analytical thinking, fitting the pedagogical and logical goals of the event."
+      "why_it_could_win": "Emphasizes the competitive programming and structured environment described in the event overview."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

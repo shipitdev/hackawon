@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:00.493721+00:00",
+  "generated_at": "2026-09-21T08:30:22.655648+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1751529",
@@ -17,85 +19,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1282252864"
       ],
-      "pitch": "A training-free semantic router for multi-agent systems that uses kNN over exemplar indices and LLM-judge writebacks to dynamically route incoming sub-tasks to the cheapest capable agent.",
+      "pitch": "A visual BPMN workflow engine that orchestrates multi-agent enterprise tasks while continuously performing automated pre-deployment risk and compliance checks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "fastapi",
-        "superlinked",
-        "qwen"
+        "FastAPI",
+        "LangChain",
+        "BPMN.io"
       ],
-      "title": "SelfHealRouter",
+      "title": "BPMN-Guarded Multi-Agent Compliance Pipeline",
       "track": "",
-      "why_it_could_win": "Leverages proven hard engineering patterns from successful past hackathons by implementing a self-improving feedback loop without requiring model retraining."
+      "why_it_could_win": "Leverages the architectural patterns from UiPath AgentHack winning projects by integrating strict human-in-the-loop governance and process orchestration, which appeals directly to enterprise judges looking for production-grade agent reliability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic routing proxy that dynamically updates its exemplar index via LLM-judge writebacks to optimize tool-call dispatch routing accuracy in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Superlinked",
+        "Semantic-Router"
+      ],
+      "title": "Self-Improving Semantic Router for Agentic Tool Use",
+      "track": "",
+      "why_it_could_win": "Directly adapts the winning architecture from the Superlinked x Qwen Hackathon, offering technical depth in routing optimization that immediately impresses judges looking for real engineering performance gains."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1282252864"
+        "github:1163393786"
       ],
-      "pitch": "An agentic pre-deployment risk diagnosis tool that parses business workflow diagrams and uses coded agents to simulate adversarial inputs and flag compliance edge-cases before deployment.",
+      "pitch": "A dual-agent simulation environment where two autonomous agents engage in strategic negotiation games to autonomously discover deception vectors and vulnerability patterns without pre-programming.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "bpmn-python",
-        "langchain",
-        "streamlit"
+        "Streamlit",
+        "OpenAI API",
+        "Braintrust"
       ],
-      "title": "BPMNGuard",
+      "title": "Adversarial Red-Teaming Gym for Autonomous Agents",
       "track": "",
-      "why_it_could_win": "Tackles a complex enterprise workflow constraint, matching the engineering depth and human-in-the-loop validation seen in winning governance agents."
+      "why_it_could_win": "Employs the self-improving adversarial AI mechanics that won the Datadog Self-Improving Agents Hack, captivating judges with emergent agent behavior and rigorous safety evaluation."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A decentralized Model Context Protocol server architecture that safely bridges disparate medical data sources to specialized clinical AI agents with strict audit trails.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "MCP SDK",
+        "Docker"
+      ],
+      "title": "Federated MCP Clinical Data Broker",
+      "track": "",
+      "why_it_could_win": "Mirrors the runner-up architecture from the MCP & AI Agents Hackathon by showcasing modular protocol standards and secure infrastructure integration that enterprise judges prioritize."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A runtime optimization proxy that intercepts LLM reasoning traces, detects logical shortcut patterns using reinforcement learning rewards, and caches compressed steps to halve token overhead.",
-      "stack": [
-        "Python",
-        "vllm",
-        "torch",
-        "redis"
-      ],
-      "title": "ReasonCache",
-      "track": "",
-      "why_it_could_win": "Focuses on high-utility infrastructure improvement, mirroring successful projects that make complex model reasoning significantly faster and cheaper."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "A dual-agent simulation environment where two autonomous agents negotiate a shared task while continuously monitored for emergent deceptive behavior and sudden strategy shifts.",
-      "stack": [
-        "Python",
-        "ag2",
-        "braintrust",
-        "fastapi"
-      ],
-      "title": "AdversarialArena",
-      "track": "",
-      "why_it_could_win": "Showcases complex multi-agent dynamics and unscripted autonomous behavior that instantly captivates live judges during a product demonstration."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline-first AI code review agent optimized to run locally on hardware neural processing units, performing continuous static analysis and vulnerability patching without cloud latency.",
+      "pitch": "An offline-first AI code reviewer agent optimized to run locally on hardware NPUs, executing security checks and refactoring suggestions without sending source code to external servers.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "onnxruntime",
-        "transformers",
-        "click"
+        "ONNX Runtime",
+        "Transformers",
+        "FastAPI"
       ],
-      "title": "EdgeReviewer",
+      "title": "Local NPU-Accelerated Code Guard Agent",
       "track": "",
-      "why_it_could_win": "Delivers practical, privacy-first local AI deployment that directly appeals to judges looking for real-world utility beyond standard cloud-dependent wrappers."
+      "why_it_could_win": "Builds on the runner-up strategy of the Qualcomm Snapdragon Multiverse Hackathon by emphasizing hardware efficiency, data privacy, and local execution—key selling points for practical, real-world deployment."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

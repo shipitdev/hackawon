@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:42:34.652622+00:00",
+  "generated_at": "2026-09-21T08:10:01.188402+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:c84b90d65eff4ae083366fc1cc549e81",
@@ -14,86 +18,90 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1155558847"
+        "github:611784301"
       ],
-      "pitch": "AI-powered satellite imagery monitoring platform to track illegal mining and industrial land encroachment specifically tailored for the state of Odisha's industrial corridors.",
+      "pitch": "A hyper-local municipal waste management and automated route optimization platform tailored for smart cities like Rourkela.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "OdishaSat-Compliance",
-      "track": "Open Winner",
-      "why_it_could_win": "Leverages the proven high-scoring pattern of GeoNex-ATLAS by applying satellite monitoring to regional industrial compliance, which appeals strongly to judges looking for localized real-world impact in Eastern India."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-driven localized nutritional assistant that generates meal plans and macro breakdowns using traditional Eastern Indian dietary ingredients and regional cuisines.",
-      "stack": [
-        "Python",
-        "FastAPI",
+        "JavaScript",
         "React",
-        "OpenAI API"
+        "Node.js",
+        "Leaflet.js"
       ],
-      "title": "ArogyaOS-Nutrition",
-      "track": "Open Runners Up",
-      "why_it_could_win": "Adapts the winning health-tech architecture of E-Foodiee-AI-Nutrition-Assistant to a localized cultural context, making the utility immediately recognizable and compelling for judges."
+      "title": "OdishaSmartWaste",
+      "track": "Open Winner",
+      "why_it_could_win": "Follows the proven trash and waste management hackathon-winning pattern by addressing a concrete municipal pain point with a working dashboard."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous peer-to-peer energy trading platform for smart microgrids utilizing decentralized escrow mechanisms and predictive consumption forecasting.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "Solidity",
-        "PostgreSQL"
-      ],
-      "title": "Bhubaneswar-MicroGrid-Trade",
-      "track": "Open 2nd Runners Up",
-      "why_it_could_win": "Combines robust forecasting mechanics with transaction flows similar to Dispatch and ClashX, targeting the Open 2nd Runners Up track with complex backend engineering."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "Automated AML and financial anomaly detection platform built specifically for university student club treasuries and festival sponsorship funds.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "NetworkX",
-        "LightGBM"
-      ],
-      "title": "DigiCampus-RiskEngine",
-      "track": "Fueler Digital Bundle",
-      "why_it_could_win": "Directly mimics the graph intelligence and risk-scoring architecture of the DIGITIMES AI winner Bito, adapted for campus financial ecosystems which resonates well with NIT Rourkela organizers."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent academic support system using LangGraph and localized RAG to help first-year engineering students navigate coursework and lab procedures.",
+      "pitch": "An AI-powered multi-agent sustainability and student green-campus support system built for campus-level carbon footprint reduction tracking.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "TypeScript",
         "LangGraph",
-        "Streamlit",
-        "ChromaDB"
+        "Next.js",
+        "Supabase"
       ],
-      "title": "EdiMent-AgenticMentor",
+      "title": "EcoRourkela AI",
+      "track": "Open Runners Up",
+      "why_it_could_win": "Combines multi-agent student support frameworks with clear measurable environmental impact, matching successful green-tech hackathon templates."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A GPS-enabled walk-to-earn community engagement and local artisan discovery platform featuring a live civic impact dashboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "LocalPulse Odisha",
+      "track": "Open 2nd Runners Up",
+      "why_it_could_win": "Replicates a proven civic tech real-world impact architecture that won major hackathons by combining consumer incentives with municipal analytics."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A voice-first agentic web interface designed to detect and protect vulnerable users from localized financial and digital scams in regional dialects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "TypeScript",
+        "Cloudflare Workers",
+        "WebAudio API"
+      ],
+      "title": "FraudShield Voice",
+      "track": "Fueler Digital Bundle",
+      "why_it_could_win": "Features hard engineering around voice-first agentic workflows and solves an urgent, highly relatable cyber-fraud problem."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite and industrial monitoring dashboard for tracking environmental zoning compliance and land usage changes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Mapbox"
+      ],
+      "title": "ComplianceScan AI",
       "track": "Open Winner",
-      "why_it_could_win": "Replicates the exact winning multi-agent architecture of the GreenNovation AI platform, targeting student-centric utility that directly solves onboarding pain points at technical institutes."
+      "why_it_could_win": "Applies heavy geospatial data processing and computer vision concepts into an easily digestible web dashboard that appeals directly to judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

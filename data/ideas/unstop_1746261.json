@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:12.662862+00:00",
+  "generated_at": "2026-09-21T08:23:26.223929+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -8,96 +8,102 @@
     "patterns": [
       "unusual-hardware",
       "working-demo",
-      "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746261",
   "ideas": [
     {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A highly agile, low-center-of-gravity 30x30cm remote-controlled robot optimized for maximum speed and sharp turns on obstacle tracks.",
+      "problem_statement": "Robo Race: Build an autonomous or remote-controlled robot under 30x30x30cm to complete timed runs on an obstacle track without penalties.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "DC Motors",
+        "PWM Speed Control",
+        "LiPo Batteries"
+      ],
+      "title": "SpeedDemon RC Chassis Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly focuses on the core judging criteria of completion time and obstacle clearance by prioritizing lightweight mechanical design and rapid maneuverability."
+    },
+    {
       "build_hours": 30,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A compact 30x30cm differential drive robot running custom PID line-following algorithms with an ultrasonic obstacle-avoidance override to minimize run time.",
+      "pitch": "An autonomous dual-mode robot using ultrasonic sensors and IR arrays to navigate complex obstacle courses under the 3-minute time limit.",
+      "problem_statement": "Robo Race: Build an autonomous or remote-controlled robot under 30x30x30cm to complete timed runs on an obstacle track without penalties.",
       "stack": [
-        "C++",
-        "Arduino",
-        "PID Control",
-        "Hardware Sensors"
+        "ESP32",
+        "Ultrasonic Sensors",
+        "IR Proximity Sensors",
+        "MicroPython"
       ],
-      "title": "Speed-Optimized Line & Obstacle Rover",
+      "title": "AutoNav Line and Wall-Avoidance Rover",
       "track": "",
-      "why_it_could_win": "Directly targets the primary judging criteria of completion time and obstacles cleared using a robust, highly tuned hardware build reminiscent of award-winning autonomous rovers."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1010199928"
-      ],
-      "pitch": "An autonomous robot utilizing an ESP32-CAM module running lightweight color or contour detection to navigate complex obstacle courses without manual intervention.",
-      "stack": [
-        "Python",
-        "OpenCV",
-        "C++",
-        "ESP32"
-      ],
-      "title": "Vision-Guided Maze Navigator",
-      "track": "",
-      "why_it_could_win": "Leans into the autonomous category rules, scoring heavily on technical complexity and flawless execution of live runs."
+      "why_it_could_win": "Capitalizes on the autonomous run option, which often secures higher technical appreciation from judges compared to manual remote-controlled units."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1144331507"
+        "github:1100461811"
       ],
-      "pitch": "A low-latency radio frequency remote control unit equipped with an emergency stop and telemetry feedback to ensure strict compliance with safety rules and time limits.",
+      "pitch": "A compact 30cm-spec robot equipped with a low-latency ESP32-CAM module to let the driver navigate blind spots on the track via live video feedback.",
+      "problem_statement": "Robo Race: Build an autonomous or remote-controlled robot under 30x30x30cm to complete timed runs on an obstacle track without penalties.",
       "stack": [
-        "Hardware",
-        "RF Modules",
-        "C++",
-        "Microcontrollers"
+        "ESP32-CAM",
+        "Wi-Fi Telemetry",
+        "Arduino IDE",
+        "Custom Acrylic Chassis"
       ],
-      "title": "Wireless Fail-Safe Remote Override System",
+      "title": "TeleOps First-Person View (FPV) Navigator",
       "track": "",
-      "why_it_could_win": "Addresses the reliability and penalty-avoidance metrics in the judging criteria by preventing runaway crashes and tracking maximum run times accurately."
+      "why_it_could_win": "Combines physical robotics with an engaging live-action demo, ensuring a high-impact presentation that stands out during timed runs."
     },
     {
-      "build_hours": 24,
+      "build_hours": 18,
       "inspired_by": [
-        "github:1281918590"
+        "github:1259981732"
       ],
-      "pitch": "A specialized chassis built under strict 30cm dimension limits featuring dual infrared distance sensors for rapid wall-following and high-speed straight-line bursts.",
+      "pitch": "A robust, low-power autonomous racer featuring servo-mounted distance scanners to dynamically map and weave through dynamic track obstacles.",
+      "problem_statement": "Robo Race: Build an autonomous or remote-controlled robot under 30x30x30cm to complete timed runs on an obstacle track without penalties.",
       "stack": [
+        "Atmega328P",
+        "Servo Motors",
         "C++",
-        "Arduino",
-        "IR Sensors",
-        "Custom PCB"
+        "Motor Driver Shield"
       ],
-      "title": "Modular Wall-Hugger Speedster",
+      "title": "Obstacle-Dodger Arduino Bot",
       "track": "",
-      "why_it_could_win": "Optimized purely for the technical inspection and qualifying run speed tests, giving the team a massive advantage in completion time."
+      "why_it_could_win": "Directly optimizes for the 'number of obstacles cleared' judging metric by implementing automated clearance algorithms rather than manual guesswork."
     },
     {
-      "build_hours": 40,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1259981732",
         "github:1010199928"
       ],
-      "pitch": "An intelligent micro-robot that maps obstacles during its first qualifying run and optimizes its path for the final head-to-head showdown.",
+      "pitch": "An intelligent racing robot featuring onboard wheel encoders and automated speed modulation to minimize penalty points from hitting track boundaries.",
+      "problem_statement": "Robo Race: Build an autonomous or remote-controlled robot under 30x30x30cm to complete timed runs on an obstacle track without penalties.",
       "stack": [
-        "Python",
-        "C++",
-        "SLAM algorithms",
-        "Raspberry Pi Pico"
+        "Arduino Nano",
+        "Quadrature Encoders",
+        "PID Control",
+        "C++"
       ],
-      "title": "Dynamic Path-Recalculating Autonomous Bot",
+      "title": "Precision Braking and Lap Timer Bot",
       "track": "",
-      "why_it_could_win": "Exceeds standard remote-controlled entries by showcasing advanced autonomy, making it a favorite for top rankings in the final round."
+      "why_it_could_win": "Minimizes penalty points for rule violations, which is a decisive factor when competing times among top qualifiers are extremely close."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

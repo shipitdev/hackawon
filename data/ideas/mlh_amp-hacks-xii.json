@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:19.054202+00:00",
+  "generated_at": "2026-09-21T08:10:32.214895+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,96 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:amp-hacks-xii",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1181344931",
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered historical knowledge graph and semantic search engine indexing digitized records from Williamsburg and the Historic Triangle to surface hidden social networks of the 18th century.",
+      "pitch": "A hyper-local graph intelligence platform mapping commercial supply chains and historic preservation zoning dependencies in Williamsburg.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "TailwindCSS"
+      ],
+      "title": "ColonialGraph: Williamsburg Local Business Intelligence Network",
+      "track": "",
+      "why_it_could_win": "Adopts the graph intelligence and high-utility visualization architecture of Bito to provide tangible, localized value for Williamsburg businesses and municipal planners."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite-powered environmental compliance tracker designed for monitoring runoff and land use changes around the James River and local industrial zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Neo4j",
-        "Next.js",
-        "OpenAI API"
+        "Sentinel-2 API",
+        "PostGIS"
       ],
-      "title": "Colonial Archive Knowledge Graph & RAG",
+      "title": "Tidewater EcoAudit: Industrial Land & Watershed Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Leverages the local historical context of Williamsburg, appealing directly to local judges and academic stakeholders while using advanced graph intelligence patterns from previous winning projects."
+      "why_it_could_win": "Replicates the complex geospatial data ingestion and automated monitoring demonstrated by GeoNex-ATLAS, appealing directly to regional environmental concerns."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "A localized predictive analytics dashboard forecasting tidal flooding and infrastructure vulnerability in coastal Virginia using geospatial data and regression models.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Streamlit",
-        "PostGIS",
-        "Scikit-Learn"
-      ],
-      "title": "Tidewater Flood Risk Forecaster",
-      "track": "",
-      "why_it_could_win": "Addresses an urgent, highly relevant environmental issue specific to coastal Virginia, guaranteeing strong local interest from judges."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An autonomous multi-agent routing and incentive platform designed to optimize campus shuttle and micro-mobility usage, featuring dynamic carbon offset tracking.",
+      "pitch": "A LangGraph-powered collaborative student support system custom-tailored for local collegiate syllabi and office hours scheduling.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Next.js",
-        "TailwindCSS"
+        "OpenAI API",
+        "PostgreSQL"
       ],
-      "title": "Campus GreenMobility Agent",
+      "title": "ColonialClassroom: Multi-Agent TA Platform for Virginia Universities",
       "track": "",
-      "why_it_could_win": "Combines multi-agent orchestration with sustainability metrics, a proven winning formula at collegiate and regional hackathons."
+      "why_it_could_win": "Builds on the proven multi-agent student support workflow of greennovation-ai-platform, offering immediate utility for local academic institutions."
+    },
+    {
+      "build_hours": 48,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous micro-marketplace connecting regional Virginia farms with local restaurants, featuring instant escrow settlement.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "React"
+      ],
+      "title": "BurgessBounty: Hyper-Local Agricultural Surplus Marketplace with Escrow",
+      "track": "",
+      "why_it_could_win": "Combines niche logistics with the secure escrow settlement architecture proven by Dispatch, addressing regional food distribution friction."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "An automated compliance and anomaly detection platform that parses local municipal spending reports and flags irregularities using explainable gradient boosting.",
+      "pitch": "Poisson regression and GAM-based predictive tool forecasting public health incidents across the Virginia Peninsula health district.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Jupyter Notebook",
         "Python",
-        "LightGBM",
-        "FastAPI",
-        "React"
+        "Statsmodels",
+        "Streamlit"
       ],
-      "title": "LocalGov Grant Allocation Auditor",
+      "title": "HistoricPathogen: Virginia Health District Incident Forecasting Engine",
       "track": "",
-      "why_it_could_win": "Provides immediate utility for local government operations in Virginia, utilizing hard engineering patterns like explainable ML models seen in past top projects."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust verification engine tailored for regional healthcare providers looking to optimize patient onboarding.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "Patient Trust & Referral Engine for Regional Clinics",
-      "track": "",
-      "why_it_could_win": "Directly adapts a proven healthcare workflow winning architecture to solve real local practice management challenges."
+      "why_it_could_win": "Directly applies the rigorous statistical modeling and calibrated prediction interval techniques from the Apart Research AI Forecasting Hackathon winner."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

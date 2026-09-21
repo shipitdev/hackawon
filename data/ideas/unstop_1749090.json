@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-09-13T07:57:50.044330+00:00",
+  "generated_at": "2026-09-21T08:26:41.768326+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749090",
@@ -14,85 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1182199849"
       ],
-      "pitch": "An AI-powered satellite and drone imagery monitoring platform for industrial agricultural land and supply chain ESG compliance, automatically detecting land use violations and yield discrepancies.",
+      "pitch": "An AI-powered patient interview and triage simulator designed to train frontline community healthcare workers in rural Maharashtra.",
+      "problem_statement": "Open Innovation - solving a real-world regional healthcare training shortage through technology.",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "TensorFlow"
-      ],
-      "title": "AgriCompliance-AI",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the technical execution seen in GeoNex-ATLAS, combining hard remote sensing ML with enterprise ESG reporting that appeals to industrial judges."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated risk-scoring and transaction-monitoring platform tailored for Indian micro-entrepreneurs and local supply chains to detect financial anomalies and fraudulent activities using graph intelligence.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "MediaPipe",
+        "OpenAI API"
       ],
-      "title": "LocalLedger-AML",
+      "title": "Clinical-Simulator for Local Health Workers",
       "track": "",
-      "why_it_could_win": "Adapts the complex graph-intelligence and AML risk detection architecture of Bito into an accessible tool for local businesses, fitting the entrepreneurship focus of Udbhav'26."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered institutional nutrition and wellness platform tailored for Indian college hostels and corporate cafeterias to optimize meal planning, reduce food waste, and deliver personalized health recommendations.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "NutriFit-Corporate",
-      "track": "",
-      "why_it_could_win": "Takes the winning formula of E-Foodiee and scales it into a B2B startup pitch, directly addressing local institutional inefficiencies that judges will immediately understand."
+      "why_it_could_win": "Directly targets the judges' emphasis on real-world problem-solving and business potential by addressing a massive local service gap in medical training."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:950564513"
       ],
-      "pitch": "An AI-driven patient acquisition, trust-building, and automated follow-up engine designed specifically for dental and specialized clinics across Tier-2 Indian cities.",
+      "pitch": "An AI-driven branch-like digital onboarding platform that helps micro-entrepreneurs and street vendors structure documentation to apply for micro-loans.",
+      "problem_statement": "Open Innovation - financial inclusion and bridging the gap between unorganized sector businesses and institutional credit.",
       "stack": [
-        "TypeScript",
         "Next.js",
-        "Gemini API",
-        "PostgreSQL"
+        "Node.js",
+        "TailwindCSS",
+        "Python"
       ],
-      "title": "ClinicTrust-AI",
+      "title": "CapitalCue Regional SME Loan Assistant",
       "track": "",
-      "why_it_could_win": "Replicates the proven patient acquisition engine of Global-Smile, packaged cleanly with a 7-slide pitch deck ready for the Shark Tank round."
+      "why_it_could_win": "Combines high business viability with a polished user-facing MVP, aligning perfectly with the Shark Tank finale focus on investor-style pitch potential."
     },
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1213911408"
+        "github:918466502"
       ],
-      "pitch": "A multi-agent sustainability platform for large engineering campuses like PCCOER to track, forecast, and reduce energy consumption using localized RAG and reinforcement learning.",
+      "pitch": "A short-form video platform helping users learn regional Indian dialects through peer-generated micro-vignettes and real-time pronunciation scoring.",
+      "problem_statement": "Open Innovation - preserving linguistic diversity and easing migration integration for workers moving to urban economic hubs like Pune.",
       "stack": [
-        "TypeScript",
-        "LangGraph",
         "Python",
-        "OpenAI API"
+        "React Native",
+        "FastAPI",
+        "Whisper API"
       ],
-      "title": "CarbonTrace-Campus",
+      "title": "Mora-Local: Vernacular Dialect Exchange",
       "track": "",
-      "why_it_could_win": "Combines the multi-agent student support patterns of Greennovation with a localized campus problem, making the live MVP demonstration highly relatable to the host college judges."
+      "why_it_could_win": "Leverages a proven winning pattern from language-learning apps while solving a hyper-local socio-economic integration challenge."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1259514645"
+      ],
+      "pitch": "An Android app utilizing phone cameras and lightweight machine learning models to monitor ergonomic posture for industrial assembly-line workers.",
+      "problem_statement": "Open Innovation - workplace safety and occupational health monitoring for the manufacturing and SME sectors.",
+      "stack": [
+        "Java",
+        "Android SDK",
+        "TensorFlow Lite",
+        "OpenCV"
+      ],
+      "title": "FitSense Posture Correction for Factory Workers",
+      "track": "",
+      "why_it_could_win": "Demonstrates a hard engineering implementation using on-device computer vision that can be shown live during the offline Shark Tank pitch."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Autonomous data incident response agent that detects supply chain bottlenecks or cold-chain temperature anomalies and auto-generates supplier notification PRs.",
+      "problem_statement": "Open Innovation - tackling agricultural wastage and logistics inefficiencies through automated data remediation.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "BlackBox Agri-Supply Chain Incident Agent",
+      "track": "",
+      "why_it_could_win": "Highlights complex systems engineering and autonomous agents, which appeals strongly to a technical judging panel looking for serious technological depth."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

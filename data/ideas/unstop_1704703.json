@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:35.918482+00:00",
+  "generated_at": "2026-09-21T08:16:59.487182+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,95 +7,104 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1704703",
   "ideas": [
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered system that uses smartphone camera feeds and edge computer vision to automatically detect, classify, and map urban road hazards like potholes and open manholes, syncing directly to municipal maintenance dashboards.",
-      "stack": [
-        "Python",
-        "OpenCV",
-        "YOLOv8",
-        "React Native",
-        "Node.js"
-      ],
-      "title": "UrbanShield AI: Real-Time Pothole and Hazard Mapping for Smart Cities",
-      "track": "Smart Cities & Urban Innovation",
-      "why_it_could_win": "Directly targets the Smart Cities & Urban Innovation track, giving municipal judges an actionable tool for local infrastructure management with clear economic and public safety benefits."
-    },
-    {
       "build_hours": 22,
-      "inspired_by": [],
-      "pitch": "An IoT dashboard that monitors localized transformer temperature, oil levels, and electrical load anomalies in real-time, using predictive threshold alerts to prevent neighborhood blackouts before they happen.",
-      "stack": [
-        "ESP32",
-        "Arduino",
-        "Python",
-        "MQTT",
-        "React",
-        "InfluxDB"
+      "inspired_by": [
+        "github:1087704265"
       ],
-      "title": "GridWatch: IoT-Based Transformer Health and Load Monitoring System",
-      "track": "Internet of Things (IoT)",
-      "why_it_could_win": "Combines hardware-centric Internet of Things data with predictive alerting, addressing real-world power distribution problems relevant to Indian urban and suburban energy grids."
+      "pitch": "An AI-powered traffic anomaly prediction and signal optimization platform built for smart cities using spatial-temporal regression models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Jupyter Notebook",
+        "LightGBM"
+      ],
+      "title": "UrbanFlow-AI: Smart Traffic Incident & Congestion Forecaster",
+      "track": "Smart Cities & Urban Innovation",
+      "why_it_could_win": "Aligns directly with the Smart Cities & Urban Innovation track, leveraging a proven predictive modeling pattern similar to winning forecasting hacks to impress judges with quantitative reliability."
     },
     {
-      "build_hours": 18,
+      "build_hours": 24,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A lightweight browser extension and mobile keyboard overlay that cross-references newly encountered URLs and UPI handles against live threat feeds and heuristic domain-squatting checks to prevent financial fraud.",
+      "pitch": "A graph intelligence dashboard that maps data flows across compromised IoT node clusters to detect lateral movement and unauthorized exfiltration.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "FastAPI",
-        "Chrome Extensions API",
-        "PostgreSQL"
+        "NetworkX",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "PhishGuard: Localized Phishing and Fake UPI Link Detection Extension",
+      "title": "SecureNet-Graph: Automated IoT Vulnerability & AML Threat Mapper",
       "track": "Cybersecurity",
-      "why_it_could_win": "Captures the Cybersecurity track by addressing UPI and digital payment fraud, a massively relevant consumer threat in India that immediately resonates with offline judging panels."
+      "why_it_could_win": "Combines Cybersecurity and IoT themes using graph intelligence and risk-scoring engines, mirroring the architecture of award-winning AML risk platforms."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621",
         "github:1213911408"
       ],
-      "pitch": "A vernacular multilingual mobile application that lets farmers upload leaf photos for instant disease identification using fine-tuned vision models, paired with hyper-local weather and soil condition recommendations.",
+      "pitch": "An autonomous multi-agent student and operator support network using RAG and LangGraph to balance decentralized micro-grid energy loads in real time.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "PyTorch",
-        "Flutter",
-        "FastAPI",
-        "Google Gemini API"
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
       ],
-      "title": "AgriVision AI: Crop Disease and Soil Health Intelligence for Local Farmers",
+      "title": "EcoGrid-Agent: Multi-Agent Renewable Energy Load Balancing",
       "track": "Artificial Intelligence & Machine Learning",
-      "why_it_could_win": "Leverages Artificial Intelligence & Machine Learning with localized accessibility (vernacular support), targeting high-impact agricultural use cases that appeal strongly to regional hackathon judges."
+      "why_it_could_win": "Directly targets the Artificial Intelligence & Machine Learning track by utilizing a multi-agent orchestration framework proven to win competitive student innovation events."
     },
     {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "An augmented reality web-app built specifically for the IPEC campus that overlays directional arrows, lab locations, and event schedules directly onto the user's smartphone camera view for incoming freshers and hackathon visitors.",
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous rental marketplace with crypto escrow payments on Base that automatically unlocks smart IoT laboratory equipment upon payment confirmation.",
+      "problem_statement": "No published statement",
       "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "Node.js",
+        "MQTT"
+      ],
+      "title": "ChainEscrow-IoT: Verifiable Equipment Rental & Micropayment Marketplace",
+      "track": "Web3 & Blockchain",
+      "why_it_could_win": "Bridges Web3 & Blockchain with Internet of Things (IoT) hardware simulation, providing judges with a tangible, working end-to-end transaction flow."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AR web app that overlays satellite monitoring indices and municipal land zoning regulations directly onto physical street-level camera feeds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
         "Three.js",
         "WebXR",
-        "JavaScript",
-        "TailwindCSS",
-        "Node.js"
+        "Python",
+        "PostGIS"
       ],
-      "title": "CampusAR: Immersive AR Indoor Navigation and Event Finder for IPEC",
+      "title": "ImmersiveCity-AR: Spatial Urban Infrastructure Compliance Inspector",
       "track": "AR/VR & Immersive Technologies",
-      "why_it_could_win": "Fits the AR/VR & Immersive Technologies track by building a practical, context-aware application tailored directly to the host college venue, making the demo instantly relatable to judges walking the floor."
+      "why_it_could_win": "Leverages the AR/VR & Immersive Technologies track while incorporating geospatial telemetry concepts from award-winning satellite compliance tools."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

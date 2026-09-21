@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:53:02.201502+00:00",
+  "generated_at": "2026-09-21T08:21:01.612547+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1743636",
@@ -19,86 +21,87 @@
       "inspired_by": [
         "github:1163393786"
       ],
-      "pitch": "A real-time voice agent assistant built on Moss that instantly detects user interruptions using ultra-fast semantic context retrieval without vector database bottlenecks.",
+      "pitch": "A zero-latency voice agent middleware powered by Moss that detects user interruptions instantly without vector database lag.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Moss",
-        "WebSockets",
-        "ElevenLabs",
+        "Moss SDK",
+        "WebRTC",
         "FastAPI"
       ],
-      "title": "Sub-10ms Voice Interruption Engine",
+      "title": "Sub-10ms Semantic Voice Interrupter",
       "track": "Real-Time Voice",
-      "why_it_could_win": "Directly leverages the core sponsor technology (Moss) and targets the low-latency voice requirement highlighted in the hackathon prompt, making it immediately relevant to judges looking for zero-latency AI."
+      "why_it_could_win": "Directly leverages Moss's core value proposition of sub-10ms semantic search for real-time voice, satisfying the core thesis of the sprint."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1334000568",
-        "github:1296916648"
+        "github:1334000568"
       ],
-      "pitch": "An offline-capable semantic router powered by Moss that intercepts developer code generation to enforce security policies in under 10ms.",
+      "pitch": "A training-free semantic router running on client hardware that uses Moss for instant context retrieval and tool dispatching.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Moss",
         "TypeScript",
-        "Tree-sitter",
-        "Qwen"
+        "Moss SDK",
+        "WASM",
+        "Ollama"
       ],
-      "title": "Instant Codebase Compliance Router",
+      "title": "Edge-Cache Semantic Router for Local LLMs",
       "track": "",
-      "why_it_could_win": "Combines high-performance engineering with developer tooling, leveraging the sub-10ms retrieval capability of Moss to solve a hard runtime latency problem."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1199751414"
-      ],
-      "pitch": "A Model Context Protocol (MCP) compatible server backed by Moss that injects relevant patient history into real-time medical transcription agents in under 10ms.",
-      "stack": [
-        "Python",
-        "Moss",
-        "MCP SDK",
-        "FastAPI"
-      ],
-      "title": "Zero-Lag Clinical Context Injector",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining MCP architecture with zero-latency retrieval, addressing a critical need for real-time safety in medical AI."
+      "why_it_could_win": "Combines client-side deployment capability with Moss's vector-db-free architecture, mirroring the technical depth of past routing hackathon winners."
     },
     {
       "build_hours": 30,
       "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An agentic medical assistant that injects patient history into active LLM streams in under 10ms using Moss instead of heavy vector indices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Moss SDK",
+        "MCP",
+        "Streamlit"
+      ],
+      "title": "Zero-Lag Clinical Context Injector",
+      "track": "",
+      "why_it_could_win": "Tackles a high-stakes industry use case where latency directly impacts clinical utility, satisfying the requirement for real-time context."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
         "github:1351321536"
       ],
-      "pitch": "A browser-based agent memory layer utilizing Moss to fetch relevant long-term agent context locally on device without hitting external vector databases.",
+      "pitch": "An on-device coding assistant that uses Moss for sub-10ms snippet retrieval, entirely eliminating embedding generation overhead during edits.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Moss",
-        "WASM",
-        "LangChain"
+        "Moss SDK",
+        "VS Code Extension"
       ],
-      "title": "Edge-Cached Semantic Memory for Agents",
+      "title": "Instant Codebase Grounding Agent",
       "track": "",
-      "why_it_could_win": "Exploits Moss's ability to run anywhere (browser/edge/device) to achieve true zero-latency client-side AI agent execution."
+      "why_it_could_win": "Showcases infrastructure minimalism and extreme speed—key judging criteria for a builder sprint focused on zero latency."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1334000568"
+        "github:1207207353"
       ],
-      "pitch": "A pre-flight evaluation proxy that uses Moss exemplar indexing to catch prompt injections and policy violations in under 10ms before requests hit large language models.",
+      "pitch": "A self-optimizing RAG caching layer built on Moss that stores and retrieves prompt-response exemplars in under 10ms without a vector database.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Moss",
-        "Redis",
-        "FastAPI"
+        "Moss SDK",
+        "LangChain",
+        "Redis"
       ],
-      "title": "Real-Time Prompt Firewall & Guardrail",
+      "title": "Self-Improving Semantic Cache for RAG",
       "track": "",
-      "why_it_could_win": "Solves an urgent production AI problem with measurable performance metrics, fitting the hackathon's core challenge of making latency a competitive advantage."
+      "why_it_could_win": "Demonstrates measurable latency reduction and cost savings, addressing the exact performance metrics judges care about."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

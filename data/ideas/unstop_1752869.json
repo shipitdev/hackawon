@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:50.482265+00:00",
+  "generated_at": "2026-09-21T08:31:52.126634+00:00",
   "grounding": {
     "domains": [
       "sustainability",
@@ -11,95 +11,95 @@
       "judge-pain",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1752869",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A real-time women safety navigation web app that scores walking routes based on street lighting density, crowd reports, and historical incident heatmaps using spatial analysis.",
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "Real-time crowdsourced safety mapping and dynamic companion routing for women navigating urban areas at night.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "React",
+        "React Native",
         "Node.js",
-        "Leaflet.js",
-        "PostgreSQL"
+        "MongoDB",
+        "Mapbox GL JS"
       ],
       "title": "AegisRoute",
       "track": "Women Safety",
-      "why_it_could_win": "Directly targets the Women Safety domain which is a primary focus area for the IEEE WIE judges, moving beyond generic panic buttons to predictive route optimization."
+      "why_it_could_win": "Directly targets the Women Safety domain which is a core theme for IEEE WIE, appealing strongly to a jury likely composed of women advocates and community leaders."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1234067949",
-        "github:1275874285"
-      ],
-      "pitch": "An offline-first mobile web app for rural farmers that diagnoses crop diseases from smartphone leaf photos and forecasts local market price trends using lightweight models.",
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "Blockchain-backed traceability and fair-pricing ledger for smallholder farmers to bypass exploitative intermediaries.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React Native",
-        "TensorFlow Lite"
+        "Solidity",
+        "Next.js",
+        "Hardhat",
+        "PostgreSQL"
       ],
-      "title": "AgriYield-ML",
+      "title": "AgroChain Trace",
       "track": "Agriculture & Rural Innovation",
-      "why_it_could_win": "Tailored for the Agriculture & Rural Innovation domain by addressing the dual pain points of crop loss and lack of transparent market pricing for smallholders."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1289086869"
-      ],
-      "pitch": "An enterprise AI agent that automatically audits health insurance claim rejections against hospital discharge summaries and policy documents to generate point-by-point appeal letters.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "FastAPI",
-        "LangChain",
-        "OpenAI API"
-      ],
-      "title": "MediClaim Audit Agent",
-      "track": "Healthcare Innovation",
-      "why_it_could_win": "Leverages complex document parsing and structured legal/medical reasoning, aligning with the winning formula of solving painful institutional friction found in similar hackathons."
+      "why_it_could_win": "Aligns with Agriculture & Rural Innovation while solving a deep economic pain point that resonates well with Indian rural development goals."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:968379171"
+        "github:1289086869"
       ],
-      "pitch": "A carbon credit and supply chain tracking dashboard for rural agricultural co-operatives producing biochar, ensuring verified environmental impact data for sustainable tech buyers.",
+      "pitch": "An AI agent that cross-references rural clinic patient treatments with government health insurance scheme policies to prevent unjust claim rejections.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Supabase",
-        "TailwindCSS"
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Streamlit"
       ],
-      "title": "BioCharbon Tracking",
-      "track": "Sustainable Technology",
-      "why_it_could_win": "Bridges Sustainable Technology and Agriculture & Rural Innovation by providing transparent, verifiable impact metrics that corporate ESG judges look for."
+      "title": "MedClaim Verifier",
+      "track": "Healthcare Innovation",
+      "why_it_could_win": "Combines healthcare innovation with a technically sophisticated agentic workflow similar to winning enterprise automation solutions."
     },
     {
-      "build_hours": 35,
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "IoT-enabled energy monitoring platform optimizing micro-solar grid distribution in rural community hubs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP32",
+        "MQTT",
+        "Node.js",
+        "React"
+      ],
+      "title": "EcoGrid Micro-Meter",
+      "track": "Sustainable Technology",
+      "why_it_could_win": "Addresses Sustainable Technology with a tangible hardware-software integration angle that immediately catches judges' eyes during a live prototype demo."
+    },
+    {
+      "build_hours": 30,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated micro-loan underwriting and fraud detection platform tailored for rural self-help groups, combining alternative behavioral data with explainable credit scoring.",
+      "pitch": "Alternative credit-scoring engine for micro-entrepreneurs using mobile transaction SMS parsing and localized behavioral metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Pandas",
         "Scikit-Learn",
-        "Streamlit"
+        "Flask",
+        "Flutter"
       ],
-      "title": "MicroGuard FinTech",
+      "title": "MicroCred AI",
       "track": "FinTech Innovation",
-      "why_it_could_win": "Addresses the FinTech Innovation domain with a strong social impact angle, making financial services safer and more accessible for underserved rural communities."
+      "why_it_could_win": "Hits the FinTech Innovation track with a practical financial inclusion angle tailored to underserved populations in developing regions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

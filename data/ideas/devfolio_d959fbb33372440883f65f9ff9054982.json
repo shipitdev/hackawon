@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:01.476026+00:00",
+  "generated_at": "2026-09-21T08:10:13.660630+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,91 +7,94 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "devfolio:d959fbb33372440883f65f9ff9054982",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "A dashboard that analyzes open-source repositories using real GitHub and Git workflows to score contribution health, issue-to-merge velocity, and maintainer bottleneck zones.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "GitHub REST API",
-        "TailwindCSS"
-      ],
-      "title": "GitMetrics Open Source Health Visualizer",
-      "track": "",
-      "why_it_could_win": "Directly targets the core open-source collaboration and GitHub workflow focus of Winter of Code 2026, helping maintainers optimize how they process contributions."
-    },
-    {
-      "build_hours": 30,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An open-source CLI and GitHub Action that reads pull requests, automatically flags stale or missing documentation, and drafts suggested fixes using lightweight RAG.",
+      "pitch": "An AI-powered documentation auditing and PR generation tool designed specifically to help open-source maintainers triage outdated READMEs and missing docstrings.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "LangChain",
-        "GitHub Actions",
+        "TypeScript",
+        "Next.js",
+        "GitHub API",
         "OpenAI API"
       ],
-      "title": "DocuPatch: AI-Driven Documentation & Issue Auto-Tagger",
+      "title": "OpenDoc Copilot",
       "track": "",
-      "why_it_could_win": "Solves the exact documentation improvement pain point highlighted in the hackathon description, appealing heavily to open-source maintainers judging the event."
+      "why_it_could_win": "Focuses on open-source community pain points of documentation upkeep, aligning with open-source contribution program goals."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1185920891"
+        "github:1213911408"
       ],
-      "pitch": "A matching platform that maps a developer's local Git commit history and language skills to beginner-friendly 'good first issues' across participating open-source projects.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "PostgreSQL",
-        "GitHub GraphQL API"
-      ],
-      "title": "IssueSync Multi-Repo Contributor Matcher",
-      "track": "",
-      "why_it_could_win": "Aligns with the hackathon's explicit mission to help students and developers get started with real-world software development and open-source contribution."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A lightweight cryptographic verification tool that proves code contribution authorship and integrity without exposing private fork source code.",
-      "stack": [
-        "TypeScript",
-        "Rust",
-        "Circom",
-        "Git CLI"
-      ],
-      "title": "CommitTrace ZK-Provenance for Open Source Contributions",
-      "track": "",
-      "why_it_could_win": "Brings genuinely hard engineering to an open-source event, standing out among basic web apps by solving contribution authenticity and attribution."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1213911408",
-        "github:1181344931"
-      ],
-      "pitch": "A specialized AI agent that integrates into GitHub workflows to perform automated style-guide checks, security vulnerability scanning, and plain-English architectural explanations for pull requests.",
+      "pitch": "A smart repository onboarding assistant that automatically maps out codebase architecture for first-time contributors and labels good-first-issues using AST parsing.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Docker",
-        "GitHub Webhooks"
+        "React",
+        "Tree-sitter"
       ],
-      "title": "OpenReview AI-Powered PR Review Assistant",
+      "title": "IssueFlow",
       "track": "",
-      "why_it_could_win": "Leverages proven multi-agent RAG patterns seen in top hackathon wins while directly serving the real-world collaboration workflows emphasized in Winter of Code."
+      "why_it_could_win": "Directly facilitates real-world software development and open-source collaboration by reducing onboarding friction for new contributors."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An analytics platform that helps maintainers visualize contributor health, PR merge latency, and review bottlenecks across their open-source repositories.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "TailwindCSS",
+        "GraphQL",
+        "Chart.js"
+      ],
+      "title": "GitMetrics Dashboard",
+      "track": "",
+      "why_it_could_win": "Provides tangible utility for project maintainers managing large influxes of open-source contributions during event cycles."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight GitHub Action that automatically checks pull requests for common anti-patterns, missing tests, and style violations, leaving inline review comments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "GitHub Actions SDK"
+      ],
+      "title": "PR Review Sentinel",
+      "track": "",
+      "why_it_could_win": "Automates repetitive maintenance tasks, showcasing practical software engineering workflows that judges appreciate."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A recommendation engine that matches developer skill profiles with open-source issues tailored to their exact tech stack and experience level.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "OSS Skill Matcher",
+      "track": "",
+      "why_it_could_win": "Encourages participation by solving discovery friction for participants looking to make meaningful contributions quickly."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

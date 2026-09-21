@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:19.795636+00:00",
+  "generated_at": "2026-09-21T08:12:32.981717+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackgt-13",
@@ -14,89 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A Poisson GAM and multinomial share model dashboard forecasting energy grid volatility and localized industrial emission incidents in Atlanta.",
+      "pitch": "Decentralized real-time public transit delay and micro-mobility sensor mesh optimized for MARTA routes.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "FastAPI",
-        "React"
+        "TypeScript",
+        "Next.js",
+        "Leaflet",
+        "Python"
       ],
-      "title": "Atlanta Grid AI-Powered Carbon & Incident Forecaster",
+      "title": "AtlantaTransit-Mesh",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of hard engineering and predictive modeling seen in specialized forecasting hackathons."
+      "why_it_could_win": "Targets local Atlanta infrastructure challenges which often resonates strongly with local university judges at HackGT."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An AWS-powered anti-money laundering and risk detection platform combining graph intelligence and LightGBM for regional logistics networks.",
+      "pitch": "Satellite imagery analytics platform mapping Atlanta urban heat islands and industrial runoff zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "LightGBM",
-        "Neo4j"
+        "Python",
+        "GDAL",
+        "React"
       ],
-      "title": "SecureChain AML: Automated Graph Intelligence for Supply Chain Finance",
+      "title": "AeroGrid-Atlanta",
       "track": "",
-      "why_it_could_win": "Matches the architecture of proven financial and AML risk-detection winners using explainable gradient boosting and graph analysis."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace facilitating automated task execution with secure USDC escrow payments on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Locus",
-        "USDC",
-        "Solidity"
-      ],
-      "title": "AgenticEscrow: Autonomous USDC Micro-Marketplace for Campus Services",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning pattern of autonomous agent marketplaces coupled with instant crypto escrow settlements."
+      "why_it_could_win": "Applies geospatial data visualization and heavy processing, matching the Genuinely hard engineering pattern."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student wellness support platform aggregating campus resources with personalized RAG workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Next.js"
+      ],
+      "title": "CampusCare-AI",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable problem for student attendees and hackathon organizers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered nutrition platform tailored to local southern dietary restrictions, delivering personalized meal plans and real-time nutritional insights.",
+      "pitch": "AI-powered patient acquisition and trust engine tailored for local Atlanta health clinics.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "TypeScript",
         "Gemini-API",
         "Next.js",
-        "TailwindCSS"
+        "Tailwind"
       ],
-      "title": "NutriSouthern: AI-Driven Regional Meal Planning & Health Assistant",
+      "title": "PatientTrust-Dental",
       "track": "",
-      "why_it_could_win": "Mirrors the rapid execution and hyper-localized utility of winning health-tech and nutrition assistant hackathon projects."
+      "why_it_could_win": "Presents a polished, revenue-generating vertical SaaS application that appeals to business-oriented judges."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "AI-powered satellite imagery monitoring system that tracks environmental compliance and land-use changes for industrial zones in Georgia.",
+      "pitch": "Graph intelligence and LightGBM-powered platform for predicting supply chain disruptions in the Southeast logistics hub.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "OpenCV",
-        "PostGIS",
-        "Leaflet.js"
+        "LightGBM",
+        "NetworkX",
+        "FastAPI"
       ],
-      "title": "EcoMonitor ATLAS: Satellite-Based Industrial Compliance Tracker",
+      "title": "SupplyChain-RiskML",
       "track": "",
-      "why_it_could_win": "Employs complex geospatial data processing, aligning with successful hard-engineering hackathon entries that solve real-world monitoring problems."
+      "why_it_could_win": "Leverages advanced machine learning interpretability and domain-specific risk scoring."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

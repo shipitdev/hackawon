@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-21T08:30:59.604176+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1752021",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1259981732",
+        "github:240460106"
+      ],
+      "pitch": "A custom-built 350x350mm wireless rover utilizing dual high-torque DC motors and a 6S LiPo power delivery system optimized for scaling steep slopes and heavy-duty obstacle navigation.",
+      "problem_statement": "Junior Robo Race: navigate an obstacle-based track featuring slopes, ramps, bridges, rollers, seesaws, tunnels, and sharp turns in the shortest possible time using a custom-built, manually controlled wireless robot.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "PWM Motor Control",
+        "RF Wireless Transceiver",
+        "Custom Chassis"
+      ],
+      "title": "TorqueMaster 6S: High-Torque Wireless Rover",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on strict compliance with the 5kg weight and 24V/6S voltage constraints while maximizing raw power-to-weight ratio to conquer steep ramps and seesaws faster than competitors."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1281918590",
+        "github:240460106"
+      ],
+      "pitch": "A low-center-of-gravity wireless tracked vehicle designed specifically to maintain maximum stability across shifting rollers and bridges without shedding any mandatory retention components.",
+      "problem_statement": "Junior Robo Race: navigate an obstacle-based track featuring challenges such as slopes, ramps, bridges, rollers, seesaws, tunnels, and sharp turns under strict component retention rules.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Custom PCB",
+        "Mechanical Fasteners",
+        "DC Geared Motors"
+      ],
+      "title": "Low-CG Roller-Runner Bot",
+      "track": "",
+      "why_it_could_win": "Addresses the strict disqualification rule for dropped parts by utilizing lock-nut hardware and reinforced chassis mounting to guarantee component retention across violent mechanical rollers and bumps."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A nimble, compact 4-wheel drive robot featuring independent skid-steering and real-time throttle curve adjustment to master extremely tight hairpin turns and narrow tunnel clearances.",
+      "problem_statement": "Junior Robo Race: navigate an obstacle-based track featuring challenges such as slopes, ramps, bridges, rollers, seesaws, tunnels, and sharp turns in the shortest possible time.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Nrf24L01 Wireless Module",
+        "H-Bridge Motor Driver"
+      ],
+      "title": "AgileTurn: Differential Steering Precision Racer",
+      "track": "",
+      "why_it_could_win": "Optimized specifically for the dimensions constraint (maximum 350x350 mm) to maximize agility and maneuverability through blind sharp turns revealed on race day."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:240460106"
+      ],
+      "pitch": "A manually controlled rover equipped with a forward-weighted weight-shifting balance plate designed to instantly stabilize the robot on pivoting seesaws and ramps.",
+      "problem_statement": "Junior Robo Race: navigate an obstacle-based track featuring challenges such as slopes, ramps, bridges, rollers, seesaws, tunnels, and sharp turns.",
+      "stack": [
+        "C++",
+        "Custom Chassis Design",
+        "Wireless Receiver",
+        "DC Motors"
+      ],
+      "title": "Seesaw-Balance Shift Chassis",
+      "track": "",
+      "why_it_could_win": "Solves the notorious seesaw tipping hazard by integrating a mechanical balancing slope adjustment that prevents stalls during weight transitions."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1259981732"
+      ],
+      "pitch": "An ultra-low profile wireless robot engineered to stay well under size limits while carrying high-capacity 6S LiPo power safely through low-hanging tunnels and obstacle zones.",
+      "problem_statement": "Junior Robo Race: navigate an obstacle-based track featuring challenges such as slopes, ramps, bridges, rollers, seesaws, tunnels, and sharp turns.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Bluetooth/RF Control",
+        "Aluminum Framing"
+      ],
+      "title": "TunnelProof Compact Scout",
+      "track": "",
+      "why_it_could_win": "Prioritizes minimal vertical height and robust physical shielding to survive impacts inside enclosed tunnels while keeping well within the 350x350 mm footprint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

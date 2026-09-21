@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:20.250462+00:00",
+  "generated_at": "2026-09-21T08:14:30.510716+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:knight-hacks-ix",
@@ -16,88 +18,88 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive spatial-temporal intelligence platform that forecasts congestion and optimizes micro-mobility routes around Orlando entertainment corridors using Poisson regression and real-time transit data.",
+      "pitch": "Real-time commuter analytics and predictive delay mapping for the UCF shuttle system.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "FastAPI",
         "Leaflet.js"
       ],
-      "title": "Orlando Tourist Crowd Flow & Micro-Mobility Predictor",
+      "title": "KnightTransit Predictor",
       "track": "",
-      "why_it_could_win": "Follows the exact pattern of the AI Forecasting Hackathon winner by applying rigorous statistical modeling rather than a generic UI wrapper, appealing to judges looking for hard data science."
+      "why_it_could_win": "Addresses a hyper-local pain point for students attending Knight Hacks in Orlando, ensuring high engagement from local judges and peers."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent academic planning and resource allocation platform tailored to university degree paths.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "CampusCare AI Student Advisor",
+      "track": "",
+      "why_it_could_win": "Leverages a proven multi-agent RAG workflow that consistently scores well in educational and student support hackathon tracks."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An automated satellite and aerial monitoring tool for local environmental compliance, tracking canopy cover and urban heat islands using computer vision and GIS spatial indexing.",
+      "pitch": "Satellite and local sensor data aggregation platform tracking energy efficiency and sustainability metrics across campus buildings.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
         "PostGIS",
-        "Next.js"
+        "TailwindCSS"
       ],
-      "title": "Campus Green Space Compliance & Heatmap Monitor",
+      "title": "Orlando Green Campus Monitor",
       "track": "",
-      "why_it_could_win": "Emulates the runner-up Xcelerate Hackathon winner by focusing on real-world industrial and municipal land compliance monitoring."
+      "why_it_could_win": "Combines spatial mapping with actionable environmental forecasting, matching criteria from successful sustainability hackathon entries."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Decentralized peer-to-peer marketplace for student freelance services utilizing secure smart contract escrow.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Base",
+        "React"
+      ],
+      "title": "KnightPay Escrow",
+      "track": "",
+      "why_it_could_win": "Demonstrates practical blockchain integration with a clear user interface, appealing to judges looking for functional Web3 applications."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A localized dining hall and budget-grocery AI nutrition assistant that generates hyper-personalized meal plans based on local student budgets and dietary restrictions.",
+      "pitch": "Personalized dining hall meal planner that optimizes for dietary restrictions and student budget constraints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Gemini-API",
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS"
+        "Streamlit",
+        "Pandas",
+        "Gemini API"
       ],
-      "title": "Student Health and Nutritional AI Concierge",
+      "title": "HealthKnight Nutrition",
       "track": "",
-      "why_it_could_win": "Replicates the winning formula of the Mealzy 24-Hour Hackathon by solving an immediate, relatable daily problem for college students with a polished user experience."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace where student freelancers securely execute and settle micro-tasks using USDC escrow smart contracts.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "LangChain",
-        "Solidity"
-      ],
-      "title": "Decentralized Campus Micro-Task Escrow Agent",
-      "track": "",
-      "why_it_could_win": "Leverages the Synthesis Hackathon winning archetype by combining autonomous agents with real financial settlement on Base."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student success platform combining localized RAG and personalized AI tutors to route academic questions to the right departmental resources.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "Pinecone",
-        "FastAPI"
-      ],
-      "title": "Campus Multi-Agent Academic Support Network",
-      "track": "",
-      "why_it_could_win": "Directly adapts the winning architecture from the GreenNovation Hackathon by implementing a specialized multi-agent student support workflow."
+      "why_it_could_win": "Solves an everyday problem for college students with a polished, consumer-facing application that is easy to demo live."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:01:26.082720+00:00",
+  "generated_at": "2026-09-21T08:32:55.128102+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -8,96 +8,97 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech",
-      "unique-data"
+      "unique-data",
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754908",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 20,
       "inspired_by": [
         "github:1208011447"
       ],
-      "pitch": "A defense-in-depth security proxy and sanitizer designed to intercept and neutralize prompt injections and jailbreak attempts targeting RAG systems.",
+      "pitch": "A reverse proxy interceptor that sanitizes dynamic context and user queries before hitting RAG-based LLMs to prevent jailbreaks.",
+      "problem_statement": "Round 1: LLM Jailbreak - Extract a hidden key from three RAG-based LLMs using creative prompting",
       "stack": [
         "Python",
         "FastAPI",
         "LangChain",
-        "Transformers"
+        "OpenAI API"
       ],
-      "title": "PromptGuard RAG",
+      "title": "PromptGuard RAG Proxy",
       "track": "",
-      "why_it_could_win": "Directly addresses the primary skill tested in Round 1 (LLM Jailbreak) by providing an architectural defense against the exact attack vectors judges will appreciate."
+      "why_it_could_win": "Addresses the exact mechanics of Round 1 by creating defense-in-depth safety layers, mimicking the architecture of winning defensive agent systems."
     },
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
         "github:985196561"
       ],
-      "pitch": "An AI-powered NGINX and access log analysis dashboard featuring automated anomaly detection for real-time security incident response during a CTF.",
+      "pitch": "An automated system that parses raw terminal logs and payload inputs during a CTF match to generate structured markdown writeups.",
+      "problem_statement": "Round 2: Capture The Flag - Spread across 10 domains, each with 2–3 sub-questions to be solved in sequence",
       "stack": [
         "TypeScript",
         "Next.js",
-        "FastAPI",
-        "NGINX",
-        "Gemini"
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "LogAnomalizer",
+      "title": "CTF AutoWriteup & Log Analyzer",
       "track": "",
-      "why_it_could_win": "Leverages proven patterns from cybersecurity hackathons by combining log parsing with automated threat detection, making it immediately useful for the offline CTF round."
+      "why_it_could_win": "Speeds up documentation and submission during a high-pressure offline CTF, directly addressing time management across 10 diverse domains."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1069255350"
-      ],
-      "pitch": "A multi-agent network attack simulation and visualization tool that maps out lateral movement and vulnerability paths across a mock enterprise network.",
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An automated fuzzing toolkit designed to test LLM security boundaries by generating hundreds of mutation variants of jailbreak payloads.",
+      "problem_statement": "Round 1: LLM Jailbreak - Extract a hidden key from three RAG-based LLMs using creative prompting",
       "stack": [
         "Python",
-        "NetworkX",
-        "Streamlit",
-        "LangGraph"
+        "Asyncio",
+        "HuggingFace",
+        "Rich"
       ],
-      "title": "GraphGuard CTF",
+      "title": "Adversarial Prompt Fuzzer",
       "track": "",
-      "why_it_could_win": "Solves technically difficult multi-agent orchestration and graph intelligence problems that consistently win security hackathons."
+      "why_it_could_win": "Leverages automated testing principles to systematically find weaknesses in RAG systems faster than manual prompting."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A modular decoding pipeline designed for rapid identification and transformation of encoded strings, hashes, and ciphertexts encountered in beginner-to-advanced CTF challenges.",
+      "problem_statement": "Round 2: Capture The Flag - Covers logic, decoding, file/website analysis, and core cybersecurity concepts",
+      "stack": [
+        "Python",
+        "Click",
+        "PyCryptodome"
+      ],
+      "title": "CryptoDecoder Pipeline",
+      "track": "",
+      "why_it_could_win": "Targets the foundational domains of the CTF directly, reducing manual tool-switching overhead during the 8-hour offline phase."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1022783746"
+        "github:1196410850"
       ],
-      "pitch": "A BERT-powered multimodal spam and phishing detection system analyzing inbound emails, SMS, and webhook payloads for malicious payloads.",
+      "pitch": "An AI-assisted multi-agent framework tailored for rapid enumeration and analysis of web targets during time-constrained CTF events.",
+      "problem_statement": "Round 2: Capture The Flag - Covers logic, decoding, file/website analysis, and core cybersecurity concepts",
       "stack": [
-        "JavaScript",
-        "React.js",
+        "Python",
+        "LangGraph",
         "FastAPI",
-        "PyTorch"
+        "BeautifulSoup"
       ],
-      "title": "SpamShield AI",
+      "title": "SecAgent Web Analyzer",
       "track": "",
-      "why_it_could_win": "Follows a proven runner-up blueprint from cyber hackathons by applying fine-tuned transformer models to practical social engineering threats."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1188682384"
-      ],
-      "pitch": "A zero-knowledge gated community interface where human operators and AI agents can collaboratively exchange secret keys and CTF flags without exposing raw tokens.",
-      "stack": [
-        "TypeScript",
-        "Noir-lang",
-        "Base",
-        "ai-agents"
-      ],
-      "title": "AgentSecret Vault",
-      "track": "",
-      "why_it_could_win": "Combines advanced cryptography concepts with AI agents, hitting the technical depth bar required for top-tier competitive hacking events."
+      "why_it_could_win": "Applies proven multi-agent orchestration patterns to rapidly parse complex web vulnerabilities under strict time limits."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

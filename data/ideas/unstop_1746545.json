@@ -1,100 +1,101 @@
 {
-  "generated_at": "2026-09-13T07:55:48.452986+00:00",
+  "generated_at": "2026-09-21T08:24:01.626226+00:00",
   "grounding": {
     "domains": [
-      "ai-ml",
-      "devtools"
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746545",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router that uses parameterized quantum circuits to classify user queries before hitting heavy LLM backends.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "PyTorch",
-        "Transformers"
-      ],
-      "title": "Qiskit Hybrid QML Semantic Router",
-      "track": "Quantum Machine Learning",
-      "why_it_could_win": "Combines Qiskit quantum computing with the proven self-improving semantic routing pattern, directly matching the hackathon's Qiskit and QML focus."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "An RL agent trained using Qiskit Runtime primitives to dynamically select error mitigation strategies for noisy intermediate-scale quantum circuits.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "Gymnasium",
-        "Ray"
-      ],
-      "title": "Quantum Error Mitigation with Reinforcement Learning",
-      "track": "Quantum Computing",
-      "why_it_could_win": "Solves genuine hardware limitations in quantum computing, ticking the hard engineering pattern which judges heavily favor."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two competing Qiskit agents where one generates noisy quantum circuits and the other attempts to optimize and correct them autonomously.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "NetworkX"
-      ],
-      "title": "Adversarial Quantum Circuit Generation",
-      "track": "Quantum Computing",
-      "why_it_could_win": "Leverages the winning adversarial agent pattern, applying game-theoretic agent behavior to quantum circuit optimization."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "An automated toolkit that transforms classical graph datasets into quantum state vectors for faster kernel-based machine learning inside Qiskit.",
+      "inspired_by": [],
+      "pitch": "A quantum variational eigensolver that optimizes multi-asset financial portfolios using Qiskit and classical heuristic feedback.",
+      "problem_statement": "Quantum machine learning and optimization problem statement for asset allocation.",
       "stack": [
         "Python",
         "Qiskit",
         "NumPy",
-        "Scikit-Learn"
+        "Flask"
       ],
-      "title": "Qiskit-Native Graph Embedding Toolkit",
-      "track": "Quantum Machine Learning",
-      "why_it_could_win": "Directly tackles one of the 100 problem statements by providing a reusable data-processing utility tailored for QML pipelines."
+      "title": "Qiskit VQE Portfolio Optimizer",
+      "track": "Quantum Computing",
+      "why_it_could_win": "Leverages direct Qiskit implementation which judges at an IBM-sponsored Qiskit Fall Fest prioritize over pure conceptual wrappers."
     },
     {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1282252864"
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An interactive web simulator demonstrating surface code stabilizer measurements and error syndrome decoding in real-time.",
+      "problem_statement": "Quantum error correction and fault tolerance challenge statement.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Qiskit",
+        "TailwindCSS"
       ],
-      "pitch": "An agentic workflow tool that translates business process diagrams into QUBO problems to solve resource allocation bottlenecks using QAOA via Qiskit.",
+      "title": "Quantum Error Correction Visualizer",
+      "track": "Quantum Computing",
+      "why_it_could_win": "Educational and visual tools score exceptionally well with hackathon judges because they make abstract quantum mechanics immediately demonstrable."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A quantum neural network utilizing parameterized quantum circuits via Qiskit Machine Learning to predict molecular binding affinities.",
+      "problem_statement": "Quantum machine learning problem statement for drug discovery and chemistry.",
+      "stack": [
+        "Python",
+        "Qiskit Machine Learning",
+        "PyTorch",
+        "RDKit"
+      ],
+      "title": "Hybrid QML Molecular Property Predictor",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Combines high-demand machine learning workflows with genuine quantum computing circuits, hitting multiple evaluation criteria simultaneously."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A specialized spatial routing solver that implements Grover's search algorithm to find optimal navigation paths on constrained grid graphs.",
+      "problem_statement": "Quantum search and algorithmic optimization challenge statement.",
       "stack": [
         "Python",
         "Qiskit",
         "NetworkX",
-        "BPMN-Parser"
+        "Streamlit"
       ],
-      "title": "Quantum-Assisted BPMN Workflow Optimizer",
+      "title": "Qiskit Grover Pathfinder",
       "track": "Quantum Computing",
-      "why_it_could_win": "Bridges enterprise business process management with cutting-edge quantum optimization, satisfying the practical problem-solving evaluation criteria."
+      "why_it_could_win": "Demonstrates deep technical implementation of classic quantum algorithms rather than standard API calls, appealing to technical judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An end-to-end classification pipeline that constructs quantum kernels via feature maps to separate non-linear biomedical datasets.",
+      "problem_statement": "Quantum kernel methods and classification problem statement.",
+      "stack": [
+        "Python",
+        "Qiskit Machine Learning",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "Quantum Kernel SVM Classifier",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Provides a working end-to-end benchmark demonstrating a clear performance comparison between classical and quantum-enhanced models."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

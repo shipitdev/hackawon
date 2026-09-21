@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:56.161915+00:00",
+  "generated_at": "2026-09-21T08:18:33.677051+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -12,16 +12,19 @@
       "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1735987",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 20,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A training-free semantic router that intercepts user prompts in real-time, matching them against an exemplar vector index to dynamically route execution paths and reduce LLM API overhead.",
+      "pitch": "A training-free semantic router for rapid prompt engineering workshops and dynamic multi-LLM cost optimization.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
@@ -29,76 +32,82 @@
         "Qwen",
         "TypeScript"
       ],
-      "title": "PromptCircuit: Visual Semantic Router for Prompt Workflows",
+      "title": "PromptRoute Studio",
       "track": "Dev Tools",
-      "why_it_could_win": "Directly targets the Dev Tools track by leveraging advanced prompt engineering and semantic routing patterns that won at the Superlinked x Qwen Hackathon."
+      "why_it_could_win": "Directly ties into Celestia 2.0's Prompt Engineering Workshop theme while solving a practical developer pain point of LLM token routing costs."
     },
     {
-      "build_hours": 40,
+      "build_hours": 22,
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "An AI governance tool that uses BPMN orchestration to pre-screen and audit autonomous agent workflows against Sustainable Development Goals (SDG) environmental impact metrics before deployment.",
+      "pitch": "An automated pre-deployment compliance auditor for open-source AI workflows using human-in-the-loop BPMN orchestration.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ai-agents",
-        "BPMN",
-        "LangGraph"
+        "UiPath Maestro",
+        "LangGraph",
+        "Streamlit"
       ],
-      "title": "EcoBPMN: Automated SDG Compliance Risk Diagnosis for AI Agents",
-      "track": "SDG",
-      "why_it_could_win": "Fits squarely into both the SDG and Open Innovation tracks by combining compliance governance with AI execution, echoing winning patterns from UiPath AgentHack."
+      "title": "BPMN-AuditAI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Brings rigorous enterprise governance patterns to an open innovation hackathon, appealing to judges looking for production-ready architecture."
     },
     {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1199751414"
-      ],
-      "pitch": "A secure clinical data platform using Model Context Protocol (MCP) servers to bridge isolated electronic health record sources with localized multi-agent diagnostic tools.",
-      "stack": [
-        "Python",
-        "MCP",
-        "Kubernetes",
-        "FastAPI"
-      ],
-      "title": "MediGraph MCP: Federated Medical Data Clinical Platform",
-      "track": "Healthcare",
-      "why_it_could_win": "Wins the Healthcare track by addressing real-world clinical privacy needs and federated data access, mimicking the runner-up architecture from the MCP & AI Agents Hackathon."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "A local developer tool that runs quantized code analysis and optimization models on embedded NPU hardware to flag latency bottlenecks without sending code to cloud APIs.",
-      "stack": [
-        "Python",
-        "ONNX",
-        "TypeScript",
-        "FastAPI"
-      ],
-      "title": "EdgeDebug NPU: Offline AI Code Reviewer for Hardware Constraints",
-      "track": "Hardware",
-      "why_it_could_win": "Leverages the Hardware and Dev Tools tracks by targeting on-device processing and localized execution similar to Qualcomm Snapdragon Multiverse Hackathon winners."
-    },
-    {
-      "build_hours": 35,
+      "build_hours": 24,
       "inspired_by": [
         "github:1341712439"
       ],
-      "pitch": "An autonomous multi-agent educational platform that diagnoses student knowledge gaps through iterative quizzes and dynamically rewrites syllabus pathways in real time.",
+      "pitch": "An autonomous multi-agent IoT diagnostic and closed-loop operations platform for tracking and minimizing real-time hardware energy consumption.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini",
+        "Gemini 2.5",
         "LangGraph",
+        "TimescaleDB",
+        "Qdrant"
+      ],
+      "title": "EcoLog Multi-Agent Carbon Tracker",
+      "track": "SDG",
+      "why_it_could_win": "Merges hardware awareness with autonomous agents, capturing points in both the SDG and Hardware tracks through complex multi-layered telemetry."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol (MCP) server environment that securely bridges disparate hospital databases for localized clinical AI agents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "Kubernetes",
+        "Go",
+        "MCP SDK",
+        "ArgoCD"
+      ],
+      "title": "MedMCP Federated Clinical Assistant",
+      "track": "Healthcare",
+      "why_it_could_win": "Tackles the notoriously difficult problem of medical data privacy and integration using cutting-edge MCP federation architecture."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An offline-first Socratic reasoning tutor that uses local SLMs and efficient reinforcement learning to adapt to student learning curves.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "LlamaIndex",
         "React"
       ],
-      "title": "LearnPath AI: Multi-Agent EdTech Syllabus Adaptive Engine",
+      "title": "AdaptiveClassroom AI",
       "track": "EdTech",
-      "why_it_could_win": "Directly appeals to the EdTech track with a working, closed-loop multi-agent diagnostic loop inspired by the architecture of winning autonomous IoT operations platforms."
+      "why_it_could_win": "Focuses on pedagogical efficacy and low-latency local execution, making it highly practical for under-resourced educational environments."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

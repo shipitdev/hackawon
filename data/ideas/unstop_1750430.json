@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:06.454993+00:00",
+  "generated_at": "2026-09-21T08:29:05.567761+00:00",
   "grounding": {
     "domains": [
       "civic"
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750430",
@@ -20,86 +22,87 @@
       "inspired_by": [
         "github:1194555365"
       ],
-      "pitch": "An AI-powered coordinator that groups elderly Seattle residents into shared social outings and pairs them with verified local volunteer drivers.",
+      "pitch": "An AI-powered logistics app coordinating volunteer drivers to group and transport local seniors to medical appointments and community events.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
-        "TailwindCSS",
-        "Supabase",
-        "OpenAI API"
+        "Firebase",
+        "Google Maps API"
       ],
-      "title": "SeniorTransit Connect",
+      "title": "Seattle Non-Profit Volunteer Carpool Router",
       "track": "",
-      "why_it_could_win": "Directly addresses local community needs with clear measurable impact, following the winning pattern of social good logistics software."
+      "why_it_could_win": "Addresses clear measurable social impact for Seattle-area non-profits with a demo that actually works live."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1132337467"
+        "github:1346526259"
       ],
-      "pitch": "A multimodal inventory intake portal for local Seattle food banks and clothing drives that uses AI image recognition to instantly categorize, weigh, and log incoming donations.",
-      "stack": [
-        "TypeScript",
-        "Firebase",
-        "Gemini AI",
-        "React"
-      ],
-      "title": "DonationMatch Pro",
-      "track": "",
-      "why_it_could_win": "Features a live, working demo solving a concrete operational bottleneck for non-profit warehouses, aligning with the winning pattern of practical real-world automation."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1228867095"
-      ],
-      "pitch": "A lightweight voice-first web assistant designed for elderly Seattle residents that flags and analyzes suspicious phishing emails and phone transcripts in real-time.",
-      "stack": [
-        "Swift",
-        "Cloudflare Workers",
-        "Web Speech API",
-        "Python"
-      ],
-      "title": "SafeGuard ElderVoice",
-      "track": "",
-      "why_it_could_win": "Solves an urgent local demographic vulnerability with a working live demo that emphasizes user safety and accessible interfaces."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1143576965",
-        "github:1170846981"
-      ],
-      "pitch": "A real-time multilingual resource directory and alert platform for Seattle shelters, providing instant capacity tracking and multilingual health and housing updates.",
+      "pitch": "A real-time inventory platform helping Seattle food banks and shelters broadcast surplus supplies and automatically match them with nearby organizations in need.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "React"
+        "React",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "CommunityResource Sync",
+      "title": "Donation Inventory & Supply Matcher",
       "track": "",
-      "why_it_could_win": "Delivers an essential civic utility with measurable social benefit, following the proven pattern of localized crisis and resource management platforms."
+      "why_it_could_win": "Focuses on immediate operational efficiency for local charities, making it extremely easy for judges to see tangible utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized web assistant offering multi-language access to Seattle community clinic schedules, vaccine clinics, and wellness resources.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Multilingual Community Health Navigator",
+      "track": "",
+      "why_it_could_win": "Tackles real accessibility hurdles in diverse Seattle neighborhoods with a working, localized interface."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1346526259"
+        "github:1087704265"
       ],
-      "pitch": "A gamified local volunteering platform for Seattle parks and community gardens featuring GPS check-ins, automated impact reporting, and local merchant rewards.",
+      "pitch": "A lightweight reporting portal that aggregates grant milestones and local community metrics into simple, shareable visual dashboards for Seattle philanthropic boards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "Community Grant Impact Dashboard",
+      "track": "",
+      "why_it_could_win": "Solves a major administrative pain point for local non-profit directors who spend excessive time on compliance reporting."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "A multimodal item-matching portal designed for local community centers to log found equipment, lost educational assets, and shared facility resources.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
-        "Supabase",
-        "Leaflet.js"
+        "Gemini AI API",
+        "Firebase"
       ],
-      "title": "VolunteerImpact Dash",
+      "title": "Non-Profit Lost Item & Resource Locator",
       "track": "",
-      "why_it_could_win": "Combines quantified civic engagement metrics with a polished live dashboard that appeals directly to community-focused judges."
+      "why_it_could_win": "Features advanced multimodal matching that provides a technically impressive live demo well-suited for a weekend timeframe."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

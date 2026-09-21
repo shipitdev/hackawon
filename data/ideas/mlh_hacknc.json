@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:59.123683+00:00",
+  "generated_at": "2026-09-21T08:13:09.831596+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,101 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hacknc",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 48,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A predictive spatial-temporal incident forecasting tool built specifically for UNC Chapel Hill campus safety data, providing calibrated 90% prediction intervals for campus security resource allocation.",
+      "pitch": "A spatial-temporal forecasting tool designed for university campus maintenance teams to predict infrastructure and utility failures before they happen.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Poisson-Regression",
-        "GeoPandas"
+        "Poisson Regression",
+        "Next.js"
       ],
-      "title": "Tarheel Campus Incident Forecaster",
+      "title": "CarolinaCampus AI-Driven Facilities Incident Predictor",
       "track": "",
-      "why_it_could_win": "Leverages the hard-engineering prediction pattern seen in winning forecasting projects by applying rigorous statistical methods like Poisson regression to local data rather than relying on generic AI wrappers."
+      "why_it_could_win": "Leverages robust spatial data forecasting techniques proven in winning projects, directly targeting a high-utility local use case relevant to university judges."
     },
     {
-      "build_hours": 40,
+      "build_hours": 50,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent student commuter support platform optimizing Chapel Hill transit routes, combining LangGraph and localized RAG to help students navigate campus transportation efficiently.",
+      "pitch": "An autonomous multi-agent platform connecting local North Carolina farmers with campus dining halls to balance supply, demand, and dynamic routing.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Next.js",
-        "Python"
+        "Gemini API"
       ],
-      "title": "Carolina GreenTransit Multi-Agent Hub",
+      "title": "TarHeel Local Farmer Supply Chain Agent",
       "track": "",
-      "why_it_could_win": "Follows the multi-agent student support pattern that won the GreenNovation Hackathon, providing hyper-localized utility that directly appeals to student and university judges."
+      "why_it_could_win": "Combines multi-agent orchestration frameworks with a grounded regional problem, appealing to judges looking for tangible local impact."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition platform integrated with local Chapel Hill farmers market inventories to deliver personalized meal recommendations and hyper-local dietary insights.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
-      ],
-      "title": "Triangle Local Food AI Nutrition Engine",
-      "track": "",
-      "why_it_could_win": "Builds directly on the winning formula of the E-Foodiee nutrition assistant by tailoring the wellness concept specifically to the local community economy."
-    },
-    {
-      "build_hours": 45,
+      "build_hours": 40,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating micro-grants and project funding for student startups using USDC escrow payments tailored for university pitch events.",
+      "pitch": "A localized marketplace utilizing automated USDC escrow payments on Base to facilitate peer-to-peer student service exchanges securely.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
-        "Solidity"
+        "React"
       ],
-      "title": "Triangle Angel Investor Escrow Agent",
+      "title": "ChapelHill Community Micro-Escrow Marketplace",
       "track": "",
-      "why_it_could_win": "Replicates the successful Dispatch autonomous agent and USDC escrow architecture, offering judges a fully functional fintech utility with real transaction logic."
+      "why_it_could_win": "Implements clean crypto-native transaction mechanics via established SDKs, matching the architectural patterns of previous hackathon winners."
     },
     {
-      "build_hours": 35,
+      "build_hours": 45,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust verification engine tailored for student-run clinics and local regional healthcare providers in North Carolina.",
+      "pitch": "An AI-powered acquisition and trust verification engine tailored for regional specialized health clinics in the Research Triangle.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Gemini API",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "UNC Health Patient Trust Engine",
+      "title": "Triangle Health Patient Trust Engine",
       "track": "",
-      "why_it_could_win": "Adopts the proven architecture of the Global-Smile healthcare trust engine, solving a concrete business and trust problem that local medical judges immediately understand."
+      "why_it_could_win": "Addresses a clear vertical SaaS need with a tight feedback loop, echoing winning execution strategies from past healthcare-focused sprints."
+    },
+    {
+      "build_hours": 52,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1155558847"
+      ],
+      "pitch": "A multi-agent carbon tracking platform that monitors campus energy consumption patterns and suggests automated reduction strategies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "UNC Campus Sustainability Carbon Ledger",
+      "track": "",
+      "why_it_could_win": "Integrates popular green-tech themes with modular agentic workflows, presenting an immediately demoable and polished dashboard to judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:59.009743+00:00",
+  "generated_at": "2026-09-21T08:16:22.754549+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:vthacks-14",
@@ -14,86 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "A localized environmental monitoring and forecasting dashboard that uses satellite data and Poisson regression to predict carbon credit generation and soil health degradation risks across Virginia forestlands.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Jupyter Notebook",
-        "TailwindCSS"
-      ],
-      "title": "Appalachian Forest Carbon Sequestration Forecaster",
-      "track": "",
-      "why_it_could_win": "Combines rigorous statistical modeling with regional environmental relevance, mirroring the technical depth of the Apart Research AI Forecasting Hackathon winner."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student and researcher support platform powered by LangGraph and RAG that indexes campus department publications to automatically synthesize grant opportunities and lab collaboration matches.",
+      "pitch": "Satellite-based environmental and campus infrastructure monitoring dashboard tailored for Blacksburg and surrounding areas.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "LangGraph",
-        "Python"
+        "Python",
+        "Satellite API"
       ],
-      "title": "HokieCampus Autonomous Research Agent",
+      "title": "HokiesEcoMonitor",
       "track": "",
-      "why_it_could_win": "Directly targets the immediate utility desired by university-affiliated judges by solving localized academic information silos."
+      "why_it_could_win": "Follows the exact architecture of GeoNex-ATLAS which won by solving a localized, high-impact industrial and geographical monitoring challenge using visual data."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support and campus resource routing platform leveraging local RAG to aggregate student services.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "OpenAI API"
+      ],
+      "title": "CampusPulse AI",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of greennovation-ai-platform by combining LangGraph and structured RAG into an immediate, functional student-facing utility."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered risk detection and investigation platform tailored for regional agricultural supply chains, combining graph intelligence and LightGBM to trace food fraud and financial anomalies.",
+      "pitch": "Graph intelligence and risk-scoring platform designed for local regional banks and agricultural supply chains in Virginia.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
+        "Python",
         "LightGBM",
-        "Python"
+        "NetworkX"
       ],
-      "title": "LocalAgri Supply Chain Risk & AML Ledger",
+      "title": "Appalachian Risk & Compliance",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering via graph intelligence and financial-grade risk modeling, echoing the winning pattern of the DIGITIMES AI Innovation Hackathon."
+      "why_it_could_win": "Adopts the proven architecture of Bito by incorporating graph-based risk intelligence and transparent explainability, appealing strongly to judges looking for enterprise utility."
     },
     {
-      "build_hours": 30,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine using the Gemini API to streamline intake documentation and trust verification for rural healthcare clinics in Virginia.",
+      "pitch": "Personalized dining hall nutrition optimizer that scans campus meal options and builds custom caloric profiles for student athletes.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
+        "Python",
+        "Streamlit",
         "Gemini API",
-        "TailwindCSS"
+        "Pandas"
       ],
-      "title": "MedTrust Virginia Patient Intake Engine",
+      "title": "NutriHokie",
       "track": "",
-      "why_it_could_win": "Delivers immediate, tangible workflow automation for an underserved industry vertical, matching the execution speed and polish of the Prize Hackathon winner."
+      "why_it_could_win": "Replicates the winning formula of E-Foodiee-AI-Nutrition-Assistant by delivering an immediate, highly polished consumer wellness application with clear utility."
     },
     {
       "build_hours": 38,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace featuring USDC escrow payments on Base, allowing student developers to buy and sell specialized micro-services and compute tasks autonomously.",
+      "pitch": "Autonomous AI agent marketplace for student freelancers featuring secure stablecoin escrow settlements.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Base",
-        "Solidity",
-        "USDC SDK"
+        "Base SDK",
+        "USDC",
+        "Node.js"
       ],
-      "title": "VailChain Autonomous Agent Escrow",
+      "title": "HokieMarket Autonomous Escrow",
       "track": "",
-      "why_it_could_win": "Leverages cutting-edge decentralized execution and smart contract escrow patterns proven successful at the Synthesis Hackathon."
+      "why_it_could_win": "Leverages the proven winning pattern of Dispatch by combining autonomous workflow execution with verifiable financial escrow mechanics."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

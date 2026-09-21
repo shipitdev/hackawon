@@ -1,15 +1,17 @@
 {
-  "generated_at": "2026-09-13T07:56:01.644541+00:00",
+  "generated_at": "2026-09-21T08:24:24.514854+00:00",
   "grounding": {
     "domains": [
-      "ai-ml",
-      "healthtech"
+      "healthtech",
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "impact",
-      "working-demo"
+      "working-demo",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746846",
@@ -19,83 +21,90 @@
       "inspired_by": [
         "github:1185527998"
       ],
-      "pitch": "A clinical-grade AI health platform featuring remote photoplethysmography (rPPG) heart rate sensing via webcam, multi-language triage, and secure medical data management tailored for rural clinics.",
+      "pitch": "A rapid multi-language symptom triage and rPPG vital signs estimator for primary care waiting rooms.",
+      "problem_statement": "Real-world challenges in the healthcare sector: patient bottleneck and initial symptom prioritisation.",
       "stack": [
         "JavaScript",
-        "Python",
         "OpenCV",
-        "React"
+        "TailwindCSS",
+        "Node.js",
+        "TensorFlow.js"
       ],
-      "title": "MediTriage Multi-Language & rPPG",
-      "track": "",
-      "why_it_could_win": "Directly targets effective use of AI and practical feasibility by utilizing proven open-source computer vision for vitals, fitting the healthcare focus of Hacknexus."
+      "title": "AuraTriage",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Directly mirrors a proven winner architecture with live camera rPPG sensing and bilingual clinical triage that judges can immediately test on their own webcams."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent AI system that audits hospital insurance pre-authorizations for hidden algorithmic bias and denial patterns.",
+      "problem_statement": "Real-world challenges in the healthcare sector: administrative burden and fairness in health insurance approvals.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "LangChain"
+      ],
+      "title": "MedClaimAudit",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Leverages multi-agent workflow architecture which judges love for technical depth and solves a massive economic pain point for clinics."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1182199849"
       ],
-      "pitch": "An AI training platform for medical students where users can interview an AI patient scored on a 6-dimension rubric and practice clinical assessments.",
+      "pitch": "An AI-powered clinical interview simulator that tests medical students against a 6-dimension communication rubric.",
+      "problem_statement": "Real-world challenges in the healthcare sector: medical training scalability and clinician assessment.",
       "stack": [
         "TypeScript",
-        "LLM API",
         "Next.js",
-        "Tailwind"
+        "OpenAI API",
+        "MediaPipe"
       ],
-      "title": "Clinical-Simulator AI Patient",
-      "track": "",
-      "why_it_could_win": "Judges value educational and clinical impact, and a working interactive LLM simulation is highly engaging during a live demo presentation."
+      "title": "OSCE-Sim",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Taps into the winning formula of educational AI simulation tools that have proven highly successful at previous hackathons by targeting a clear institutional niche."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208831994"
+        "github:1170846981"
       ],
-      "pitch": "A 60-second voice analysis web tool that screens for early vocal biomarkers associated with Parkinson's Disease.",
+      "pitch": "A localized voice-first multilingual AI companion for rural health workers to deliver preventive care and track vaccination schedules.",
+      "problem_statement": "Real-world challenges in the healthcare sector: last-mile health education and preventive care tracking in rural populations.",
       "stack": [
+        "React",
         "Python",
-        "Streamlit",
-        "AudioProcessing",
-        "OpenAI API"
+        "FastAPI",
+        "Whisper API",
+        "SQLite"
       ],
-      "title": "VoiceDx Parkinson's Screen",
-      "track": "",
-      "why_it_could_win": "Demonstrates rapid medical diagnostic capability with a concrete, quantifiable output, matching the innovation and relevance criteria."
+      "title": "GraminSwasthya",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Directly adapts a first-prize winning rural health concept into an accessible voice interface optimized for regional impact and social feasibility."
     },
     {
-      "build_hours": 42,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1353074073"
+        "github:1259514645"
       ],
-      "pitch": "A multi-agent AI system that audits insurance prior authorization decisions in healthcare for algorithmic bias and justification fairness.",
+      "pitch": "A computer vision rehabilitation assistant that tracks joint angles in real-time to score physical therapy compliance at home.",
+      "problem_statement": "Real-world challenges in the healthcare sector: patient adherence to post-operative physical therapy regimens.",
       "stack": [
-        "Python",
-        "Gemini API",
-        "LangChain",
-        "FastAPI"
+        "JavaScript",
+        "MediaPipe Pose",
+        "React",
+        "Chart.js"
       ],
-      "title": "ClaimBias AI Auditor",
-      "track": "",
-      "why_it_could_win": "Addresses real-world healthcare administrative pain points with advanced agentic workflows that stand out to technical juries."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered trust and acquisition engine tailored for specialized dental and prosthodontic clinics to convert patient inquiries into booked procedures.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "Prisma"
-      ],
-      "title": "Prosthodontic Patient Acquisition Engine",
-      "track": "",
-      "why_it_could_win": "Combines healthcare vertical depth with commercial viability, appealing directly to the practical feasibility and potential impact criteria."
+      "title": "PosturePulse",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Provides a live, interactive webcam demonstration that works instantly during judging without requiring specialized wearable hardware."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

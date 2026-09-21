@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:54:45.464264+00:00",
+  "generated_at": "2026-09-21T08:38:08.171387+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -7,8 +7,12 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "judge-pain",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758602",
@@ -16,72 +20,83 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1296916648"
+        "github:1226951926"
       ],
-      "pitch": "A Python-based static analysis and linting CLI tailored specifically for competitive programming snippets in C, C++, Java, and Python to spot common syntax and logical errors instantly.",
+      "pitch": "A command-line tool built in Python to statically detect edge-case logic errors, memory leaks, and syntax bugs in C, C++, Java, and Python code snippets without requiring execution.",
+      "problem_statement": "Round 1 – Debugging Challenge (Elimination Round): Participants will be given 5 buggy code snippets. Identify the errors and suggest appropriate corrections.",
       "stack": [
         "Python",
-        "AST",
-        "Clang"
+        "Clang",
+        "AST Module",
+        "Click"
       ],
-      "title": "BugHuntAI CLI",
+      "title": "BugScope CLI: Static Code Bug Analyzer",
       "track": "",
-      "why_it_could_win": "Directly targets the core skill tested in Round 1 of the competition (debugging buggy snippets without code execution)."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An offline execution trace visualizer that maps out variable states step-by-step for C++ and Python data structures during complex algorithm problem solving.",
-      "stack": [
-        "Python",
-        "Rich",
-        "NetworkX"
-      ],
-      "title": "AlgoTrace Visualizer",
-      "track": "",
-      "why_it_could_win": "Addresses logical thinking and problem-solving metrics by making dry-runs visual, highly appealing for programming challenge judges."
+      "why_it_could_win": "Directly tackles the exact format of Round 1 where code execution is forbidden, giving individual contestants an edge in spotting hidden syntax traps and logical edge cases fast."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "A standalone extension that scans C/C++ and Python codebases to evaluate time and space complexity automatically, flagging suboptimal solutions before submission.",
+      "pitch": "A lightweight local debugging assistant tailored for competitive programmers to step through multi-variable states in C and Python code blocks during timed contests.",
+      "problem_statement": "Round 2 – Final Coding Contest: Qualified participants will solve 3 coding problems of varying difficulty under a strict time limit.",
       "stack": [
         "Python",
-        "Tree-sitter"
+        "Tkinter",
+        "C++",
+        "GDB"
       ],
-      "title": "ComplexityMeter",
+      "title": "SyntaxTrace: Offline Algorithm Visualizer & Debugger",
       "track": "",
-      "why_it_could_win": "Evaluates solutions directly on efficiency and correctness, which are the main judging criteria for Round 2."
+      "why_it_could_win": "Focuses on speed and readability, which are explicitly stated evaluation criteria alongside correctness and efficiency in the final coding contest."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "An automated refactoring tool that enforces clean coding practices, naming conventions, and optimal time-complexity patterns for Python and C++ submissions.",
+      "problem_statement": "Solutions will be evaluated on correctness, efficiency, readability, and coding practices.",
+      "stack": [
+        "Python",
+        "Pylint",
+        "Clang-Format"
+      ],
+      "title": "CodeRefiner: Clean Code & Readability Linter",
+      "track": "",
+      "why_it_could_win": "Addresses the specific evaluation criteria of 'readability and coding practices' which human evaluators often dock points for during manual code grading."
     },
     {
       "build_hours": 15,
-      "inspired_by": [],
-      "pitch": "A fast refactoring utility that takes messy, non-readable competitive programming code and formats it for readability and maintainability.",
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A benchmarking harness that automatically wraps C, C++, and Python solutions to measure execution time against large input bounds, preventing TLE errors in Round 2.",
+      "problem_statement": "Round 2 – Final Coding Contest: Qualified participants will solve 3 coding problems of varying difficulty. At least 2 problems must be solved to qualify for ranking.",
       "stack": [
         "Python",
-        "Black",
-        "ClangFormat"
+        "Subprocess",
+        "Pytest"
       ],
-      "title": "SnippetSanitizer",
+      "title": "AlgoBench: Time-Complexity Stress Tester",
       "track": "",
-      "why_it_could_win": "Targeted explicitly at readability and coding style, two vital pillars of the event's evaluation rubric."
+      "why_it_could_win": "Targets efficiency constraints directly by letting individual competitors verify if their code meets optimal complexity bounds before final submission."
     },
     {
-      "build_hours": 22,
+      "build_hours": 10,
       "inspired_by": [],
-      "pitch": "An automated fuzz testing tool that generates tricky edge cases and boundary inputs for given algorithmic problem statements to stress-test candidate solutions.",
+      "pitch": "An offline desktop snippet manager for C, C++, Java, and Python boilerplate structures designed for rapid code assembly during time-constrained coding rounds.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Hypothesis"
+        "SQLite",
+        "PyQt"
       ],
-      "title": "EdgeCaseGenerator",
+      "title": "SnippetVault: Multi-Language Competitive Programming Template Manager",
       "track": "",
-      "why_it_could_win": "Emphasizes deep programming concepts and logical thinking by challenging solutions with rigorous failure modes."
+      "why_it_could_win": "Built for individual participants facing intense 2-hour limits who need instantaneous access to optimal templates for data structures and algorithms."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

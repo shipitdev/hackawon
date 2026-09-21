@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:56.675643+00:00",
+  "generated_at": "2026-09-21T08:32:42.053400+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,97 +10,107 @@
       "impact",
       "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754844",
   "ideas": [
     {
-      "build_hours": 10,
+      "build_hours": 9,
       "inspired_by": [
-        "github:1010199928",
-        "github:1346526259"
+        "github:1227086460",
+        "github:923146379"
       ],
-      "pitch": "An agentic multi-agent system that optimizes municipal garbage collection trucks in real-time based on smart bin fill levels and traffic patterns, targeting sustainable city operations.",
+      "pitch": "An agentic AI system that continuously monitors VVCE campus power consumption anomalies and autonomously triggers IoT load-shedding to optimize sustainability.",
+      "problem_statement": "Agentic Intelligence & Autonomous Systems with a focus on Sustainable Development",
       "stack": [
         "Python",
-        "FastAPI",
         "LangChain",
+        "Flask",
         "React",
-        "Leaflet.js"
+        "MQTT"
       ],
-      "title": "EcoRoute Mysore: Autonomous Waste Fleet Routing via Agentic Intelligence",
-      "track": "Agentic Intelligence & Autonomous Systems",
-      "why_it_could_win": "Directly addresses the hackathon's core focus on Agentic Intelligence and Sustainable Development by showcasing a concrete operational cost and emission reduction metric for judges."
-    },
-    {
-      "build_hours": 9,
-      "inspired_by": [
-        "github:1155558847",
-        "github:939311314"
-      ],
-      "pitch": "An AI-powered agricultural monitoring dashboard that uses satellite imagery and local sensor inputs to deploy autonomous irrigation alerts, promoting sustainable water usage for local farming.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "PyTorch",
-        "Pandas"
-      ],
-      "title": "AgriSense: Autonomous Crop Stress & Water Runoff Predictor",
-      "track": "Sustainable Development",
-      "why_it_could_win": "Combines satellite data analysis and agricultural sustainability, fitting the strict environmental development focus expected by VVCE professors."
-    },
-    {
-      "build_hours": 10,
-      "inspired_by": [
-        "github:923146379",
-        "github:1079921550"
-      ],
-      "pitch": "A multi-agent reinforcement learning simulation that dynamically reroutes solar and battery power across campus buildings to maximize renewable energy self-consumption during peak hours.",
-      "stack": [
-        "Python",
-        "Node.js",
-        "Chart.js",
-        "Flask"
-      ],
-      "title": "GridGuardian: Autonomous Microgrid Energy Distributor",
-      "track": "Agentic Intelligence & Autonomous Systems",
-      "why_it_could_win": "Applies autonomous multi-agent systems to an energy sustainability problem, directly aligning with the dual theme of agentic tech and sustainability."
-    },
-    {
-      "build_hours": 9,
-      "inspired_by": [
-        "github:1234067949",
-        "github:935702069"
-      ],
-      "pitch": "A machine learning pipeline that analyzes water body sensor inputs and weather data to forecast algal blooms and pollution spikes 72 hours in advance for local water bodies.",
-      "stack": [
-        "Python",
-        "Scikit-Learn",
-        "TailwindCSS",
-        "Next.js"
-      ],
-      "title": "AquaGuard Mysore: AI Lake Eutrophication Early Warning System",
-      "track": "Sustainable Development",
-      "why_it_could_win": "Replicates a proven winning formula of predictive environmental monitoring with a hyper-local application that local judges can immediately appreciate."
+      "title": "EcoAgent Mysore: Autonomous Campus Energy Manager",
+      "track": "",
+      "why_it_could_win": "Directly targets both core themes (Agentic Intelligence and Sustainable Development) and mirrors a proven winning pattern from CampusPulse."
     },
     {
       "build_hours": 8,
       "inspired_by": [
-        "github:1346526259"
+        "github:1010199928"
       ],
-      "pitch": "An autonomous LLM-powered agent that crawls campus utility bills, transport logs, and waste reports to generate actionable carbon offset recommendations and a live university ESG scoreboard.",
+      "pitch": "An edge-AI garbage classification agent that controls a multi-bin sorting mechanism and logs waste analytics for municipal sustainability tracking.",
+      "problem_statement": "Agentic Intelligence & Autonomous Systems with a focus on Sustainable Development",
       "stack": [
-        "TypeScript",
-        "OpenAI API",
-        "React",
-        "Supabase"
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Arduino",
+        "Raspberry Pi"
       ],
-      "title": "CampusCarbon: Autonomous ESG Audit Agent",
-      "track": "Sustainable Development",
-      "why_it_could_win": "Provides an instantly demoable dashboard tracking tangible sustainability KPIs, making it highly attractive for academic institution hackathon judges."
+      "title": "SmartBin Agent: Autonomous Municipal Waste Segregator",
+      "track": "",
+      "why_it_could_win": "Leverages hardware-software integration which consistently scores exceptionally well among academic judges."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1075630497"
+      ],
+      "pitch": "An agentic multi-sensor web dashboard that processes satellite and soil metrics to autonomously manage sustainable drip-irrigation schedules.",
+      "problem_statement": "Agentic Intelligence & Autonomous Systems with a focus on Sustainable Development",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Dart",
+        "Flutter",
+        "Scikit-Learn"
+      ],
+      "title": "AgriAgent: Autonomous Crop Health & Irrigation Swarm",
+      "track": "",
+      "why_it_could_win": "Combines high-impact environmental sustainability with a working autonomous decision-making agent pipeline."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:935702069",
+        "github:1155558847"
+      ],
+      "pitch": "An autonomous GIS data-ingestion agent that calculates micro-climate wildfire risks around Mysore and alerts local authorities via automated dispatch agents.",
+      "problem_statement": "Agentic Intelligence & Autonomous Systems with a focus on Sustainable Development",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "GeoPandas",
+        "OpenAI API"
+      ],
+      "title": "EcoForest Watch: Autonomous Wildfire Risk Agent",
+      "track": "",
+      "why_it_could_win": "Addresses critical ecological preservation with a demonstrable predictive model and automated alert actions."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "An agentic digital twin platform that monitors EV battery degradation metrics in real-time and autonomously schedules eco-friendly charging cycles during off-peak green energy hours.",
+      "problem_statement": "Agentic Intelligence & Autonomous Systems with a focus on Sustainable Development",
+      "stack": [
+        "Node.js",
+        "Express",
+        "React",
+        "Vite",
+        "TailwindCSS"
+      ],
+      "title": "VoltAgent: Autonomous EV Fleet Battery Health Twin",
+      "track": "",
+      "why_it_could_win": "Directly adapts a multi-award-winning backend/frontend architecture specifically tailored for energy conservation and battery intelligence."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

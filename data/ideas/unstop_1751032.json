@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-09-17T07:55:47.845069+00:00",
+  "generated_at": "2026-09-21T08:30:00.383549+00:00",
   "grounding": {
     "domains": [
-      "civic"
+      "civic",
+      "sustainability"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "impact",
       "working-demo",
-      "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751032",
@@ -18,88 +20,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1132337467",
-        "github:1170846981"
+        "github:901472660"
       ],
-      "pitch": "A multilingual voice-first diagnostic assistant optimized for low-bandwidth environments, connecting rural patients to preventive health updates and local clinics via automated IVR and web portals.",
+      "pitch": "A mobile and web platform for rural local bodies to track community water assets, maintenance logs, and fund utilization under national missions.",
+      "problem_statement": "Addressing UN SDG 6 (Clean Water and Sanitation) by helping local communities manage rural water supply infrastructure efficiently.",
       "stack": [
-        "TypeScript",
-        "React",
-        "Firebase",
-        "Gemini AI",
-        "Twilio API"
+        "React Native",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
       ],
-      "title": "GraminHealth",
-      "track": "",
-      "why_it_could_win": "Directly addresses national building priorities through grassroots healthcare access, matching the proven multilingual community impact style of SAGACITY."
+      "title": "JalSetu Rural Water & Asset Tracker",
+      "track": "UN Sustainable Development Goals Action",
+      "why_it_could_win": "Leverages the proven success pattern of JalSetu at SIH 2024, directly targeting rural administration pain points appreciated by UN-affiliated judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1194555365"
+        "github:769127191",
+        "github:611784301",
+        "github:769262834"
       ],
-      "pitch": "An AI-powered logistics platform matching volunteer drivers and localized transit with isolated rural seniors or community groups requiring transport to agricultural markets or government health camps.",
+      "pitch": "A community-level waste collection optimizer and recycling tracker connecting households directly with local waste pickers and municipal recyclers.",
+      "problem_statement": "Addressing UN SDG 11 (Sustainable Cities and Communities) through decentralized waste mismanagement reduction.",
       "stack": [
-        "TypeScript",
         "React",
-        "Supabase",
-        "TomTom Maps API"
+        "Node.js",
+        "MongoDB",
+        "TailwindCSS"
       ],
-      "title": "Vanbandhu Connect",
-      "track": "",
-      "why_it_could_win": "Leverages measurable social impact metrics by quantifying community reach and transit efficiency, mirroring the Vanderbilt Global Good Hackathon grand prize winner."
+      "title": "EcoSaathi Neighborhood Waste Ledger",
+      "track": "Grassroots Community Projects",
+      "why_it_could_win": "Combines the winning formula of WasteX and TrashMaster with a localized ledger approach, providing clear measurable environmental metrics for judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1346526259"
+        "github:1179029975"
       ],
-      "pitch": "An AI-enhanced infrastructure reporting system that ingests geotagged citizen complaints about local civic issues, automatically categorizes them by severity, and routes them to municipal dashboards.",
+      "pitch": "A citizen-reporting mobile web tool for identifying, geotagging, and reporting dangerous rural road hazards and missing safety signs.",
+      "problem_statement": "Addressing UN SDG 3 (Good Health and Well-being) by mitigating accident risks on underserved rural roadways.",
       "stack": [
-        "TypeScript",
-        "React",
-        "Supabase",
-        "TailwindCSS"
+        "Python",
+        "Flask",
+        "Leaflet.js",
+        "SQLite"
       ],
-      "title": "Samadhan Portal",
-      "track": "",
-      "why_it_could_win": "Appeals directly to nation-building evaluation criteria by providing transparent, real-time civic accountability dashboards for local governance."
+      "title": "MargRaksha Rural Road Safety Audit",
+      "track": "Scalable Social Ventures",
+      "why_it_could_win": "Builds directly on the MargRaksha-2026 winning strategy, appealing heavily to nation-building initiatives and government-focused panels."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:714473994"
+      ],
+      "pitch": "A lightweight mobile scanner that instantly identifies household product packaging barcodes and provides hyper-local disposal instructions based on municipal waste facilities.",
+      "problem_statement": "Addressing UN SDG 12 (Responsible Consumption and Production) by simplifying household recycling habits.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "OpenFoodFacts API"
+      ],
+      "title": "GreenBarcode Local Recycling Guide",
+      "track": "Grassroots Community Projects",
+      "why_it_could_win": "Mirrors the exact Best Hack winning strategy of garbage-scan by providing an instantly demonstrable, functional camera feature within a 24-hour window."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1228867095"
+        "github:1346526259"
       ],
-      "pitch": "A voice-first agent running locally or via lightweight web endpoints that intercepts common phone-based financial scams targeting vulnerable populations, translating alerts into regional languages.",
+      "pitch": "A GIS-enabled platform allowing community organizers to map grassroots sustainability projects, verify volunteer hours, and export compliance reports for UN body reviews.",
+      "problem_statement": "Addressing UN SDG 17 (Partnerships for the Goals) by providing verifiable execution metrics for student-led social ventures.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "Web Speech API",
-        "LLM API"
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Mapbox GL"
       ],
-      "title": "Suraksha Voice",
-      "track": "",
-      "why_it_could_win": "Demonstrates sophisticated agentic workflows combined with essential societal protection, following the GOSIM Agentic Hackathon winning pattern."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A regional agricultural yield and climate risk predictor using statistical regression models to forecast seasonal crop stress and provide early warnings for vulnerable farming communities.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Streamlit",
-        "Scikit-learn"
-      ],
-      "title": "KrishiForecast",
-      "track": "",
-      "why_it_could_win": "Combines hard quantitative data modeling with actionable economic risk mitigation, directly emulating the Apart Research AI Forecasting winner."
+      "title": "CivicPulse Local Impact Dashboard",
+      "track": "Scalable Social Ventures",
+      "why_it_could_win": "Utilizes the live-dashboard and impact-metrics winning pattern from catwalk, directly satisfying the requirement for independently verifiable projects."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

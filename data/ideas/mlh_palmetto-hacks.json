@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:57:37.527605+00:00",
+  "generated_at": "2026-09-21T08:15:15.815549+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:palmetto-hacks",
@@ -14,85 +16,90 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "A localized AML risk detection and graph intelligence platform tailored for regional credit unions and banks in South Carolina.",
+      "pitch": "A localized energy consumption forecasting tool tailored for South Carolina university campuses to predict peak load and reduce carbon footprints.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Pandas"
       ],
-      "title": "PalmettoGrid AML Compliance",
+      "title": "Palmetto Campus Energy Grid Optimizer",
       "track": "",
-      "why_it_could_win": "Follows the exact blueprint of Bito which won 1st place at DIGITIMES AI Innovation Hackathon by combining graph intelligence with explainable risk scoring."
+      "why_it_could_win": "Follows the pattern of winning predictive infrastructure projects like the AI incident forecasting tool by utilizing rigorous backtesting and local dataset relevance."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "AI-powered satellite monitoring platform assessing agricultural land compliance and crop health for the South Carolina Department of Agriculture.",
+      "pitch": "An explainable risk-scoring dashboard for local merchants in Columbia to detect suspicious transactions using lightweight graph intelligence.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "SentinelHub API",
-        "Python",
-        "Leaflet.js"
+        "TailwindCSS",
+        "LightGBM",
+        "FastAPI"
       ],
-      "title": "PalmettoAgri Satellite Monitor",
+      "title": "Palmetto Small Business Fraud Shield",
       "track": "",
-      "why_it_could_win": "Mimics GeoNex-ATLAS which secured runner-up at Xcelerate Hackathon by applying satellite monitoring to solve regional industrial or land compliance problems."
+      "why_it_could_win": "Adapts the core architecture of award-winning financial AML platforms into a scoped, highly visual product that judges can test instantly."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "Autonomous AI agent marketplace with secure stablecoin escrow payments designed for local vendor hiring and tourism services in Charleston and Columbia.",
+      "pitch": "An autonomous agent platform facilitating direct transactions between local South Carolina farmers and buyers with secure escrow guarantees.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
-        "LangChain"
+        "Node.js"
       ],
-      "title": "Carolina Coast Event Escrow Agent",
+      "title": "SC Ag-Marketplace Escrow Agent",
       "track": "",
-      "why_it_could_win": "Directly replicates Dispatch which won 1st place at the Synthesis Hackathon by implementing an autonomous AI agent marketplace with USDC escrow."
+      "why_it_could_win": "Mirrors the exact architecture of the Synthesis Hackathon winner by combining autonomous coordination with concrete transaction settlements."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient onboarding and trust engine customized for regional community clinics in South Carolina to streamline intake workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Palmetto Community Health Intake",
+      "track": "",
+      "why_it_could_win": "Uses the fast-turnaround pattern of the Global-Smile prize-winning project, focusing on an immediate operational bottleneck for local service providers."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent student support and advising platform combining RAG and personalized AI agents specifically tailored for South Carolina university course catalogs.",
+      "pitch": "A multi-agent support network utilizing RAG to connect university students in Columbia with campus resources and peer support guidance.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Pinecone",
+        "OpenAI",
         "Next.js"
       ],
-      "title": "Palmetto Campus AI Support Hub",
+      "title": "Palmetto Student Mental Health Multi-Agent Hub",
       "track": "",
-      "why_it_could_win": "Mirrors greennovation-ai-platform which won 1st place at GreenNovation Hackathon using LangGraph, RAG, and personalized multi-agent student support workflows."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-powered nutrition and wellness platform that delivers personalized meal recommendations based on local South Carolina grocery store inventory and dietary needs.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini API",
-        "Pandas"
-      ],
-      "title": "Palmetto Palate AI Nutrition",
-      "track": "",
-      "why_it_could_win": "Follows E-Foodiee-AI-Nutrition-Assistant which won first prize at Hour Hackathon by building a practical, localized health and nutrition recommendation assistant."
+      "why_it_could_win": "Adopts the architecture of the GreenNovation Hackathon winner by structuring complex multi-agent workflows into a clean user interface."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

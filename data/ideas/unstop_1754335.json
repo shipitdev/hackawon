@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:01:04.314690+00:00",
+  "generated_at": "2026-09-21T08:32:06.183430+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1754335",
@@ -18,89 +20,90 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1282252864"
+        "github:1296916648"
       ],
-      "pitch": "An enterprise-grade autonomous incident triage and remediation agent that parses incoming alert payloads, maps them to BPMN workflows, and executes safe remediation scripts with built-in human-in-the-loop approval gates.",
+      "pitch": "An offline AI code reviewer optimized for Snapdragon NPUs that runs real-time security and lint checks directly on edge hardware.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "LangChain",
-        "Camunda BPMN",
-        "React"
+        "ONNX Runtime",
+        "TailwindCSS"
       ],
-      "title": "Jarvis-BPMN: Autonomous Incident Triage and Self-Healing Agent",
+      "title": "Jarvis-Ops: Autonomous Edge AI Code Reviewer",
       "track": "",
-      "why_it_could_win": "Directly aligns with the industry-focused, problem-solving mandate of Project J.A.R.V.I.S. by solving a tangible enterprise pain point using process orchestration and agentic governance."
+      "why_it_could_win": "Aligns with the J.A.R.V.I.S. theme of intelligent automation and mirrors a proven winning pattern of building hardware-adjacent, offline developer tooling."
     },
     {
       "build_hours": 22,
       "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual BPMN-orchestrated workflow debugger that automatically checks multi-agent AI pipelines for compliance and runtime safety hazards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Bpmn-js",
+        "LangChain"
+      ],
+      "title": "BPMN-Shield: Pre-Deployment Risk Diagnosis for AI Workflows",
+      "track": "",
+      "why_it_could_win": "Judges at industry-focused hackathons prioritize enterprise risk mitigation and governance over standard chat interfaces."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A high-performance semantic routing proxy that intercepts enterprise queries, calculates kNN distances over cached prompt exemplars, and dynamically routes requests between local open-weights models and high-cost frontier APIs to reduce inference latency and cost.",
+      "pitch": "A lightning-fast semantic router using kNN over an exemplar index that dynamically routes incoming queries to optimal models while cutting API costs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Qdrant",
-        "Qwen",
-        "Sentence-Transformers"
+        "Superlinked",
+        "Redis"
       ],
-      "title": "QueryRouter: Training-Free Semantic Router for Multi-Model Enterprise LLMs",
+      "title": "SemanticRoute: Training-Free Self-Improving LLM Gateway",
       "track": "",
-      "why_it_could_win": "Replicates the winning architecture of advanced routing systems by focusing on extreme efficiency and cost-saving metrics, which technical judges value highly for industry viability."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:965357458"
-      ],
-      "pitch": "A runtime sidecar and governance platform that intercepts AI application requests, detects PII leaks, scans for prompt injection attempts, and logs immutable compliance telemetry for enterprise auditing.",
-      "stack": [
-        "Go",
-        "Docker",
-        "OpenTelemetry",
-        "PostgreSQL",
-        "React"
-      ],
-      "title": "GuardAI: Open-Source Ethical Telemetry and Policy Enforcement Layer",
-      "track": "",
-      "why_it_could_win": "Addresses critical industry concerns around AI security, compliance, and governance, offering an immediate drop-in value proposition for enterprise evaluators."
+      "why_it_could_win": "Demonstrates genuine systems-level engineering and optimization, which stands out in a field of generic wrappers."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An advanced transaction monitoring prototype that constructs real-time entity-relationship graphs from streaming transaction data to flag complex money laundering topologies using graph neural networks and explainable decision trees.",
+      "pitch": "An anti-money laundering investigation platform that combines graph intelligence with explainable machine learning for real-time transaction anomaly detection.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Neo4j",
-        "LightGBM",
-        "Next.js"
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "GraphAML: Multi-Source Graph Intelligence Platform for Financial Crime Detection",
+      "title": "GraphAML: AWS-Powered AML Risk Detection",
       "track": "",
-      "why_it_could_win": "Combines complex data structures with high-stakes domain utility (fintech AML risk detection), which showcases deep engineering capability within the 24-hour limit."
+      "why_it_could_win": "Applies advanced data structures (graphs) to a high-value industry use case, impressing judges looking for real-world relevance."
     },
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1296916648"
+        "github:1188682384"
       ],
-      "pitch": "A local-first developer productivity tool that runs lightweight code auditing and security vulnerability scanning locally via on-device neural processing units (NPUs) or quantized models without sending proprietary source code to external servers.",
+      "pitch": "A zero-knowledge gated collaboration space where verified human operators and autonomous AI agents can share private insights securely.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "ONNX Runtime",
-        "Tree-sitter",
-        "Electron"
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "Solidity"
       ],
-      "title": "SnapReview: Offline Edge-AI Code Reviewer for Secure Environments",
+      "title": "ZK-Sentinel: Gated Community Platform for Verified AI Agents",
       "track": "",
-      "why_it_could_win": "Leverages the strong industry demand for data privacy and secure codebases, showing awareness of hardware acceleration and local execution paradigms."
+      "why_it_could_win": "Tackles cutting-edge cryptographic concepts combined with multi-agent systems, showcasing high technical ambition within a tight timeline."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

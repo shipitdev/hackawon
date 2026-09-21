@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:02.299602+00:00",
+  "generated_at": "2026-09-21T08:27:31.691018+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749763",
@@ -17,81 +19,90 @@
     {
       "build_hours": 1,
       "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An AI-powered rapid frontend prototyping tool that transforms text prompts directly into clean, interactive Tailwind CSS and React components in seconds.",
+      "problem_statement": "Transform a given problem statement into a functional digital product within an extremely limited 90-minute timeframe.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "OpenAI API"
+      ],
+      "title": "BoltUI Generator",
+      "track": "",
+      "why_it_could_win": "Directly targets the evaluation criteria of functional speed and effective use of AI tools, leveraging the exact accelerated development workflow seen in winning Cursor hackathons."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated database schema and mock data generator that instantly structures backend tables based on a quick text prompt.",
+      "problem_statement": "Transform a given problem statement into a functional digital product within an extremely limited 90-minute timeframe.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "LLM API"
+      ],
+      "title": "RapidFlow Schema",
+      "track": "",
+      "why_it_could_win": "Solves the tedious boilerplate setup phase of a strict 90-minute sprint, allowing individual developers to focus entirely on core business logic and UI/UX."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A zero-config project documentation and README generator that analyzes a repository codebase live and outputs a structured markdown report instantly.",
+      "problem_statement": "Transform a given problem statement into a functional digital product within an extremely limited 90-minute timeframe.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "title": "InstantDoc AI",
+      "track": "",
+      "why_it_could_win": "Impresses judges during the 10-minute submission window by instantly providing professional-grade presentation polish to incomplete or rapid codebases."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An AI-driven automated testing and assertion writer that instantly generates unit tests for newly written frontend components.",
+      "problem_statement": "Transform a given problem statement into a functional digital product within an extremely limited 90-minute timeframe.",
+      "stack": [
+        "TypeScript",
+        "Jest",
+        "Babel",
+        "LLM API"
+      ],
+      "title": "QuickTest Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates high technical execution and reliability under severe time constraints, showing judges complete feature loops from code to test."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1207207353",
         "github:1334000568"
       ],
-      "pitch": "A lightweight, training-free semantic router built in Python that uses kNN over an exemplar index to dynamically route user prompts to the most efficient LLM, featuring real-time LLM-judge writeback.",
+      "pitch": "A lightning-fast local semantic code snippet search engine that helps solo developers recall syntax and boilerplate instantly during rapid prototyping.",
+      "problem_statement": "Transform a given problem statement into a functional digital product within an extremely limited 90-minute timeframe.",
       "stack": [
         "Python",
-        "llm-routing",
-        "semantic-router"
+        "FAISS",
+        "Streamlit",
+        "Sentence-Transformers"
       ],
-      "title": "VibeRouter: Self-Optimizing LLM Semantic Router",
+      "title": "SemanticSnippets",
       "track": "",
-      "why_it_could_win": "Matches the winning pattern of engineering hard functionality like semantic routing and leverages modern AI-assisted coding tools to deliver high technical execution within the strict 90-minute limit."
-    },
-    {
-      "build_hours": 1,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "An AI-assisted compliance checking tool that parses BPMN workflows and runs pre-deployment risk diagnosis for multi-agent systems.",
-      "stack": [
-        "Python",
-        "ai-agents",
-        "bpmn"
-      ],
-      "title": "BPMN Agent Risk Diagnostician",
-      "track": "",
-      "why_it_could_win": "Focuses on rigorous technical execution and governance, standing out to judges looking for structured problem understanding and functional utility."
-    },
-    {
-      "build_hours": 1,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A streamlined reasoning optimization wrapper that wraps LLM calls to enable more efficient, multi-step problem solving without massive latency.",
-      "stack": [
-        "Python",
-        "llm",
-        "reinforcement-learning"
-      ],
-      "title": "HyperReason: Token-Efficient LLM Pipeline",
-      "track": "",
-      "why_it_could_win": "Demonstrates deep technical execution and optimization, aligning with the criteria for creativity and technical prowess in rapid development challenges."
-    },
-    {
-      "build_hours": 1,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An AI-powered offline code reviewer designed for fast, local execution to provide immediate feedback on code smells and security antipatterns.",
-      "stack": [
-        "Python",
-        "ast",
-        "ai-code-reviewer"
-      ],
-      "title": "SnapReview: Offline AI Code Linter",
-      "track": "",
-      "why_it_could_win": "Directly tackles the core focus of the hackathon: turning a rapid development problem statement into a working product using modern development tools and AI assistance."
-    },
-    {
-      "build_hours": 1,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "A zero-config auto-embedding and RAG toolkit that hooks directly into local databases to give AI models immediate context over unstructured documentation.",
-      "stack": [
-        "Python",
-        "embeddings",
-        "hnsw",
-        "llm"
-      ],
-      "title": "AutoTOON: Instant RAG & Embedding Toolkit",
-      "track": "",
-      "why_it_could_win": "Offers high functional utility and a polished UI/UX out of the box, satisfying multiple judging categories simultaneously in a tight timeframe."
+      "why_it_could_win": "Combines vector embeddings with immediate utility for developers working under intense time limits, directly addressing efficiency in AI-assisted coding."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

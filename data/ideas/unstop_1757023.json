@@ -1,8 +1,7 @@
 {
-  "generated_at": "2026-09-17T07:56:46.047191+00:00",
+  "generated_at": "2026-09-21T08:35:52.180975+00:00",
   "grounding": {
     "domains": [
-      "ai-ml",
       "devtools"
     ],
     "exemplar_count": 8,
@@ -10,90 +9,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757023",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1334000568"
+        "github:1214808895"
       ],
-      "pitch": "A training-free semantic router combined with a Qiskit QAOA module to offload complex combinatorial optimization queries to quantum backends only when classical vector similarity proves inconclusive.",
+      "pitch": "A quantum optimization pipeline using Qiskit to solve multi-vehicle routing problems with real-time classical feedback loops.",
+      "problem_statement": "Quantum Optimization and Real-World Resource Allocation",
       "stack": [
         "Python",
         "Qiskit",
-        "superlinked",
-        "qwen"
+        "NetworkX",
+        "FastAPI"
       ],
-      "title": "Qiskit Hybrid Optimization Router",
-      "track": "",
-      "why_it_could_win": "Directly taps into Qiskit Fall Fest 2026 themes by combining classical routing (proven by Superlinked × Qwen winners) with practical quantum-classical hybrid execution."
+      "title": "Q-Route: Hybrid Quantum-Classical Traffic Optimization Engine",
+      "track": "Quantum Optimization",
+      "why_it_could_win": "Demonstrates practical utility by coupling QAOA (Quantum Approximate Optimization Algorithm) with a classical heuristic router, hitting the sweet spot of hybrid computing for judges."
     },
     {
-      "build_hours": 30,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1282252864"
+        "github:1199751414"
       ],
-      "pitch": "A workflow orchestrator that uses BPMN diagrams to model and enforce error-mitigation and pre-deployment risk checks for parameterized quantum circuits before execution on cloud QPUs.",
+      "pitch": "A QNN-based classifier built with Qiskit Machine Learning to predict molecular binding affinities faster than classical neural networks.",
+      "problem_statement": "Quantum Machine Learning Applications in Healthcare",
+      "stack": [
+        "Python",
+        "Qiskit Machine Learning",
+        "PyTorch",
+        "Scikit-Learn"
+      ],
+      "title": "BioQML: Quantum Machine Learning for Drug Discovery Screening",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Aligns directly with QML tracks by applying parametrized quantum circuits (PQCs) to an impactful, easily visualized biomedical dataset."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An educational web interface demonstrating BB84 and E91 quantum key distribution protocols with simulated eavesdropping (Eve) and error correction.",
+      "problem_statement": "Quantum Applications and Emerging Technologies",
       "stack": [
         "Python",
         "Qiskit",
-        "ai-governance",
-        "bpmn"
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "Quantum Circuit BPMN Governance Engine",
-      "track": "",
-      "why_it_could_win": "Leverages the BPMN orchestration and AI governance patterns that won UiPath AgentHack, applying them to the niche of reliable quantum pipeline management."
+      "title": "QKD-Sim: Quantum Key Distribution Protocol Visualizer",
+      "track": "Quantum Applications & Emerging Technologies",
+      "why_it_could_win": "Celebrates a decade of cloud quantum computing by providing an intuitive, interactive simulator that helps judges and students grasp cryptographic quantum principles instantly."
     },
     {
-      "build_hours": 40,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1296916648"
+        "github:754481130"
       ],
-      "pitch": "An offline AI code quality analyzer running on localized hardware that translates specific optimization loops into quantum kernels to evaluate speedup potential locally.",
+      "pitch": "A hybrid financial portfolio optimization tool leveraging VQE (Variational Quantum Eigensolver) to balance asset returns against market variance.",
+      "problem_statement": "Quantum Optimization in Finance",
+      "stack": [
+        "Python",
+        "Qiskit Finance",
+        "NumPy",
+        "Pandas"
+      ],
+      "title": "PortfolioQ: Quantum Portfolio Risk Minimization",
+      "track": "Quantum Optimization",
+      "why_it_could_win": "Applies heavy quantum math to a high-value vertical (finance), showcasing deep technical rigor that stands out in a 24-hour hackathon."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A distributed network simulation framework using Qiskit primitives to model entanglement swapping and quantum teleportation across a multi-node topology.",
+      "problem_statement": "Quantum Algorithms and Emerging Technologies",
       "stack": [
         "Python",
         "Qiskit",
-        "transformers"
+        "Matplotlib",
+        "NetworkX"
       ],
-      "title": "QPU-Accelerated Offline Code Reviewer",
-      "track": "",
-      "why_it_could_win": "Adapts the Snapdragon Multiverse runner-up concept of offline specialized tooling, shifting the heavy lifting toward local quantum simulation and kernel analysis."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two competing Qiskit-powered RL agents play a zero-sum game of quantum state discrimination, autonomously discovering novel entanglement distillation and error-hiding strategies.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "reinforcement-learning"
-      ],
-      "title": "Adversarial Quantum State Discrimination Agents",
-      "track": "",
-      "why_it_could_win": "Applies the exact winning formula from the Datadog Self-Improving Agents Hack where self-play creates emergent, non-programmed behavioral solutions."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "A vector search and retrieval-augmented generation toolkit optimized for querying quantum algorithm research papers, incorporating auto-embedding layers for quantum circuit representations.",
-      "stack": [
-        "Python",
-        "embeddings",
-        "mariadb",
-        "Qiskit"
-      ],
-      "title": "TOON-Native Quantum Embedding RAG",
-      "track": "",
-      "why_it_could_win": "Replicates the MariaDB Hackathon-winning tool architecture, tailoring the indexing specifically to quantum circuit graphs and research literature."
+      "title": "EntangleNet: Multi-Node Quantum Teleportation Simulator",
+      "track": "Quantum Algorithms",
+      "why_it_could_win": "Focuses on foundational quantum networking protocols, ticking the box for advanced algorithmic implementation requested by Qiskit Fall Fest events."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:05.734438+00:00",
+  "generated_at": "2026-09-21T08:17:03.805409+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1708229",
@@ -17,83 +19,87 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Real-time AI satellite monitoring pipeline built for automated industrial land and environmental compliance auditing.",
+      "pitch": "An AI-powered satellite monitoring pipeline that tracks industrial land and water discharge changes in real time for compliance verification.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "Next.js",
-        "OpenAI API"
+        "OpenCV"
       ],
-      "title": "Morphix-Sentinel",
+      "title": "NeuraCompliance: Satellite Monitoring for Industrial Environmental Regulation",
       "track": "",
-      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS which won by addressing high-impact real-world monitoring problems that appeal to practical judges."
+      "why_it_could_win": "Leverages the proven high-scoring pattern of GeoNex-ATLAS by applying computer vision to satellite imagery for industrial oversight, which directly aligns with judges looking for real-world relevance and high technical execution."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "Automated AML and transaction risk investigation platform combining graph intelligence and explainable machine learning models.",
+      "pitch": "An AWS-powered risk detection platform combining graph intelligence and LightGBM to identify suspicious trade flows and supply chain compliance risks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "NetworkX"
+        "AWS"
       ],
-      "title": "RegulAI Risk Engine",
+      "title": "BioRiskAML: Supply Chain AML & Risk Detection Graph Platform",
       "track": "",
-      "why_it_could_win": "Mirrors the Bito win by delivering hard engineering through graph intelligence and explainable models which impress technical judges."
+      "why_it_could_win": "Adapts the architecture of Bito to a generalized supply chain threat detection model, offering judges a production-grade backend with explainable AI components."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265"
       ],
-      "pitch": "Autonomous AI agent marketplace featuring decentralized USDC escrow payments and execution hooks on Base.",
+      "pitch": "A quantitative forecasting dashboard utilizing Poisson GAM and multinomial share models to predict and backtest AI safety and operational incidents.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Solidity",
-        "Base",
-        "USDC"
+        "Jupyter Notebook",
+        "Python",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "AgentMarket Base",
+      "title": "AegisForecast: Automated AI Incident Forecaster with Calibrated Intervals",
       "track": "",
-      "why_it_could_win": "Directly replicates the Dispatch win by providing a functional marketplace with secure escrow rails that judges love to see working live."
+      "why_it_could_win": "Directly replicates the rigorous statistical methodology of the Apart Research winning project, impressing technical judges with robust uncertainty quantification and rolling backtests."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:1241231621"
       ],
-      "pitch": "Personalized health and nutrition intelligence platform providing dynamic meal recommendations and metabolic health insights.",
+      "pitch": "An AI agent system tailored for specialized clinics to automate patient intake, trust-building consultation summaries, and scheduling.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React",
+        "TypeScript",
+        "Next.js",
         "Gemini API"
       ],
-      "title": "NutriSync AI",
+      "title": "TrustPatient: AI-Powered Patient Acquisition and Trust Engine",
       "track": "",
-      "why_it_could_win": "Leverages the winning formula of E-Foodiee-AI by solving an everyday consumer problem with a polished, immediate user experience."
+      "why_it_could_win": "Follows the rapid-execution blueprint of Global-Smile, focusing on a hyper-specific vertical market need that allows for an immediately demoable and practical user journey."
     },
     {
-      "build_hours": 36,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1087704265"
+        "github:1200926140"
       ],
-      "pitch": "Predictive AI incident forecasting tool leveraging statistical regression models and calibrated confidence intervals for risk mitigation.",
+      "pitch": "A video analytics platform that ingests unstructured training or operational footage and converts it into a deeply searchable, queryable vector database.",
+      "problem_statement": "No published statement",
       "stack": [
+        "HTML",
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Streamlit"
+        "FastAPI",
+        "Vector DB"
       ],
-      "title": "ForecastGuard AI",
+      "title": "VideoLibrAI: Unstructured Video Intelligence and Semantic Indexing",
       "track": "",
-      "why_it_could_win": "Employs the rigorous statistical approach of the Apart Research AI Forecasting winner, shifting away from generic wrappers toward robust math."
+      "why_it_could_win": "Mirrors LibrAI's winning formula by transforming chaotic unstructured data into a slick, highly functional interface with instant visual utility for enterprise workflows."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

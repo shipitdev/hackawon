@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:06.604677+00:00",
+  "generated_at": "2026-09-21T08:14:17.074975+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,95 +7,95 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:iku-womxn-in-stem-hackathon",
   "ideas": [
     {
       "build_hours": 24,
-      "inspired_by": [
-        "github:1213911408",
-        "github:1155558847"
-      ],
-      "pitch": "A supply chain provenance platform built for London-based ethical fashion brands to track carbon footprints and fair-wage compliance using automated multi-agent auditing.",
+      "inspired_by": [],
+      "pitch": "A mentorship and opportunity matching platform pairing underrepresented womeyn in STEM with London-based tech companies for micro-internships.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "LangGraph",
-        "Python"
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "BioTrace London",
+      "title": "STEMConnect London",
       "track": "",
-      "why_it_could_win": "Aligns with the local London focus on sustainability and ethical business practices, leveraging multi-agent workflows proven effective in recent hackathon wins."
+      "why_it_could_win": "Aligns with the core mission of an inclusivity-focused hackathon, making it appealing to judges looking for social impact and community value."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1241231621",
-        "github:1181344931"
+        "github:1275874285"
       ],
-      "pitch": "An automated claims validation assistant tailored for UK private healthcare providers to instantly cross-reference patient treatments against policy rules with explainable audit trails.",
+      "pitch": "An AI-powered career pathway tracker and skills gap analyzer specifically tailored for women entering biotech and engineering fields in the UK.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
         "Python",
-        "FastAPI"
+        "FastAPI",
+        "React",
+        "Gemini API"
       ],
-      "title": "MedClaim AI",
+      "title": "BioTrack STEM",
       "track": "",
-      "why_it_could_win": "Tackles a high-friction administrative problem in healthcare using explainable AI, mirroring successful vertical-specific trust engines."
+      "why_it_could_win": "Combines a practical tool for career development with actionable data analytics, scoring well on utility and empowerment themes."
     },
     {
       "build_hours": 25,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An interactive geospatial dashboard that monitors urban micro-mobility and air quality compliance for London borough councils using satellite and IoT sensor feeds.",
+      "inspired_by": [],
+      "pitch": "A community-driven safety routing and companion app for women working late in London tech hubs and universities.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "TailwindCSS"
+        "React Native",
+        "Mapbox",
+        "Node.js"
       ],
-      "title": "LocalCycle",
+      "title": "SafePath STEM London",
       "track": "",
-      "why_it_could_win": "Focuses on hyper-local urban infrastructure challenges relevant to London, matching the technical depth of winning geospatial monitoring projects."
+      "why_it_could_win": "Addresses an immediate local safety pain point for London-based attendees and participants, creating high emotional resonance with judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1181344931",
-        "github:1183964401"
+        "github:1185920891"
       ],
-      "pitch": "An automated compliance and risk intelligence dashboard for London fintech startups to detect anomalous transaction patterns and generate regulatory reports.",
+      "pitch": "A decentralized grant and pitch matching portal for women-led technical startups seeking early-stage angel syndicates in London.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
+        "Next.js",
+        "Solidity",
+        "TailwindCSS"
       ],
-      "title": "FinGuard London",
+      "title": "InnoFundHer",
       "track": "",
-      "why_it_could_win": "Presents genuinely hard engineering by combining graph intelligence and risk scoring, echoing winning AML and risk detection platforms."
+      "why_it_could_win": "Focuses on economic empowerment and entrepreneurship, directly supporting the broader goals of women in STEM initiatives."
     },
     {
-      "build_hours": 20,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:1185920891"
       ],
-      "pitch": "A localized AI nutrition planner that integrates with UK supermarket APIs to generate budget-conscious, allergen-safe meal plans based on individual biomarkers.",
+      "pitch": "A peer-to-peer equipment and research asset sharing marketplace for female researchers and independent labs across London universities.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Streamlit",
-        "OpenAI API",
-        "Pandas"
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL"
       ],
-      "title": "NutriPlan UK",
+      "title": "LabShare UK",
       "track": "",
-      "why_it_could_win": "Solves a relatable consumer health problem with immediate utility, following the exact success pattern of winning nutrition assistant projects."
+      "why_it_could_win": "Solves a tangible resource allocation problem for academic and corporate researchers with a clear operational workflow."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:42.696317+00:00",
+  "generated_at": "2026-09-21T08:10:55.163052+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:diamondhacks",
@@ -14,85 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A localized Poisson regression and GAM forecasting model predicting cliffside erosion and sea-level impact along La Jolla shores using historical geological data.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "GAM"
-      ],
-      "title": "La Jolla Coastal Erosion AI Forecaster",
-      "track": "",
-      "why_it_could_win": "Follows the exact winning pattern of high-complexity predictive modeling seen in ai-incident-forecasting, leveraging hard statistics that appeal to technical judges in coastal research hubs."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An autonomous multi-agent system combining LangGraph and RAG to monitor and report coastal marine biodiversity metrics in real-time for San Diego ecological preservation.",
+      "pitch": "An AI-powered satellite monitoring and ground sensor fusion platform that predicts coastal erosion hotspots along La Jolla cliffs.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "RAG",
-        "Gemini API"
+        "Python",
+        "Sentinel-2 API",
+        "Leaflet.js"
       ],
-      "title": "BioTide Autonomous Marine Sensor Agent",
+      "title": "La Jolla Coastal Erosion & Bluff Stability Monitor",
       "track": "",
-      "why_it_could_win": "Mirrors the multi-agent architecture of the GreenNovation win, targeting judges looking for practical ecological applications built with advanced agentic workflows."
+      "why_it_could_win": "Leverages the proven high-scoring technical pattern from GeoNex-ATLAS by applying geospatial and satellite monitoring to a hyper-local geographical issue relevant to La Jolla, immediately catching local judges' attention."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1183964401"
+        "github:1213911408"
       ],
-      "pitch": "A no-code trading bot builder and automated risk mitigation platform tailored for perpetual decentralized exchanges in the Southern California fintech ecosystem.",
+      "pitch": "An automated carbon sequestration verification platform for Southern California kelp restoration initiatives using multispectral drone imagery and RAG agents.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TypeScript",
-        "FastAPI",
+        "LangGraph",
+        "OpenCV",
         "Next.js"
       ],
-      "title": "PacificAlgo Automated Trading Risk Engine",
+      "title": "BioRegion Carbon offset & Kelp Forest Auditor",
       "track": "",
-      "why_it_could_win": "Employs the proven execution strategy of ClashX, providing a complete user-facing financial product with clear utility within 47 hours."
+      "why_it_could_win": "Follows the multi-agent and ecological data pattern of GreenNovation AI, appealing directly to sustainability priorities popular in coastal California hackathons."
     },
     {
-      "build_hours": 28,
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An automated trading strategy execution engine tailored for decentralized perpetual exchanges on Solana and EVM chains, offering delta-neutral yield strategies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Solana Web3.js",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "Pacific Perps Delta-Neutral Yield Vault",
+      "track": "",
+      "why_it_could_win": "Directly mimics the grand-prize-winning architecture of ClashX, focusing on high-value DeFi mechanics that impress technical judges with robust financial logic."
+    },
+    {
+      "build_hours": 30,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust verification engine designed specifically for local elective medical and dental practices in La Jolla.",
+      "pitch": "An AI-powered patient acquisition and reputation management pipeline specifically fine-tuned for elective medical and dental practices in San Diego County.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API",
-        "TailwindCSS"
+        "PostgreSQL"
       ],
-      "title": "San Diego Clinic Patient Trust Engine",
+      "title": "LocalSurge Patient Trust & Acquisition Engine for San Diego Clinics",
       "track": "",
-      "why_it_could_win": "Directly adapts the winning formula of Global-Smile, delivering a hyper-focused B2B healthcare tool that solves immediate customer acquisition pain points."
+      "why_it_could_win": "Adapts the rapid-execution business automation playbook of Global-Smile, delivering a productized B2B SaaS workflow that local business owners and judges can immediately see the market value of."
     },
     {
       "build_hours": 38,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating secure research material procurement using USDC escrow payments and verifiable audit trails.",
+      "pitch": "An autonomous AI agent dispatch and execution platform utilizing USDC escrow contracts for local micro-services in coastal communities.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "Node.js"
+        "USDC SDK",
+        "Viem"
       ],
-      "title": "La Jolla Biotech Supply Chain Escrow",
+      "title": "TidePool Autonomous Micropayment Escrow",
       "track": "",
-      "why_it_could_win": "Builds on the successful agent-marketplace blueprint of Dispatch, combining automated transactions with real-world logistical utility."
+      "why_it_could_win": "Mirrors the track-winning Dispatch project by combining practical AI agents with real crypto escrow rails, demonstrating end-to-end functionality within a tight 47-hour window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

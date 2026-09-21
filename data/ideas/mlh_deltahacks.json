@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:37.300352+00:00",
+  "generated_at": "2026-09-21T08:10:49.492016+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,91 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:deltahacks",
   "ideas": [
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1213911408",
         "github:1155558847"
       ],
-      "pitch": "An AI-powered transit and emissions forecasting dashboard built for Hamilton, using multi-agent student models to optimize local bus routes and reduce urban carbon footprints.",
+      "pitch": "Real-time carbon and traffic optimization app for municipal transit and delivery fleets in Hamilton.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Python",
-        "LangGraph"
+        "Mapbox API",
+        "Python"
       ],
-      "title": "Hamilton Community GreenTransit AI Platform",
+      "title": "EcoRoute Hamilton",
       "track": "",
-      "why_it_could_win": "Aligns with local civic impact priorities in Hamilton by solving a tangible municipal logistics problem using multi-agent routing architecture proven in prior hackathon wins."
+      "why_it_could_win": "Leverages the architectural pattern of GeoNex-ATLAS by applying spatial intelligence and monitoring to real-world infrastructure problems."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student mental health and academic support platform tailored for university resource routing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "OpenAI API"
+      ],
+      "title": "CampusCare Multi-Agent",
+      "track": "",
+      "why_it_could_win": "Directly replicates the winning LangGraph and multi-agent workflow pattern seen in the GreenNovation Hackathon winner."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered trust and patient acquisition platform specifically adapted for local Hamilton health clinics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "MedTrust Local",
+      "track": "",
+      "why_it_could_win": "Follows the rapid execution framework of the Global-Smile 12-hour sprint winner by focusing heavily on local business adoption."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1241231621",
+        "github:1087704265"
+      ],
+      "pitch": "A predictive forecasting dashboard for regional industrial carbon outputs using Poisson regression.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Poisson GAM",
+        "Pandas"
+      ],
+      "title": "SteelCity Carbon Ledger",
+      "track": "",
+      "why_it_could_win": "Employs mathematically rigorous forecasting models similar to the Apart Research AI Forecasting Hackathon winning project."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine tailored for regional specialized health clinics in Ontario, automating compliance and patient intake verification.",
+      "pitch": "A hyper-local meal recommendation platform that integrates regional grocery store inventory and nutritional data.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js"
-      ],
-      "title": "LocalProsthetics Trust Engine",
-      "track": "",
-      "why_it_could_win": "Replicates a proven high-impact healthcare template that won a fast-paced sprint by focusing strictly on specialized practitioner onboarding and trust."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
-      ],
-      "pitch": "A graph intelligence and risk detection platform built to audit local supply chain vendors in Ontario for environmental and financial compliance anomalies.",
-      "stack": [
-        "TypeScript",
-        "LightGBM",
-        "Python"
-      ],
-      "title": "EcoSupply AML & Compliance Tracker",
-      "track": "",
-      "why_it_could_win": "Leverages the winning formula of combining graph intelligence and explainable machine learning to provide judges with transparent, verifiable risk scores."
-    },
-    {
-      "build_hours": 27,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite monitoring dashboard for agricultural land compliance in Southern Ontario, utilizing automated geospatial imagery analysis to detect zoning and environmental changes.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "GIS APIs"
+        "FastAPI",
+        "React",
+        "PostgreSQL"
       ],
-      "title": "AgriZone Satellite Land Monitor",
+      "title": "NutriLocal Hamilton",
       "track": "",
-      "why_it_could_win": "Presents genuinely hard engineering by processing spatial data within a tight 33-hour window, appealing to judges looking for heavy technical execution."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace with secure tokenized escrow payments designed specifically for student freelance services and project collaborations.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
-      ],
-      "title": "CampusEscrow Agent Marketplace",
-      "track": "",
-      "why_it_could_win": "Adopts the architecture of autonomous agent marketplaces with secure payment flows that previously dominated competitive hackathon tracks."
+      "why_it_could_win": "Mirrors the practical, consumer-facing utility of the E-Foodiee-AI-Nutrition-Assistant that won the Hour Hackathon."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,98 +1,107 @@
 {
-  "generated_at": "2026-09-13T07:39:29.845169+00:00",
+  "generated_at": "2026-09-21T08:09:06.650799+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
+      "impact",
       "technical-depth",
-      "sponsor-tech"
+      "working-demo"
     ],
+    "problem_source_count": 4,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:6e3603d1dc1743ee81f13f11ed9af014",
   "ideas": [
     {
-      "build_hours": 8,
+      "build_hours": 35,
       "inspired_by": [
-        "github:1181344931"
+        "github:1170846981"
       ],
-      "pitch": "A graph intelligence platform that aggregates open-source contributions from campus communities across OpenBuild and maps them into a verifiable developer reputation index.",
+      "pitch": "A multilingual local health awareness and preventive care web portal tailored for semi-urban communities in India.",
+      "problem_statement": "https://hackunion.in",
       "stack": [
-        "TypeScript",
-        "Neo4j",
-        "Next.js",
-        "TailwindCSS"
+        "React",
+        "Node.js",
+        "Tailwind CSS",
+        "OpenAI API"
       ],
-      "title": "OpenBuild Campus Governance & Contribution Graph",
+      "title": "OpenBuild Campus Health Connect",
       "track": "Grand Prize",
-      "why_it_could_win": "Leverages graph intelligence to solve developer provenance, matching the technical depth seen in Bito while directly aligning with HackUnion's mission of bridging campus communities and open build journeys."
+      "why_it_could_win": "Aligns strongly with accessibility and purpose judging criteria, matching the multilingual approach from the SAGACITY win that resonated well with local civic needs."
     },
     {
-      "build_hours": 9,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-powered forecasting agent that ingests campus event logs, server metrics, and student hackathon submissions to predict infrastructure bottlenecks and project submission drop-offs using Poisson regression.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "Plotly"
-      ],
-      "title": "Autonomous Campus Incident Forecasting Agent",
-      "track": "Grand Prize",
-      "why_it_could_win": "Adapts rigorous probabilistic modeling and forecasting techniques to a local hackathon context, following the exact statistical rigor that won the Apart Research AI Forecasting Hackathon."
-    },
-    {
-      "build_hours": 8,
+      "build_hours": 40,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support and debugging platform built specifically for 10-hour hackathons, combining LangGraph and RAG over local project repositories to give real-time architectural guidance.",
+      "pitch": "An AI-powered multi-agent student support and tracking platform to audit campus sustainability and energy consumption.",
+      "problem_statement": "https://hackunion.in/obw",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "OpenAI API",
-        "Next.js"
+        "Next.js",
+        "PostgreSQL"
       ],
-      "title": "OpenBuild AI Mentor Multi-Agent Hub",
+      "title": "Campus GreenNovation AI Tracker",
       "track": "Grand Prize",
-      "why_it_could_win": "Directly targets the core pain point of a rapid 10-hour sprint by keeping builders unblocked, echoing the multi-agent student support architecture that won the GreenNovation Hackathon."
+      "why_it_could_win": "Demonstrates clear measurable impact and leverages multi-agent student support architectures proven at the GreenNovation Hackathon."
     },
     {
-      "build_hours": 7,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1241231621"
+        "github:1188682384"
       ],
-      "pitch": "An AI-powered intake and trust engine tailored for local university health clinics to streamline student patient acquisition, triage symptom reports, and generate structured care summaries.",
+      "pitch": "A zero-knowledge gated community portal allowing students from various campuses to verify course completion without revealing personal identities.",
+      "problem_statement": "https://drive.google.com/file/d/1E94z4u54nHiUxBpw96l-DLpnb-3EEDcx/view?usp=sharing",
       "stack": [
         "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "Prisma"
+        "Noir",
+        "Base Chain",
+        "React"
       ],
-      "title": "Campus Prosthodontic & Wellness Trust Engine",
+      "title": "OpenBuild ZK Credential Vault",
       "track": "Grand Prize",
-      "why_it_could_win": "Utilizes rapid AI API integration and domain-specific UI workflows to solve a practical healthcare onboarding problem, mirroring the winning formula of the Elevate X sprint."
+      "why_it_could_win": "Involves genuinely hard engineering with ZK circuits, satisfying technical depth metrics for top-tier judging panels."
     },
     {
-      "build_hours": 9,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1192028384"
       ],
-      "pitch": "An autonomous AI agent marketplace where student builders in Hyderabad can post micro-tasks and instantly settle escrow payments via USDC on Base.",
+      "pitch": "An automated AI executive assistant tailored for campus club leads and hackathon organizers to manage timelines and community submissions.",
+      "problem_statement": "https://hackunion.in",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
+        "Python",
+        "FastAPI",
+        "Streamlit",
         "LangChain"
       ],
-      "title": "OpenBuild Micro-Bounty USDC Escrow Agent",
+      "title": "Campus Chief of Staff Agent",
       "track": "Grand Prize",
-      "why_it_could_win": "Demonstrates practical crypto-economic utility through autonomous agent coordination and escrow mechanics, mirroring the exact architecture that won the Synthesis Hackathon Locus Track."
+      "why_it_could_win": "Emphasizes a live working product demonstration that addresses real pain points faced by hackathon organizers and student leads daily."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An interactive computer vision application that classifies campus recyclables via phone camera feeds to promote proper waste segregation.",
+      "problem_statement": "https://hackunion.in/obw",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "Flutter",
+        "Flask"
+      ],
+      "title": "OpenBuild Smart Campus Waste Classifier",
+      "track": "Grand Prize",
+      "why_it_could_win": "Features an immediately testable live camera demo and clear environmental impact metrics that appeal directly to hackathon judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

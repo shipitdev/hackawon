@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:59.031441+00:00",
+  "generated_at": "2026-09-21T08:26:51.403404+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,90 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749441",
   "ideas": [
     {
       "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A rapid prototyping tool sponsored by Lovable that instantly generates fully responsive, localized e-commerce frontends from rough text prompts and regional language inputs.",
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An instant UI component generator tailored for Lovable that transforms raw Tailwind mockups into fully interactive React state machines using Gemini API.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
+        "Next.js",
         "TailwindCSS",
-        "OpenAI API"
+        "Gemini API"
       ],
-      "title": "LovableFast-UI: AI Component Generator for Localized Indian E-Commerce",
-      "track": "",
-      "why_it_could_win": "Since Lovable is the primary sponsor of the event, targeting a specialized frontend generation tool optimized for their platform directly appeals to the sponsor's judging criteria."
+      "title": "LovableAI Component Weaver",
+      "track": "Open Innovation",
+      "why_it_could_win": "Since Lovable is the main sponsor powering the hackathon, building tooling that enhances or integrates directly with their platform heavily aligns with the organizer and sponsor priorities."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A predictive analytics dashboard using Poisson regression and rolling backtests to forecast retail demand and consumer footfall across tier-2 Indian cities.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Scikit-learn"
-      ],
-      "title": "PredictX-India: Macroeconomic & Consumer Spending Forecasting Engine",
-      "track": "",
-      "why_it_could_win": "Mirrors the hard engineering and statistical rigor of past winning forecasting projects by delivering calibrated prediction intervals instead of basic charts."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An interactive graph-based risk assessment tool for Indian agricultural micro-loans, combining transaction tracing and explainable gradient boosting.",
+      "pitch": "A single-file autonomous AI code reviewer that parses pull requests on GitHub and generates dependency graph intelligence before commenting security risks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Neo4j",
-        "LightGBM"
+        "Node.js",
+        "LangChain",
+        "GitHub API"
       ],
-      "title": "AgriGraph-Risk: Supply Chain AML & Credit Risk Intelligence Platform",
-      "track": "",
-      "why_it_could_win": "Translates complex graph intelligence and AML risk detection patterns into a localized financial context that resonates with open innovation judges."
+      "title": "MicroScope: Autonomous Code Review Agent",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines deep technical engineering in AST parsing with practical utility for solo developers, mirroring high-scoring automated agent architectures."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition assistant tailored specifically to regional Indian cuisines, macro-nutrient tracking, and localized health goal planning.",
+      "pitch": "An AI-powered nutrition and budget tracking platform that designs macro-compliant grocery shopping lists based on local supermarket inventory prices.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Next.js",
-        "Gemini API"
+        "React",
+        "OpenAI API"
       ],
-      "title": "NutriLocal-AI: Regional Indian Diet & Health Guidance Platform",
-      "track": "",
-      "why_it_could_win": "Applies the exact winning formula of targeted consumer wellness platforms by focusing sharply on a high-demand localized utility within a tight 24-hour sprint."
+      "title": "NutriPrep AI Meal & Expense Planner",
+      "track": "Open Innovation",
+      "why_it_could_win": "Replicates proven consumer-focused wellness architectures that won previous short-duration hackathons by offering complete end-to-end UX polish."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "A geospatial monitoring tool that uses satellite imagery analysis to automatically detect unauthorized land use changes and industrial environmental compliance violations.",
+      "pitch": "A lightweight geospatial dashboard that tracks and forecasts municipal industrial land compliance and carbon emissions using satellite proxies.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Mapbox GL",
         "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "GeoPandas"
       ],
-      "title": "EcoAudit-Satellite: Automated Industrial Land Compliance Checker",
-      "track": "",
-      "why_it_could_win": "Demonstrates high-impact technical execution by processing satellite data, which stands out strongly in open innovation hackathons against standard CRUD apps."
+      "title": "EcoRoute Carbon Ledger",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages geospatial data visualization which stands out visually during live judging demos, following successful patterns from industrial compliance monitoring hacks."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A headless micro-transaction escrow and task marketplace tailored for solo creators to buy and sell small code snippets with automated validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base SDK",
+        "Node.js",
+        "Express"
+      ],
+      "title": "EscrowPulse Micropayment Gateway",
+      "track": "Open Innovation",
+      "why_it_could_win": "Features robust escrow logic and financial transaction handling which signals high technical capability to judges within a strict 24-hour delivery window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

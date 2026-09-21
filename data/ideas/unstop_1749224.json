@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:54.481847+00:00",
+  "generated_at": "2026-09-21T08:26:45.825722+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749224",
@@ -14,68 +16,77 @@
     {
       "build_hours": 3,
       "inspired_by": [],
-      "pitch": "A Python and C++ profiling tool that parses source code, runs automated stress-tests against custom edge cases, and dynamically plots time and space complexity growth rates to help competitive programmers identify suboptimal bottlenecks.",
+      "pitch": "A real-time execution visualizer for C++ and Python algorithms that tracks step counts, memory allocations, and loop invariants to help competitive programmers debug Time Limit Exceeded (TLE) errors.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "C++"
+        "C++",
+        "TypeScript",
+        "React"
       ],
-      "title": "Algorithmic Complexity Visualizer and Profiler",
+      "title": "Algorithmic Complexity Visualizer and Speed Optimizer",
       "track": "",
-      "why_it_could_win": "Code Clash is fundamentally an ICPC-style competitive programming contest focused on algorithmic efficiency and optimization under strict time constraints. A tool that helps programmers debug complexity issues appeals directly to the core competencies of the judges."
+      "why_it_could_win": "Directly appeals to the ICPC-style competitive programming focus of the event by addressing the exact pain points judges and participants face during timed algorithmic contests."
     },
     {
       "build_hours": 3,
       "inspired_by": [],
-      "pitch": "A command-line utility in C++ and Python that automatically minifies competitive programming templates, expands custom shorthand macros, and generates fast I/O boilerplate tailored for online judging environments.",
+      "pitch": "An AI-driven stress-testing tool that takes a correct brute-force solution and an optimized candidate solution in C++ or Java, automatically generating adversarial edge-case test inputs to catch wrong answers.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "JavaScript"
+      ],
+      "title": "CP-Arena Automated Testcase Generator",
+      "track": "",
+      "why_it_could_win": "Solves a critical workflow bottleneck in competitive programming contests where participants struggle to find counterexamples for failing algorithms."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A lightweight runtime profiler plugin that monitors stack and heap allocations during tight loop executions to prevent memory limit exceed (MLE) faults in strict ICPC environments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C",
         "C++",
         "Python"
       ],
-      "title": "CP Template and Snippet Optimizer",
+      "title": "Memory Footprint Profiler for C and C++",
       "track": "",
-      "why_it_could_win": "Targeting the speed and optimization requirements of strict time-constraint competitive programming events makes this immediately useful to participants and aligned with the event's exact focus."
+      "why_it_could_win": "Demonstrates deep systems-level engineering capability, aligning with the algorithmic efficiency and optimization core criteria of the event."
     },
     {
       "build_hours": 3,
       "inspired_by": [],
-      "pitch": "A specialized fuzz testing tool written in C++ or Python that takes a problem statement description or brute-force reference solution and automatically generates extreme boundary-value test cases to catch edge-case bugs in competitive programming solutions.",
+      "pitch": "A dashboard analyzing historical contest data to recommend optimal problem-solving sequences and time-allocation strategies based on individual team skill profiles during 3-hour timed sprints.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "C++",
-        "Java"
+        "TypeScript",
+        "Next.js",
+        "Python"
       ],
-      "title": "Automated CP Test Case Generator",
+      "title": "Contest Strategy and Problem Prioritization Engine",
       "track": "",
-      "why_it_could_win": "Matches the rigorous algorithmic problem-solving and optimization theme of Code Clash by solving the exact validation challenges faced by competitors during high-pressure contests."
+      "why_it_could_win": "Leverages data-driven strategy to solve the meta-problem of contest time management, making it highly relatable and practical for every competing team."
     },
     {
       "build_hours": 3,
       "inspired_by": [],
-      "pitch": "An offline execution benchmarking harness that compares the exact execution time and memory footprint of an algorithm implemented across C, C++, Java, and Python under identical constraint bounds.",
+      "pitch": "A lightning-fast offline code snippet translator optimized for C, C++, Java, and Python that instantly ports standard template libraries and data structure implementations between supported languages.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "C++",
-        "Java"
+        "TypeScript",
+        "TailwindCSS"
       ],
-      "title": "Multi-Language Solution Benchmarker",
+      "title": "Multi-Language Syntax and Boilerplate Converter for ICPC",
       "track": "",
-      "why_it_could_win": "Directly leverages the four supported programming languages of the hackathon, providing practical insights into language overhead for algorithmic optimization."
-    },
-    {
-      "build_hours": 3,
-      "inspired_by": [],
-      "pitch": "An interactive visualization engine for complex graph and dynamic programming algorithms that steps through state transitions and memory allocations in real-time.",
-      "stack": [
-        "Python",
-        "Java",
-        "TypeScript"
-      ],
-      "title": "Graph Algorithm Step-by-Step Simulator",
-      "track": "",
-      "why_it_could_win": "Combines deep algorithmic problem-solving with intuitive execution visualization, appealing to the logical thinking and optimization criteria of ICPC-style judges."
+      "why_it_could_win": "Targets the exact restricted language set permitted in the contest laboratory, offering immediate tactical utility for multi-paradigm team members."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

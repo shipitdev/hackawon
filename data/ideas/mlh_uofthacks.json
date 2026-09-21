@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:49.920205+00:00",
+  "generated_at": "2026-09-21T08:16:14.308830+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:uofthacks",
@@ -14,86 +16,91 @@
     {
       "build_hours": 48,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph intelligence platform mapping Toronto's transit payment networks to detect coordinated fare evasion and merchant fraud rings using localized transaction logs.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Neo4j",
-        "LightGBM"
-      ],
-      "title": "Toronto Transit Graph AML & Fare Evasion Analytics",
-      "track": "",
-      "why_it_could_win": "Leverages graph intelligence and machine learning patterns proven in financial crime detection hackathon wins, tailored directly to Toronto's local infrastructure."
-    },
-    {
-      "build_hours": 55,
-      "inspired_by": [
         "github:1087704265",
-        "github:1185920891",
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent marketplace enabling automated peer-to-peer microgrid energy trading and forecasting for residential solar arrays in Ontario.",
+      "pitch": "A predictive analytics dashboard modeling electricity and heating fluctuations across historic University of Toronto campus buildings to minimize peak energy waste.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "Jupyter Notebook",
         "TypeScript",
-        "LangGraph",
-        "Jupyter Notebook"
+        "Next.js"
       ],
-      "title": "Autonomous Local Grid Energy Trading Agent",
+      "title": "UofT Campus Carbon & Energy Grid Forecaster",
       "track": "",
-      "why_it_could_win": "Combines probabilistic forecasting and autonomous agent orchestration, mirroring the architecture of winning predictive and marketplace hackathon projects."
+      "why_it_could_win": "Applies rigorous statistical forecasting similar to past winning AI incident forecasting projects, solving a concrete sustainability problem relevant to local campus infrastructure."
     },
     {
-      "build_hours": 40,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An AI-driven patient acquisition and compliance platform designed for specialized dental and prosthodontic clinics operating under provincial health guidelines.",
+      "pitch": "A localized multi-agent student support and mental health resource navigator tailored specifically to UofT's collegiate system and insurance coverage rules.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "LangGraph",
         "Next.js",
         "Gemini API"
       ],
-      "title": "Patient Trust & Referral Engine for Ontario Dental Networks",
+      "title": "St. George Student Health Multi-Agent Advisor",
       "track": "",
-      "why_it_could_win": "Replicates the exact workflow and technical stack of proven healthcare acquisition engines while solving localized patient onboarding problems."
+      "why_it_could_win": "Replicates the multi-agent RAG architecture of the GreenNovation win, customized precisely to an acute student pain point at UofT."
     },
     {
       "build_hours": 50,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An automated satellite imagery analysis tool that monitors industrial land use and environmental compliance along the Great Lakes industrial corridor.",
+      "pitch": "An AI-powered commute routing platform that forecasts TTC subway crowding and delays using real-time GTFS feeds and historical weather conditions.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "OpenCV",
-        "PostGIS"
+        "TypeScript",
+        "FastAPI",
+        "TailwindCSS"
       ],
-      "title": "Great Lakes Industrial Compliance Satellite Monitor",
+      "title": "Toronto Transit Delay & Crowd Predictor",
       "track": "",
-      "why_it_could_win": "Directly applies remote sensing and computer vision pipelines to regional ecological monitoring, following the blueprint of top-performing geospatial hackathon entries."
+      "why_it_could_win": "Focuses on local Toronto infrastructure data, immediately capturing judge interest by solving daily commuter frustrations."
     },
     {
-      "build_hours": 60,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1183964401"
+        "github:1185920891"
       ],
-      "pitch": "A no-code strategy builder and execution platform that lets retail traders deploy automated hedging and liquidity-provision bots for decentralized perpetual exchanges.",
+      "pitch": "A localized commerce marketplace for student clubs and Toronto downtown vendors featuring transparent USDC escrow payments and instant automated fulfillment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "React"
+      ],
+      "title": "Local Vendor Micro-Escrow Marketplace",
+      "track": "",
+      "why_it_could_win": "Leverages proven autonomous escrow patterns from recent fintech wins to create a polished, functional financial demo within the 71-hour window."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An automated computer vision and nutrition tracking tool that scans UofT dining hall menus to build personalized macronutrient plans for student athletes.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TypeScript",
-        "Solidity",
-        "FastAPI"
+        "Next.js",
+        "OpenAI API",
+        "PostgreSQL"
       ],
-      "title": "Perpetual DEX Automated Arbitrage and Yield Bot",
+      "title": "NutriUofT Campus Dining Nutritionist",
       "track": "",
-      "why_it_could_win": "Focuses on high-utility financial tooling with a polished execution interface, following the grand-prize-winning trading platform architecture."
+      "why_it_could_win": "Builds directly on the rapid implementation style of the E-Foodiee nutrition assistant win, integrating local dining hall datasets for immediate utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-09-13T07:41:12.843723+00:00",
+  "generated_at": "2026-09-21T08:09:33.634869+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "ai-ml"
+    ],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:9f3e3e2ea4194c7195b519b6808c4779",
@@ -14,83 +19,89 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1170846981",
+        "github:1228867095"
       ],
-      "pitch": "An interactive voice-based health advisory system that translates government health announcements into authentic regional dialects of Eastern India using advanced voice cloning and synthesis.",
+      "pitch": "A multilingual voice-first health triage and scam-protection assistant for rural citizens using ElevenLabs voice cloning and localized regional dialects.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Next.js",
-        "TypeScript",
         "ElevenLabs API",
-        "Node.js"
+        "Python",
+        "FastAPI",
+        "React"
       ],
-      "title": "VoiceVeda: Regional Dialect Localizer for Public Health",
+      "title": "VoiceVaidya",
       "track": "Best Project Built with ElevenLabs",
-      "why_it_could_win": "Directly targets the Best Project Built with ElevenLabs sponsor track, leveraging state-of-the-art voice AI for a localized social impact use case."
+      "why_it_could_win": "Directly targets the Best Project Built with ElevenLabs sponsor track while mirroring the voice-agent safety patterns seen in winning agents like gosim-zai-hack-winner."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "An automated workflow builder that converts spoken natural-language descriptions into executable n8n automation pipelines with audio confirmations via ElevenLabs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "n8n API",
+        "ElevenLabs API",
+        "Node.js",
+        "TypeScript"
+      ],
+      "title": "AuraVocal",
+      "track": "Best Project Built with ElevenLabs",
+      "why_it_could_win": "Leverages both ElevenLabs and n8n as core sponsors, making it a dual-sponsor integration that immediately catches judges' eyes."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "An n8n-powered automated pipeline that fetches local agricultural commodity prices, generates script summaries, and uses ElevenLabs to convert them into engaging voice broadcasts for local farmers.",
+      "pitch": "An AI-powered public transit congestion predictor and voice-interactive navigation assistant tailored for Kolkata's local commuter networks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "n8n",
         "ElevenLabs API",
         "Python",
-        "Telegram Bot API"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "AgroVox: Automated Multilingual Mandi Price Broadcaster",
-      "track": "Best Project Built with ElevenLabs",
-      "why_it_could_win": "Combines two major hackathon sponsor tools—ElevenLabs for audio generation and n8n for workflow automation—making it a dual-sponsor powerhouse."
-    },
-    {
-      "build_hours": 15,
-      "inspired_by": [],
-      "pitch": "A decentralized student club and project discovery hub deployed on a custom .xyz domain, featuring instant audio introductions of project leads generated via ElevenLabs.",
-      "stack": [
-        "React",
-        "TailwindCSS",
-        "ElevenLabs API",
-        ".xyz Domain"
-      ],
-      "title": "CampusNav: .xyz Domain-Powered Student Organization Directory",
+      "title": "KolkataCommuteVoice",
       "track": "HackSpire'26 Grand Prize",
-      "why_it_could_win": "Aligns with .xyz sponsor incentives while integrating multimedia elements that catch judges' attention in a live demo setting."
+      "why_it_could_win": "Builds high local relevance for Kolkata judges while incorporating ElevenLabs voice synthesis for accessibility."
     },
     {
-      "build_hours": 22,
+      "build_hours": 21,
       "inspired_by": [
-        "github:1213911408"
+        "github:1200926140"
       ],
-      "pitch": "An automated workflow using n8n to process recorded classroom lectures, extract key concepts, and synthesize accessible audio digests using ElevenLabs for visually impaired students.",
+      "pitch": "An audio knowledge-base generator that parses complex .xyz domain academic or legal documents and turns them into conversational podcast briefings via ElevenLabs.",
+      "problem_statement": "No published statement",
       "stack": [
-        "n8n",
         "ElevenLabs API",
-        "Python",
-        "FastAPI"
+        "Next.js",
+        "TailwindCSS",
+        "Python"
       ],
-      "title": "AutoLecture: Automated Accessibility Notes and Audio Summarizer",
+      "title": "DocuVoiceGen",
       "track": "Best Project Built with ElevenLabs",
-      "why_it_could_win": "Solves a real-world campus problem for FIEM students while heavily utilizing the core workflow and audio sponsor tools provided at the hackathon."
+      "why_it_could_win": "Incorporates domain naming (.xyz sponsor integration) alongside custom voice synthesis for practical document workflows."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "A crowd-sourced urban hazard and water-logging reporting system for Kolkata that triggers automated emergency audio warnings via ElevenLabs when danger thresholds are crossed.",
+      "pitch": "A voice-activated agricultural supply chain logger that uses n8n to sync field inventory updates and ElevenLabs to confirm transactions in local vernacular.",
+      "problem_statement": "No published statement",
       "stack": [
-        "React Native",
-        "Node.js",
+        "n8n",
         "ElevenLabs API",
-        "Leaflet.js"
+        "React",
+        "PostgreSQL"
       ],
-      "title": "SafeRoute Kolkata: Community Hazard Mapping & Audio Alerts",
+      "title": "AgriScribe",
       "track": "HackSpire'26 Grand Prize",
-      "why_it_could_win": "Addresses hyper-local challenges specific to Kolkata during monsoon or urban transit, appealing strongly to local judges for the Grand Prize."
+      "why_it_could_win": "Combines n8n workflow automation with ElevenLabs text-to-speech to solve a concrete logistical hurdle with a working live demo."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

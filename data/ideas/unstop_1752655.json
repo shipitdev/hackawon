@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:45.841891+00:00",
+  "generated_at": "2026-09-21T08:31:48.119866+00:00",
   "grounding": {
     "domains": [
       "data",
@@ -12,6 +12,8 @@
       "sponsor-tech",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1752655",
@@ -20,92 +22,91 @@
       "build_hours": 36,
       "inspired_by": [
         "github:1341712439",
-        "github:1228328106"
+        "github:985196561"
       ],
-      "pitch": "A rapid-inference pipeline combining FastAPI and time-series anomaly detection to identify orbital debris or exoplanet light-curve transit dips from raw telescope feeds.",
+      "pitch": "An autonomous multi-agent pipeline for rapid astronomical time-series anomaly detection using light curve data.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "FastAPI",
-        "Streamlit",
-        "XGBoost",
-        "Lightkurve"
+        "LangGraph",
+        "FastAPI"
       ],
-      "title": "AstroAnomalies: Real-Time Space Debris and Exoplanet Transit Detector",
+      "title": "AstroAnomalies AI",
       "track": "",
-      "why_it_could_win": "Directly aligns with the core evaluation criteria of technical skills demonstrated and domain knowledge by handling real astronomical time-series data streams."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining fast ML time-series isolation with multi-agent verification, fitting high technical standards of computational astronomy judging."
     },
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
         "github:1228328106"
       ],
-      "pitch": "A web interface that classifies stellar spectra using machine learning while employing SHAP values to explain which spectral lines drove the classification.",
+      "pitch": "An interactive transit-method exoplanet discovery dashboard featuring SHAP-based feature explainability for light curve dips.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Streamlit",
-        "SHAP",
-        "Scikit-Learn",
-        "Astropy"
+        "XGBoost",
+        "SHAP"
       ],
-      "title": "SpectraSHAP: Explainable Deep Learning for Star Classification",
+      "title": "ExoClassifier Explain",
       "track": "",
-      "why_it_could_win": "Combines high domain knowledge with rigorous explainability, satisfying the evaluation criteria for technical execution and clarity of final results."
+      "why_it_could_win": "Aligns with domain knowledge and technical execution criteria by providing transparent, scientifically interpretable machine learning predictions rather than a black box."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1026027777",
-        "github:1200926140"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered agent that translates natural language queries into complex SQL or ADQL commands to fetch and visualize data from public astronomical archives like Gaia or SIMBAD.",
+      "pitch": "AI-powered optical tracking and orbital debris conjunction warning platform for small satellite constellations.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "FastAPI",
-        "OpenAI API",
-        "Astropy"
+        "Python",
+        "PostGIS"
       ],
-      "title": "CosmoQuery: Natural Language Interface for Astronomical Archives",
+      "title": "SkyTrace Satellite Monitor",
       "track": "",
-      "why_it_could_win": "Leverages text-to-query patterns that have proven successful in previous data hackathons, offering judges a smoothly working live demo."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:985196561",
-        "github:1341712439"
-      ],
-      "pitch": "An operations dashboard analyzing simulated satellite telemetry logs to detect early anomalies in orbital decay or power systems before mission failure.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "FastAPI",
-        "Isolation Forest",
-        "TailwindCSS"
-      ],
-      "title": "OrbitalGuard: Satellite Telemetry Anomaly & Risk Dashboard",
-      "track": "",
-      "why_it_could_win": "Directly mirrors winning log-analysis and anomaly-detection architectures, showcasing robust engineering execution within a tight timeframe."
+      "why_it_could_win": "Leverages real-world geospatial processing patterns and delivers a polished, working dashboard that addresses pressing orbital safety needs."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1155558847"
+        "github:1200926140",
+        "github:1026027777"
       ],
-      "pitch": "A dashboard ingest engine that processes solar imagery metadata and historical flare rates to predict near-term geomagnetic disturbance risks.",
+      "pitch": "Natural language query engine for astronomical spectroscopic databases, translating plain English into complex SQL and VO queries.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Plotly",
-        "SunPy"
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "Python"
       ],
-      "title": "SolarFlarePredictor: Multimodal Space Weather Monitoring Platform",
+      "title": "SpectraQuery LLM",
       "track": "",
-      "why_it_could_win": "Addresses a critical and novel computational astronomy problem with a tangible, interactive web demo that highlights domain-specific technical mastery."
+      "why_it_could_win": "Solves a major domain friction point for astronomers by turning unstructured natural language into precise data retrieval, matching winning data platform paradigms."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A diagnostic tool for detecting and mitigating selection biases in astronomical survey catalogs and machine learning training sets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Pandas",
+        "TailwindCSS"
+      ],
+      "title": "CosmicBias Check",
+      "track": "",
+      "why_it_could_win": "Applies rigorous data science validation and bias-detection methodology directly to astrophysical datasets, showcasing high academic and technical rigor."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

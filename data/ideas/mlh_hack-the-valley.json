@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:52.820896+00:00",
+  "generated_at": "2026-09-21T08:12:02.144805+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-the-valley",
@@ -14,85 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "A location-based mutual aid and micro-grant allocation platform using verifiable transparent escrow to distribute neighborhood support funds in Scarborough.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "USDC",
-        "Base"
-      ],
-      "title": "Scarborough Community Local Ledger",
-      "track": "",
-      "why_it_could_win": "Follows the winning Dispatch pattern by combining practical community utility with robust transaction safety and automated escrow tracking, appealing to judges looking for local social impact."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An AI-powered predictive transit congestion and incident forecasting dashboard tailored for the TTC and local Scarborough transit routes to help commuters avoid bottlenecks.",
+      "pitch": "A real-time predictive analytics dashboard forecasting local bus crowding and route delays using historical TTC feeds and Poisson regression models.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "TypeScript",
-        "TailwindCSS"
+        "Pandas",
+        "Streamlit"
       ],
-      "title": "TransitFlow AI",
+      "title": "Scarborough Transit Flow Predictor",
       "track": "",
-      "why_it_could_win": "Mirrors the hard engineering and forecasting success of top-performing AI incident projects by utilizing statistical regression models to deliver practical, localized predictive intelligence."
+      "why_it_could_win": "Leverages a proven quantitative forecasting pattern that appeals to judges looking for rigorous statistical modeling over simple wrappers."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
+        "github:1241231621"
       ],
-      "pitch": "An AI nutrition and wellness application that maps personalized meal recommendations directly to the inventory and menus of local Scarborough ethnic grocery stores and restaurants.",
+      "pitch": "An automated transcription and compliance summarization tool tailored for local Scarborough small businesses dealing with municipal permits.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "TypeScript",
         "Next.js",
-        "Gemini API",
+        "OpenAI API",
         "TailwindCSS"
       ],
-      "title": "NutriLocal Scarborough",
+      "title": "LocalScribe AI",
       "track": "",
-      "why_it_could_win": "Adapts the winning formula of the E-Foodiee nutrition assistant by moving beyond generic diet tips to solve a concrete, hyper-local consumer problem."
+      "why_it_could_win": "Solves an immediate, hyper-local administrative bottleneck, making the demo deeply relatable to local judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent sustainability platform designed for local educational institutions to monitor, audit, and optimize energy consumption and waste management across campus facilities.",
+      "pitch": "An AI-powered multi-agent sustainability reporting assistant that aggregates utility consumption data to suggest campus energy savings.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Python",
-        "OpenAI API"
+        "FastAPI"
       ],
-      "title": "EcoCampus AI",
+      "title": "EcoScarborough Campus Audit",
       "track": "",
-      "why_it_could_win": "Leverages the multi-agent RAG architecture that won the GreenNovation Hackathon, providing judges with a polished, enterprise-ready environmental management tool."
+      "why_it_could_win": "Applies a proven multi-agent workflow pattern that easily impresses judges with complex architectural demonstrations."
     },
     {
-      "build_hours": 35,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-driven patient acquisition and trust verification engine optimized for local specialized health clinics to securely manage patient intake, reviews, and trust signals.",
+      "pitch": "A nutrition and surplus food matching platform connecting Scarborough food banks with local grocery suppliers using personalized preference algorithms.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "PostgreSQL"
+        "Python",
+        "Streamlit",
+        "PostgreSQL",
+        "Gemini API"
       ],
-      "title": "CliniqueTrust AI",
+      "title": "Community Meal Share AI",
       "track": "",
-      "why_it_could_win": "Directly applies the proven architecture of the Global-Smile prize winner, focusing on high-value healthcare workflow automation that judges immediately recognize as viable."
+      "why_it_could_win": "Focuses on high-impact social utility, a frequent favorite category for general hackathon audience appeal."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized escrow and micro-marketplace platform enabling trustless transactions for local pop-up vendors and creators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC SDK",
+        "React"
+      ],
+      "title": "Scarborough Micro-Vendor Escrow",
+      "track": "",
+      "why_it_could_win": "Demonstrates actual financial infrastructure integration which stands out against standard CRUD web applications."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

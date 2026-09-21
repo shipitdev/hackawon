@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:31.853965+00:00",
+  "generated_at": "2026-09-21T08:15:51.369774+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:stormhacks",
@@ -14,80 +16,89 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A regional incident forecasting dashboard using Poisson regression and rolling backtests to predict municipal utility outages in Burnaby during severe weather.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Poisson-regression"
-      ],
-      "title": "PacificStorm AI Incident Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning pattern of rigorous statistical forecasting and predictive modeling seen in top AI forecasting hackathons."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite monitoring and AI-powered land compliance tracker designed to flag unauthorized industrial zoning changes in British Columbia.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python"
-      ],
-      "title": "Burnaby Compliance Watch",
-      "track": "",
-      "why_it_could_win": "Mirrors the runner-up winning pattern of combining GIS data with computer vision for real-world municipal auditing and compliance."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent student support platform utilizing LangGraph and RAG to dynamically route university resources and sustainability queries.",
+      "pitch": "An AI-powered multi-agent route optimization platform for local municipal fleet management, combining traffic density analytics with carbon emission forecasting.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Next.js"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "CampusGreen Multi-Agent Support",
+      "title": "BurnabyEcoRoute",
       "track": "",
-      "why_it_could_win": "Follows the winning blueprint of multi-agent orchestration frameworks tailored specifically for student-centric ecosystems."
+      "why_it_could_win": "Leverages the multi-agent architectural patterns proven in GreenNovation AI Platform while targeting localized civic utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated geospatial risk scoring platform utilizing satellite monitoring and graph intelligence to assess industrial land compliance in British Columbia.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostGIS",
+        "Mapbox"
+      ],
+      "title": "PacificRiskScan",
+      "track": "",
+      "why_it_could_win": "Employs heavy domain-specific spatial analytics similar to GeoNex-ATLAS, which appeals strongly to technical engineering judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A localized nutrition and surplus food distribution assistant that matches regional grocery inventories with community health needs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "BCFoodShare AI",
+      "track": "",
+      "why_it_could_win": "Follows the tight scope and practical consumer utility demonstrated by E-Foodiee-AI-Nutrition-Assistant, making it highly demonstrable in a live demo."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-driven patient acquisition and trust engine optimized for local British Columbia dental and prosthodontic clinics.",
+      "pitch": "An AI-driven sentiment and trust acquisition engine tailored for local student health clinics and wellness centers in Burnaby.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini-API",
+        "Gemini API",
         "Next.js"
       ],
-      "title": "BC-Smile Patient Acquisition",
+      "title": "CampusPulse Trust",
       "track": "",
-      "why_it_could_win": "Replicates a proven rapid-sprint winning formula focusing on high-value local business conversion metrics."
+      "why_it_could_win": "Directly adapts the specialized patient acquisition trust loop proven in Global-Smile to an educational or local healthcare setting."
     },
     {
-      "build_hours": 28,
+      "build_hours": 27,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "Autonomous AI agent marketplace featuring USDC escrow payments for peer-to-peer local student services in Burnaby.",
+      "pitch": "An AML risk detection and transaction monitoring dashboard that combines graph intelligence with explainable machine learning models.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "EscrowAgent Pacific",
+      "title": "AuditFlow AI",
       "track": "",
-      "why_it_could_win": "Combines practical autonomous agent logic with secure escrow transactions, directly mapping to proven financial hackathon winners."
+      "why_it_could_win": "Mirrors the complex explainable risk-scoring architecture seen in Bito, signaling hardcore engineering capability to judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,98 +1,112 @@
 {
-  "generated_at": "2026-09-13T07:41:56.422137+00:00",
+  "generated_at": "2026-09-21T08:09:47.567698+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
+      "impact",
       "sponsor-tech"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:c163f2c5e7bb4c7bb7acbdb3c572bfa3",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-powered predictive incident management and resource allocation dashboard tailored for college campuses, leveraging Poisson regression and risk scoring to forecast and prevent operational bottlenecks.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "KSRCE Campus AI Safety and Incident Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages rigorous statistical forecasting techniques similar to winning AI governance projects, offering tangible utility for campus administration."
-    },
-    {
       "build_hours": 32,
       "inspired_by": [
-        "github:1181344931"
+        "github:1185527998",
+        "github:1182199849"
       ],
-      "pitch": "An AWS-powered graph intelligence and risk scoring platform designed to audit and detect anomalies in local supply chain transactions and regional business financing.",
+      "pitch": "An offline-first clinical triage application featuring Tamil voice-to-text intake and rPPG contactless heart rate sensing via smartphone cameras for rural health camps.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "OpenCV",
+        "WebRTC",
+        "TailwindCSS"
+      ],
+      "title": "MediScan Regional AI Triage for Rural Tamil Nadu",
+      "track": "",
+      "why_it_could_win": "Combines a working live hardware-adjacent demo (rPPG camera tracking) with multi-language local relevance (Tamil), directly matching the winning pattern of high-utility healthcare tools."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An agentic multi-agent system analyzing KSR College energy consumption logs and suggesting actionable power-saving routines using local RAG.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "LightGBM",
-        "NetworkX"
+        "LangGraph",
+        "Node.js",
+        "PostgreSQL",
+        "Python"
       ],
-      "title": "Tamil Nadu MSME AML Risk Intelligence Platform",
+      "title": "EcoRoute AI: Campus Carbon & Energy Audit Platform",
       "track": "",
-      "why_it_could_win": "Directly applies complex graph intelligence and explainable machine learning models to solve real financial compliance problems faced by regional industries."
+      "why_it_could_win": "Demonstrates clear measurable local impact for the host campus and utilizes an advanced multi-agent architecture popular among hackathon judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1194555365"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating secure, escrow-backed transactions for regional agricultural produce using stablecoins on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "AgriCrop Decentralized Escrow Marketplace",
-      "track": "",
-      "why_it_could_win": "Combines cutting-edge autonomous agent workflows with verifiable decentralized escrow mechanisms, standing out through robust full-stack execution."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-driven nutrition and wellness assistant tailored for hostel students, delivering personalized mess-menu nutritional insights and healthy lifestyle guidance.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "OpenAI API",
-        "Pandas"
-      ],
-      "title": "BioNutri AI Campus Wellness Companion",
-      "track": "",
-      "why_it_could_win": "Addresses a universal student pain point with immediate practical application, mirroring proven winners in the wellness hackathon space."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring tool designed to track and verify environmental land compliance and green cover metrics for industrial zones in Tamil Nadu.",
+      "pitch": "A localized mobile web app coordinating neighborhood senior citizen meetups and volunteer driver routing for community engagement in Namakkal.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "PyTorch"
+        "React Native",
+        "Firebase",
+        "Google Maps API"
       ],
-      "title": "EcoIndustrial Satellite Compliance Monitor",
+      "title": "ElderLink: Local Senior Community Outings",
       "track": "",
-      "why_it_could_win": "Utilizes geospatial data processing and computer vision to solve concrete ecological monitoring challenges for state development authorities."
+      "why_it_could_win": "Features an obvious, heartwarming social impact narrative backed by concrete logistical optimization logic that appeals immediately to judges."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous AI agent pipeline that detects cloud configuration drift or database query anomalies and automatically drafts verified pull requests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude API",
+        "GitHub REST API",
+        "Docker"
+      ],
+      "title": "DataGuard AI: Automated Campus Incident Resolver",
+      "track": "",
+      "why_it_could_win": "Genuinely difficult engineering demonstrated through a complete autonomous feedback loop with an evidence gate and real PR creation."
+    },
+    {
+      "build_hours": 33,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1087704265"
+      ],
+      "pitch": "An AWS-powered graph intelligence dashboard predicting agricultural yield drops and market pricing risks in Tamil Nadu using LightGBM and explainable feature graphs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LightGBM",
+        "NetworkX",
+        "Python",
+        "AWS Lambda"
+      ],
+      "title": "AgriGraph: Regional Supply Chain Risk Intelligence",
+      "track": "",
+      "why_it_could_win": "Utilizes sophisticated graph intelligence combined with an explainable machine learning dashboard that judges find highly rigorous."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

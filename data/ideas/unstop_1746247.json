@@ -1,96 +1,112 @@
 {
-  "generated_at": "2026-09-13T07:55:03.075197+00:00",
+  "generated_at": "2026-09-21T08:23:17.601337+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746247",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1181344931"
+        "github:1170846981"
       ],
-      "pitch": "An AML risk detection and investigation platform combining graph intelligence and LightGBM for real-time transaction monitoring.",
+      "pitch": "A localized, voice-first progressive web app providing preventive care, symptom triage, and vaccination trackers in regional Indian languages for semi-urban communities.",
+      "problem_statement": "General student problem statement: Open general track focused on innovation, technical complexity, and practical feasibility.",
       "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "AML Graph Inspector",
-      "track": "",
-      "why_it_could_win": "Leverages genuine technical complexity involving graph algorithms and machine learning which directly targets the innovation and technical complexity judging criteria."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered no-code trading bot platform for building, copying, and executing strategies on perpetual decentralized exchanges.",
-      "stack": [
-        "Python",
+        "Next.js",
+        "TailwindCSS",
         "FastAPI",
-        "Next.js"
+        "Web Speech API",
+        "SQLite"
       ],
-      "title": "Pacifica CopyBot",
+      "title": "RuralMed Multilingual Health Companion",
       "track": "",
-      "why_it_could_win": "Demonstrates high practical utility and complex state management, aligning with judges' preference for robust, working financial prototypes."
+      "why_it_could_win": "Directly targets practical feasibility and clear social impact, mirroring a proven winning pattern of local health awareness tools."
     },
     {
-      "build_hours": 32,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1185920891"
+        "github:1010199928"
       ],
-      "pitch": "An autonomous AI agent marketplace featuring automated USDC escrow payments and verifiable task execution logs.",
+      "pitch": "A web-based computer vision dashboard that simulates real-time waste classification and bins routing to maximize recycling efficiency for municipal bodies.",
+      "problem_statement": "General student problem statement: Open general track focused on innovation, technical complexity, and practical feasibility.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "LangChain"
-      ],
-      "title": "Escrow Agent Marketplace",
-      "track": "",
-      "why_it_could_win": "Combines cutting-edge AI agent workflows with real financial settlement logic, creating a highly polished product for final presentations."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite imagery monitoring platform designed for automated industrial land compliance and environmental auditing.",
-      "stack": [
-        "TypeScript",
+        "React",
         "Python",
         "OpenCV",
-        "PostGIS"
+        "TensorFlow Lite",
+        "Flask"
       ],
-      "title": "GeoCompliance Monitor",
+      "title": "EcoSort AI Garbage Segregation Simulator",
       "track": "",
-      "why_it_could_win": "Solves a real-world B2B monitoring challenge using computer vision and geospatial data, standing out against generic CRUD applications."
+      "why_it_could_win": "Combines a live, working CV demo with environmental impact, directly satisfying the innovation and practical feasibility judging criteria."
     },
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1087704265"
+        "github:1192028384"
       ],
-      "pitch": "A Poisson regression and GAM-based forecasting tool predicting AI safety incidents with calibrated prediction intervals and rolling backtests.",
+      "pitch": "An automated issue-routing platform that parses citizen complaints submitted via text or voice, categorizes urgency using NLP, and dispatches them to the correct local municipal department.",
+      "problem_statement": "General student problem statement: Open general track focused on innovation, technical complexity, and practical feasibility.",
       "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Statsmodels"
+        "TypeScript",
+        "Node.js",
+        "LangChain",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "AI Incident Forecaster",
+      "title": "CivicPulse AI Constituent Grievance Router",
       "track": "",
-      "why_it_could_win": "Focuses on rigorous statistical modeling and risk analysis rather than a simple wrapper, showcasing deep domain engineering."
+      "why_it_could_win": "Leverages agentic workflow patterns that historically win civic challenges by demonstrating clear operational cost savings."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An interactive dashboard utilizing multi-agent AI to ingest campus utility metrics, predict high-consumption anomalies, and recommend energy-saving schedules.",
+      "problem_statement": "General student problem statement: Open general track focused on innovation, technical complexity, and practical feasibility.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Streamlit",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "GreenCampus Carbon & Energy Analytics Hub",
+      "track": "",
+      "why_it_could_win": "Presents rigorous technical complexity via multi-agent data orchestration wrapped in a polished, highly demonstrable UI."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1088994743"
+      ],
+      "pitch": "A real-time routing platform that dynamically recalculates optimal clearance paths for emergency response teams during urban gridlocks or disaster scenarios.",
+      "problem_statement": "General student problem statement: Open general track focused on innovation, technical complexity, and practical feasibility.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Leaflet.js",
+        "FastAPI",
+        "React"
+      ],
+      "title": "DisasterFlow Emergency Logistics Optimizer",
+      "track": "",
+      "why_it_could_win": "Applies high-impact pathfinding algorithms that excel under judging criteria rewarding technical complexity and real-world applicability."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:54:18.642951+00:00",
+  "generated_at": "2026-09-21T08:37:17.262289+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,93 +10,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1758360",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "A Python-based full-stack boilerplate generator that writes its own React frontend and Django backend based on natural language prompts.",
+      "inspired_by": [],
+      "pitch": "A comprehensive full-stack Python application with an integrated Flask backend, React frontend, and an embedded Gen-AI code assistant tailored for rapid prototyping.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Django",
+        "Flask",
         "React",
-        "OpenAI API",
-        "SQLite"
+        "SQL",
+        "TailwindCSS"
       ],
-      "title": "PyFullStack AI Assistant",
+      "title": "PyFullStack GenAI Dashboard",
       "track": "",
-      "why_it_could_win": "Directly aligns with the core theme of combining full-stack Python development with Generative AI tools."
+      "why_it_could_win": "Directly aligns with the core curriculum of the Quality Thought training demo by combining Python backend development, SQL databases, and generative AI capabilities into a cohesive, working demo."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A self-improving semantic routing proxy for Python APIs that optimizes LLM payload routing based on query complexity.",
+      "pitch": "A full-stack Python tool that uses local LLMs to automatically generate and validate SQL migration scripts from natural language descriptions of schema changes.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Flask",
-        "Qwen",
-        "Semantic Router"
+        "Django",
+        "SQLite",
+        "OpenAI API",
+        "JavaScript"
       ],
-      "title": "SchemaRouter GenAI",
+      "title": "SchemaMorph: AI-Driven Database Migrator",
       "track": "",
-      "why_it_could_win": "Demonstrates advanced backend Python engineering paired with Gen-AI optimization, mirroring successful semantic router architectures."
+      "why_it_could_win": "Solves a genuinely hard engineering problem for developers managing databases, showcasing both advanced Python backend skills and practical Gen-AI integration."
     },
     {
       "build_hours": 30,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A localized natural language to SQL execution agent with built-in schema introspection and human-in-the-loop safety validation for database operations.",
+      "inspired_by": [],
+      "pitch": "A Flask and React application that inspects incoming Python REST API routes and uses Generative AI to instantly produce interactive documentation and mock test data.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "SQLAlchemy",
-        "Streamlit",
-        "LangChain"
+        "Flask",
+        "React",
+        "HTML5",
+        "CSS3"
       ],
-      "title": "SQL-GenAgent",
+      "title": "RestAI: Automated API Documentation and Mock Generator",
       "track": "",
-      "why_it_could_win": "Integrates critical full-stack concepts like SQL databases and REST APIs with AI governance."
+      "why_it_could_win": "Addresses a universal pain point for software developers and students building full-stack applications, highlighting mastery of APIs, front-end, and back-end integration."
     },
     {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "An automated documentation-to-application RAG toolkit that indexes codebases and auto-generates API client code in Python.",
-      "stack": [
-        "Python",
-        "MariaDB",
-        "Embeddings",
-        "FastAPI"
-      ],
-      "title": "DocToStack RAG",
-      "track": "",
-      "why_it_could_win": "Showcases advanced RAG capabilities combined with practical developer tooling."
-    },
-    {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline-capable Git hook and dashboard that reviews pull requests locally using lightweight Python models before code hits the cloud.",
+      "pitch": "A lightweight Python utility that hooks into local Git repositories to perform automated pre-commit code reviews using a lightweight embedded LLM.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "GitPython",
-        "HTML",
-        "TailwindCSS"
+        "HuggingFace",
+        "Click"
       ],
-      "title": "GitAI Code Reviewer",
+      "title": "GitGenie: Local AI Code Review Assistant",
       "track": "",
-      "why_it_could_win": "Addresses deployment, Git fundamentals, and AI-assisted development workflows relevant to freshers and working professionals."
+      "why_it_could_win": "Mirrors the success of offline AI developer tools by focusing on developer productivity, Git integration, and practical offline AI deployment."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An interactive web application that helps students and junior developers map out and auto-generate cloud deployment configuration files using a conversational Gen-AI interface.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "HTML5",
+        "Docker",
+        "JavaScript"
+      ],
+      "title": "CloudDeploy Navigator",
+      "track": "",
+      "why_it_could_win": "Taps directly into the cloud fundamentals and deployment topics covered in the training demo, making complex cloud workflows accessible to beginners and freshers."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

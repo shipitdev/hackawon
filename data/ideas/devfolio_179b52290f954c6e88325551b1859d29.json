@@ -1,100 +1,108 @@
 {
-  "generated_at": "2026-09-13T07:37:12.924188+00:00",
+  "generated_at": "2026-09-21T08:08:22.132716+00:00",
   "grounding": {
     "domains": [
       "fintech",
       "web3"
     ],
     "exemplar_count": 8,
-    "patterns": [],
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:179b52290f954c6e88325551b1859d29",
   "ideas": [
     {
-      "build_hours": 120,
+      "build_hours": 30,
       "inspired_by": [
-        "github:784668009"
+        "github:220460323"
       ],
-      "pitch": "An automated trading system deployed on Azure that continuously scans perpetual DEXs and centralized exchanges to execute delta-neutral funding rate arbitrage strategies.",
+      "pitch": "A high-performance execution engine that runs cross-exchange crypto arbitrage strategies leveraging cloud-based low-latency container microservices.",
+      "problem_statement": "High-frequency execution engines and market predictors",
       "stack": [
         "Python",
-        "Azure Functions",
-        "Web3.py",
-        "CCXT"
+        "Azure",
+        "FastAPI",
+        "WebSockets"
       ],
-      "title": "AzurePerp: Autonomous Multi-Exchange Funding Rate Arbitrage Engine",
+      "title": "Azure-Backed Order Book Arbitrage Bot",
       "track": "Prize Pool",
-      "why_it_could_win": "Directly targets the core finance and trading thesis of Hefty-Hacks while leveraging Azure for reliable, low-latency cloud execution infrastructure."
+      "why_it_could_win": "Directly targets the primary Finance × Trading scope while leveraging Azure sponsorship integration by deploying services onto Azure Kubernetes Service for low network latency."
     },
     {
-      "build_hours": 140,
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1131796276",
+        "github:220460323"
+      ],
+      "pitch": "A decentralized risk mitigation middleware that verifies institutional creditworthiness via zero-knowledge proofs before executing uncollateralized flash loans.",
+      "problem_statement": "On-chain quant tooling and risk engines",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "circom",
+        "ethers.js"
+      ],
+      "title": "Zk-Identity Collateralized Flash Loan Shield",
+      "track": "Prize Pool",
+      "why_it_could_win": "Combines rigorous cryptographic engineering with DeFi risk management, fulfilling the mandate to go absurdly deep into a specific technical niche."
+    },
+    {
+      "build_hours": 32,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace that executes over-the-counter options contracts using USDC escrow payments, preventing counterparty risk without manual mediation.",
+      "pitch": "An autonomous AI agent framework that ingests real-time order book imbalances to predict short-term market volatility spikes and adjust liquidity pools accordingly.",
+      "problem_statement": "Market predictors, fintech, and risk engines",
       "stack": [
         "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity"
+        "Python",
+        "PyTorch",
+        "LangChain"
       ],
-      "title": "EventopiaFi: USDC Escrow Agent for Automated OTC Options Trading",
+      "title": "Adaption Labs Volatility Predictor Agent",
       "track": "Prize Pool",
-      "why_it_could_win": "Integrates sponsor tooling from Eventopia while solving a critical execution and trust problem in decentralized financial derivatives."
+      "why_it_could_win": "Aligns with sponsor Adaption Labs by building an agentic workflow tailored specifically for automated financial market operations."
     },
     {
-      "build_hours": 160,
-      "inspired_by": [
-        "github:980599492",
-        "github:1131796276"
-      ],
-      "pitch": "A self-custodial credit and risk engine that assesses under-collateralized lending limits using zero-knowledge identity proofs without revealing private portfolio balances.",
-      "stack": [
-        "TypeScript",
-        "Circom",
-        "Solidity",
-        "Next.js"
-      ],
-      "title": "ZeroKnowRisk: ZK-Identity Based Leveraged Credit Line",
-      "track": "Prize Pool",
-      "why_it_could_win": "Blends institutional risk management requirements with cutting-edge cryptographic compliance, appealing heavily to quants and judges looking for deep domain expertise."
-    },
-    {
-      "build_hours": 130,
+      "build_hours": 28,
       "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "A no-code platform allowing retail traders to prompt, backtest, and deploy complex quant strategies and cross-chain execution scripts directly onto perpetual markets.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "PerpNoCode: Natural Language Strategy Builder for Perpetuals",
-      "track": "Prize Pool",
-      "why_it_could_win": "Follows the exact blueprint of previous grand-prize-winning trading bots by lowering the barrier to entry for sophisticated financial tooling."
-    },
-    {
-      "build_hours": 150,
-      "inspired_by": [
-        "github:619126149",
-        "github:774198755"
-      ],
-      "pitch": "A micro-transaction cross-chain bridge optimized specifically for aggregating and arbitraging fractional residual token balances starting from $0.10.",
+      "pitch": "A real-time fraud radar and anomaly detection dashboard that flags suspicious wash-trading patterns in decentralized derivative markets.",
+      "problem_statement": "Fraud radars and on-chain quant tooling",
       "stack": [
         "TypeScript",
-        "Rust",
-        "Ethers.js",
-        "Node.js"
+        "React",
+        "Node.js",
+        "Redis"
       ],
-      "title": "MicroBridge Arbitrage: Cross-Chain Dust Liquidation Engine",
+      "title": "Eventopia Settlement & Risk Radar",
       "track": "Prize Pool",
-      "why_it_could_win": "Focuses on high-frequency, low-value edge cases in decentralized liquidity that traditional bridges ignore, demonstrating exceptional engineering depth."
+      "why_it_could_win": "Solves a critical compliance and security pain point in modern digital asset trading, appealing directly to institutional judges looking for production-ready risk management."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1038864975"
+      ],
+      "pitch": "An orbital-style automated market maker module that routes stablecoin liquidity dynamically across different chains for maximum yield generation.",
+      "problem_statement": "Robo-advisors and on-chain quant tooling",
+      "stack": [
+        "Solidity",
+        "Foundry",
+        "TypeScript"
+      ],
+      "title": "Cross-Chain Stablecoin Yield Router",
+      "track": "Prize Pool",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing advanced AMM mathematics for capital efficiency within a tight hackathon timeframe."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

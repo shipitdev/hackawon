@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:52:48.481720+00:00",
+  "generated_at": "2026-09-21T08:20:48.258146+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,90 +7,106 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1743516",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 32,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An AI-powered water resource management dashboard utilizing time-series forecasting to predict municipal reservoir stress and drought risk levels for Washington state water authorities.",
+      "pitch": "A real-time reservoir and groundwater stress forecasting system combining time-series modeling with meteorological satellite feeds to prevent regional water shortages.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "TypeScript",
-        "Next.js"
+        "Streamlit",
+        "Pandas",
+        "Scikit-Learn",
+        "Plotly"
       ],
-      "title": "AquaPredict WS",
+      "title": "AquaPredict AI",
       "track": "Water Resource Management",
-      "why_it_could_win": "Directly targets the Water Resource Management theme of the hackathon with a heavy engineering backend that judges will favor over basic CRUD dashboards."
+      "why_it_could_win": "Directly targets the Water Resource Management theme with a rigorous forecasting pipeline inspired by winning analytical architectures like Poisson GAMs."
     },
     {
-      "build_hours": 40,
+      "build_hours": 36,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Satellite imagery analysis platform leveraging computer vision to monitor urban heat islands and unauthorized land clearing in smart city development zones.",
+      "pitch": "Automated satellite imagery and land compliance monitor for tracking urban green space depletion and enforcing municipal canopy protection ordinances.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
+        "Next.js",
         "Leaflet.js",
-        "FastAPI"
-      ],
-      "title": "EcoSat Urban Watch",
-      "track": "Urban Intelligence: Smart and Sustain",
-      "why_it_could_win": "Aligns with the Urban Intelligence and Climate themes while utilizing complex spatial intelligence similar to runner-up satellite monitoring hackathon projects."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph intelligence and machine learning platform that traces indirect corporate carbon emissions and supply chain climate risks in real-time.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "Neo4j",
-        "LightGBM"
+        "OpenCV"
       ],
-      "title": "CarbonGraph Climate Monitor",
-      "track": "Climate Monitoring & Prediction",
-      "why_it_could_win": "Combines graph intelligence with climate monitoring, borrowing architectural patterns from successful AML graph intelligence platforms."
+      "title": "UrbanCanopy AI",
+      "track": "Urban Intelligence: Smart and Sustainable",
+      "why_it_could_win": "Leverages geospatial data processing proven effective in industrial monitoring hackathon wins to tackle urban sustainability challenges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265",
+        "github:1181344931"
       ],
-      "pitch": "An automated irrigation and groundwater depletion prediction system that uses multi-agent LLM reasoning to simulate agricultural water consumption under various climate scenarios.",
+      "pitch": "Automated micro-climate anomaly detection dashboard that predicts extreme weather localized spikes using historical environmental data and real-time sensor streams.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangGraph",
-        "TypeScript",
-        "Next.js"
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "LightGBM"
       ],
-      "title": "HydroPulse AI",
-      "track": "Water Resource Management",
-      "why_it_could_win": "Addresses Water Resource Management by combining predictive analytics with multi-agent orchestration, which performs well in hackathons."
+      "title": "ClimateShield Early Warning",
+      "track": "Climate Monitoring & Prediction",
+      "why_it_could_win": "Aligns with the Climate Monitoring & Prediction theme by offering clear, calibrated probabilistic risk intervals that appeal to technical judges."
     },
     {
-      "build_hours": 35,
-      "inspired_by": [],
-      "pitch": "A predictive urban air quality simulator that aggregates IoT sensor feeds to forecast localized pollution spikes and optimize smart traffic signal redirection.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "TensorFlow.js",
-        "TailwindCSS"
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1213911408"
       ],
-      "title": "SmartAir Urban Grid",
-      "track": "Urban Intelligence: Smart and Sustain",
-      "why_it_could_win": "Fits the Urban Intelligence track by offering a dual-purpose application that bridges environmental monitoring with smart city infrastructure."
+      "pitch": "An agent-based municipal water distribution simulator and leak-detection optimizer for smart city infrastructure managers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "HydroGrid Intelligence",
+      "track": "Water Resource Management",
+      "why_it_could_win": "Addresses Water Resource Management through a graph intelligence and simulation interface that instantly demonstrates practical utility to city planners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A spatial mapping platform identifying urban heat islands and dynamically recommending optimal tree-planting zones to lower neighborhood temperatures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Deck.gl",
+        "Python",
+        "GeoPandas"
+      ],
+      "title": "EcoUrban HeatSync",
+      "track": "Urban Intelligence: Smart and Sustainable",
+      "why_it_could_win": "Combines urban intelligence themes with an interactive visual dashboard, maximizing engagement during live judging demos."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

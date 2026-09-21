@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:54.975558+00:00",
+  "generated_at": "2026-09-21T08:19:32.625503+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1742230",
@@ -15,94 +17,95 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:1241231621"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered workforce intelligence tool built specifically for Eightfold's talent intelligence ecosystem, analyzing internal employee skills graphs to predict future role readiness and recommend cross-functional project assignments.",
+      "pitch": "An Eightfold.ai-aligned talent intelligence platform combining graph neural networks and explainable ML to detect fraudulent candidate profiles and credential inflation in enterprise hiring.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "FastAPI",
-        "Next.js",
-        "PyTorch",
-        "PostgreSQL"
+        "NetworkX",
+        "LightGBM",
+        "Next.js"
       ],
-      "title": "Eightfold Talent Graph & Internal Mobility Engine",
+      "title": "TalentGraph AML & Skill Risk Intelligence Engine",
       "track": "",
-      "why_it_could_win": "Since Eightfold.ai is the co-organizer of the hackathon, building an application that directly extends their talent intelligence paradigm using advanced machine learning models is the highest-leverage strategy to impress their engineering judges."
+      "why_it_could_win": "Since Eightfold.ai is co-hosting the hackathon and focusing on ML-driven talent solutions, this project directly targets their core domain while using advanced graph intelligence patterns inspired by winning AML platforms."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "An ML-based auditing system that analyzes recruitment resumes and job descriptions for hidden demographic biases, utilizing counterfactual data augmentation and explainable AI to score hiring fairness.",
+      "pitch": "A machine learning prediction engine using Poisson GAMs to forecast workplace compliance violations, bias incidents, and attrition risks with calibrated prediction intervals.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Scikit-learn",
-        "Transformers",
-        "React",
-        "TailwindCSS"
+        "Jupyter Notebook",
+        "scikit-learn",
+        "FastAPI",
+        "React"
       ],
-      "title": "Resume Bias Auditor & Fairness Inspector",
+      "title": "IncidentAI Safety Forecaster for Enterprise HR Compliance",
       "track": "",
-      "why_it_could_win": "Eightfold.ai focuses heavily on ethical AI and inclusive talent acquisition. A project tackling algorithmic fairness in HR directly aligns with their core enterprise mission."
+      "why_it_could_win": "Demonstrates rigorous statistical modeling and rigorous risk forecasting rather than a basic wrapper, aligning with Eightfold's enterprise focus on responsible, compliant AI."
     },
     {
-      "build_hours": 28,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1087704265",
-        "github:1275874285"
+        "github:1185920891"
       ],
-      "pitch": "A predictive analytics tool designed for university placement cells (targeting IIT and NIT ecosystems) that forecasts industry skill shortages based on historical hiring trends and automatically generates curated learning pathways.",
+      "pitch": "An autonomous AI agent marketplace built with USDC escrow on Base that matches employees with internal gig projects and upskilling pathways based on verified skill graphs.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Pandas",
-        "LightGBM",
-        "TypeScript",
-        "Next.js"
+        "JavaScript",
+        "Base",
+        "Node.js",
+        "OpenAI API",
+        "TailwindCSS"
       ],
-      "title": "Campus Skill Gap Forecaster",
+      "title": "SkillTrace Autonomous Agent Marketplace for Internal Mobility",
       "track": "",
-      "why_it_could_win": "The hackathon is organized by IIT Delhi and Eightfold.ai, bringing together top engineering students and HR tech experts who deeply care about campus placement optimization and career readiness."
+      "why_it_could_win": "Combines cutting-edge agentic workflows with Eightfold's core mission of talent mobility, making it stand out among standard LLM wrapper projects."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "A real-time technical interview assistant that maps candidate spoken answers and coding snippets directly to a fine-grained competencies graph, providing objective scoring rather than keyword matching.",
+      "pitch": "An AI-powered video intelligence platform that transforms unstructured candidate interview recordings into searchable, bias-audited skill assessments and insights.",
+      "problem_statement": "No published statement",
       "stack": [
+        "HTML",
         "Python",
-        "OpenAI API",
-        "FastAPI",
-        "TypeScript",
-        "React"
-      ],
-      "title": "Skills-First Interview Copilot",
-      "track": "",
-      "why_it_could_win": "Leverages real-world machine learning models for speech and text processing to solve a tangible bottleneck in technical recruitment, a space Eightfold operates in daily."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1200926140"
-      ],
-      "pitch": "An automated document intelligence pipeline that extracts verified academic projects, certifications, and skills from unstructured student transcripts into a standardized, queryable talent graph.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "NetworkX",
-        "TypeScript",
+        "Whisper API",
+        "Vector Embeddings",
         "PostgreSQL"
       ],
-      "title": "Enterprise Credential Verifier and Graph Mapper",
+      "title": "SkillVision Video Intelligence Platform for Interview Analytics",
       "track": "",
-      "why_it_could_win": "Demonstrates hard engineering in unstructured data processing and knowledge graph generation, matching the technical depth required to win at premier institute hackathons."
+      "why_it_could_win": "Directly tackles unstructured multimodal data processing, giving judges a tangible, highly polished product that solves a massive pain point in recruitment."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-driven credential verification and patient acquisition engine tailored for specialized medical institutions to streamline practitioner onboarding and trust building.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Prisma",
+        "TailwindCSS"
+      ],
+      "title": "ClinMatch AI-Powered Healthcare Talent & Patient Trust Engine",
+      "track": "",
+      "why_it_could_win": "Leverages rapid verticalized AI patterns from successful hackathon winners to present a complete, deployment-ready vertical SaaS application."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

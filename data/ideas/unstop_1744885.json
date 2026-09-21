@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:53:51.919143+00:00",
+  "generated_at": "2026-09-21T08:21:51.804580+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "impact"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1744885",
@@ -17,88 +20,90 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An agentic anti-money laundering investigation platform for financial institutions that combines graph intelligence with LLM reasoning agents to automatically trace complex transaction rings and generate regulatory SARs with human-in-the-loop oversight.",
+      "pitch": "An agentic AI system that continuously monitors enterprise data pipelines across Snowflake and Databricks for regulatory compliance violations using graph databases and human-in-the-loop validation.",
+      "problem_statement": "ET AI Hackathon 2026 – Agentic Edition enterprise challenge on solving real enterprise challenges at scale while keeping humans in the lead.",
       "stack": [
         "Python",
-        "Neo4j",
         "LangChain",
+        "Snowflake",
+        "NetworkX",
         "FastAPI",
         "React"
       ],
-      "title": "Enterprise Graph-RAG AML Investigator",
-      "track": "Enterprise AI & Compliance",
-      "why_it_could_win": "Aligns perfectly with Accenture and enterprise judges looking for scalable agentic AI solutions that solve actual high-value compliance workflows while keeping humans in the lead."
+      "title": "Enterprise Compliance Graph Agent",
+      "track": "",
+      "why_it_could_win": "Leverages graph intelligence and enterprise data stacks similar to winning AML platforms, directly aligning with Accenture's focus on enterprise-scale AI with human oversight."
     },
     {
-      "build_hours": 30,
+      "build_hours": 32,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An agentic SRE platform that monitors enterprise Databricks and cloud telemetry logs, runs statistical and Poisson regression forecasting for potential system failures, and autonomously deploys safe remediation playbooks requiring executive approval.",
+      "pitch": "An autonomous AI agent team that analyzes production logs, forecasts system outages using statistical regression models, and generates human-verified root cause analysis reports.",
+      "problem_statement": "ET AI Hackathon 2026 – Agentic Edition enterprise challenge on combining Agentic AI with human judgment and oversight.",
       "stack": [
         "Python",
         "Databricks",
-        "Pandas",
+        "PySpark",
         "Streamlit",
         "OpenAI API"
       ],
-      "title": "Databricks Delta-Lake AI Incident Forecaster",
-      "track": "Enterprise AI & Operations",
-      "why_it_could_win": "Leans heavily on enterprise data stacks like Databricks and Python, addressing the explicit preference for professional-grade engineering and predictive reliability in corporate environments."
+      "title": "Agentic Incident Forecaster & RCA",
+      "track": "",
+      "why_it_could_win": "Adapts award-winning forecasting and AI safety prediction patterns into an enterprise SRE workflow, providing rigorous statistical grounding that appeals to technical judges."
     },
     {
       "build_hours": 40,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An autonomous multi-agent system utilizing satellite imagery and enterprise ERP data streams to continuously audit global vendor compliance, flag ESG violations, and autonomously draft audit reports for supply chain managers.",
+      "inspired_by": [],
+      "pitch": "A multi-agent system built on Palantir/BigQuery data connectors that simulates supply chain disruptions, forecasts inventory deficits, and proposes mitigation strategies for human supply chain managers.",
+      "problem_statement": "ET AI Hackathon 2026 – Agentic Edition enterprise challenge on creating intelligent AI solutions for real enterprise challenges at scale.",
       "stack": [
-        "TypeScript",
         "Python",
-        "PostgreSQL",
-        "Next.js",
-        "Computer Vision"
+        "Google BigQuery",
+        "CrewAI",
+        "TypeScript",
+        "Next.js"
       ],
-      "title": "SupplyChain-ATLAS Compliance Sentinel",
-      "track": "Supply Chain & ESG",
-      "why_it_could_win": "Combines hard multi-modal engineering with tangible business outcomes, directly mirroring successful complex monitoring architectures that impress enterprise panels."
+      "title": "Supply Chain Resilience Swarm",
+      "track": "",
+      "why_it_could_win": "Directly tackles enterprise operational resilience with a clear economic impact metric, combining multi-agent coordination with human sign-off."
     },
     {
-      "build_hours": 28,
+      "build_hours": 36,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "An agentic video intelligence platform that ingests enterprise compliance training and town hall recordings, turning unstructured video feeds into a searchable, queryable knowledge base with automated compliance action-item extraction.",
+      "pitch": "An agentic document intelligence platform that ingests unstructured enterprise repositories, builds dynamic knowledge graphs, and allows natural language auditing with strict human-in-the-loop verification.",
+      "problem_statement": "ET AI Hackathon 2026 – Agentic Edition enterprise challenge on designing intelligent AI solutions that combine agentic execution with human judgment.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "Next.js",
-        "Whisper",
-        "Vector Database"
-      ],
-      "title": "Enterprise Unstructured Video Intelligence Hub",
-      "track": "Enterprise Knowledge Management",
-      "why_it_could_win": "Solves a massive enterprise knowledge-management pain point using advanced multi-modal pipelines, highly appealing to corporate judges evaluating scalable business transformation."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An agentic procurement negotiation assistant that securely integrates with enterprise ERP systems, utilizes USDC escrow on-chain for automated cross-border micro-contracting, and maintains strict policy guardrails with human authorization gates.",
-      "stack": [
-        "JavaScript",
         "Python",
         "LangGraph",
-        "Solidity",
+        "Neo4j",
+        "FastAPI",
         "TailwindCSS"
       ],
-      "title": "Autonomous Multi-Agent Vendor Procurement Desk",
-      "track": "Autonomous Enterprise Operations",
-      "why_it_could_win": "Demonstrates sophisticated cross-system integration and agentic autonomy, checking every box for enterprise software architecture and practical workflow reinvention."
+      "title": "Enterprise Knowledge Graph Synthesizer",
+      "track": "",
+      "why_it_could_win": "Mimics award-winning video and unstructured data intelligence architectures, focusing heavily on enterprise document processing and verifiable output."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A collaborative multi-agent system that analyzes legacy Java Full Stack codebases, refactors them into modern architectures, and presents side-by-side diffs with explanation checkpoints for senior developers.",
+      "problem_statement": "ET AI Hackathon 2026 – Agentic Edition enterprise challenge for engineers, developers, and architects to solve enterprise technical debt at scale.",
+      "stack": [
+        "Java",
+        "Python",
+        "Spring Boot",
+        "LangChain",
+        "React"
+      ],
+      "title": "Automated Code Migration Agent",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the technical background of professional developers and architects with 3+ years of experience participating in the hackathon by automating high-cost engineering refactoring."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

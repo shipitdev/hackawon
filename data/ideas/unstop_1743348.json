@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:52:35.599970+00:00",
+  "generated_at": "2026-09-21T08:20:34.687346+00:00",
   "grounding": {
     "domains": [
       "fintech",
@@ -10,6 +10,8 @@
       "unique-data",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1743348",
@@ -17,89 +19,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:435231380"
+        "github:1183964401"
       ],
-      "pitch": "A Python-based trading algorithm that ingests historical news headlines and social sentiment data using NLP, combining it with LightGBM to predict short-term asset price movements in the simulation environment.",
+      "pitch": "A high-performance offline Python vectorised backtesting engine with regime-switching detection for simulated quantitative execution.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LightGBM",
+        "Pandas",
+        "NumPy",
+        "Streamlit",
+        "Matplotlib"
+      ],
+      "title": "AlphaFlow Backtester",
+      "track": "",
+      "why_it_could_win": "Judges in a quant trading hackathon heavily favor robust risk-adjusted returns and clean architecture over complex deep learning models that overfit historical data."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A sentiment-driven quantitative execution overlay that extracts sentiment indicators from financial news corpora to adjust algorithmic weights dynamically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Transformers",
         "Pandas",
         "Scikit-Learn",
-        "NLTK"
+        "FastAPI"
       ],
-      "title": "AlphaSentiment: NLP & LightGBM Quant Strategy",
+      "title": "Sentiview Quant",
       "track": "",
-      "why_it_could_win": "Directly builds on the winning architecture of Bito and SASBitathon by applying gradient boosting and NLP text classification to financial features, which appeals strongly to quant judges looking for alpha beyond pure technical indicators."
+      "why_it_could_win": "Combines natural language processing with traditional financial metrics, mirroring the pattern of multi-modal winning solutions from data science hackathons."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:680478376"
       ],
-      "pitch": "A quantitative asset allocation bot that uses Hidden Markov Models (HMM) to detect market volatility regimes in real-time, dynamically adjusting risk parameters and strategy weights during simulation ticks.",
+      "pitch": "An automated portfolio allocation and dynamic stop-loss algorithmic wrapper designed to minimise maximum drawdown in volatile simulated markets.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "NumPy",
+        "SciPy",
         "Pandas",
-        "hmmlearn",
-        "Backtrader"
+        "Plotly"
       ],
-      "title": "RegimeShift: Hidden Markov Model Portfolio Allocator",
+      "title": "RiskMatrix Portfolio Engine",
       "track": "",
-      "why_it_could_win": "Focuses on risk-adjusted returns rather than simple high-frequency chasing, addressing the core evaluation priority of robustness in dynamic market environments."
+      "why_it_could_win": "Focuses strictly on risk management and capital preservation—metrics that quantitative hedge funds value above pure high-risk alpha generation."
     },
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:272409903"
-      ],
-      "pitch": "An automated pairs trading algorithm that continuously computes rolling cointegration and Z-scores across correlated asset pairs provided in the simulation dataset, executing mean-reversion trades dynamically.",
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A cointegration-based statistical arbitrage trading algorithm that executes automated mean-reversion trades across correlated asset pairs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Statsmodels",
         "Pandas",
         "NumPy"
       ],
-      "title": "StatArb-Pairs: Cointegration-Based Statistical Arbitrage Engine",
+      "title": "StatArb Pair Trading Bot",
       "track": "",
-      "why_it_could_win": "Statistical arbitrage is mathematically rigorous and notoriously difficult to execute cleanly; judges favor foundational quant finance strategies over overly complex neural networks that overfit."
+      "why_it_could_win": "Implements a mathematically sound, classic quantitative finance strategy (Engle-Granger cointegration) that proves genuine domain intuition to judges."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "A high-frequency Python trading bot that analyzes order book depth and volume imbalances to calculate toxic order flow and execute immediate market-making or momentum-following trades within the isolation constraints.",
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A high-frequency tick-data analysis script that calculates order book imbalances to trigger micro-momentum execution signals.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Cython",
+        "NumPy",
         "Pandas",
-        "Asyncio"
+        "Numba"
       ],
-      "title": "OrderBook-Imbalance: Tick-Level Flow Toxicity Bot",
+      "title": "OrderBook Imbalance Scalper",
       "track": "",
-      "why_it_could_win": "Exploits the 'speed is an edge' premise highlighted in the hackathon overview, demonstrating low-latency execution logic even within a simulated Python environment."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1181344931",
-        "github:680478376"
-      ],
-      "pitch": "An ensemble trading system that combines multiple base signals (momentum, mean-reversion, and volatility breakouts) using meta-labeling to filter false positives before committing capital in the backtest.",
-      "stack": [
-        "Python",
-        "Scikit-Learn",
-        "XGBoost",
-        "Pandas"
-      ],
-      "title": "MultiStrategy-Ensemble: Adaptive Meta-Labeling Allocator",
-      "track": "",
-      "why_it_could_win": "Implements advanced machine learning meta-labeling techniques popular in institutional quantitative finance, scoring high on methodological sophistication."
+      "why_it_could_win": "Directly targets the core thesis of the hackathon that speed and structural edge matter in execution-heavy quantitative environments."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

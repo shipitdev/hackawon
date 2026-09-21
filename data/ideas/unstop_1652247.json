@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:21.934021+00:00",
+  "generated_at": "2026-09-21T08:16:45.516742+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1652247",
@@ -17,88 +19,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568",
-        "github:1199751414"
+        "github:1296916648"
       ],
-      "pitch": "A federated model router and governance audit log built specifically to process and verify participant code submissions and PRs submitted to the 3SVK portal.",
+      "pitch": "An automated GitHub PR reviewer and document verification agent designed specifically to handle student submissions for the 3SVK ecosystem.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Docker",
-        "GitHub API"
+        "GitHub API",
+        "LangChain",
+        "PostgreSQL"
       ],
-      "title": "3SVK Research Cloud-Native Agent Mesh",
-      "track": "Research & AI Innovation",
-      "why_it_could_win": "Directly targets the core workflow of the 3SVK Ecosystem Platform team who are actively processing 4,000+ GitHub PRs and code audits during the evaluation window."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline-first, local model execution pipeline that audits code repositories for vulnerabilities and compliance without sending student source code to external servers.",
-      "stack": [
-        "Python",
-        "ONNX",
-        "Transformers",
-        "Streamlit"
-      ],
-      "title": "SVK-NPU Offline Code Security Auditor",
-      "track": "Research & AI Innovation",
-      "why_it_could_win": "Leverages the demand for secure, local processing of sensitive research code submissions matching student ecosystem growth tracks."
+      "title": "3SVK Cloud-Native Research Audit Bot",
+      "track": "",
+      "why_it_could_win": "Targeting the organizing body's explicit evaluation workflow (GitHub review, code audit, document verification) solves an immediate operational bottleneck for the 3SVK platform team."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1334000568",
-        "github:1207207353"
+        "github:1334000568"
       ],
-      "pitch": "A self-improving semantic retrieval engine that indexes student abstracts from the 3SVK research portal, automatically routing submissions to the most relevant peer reviewers using vector embeddings.",
+      "pitch": "A training-free semantic router that classifies and indexes student innovation proposals to match them with relevant enterprise research tracks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Qdrant",
-        "HuggingFace",
-        "Flask"
+        "Qwen",
+        "Superlinked",
+        "Sentence-Transformers"
       ],
-      "title": "Semantic Peer Review Index for Student Research",
-      "track": "Research & AI Innovation",
-      "why_it_could_win": "Solves the scaling bottleneck of reviewing thousands of research papers and project submissions submitted to the 3SVK ecosystem."
+      "title": "Student Research Semantic Router",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of kNN-over-exemplar semantic routing to provide instant categorization for thousands of submissions in the 3SVK portal."
     },
     {
-      "build_hours": 32,
+      "build_hours": 40,
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "A compliance and pre-deployment risk diagnosis tool that maps student startup applications to strict evaluation criteria and automated BPMN governance flows.",
+      "pitch": "A visual workflow orchestration tool for validating multi-stage student research submissions and pre-deployment code checks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Bpmn-js",
-        "LangChain",
-        "PostgreSQL"
+        "BPMN",
+        "UiPath Coded Agents",
+        "Docker"
       ],
-      "title": "BPMN-Orchestrated Student Innovation Workflow",
-      "track": "Enterprise Tracks",
-      "why_it_could_win": "Aligns with enterprise-track expansion goals by introducing rigorous, automated business process management to student startup mentorship pipelines."
+      "title": "BPMN Research Pipeline Orchestrator",
+      "track": "",
+      "why_it_could_win": "Applies proven BPMN agentic orchestration patterns to streamline technical review auditing for hackathon organizers."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1163393786",
-        "github:1214808895"
+        "github:1199751414"
       ],
-      "pitch": "Two specialized AI agents that independently evaluate and debate the novelty of student research proposals, refining their grading rubric iteratively through self-play.",
+      "pitch": "A Kubernetes-backed registry and MCP server setup to securely federate and index student research datasets across cloud platforms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "Kubernetes",
+        "ArgoCD",
+        "Python",
+        "MCP"
+      ],
+      "title": "Federated Student Innovation Registry",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the 3SVK platform's scaling goals as a national student cloud and AI initiative."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An auto-embedding research toolkit that ingests student project documentation and creates lightning-fast searchable indexes for judges.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangGraph",
-        "OpenAI API",
-        "Redis"
+        "MariaDB",
+        "Embeddings",
+        "HNSW"
       ],
-      "title": "Self-Optimizing Agentic Research Evaluator",
-      "track": "Research & AI Innovation",
-      "why_it_could_win": "Demonstrates advanced self-improving agent capabilities, directly addressing the continuous research opportunities promoted by the organizers."
+      "title": "TOON-Native Auto-Embedding Research Index",
+      "track": "",
+      "why_it_could_win": "Provides an immediate, high-utility utility for judges wading through thousands of submissions on the 3SVK platform."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

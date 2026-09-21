@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:51:27.633850+00:00",
+  "generated_at": "2026-09-21T08:35:19.714379+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1756306",
@@ -16,85 +18,84 @@
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Autonomous multi-agent AI system that continuously monitors municipal IoT sensor grids and automates emergency ticket routing for public utility failures.",
+      "pitch": "Autonomous multi-agent system that monitors and patches common vulnerability CVEs across internal developer tools in real-time.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "LangGraph",
-        "FastAPI",
         "TypeScript",
-        "Next.js"
+        "LangGraph",
+        "Next.js",
+        "Docker"
       ],
-      "title": "AegisNode",
-      "track": "Civic & Public Utilities",
-      "why_it_could_win": "Directly targets the Civic & Public Utilities track by replacing slow manual dispatch with deterministic, auditable multi-agent workflows."
+      "title": "AegisAgent",
+      "track": "AI Agents & Workflow Automation",
+      "why_it_could_win": "Aligns with the AI Agents & Workflow Automation track by targeting high-value DevSecOps pipelines rather than generic chat applications."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-driven patient acquisition and conversational intake trust engine tailored for low-bandwidth rural healthcare clinics.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "ClinicTrust AI",
-      "track": "Low-Bandwidth Healthcare",
-      "why_it_could_win": "Fits the Low-Bandwidth Healthcare track by optimizing media payloads and using edge-caching for low-connectivity environments."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Satellite imagery and Graph Neural Network pipeline that monitors industrial land compliance and urban deforestation risks in real-time.",
+      "pitch": "Automated smartphone dashcam video analysis tool for municipal authorities to detect, measure, and geo-tag road hazards for immediate repair dispatch.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "PyTorch",
-        "Mapbox GL"
+        "OpenCV",
+        "FastAPI",
+        "React"
       ],
-      "title": "EcoGraph Analytics",
-      "track": "Climate & Urban Resilience",
-      "why_it_could_win": "Aligns with Climate & Urban Resilience by leveraging computer vision and geospatial analysis to flag regulatory violations automatically."
+      "title": "CivicPotholeAI",
+      "track": "Civic & Public Utilities",
+      "why_it_could_win": "Directly tackles the Civic & Public Utilities track by providing an immediately demonstrable utility for local government efficiency."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "Autonomous workflow automation agent that screens pull requests for security vulnerabilities, compliance drift, and dependency risks using local AST parsers.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "OpenAI API",
-        "Docker"
-      ],
-      "title": "DevGuard Agent",
-      "track": "Open Innovation & DevTools",
-      "why_it_could_win": "Targets Open Innovation & DevTools with hard engineering that provides immediate, tangible utility to engineering teams."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "Poisson regression and incident forecasting tool predicting cascading failures in cloud infrastructure and automated workflow pipelines.",
+      "pitch": "Micro-climate resilience simulator that predicts urban heat island hotspots using satellite imagery and historical weather logs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "FastAPI",
         "Pandas",
-        "Scikit-Learn"
+        "Leaflet.js"
       ],
-      "title": "FaultCast AI",
-      "track": "AI Agents & Workflow Automation",
-      "why_it_could_win": "Matches the AI Agents & Workflow Automation track through advanced statistical modeling and calibrated prediction intervals."
+      "title": "UrbanCoolGrid",
+      "track": "Climate & Urban Resilience",
+      "why_it_could_win": "Fits the Climate & Urban Resilience track by moving past simple dashboards into predictive modeling with actionable spatial data."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "Extremely lightweight offline-first EHR syncing platform designed for rural clinics operating on intermittent, low-bandwidth cellular networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "SQLite",
+        "React Native",
+        "Node.js"
+      ],
+      "title": "EdgeMedSync",
+      "track": "Low-Bandwidth Healthcare",
+      "why_it_could_win": "Targeted specifically at the Low-Bandwidth Healthcare track, solving a distinct constraint that standard cloud-dependent medical apps fail at."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "Zero-config open-source telemetry tracer that automatically generates local visual dependency graphs for multi-service local developer stacks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "React",
+        "D3.js"
+      ],
+      "title": "DevTrace-CLI",
+      "track": "Open Innovation & DevTools",
+      "why_it_could_win": "Appeals directly to the Open Innovation & DevTools track by focusing on a painful developer workflow bottleneck."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

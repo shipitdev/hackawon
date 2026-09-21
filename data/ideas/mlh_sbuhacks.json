@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:09.083908+00:00",
+  "generated_at": "2026-09-21T08:15:29.022486+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:sbuhacks",
@@ -14,85 +16,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A localized predictive analytics dashboard for campus safety and infrastructure risks using Poisson regression and rolling backtests.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "Streamlit"
-      ],
-      "title": "CampusPulse AI Incident Forecasting",
-      "track": "",
-      "why_it_could_win": "Follows the exact mathematical and forecasting rigor that won the Apart Research AI Forecasting Hackathon by using a proven statistical approach for real-world risk modeling."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated risk detection and investigation platform tailored for university finance departments, combining graph intelligence and explainable machine learning.",
+      "pitch": "Real-time campus infrastructure and crowd density monitor using synthetic sensor data and predictive anomaly detection.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "LightGBM",
-        "NetworkX"
+        "TailwindCSS",
+        "Python",
+        "FastAPI"
       ],
-      "title": "SBU-Safe AML Compliance Platform",
+      "title": "CampusPulse",
       "track": "",
-      "why_it_could_win": "Employs the complex graph intelligence and explainable AI pattern that secured 1st place at the DIGITIMES AI Innovation Hackathon."
+      "why_it_could_win": "It mirrors winning execution patterns like GeoNex-ATLAS by applying monitoring intelligence to physical spaces, which appeals to campus administrators and technical judges alike."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered academic and course dependency graph navigation platform for students to map out prerequisites and graduation requirements.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "SBU-Advisor-Graph",
+      "track": "",
+      "why_it_could_win": "It leverages graph intelligence and multi-agent workflows similar to winning systems like Bito and greennovation-ai-platform, offering immediate practical utility for university students."
     },
     {
       "build_hours": 30,
       "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A localized marketplace connecting campus dining excess with student groups and local food pantries using autonomous notification agents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "DiningHallSurplus",
+      "track": "",
+      "why_it_could_win": "It tackles a tangible local problem on college campuses and mimics the marketplace coordination mechanics seen in Dispatch."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition platform that integrates with local campus dining hall menus to deliver hyper-personalized meal recommendations and nutritional insights.",
+      "pitch": "Gamified energy and resource consumption tracking platform for campus dormitories providing personalized sustainability insights.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "OpenAI API",
-        "React"
+        "Streamlit",
+        "Pandas",
+        "Chart.js"
       ],
-      "title": "DormEats AI Nutrition & Dining Assistant",
+      "title": "DormEco-Tracker",
       "track": "",
-      "why_it_could_win": "Leverages the targeted user-facing health and wellness concept that won first prize at the Hour Hackathon."
+      "why_it_could_win": "It builds directly on the personal wellness and recommendation engine architectures that won prizes at events like Hour Hackathon."
     },
     {
-      "build_hours": 38,
+      "build_hours": 34,
       "inspired_by": [
-        "github:1155558847"
+        "github:1241231621"
       ],
-      "pitch": "AI-powered satellite monitoring tool to track and assess green space changes, construction impact, and environmental land compliance across the Stony Brook campus.",
+      "pitch": "Automated lecture transcription, flashcard generation, and concept relationship mapping tool optimized for university courses.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "Sentinel-Hub API"
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "EcoCampus AI Satellite Land Monitor",
+      "title": "LectureInsight-AI",
       "track": "",
-      "why_it_could_win": "Applies geospatial analysis and satellite data processing similar to the runner-up project at the Xcelerate Hackathon."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent AI student support platform using LangGraph and advanced RAG to route academic, mental health, and administrative queries to personalized student agents.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Pinecone",
-        "Next.js"
-      ],
-      "title": "CampusGrief Multi-Agent Student Support",
-      "track": "",
-      "why_it_could_win": "Replicates the multi-agent orchestration architecture that won 1st place at the GreenNovation Hackathon."
+      "why_it_could_win": "Judges at general student-focused hackathons strongly favor polished tools that solve daily student pain points with reliable AI integrations."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

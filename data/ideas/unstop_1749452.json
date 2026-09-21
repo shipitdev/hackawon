@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:58:03.744515+00:00",
+  "generated_at": "2026-09-21T08:26:55.103157+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749452",
@@ -16,85 +20,91 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool designed for industrial estates to automatically detect zoning violations, unauthorized land expansions, and environmental non-compliance.",
+      "pitch": "An AI-powered satellite monitoring and change-detection platform that automatically flags industrial land misuse and environmental compliance violations for corporate audit teams.",
+      "problem_statement": "Real industry problems involving compliance and industrial land monitoring",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "Satellite Imagery APIs"
+        "FastAPI",
+        "PostGIS",
+        "Leaflet.js"
       ],
-      "title": "Industrial Land Compliance and Monitoring Engine",
+      "title": "GeoAudit Industrial Compliance Platform",
       "track": "",
-      "why_it_could_win": "Targeting real corporate industrial needs directly aligns with CSIDC/industrial development problem statements by turning complex geospatial data into actionable compliance reports for enterprise juries."
+      "why_it_could_win": "Directly targets industrial enterprise needs with hard engineering, mirroring a proven winning approach by automating satellite-based compliance tracking."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive risk dashboard utilizing Poisson regression and time-series modeling to forecast operational bottlenecks, supply chain anomalies, and regulatory compliance incidents for manufacturing firms.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "Enterprise Supply Chain Incident Forecasting & Risk Auditor",
-      "track": "",
-      "why_it_could_win": "Brings rigorous, hard engineering and statistical modeling (Poisson GAM) to corporate operations, appealing strongly to enterprise judges looking for quantitative forecasting rather than basic UI wrappers."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An intelligent graph-based risk investigation platform for B2B supply chains and corporate finance departments to screen suppliers, detect fraud networks, and flag illicit fund flows using explainable ML.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Graph Databases",
-        "LightGBM"
-      ],
-      "title": "Automated Industrial AML and Counterparty Risk Platform",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuine technical depth by combining graph intelligence with explainable machine learning, a winning formula for enterprise risk management challenges."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1185920891",
         "github:1213911408"
       ],
-      "pitch": "An autonomous AI agent marketplace tailored for industrial procurement, enabling automated vendor discovery, quotation comparison, and escrow-backed purchase order settlements.",
+      "pitch": "A multi-agent RAG framework that coordinates between procurement, inventory, and logistics databases to autonomously flag and resolve industrial supply chain bottlenecks.",
+      "problem_statement": "Real industry problems requiring operational optimization and supply chain resilience",
       "stack": [
-        "JavaScript",
-        "Node.js",
         "Python",
-        "LangGraph"
+        "LangGraph",
+        "Streamlit",
+        "PostgreSQL",
+        "OpenAI API"
       ],
-      "title": "Autonomous B2B Procurement and Settlement Agent",
+      "title": "SupplyChain Multi-Agent Optimizer",
       "track": "",
-      "why_it_could_win": "Applies proven autonomous agent frameworks to real enterprise purchasing workflows, directly addressing B2B transaction friction and operational overhead."
+      "why_it_could_win": "Leverages advanced multi-agent orchestration patterns that impress technical panels looking for complex architectural implementations."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered wellness and posture monitoring platform built for industrial shift workers and corporate environments to deliver personalized ergonomic insights and injury prevention protocols.",
+      "pitch": "An automated carbon accounting dashboard that ingests factory IoT and freight logs to calculate scope 1 and scope 3 emissions in real-time.",
+      "problem_statement": "Real industry problems focused on industrial decarbonization and environmental metrics",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "TimescaleDB",
+        "TailwindCSS"
+      ],
+      "title": "EcoLogistics Emissions Tracker",
+      "track": "",
+      "why_it_could_win": "Provides clear measurable impact and quantifiable economic and environmental benefits, which corporate judges evaluating industrial use-cases heavily favor."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A predictive maintenance web application that ingests simulated industrial machine vibration data to forecast equipment failures before they occur.",
+      "problem_statement": "Real industry problems centered around manufacturing downtime and predictive maintenance",
       "stack": [
         "Python",
-        "TypeScript",
-        "Gemini API",
-        "Next.js"
+        "Flask",
+        "Scikit-learn",
+        "Chart.js",
+        "MQTT"
       ],
-      "title": "Enterprise Employee Health and Ergonomic Safety Assistant",
+      "title": "PredictivePlant IoT Monitor",
       "track": "",
-      "why_it_could_win": "Solves a persistent enterprise HR and occupational health problem by packaging complex health telemetry into intuitive daily safety recommendations."
+      "why_it_could_win": "Solves a direct, high-value manufacturing pain point with a working live demo that simulates real factory hardware streams."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A tamper-proof audit trail for industrial automation logs utilizing cryptographic proofs to ensure compliance without exposing proprietary manufacturing formulas.",
+      "problem_statement": "Real industry problems addressing secure data sharing and regulatory auditing",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Noir",
+        "Hardhat",
+        "Solidity"
+      ],
+      "title": "SecurePlant Zero-Knowledge Audit Log",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced technical execution and cryptography, appealing to expert juries looking for robust data security solutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

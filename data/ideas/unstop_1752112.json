@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T08:00:14.012326+00:00",
+  "generated_at": "2026-09-21T08:31:16.212786+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "working-demo",
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752112",
@@ -14,90 +17,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:950564513"
       ],
-      "pitch": "A graph-intelligence and LightGBM-powered AML risk screening and investigation platform tailored to detect fraudulent funding patterns and suspicious transactions in hiring pipelines or gig-economy payouts.",
+      "pitch": "A platform connecting remote student teams directly with early-stage startups based on verified project execution metrics from hackathons.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "Neo4j",
-        "AWS"
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Prisma"
       ],
-      "title": "TalentGraph AML Compliance & Risk Screening Platform",
+      "title": "SkillSync Talent Pipeline",
       "track": "",
-      "why_it_could_win": "Leverages complex graph intelligence and explainable ML, mirroring a proven architecture that won a major innovation hackathon."
+      "why_it_could_win": "Directly aligns with the organizing entity's talent focus, appealing to judges who prioritize practical employment outcomes and real-world execution metrics."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1185920891"
+        "github:1170846981"
       ],
-      "pitch": "An autonomous AI agent marketplace where specialized career-coaching and recruitment agents operate independently and execute transactions using USDC escrow payments.",
+      "pitch": "A lightweight multilingual AI health triage system designed for offline-first deployment in remote communities.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "Locus",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "AgenticTalent: Autonomous AI Agent Marketplace on Base",
-      "track": "",
-      "why_it_could_win": "Integrates autonomous agent workflows with crypto-economic settlement rails, capturing high technical execution scores."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered multi-agent student support and wellness platform combining LangGraph, RAG, and personalized AI agents to resolve administrative queries and mental health resources instantly.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
         "Python",
-        "Next.js",
-        "OpenAI"
+        "FastAPI",
+        "React",
+        "OpenAI API"
       ],
-      "title": "EcoCampus AI: Multi-Agent Student Support Platform",
+      "title": "RuralTeleHealth Assistant",
       "track": "",
-      "why_it_could_win": "Directly targets institutional productivity and student success metrics, aligning with core themes of practical problem-solving."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite imagery monitoring system that tracks industrial land compliance and environmental regulation adherence using automated geospatial computer vision models.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "PostGIS",
-        "Leaflet.js",
-        "TensorFlow"
-      ],
-      "title": "GeoCompliance: Satellite Monitoring for Industrial Land Standards",
-      "track": "",
-      "why_it_could_win": "Showcases genuinely hard engineering by combining geospatial raster data analysis with automated compliance report generation."
+      "why_it_could_win": "Employs proven social-impact AI patterns that consistently score high in problem-solving and real-world viability criteria."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1192028384"
       ],
-      "pitch": "A Poisson GAM and multinomial share model forecasting platform designed to predict hiring bottlenecks, talent churn incidents, and workforce pipeline failures with calibrated 90% prediction intervals.",
+      "pitch": "An AI-powered dashboard that aggregates local community grievances and automates structured reporting to municipal authorities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangChain"
+      ],
+      "title": "CivicPulse Action Tracker",
+      "track": "",
+      "why_it_could_win": "Focuses on a tangible public sector use-case with clear measurable civic impact, mirroring successful municipal hackathon winners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A real-time computer vision waste segregation web app that rewards users for proper recycling habits via local community leaderboards.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Scikit-Learn",
-        "Streamlit"
+        "TensorFlow.js",
+        "React",
+        "Node.js"
       ],
-      "title": "AI Incident Forecaster for Tech Hiring Pipelines",
+      "title": "EcoSort AI Garbage Classifier",
       "track": "",
-      "why_it_could_win": "Applies rigorous statistical forecasting models (GAMs and Poisson regression) instead of relying on a generic wrapper chatbot."
+      "why_it_could_win": "Features an instantly demonstrable live camera interface that captivates judges during a fast-paced virtual demo."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An interactive AI patient interview simulator that scores medical students on diagnostic reasoning and communication rubrics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "MedPrep Clinical Simulator",
+      "track": "",
+      "why_it_could_win": "Leverages a structured multi-dimensional grading rubric that demonstrates high technical execution and product thinking under a tight deadline."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

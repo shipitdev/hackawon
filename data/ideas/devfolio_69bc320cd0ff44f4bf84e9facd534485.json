@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T07:38:53.278372+00:00",
+  "generated_at": "2026-09-21T08:08:52.877411+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 4,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:69bc320cd0ff44f4bf84e9facd534485",
@@ -14,87 +17,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1213911408",
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered developer community health and engagement analytics dashboard that aggregates Discord activity, analyzes sentiment, and predicts contributor churn using advanced RAG and graph intelligence.",
+      "pitch": "An AI-powered urban carbon tracking and sustainable route optimization web app for delivery fleets.",
+      "problem_statement": "Sustainability and social impact projects",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "LangGraph",
+        "React",
         "Python",
+        "FastAPI",
         "TailwindCSS"
       ],
-      "title": "Codivonix Community Pulse",
+      "title": "EcoRoute AI",
       "track": "Team CodeStorm Award",
-      "why_it_could_win": "Aligns directly with the priorities of sponsor Codivonix Community by solving an internal community management problem using hard engineering patterns seen in winning AML and student support platforms."
+      "why_it_could_win": "Leverages the multi-agent optimization and sustainability focus seen in the GreenNovation winning project, directly addressing open innovation sustainability criteria."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1200926140"
       ],
-      "pitch": "A decentralized peer-to-peer discount and voucher exchange marketplace featuring automated escrow payments and smart contract validation tailored for retail savings.",
+      "pitch": "An interactive AI-powered lecture video indexing and searchable transcript platform for students.",
+      "problem_statement": "Educational technology solutions",
       "stack": [
+        "HTML",
         "JavaScript",
-        "Base",
-        "USDC",
-        "React"
+        "Python",
+        "OpenAI API",
+        "PostgreSQL"
       ],
-      "title": "Modisconto DealMesh",
-      "track": "Modisconto Merchandise Prize Pack",
-      "why_it_could_win": "Directly targets the Modisconto Merchandise Prize Pack track by integrating seamless voucher exchange mechanics with verifiable automated settlement."
+      "title": "EduSynth",
+      "track": "Team CodeStorm Award",
+      "why_it_could_win": "Employs a polished, working demo that converts unstructured educational video data into searchable knowledge, mirroring the Data & Design winning approach."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1185527998"
       ],
-      "pitch": "An AI-powered satellite monitoring platform that tracks industrial and campus land use changes to quantify carbon offset and sustainability metrics over time.",
+      "pitch": "A rapid clinical-grade health metrics checker utilizing browser-based rPPG heart rate detection.",
+      "problem_statement": "Artificial Intelligence solutions",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "Node.js"
+      ],
+      "title": "PulseCheck Triage",
+      "track": "Modisconto Merchandise Prize Pack",
+      "why_it_could_win": "Focuses on hard engineering and a live-working multimodal demo combining computer vision and health tracking, inspired by the Place Hackathon winner."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-based transaction risk monitoring and fraud detection dashboard tailored for student-run micro-fintech projects.",
+      "problem_statement": "Cybersecurity tools",
       "stack": [
         "TypeScript",
         "Python",
-        "GIS APIs",
-        "TensorFlow"
+        "LightGBM",
+        "NetworkX",
+        "Streamlit"
       ],
-      "title": "FutureForge Campus Sustainability Tracker",
+      "title": "RiskFlow AML",
       "track": "Team CodeStorm Award",
-      "why_it_could_win": "Applies proven satellite monitoring and computer vision pipelines to sustainability, catching the eye of judges looking for real-world environmental impact."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An automated AI agent platform that instantly generates full-stack boilerplate code, architecture diagrams, and task breakdowns based on natural language project descriptions for hackathon teams.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "Python"
-      ],
-      "title": "BuildNest Project Scaffolder",
-      "track": "Team CodeStorm Award",
-      "why_it_could_win": "Speaks directly to the developer tooling ecosystem promoted by sponsor BulidNest by accelerating the hackathon creation workflow itself."
+      "why_it_could_win": "Showcases complex graph intelligence and explainable analytics, targeting the technical rigor appreciated by judges in financial AI hackathons."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1087704265"
+        "github:1143576965"
       ],
-      "pitch": "A predictive flash-sale pricing and demand forecasting platform that uses Poisson regression models to optimize inventory clearance and dynamic discount rates for e-commerce.",
+      "pitch": "A real-time disaster event aggregator and crowdsourced emergency resource coordination mapping platform.",
+      "problem_statement": "Web applications and platforms",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
+        "JavaScript",
+        "Express",
+        "Leaflet.js",
+        "MongoDB"
       ],
-      "title": "Modisconto Dynamic Pricing Engine",
-      "track": "Modisconto Merchandise Prize Pack",
-      "why_it_could_win": "Combines rigorous statistical forecasting with the merchant-focused discount domain of Modisconto to win on technical depth."
+      "title": "DisasterMap Live",
+      "track": "Team CodeStorm Award",
+      "why_it_could_win": "Addresses urgent real-world disaster management with a fully functioning live map and API server, matching the runner-up pattern from HackCrux."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

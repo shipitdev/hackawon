@@ -1,98 +1,114 @@
 {
-  "generated_at": "2026-09-13T07:42:21.875565+00:00",
+  "generated_at": "2026-09-21T08:09:56.986954+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:c7065105fdfc4d9bb4f50e22aa94f301",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1241231621"
+        "github:1234067949"
       ],
-      "pitch": "An AI-powered patient symptom ingestion and pre-triage platform tailored for overcrowded rural clinics in India, featuring regional language support and automated urgency scoring.",
+      "pitch": "An IoT and ML-driven urban monitoring network that predicts localized asthma and respiratory attack risks 24 hours in advance.",
+      "problem_statement": "HealthTech Innovation: Develop solutions that can improve medical services, patient care, or health monitoring.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini-API",
-        "TailwindCSS"
+        "Python",
+        "ESP32",
+        "TensorFlow Lite",
+        "Next.js"
       ],
-      "title": "AuraCare AI Triage Engine",
+      "title": "AuraSense: Real-Time IoT Air Quality and Asthma Trigger Predictor",
       "track": "HealthTech Innovation",
-      "why_it_could_win": "Directly addresses the HealthTech Innovation theme with localized impact, solving real emergency waiting room bottlenecks that judges will immediately recognize."
+      "why_it_could_win": "Combines physical IoT sensors with predictive machine learning, directly targeting the HealthTech Innovation theme with a clear, measurable public health impact."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "A graph-intelligence-based anomaly detection platform to trace counterfeit pharmaceutical drug supply chains and flag illicit distributor networks.",
-      "stack": [
-        "Python",
-        "NetworkX",
-        "LightGBM",
-        "Streamlit"
-      ],
-      "title": "MediGraph AML Risk Detector for Pharma Supply",
-      "track": "HealthTech Innovation",
-      "why_it_could_win": "Brings heavy technical execution to the HealthTech space by applying graph intelligence to supply chain safety rather than just building another basic symptom checker."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-driven nutritional and wellness recommendation engine that blends modern dietary metrics with traditional Ayurvedic food principles for personalized meal plans.",
+      "pitch": "A localized educational assistant utilizing small language models to translate and simplify complex STEM textbooks into regional Indian languages offline.",
+      "problem_statement": "EdTech Revolution: Revolutionize education with technology. Create tools and platforms that enhance the learning experience, making education more accessible and engaging.",
       "stack": [
         "Python",
         "FastAPI",
+        "Ollama",
         "React",
-        "OpenAI"
+        "SQLite"
       ],
-      "title": "AyurNutri Personalizer",
-      "track": "HealthTech Innovation",
-      "why_it_could_win": "Leverages the winning formula of tailored wellness platforms while adding localized cultural relevance that resonates strongly with Indian judges."
+      "title": "EduBridge AI: Offline-First Multilingual RAG for Rural Classrooms",
+      "track": "EdTech Revolution",
+      "why_it_could_win": "Tackles a profound real-world accessibility problem in Indian education using edge AI, matching the EdTech Revolution theme with high social impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An edge-computed smart bin sensor and dashboard that dynamically routes municipal garbage collection trucks to minimize fuel burn and overflow.",
+      "problem_statement": "Smart Cities and IoT: Innovate for the future of urban living. Build IoT solutions that can make cities smarter, more efficient, and better connected.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Node.js",
+        "MQTT",
+        "TailwindCSS"
+      ],
+      "title": "SmartBins IoT: Computer Vision and LoRaWAN Waste Route Optimization",
+      "track": "Smart Cities and IoT",
+      "why_it_could_win": "Features tangible hardware simulation and operational cost-saving metrics that appeal directly to smart city judges looking for scalable urban infrastructure."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265",
+        "github:1275874285"
       ],
-      "pitch": "An automated satellite image analysis tool that correlates local industrial land emissions with regional respiratory disease spikes to warn public health officials.",
+      "pitch": "A mobile web app that analyzes smartphone photos of soil and crop leaves using computer vision to instantly recommend precise fertilizer mixes and predict harvest yields.",
+      "problem_statement": "Agriculture and AgriTech: Explore innovations in farming, crop management, or supply chain efficiency using technology.",
       "stack": [
         "TypeScript",
+        "React Native",
         "Python",
-        "Leaflet.js",
-        "Sentinel-Hub-API"
+        "PyTorch",
+        "FastAPI"
       ],
-      "title": "SafeZone Satellite Health-Hazard Mapper",
-      "track": "HealthTech Innovation",
-      "why_it_could_win": "Combines spatial monitoring with healthcare outcomes, providing a novel data-driven angle that stands out from typical app-layer health hacks."
+      "title": "NutriCrop AI: Smartphone-Based Soil Nutrient and Crop Yield Forecaster",
+      "track": "Agriculture and AgriTech",
+      "why_it_could_win": "Solves an urgent local economic problem for farmers with a working end-to-end mobile demo and clear agricultural yields benefit."
     },
     {
-      "build_hours": 34,
+      "build_hours": 39,
       "inspired_by": [
-        "github:1213911408"
+        "github:1181344931",
+        "github:1234067949"
       ],
-      "pitch": "A multi-agent RAG system designed for elderly patients to navigate health insurance policies, book appointments, and manage daily medication schedules through a voice interface.",
+      "pitch": "An IoT temperature-monitoring badge paired with a blockchain ledger to ensure vaccines and perishable medicines do not spoil during rural transit.",
+      "problem_statement": "HealthTech Innovation: Dive into the world of healthcare and wellness by developing solutions that can improve medical services, patient care, or health monitoring.",
       "stack": [
         "TypeScript",
-        "LangGraph",
+        "Arduino",
+        "Solidity",
         "Next.js",
-        "Whisper-API"
+        "PostgreSQL"
       ],
-      "title": "ElderLink Multi-Agent Support Network",
+      "title": "MediChain IoT: Cold-Chain Vaccine Integrity and Expiry Tracker",
       "track": "HealthTech Innovation",
-      "why_it_could_win": "Utilizes a sophisticated multi-agent architecture to solve an accessible, high-empathy problem in the healthcare domain."
+      "why_it_could_win": "Combines healthcare safety with verifiable logistics, impressing judges with a life-saving application built on robust hardware-software integration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

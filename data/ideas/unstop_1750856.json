@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:59:24.227538+00:00",
+  "generated_at": "2026-09-21T08:29:33.106914+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750856",
@@ -14,81 +18,91 @@
     {
       "build_hours": 14,
       "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered patient triage and trust engine designed for regional healthcare clinics to automate intake and preliminary diagnostics.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ArogyaSync AI",
-      "track": "Healthcare",
-      "why_it_could_win": "Directly targets the healthcare track mentioned in the event description, leveraging proven concepts from past healthcare hackathon winners like Global-Smile."
-    },
-    {
-      "build_hours": 12,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A localized AI nutrition and wellness assistant delivering meal recommendations tailored to regional Indian diets and health metrics.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "MediNutri Regional",
-      "track": "Healthcare",
-      "why_it_could_win": "Builds upon the success of meal-and-nutrition hackathon winners by adding localized dietary constraints that appeal directly to local judges."
-    },
-    {
-      "build_hours": 13,
-      "inspired_by": [
+        "github:1275874285",
         "github:1241231621"
       ],
-      "pitch": "An automated patient acquisition and transparent reputation platform specifically built for local dental and prosthodontic clinics.",
+      "pitch": "An offline-first, AI-assisted electronic health record and triage system for rural health workers in Madhya Pradesh.",
+      "problem_statement": "Healthcare & Wellness",
       "stack": [
-        "TypeScript",
         "Next.js",
-        "TailwindCSS"
+        "SQLite",
+        "TailwindCSS",
+        "Transformers.js"
       ],
-      "title": "ClinicAcquire Trust Engine",
-      "track": "Healthcare",
-      "why_it_could_win": "Replicates a proven 12-hour sprint winner model that focuses on high-impact business outcomes for localized medical service providers."
+      "title": "ArogyaSetu Localized EHR & Triage Engine",
+      "track": "Healthcare & Wellness",
+      "why_it_could_win": "Focuses on the regional practical realities of rural healthcare delivery in India, featuring a live-working offline triage prototype that appeals directly to judges looking for local social impact within a tight 16-hour window."
     },
     {
       "build_hours": 15,
       "inspired_by": [
-        "github:1181344931"
+        "github:1346526259"
       ],
-      "pitch": "An explainable patient anomaly detection and risk investigation platform combining graph intelligence and lightweight gradient boosting.",
+      "pitch": "A voice-first agricultural marketplace and advisory platform that lets farmers buy seeds and check mandis using regional voice commands.",
+      "problem_statement": "Agriculture & Rural Development",
+      "stack": [
+        "React",
+        "Node.js",
+        "Web Speech API",
+        "Supabase"
+      ],
+      "title": "AgriKisan Multilingual Voice Marketplace",
+      "track": "Agriculture & Rural Development",
+      "why_it_could_win": "Leverages localized speech-to-text workflows and addresses a massive agrarian demographic in central India, demonstrating clear, measurable economic benefit for smallholders."
+    },
+    {
+      "build_hours": 13,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated campus resource and waste audit dashboard utilizing lightweight computer vision to track waste segregation in real-time.",
+      "problem_statement": "Environment & Sustainability",
       "stack": [
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "Flask",
+        "OpenCV",
+        "Chart.js"
       ],
-      "title": "VitalsRisk Graph",
-      "track": "Healthcare",
-      "why_it_could_win": "Incorporates genuinely hard engineering by adapting graph intelligence and explainable models into a tight 16-hour medical application window."
+      "title": "EcoAudit Campus Sustainability Tracker",
+      "track": "Environment & Sustainability",
+      "why_it_could_win": "Targeting campus sustainability provides an immediate, easily demonstrable proof-of-concept right on the host university premises, ensuring a reliable live demo."
     },
     {
       "build_hours": 14,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent RAG system built specifically to help medical and biotech students navigate complex clinical guidelines and research papers.",
+      "pitch": "A lightweight micro-learning platform delivering curriculum-aligned bite-sized lessons via peer-to-peer local Wi-Fi mesh networking for low-connectivity regions.",
+      "problem_statement": "Education & Skill Development",
+      "stack": [
+        "React",
+        "IndexedDB",
+        "WebRTC",
+        "Express"
+      ],
+      "title": "ShikshaSetu Offline Adaptive Micro-Lessons",
+      "track": "Education & Skill Development",
+      "why_it_could_win": "Solves infrastructure limitations creatively by avoiding cloud dependency, aligning well with judges valuing practical, resource-constrained engineering execution."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A geo-fenced community safety and incident reporting app that clusters citizen reports and alerts local volunteers during emergencies.",
+      "problem_statement": "Safety & Security",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "PostgreSQL"
+        "Leaflet.js",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "BioAgent Student Support",
-      "track": "Healthcare",
-      "why_it_could_win": "Combines a proven multi-agent architecture with domain-specific document retrieval, satisfying judges looking for technical depth in education and healthcare."
+      "title": "NagarPrahari Community Safety Dispatch",
+      "track": "Safety & Security",
+      "why_it_could_win": "Features an immediately testable live dashboard map with push notifications and alert routing, hitting high marks for civic usability and clean UI design."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

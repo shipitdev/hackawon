@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:03.381472+00:00",
+  "generated_at": "2026-09-21T08:16:27.763694+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:wehack",
@@ -14,90 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "AI-powered satellite monitoring tool that automatically flags unauthorized industrial expansion and zoning violations using multimodal vision models and geographic data.",
+      "pitch": "An AI-powered predictive routing and incentive platform that shifts electric scooter and bike distribution around Dallas-Fort Worth transit hubs based on predicted commuter surges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "TypeScript",
+        "FastAPI"
+      ],
+      "title": "DFW Urban Micro-Mobility Demand Shifter",
+      "track": "",
+      "why_it_could_win": "Leverages a complex forecasting methodology modeled after proven competition winners while remaining hyper-localized to the Dallas-Fort Worth metroplex context where the in-person event is held."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent matching engine connecting surplus inventory from regional Texan farms directly to local food banks and independent grocers in real time.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
+        "LangGraph",
         "Next.js",
-        "Mapbox",
-        "Gemini API"
+        "Python"
       ],
-      "title": "GeoCompliance AI",
+      "title": "North Texas Local Food Supply Chain Connector",
       "track": "",
-      "why_it_could_win": "Leverages hard engineering by combining geospatial APIs with vision models, mirroring the technical complexity seen in winning projects like GeoNex-ATLAS."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace that negotiates micro-services between users and settles transactions securely using smart contract escrow.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "LangChain",
-        "Node.js"
-      ],
-      "title": "AgenticEscrow Marketplace",
-      "track": "",
-      "why_it_could_win": "Focuses on fully functional autonomous agent interactions and secure settlement, following the proven architecture of Dispatch."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated Anti-Money Laundering risk detection and investigation platform that combines graph intelligence and explainable machine learning to flag illicit transactions.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "NetworkX",
-        "LightGBM",
-        "AWS"
-      ],
-      "title": "RiskGraph AML",
-      "track": "",
-      "why_it_could_win": "Employs rigorous data science models like LightGBM combined with graph networks, matching the winning formula of Bito."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition and wellness platform that delivers personalized meal recommendations and continuous health insights based on real-time biometric inputs.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API",
-        "TailwindCSS"
-      ],
-      "title": "NutriSync AI",
-      "track": "",
-      "why_it_could_win": "Delivers an end-to-end consumer utility product with polished frontend and AI integration, successfully demonstrated by E-Foodiee-AI-Nutrition-Assistant."
+      "why_it_could_win": "Demonstrates sophisticated multi-agent orchestration that appeals to technical judges looking for rigorous architectural depth within a constrained timeframe."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A predictive analytics dashboard utilizing Poisson regression and rolling backtests to forecast AI safety incidents and regulatory risks.",
+      "pitch": "An automated satellite and permit monitoring dashboard designed to track industrial land use changes and surface water compliance metrics specifically tailored for North Texas zoning.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
         "Python",
-        "Statsmodels",
-        "Streamlit",
-        "Pandas"
+        "Leaflet",
+        "TailwindCSS"
       ],
-      "title": "IncidentCast",
+      "title": "Richardson Industrial Runoff and Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Tackles a mathematically rigorous forecasting challenge with calibrated prediction intervals, following the exact strategy of the Apart Research AI Forecasting winner."
+      "why_it_could_win": "Translates high-utility geographic data visualization into a compelling operational dashboard that solves concrete regional infrastructure monitoring problems."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A localized client acquisition and automated trust verification workflow optimized for service-based small businesses across the Dallas-Fort Worth area.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "DFW Small Business AI Trust Engine",
+      "track": "",
+      "why_it_could_win": "Focuses on immediate commercial viability and user acquisition mechanics that impress business-oriented hackathon judges looking for practical market applications."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A lightweight campus energy credit trading dashboard that simulates peer-to-peer renewable energy sharing and verifiable offset tracking for university dorms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "Texan Campus Green Energy Micro-Ledger",
+      "track": "",
+      "why_it_could_win": "Combines a trending sustainability theme with clean interface execution, making it instantly understandable and engaging for a general collegiate judging panel."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

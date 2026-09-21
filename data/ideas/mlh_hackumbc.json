@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:34.886724+00:00",
+  "generated_at": "2026-09-21T08:13:45.890356+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,101 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackumbc",
   "ideas": [
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered satellite monitoring tool mapping urban heat islands and canopy coverage in Baltimore to assist local municipal sustainability efforts.",
+      "pitch": "Real-time Charm City Circulator and MTA bus occupancy forecasting platform using historical GPS feeds and commuter density models.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Satellite APIs"
+        "Python",
+        "FastAPI",
+        "Leaflet.js"
       ],
-      "title": "Baltimore Urban Canopy & Heat-Island Monitor",
+      "title": "CharmCity TransitPulse",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by applying satellite monitoring and geospatial data to localized industrial and environmental compliance."
+      "why_it_could_win": "Builds directly on proven Poisson regression and forecasting methodologies from past winning projects while solving an immediate local pain point for Baltimore residents attending the event."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1275874285"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform customized for Baltimore communities, mapping affordable healthy meal options and local food banks.",
+      "pitch": "Geo-tagged civic issue reporting and prioritization dashboard for Baltimore city departments using satellite and street-level image validation.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "TypeScript",
-        "FastAPI",
-        "React"
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "CharmCity Local Food & Nutrition Navigator",
+      "title": "BaltiMend Community Infrastructure Logger",
       "track": "",
-      "why_it_could_win": "Mirrors the exact success of E-Foodiee-AI-Nutrition-Assistant by tailoring personalized nutrition and health guidance into a polished web app."
+      "why_it_could_win": "Leverages computer vision verification patterns seen in winning spatial intelligence projects, appealing directly to local civic pride and municipal judges."
     },
     {
-      "build_hours": 30,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1181344931"
+        "github:1275874285"
       ],
-      "pitch": "An AWS-powered risk detection platform combining graph intelligence and anomaly detection to flag supply chain disruptions and suspicious transactions.",
+      "pitch": "Personalized nutrition and meal-planning assistant optimized specifically for locally sourced ingredients and regional food deserts in Maryland.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "AWS",
-        "LightGBM",
-        "Python"
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
       ],
-      "title": "Port of Baltimore Supply Chain Risk & AML Agent",
+      "title": "BioRegion Nutrient Tracker",
       "track": "",
-      "why_it_could_win": "Leverages the technically rigorous pattern of Bito by building an AML and risk assessment platform focused on regional logistics."
+      "why_it_could_win": "Applies the successful architecture of past nutrition hackathon winners while narrowing the scope to address local nutritional equity."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A predictive analytics tool utilizing Poisson regression and rolling backtests to forecast campus safety incidents and optimize resource allocation.",
+      "pitch": "Multi-agent LLM platform that analyzes campus building utility data to recommend targeted energy-saving interventions.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
+        "LangGraph",
         "Python",
-        "Pandas",
-        "Scikit-learn"
+        "FastAPI"
       ],
-      "title": "UMBC Campus Incident & Safety Forecaster",
+      "title": "UMBC Campus Energy Audit Agent",
       "track": "",
-      "why_it_could_win": "Directly implements the hard statistical modeling seen in the ai-incident-forecasting winner using Poisson GAMs and calibrated prediction intervals."
+      "why_it_could_win": "Combines multi-agent orchestration frameworks that won previous green tech hackathons with a deployment target relevant to the host university."
     },
     {
-      "build_hours": 27,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous AI agent marketplace enabling Baltimore-based independent creators to sell goods with automated USDC escrow payments on Base.",
+      "pitch": "Autonomous supply chain risk and anomaly detection dashboard tracking vessel traffic and port logistics around the Port of Baltimore.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "TypeScript",
+        "LightGBM",
+        "Python",
+        "Next.js"
       ],
-      "title": "Local Artist & Maker Autonomous Escrow Marketplace",
+      "title": "PortWatch Baltimore",
       "track": "",
-      "why_it_could_win": "Replicates the winning architecture of Dispatch by combining functional AI agents with Web3 escrow transactions."
+      "why_it_could_win": "Employs high-performance tabular ML and graph risk scoring techniques proven in financial and operational risk-detection hackathon winners."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

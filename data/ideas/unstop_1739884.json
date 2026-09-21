@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:36.392579+00:00",
+  "generated_at": "2026-09-21T08:19:14.268057+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -11,6 +11,8 @@
       "sponsor-tech",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1739884",
@@ -20,79 +22,84 @@
       "inspired_by": [
         "github:1208011447"
       ],
-      "pitch": "A reverse-proxy gateway designed to intercept, sanitize, and block indirect prompt injections and jailbreaks targeting enterprise LLM APIs in real time.",
+      "pitch": "A real-time defense-in-depth API gateway intercepting LLM traffic to block novel prompt injections, indirect RAG poison payloads, and recursive jailbreaks using semantic guardrails.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "LangChain",
         "Docker"
       ],
-      "title": "PromptShield Proxy",
+      "title": "JailbreakGuard LLM Proxy",
       "track": "",
-      "why_it_could_win": "Directly targets the core theme of securing the AI-powered enterprise by solving LLM jailbreaking and prompt injection, following the defense-in-depth architectural pattern seen in winning security agents."
+      "why_it_could_win": "Directly targets the core cybersecurity challenge of securing the AI-powered enterprise by showcasing defense-in-depth architecture and zero-trust LLM middleware."
     },
     {
       "build_hours": 40,
       "inspired_by": [],
-      "pitch": "A retrieval-augmented generation security layer that scans ingested enterprise documents for training data poisoning and malicious vector embeddings before they enter the vector database.",
+      "pitch": "An enterprise firewall and behavioral analysis proxy that inspects natural language prompts and generated SQL queries to prevent LLM-driven SQL injection attacks and schema exfiltration.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ChromaDB",
-        "HuggingFace",
+        "PostgreSQL",
+        "SQLAlchemy",
         "FastAPI"
       ],
-      "title": "RAGSanitizer",
+      "title": "SQLi-Sentinel for NL2SQL",
       "track": "",
-      "why_it_could_win": "Addresses RAG Poisoning and Training Data Poisoning, two high-priority vulnerabilities for enterprise AI implementations highlighted in the challenge guidelines."
+      "why_it_could_win": "Focuses on NL2SQL Injection, a high-severity enterprise AI risk area specifically highlighted in the challenge guidelines."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1069255350"
+        "github:1196410850"
       ],
-      "pitch": "An autonomous runtime monitor that detects and blocks privilege escalation attacks and unauthorized tool calls within agentic AI workflows.",
+      "pitch": "A runtime privilege escalation monitor for autonomous agent loops that flags unauthorized tool execution, unauthorized API calls, and lateral movement attempts across microservice boundaries.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Node.js",
-        "NetworkX",
-        "PostgreSQL"
+        "OpenAI SDK",
+        "Redis"
       ],
-      "title": "AgenticGuard",
+      "title": "AgenticPrivGuard",
       "track": "",
-      "why_it_could_win": "Directly tackles Agentic AI Privilege Escalation, providing a novel defense mechanism for multi-agent enterprise deployments using graph intelligence and behavioral anomaly detection."
+      "why_it_could_win": "Addresses Agentic AI Privilege Escalation, tapping into cutting-edge runtime security research valued by red-teamers and enterprise security judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [],
-      "pitch": "A specialized security wrapper and query parser that neutralizes Natural Language to SQL (NL2SQL) injection attacks before database execution.",
+      "pitch": "An automated pipeline scanner that detects and neutralizes data poisoning payloads hidden inside documents before vector database ingestion and retrieval-augmented generation queries run.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "SQLAlchemy",
-        "FastAPI",
-        "Regex"
+        "ChromaDB",
+        "Sentence-Transformers",
+        "Streamlit"
       ],
-      "title": "SQLArmor AI",
+      "title": "RAG-Sanitizer",
       "track": "",
-      "why_it_could_win": "Focuses on NL2SQL Injection, a specific enterprise threat vector mentioned in the challenge criteria, offering robust technical depth and immediate utility for secure database interactions."
+      "why_it_could_win": "Solves RAG Poisoning vulnerabilities through rigorous data pipeline inspection, aligning with the red-teaming focus of the evaluation criteria."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1181344931"
+        "github:1069255350"
       ],
-      "pitch": "An automated security scanner for checking third-party AI models, datasets, and dependencies for vulnerabilities and backdoor triggers.",
+      "pitch": "An automated reconnaissance tool that scans enterprise open-source intelligence exposure, mapping leaked API keys, hardcoded prompt instructions, and exposed internal model endpoints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "PyTorch",
-        "Bandit"
+        "BeautifulSoup",
+        "FastAPI",
+        "React"
       ],
-      "title": "AISupplyChain Auditor",
+      "title": "AI-OSINT Footprint Analyzer",
       "track": "",
-      "why_it_could_win": "Solves AI Supply Chain Security challenges by combining static analysis with behavioral probing, fulfilling the demand for rigorous red-teaming tools."
+      "why_it_could_win": "Covers AI OSINT and AI Supply Chain Security tracks, providing an offensive security tool that penetration testers and bug-bounty hunters can immediately put into practice."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,97 +1,106 @@
 {
-  "generated_at": "2026-09-16T07:50:42.185814+00:00",
+  "generated_at": "2026-09-21T08:30:54.055600+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
+      "impact",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752020",
   "ideas": [
     {
-      "build_hours": 7,
+      "build_hours": 8,
       "inspired_by": [
-        "github:1181344931",
-        "github:1185920891"
+        "github:1170846981"
       ],
-      "pitch": "A transparent supply chain and micro-lending verification platform tailored for rural agricultural cooperatives using decentralized trust scores and localized offline-first mobile sync.",
+      "pitch": "A multilingual voice-first rural marketplace and direct procurement platform matching local farmers with institutional buyers.",
+      "problem_statement": "Agriculture & Rural Innovation",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "SQLite",
-        "TailwindCSS"
+        "React",
+        "Node.js",
+        "OpenAI Whisper API"
       ],
-      "title": "AgroTrust Rural Supply Ledger",
+      "title": "KrishiLink",
       "track": "Agriculture & Rural Innovation",
-      "why_it_could_win": "Directly targets the Agriculture & Rural Innovation track with a highly localized, practical solution that solves real financing frictions for farmers."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring pipeline that tracks localized environmental compliance violations, effluent discharge changes, and land use shifts for regional industrial zones.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "FastAPI",
-        "Leaflet.js"
-      ],
-      "title": "EcoWatch Industrial Compliance Mapper",
-      "track": "Sustainability and Environment",
-      "why_it_could_win": "Leverages technical complexity similar to high-scoring geospatial compliance tools, fitting neatly into the Sustainability and Environment track."
+      "why_it_could_win": "Directly targets rural supply chain inefficiencies, a major local pain point, and adopts the multilingual accessibility pattern proven by SAGACITY."
     },
     {
       "build_hours": 7,
       "inspired_by": [],
-      "pitch": "A rapid-response digital trust browser extension and API backend that uses lightweight graph heuristics to flag suspicious institutional domains and credential harvesting vectors in real-time.",
+      "pitch": "A browser extension and API gateway detecting zero-day phishing scams and malicious link injections targeting regional banking users.",
+      "problem_statement": "Cybersecurity & Digital Trust",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "Express",
-        "Chrome Extension APIs"
+        "Python",
+        "FastAPI",
+        "Chrome Extensions API"
       ],
-      "title": "SecureTrust Phishing & Credential Leak Analyzer",
+      "title": "PhishGuard",
       "track": "Cybersecurity & Digital Trust",
-      "why_it_could_win": "Targeting the Cybersecurity & Digital Trust track with a tangible, working extension demonstrates immediate utility to judges looking for deployable security tooling."
+      "why_it_could_win": "Focuses on high-stakes digital trust for local financial users, addressing an acute security challenge that judges instantly understand."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An automated energy audit and waste monitoring platform for institutional campuses using computer vision and IoT analytics.",
+      "problem_statement": "Sustainability and Environment",
+      "stack": [
+        "Python",
+        "Flask",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "EcoCampus AI",
+      "track": "Sustainability and Environment",
+      "why_it_could_win": "Applies concrete environmental impact metrics directly to campus infrastructure, fitting the exact venue and sustainability track criteria."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1132337467"
+      ],
+      "pitch": "An offline-first multilingual document intelligence extractor that converts unstructured medical records into structured electronic health profiles.",
+      "problem_statement": "Artificial Intelligence and Machine Learning",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tesseract.js",
+        "Gemini Nano"
+      ],
+      "title": "DocuPulse",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Leverages localized multimodal extraction to solve real healthcare administrative friction, mirroring the winning recipe of LibrAI."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1087704265"
+        "github:1234067949"
       ],
-      "pitch": "A predictive machine learning model tailored for regional crop yield forecasting and weather anomaly risk scoring, built using historical precipitation datasets and localized soil metrics.",
+      "pitch": "A lightweight predictive dashboard forecasting localized water contamination risks using seasonal sensor inputs and machine learning.",
+      "problem_statement": "Sustainability and Environment",
       "stack": [
         "Python",
-        "Jupyter Notebook",
         "Scikit-Learn",
-        "Streamlit"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "AgriPredict Yield & Risk Engine",
-      "track": "Agriculture & Rural Innovation",
-      "why_it_could_win": "Applies rigorous forecasting and regression methodologies similar to winning ML prediction platforms, standing out in the Agriculture & Rural Innovation track."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI multi-agent orchestration framework designed to ingest security logs, summarize vulnerability alerts, and suggest prioritized remediation steps for municipal IT infrastructure.",
-      "stack": [
-        "Python",
-        "LangChain",
-        "FastAPI",
-        "Next.js"
-      ],
-      "title": "TrustNet Multi-Agent Incident Response Advisor",
-      "track": "Cybersecurity & Digital Trust",
-      "why_it_could_win": "Combines advanced multi-agent architecture with the Cybersecurity & Digital Trust track, ticking the box for genuinely hard engineering in a short timeframe."
+      "title": "AquaPredict",
+      "track": "Sustainability and Environment",
+      "why_it_could_win": "Replicates the predictive environmental monitoring success of iForeSea by offering clear, measurable risk metrics within a compact dashboard."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

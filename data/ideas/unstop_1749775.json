@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:19.864582+00:00",
+  "generated_at": "2026-09-21T08:27:48.566493+00:00",
   "grounding": {
     "domains": [
       "gaming"
@@ -10,85 +10,94 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749775",
   "ideas": [
     {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1022921066"
+      ],
+      "pitch": "A real-time overlay and audio communication tool designed for 4-player BGMI squads to analyze match zones and coordinate drops.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React Native"
+      ],
+      "title": "BattleZone Squad Telemetry HUD",
+      "track": "",
+      "why_it_could_win": "Tailored specifically for the 4-player team requirement and BYOD format of this esports tournament, giving competing teams an edge in coordination."
+    },
+    {
       "build_hours": 36,
       "inspired_by": [
         "github:1022921066"
       ],
-      "pitch": "A real-time voice and text tactical assistant for BGMI squads that analyzes map coordinates and gives live callouts during tournament matches.",
-      "stack": [
-        "Python",
-        "WebSockets",
-        "FastAPI",
-        "React Native"
-      ],
-      "title": "BattleZone Coach AI",
-      "track": "",
-      "why_it_could_win": "Leverages the real-time interaction patterns from winning entries like loremaster to solve the exact tactical communication challenges in 4-player BGMI squads."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1052196050"
-      ],
-      "pitch": "An experimental reinforcement learning bot trained on Battle Royale match trajectories to simulate enemy movement patterns for pre-tournament practice.",
+      "pitch": "An automated voice assistant that reviews previous match drops and suggests optimal landing spots based on cumulative tournament scoring dynamics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "PyTorch",
-        "OpenCV"
+        "WebRTC"
       ],
-      "title": "BGMI Autonomous Squad Bot",
+      "title": "DropZone AI Strat Coach",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by adapting game AI simulation concepts similar to the OpenAI Open Model Hackathon winner, bota."
+      "why_it_could_win": "Leverages real-time voice interaction patterns similar to previous hackathon winners, highly applicable to fast-paced mobile battle royales."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:870537595"
       ],
-      "pitch": "A lightning-fast web companion for tracking live elimination scores, cumulative map rankings, and tournament leaderboards across both rounds.",
+      "pitch": "A rapid-deployment web dashboard for tracking multi-round eliminations and live cumulative scores across multiple maps for tournament organizers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
+        "Node.js",
         "Firebase"
       ],
-      "title": "BattleZone Match Stats Ledger",
+      "title": "BGMI Tournament Live Bracket & Leaderboard",
       "track": "",
-      "why_it_could_win": "Solves the exact administrative scoring headache of the two-round cumulative points format, ensuring an error-free live display for tournament organizers."
+      "why_it_could_win": "Solves an immediate logistical pain point for event coordinators managing multi-round tournament scoring."
     },
     {
-      "build_hours": 30,
+      "build_hours": 20,
       "inspired_by": [
-        "github:759869516"
+        "github:870537595"
       ],
-      "pitch": "A 2D top-down mini-game enabling BGMI teams to practice parachute drop timings and vehicle rotations on replica Erangel and Miramar layouts.",
+      "pitch": "A lightweight web tool that parses match result summaries and maps out elimination heatmaps for post-match analysis.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C#",
-        "Unity"
+        "JavaScript",
+        "Canvas API",
+        "TailwindCSS"
       ],
-      "title": "Tactical Drop Simulator",
+      "title": "Esports Match Replay Visualizer",
       "track": "",
-      "why_it_could_win": "Focuses on gamified strategy rehearsal, utilizing a working mini-game approach that consistently wins gaming-focused hackathons."
+      "why_it_could_win": "Delivers a polished, fully working data visualization demo within a tight 24-48 hour window."
     },
     {
-      "build_hours": 28,
+      "build_hours": 32,
       "inspired_by": [],
-      "pitch": "An analytics overlay that parses post-match screenshots and replay data to generate team movement and engagement heatmaps.",
+      "pitch": "A quick ping and communication utility app built for BYOD mobile devices to minimize latency during high-stakes tournament rounds.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "OpenCV",
-        "Flask"
+        "Flutter",
+        "Dart",
+        "WebSockets"
       ],
-      "title": "SquadSynergy Heatmap",
+      "title": "SquadSync Mobile Companion",
       "track": "",
-      "why_it_could_win": "Provides concrete performance metrics that competitive BGMI teams desperately need for post-match debriefs, ensuring high utility for players."
+      "why_it_could_win": "Directly targets the BYOD constraint of the event by providing a companion tool running smoothly on personal smartphones."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

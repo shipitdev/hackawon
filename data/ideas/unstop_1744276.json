@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:53:33.190681+00:00",
+  "generated_at": "2026-09-21T08:21:33.255010+00:00",
   "grounding": {
     "domains": [
       "sustainability",
@@ -10,6 +10,8 @@
       "technical-depth",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1744276",
@@ -17,86 +19,84 @@
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Drone-based multispectral crop monitoring and automated fertilizer prescription system tailored for smallholder farmers.",
-      "stack": [
-        "Python",
-        "OpenCV",
-        "React",
-        "Node.js"
-      ],
-      "title": "AgriVision-Drone",
-      "track": "Drone Tech",
-      "why_it_could_win": "Directly targets the Drone Tech and Agriculture domains requested by the District Industries Centre, offering a practical tool for rural farmers with a working simulation demo."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1143576965"
-      ],
-      "pitch": "Real-time water quality monitoring and anomaly detection platform using low-cost sensor streams and geographic mapping.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "FastAPI"
-      ],
-      "title": "CleanStream AI",
-      "track": "Sustainable Development",
-      "why_it_could_win": "Fits the Sustainable Development domain precisely, aligning with government priorities for water conservation and environmental health in rural districts."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "Offline-first micro-lending and digital payment tracker designed specifically for rural self-help groups and cooperative banks.",
+      "pitch": "A supply chain optimization and local marketplace platform for farmers featuring direct-to-retail price discovery and logistics scheduling.",
+      "problem_statement": "No published statement",
       "stack": [
-        "React Native",
-        "Node.js",
-        "SQLite",
-        "Express"
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "RuralLedger",
-      "track": "FinTech",
-      "why_it_could_win": "Focuses on the FinTech domain with an emphasis on true financial inclusion for unbanked regions, appealing directly to government-backed economic development goals."
+      "title": "KrishiGraph",
+      "track": "Agriculture",
+      "why_it_could_win": "Targets the Agriculture domain explicitly, leveraging localized logistics matching which resonates well with regional economic development initiatives."
     },
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1073244675"
+        "github:1155558847"
       ],
-      "pitch": "Low-bandwidth telemedicine and offline symptom triage app for remote healthcare clinics with localized voice assistance.",
+      "pitch": "An AI-powered smart waste management bin monitoring and route optimization dashboard for municipal corporations.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Flutter",
         "Python",
-        "WhisperAPI",
-        "FastAPI"
+        "FastAPI",
+        "Leaflet.js",
+        "SQLite"
       ],
-      "title": "MedReach Sync",
-      "track": "Modern Healthcare",
-      "why_it_could_win": "Addresses Modern Healthcare by solving a critical infrastructure constraint in rural India—poor internet connectivity—making the demo extremely relevant to local judges."
+      "title": "GridPulse Waste",
+      "track": "Sustainable Development",
+      "why_it_could_win": "Aligns with District Industries Centre priorities on smart civic infrastructure and sustainable development."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A lightweight browser-based simulator and flight path planner for automated agricultural crop monitoring drones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Canvas API",
+        "Turf.js"
+      ],
+      "title": "DronePath AI",
+      "track": "Drone Tech",
+      "why_it_could_win": "Tackles Drone Tech with a visual, interactive mapping interface that makes for an engaging live demo within the short 8-hour timeframe."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "An offline-first digital payment and micro-lending ledger for rural self-help groups and small vendors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "IndexedDB",
+        "TailwindCSS"
+      ],
+      "title": "MicroPay Ledger",
+      "track": "FinTech",
+      "why_it_could_win": "Focuses on financial inclusion in the FinTech domain, prioritizing practical UI flows that appeal to government-backed judges."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1073244675"
       ],
-      "pitch": "AI-driven vocational training roadmap generator that translates local industrial demands into personalized multilingual micro-lessons.",
+      "pitch": "An affordable telemedicine symptom pre-screener and priority queue generator for rural community health centers.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "OpenAI API"
+        "Python",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "SkillPath Bharat",
-      "track": "Smart Education",
-      "why_it_could_win": "Targets the Smart Education domain by directly supporting skill development initiatives, matching the mandate of regional economic development boards."
+      "title": "SwasthyaTriage",
+      "track": "Modern Healthcare",
+      "why_it_could_win": "Addresses Modern Healthcare with a clear focus on local accessibility and operational efficiency for low-resource clinics."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

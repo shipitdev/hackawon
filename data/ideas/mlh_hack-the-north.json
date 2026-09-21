@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:48.232001+00:00",
+  "generated_at": "2026-09-21T08:11:57.755172+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-the-north",
@@ -14,85 +16,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "An automated risk and anomaly detection platform for regional transit networks using graph intelligence and LightGBM, custom-built for local infrastructure analysis.",
+      "pitch": "A real-time transit crowd and wheelchair accessibility forecasting tool built using historical GRT data and lightweight spatial models.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "Leaflet"
       ],
-      "title": "Waterloo Transit Graph Intel",
+      "title": "Waterloo Transit Occupancy & Accessibility Predictor",
       "track": "",
-      "why_it_could_win": "Mirrors the exact technical architecture of Bito which won 1st place at the DIGITIMES AI Innovation Hackathon by combining graph intelligence and explainable machine learning."
+      "why_it_could_win": "Addresses local Waterloo infrastructure pain points that appeal directly to local judges and transit stakeholders."
     },
     {
-      "build_hours": 40,
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated Ontario Standard Lease clause analyzer and historical rent increase calculator designed specifically for Waterloo student housing markets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind",
+        "Python"
+      ],
+      "title": "Co-op Housing Rent Shield & Lease Auditor",
+      "track": "",
+      "why_it_could_win": "Solves an urgent, highly relatable problem for the thousands of university students renting in Waterloo every term."
+    },
+    {
+      "build_hours": 32,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "A decentralized marketplace where student autonomous AI agents complete campus errands and micro-tasks, settling payments instantly via USDC escrow on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "Autonomous Campus Agent Escrow",
-      "track": "",
-      "why_it_could_win": "Follows the winning pattern of Dispatch at the Synthesis Hackathon by implementing a functional autonomous agent marketplace with real crypto payment escrow."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "AI-powered satellite imagery monitoring platform that tracks and flags industrial land compliance and environmental changes around Ontario industrial zones.",
+      "pitch": "A peer-to-peer booking platform for quiet breakout rooms, private study nooks, and makeshift workspaces across university campus buildings.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "PostGIS"
+        "Next.js",
+        "PostgreSQL",
+        "Prisma"
       ],
-      "title": "EcoGrid Satellite Monitor",
+      "title": "Campus Study Spot Micro-Marketplace",
       "track": "",
-      "why_it_could_win": "Employs genuine hard engineering solving a complex computer vision and spatial data pipeline challenge, similar to the GeoNex-ATLAS runner-up project."
+      "why_it_could_win": "Taps into an everyday campus annoyance with a tight, highly demoable MVP scope."
     },
     {
-      "build_hours": 38,
+      "build_hours": 34,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support and sustainability resource platform combining LangGraph, RAG, and personalized AI agents to optimize campus energy usage.",
+      "pitch": "A multi-agent system that scrapes disparate campus club feeds, Discord servers, and Instagram pages to build a unified event feed with personalized recommendations.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
+        "LangChain",
         "OpenAI API",
         "Next.js"
       ],
-      "title": "Campus GreenNovation Multi-Agent Hub",
+      "title": "Waterloo Club Event Aggregator & RSVP Agent",
       "track": "",
-      "why_it_could_win": "Directly builds on the winning architecture of the greennovation-ai-platform by utilizing multi-agent orchestration and advanced retrieval systems."
+      "why_it_could_win": "Leverages multi-agent workflow architecture similar to winning projects while solving a real campus discovery problem."
     },
     {
-      "build_hours": 44,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive risk dashboard using Poisson GAMs and multinomial share models to forecast algorithmic trading anomalies and financial system incidents with calibrated 90% prediction intervals.",
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An automated team-forming tool that analyzes participant GitHub profiles and skill tags to instantly suggest balanced hackathon teams.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Statsmodels",
-        "Streamlit"
+        "TypeScript",
+        "React",
+        "Node.js",
+        "GitHub API"
       ],
-      "title": "AI Incident Forecaster for Local Fintech",
+      "title": "Hackathon Project Matchmaker & Skill Gap Analyzer",
       "track": "",
-      "why_it_could_win": "Replicates the rigorous quantitative modeling and statistical depth that secured 1st place for the ai-incident-forecasting project at Apart Research."
+      "why_it_could_win": "Meta-hackathon applications always resonate strongly with hackathon organizers and judges present at the venue."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

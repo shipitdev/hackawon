@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:59.126689+00:00",
+  "generated_at": "2026-09-21T08:19:36.814727+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1742320",
@@ -17,83 +19,91 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite imagery and change-detection platform to monitor local industrial expansion and zoning compliance around Coimbatore industrial corridors.",
+      "pitch": "An AI-powered satellite and campus camera monitoring platform designed for industrial and educational land compliance, providing real-time anomaly detection and alert dispatching.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "OpenCV",
-        "Next.js"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "KPRIET Campus Industrial Land Compliance Satellite Monitor",
-      "track": "",
-      "why_it_could_win": "Leverages the specific AI and institutional focus of the CSE (AI/ML) department hosting the hackathon by applying computer vision to geographic intelligence."
+      "title": "KPRIET Campus Autonomous Surveillance & Safety System",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Leverages the winning pattern of GeoNex-ATLAS by applying computer vision and geospatial anomaly detection to a physical campus setting, which directly appeals to judges from an engineering and AI/ML department."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "Computer vision tray analysis combined with personalized nutritional insights tailored for hostel students at KPR Institute.",
+      "pitch": "An intelligent dietary management and meal recommendation platform tailored for college hostels, analyzing student nutritional intake and suggesting balanced meal plans from campus mess menus.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "Streamlit",
         "FastAPI",
-        "React Native",
-        "TensorFlow Lite"
+        "Gemini API"
       ],
-      "title": "Smart Campus Mess & Canteen AI Nutrition and Waste Tracker",
-      "track": "",
-      "why_it_could_win": "Directly targets local campus pain points and student wellness, making it immediately relatable and practical for the judging panel."
+      "title": "SmartMess AI Nutrition & Health Assistant",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Directly mirrors the winning execution of E-Foodiee-AI-Nutrition-Assistant, targeting a hyper-local pain point (campus food and student health) that judges immediately understand and appreciate."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "AI-powered video and image intelligence platform that automatically tags, indexes, and searches through hours of hackathon event footage for sponsors and participants.",
-      "stack": [
-        "HTML",
-        "Python",
-        "Whisper API",
-        "Vector Embeddings"
-      ],
-      "title": "IEEE CIS Student Branch Autonomous Event Media Indexer",
-      "track": "",
-      "why_it_could_win": "Solves an immediate logistical problem for the organizing IEEE Computational Intelligence Society chapter during the live event."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "Lightweight graph intelligence platform using Focal LightGBM to detect anomalous financial patterns and potential fraud for regional MSMEs and student startup ventures.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "Local MSME AML and Transaction Risk Graph Intelligence",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph intelligence and gradient boosting within a tight 24-hour execution window."
-    },
-    {
-      "build_hours": 19,
-      "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "Poisson GAM and multinomial forecasting platform predicting computing cluster failures and server resource bottlenecks during heavy academic lab schedules.",
+      "pitch": "A predictive analytics tool that uses statistical modeling and machine learning to forecast campus security incidents, resource bottlenecks, and facility maintenance needs based on historical operational data.",
+      "problem_statement": "No published statement",
       "stack": [
         "Jupyter Notebook",
         "Python",
-        "Statsmodels",
-        "Streamlit"
+        "Pandas",
+        "Scikit-Learn",
+        "Plotly"
       ],
-      "title": "AI Incident and Server Load Forecaster for College Labs",
-      "track": "",
-      "why_it_could_win": "Brings rigorous statistical modeling and calibrated prediction intervals that appeal to technical judges looking for mathematical depth over simple wrapper apps."
+      "title": "CampusGuard AI Incident Forecasting Engine",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Uses advanced statistical forecasting (similar to the Apart Research winning project) rather than just a basic wrapper, showing genuine technical depth in a 24-hour window."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An intelligent video processing platform that turns unstructured recorded lectures and institutional webinars into searchable, transcribed, and summarized knowledge bases.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Whisper API",
+        "Vector DB"
+      ],
+      "title": "AcademiVideo: AI Lecture Intelligence Platform",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Replicates the winning strategy of LibrAI by solving a massive unstructured data problem that is universally relevant to an educational institution hosting the hackathon."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered client acquisition and trust verification engine tailored for university health centers and campus medical clinics to streamline patient onboarding and triage.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "CampusTrust AI Patient & Clinic Intake Engine",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Follows the exact rapid-prototype and domain-specific workflow seen in Global-Smile, focusing heavily on a polished UI and practical real-world conversion utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

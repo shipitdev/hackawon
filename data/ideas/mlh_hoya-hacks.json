@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:02.250599+00:00",
+  "generated_at": "2026-09-21T08:14:12.855611+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hoya-hacks",
@@ -14,86 +16,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-powered legislative tracking and impact forecasting platform tailored for DC policy analysts, using regression and RAG to predict regulatory bottlenecks.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js",
-        "LangChain"
-      ],
-      "title": "PolicyScan DC",
-      "track": "",
-      "why_it_could_win": "Leverages the Washington DC location context to appeal to local policy, government, and legal judges looking for practical civic tech applications."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
+        "github:1087704265",
         "github:1213911408"
       ],
-      "pitch": "A multi-agent platform utilizing LangGraph to automate local constituent service requests and route them to the correct District agency.",
+      "pitch": "An AI-powered legislative tracking and local impact forecasting tool tailored for Washington, DC policy researchers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "CapGov Multi-Agent Citizen Support",
-      "track": "",
-      "why_it_could_win": "Directly addresses local municipal governance challenges in Washington DC, matching high-impact civic use cases."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient trust and acquisition engine customized for healthcare practices in the Washington metropolitan area.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
         "Next.js",
-        "Prisma"
-      ],
-      "title": "BioTrust Clinic DC",
-      "track": "",
-      "why_it_could_win": "Applies a proven hackathon-winning architecture to the local healthcare market, ensuring clear utility for medical judges."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "A predictive carbon-tracking tool combining Poisson regression and geospatial data to forecast urban transit emissions in the DMV area.",
-      "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "FastAPI"
+        "Gemini API"
       ],
-      "title": "MetroGreen Emissions Forecaster",
+      "title": "PolicyLens DC",
       "track": "",
-      "why_it_could_win": "Combines hard statistical modeling with environmental utility, a combination that heavily appeals to technical judges."
+      "why_it_could_win": "Leverages the unique political and geographic context of Washington, DC, making it immediately relevant to local judges and policy experts."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1181344931"
+        "github:1181344931",
+        "github:1155558847"
       ],
-      "pitch": "An automated risk-detection and graph intelligence platform designed to audit government procurement contracts for fraud and anomalies.",
+      "pitch": "Automated regulatory risk detection and compliance mapping platform for federal contractors operating in the DC area.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LangGraph",
+        "PostgreSQL"
+      ],
+      "title": "CapitolCompliance AI",
+      "track": "",
+      "why_it_could_win": "Targets federal compliance and government contracting, a high-value domain deeply connected to the local Washington, DC economy."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Real-time transit optimization and commuter anomaly detection platform built specifically for the Washington Metro system.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LightGBM",
-        "Neo4j",
-        "Python"
+        "React",
+        "Python",
+        "Leaflet.js"
       ],
-      "title": "ProcureGraph DC",
+      "title": "MetroPulse DC",
       "track": "",
-      "why_it_could_win": "Targets federal and local government transparency, making it exceptionally relevant for a hackathon hosted in Washington, DC."
+      "why_it_could_win": "Solves a hyper-local, highly relatable commuter problem that every attendee and judge in Washington, DC experiences daily."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1241231621"
+      ],
+      "pitch": "An autonomous multi-agent grant discovery and proposal drafting engine for Washington, DC non-profits and community initiatives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "CivicGrant Matcher",
+      "track": "",
+      "why_it_could_win": "Addresses community impact in DC through advanced multi-agent workflows, appealing directly to judges looking for local social good."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Culturally tailored nutrition and wellness platform designed for international diplomatic staff and diverse communities in Washington, DC.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "PostgreSQL"
+      ],
+      "title": "DiplomatDiet DC",
+      "track": "",
+      "why_it_could_win": "Connects health and wellness tech with DC's uniquely international demographic profile for high judges' interest."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

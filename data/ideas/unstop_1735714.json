@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:51.316284+00:00",
+  "generated_at": "2026-09-21T08:18:29.264265+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1735714",
@@ -14,70 +16,82 @@
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A local competitive programming duel simulator and test-case mutation engine built specifically for 1v1 algorithmic battles, allowing participants to automatically generate adversarial edge cases and stress-test their opponent's code solutions during the final hacking phase.",
+      "pitch": "A 1v1 competitive programming training simulator that auto-generates edge-case test suites and simulates live opponent race conditions to prepare for Battlecode rounds.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "FastAPI",
         "TypeScript",
-        "Docker"
+        "Monaco Editor"
       ],
-      "title": "AlgoBattleBench",
+      "title": "AlgoDuellist",
       "track": "",
-      "why_it_could_win": "Directly targets Round 3's Final Showdown rules where participants must test and break other participants' solutions using carefully designed test cases."
+      "why_it_could_win": "Directly targets the core 1v1 algorithmic battle format of the hackathon by letting participants practice rapid debugging and test-case breaking under time constraints."
     },
     {
       "build_hours": 30,
       "inspired_by": [],
-      "pitch": "An AI-powered algorithm optimization and real-time complexity analyzer that suggests more efficient data structures and spots bottlenecked code snippets during strict time-constraint 1v1 coding rounds.",
+      "pitch": "An adversarial test-case generator designed for the final showdown round, letting players automatically discover logic flaws and corner cases in competitor code structures.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "Monaco Editor"
+        "Docker",
+        "AST Parser",
+        "React"
       ],
-      "title": "DuelOptima",
+      "title": "TestBreaker",
       "track": "",
-      "why_it_could_win": "Leverages technical difficulty and data structures & algorithms (DSA) optimization, matching the core algorithmic problem-solving focus of the competition."
+      "why_it_could_win": "Addresses the specific mechanics of Round 3 where participants must test and break other participants' solutions using carefully crafted test cases."
     },
     {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A telemetry and submission history tracker for competitive programming matches that visualizes compilation errors, runtime failures, and typing cadences to predict opponent performance patterns across tournament rounds.",
+      "pitch": "A real-time visual execution tracer for competitive programming submissions that graphs time-complexity and memory constraints during head-to-head battles.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
+        "WebSockets",
+        "Chart.js"
+      ],
+      "title": "BattleTrace",
+      "track": "",
+      "why_it_could_win": "Gives solo competitors a massive strategic advantage by visually highlighting performance bottlenecks mid-match, aligning with the event's focus on DSA and debugging."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A tournament bracket and live-leaderboard manager optimized for rapid IEEE CS Chapter style competitive programming events with integrated submission timing analytics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
         "TailwindCSS"
       ],
-      "title": "CodeClash Replay Analyzer",
+      "title": "Strategos",
       "track": "",
-      "why_it_could_win": "Provides tactical advantages for strategic gameplay and adaptation during multi-round elimination brackets."
+      "why_it_could_win": "Provides immediate utility to the IEEE CS Chapter organizers running the event, making it an engaging and practical tool for managing the multi-round structure."
     },
     {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A property-based testing tool that automatically generates pathological integer and graph test cases for common algorithmic problems to break suboptimal solutions during the hacking phase.",
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An LLM-assisted sparring partner that simulates human opponents of varying skill levels for solo competitors practicing for Battlecode's 1v1 challenges.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Hypothesis",
-        "Click"
+        "LangChain",
+        "Streamlit",
+        "OpenAI API"
       ],
-      "title": "Adversarial Testcase Fuzzer",
+      "title": "CodeClash AI",
       "track": "",
-      "why_it_could_win": "Addresses the specific hacking phase requirement of the final round by automating the creation of failing edge cases."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "A real-time leaderboard analytics dashboard for multi-round coding tournaments that computes win probabilities, historical match-ups, and pacing strategies for competitors.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js"
-      ],
-      "title": "StrategyMatrix",
-      "track": "",
-      "why_it_could_win": "Improves time-management and psychological advantage in competitive tournament brackets by displaying live pacing metrics."
+      "why_it_could_win": "Crucial for a solo-developer team (1-1 team size) needing a high-impact, feature-complete tool that mimics the competitive pressure of Round 1 and Round 2."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

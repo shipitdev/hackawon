@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:42.195233+00:00",
+  "generated_at": "2026-09-21T08:14:53.043895+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:marihacks",
@@ -14,85 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "Satellite-based industrial and environmental risk compliance monitoring dashboard tailored for Montreal's port and industrial sectors.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "OpenCV"
-      ],
-      "title": "MontrealLocalRiskMap",
-      "track": "",
-      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS by applying satellite monitoring and compliance tracking to a localized industrial use case."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-powered nutrition platform that integrates local grocery inventories in Montreal to generate budget-friendly healthy meal plans.",
+      "pitch": "A forecasting tool predicting e-bike and scooter maintenance bottlenecks during Montreal weather shifts using Poisson regression.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "QuebecAgriNutri",
+      "title": "Montreal Winter Micro-Mobility Predictor",
       "track": "",
-      "why_it_could_win": "Builds directly on the E-Foodiee win by adding localized supermarket supply chain data to make the health recommendations actionable."
+      "why_it_could_win": "Follows the winning pattern of rigorous statistical modeling and forecasting seen in AI-incident-forecasting, appealing to judges looking for mathematical depth over simple wrappers."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "Multi-agent student support and campus sustainability platform designed for Montreal universities to track and reduce energy waste.",
+      "pitch": "An explainable graph intelligence platform checking local Montreal artisan supply chains for financial risks and sanctions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
         "Python",
-        "TailwindCSS"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "EcoCampusAgent",
+      "title": "Montreal Local Vendor AML & Trust Verifier",
       "track": "",
-      "why_it_could_win": "Leverages the winning formula of the greennovation-ai-platform by combining multi-agent LangGraph workflows with localized campus utility data."
+      "why_it_could_win": "Employs heavy graph intelligence and explainable machine learning, directly mirroring the technical architecture of Bito which won 1st place."
     },
     {
-      "build_hours": 35,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1241231621"
+        "github:1185920891"
       ],
-      "pitch": "AI-driven patient acquisition, appointment triage, and trust-building engine specifically customized for specialized clinics in Quebec.",
+      "pitch": "Autonomous AI agent platform facilitating transparent carbon credit purchases for local businesses using stablecoin escrow.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
+        "JavaScript",
+        "Base",
+        "LangChain",
+        "USDC"
       ],
-      "title": "LocalProsthoTrust",
+      "title": "Quebec SME Carbon Offsetting Marketplace",
       "track": "",
-      "why_it_could_win": "Replicates the Global-Smile prize-winning approach by solving a high-value niche for local medical professionals with an immediate ROI pitch."
+      "why_it_could_win": "Combines multi-agent orchestration with autonomous escrow payments, a proven winning formula from Synthesis Hackathon's Locus track."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Hyper-local AI nutrition assistant tailored to student budget constraints, campus dining halls, and Montreal grocers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "McGill & Concordia Student Wellness & Nutrition Router",
+      "track": "",
+      "why_it_could_win": "Replicates the consumer-facing polish and rapid utility delivery of E-Foodiee, focusing on immediate localized student pain points."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "AWS-powered graph intelligence and AML risk detection platform for regional fintech startups monitoring supply chain transactions.",
+      "pitch": "Satellite monitoring dashboard tracking industrial land use and environmental compliance along the St. Lawrence Seaway.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "Neo4j",
-        "LightGBM"
+        "Leaflet.js",
+        "Python",
+        "Sentinel Hub API"
       ],
-      "title": "MontrealSupplyGraph",
+      "title": "St. Lawrence River Industrial Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Matches the technically rigorous approach of Bito, emphasizing graph-based anomaly detection that appeals to technical judges."
+      "why_it_could_win": "Addresses a tangible regional infrastructure and environmental tracking problem using complex spatial data analysis, similar to GeoNex-ATLAS."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

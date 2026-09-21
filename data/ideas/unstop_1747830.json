@@ -1,96 +1,106 @@
 {
-  "generated_at": "2026-09-13T07:56:47.117179+00:00",
+  "generated_at": "2026-09-21T08:25:39.041246+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1747830",
   "ideas": [
     {
       "build_hours": 7,
-      "inspired_by": [],
-      "pitch": "An AI-powered simulation and optimization tool tailored for IEEE APS (Antennas and Propagation Society) challenges, using machine learning to design novel metamaterial antenna shapes for multi-band satellite communication.",
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight bridge protocol enabling low-latency communication across heterogeneous IoT and communication networks, built for IEEE ComSoc and APS domains.",
+      "problem_statement": "PARADOX — A Hackathon in the Madness of the Multiverse: Bringing together diverse technical communities under one platform to build practical solutions across communication and wireless domains.",
       "stack": [
         "Python",
-        "PyTorch",
-        "NumPy",
-        "Streamlit"
+        "FastAPI",
+        "WebSockets",
+        "MQTT"
       ],
-      "title": "Multiverse Antenna Array Optimizer",
+      "title": "Multiverse Sync: Interoperable Comms Bridge",
       "track": "",
-      "why_it_could_win": "Targeting the IEEE APS collaboration background of the hackathon organizers gives an edge by directly appealing to the technical domain expertise of the judging panel."
+      "why_it_could_win": "Directly aligns with the IEEE ComSoc and APS organizing societies by focusing on network connectivity and communication topologies within an 8-hour timeframe, emphasizing a working prototype."
     },
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1087704265"
+        "github:1092255844"
       ],
-      "pitch": "A dynamic routing dashboard for ad-hoc communication networks designed under IEEE ComSoc principles, predicting node failures and automatically rerouting packets using lightweight anomaly detection.",
+      "pitch": "An interactive decision-mapping platform that visualizes branching operational scenarios in real-time, designed for rapid crisis management and strategic planning.",
+      "problem_statement": "PARADOX — A Hackathon in the Madness of the Multiverse: Inspired by the concept of a multiverse, the event challenges participants to explore different possibilities and transform their ideas into practical solutions.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "WebSockets",
-        "Python"
+        "React",
+        "TailwindCSS",
+        "Node.js"
       ],
-      "title": "ComSoc Mesh Resilience Engine",
+      "title": "ChronoLens: Multiverse Scenario Simulator",
       "track": "",
-      "why_it_could_win": "Directly aligns with the IEEE ComSoc co-organizer theme, offering tangible engineering depth that stands out in a short 8-hour format."
+      "why_it_could_win": "Capitalizes directly on the 'multiverse' theme of the hackathon while delivering a high-impact, easily demonstrable visual interface that appeals to judges looking for creativity and startup scope."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1241231621"
+        "github:1185527998"
       ],
-      "pitch": "A privacy-first emergency communication protocol built in collaboration with IEEE WIE, featuring encrypted decentralized credential verification and low-bandwidth distress signal broadcasting.",
+      "pitch": "An accessibility mapping and navigation tool tailored for diverse campus environments, integrating voice commands and visual pathfinding cues.",
+      "problem_statement": "PARADOX — A Hackathon in the Madness of the Multiverse: Organized in collaboration with IEEE WIE, focusing on inclusive innovation, problem-solving, and practical technical solutions.",
       "stack": [
-        "React",
-        "TypeScript",
-        "TailwindCSS",
-        "WebRTC"
+        "JavaScript",
+        "Leaflet.js",
+        "Web Speech API",
+        "HTML5"
       ],
-      "title": "WIE SafeComm Link",
+      "title": "AccessPulse: Inclusive Multimodal Campus Navigator",
       "track": "",
-      "why_it_could_win": "Appeals directly to the IEEE WIE (Women in Engineering) focus on societal impact and community safety, scoring high on the impact and feasibility evaluation criteria."
+      "why_it_could_win": "Resonates strongly with IEEE WIE (Women in Engineering) core values of inclusivity and community impact, scoring high on feasibility and real-world social impact."
     },
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A multivariate time-series forecasting web app inspired by the multiverse theme, visualizing divergent future operational states for smart grid infrastructure using probabilistic regression models.",
+      "pitch": "A real-time signal monitoring and classification dashboard designed to detect anomalies in communication spectrums using lightweight machine learning models.",
+      "problem_statement": "PARADOX — A Hackathon in the Madness of the Multiverse: Collaboration with IEEE ComSoc and APS, challenging participants to build practical solutions for technical infrastructure.",
       "stack": [
         "Python",
-        "Jupyter",
-        "FastAPI",
-        "Chart.js"
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "Quantum Paradox State Predictor",
+      "title": "SignalShift: Spectrum Anomaly Detection Engine",
       "track": "",
-      "why_it_could_win": "Leverages proven patterns from winning forecasting projects while brilliantly playing into the event's 'Paradox of the Multiverse' thematic branding."
+      "why_it_could_win": "Provides hard engineering depth appealing to the IEEE APS and ComSoc judging panel by focusing on signal processing and technical implementation within an intense 8-hour window."
     },
     {
-      "build_hours": 7,
+      "build_hours": 6,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent RAG system built with LangGraph that routes student queries across different virtual departments, simulating parallel advisory timelines to resolve administrative bottlenecks instantly.",
+      "pitch": "A localized multi-agent workflow orchestrator that breaks complex problem statements down into structured execution steps for hackathon teams.",
+      "problem_statement": "PARADOX — A Hackathon in the Madness of the Multiverse: Participants will work in teams to understand a given problem statement, brainstorm innovative approaches, and build their solution.",
       "stack": [
         "TypeScript",
+        "LangChain",
         "Next.js",
-        "LangGraph",
         "OpenAI API"
       ],
-      "title": "Multiverse Multi-Agent Campus Support",
+      "title": "NexusFlow: Rapid Multi-Agent Ideation Assistant",
       "track": "",
-      "why_it_could_win": "Employs an advanced multi-agent architectural pattern that demonstrated winning capability at similar technical hackathons."
+      "why_it_could_win": "Leverages the winning pattern of multi-agent platforms while providing an instantly useful tool for the very audience participating in the event, securing high presentation and innovation scores."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

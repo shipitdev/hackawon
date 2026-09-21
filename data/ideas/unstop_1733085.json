@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:24.043336+00:00",
+  "generated_at": "2026-09-21T08:18:02.463396+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -13,6 +13,8 @@
       "technical-depth",
       "impact"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1733085",
@@ -22,77 +24,86 @@
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "An affordable AI garbage classification system using Python, OpenCV, and Arduino that automatically detects and segregates wet and dry waste.",
+      "pitch": "A low-cost camera and edge-AI module that attaches to community bins to instantly classify and log dry, wet, and hazardous waste using lightweight local inference.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Arduino",
-        "OpenCV"
+        "OpenCV",
+        "TensorFlow Lite",
+        "Arduino"
       ],
-      "title": "SmartBin AI Segregator",
+      "title": "VisionBin: Real-Time Edge Waste Segregation",
       "track": "waste collection & segregation",
-      "why_it_could_win": "Directly builds on proven robotics classification projects from previous hackathons and focuses on waste collection and segregation, a core track."
+      "why_it_could_win": "Demonstrates a working physical prototype approach with low-latency local inference, directly addressing the waste collection and segregation track with a realistic, highly deployable hardware-software integration."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1341712439",
-        "github:1234067949"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered IoT sensor network using TypeScript and anomaly detection to monitor urban drainage blockage and overflow risks in real-time.",
+      "pitch": "An AI-powered monitoring dashboard that combines open satellite imagery indicators with low-cost ultrasonic water-level sensors to predict municipal drain blockages before flooding occurs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js"
+      ],
+      "title": "DrainGuard: Satellite & IoT Urban Waterway Monitor",
+      "track": "drain monitoring",
+      "why_it_could_win": "Combines spatial monitoring patterns with operational predictive modeling, offering a concrete measurable impact for municipal bodies looking to automate drain maintenance."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An AI agent system that optimizes daily municipal waste collection routes based on real-time crowd-sourced spill reports and bin fill-level telemetry.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Qdrant"
+        "Node.js",
+        "PostgreSQL"
       ],
-      "title": "DrainSentry IoT Monitor",
-      "track": "drain monitoring",
-      "why_it_could_win": "Combines hard IoT engineering with measurable environmental impact, matching the drain monitoring track."
+      "title": "CleanRoute: Dynamic Garbage Truck Optimization",
+      "track": "waste collection & segregation",
+      "why_it_could_win": "Leverages multi-agent workflow concepts for closed-loop operations, making it extremely attractive to judges looking for scalable logistical solutions to urban sanitation problems."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Using satellite imagery and computer vision to automatically detect illegal open garbage dumps and overflowing community bins across Indian cities.",
-      "stack": [
-        "TypeScript",
-        "Python"
-      ],
-      "title": "GeoTrash Satellite Tracker",
-      "track": "street action",
-      "why_it_could_win": "Leverages satellite monitoring patterns that have won major infrastructure hackathons previously."
-    },
-    {
-      "build_hours": 24,
+      "build_hours": 28,
       "inspired_by": [
         "github:1346526259"
       ],
-      "pitch": "A mobile web app that rewards citizens with tokens for reporting uncleared garbage spots and participating in neighborhood cleanup drives.",
+      "pitch": "A geo-tagged mobile web app that uses computer vision to automatically categorize illegal garbage dumps from a quick photo upload and rewards citizens with redeemable local coupons.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
-        "Supabase"
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "CivicClean Walk-to-Earn",
-      "track": "civic education",
-      "why_it_could_win": "Adapts a winning real-world impact civic tech model into an engaging civic education platform."
+      "title": "SpotDump: Gamified Civic Litter Reporting",
+      "track": "street action",
+      "why_it_could_win": "Adopts a proven walk-to-earn reward loop combined with live council dashboards, maximizing civic engagement metrics which judges prioritize for street action initiatives."
     },
     {
       "build_hours": 30,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline-first AI recommendation platform connecting municipal waste aggregators with recycling plants for raw material exchange.",
+      "inspired_by": [],
+      "pitch": "A hyperlocal AI matching platform connecting households and small businesses directly with verified informal waste pickers and local recycling units for bulk dry waste exchange.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "React"
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL"
       ],
-      "title": "CircularMatch B2B Waste Marketplace",
+      "title": "KachraKendra: Circular Economy Local Marketplace",
       "track": "recycling & circular economy",
-      "why_it_could_win": "Targets the recycling and circular economy track with a clear economic and environmental quantifiable benefit."
+      "why_it_could_win": "Provides clear, quantifiable social and economic benefit by formalizing circular economy supply chains, presenting a highly pragmatic solution for local municipal integration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

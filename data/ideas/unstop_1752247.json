@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:27.940925+00:00",
+  "generated_at": "2026-09-21T08:31:29.709177+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,92 +10,87 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1752247",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A hybrid quantum-classical Variational Quantum Eigensolver (VQE) built using Qiskit to optimize chip layout wire routing, reducing wirelength intersections significantly compared to greedy classical heuristics.",
+      "inspired_by": [],
+      "pitch": "A hybrid quantum-classical application using Qiskit and VQE to solve asset allocation optimization under real-world constraints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "NetworkX",
-        "NumPy"
+        "NumPy",
+        "SciPy"
       ],
-      "title": "VQE-Router: Quantum-Accelerated VLSI Routing",
+      "title": "VQE-PortfolioOptimizer",
       "track": "",
-      "why_it_could_win": "Directly applies Qiskit to a famously intractable real-world NP-hard problem in hardware design, matching the event's core focus on real-world problem solving."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1207207353"
-      ],
-      "pitch": "A financial portfolio risk assessment tool using Qiskit's Quantum Amplitude Estimation (QAE) algorithm to achieve quadratic speedup in estimating Value at Risk (VaR) over classical Monte Carlo simulations.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "Pandas",
-        "Matplotlib"
-      ],
-      "title": "Q-Portfolio: Quantum Amplitude Estimation for Risk Management",
-      "track": "",
-      "why_it_could_win": "Leverages genuine quantum algorithmic advantages for high-value financial computations, which instantly appeals to judges looking for true quantum utility rather than gimmicks."
+      "why_it_could_win": "Directly uses Qiskit as explicitly demanded by the event description, solving a high-value real-world computational problem that appeals to industry judges."
     },
     {
       "build_hours": 40,
-      "inspired_by": [
-        "github:1199751414"
-      ],
-      "pitch": "A Qiskit-powered application that computes the ground state energy of small drug-like molecules using the Unitary Coupled-Cluster ansatz and VQE, targeting early-stage pharmaceutical lead validation.",
+      "inspired_by": [],
+      "pitch": "Leveraging QAOA in Qiskit to solve NP-complete register allocation and routing problems for edge computing networks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
+        "NetworkX"
+      ],
+      "title": "QuantumGraphColor",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced algorithm implementation using QAOA, showcasing genuine hard engineering which scores well with technical judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A Qiskit Nature integration to compute ground-state energy of small drug molecules for rapid pharmaceutical screening.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
         "Qiskit Nature",
-        "PySCF"
+        "Streamlit",
+        "RDKit"
       ],
-      "title": "Quantum Molecular Ground State Solver for Drug Discovery",
+      "title": "QChemMoleculeViewer",
       "track": "",
-      "why_it_could_win": "Tackles a domain where quantum computing is predicted to achieve early commercial supremacy, making the abstract and demo video immediately compelling to scientific judges."
+      "why_it_could_win": "Combines a complex scientific domain with clean visual presentation via a web demo video, fulfilling all submission criteria efficiently."
     },
     {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1296916648"
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated benchmarking pipeline for zero-noise extrapolation and probabilistic error cancellation on noisy quantum simulators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit Aer",
+        "Matplotlib"
       ],
-      "pitch": "A smart grid energy distribution optimizer implementing the Quantum Approximate Optimization Algorithm (QAOA) via Qiskit to minimize power transmission losses across microgrid nodes.",
+      "title": "QuantumErrorMitigationBench",
+      "track": "",
+      "why_it_could_win": "Addresses one of the most pressing practical bottlenecks in current quantum computing hardware, showcasing deep domain understanding."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "Applying Grover's search algorithm via Qiskit to find optimal multi-stop logistics paths exponentially faster than brute-force classical search.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "SciPy",
-        "Streamlit"
+        "FastAPI",
+        "React"
       ],
-      "title": "QAOA Smart Grid Load Balancer",
+      "title": "GroverSupplyChainRoute",
       "track": "",
-      "why_it_could_win": "Solves a critical infrastructure problem using combinatorial optimization, demonstrating clear real-world applicability as mandated by the event guidelines."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A Qiskit implementation of adiabatic quantum simulation principles to dynamically route urban traffic signals and alleviate congestion bottlenecks during peak rush hours.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "OpenStreetMap API",
-        "Folium"
-      ],
-      "title": "Q-Traffic: Quantum Annealing-Inspired Traffic Flow Flow Optimizer",
-      "track": "",
-      "why_it_could_win": "Combines a universally relatable urban pain point with a sophisticated quantum circuit simulation, ensuring a high-impact demo video and abstract."
+      "why_it_could_win": "Translates an abstract quantum speedup algorithm into an intuitive, real-world supply chain dashboard that non-physicist judges can easily grasp."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

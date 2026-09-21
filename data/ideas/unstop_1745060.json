@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:33.932101+00:00",
+  "generated_at": "2026-09-21T08:22:09.182702+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "impact",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745060",
@@ -17,87 +19,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1079921550"
+        "github:923146379"
       ],
-      "pitch": "An AI-powered digital twin platform to predict thermal degradation and tensile strength of recycled polyethylene blends based on processing temperatures and molecular weight distributions.",
+      "pitch": "A rapid machine learning web dashboard that predicts polymer tensile strength and thermal stability based on molecular monomer composition.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "Streamlit",
         "Scikit-Learn",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
+        "RDKit"
       ],
-      "title": "PolymerFlow Digital Twin",
+      "title": "PolyPredict AI",
       "track": "",
-      "why_it_could_win": "Aligns with the core materials science theme of the IIT Madras Amalgam symposium by directly solving industrial recycling and property prediction problems."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:939311314"
-      ],
-      "pitch": "A machine learning pipeline that predicts the carbon footprint and biodegradability rates of newly synthesized bio-polymers from their chemical SMILES strings.",
-      "stack": [
-        "Python",
-        "RDKit",
-        "LightGBM",
-        "Streamlit"
-      ],
-      "title": "GreenPolymer LCA Predictor",
-      "track": "",
-      "why_it_could_win": "Combines materials engineering property prediction with sustainability metrics, which appeals directly to academic judges from IITs and IISc."
+      "why_it_could_win": "Directly targets the core materials science theme of IIT Madras Amalgam by providing a tangible tool for discovering advanced polymers without tedious wet-lab experiments."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1346526259"
+        "github:939311314"
       ],
-      "pitch": "An interactive web application combining a machine learning model for polymer melt viscosity estimation with real-time sensor simulation feeds for extrusion manufacturing.",
+      "pitch": "An AI-powered lifecycle assessment calculator that evaluates biodegradable polymer alternatives for industrial packaging and sustainable manufacturing.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Flask",
-        "Next.js",
-        "Supabase"
+        "FastAPI",
+        "React",
+        "Pandas"
       ],
-      "title": "ViscoPredict IoT Copilot",
+      "title": "GreenPolymer LCA",
       "track": "",
-      "why_it_could_win": "Features a live interactive demo showcasing predictive capabilities rather than static model metrics, following winning hackathon patterns."
+      "why_it_could_win": "Aligns with industrial sustainability trends and provides clear, quantified environmental metrics which materials science judges value."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:923146379"
+        "github:1079921550"
       ],
-      "pitch": "A web-based interactive tool allowing materials engineers to input filler concentration and polymer matrix types to instantly predict electrical conductivity and glass transition temperature.",
+      "pitch": "A machine learning digital twin predicting glass transition temperatures and viscosity curves for polymer melts in electronics and healthcare manufacturing.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Node.js",
+        "Express",
         "Python",
-        "Pandas",
-        "XGBoost",
-        "Streamlit"
+        "Chart.js"
       ],
-      "title": "NanoComposite Property Explorer",
+      "title": "PolymerGlass Viscosity Twin",
       "track": "",
-      "why_it_could_win": "Provides an immediately usable domain-specific tool for metallurgical and materials engineering researchers attending the national symposium."
+      "why_it_could_win": "Leverages digital twin modeling techniques which have proven successful in engineering hackathons for predictive property monitoring."
     },
     {
-      "build_hours": 38,
+      "build_hours": 36,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "A predictive modeling platform for evaluating polymer electrolyte membrane performance in hydrogen fuel cells and energy storage devices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "Streamlit",
+        "NumPy"
+      ],
+      "title": "EnergyMembrane ML",
+      "track": "",
+      "why_it_could_win": "Focuses on high-impact applications in energy storage and clean tech, capturing the attention of industry experts from IISc and IITs."
+    },
+    {
+      "build_hours": 40,
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "An image classification and property correlation model that takes microscopy images of polymer films and predicts structural tear resistance and crystallinity index.",
+      "pitch": "An automated computer vision and property estimation tool for detecting structural defects in polymer composites used in aerospace and transportation.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "PyTorch",
         "OpenCV",
-        "FastAPI"
+        "Flask",
+        "TensorFlow Lite"
       ],
-      "title": "PolymerDefect Vision AI",
+      "title": "SmartPolymer QC",
       "track": "",
-      "why_it_could_win": "Bridges the gap between computer vision and physical materials characterization, a unique intersection for a metallurgical festival hackathon."
+      "why_it_could_win": "Combines predictive machine learning with a live, demonstrable image processing interface that works reliably during final judging."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

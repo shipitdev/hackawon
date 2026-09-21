@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:58:05.139612+00:00",
+  "generated_at": "2026-09-21T08:33:00.541130+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,92 +9,94 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1754914",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
         "github:1208011447",
         "github:1004582948"
       ],
-      "pitch": "An automated log analysis and incident reconstruction tool for Blue Teams that parses SIEM exports and uses local LLMs to correlate disparate logs into a chronological attack narrative.",
+      "pitch": "An LLM-assisted blue team log analysis tool that parses system and web server logs in real time to automatically reconstruct attack paths and flag anomalous requests.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "LangChain",
-        "Ollama"
+        "LangChain"
       ],
       "title": "LogSleuth AI",
       "track": "Blue Team",
-      "why_it_could_win": "Directly targets the Blue Team objective of analyzing logs and reconstructing attack scenarios under strict time constraints, leveraging defense-in-depth principles seen in winning entries."
+      "why_it_could_win": "Leverages a defense-in-depth approach inspired by winning security agents, directly helping blue teams win through rapid triage and clear attack reconstruction on the live leaderboard."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A lightweight local reverse proxy designed for the blue team to monitor incoming requests, detect automated scanning patterns, and drop malicious traffic without disrupting legitimate lab traffic.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "FlagGuard Web Proxy",
+      "track": "Blue Team",
+      "why_it_could_win": "Directly tackles the rule restrictions against automated exploitation frameworks by giving defenders real-time visibility into traffic anomalies and scanner signatures."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A tactical offensive helper tool for red teams to quickly assemble, encode, and test specific payload variations against designated lab web applications within the competition rules.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Rust",
+        "Clap",
+        "Reqwest"
+      ],
+      "title": "PayloadForge CLI",
+      "track": "Red Team",
+      "why_it_could_win": "Provides genuine engineering utility for red teamers who need to iterate rapidly under strict time constraints without using forbidden automated scanners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A local collaboration and flag submission tracker for red and blue teams that parses target status, maps discovered vulnerabilities, and coordinates internal team strategy securely.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "RedDash Tracker",
+      "track": "",
+      "why_it_could_win": "Solves the logistical overhead of attack-and-defense competitions where team communication is restricted and execution speed decides the live leaderboard ranking."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "A localized web application vulnerability scanner tailored for rapid reconnaissance without triggering aggressive brute-force alarms or external scans.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "Cheerio",
-        "SQLite"
-      ],
-      "title": "VulnMapper",
-      "track": "Red Team",
-      "why_it_could_win": "Helps Red Teams map out designated lab domains quickly while adhering to strict rules against automated exploitation frameworks and external internet scanning."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A transparent proxy layer designed to sit in front of web applications or internal LLM interfaces to intercept, sanitize, and block adversarial prompt injections and payload attempts.",
-      "stack": [
-        "TypeScript",
-        "Express",
-        "Redis",
-        "Docker"
-      ],
-      "title": "PromptShield Proxy",
-      "track": "Blue Team",
-      "why_it_could_win": "Applies advanced defense-in-depth hardening and layered prompt-injection defense, matching successful strategies from recent security challenge winning entries."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A secure, offline-first command-line utility for Red Teams to track captured flags, store exploit payloads securely, and automate valid submissions through official event portals without risk of flag sharing.",
+      "pitch": "A rapid code-auditing companion that inspects target web applications before or during the match to highlight hidden logic flaws and hardcoded endpoints for flag hunting.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Click",
-        "Cryptography",
-        "Rich"
-      ],
-      "title": "FlagVault CLI",
-      "track": "Red Team",
-      "why_it_could_win": "Addresses the operational overhead of managing flags and exploits during high-pressure attack-and-defense competitions where workflow speed dictates leaderboard success."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "A real-time network traffic and request anomaly detector tailored for controlled lab environments that alerts defenders to unauthorized scanning or unexpected behavioral shifts.",
-      "stack": [
-        "Python",
-        "Scapy",
-        "Pandas",
+        "Tree-sitter",
         "Streamlit"
       ],
-      "title": "PacketAnomaly Watchdog",
-      "track": "Blue Team",
-      "why_it_could_win": "Aligns with the core judging priority of technical execution and rapid threat detection on the live leaderboard during a live cyber defense exercise."
+      "title": "SecAudit Diff",
+      "track": "Red Team",
+      "why_it_could_win": "Combines static analysis insights with fast tactical execution, mirroring the report-generation and vulnerability-insight patterns seen in hackathon winners."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

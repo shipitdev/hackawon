@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:47.415000+00:00",
+  "generated_at": "2026-09-21T08:30:45.143362+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -8,9 +8,10 @@
     "patterns": [
       "unusual-hardware",
       "working-demo",
-      "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752017",
@@ -20,82 +21,89 @@
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A high-torque, low-center-of-gravity wireless robot optimized for rapid cornering and obstacle negotiation within the strict 350x350mm and 3kg limits.",
+      "pitch": "A high-agility wireless rover optimized for navigating tight circuit turns and handling multi-elevation obstacles within strict dimension and weight constraints.",
+      "problem_statement": "The Senior Robo Race challenges teams to design and build a manually controlled, wireless robot capable of navigating an obstacle-filled track and completing the entire circuit in the shortest possible time.",
       "stack": [
-        "C++",
         "Arduino",
+        "C++",
         "ESP32",
-        "DC Motors"
+        "DC Motors",
+        "PWM Motor Driver"
       ],
-      "title": "AgileRover-X",
+      "title": "AeroFlex Speed Rover",
       "track": "",
-      "why_it_could_win": "Wins by prioritizing mechanical stability and agility under a continuously running clock, directly matching the core evaluation metrics of the Senior Robo Race."
+      "why_it_could_win": "Focuses on rapid traversal and obstacle handling under a continuously running clock, directly addressing the core evaluation criteria for speed and agility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A custom-chassis wireless robot featuring a low center of gravity and high-torque motors designed for rapid recovery from obstacles.",
+      "problem_statement": "The Senior Robo Race challenges teams to design and build a manually controlled, wireless robot capable of navigating an obstacle-filled track and completing the entire circuit in the shortest possible time.",
+      "stack": [
+        "Raspberry Pi Pico",
+        "MicroPython",
+        "N20 Gear Motors",
+        "LiPo Battery"
+      ],
+      "title": "VectorDrive Track Master",
+      "track": "",
+      "why_it_could_win": "Demonstrates superior physical build quality and reliability during live circuit runs, matching patterns from successful hardware projects."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1144331507"
+        "github:1259981732"
       ],
-      "pitch": "A robust, low-latency manual wireless control system utilizing dual-frequency RF modules to prevent signal interference on crowded racing tracks.",
+      "pitch": "An ultra-lightweight custom-built racing platform optimized for sub-3kg weight limits and maximum acceleration on tennis court surfaces.",
+      "problem_statement": "The Senior Robo Race challenges teams to design and build a manually controlled, wireless robot capable of navigating an obstacle-filled track and completing the entire circuit in the shortest possible time.",
       "stack": [
-        "Python",
+        "NodeMCU",
         "C++",
-        "NRF24L01",
-        "ESP32"
+        "Bluetooth/Wi-Fi Control",
+        "Custom Acrylic Chassis"
       ],
-      "title": "DualFreq-WirelessLink",
+      "title": "NimbleNav Wireless Racer",
       "track": "",
-      "why_it_could_win": "Eliminates common packet loss and latency issues faced by competitors on race day, ensuring precise driver control."
+      "why_it_could_win": "Strict adherence to the 350x350 mm and 3 kg limits combined with custom fabrication gives it an edge in physical maneuverability over bulky builds."
     },
     {
-      "build_hours": 40,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1274691349",
-        "github:1144331507"
+        "github:1010199928"
       ],
-      "pitch": "A custom 3D-printed independent suspension chassis designed to absorb shocks from rough obstacle courses while maintaining maximum speed.",
+      "pitch": "A dual-motor differential drive robot equipped with custom suspension elements to effortlessly clear rough terrain obstacles on the race track.",
+      "problem_statement": "The Senior Robo Race challenges teams to design and build a manually controlled, wireless robot capable of navigating an obstacle-filled track and completing the entire circuit in the shortest possible time.",
       "stack": [
-        "CAD",
-        "3D Printing",
-        "Arduino",
-        "DC Motors"
+        "Arduino Nano",
+        "HC-05 Bluetooth Module",
+        "L298N Driver",
+        "Custom 3D Printed Parts"
       ],
-      "title": "TerrainMaster Suspension",
+      "title": "Apex Agility Bot",
       "track": "",
-      "why_it_could_win": "Unusual physical build focused entirely on hardware durability and speed through chaotic obstacle courses, standing out in a race format."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1281918590"
-      ],
-      "pitch": "A modular, plug-and-play 3S/6S LiPo power distribution board with integrated voltage regulation and quick-release battery housing.",
-      "stack": [
-        "Hardware",
-        "PCB Design",
-        "Power Electronics"
-      ],
-      "title": "QuickSwap LiPo Power Unit",
-      "track": "",
-      "why_it_could_win": "Allows the team to instantly swap depleted batteries between heats without risking wiring failures or losing valuable track time."
+      "why_it_could_win": "Addresses the obstacle handling and strategic decision-making evaluation metrics through superior mechanical design and responsive wireless control."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1281918590"
       ],
-      "pitch": "A hardware-level momentum dampening circuit using manual trigger overrides for tight hairpin turns on the obstacle course.",
+      "pitch": "A high-response wireless racing robot engineered for immediate telemetry feedback and precise driver control during high-speed turns.",
+      "problem_statement": "The Senior Robo Race challenges teams to design and build a manually controlled, wireless robot capable of navigating an obstacle-filled track and completing the entire circuit in the shortest possible time.",
       "stack": [
-        "Arduino",
+        "ESP8266",
         "C++",
-        "Motor Drivers"
+        "High-Torque DC Motors",
+        "Custom PCB"
       ],
-      "title": "PrecisionGate Braking Assist",
+      "title": "SwiftCircuit Precision Racer",
       "track": "",
-      "why_it_could_win": "Solves the specific engineering challenge of high-speed overshooting on sharp turns, giving the driver superior handling precision."
+      "why_it_could_win": "Low latency wireless control minimizes driving errors, ensuring the fastest possible completion time under a continuously running clock."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

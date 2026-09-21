@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:25.669959+00:00",
+  "generated_at": "2026-09-21T08:27:54.678206+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -8,9 +8,10 @@
     "patterns": [
       "unusual-hardware",
       "working-demo",
-      "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749776",
@@ -18,87 +19,97 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1274691349",
-        "github:1144331507"
+        "github:1281918590",
+        "github:1259981732"
       ],
-      "pitch": "A highly maneuverable, low-center-of-gravity 3kg combat robot built within the 350x350mm specification, featuring high-torque DC geared motors and an angled wedge design to leverage physics for ring domination.",
+      "pitch": "A heavily optimized low-center-of-gravity RC sumo bot featuring a slanted titanium-tipped front wedge to slide under opponents and lift their drive wheels off the ground.",
+      "problem_statement": "Senior Robo Sumo: Push the opponent's robot completely out of the ring using an RC-controlled robot within 350x350mm and 3kg limits.",
       "stack": [
-        "C++",
         "Arduino",
-        "DC Motors",
-        "Motor Drivers"
+        "C++",
+        "DC Geared Motors",
+        "FlySky RC Transmitter/Receiver",
+        "3S LiPo Battery"
       ],
-      "title": "TitanSumo 350",
+      "title": "Wedge-Lock Low-CG Sumo Bot",
       "track": "",
-      "why_it_could_win": "Since this is a physical Robo Sumo tournament with a knockout format, a reliable mechanical design with a low center of gravity and high torque will directly outmaneuver and push out less structurally stable opponents."
+      "why_it_could_win": "Focuses on fundamental physics (low center of gravity and wedge geometry) which dominates sumo matches, mirroring the physical build and live-demo execution patterns from winning hardware projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1100461811",
+        "github:1259981732"
+      ],
+      "pitch": "A 4-wheel omni-drive sumo bot controlled via wireless RC, allowing rapid sideways evasion and lateral pushing maneuvers to outflank standard differential-drive opponents.",
+      "problem_statement": "Senior Robo Sumo: Push the opponent's robot completely out of the ring while demonstrating robot control, mechanical design, maneuverability, and strategy.",
+      "stack": [
+        "STM32",
+        "C++",
+        "Omni Wheels",
+        "High-Torque DC Motors",
+        "Radio Control Receiver"
+      ],
+      "title": "Omni-Maneuverable Lateral Shifter Bot",
+      "track": "",
+      "why_it_could_win": "Maneuverability is explicitly judged; omni-directional strafing provides a massive tactical advantage in a single-elimination knockout format against traditional tank-steer bots."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1144331507"
+        "github:1281918590",
+        "github:1010199928"
       ],
-      "pitch": "An RC sumo robot equipped with modular front-flippers and quick-swap tungsten-weighted wedge plates to rapidly adapt to different opponent configurations between matches.",
+      "pitch": "A high-traction, high-torque dual-motor-per-side tracked sumo bot engineered with high-friction silicone treads to maximize grip against the arena floor.",
+      "problem_statement": "Senior Robo Sumo: Push the opponent's robot completely out of the ring while demonstrating robot control, mechanical design, maneuverability, and strategy.",
       "stack": [
-        "Python",
-        "MicroPython",
         "ESP32",
-        "RF Transceiver"
+        "Arduino IDE",
+        "Metal Gear Motors",
+        "Silicone Tracks",
+        "Motor Driver ESC"
       ],
-      "title": "Vanguard RC Edge",
+      "title": "High-Torque Gearbox Traction Sumo Bot",
       "track": "",
-      "why_it_could_win": "In a single-elimination knockout format, adaptability and mechanical durability are the most critical factors for surviving consecutive rounds against varied opponents."
+      "why_it_could_win": "Matches judges' criteria on mechanical design and raw pushing power, drawing from the robust physical build approach of past hardware competition winners."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An RC-controlled tactical sumo bot equipped with a controlled mechanical linkage lifter to destabilize and flip opposing contenders during close-quarters grappling.",
+      "problem_statement": "Senior Robo Sumo: Push the opponent's robot completely out of the ring while demonstrating robot control, mechanical design, maneuverability, and strategy.",
+      "stack": [
+        "Arduino Nano",
+        "Servo Motors",
+        "High-Current Relays",
+        "Custom Acrylic Chassis",
+        "RC Controller"
+      ],
+      "title": "Active-Defense Pneumatic Flipping Wedge",
+      "track": "",
+      "why_it_could_win": "Incorporates active mechanical strategy beyond simple pushing, ensuring high scores for mechanical design and creative match tactics."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1296916648"
+        "github:1140260754"
       ],
-      "pitch": "An RC-controlled sumo robot featuring an onboard wide-angle camera feeding real-time positional telemetry to the pilot's controller screen via local Wi-Fi to optimize blind-spot awareness in the arena.",
+      "pitch": "A compact, heavily armored 3kg steel-plate chassis designed to absorb impacts and withstand high-speed collisions in the single-elimination knockout rounds.",
+      "problem_statement": "Senior Robo Sumo: Push the opponent's robot completely out of the ring while demonstrating robot control, mechanical design, maneuverability, and strategy.",
       "stack": [
-        "C++",
-        "ESP32-CAM",
-        "OpenCV",
-        "Wi-Fi Streaming"
+        "Custom Aluminum/Steel Chassis",
+        "High-Discharge 3S LiPo",
+        "DC Planetary Gear Motors",
+        "Wireless RF Receiver"
       ],
-      "title": "SumoTactician Pro",
+      "title": "Modular Heavy-Armor Box Sumo Bot",
       "track": "",
-      "why_it_could_win": "Most competitors rely purely on line-of-sight visual driving; adding a low-latency pilot-assist FPV feed gives a tactical edge in judging distance from the ring boundary."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1281918590",
-        "github:1144331507"
-      ],
-      "pitch": "A heavy-duty 3kg sumo bot utilizing custom high-grip rubber treads and dual-stage gearboxes to maximize friction against the volleyball court boundary surface, ensuring maximum pushing force.",
-      "stack": [
-        "Arduino",
-        "Custom Chassis",
-        "High-Torque Servos",
-        "LiPo Batteries"
-      ],
-      "title": "IronClad Traction",
-      "track": "",
-      "why_it_could_win": "In sumo wrestling matches, pushing power is a direct function of traction and weight distribution; maximizing grip within the 3kg limit wins matches."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1274691349"
-      ],
-      "pitch": "An agile 350x350mm RC sumo robot featuring an active pneumatic-style or servo-actuated side skirt that expands upon button press to widen the pushing footprint just before contact.",
-      "stack": [
-        "C++",
-        "Arduino Nano",
-        "Servo Motors",
-        "FlySky RC Receiver"
-      ],
-      "title": "Apex Shifter",
-      "track": "",
-      "why_it_could_win": "Dynamic geometry catches opponents off guard by changing the effective blocking width instantly, matching the physical dominance criteria of the event."
+      "why_it_could_win": "Prioritizes structural durability and reliability—critical traits for surviving a brutal single-elimination tournament where surviving matches is half the battle."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

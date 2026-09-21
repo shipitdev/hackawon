@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:53:47.216489+00:00",
+  "generated_at": "2026-09-21T08:21:47.160155+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1744316",
@@ -14,80 +18,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1170846981"
       ],
-      "pitch": "A multilingual, multi-modal campus compliance and accessibility tracker tailored for colleges, allowing non-CS and commerce students to audit infrastructural and administrative accessibility.",
+      "pitch": "An AI-powered document translator and interactive form-filler that simplifies complex government welfare and scheme applications for rural and non-technical citizens.",
+      "problem_statement": "Reimagine Government: Rethink how citizens interact with government websites and digital services.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "TailwindCSS"
+        "TailwindCSS",
+        "Vercel AI SDK"
       ],
-      "title": "InclusiveCampus",
-      "track": "",
-      "why_it_could_win": "Targeted at a hackathon that explicitly welcomes non-engineering and arts/humanities backgrounds, appealing to holistic campus inclusivity."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered peer tutoring and micro-credential matching network designed for high school and first-time hackathon participants to bridge academic silos.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini API"
-      ],
-      "title": "SkillBridge AI",
-      "track": "",
-      "why_it_could_win": "Addresses the beginner-friendly focus of the hackathon by empowering freshers and school students to find study partners and skill mentors instantly."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Regional nutrition tracking and budget-friendly meal planner optimized for local ingredients and campus canteens, built with an intuitive UI for non-technical majors.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "NutriLocal Jammu",
-      "track": "",
-      "why_it_could_win": "Follows the winning formula of consumer wellness apps like E-Foodiee, but customized for local student demographics and budget constraints."
+      "title": "GovSimplified",
+      "track": "Reimagine Government",
+      "why_it_could_win": "Addresses the accessibility theme directly by removing bureaucratic and language hurdles, aligning with the hackathon's mission to make tech accessible to non-CS backgrounds like Arts and Humanities."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1183964401"
       ],
-      "pitch": "Low-bandwidth agricultural advisory dashboard for rural students and farming families to diagnose crop health issues using simple smartphone photos.",
+      "pitch": "A geo-tagged municipal grievance routing platform that uses NLP to automatically categorize citizen complaints and route them to the correct local government department with real-time tracking.",
+      "problem_statement": "Reimagine Government: Rethink how citizens interact with government websites and digital services.",
       "stack": [
-        "TypeScript",
+        "Python",
+        "FastAPI",
         "React",
-        "TensorFlow.js"
+        "PostgreSQL"
       ],
-      "title": "AgriSathi AI",
-      "track": "",
-      "why_it_could_win": "Combines high-impact social utility with a lightweight mobile-first interface suited for 48-hour delivery by multidisciplinary student teams."
+      "title": "CitizenPulse",
+      "track": "Reimagine Government",
+      "why_it_could_win": "Focuses on high-impact civic utility with a working live demo, showing clear measurable impact for local municipal governance."
     },
     {
-      "build_hours": 34,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1170846981"
       ],
-      "pitch": "Transparent micro-grant tracking and expense management tool for student clubs and inter-college event organizers to manage budgets without complex accounting software.",
+      "pitch": "A conversational AI assistant that helps students and parents discover, understand, and apply for government educational scholarships and subsidies through voice commands in regional languages.",
+      "problem_statement": "Reimagine Government: Rethink how citizens interact with government websites and digital services.",
       "stack": [
         "JavaScript",
-        "Node.js",
-        "SQLite"
+        "React",
+        "Web Speech API",
+        "OpenAI API"
       ],
-      "title": "FundFlow Lite",
-      "track": "",
-      "why_it_could_win": "Appeals directly to commerce, BBA, and MBA students participating in the hackathon by solving a real administrative pain point in colleges."
+      "title": "ScholarScheme Matcher",
+      "track": "Reimagine Government",
+      "why_it_could_win": "Appeals directly to the school students and diverse academic backgrounds participating in Hackcache'26 by solving a real financial literacy and access problem."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A guided wizard interface that helps everyday citizens draft legally sound Right to Information (RTI) applications without needing prior legal or administrative knowledge.",
+      "problem_statement": "Reimagine Government: Rethink how citizens interact with government websites and digital services.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "title": "RTI-Draft",
+      "track": "Reimagine Government",
+      "why_it_could_win": "Leverages interdisciplinary collaboration (combining law, public policy, and tech) which is explicitly encouraged by the organizers for non-CS participants."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An intuitive, conversational tax filing assistant designed for small business owners and commerce students to demystify GST filings and municipal tax payments.",
+      "problem_statement": "Reimagine Government: Rethink how citizens interact with government websites and digital services.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "TaxClear",
+      "track": "Reimagine Government",
+      "why_it_could_win": "Directly empowers Commerce, BBA, and MBA participants by integrating business logic with a streamlined digital public service interface."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

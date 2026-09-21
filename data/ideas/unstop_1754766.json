@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:52.067707+00:00",
+  "generated_at": "2026-09-21T08:32:33.183303+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,97 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 3,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754766",
   "ideas": [
     {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An offline, local-only multi-actuator home automation controller powered by embedded speech recognition for lighting, fans, and electronic locks without cloud dependencies.",
+      "problem_statement": "PS-001: Offline Multi-Actuator Home Automation Hub",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "TensorFlow Lite Micro",
+        "MQTT"
+      ],
+      "title": "EdgeVoice Home Hub",
+      "track": "Smart Systems Track",
+      "why_it_could_win": "Directly hits the strict hardware track requirement of completely local wake-word and command processing without any cloud speech APIs, making it stand out against generic cloud-connected clones during a live demo."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An intelligent microcontroller-based lighting system that dynamically matches ambient natural light and room occupancy via local sensor arrays while logging localized energy savings.",
+      "problem_statement": "PS-002: Adaptive Ambient Lighting Controller",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "Photodiode Array",
+        "mmWave Sensor"
+      ],
+      "title": "EcoLux Adaptive Ambient Controller",
+      "track": "Smart Systems Track",
+      "why_it_could_win": "Demonstrates sophisticated closed-loop sensor fusion and local mathematical optimization running entirely on a microcontroller, perfectly matching the hardware track's emphasis on edge computation."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [],
+      "pitch": "A standalone, low-power automated irrigation system for balcony planters driven by localized soil moisture matrices and strict scheduling logic.",
+      "problem_statement": "PS-003: Balcony/Garden-Scale Smart Irrigation Controller",
+      "stack": [
+        "C++",
+        "Raspberry Pi Pico",
+        "Soil Moisture Sensors",
+        "Relay Module",
+        "OLED Display"
+      ],
+      "title": "SproutSync Balcony Irrigation",
+      "track": "Smart Systems Track",
+      "why_it_could_win": "Fulfills the constraint of avoiding cloud weather dependencies by utilizing localized deterministic scheduling algorithms combined with real-time moisture feedback."
+    },
+    {
       "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An interactive Generative AI platform built to transform educational curriculums into personalized micro-learning paths and real-time concept explanation graphs.",
+      "problem_statement": "EduGenAI Track: Powered by ACM Student Chapter - SRMIST Tiruchirappalli",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Gemini API"
+      ],
+      "title": "EduGenAI Adaptive Concept Engine",
+      "track": "EduGenAI Track",
+      "why_it_could_win": "Leverages domain-specific RAG pipelines to solve real classroom learning bottlenecks, aligning directly with the ACM Student Chapter sponsor track evaluation criteria."
+    },
+    {
+      "build_hours": 34,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AI-powered graph intelligence and risk detection platform specifically engineered to flag fraudulent medical billing, fake insurance claims, and money laundering rings across public and private digital healthcare systems.",
+      "pitch": "An AI-powered transaction risk analysis and investigation workspace that combines graph-based entity relationships with explainable ML models to flag anomalous public sector banking activities.",
+      "problem_statement": "Smart Systems Track: Digital Healthcare Banking Public Sector Banking Fraud Detection",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
         "NetworkX",
-        "Next.js"
-      ],
-      "title": "MediGraph AML Fraud Shield",
-      "track": "Smart Systems Track: Digital Healthcare / Banking Fraud Detection",
-      "why_it_could_win": "Directly targets two of the official innovation tracks (Digital Healthcare and Banking Fraud Detection) by combining graph intelligence with explainable AI, mirroring the winning strategy of Bito."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A public sector risk forecasting dashboard utilizing Poisson regression and rolling backtests to predict infrastructure bottlenecks and administrative compliance incidents before they impact public delivery.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Streamlit",
-        "Poisson GAM"
-      ],
-      "title": "GovPulse AI-Incident & Public Sector Forecaster",
-      "track": "Smart Systems Track: Public Sector",
-      "why_it_could_win": "Aligns tightly with the Public Sector domain of the Smart Systems Track and implements rigorous statistical modeling similar to top-tier winners."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-driven patient acquisition and trust engine custom-built for digital healthcare clinics in India to manage patient onboarding, multilingual intake triage, and automated follow-up workflows.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
         "TailwindCSS"
       ],
-      "title": "TrustDentist Patient Acquisition Engine",
-      "track": "Smart Systems Track: Digital Healthcare",
-      "why_it_could_win": "Builds on a proven 1st-prize architecture designed for rapid deployment during tight sprint windows while directly addressing the Digital Healthcare track."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite monitoring system that uses computer vision and geospatial analysis to automatically flag illegal industrial encroachment and environmental compliance violations for public sector auditing.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "OpenCV",
-        "Node.js"
-      ],
-      "title": "GreenTrace Satellite Land & ESG Compliance",
-      "track": "Smart Systems Track: Public Sector",
-      "why_it_could_win": "Combines hard engineering in computer vision with a real public sector use case, leveraging the proven runner-up formula of spatial compliance monitoring."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent nutritional support platform tailored for student and public healthcare populations that generates personalized meal plans and real-time dietary insights using RAG workflows.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "OpenAI API",
-        "PostgreSQL"
-      ],
-      "title": "NutriCare AI Campus Wellness Assistant",
-      "track": "Smart Systems Track: Digital Healthcare",
-      "why_it_could_win": "Leverages multi-agent architecture and personalized RAG workflows, mirroring hackathon-winning setups designed to deliver high user engagement under tight deadlines."
+      "title": "SecureFlow Banking Fraud Detection",
+      "track": "Smart Systems Track",
+      "why_it_could_win": "Adapts proven financial crime investigation workflows to public sector banking priorities, satisfying the track's banking fraud detection scope with high visual and analytical impact."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

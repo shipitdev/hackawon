@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-09-17T07:56:19.312070+00:00",
+  "generated_at": "2026-09-21T08:35:16.324485+00:00",
   "grounding": {
     "domains": [
-      "civic"
+      "civic",
+      "sustainability"
     ],
     "exemplar_count": 8,
     "patterns": [
       "impact",
       "working-demo",
-      "technical-depth",
-      "sponsor-tech"
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1756262",
@@ -18,89 +20,91 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1170846981"
+        "github:901472660"
       ],
-      "pitch": "A vernacular voice-first AI assistant designed for rural healthcare workers to track local immunization schedules, report waterborne disease outbreaks, and log maternal health metrics via simple phone calls or WhatsApp audio messages.",
+      "pitch": "A lightweight mobile-web application for rural local bodies to track community water assets, solar pump maintenance schedules, and welfare fund distribution transparently.",
+      "problem_statement": "Real-time challenges faced by rural and urban communities in India under themes like Digital Empowerment and Sustainability",
       "stack": [
-        "Python",
-        "FastAPI",
-        "Whisper API",
-        "Twilio",
-        "PostgreSQL"
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "SQLite"
       ],
-      "title": "GramSwasthya",
-      "track": "",
-      "why_it_could_win": "Directly targets the rural India community challenge mandate of the hackathon with a working multilingual demo, closely mirroring past winners focused on health awareness and accessibility."
+      "title": "GramPanchayat Asset & Subsidy Tracker",
+      "track": "Digital Empowerment",
+      "why_it_could_win": "Mirrors the success pattern of JalSetu by targeting rural governance pain points that judges from local development backgrounds immediately recognize and value."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1132337467"
+        "github:769127191",
+        "github:611784301"
       ],
-      "pitch": "An offline-first progressive web app connecting rural farmer producer organizations directly with urban micro-retailers, cutting out middlemen and predicting optimal perishable produce pricing using lightweight regression.",
+      "pitch": "A localized B2B marketplace connecting farmers who have crop residue (stubbles, husk) with local cardboard and biofuel manufacturers to prevent stubble burning.",
+      "problem_statement": "Agriculture and Sustainability themes addressing real-time environmental challenges in India",
       "stack": [
-        "TypeScript",
+        "JavaScript",
         "React",
-        "Firebase",
-        "TailwindCSS"
+        "Express",
+        "MongoDB"
       ],
-      "title": "AgriLink Supply Chain",
-      "track": "",
-      "why_it_could_win": "Combines both rural production and urban consumption challenges into a single scalable economic solution with clear measurable impact on farmer margins."
+      "title": "KrishiKachra: Agricultural Waste Upcycling Exchange",
+      "track": "Agriculture",
+      "why_it_could_win": "Tackles a massive seasonal socio-environmental crisis in India with a clear marketplace model that provides quantifiable carbon offset metrics for judges."
     },
     {
-      "build_hours": 24,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1228867095",
-        "github:1087704265"
+        "github:1179029975",
+        "github:927292639"
       ],
-      "pitch": "A real-time voice call analyzer extension that detects fraudulent financial schemes and loan scams targeting elderly or semi-urban citizens in regional Indian languages.",
+      "pitch": "A smartphone app that utilizes device accelerometer data and background computer vision to automatically detect road anomalies and potholes, mapping them directly to municipal repair dashboards.",
+      "problem_statement": "Urban Solutions and Sustainability themes for real-time civic infrastructure management",
       "stack": [
         "Python",
-        "WebSockets",
-        "Gemini API",
-        "React Native"
+        "Flutter",
+        "FastAPI",
+        "OpenCV"
       ],
-      "title": "Sahayak AI Scams Shield",
-      "track": "",
-      "why_it_could_win": "Applies real-time AI safety engineering to a severe domestic problem, matching the technical sophistication of previous agentic safety winners."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1346526259",
-        "github:1143576965"
-      ],
-      "pitch": "An automated urban infrastructure reporting tool that ingests dashcam or smartphone video from delivery riders, detects potholes and streetlamp failures using edge computer vision, and auto-routes tickets to municipal dashboards.",
-      "stack": [
-        "Python",
-        "YOLOv8",
-        "Leaflet.js",
-        "Node.js",
-        "Supabase"
-      ],
-      "title": "CivicPothole AI",
-      "track": "",
-      "why_it_could_win": "Solves a prominent urban community challenge with a live working demo that maps issues directly for city officials, reflecting successful civic tech winning patterns."
+      "title": "PotholePatrol: Crowdsourced Road Safety Scanner",
+      "track": "Urban Solutions",
+      "why_it_could_win": "Leverages a working sensor-based demo that judges can test live on their own phones during presentation walk-throughs."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1194555365"
+        "github:714473994"
       ],
-      "pitch": "An AI-powered matchmaking platform that pairs urban volunteer youth with nearby rural skill-development centers and adult literacy initiatives based on real-time availability and proximity.",
+      "pitch": "A computer vision web scanner integrated with local waste collection drives that identifies recyclable packaging via barcode or image upload and awards redeemable digital local coupons.",
+      "problem_statement": "Sustainability and Urban Solutions themes focusing on neighborhood waste mismanagement",
+      "stack": [
+        "C++",
+        "Flutter",
+        "TensorFlow Lite"
+      ],
+      "title": "SwachhBin: Smart Segregation Incentivization System",
+      "track": "Sustainability",
+      "why_it_could_win": "Combines gamification with an environmental cause, hitting the exact formula that won Best Hack for Social Good at Sunhacks."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A rapid SMS and web-app platform enabling rural and semi-urban gig workers (electricians, plumbers, masons) to build voice-verified digital portfolios and connect with urban employers.",
+      "problem_statement": "Digital Empowerment and Student Innovation themes targeting economic mobility in India",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Prisma",
+        "TailwindCSS",
         "PostgreSQL"
       ],
-      "title": "SevaConnect",
-      "track": "",
-      "why_it_could_win": "Demonstrates clear social community impact by bridging urban resources with rural educational deficits within a tightly scoped 24-hour build."
+      "title": "SkillSetu: Hyper-Local Informal Labor Directory & Micro-Credentialing",
+      "track": "Digital Empowerment",
+      "why_it_could_win": "Focuses on inclusive digital empowerment for unorganized sectors, aligning directly with national digital public infrastructure priorities."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

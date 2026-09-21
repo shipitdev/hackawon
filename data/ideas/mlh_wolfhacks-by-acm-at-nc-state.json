@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:12.659180+00:00",
+  "generated_at": "2026-09-21T08:16:36.729207+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:wolfhacks-by-acm-at-nc-state",
@@ -16,83 +18,88 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive spatial-temporal incident forecasting tool for NC State campus security using historical crime data and Poisson regression to generate risk heatmaps.",
+      "pitch": "A predictive analytics dashboard forecasting campus safety incidents and maintenance bottlenecks across NC State's brick paths and residence halls using historical campus police logs and weather data.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Poisson-Regression",
-        "Leaflet.js"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "PackPulse Campus Safety Forecaster",
+      "title": "PackAlert: NC State Campus Incident Forecaster",
       "track": "",
-      "why_it_could_win": "Follows the exact pattern of the AI incident forecasting winner by using rigorous statistical modeling rather than a generic UI, which heavily appeals to technical judges."
+      "why_it_could_win": "Directly tackles local relevance for NC State students and campus stakeholders, mirroring the rigorous forecasting approach of proven winners like ai-incident-forecasting."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "An AWS-powered AML and anomaly detection platform adapted for public transit tracking, combining graph intelligence to flag suspicious delays or route bottlenecks in real-time.",
+      "pitch": "A multi-agent student support platform tailored for NC State that answers complex queries about campus sustainability initiatives, building energy usage, and recycling protocols using localized vector databases.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "NetworkX",
-        "React"
+        "Next.js",
+        "LangGraph",
+        "OpenAI API"
       ],
-      "title": "WolfLine Transit Graph Intelligence Monitor",
+      "title": "WolfTrack Campus Sustainability RAG Agent",
       "track": "",
-      "why_it_could_win": "Emulates the winning Bito architecture by leveraging complex graph intelligence and explainable outputs, solving a painful localized problem for NC State students."
+      "why_it_could_win": "Utilizes a sophisticated multi-agent RAG workflow proven effective at student-centric hackathons, ensuring high engagement from university-affiliated judges."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A localized multi-agent student support platform built with LangGraph and RAG specifically tailored to answer sustainability guidelines, grant applications, and facility scheduling for NC State.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "OpenAI API"
-      ],
-      "title": "Triangle Green-Campus Multi-Agent Assistant",
-      "track": "",
-      "why_it_could_win": "Replicates the multi-agent RAG architecture of the GreenNovation Hackathon winner, making it robust and immediately useful for university administrators."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform that ingests daily menus from NC State dining halls and delivers personalized, budget-friendly meal recommendations for students.",
+      "pitch": "An AI-powered nutrition and wellness platform customized for NC State students that delivers personalized meal recommendations based on dining hall menus and local Hillsborough Street restaurants.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Gemini-API",
-        "TailwindCSS"
+        "React",
+        "Gemini API"
       ],
-      "title": "Wolfpack Dining AI Nutrition & Meal Planner",
+      "title": "Raleigh Eats Nutrition & Local Dining Sync",
       "track": "",
-      "why_it_could_win": "Adapts the E-Foodiee-AI-Nutrition-Assistant winning formula to a hyper-local dataset (campus dining), providing instant practical utility that judges love to see."
+      "why_it_could_win": "Solves an everyday student pain point with immediate, tangible utility during a 31-hour sprint, similar to how E-Foodiee won the Hour Hackathon."
     },
     {
-      "build_hours": 28,
+      "build_hours": 27,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool that scans satellite imagery of Wake County industrial zones to automatically detect unauthorized land clearing and environmental compliance violations.",
+      "pitch": "AI-powered satellite monitoring tool tracking urban sprawl, construction progress, and land compliance in the greater Raleigh-Durham triangle area using open-source geospatial data.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "Mapbox"
+        "Leaflet.js",
+        "SentinelHub API"
       ],
-      "title": "Raleigh Industrial Satellite Land Compliance Monitor",
+      "title": "Triangle Land CompliSat: Satellite Monitoring",
       "track": "",
-      "why_it_could_win": "Mirrors the hard-engineering approach of GeoNex-ATLAS, showcasing geospatial computer vision that stands out among standard web app submissions."
+      "why_it_could_win": "Brings hard engineering and complex geospatial data processing to the table, impressing judges looking for technical depth over simple wrapper apps."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace enabling NC State student clubs to manage event ticketing and merchandise sales with instant escrow payments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Base",
+        "USDC SDK"
+      ],
+      "title": "WolfPay Autonomous Student Club Escrow",
+      "track": "",
+      "why_it_could_win": "Combines practical campus utility with autonomous transaction workflows, following the winning pattern of the Synthesis Hackathon."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

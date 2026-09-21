@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:34.519504+00:00",
+  "generated_at": "2026-09-21T08:23:48.400900+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -7,82 +7,93 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746479",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "An interactive execution visualizer for algorithmic problem solving that traces hidden test cases and highlights data structure mutations in real-time.",
+      "build_hours": 30,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An interactive execution trace visualizer specifically built for debugging complex data structure and algorithm problems against hidden test cases.",
+      "problem_statement": "2 Coding Problems based on Data Structures, Algorithms, and Problem Solving",
       "stack": [
-        "Python",
-        "JavaScript",
-        "Ast"
+        "TypeScript",
+        "React",
+        "Monaco Editor"
       ],
       "title": "AlgoTrace Visualizer",
       "track": "",
-      "why_it_could_win": "Aligns with the core evaluation of algorithmic problem-solving and efficiency by giving candidates a tool to debug hidden test case failures instantly."
+      "why_it_could_win": "Targets a direct pain point for candidates dealing with hidden test case failures during algorithmic assessments by offering precise step-by-step state visualization."
     },
     {
-      "build_hours": 24,
+      "build_hours": 20,
       "inspired_by": [],
-      "pitch": "An automated domain-based MCQ and flashcard generator that parses computer science textbooks to create targeted tests for programming fundamentals.",
+      "pitch": "A targeted spaced-repetition and code-reasoning engine designed to prep candidates for domain-based and programming language MCQs.",
+      "problem_statement": "2 Domain-Based MCQs covering core Computer Science concepts and 5 Programming Language MCQs testing programming fundamentals",
       "stack": [
         "Python",
         "FastAPI",
-        "React"
+        "TailwindCSS"
       ],
-      "title": "CS-Concept Synthesizer",
+      "title": "CS-Concept Flash & Quiz Engine",
       "track": "",
-      "why_it_could_win": "Directly targets the domain-based MCQs and programming language concepts tested in the technical assessment structure."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline code analysis utility that evaluates Python and C++ solutions for time and space complexity bottlenecks before submission.",
-      "stack": [
-        "Python",
-        "Numpy"
-      ],
-      "title": "ComplexityOptimizer",
-      "track": "",
-      "why_it_could_win": "Solves the exact constraint of code efficiency evaluation against hidden test cases without relying on slow external APIs."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1351321536"
-      ],
-      "pitch": "A sandboxed environment designed for solo developers to test custom implementations of complex data structures under strict time and memory limits.",
-      "stack": [
-        "TypeScript",
-        "Docker"
-      ],
-      "title": "DataStruct Playground",
-      "track": "",
-      "why_it_could_win": "Matches the solo assessment format and directly addresses the requirement for rigorous testing of core computer science fundamentals."
+      "why_it_could_win": "Directly tackles the MCQ portion of the technical assessment using active recall patterns and code snippets for language-specific traps."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1214808895"
+        "github:938030912"
       ],
-      "pitch": "A language-specific code reasoner that flags subtle runtime errors and edge-case bugs common in technical online assessments.",
+      "pitch": "A lightweight static analysis tool that estimates time and space complexity of code submissions before execution to prevent TLE (Time Limit Exceeded) errors.",
+      "problem_statement": "Candidates are expected to consider both correctness and efficiency of their solutions against multiple test cases",
       "stack": [
         "Python",
-        "LLM"
+        "AST",
+        "Streamlit"
       ],
-      "title": "SyntaxGuard AI",
+      "title": "ComplexityGuard",
       "track": "",
-      "why_it_could_win": "Leverages code reasoning evaluation patterns to help solo candidates eliminate silly syntax and logic mistakes under time pressure."
+      "why_it_could_win": "Helps solo candidates instantly spot inefficient nested loops and suboptimal data structure choices that cause hidden test case failures."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "An offline-first test case generator that automatically produces edge cases, boundary values, and stress tests from a natural language problem description.",
+      "problem_statement": "Coding questions will be evaluated against multiple test cases, including hidden test cases.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Ollama"
+      ],
+      "title": "TestGenie Solo",
+      "track": "",
+      "why_it_could_win": "Addresses the critical need for robust self-testing when candidates have no interactive partner to review their edge cases."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [],
+      "pitch": "A language-specific linter and AST-based playground focusing purely on tricky syntax, scoping rules, and pointer/reference semantics tested in language MCQs.",
+      "problem_statement": "5 Programming Language MCQs testing programming fundamentals, code reasoning, and language-specific concepts",
+      "stack": [
+        "TypeScript",
+        "WebAssembly",
+        "React"
+      ],
+      "title": "SyntaxRuler",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on code reasoning pitfalls like operator precedence, closures, and memory models that frequently appear in technical assessments."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

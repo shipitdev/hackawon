@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-09-13T07:50:38.275860+00:00",
+  "generated_at": "2026-09-21T08:18:15.254646+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1734963",
@@ -14,87 +16,90 @@
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1213911408",
-        "github:1155558847"
+        "github:1092255844"
       ],
-      "pitch": "An AI-powered indoor navigation and infrastructure compliance platform built specifically for university campuses like BVIMR, utilizing multi-agent orchestration for real-time asset tracking and maintenance ticketing.",
+      "pitch": "Real-time student engagement and event coordination platform for Indian academic institutions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "LangGraph",
-        "TailwindCSS"
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "CampusNav-AI: Multi-Agent Indoor Mapping & Facility Compliance for BVIMR",
+      "title": "CampusPulse",
       "track": "",
-      "why_it_could_win": "It directly targets the local university environment of the host institution, making the demo instantly relatable to the judging panel of faculty and administrators."
+      "why_it_could_win": "Follows the SpaceFlow pattern by focusing on workspace and event planning utility that judges can immediately test live during the hackathon."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1185920891"
+        "github:1185527998"
       ],
-      "pitch": "An autonomous agricultural supply chain tracking application leveraging USDC escrow to secure transactions between local farmers and Delhi NCR wholesale buyers with automated quality auditing.",
+      "pitch": "Multi-language patient triage and preliminary health logging web app tailored for local community clinics.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "Node.js",
+        "OpenCV",
+        "Express"
       ],
-      "title": "LocalMandi-Escrow: Autonomous Produce Supply Chain Verification",
+      "title": "MediTriage Local",
       "track": "",
-      "why_it_could_win": "Combines high-impact local socioeconomic problem-solving with fintech mechanics, mirroring proven financial and automation solutions."
+      "why_it_could_win": "Leverages the multi-language healthcare triage approach proven successful in mediscan-ai, addressing local accessibility."
     },
     {
       "build_hours": 16,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "A predictive analytics dashboard tailored for Delhi NCR that forecasts pollution spikes and industrial regulatory violations using Poisson regression and localized weather-grid data.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Scikit-learn"
-      ],
-      "title": "DelhiSmog-Predict: Urban Air Quality & Industrial Incident Forecasting",
-      "track": "",
-      "why_it_could_win": "Leverages the proven statistical forecasting pattern that won AI governance hackathons, applied to an urgent regional crisis in Delhi NCR."
-    },
-    {
-      "build_hours": 15,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A localized patient onboarding and review verification engine designed for mid-tier medical practices and dental clinics across Delhi NCR to build digital trust and streamline intake.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
-      ],
-      "title": "ClinicTrust-Delhi: AI Patient Acquisition & Trust Engine for Urban Clinics",
-      "track": "",
-      "why_it_could_win": "Directly adapts a proven 12-hour sprint winner model focused on practical healthcare business outcomes that judges instantly understand."
-    },
-    {
-      "build_hours": 14,
-      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A specialized nutritional assistant that generates personalized meal recommendations and dietary tracking specifically tailored to traditional North Indian dietary patterns and local ingredients.",
+      "pitch": "AI-powered nutrition tracking and meal recommendation engine optimized for traditional Indian cuisine.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "React",
+        "OpenAI API"
+      ],
+      "title": "NutriDesi",
+      "track": "",
+      "why_it_could_win": "Adapts the winning formula of E-Foodiee by targeting everyday health and nutrition with localized dietary data."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "Digital branch experience platform providing simulated loan application workflows with instant document verification.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Node.js",
         "TailwindCSS"
       ],
-      "title": "NutriDelhi: Regional AI Nutrition & Meal Planning Assistant",
+      "title": "LoanCue",
       "track": "",
-      "why_it_could_win": "Localizes a winning consumer wellness concept with culturally specific features that appeal directly to a Delhi-based audience."
+      "why_it_could_win": "Replicates the successful FinTech workflow demonstrated by CapitalCue, focusing on clean user journeys for judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "Language acquisition platform that helps users learn regional Indian languages through crowdsourced short-form video context.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "React",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "LinguaShorts",
+      "track": "",
+      "why_it_could_win": "Follows the Mora pattern of authentic, media-driven language learning that appeals strongly to student demographic judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

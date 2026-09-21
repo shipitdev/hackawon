@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:04:04.719145+00:00",
+  "generated_at": "2026-09-21T08:34:07.790487+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1755375",
@@ -14,84 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1185920891"
       ],
-      "pitch": "An AI-powered local merchant pricing and competitor intelligence platform designed specifically for college campuses and surrounding student-hub vendors, using predictive modeling to dynamically suggest optimal pricing strategies.",
+      "pitch": "A decentralized peer-to-peer micro-lending and emergency fund platform built specifically for college students facing sudden cash flow gaps.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "Next.js",
         "TypeScript",
-        "LightGBM",
-        "Next.js"
+        "Solidity",
+        "TailwindCSS"
       ],
-      "title": "CampusCartel AI Price Intelligence",
+      "title": "CampusCrone",
       "track": "",
-      "why_it_could_win": "Leverages a proven hackathon-winning architecture combining predictive regression and business intelligence, tailored to solve real student-vendor commerce problems visible to judges at IIM Indore."
+      "why_it_could_win": "Solves a real hyper-local pain point for undergraduate students living away from home, making it immediately relatable to IIM Indore judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
+        "github:1275874285",
+        "github:1213911408"
       ],
-      "pitch": "A computer vision platform that tracks and predicts daily food waste generation in institutional dining halls like hostels and mess facilities to optimize procurement and reduce overhead costs.",
+      "pitch": "An AI-powered food waste and nutritional tracker for institutional messes that predicts daily student turnout using historical patterns and dietary preferences.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "OpenCV",
-        "FastAPI"
+        "FastAPI",
+        "React",
+        "TensorFlow"
       ],
-      "title": "MessWaste AI Vision Tracker",
+      "title": "MessMeter",
       "track": "",
-      "why_it_could_win": "Addresses operational inefficiency in massive campus cafeterias, hitting close to home for IIM Indore judges who deal with campus logistics daily."
+      "why_it_could_win": "Combines sustainability with severe cost-saving potential for hostel and campus management, addressing a problem every judge experiences daily."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An algorithmic project-teaming platform that matches students across different colleges based on complementary technical stacks, past hackathon repos, and working hours.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "title": "SkillSync",
+      "track": "",
+      "why_it_could_win": "Directly targets the cross-college collaboration aspect permitted in the event rules, making it a meta-solution for future hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A knowledge graph generator that transforms chaotic lecture PDFs and handwritten notes into structured interactive revision mind-maps using local LLMs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "NetworkX"
+      ],
+      "title": "StudyGraph",
+      "track": "",
+      "why_it_could_win": "Addresses the universal student struggle of information overload right before exams with a highly visual, working product demonstration."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1213911408",
-        "github:1241231621"
+        "github:1155558847"
       ],
-      "pitch": "A multi-agent RAG-powered student support and curriculum navigation platform that parses course syllabi, assignment histories, and peer notes to generate hyper-personalized study roadmaps and risk alerts.",
+      "pitch": "An offline-first rapid ticketing and attendance verification app utilizing localized cryptography and QR rotation to prevent proxy check-ins at college fests.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "StudyGraph Multi-Agent Academic Advisor",
-      "track": "",
-      "why_it_could_win": "Demonstrates advanced multi-agent orchestration and LangGraph workflows similar to international hackathon winners, targeting the universal pain point of student burnout and academic planning."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [],
-      "pitch": "A zero-friction, automated expense splitting and recurring settlement app tailored for college group living, utilizing smart ledger caching and trust scoring to eliminate roommate disputes.",
-      "stack": [
-        "TypeScript",
-        "React Native",
+        "Flutter",
+        "Dart",
         "Node.js",
-        "PostgreSQL"
+        "MongoDB"
       ],
-      "title": "HostelLedger Decentralized Expense Splitter",
+      "title": "EventPulse",
       "track": "",
-      "why_it_could_win": "Solves an everyday, highly relatable problem for undergraduate students living away from home, ensuring immediate engagement from both judges and audience members."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-driven event discovery and trust engine for college fests and clubs that aggregates fragmented student events, automatically builds personalized itineraries, and predicts attendance surges using demographic trends.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "EventPulse Campus Engagement Engine",
-      "track": "",
-      "why_it_could_win": "Directly tackles the chaos of college fest management, leveraging high utility for university student bodies and event organizers at the host institute."
+      "why_it_could_win": "Delivers genuine systems engineering and solves a logistical nightmare familiar to event organizers at IIM Indore."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:56:42.541801+00:00",
+  "generated_at": "2026-09-21T08:25:35.248077+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,93 +9,98 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1747788",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A personal AI agent that analyzes the user's progress through HackoSquad 2026 missions and auto-generates customized practice web vulnerabilities and defense-in-depth hints using Claude.",
+      "inspired_by": [],
+      "pitch": "An automated platform that spins up deliberately vulnerable web apps with dynamic CTF flags for beginner security students.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Claude",
-        "Vercel AI SDK",
-        "Node.js"
-      ],
-      "title": "AgentShield CTF Coach",
-      "track": "",
-      "why_it_could_win": "Aligns with the beginner-friendly cybersecurity education mission of the hackathon while utilizing advanced defense-in-depth prompting techniques proven in previous security challenges."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A Python security insights tool that scans student repositories during the 7-day missions to automatically highlight insecure coding patterns, missing validation, and OWASP Top 10 vulnerabilities.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "AST Parser",
+        "Docker",
+        "Node.js",
         "React"
       ],
-      "title": "VulnQuery Repo Inspector",
+      "title": "CTFLearns: Automated Vulnerability Lab Generator",
       "track": "",
-      "why_it_could_win": "Directly tackles the learning objective of identifying and investigating attacks, mirroring tools that automate repository analysis and security reports."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "A BERT-powered spam and phishing detection system tailored to catch social engineering tactics, malicious emails, and SMS lures typical in early CTF phishing challenges.",
-      "stack": [
-        "JavaScript",
-        "Python",
-        "BERT",
-        "FastAPI",
-        "React.js"
-      ],
-      "title": "PhishGuard AI Detector",
-      "track": "",
-      "why_it_could_win": "Adapts proven NLP spam detection mechanics specifically for the offensive and defensive security scenarios taught during Cyber Week."
+      "why_it_could_win": "Directly targets the beginner-friendly focus of the hackathon by providing educational utility that judges and organizers can immediately use for future cohorts."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1188682384"
+        "github:1208011447"
       ],
-      "pitch": "A ZK-gated community and credential verification platform for CTF participants that proves challenge completion without leaking underlying flag secrets or solution write-ups.",
+      "pitch": "A defense-in-depth security proxy that intercepts and sanitizes prompt injections targeting AI agents used in CTF challenges.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Noir circuits",
-        "Base",
-        "zkProofport"
+        "Python",
+        "FastAPI",
+        "Vercel AI SDK"
       ],
-      "title": "ZeroTrust Agent Gate",
+      "title": "PromptShield: Layered LLM Injection Hardening Sandbox",
       "track": "",
-      "why_it_could_win": "Applies rigorous cryptographic access control principles to the competition environment, showcasing hard engineering in zero-knowledge proofs."
+      "why_it_could_win": "Leverages advanced security concepts proven in past wins like the BitGN Personal Agent Challenge winner, showing robust defensive engineering."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python-based CLI tool that parses network logs and terminal histories to automatically generate structured cybersecurity incident reports and CTF writeups.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Click",
+        "Markdown",
+        "OpenAI API"
+      ],
+      "title": "SecReportr: Automated CTF Writeup & Security Insight Generator",
+      "track": "",
+      "why_it_could_win": "Follows the exact pattern of Microsoft's Global Intern Hackathon winner by automating documentation and security reporting workflows."
     },
     {
       "build_hours": 32,
       "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A BERT-powered local detection system for identifying sophisticated phishing emails, SMS, and malicious call scripts during security training labs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "FastAPI",
+        "PyTorch"
+      ],
+      "title": "PhishGuard: Multi-Vector Spam and Phishing Detector",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of the Cyber Hackathon runner-up by implementing practical machine learning models directly addressing everyday cybersecurity threats."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931",
         "github:1284625256"
       ],
-      "pitch": "A deterministic engagement gate and edge telemetry log visualizer designed to detect anomalous traffic patterns and brute-force attempts during the final live CTF challenge.",
+      "pitch": "A lightweight edge-based packet analyzer that maps real-time network attacks onto an interactive graph for defensive security students.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "Amazon Bedrock",
-        "TailwindCSS"
+        "Python",
+        "Scapy",
+        "D3.js"
       ],
-      "title": "SecOps Edge Monitor",
+      "title": "AegisAgent: Edge Network Intrusion and Attack Visualizer",
       "track": "",
-      "why_it_could_win": "Provides tangible utility during the final live CTF competition by monitoring defensive posture and logging suspicious connection requests in real-time."
+      "why_it_could_win": "Combines complex graph intelligence and edge resilience seen in top-tier winning projects into a beginner-accessible educational format."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:15.039231+00:00",
+  "generated_at": "2026-09-21T08:24:06.022306+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,89 +10,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746700",
   "ideas": [
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A self-improving semantic router built with AI assistance to dynamically dispatch user prompts between local lightweight models and frontier APIs based on query complexity.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Qwen",
-        "Superlinked"
-      ],
-      "title": "VibeRouter",
-      "track": "",
-      "why_it_could_win": "Directly leans into the event's core focus of Vibe Coding and efficient AI tool usage while demonstrating a genuinely hard engineering approach to prompt routing."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "An AI-orchestrated risk diagnosis workflow that converts plain-text hackathon project descriptions into executable BPMN process graphs with automated human-in-the-loop checks.",
-      "stack": [
-        "Python",
-        "BPMN",
-        "AI Agents",
-        "Streamlit"
-      ],
-      "title": "BPMNVibeAgent",
-      "track": "",
-      "why_it_could_win": "Solves real pressure management and prioritization challenges by automating workflow bottlenecks using modern AI tools."
-    },
-    {
       "build_hours": 20,
       "inspired_by": [
         "github:1351321536"
       ],
-      "pitch": "An OS-level operations orchestrator built entirely via high-speed Vibe Coding in Cursor, allowing participants to automate their hackathon submission pipelines with natural language commands.",
+      "pitch": "An AI-powered project manager that dynamically reprioritizes student tasks under simulated hackathon time pressure and stress.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "Cursor SDK"
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
       ],
-      "title": "CursorVibeOps",
+      "title": "VibeFlow AI Task Prioritizer",
       "track": "",
-      "why_it_could_win": "Showcases extreme velocity using modern AI-powered development tools, perfectly matching the event's emphasis on Vibe Coding and quick decision-making."
+      "why_it_could_win": "Directly leans into the event's core focus on time management, pressure management, and prioritization during Vibe Coding."
     },
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
         "github:1214808895"
       ],
-      "pitch": "A lightweight reasoning wrapper that enables small open-source LLMs to efficiently self-correct their outputs through reinforcement learning loops during rapid ideation.",
+      "pitch": "A rapid prototyping tool that compiles messy Vibe Coding prompts into structured, modular LLM agent workflows in real time.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "PyTorch",
-        "OpenAI API"
+        "FastAPI",
+        "React",
+        "LangChain"
       ],
-      "title": "ReasonVibe",
+      "title": "PromptCircuit",
       "track": "",
-      "why_it_could_win": "Brings rigorous algorithmic engineering into an approachable format, scoring high on technical problem-solving and pressure management."
+      "why_it_could_win": "Addresses the specific hackathon theme of effective AI tool usage for rapid and clean project development."
     },
     {
-      "build_hours": 28,
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight local AI agent that monitors rapid vibe-coded repositories and automatically injects guardrails and fixes before breakages occur.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Anthropic API",
+        "AST",
+        "Streamlit"
+      ],
+      "title": "AgentVibe Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Combines fast AI-generated coding with robust engineering, scoring high on practical utility and pressure management."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A micro-collaboration dashboard designed for small hackathon teams to distribute Vibe Coding tasks without overlapping edits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Node.js",
+        "React"
+      ],
+      "title": "HackMate Sync",
+      "track": "",
+      "why_it_could_win": "Solves teamwork and communication bottlenecks that frequently cause teams to fail in 24-hour hackathons."
+    },
+    {
+      "build_hours": 22,
       "inspired_by": [
         "github:1163393786"
       ],
-      "pitch": "Two autonomous AI agents that negotiate time management and task allocation for hackathon teams under simulated pressure, discovering emergent collaboration strategies.",
+      "pitch": "An automated pitch rehearsal tool that pits student projects against simulated picky hackathon judges to pressure-test their value propositions.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangChain",
-        "Streamlit"
+        "Streamlit",
+        "OpenAI API",
+        "ElevenLabs"
       ],
-      "title": "GameTheoryVibes",
+      "title": "Synthetic Judge Sim",
       "track": "",
-      "why_it_could_win": "Leverages adversarial AI concepts to create an engaging, entertaining demo that captures the spirit of interactive challenge-driven learning."
+      "why_it_could_win": "Helps participants quickly iterate on their presentation and problem-solving skills under the event's challenge-driven format."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

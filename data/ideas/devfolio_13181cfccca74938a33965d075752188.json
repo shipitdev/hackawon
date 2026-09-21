@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:36:57.607039+00:00",
+  "generated_at": "2026-09-21T08:08:18.247511+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -9,10 +9,12 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "polish",
+      "sponsor-tech",
       "impact",
-      "sponsor-tech"
+      "polish"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:13181cfccca74938a33965d075752188",
@@ -22,81 +24,91 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A cyber risk quantification and financial loss estimation platform that aggregates threat intelligence and uses LightGBM to model expected breach costs for cyber insurance underwriting.",
+      "pitch": "A Monte Carlo simulation engine that ingests corporate IT log metrics to estimate probable maximum financial loss from ransomware attacks.",
+      "problem_statement": "Quantify cyber risk, predict potential incidents, estimate financial losses, or build smarter risk assessment systems.",
       "stack": [
         "Python",
-        "LightGBM",
         "FastAPI",
-        "TailwindCSS"
+        "React",
+        "TailwindCSS",
+        "NumPy"
       ],
-      "title": "ActuarialCyberValue",
+      "title": "ActuarialCyber Loss Modeler",
       "track": "Best Overall Project In Cybersecurity",
-      "why_it_could_win": "Targets the Best Overall Project In Cybersecurity track directly and aligns with the London Institute of Actuarial Studies focus on risk, uncertainty, and quantitative financial loss estimation."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1188643990"
-      ],
-      "pitch": "A privacy-preserving credit scoring app utilizing zero-knowledge proofs and alternative data features to assess loan default risk without exposing raw financial documents.",
-      "stack": [
-        "Dart",
-        "Flutter",
-        "Python",
-        "Scikit-Learn"
-      ],
-      "title": "CreditQuant Zero",
-      "track": "Best Overall Project In FinTech",
-      "why_it_could_win": "Combines rigorous FinTech predictive analytics with zero-knowledge cryptography, mirroring the technical complexity of winning engineering projects."
+      "why_it_could_win": "Directly targets the 'Best Overall Project In Cybersecurity' track by integrating actuarial frequency-severity modeling with technical vulnerability data, matching the hackathon's core quantitative edge."
     },
     {
       "build_hours": 18,
       "inspired_by": [
+        "github:35907421"
+      ],
+      "pitch": "An alternative credit scoring platform for small businesses that models loan default probability using cash flow volatility and stress-testing scenarios.",
+      "problem_statement": "Build solutions for credit risk, financial planning, insurance pricing, loan defaults, investment decisions, or financial forecasting.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "MicroCred Risk Pricing Engine",
+      "track": "Best Overall Project In FinTech",
+      "why_it_could_win": "Fits the 'Best Overall Project In FinTech' track by implementing rigorous statistical probability modeling instead of a generic loan calculator."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
         "github:386026044"
       ],
-      "pitch": "An educational data mining tool that analyzes student LMS engagement metrics to predict dropout risk early and automatically generates personalized intervention pathways.",
+      "pitch": "A predictive analytics dashboard for academic advisors that calculates student dropout risk using learning management system engagement metrics and expected value trees.",
+      "problem_statement": "Apply predictive analytics to student performance, exam preparation, dropout risk, personalized learning, and career planning.",
       "stack": [
-        "JavaScript",
-        "React",
-        "Python",
-        "Pandas"
+        "Node.js",
+        "Express",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "DropOutPredictor Ed",
+      "title": "EdPredict Dropout Risk Dashboard",
       "track": "Best Overall Project In EdTech",
-      "why_it_could_win": "Directly targets the EdTech track by applying predictive analytics to student performance and institutional retention metrics, a core theme of the hackathon."
+      "why_it_could_win": "Optimized for the 'Best Overall Project In EdTech' track by leveraging clear data-driven decision making and statistical prediction rather than a basic student tracker."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A zero-knowledge, encrypted document vault featuring biometric authentication and intuitive security posture UI for storing sensitive incident response keys.",
+      "problem_statement": "Quantify cyber risk, predict potential incidents, estimate financial losses, or build smarter risk assessment systems.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "TypeScript",
+        "Web Crypto API"
+      ],
+      "title": "ZeroTrust Cyber Vault Interface",
+      "track": "Best UI/UX in CyberSecurity",
+      "why_it_could_win": "Aims squarely at the 'Best UI/UX in CyberSecurity' track by coupling military-grade client-side encryption with an exceptionally polished design."
     },
     {
       "build_hours": 19,
-      "inspired_by": [],
-      "pitch": "An interactive, beautifully designed UI dashboard visualizing threat exposure and simulated financial payouts for corporate cybersecurity insurance portfolios.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "Chart.js"
-      ],
-      "title": "CyberRisk UI Dashboard",
-      "track": "Best UI/UX in CyberSecurity",
-      "why_it_could_win": "Targets the Best UI/UX in CyberSecurity track by offering exceptional polish and design quality far beyond typical hackathon entries."
-    },
-    {
-      "build_hours": 21,
       "inspired_by": [
-        "github:35907421"
+        "github:642839338"
       ],
-      "pitch": "A streamlined, real-time transaction monitoring interface designed to flag anomalous credit card patterns and anti-fraud alerts with ultra-low cognitive load for compliance officers.",
+      "pitch": "A retail investment forecasting tool that applies Monte Carlo simulations and historical stress-testing to visualize retirement portfolio ruin probabilities.",
+      "problem_statement": "Build solutions for credit risk, financial planning, insurance pricing, loan defaults, investment decisions, or financial forecasting.",
       "stack": [
-        "JavaScript",
-        "React",
-        "D3.js",
-        "CSS"
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "SciPy"
       ],
-      "title": "FinTech FraudGuard UI",
+      "title": "QuantVest Portfolio Stress Tester",
       "track": "Best UI/UX in FinTech",
-      "why_it_could_win": "Aims at the Best UI/UX in FinTech track by focusing on workflow efficiency, sleek data visualization, and immediate operational clarity."
+      "why_it_could_win": "Targeting the 'Best UI/UX in FinTech' track by turning complex stochastic volatility and probability curves into an approachable, beautifully designed dashboard."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:33.587054+00:00",
+  "generated_at": "2026-09-21T08:11:44.714398+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-knight",
@@ -16,80 +18,93 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A localized graph-intelligence platform combining transaction analysis and risk scoring tailored for small businesses in Flushing, New York, using explainable LightGBM models.",
+      "pitch": "An explainable graph intelligence platform assessing localized merchant credit and micro-loan risk using transaction topologies for Flushing small businesses.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
+        "NetworkX",
         "LightGBM",
-        "NetworkX"
-      ],
-      "title": "Flushing Local Business Risk & AML Graph",
-      "track": "",
-      "why_it_could_win": "Leverages the technically rigorous pattern of combining graph intelligence and machine learning seen in winning AML platforms."
-    },
-    {
-      "build_hours": 48,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered no-code trading bot platform optimized for decentralized perpetual exchanges, allowing users to build and backtest execution strategies visually.",
-      "stack": [
-        "Python",
-        "TypeScript",
         "Next.js"
       ],
-      "title": "Perpetual Queens No-Code Strategy Builder",
+      "title": "Flushing Local Merchant Credit Risk Graph",
       "track": "",
-      "why_it_could_win": "Replicates the grand prize-winning formula of accessible, complex financial tooling with automated execution."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive forecasting tool utilizing Poisson GAM and multinomial share models with calibrated prediction intervals to anticipate hyper-local municipal and environmental incidents in New York.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Poisson Regression"
-      ],
-      "title": "Queens Community AI Incident & Environmental Forecaster",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the rigorous statistical modeling and forecasting strategy that secured first place in AI forecasting competitions."
-    },
-    {
-      "build_hours": 45,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace facilitating local service transactions backed by secure USDC escrow payments settled on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Agent SDK"
-      ],
-      "title": "Flushing Autonomous Micro-Merchant Escrow",
-      "track": "",
-      "why_it_could_win": "Applies a proven hackathon-winning architecture combining autonomous agent workflows with real-world financial settlement layers."
+      "why_it_could_win": "Emulates proven graph intelligence and explainable machine learning architecture from the Bito win, providing judges with a high-utility financial tool tailored for local small business economies."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "A localized multi-agent student and community support platform leveraging LangGraph and RAG to dynamically route queries and deliver personalized guidance.",
+      "pitch": "A Poisson regression and GAM forecasting dashboard predicting localized supply chain and transport safety incidents in dense urban environments like Queens.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "TailwindCSS"
+      ],
+      "title": "AuraSafe: AI Incident Forecasting for Urban Logistics",
+      "track": "",
+      "why_it_could_win": "Directly applies rigorous statistical modeling and calibrated prediction intervals proven to win technical tracks in AI safety and forecasting hackathons."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-code perpetual trading strategy platform tailored for executing hyper-local localized liquidity arbitrage on decentralized order books.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "WebSockets",
+        "Solidity",
+        "React"
+      ],
+      "title": "Pacifica Flushing Cross-Border Arbitrage Bot",
+      "track": "",
+      "why_it_could_win": "Leverages the grand-prize-winning architecture of automated trading bots, giving judges a fully functional financial execution engine rather than a passive dashboard."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite computer vision and geospatial processing platform monitoring zoning compliance and land usage changes across Queens industrial corridors.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "RAG"
+        "Python",
+        "Mapbox GL JS",
+        "GDAL",
+        "Node.js"
       ],
-      "title": "EcoQueens Multi-Agent Campus & Community Support",
+      "title": "Q-Transit: Satellite Industrial Land Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Follows the blueprint of award-winning multi-agent orchestration architectures that simplify complex information retrieval."
+      "why_it_could_win": "Mirrors the runner-up spatial intelligence pattern of GeoNex-ATLAS, offering high visual impact via interactive maps that instantly capture judge attention."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student and community sustainability support platform utilizing LangGraph and local RAG workflows to optimize resource recycling in Flushing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangChain",
+        "LangGraph",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "Huan-Bao: Multi-Agent Green Novation Campus Support",
+      "track": "",
+      "why_it_could_win": "Adapts the multi-agent RAG workflow that won the GreenNovation Hackathon, showcasing advanced orchestration framework proficiency within the short 54-hour window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

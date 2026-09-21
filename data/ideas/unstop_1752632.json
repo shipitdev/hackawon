@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:36.946732+00:00",
+  "generated_at": "2026-09-21T08:31:38.837059+00:00",
   "grounding": {
     "domains": [
       "fintech",
@@ -7,6 +7,8 @@
     ],
     "exemplar_count": 8,
     "patterns": [],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1752632",
@@ -14,85 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1183964401"
+        "github:784668009"
       ],
-      "pitch": "A market entry strategy simulation dashboard and dynamic routing engine that determines optimal regulatory entry vectors and liquidity partner hubs for self-custodial perps.",
+      "pitch": "A compliance and routing simulation engine that helps self-custodial perp platforms dynamically adjust user onboarding paths based on real-time jurisdictional changes.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "React",
         "TailwindCSS"
       ],
-      "title": "MochaRoute: Geo-Compliance & Liquidity Router",
+      "title": "MochaRoute: Regulatory-Aware Market Entry Navigator for Global Perps",
       "track": "Market Entry & Regulatory Strategy",
-      "why_it_could_win": "Directly tackles the core MochaTrade partnership track by presenting a comprehensive strategic framework for regulatory navigation and geographic market expansion under strict compliance constraints."
+      "why_it_could_win": "Targeting the specific MochaTrade Market Entry & Regulatory Strategy track with a software solution rather than a static slide deck gives judges a tangible product to evaluate."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:784668009"
+      ],
+      "pitch": "An operational risk management dashboard designed for early-stage fintech leadership teams to monitor self-custodial perpetual futures liquidity pools and collateral ratios across chains.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Ethers.js",
+        "PostgreSQL"
+      ],
+      "title": "PerpShield: Automated Risk and Liquidity Allocation Dashboard",
+      "track": "Market Entry & Regulatory Strategy",
+      "why_it_could_win": "Addresses the operational scaling challenges of a YC-backed crypto derivatives startup by focusing on risk management metrics that fintech founders care about."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:784668009",
-        "github:1183964401"
+        "github:1183964401",
+        "github:1185920891"
       ],
-      "pitch": "An agentic risk management dashboard designed for global self-custodial traders to automate margin calls, funding rate arbitrage alerts, and localized fiat-to-crypto onboarding paths.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "Web3.js"
-      ],
-      "title": "PerpShield: Automated Risk & Collateral Optimizer for Global Traders",
-      "track": "Market Entry & Regulatory Strategy",
-      "why_it_could_win": "Addresses the real-world operational challenges of managing perpetual futures positions across cross-border jurisdictions, scoring high on fintech depth and strategic adaptability."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "A strategic decision-support tool that models the capital efficiency, licensing costs, and user acquisition friction of deploying self-custodial perpetual futures in emerging fintech markets.",
+      "pitch": "An AI-powered agent interface that allows retail global traders to execute automated funding rate arbitrage strategies on self-custodial perpetual DEXs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "Pandas",
-        "Plotly"
+        "LangChain",
+        "Web3.py",
+        "Streamlit"
       ],
-      "title": "Jurisdictional Arbitrage Matrix for Crypto Perps",
+      "title": "AgenticPerp: Autonomous Strategy Executor for Global Traders",
       "track": "Market Entry & Regulatory Strategy",
-      "why_it_could_win": "Appeals directly to the business and strategy case format of RVCE ACM's MarketSphere by providing an executive-ready simulation model for early-stage fintech scaling."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:541080273"
-      ],
-      "pitch": "A go-to-market strategy platform and incentive simulation dashboard for bootstrapping initial liquidity on self-custodial trading platforms through targeted community rewards.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Solidity",
-        "Ethers.js"
-      ],
-      "title": "TokenGated Growth: DAO-Driven Liquidity Bootstrapping for Perps",
-      "track": "Market Entry & Regulatory Strategy",
-      "why_it_could_win": "Solves the exact cold-start liquidity problem faced by pre-seed platforms like MochaTrade, offering judges a blend of tokenomics strategy and actionable growth metrics."
+      "why_it_could_win": "Combines high-growth crypto trading mechanics with AI agent execution, reflecting winning patterns from recent trading and agentic hackathon projects."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1131796276",
-        "github:980599492"
+        "github:1131796276"
       ],
-      "pitch": "A streamlined onboarding architecture blending zero-knowledge identity verification with decentralized compliance checks for global users accessing US stock and crypto perpetuals.",
+      "pitch": "A zero-knowledge identity verification gateway enabling self-custodial platforms to prove regional compliance without exposing sensitive user PII.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Circom",
-        "Node.js"
+        "SnarkJS",
+        "Solidity"
       ],
-      "title": "GlobalOnboard: Self-Custodial KYC & Synthetic Access Pipeline",
+      "title": "JurisdictionalGuard: ZK-Based Onboarding & Compliance Gateway",
       "track": "Market Entry & Regulatory Strategy",
-      "why_it_could_win": "Tackles the ultimate bottleneck of global fintech scaling—balancing user privacy via self-custody with strict regulatory compliance frameworks."
+      "why_it_could_win": "Solves the core regulatory bottleneck of global market entry for fintechs while showcasing advanced privacy tech that appeals to technical judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:619126149"
+      ],
+      "pitch": "A micro-transaction cross-chain bridge optimized for depositing small amounts of collateral into perpetual futures accounts instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "Next.js",
+        "Wagmi"
+      ],
+      "title": "TokenRoute: Cross-Chain Liquidity Bridging for Small-Scale Perp Collateral",
+      "track": "Market Entry & Regulatory Strategy",
+      "why_it_could_win": "Directly tackles the friction of retail user acquisition and global onboarding for crypto derivatives platforms through streamlined UX."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

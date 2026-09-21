@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-20T07:54:37.128313+00:00",
+  "generated_at": "2026-09-21T08:37:35.869762+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758463",
@@ -14,87 +18,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
+        "github:1185527998",
+        "github:1182199849"
       ],
-      "pitch": "An AI-powered emergency triage and remote vital sign monitor for pets that uses computer vision via smartphone camera to detect pain levels, respiratory distress, and provides immediate first-aid guidance.",
+      "pitch": "An edge-computed veterinary triage app that uses smartphone cameras and audio analysis to detect pet distress and route emergency alerts to local vets.",
+      "problem_statement": "Smart Pet Healthcare & Emergency Assistance",
       "stack": [
-        "Python",
-        "TensorFlow",
-        "FastAPI",
-        "React Native"
+        "TypeScript",
+        "OpenCV",
+        "React Native",
+        "Node.js"
       ],
-      "title": "PawGuard Emergency Triage & Vitals AI",
+      "title": "PetPulsar Emergency AI",
       "track": "PetTech & Animal Welfare",
-      "why_it_could_win": "Directly addresses the PetTech & Animal Welfare track and the Smart Pet Healthcare & Emergency Assistance challenge, a niche where judges will appreciate direct collaboration partner PetsParivar's core focus."
+      "why_it_could_win": "Directly aligns with the co-organizer PetsParivar's core domain and features a working computer vision triage demo inspired by clinical-grade AI platforms."
     },
     {
       "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1010199928"
+      ],
+      "pitch": "A behavioral analytics platform that combines IoT bin sensors and a walk-to-earn mobile web app to gamify and measure waste segregation compliance on campus.",
+      "problem_statement": "Students need better ways to understand why people do not follow existing waste-segregation practices.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "EcoNudge Campus",
+      "track": "Smart Campus & Smart City",
+      "why_it_could_win": "Combines clear, measurable environmental impact metrics with a live-working civic rewards interface that judges can test instantly on their phones."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A smart animal shelter matching system that analyzes adopter lifestyle parameters and pet behavioral assessments via a multi-agent framework to minimize return rates for rescued animals.",
+      "pitch": "A smart matchmaking portal for animal shelters that uses a questionnaire-based multi-agent recommendation model to pair prospective owners with rescue pets based on lifestyle.",
+      "problem_statement": "Responsible Pet Adoption & Animal Welfare",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "LangChain",
-        "PostgreSQL"
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
       ],
-      "title": "AdoptMatch Behavior-To-Home Biometric Matching",
+      "title": "PawMatch Behavioral Sync",
       "track": "PetTech & Animal Welfare",
-      "why_it_could_win": "Targeted specifically at the Responsible Pet Adoption & Animal Welfare challenge, combining practical social impact with a sophisticated multi-agent matching algorithm."
+      "why_it_could_win": "Directly targets PetsParivar's sponsor interest in animal welfare by applying multi-agent RAG workflow logic to streamline institutional adoption rates."
     },
     {
-      "build_hours": 30,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1155558847"
+        "github:1092255844"
       ],
-      "pitch": "A computer vision and IoT simulation dashboard for smart campuses that optimizes waste collection routes based on real-time bin fullness and recyclable material classification.",
+      "pitch": "An offline-first emergency response P2P web application allowing students to broadcast encrypted distress signals and live locations across campus dead zones.",
+      "problem_statement": "Student Safety & Emergency Response",
+      "stack": [
+        "TypeScript",
+        "WebRTC",
+        "Geolocation API",
+        "Express"
+      ],
+      "title": "CampusSafe AI Mesh",
+      "track": "Smart Campus & Smart City",
+      "why_it_could_win": "Solves a critical, high-anxiety campus problem with hard engineering in local network protocols and immediate, demonstrable live safety utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered browser extension that dynamically converts complex academic portal documents into structured text-to-speech audio streams and simplified dyslexia-friendly layouts.",
+      "problem_statement": "AI for Accessibility & Inclusive Education",
       "stack": [
         "JavaScript",
-        "Python",
-        "OpenCV",
-        "Leaflet.js"
-      ],
-      "title": "CampusBin Intelligent Waste & Carbon Router",
-      "track": "Smart Campus & Smart City",
-      "why_it_could_win": "Aligns with the Smart Campus & Smart City track and Smart Waste Management & Sustainability challenge, giving municipal and campus judges a concrete operational dashboard."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
-      ],
-      "pitch": "An accessibility platform providing real-time multimodal transcription, sign language avatar interpretation, and automated simplified lecture notes for students with diverse learning needs.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
         "Web Speech API",
-        "Gemini API"
+        "TailwindCSS",
+        "Chrome Extensions API"
       ],
-      "title": "InclusiveClassroom AI Real-Time Accessible Assistant",
+      "title": "EduAccess Lens",
       "track": "AI & Smart Technology",
-      "why_it_could_win": "Directly tackles the AI for Accessibility & Inclusive Education challenge within the AI & Smart Technology track, hitting high social impact priorities for university judges."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A decentralized student safety alert system using offline-first Bluetooth mesh networking for dead-zone emergency communication combined with predictive heatmaps of campus lighting and historical incidents.",
-      "stack": [
-        "TypeScript",
-        "React Native",
-        "Node.js",
-        "PostGIS"
-      ],
-      "title": "CampusSafe Panic-Mesh & Incident Predictor",
-      "track": "Smart Campus & Smart City",
-      "why_it_could_win": "Directly addresses the Student Safety & Emergency Response challenge while showcasing systems-level thinking and graph/forecasting techniques similar to top-winning forecasting models."
+      "why_it_could_win": "Delivers immediate social impact and high inclusive accessibility value with a lightweight client-side script that can be demoed live in under two minutes."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

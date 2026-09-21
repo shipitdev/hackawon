@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:15.354517+00:00",
+  "generated_at": "2026-09-21T08:12:29.588917+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackgb",
@@ -17,84 +19,95 @@
         "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "An enterprise routing and supply chain anomaly detection platform tailored for Green Bay packaging and shipping distribution networks, utilizing spatial forecasting and automated risk alerts.",
+      "pitch": "An AI-powered supply chain and cold-chain route optimizer tailored for Green Bay food distributors and cheese manufacturers.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "TypeScript",
         "Next.js",
-        "PostgreSQL"
+        "Python",
+        "FastAPI",
+        "Google Maps API"
       ],
-      "title": "PackersLogistics AI Optimizer",
+      "title": "PackersLogistics AI Routing Engine",
       "track": "",
-      "why_it_could_win": "It targets local industry verticals in Green Bay, making the use case instantly relatable and pragmatic for local judges compared to abstract global apps."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1213911408",
-        "github:1275874285"
-      ],
-      "pitch": "A hyper-localized agricultural and community surplus food distribution network that matches regional farms with local food pantries using automated RAG-based inventory matching.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Node.js",
-        "TailwindCSS"
-      ],
-      "title": "Titletown Local Food Hub",
-      "track": "",
-      "why_it_could_win": "Leverages the community-centric priorities typical of regional Midwestern hackathons while demonstrating solid, practical data pipeline architecture."
+      "why_it_could_win": "Green Bay has heavy local manufacturing and logistics industries; building a tool targeted at local industrial supply chains will immediately resonate with regional judges looking for real-world utility."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847",
+        "github:1213911408"
       ],
-      "pitch": "A real-time predictive energy monitoring and load-forecasting dashboard built specifically to model high-stress winter heating demands on upper-midwestern utility grids.",
+      "pitch": "Satellite and IoT sensor data fusion platform tracking agricultural runoff and water quality metrics along the Fox River Basin near Green Bay.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "React",
         "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
+        "PostGIS",
+        "TailwindCSS"
       ],
-      "title": "ColdSnap Grid Monitor",
+      "title": "FoxRiver Watershed Sentinel",
       "track": "",
-      "why_it_could_win": "Mirrors the hard engineering and rigorous forecasting seen in top-winning technical projects like AI incident forecasting."
+      "why_it_could_win": "Leverages regional geography and environmental monitoring, mirroring the technical execution and real-world impact seen in winning geospatial monitoring projects."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1275874285"
+      ],
+      "pitch": "Poisson regression and predictive modeling platform for Wisconsin dairy processing plants to forecast daily milk yield and minimize production waste.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "scikit-learn",
+        "Streamlit"
+      ],
+      "title": "CheeseCraft Yield & Waste Forecaster",
+      "track": "",
+      "why_it_could_win": "Directly applies rigorous statistical forecasting methods to the dominant regional industry, capturing the technical depth valued by judges in predictive analytics tracks."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1155558847"
+        "github:1185920891"
       ],
-      "pitch": "An automated satellite and port activity compliance tracker designed to monitor industrial runoff and shipping lane regulations for the Port of Green Bay.",
+      "pitch": "Autonomous AI agent marketplace with secure crypto-escrow payments designed specifically for local event ticket resales and community swaps in Green Bay.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "PostGIS"
+        "Next.js",
+        "Solidity",
+        "Base",
+        "Viem"
       ],
-      "title": "BayPort Maritime Compliance",
+      "title": "Titletown Ticket Escrow Agent",
       "track": "",
-      "why_it_could_win": "Combines spatial data processing with regulatory compliance, matching the winning profile of complex industrial monitoring solutions."
+      "why_it_could_win": "Combines practical consumer utility with modern agentic patterns and escrow mechanics, matching the architecture of proven autonomous marketplace winners."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1241231621"
+        "github:1241231621",
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered ticketing trust and verification engine that detects secondary market fraud and dynamically prices verified fan exchanges for local event venues.",
+      "pitch": "Multimodal AI patient acquisition and rapid triage assistant designed for urgent care clinics operating around large stadium event days in Green Bay.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini API",
         "Next.js",
-        "Prisma"
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "Lambeau FanTrust Engine",
+      "title": "TailgateCare Health & Triage Assistant",
       "track": "",
-      "why_it_could_win": "Directly addresses high-value local economic ecosystems in Green Bay with a robust trust-and-verify workflow."
+      "why_it_could_win": "Solves a localized surge-capacity problem using domain-specific AI workflows, mirroring the winning execution style of high-impact vertical healthcare hackathon projects."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

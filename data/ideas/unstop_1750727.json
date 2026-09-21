@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:20.090331+00:00",
+  "generated_at": "2026-09-21T08:29:19.579805+00:00",
   "grounding": {
     "domains": [
       "hardware",
@@ -13,6 +13,8 @@
       "technical-depth",
       "impact"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750727",
@@ -20,85 +22,92 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1010199928"
+        "github:1341712439"
       ],
-      "pitch": "A compact conveyor belt prototype using a low-cost camera and edge AI to classify recyclable waste in real-time, built specifically for sorting facility automation.",
+      "pitch": "An IoT-based edge controller that dynamically balances load and storage in microgrids using local anomaly detection.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "OpenCV",
-        "Arduino",
-        "TensorFlow Lite"
+        "C++",
+        "ESP32",
+        "MQTT",
+        "React"
       ],
-      "title": "EcoSort Edge: Smart Automated Waste Sorting Micro-Rig",
+      "title": "SmartEdge Solar Microgrid Optimizer",
       "track": "Energy & Sustainable Technologies",
-      "why_it_could_win": "Directly targets the Energy & Sustainable Technologies domain with a physical prototype that can be demonstrated live, following the proven success pattern of working hardware demos."
+      "why_it_could_win": "Hardware hackathons heavily favor working physical prototypes; this uses an ESP32 and current sensors to show real-time power switching that judges can physically see and test."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:694390550"
+        "github:1259981732"
       ],
-      "pitch": "A tabletop 3D machine vision camera setup that scans moving textile samples to instantly flag manufacturing anomalies and halt production.",
+      "pitch": "A small tracked rover carrying an ESP32-CAM that streams live video and detects structural cracks using edge vision.",
+      "problem_statement": "No published statement",
       "stack": [
+        "C++",
         "Python",
         "OpenCV",
-        "C++",
-        "Raspberry Pi"
+        "ESP32-CAM"
       ],
-      "title": "VisionGuard: Industrial Fabric Defect Detection Rig",
+      "title": "Autonomous Pipeline Inspection Rover",
+      "track": "Intelligent & Autonomous Systems",
+      "why_it_could_win": "Combines mechanical mobility with automated computer vision, directly matching the Intelligent & Autonomous Systems domain with a high-impact physical demo."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A portable medical triage badge measuring pulse and temperature that runs offline anomaly detection locally to flag critical patient decline.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "C++",
+        "Arduino",
+        "TensorFlow Lite"
+      ],
+      "title": "VitalsEdge: Offline Clinical Triage Monitor",
+      "track": "AI & Healthcare Technologies",
+      "why_it_could_win": "Focuses on medical hardware utility in low-connectivity zones, hitting the AI & Healthcare Technologies domain with a self-contained prototype."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1234067949"
+      ],
+      "pitch": "An ultrasonic water level sensor node powered by a solar panel that reports street-level flood risks to an emergency dashboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "C++",
+        "ESP8266",
+        "TailwindCSS"
+      ],
+      "title": "SmartDrain Urban Flood Sentinel",
       "track": "Smart Infrastructure & Digital Ecosystems",
-      "why_it_could_win": "Addresses Smart Infrastructure & Digital Ecosystems with heavy industrial utility, replicating the complex sensing and immediate feedback loop that judges reward."
+      "why_it_could_win": "Addresses urban resilience with low-cost hardware components that are trivial to assemble and produce immediate, understandable telemetry data for judges."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1234067949"
+        "github:694390550"
       ],
-      "pitch": "A waterproof floating sensor node measuring turbidity, temperature, and pH levels to predict water quality hazards via onboard machine learning.",
+      "pitch": "An accelerometer-based vibration monitor attached to machinery motors that detects early mechanical failure patterns locally.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "ESP32",
-        "MQTT"
-      ],
-      "title": "AquaSense Mini: IoT Algal Bloom Early Warning Buoy",
-      "track": "Resilience & Emerging Technologies",
-      "why_it_could_win": "Combines IoT sensing with environmental protection, fitting squarely into Resilience & Emerging Technologies while demonstrating end-to-end data pipelines."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1341712439"
-      ],
-      "pitch": "An edge diagnostic box that monitors industrial motor vibrations, detects anomalies using lightweight isolation forests, and triggers automated self-remediation routines.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "FastAPI",
-        "Arduino"
-      ],
-      "title": "AutoHeal IoT: Closed-Loop Sensor Diagnostic Unit",
-      "track": "Intelligent & Autonomous Systems",
-      "why_it_could_win": "Showcases genuinely hard engineering by implementing automated closed-loop operational workflows on constrained hardware within the Intelligent & Autonomous Systems domain."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1259981732"
-      ],
-      "pitch": "A small tracked robotic rover that navigates unstructured terrain independently to map hazards and stream live telemetry back to an operations dashboard.",
-      "stack": [
         "C++",
-        "Python",
-        "ROS2",
-        "ESP32-CAM"
+        "Raspberry Pi Pico",
+        "FastAPI"
       ],
-      "title": "TerraPatrol: Autonomous Terrain Mapping Rover",
-      "track": "Intelligent & Autonomous Systems",
-      "why_it_could_win": "Delivers an impressive, highly visible hardware demonstration that directly answers the 'Experience Innovation' theme by moving hardware ideas off paper into reality."
+      "title": "Industrial Vibration Health Pod",
+      "track": "Resilience & Emerging Technologies",
+      "why_it_could_win": "Directly tackles industrial maintenance safety, providing a robust end-to-end telemetry system built within a tight 24-hour sprint."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

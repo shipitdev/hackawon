@@ -1,100 +1,103 @@
 {
-  "generated_at": "2026-09-13T07:53:38.264527+00:00",
+  "generated_at": "2026-09-21T08:21:37.990500+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1744287",
   "ideas": [
     {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A hybrid cryptography auditing suite that simulates post-quantum lattice-based encryption transitions for corporate cybersecurity pipelines.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Kyber",
-        "FastAPI"
-      ],
-      "title": "Q-Shield: Quantum-Resistant Key Exchange and Audit Platform",
-      "track": "",
-      "why_it_could_win": "Directly aligns with the Q-Bits club focus on quantum technologies and cybersecurity, addressing an urgent national infrastructure security concern that appeals heavily to technical judges."
-    },
-    {
       "build_hours": 30,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "A financial portfolio optimization tool leveraging simulated quantum annealing heuristics to solve complex Markowitz portfolio selection problems faster than classical solvers.",
+      "inspired_by": [],
+      "pitch": "A hybrid quantum-classical post-quantum cryptography key distribution mesh network designed for secure edge-to-cloud telemetry in industrial IoT.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "Streamlit",
-        "Pandas"
-      ],
-      "title": "Quantum Portfolio Optimizer",
-      "track": "",
-      "why_it_could_win": "Combines quantitative finance with emerging quantum computing paradigms, matching the quant-focused name and theme of the hackathon."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
-      ],
-      "pitch": "An AI-assisted molecular docking visualization dashboard that uses graph neural networks to predict binding affinities for drug discovery.",
-      "stack": [
         "TypeScript",
-        "Python",
-        "PyTorch",
-        "Three.js"
+        "Rust"
       ],
-      "title": "Bio-Quantum Molecular Docking Simulator",
-      "track": "",
-      "why_it_could_win": "Taps into advanced AI and scientific computing, delivering genuine technical difficulty that stands out against standard web apps."
+      "title": "QuantumKey-Mesh",
+      "track": "Cybersecurity & Quantum",
+      "why_it_could_win": "Leverages the theme of quantum technologies and cybersecurity organized by Q-Bits (the Quantum Technology Club), appealing directly to specialized technical judges looking for cryptographic depth rather than standard web apps."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1185920891",
-        "github:1213911408"
-      ],
-      "pitch": "An autonomous AI agent network that aggregates vulnerability feeds, verifies threat intelligence via multi-agent consensus, and logs payouts using smart contracts.",
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An enterprise logistics routing dashboard that uses simulated quantum annealing algorithms to solve multi-depot vehicle routing problems in real-time.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "LangGraph",
-        "Solidity",
-        "Base"
+        "Python",
+        "NetworkX",
+        "FastAPI",
+        "React"
       ],
-      "title": "Aegis-Agent: Decentralized Threat Intelligence Marketplace",
-      "track": "",
-      "why_it_could_win": "Integrates autonomous AI agents with blockchain security, ticking multiple core technology pillars emphasized by the organizers."
+      "title": "Q-Route: Quantum-Annealed Supply Chain Optimizer",
+      "track": "Emerging Technologies",
+      "why_it_could_win": "Combines advanced algorithmic problem solving (simulated quantum annealing) with a high-impact enterprise visualization dashboard, showing genuine technical rigor suitable for a national-level tech hackathon."
     },
     {
       "build_hours": 28,
       "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An edge-AI threat detection framework that combines graph intelligence and lightweight machine learning models to identify insider anomalies in zero-trust networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "NeuroGuard-AI",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Adopts the architecture of advanced risk detection and graph intelligence seen in top-tier hackathon winners, targeting the intersection of AI and cybersecurity."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "A smart city congestion management engine utilizing QUBO (Quadratic Unconstrained Binary Optimization) formulations to coordinate traffic light grids in real time.",
+      "pitch": "An AI-powered satellite and drone imagery monitoring platform designed to verify agricultural carbon credits and land compliance automatically.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "NetworkX",
-        "Next.js",
-        "Leaflet.js"
+        "OpenCV",
+        "PostGIS"
       ],
-      "title": "Q-Route: Quantum-Inspired Traffic Flow Optimization",
-      "track": "",
-      "why_it_could_win": "Addresses real-world urban infrastructure problems using advanced optimization algorithms that impress academic and industry judges alike."
+      "title": "AgriQ-Sentry",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Features clear, measurable environmental and economic impact backed by geospatial processing, a proven formula for winning judges looking for real-world utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent dispute resolution and escrow platform that automates multi-party micro-transactions with verifiable on-chain audit logs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Node.js",
+        "Base"
+      ],
+      "title": "ChainEscrow-AI",
+      "track": "Blockchain",
+      "why_it_could_win": "Combines blockchain escrow infrastructure with autonomous agent workflows, delivering a live, working integration that showcases modern full-stack engineering."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

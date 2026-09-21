@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-09-15T07:58:27.289881+00:00",
+  "generated_at": "2026-09-21T08:34:30.620452+00:00",
   "grounding": {
-    "domains": [
-      "devtools"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
+      "impact",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755763",
@@ -16,86 +18,98 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1213911408",
+        "github:1200926140"
       ],
-      "pitch": "An intelligent conference agenda planner and live Q&A summarizer that uses semantic routing to instantly categorize, route, and answer attendee questions during live tech conferences.",
+      "pitch": "An intelligent platform tailored for large conferences that synthesizes live audience sentiment, automatically categorizes Q&A streams using RAG, and produces real-time engagement analytics.",
+      "problem_statement": "Develop and present ideas within the areas of Software Development and Conferences.",
       "stack": [
-        "Python",
-        "FastAPI",
         "TypeScript",
-        "React",
-        "Qwen"
+        "Next.js",
+        "TailwindCSS",
+        "LangGraph",
+        "Python",
+        "FastAPI"
       ],
-      "title": "ConfSync AI",
-      "track": "Software Development and Conferences",
-      "why_it_could_win": "Directly targets the core themes of the hackathon focusing on both Software Development and Conferences by solving real-time event engagement challenges."
+      "title": "ConfPulse: AI-Powered Hybrid Conference Engagement and Real-Time Q&A Analyzer",
+      "track": "Conferences",
+      "why_it_could_win": "Directly targets the 'Conferences' domain focus of Tech Eximius 2.0 with a functional real-time demo that event organizers can immediately adopt."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1143576965"
+      ],
+      "pitch": "A streamlined software platform for conference hosts to manage live schedules, automated attendee matchmaking, and cross-session resource sharing in real time.",
+      "problem_statement": "Develop and present ideas within the areas of Software Development and Conferences.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Socket.io"
+      ],
+      "title": "OmniSync: Unified Multi-Platform Event Management & Networking Engine",
+      "track": "Software Development",
+      "why_it_could_win": "Combines robust software development with conference logistics, providing a tangible tool that solves common organizational bottlenecks."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1200926140"
+      ],
+      "pitch": "A software utility that ingests long conference whitepapers and session transcripts, instantly rendering structured multilingual summaries and interactive Q&A interfaces.",
+      "problem_statement": "Develop and present ideas within the areas of Software Development and Conferences.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenAI API",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "VeritasDocs: Automated Multilingual Conference Proceeding Summarizer",
+      "track": "Conferences",
+      "why_it_could_win": "Employs practical document-processing intelligence that saves attendees and researchers time, appealing strongly to the conference theme."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1282252864"
+        "github:1181344931"
       ],
-      "pitch": "A visual BPMN-orchestrated platform designed for conference organizers to automate speaker scheduling, submission reviews, and human-in-the-loop risk management for session tracks.",
+      "pitch": "A specialized developer conferencing tool that allows speakers to broadcast live code environments directly to participants' browsers with synchronized cursor highlights.",
+      "problem_statement": "Develop and present ideas within the areas of Software Development and Conferences.",
       "stack": [
-        "Python",
-        "BPMN",
-        "Flask",
-        "TailwindCSS"
+        "React",
+        "WebRTC",
+        "Node.js",
+        "Monaco Editor",
+        "Docker"
       ],
-      "title": "BPMN DevConf Workflow Manager",
-      "track": "Software Development and Conferences",
-      "why_it_could_win": "Utilizes complex workflow orchestration which satisfies the expectation for genuinely hard software engineering within a 36-hour timeframe."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous data lineage and incident response tool tailored for large-scale conference streaming data and registration pipelines, featuring automated evidence gating and pull request generation.",
-      "stack": [
-        "Python",
-        "DataHub",
-        "Docker",
-        "PostgreSQL"
-      ],
-      "title": "DataHub Conference Metrics",
+      "title": "DevStream: Low-Latency Virtual Workshop & Live Code Collaboration Suite",
       "track": "Software Development",
-      "why_it_could_win": "Demonstrates advanced data engineering capabilities that stand out among typical frontend-heavy hackathon submissions."
+      "why_it_could_win": "Merges both published themes—Software Development and Conferences—into a single integrated developer-focused experience."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1296916648"
+        "github:1087704265"
       ],
-      "pitch": "An offline-capable AI code reviewer and presentation analyzer that runs locally on hardware to evaluate conference paper submissions and software source code for technical feasibility.",
+      "pitch": "An optimization backend and web dashboard that automates conference track scheduling, speaker availability matching, and room allocation without scheduling overlaps.",
+      "problem_statement": "Develop and present ideas within the areas of Software Development and Conferences.",
       "stack": [
         "Python",
-        "LLM",
-        "Streamlit",
-        "LangChain"
+        "Flask",
+        "React",
+        "OR-Tools",
+        "TailwindCSS"
       ],
-      "title": "Agentic ConfReviewer",
-      "track": "Software Development and Conferences",
-      "why_it_could_win": " Combines software development evaluation with conference submission workflows, directly fitting the primary twin pillars of Tech Eximius 2.0."
-    },
-    {
-      "build_hours": 45,
-      "inspired_by": [
-        "github:1199751414"
-      ],
-      "pitch": "A federated Model Context Protocol server platform that securely connects distributed medical conference databases for live collaborative clinical AI agent demonstrations.",
-      "stack": [
-        "HTML",
-        "Python",
-        "Kubernetes",
-        "ArgoCD"
-      ],
-      "title": "MCP Clinical Conf Net",
-      "track": "Software Development",
-      "why_it_could_win": "Tackles distributed systems architecture and federated data challenges, showcasing the 'genuinely hard engineering' pattern seen in top hackathon winners."
+      "title": "SchedulAI: Intelligent Venue and Slot Conflict Resolver for Large Symposia",
+      "track": "Conferences",
+      "why_it_could_win": "Solves an algorithmic and practical problem with clear measurable efficiency gains for event administrators."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

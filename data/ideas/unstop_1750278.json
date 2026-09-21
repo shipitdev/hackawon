@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-09-13T07:58:57.821965+00:00",
+  "generated_at": "2026-09-21T08:28:52.133432+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750278",
@@ -14,85 +16,93 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1170846981"
       ],
-      "pitch": "An AI-powered predictive analytics platform for local agricultural cold storage units in Indore to forecast crop spoilage and optimize logistics using Poisson regression and weather data.",
+      "pitch": "A multilingual voice-first health awareness app tailored for rural Indian communities to provide preventive healthcare and vaccination schedules.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "Pandas",
-        "Scikit-learn"
+        "FastAPI",
+        "React Native",
+        "OpenAI Whisper",
+        "ElevenLabs"
       ],
-      "title": "AgriSutra AI: Supply Chain Risk & Spoilage Predictor",
+      "title": "GramSwasthya AI",
       "track": "",
-      "why_it_could_win": "Leverages heavy localized real-world impact for regional infrastructure, matching the winning pattern of hard data-driven forecasting seen in ai-incident-forecasting."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A hyper-localized web application that helps independent dental and medical clinics in Indore automate patient outreach, trust-building, and appointment booking using Gemini API.",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        "Gemini API"
-      ],
-      "title": "MedTrust Local: Patient Acquisition & Trust Engine for Tier-2 Clinics",
-      "track": "",
-      "why_it_could_win": "Directly replicates the rapid 12-hour win formula of Global-Smile by solving a practical business acquisition problem for local healthcare providers."
+      "why_it_could_win": "Directly builds upon the success pattern of SAGACITY by addressing local socio-economic challenges in India with an accessible voice and multilingual interface, which heavily appeals to regional offline hackathon judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1155558847"
+        "github:1143576965"
       ],
-      "pitch": "An automated satellite imagery analysis tool that detects unauthorized industrial waste dumping and illegal deforestation around the Indore region to aid municipal compliance.",
+      "pitch": "A real-time disaster management and emergency resource coordination platform mapped specifically for urban and semi-urban regions like Indore.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
+        "JavaScript",
+        "Node.js",
         "Leaflet.js",
-        "OpenCV"
+        "Express",
+        "MongoDB"
       ],
-      "title": "EcoIndore: Satellite Monitoring for Urban Green Cover & Waste Dumping",
+      "title": "DisasterWatch Indore",
       "track": "",
-      "why_it_could_win": "Employs geographic data processing to address civic infrastructure problems, following the proven success pattern of GeoNex-ATLAS at regional hackathons."
+      "why_it_could_win": "Mirrors the success pattern of Oarfin by delivering a concrete, map-based, live tool for emergency response that judges can interact with instantly during the offline science fair-style judging."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition and meal recommendation platform customized for hostel students eating at mess facilities across Indian colleges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "NutriTrack Campus",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of E-Foodiee-AI-Nutrition-Assistant by targeting a relatable daily problem for college students with a highly polished visual UI and rapid AI API integration."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An enterprise video indexing and retrieval platform that transforms unstructured lecture or meeting recordings into searchable text segments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Whisper API",
+        "ChromaDB",
+        "Next.js"
+      ],
+      "title": "DocuSearch Video Intelligence",
+      "track": "",
+      "why_it_could_win": "Adopted from LibrAI's multi-award-winning approach, offering a high-utility productivity tool that solves a universal data overload pain point with a guaranteed working demo."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1213911408"
+        "github:1192028384"
       ],
-      "pitch": "A multi-agent RAG system built specifically for college student support and automated curriculum navigation, combining LangGraph and vector embeddings for instant student query resolution.",
+      "pitch": "An autonomous AI assistant for college student placement cells and club leads to schedule interviews, draft reports, and automate administrative overhead.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
         "LangGraph",
-        "Supabase"
-      ],
-      "title": "CampusGraph: Multi-Agent Academic Support & Peer Mentorship Platform",
-      "track": "",
-      "why_it_could_win": "Applies advanced multi-agent orchestration that judges heavily favor in student-centric hackathons, directly modeled after the greennovation-ai-platform win."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition application tailored to Indian regional meal thalis, delivering personalized macronutrient insights and healthy diet recommendations using localized food databases.",
-      "stack": [
-        "Python",
         "FastAPI",
-        "React",
-        "OpenAI API"
+        "TailwindCSS"
       ],
-      "title": "NutriThali: AI Regional Diet and Wellness Companion",
+      "title": "CampusBot AI Chief of Staff",
       "track": "",
-      "why_it_could_win": "Adopt the consumer-focused health wellness track that secured 1st prize at the Mealzy 24-Hour Hackathon with high UI polish and fast execution."
+      "why_it_could_win": "Applies the autonomous agent framework seen in claw-chief-of-staff to a hyper-local college environment, making it immediately resonant with faculty judges from the host institution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

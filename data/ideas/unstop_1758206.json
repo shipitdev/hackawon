@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:54:10.025684+00:00",
+  "generated_at": "2026-09-21T08:37:08.330947+00:00",
   "grounding": {
     "domains": [
       "gaming"
@@ -10,90 +10,96 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1758206",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1276392534"
-      ],
-      "pitch": "A 2D puzzle platformer where the world generation and physics pivot mid-stream based on live spectator chat inputs, adapting the game state in real-time.",
-      "stack": [
-        "TypeScript",
-        "Phaser.js",
-        "WebSockets"
-      ],
-      "title": "ChronoCanvas: Dynamic World-Model Narrative Game",
-      "track": "",
-      "why_it_could_win": "Leverages heavy technical ambition inspired by recent continuous generative video world model winners, captivating judges looking for novel runtime engine mechanics."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1022921066",
         "github:759869516"
       ],
-      "pitch": "A Unity-based narrative RPG mod that hooks local LLMs via Python bindings to let players converse with non-player characters using real-time voice input.",
+      "pitch": "A 2D puzzle platformer where the level geometry shifts in real time based on player movement patterns, built to excel under sudden theme constraints.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C#",
-        "Unity",
-        "Python",
-        "Whisper"
+        "Godot",
+        "GDScript",
+        "Aseprite"
       ],
-      "title": "Echoes of Incarnia: AI Voice NPC Interactor",
+      "title": "ChronoCanvas: Dynamic Procedural World Jam",
       "track": "",
-      "why_it_could_win": "Demonstrates hard engineering integration between game engines and live speech-to-text models, following proven patterns from real-time AI character hackathon wins."
+      "why_it_could_win": "Leverages the rapid prototyping approach of past game jam winners by focusing on a hyper-polished core mechanic that judges can immediately play and understand."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:855192292"
       ],
-      "pitch": "An interactive Ren'Py visual novel focused on local resource management and water conservation puzzles, featuring custom illustrated assets and branching logic.",
+      "pitch": "A short-form visual novel set inside a fictionalized tech fest where dialogue choices dynamically alter campus dynamics and puzzle difficulty.",
+      "problem_statement": "No published statement",
       "stack": [
         "Ren'Py",
         "Python",
         "Audacity"
       ],
-      "title": "AquaGuardian: Eco-Educational Visual Novel",
+      "title": "Echoes of IIITN: Interactive Narrative Mystery",
       "track": "",
-      "why_it_could_win": "Targeted game jam format execution with an educational spin that historically sweeps social impact tracks and hooks student judges."
+      "why_it_could_win": "Follows the blueprint of educational and narrative-driven winners like AquaQuest by keeping scope tight while delivering strong artistic and atmospheric presentation."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1052196050"
+        "github:870537595",
+        "github:877364534"
       ],
-      "pitch": "A lightweight browser-based strategy mini-game where players deploy autonomous reinforcement learning agents that battle using simplified MOBA mechanics.",
+      "pitch": "A retro 8-bit arcade minigame wrapper that turns real-world task lists and hackathon progress into an RPG dungeon crawler.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "JavaScript",
-        "FastAPI",
-        "Phaser"
+        "Phaser.js",
+        "TailwindCSS"
       ],
-      "title": "Dota Tactics: Autonomous Minion Autochess",
+      "title": "Questify: Gamified Task Management for Hackathons",
       "track": "",
-      "why_it_could_win": "Shows advanced systems programming and machine learning integration scaled down neatly into a hackathon-friendly time frame."
+      "why_it_could_win": "Employs proven gamification mechanics seen in past retro-gaming and finance winners, making utility genuinely fun and engaging for judges."
     },
     {
-      "build_hours": 28,
+      "build_hours": 40,
       "inspired_by": [
-        "github:870537595"
+        "github:1022921066"
       ],
-      "pitch": "A retro 8-bit arcade platformer built in React that integrates simulated blockchain token drops and instant minigame transactions on every level clearance.",
+      "pitch": "An auxiliary plugin that lets players chat via voice directly with background game characters using local speech-to-text models.",
+      "problem_statement": "No published statement",
       "stack": [
-        "React",
-        "JavaScript",
-        "HTML5 Canvas"
+        "Python",
+        "WebSockets",
+        "OpenAI Whisper"
       ],
-      "title": "TokenTumble: Retro Arcade Tokenomics",
+      "title": "VoiceRealm: Live NPC Conversational Mod",
       "track": "",
-      "why_it_could_win": "Hits the sweet spot of polished retro styling combined with functional ledger mechanics that previously won game jam prizes."
+      "why_it_could_win": "Directly adapts the high-impact live integration strategy of award-winning AI assistant tools, guaranteeing a memorable live demonstration."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1052196050",
+        "github:928533631"
+      ],
+      "pitch": "A lightweight tactical minigame featuring an autonomous AI bot companion trained to cooperate with the player against incoming waves.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Unity",
+        "C#"
+      ],
+      "title": "Agentic Arena: Autonomous Sidekick",
+      "track": "",
+      "why_it_could_win": "Pioneers lightweight agentic gameplay loops inspired by recent hackathon champions, scoring high on technical novelty within a game jam context."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

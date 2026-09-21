@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:23.122307+00:00",
+  "generated_at": "2026-09-21T08:15:42.434899+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:spartahack",
@@ -14,85 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A localized predictive analytics engine using Poisson GAM and rolling backtests to forecast regional infrastructure and energy load anomalies in Michigan during severe winter weather.",
+      "pitch": "An intelligent predictive routing and congestion forecasting platform tailored for the sprawling Michigan State University campus during peak winter weather.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Streamlit"
+        "Leaflet.js"
       ],
-      "title": "SpartanGrid AI Incident Forecaster",
+      "title": "SpartanPulse Campus Mobility AI",
       "track": "",
-      "why_it_could_win": "Follows the exact hard engineering pattern from the Apart Research AI Forecasting win by utilizing statistical modeling and calibrated prediction intervals instead of a generic wrapper."
+      "why_it_could_win": "Focuses on hyper-local community utility for East Lansing residents and students, making the live demo instantly relatable to judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered graph intelligence and LightGBM platform designed to detect suspicious peer-to-peer financial transactions and grant allocation fraud in university student organizations.",
+      "pitch": "A graph-intelligence risk assessment tool connecting local manufacturers in Michigan to optimize regional logistics and resource sharing.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "LightGBM",
-        "Neo4j"
+        "Neo4j",
+        "Python",
+        "FastAPI"
       ],
-      "title": "CampusShield AML & Fraud Graph",
+      "title": "Mid-Michigan Local Supply Chain Graph",
       "track": "",
-      "why_it_could_win": "Leverages complex graph intelligence and explainable machine learning proven to win financial and AI innovation hackathons."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student support and sustainability tracker using LangGraph and RAG to audit and optimize campus building energy consumption and waste reduction initiatives.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "OpenAI API",
-        "Next.js"
-      ],
-      "title": "Midwest GreenNovation Multi-Agent Advisor",
-      "track": "",
-      "why_it_could_win": "Adapts the winning multi-agent RAG architecture from the GreenNovation Hackathon to solve a practical university-level challenge that local judges will immediately appreciate."
+      "why_it_could_win": "Employs graph intelligence and complex data visualization, mirroring advanced analytics projects that score highly with technical judges."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "An automated satellite imagery analysis tool that monitors agricultural land use changes and environmental compliance across rural Michigan counties.",
+      "pitch": "A multi-agent sustainability reporting and student carbon footprint tracking platform built specifically for university campus initiatives.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "SentinelHub API"
+        "LangGraph",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "AgriSustain Satellite Land Monitor",
+      "title": "SpartanGrow Campus Sustainability Tracker",
       "track": "",
-      "why_it_could_win": "Replicates the technical execution of the Xcelerate Hackathon runner-up by integrating geospatial APIs for high-impact environmental monitoring."
+      "why_it_could_win": "Aligns with institutional campus green initiatives, offering immediate pilot potential for MSU sustainability officers."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform tailored for university dining halls, delivering real-time personalized meal recommendations based on student dietary restrictions and fitness goals.",
+      "pitch": "An AI-powered nutrition planning application optimized for student dining hall menus and local budget constraints in East Lansing.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "React",
-        "PostgreSQL"
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
       ],
-      "title": "NutriCampus Personalized Wellness Engine",
+      "title": "Midwest Student Wellness & Nutrition Hub",
       "track": "",
-      "why_it_could_win": "Uses the fast-turnaround consumer utility model that successfully won the Mealzy 24-Hour Hackathon within a tight time window."
+      "why_it_could_win": "Solves an everyday college pain point with localized execution, appealing directly to student-focused judging panels."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous agent marketplace that matches undergraduate student researchers with faculty grants and university funding opportunities using automated matching algorithms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "Michigan Research Grant Matching Agent",
+      "track": "",
+      "why_it_could_win": "Addresses a tangible administrative bottleneck within large research universities like MSU, making its value proposition crystal clear."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

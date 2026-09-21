@@ -1,88 +1,100 @@
 {
-  "generated_at": "2026-09-18T07:33:34.101313+00:00",
+  "generated_at": "2026-09-21T08:36:14.829261+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "polish",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757410",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A futuristic pop-up boba tea stall concept featuring an AI flavor-combinator kiosk that projects personalized holographic drink avatars based on user mood inputs.",
-      "stack": [
-        "Next.js",
-        "TailwindCSS",
-        "Three.js"
-      ],
-      "title": "NeonBoba: Interactive AR Boba Stall Concept",
-      "track": "",
-      "why_it_could_win": "It directly targets the fest stall theme by combining physical engagement with generative visuals, maximizing foot traffic and memorability for judges looking for pure creativity and consumer appeal."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "A dessert stall concept themed around time travel, featuring interactive mechanical menu displays and a custom web app where visitors order customized pastries mapped to historical eras.",
-      "stack": [
-        "React",
-        "CSS Animations",
-        "Firebase"
-      ],
-      "title": "ChronoCakes: Kinetic Time-Lapse Pastry Bar",
-      "track": "",
-      "why_it_could_win": "Focuses heavily on immersive storytelling, thematic branding, and product positioning rather than complex backend engineering, perfectly aligning with the fest stall evaluation criteria."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
+        "github:1200926140"
       ],
-      "pitch": "A live merchandise stall concept where festival-goers use an intuitive touch-screen interface to generate abstract AI art patterns printed instantly onto tote bags and badges.",
+      "pitch": "An automated, retro-futuristic vending and interactive tea stall concept built for college fests with custom robotic cup-pouring and gamified ordering.",
+      "problem_statement": "Overview Date: 27 September 2026 Time: 5:30 PM IST Mode: Virtual Winner Advancement: One winner from this event will be nominated for the national-level round.",
       "stack": [
-        "TypeScript",
-        "HTML5 Canvas",
-        "Gemini API"
+        "HTML",
+        "TailwindCSS",
+        "JavaScript",
+        "Figma"
       ],
-      "title": "PixelPrint: Custom Generative Merch Stall",
+      "title": "ChaiBotics Fest Kiosk",
       "track": "",
-      "why_it_could_win": "Leverages real-time visual creation to deliver an unforgettable interactive experience that judges can instantly visualize operating on a college fest ground."
+      "why_it_could_win": "Focuses heavily on high-impact visual branding and an experiential stall layout that instantly catches judge attention within seconds, matching the core branding and positioning focus."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:359267918"
+      ],
+      "pitch": "A cyberpunk-themed mini-arcade and interactive photobooth stall concept where students play low-latency web games to win custom fest merchandise discounts.",
+      "problem_statement": "Overview Date: 27 September 2026 Time: 5:30 PM IST Mode: Virtual Winner Advancement: One winner from this event will be nominated for the national-level round.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "CSS3"
+      ],
+      "title": "NeonGlow Arcade Fest Stall",
+      "track": "",
+      "why_it_could_win": "Provides an unmistakable live-demo element and deep engagement hook that proves why people would stop, notice, and remember the stall."
     },
     {
       "build_hours": 28,
-      "inspired_by": [],
-      "pitch": "A snack and beverage stall wrapped inside a nostalgic 8-bit arcade cabinet theme, featuring mini-browser games that unlock menu discounts based on high scores.",
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A zero-waste experiential juice and smoothie bar stall concept that gamifies upcycling by rewarding students who bring their own cups with digital badge art.",
+      "problem_statement": "Overview Date: 27 September 2026 Time: 5:30 PM IST Mode: Virtual Winner Advancement: One winner from this event will be nominated for the national-level round.",
       "stack": [
-        "JavaScript",
-        "Phaser.js",
+        "Next.js",
         "TailwindCSS"
       ],
-      "title": "RetroArcade Cafe: Play-to-Win Snack Stall",
+      "title": "EcoSnap Sustainable Fest Hub",
       "track": "",
-      "why_it_could_win": "Combines gamification with retail branding, providing a complete brand identity and interactive engagement loop that easily stands out in a pitch presentation."
+      "why_it_could_win": "Addresses contemporary sustainability themes with an exceptional brand identity, crisp UI, and a clear storyline that resonates strongly with college festival crowds."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1213911408"
+        "github:918466502"
       ],
-      "pitch": "A sustainability-themed smoothie stall concept featuring an interactive carbon-offset tracker displayed on the storefront and edible plantable seed-paper cups.",
+      "pitch": "An interactive caricature and digital avatar creation stall concept that transforms fest attendee selfies into anime or cyber-art style badges in real-time.",
+      "problem_statement": "Overview Date: 27 September 2026 Time: 5:30 PM IST Mode: Virtual Winner Advancement: One winner from this event will be nominated for the national-level round.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenCV"
+      ],
+      "title": "QuickSketch AI Portrait Stall",
+      "track": "",
+      "why_it_could_win": "Leverages instant visual gratification and clever positioning to guarantee high footfall and immediate engagement during the pitch presentation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1073244675"
+      ],
+      "pitch": "A chemistry-themed molecular mixology mocktail bar stall featuring glowing drinks, periodic table branding, and an interactive recipe customizer web app.",
+      "problem_statement": "Overview Date: 27 September 2026 Time: 5:30 PM IST Mode: Virtual Winner Advancement: One winner from this event will be nominated for the national-level round.",
       "stack": [
         "React",
-        "Node.js"
+        "TailwindCSS"
       ],
-      "title": "EcoSnap: Zero-Waste Botanical Smoothie Bar",
+      "title": "The Midnight Mocktail Lab",
       "track": "",
-      "why_it_could_win": "Taps into modern consumer trends around sustainability and circular economies, presenting a tightly integrated brand strategy and physical stall design."
+      "why_it_could_win": "Combines a unique physical theme with a seamless digital interface, fulfilling the requirement for creativity, branding, and a memorable fest experience."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

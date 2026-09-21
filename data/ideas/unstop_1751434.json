@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:59:52.237801+00:00",
+  "generated_at": "2026-09-21T08:30:13.750273+00:00",
   "grounding": {
-    "domains": [
-      "civic"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "impact",
-      "working-demo",
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751434",
@@ -21,92 +21,93 @@
         "github:1132337467",
         "github:1170846981"
       ],
-      "pitch": "A multilingual value-based education and ethics storytelling platform inspired by Swami Vivekananda's teachings, delivering interactive ethical dilemmas and leadership scenarios to rural and urban school children via mobile web.",
+      "pitch": "An AI-powered interactive mentorship platform that helps students explore the teachings and philosophies of Swami Vivekananda through localized, multilingual Socratic dialogue.",
+      "problem_statement": "Swami Vivekananda & His Life — questions based on his life, teachings, philosophy, contributions, and vision.",
       "stack": [
+        "Next.js",
         "TypeScript",
-        "React",
         "TailwindCSS",
-        "Gemini AI",
-        "Firebase"
+        "Gemini AI API",
+        "PostgreSQL"
       ],
-      "title": "VivekaValues AI",
+      "title": "VivekaValues AI: Interactive Philosophical Mentorship Platform",
       "track": "",
-      "why_it_could_win": "Directly aligns with the values and vision of the co-organizer, the Ramakrishna Mission Vivekananda Institute of Values, appealing directly to the cultural and educational ethos of the judging panel."
+      "why_it_could_win": "Directly targets the core cultural and philosophical ethos of the Ramakrishna Mission Vivekananda Institute of Values, appealing immediately to the judges' institutional values."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "A platform connecting student volunteers with local community service initiatives, utilizing intelligent task matching and impact tracking inspired by national service ideals.",
+      "problem_statement": "Technology — Questions related to Artificial Intelligence & Machine Learning (AI/ML), Web Development, App Development, Data Science, Cybersecurity, Cloud Computing, Programming, and other emerging technologies.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Leaflet Maps"
+      ],
+      "title": "CampusSeva: AI-Driven Community Service and Student Collaboration Hub",
+      "track": "",
+      "why_it_could_win": "Demonstrates clear social impact and technological utility, answering the call to use technology as a force for positive community change."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1346526259",
-        "github:1143576965"
+        "github:1213911408"
       ],
-      "pitch": "A civic tech dashboard and reporting mobile application that uses computer vision to detect garbage hotspots, overflowing bins, and pollution sources across Delhi, automatically routing reports to local municipal authorities.",
+      "pitch": "A multi-agent personalized learning platform that suggests technical skill modules intertwined with ethical reasoning and character-building exercises.",
+      "problem_statement": "Technology — Questions related to Artificial Intelligence & Machine Learning (AI/ML), Web Development, App Development, Data Science, Cybersecurity, Cloud Computing, Programming, and other emerging technologies.",
       "stack": [
         "Python",
         "FastAPI",
-        "React Native",
-        "OpenCV",
-        "Supabase"
-      ],
-      "title": "DelhiClean AI",
-      "track": "",
-      "why_it_could_win": "Addresses pressing real-world environmental challenges in Delhi with a demonstrable, working prototype and clear measurable impact on civic cleanliness."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1170846981",
-        "github:1194555365"
-      ],
-      "pitch": "An offline-first vernacular AI teaching assistant designed for resource-constrained community schools, helping volunteer educators generate lesson plans and quizzes based on national curriculum standards in regional Indian languages.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "HuggingFace Transformers",
-        "SQLite"
-      ],
-      "title": "GuruShikshak",
-      "track": "",
-      "why_it_could_win": "Focuses on high-impact social welfare and education democratization, following proven winning patterns of impactful civic and community tools."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1228867095",
-        "github:1192028384"
-      ],
-      "pitch": "A voice-first regional language AI companion for elderly citizens in India that screens incoming phone calls and SMS for financial fraud and scam patterns, alerting both the senior and their designated family members.",
-      "stack": [
-        "Swift",
-        "Python",
-        "WebRTC",
-        "OpenAI Whisper",
-        "Cloudflare Workers"
-      ],
-      "title": "ElderSahayak",
-      "track": "",
-      "why_it_could_win": "Solves a deeply personal and urgent safety issue with advanced voice agents, echoing successful agentic hackathon entries that protect vulnerable populations."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1132337467",
-        "github:1194555365"
-      ],
-      "pitch": "A campus-to-community micro-volunteering and skill-matching platform that connects engineering students from DTU and technical institutes across India with local NGOs and community centers needing digital literacy and technical infrastructure help.",
-      "stack": [
-        "TypeScript",
+        "LangChain",
         "React",
-        "Node.js",
-        "PostgreSQL",
-        "Mapbox"
+        "TailwindCSS"
       ],
-      "title": "SkillSetu DTU",
+      "title": "AuraLearn: Personalized Ethical Leadership & Tech Skill Pathfind",
       "track": "",
-      "why_it_could_win": "Leverages the institutional context of DTU and national collaboration goals, showcasing a working local ecosystem dashboard that judges can test live during the event."
+      "why_it_could_win": "Combines advanced technical architecture (multi-agent workflows) with the holistic development vision promoted by the hackathon organizers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent knowledge retrieval system that helps hackathon participants instantly search and digest complex documentation, past project repositories, and philosophical reference texts.",
+      "problem_statement": "Technology — Questions related to Artificial Intelligence & Machine Learning (AI/ML), Web Development, App Development, Data Science, Cybersecurity, Cloud Computing, Programming, and other emerging technologies.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangGraph",
+        "ChromaDB",
+        "OpenAI API"
+      ],
+      "title": "PrernaPulse: Hackathon Mentor & Knowledge Graph Assistant",
+      "track": "",
+      "why_it_could_win": "Solves an immediate pain point for both students and organizers during a fast-paced national hackathon by acting as an intelligent helper."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "An app that tracks institutional or student campus sustainability metrics and gamifies eco-friendly habits with actionable insights.",
+      "problem_statement": "Technology — Questions related to Artificial Intelligence & Machine Learning (AI/ML), Web Development, App Development, Data Science, Cybersecurity, Cloud Computing, Programming, and other emerging technologies.",
+      "stack": [
+        "Flutter",
+        "Firebase",
+        "Python",
+        "Flask"
+      ],
+      "title": "EcoKarma: Student Carbon Footprint & Sustainable Action Tracker",
+      "track": "",
+      "why_it_could_win": "Features clear, measurable environmental impact that judges love to see in societal challenge tracks."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

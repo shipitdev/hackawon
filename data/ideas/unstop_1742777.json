@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T07:52:16.564163+00:00",
+  "generated_at": "2026-09-21T08:20:12.565566+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1742777",
@@ -14,81 +17,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1213911408"
+        "github:1341712439"
       ],
-      "pitch": "An AI-assisted theorem prover and pattern recognition engine tailored specifically for Olympiad-style non-routine mathematics problems.",
-      "stack": [
-        "Python",
-        "SymPy",
-        "LangChain",
-        "Next.js"
-      ],
-      "title": "NonRoutineProofSearch",
-      "track": "",
-      "why_it_could_win": "Aligns directly with the core theme of the Math-O-Stellar competition, targeting logical reasoning and flexible thinking rather than standard routine curriculum."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An interactive canvas that helps students visualize recursive sequences, number theory invariants, and geometric transformations to spot hidden patterns quickly.",
+      "pitch": "An interactive web platform that parses non-routine math problems, generates symbolic solution steps via LLM, and plots geometric or algebraic patterns live.",
+      "problem_statement": "Welcome to the Online Non-Routine Mathematics Competition focusing on non-routine problems requiring insight, pattern recognition, and logical reasoning.",
       "stack": [
         "TypeScript",
-        "React",
-        "Canvas API",
-        "Python"
+        "Next.js",
+        "Python",
+        "SymPy",
+        "TailwindCSS"
       ],
-      "title": "MathPatternExplorer",
+      "title": "NonRoutine Math Solver & Visualizer",
       "track": "",
-      "why_it_could_win": "Directly aids competitors in pattern recognition and insight generation, which are heavily tested in non-routine mathematics formats."
+      "why_it_could_win": "Directly tackles the core theme of non-routine mathematical thinking with a working live demo that solves pattern recognition tasks instantly."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265"
+        "github:1182199849"
       ],
-      "pitch": "A benchmarking and hint-generation pipeline that evaluates LLM reasoning paths against multi-step mathematical proofs with confidence intervals.",
+      "pitch": "A browser-based workspace where participants can type mathematical proofs and test logical consistency against known axioms and sub-steps.",
+      "problem_statement": "Welcome to the Online Non-Routine Mathematics Competition testing mathematical maturity, logical reasoning, and problem-solving skills beyond the standard curriculum.",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "OpenAI API",
-        "FastAPI"
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Lean4-web"
       ],
-      "title": "OlympiadSolverBench",
+      "title": "Math Olympiad Proof Checker & Step-Validator",
       "track": "",
-      "why_it_could_win": "Combines hard algorithmic engineering with mathematical rigor, appealing to judges who value technical depth over generic wrappers."
+      "why_it_could_win": "Addresses the non-routine nature of competition math by providing deep engineering in logical validation rather than just rote formula memorization."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1181344931"
+        "github:1200926140"
       ],
-      "pitch": "A graph-based intelligence tool that maps out logical dependencies and sub-goals in complex mathematical proofs.",
+      "pitch": "A tool designed for non-routine math problem creators and competitors to discover hidden algebraic and geometric sequences through automated pattern analysis.",
+      "problem_statement": "Welcome to the Online Non-Routine Mathematics Competition focusing on pattern recognition, ingenuity, and insight.",
       "stack": [
         "TypeScript",
-        "D3.js",
+        "React",
         "Python",
-        "NetworkX"
+        "FastAPI",
+        "NumPy"
       ],
-      "title": "ProofGraphViz",
+      "title": "PatternQuest: Interactive Sequence Generator",
       "track": "",
-      "why_it_could_win": "Showcases graph intelligence applied to logical reasoning, solving a technically difficult problem relevant to advanced problem solvers."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining numerical analysis algorithms with a responsive frontend built for rapid testing during a 120-minute format."
     },
     {
       "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "A real-time collaborative workspace for teams of 1-2 to solve complex math problems together with integrated LaTeX rendering and scratchpad tools.",
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A distraction-free exam simulator tailored for non-routine math competitions with built-in scratchpads, formula inputs, and time management metrics.",
+      "problem_statement": "Competition Format: Total Questions: 15, Time Allotted: 120 minutes, Mode: Online browser-platform requiring secure, focused environments.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "WebSockets",
-        "KaTeX"
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "MathCollabPad",
+      "title": "Math-O-Stellar Proctor & Practice Sandbox",
       "track": "",
-      "why_it_could_win": "Provides essential tooling for the exact format of the hackathon, making it an immediately useful utility for participants."
+      "why_it_could_win": "Solves the exact logistical constraints and environment requirements published in the competition rules with a polished, fully working prototype."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A real-time infinite canvas optimized for drawing complex mathematical graphs, annotating non-routine problems, and sharing ideas with a teammate.",
+      "problem_statement": "Welcome to the Online Non-Routine Mathematics Competition requiring insight, persistence, and flexible thinking.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebSockets",
+        "Canvas API"
+      ],
+      "title": "AxiomScript: Collaborative Math Whiteboard",
+      "track": "",
+      "why_it_could_win": "Built for teams of 1-2 to collaborate seamlessly on complex problems under tight time limits, featuring a robust working live demo."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

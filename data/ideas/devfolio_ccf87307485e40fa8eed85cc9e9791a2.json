@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:42:48.980446+00:00",
+  "generated_at": "2026-09-21T08:10:05.303871+00:00",
   "grounding": {
     "domains": [
       "web3",
@@ -10,6 +10,8 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "theme_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:ccf87307485e40fa8eed85cc9e9791a2",
@@ -17,84 +19,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:129194051"
+        "github:1188682384"
       ],
-      "pitch": "A client-side coordinator that uses Nostr direct messages to negotiate collaborative Bitcoin CoinJoins without relying on centralized servers or leaking IP addresses.",
+      "pitch": "A private Bitcoin tipping plugin for Nostr clients utilizing zero-knowledge proofs to break the public link between npub and lightning invoice destinations.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
+        "TypeScript",
         "Nostr",
-        "Bitcoin",
-        "TypeScript"
+        "Lightning Network",
+        "Noir"
       ],
-      "title": "NostrCoinJoin",
-      "track": "Best in Freedom Stack",
-      "why_it_could_win": "Directly targets the Privacy and Nostr tracks by combining decentralized communication with sovereign Bitcoin privacy tooling, aligning with Bitshala's core ethos."
+      "title": "NostrZkPay",
+      "track": "Best in Cypherpunk",
+      "why_it_could_win": "Directly targets both the Privacy and Nostr tracks by solving a major metadata leak in social payments, aligning with Bitshala's ethos of deep cryptographic privacy."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "An autonomous AI agent running locally that monitors Lightning Network channel liquidity and rebalances balances automatically using signed Nostr event triggers.",
+      "pitch": "An autonomous AI agent running locally that manages a Core Lightning node, automatically rebalancing channels and executing submarine swaps based on network fee heuristics.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "ai-agents",
-        "Lightning Network",
-        "Nostr"
+        "Python",
+        "LangChain",
+        "Core Lightning",
+        "Bitcoind"
       ],
-      "title": "SovereignAgent",
+      "title": "SatsAgent",
       "track": "Best in Machine Money",
-      "why_it_could_win": "Combines the AI track with Bitcoin infrastructure, showcasing genuinely hard engineering around automated state management and cryptographic agent signing."
+      "why_it_could_win": "Combines the AI track with hardcore Bitcoin infrastructure, appealing to judges looking for functional utility rather than generic wrappers."
     },
     {
       "build_hours": 42,
-      "inspired_by": [
-        "github:1188682384",
-        "github:614169755"
-      ],
-      "pitch": "A privacy-preserving payment gateway built on Noir circuits that allows users to prove they have paid an ecash mint without revealing their blinding factors or transaction history.",
+      "inspired_by": [],
+      "pitch": "A minimal Nostr-backed coordination relay specifically designed for asynchronous CoinJoin rounds without centralized coordinators.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Noir",
-        "TypeScript",
-        "zero-knowledge-proofs",
+        "Rust",
+        "Nostr",
         "Bitcoin"
       ],
-      "title": "ZeroProofPay",
-      "track": "Best in Cypherpunk",
-      "why_it_could_win": "Leverages advanced zero-knowledge cryptography tailored for financial privacy, drawing from proven patterns of winning ZK hackathon submissions."
+      "title": "CoinJoinRelay",
+      "track": "Best in Freedom Stack",
+      "why_it_could_win": "Leverages Nostr for censorship-resistant peer discovery in privacy-enhancing financial tools, ticking both major track preferences of the sponsor."
     },
     {
       "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "A decentralized peer-to-peer marketplace for open source intelligence and research data, where listings and escrow are entirely handled over Nostr relays with Lightning settlement.",
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A browser extension that allows users to sign Nostr events and Bitcoin PSBTs using an air-gapped hardware simulator via QR codes.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Nostr",
-        "Lightning Network",
-        "Rust"
+        "Nostr SDK",
+        "BitcoinJS",
+        "WebHID"
       ],
-      "title": "NostrP2PStore",
+      "title": "SilentSigner",
       "track": "Best in Freedom Stack",
-      "why_it_could_win": "Fits squarely into the Nostr track by building censorship-resistant communication and commerce infrastructure that cannot be taken down by an intermediary."
+      "why_it_could_win": "Focuses heavily on sovereign key management and user privacy, which aligns closely with the core ethos of Bitshala's educational stack."
     },
     {
-      "build_hours": 38,
+      "build_hours": 32,
       "inspired_by": [
-        "github:776580131"
+        "github:1188682384"
       ],
-      "pitch": "An encrypted AI assistant for Bitcoin developers that fetches BIP documentation and reviews script implementations locally via multi-party computation without exposing proprietary code to third-party LLM APIs.",
+      "pitch": "An LLM-powered Nostr bot that verifies open-source Bitcoin pull requests and posts cryptographic attestations of code safety directly to the relay network.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Rust",
-        "ai-agents",
-        "encryption",
-        "TypeScript"
+        "TypeScript",
+        "Nostr",
+        "OpenAI API",
+        "GitHub API"
       ],
-      "title": "BlindAgent",
+      "title": "NostrOracleAI",
       "track": "Best in Machine Money",
-      "why_it_could_win": "Addresses critical privacy concerns in AI tooling, matching the winning pattern of secure multi-party collaboration platforms and capturing the AI and Privacy track overlap."
+      "why_it_could_win": "Brings cutting-edge AI verification tools directly into the Bitcoin developer workflow, directly addressing the AI and Nostr themes."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

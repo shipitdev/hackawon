@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:10.563349+00:00",
+  "generated_at": "2026-09-21T08:22:50.030284+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,9 +7,13 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745933",
@@ -19,83 +23,87 @@
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "An autonomous agent governance gateway built using Lyzr that intercepts multi-step agent actions, executes pre-deployment risk checks via structured BPMN workflows, and enforces quantitative token and latency budgets.",
+      "pitch": "Deterministic multi-agent governance workflow engine using Lyzr framework that executes and validates business logic against strict quantitative grounding and token-budget metrics.",
+      "problem_statement": "Level up from basic LLM wrappers to production-grade AI agents benchmarked against strict engineering rubrics.",
       "stack": [
         "Python",
         "Lyzr",
-        "BPMN",
-        "FastAPI"
+        "FastAPI",
+        "BPMN"
       ],
-      "title": "Lyzr-Agent-Guard: Automated BPMN Risk & Governance Gateway",
+      "title": "Lyzr-Agentic-BPMN-Governor",
       "track": "",
-      "why_it_could_win": "Directly targets the hackathon's core emphasis on agentic governance and quantitative evaluation rubrics rather than basic prompt loops."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router and LLM-judge feedback loop built on Lyzr that dynamically routes tasks between specialized agents while continuously scoring retrieval precision and updating an exemplar index.",
-      "stack": [
-        "Python",
-        "Lyzr",
-        "Semantic Router",
-        "Qwen"
-      ],
-      "title": "Evaluator-in-the-Loop: Self-Correcting Semantic Router for Multi-Agent Systems",
-      "track": "",
-      "why_it_could_win": "Mirrors winning architectures that focus on rigorous quantitative metrics like retrieval precision and self-improvement loops."
+      "why_it_could_win": "Directly targets the quantitative evaluation gates and strict engineering rubrics emphasizing token budgets and runtime speed, matching patterns from automated agentic governance winners."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1163393786"
+        "github:1163393786",
+        "github:1207207353"
       ],
-      "pitch": "A dual-agent benchmarking harness where one agent attempts to trigger harmful or hallucinated outputs while a defensive Lyzr governance agent dynamically monitors token bounds, runtime speed, and grounding metrics.",
+      "pitch": "An autonomous retrieval-augmented generation agent built on Lyzr that stress-tests its own retrieval precision, hallucination rates, and grounding metrics before outputting verified proof-of-work scores.",
+      "problem_statement": "Level up from basic LLM wrappers to production-grade AI agents benchmarked against strict engineering rubrics.",
       "stack": [
         "Python",
         "Lyzr",
-        "Braintrust",
-        "Pytest"
+        "Embeddings",
+        "HNSW"
       ],
-      "title": "Adversarial Stress-Test Suite for Autonomous Agent Governance",
+      "title": "Self-Correcting-RAG-Evaluator",
       "track": "",
-      "why_it_could_win": "Aligns with the hackathon judging criteria of stress-testing agents against strict quantitative production metrics instead of relying on pitch decks."
+      "why_it_could_win": "Aligns with the requirement to instrument agents to pass rigorous benchmarks across retrieval precision and accuracy, satisfying the quantitative scoring criteria of the judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1199751414"
+        "github:1226951926"
       ],
-      "pitch": "A Model Context Protocol (MCP) server integration using Lyzr that instruments multi-agent tool calls with hard limits on token budgets, runtime speed, and execution precision.",
+      "pitch": "An autonomous debugging agent built with Lyzr that intercepts runtime failures in multi-step AI workflows, traces root causes, and generates structured remediation plans with automated unit tests.",
+      "problem_statement": "Level up from basic LLM wrappers to production-grade AI agents benchmarked against strict engineering rubrics.",
       "stack": [
         "Python",
         "Lyzr",
-        "MCP",
-        "Docker"
+        "FastAPI"
       ],
-      "title": "TokenBudget-MCP: Federated Tool Registry with Real-Time Latency & Cost Controls",
+      "title": "Agentic-Runtime-Debugger",
       "track": "",
-      "why_it_could_win": "Directly satisfies the hackathon's explicit focus on passing rigorous benchmarks across token budgets and runtime speed."
+      "why_it_could_win": "Solves an acute pain felt directly by developers building multi-step agentic systems, leveraging hard engineering patterns proven by previous hackathon winners."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1207207353"
+        "github:1163393786"
       ],
-      "pitch": "A RAG augmentation layer specifically tailored for Lyzr agents that automatically instruments document retrieval with grounding scores, filtering out unverified context before agent consumption.",
+      "pitch": "A production-grade governance proxy agent built on Lyzr that monitors and dynamically optimizes token budgets, routing prompts to balance runtime speed against accuracy benchmarks.",
+      "problem_statement": "Level up from basic LLM wrappers to production-grade AI agents benchmarked against strict engineering rubrics.",
       "stack": [
         "Python",
         "Lyzr",
-        "HNSW",
-        "Embeddings"
+        "Datadog"
       ],
-      "title": "Auto-Grounding & Precision RAG Toolkit for Production Agents",
+      "title": "Token-Budget-Agent-Optimizer",
       "track": "",
-      "why_it_could_win": "Focuses heavily on retrieval precision and grounding metrics, which are core quantitative evaluation rubrics stressed in the event description."
+      "why_it_could_win": "Directly targets the quantitative production metric of token budgets and runtime speed emphasized in the hackathon's evaluation rubrics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "Federated Model Context Protocol servers orchestrated by autonomous Lyzr agents to handle secure, low-latency enterprise tool-calling with verifiable execution logs.",
+      "problem_statement": "Level up from basic LLM wrappers to production-grade AI agents benchmarked against strict engineering rubrics.",
+      "stack": [
+        "Python",
+        "Lyzr",
+        "Kubernetes",
+        "MCP"
+      ],
+      "title": "Federated-MCP-Agent-Registry",
+      "track": "",
+      "why_it_could_win": "Employs advanced multi-agent architectures that demonstrate true enterprise production-readiness rather than basic UI wrappers."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T08:01:53.024235+00:00",
+  "generated_at": "2026-09-21T08:33:41.039627+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755082",
@@ -14,87 +18,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:1087704265"
+        "github:901472660",
+        "github:945803759"
       ],
-      "pitch": "An automated supply chain disruption predictor and mitigation platform that combines graph intelligence with predictive ML modeling to evaluate vendor financial and geopolitical vulnerabilities in real-time.",
+      "pitch": "A supply chain visibility and decentralized micro-financing platform connecting rural farmers directly with urban agro-enterprises, featuring automated contract generation and quality audit logging.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Neo4j",
-        "LightGBM"
-      ],
-      "title": "SupplyChainRiskGraph",
-      "track": "",
-      "why_it_could_win": "Targeting the entrepreneurial challenge's emphasis on market understanding, feasibility, and real-world business value, this tackles a massive enterprise pain point with clear financial metrics."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1185920891",
-        "github:1155558847"
-      ],
-      "pitch": "A decentralized micro-insurance and financing marketplace for smallholder farmers, utilizing satellite monitoring data for automated parametric crop insurance payouts via smart contracts.",
-      "stack": [
-        "TypeScript",
-        "Base",
-        "Python",
+        "Node.js",
+        "React",
         "PostgreSQL"
       ],
-      "title": "AgriYieldEscrow",
+      "title": "AgroChain-Ventures",
       "track": "",
-      "why_it_could_win": "Combines hardware-adjacent satellite intelligence with strong feasibility and a compelling social impact business model that judges value in entrepreneurial challenges."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition, trust-building, and compliance automation engine specifically tailored for specialized local medical clinics to streamline inbound acquisition.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ClinicGrowthEngine",
-      "track": "",
-      "why_it_could_win": "Addresses clear B2B scalability and market validation metrics, proving an immediate path to commercialization which is critical for Startupathon judging panels."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
-      ],
-      "pitch": "An automated carbon offset and industrial land compliance monitoring platform that processes satellite imagery to verify green initiatives and generate audit-ready ESG reports.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "FastAPI",
-        "GIS"
-      ],
-      "title": "GreenAssetAudit",
-      "track": "",
-      "why_it_could_win": "Leverages hard technical capabilities in remote sensing while targeting the high-priority corporate sustainability sector expected by business-focused hackathon judges."
+      "why_it_could_win": "Aligns directly with judging criteria on business model feasibility and market potential by showcasing a concrete path to revenue and clear supply chain economic impact."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1213911408",
-        "github:1185920891"
+        "github:1182199849"
       ],
-      "pitch": "An autonomous multi-agent logistics dispatch optimizer that dynamically reroutes urban delivery fleets based on live traffic, weather anomalies, and cost constraints.",
+      "pitch": "An AI-driven vocational training evaluator that assesses student practical skill submissions through multimodal video analysis and generates personalized venture roadmaps.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangGraph",
-        "JavaScript"
+        "FastAPI",
+        "TypeScript",
+        "TailwindCSS"
       ],
-      "title": "MicroRouteAgent",
+      "title": "EduMentor-AI",
       "track": "",
-      "why_it_could_win": "Showcases advanced engineering through multi-agent workflows while presenting a crystal-clear operational cost-reduction metric that appeals to commercial viability judges."
+      "why_it_could_win": "Demonstrates strong problem-solution fit and clear scalability metrics for the Indian education-to-employment ecosystem."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:945803759"
+      ],
+      "pitch": "A cold-chain logistics optimization tool tailored for tier-2/3 Indian pharmaceutical distributors to monitor temperature thresholds and reroute shipments dynamically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "PostgreSQL"
+      ],
+      "title": "MedLog-Transit",
+      "track": "",
+      "why_it_could_win": "Addresses a high-stakes, real-world economic pain point with measurable risk reduction and logistics cost savings, appealing strongly to business judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:901472660"
+      ],
+      "pitch": "An automated asset tracking and grievance prioritization dashboard for local urban bodies to manage repair workflows, resource allocation, and budget tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "CivicFix-Municipal",
+      "track": "",
+      "why_it_could_win": "Mirrors successful public sector utility projects that win through clear government utility, administrative cost-cutting metrics, and straightforward deployability."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:901472660",
+        "github:945803759"
+      ],
+      "pitch": "A micro-inventory and predictive restocking assistant for unorganized local grocery (Kirana) stores, converting daily transaction logs into automated supplier purchase orders.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "SQLite"
+      ],
+      "title": "RetailOptima-AI",
+      "track": "",
+      "why_it_could_win": "Presents a massive addressable market in India with a clear, low-friction monetization model and high feasibility for a 48-hour prototype."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:49.793629+00:00",
+  "generated_at": "2026-09-21T08:13:00.797200+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -12,6 +12,8 @@
       "sponsor-tech",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hacklytics-2027",
@@ -19,91 +21,95 @@
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1155558847",
-        "github:1341712439"
+        "github:1155558847"
       ],
-      "pitch": "Real-time satellite and IoT anomaly detection platform monitoring urban heat islands and industrial compliance in Atlanta.",
+      "pitch": "An AI-powered computer vision system analyzing open satellite imagery to track urban infrastructure changes and traffic congestion patterns for municipal planning.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Gemini 2.5",
-        "LangGraph",
-        "PostGIS"
+        "PyTorch",
+        "TypeScript",
+        "Next.js",
+        "FastAPI"
       ],
-      "title": "GeoStream-Atlanta",
+      "title": "UrbanFlow AI: Satellite Traffic & Infrastructure Density Analyzer",
       "track": "",
-      "why_it_could_win": "Combines high-difficulty spatial data processing with real-world utility, echoing patterns from GeoNex-ATLAS and iot-smart-home-ai-ops."
+      "why_it_could_win": "Adapts the high-impact satellite monitoring architecture of GeoNex-ATLAS to urban mobility, demonstrating genuine ML execution that stands out to data science judges."
     },
     {
       "build_hours": 45,
       "inspired_by": [
-        "github:1266090747",
         "github:1228328106"
       ],
-      "pitch": "Automated bias-detection and mitigation platform specifically tailored for clinical readmission prediction models.",
+      "pitch": "A healthcare analytics platform that predicts patient hospital readmissions using XGBoost and provides real-time clinical feature explanations via SHAP values.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "XGBoost",
-        "SHAP",
         "Streamlit",
-        "TypeScript"
+        "SHAP",
+        "Pandas"
       ],
-      "title": "FairLens-Health",
+      "title": "ClinicalShield: Explainable AI Readmission Risk Engine",
       "track": "",
-      "why_it_could_win": "Merges fairness tracking with high-accuracy healthcare analytics, building directly on proven concepts from patient-readmission-prediction and fairlens-ai-."
+      "why_it_could_win": "Leverages the proven high-accuracy clinical prediction and SHAP explainability architecture seen in patient-readmission-prediction, directly appealing to judges looking for socially impactful data science solutions."
     },
     {
       "build_hours": 60,
       "inspired_by": [
-        "github:1189359296"
+        "github:1341712439"
       ],
-      "pitch": "An automated 3-turn metacognition benchmarking framework to test the self-correction and reasoning limits of local LLMs.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "HuggingFace",
-        "FastAPI"
-      ],
-      "title": "Metacog-Eval",
-      "track": "",
-      "why_it_could_win": "Directly targets the rigorous evaluation paradigm that won the Google DeepMind x Kaggle AGI hackathon."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:985196561"
-      ],
-      "pitch": "Autonomous NGINX and server log anomaly detection dashboard that translates raw operational data into instant natural language insights.",
+      "pitch": "An automated anomaly detection and multi-agent diagnostic platform for IoT device streams powered by LangGraph, Isolation Forests, and vector databases.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Python",
+        "LangGraph",
         "FastAPI",
-        "Gemini",
-        "Next.js",
-        "NGINX"
+        "Qdrant"
       ],
-      "title": "LogSight-AI",
+      "title": "AgenticIoT: Autonomous Multi-Agent Industrial Diagnostics",
       "track": "",
-      "why_it_could_win": "Leverages live data visualization and anomaly detection patterns that successfully won the UCC ACM Hackathon."
+      "why_it_could_win": "Replicates the sophisticated multi-agent anomaly detection pipeline of iot-smart-home-ai-ops, showcasing advanced system orchestration that scores heavily on technical complexity."
     },
     {
       "build_hours": 55,
       "inspired_by": [
-        "github:1200926140"
+        "github:1266090747"
       ],
-      "pitch": "An AI-powered video intelligence pipeline that instantly transforms unstructured local video feeds into fully searchable queryable databases.",
+      "pitch": "A developer-focused platform that automatically scans trained machine learning models for demographic bias, generates interactive explainability reports, and applies mitigation techniques.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
+        "TypeScript",
         "Python",
-        "OpenCV",
-        "Vector DB",
-        "Next.js"
+        "React",
+        "FastAPI",
+        "Scikit-learn"
       ],
-      "title": "DataQuery-Video",
+      "title": "FairLens ML: Automated Model Bias Detection and Mitigation",
       "track": "",
-      "why_it_could_win": "Employs heavy data indexing and multimodal search capabilities proven by the LibrAI data and design hackathon winner."
+      "why_it_could_win": "Follows the winning blueprint of fairlens-ai- by addressing the increasingly critical problem of AI fairness and ethics with a working developer tool."
+    },
+    {
+      "build_hours": 48,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A real-time observability dashboard that ingests server logs, uses LLMs and custom anomaly detection models to flag security threats, and visualizes system health.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Python",
+        "NGINX"
+      ],
+      "title": "LogSentinel: AI-Driven NGINX Log Anomaly Dashboard",
+      "track": "",
+      "why_it_could_win": "Builds on the winning architecture of danphobic, offering a polished, highly functional dashboard with immediate utility for systems engineers and judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

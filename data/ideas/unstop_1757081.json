@@ -1,95 +1,108 @@
 {
-  "generated_at": "2026-09-20T07:53:51.861776+00:00",
+  "generated_at": "2026-09-21T08:36:00.816230+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757081",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
+        "github:1185527998"
       ],
-      "pitch": "An emergency triage chatbot and symptom analyzer that connects distressed pet owners instantly with local emergency veterinary resources and provides immediate first-aid guidance.",
+      "pitch": "An AI-powered first-aid and emergency routing platform for pets that analyses symptom descriptions and distress audio to guide owners to the nearest open veterinary clinic.",
+      "problem_statement": "Smart Pet Healthcare & Emergency Assistance",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "PawGuard: AI-Driven Emergency Triage for PetsParivar",
-      "track": "PetTech & Animal Welfare",
-      "why_it_could_win": "Directly targets the PetTech & Animal Welfare track and aligns with the sponsor PetsParivar, addressing the Smart Pet Healthcare & Emergency Assistance challenge."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "A matching platform that uses preference vectors and behavioral quiz data to pair shelter animals with suitable adopters, reducing return rates and streamlining responsible pet adoption.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "AdoptMatch: Intelligent Behavior-Based Pet Adoption Engine",
-      "track": "PetTech & Animal Welfare",
-      "why_it_could_win": "Addresses the Responsible Pet Adoption & Animal Welfare challenge within the PetTech track, offering judges a practical, socially impactful workflow."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A computer vision mobile web tool for campus students and cleaning staff to instantly classify waste items and log recycling metrics to optimize campus waste management.",
-      "stack": [
-        "JavaScript",
-        "TensorFlow.js",
+        "React",
+        "OpenCV",
         "TailwindCSS"
       ],
-      "title": "EcoBin: Smart Campus Waste Segregation and Audit System",
-      "track": "Smart Campus & Smart City",
-      "why_it_could_win": "Tailored precisely to the Smart Campus & Smart City track and the Smart Waste Management & Sustainability challenge."
+      "title": "PawPulse: Smart Pet Triage and Emergency Locator",
+      "track": "PetTech & Animal Welfare",
+      "why_it_could_win": "Directly targets the PetTech track in collaboration with PetsParivar, addressing a clear practical need with demonstrable multi-lingual symptom triage."
     },
     {
-      "build_hours": 26,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1010199928",
+        "github:1346526259"
       ],
-      "pitch": "A low-latency student safety application featuring instant geo-fenced SOS broadcasting, automated emergency alerts, and quick campus security dispatch coordination.",
+      "pitch": "A computer vision garbage classification web app integrated with municipal bin fill-level sensors to optimize municipal waste collection routes in real-time.",
+      "problem_statement": "Smart Waste Management & Sustainability",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "React"
+      ],
+      "title": "EcoBin Vision: Smart Waste Classification and Collection Route Optimizer",
+      "track": "Social Impact & Sustainability",
+      "why_it_could_win": "Combines a working computer vision model with clear measurable environmental impact and municipal logistics efficiency."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A geo-fenced campus emergency response app featuring one-tap duress alerts, live location streaming, and automated dispatch to campus security.",
+      "problem_statement": "Student Safety & Emergency Response",
+      "stack": [
+        "TypeScript",
+        "Supabase",
+        "React Leaflet",
+        "TailwindCSS"
+      ],
+      "title": "CampusGuard: Real-Time Student Safety and Incident Dispatcher",
+      "track": "Smart Campus & Smart City",
+      "why_it_could_win": "Solves an immediate, relatable campus security problem with a working mobile-responsive panic button and live dashboard."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "A matching platform for animal shelters that uses a questionnaire and temperament assessment algorithm to pair prospective adopters with rescues, reducing return rates.",
+      "problem_statement": "Responsible Pet Adoption & Animal Welfare",
       "stack": [
         "TypeScript",
         "Node.js",
-        "WebSockets",
-        "Leaflet.js"
+        "PostgreSQL",
+        "React"
       ],
-      "title": "CampusSafe: Real-time Emergency Response and SOS Network",
-      "track": "Smart Campus & Smart City",
-      "why_it_could_win": "Directly answers the Student Safety & Emergency Response challenge under the Smart Campus & Smart City track, solving a high-priority real-world problem for university administrations."
+      "title": "AdoptMatch: AI-Driven Behavioral Compatibility for Shelters",
+      "track": "PetTech & Animal Welfare",
+      "why_it_could_win": "Aligns with PetsParivar's core focus by solving adoption friction with a data-driven matching algorithm."
     },
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI platform that translates and adapts educational materials into accessible formats, including simplified text, audio descriptions, and sign language video generation prompts for students with disabilities.",
+      "pitch": "An educational accessibility tool that converts complex lecture PDFs and whiteboard images into simplified audio summaries, dyslexia-friendly fonts, and sign language video prompts.",
+      "problem_statement": "AI for Accessibility & Inclusive Education",
       "stack": [
-        "Python",
-        "Streamlit",
-        "OpenAI API"
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
       ],
-      "title": "EduAccess: Multi-Modal AI Assistant for Inclusive Learning",
+      "title": "InclusiveLearn: Multi-Modal AI Document Reader for Accessible Classrooms",
       "track": "AI & Smart Technology",
-      "why_it_could_win": "Fits the AI for Accessibility & Inclusive Education challenge within the AI & Smart Technology track, scoring high on social impact and inclusive design."
+      "why_it_could_win": "Demonstrates high social impact under the AI & Smart Technology track by solving real-world inclusive education hurdles."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

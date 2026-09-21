@@ -1,100 +1,110 @@
 {
-  "generated_at": "2026-09-18T07:33:42.113267+00:00",
+  "generated_at": "2026-09-21T08:36:28.075508+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "sponsor-tech",
+      "working-demo",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757577",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
+        "github:818729421",
+        "github:841301002"
       ],
-      "pitch": "A meta-prompting engine that chains LLM outputs through logic gates to automatically generate working single-page web applications from natural language specifications.",
+      "pitch": "A meta-prompting interface where users write a single complex master prompt to automatically scaffold, style, and deploy a working multi-page web application instantly.",
+      "problem_statement": "THEME REVEAL: Prompt Competition Unlike Any Other - building a working application powered entirely by prompts.",
       "stack": [
         "TypeScript",
         "Next.js",
         "OpenAI API",
         "TailwindCSS"
       ],
-      "title": "PromptCircuit",
+      "title": "PromptSynth AI Application Builder",
       "track": "",
-      "why_it_could_win": "Directly targets the hackathon's core premise of building working software entirely through advanced prompting techniques rather than writing standard code."
+      "why_it_could_win": "Directly targets the core hackathon mandate of going beyond standard chatbots to construct functional software entirely through advanced prompting techniques."
     },
     {
-      "build_hours": 30,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1200926140"
+        "github:1182199849"
       ],
-      "pitch": "An AI-powered constraint solver that translates natural language game rules directly into playable browser logic without traditional coding.",
+      "pitch": "An AI logic puzzle and rule-checking environment where users program logical rulebooks via natural language prompts to generate interactive constraint-solving games.",
+      "problem_statement": "THEME REVEAL: Prompt Competition Unlike Any Other - involves AI, creativity, logic, and a whole lot of imagination.",
       "stack": [
         "Python",
         "FastAPI",
-        "Streamlit",
-        "Anthropic API"
+        "LangChain",
+        "React"
       ],
-      "title": "LogicWeave",
+      "title": "LogicCraft Meta-Logic Engine",
       "track": "",
-      "why_it_could_win": "Leverages the hackathon theme combining AI, creativity, and explicit logic constraints to build tangible working experiences."
+      "why_it_could_win": "Leans heavily into the 'logic and imagination' hint in the prompt, showcasing structured reasoning generated purely from prompt execution."
     },
     {
-      "build_hours": 40,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:939993991"
       ],
-      "pitch": "A prompt-orchestrated multimedia synthesis pipeline that transforms abstract narrative prompts into interactive visual storyboards with generated assets.",
+      "pitch": "An interactive storytelling and branching-logic app whose entire backend database schema, user interface state, and character dialogues are dynamically written and governed by active prompt chains.",
+      "problem_statement": "THEME REVEAL: Prompt Competition Unlike Any Other - creating something entirely new with prompts beyond a chatbot conversation.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Vercel AI SDK"
+      ],
+      "title": "MythosForge Narrative Application",
+      "track": "",
+      "why_it_could_win": "Demonstrates clear creative output and a fully working application loop rather than just static text generation."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A runtime dashboard generator where users input high-level analytical prompts to instantly instantiate custom data visualization widgets, filtering pipelines, and working UI layouts.",
+      "problem_statement": "THEME REVEAL: Prompt Competition Unlike Any Other - building your own working application powered entirely by prompts.",
       "stack": [
         "TypeScript",
         "React",
-        "Gemini API",
-        "Stable Diffusion"
+        "Recharts",
+        "LLM API"
       ],
-      "title": "CreativityEngine",
+      "title": "PromptUI Dashboard Generator",
       "track": "",
-      "why_it_could_win": "Fits the creative and imaginative track of the challenge by turning passive prompts into structured, multi-modal software assets."
+      "why_it_could_win": "Provides a tangible, highly visual live demo that proves prompt-driven software can replace traditional component building."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
+        "github:946065610",
+        "github:945008026"
       ],
-      "pitch": "A structured prompt compiler that turns vague user intents into validated JSON schemas and executing micro-services on the fly.",
+      "pitch": "A visual canvas where users drop prompt blocks that act as autonomous micro-services, chaining together to form working multi-step business logic applications without writing manual code.",
+      "problem_statement": "THEME REVEAL: Prompt Competition Unlike Any Other - challenge to go beyond writing a prompt to creating working applications.",
       "stack": [
         "Python",
-        "Pydantic",
-        "FastAPI",
-        "Docker"
+        "Flask",
+        "OpenAI API",
+        "ReactFlow"
       ],
-      "title": "PromptSchema",
+      "title": "PromptFlow Workflow Architect",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by transforming unstructured natural language into strictly typed, executable software architectures."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "A prompt-to-agent platform that auto-generates specialized multi-agent workflows using system prompt compositions.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "LangChain",
-        "OpenAI API"
-      ],
-      "title": "MetaAgent Builder",
-      "track": "",
-      "why_it_could_win": "Aligns with the trend of autonomous agent orchestration while strictly emphasizing prompt-driven software construction."
+      "why_it_could_win": "Tackles the architectural challenge of orchestration through prompting, aligning with judges looking for robust, working software deliverables."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:59.496700+00:00",
+  "generated_at": "2026-09-21T08:11:12.548986+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:ellehacks",
@@ -14,85 +16,85 @@
     {
       "build_hours": 45,
       "inspired_by": [
-        "github:1087704265"
+        "github:1275874285"
       ],
-      "pitch": "An AI-powered diagnostic equity analyzer that audits clinical datasets for demographic bias and generates synthetic balancing samples using generative models to ensure fair healthcare outcomes.",
+      "pitch": "Personalized health and wellness companion designed specifically for tracking hormonal and nutritional biomarkers during intense study sessions.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "scikit-learn",
-        "FastAPI"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "HealthEquity AI",
+      "title": "AuraHealth AI",
       "track": "",
-      "why_it_could_win": "It leverages technical depth in AI governance and fairness, matching the rigorous technical excellence seen in successful data-driven hackathon winners."
+      "why_it_could_win": "It mirrors a proven winning pattern by integrating specific personalized nutrition routines and actionable wellness insights that appeal to health-focused hackathon judges."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A secure patient handoff platform for local healthcare workers that uses encrypted event logging and automated summarization to prevent critical medical errors during shift changes.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-        "Node.js"
-      ],
-      "title": "CareChain Toronto",
-      "track": "",
-      "why_it_could_win": "Addresses high-stakes local healthcare pain points with a strong domain-specific solution, aligning with successful health-tech projects."
-    },
-    {
-      "build_hours": 60,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An automated satellite and compliance monitoring dashboard for municipal environmental regulations that detects unauthorized industrial waste dumping using computer vision.",
+      "pitch": "Crowdsourced campus and urban safety mapping application utilizing real-time community reporting and satellite risk overlays.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "Leaflet.js"
+        "React",
+        "Mapbox API"
       ],
-      "title": "EcoAudit AI",
+      "title": "SafeSpace Navigator",
       "track": "",
-      "why_it_could_win": "Combines spatial data processing and environmental utility, mirroring the complex monitoring systems that secure top prizes."
-    },
-    {
-      "build_hours": 65,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An anti-money laundering risk intelligence platform designed for credit unions, utilizing graph networks to visualize suspicious transaction topologies and flagged entity clusters.",
-      "stack": [
-        "TypeScript",
-        "Neo4j",
-        "Python",
-        "LightGBM"
-      ],
-      "title": "FinGuard AML",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering through graph intelligence and risk scoring, directly echoing top-performing fintech and AML architectures."
+      "why_it_could_win": "Combines spatial monitoring concepts with practical utility for student safety, leveraging map integrations which always score well for UI polish."
     },
     {
       "build_hours": 48,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support and resource navigation platform that leverages retrieval-augmented generation to provide instant, verified answers to institutional policy questions.",
+      "pitch": "An AI-powered multi-agent mentorship matching platform that pairs junior women in tech with experienced industry sponsors based on micro-skills.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Python",
+        "OpenAI API"
+      ],
+      "title": "SkillBridge AI",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the community-building and empowerment themes often central to diversity-focused hackathons like ElleHacks."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Trust and acquisition engine for women's wellness and specialized health clinics featuring automated intake and secure document verification.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "Veritas Patient Intake",
+      "track": "",
+      "why_it_could_win": "Directly adopts a successful architecture from past prize-winning patient intake engines, emphasizing immediate clinical workflow utility."
+    },
+    {
+      "build_hours": 55,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous peer-to-peer marketplace for exchanging sustainable lifestyle resources and student goods with transparent micro-rewards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
         "PostgreSQL"
       ],
-      "title": "CampusLoop Agent",
+      "title": "EcoCollab Market",
       "track": "",
-      "why_it_could_win": "Applies advanced agentic workflows and RAG pipelines to solve a ubiquitous campus problem with high practical utility."
+      "why_it_could_win": "Utilizes a proven autonomous marketplace structural pattern while focusing on sustainability, appealing to judges looking for tangible community impact."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

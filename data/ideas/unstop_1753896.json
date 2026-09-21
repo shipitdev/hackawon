@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T08:00:54.770350+00:00",
+  "generated_at": "2026-09-21T08:31:56.954898+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1753896",
@@ -14,87 +17,94 @@
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1181344931"
+        "github:1181344931",
+        "github:1185527998"
       ],
-      "pitch": "A graph intelligence and machine learning risk platform designed to detect financial anomalies, subsidy fraud, and supply chain leakage in agricultural cooperatives and rural development schemes.",
+      "pitch": "An AI-powered offline-first landslide and soil erosion prediction platform utilizing satellite imagery and local sensor inputs for mountain regions.",
+      "problem_statement": "Developing practical and technology-driven solutions to real-world problems in regional infrastructure and safety.",
       "stack": [
-        "TypeScript",
         "Python",
-        "NetworkX",
-        "PostgreSQL",
-        "Next.js"
+        "Next.js",
+        "OpenCV",
+        "TailwindCSS"
       ],
-      "title": "AgriRisk Graph - Supply Chain Fraud and AML Detection for Regional Co-ops",
-      "track": "",
-      "why_it_could_win": "Leverages heavy technical complexity and graph-based intelligence similar to past winners in financial AML platforms, highly appealing for regional development and institutional judging panels."
+      "title": "HimalayanGeoAI",
+      "track": "General Innovation",
+      "why_it_could_win": "Addresses regional geographic vulnerabilities specific to Dehradun and the Himalayas, matching the judges' priority for local impact."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1155558847"
+        "github:1185527998",
+        "github:1200926140"
       ],
-      "pitch": "An AI-powered satellite monitoring tool designed to track deforestation, unauthorized industrial expansion, and water body pollution specifically tailored for regional industrial development corridors like Dehradun.",
+      "pitch": "A localized multi-lingual crop disease detection and yield optimization platform for small-scale farmers featuring offline edge inference.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "TensorFlow.js",
+        "React Native",
+        "Node.js"
+      ],
+      "title": "AgriSarthi",
+      "track": "",
+      "why_it_could_win": "Follows the proven pattern of localized healthcare/triage apps like mediscan-ai by tailoring computer vision specifically for regional agriculture."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage app combining rPPG heart rate monitoring with local language speech-to-text to assist remote health camps.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "SentinelHub API",
-        "Leaflet.js"
+        "OpenCV",
+        "WebRTC",
+        "Next.js"
       ],
-      "title": "BioTrack - Satellite-Driven Environmental Compliance for Industrial Zones",
+      "title": "MediTriage-Hills",
       "track": "",
-      "why_it_could_win": "Replicates proven winner architecture combining geospatial APIs with environmental oversight, striking a chord with state industrial development and regulatory stakeholders."
+      "why_it_could_win": "Directly replicates the architecture of the winning mediscan-ai project with a working live demo of camera-based heart rate estimation."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1241231621",
+        "github:950564513"
       ],
-      "pitch": "An AI-powered nutritional assistant that assesses local dietary ingredients available in regional markets, providing personalized meal plans and micronutrient deficiency warnings in local languages.",
+      "pitch": "An AI-powered milestone tracker and automated pitching deck generator for early-stage startup incubation applicants.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
+        "TypeScript",
         "Gemini API",
-        "React"
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "NutriLocal - Vernacular AI Nutrition & Meal Planning for Rural Healthcare",
+      "title": "SkillBridge-Incubator",
       "track": "",
-      "why_it_could_win": "Adapts the winning formula of targeted health and wellness assistants with a localized socio-economic angle tailored for semi-urban and rural populations."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A statistical forecasting dashboard using Poisson regression and rolling backtests to predict local microgrid power consumption spikes and solar generation drops.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Scikit-Learn",
-        "Streamlit"
-      ],
-      "title": "GridCast - Renewable Energy Generation and Demand Forecasting",
-      "track": "",
-      "why_it_could_win": "Brings rigorous quantitative modeling and calibrated prediction intervals directly matching elite forecasting hackathon winners."
+      "why_it_could_win": "Appeals directly to the event's startup incubation support prize track by solving the administrative friction of vetting founders."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265",
+        "github:1213911408"
       ],
-      "pitch": "A peer-to-peer service marketplace for university students featuring automated milestone verification and secure escrow handling for micro-tasks and project collaborations.",
+      "pitch": "A real-time campus and municipal energy consumption monitoring dashboard with anomaly detection for local sustainability audits.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Node.js",
-        "Solidity",
-        "React"
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "CampusEscrow - Autonomous Student Micro-Freelance Marketplace with Escrow",
+      "title": "EcoGrid-Dehradun",
       "track": "",
-      "why_it_could_win": "Implements autonomous agent workflows and secure escrow payments modeled after top-tier decentralized application hackathon winners."
+      "why_it_could_win": "Leverages time-series forecasting principles proven in the Apart Research AI Forecasting hackathon winner."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

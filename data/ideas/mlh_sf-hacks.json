@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:13.455740+00:00",
+  "generated_at": "2026-09-21T08:15:33.358412+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,86 +7,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:sf-hacks",
   "ideas": [
     {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A spatial-temporal forecasting tool using Poisson GAMs and rolling backtests to predict municipal infrastructure failures and emergency service bottlenecks in San Francisco.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression"
-      ],
-      "title": "SF-Incident-Forecaster",
-      "track": "",
-      "why_it_could_win": "Follows the exact winning pattern of high-complexity predictive modeling seen in AI forecasting hackathons, appealing directly to judges who value rigorous data science over wrapper apps."
-    },
-    {
-      "build_hours": 45,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated compliance and risk detection platform tailored for regional fintech startups, combining graph intelligence and explainable LightGBM.",
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "Real-time commuter bottleneck prediction and alternative route coordination dashboard using municipal feed streams.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM"
+        "Next.js",
+        "Mapbox",
+        "TailwindCSS"
       ],
-      "title": "BayArea-AML-Graph",
+      "title": "BayArea Transit Flow Visualizer",
       "track": "",
-      "why_it_could_win": "Demonstrates genuine hard engineering by tackling complex financial graph data architectures that stand out in general hackathon judging pools."
+      "why_it_could_win": "Judges at San Francisco hackathons heavily favor localized civic tech that solves immediate infrastructural pain points experienced by residents daily."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1183964401"
+        "github:1241231621"
       ],
-      "pitch": "A localized no-code trading bot builder allowing users to execute perpetual strategies optimized for regional market micro-movements.",
+      "pitch": "Automated document parser and eligibility checker mapping San Francisco local merchant data to state and municipal relief funds.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TypeScript"
+        "FastAPI",
+        "OpenAI API",
+        "PostgreSQL"
       ],
-      "title": "Pacifica-Bay-Bot",
+      "title": "SF Small Business Grant Matcher",
       "track": "",
-      "why_it_could_win": "Replicates a proven grand prize-winning architecture focused on actionable financial tooling and automated execution platforms."
+      "why_it_could_win": "Directly impacts the local economic ecosystem of San Francisco, appealing to community-focused judges and regional impact metrics."
     },
     {
-      "build_hours": 48,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1185920891"
+        "github:1155558847"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating local gig-economy micro-tasks with trustless USDC escrow settlements.",
+      "pitch": "Edge-computed hyper-local microclimate tracking system optimized for San Francisco's notorious micro-weather variations.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
+        "TypeScript",
+        "Node.js",
+        "InfluxDB",
+        "React"
       ],
-      "title": "Mission-District-Dispatch",
+      "title": "FogNet Micro-Weather Sensor Aggregator",
       "track": "",
-      "why_it_could_win": "Leverages autonomous agent mechanics combined with crypto-native payment rails, mirroring the exact formula of recent category-winning submissions."
+      "why_it_could_win": "Combines hardware-adjacent IoT data ingestion with clean UI visualization, a proven combination for technical depth."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1275874285"
+        "github:1185920891"
       ],
-      "pitch": "An AI-powered nutrition intelligence platform that scans local San Francisco restaurant menus to generate hyper-personalized dietary compliance insights.",
+      "pitch": "Decentralized marketplace with instant escrow specifically tailored for local San Francisco physical goods creators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "TailwindCSS"
+      ],
+      "title": "Mission District Artisan Escrow Market",
+      "track": "",
+      "why_it_could_win": "Leverages practical web3 payment rails applied to a hyper-local tangible use case rather than abstract crypto concepts."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Computer vision tool analyzing structural facade images for basic retrofit compliance indicators required in California.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Next.js",
-        "Gemini-API"
+        "OpenCV",
+        "Flask",
+        "React"
       ],
-      "title": "Bay-Nutri-Agent",
+      "title": "BayArea Seismic Risk Compliance Tool",
       "track": "",
-      "why_it_could_win": "Takes a proven prize-winning consumer health architecture and adds localized utility that resonates instantly with judges."
+      "why_it_could_win": "Tackles a high-stakes, highly relevant regional safety issue with concrete technical implementation via image processing."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

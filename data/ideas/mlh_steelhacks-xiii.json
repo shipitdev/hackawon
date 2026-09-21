@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:27.680783+00:00",
+  "generated_at": "2026-09-21T08:15:46.884734+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,96 +7,98 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:steelhacks-xiii",
   "ideas": [
     {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring and industrial land compliance platform tailored for the Pittsburgh industrial corridor.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "Sentinel Hub API"
+      ],
+      "title": "SteelCity CarbonWatch",
+      "track": "",
+      "why_it_could_win": "Combines high-impact environmental utility with satellite data processing, mirroring patterns from successful geospatial monitoring hacks."
+    },
+    {
       "build_hours": 28,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A supply chain risk and anti-money laundering compliance platform tailored for regional manufacturing and steel logistics, combining graph intelligence with LightGBM risk scoring.",
+      "pitch": "An AWS-powered anti-money laundering risk detection and investigation platform tailored for regional credit unions in Western Pennsylvania.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM",
-        "Neo4j",
-        "Next.js"
+        "AWS",
+        "LightGBM"
       ],
-      "title": "SteelSupply Graph AML",
+      "title": "RustBelt AML Graph",
       "track": "",
-      "why_it_could_win": "Leverages the proven high-performance pattern of combining graph intelligence and gradient boosting seen in AML risk platforms, addressing industrial supply chain integrity."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A Poisson-regression and GAM forecasting tool predicting municipal infrastructure and local electrical grid incidents using historical weather and terrain data for the Pittsburgh area.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Poisson GAM",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "Grid-Incident Forecaster Pittsburgh",
-      "track": "",
-      "why_it_could_win": "Directly replicates the rigorous statistical modeling and calibrated prediction intervals that won the AI forecasting hackathon, focusing on a localized utility use case."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace facilitating micro-contracting and automated USDC escrow payments on Base for localized heavy machinery maintenance contractors.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity",
-        "LangChain"
-      ],
-      "title": "RustBelt Autonomous Agent Escrow",
-      "track": "",
-      "why_it_could_win": "Adopts the successful agent marketplace architecture with USDC escrow on Base to solve localized service dispatching problems."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring pipeline that tracks industrial land usage changes, environmental runoff, and zoning compliance specifically targeting Rust Belt industrial zones.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "OpenCV",
-        "PostGIS",
-        "Next.js"
-      ],
-      "title": "GeoStream Industrial Land Monitor",
-      "track": "",
-      "why_it_could_win": "Follows the satellite monitoring pattern that secured runner-up finishes by turning complex geospatial raster data into actionable industrial compliance alerts."
+      "why_it_could_win": "Demonstrates enterprise-grade graph intelligence and explainable machine learning that financial compliance judges heavily reward."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-driven patient acquisition and trust-building portal for specialized dental and prosthodontic clinics, featuring automated diagnostic intake and transparent treatment path visualizations.",
+      "pitch": "An AI-powered patient acquisition, intake trust, and recommendation engine for specialty dental clinics in Pittsburgh.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini API",
         "Next.js",
-        "TailwindCSS"
+        "Gemini API"
       ],
-      "title": "PatientTrust Prosthodontic Engine",
+      "title": "Allegheny Patient Trust Engine",
       "track": "",
-      "why_it_could_win": "Applies the exact multi-modal AI trust-building framework that won high-paced healthcare hackathons by streamlining patient onboarding."
+      "why_it_could_win": "Solves a concrete B2B sales and operational pain point with immediate commercial viability using Gemini APIs."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A Poisson regression and GAM forecasting dashboard predicting industrial automation safety incidents and equipment failures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Mon Valley AI Incident Forecaster",
+      "track": "",
+      "why_it_could_win": "Relies on rigorous statistical forecasting and calibrated prediction intervals rather than a generic wrapper."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support platform utilizing LangGraph and local RAG tailored for Pittsburgh university networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Vector DB"
+      ],
+      "title": "EcoCampus Multi-Agent Support",
+      "track": "",
+      "why_it_could_win": "Addresses administrative and student overhead directly with sophisticated multi-agent orchestration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

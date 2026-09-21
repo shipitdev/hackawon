@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:56:56.201645+00:00",
+  "generated_at": "2026-09-21T08:25:48.200333+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,11 +7,13 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "working-demo",
-      "technical-depth",
       "sponsor-tech",
-      "unique-data"
+      "working-demo",
+      "unique-data",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1747871",
@@ -21,86 +23,95 @@
       "inspired_by": [
         "github:1341712439"
       ],
-      "pitch": "An autonomous agent built on TigerGraph that breaks down multi-jurisdictional financial compliance queries, crawls vector databases and document stores, and verifies cross-border entity relationships to spot hidden legal discrepancies.",
+      "pitch": "An autonomous multi-agent investigative system built on TigerGraph that iteratively queries graph neighborhoods and vector embeddings to trace complex financial fraud networks.",
+      "problem_statement": "TigerGraph Agentic GraphRAG Hackathon: Building an agentic system that autonomously investigates complex questions using graph, vector, and document evidence by breaking down queries and spotting gaps.",
       "stack": [
+        "Python",
         "TigerGraph",
         "LangGraph",
-        "Python",
-        "FastAPI",
-        "Next.js"
+        "OpenAI API",
+        "Qdrant"
       ],
-      "title": "GraphRAG Multi-Hop Regulatory Compliance Investigator",
+      "title": "GraphTrace-Agent",
       "track": "",
-      "why_it_could_win": "Directly tackles the core hackathon theme of multi-step autonomous investigation and leverages TigerGraph's graph-native capabilities for complex traversal."
+      "why_it_could_win": "Demonstrates genuine hard engineering by combining iterative LangGraph loops with TigerGraph GSQL graph traversal, satisfying the core thesis of when agentic approaches outperform simple RAG."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1341712439"
+        "github:1341712439",
+        "github:1171690684"
       ],
-      "pitch": "An agentic system that ingests supply chain unstructured invoices and shipment logs alongside vector chunks, mapping them onto a TigerGraph knowledge graph to recursively trace upstream failure impacts.",
+      "pitch": "Multi-agent supply chain risk analysis system that ingests unstructured PDF contracts and maps multi-tier supplier dependency graphs on TigerGraph to answer cascading failure impact queries.",
+      "problem_statement": "TigerGraph Agentic GraphRAG Hackathon: Building an agentic system that autonomously investigates complex questions using graph, vector, and document evidence by breaking down queries and spotting gaps.",
       "stack": [
+        "Python",
         "TigerGraph",
-        "TypeScript",
-        "Gemini 2.5",
-        "Qdrant"
+        "LlamaIndex",
+        "FastAPI",
+        "React"
       ],
-      "title": "SupplyChainGraph: Autonomous Bottleneck and Risk Auditor",
+      "title": "SupplyGraph-Autonomous",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering in combining graph traversal with recursive agent loops for real-world enterprise utility."
+      "why_it_could_win": "Leverages a working live demo showing multi-turn agentic reasoning over complex enterprise data structures, which appeals strongly to technical judges looking for practical utility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "An autonomous biomedical research agent that deconstructs complex drug-target-pathway questions, queries TigerGraph biomedical knowledge graphs, and retrieves supporting literature chunks recursively.",
+      "problem_statement": "TigerGraph Agentic GraphRAG Hackathon: Building an agentic system that autonomously investigates complex questions using graph, vector, and document evidence by breaking down queries and spotting gaps.",
+      "stack": [
+        "Python",
+        "TigerGraph",
+        "LangChain",
+        "Vector Embeddings",
+        "Streamlit"
+      ],
+      "title": "BioGraph-Query",
+      "track": "",
+      "why_it_could_win": "Addresses a domain where simple RAG categorically fails due to multi-hop dependency requirements, proving the exact value proposition requested by the hackathon organizers."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1228328106"
+        "github:1189359296"
       ],
-      "pitch": "A medical RAG pipeline that splits complex patient inclusion criteria queries into sub-questions, querying both vector document snippets and TigerGraph relational treatment paths to evaluate clinical eligibility gaps.",
+      "pitch": "An agentic compliance checking engine that breaks down regulatory queries, traverses corporate hierarchy and policy rule graphs in TigerGraph, and verifies evidence gaps across dense document stores.",
+      "problem_statement": "TigerGraph Agentic GraphRAG Hackathon: Building an agentic system that autonomously investigates complex questions using graph, vector, and document evidence by breaking down queries and spotting gaps.",
       "stack": [
-        "TigerGraph",
         "Python",
-        "Streamlit",
-        "XGBoost",
-        "LangChain"
+        "TigerGraph",
+        "DSPy",
+        "ChromaDB",
+        "Docker"
       ],
-      "title": "ClinicalTrialGraph Agentic Cohort Matcher",
+      "title": "PolicyGraph-Auditor",
       "track": "",
-      "why_it_could_win": "Focuses on high-stakes medical reasoning where simple vector retrieval fails and multi-step verification is strictly required."
+      "why_it_could_win": "Features an explicit gap-evaluation loop where the agent self-critiques its retrieved evidence before final answer synthesis, directly aligning with advanced metacognition benchmarks."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1155558847"
+        "github:1155558847",
+        "github:1200926140"
       ],
-      "pitch": "An agentic system that constructs a complete dependency graph of a legacy repository in TigerGraph, iteratively investigates breaking changes across files using vector search, and plans safe multi-file refactors.",
+      "pitch": "An autonomous litigation discovery agent that parses legal precedents, constructs citation and entity graphs in TigerGraph, and iteratively investigates weak legal arguments through multi-step retrieval.",
+      "problem_statement": "TigerGraph Agentic GraphRAG Hackathon: Building an agentic system that autonomously investigates complex questions using graph, vector, and document evidence by breaking down queries and spotting gaps.",
       "stack": [
-        "TigerGraph",
         "TypeScript",
-        "FastAPI",
-        "Next.js"
-      ],
-      "title": "Codebase Archaeologist: Autonomous Legacy Refactoring Agent",
-      "track": "",
-      "why_it_could_win": "Solves a notoriously painful developer workflow by proving that agentic graph traversal outperforms shallow context windows."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1341712439",
-        "github:985196561"
-      ],
-      "pitch": "An autonomous security operations agent that correlates unstructured threat intel reports with internal system telemetry graphs on TigerGraph to recursively trace lateral movement paths and isolate zero-day vulnerabilities.",
-      "stack": [
         "TigerGraph",
-        "Python",
-        "LangGraph",
-        "TimescaleDB"
+        "Next.js",
+        "LangGraph.js",
+        "TailwindCSS"
       ],
-      "title": "CyberThreatGraph Autonomous Incident Horizon",
+      "title": "LegalGraph-Navigator",
       "track": "",
-      "why_it_could_win": "Features a live, high-impact demo showing real-time agentic reasoning over complex graph topologies rather than static RAG."
+      "why_it_could_win": "Combines deep graph traversal with a polished UI and a reliable live demo that highlights the exact stopping criteria of autonomous agents."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

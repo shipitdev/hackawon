@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:11.617014+00:00",
+  "generated_at": "2026-09-21T08:10:23.635946+00:00",
   "grounding": {
     "domains": [
       "gaming"
@@ -10,91 +10,98 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "theme_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:e6cecc553fb949c5a0b24ee56659b100",
   "ideas": [
     {
-      "build_hours": 48,
+      "build_hours": 40,
       "inspired_by": [
         "github:1022921066"
       ],
-      "pitch": "A voice-interactive detective game where players use real-time speech to interrogate non-player characters about local environmental mysteries, built for a rapid prototype submission.",
+      "pitch": "A real-time voice and text chat plugin that lets players talk directly to non-playable characters using live speech recognition, altering their dialogue paths on the fly.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Unity",
-        "Whisper API",
-        "C#"
+        "C#",
+        "WebSockets"
       ],
-      "title": "Echoes of Navi",
+      "title": "VoiceShift Live Character Interrogator",
       "track": "Winners",
-      "why_it_could_win": "Leverages real-time voice integration which impressed judges at the Nvidia Hackathon, perfectly suited for the prototype evaluation criteria of gameplay mechanics and technical implementation."
+      "why_it_could_win": "Directly applies the exact technical architecture that won the NVidia Hackathon by implementing real-time conversational agents in a playable prototype, appealing strongly to technical judges looking for hard engineering under game jam constraints."
     },
     {
-      "build_hours": 60,
+      "build_hours": 50,
+      "inspired_by": [
+        "github:759869516"
+      ],
+      "pitch": "A 2D action platformer featuring tight combat mechanics and modular level segments designed specifically to rapidly pivot when a surprise game jam twist is introduced.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C#",
+        "Unity",
+        "Aseprite"
+      ],
+      "title": "Echoes of Incarnia: Dynamic 2D Rogue",
+      "track": "First Runners Up",
+      "why_it_could_win": "Mimics the modular structure of MLH-winning 2D games, ensuring that when the mandatory surprise twist is revealed in the final round, the team can refactor gameplay loops without rewriting core physics."
+    },
+    {
+      "build_hours": 35,
       "inspired_by": [
         "github:855192292"
       ],
-      "pitch": "An educational visual novel with branching storylines and interactive mini-games focused on water management and conservation technologies in urban settings.",
+      "pitch": "An educational visual novel with resource-management mini-games that teach players real-world water filtration and conservation technologies.",
+      "problem_statement": "No published statement",
       "stack": [
         "Ren'Py",
         "Python",
         "Audacity",
         "Photoshop"
       ],
-      "title": "AquaGuardian Saga",
-      "track": "First Runners Up",
-      "why_it_could_win": "Follows the exact blueprint of the Smart India Hackathon first prize winner by combining engaging narrative mechanics with real-world civic education."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:870537595",
-        "github:877364534"
-      ],
-      "pitch": "A retro arcade minigame where players manage token transactions and savings goals through fast-paced retro mechanics.",
-      "stack": [
-        "JavaScript",
-        "React",
-        "Google Firebase"
-      ],
-      "title": "PixelPay Chronicles",
+      "title": "AquaGuardian: The Conservation Chronicles",
       "track": "Second Runners Up",
-      "why_it_could_win": "Adapts the winning formula of the Retro Gaming Hackathon by merging engaging arcade loops with tangible financial mechanics that judges find highly memorable."
+      "why_it_could_win": "Replicates the winning formula of the Smart India Hackathon entry by merging narrative choices with practical engineering education, scoring high on thematic execution."
     },
     {
-      "build_hours": 72,
+      "build_hours": 60,
       "inspired_by": [
         "github:1052196050"
       ],
-      "pitch": "A tactical combat prototype featuring an autonomous AI bot opponent capable of adapting its strategy live based on player actions.",
+      "pitch": "An in-game AI bot trained via local models that learns a player's cooperative playstyle in real time to act as an adaptive dungeon-crawling partner.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "vLLM",
-        "Unity",
-        "C#"
+        "TypeScript",
+        "Godot"
       ],
-      "title": "Agentic Arena Tactics",
+      "title": "AegisBot: Autonomous Tactical Companion",
       "track": "Winners",
-      "why_it_could_win": "Demonstrates advanced problem-solving and technical implementation by integrating autonomous agent logic, echoing the OpenAI Open Model Hackathon winner."
+      "why_it_could_win": "Brings the autonomous agent concepts from the OpenAI Open Model Hackathon winner into a localized game jam environment, demonstrating complex state machine logic and decision-making."
     },
     {
-      "build_hours": 80,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1276392534"
+        "github:870537595"
       ],
-      "pitch": "A 2D platformer that dynamically alters level generation and visual themes mid-stream based on live audience voting and interaction inputs.",
+      "pitch": "A pixel-art retro arcade mini-game where high scores mint verifiable in-game tokens and trigger live transaction state updates.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Phaser.js",
-        "WebSockets"
+        "JavaScript",
+        "React",
+        "Google Firebase",
+        "HTML5 Canvas"
       ],
-      "title": "ShiftStream Dimensions",
+      "title": "RetroPay: Arcade Micro-Economy",
       "track": "First Runners Up",
-      "why_it_could_win": "Directly applies the cutting-edge continuous generative mechanics that won the World Model Hackathon, guaranteeing high marks for innovation and execution."
+      "why_it_could_win": "Follows the blueprint of the Retro Gaming Hackathon winner by combining nostalgic pixel art aesthetics with functional back-end ledger updates that impress judges evaluating technical implementation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

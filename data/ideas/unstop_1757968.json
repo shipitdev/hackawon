@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-21T08:36:59.804484+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757968",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A zero-knowledge verifiable supply chain ledger for organic fertilizer certification preventing counterfeit inputs.",
+      "problem_statement": "Agriculture & Food Tech",
+      "stack": [
+        "Solidity",
+        "Next.js",
+        "Hardhat",
+        "IPFS"
+      ],
+      "title": "AgriChain Audit",
+      "track": "Agriculture & Food Tech",
+      "why_it_could_win": "Combines high-interest blockchain security with an urgent local agricultural problem, appealing directly to technical judges looking for practical cryptographic utility rather than crypto hype."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1341712439",
+        "github:935702069"
+      ],
+      "pitch": "An edge-AI decentralized energy trading protocol for microgrids balancing localized solar supply and EV charging loads.",
+      "problem_statement": "Clean and Green Energy",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TensorFlow Lite",
+        "React"
+      ],
+      "title": "AuraNet Clean Grid",
+      "track": "Clean and Green Energy",
+      "why_it_could_win": "Demonstrates clear measurable impact through simulated power load shifting, following the winning pattern from environmental hackathons where concrete numbers win over abstract pitches."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A localized federated learning platform that personalizes adaptive learning paths for rural students without leaking private telemetry.",
+      "problem_statement": "Smart Education",
+      "stack": [
+        "TypeScript",
+        "LangChain",
+        "PySyft",
+        "PostgreSQL"
+      ],
+      "title": "SecureSyllabus AI",
+      "track": "Smart Education",
+      "why_it_could_win": "Directly targets data privacy concerns in EdTech by incorporating local-first machine learning, giving judges an architecture that feels production-ready and technically rigorous."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A lightweight clinical-grade triage assistant featuring offline multilingual voice symptom extraction and encrypted medical record storage.",
+      "problem_statement": "MedTech and HealthTech",
+      "stack": [
+        "JavaScript",
+        "Whisper.cpp",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "MedTriage Edge",
+      "track": "MedTech and HealthTech",
+      "why_it_could_win": "Builds on proven winning concepts from healthcare hackathons by prioritizing a live, working multimodal input pipeline that handles offline medical edge cases."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated anomaly detection proxy for industrial IoT and smart grid hardware executing zero-trust micro-segmentation.",
+      "problem_statement": "Cybersecurity and Blockchain",
+      "stack": [
+        "Go",
+        "eBPF",
+        "React",
+        "Docker"
+      ],
+      "title": "ZeroTrust IoT Gateway",
+      "track": "Cybersecurity and Blockchain",
+      "why_it_could_win": "Tackles critical infrastructure security with a real-time behavioral monitoring dashboard that provides instant visual proof of blocked malicious payloads during the live demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

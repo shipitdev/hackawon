@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-21T08:37:58.296074+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758551",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient acquisition and trust engine specifically built for local dental and medical clinics in Indore, turning raw patient consultation notes into multilingual video explainer scripts and trust profiles using Gemini 1.5 Pro.",
+      "problem_statement": "The Google Gemini Spotlight Track: Build smart applications utilizing Google Gemini for real-world business and local ecosystem use cases.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Google Gemini API"
+      ],
+      "title": "Gemini Clinical Trust Engine",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Directly mirrors a proven winner from a 12-hour sprint (Global-Smile) and solves an immediate, tangible go-to-market problem for local businesses, satisfying the judges' explicit desire for a clear startup roadmap and working code."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced campus lost-and-found portal that uses Gemini's multimodal capabilities to match text descriptions and user-uploaded photos of lost items, pinning locations automatically.",
+      "problem_statement": "The Google Gemini Spotlight Track: Build smart applications utilizing Google Gemini for real-world ecosystem use cases.",
+      "stack": [
+        "React",
+        "Firebase",
+        "Google Gemini AI",
+        "TypeScript"
+      ],
+      "title": "CampusFind Multimodal Lost & Found",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Replicates a proven 1st place hackathon architecture (Lumina) that leverages multimodal LLM features effortlessly within a tight time constraint, making it immediately relatable to student judges and organizers."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A developer-facing tool that uses Google Gemini to ingest business process workflow models (BPMN), analyze compliance failure modes, and generate pre-deployment risk diagnostics.",
+      "problem_statement": "The Google Gemini Spotlight Track: Build smart applications utilizing Google Gemini for enterprise and governance workflows.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini API",
+        "NetworkX"
+      ],
+      "title": "RegulAIze BPMN Workflow Risk Scanner",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Adopts the successful agentic governance pattern from UiPath AgentHack, appealing strongly to technical judges looking for complex developer tooling rather than simple wrappers."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "An automated startup ideation and validation co-pilot powered by Gemini that takes a raw 12-hour hackathon prototype repository and instantly outputs a structured pitch deck outline, go-to-market model, and compliance roadmap.",
+      "problem_statement": "Overview: Most hackathons end with abandoned projects... we want builders to step in with a founder mindset and show a clear future roadmap.",
+      "stack": [
+        "Next.js",
+        "Google Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "VentureRoadmap AI Startup Pitch Generator",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Directly targets the event's stated core mission—turning hackathon prototypes into active companies heading to Stage 03 (Kurukshetra)—by giving judges an evaluation tool they can immediately appreciate."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A localized multi-agent RAG system built with Gemini and LangChain designed to aggregate municipal and startup ecosystem resources in Madhya Pradesh, giving founders instant answers on local incubator grants and compliance.",
+      "problem_statement": "The Google Gemini Spotlight Track: Build smart applications utilizing Google Gemini for real-world regional use cases.",
+      "stack": [
+        "TypeScript",
+        "LangChain.js",
+        "Google Gemini API",
+        "Supabase"
+      ],
+      "title": "IndoreLocal RAG Multi-Agent Support Platform",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Combines multi-agent architecture with hyper-localized utility, echoing the GreenNovation winning design pattern while catering directly to regional startup incubation goals."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

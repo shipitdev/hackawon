@@ -1,95 +1,92 @@
 {
-  "generated_at": "2026-09-13T07:40:11.641742+00:00",
+  "generated_at": "2026-09-21T08:09:15.343437+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 3,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:72aac6f9ba9f4fc6b24fe9bfe979acaf",
   "ideas": [
     {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered campus resource monitoring dashboard built for GNIT that aggregates IoT sensor data to forecast energy spikes and recommend green operational adjustments.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "GNIT Campus Carbon Footprint & Energy Optimizer",
-      "track": "",
-      "why_it_could_win": "Aligns with institutional sustainability priorities and leverages predictive modeling patterns seen in successful green tech hacks."
-    },
-    {
       "build_hours": 6,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "A rapid credentialing and attendance tracker for student chapters utilizing cryptographic micro-badges to verify workshop participation at GNIT.",
+      "inspired_by": [],
+      "pitch": "A real-time matching and scheduling web tool specifically designed for GNIT students to form instant peer-study pods based on immediate assignment deadlines.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL"
-      ],
-      "title": "ACM Chapter Event Stream & Peer Credentialing Engine",
-      "track": "",
-      "why_it_could_win": "Directly serves the organizing ACM student body by solving a recurring logistical challenge with production-ready code."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A localized predictive analytics tool utilizing lightweight regression models to forecast student support ticket volumes and administrative bottlenecks for technical institutions.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "FastAPI"
-      ],
-      "title": "Local Academic Incident & Query Forecasting Tool",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard statistical engineering within a tight 8-hour window, echoing winning formulaics from advanced forecasting hacks."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A fast-turnaround web utility that helps GNIT hostel residents optimize daily nutritional intake based on real-time rotating menu items available at local campus canteens.",
-      "stack": [
-        "TypeScript",
         "React",
+        "Node.js",
         "TailwindCSS"
       ],
-      "title": "Campus Health & Nutritional Canteen Planner",
+      "title": "Academic Peer Match & Study Pods",
       "track": "",
-      "why_it_could_win": "Solves an immediate, relatable student problem with a polished, consumer-ready interface built in a short sprint."
+      "why_it_could_win": "Targeting the local student community directly addresses the academic ecosystem of GNIT, appealing heavily to the ACM chapter organizers and judges looking for immediate utility."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "A lightweight computer vision utility that checks laboratory hardware compliance and workstation safety parameters using browser-based image streams.",
+      "pitch": "A lightweight geo-tagged reporting app for students to flag broken infrastructure or lab equipment instantly to campus authorities.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "OpenCV",
-        "TypeScript"
+        "TypeScript",
+        "Next.js",
+        "SQLite"
       ],
-      "title": "GNIT Lab Asset & Compliance Vision Monitor",
+      "title": "Campus Incident & Facility Tracker",
       "track": "",
-      "why_it_could_win": "Applies industrial monitoring concepts to a localized campus setting, showcasing practical engineering execution."
+      "why_it_could_win": "Solves an authentic, everyday campus friction point at GNIT with a completely working CRUD application that judges can test live on their phones."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A streamlined QR-based check-in and automated certificate generator portal tailored for college tech societies and chapter events.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Express",
+        "Node.js"
+      ],
+      "title": "ACM Event FastPass & Certificate Hub",
+      "track": "",
+      "why_it_could_win": "Built directly for the organizing student body (ACM GNIT), providing immediate operational value that department faculty and chapter leads will immediately appreciate."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "A conflict-free reservation system for department computer labs and hardware prototyping kits during high-demand project weeks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "QuickLab Resource Scheduler",
+      "track": "",
+      "why_it_could_win": "Addresses a tangible resource constraint faced by the Department of Information Technology at GNIT, making the pitch immediately practical and grounded."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [],
+      "pitch": "A countdown timer and milestone tracking dashboard designed specifically to keep 8-hour sprint hackathon teams synchronized and on track.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Hackathon Live Submission & Timebox",
+      "track": "",
+      "why_it_could_win": "Meta-tools built for hackathons always catch the eye of judges when they function seamlessly and demonstrate crisp, high-velocity frontend execution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

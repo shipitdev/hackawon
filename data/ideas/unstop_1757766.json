@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:54:05.435079+00:00",
+  "generated_at": "2026-09-21T08:36:36.627723+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -13,6 +13,8 @@
       "unusual-hardware",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1757766",
@@ -23,83 +25,86 @@
         "github:1340275018",
         "github:1161237076"
       ],
-      "pitch": "An offline computer vision system running on edge hardware to detect PPE and safety violations in manufacturing plants without cloud dependency.",
+      "pitch": "An edge-AI surveillance system running locally on low-cost hardware to flag industrial safety violations instantly without relying on continuous cloud bandwidth.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
         "YOLOv8",
         "Raspberry Pi"
       ],
-      "title": "EdgeSafe Industrial Safety Monitor",
+      "title": "EdgeGuard AI: Real-Time PPE & Safety Violation Detector",
       "track": "AI",
-      "why_it_could_win": "Directly targets the AI and IoT domains emphasized by Vignan Institute, matching the winning formula of physical safety monitoring projects."
+      "why_it_could_win": "Aligns directly with the AI and IoT domains while mirroring a proven hackathon winner by focusing on heavy industrial utility and edge inference."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1141364034"
       ],
-      "pitch": "A low-cost ESP32-based supply chain authenticity tag that measures analog resistance signatures to detect transit tampering before cloud logging.",
+      "pitch": "A physical anti-counterfeiting verification device utilizing sensor signatures and microcontroller validation to detect supply chain tampering.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "ESP32",
-        "MicroPython",
+        "C++",
         "Firebase"
       ],
-      "title": "AgriTrace Hardware Tamper Tag",
+      "title": "AuraTag: Hardware-Secured Supply Chain Authenticator",
       "track": "IoT",
-      "why_it_could_win": "Combines hardware IoT with anti-counterfeiting verification, offering judges a tangible physical demo that stands out from pure software apps."
+      "why_it_could_win": "Judges in IoT and hardware tracks love physical, tangible demos over standard web apps, leveraging a proven first-prize architectural blueprint."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1341712439"
       ],
-      "pitch": "An autonomous multi-agent diagnostic platform that ingests streaming sensor telemetry and triggers self-healing routines via local isolation forests.",
+      "pitch": "An autonomous diagnostic and intrusion detection agent tailored for smart home or industrial IoT networks using unsupervised isolation forests.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "TimescaleDB",
-        "Python"
+        "Python",
+        "Scikit-Learn",
+        "MQTT"
       ],
-      "title": "AutoOps IoT Anomaly Pipeline",
-      "track": "AI",
-      "why_it_could_win": "Leverages advanced multi-agent operations and fast machine learning to solve complex industrial diagnostic bottlenecks."
+      "title": "NetSentry: Localized IoT Network Anomaly & Intrusion Defense",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Combines cybersecurity and IoT domains seamlessly with automated closed-loop alerting, standing out against basic CRUD apps."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A lightweight cryptographic access control tool ensuring edge IoT devices authenticate without exposing raw private keys over local networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "Node.js"
+      ],
+      "title": "SecureNode: Zero-Knowledge Credential Guard for Edge Devices",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Brings rigorous engineering and security primitives into an IoT/Cybersecurity context, satisfying judges looking for deep technical implementation."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline, local AI code reviewer and security analyzer designed to run directly on hardware accelerators without exposing proprietary codebases.",
+      "pitch": "An air-gapped code review utility that scans repository diffs for security anti-patterns locally without sending proprietary code to external APIs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ONNX Runtime",
-        "FastAPI",
-        "Transformers"
+        "AST Parser",
+        "Streamlit"
       ],
-      "title": "NPU Secure Code Guard",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Addresses critical Cybersecurity and AI domains by demonstrating strict data privacy compliance through offline processing."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A defense-in-depth mesh network router equipped with layered prompt-injection hardening and intrusion detection for smart industrial environments.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "MQTT",
-        "Docker"
-      ],
-      "title": "SecuredMesh IoT Defense Node",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Blends IoT infrastructure with robust cybersecurity protocols, fitting the multi-domain focus of the organizing departments."
+      "title": "LocalAudit: Offline-First Code Vulnerability Scanner for On-Premise Devs",
+      "track": "AI",
+      "why_it_could_win": "Addresses critical enterprise cybersecurity needs with a working offline tool that can be live-demonstrated easily in front of judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

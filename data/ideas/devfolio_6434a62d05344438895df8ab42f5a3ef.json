@@ -1,98 +1,115 @@
 {
-  "generated_at": "2026-09-13T07:38:36.826000+00:00",
+  "generated_at": "2026-09-21T08:08:49.072841+00:00",
   "grounding": {
     "domains": [
-      "hardware"
+      "hardware",
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
       "unusual-hardware",
       "working-demo",
-      "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:6434a62d05344438895df8ab42f5a3ef",
   "ideas": [
     {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1010199928"
-      ],
-      "pitch": "An edge-AI powered automated dustbin for the college campus that classifies and segregates wet, dry, and e-waste in real time using a camera module and microcontroller.",
-      "stack": [
-        "Python",
-        "Arduino",
-        "OpenCV",
-        "C++"
-      ],
-      "title": "Smart Campus Waste Sorter",
-      "track": "Best Hardware",
-      "why_it_could_win": "Directly targets the Best Hardware track with a physical build, following the winning pattern of practical robotics and sensor-based physical hacks."
-    },
-    {
       "build_hours": 20,
       "inspired_by": [
-        "github:1144331507"
+        "github:1140260754"
       ],
-      "pitch": "An acoustic and radio mesh networking app that allows students and teachers to exchange notes and quizzes instantly without active internet connectivity.",
+      "pitch": "A real-time biomedical monitoring app that uses ElevenLabs voice synthesis and speech analysis to detect post-operative patient complications through vocal fatigue and tremor patterns.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "WebAudio API",
-        "React"
+        "ElevenLabs API",
+        "React",
+        "Node.js",
+        "WebAudio"
       ],
-      "title": "MeshSync Offline Classroom",
+      "title": "VoiceVitals: ElevenLabs-Powered Post-Op Voice Biomarker Triage",
+      "track": "AI Credits",
+      "why_it_could_win": "Directly targets the ElevenLabs sponsor prize track by using their audio APIs for a serious healthcare application, leveraging the hard-engineering edge seen in winning biomedical and IoT projects."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1296916648",
+        "github:1340275018"
+      ],
+      "pitch": "An edge-AI computer vision pipeline running locally to detect hardhat and PPE violations in factory floors without cloud dependency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ONNX Runtime",
+        "FastAPI"
+      ],
+      "title": "EdgeGuard: Offline NPU Industrial Safety Monitor",
       "track": "Best Software",
-      "why_it_could_win": "Aligns with the Best Software and Best Hardware tracks by solving local connectivity challenges using hardware-adjacent networking logic."
+      "why_it_could_win": "Matches the proven success of offline edge-AI and industrial safety detection systems while fitting the Best Software and AI Credits tracks through high-performance local inference."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1341712439"
+        "github:1010199928",
+        "github:1259981732"
       ],
-      "pitch": "A telemetry and anomaly detection dashboard optimized for hackathon organizers to monitor submission spikes and API health during frantic submission hours.",
+      "pitch": "A desktop-sized robotic sorting arm driven by a computer vision model that classifies and separates recyclable waste into correct bins live.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "YOLOv8",
+        "ESP32"
+      ],
+      "title": "EcoSort: Autonomous Smart Waste Segregator",
+      "track": "Best Hardware",
+      "why_it_could_win": "Uses an unusual physical build with a live working demo, replicating the exact formula that wins hardware tracks at robotics and IoT-focused hackathons."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1066546613"
+      ],
+      "pitch": "A compact mobile robot equipped with obstacle avoidance and SLAM mapping to guide visitors through college building corridors autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ROS2",
+        "Jetson Nano",
+        "LiDAR"
+      ],
+      "title": "CampusNav: JetBot Autonomous Indoor Guidance Rover",
+      "track": "Grand Prize",
+      "why_it_could_win": "Leverages complex robotics perception navigation stacks that consistently sweep hardware and grand prizes by showcasing difficult physical systems working in real-time."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1100461811"
+      ],
+      "pitch": "A voice-activated control panel allowing engineers to speak natural commands to diagnose and query college lab IoT sensor anomalies via an agentic LLM pipeline.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini API",
-        "Node.js",
+        "ElevenLabs API",
+        "LangGraph",
         "TailwindCSS"
       ],
-      "title": "Devfolio Hack-Metrics Dashboard",
-      "track": "Best Software",
-      "why_it_could_win": "Appeals directly to Devfolio as a platform sponsor by improving the submission experience with robust time-series logging and anomaly checks."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1281918590"
-      ],
-      "pitch": "A custom low-power IoT circuit using discrete timers and relays to monitor and cut off idle lab equipment power automatically.",
-      "stack": [
-        "C++",
-        "ESP32",
-        "Custom PCB",
-        "MQTT"
-      ],
-      "title": "Campus Green Energy Monitor",
-      "track": "Best Hardware",
-      "why_it_could_win": "Targeting the Best Hardware track with custom circuit design and embedded firmware that showcases tangible engineering effort."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "A high-fidelity Figma-to-code design verification tool that ensures strict component compliance for college event portals.",
-      "stack": [
-        "TypeScript",
-        "Figma API",
-        "React"
-      ],
-      "title": "DesignSystem Companion",
+      "title": "VoiceOps: Conversational Multi-Agent IoT Diagnostic Console",
       "track": "Best Design",
-      "why_it_could_win": "Competes specifically in the Best Design track by focusing on design systems, UI consistency, and developer-designer handoff automation."
+      "why_it_could_win": "Combines ElevenLabs voice inputs with an agentic backend, aligning with sponsor tech while delivering an exceptionally polished UI for the Best Design track."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

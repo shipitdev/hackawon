@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:33.571199+00:00",
+  "generated_at": "2026-09-21T08:28:02.720677+00:00",
   "grounding": {
     "domains": [
       "fintech"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749781",
@@ -15,76 +17,80 @@
     {
       "build_hours": 20,
       "inspired_by": [
+        "github:969245239",
         "github:1073244675"
       ],
-      "pitch": "An AI-powered business plan generator and market validation tool specifically tailored for aerospace and deep-tech startups pitching to institutional juries.",
+      "pitch": "A multi-agent market research and product validation engine designed specifically to generate investor-ready business plans for student entrepreneurs.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
         "TypeScript",
+        "Next.js",
         "TailwindCSS"
       ],
-      "title": "AeroMarket Strategy Platform",
+      "title": "Marketmind Local",
       "track": "",
-      "why_it_could_win": "Directly targets the business plan competition evaluation criteria by automatically structuring market analysis, financial projections, and competitor benchmarking."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:950564513"
-      ],
-      "pitch": "An automated digital branch platform that streamlines loan application processing, real-time risk assessment, and financial feasibility forecasting for small businesses.",
-      "stack": [
-        "JavaScript",
-        "Next.js",
-        "Node.js"
-      ],
-      "title": "CreditCue Enterprise",
-      "track": "",
-      "why_it_could_win": "Addresses the financial viability and business model requirements of the judging criteria with an implementation backed by proven fintech success."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:969245239"
-      ],
-      "pitch": "A multi-agent market research platform that scrapes competitor pricing, synthesizes total addressable market data, and outputs investor-ready Go-to-Market strategies.",
-      "stack": [
-        "TypeScript",
-        "Python"
-      ],
-      "title": "MarketMind Venture",
-      "track": "",
-      "why_it_could_win": "Leverages automated multi-agent intelligence to comprehensively cover market sizing and competitive landscapes demanded by the pitch structure."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A compliance and financial risk detection platform that models transactional risk graphs to prove regulatory feasibility for fintech startup pitches.",
-      "stack": [
-        "TypeScript",
-        "Python"
-      ],
-      "title": "RiskGraph AML Business",
-      "track": "",
-      "why_it_could_win": "Demonstrates robust grasp of financial compliance and risk management, which heavily appeals to business competition juries evaluating startup security and viability."
+      "why_it_could_win": "Directly matches the judging criteria of market validation, business model feasibility, and go-to-market planning required by the Business Plan Competition format."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1349346531"
+        "github:1073244675"
       ],
-      "pitch": "A commercialization modeling tool that calculates unit economics and revenue projections for tokenized and options-based financial product startups.",
+      "pitch": "An automated financial projections and cash-flow scenario generator tailored for early-stage startup pitch decks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript"
+        "Python",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "OptionsEdge Business Model",
+      "title": "FinPlan AI",
       "track": "",
-      "why_it_could_win": "Provides hard financial projections and a scalable revenue model, directly fulfilling the core scoring components of the business plan presentation."
+      "why_it_could_win": "Solves the exact financial requirements and projections section of the required 5-minute pitch structure, which most student teams struggle to calculate accurately."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A hyper-local B2B marketplace aggregator connecting college-town micro-merchants with logistics providers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "title": "SupplySync Go",
+      "track": "",
+      "why_it_could_win": "Presents a highly tangible, localized go-to-market plan that judges can immediately understand and verify during the 3-minute Q&A session."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A direct-to-retail supply chain optimization and pricing strategy platform for regional agricultural produce.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Express"
+      ],
+      "title": "AgriRoute B2B",
+      "track": "",
+      "why_it_could_win": "Focuses on a massive domestic market opportunity in India, giving the business plan immediate real-world scalability and high commercial viability in front of a jury."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A B2B SaaS subscription and inventory tracking platform designed for independent local pharmacies in Tier-2 Indian cities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Prisma"
+      ],
+      "title": "MedLogix Business",
+      "track": "",
+      "why_it_could_win": "Demonstrates a clear B2B recurring revenue model with low customer acquisition cost, hitting every metric a business plan jury looks for."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

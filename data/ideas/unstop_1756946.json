@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:56:41.421810+00:00",
+  "generated_at": "2026-09-21T08:35:47.057999+00:00",
   "grounding": {
     "domains": [
       "hardware",
@@ -9,9 +9,10 @@
     "patterns": [
       "technical-depth",
       "sponsor-tech",
-      "unusual-hardware",
-      "working-demo"
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1756946",
@@ -19,85 +20,91 @@
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1340275018"
-      ],
-      "pitch": "A localized computer vision system running on edge devices to instantly detect safety gear violations and hazardous workplace conditions without cloud latency.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "OpenCV",
-        "Raspberry Pi"
-      ],
-      "title": "Edge-IoT Industrial Safety Sentinel",
-      "track": "Open Innovation",
-      "why_it_could_win": "Leverages the organizing Department of CSE (IoT) focus by providing a physical edge computing prototype that solves a real-world industrial compliance problem."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
         "github:1141364034"
       ],
-      "pitch": "An ESP32-based hardware tag that monitors cold-chain transport parameters and uses analog signature checks to flag supply chain tampering.",
+      "pitch": "A real-time IoT power monitoring and load-balancing prototype built using ESP32 nodes to track and optimize electricity usage across university departments.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "ESP32",
         "MQTT",
-        "Firebase"
+        "Flask",
+        "React"
       ],
-      "title": "Agri-IoT Tamper-Proof Logistics Tag",
-      "track": "Open Innovation",
-      "why_it_could_win": "Combines physical IoT sensors with verifiable logging, aligning with the Department of CSE (IoT & BT) profile of the hosting institution."
+      "title": "Smart Campus IoT Energy Grid",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the IoT department hosting the event, demonstrating physical hardware integration and sensor data collection within a short timeframe."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "An offline computer vision system running on a Raspberry Pi that detects unauthorized entry or safety gear violations in campus computer labs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
+      ],
+      "title": "Edge-AI Lab Security Monitor",
+      "track": "",
+      "why_it_could_win": "Leverages an unusual physical deployment model and edge AI, which stands out against standard web apps in an open innovation room."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1341712439"
+        "github:1141364034"
       ],
-      "pitch": "A closed-loop diagnostic platform powered by lightweight machine learning models to detect and auto-remediate anomalies in smart home IoT networks.",
+      "pitch": "An automated sorting prototype utilizing microcontroller-driven color and weight sensors to categorize campus biodegradable versus non-biodegradable waste.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "LangGraph",
-        "TimescaleDB"
+        "Arduino",
+        "C++",
+        "Node.js",
+        "TailwindCSS"
       ],
-      "title": "Autonomous Multi-Agent Smart Grid Ops",
-      "track": "Open Innovation",
-      "why_it_could_win": "Demonstrates complex multi-agent system orchestration scoped down to run smoothly within a strict 8-hour timeframe."
+      "title": "BioTrack Campus Waste Sorter",
+      "track": "",
+      "why_it_could_win": "Directly incorporates biotechnology and IoT themes relevant to the organizing departments through a tangible working prototype."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:1106438693"
       ],
-      "pitch": "A distributed edge computing node system designed to triangulate unknown RF signal sources using synchronized multi-sensor inputs.",
+      "pitch": "A localized peer-to-peer file sharing and version control web utility tailored for university students operating entirely over local Wi-Fi without internet dependency.",
+      "problem_statement": "No published statement",
       "stack": [
         "Go",
-        "Python",
-        "WebSockets",
-        "Raspberry Pi"
+        "WebRTC",
+        "TypeScript",
+        "React"
       ],
-      "title": "RF Signal Triangulation Hub",
-      "track": "Open Innovation",
-      "why_it_could_win": "Brings rigorous, low-level systems engineering and networking to an open innovation hackathon, instantly standing out from standard web apps."
+      "title": "PeerSync Decentralized Study Notes",
+      "track": "",
+      "why_it_could_win": "Solves a genuine local campus pain point with robust networking code, impressing judges with practical everyday utility."
     },
     {
-      "build_hours": 6,
+      "build_hours": 7,
       "inspired_by": [
-        "github:1181344931"
+        "github:1141364034"
       ],
-      "pitch": "A localized transaction analysis engine combining graph intelligence and light gradient boosting to flag financial anomalies instantly.",
+      "pitch": "A low-power wireless sensor mesh network using ESP32 nodes to monitor agricultural soil parameters and stream telemetry to a central dashboard.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "ESP32",
+        "SQLite",
+        "Streamlit"
       ],
-      "title": "Graph-Powered AML Risk Screener",
-      "track": "Open Innovation",
-      "why_it_could_win": "Applies advanced financial intelligence analytics that judges favor for real-world enterprise applicability and high execution quality."
+      "title": "AgriSensor Soil Moisture Mesh",
+      "track": "",
+      "why_it_could_win": "Combines hardware prototyping with agricultural technology, appealing to the IoT focus of the organizing committee."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

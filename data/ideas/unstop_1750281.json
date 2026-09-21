@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:01.644366+00:00",
+  "generated_at": "2026-09-21T08:28:56.396751+00:00",
   "grounding": {
     "domains": [
       "agritech",
@@ -10,6 +10,8 @@
     "patterns": [
       "impact"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750281",
@@ -19,83 +21,88 @@
       "inspired_by": [
         "github:1234067949"
       ],
-      "pitch": "A web platform that predicts harmful algal bloom risk in local water bodies 3-5 days in advance using machine learning.",
+      "pitch": "A predictive web platform that forecasts harmful algal blooms 3-5 days in advance using oceanographic sensor streams and machine learning.",
+      "problem_statement": "Climate & Ocean Intelligence",
       "stack": [
         "TypeScript",
         "Python",
-        "Machine Learning",
-        "React"
+        "Next.js",
+        "TensorFlow"
       ],
-      "title": "BurgasBay Algal Predictor",
+      "title": "AquaPulse Burgas: Coastal Algal Bloom Early Warning",
       "track": "Climate & Ocean Intelligence",
-      "why_it_could_win": "Addresses climate and ocean intelligence with a proven hackathon-winning architecture and clear predictive value for marine environments."
+      "why_it_could_win": "Directly targets the Climate & Ocean Intelligence domain and mirrors the exact architecture of proven past winners in marine IoT prediction."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1075630497"
+        "github:1200106905"
       ],
-      "pitch": "An image-classification mobile app that instantly detects crop diseases and food security risks from smartphone photos.",
+      "pitch": "An AI-powered agricultural platform featuring crop disease detection with offline SMS fallback alerts for rural farmers with low connectivity.",
+      "problem_statement": "Agriculture",
       "stack": [
-        "Dart",
-        "Flutter",
+        "TypeScript",
         "Python",
-        "TensorFlow Lite"
+        "Azure",
+        "Twilio API"
       ],
-      "title": "AgriSnapp Mobile Classifier",
+      "title": "AgriConnect Offline SMS: AI Crop Disease & Market Intelligence",
       "track": "Agriculture",
-      "why_it_could_win": "Directly targets the Agriculture track by solving immediate yield protection problems using mobile-first image recognition."
+      "why_it_could_win": "Addresses the real-world connectivity hurdle in rural agriculture, following a blueprint that won the Udaya 1.0 Hackathon."
     },
     {
-      "build_hours": 24,
+      "build_hours": 28,
       "inspired_by": [
-        "github:759157889"
+        "github:1275874285"
       ],
-      "pitch": "A digital agriculture dashboard that tracks soil health metrics and optimizes water usage for smallholder farmers.",
+      "pitch": "An AI-driven nutrition assistant that parses local food intake and delivers personalized meal adjustments and healthy lifestyle guidance.",
+      "problem_statement": "HealthCare",
       "stack": [
-        "CSS",
-        "JavaScript",
-        "Node.js",
-        "MongoDB"
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
       ],
-      "title": "Prakriti Digital Ag Dashboard",
-      "track": "Agriculture",
-      "why_it_could_win": "Aligns with the Cornell Grand Prize winner pattern of combining agronomy data with a polished, actionable interface."
+      "title": "NutriAI Mealzy: Personalized Nutrition and Wellness Engine",
+      "track": "HealthCare",
+      "why_it_could_win": "Aligns with the HealthCare track and leverages a first-prize winning formula from a fast-paced 24-hour sprint."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered trust engine and intake portal designed to streamline patient education and acquisition for specialized healthcare clinics.",
+      "problem_statement": "HealthCare",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "GlobalSmile HealthTrust: AI Patient Acquisition for Specialized Clinics",
+      "track": "HealthCare",
+      "why_it_could_win": "Combines practical utility for clinics with a polished LLM interface, a combination that routinely captures high marks in healthcare tracks."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1200106905"
+        "github:1075630497"
       ],
-      "pitch": "An AI-powered agriculture platform offering crop disease detection with 92 percent accuracy alongside offline SMS market price alerts.",
+      "pitch": "A mobile-first image classification tool that assesses early-stage crop health and predicts local yield anomalies for food security initiatives.",
+      "problem_statement": "Agriculture",
       "stack": [
-        "TypeScript",
-        "Azure",
-        "Twilio SMS",
-        "Python"
+        "Dart",
+        "Flutter",
+        "Python",
+        "PyTorch"
       ],
-      "title": "AgriConnect SMS & AI Hub",
+      "title": "AgriSnapp Yield: Mobile Crop Classification & Food Security Tracker",
       "track": "Agriculture",
-      "why_it_could_win": "Features robust offline accessibility which heavily appeals to judges evaluating practical adoption in rural agricultural contexts."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1299542541"
-      ],
-      "pitch": "A spatial farm defense network predicting agricultural weather drift using OpenWeather APIs, Neo4j spatial indexing, and voice commands.",
-      "stack": [
-        "HTML",
-        "Neo4j",
-        "OpenWeather API",
-        "Sarvam AI"
-      ],
-      "title": "AgriHive Spatial Defense",
-      "track": "Climate & Ocean Intelligence",
-      "why_it_could_win": "Combines advanced spatial data mapping with modern voice interfaces, meeting high-tech expectations for climate and agricultural intelligence."
+      "why_it_could_win": "Replicates a UN Reboot Earth Hackathon winning project by providing immediate, quantifiable insights into local food security."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

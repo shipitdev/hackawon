@@ -1,101 +1,105 @@
 {
-  "generated_at": "2026-09-13T07:57:05.018130+00:00",
+  "generated_at": "2026-09-21T08:25:56.883436+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1748182",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1183964401"
+        "github:819399001"
       ],
-      "pitch": "A hybrid quantum-classical web application that uses Qiskit's VQE (Variational Quantum Eigensolver) to optimize liquidity pool distributions across decentralized finance protocols for maximum risk-adjusted return.",
+      "pitch": "A hybrid quantum-classical vehicle routing optimizer using Qiskit's VQE algorithm to minimize delivery fleet carbon footprints.",
+      "problem_statement": "Qiskit Fall Fest 2026 @ MPSTME - Quantum Optimisation track",
       "stack": [
         "Python",
         "Qiskit",
-        "TypeScript",
-        "Next.js",
-        "Web3.py"
+        "NumPy",
+        "Streamlit"
       ],
-      "title": "Quantum Portfolio Optimizer for DeFi Yields",
+      "title": "QuantumFlow Optima",
       "track": "Quantum Optimisation",
-      "why_it_could_win": "Directly applies Qiskit optimization algorithms to a high-value real-world financial domain, perfectly aligning with the IBM Quantum ecosystem focus."
+      "why_it_could_win": "Combines a trending sustainability theme with hard combinatorial optimization using native Qiskit circuits, directly addressing the optimization interest of IBM Quantum judges."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A quantum machine learning pipeline utilizing parameterized quantum circuits via Qiskit Machine Learning to classify molecular toxicity far faster than classical deep learning models on small datasets.",
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A Quantum Neural Network classifier built with Qiskit Machine Learning to detect anomalous credit card transaction patterns.",
+      "problem_statement": "Qiskit Fall Fest 2026 @ MPSTME - Quantum Machine Learning (QML) / Quantum Neural Networks (QNNs)",
       "stack": [
         "Python",
-        "Qiskit",
         "Qiskit Machine Learning",
         "PyTorch",
         "Scikit-Learn"
       ],
-      "title": "QML-Driven Drug Toxicity Screening",
+      "title": "QNN-FraudGuard",
       "track": "Quantum Machine Learning (QML)",
-      "why_it_could_win": "Leverages Quantum Neural Networks and QML, hitting the exact technical evaluation vectors highlighted in the hackathon's focus areas."
+      "why_it_could_win": "Demonstrates advanced QNN architecture on a relatable financial dataset, showing judges practical domain application rather than pure toy theory."
     },
     {
-      "build_hours": 30,
+      "build_hours": 28,
       "inspired_by": [],
-      "pitch": "A developer utility dashboard that visualizes quantum circuit noise and applies automated measurement error mitigation routines using Qiskit Aer simulations and IBM runtime primitives.",
+      "pitch": "A hybrid quantum simulation tool using VQE to calculate the ground state energy of simple molecular bonds for drug discovery.",
+      "problem_statement": "Qiskit Fall Fest 2026 @ MPSTME - Quantum Simulation",
       "stack": [
         "Python",
-        "Qiskit",
-        "FastAPI",
-        "React",
-        "Chart.js"
+        "Qiskit Nature",
+        "Matplotlib",
+        "Flask"
       ],
-      "title": "Entangled State Error Mitigation Tool",
-      "track": "Quantum Computing Fundamentals",
-      "why_it_could_win": "Addresses the most prominent engineering bottleneck in near-term quantum computing (NISQ era noise), showcasing hard systems-level engineering."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An enterprise logistics dashboard that solves the Vehicle Routing Problem by offloading combinatorial optimization subproblems to Qiskit's QAOA algorithm while handling constraints classically.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "NetworkX",
-        "Streamlit",
-        "PostgreSQL"
-      ],
-      "title": "Hybrid Quantum-Classical Supply Chain Routing",
-      "track": "Quantum Optimisation",
-      "why_it_could_win": "Translates abstract quantum algorithms into an enterprise-ready dashboard application with clear commercial utility."
+      "title": "MoleculeSim Qiskit",
+      "track": "Quantum Simulation",
+      "why_it_could_win": "Solves a core scientific use-case for quantum hardware simulation, appealing to researchers and professors judging the event."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1213911408"
+        "github:1334000568"
       ],
-      "pitch": "An educational drag-and-drop web IDE that compiles visual quantum gate arrangements into optimized Qiskit Python code and simulates statevector evolution in real-time.",
+      "pitch": "An LLM-backed interactive educational assistant that translates natural language prompts directly into executable Qiskit circuit code.",
+      "problem_statement": "Qiskit Fall Fest 2026 @ MPSTME - Hybrid Quantum-Classical Computing",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "OpenAI API",
+        "FastAPI"
+      ],
+      "title": "EntangleChat AI",
+      "track": "Hybrid Quantum-Classical Computing",
+      "why_it_could_win": "Targets developers and beginners learning Qiskit at the fest by lowering the barrier to entry through automated semantic code generation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An interactive web debugger for step-by-step statevector visualization of Grover's search algorithm and amplitude amplification.",
+      "problem_statement": "Qiskit Fall Fest 2026 @ MPSTME - Quantum Algorithms & Fundamentals",
       "stack": [
         "TypeScript",
         "React",
-        "Python",
-        "Flask",
-        "Qiskit"
+        "Qiskit",
+        "Python Backend"
       ],
-      "title": "Quantum Circuit Synthesis Visualizer",
+      "title": "Quantum Grover Circuit Visualizer",
       "track": "Quantum Algorithms",
-      "why_it_could_win": "Appeals strongly to university judges and organizers who prioritize developer tooling and onboarding tools for new quantum computing students."
+      "why_it_could_win": "A polished developer tool that helps both judges and fellow students visualize complex quantum superposition and interference mechanics visually."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

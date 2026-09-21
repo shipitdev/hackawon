@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:54:32.267446+00:00",
+  "generated_at": "2026-09-21T08:22:36.651508+00:00",
   "grounding": {
     "domains": [
-      "devtools",
-      "security"
+      "devtools"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "working-demo"
+      "sponsor-tech",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745778",
@@ -17,85 +18,96 @@
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:618728877"
+        "github:754481130",
+        "github:1329458499"
       ],
-      "pitch": "A lightweight storage middleware that dynamically scales read and write quorums based on real-time node latency and partition health metrics, preventing split-brain states during network degradation.",
+      "pitch": "An enterprise-grade log management and autonomous remediation pipeline that doesn't just log errors, but patches and self-heals microservices in production.",
+      "problem_statement": "No published statement (Open-ended architectural engineering crucible focused on system resilience and scalability)",
       "stack": [
         "Python",
-        "Go",
-        "gRPC",
-        "Raft"
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "LangChain"
       ],
-      "title": "Consensus-Guard: Self-Healing Dynamic Quorum for Cloud-Native Distributed Storage",
+      "title": "Convergence-Engine: Self-Healing Distributed Log Analyzer",
       "track": "",
-      "why_it_could_win": "Aligns with the 'System Convergence' theme by focusing on architectural resilience and fault tolerance rather than just a shallow prototype."
+      "why_it_could_win": "Aligns with the hackathon's core philosophy of building systems that survive beyond the closing ceremony rather than disposable prototypes, heavily leaning on hard engineering and automated remediation."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:965357458"
-      ],
-      "pitch": "An open-source telemetry governance proxy that intercepts multi-agent LLM tool calls, evaluates compliance against pre-defined safety invariants, and logs tamper-evident audit trails.",
-      "stack": [
-        "Go",
-        "Python",
-        "OpenTelemetry",
-        "SQLite"
-      ],
-      "title": "Sentinel-AI: Ethical Telemetry and Policy Enforcement for Autonomous Agents",
-      "track": "",
-      "why_it_could_win": "Demonstrates deep systems engineering and addresses real-world enterprise utility and security requirements."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A high-performance semantic routing proxy that maps incoming requests to optimal LLM backends using a kNN exemplar index and an asynchronous judge writeback loop.",
+      "pitch": "A high-performance semantic routing proxy that indexes incoming queries in real-time, caches responses with kNN similarity, and routes traffic efficiently to reduce operational costs.",
+      "problem_statement": "No published statement (Open-ended architectural engineering crucible focused on system resilience and scalability)",
       "stack": [
         "Python",
         "FastAPI",
-        "FAISS",
+        "Superlinked",
+        "Qwen",
         "Redis"
       ],
-      "title": "SemanticRoute-Core: Zero-Training Self-Optimizing Router for Multi-Model Infrastructure",
+      "title": "Nexus-Route: Training-Free Semantic LLM Gateway",
       "track": "",
-      "why_it_could_win": "Directly targets hard engineering performance metrics, cutting inference costs while maintaining high accuracy under heavy load."
+      "why_it_could_win": "Directly tackles real-world utility and long-term scalability—key judging criteria for an engineering crucible that values production-grade infrastructure over throwaway code."
     },
     {
       "build_hours": 34,
       "inspired_by": [
-        "github:1282252864"
+        "github:1329458499"
       ],
-      "pitch": "A systems pipeline that parses BPMN workflow graphs and executes automated, multi-agent security scans and dependency risk analysis before deployment to production environments.",
+      "pitch": "A data engineering copilot that monitors schema drift and data pipeline failures, isolates anomalies using evidence gates, and automatically generates verified pull requests to fix upstream breaks.",
+      "problem_statement": "No published statement (Open-ended architectural engineering crucible focused on system resilience and scalability)",
       "stack": [
         "Python",
-        "TypeScript",
-        "Docker",
-        "BPMN Parser"
+        "DataHub",
+        "GitHub API",
+        "Claude",
+        "PostgreSQL"
       ],
-      "title": "BPMN-Shield: Orchestrated Pre-Deployment Risk Diagnosis for Autonomous Workflows",
+      "title": "LineageGuard: Autonomous Data Incident Response & PR Engine",
       "track": "",
-      "why_it_could_win": "Combines rigorous workflow orchestration with verifiable risk assessment, fitting the demand for long-term scalability and real-world utility."
+      "why_it_could_win": "Demonstrates extreme technical depth and real-world utility by closing the loop from automated detection straight to a verified code commit, echoing grand-prize-winning data architecture patterns."
     },
     {
-      "build_hours": 30,
+      "build_hours": 35,
       "inspired_by": [
-        "github:1004582948"
+        "github:1163393786"
       ],
-      "pitch": "An offline-first background daemon that ingests git repositories, builds localized dependency graphs, and continuously generates architectural documentation and security vulnerability alerts.",
+      "pitch": "An architectural testing framework where dual decentralized agent nodes stress-test state synchronization and consensus protocols under simulated network partitions.",
+      "problem_statement": "No published statement (Open-ended architectural engineering crucible focused on system resilience and scalability)",
       "stack": [
         "Python",
-        "TypeScript",
-        "AST",
-        "ChromaDB"
+        "Braintrust",
+        "WebSockets",
+        "Docker",
+        "Datadog SDK"
       ],
-      "title": "RepoPulse-Enterprise: Automated Codebase Intelligence and Security Compliance Engine",
+      "title": "Crucible-Sync: Adversarial State Machine Validator",
       "track": "",
-      "why_it_could_win": "Delivers an immediately working, highly practical developer tool with clear operational utility past the hackathon closing ceremony."
+      "why_it_could_win": "Matches the rigorous offline engineering crucible environment by proving architectural resilience through rigorous adversarial simulation rather than standard unit tests."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A background system daemon that continuously profiles database tables for cardinality, drift, and structural integrity violations, outputting instant architectural health scores.",
+      "problem_statement": "No published statement (Open-ended architectural engineering crucible focused on system resilience and scalability)",
+      "stack": [
+        "Python",
+        "Pandas",
+        "OpenAI OSS",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "Veritas-DB: Automated Data Profiling & Integrity Daemon",
+      "track": "",
+      "why_it_could_win": "Provides immediate production visibility and deep system profiling, satisfying the strict requirements for long-term scalability and operational telemetry."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

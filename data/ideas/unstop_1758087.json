@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:29:26.611660+00:00",
+  "generated_at": "2026-09-21T08:37:03.558791+00:00",
   "grounding": {
     "domains": [
       "devtools",
@@ -7,87 +7,101 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758087",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 18,
       "inspired_by": [
         "github:104920183"
       ],
-      "pitch": "A pure Python web scraper using BeautifulSoup and lxml that tracks DOM mutations and layout shifts over time across e-commerce pages without using heavy headless browsers.",
+      "pitch": "A high-performance asynchronous web scraper using pure Python standard libraries, Requests, and BeautifulSoup without heavy browser automation.",
+      "problem_statement": "Solve a technical challenge involving analysing web pages and HTML structures, extracting relevant data, writing Python scraping scripts, processing extracted information, and handling edge cases.",
       "stack": [
         "Python",
+        "Requests",
         "BeautifulSoup",
         "lxml",
-        "requests"
+        "Regex"
       ],
-      "title": "RobustHTMLDiffExtractor",
+      "title": "RequestsSoup Engine",
       "track": "",
-      "why_it_could_win": "Since Selenium and Playwright are strictly prohibited, building a pure lxml/requests-based engine that handles dynamic DOM structures will score maximum points on scraping efficiency and edge-case handling."
+      "why_it_could_win": "Strict compliance with the challenge rules prohibiting Selenium and Playwright, focusing entirely on raw HTTP requests, speed, and robust HTML parsing efficiency."
     },
     {
-      "build_hours": 24,
+      "build_hours": 20,
       "inspired_by": [
         "github:1171690684"
       ],
-      "pitch": "An automated data profiling and integrity validation wrapper for extracted CSV/JSON scraped datasets, instantly checking cardinality, consistency, and missing values.",
+      "pitch": "A specialized data extraction pipeline that robustly parses complex unstructured HTML tables and uses advanced regex for clean data normalization.",
+      "problem_statement": "Solve a technical challenge involving extracting relevant data, writing Python scraping scripts, processing extracted information, and handling edge cases.",
       "stack": [
         "Python",
-        "Pandas",
-        "Streamlit"
+        "Regex",
+        "BeautifulSoup",
+        "Pandas"
       ],
-      "title": "DataVeritas-Lite Scraper Profiler",
+      "title": "RobustRegex Data Pipeline",
       "track": "",
-      "why_it_could_win": "Judges evaluate accuracy, correctness, and processing of extracted information; automating data profiling directly targets their evaluation criteria."
+      "why_it_could_win": "Judges will evaluate heavily on edge-case handling and data accuracy, which this pipeline targets directly through rigorous regex validation."
     },
     {
-      "build_hours": 30,
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A resilient scraping utility featuring intelligent rate limiting, exponential backoff, proxy rotation simulation, and comprehensive error handling for blocked IPs.",
+      "problem_statement": "Solve a technical challenge involving handling edge cases, scraping efficiency, and robust Python script development.",
+      "stack": [
+        "Python",
+        "Requests",
+        "urllib3",
+        "JSON"
+      ],
+      "title": "HTTP Fallback and Retry Scraper",
+      "track": "",
+      "why_it_could_win": "Handles network failures and blocking edge cases gracefully, demonstrating superior engineering reliability compared to basic scripts."
+    },
+    {
+      "build_hours": 12,
       "inspired_by": [],
-      "pitch": "A Python utility that automatically infers optimal regular expressions and CSS selector paths from raw HTML pages to extract semi-structured tabular data reliably.",
+      "pitch": "An automated parser designed to extract embedded schema.org JSON-LD and microdata from complex e-commerce or directory web pages instantly.",
+      "problem_statement": "Solve a technical challenge involving analysing web pages and HTML structures, and extracting relevant data efficiently.",
       "stack": [
         "Python",
         "BeautifulSoup",
+        "json",
         "re"
       ],
-      "title": "RegexPatternAutoDiscovery",
+      "title": "JSON-LD & Microdata Extractor",
       "track": "",
-      "why_it_could_win": "Focuses heavily on the core technical challenge of analyzing web pages and HTML structures while keeping strictly within lightweight Python constraints."
+      "why_it_could_win": "Leverages structured data parsing inside HTML headers, minimizing DOM traversal overhead and maximizing extraction speed."
     },
     {
-      "build_hours": 28,
+      "build_hours": 22,
       "inspired_by": [],
-      "pitch": "A high-performance asynchronous scraping pipeline built with httpx and asyncio featuring dynamic backoff and proxy rotation for scraping large static target lists.",
+      "pitch": "A lightweight automated script using standard urllib and HTTP session cookies to navigate multi-step form submissions without browser overhead.",
+      "problem_statement": "Solve a technical challenge involving web analysis, data extraction, processing, and automation without Selenium or Playwright.",
       "stack": [
         "Python",
-        "asyncio",
-        "httpx"
+        "Requests",
+        "BeautifulSoup",
+        "CookieJar"
       ],
-      "title": "AsyncScrapeQueue with Adaptive Rate Limiting",
+      "title": "Headless HTTP Automator",
       "track": "",
-      "why_it_could_win": "Scraping efficiency and edge-case handling are explicitly listed evaluation criteria; an async implementation demonstrates superior software development capability."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A lightweight local vector-embedding search engine over scraped text chunks using compact transformer embeddings to find specific facts across extracted web data.",
-      "stack": [
-        "Python",
-        "Sentence-Transformers",
-        "FAISS"
-      ],
-      "title": "LocalSemanticScraperQuery",
-      "track": "",
-      "why_it_could_win": "Combines robust data extraction with advanced post-processing of extracted information, satisfying the processing and problem-solving approach criteria."
+      "why_it_could_win": "Strictly adheres to the anti-Selenium constraint while demonstrating advanced HTTP session handling and automation logic."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

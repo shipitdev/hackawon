@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:30.530897+00:00",
+  "generated_at": "2026-09-21T08:28:24.894311+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,87 +7,88 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749969",
   "ideas": [
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An automated market research engine tailored for Startup Street's ideation phase, combining web scraping and LLMs to instantly calculate Total Addressable Market (TAM) and competitor density from live data.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ValuCheck AI Market Validation & TAM Scraper",
-      "track": "",
-      "why_it_could_win": "Since Startup Street explicitly emphasizes business model development and market validation during Day 1, this tool directly helps judges evaluate the viability of other teams' business plans."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An automated carbon footprint and sustainability compliance dashboard designed to help early-stage startups audit their operations and generate green-credential pitches for investors.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LangGraph"
-      ],
-      "title": "GreenNovate Business Carbon Ledger",
-      "track": "",
-      "why_it_could_win": "Leverages the multi-agent student platform architecture from past winning hacks to automate heavy regulatory paperwork, appealing to the entrepreneurial focus of the event."
-    },
-    {
       "build_hours": 18,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "A platform that ingests unstructured early-stage startup metrics and automatically builds a data-backed Shark Tank-style pitch deck complete with predicted customer acquisition costs.",
+      "pitch": "An AI-powered co-pilot that stress-tests startup pitch decks against real-time venture capital investment theses and market validation metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API"
       ],
-      "title": "PitchDeck AI Trust & Traction Engine",
+      "title": "PitchValidator AI",
       "track": "",
-      "why_it_could_win": "Directly targets the Shark Tank-style final pitch format on Day 2 by turning raw project ideas into polished venture pitches that judges can easily evaluate."
+      "why_it_could_win": "Targeted directly at Startup Street 11's entrepreneurial marathon format, specifically helping teams survive the Shark Tank-style final pitch by stress-testing their market validation before judges poke holes in it."
     },
     {
-      "build_hours": 24,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "A satellite and geospatial data monitoring tool that tracks industrial land and agricultural supply chain compliance to mitigate operational risks for agritech startups.",
+      "pitch": "An automated market validation agent that crawls competitor data, synthesizes TAM/SAM/SOM estimates, and generates customer persona interviews using synthetic focus groups.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Satellite APIs"
+        "LangGraph",
+        "Streamlit"
       ],
-      "title": "AgriChain Risk & Compliance Monitor",
+      "title": "ValidaMarket",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining geospatial APIs with compliance algorithms, mimicking successful technical implementations from past hackathons."
+      "why_it_could_win": "Matches the specific event milestone of Day 1's 'Ideation & Problem Validation' checkpoint, giving teams an immediate workflow tool to complete their business plan faster than manual research."
     },
     {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-powered risk detection and financial modeling sandbox that lets early-stage fintech startups run stress tests and present bulletproof risk assessments to angel investors.",
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A rapid financial modeling and cap table scenario generator designed for early-stage founders to simulate dilution, seed rounds, and unit economics during a hackathon timeline.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "LightGBM"
+        "React",
+        "TailwindCSS"
       ],
-      "title": "FinSight AML Risk & Pitch Simulator",
+      "title": "CapTable Simulator",
       "track": "",
-      "why_it_could_win": "Utilizes a graph intelligence and risk evaluation stack proven to win 1st place at intense innovation hackathons, providing a robust business-to-business product demo."
+      "why_it_could_win": "Appeals directly to the business planning and financial rigor that judges look for during Review Round 1 and the Elimination Round."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An internal networking and mentor-routing engine for hackathons that matches team skills and startup domains with the exact industry experts available in the room.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "MentorMatch AI",
+      "track": "",
+      "why_it_could_win": "Solves the friction of the 'Team Formation & Networking' and 'Mentor Checkpoint' phases listed in the event timeline by maximizing founder-mentor connection efficiency."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A rapid landing-page generator and waitlist analytics dashboard that equips student founders with instant conversion metrics to prove real-world market interest before the final pitch.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Supabase"
+      ],
+      "title": "TractionTracker",
+      "track": "",
+      "why_it_could_win": "Provides hard quantitative metrics (conversion rates, sign-ups) which outscore qualitative claims during the Shark Tank-style final pitch judging."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

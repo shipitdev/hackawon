@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:01:44.037706+00:00",
+  "generated_at": "2026-09-21T08:33:27.360228+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1755078",
@@ -16,85 +18,86 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1296916648"
       ],
-      "pitch": "An automated program design tool that takes high-level molecular Hamiltonian descriptions and compiles them into heavily optimized, depth-reduced Qiskit quantum circuits using heuristic routing.",
+      "pitch": "An offline quantum program design optimizer that translates suboptimal Qiskit circuits into depth-reduced equivalents using heuristic rewriting.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "NumPy",
-        "SciPy"
-      ],
-      "title": "Qiskit Variational Eigensolver Circuit Optimizer",
-      "track": "",
-      "why_it_could_win": "Directly targets the core theme of Program Design within a quantum computing context using Qiskit, aligning perfectly with judge expectations for algorithmic depth in a solo timeframe."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A program design framework that models quantum error mitigation strategies as formal BPMN workflows, orchestrating automated circuit patching before execution on Qiskit runtime backends.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "BPMN",
         "NetworkX"
       ],
-      "title": "Quantum Error Mitigation BPMN Pipeline",
+      "title": "QiskitCircuitRefiner",
       "track": "",
-      "why_it_could_win": "Combines rigorous workflow governance patterns with quantum execution pipelines, demonstrating high technical complexity suitable for a solo developer."
+      "why_it_could_win": "Aligns directly with the Qiskit Fall Fest theme of Program Design by solving a tangible quantum developer pain point (circuit depth reduction) that appeals to Qiskit-focused judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A specialized semantic router and code synthesis agent that translates natural language math descriptions directly into valid, syntax-checked Qiskit Python scripts.",
+      "pitch": "A lightweight standalone program design workspace that interactively visualizes qubit entanglement and state vector evolution in real time as code is written.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "LLM",
-        "Semantic Router"
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "Qiskit LLM-Assisted Quantum Circuit Generator",
+      "title": "EntanglementVisualizerIDE",
       "track": "",
-      "why_it_could_win": "Leverages a self-improving semantic routing architecture to guarantee high generation accuracy for niche quantum syntax, matching proven architectures from previous hackathon winners."
+      "why_it_could_win": "Judges at a Qiskit event value developer tooling that makes quantum programming more intuitive and transparent for beginners and experts alike."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A command-line tool for program design that injects error-mitigation wrappers like zero-noise extrapolation into arbitrary Qiskit circuits before execution.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Click"
+      ],
+      "title": "QuantumErrorMitigationCLI",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep technical understanding of near-term quantum computing limitations, checking the genuinely hard engineering box favored by technical judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A modular program design framework for structuring variational quantum eigensolver (VQE) pipelines with pluggable classical optimizers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "SciPy"
+      ],
+      "title": "HybridAlgorithmBlueprint",
+      "track": "",
+      "why_it_could_win": "Provides a reusable architecture for hybrid quantum-classical workflows, addressing a major bottleneck in practical quantum software development."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1329458499"
       ],
-      "pitch": "An agentic system that analyzes quantum assembly code, detects decoherence vulnerabilities, and applies verified automated fixes directly back into the repository.",
+      "pitch": "An automated program design testing assistant that generates unit tests and assertion bounds for Qiskit quantum circuits based on expected unitary matrices.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Qiskit",
-        "AI Agents",
-        "AST"
+        "Pytest"
       ],
-      "title": "Autonomous Quantum Bug Sentinel",
+      "title": "QiskitUnitTestScaffolder",
       "track": "",
-      "why_it_could_win": "Employs an autonomous incident response pattern with an evidence gate and verified repair, creating a compelling demo for program design evaluation."
-    },
-    {
-      "build_hours": 45,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two competing AI agents where one agent generates inefficient Qiskit circuits and the other generates optimal refactorings, engaging in adversarial reinforcement learning to discover novel compilation heuristics.",
-      "stack": [
-        "Python",
-        "Qiskit",
-        "Reinforcement Learning",
-        "PyTorch"
-      ],
-      "title": "Adversarial Quantum Circuit Optimizer",
-      "track": "",
-      "why_it_could_win": "Uses an adversarial self-improving agent architecture that naturally uncovers complex optimization strategies without heavy manual seed engineering."
+      "why_it_could_win": "Software engineering practices are rarely applied to quantum code, making a rigorous testing tool stand out for its practical utility in program design."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

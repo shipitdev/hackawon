@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:28.873873+00:00",
+  "generated_at": "2026-09-21T08:18:06.689827+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,89 +10,99 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1733198",
   "ideas": [
     {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1209618925"
+      ],
+      "pitch": "Real-time AI campus grievance and resource allocation concierge for offline university operations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CampusPulse AI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Addresses immediate on-ground campus utility at Geeta University, giving judges an instant, practical use-case they experience daily."
+    },
+    {
       "build_hours": 36,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "Autonomous AI agents that negotiate and execute peer-to-peer collateralized lending agreements using USDC escrow and on-chain verification.",
+      "pitch": "Web3-based verifiable achievement and workshop badge issuer for offline hackathons and university events.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "Solidity",
+        "TypeScript",
+        "Next.js",
+        "Ethers.js"
       ],
-      "title": "AgenticP2PCollateral",
-      "track": "Open Innovation",
-      "why_it_could_win": "Combines autonomous agent execution with secure crypto settlement, mirroring winning patterns from agentic hackathons."
+      "title": "Decentralized Campus Credentialing",
+      "track": "Web3 Systems",
+      "why_it_could_win": "Taps into decentralized systems tracks by solving a real institutional bottleneck of issuing tamper-proof certificates at offline events."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:941346152"
+      ],
+      "pitch": "Agentic task coordination tool that operates over local peer-to-peer networks when campus internet fluctuates.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets",
+        "LangChain"
+      ],
+      "title": "Autonomous Local Mesh Dispatch",
+      "track": "Real-world AI Solutions",
+      "why_it_could_win": "Combines multi-agent workflow architecture with genuine offline resilience, making it stand out in a physical 24-hour venue setting."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "A zero-knowledge gated communication portal where human users and AI agents can interact while strictly preserving message provenance and privacy.",
+      "pitch": "Zero-knowledge proof-based attendance and access management system for campus labs and hackathon checkpoints.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Noir-lang",
-        "zk-proofs"
+        "Noir",
+        "React",
+        "Hardhat"
       ],
-      "title": "ZKPrivateAgentChat",
-      "track": "Decentralized Web3 Systems",
-      "why_it_could_win": "Demonstrates genuinely hard engineering using ZK circuits and cryptography which always stands out to technical judges."
+      "title": "ZK-Attendance Portal",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates genuinely hard engineering through lightweight ZK circuits, appealing to judges looking for advanced technical depth."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:941346152"
-      ],
-      "pitch": "An AI assistant leveraging chain signatures to manage cross-chain assets and execute transactions on Bitcoin L1 directly from chat.",
-      "stack": [
-        "TypeScript",
-        "NEAR Protocol",
-        "Bitcoin L1"
-      ],
-      "title": "MultiChainBitcoinAgent",
-      "track": "Real-world AI Solutions",
-      "why_it_could_win": "Directly replicates the winning formula of combining LLM reasoning with low-level multi-chain cryptographic primitives."
-    },
-    {
-      "build_hours": 38,
+      "build_hours": 26,
       "inspired_by": [
         "github:1092573500"
       ],
-      "pitch": "An AVS node operator interface where Claude AI automatically validates and scores decentralized staking and restaking risk parameters.",
+      "pitch": "An AI-powered technical mentor agent that indexes local project repositories and guides teams through debugging bottlenecks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Solidity",
-        "Claude-ai",
-        "EigenLayer"
-      ],
-      "title": "EigenValidateAI",
-      "track": "Decentralized Web3 Systems",
-      "why_it_could_win": "Blends advanced LLM tool-calling with decentralized infrastructure, appealing to judges looking for deep technical integration."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:928533631"
-      ],
-      "pitch": "A procedural text-based MMORPG world where non-player characters are driven by persistent autonomous AI agents interacting on-chain.",
-      "stack": [
-        "TypeScript",
+        "Python",
         "OpenAI API",
-        "Web3"
+        "ChromaDB",
+        "Streamlit"
       ],
-      "title": "AgenticMMORPGUniverse",
-      "track": "Open Innovation",
-      "why_it_could_win": "Pushes the boundaries of creative agent deployment in gaming environments, a proven winner at recent agentic hackathons."
+      "title": "Agentic Hackathon Mentor",
+      "track": "Real-world AI Solutions",
+      "why_it_could_win": "Solves a relatable problem for every participant and organizer at a 24-hour offline hackathon by providing automated peer-level code assistance."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

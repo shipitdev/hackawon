@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:43.947803+00:00",
+  "generated_at": "2026-09-21T08:13:54.802301+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackville-2027",
@@ -14,84 +16,94 @@
     {
       "build_hours": 48,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite and land monitoring platform tailored for tracking industrial zone compliance and environmental regulations in the Greater Toronto Area.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "GIS APIs"
-      ],
-      "title": "Mississauga Industrial Compliance GIS Monitor",
-      "track": "",
-      "why_it_could_win": "Follows the proven pattern of GeoNex-ATLAS by solving real-world regional geographic monitoring challenges that appeal to municipal and corporate governance judges."
-    },
-    {
-      "build_hours": 50,
-      "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A Poisson regression and probabilistic forecasting engine predicting supply chain and logistical disruptions for distribution hubs in the Mississauga and peel region.",
+      "pitch": "A predictive analytics platform for MiWay bus transit routes using Poisson regression and spatial modeling to forecast passenger surges and optimize scheduling.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
         "Python",
+        "Jupyter Notebook",
         "Pandas",
-        "Scikit-Learn"
+        "Scikit-Learn",
+        "FastAPI"
       ],
-      "title": "GTA Supply Chain AI Incident Forecaster",
+      "title": "Mississauga Local Transit Demand Forecaster",
       "track": "",
-      "why_it_could_win": "Leverages genuine hard engineering by implementing statistical modeling and calibrated prediction intervals similar to the Apart Research AI Forecasting winner."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered trust and patient acquisition platform specifically customized for local specialized dental and health clinics in Mississauga.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "LocalPro Trust & Patient Acquisition Engine",
-      "track": "",
-      "why_it_could_win": "Mirrors the success of Global-Smile by focusing on high-intent local professional service acquisitions that judges can immediately visualize selling to real businesses."
+      "why_it_could_win": "Mirrors the data-driven forecasting approach of winning projects like ai-incident-forecasting, appealing to judges looking for rigorous statistical modeling over basic UI wrappers."
     },
     {
       "build_hours": 55,
       "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated risk-scoring dashboard for local financial compliance, utilizing LightGBM and graph intelligence to flag suspicious commercial transactions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "Next.js"
+      ],
+      "title": "Peel Region Small Business AML Screener",
+      "track": "",
+      "why_it_could_win": "Adapts the graph-intelligence and LightGBM methodology of Bito, providing tangible enterprise utility that heavily resonates with business-minded hackathon judges."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating micro-services and task exchanges with secure escrow payments settled on-chain.",
+      "pitch": "A decentralized marketplace for Mississauga artisan goods featuring autonomous AI agents handling customer inquiries and automated USDC escrow settlement on Base.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC SDK",
-        "Node.js"
+        "USDC",
+        "Node.js",
+        "Solidity"
       ],
-      "title": "EscrowPay Autonomous Local Marketplace Agent",
+      "title": "Local Vendor Autonomous USDC Marketplace",
       "track": "",
-      "why_it_could_win": "Replicates the architectural pattern of Dispatch by combining functional AI agents with automated crypto or escrow payment mechanics."
+      "why_it_could_win": "Leverages the proven winning architecture of Dispatch by combining practical autonomous agent workflows with real-world crypto-payment escrow mechanics."
     },
     {
-      "build_hours": 42,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1213911408"
+        "github:1275874285"
       ],
-      "pitch": "A multi-agent student support and campus resource navigator utilizing LangGraph and retrieval-augmented generation to optimize student life in Ontario colleges and universities.",
+      "pitch": "An AI-powered nutrition platform that maps local Ontario produce availability to personalized weekly meal plans and health guidance for community wellness.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "Ontario Farm-to-Table Nutrition Engine",
+      "track": "",
+      "why_it_could_win": "Follows the exact execution playbook of E-Foodiee-AI-Nutrition-Assistant by delivering immediate, highly polished consumer utility within a tight timeframe."
+    },
+    {
+      "build_hours": 60,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite imagery analysis tool that tracks land-use changes and industrial environmental compliance violations across Peel Region manufacturing zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
         "Python",
-        "OpenAI API"
+        "Leaflet.js",
+        "PyTorch",
+        "Next.js"
       ],
-      "title": "GreenNovate Multi-Agent Campus Support Hub",
+      "title": "Industrial Zone Compliance Satellite Monitor",
       "track": "",
-      "why_it_could_win": "Adapts the multi-agent RAG architecture of the GreenNovation winning platform into an educational domain that resonates well with student and academic panels."
+      "why_it_could_win": "Replicates the computer vision and geospatial monitoring success of GeoNex-ATLAS, offering judges a visually striking and technically complex infrastructure solution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:46.762796+00:00",
+  "generated_at": "2026-09-21T08:14:57.943919+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:mhacks",
@@ -14,84 +16,91 @@
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1275874285"
       ],
-      "pitch": "A localized energy demand and solar generation forecasting tool built using Poisson regression and historical University of Michigan utility data to predict peak campus grid loads.",
+      "pitch": "An AI-powered supply chain and demand forecasting platform connecting local Washtenaw County farms with university dining halls and food banks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Pandas",
-        "Scikit-Learn"
+        "TypeScript",
+        "Next.js"
       ],
-      "title": "Ann Arbor Campus Microgrid Forecaster",
+      "title": "Ann Arbor Local Food Hub Network Optimizer",
       "track": "",
-      "why_it_could_win": "Follows the exact engineering pattern of the Apart Research AI Forecasting winner by applying rigorous statistical forecasting rather than generic ML."
+      "why_it_could_win": "Leverages localized university-town utility and predictive regression models proven to win data-heavy tracks."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An investigative compliance platform mapping financial transactions and shipping logistics across Midwest manufacturing hubs to flag illicit supply chain funding using LightGBM.",
+      "pitch": "Real-time satellite and IoT monitoring tool for tracking scooter and bike congestion bottlenecks across campus to optimize municipal infrastructure.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
+        "PostGIS",
+        "Leaflet.js",
+        "Node.js"
       ],
-      "title": "Midwest Supply Chain AML Grapher",
+      "title": "Midwest Campus Micro-Mobility Grid Visualizer",
       "track": "",
-      "why_it_could_win": "Leverages complex graph intelligence and explainable machine learning models similar to the DIGITIMES AI Innovation Hackathon winner."
+      "why_it_could_win": "Mirrors the exact technical architecture of successful spatial monitoring and GIS analytics projects."
     },
     {
       "build_hours": 26,
       "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous peer-to-peer grant distribution and transparent escrow system for student organizations leveraging zero-fee ledger transfers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Student Tuition Payment Escrow & Micro-Grant Marketplace",
+      "track": "",
+      "why_it_could_win": "Focuses on fully functioning smart contract or simulated escrow workflows that impress judges with real-world financial utility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "No-code strategy builder allowing local residents to automate and trade excess community solar micro-grid credits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript"
+      ],
+      "title": "Ann Arbor Community Solar Credit Trading Bot",
+      "track": "",
+      "why_it_could_win": "Combines a clean visual drag-and-drop dashboard with a robust backend transaction runner, capturing high marks for UI polish."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An autonomous multi-agent monitoring platform that ingests public sensor logs from the Great Lakes basin, runs RAG-based analysis, and triggers automated alerts for environmental anomalies.",
+      "pitch": "Privacy-first student support platform combining local RAG and multi-agent workflows to route university health resources securely.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Next.js",
-        "Python"
-      ],
-      "title": "Great Lakes Water Quality Agent",
-      "track": "",
-      "why_it_could_win": "Combines multi-agent student support architecture and RAG pipelines seen in the GreenNovation Hackathon winning project."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A personalized meal planning assistant that cross-references local Ann Arbor farmers market inventory with user dietary requirements to generate hyper-local nutritional recommendations.",
-      "stack": [
         "Python",
-        "Streamlit",
-        "Gemini API"
+        "Next.js"
       ],
-      "title": "Local Farm-to-Table Nutrition AI",
+      "title": "University Mental Health Multi-Agent Resource Router",
       "track": "",
-      "why_it_could_win": "Directly adapts the winning concept from the Hour Hackathon by pivoting general nutrition into a locally grounded utility."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous agent marketplace for student organizations to buy and sell event services with trustless USDC escrow payments settled on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "Autonomous Campus Event Escrow Agent",
-      "track": "",
-      "why_it_could_win": "Replicates the winning architecture of the Synthesis Hackathon by implementing functional agent-to-agent payments."
+      "why_it_could_win": "Utilizes a sophisticated multi-agent pipeline that directly addresses a universally understood campus pain point with high technical depth."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,86 +1,108 @@
 {
-  "generated_at": "2026-09-13T07:59:46.713996+00:00",
+  "generated_at": "2026-09-21T08:30:04.556505+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751296",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "A real-time 1v1 competitive coding platform featuring automated test case generation via LLMs and an isolated multi-language code execution sandbox.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "Docker"
+      "inspired_by": [
+        "github:1200926140"
       ],
-      "title": "CodeClash Duels Engine",
+      "pitch": "An interactive web-based visualizer and execution engine designed specifically for practicing and debugging intermediate Java data structure operations.",
+      "problem_statement": "Round 2: Java Coding Sprint (Intermediate Challenge) featuring Arrays, Strings, Hashing, Recursion, and Object-Oriented Principles.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "HTML5",
+        "JavaScript",
+        "TailwindCSS"
+      ],
+      "title": "JavaAlgoVisualizer",
       "track": "",
-      "why_it_could_win": "Directly aligns with the host organization's core focus on competitive coding and problem-solving platforms, targeting a live coding challenge experience."
+      "why_it_could_win": "Directly targets the Java coding sprint syllabus by helping participants visualize complex state transitions in recursion and hashing under strict time constraints."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A 1-v-1 real-time competitive coding arena with automated test-case execution, time/space complexity analysis, and live collaborative debugging.",
+      "problem_statement": "Round 3: Java Master Clash (Grand Finale) and Round 2 coding sprints focused on algorithmic correctness and complexity evaluation.",
+      "stack": [
+        "Java",
+        "Docker",
+        "Node.js",
+        "WebSockets",
+        "React"
+      ],
+      "title": "CodeClash Duel Sandbox",
+      "track": "",
+      "why_it_could_win": "Matches the exact technical requirements of the final competitive programming rounds and provides judges with a working, highly relevant platform demonstration."
     },
     {
       "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An adaptive quantitative aptitude and core programming quiz platform that dynamically adjusts question difficulty based on real-time performance analytics.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "PostgreSQL"
+      "inspired_by": [
+        "github:1213911408"
       ],
-      "title": "AptitudeArena",
+      "pitch": "An adaptive preliminary test prep platform generating randomized multiple-choice questions for core programming fundamentals and logical reasoning.",
+      "problem_statement": "Round 1: Preliminary Quiz (MCQ Round) focusing on Core Programming Fundamentals, Data Structures Basics, Aptitude & Logical Reasoning.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "React"
+      ],
+      "title": "AptitudePrep AI Trainer",
       "track": "",
-      "why_it_could_win": "Matches the exact evaluation topics of CodeClash 1.0 which focuses heavily on core programming MCQs, data structures, and logical reasoning."
+      "why_it_could_win": "Solves the exact entry barrier for Round 1 by providing speed-focused practice modules tailored to the 30-minute test format."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "An interactive data structure visualizer and execution tracer designed to help students debug complex logical reasoning and pointer-based problems.",
-      "stack": [
-        "TypeScript",
-        "React Flow",
-        "TailwindCSS"
-      ],
-      "title": "LogicTrace",
-      "track": "",
-      "why_it_could_win": "Provides high utility for the student demographic participating in competitive coding events by bridging the gap between theoretical data structures and runtime behavior."
-    },
-    {
-      "build_hours": 28,
+      "build_hours": 40,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An automated code review and complexity analysis tool that evaluates competitive programming solutions for time and space complexity bottlenecks.",
+      "pitch": "An advanced problem-solving workbench tailored for dynamic programming and tree-based algorithm decomposition during grand finale challenges.",
+      "problem_statement": "Round 3: Java Master Clash (Grand Finale) covering Advanced Data Structures (Trees, Graphs, Heaps), Dynamic Programming, and Greedy Algorithms.",
       "stack": [
+        "Java",
+        "JavaFX",
         "Python",
-        "AST",
-        "Streamlit"
+        "NetworkX"
       ],
-      "title": "CodeMetric AI",
+      "title": "DP Tree Visualizer Studio",
       "track": "",
-      "why_it_could_win": "Solves a core pain point for competitive programmers looking to optimize their algorithms before submission, leveraging technical depth similar to winning machine learning and analysis hacks."
+      "why_it_could_win": "Focuses on the hardest tier of the competition syllabus, demonstrating deep understanding of advanced algorithmic problem-solving patterns."
     },
     {
-      "build_hours": 32,
-      "inspired_by": [],
-      "pitch": "A collaborative peer-to-peer code discussion board with integrated multi-language REPL environments for instant doubt resolution during coding contests.",
-      "stack": [
-        "TypeScript",
-        "WebSockets",
-        "Node.js"
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
       ],
-      "title": "SyntaxSync",
+      "pitch": "A performance analytics dashboard for tracking test-case execution metrics, memory usage profiles, and time complexity bottlenecks across multiple coding rounds.",
+      "problem_statement": "Event Structure & Rounds covering automated test-case execution, correctness, time complexity, and space complexity evaluation.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Pandas",
+        "Chart.js"
+      ],
+      "title": "CodeClash Analytics & Submission Hub",
       "track": "",
-      "why_it_could_win": "Addresses community-driven technical growth, fitting the stated objective of HackKro to enhance logical thinking and peer learning."
+      "why_it_could_win": "Aligns with the evaluation criteria used by the hackathon platform, emphasizing performance metrics and rigorous algorithmic testing."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

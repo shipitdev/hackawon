@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-09-21T08:38:34.620028+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759084",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499",
+        "github:754481130"
+      ],
+      "pitch": "A robust background service that automates scheduled, resumable SP-API getFulfillmentPreview collection to build a weekly comparable SKU x pincode history matrix.",
+      "problem_statement": "Automated, scheduled, resumable gathering of delivery-promise data via the Amazon SP-API and a queryable store holding history for week-over-week comparison.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Celery",
+        "Redis"
+      ],
+      "title": "SP-API Resumable Data Pipeline and Historical Matrix Engine",
+      "track": "",
+      "why_it_could_win": "Addresses the core data collection requirement directly with fault tolerance, resembling a production-grade data engineering pipeline that judges immediately value for reliability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684",
+        "github:1177555968"
+      ],
+      "pitch": "An analytics layer and interactive dashboard computing delivery promise by cluster, SKU, and category with automated root-cause separation for supply chain managers.",
+      "problem_statement": "Analytics: Promise by cluster, SKU and category; trend detection; root-cause separation; Interface: A dashboard readable by a supply chain manager in seconds.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly",
+        "PostgreSQL"
+      ],
+      "title": "Supply Chain Promise Analytics & Trend Detection Dashboard",
+      "track": "",
+      "why_it_could_win": "Delivers an immediate, polished visual interface that answers the exact business metrics the sponsor cares about in under a minute."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A lightweight verification tool that computes the quantifiable gap between the backend SP-API reported delivery promise and live storefront expectations.",
+      "problem_statement": "Calibration: A method for quantifying the gap between the API-reported promise and the live storefront promise.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Requests",
+        "SQLite",
+        "Pandas"
+      ],
+      "title": "Storefront vs. API Promise Calibration Tool",
+      "track": "",
+      "why_it_could_win": "Solves an advanced edge-case requirement from the prompt scope that most competing teams will skip, showing rigorous attention to detail."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1226951926"
+      ],
+      "pitch": "An autonomous event-driven alerting system that detects when a regional fulfillment cluster degrades materially and dispatches structured root-cause diagnostic summaries.",
+      "problem_statement": "Alerting: Notification when a cluster degrades materially, alongside trend detection and root-cause separation.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "PostgreSQL",
+        "Twilio"
+      ],
+      "title": "Cluster Degradation Alerting & Incident Response Agent",
+      "track": "",
+      "why_it_could_win": "Combines real-time threshold monitoring with actionable agentic insights, mirroring winning patterns from top data and reliability hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1171690684"
+      ],
+      "pitch": "A data lineage and validation wrapper for SP-API payloads that tracks every transformation step from inventory placement decisions to final delivery promise matrices.",
+      "problem_statement": "Collection, storage, and analytics pipeline closing the loop between stock placement decisions and continuous delivery promise measurement at pincode granularity.",
+      "stack": [
+        "Python",
+        "SQLAlchemy",
+        "Dash",
+        "Pandas"
+      ],
+      "title": "Plantex SP-API End-to-End Compliance and Lineage Tracker",
+      "track": "",
+      "why_it_could_win": "Uses advanced data lineage principles to prove data integrity and provenance, matching the exact criteria that win competitive data engineering hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,94 +1,104 @@
 {
-  "generated_at": "2026-09-13T07:52:03.931851+00:00",
+  "generated_at": "2026-09-21T08:19:41.362438+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "impact",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1742433",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1213911408"
+        "github:1185527998"
       ],
-      "pitch": "An automated e-waste or organic scrap composting bin powered by low-cost microcontrollers that monitors temperature, humidity, and decomposition rates, optimized specifically for campus hostel waste.",
+      "pitch": "A low-cost automated waste sorting bin built from old cardboard and discarded electronics that classifies organic vs. recyclable scrap using an ESP32 camera module.",
+      "problem_statement": "JUGAAD – Scrap to Solution: Reduce the burden of waste management that threatens public health and the environment by encouraging innovative ideas for waste utilization.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "OpenCV",
+        "ESP32-CAM"
+      ],
+      "title": "JugaadBot: Smart Waste Sorting Bin with ESP32",
+      "track": "",
+      "why_it_could_win": "Directly addresses the core theme of the Jugaad hackathon by turning physical scrap materials into a functional, working product with a live hardware demo."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A hardware-software hybrid that repurposes discarded e-waste circuit boards into a functioning home automation sensor node.",
+      "problem_statement": "JUGAAD – Scrap to Solution: Encourage innovative ideas for waste utilization, process modifications, and technical solutions using scrap.",
       "stack": [
         "Python",
         "C++",
-        "ESP32",
-        "Arduino"
+        "MQTT",
+        "Node.js"
       ],
-      "title": "EcoJugaad IoT Composter",
-      "track": "JUGAAD – Scrap to Solution",
-      "why_it_could_win": "Directly addresses the hackathon's core theme of 'Scrap to Solution' by utilizing discarded electronic parts and local waste materials to create a functional, high-utility IoT device."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A computer vision mobile application running lightweight object detection models on edge devices to instantly classify household and industrial scrap items for upcycling and recycling potential.",
-      "stack": [
-        "Python",
-        "TensorFlow Lite",
-        "Flutter",
-        "OpenCV"
-      ],
-      "title": "ScrapSort AI",
-      "track": "JUGAAD – Scrap to Solution",
-      "why_it_could_win": "Combines sustainability with practical software utility, giving judges a tangible way to see waste turned into sorted resources."
+      "title": "E-Waste Circuitry Upcycler",
+      "track": "",
+      "why_it_could_win": "Combines physical scrap material utilization with a live working demo, matching the exact expectations of judges looking for upcycling solutions."
     },
     {
       "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An automated irrigation valve controller built entirely from discarded plastic bottles, old PVC pipes, and surplus solenoid valves salvaged from discarded appliances, controlled via local Bluetooth.",
+      "inspired_by": [
+        "github:1006075023"
+      ],
+      "pitch": "An automated agricultural drip irrigation controller built entirely from recycled plastic bottles, old motor pumps, and scrap microcontrollers.",
+      "problem_statement": "JUGAAD – Scrap to Solution: Design and build innovative and practical solutions using scrap or recycled materials that can be used in real life.",
       "stack": [
         "Arduino",
         "C++",
-        "Bluetooth"
+        "JavaScript"
       ],
-      "title": "AgriJugaad Drip Controller",
-      "track": "JUGAAD – Scrap to Solution",
-      "why_it_could_win": "Emphasizes the literal 'scrap to solution' mantra by repurposing everyday trash into heavy-duty agricultural hardware suited for rural Punjab."
+      "title": "AgriScrap drip controller",
+      "track": "",
+      "why_it_could_win": "Delivers a clear, measurable social and agricultural impact while strictly using discarded materials as mandated by the event."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1092255844"
       ],
-      "pitch": "A hyper-local web platform connecting local artisans and students who create functional furniture and decor items out of industrial scrap and discarded materials with buyers in the region.",
+      "pitch": "A lightweight local web application for local scrap yards and waste collectors to log incoming discarded materials and track upcycled product inventory.",
+      "problem_statement": "JUGAAD – Scrap to Solution: Highlight the importance of upcycling, responsible waste management, and exploring the hidden potential of discarded materials.",
       "stack": [
-        "TypeScript",
+        "JavaScript",
         "Next.js",
-        "PostgreSQL",
+        "SQLite",
         "TailwindCSS"
       ],
-      "title": "UpcycleMarketplace",
-      "track": "JUGAAD – Scrap to Solution",
-      "why_it_could_win": "Provides a commercial and social ecosystem that validates the real-world economic viability of upcycled scrap products."
+      "title": "RecycleLedger: Upcycled Material Tracker",
+      "track": "",
+      "why_it_could_win": "Fills a practical logistics gap for local waste management workflows with a polished, fully functioning CRUD web interface."
     },
     {
-      "build_hours": 20,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1275874285"
+        "github:1143576965"
       ],
-      "pitch": "A web calculator and testing simulator for agricultural stubble and plastic waste mixture ratios used to compress durable, low-cost building bricks.",
+      "pitch": "A real-time composting sensor kit housed inside discarded plastic containers that measures temperature and moisture to optimize organic waste breakdown.",
+      "problem_statement": "JUGAAD – Scrap to Solution: Convert waste into useful products with a focus on practical innovation, sustainability, and real-life usability.",
       "stack": [
-        "TypeScript",
-        "React",
-        "Python"
+        "Python",
+        "Flask",
+        "ESP8266",
+        "Chart.js"
       ],
-      "title": "BioBrick Calculator",
-      "track": "JUGAAD – Scrap to Solution",
-      "why_it_could_win": "Tackles the massive local problem of agricultural stubble burning in Punjab by turning it into a structured, engineer-friendly construction metric tool."
+      "title": "SmartCompost Monitor",
+      "track": "",
+      "why_it_could_win": "Integrates environmental sustainability with an IoT hardware prototype that works instantly during live judging."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

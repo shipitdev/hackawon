@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T07:39:50.328860+00:00",
+  "generated_at": "2026-09-21T08:09:12.131291+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact",
+      "technical-depth"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:6ecaa82827354b4cb56968d1c2b14faa",
@@ -14,86 +17,89 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1188682384"
       ],
-      "pitch": "An AI-powered infrastructure monitoring tool that analyzes satellite thermal data and acoustic sensor inputs to detect invisible water and gas pipeline leaks beneath Kolkata streets before surface collapse occurs.",
+      "pitch": "A tool that uncovers hidden anomalies in open data and unstructured logs to find overlooked indicators before they become critical.",
+      "problem_statement": "Not everything worth discovering is right in front of you. Some ideas exist just beyond the obvious, waiting to be noticed, explored, and brought to life.",
       "stack": [
         "TypeScript",
         "Python",
-        "Next.js",
-        "Gemini API"
+        "Miro API",
+        "FastAPI"
       ],
-      "title": "SubsurfaceLeak",
+      "title": "Subsurface Signal Visualizer",
       "track": "",
-      "why_it_could_win": "Aligns perfectly with the hackathon's tagline 'Build beyond what's visible' and the sponsor Mercy For Animals/infrastructure themes by surfacing hidden ecological and urban hazards."
+      "why_it_could_win": "Aligns directly with the hackathon's core tagline and theme of discovering the unexpected, appealing strongly to judges looking for non-obvious utility."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An AI-powered audio and telemetry log analyzer designed to detect silent distress signals in sheltered and farm animals from ambiguous datasets.",
+      "problem_statement": "Not everything worth discovering is right in front of you. Some signals are easy to miss, but the best builders never ignore them.",
+      "stack": [
+        "Python",
+        "Librosa",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Unseen Animal Welfare Insights",
+      "track": "",
+      "why_it_could_win": "Directly appeals to sponsor Mercy For Animals by targeting hidden or neglected indicators of animal well-being using advanced processing."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1181344931"
+        "github:1188682384"
       ],
-      "pitch": "An automated risk-scoring and compliance engine for local supply chains, combining graph intelligence and anomaly detection to flag hidden fraud and regulatory non-compliance in real-time.",
+      "pitch": "A linter and verification tool that analyzes codebases for hidden security anti-patterns and performance bottlenecks that standard tests miss.",
+      "problem_statement": "Not everything worth discovering is right in front of you. Some ideas exist just beyond the obvious, waiting to be noticed, explored, and brought to life.",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "CodeCrafters SDK"
+      ],
+      "title": "CodeCraft Obscura",
+      "track": "",
+      "why_it_could_win": "Leverages sponsor CodeCrafters' focus on deep engineering and code correctness, featuring genuinely hard engineering heuristics."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1075630497"
+      ],
+      "pitch": "A computer vision platform using client-side video to detect micro-posture failures and ergonomic strain that office workers unconsciously ignore.",
+      "problem_statement": "Not everything worth discovering is right in front of you. Some signals are easy to miss, but the best builders never ignore them.",
       "stack": [
         "Python",
-        "TypeScript",
-        "LightGBM",
-        "NetworkX"
+        "OpenCV",
+        "MediaPipe",
+        "Next.js"
       ],
-      "title": "ChainSight",
+      "title": "Invisible Ergonomics Mapper",
       "track": "",
-      "why_it_could_win": "Uses advanced graph intelligence and explainable machine learning, mirroring the technical complexity seen in top-tier winning projects."
+      "why_it_could_win": "Demonstrates clear measurable impact on daily health and wellness while fitting the theme of bringing hidden issues to the surface."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent navigation system that optimizes delivery and commute routes in Kolkata by predicting hidden congestion bottlenecks and air pollution pockets using real-time environmental data.",
+      "pitch": "A developer ecosystem dashboard that surfaces dormant hackathon project metrics and community collaboration signals that are normally buried in raw git logs.",
+      "problem_statement": "Not everything worth discovering is right in front of you. Some ideas exist just beyond the obvious, waiting to be noticed, explored, and brought to life.",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "Python"
+        "GraphQL",
+        "Devfolio API",
+        "TailwindCSS"
       ],
-      "title": "EcoRoute AI",
+      "title": "Devfolio Hidden Metric Spotlight",
       "track": "",
-      "why_it_could_win": "Leverages multi-agent architectures and RAG frameworks which frequently sweep AI innovation hackathons."
-    },
-    {
-      "build_hours": 19,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace specifically built for micro-task automation, utilizing secure escrow contracts for instant, trustless verification and settlement.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "MicroEscrow Agent",
-      "track": "",
-      "why_it_could_win": "Directly implements an autonomous agent marketplace architecture with verified escrow payment execution."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1275874285"
-      ],
-      "pitch": "A predictive health companion that forecasts nutritional deficiencies and fatigue levels days before symptoms appear by analyzing subtle biometric trends and dietary logs.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "BioSignal Wellness",
-      "track": "",
-      "why_it_could_win": "Applies predictive modeling techniques like calibrated regression intervals to personal health data, creating immediate utility for judges."
+      "why_it_could_win": "Showcases sponsor Devfolio's tech stack by deeply integrating platform APIs to extract non-obvious contributor insights."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:26.183045+00:00",
+  "generated_at": "2026-09-21T08:23:39.396078+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -9,83 +9,89 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746460",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 36,
       "inspired_by": [],
-      "pitch": "An automated benchmark and mock test generator specifically built to drill candidates on Java core concepts, Computer Networks MCQs, and DSA coding challenges under tight time limits.",
+      "pitch": "An interactive bytecode execution visualizer and debugger tailored specifically for core Java concepts tested in technical OAs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Java",
         "Spring Boot",
         "React",
-        "PostgreSQL"
+        "JVM Tool Interface"
       ],
-      "title": "JavaOA-Sim",
+      "title": "JavaJIT-Visualizer",
       "track": "",
-      "why_it_could_win": "Directly mirrors the exact structure of the HexaCode assessment platform, appealing to judges looking for tools that help students ace online placement rounds."
+      "why_it_could_win": "Targeting the specific language proficiency requirement of HexaCode gives solo developers an edge by directly aiding the exact format of the assessment."
     },
     {
-      "build_hours": 18,
+      "build_hours": 30,
       "inspired_by": [],
-      "pitch": "A specialized practice environment combining dynamic Computer Networks protocol simulation problems with Java multi-threading puzzles.",
+      "pitch": "An automated scenario-based question generator that creates tricky Computer Networks MCQs from live network packet captures.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Java",
         "Python",
-        "Docker",
-        "FastAPI"
+        "Scapy",
+        "FastAPI",
+        "React"
       ],
-      "title": "NetCode-Trainer",
+      "title": "NetSim-Quiz-Gen",
       "track": "",
-      "why_it_could_win": "Targets the specific domain knowledge requirements of the contest (Computer Networks + Java) rather than generic programming problems."
+      "why_it_could_win": "Focuses intensely on the domain knowledge section of the assessment, offering a practical tool that mirrors top-tier technical screening challenges."
     },
     {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1351321536"
-      ],
-      "pitch": "A lightweight browser extension and sandbox monitor that simulates high-stakes online assessment pressure while tracking memory limits and execution time for custom Java algorithms.",
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A real-time algorithm execution tracer designed to explain edge-case failures in standard data structures and algorithms problems.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Java",
-        "Chrome Extension API"
+        "Monaco Editor",
+        "WebAssembly",
+        "Python"
       ],
-      "title": "OA-RuntimeGuard",
+      "title": "AlgoTrace-DSA",
       "track": "",
-      "why_it_could_win": "Focuses on the strict performance metrics and time constraints emphasized in high-stakes OA placement screenings."
+      "why_it_could_win": "Addresses the high-stakes coding round directly by providing instant visual feedback on common algorithmic pitfalls under time pressure."
     },
     {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline-first algorithmic problem solver and template generator optimized for rapid syntax recall in Java during competitive coding rounds.",
-      "stack": [
-        "Java",
-        "Electron",
-        "Lucene"
-      ],
-      "title": "AlgoMatrix-Java",
-      "track": "",
-      "why_it_could_win": "Solves the exact time-management bottleneck of coding under the clock in a 60-minute assessment window."
-    },
-    {
-      "build_hours": 20,
+      "build_hours": 35,
       "inspired_by": [],
-      "pitch": "A peer-to-peer mock assessment simulator where solo candidates can generate randomized 9-question OA papers combining Java, CN, and DSA.",
+      "pitch": "A simulated online assessment environment that dynamically adjusts question difficulty based on real-time typing and stress metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Node.js",
+        "Express",
         "React",
-        "Java"
+        "WebSockets"
       ],
-      "title": "PeerOA-Evaluator",
+      "title": "OASim-Pressure-Trainer",
       "track": "",
-      "why_it_could_win": "Aligns with individual participation constraints by offering self-paced simulation for single-player assessment preparation."
+      "why_it_could_win": "Leans heavily into the exact theme of simulating real-world tech placement and internship screening rounds."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A performance benchmarking suite that analyzes Java memory models and concurrency primitives for advanced screening rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java",
+        "JUnit",
+        "Python",
+        "Docker"
+      ],
+      "title": "Bytecode-Benchmark",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep domain expertise in core Java and systems-level concepts, matching the rigorous technical screening style of top tech companies."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-09-13T07:50:42.574376+00:00",
+  "generated_at": "2026-09-21T08:18:20.356777+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1735180",
@@ -17,88 +22,93 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive risk dashboard using Poisson GAM and calibrated prediction intervals to forecast upcoming regulatory AI compliance failures and safety incidents based on organizational codebase changes.",
+      "pitch": "An AI-powered coastal vulnerability and port disruption forecasting platform designed to predict extreme weather impacts on maritime logistics.",
+      "problem_statement": "AI for Coastal Intelligence",
       "stack": [
         "Python",
-        "Jupyter Notebook",
         "FastAPI",
-        "React",
+        "Streamlit",
+        "Pandas",
         "Scikit-Learn"
       ],
-      "title": "AI Incident Forecaster for Enterprise Compliance",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing advanced statistical modeling and regression techniques rather than just a basic wrapper API, directly matching the winning formula of previous safety hackathon champions."
+      "title": "AeroPort-AI",
+      "track": "AI for Coastal Intelligence",
+      "why_it_could_win": "Directly targets the Coastal Intelligence track with hard forecasting techniques similar to winning Poisson regression models, giving judges immediate quantitative output."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AI-driven platform that combines graph intelligence networks with Focal LightGBM classifiers to detect complex financial money laundering rings and generate automated explainable investigation reports.",
+      "pitch": "An interactive supply chain vulnerability platform utilizing graph intelligence to map multi-tier vendor bottlenecks and simulated cascade failures.",
+      "problem_statement": "AI for Supply Chain Intelligence",
       "stack": [
         "TypeScript",
+        "React",
+        "NetworkX",
         "Python",
-        "LightGBM",
-        "Neo4j",
-        "Next.js"
+        "TailwindCSS"
       ],
-      "title": "Graph-Powered AML and Risk Detection Platform",
-      "track": "",
-      "why_it_could_win": "Targeted directly at high-value software evaluation criteria by solving a computationally difficult problem involving graph traversal and machine learning interpretability."
+      "title": "SupplyChain-RiskGraph",
+      "track": "AI for Supply Chain Intelligence",
+      "why_it_could_win": "Utilizes graph intelligence architectures similar to past financial crime and AML winners, making complex supply network data instantly interpretable for judges."
     },
     {
       "build_hours": 38,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An automated satellite imagery analysis tool that processes periodic geospatial data to monitor industrial land use compliance, detecting unauthorized expansions and environmental violations in real-time.",
+      "pitch": "An automated satellite and aerial imagery analytics tool that checks industrial zones for land compliance, zoning violations, and environmental hazards.",
+      "problem_statement": "AI for Industrial Intelligence",
       "stack": [
         "TypeScript",
         "Python",
         "OpenCV",
         "PyTorch",
-        "PostGIS"
+        "Leaflet.js"
       ],
-      "title": "Satellite Industrial Land Compliance Monitor",
-      "track": "",
-      "why_it_could_win": "Leverages specialized computer vision and spatial data processing which immediately stands out among standard text-based LLM submissions at AI-focused hackathons."
+      "title": "EcoIndustrial-Monitor",
+      "track": "AI for Industrial Intelligence",
+      "why_it_could_win": "Matches the proven success of geospatial satellite monitoring winners by providing tangible environmental and industrial compliance enforcement capabilities."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive modeling toolkit for coastal defense infrastructure, leveraging historical oceanographic data to forecast shoreline erosion and flood risks.",
+      "problem_statement": "AI for Coastal Intelligence",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "LightGBM",
+        "GeoPandas",
+        "Plotly"
+      ],
+      "title": "CoastalErosion-Predictor",
+      "track": "AI for Coastal Intelligence",
+      "why_it_could_win": "Addresses a high-priority regional challenge with clear statistical validation and robust predictive intervals that appeal to technical judges."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1185920891"
+        "github:1228867095"
       ],
-      "pitch": "A decentralized marketplace where specialized autonomous AI agents can be hired, orchestrated to perform complex software engineering tasks, and securely compensated via automated escrow contracts.",
+      "pitch": "An AI agent dashboard for manufacturing plants that monitors telemetry streams to predict machinery failures and optimize shop-floor resource scheduling.",
+      "problem_statement": "AI for Industrial Intelligence",
       "stack": [
-        "JavaScript",
-        "LangChain",
-        "Next.js",
-        "Solidity",
-        "Node.js"
-      ],
-      "title": "Autonomous AI Agent Workflow Marketplace",
-      "track": "",
-      "why_it_could_win": "Combines cutting-edge multi-agent orchestration frameworks with reliable transaction mechanics, hitting the sweet spot for judging panels looking for end-to-end production-ready utility."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "A video intelligence platform that ingests unstructured long-form video lectures or meetings, indexes visual and audio frames using multimodal embeddings, and provides a semantic query engine with precise timestamp citations.",
-      "stack": [
-        "HTML",
         "Python",
         "FastAPI",
-        "Pinecone",
-        "Gemini API"
+        "React",
+        "LangChain",
+        "TimescaleDB"
       ],
-      "title": "Multimodal Video Intelligence and Search Engine",
-      "track": "",
-      "why_it_could_win": "Solves a tangible enterprise pain point of unstructured data overload with a polished, highly demoable user interface that secures high marks in practicality and execution."
+      "title": "IndustrialYield-Optimizer",
+      "track": "AI for Industrial Intelligence",
+      "why_it_could_win": "Focuses on direct economic impact for industrial operations, satisfying judging criteria centered on real-world utility and deployability."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

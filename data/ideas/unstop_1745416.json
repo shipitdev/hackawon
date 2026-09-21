@@ -1,98 +1,110 @@
 {
-  "generated_at": "2026-09-13T07:54:09.243268+00:00",
+  "generated_at": "2026-09-21T08:22:13.762693+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745416",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1185527998"
       ],
-      "pitch": "Blockchain and AI-powered agricultural supply chain verification platform tracking crop provenance, fair pricing, and cold-chain integrity for rural farmers.",
+      "pitch": "An offline-first mobile web tool using lightweight computer vision to detect early crop stress and predict yield using localized historical soil data.",
+      "problem_statement": "Agriculture & Sustainable Development",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Solidity",
-        "Python"
+        "React Native",
+        "Python",
+        "FastAPI",
+        "OpenCV"
       ],
-      "title": "AgriChain-IoT",
+      "title": "AgriCrop-AI Field Yield & Stress Predictor",
       "track": "Agriculture & Sustainable Development",
-      "why_it_could_win": "Directly targets the Agriculture & Sustainable Development track with a high-impact, practical supply chain solution that appeals to entrepreneurship-focused judges."
+      "why_it_could_win": "Addresses a high-impact local agrarian region need while keeping model inference lightweight enough to run reliably on edge devices during a live offline demo."
     },
     {
-      "build_hours": 38,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1185527998"
       ],
-      "pitch": "Healthcare insurance fraud detection and claim risk scoring engine combining graph intelligence and explainable machine learning.",
+      "pitch": "A clinical-grade triage app providing offline-first rPPG heart rate estimation and multi-language patient intake summaries for resource-constrained clinics.",
+      "problem_statement": "Healthcare & Wellness Tech",
       "stack": [
-        "Python",
-        "TypeScript",
-        "LightGBM",
-        "NetworkX"
+        "JavaScript",
+        "OpenCV",
+        "Node.js",
+        "SQLite",
+        "TailwindCSS"
       ],
-      "title": "MediGraph-AML",
+      "title": "MediScan-Rural Triage & Health Vault",
       "track": "Healthcare & Wellness Tech",
-      "why_it_could_win": "Applies a proven hackathon-winning architecture from financial AML to the Healthcare & Wellness Tech track, offering high technical depth."
+      "why_it_could_win": "Employs hard engineering through rPPG camera-based vital sensing, delivering a working live demo that heavily impresses health tech judges."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent personalized learning platform using RAG and LangGraph to automatically generate custom remediation paths and quizzes for struggling students.",
+      "pitch": "A multi-agent personalized learning platform using local RAG to help students navigate curriculum documents and automatically generate adaptive practice quizzes.",
+      "problem_statement": "EdTech & Smart Learning Systems",
       "stack": [
         "TypeScript",
         "Python",
         "LangGraph",
+        "PostgreSQL",
         "Next.js"
       ],
-      "title": "EdAdapt-Agent",
+      "title": "EdGraph AI Student Support System",
       "track": "EdTech & Smart Learning Systems",
-      "why_it_could_win": "Fits the EdTech & Smart Learning Systems track by leveraging modern multi-agent architectures that heavily impress academic and industry judges."
+      "why_it_could_win": "Directly mirrors a proven multi-agent RAG architecture that won top honors at similar educational innovation hackathons."
     },
     {
-      "build_hours": 30,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1087704265"
+        "github:1353074073"
       ],
-      "pitch": "Smart automation dashboard for predictive maintenance of campus or industrial power infrastructure using anomaly detection and Poisson regression forecasting.",
+      "pitch": "An automated algorithmic decision auditor that flags bias and regulatory discrepancies in automated financial loan approvals using explainable multi-agent rules.",
+      "problem_statement": "FinTech & Business Solutions",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "TypeScript",
-        "FastAPI"
+        "FastAPI",
+        "Google GenAI SDK",
+        "React"
       ],
-      "title": "GridSmart-Automate",
-      "track": "Smart Automation & Web Development",
-      "why_it_could_win": "Tackles the Smart Automation & Web Development track with rigorous statistical modeling and real-world utility for institutional infrastructure."
-    },
-    {
-      "build_hours": 34,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "Alternative credit scoring and micro-loan risk assessment engine for local entrepreneurs and small businesses using multi-source digital footprint analysis.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "MicroCred-AI",
+      "title": "FinAudit Compliance Engine",
       "track": "FinTech & Business Solutions",
-      "why_it_could_win": "Aligns with the FinTech & Business Solutions track and the organizing E-Cell's focus on entrepreneurship, startups, and practical financial inclusion."
+      "why_it_could_win": "Leverages an advanced algorithmic bias auditing framework that aligns with rigorous compliance judging criteria."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An integrated hardware-software dashboard tracking local industrial machine vibrations and power consumption for automated maintenance alerts.",
+      "problem_statement": "Smart Automation & Web Development",
+      "stack": [
+        "Python",
+        "Arduino",
+        "React",
+        "WebSockets",
+        "MQTT"
+      ],
+      "title": "AutoRoute IoT Smart Factory Monitor",
+      "track": "Smart Automation & Web Development",
+      "why_it_could_win": "Combines a tangible end-to-end hardware simulation with a polished real-time web dashboard, ensuring a striking live demo."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

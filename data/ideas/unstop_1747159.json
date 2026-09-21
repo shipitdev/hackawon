@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:56:21.025931+00:00",
+  "generated_at": "2026-09-21T08:24:46.975495+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "impact",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1747159",
@@ -14,88 +18,91 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265"
+        "github:1346526259"
       ],
-      "pitch": "A machine learning platform built for university professors and administrators at Chandigarh University to forecast student attendance drops and academic failure risks using historical engagement metrics and Poisson regression.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "FastAPI",
-        "Next.js"
-      ],
-      "title": "CampusPulse AI: Student Attendance & Academic Risk Predictor",
-      "track": "",
-      "why_it_could_win": "Targeting campus administration and real operational metrics appeals directly to the judges from Google Developer Groups on Campus who value practical utilities for academic environments."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered nutrition platform tailored for hostel messes to analyze daily meal menus, predict student nutritional deficiencies, and optimize bulk ordering using personalized Gemini API health insights.",
+      "pitch": "Real-time campus infrastructure monitoring and incident reporting dashboard using automated sensor feeds and crowd-sourced student reporting.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
+        "React",
+        "Supabase",
         "TailwindCSS"
       ],
-      "title": "Mess-O-Meter: Smart Campus Dietary and Nutritional Optimizer",
+      "title": "CampusPulse",
       "track": "",
-      "why_it_could_win": "Solves an immediate, relatable campus-wide problem at Chandigarh University hostels while demonstrating rapid implementation of Google's Gemini API within a 24-hour window."
+      "why_it_could_win": "Addresses immediate logistical pain points for campus administration at Chandigarh University, guaranteeing high interest from the judging panel of internal faculty and industry experts."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1213911408",
-        "github:1155558847"
+        "github:1170846981"
       ],
-      "pitch": "A multi-agent sustainability platform utilizing LangGraph and RAG to audit university building energy consumption, track waste disposal compliance, and generate automated sustainability reports for campus facilities.",
+      "pitch": "A multilingual local health awareness and preventive care assistant tailored for rural and semi-urban health outreach around university community service zones.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
         "Python",
-        "PostgreSQL"
+        "FastAPI",
+        "React",
+        "OpenAI API"
       ],
-      "title": "EcoCampus AI: Multi-Agent Energy Audit & Waste Monitoring System",
+      "title": "ArogyaSetu-CU",
       "track": "",
-      "why_it_could_win": "Combines a trendy multi-agent architecture with a high-impact institutional use case that resonates strongly with university sustainability initiatives and technical judges."
+      "why_it_could_win": "Directly mirrors a proven winning formula of high social impact and multilingual accessibility for regional communities, which resonates exceptionally well with university judges."
     },
     {
-      "build_hours": 20,
+      "build_hours": 18,
       "inspired_by": [
-        "github:1155558847"
+        "github:1275874285"
       ],
-      "pitch": "An interactive mapping platform for university estate management that leverages satellite imagery and GIS data to monitor unauthorized construction or land encroachment across Chandigarh University's expansive campus.",
+      "pitch": "AI-powered personalized nutrition and meal recommendation platform optimized for hostel student mess menus and campus canteens.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Mapbox GL",
-        "Node.js",
-        "PostGIS"
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "LLM API"
       ],
-      "title": "CU-SafeGuard: Campus Geofenced Asset & Land Compliance Tracker",
+      "title": "NutriCampus",
       "track": "",
-      "why_it_could_win": "Brings geospatial intelligence to an institutional setting, providing a visually striking demo that easily commands judge attention during a fast-paced offline pitching session."
+      "why_it_could_win": "Solves a daily relatable problem for every single student and faculty member in the venue, ensuring high engagement during live judging demonstrations."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1185920891"
+        "github:1346526259",
+        "github:1213911408"
       ],
-      "pitch": "An autonomous discovery engine that indexes faculty and student research papers across different departments at Chandigarh University to automatically suggest interdisciplinary collaboration projects and funding opportunities.",
+      "pitch": "A gamified walk-to-earn and carbon tracking application for university students navigating large campuses like Chandigarh University.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Supabase",
+        "Leaflet.js"
+      ],
+      "title": "EcoCampus Navigator",
+      "track": "",
+      "why_it_could_win": "Combines sustainability metrics with gamification, satisfying the judges' preference for projects with concrete, measurable environmental benefits."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Autonomous incident response and data lineage tracking tool for student club database operations and university resource logs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "TypeScript",
-        "Vector Embeddings"
+        "Claude API",
+        "PostgreSQL",
+        "Docker"
       ],
-      "title": "PeerSync: Inter-Departmental Research Collaboration & Grant Matcher",
+      "title": "CampusDataFlow",
       "track": "",
-      "why_it_could_win": "Directly aligns with the hackathon's explicit encouragement of interdisciplinary and inter-specialization team formation among university students."
+      "why_it_could_win": "Features genuinely hard engineering around automated error-fixing and incident reporting workflows that will impress technical judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

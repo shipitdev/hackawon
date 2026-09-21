@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:57.397169+00:00",
+  "generated_at": "2026-09-21T08:14:07.804865+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hophacks",
@@ -14,82 +16,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Real-time incident forecasting and predictive risk mapping for Baltimore public transit routes using historical MTA data and Poisson regression.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "Leaflet.js"
-      ],
-      "title": "CharmCity-Transit-Risk",
-      "track": "",
-      "why_it_could_win": "Follows the exact blueprint of high-scoring analytical projects like ai-incident-forecasting by combining robust statistical modeling with local civic infrastructure utility, which appeals strongly to judges looking for tangible community impact."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite and IoT sensor monitoring platform for tracking water quality anomalies and industrial runoff around the Baltimore Inner Harbor.",
+      "pitch": "Real-time public transit crowding and disruption predictor for Baltimore's MTA bus and light rail system using live GPS feeds and community reports.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "OpenCV"
+        "Python",
+        "FastAPI"
       ],
-      "title": "InnerHarbor-Water-Guard",
+      "title": "CharmCity-Transit-Pulse",
       "track": "",
-      "why_it_could_win": "Mirrors the technical execution of GeoNex-ATLAS by applying environmental monitoring tools to a localized geographic problem that local judges will immediately recognize and appreciate."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "Automated patient acquisition and trust verification engine tailored for community health clinics in the Baltimore medical corridor.",
-      "stack": [
-        "TypeScript",
-        "Gemini-API",
-        "Next.js"
-      ],
-      "title": "MedCity-Patient-Trust",
-      "track": "",
-      "why_it_could_win": "Builds directly upon the rapid prototyping success of Global-Smile, delivering high-utility workflow automation for local healthcare providers within a tight weekend timeframe."
+      "why_it_could_win": "Local judges at Baltimore hackathons heavily favor projects that solve tangible municipal and transit issues experienced daily in the city."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "Multi-agent student support and campus energy optimization platform utilizing LangGraph and local university energy consumption metrics.",
+      "pitch": "Predictive water quality forecasting tool for the Baltimore Inner Harbor using historical sensor telemetry and weather variables.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "InnerHarbor-Water-Quality-AI",
+      "track": "",
+      "why_it_could_win": "Combines environmental monitoring with rigorous time-series forecasting, directly mirroring award-winning prediction platforms."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered clinical trial matching and patient onboarding assistant tailored for local academic medical center networks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Python"
+        "Gemini API",
+        "Next.js"
       ],
-      "title": "CharmGrid-Green-Agents",
+      "title": "Hopkins-Patient-Trust-Engine",
       "track": "",
-      "why_it_could_win": "Combines the multi-agent architecture of the greennovation-ai-platform with campus sustainability tracking, directly targeting a domain that resonates with university-hosted hackathon judges."
+      "why_it_could_win": "Leverages the strong regional health tech ecosystem surrounding Johns Hopkins, appealing directly to medical judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "Graph-intelligence platform for tracing local supply chain vulnerabilities and detecting fraudulent transaction patterns for Baltimore small businesses.",
+      "pitch": "Graph-based logistics optimizer connecting local Baltimore food banks with surplus restaurant inventory in real time.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LightGBM",
-        "Neo4j"
+        "PostgreSQL"
       ],
-      "title": "BMore-Supply-Graph",
+      "title": "CharmCity-Food-Rescue-Graph",
       "track": "",
-      "why_it_could_win": "Adopts the graph intelligence and explainable risk-scoring framework demonstrated by Bito, showcasing genuinely hard engineering that stands out in technical judging rubrics."
+      "why_it_could_win": "Features hard algorithmic routing and graph intelligence, moving beyond simple wrappers to demonstrate genuine backend complexity."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Automated regulatory compliance and land use monitoring tool for small businesses operating in Maryland industrial zones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "Maryland-SME-Compliance-Monitor",
+      "track": "",
+      "why_it_could_win": "Focuses on B2B operational utility and regulatory automation, making the value proposition instantly clear to judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

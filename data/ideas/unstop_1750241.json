@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:48.902256+00:00",
+  "generated_at": "2026-09-21T08:28:42.853803+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -7,86 +7,97 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "polish"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750241",
   "ideas": [
     {
-      "build_hours": 18,
+      "build_hours": 10,
       "inspired_by": [
-        "github:1208011447"
+        "github:1004582948"
       ],
-      "pitch": "A defense-in-depth local assistant designed to parse packet captures, extract hidden metadata for steganography, and suggest reverse engineering heuristics without leaking flags.",
+      "pitch": "An automated security insights and smart contract reporting tool optimized for rapid vulnerability analysis during high-stakes CTF challenges.",
+      "problem_statement": "Web Exploitation and Reverse Engineering challenges in ZeroBreach 2.0 CTF 2026",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Vercel AI SDK"
-      ],
-      "title": "ZeroCTF Helper Agent",
-      "track": "Web Exploitation & Reverse Engineering",
-      "why_it_could_win": "Directly applies the prompt-injection hardening and defense-in-depth patterns from the BitGN Personal Agent Challenge to assist players during high-pressure 12-hour CTF environments."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "An interactive web utility for rapidly analyzing modular arithmetic, common RSA padding weaknesses, and frequency analysis for substitution ciphers during time-crunched CTF challenges.",
-      "stack": [
-        "JavaScript",
         "Python",
-        "FastAPI"
+        "FastAPI",
+        "Streamlit",
+        "Regex"
       ],
-      "title": "CryptoBreak Visualizer",
-      "track": "Cryptography",
-      "why_it_could_win": "Solves a real-world bottleneck in cryptography and forensics challenges by turning repetitive math into instant UI widgets, matching the hard engineering focus of top hackathon winners."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated reconnaissance tool that aggregates public metadata, social footprints, and image EXIF data into an interactive relational graph to solve OSINT tracking challenges quickly.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Neo4j"
-      ],
-      "title": "OSINT Graph Mapper",
-      "track": "OSINT",
-      "why_it_could_win": "Employs advanced graph intelligence techniques similar to the winning AML platform, streamlining complex data correlation for national-level cybersecurity competitions."
+      "title": "ZeroAudit AI",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Adapts the high-scoring pattern of reportr by delivering automated, immediate security insights that help players rapidly parse source code and generate exploit strategy docs during a tight 12-hour window."
     },
     {
       "build_hours": 12,
       "inspired_by": [
-        "github:1004582948"
+        "github:1188682384",
+        "github:614169755"
       ],
-      "pitch": "A streamlined command-line utility for automated LSB extraction, bit-plane slicing, and hidden archive recovery across corrupt media formats during digital forensics challenges.",
+      "pitch": "A zero-knowledge proof credential verification app integrated with TruScholar credentials for tamper-proof hackathon rankings.",
+      "problem_statement": "TruScholar integration and Hall of Fame credential verification for ZeroBreach 2.0 CTF 2026",
       "stack": [
-        "Python",
-        "OpenCV"
+        "Solidity",
+        "TypeScript",
+        "Next.js",
+        "Noir"
       ],
-      "title": "StegoExtractor CLI",
-      "track": "Steganography & Digital Forensics",
-      "why_it_could_win": "Focuses on rigorous technical execution and speed, allowing solo developers or small teams to automate tedious steganography extraction within a 12-hour window."
+      "title": "ZK-CredVerify",
+      "track": "",
+      "why_it_could_win": "Leverages the sponsor technology pattern by integrating directly with TruScholar Smart Credential Wallet and utilizing zero-knowledge verification concepts inspired by winning Berkeley ZKP projects."
     },
     {
-      "build_hours": 14,
+      "build_hours": 11,
       "inspired_by": [],
-      "pitch": "A lightweight web vulnerability scanner targeting common OWASP Top 10 flaws with built-in payload generation for SQLi, XSS, and SSRF tailored specifically for rapid CTF flag harvesting.",
+      "pitch": "An integrated toolkit combining advanced steganographic extraction algorithms with cryptographic brute-forcing pipelines for rapid flag discovery.",
+      "problem_statement": "Cryptography, Steganography, and Digital Forensics challenges in ZeroBreach 2.0 CTF 2026",
       "stack": [
         "Python",
-        "Requests",
-        "BeautifulSoup"
+        "OpenCV",
+        "NumPy",
+        "Click"
       ],
-      "title": "WebVuln Fuzzing Automator",
-      "track": "Web Exploitation",
-      "why_it_could_win": "Addresses the Web Exploitation domain with genuine hard engineering, automating payload delivery and response analysis to shave crucial minutes off solve times."
+      "title": "CryptoStego Sleuth",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Applies the genuinely hard engineering pattern by building custom parsing scripts for hidden bitstream data and compressed archives that outpace standard manual CTF tools."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A lightweight automated binary disassembler and pattern matcher designed to extract hardcoded flags and strings from heavily obfuscated binaries.",
+      "problem_statement": "Reverse Engineering and Miscellaneous challenges in ZeroBreach 2.0 CTF 2026",
+      "stack": [
+        "Python",
+        "Capstones",
+        "LIEF",
+        "Flask"
+      ],
+      "title": "BinaryForge RE",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Addresses the heavy computational friction in reverse engineering challenges by combining heuristic pattern scanning with rapid disassembly visualization."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [],
+      "pitch": "An automated intelligence-gathering pipeline that cross-references metadata, social footprints, and geolocation data for rapid OSINT investigations.",
+      "problem_statement": "OSINT challenges in ZeroBreach 2.0 CTF 2026",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "Requests",
+        "React"
+      ],
+      "title": "OSINT Matrix",
+      "track": "OSINT",
+      "why_it_could_win": "Provides an exceptional level of polish and workflow automation that dramatically reduces the time needed to solve multi-step OSINT flag chains compared to manual searches."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

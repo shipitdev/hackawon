@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:57:33.655174+00:00",
+  "generated_at": "2026-09-21T08:15:11.024945+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:oxhack-x27-26",
@@ -14,83 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
         "github:1213911408"
       ],
-      "pitch": "A hyper-local multi-agent carbon emission tracking and forecasting platform tailored for Oxford colleges, using Poisson regression and RAG to model heating and energy consumption anomalies across historic buildings.",
+      "pitch": "A hyper-local carbon emissions tracking and offset marketplace specifically scoped to Oxford University colleges.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LangGraph",
-        "Jupyter Notebook"
+        "Next.js",
+        "TailwindCSS",
+        "Prisma"
       ],
       "title": "Oxford Collegiate Carbon Ledger",
       "track": "",
-      "why_it_could_win": "Combines rigorous forecasting methodologies from winning AI governance projects with high local relevance to Oxford university colleges and sustainability challenges."
+      "why_it_could_win": "Leverages the local Oxford context, appealing directly to collegiate sustainability goals and local judges looking for real-world campus utility."
     },
     {
       "build_hours": 38,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An investigative graph intelligence platform combining LightGBM and LLMs to detect anomalies and illicit trafficking risks in the provenance chains of academic antiquities and manuscripts.",
+      "pitch": "A graph intelligence platform that maps historical provenance, ownership networks, and acquisition trails of rare manuscripts in the Bodleian Library.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM"
+        "FastAPI",
+        "Neo4j",
+        "D3.js"
       ],
-      "title": "Bodleian Rare Manuscript AML & Provenance Graph",
+      "title": "Bodleian Rare Book Provenance Graph",
       "track": "",
-      "why_it_could_win": "Adapts the graph intelligence and LightGBM AML architecture that won the DIGITIMES AI Innovation Hackathon to an academic and cultural domain unique to Oxford."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "A localized nutrition and student wellness platform that aggregates dining hall menus across Oxford colleges, delivering personalized dietary recommendations through an edge-optimized Gemini API integration.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "Oxford Local Health & Nutrition Mesh",
-      "track": "",
-      "why_it_could_win": "Replicates the rapid, user-focused execution of the Hour Hackathon winner by targeting an immediate pain point for students living in college accommodations."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An automated satellite image monitoring pipeline using computer vision to track industrial runoff and environmental compliance along the River Thames and surrounding Oxfordshire waterways.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "OpenCV"
-      ],
-      "title": "Thames Water Satellite Compliance Monitor",
-      "track": "",
-      "why_it_could_win": "Leverages heavy technical execution and geo-spatial monitoring proven successful at the Xcelerate Hackathon, addressing a prominent local environmental concern."
+      "why_it_could_win": "Combines advanced graph visualization with local Oxford cultural heritage, striking a chord with academic and institutional judges."
     },
     {
       "build_hours": 35,
       "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient recruitment and eligibility screening engine tailored to NHS trusts and clinical research units in Oxford.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "Oxford Health Clinical Trial Matcher",
+      "track": "",
+      "why_it_could_win": "Tackles a high-friction administrative problem in local healthcare infrastructure, showcasing immediate tangible clinical value."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A predictive spatial analytics tool forecasting localized urban flooding along the River Thames in Oxford using historical river gauge data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Leaflet.js"
+      ],
+      "title": "Thames Water Flood Risk Forecaster",
+      "track": "",
+      "why_it_could_win": "Addresses a perennial, highly relatable environmental hazard for Oxford residents with rigorous time-series forecasting."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent platform that distributes and audits micro-grants for Oxford student societies using USDC escrow smart contracts on Base.",
+      "pitch": "A constraint-satisfaction seating and guest-ticket marketplace platform designed to solve the chaotic booking systems of Oxford college guest dinners.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "Python"
       ],
-      "title": "Oxford Autonomous Micro-Grants Escrow",
+      "title": "Oxford Collegiate Formal Hall Auto-Allocator",
       "track": "",
-      "why_it_could_win": "Applies the autonomous agent and crypto-escrow integration pattern from the Synthesis Hackathon to streamline university funding distribution."
+      "why_it_could_win": "Solves an irritating, highly specific pain point shared by every student participant in the room, guaranteeing instant judge engagement."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

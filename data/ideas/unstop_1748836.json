@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:57:36.856160+00:00",
+  "generated_at": "2026-09-21T08:26:27.901080+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1748836",
@@ -16,83 +20,88 @@
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered regulatory and compliance tracker tailored for student incubators and early-stage startups in India, automating GST filing workflows, MSME registrations, and local entity compliance alerts.",
+      "pitch": "An intelligent multi-agent teaching and learning ecosystem where autonomous agents collaborate to generate personalized learning paths and grade student performance.",
+      "problem_statement": "Intelligent Multi-Agent Teaching and Learning Ecosystem",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Python",
-        "LangChain",
-        "Gemini API"
+        "LangGraph",
+        "React",
+        "Supabase"
       ],
-      "title": "RVU Startup Ecosystem Compliance Agent",
+      "title": "AgentEd-MultiAgent",
       "track": "",
-      "why_it_could_win": "Since the hackathon is organized by the Entrepreneurship Cell (ECell) and RV University, judges composed of entrepreneurship mentors and local founders will immediately see the high real-world value for early-stage startups."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "A hyper-local P2P marketplace for college students featuring milestone-based escrow payments to prevent peer-to-peer transaction fraud on campus.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
-        "React"
-      ],
-      "title": "CampusCart Secure Escrow Marketplace",
-      "track": "",
-      "why_it_could_win": "Directly addresses a genuine pain point for college campuses with thousands of students buying and selling textbooks, electronics, and project supplies locally."
+      "why_it_could_win": "Leverages a multi-agent student support platform architecture inspired by proven hackathon winners, directly addressing a core challenge with a clear, demonstrable working prototype."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A localized nutritional assistant that parses RV University campus mess and canteen menus daily, generating personalized macro-tracking and dietary plans for students.",
+      "pitch": "An adaptive learning and knowledge gap identification system that analyzes student quiz responses in real-time to pinpoint specific misconceptions and inject tailored remediation.",
+      "problem_statement": "Adaptive Learning and Knowledge Gap Identification System",
       "stack": [
         "Python",
         "FastAPI",
-        "React Native",
-        "OpenAI API"
+        "React",
+        "PostgreSQL"
       ],
-      "title": "Campus Canteen AI Nutrition & Meal Planning",
+      "title": "GapTrace",
       "track": "",
-      "why_it_could_win": "Combines hyper-localized campus relevance with proven hackathon-winning architecture from food and nutrition tech."
+      "why_it_could_win": "Focuses on high-utility educational analytics and clear measurable impact for students and educators during the live pitch."
     },
     {
-      "build_hours": 24,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:1170846981"
       ],
-      "pitch": "Computer-vision and IoT data aggregator that tracks waste disposal bins and smart meter electricity usage across university buildings to generate automated sustainability compliance reports.",
+      "pitch": "A smart crop disease prediction and management system utilizing crop imagery and environmental data to deliver localized prevention alerts to farmers.",
+      "problem_statement": "Smart Crop Disease Prediction and Management System",
       "stack": [
-        "TypeScript",
         "Python",
-        "TensorFlow.js",
+        "PyTorch",
+        "Flask",
         "TailwindCSS"
       ],
-      "title": "EcoCampus AI Waste & Energy Audit System",
+      "title": "AgriPredict-AI",
       "track": "",
-      "why_it_could_win": "Applies rigorous multi-modal monitoring techniques seen in industrial compliance wins to a tangible campus sustainability problem that university administrators care about."
+      "why_it_could_win": "Combines computer vision with concrete environmental data to show immediate social and economic benefits for agriculture."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1170846981"
       ],
-      "pitch": "An automated patient intake, consultation summary, and trust-building platform designed for university dental hospitals and local clinics to improve appointment conversion rates.",
+      "pitch": "An intelligent early health-risk detection and decision support system that analyzes patient vital signs and symptoms to highlight critical conditions.",
+      "problem_statement": "Intelligent Early Health-Risk Detection and Decision Support System",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Gemini API"
+        "Node.js",
+        "TensorFlow.js"
       ],
-      "title": "AI Patient Acquisition & Trust Engine for Student Dental Clinics",
+      "title": "VitalGuard-Decision",
       "track": "",
-      "why_it_could_win": "Leverages a proven, specialized workflow engine that won previous fast-paced sprints, adapted directly for local medical and dental practices."
+      "why_it_could_win": "Tackles a high-stakes medical domain with rigorous risk scoring and real-time decision support, aligning with judges' preference for life-impact projects."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous threat detection and situational awareness system that processes incoming logs and alerts to isolate security incidents.",
+      "problem_statement": "Intelligent Threat Detection and Situational Awareness System",
+      "stack": [
+        "Python",
+        "Claude API",
+        "FastAPI",
+        "Redis"
+      ],
+      "title": "DataSentinel-Agent",
+      "track": "",
+      "why_it_could_win": "Employs an autonomous incident response workflow proven to win competitive engineering hackathons by solving difficult backend data problems."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

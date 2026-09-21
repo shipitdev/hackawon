@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:21.472465+00:00",
+  "generated_at": "2026-09-21T08:23:34.569877+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746404",
@@ -14,84 +16,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered multi-agent student support and compliance platform combining LangGraph, RAG, and personalized agents to audit Scope 3 carbon emissions for industrial manufacturing.",
+      "pitch": "An AWS-powered graph intelligence and Focal LightGBM compliance investigation platform for decentralized finance protocols.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "Python"
+        "Python",
+        "AWS",
+        "LightGBM"
       ],
-      "title": "SupplyChain-Carbon-RAG",
-      "track": "Social Impact & Accessibility",
-      "why_it_could_win": "Aligns with the GreenNovation winning pattern by utilizing a multi-agent LangGraph architecture combined with localized RAG for corporate sustainability audits."
+      "title": "AegisGraph AML",
+      "track": "Finance & Commerce",
+      "why_it_could_win": "Leverages heavy technical execution in graph analytics and explainable ML, directly mirroring a proven 1st place hackathon architecture."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous AI agent marketplace featuring automated USDC escrow payments on Base for developer services.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "BioEscrow Agent",
+      "track": "AI & Intelligent Systems",
+      "why_it_could_win": "Combines high-demand agentic workflows with on-chain settlement, following the exact formula of a recent hackathon winner."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered no-code trading bot platform for building, copying, and executing momentum strategies on decentralized perpetual exchanges using automated triggers.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "FastAPI"
-      ],
-      "title": "DeFi-Perp-CopyTrader",
-      "track": "Finance & Commerce",
-      "why_it_could_win": "Directly applies the technical blueprint of a hackathon grand prize winner by integrating automated execution layers with no-code strategy builders."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated healthcare insurance claim investigation platform combining graph intelligence and explainable gradient boosting to detect anomalies and billing fraud.",
-      "stack": [
-        "TypeScript",
-        "LightGBM",
-        "Python",
-        "NetworkX"
-      ],
-      "title": "MedClaim-AML-Shield",
-      "track": "Healthcare & Wellbeing",
-      "why_it_could_win": "Leverages the winning formula of graph-based anomaly detection used in high-stakes AML risk platforms to solve a critical healthcare auditing problem."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-Powered Satellite Monitoring for Industrial Land Compliance and environmental degradation tracking using multi-spectral imagery processing.",
+      "pitch": "AI-powered satellite imagery monitoring platform to verify and score industrial land environmental compliance.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "TensorFlow.js",
-        "PostGIS"
+        "OpenCV",
+        "Next.js"
       ],
-      "title": "Satellite-Land-Watch",
-      "track": "Mobility & Urban Systems",
-      "why_it_could_win": "Matches the runner-up engineering pattern at industrial tech hackathons by turning raw geospatial satellite data into real-time regulatory compliance dashboards."
+      "title": "AgriSustain ATLAS",
+      "track": "Social Impact & Accessibility",
+      "why_it_could_win": "Tackles a complex niche (satellite computer vision) that stands out instantly among generic web apps in front of judges."
     },
     {
-      "build_hours": 35,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1185920891"
+        "github:1275874285"
       ],
-      "pitch": "An autonomous AI agent marketplace with smart contract USDC escrow payments and agent-to-agent service settlements on a low-fee execution layer.",
+      "pitch": "Real-time AI nutrition and meal planning assistant that generates personalized macro insights and lifestyle guidance from receipt or photo uploads.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Solidity",
-        "Base",
-        "Node.js"
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "OpenAI API"
       ],
-      "title": "Agentic-USDC-Escrow",
-      "track": "Software & Developer Tools",
-      "why_it_could_win": "Follows a proven hackathon-winning architecture combining autonomous agent workflows with verifiable on-chain micro-transactions."
+      "title": "NutriGuide AI",
+      "track": "Healthcare & Wellbeing",
+      "why_it_could_win": "Highly polished consumer UX with immediate practical utility that appeals directly to judges looking for tangible products."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support and tutoring platform combining LangGraph, localized RAG, and dynamic personalized learning pathways.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Pinecone"
+      ],
+      "title": "EcoLearn MultiAgent",
+      "track": "Education & Learning",
+      "why_it_could_win": "Demonstrates advanced multi-agent architecture and retrieval strategies which score exceptionally well in EdTech and AI tracks."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

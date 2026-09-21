@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:41.279061+00:00",
+  "generated_at": "2026-09-21T08:26:32.432866+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -13,98 +13,99 @@
       "unusual-hardware",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1748928",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline-first agricultural monitoring system that runs anomaly detection models directly on a Snapdragon NPU connected to a local camera and sensor node to optimize water usage and spot crop disease without cloud latency.",
+      "pitch": "An offline computer vision system running on edge NPUs to detect early-stage crop diseases and nutrient deficiencies in remote farming regions without reliable internet.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
         "TensorFlow Lite",
-        "Raspberry Pi",
-        "Snapdragon NPU SDK"
+        "Raspberry Pi"
       ],
-      "title": "Edge-AI Smart Farm Irrigation and Pest Drone",
+      "title": "AgriGuard Vision",
       "track": "Agriculture and Smart Farming",
-      "why_it_could_win": "Aligns directly with Agriculture and Smart Farming while leveraging the hard-engineering pattern of offline on-device AI from the Qualcomm hackathon winner."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1340275018",
-        "github:1161237076"
-      ],
-      "pitch": "A real-time computer vision monitoring pipeline that flags workers lacking hard hats or high-visibility vests in hazardous industrial zones, running locally on edge hardware with instant audio alerts.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "YOLOv8",
-        "Node.js",
-        "WebSockets"
-      ],
-      "title": "Industrial Safety Violation and PPE Edge Sentinel",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Replicates the proven winning formula of industrial safety and computer vision integration seen in recent hackathon champions."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1341712439"
-      ],
-      "pitch": "A 5-layer multi-agent diagnostic platform powered by Gemini 2.5 and LangGraph that autonomously monitors IoT building telemetry, detects sensor anomalies using isolation forests, and triggers closed-loop operational fixes.",
-      "stack": [
-        "TypeScript",
-        "Gemini 2.5",
-        "LangGraph",
-        "Qdrant",
-        "TimescaleDB"
-      ],
-      "title": "Autonomous Multi-Agent HVAC and Energy Ops for Smart Cities",
-      "track": "Smart City Solutions",
-      "why_it_could_win": "Combines advanced autonomous agent workflows with real-world IoT operations, matching the multi-agent winning pattern from SEAL Hackathon."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1141364034"
-      ],
-      "pitch": "A hardware-secured physical logistics validator using an ESP32 microcontroller and custom conductive ink analog signatures to verify product authenticity and detect supply chain tampering on Google Cloud.",
-      "stack": [
-        "Python",
-        "ESP32",
-        "Google Cloud",
-        "Vertex AI",
-        "C++"
-      ],
-      "title": "Conductive Ink Anti-Counterfeiting Supply Chain Tag",
-      "track": "Internet of Things (IoT)",
-      "why_it_could_win": "Utilizes the unusual physical build pattern and hardware-secured validation that dominated the Hack-4-Viksit Bharat competition."
+      "why_it_could_win": "Leverages the hard engineering pattern by implementing localized, low-latency edge inference that directly addresses feasibility and real-world usefulness for agriculture."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1341712439"
       ],
-      "pitch": "An AWS-powered anti-money laundering risk detection and investigation platform that combines graph intelligence and Focal LightGBM to provide clear, explainable audit trails for suspicious transactions.",
+      "pitch": "An autonomous multi-agent diagnostic pipeline for industrial IoT sensors that correlates telemetry anomalies with root-cause maintenance actions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "AWS",
-        "LightGBM",
-        "Neo4j"
+        "LangGraph",
+        "Gemini API",
+        "TimescaleDB"
       ],
-      "title": "Explainable AML Graph Intelligence for FinTech Compliance",
-      "track": "FinTech",
-      "why_it_could_win": "Targets the FinTech category with complex data science and graph intelligence mirroring the DIGITIMES AI Innovation Hackathon winner."
+      "title": "AeroInspect AI",
+      "track": "Internet of Things (IoT)",
+      "why_it_could_win": "Follows the winning pattern of combining agentic workflows with anomaly detection for industrial operations, appealing to judges looking for complex technical execution."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "An assistive communication tool for healthcare settings that translates real-time sign language gestures into localized speech using custom pose-estimation models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "FastAPI",
+        "React"
+      ],
+      "title": "MediSign Assist",
+      "track": "Healthcare and Assistive Technology",
+      "why_it_could_win": "Focuses heavily on a live, working demo of a socially impactful product, scoring high on originality and usefulness for assistive technology."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A hardware-secured smart grid monitoring node utilizing microcontroller analog signatures to detect physical meter tampering and grid leakage.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "Google Cloud"
+      ],
+      "title": "GridPulse Smart Meter",
+      "track": "Smart City Solutions",
+      "why_it_could_win": "Utilizes the unusual physical build pattern by integrating physical sensors and microcontrollers into a security dashboard, setting it apart from standard web apps."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A verifiable carbon footprint tracking application that uses zero-knowledge proofs to let manufacturers prove emission compliance without exposing proprietary supply chain data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Base",
+        "React"
+      ],
+      "title": "EcoTrace Ledger",
+      "track": "Sustainable Technology",
+      "why_it_could_win": "Applies advanced cryptographic primitives (ZK proofs) to a major real-world sustainability challenge, demonstrating exceptionally high technical difficulty."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:58.309225+00:00",
+  "generated_at": "2026-09-21T08:17:31.407969+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1723293",
@@ -16,91 +18,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:1004582948"
+        "github:1181344931"
       ],
-      "pitch": "An OSINT automation tool that ingests disparate data points (social footprints, exposed metadata, infrastructure IP graphs) and constructs an interactive relationship matrix to accelerate reconnaissance phases in security competitions.",
+      "pitch": "An automated OSINT investigation pipeline that ingests domain and IP artifacts, builds interactive attack-surface relationship graphs, and flags exposed internal credentials.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "NetworkX",
         "FastAPI",
-        "Neo4j",
         "React.js",
-        "Playwright"
+        "TailwindCSS"
       ],
-      "title": "OSINT-NetViz: Automated Multi-Layer Target Profiling and Relational Graph Visualizer",
+      "title": "OSINT-Grapher",
       "track": "Open Source Intelligence (OSINT)",
-      "why_it_could_win": "Targeting the Open Source Intelligence (OSINT) challenge category directly, this automates the tedious data-correlation tasks that eat up hours in competitive CTF qualifiers."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A specialized modular toolkit designed to rapidly detect common cryptographic implementation flaws (such as padding oracles, small subgroup attacks, or weak RSA exponents) and generate exploit scripts on the fly.",
-      "stack": [
-        "Python",
-        "SageMath",
-        "Pwntools",
-        "Flask"
-      ],
-      "title": "CryptoSleuth: Automated Cryptographic Weakness Identifier and Oracle Exploiter",
-      "track": "Cryptography",
-      "why_it_could_win": "Appeals directly to the Cryptography challenge category by offering competitors a speed-multiplier tool to decode broken crypto primitives under tight competition clocks."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A binary analysis assistant that parses ELF files, checks security mitigations (NX, PIE, Canary), identifies potential buffer overflows or format string vulnerabilities, and scaffolds a Python exploit template using Pwntools.",
-      "stack": [
-        "Python",
-        "Capstone",
-        "LIEF",
-        "Pwntools",
-        "Streamlit"
-      ],
-      "title": "PwnScript: Heuristic Binary Vulnerability Analyzer and Exploit Scaffolder",
-      "track": "Binary Exploitation (Pwn)",
-      "why_it_could_win": "Fits squarely into the Binary Exploitation (Pwn) and Reverse Engineering domains by drastically cutting down manual disassembling and offset-hunting time."
+      "why_it_could_win": "Aligns with the OSINT and Web Security categories of the CTF and borrows graph intelligence patterns from the winning AML risk detection platform to visually map adversary footprints for judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1022783746",
         "github:1004582948"
       ],
-      "pitch": "A centralized analysis utility for the Steganography category that automatically runs LSB analysis, frequency domain checks, and neural-based pattern classifiers to extract hidden payloads from compromised media files.",
+      "pitch": "A static analysis tool designed to detect weak cryptographic implementations, predictable IV usage, and insecure key management in source code repositories.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "OpenCV",
-        "NumPy",
-        "PyTorch",
-        "FastAPI"
+        "AST",
+        "Streamlit",
+        "Docker"
       ],
-      "title": "StegEx: Deep Learning and Statistical Steganography Extraction Suite",
-      "track": "Steganography",
-      "why_it_could_win": "Solves the exact bottleneck of finding hidden flags in image, audio, or video steganography challenges by automating multi-algorithm screening."
+      "title": "CryptoLeak-Scanner",
+      "track": "Cryptography",
+      "why_it_could_win": "Directly tackles the Cryptography track by automating vulnerability discovery, leveraging repository reporting patterns seen in past winning security tools."
     },
     {
-      "build_hours": 38,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1004582948"
+        "github:1274691349"
       ],
-      "pitch": "A rapid-response digital forensics triage tool that ingests memory dumps or disk images, parses registry hives and logs, and reconstructs a chronological timeline of malicious execution events for forensic challenges.",
+      "pitch": "A streamlined binary exploitation visualization utility that steps through stack frames, tracks register mutations, and detects buffer overflow vectors in raw ELF binaries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "Capstones",
+        "Flask"
+      ],
+      "title": "PwnSim-Inspector",
+      "track": "Binary Exploitation (Pwn)",
+      "why_it_could_win": "Appeals directly to the Binary Exploitation (Pwn) and Reverse Engineering tracks by offering deep technical inspection mechanics reminiscent of hard engineering wins."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An automated steganography detection and extraction suite that applies statistical frequency analysis and LSB scraping to uncover hidden payloads in image and audio files.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Volatility3",
-        "SQLite",
-        "React.js",
-        "TailwindCSS"
+        "NumPy",
+        "OpenCV",
+        "Streamlit"
       ],
-      "title": "ForensiQ: Automated Memory and Disk Artifact Timeline Correlator",
+      "title": "StegoExtract Engine",
+      "track": "Steganography",
+      "why_it_could_win": "Targets the Steganography and Digital Forensics challenges by implementing specialized algorithmic checks rather than generic wrappers."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A rapid-triage packet capture and disk image forensics tool that correlates network anomaly logs with file system timelines to reconstruct breach narratives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Scapy",
+        "SQLite",
+        "React.js"
+      ],
+      "title": "NetPulse Forensics",
       "track": "Digital Forensics",
-      "why_it_could_win": "Addresses the Digital Forensics category by providing automated artifact correlation, a capability heavily rewarded by judges looking for structured, rapid investigation workflows."
+      "why_it_could_win": "Directly serves the Digital Forensics category by combining multi-source artifact parsing into a unified, judge-friendly reporting dashboard."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

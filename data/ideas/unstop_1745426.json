@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:13.983770+00:00",
+  "generated_at": "2026-09-21T08:22:18.393090+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -7,93 +7,102 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "polish",
+      "unique-data"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745426",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "An AI agent leveraging defense-in-depth principles and native tool calling to analyze vulnerable web app binaries and source code to instantly suggest exploitation paths and flag locations.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Vercel AI SDK",
-        "Docker"
-      ],
-      "title": "CTF-Agent-Auditor",
-      "track": "",
-      "why_it_could_win": "Leverages the winning defense-in-depth and LLM prompt-hardening architecture seen in the BitGN Personal Agent Challenge to build a robust, local CTF helper."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "A Python security intelligence tool that scans code repositories, automatically flags insecure dependencies, and generates comprehensive vulnerability threat reports.",
+      "pitch": "A command-line intelligence tool designed to rapidly analyze binary files, identify hidden strings, and automate basic Jeopardy-style CTF recon.",
+      "problem_statement": "Participants will face a variety of cybersecurity challenges that require logical thinking, technical knowledge, investigation, and creativity in a Jeopardy-style CTF.",
       "stack": [
         "Python",
-        "FastAPI",
-        "AST",
-        "React"
+        "Click",
+        "LIEF",
+        "pwntools"
       ],
-      "title": "RepoSec-Insights",
+      "title": "CTFFinder CLI",
       "track": "",
-      "why_it_could_win": "Directly applies the automated repository security insights and report-generation pattern that won Microsoft's Global Intern Hackathon."
+      "why_it_could_win": "Solves the solo time crunch by automating routine enumeration tasks, freeing up the single participant to focus on difficult exploitation vectors."
     },
     {
-      "build_hours": 40,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1188682384"
+        "github:1188643990"
       ],
-      "pitch": "A specialized fuzzing framework designed to discover cryptographic flaws, weak zero-knowledge proof implementations, and padding oracles in CTF challenges.",
+      "pitch": "A web-based steganography analysis suite built to inspect images, audio, and compressed archives for hidden CTF flags.",
+      "problem_statement": "Participants will face a variety of cybersecurity challenges that require logical thinking, technical knowledge, investigation, and creativity in a Jeopardy-style CTF.",
+      "stack": [
+        "React",
+        "FastAPI",
+        "Python",
+        "Pillow"
+      ],
+      "title": "StegoScope",
+      "track": "",
+      "why_it_could_win": "Brings exceptional UI polish and instant visual feedback for steganography challenges, which often waste valuable solo time."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A parallelized cryptographic solver dashboard tailored for classical ciphers, frequency analysis, and common CTF crypto misconfigurations.",
+      "problem_statement": "Participants will face a variety of cybersecurity challenges that require logical thinking, technical knowledge, investigation, and creativity in a Jeopardy-style CTF.",
       "stack": [
         "Python",
-        "Rust",
-        "Cryptosystem APIs"
+        "Streamlit",
+        "NumPy",
+        "SymPy"
       ],
-      "title": "CryptoZKFuzzer",
+      "title": "CryptoBrute Pipeline",
       "track": "",
-      "why_it_could_win": "Focuses on genuinely hard engineering and advanced cryptography, meeting the standard of complex technical projects that win security CTFs."
+      "why_it_could_win": "Provides genuinely hard algorithmic assistance for decoding custom substitution, XOR, and modular arithmetic challenges instantly."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1022783746"
+        "github:642839338"
       ],
-      "pitch": "A BERT-powered message classification and anomaly detection system tuned to extract hidden steganographic payloads and flag text inside multi-channel CTF data feeds.",
+      "pitch": "A specialized browser extension and companion proxy for quickly inspecting web application headers, cookies, and hidden endpoints during CTF web challenges.",
+      "problem_statement": "Participants will face a variety of cybersecurity challenges that require logical thinking, technical knowledge, investigation, and creativity in a Jeopardy-style CTF.",
       "stack": [
-        "Python",
-        "Transformers",
-        "FastAPI",
-        "React.js"
+        "JavaScript",
+        "Chrome Extension APIs",
+        "Node.js"
       ],
-      "title": "SpamShield-CTF",
+      "title": "WebFuzz Deck",
       "track": "",
-      "why_it_could_win": "Reuses the proven NLP classification pipeline architecture that secured a runner-up finish at the Cyber Hackathon 2025."
+      "why_it_could_win": "Acts as a lightweight, purpose-built utility designed specifically for rapid vulnerability discovery without heavy proxy bloat."
     },
     {
-      "build_hours": 35,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1284625256"
+        "github:1069255350"
       ],
-      "pitch": "A lightweight, deterministic web application firewall and reverse proxy designed to instantly block malicious payload injection and capture exploitation telemetry at the edge.",
+      "pitch": "A PCAP file forensic analyzer that auto-extracts cleartext credentials, suspicious DNS queries, and hidden file transfers from network captures.",
+      "problem_statement": "Participants will face a variety of cybersecurity challenges that require logical thinking, technical knowledge, investigation, and creativity in a Jeopardy-style CTF.",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "Redis"
+        "Python",
+        "Scapy",
+        "Flask",
+        "TailwindCSS"
       ],
-      "title": "EdgeWAF-Deterministic",
+      "title": "PacketTrail",
       "track": "",
-      "why_it_could_win": "Employs a deterministic engagement gate and high-performance safety architecture akin to the AWS Global Government Hackathon winner."
+      "why_it_could_win": "Addresses forensics categories effectively by instantly parsing heavy network logs into structured timelines and extracted artifacts."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

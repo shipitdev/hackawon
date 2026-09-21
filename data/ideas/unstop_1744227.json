@@ -1,93 +1,104 @@
 {
-  "generated_at": "2026-09-13T07:53:28.841886+00:00",
+  "generated_at": "2026-09-21T08:21:28.679345+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1744227",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring platform for agricultural land and environmental compliance tailored for northern state industrial regulations.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "TailwindCSS"
-      ],
-      "title": "AgriCompliance AI",
-      "track": "",
-      "why_it_could_win": "It directly mirrors a proven winning pattern of using satellite monitoring for compliance, appealing strongly to regional technical festival judges looking for real-world impact."
-    },
-    {
       "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:1006075023"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform delivering personalized meal recommendations and tracking specifically for hostel and campus mess menus.",
+      "pitch": "An optimized CNN-based plant disease classification system customized for local regional crops in North India, tailored for low-bandwidth mobile deployment.",
+      "problem_statement": "Innovation Hackathon problem statements focusing on agricultural technology and creative problem solving.",
       "stack": [
         "Python",
-        "Next.js",
-        "Gemini API"
+        "TensorFlow",
+        "React Native",
+        "FastAPI"
       ],
-      "title": "CampusMeal AI Nutrition Assistant",
+      "title": "AgriSliet Disease Classification Hub",
       "track": "",
-      "why_it_could_win": "It targets an immediate problem experienced by all student participants staying on campus during the festival, making the live demo instantly relatable."
+      "why_it_could_win": "Directly applies proven computer vision architectures to a localized agricultural context, mirroring successful patterns from prior hackathons while maintaining high feasibility."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1010199928"
       ],
-      "pitch": "A Poisson regression and machine learning forecasting tool to predict electrical grid and power supply incidents across rural distribution networks.",
+      "pitch": "An integrated hardware-software prototype featuring an Arduino-controlled garbage classification system backed by a lightweight Python computer vision model.",
+      "problem_statement": "Innovation Hackathon problem statements emphasizing mechanical designs, circuit diagrams, and physical model demonstrations.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Scikit-Learn"
+        "Arduino",
+        "OpenCV",
+        "C++"
       ],
-      "title": "RuralGrid AI Incident Forecaster",
+      "title": "SLIET Smart Waste Segregator",
       "track": "",
-      "why_it_could_win": "It applies genuinely hard engineering and statistical modeling instead of just a wrapper, matching the winning pattern of technical depth."
+      "why_it_could_win": "Matches the competition's explicit request for circuit diagrams, physical models, and hardware-software integration."
     },
     {
-      "build_hours": 40,
+      "build_hours": 36,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AML risk detection and investigation platform combining graph intelligence and explainable machine learning for regional financial institutions.",
+      "pitch": "A graph-intelligence and LightGBM-based risk detection platform designed to trace anomalous financial transactions within student festival accounts.",
+      "problem_statement": "Innovation Hackathon problem statements targeting institutional data analytics and secure processing solutions.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "FinGuard AML Risk Visualizer",
+      "title": "Campus AML & Risk Graph",
       "track": "",
-      "why_it_could_win": "Financial crime detection appeals to enterprise-focused judges looking for scalable B2B applications with high security utility."
+      "why_it_could_win": "Leverages advanced explainable machine learning patterns that consistently score highly in analytics-heavy technical evaluation rounds."
     },
     {
-      "build_hours": 32,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1213911408"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered multi-agent student support and query resolution platform combining LangGraph and RAG specifically for university administration.",
+      "pitch": "A satellite and geospatial data monitoring tool for industrial land compliance, optimized for rapid inference and clear PowerPoint presentation slide layouts.",
+      "problem_statement": "Innovation Hackathon problem statements requiring comprehensive technical details, flowcharts, and clear visual presentation generation.",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Python"
+        "Next.js",
+        "Python",
+        "Geopandas"
       ],
-      "title": "CampusAgent Multi-Agent Support",
+      "title": "EcoIndustrial Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Solves an operational bottleneck for academic institutions, directly aligning with the institutional setting of SLIET where TechFEST is hosted."
+      "why_it_could_win": "Focuses heavily on structured, visually compelling geospatial outputs that directly translate into the mandated 8-slide presentation limit."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A BERT-powered spam and phishing detection system tailored for SMS, calls, and emails, integrated into a lightweight React dashboard.",
+      "problem_statement": "Innovation Hackathon problem statements revolving around cybersecurity and digital safety solutions.",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "FastAPI",
+        "BERT"
+      ],
+      "title": "CyberGuard Multi-Channel Spam Filter",
+      "track": "",
+      "why_it_could_win": "Utilizes a robust natural language processing pipeline with a fully functional frontend interface that judges can test live."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

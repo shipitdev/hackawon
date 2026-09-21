@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:40:44.985302+00:00",
+  "generated_at": "2026-09-21T08:09:24.516049+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "devfolio:8e2ad878ddd242cdac991a4c7a06af54",
@@ -14,81 +16,89 @@
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "AI-powered satellite and local sensor monitoring platform for industrial land compliance, built specifically for regional industrial zones.",
+      "pitch": "An alternative credit scoring micro-platform for hyper-local vendors and small shops in Digdoh using transaction patterns and digital ledger logs.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "Next.js",
+        "TailwindCSS",
+        "Node.js"
       ],
-      "title": "Digdoh-Industry-Sentinel",
+      "title": "Digdoh Local Vendor Credit Scoring Engine",
       "track": "",
-      "why_it_could_win": "Follows the exact blueprint of GeoNex-ATLAS which won by addressing local state industrial monitoring needs."
-    },
-    {
-      "build_hours": 5,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-powered personalized nutrition and wellness platform tailored specifically for regional diet habits and mess food availability.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini API"
-      ],
-      "title": "NutriLocal-PCE",
-      "track": "",
-      "why_it_could_win": "Replicates the winning formula of E-Foodiee-AI-Nutrition-Assistant by focusing on hyper-localized practical health use cases."
+      "why_it_could_win": "Addresses an immediate local economic need in the host region, appealing directly to local judges who value practical regional impact."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent student support and administrative query platform combining LangGraph and local RAG to automate college navigation.",
+      "pitch": "A multi-agent resource tracking system to monitor and optimize electricity consumption across campus buildings.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Next.js"
+        "OpenAI API",
+        "React"
       ],
-      "title": "Campus-Agent-Network",
+      "title": "PCE Campus Energy Audit Agent",
       "track": "",
-      "why_it_could_win": "Directly applies the multi-agent student support architecture that won the GreenNovation Hackathon."
+      "why_it_could_win": "Targets institutional efficiency directly on the organizing college's campus, a high-priority metric for academic judges."
     },
     {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-powered patient acquisition and trust engine designed for local dental and healthcare clinics in Digdoh.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ClinicTrust-PCE",
-      "track": "",
-      "why_it_could_win": "Mirrors the rapid 12-hour winning mechanics of Global-Smile by delivering an immediate go-to-market utility for local businesses."
-    },
-    {
-      "build_hours": 6,
+      "build_hours": 5,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "Autonomous task marketplace with smart contract escrow payments built for college students to outsource small gigs securely.",
+      "pitch": "An automated issue-routing platform that categorizes municipal complaints from local residents and dispatches them via priority queues.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Base",
-        "USDC"
+        "Express",
+        "PostgreSQL",
+        "Leaflet.js"
       ],
-      "title": "MicroEscrow-PCE",
+      "title": "Digdoh Community Grievance Dispatcher",
       "track": "",
-      "why_it_could_win": "Leverages the proven autonomous marketplace and escrow architecture seen in the Synthesis Hackathon winner Dispatch."
+      "why_it_could_win": "Focuses on civic technology, giving judges an immediately understandable prototype with clear real-world utility."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A localized nutritional guidance dashboard tailored to mess and hostel food options available to PCE students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Gemini API"
+      ],
+      "title": "PCE Student Health & Nutrition Tracker",
+      "track": "",
+      "why_it_could_win": "Hyper-targeted to the student demographic of the hackathon organizers, ensuring instant relatability during demonstrations."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A routing dashboard designed for local delivery agents navigating rural and semi-urban routes around Digdoh.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Mapbox GL",
+        "Next.js"
+      ],
+      "title": "Digdoh Small-Scale Logistics Optimizer",
+      "track": "",
+      "why_it_could_win": "Solves a logistical bottleneck specific to semi-urban operational environments without requiring complex proprietary hardware."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

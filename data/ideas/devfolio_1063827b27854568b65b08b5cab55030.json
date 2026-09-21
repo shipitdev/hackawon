@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:36:43.219730+00:00",
+  "generated_at": "2026-09-21T08:08:13.091328+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -9,8 +9,11 @@
     "patterns": [
       "working-demo",
       "technical-depth",
-      "unique-data"
+      "unique-data",
+      "impact"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:1063827b27854568b65b08b5cab55030",
@@ -20,7 +23,8 @@
       "inspired_by": [
         "github:690893685"
       ],
-      "pitch": "A real-time audio surveillance edge-node network that processes urban or border noise via lightweight neural networks to instantly classify explosive signatures and stream precise GIS coordinates to field personnel.",
+      "pitch": "Real-time acoustic gunshot detection and directional mapping running on edge hardware to instantly alert defense personnel and civilian safety teams.",
+      "problem_statement": "National security and civilian protection under the 'Blueprint for Peace' theme.",
       "stack": [
         "Python",
         "PyTorch",
@@ -28,80 +32,83 @@
         "React",
         "WebSockets"
       ],
-      "title": "Acoustic Threat Triangulation Grid",
-      "track": "National Security and Defence",
-      "why_it_could_win": "Directly aligns with the Blueprint for Peace theme on national security and defense technologies, replicating the proven architecture of hardware-integrated audio detection that wins security hackathons."
+      "title": "AegisAudio: Edge Gunshot Triangulation & Threat Alert System",
+      "track": "National Security and Defense Technologies",
+      "why_it_could_win": "Directly builds on proven hackathon architectures for audio classification while tailoring the live mapping to defense and civilian security tracking."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:933310408",
+        "github:1261513376"
+      ],
+      "pitch": "An autonomous agentic workflow that parses emergency distress messages, validates crisis reports, and matches relief supplies with active disaster zones.",
+      "problem_statement": "Humanitarian response and post-war reconstruction under the 'Blueprint for Peace' theme.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "FastAPI",
+        "Python"
+      ],
+      "title": "CrisisSync AI: Multi-Agent Humanitarian Resource Router",
+      "track": "Humanitarian Response and Civilian Protection",
+      "why_it_could_win": "Leverages the winning formula of multi-agent pipeline orchestration for crisis-response navigation and verified resource matching."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1196410850"
+        "github:1261513376"
       ],
-      "pitch": "An autonomous AI agent pipeline that scrapes regional disaster-zone supply marketplaces and logistics feeds to optimize civilian relief allocation and detect fraudulent aid distribution in real-time.",
+      "pitch": "A calibration-backed crisis resource mapper that directs civilian aid away from mined or unstable sectors during post-war rebuilding phases.",
+      "problem_statement": "Post-war reconstruction and civilian protection under the 'Blueprint for Peace' theme.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "ai-agents",
-        "LangGraph",
-        "React"
-      ],
-      "title": "Multi-Agent Humanitarian Logistics Pipeline",
-      "track": "Humanitarian Response and Civilian Protection",
-      "why_it_could_win": "Leverages complex multi-agent architectures on fresh scraped data, a pattern demonstrated by winning teams tackling logistical and trafficking challenges."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1326164711"
-      ],
-      "pitch": "A public-accountability mapping platform where every reconstruction contract and fund request carries a cryptographic seal, allowing citizens to independently verify fund allocation and resource delivery.",
-      "stack": [
-        "HTML",
         "TypeScript",
-        "Node.js",
-        "Leaflet.js",
-        "PostgreSQL"
+        "Next.js",
+        "Python",
+        "BART-large-MNLI"
       ],
-      "title": "Cryptographic Post-War Infrastructure Ledger",
+      "title": "ClearPath Post-War Infrastructure Navigator",
       "track": "Post-War Reconstruction",
-      "why_it_could_win": "Combines public transparency with verifiable cryptographic proof, matching the exact winning formula of trust-centric public works hackathon projects."
+      "why_it_could_win": "Uses honest AI routing with calibrated confidence metrics which appeals heavily to judges looking for reliable crisis management tools."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:243065226"
+        "github:1196410850"
       ],
-      "pitch": "An edge-computing video processing pipeline designed to ingest public CCTV streams, run local face-recognition against a dynamic watchlist, and securely dispatch encrypted alert emails to security officials.",
+      "pitch": "An automated web-scraping and multi-lingual threat detection pipeline targeting illegal arms and contraband marketplaces operating in conflict zones.",
+      "problem_statement": "Cyber defense and national security under the 'Blueprint for Peace' theme.",
       "stack": [
         "Python",
-        "OpenCV",
-        "Django REST Framework",
-        "React Native",
-        "SQLite"
+        "FastAPI",
+        "LangGraph",
+        "React"
       ],
-      "title": "CCTV Wanted Criminal Biometric Edge Screener",
-      "track": "Cyber Defence and Civilian Protection",
-      "why_it_could_win": "Tackles critical civilian protection infrastructure with a fully demonstrable end-to-end pipeline that judges in defense and public safety tracks can immediately test live."
+      "title": "SentinelScan: Wildlife & Supply Trafficking Interdiction Network",
+      "track": "Cyber Defence and National Security",
+      "why_it_could_win": "Combines a complex multi-agent scraping and intelligence extraction pipeline that demonstrates advanced engineering execution in a tight window."
     },
     {
-      "build_hours": 26,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1181344931"
       ],
-      "pitch": "A predictive modeling tool using Poisson Generalized Additive Models to forecast regional security incidents and civil unrest spikes, providing calibrated prediction intervals to defense strategists.",
+      "pitch": "An intelligence investigation platform combining graph databases and risk scoring algorithms to audit military supply chain contractors for illicit funding.",
+      "problem_statement": "National security and defense technologies under the 'Blueprint for Peace' theme.",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
+        "AWS",
         "Python",
-        "Statsmodels",
-        "FastAPI",
-        "TailwindCSS"
+        "Neo4j",
+        "React"
       ],
-      "title": "AI Conflict Incident Forecasting Engine",
-      "track": "National Security and Defence",
-      "why_it_could_win": "Implements rigorous quantitative forecasting and statistical validation, giving technical judges hard mathematical models rather than hand-wavy AI wrappers."
+      "title": "SafeGrid AML: Defense Supply Chain Risk Intelligence",
+      "track": "Defence Technologies",
+      "why_it_could_win": "Employs sophisticated graph intelligence and explainable risk analysis that impresses judges seeking enterprise-grade defense tech solutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

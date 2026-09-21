@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:23.173260+00:00",
+  "generated_at": "2026-09-21T08:19:01.562644+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,95 +7,107 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1737808",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1255987686"
       ],
-      "pitch": "A training-free semantic router for real-time aerospace support queries, routing user intents between fast local models and heavy cloud LLMs based on kNN exemplar indices.",
+      "pitch": "An autonomous travel orchestration agent that dynamically rewrites itineraries and negotiates refunds when flights or bookings fail in real-time.",
+      "problem_statement": "Hospitality & Travel theme: Solving friction in travel planning and real-time itinerary disruptions.",
       "stack": [
         "Python",
-        "Qwen",
-        "Semantic Router",
-        "Superlinked"
+        "FastAPI",
+        "LangChain",
+        "Groq",
+        "React"
       ],
-      "title": "AstraRouter",
-      "track": "",
-      "why_it_could_win": "Follows the proven architecture of darwin-router which won first prize at the Superlinked x Qwen Hackathon by slashing inference costs and latency via self-improving exemplar indexes."
+      "title": "AeroRoute GenAI Itinerary & Disruption Healing Agent",
+      "track": "Hospitality & Travel",
+      "why_it_could_win": "Directly targets the Hospitality & Travel theme while leveraging autonomous workflow execution patterns similar to enterprise agent winners, impressing judges looking for practical GenAI utility."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A pre-deployment risk diagnosis tool for generative AI workflows that parses BPMN business process models and orchestrates coded agents to catch compliance failures before production.",
-      "stack": [
-        "Python",
-        "AI Agents",
-        "BPMN",
-        "Human-in-the-loop"
-      ],
-      "title": "BPMNAgentGuard",
-      "track": "",
-      "why_it_could_win": "Mirrors the success of fde-agent-uipath which won 3rd place at UiPath AgentHack by bridging rigid enterprise BPMN standards with dynamic agentic risk governance."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "An efficiency wrapper for LLMs combining reinforcement learning and trajectory rainbows to compress multi-step chain-of-thought token usage without sacrificing reasoning depth.",
-      "stack": [
-        "Python",
-        "LLM",
-        "Rainbow",
-        "Reinforcement Learning"
-      ],
-      "title": "HyperReason",
-      "track": "",
-      "why_it_could_win": "Leverages the core technical pattern of hyperreasoning which took 1st place at the OpenAI Hackathon by tackling raw LLM computational efficiency."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline AI code review engine optimized for neural processing units, providing zero-latency security checks and style enforcement completely disconnected from external APIs.",
-      "stack": [
-        "Python",
-        "Snapdragon NPU",
-        "Offline AI",
-        "AST Parsing"
-      ],
-      "title": "NPUCodeAudit",
-      "track": "",
-      "why_it_could_win": "Directly applies the runner-up strategy of DevMesh at the Qualcomm Snapdragon Multiverse Hackathon by emphasizing hardware-local offline execution and privacy."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
+        "github:1334000568",
         "github:1207207353"
       ],
-      "pitch": "A zero-config native auto-embedding and RAG toolkit that hooks directly into MariaDB to automatically index documents and manage vector search vectors without external vector databases.",
+      "pitch": "A training-free semantic search and routing engine for hospitality platforms that matches travelers to boutique stays based on hyper-specific mood and vibe queries.",
+      "problem_statement": "Hospitality & Travel theme: Improving discovery and personalisation in travel booking experiences.",
       "stack": [
         "Python",
-        "Embeddings",
-        "HNSW",
-        "MariaDB"
+        "Superlinked",
+        "Qwen",
+        "Pinecone",
+        "Streamlit"
       ],
-      "title": "AutoEmbeddingRAG",
-      "track": "",
-      "why_it_could_win": "Emulates seamless-rag which secured 2nd place at the MariaDB Hackathon by deeply integrating developer tooling directly into a specific database ecosystem."
+      "title": "StaySemantic: Multi-Lingual Contextual Hotel & Experience Router",
+      "track": "Hospitality & Travel",
+      "why_it_could_win": "Applies advanced semantic routing and vector embeddings to a traditional industry bottleneck, scoring high on technical difficulty and direct business value for travel operators."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An offline-first multimodal concierge assistant for hotel lobbies that reads guest booking QR codes, detects language and mood via webcam, and provides instant local guidance.",
+      "problem_statement": "Hospitality & Travel theme: Enhancing guest experience and front-desk automation in hotels.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI Vision",
+        "WebSockets"
+      ],
+      "title": "LobbyLens: Vision & GenAI Concierge Kiosk",
+      "track": "Hospitality & Travel",
+      "why_it_could_win": "Combines hardware-adjacent interface design with GenAI, directly targeting the 'Award for Excellence in User Interface Design' and 'Award for Excellence in AI Application'."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated data extraction and sentiment profiling tool that scans travel vendor contracts and customer feedback loops to flag service degradations and compliance risks.",
+      "problem_statement": "Hospitality & Travel theme: Streamlining operations and quality assurance for travel service providers.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "OpenAI OSS",
+        "Plotly",
+        "FastAPI"
+      ],
+      "title": "VoyageAudit: Automated Compliance & Review Analyzer for Travel Agencies",
+      "track": "Hospitality & Travel",
+      "why_it_could_win": "Provides an immediate ROI for travel businesses by turning unstructured reviews and legal text into actionable data dashboards with built-in rating mechanics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A hyper-local P2P logistics platform connecting travelers needing short-term luggage storage with verified local cafes and shops, secured via automated smart handover verification.",
+      "problem_statement": "Hospitality & Travel theme: Solving urban transit and luggage pain points for city explorers.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Mapbox API"
+      ],
+      "title": "BaggageMesh: Peer-to-Peer Luggage Storage & Transit Marketplace",
+      "track": "Hospitality & Travel",
+      "why_it_could_win": "Solves an intensely relatable pain point for urban travelers and aligns perfectly with the hospitality theme through a fully functional full-stack MVP."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

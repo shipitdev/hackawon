@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:39.426267+00:00",
+  "generated_at": "2026-09-21T08:23:52.817581+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746491",
@@ -16,71 +18,77 @@
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "An interactive web-based sandbox for practicing company-style Online Assessments, featuring real-time evaluation of DSA problems like Longest Subarray With Equal 0s and 1s alongside automated DBMS and Computer Networks MCQs.",
+      "pitch": "An interactive problem-solving platform and code visualizer specifically tailored for mastering company-style Java Online Assessments, featuring live execution tracking for array sliding-window and graph algorithms.",
+      "problem_statement": "No published statement",
       "stack": [
         "Java",
         "Spring Boot",
         "React",
-        "H2 Database"
+        "Monaco Editor"
       ],
-      "title": "JavaOA-Simulator",
+      "title": "JavaOA Trainer & Visualizer",
       "track": "",
-      "why_it_could_win": "Directly targets the core focus of the assessment format by providing a rigorous platform for practicing the exact types of DSA coding questions and technical MCQs evaluated in the exam."
+      "why_it_could_win": "Directly targets the core domain of the assessment by offering a tool that helps participants prep for and understand the exact types of DSA and Java concepts evaluated in company OAs."
     },
     {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A Java-backed visualization tool specifically designed to step through array and sliding window algorithms, such as finding minimum platforms and equal 0/1 subarrays, to aid conceptual mastery.",
+      "pitch": "A high-performance algorithmic visualization and testbench utility built in Java to solve complex subarray and resource-allocation problems like 'Longest Subarray With Equal 0s and 1s' and 'Minimum Platforms' under strict constraints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Java",
         "JavaFX",
-        "Algorithms"
+        "JUnit"
       ],
-      "title": "DSA-Pattern-Visualizer",
+      "title": "SubarrayPointer: Subarray & Platform Optimization Engine",
       "track": "",
-      "why_it_could_win": "Solves a core technical fundamental measured in the assessment by offering deep visualization into complex algorithmic state changes."
+      "why_it_could_win": "Solves the specific algorithmic challenges highlighted in Section 1 of the assessment with optimized Java data structures and clear step-by-step state visualization."
     },
     {
       "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A robust command-line and web quiz engine targeting core Java concepts, multithreading, and memory management with instant performance analytics and conceptual breakdowns.",
+      "pitch": "A combined technical reference and interactive quiz runner focusing heavily on DBMS normalization, indexing strategies, and Computer Networks protocol layers tailored for technical recruitment assessments.",
+      "problem_statement": "No published statement",
       "stack": [
         "Java",
-        "JUnit",
-        "Maven"
+        "MySQL",
+        "H2 Database",
+        "Thymeleaf"
       ],
-      "title": "CoreJava-QuizEngine",
+      "title": "NetDB Optimizer",
       "track": "",
-      "why_it_could_win": "Directly addresses the high weightage of Java Programming MCQs in the assessment syllabus by reinforcing tricky core language concepts."
+      "why_it_could_win": "Addresses the technical MCQ requirements (DBMS and Computer Networks) by providing an interactive review environment with deep-dive technical explanations."
     },
     {
-      "build_hours": 24,
+      "build_hours": 28,
       "inspired_by": [],
-      "pitch": "A spaced-repetition and dynamic testing platform focusing strictly on DBMS fundamentals and Computer Networks protocols to help students clear technical screening rounds.",
+      "pitch": "A modular Java sandbox environment highlighting tricky core Java concepts such as memory models, multithreading edge cases, garbage collection behaviors, and OOP principles typically tested in OAs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java",
+        "Maven",
+        "JMH"
+      ],
+      "title": "CoreJava Concept Lab",
+      "track": "",
+      "why_it_could_win": "Directly targets the 5 Java Programming MCQs in the assessment by demonstrating rigorous understanding of core language fundamentals through runnable code samples and benchmark tests."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A timed coding assessment simulator replicating online assessment constraints, automatic evaluation of DSA submissions, and instant grading breakdown for DBMS, Networking, and Java core topics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Java",
         "PostgreSQL",
-        "Spring"
+        "Docker"
       ],
-      "title": "Network-DB-Flashcards",
+      "title": "OAMetrics & Proctoring Simulator",
       "track": "",
-      "why_it_could_win": "Covers the technical MCQ domain requirements of the online assessment with targeted question banks and immediate feedback loops."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "An individual performance analytics tracker that simulates online assessment constraints, timing, and negative marking patterns for Java developers preparing for technical evaluations.",
-      "stack": [
-        "Java",
-        "SQLite",
-        "Thymeleaf"
-      ],
-      "title": "OA-Performance-Tracker",
-      "track": "",
-      "why_it_could_win": "Aligns with the rigorous time management constraints and individual competition format required by company-style online assessments."
+      "why_it_could_win": "Provides a meta-solution matching the exact format of the online assessment, allowing students to practice and test their proficiency across all sections under timed conditions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

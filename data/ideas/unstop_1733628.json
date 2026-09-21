@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:33.888571+00:00",
+  "generated_at": "2026-09-21T08:18:11.642849+00:00",
   "grounding": {
     "domains": [
       "hardware",
@@ -12,89 +12,100 @@
       "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1733628",
   "ideas": [
     {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1341712439",
-        "github:1010199928"
-      ],
-      "pitch": "A companion web and sensor dashboard that mounts onto the RC car to stream wheel speed, motor temperature, and battery draw via ESP32 to help optimize assembly alignment and racing lines.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Arduino",
-        "ESP32"
-      ],
-      "title": "PitStopTelemetry: Real-Time RC Car Diagnostics",
-      "track": "",
-      "why_it_could_win": "Since winners are judged on the combined total time of assembly and racing, giving teams a way to quickly diagnose mechanical friction or motor heating directly attacks the scoring metric."
-    },
-    {
-      "build_hours": 14,
+      "build_hours": 20,
       "inspired_by": [
         "github:682938717"
       ],
-      "pitch": "A lightweight browser tool where builders can input custom dimensions of their RC chassis to 3D model or paper-craft snap-on aerodynamic downforce wings optimized for the event track layout.",
+      "pitch": "A lightweight telemetry dashboard using an ESP32 strapped to the RC car to stream live motor temperature, battery voltage, and speed via Wi-Fi during the racing phase.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Three.js",
-        "Python"
+        "C++",
+        "Arduino",
+        "ESP32",
+        "Python",
+        "WebSockets"
       ],
-      "title": "AeroTuner: Computational Body Shell Generator",
+      "title": "PitStop Telemetry: Real-Time RC Car Diagnostics",
       "track": "",
-      "why_it_could_win": "Directly leans into the manufacturing and creativity pillar of the SME-organized event by providing a tangible engineering edge during the assembly phase."
+      "why_it_could_win": "Since winners are judged by combined total time, having an edge on vehicle health and preventing thermal throttling or battery dropouts directly addresses the core racing phase metric."
     },
     {
-      "build_hours": 16,
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A rapid-prototyping workflow to design, simulate, and 3D print a custom aerodynamic wing and chassis shroud specifically tailored to improve handling on the competition track's tightest turns.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Fusion360",
+        "OpenFOAM",
+        "Python",
+        "PrusaSlicer"
+      ],
+      "title": "AeroTune: CFD & 3D Printed Downforce Kit",
+      "track": "",
+      "why_it_could_win": "Most teams will focus purely on raw assembly speed; adding mechanical engineering customization for handling targets the second half of the scoring metric (Racing Time)."
+    },
+    {
+      "build_hours": 18,
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "A standalone webcam-based lap timer utilizing OpenCV and ArUco markers placed on the RC cars to automatically track heat times down to the millisecond without relying on manual stopwatches.",
+      "pitch": "An edge-computer vision setup using an affordable camera module and OpenCV to automatically track and time RC car laps as they cross the finish line, eliminating human stopwatch error.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
+        "Raspberry Pi",
         "Flask"
       ],
-      "title": "ChronosLap: Computer Vision Gate Timing",
+      "title": "SpeedSnap: Automated Lap Timing & Gate Detector",
       "track": "",
-      "why_it_could_win": "Automates the racing phase tracking with high precision, removing human error in timekeeping and providing instant feedback for drivers tuning their cars between rounds."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "An interactive, step-by-step augmented assembly guide featuring interactive 3D exploded views of the RC components to speed up the kit-building phase and prevent common alignment mistakes.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Three.js"
-      ],
-      "title": "GearSim: Assembly Guide & Torque Checklist",
-      "track": "",
-      "why_it_could_win": "Targeting the assembly phase time reduction gives teams a direct advantage in the combined total time score, as assembly speed is weighted equally with racing performance."
+      "why_it_could_win": "Provides immense utility to the event organizers and judges during practice rounds, making the team stand out through infrastructure contribution."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:280704133",
-        "github:682938717",
-        "github:1259981732"
+        "github:682938717"
       ],
-      "pitch": "A hardware modification kit integrating an Arduino-based steering wheel peripheral with custom tactile feedback to improve driver precision through tight track corners during the semi-finals and finals.",
+      "pitch": "An ergonomic, wearable glove embedded with an IMU sensor to steer the RC car via hand tilts instead of the standard plastic controller, giving superior tactile precision.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C#",
         "Arduino",
+        "MPU6050",
+        "nRF24L01",
         "C++"
       ],
-      "title": "SteerHaptic: Custom Controller Mod for RC Handling",
+      "title": "SteerCraft: Custom Gesture-Controlled Transmitting Module",
       "track": "",
-      "why_it_could_win": "Combines unusual physical hardware building with a live, demonstrable edge on track handling, mirroring past hardware-focused hackathon winners."
+      "why_it_could_win": "Combines unusual physical hardware building with a live demonstration that instantly grabs judges' attention during the racing heats."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "An inline current-sensing module wired between the battery and motor that logs peak draw to help teams optimize their gear ratios and prevent burnout during high-stress final races.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "ACS712",
+        "OLED Display",
+        "C++"
+      ],
+      "title": "TorqueGuard: Smart Gear Ratio & Current Limiter",
+      "track": "",
+      "why_it_could_win": "Directly tackles mechanical reliability under pressure, ensuring the car survives the initial heats into the semi-finals and finals without catastrophic electrical failure."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

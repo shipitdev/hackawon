@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:08.172587+00:00",
+  "generated_at": "2026-09-21T08:23:21.374638+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -11,96 +11,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746249",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "An autonomous payload drop mechanism using downward-facing computer vision and real-time GPS correction to hit target zones within 10cm accuracy during mission flight rounds.",
+      "pitch": "A computer-vision-guided payload dropping mechanism that mounts to standard UAV airframes for accurate target delivery.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
-        "ROS",
-        "ArduPilot",
+        "Arduino",
         "C++"
       ],
-      "title": "PrecisionDrop UAV Payload Delivery System",
+      "title": "AeroDrop: Precision Payload Release System",
       "track": "",
-      "why_it_could_win": "Directly tackles Round 2 mission flight requirements like payload drop, combining hardware actuation with reliable on-board CV matching the winning robotics rover pattern."
+      "why_it_could_win": "Directly targets the Mission Flight round requirements (payload drop task) with high mechanical precision and a live camera feedback demonstration."
     },
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1144331507",
-        "github:1284625256"
+        "github:1296916648"
       ],
-      "pitch": "A lightweight radio-frequency mesh telemetry relay that maintains continuous bidirectional drone tracking and emergency kill-switch capability even in GPS-denied or RF-jammed environments.",
+      "pitch": "An onboard edge-computing module that processes aerial video frames into a real-time stitched map without cloud dependency.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LoRa",
-        "Hardware",
-        "MAVLink"
+        "OpenCV",
+        "NumPy",
+        "C++"
       ],
-      "title": "AeroSync Offline Mesh Telemetry",
+      "title": "GeoMapper Edge: Offline Orthomosaic Stitching Pipeline",
       "track": "",
-      "why_it_could_win": "Addresses critical safety and compliance inspection criteria by providing a robust backup communication link in case of primary telemetry loss."
+      "why_it_could_win": "Solves the mapping mission task entirely offline, leveraging hard engineering principles similar to edge-AI winners."
     },
     {
       "build_hours": 24,
       "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "An independent hardware safety overlay that forces an immediate return-to-home or parachute deployment upon geofence breach or RC link loss.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ArduPilot",
+        "Hardware",
+        "Telemetry"
+      ],
+      "title": "SafeReturn: Geofence and Signal-Loss Fail-Safe Module",
+      "track": "",
+      "why_it_could_win": "Aligns directly with strict safety inspection rounds and rules, giving judges confidence in the team's risk management."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A lightweight secondary flight logger and telemetry broadcaster for crash analysis and compliance reporting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LoRa",
+        "Raspberry Pi Zero",
+        "MQTT"
+      ],
+      "title": "AeroTelemetry: Long-Range Telemetry and Black Box Logger",
+      "track": "",
+      "why_it_could_win": "Aids the documentation and viva round by providing verifiable flight telemetry logs and crash-analysis data."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "An automated vision and sensor checklist system that inspects propeller balance, motor health, and battery voltage before flight, generating an instant compliance report for Round 1 technical inspection.",
+      "pitch": "A low-latency, two-axis servo gimbal controlled by onboard color/object tracking to keep targets centered during flight.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TensorFlow Lite",
-        "Raspberry Pi",
-        "OpenCV"
-      ],
-      "title": "UAV Pre-Flight Airworthiness Auditor",
-      "track": "",
-      "why_it_could_win": "Streamlines Round 1 Technical & Safety Inspection, impressing judges with rigorous adherence to safety norms and airworthiness verification."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1259981732"
-      ],
-      "pitch": "An edge-computed mapping pipeline that detects obstacles and constructs a 2D orthomosaic grid in real-time onboard the UAV without requiring an active cloud internet connection.",
-      "stack": [
-        "Python",
-        "C++",
-        "ROS2",
         "OpenCV",
-        "Jetson Nano"
+        "Raspberry Pi",
+        "Servo Motors"
       ],
-      "title": "Autonomous Mapping and Hazard Detection Drone",
+      "title": "VisionTrack: Autonomous Target Tracking Gimbal",
       "track": "",
-      "why_it_could_win": "Executes complex mapping mission tasks entirely offline at the edge, demonstrating advanced autonomous navigation that stands out during the documentation and viva round."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1281918590"
-      ],
-      "pitch": "An independent hardware safety cutoff module that monitors real-time GPS coordinates and automatically cuts motor power if the UAV drifts outside the designated flight zone boundary.",
-      "stack": [
-        "C++",
-        "Arduino",
-        "GPS Module",
-        "Relay Circuit"
-      ],
-      "title": "GeoFence Guardian Flight Limiter",
-      "track": "",
-      "why_it_could_win": "Directly enforces the strict safety regulation that flights must remain within the designated flight zone and protects against runaway crashes during flight rounds."
+      "why_it_could_win": "Demonstrates an unusual physical build with a live working demo that stands out during flight evaluations."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

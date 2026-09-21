@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:28.609825+00:00",
+  "generated_at": "2026-09-21T08:14:39.736983+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:la-hacks-ai-hackathon-2026",
@@ -15,85 +17,92 @@
     {
       "build_hours": 24,
       "inspired_by": [
+        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite and aerial monitoring system designed to track urban heat islands and industrial compliance across Los Angeles County.",
+      "pitch": "Real-time AI anomaly detection and predictive incident forecasting for the Los Angeles Metro system.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Leaflet",
-        "Gemini API"
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Next.js"
       ],
-      "title": "AeroSentinel LA",
+      "title": "LA-Transit-Pulse",
       "track": "",
-      "why_it_could_win": "It leverages the hard engineering pattern seen in past geospatial winners like GeoNex-ATLAS, offering judges a tangible environmental impact angle suited for Los Angeles."
+      "why_it_could_win": "Leverages the winning formula from ai-incident-forecasting by combining robust predictive modeling with localized infrastructure data, appealing directly to judges looking for heavy technical depth."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1200926140"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered video intelligence platform tailored for local production houses to instantly index, search, and analyze raw B-roll and script alignment.",
+      "pitch": "Automated environmental and land-use compliance checker for commercial real estate developments in Southern California.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
+        "TypeScript",
         "Python",
-        "OpenCV",
-        "Vector Database"
+        "OpenAI API",
+        "PostGIS"
       ],
-      "title": "CineSearch LA",
+      "title": "CaliCompliance-AI",
       "track": "",
-      "why_it_could_win": "It mimics the winning formula of LibrAI by turning unstructured video data into actionable searchable databases, appealing directly to the local entertainment hub of Los Angeles."
+      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by applying computer vision and geospatial AI to solve a localized regulatory headache that judges will immediately recognize as valuable."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1087704265"
+        "github:1181344931"
       ],
-      "pitch": "An automated risk forecasting and incident detection engine designed to predict supply chain disruptions across West Coast shipping ports.",
+      "pitch": "Graph-intelligence-powered anti-money laundering risk detection platform tailored for regional Los Angeles fintech startups.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
+        "TypeScript",
         "Python",
-        "Poisson GAM",
-        "Streamlit"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "PacificRisk AI",
+      "title": "Silverlake-AML",
       "track": "",
-      "why_it_could_win": "It adapts the rigorous predictive modeling and Poisson regression techniques seen in the Apart Research AI Forecasting winner to a high-value logistics problem."
+      "why_it_could_win": "Directly adopts the high-complexity graph intelligence and explainable machine learning architecture that won the DIGITIMES AI Innovation Hackathon."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-driven patient acquisition and trust engine specifically built for specialized cosmetic and dental clinics in Southern California.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "MediTrust LA",
-      "track": "",
-      "why_it_could_win": "It applies the rapid sprint success of Global-Smile, delivering immediate, measurable business conversion value that hackathon judges and local founders love."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace with smart contract escrow payments tailored for freelance creative services in the Los Angeles gig economy.",
+      "pitch": "Autonomous multi-agent marketplace utilizing cryptocurrency escrow payments for localized freelance gig workers in Los Angeles.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
         "Node.js"
       ],
-      "title": "AgenticEscrow LA",
+      "title": "Pacific-Escrow-Agent",
       "track": "",
-      "why_it_could_win": "It incorporates the proven architecture of Dispatch, combining agentic workflows with secure escrow transactions to deliver a complete product within 30 hours."
+      "why_it_could_win": "Replicates the winning architecture of Dispatch by integrating autonomous agent workflows with secure on-chain escrow, creating a polished end-to-end product demo."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "Personalized AI nutrition and wellness assistant optimized for Southern California dietary preferences and local organic produce availability.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "FastAPI",
+        "React"
+      ],
+      "title": "BioNutri-LA",
+      "track": "",
+      "why_it_could_win": "Follows the proven execution path of E-Foodiee-AI-Nutrition-Assistant by focusing on hyper-personalized user experiences with immediate consumer utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

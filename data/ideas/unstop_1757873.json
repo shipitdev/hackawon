@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-09-19T07:29:22.614523+00:00",
+  "generated_at": "2026-09-21T08:36:55.589385+00:00",
   "grounding": {
     "domains": [
       "healthtech",
+      "hardware",
       "data"
     ],
     "exemplar_count": 8,
     "patterns": [
       "impact",
-      "technical-depth"
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757873",
@@ -17,87 +22,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1228328106",
-        "github:1275874285"
+        "github:1228328106"
       ],
-      "pitch": "A localized digital twin model targeting Type 2 Diabetes prevalent in India, simulating real-time glucose response based on regional meal intake and simulated wearable continuous glucose monitor (CGM) streams.",
+      "pitch": "A localized digital twin for Indian Type 2 diabetes patients that combines EHR profiles with simulated real-time continuous glucose monitor (CGM) streams to forecast glycemic excursions hours before they happen.",
+      "problem_statement": "Build a proof-of-concept Digital Twin Model focused on predicting a specific, localized health outcome for a chronic condition prevalent in India (Type 2 Diabetes).",
       "stack": [
         "Python",
-        "Streamlit",
         "XGBoost",
-        "Pandas"
+        "SHAP",
+        "FastAPI",
+        "Streamlit"
       ],
-      "title": "GlucoTwin: Type 2 Diabetes Postprandial Glucose Surge Predictor",
+      "title": "GlycoTwin: Type 2 Diabetes Glucose Spike & Lifestyle Digital Twin",
       "track": "",
-      "why_it_could_win": "Directly hits the core prompt requirement to select a specific, highly prevalent chronic condition in India and build a focused proof-of-concept digital twin."
+      "why_it_could_win": "Directly hits the core challenge theme by addressing Type 2 Diabetes in India, featuring a live-updating simulation dashboard and clinical explainability using SHAP values modeled after winning readmission architectures."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1228328106"
+        "github:1341712439"
       ],
-      "pitch": "An AI-powered digital twin prototype that ingests simulated continuous blood pressure and heart rate variability metrics to forecast acute hypertensive episodes 4 hours before onset.",
+      "pitch": "A localized cardiovascular digital twin that simulates coronary plaque progression using patient lipid profiles, wearable heart-rate variability, and localized dietary patterns.",
+      "problem_statement": "Build a proof-of-concept Digital Twin Model focused on predicting a specific, localized health outcome for a chronic condition prevalent in India (Cardiovascular risk).",
       "stack": [
         "Python",
-        "FastAPI",
-        "Scikit-Learn",
-        "React"
+        "TensorFlow",
+        "React",
+        "Node.js",
+        "TimescaleDB"
       ],
-      "title": "CardioTwin-Risk: Hypertension and Stroke Early Warning Simulator",
+      "title": "CardioVeda: Ayurvedic-Integrated Cardiovascular Risk Twin",
       "track": "",
-      "why_it_could_win": "Focuses on proactive digital health prevention—shifting from reactive care to proactive modeling, which matches the overarching summit philosophy."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:504196992",
-        "github:318387281"
-      ],
-      "pitch": "A localized digital twin combining regional particulate matter (PM2.5) data streams with simulated pulmonary function test histories to predict individual daily asthma exacerbation risks.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Streamlit",
-        "Plotly"
-      ],
-      "title": "AeroTwin: Urban Asthma and COPD Respiratory Trigger Twin",
-      "track": "",
-      "why_it_could_win": "Leverages real-world environmental health challenges prevalent in Indian metropolitan areas, scoring high on local relevance and practical preventive utility."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:236121938"
-      ],
-      "pitch": "A specialized simulation model replicating metabolic dysfunction-associated steatohepatitis (NASH) trajectories using patient EHR data, diet logs, and synthetic liver enzyme fluctuations.",
-      "stack": [
-        "Python",
-        "XGBoost",
-        "Flask",
-        "TailwindCSS"
-      ],
-      "title": "NASH-Twin: Metabolic Liver Disease Progression Model",
-      "track": "",
-      "why_it_could_win": "Tackles a complex, emerging lifestyle disease epidemic in India with a clear, niche proof-of-concept scope suitable for a 48-hour build."
+      "why_it_could_win": "Focuses on cardiovascular risk—a leading health crisis in urban India—and presents a working dashboard with clear predictive simulations that judges can interact with live."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1228328106"
+        "github:1140260754"
       ],
-      "pitch": "A predictive digital twin module estimating eGFR decline rates in diabetic nephropathy patients using longitudinal creatinine and blood pressure time-series records.",
+      "pitch": "An edge-computed blood pressure fluctuation digital twin that ingests ambulatory BP monitor logs and personal EHRs to simulate morning surge events and stroke risks.",
+      "problem_statement": "Build a proof-of-concept Digital Twin Model focused on predicting a specific, localized health outcome for a chronic condition prevalent in India (Hypertension).",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Chart.js"
+      ],
+      "title": "HyperGuard: Hypertension & Salt-Sensitivity Digital Twin",
+      "track": "",
+      "why_it_could_win": "Addresses hypertension with a heavy emphasis on hard engineering and local physiological telemetry, mirroring the architecture of award-winning biomedical IoT systems."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:504196992"
+      ],
+      "pitch": "A specialized virtual physiological twin for gestational diabetes mellitus (GDM) predicting maternal-fetal metabolic stress responses based on regional dietary input and clinical biomarkers.",
+      "problem_statement": "Build a proof-of-concept Digital Twin Model focused on predicting a specific, localized health outcome for a chronic condition prevalent in India (Type 2 Diabetes / Metabolic Disorders).",
       "stack": [
         "Python",
-        "SHAP",
+        "Scikit-Learn",
         "Streamlit",
-        "Pandas"
+        "PostgreSQL"
       ],
-      "title": "NephroTwin: Chronic Kidney Disease Deterioration Forecaster",
+      "title": "GestationalTwin: Pregnancy Metabolic Risk Simulator",
       "track": "",
-      "why_it_could_win": "Demonstrates clinical explainability and addresses a massive chronic disease burden in India, fitting the proactive medicine mandate of the Digital Twin Challenge."
+      "why_it_could_win": "Tackles an under-represented maternal health angle within Indian chronic disease frameworks, delivering high social impact and a clean predictive workflow."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:666215867"
+      ],
+      "pitch": "A localized respiratory digital twin that correlates personal peak-flow meter readings and EHR history with hyper-local particulate matter data to simulate acute asthma exacerbation risks.",
+      "problem_statement": "Build a proof-of-concept Digital Twin Model focused on predicting a specific, localized health outcome for a chronic condition prevalent in India (Cardiovascular and Respiratory risk).",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "RespiTwin: Urban Air Pollution Asthma Digital Twin",
+      "track": "",
+      "why_it_could_win": "Directly ties chronic respiratory conditions to major Indian urban challenges (air pollution), offering tangible preventative utility that healthcare judges prioritize."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

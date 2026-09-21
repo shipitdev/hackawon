@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-09-13T08:01:48.440933+00:00",
+  "generated_at": "2026-09-21T08:33:36.426376+00:00",
   "grounding": {
-    "domains": [
-      "devtools"
-    ],
+    "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "sponsor-tech",
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755081",
@@ -16,80 +17,81 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1296916648"
+        "github:1185527998"
       ],
-      "pitch": "An offline competitive programming code evaluator running entirely on local Snapdragon NPUs for instant test-case verification without network latency.",
+      "pitch": "An interactive desktop tool built to step through complex data structure operations and graph traversal algorithms line-by-line with real-time complexity analysis.",
+      "problem_statement": "Round 1 & 2: Data Structures and Algorithms Problem-Solving and Efficiency.",
       "stack": [
         "Python",
-        "C++",
-        "Qualcomm Snapdragon NPU SDK"
+        "PyQt",
+        "NetworkX"
       ],
-      "title": "Algorunner NPU",
+      "title": "AlgoVisualizer Pro",
       "track": "",
-      "why_it_could_win": "Follows the pattern of building genuinely hard engineering systems tailored for high-speed offline execution, appealing directly to competitive programmers needing instant feedback."
+      "why_it_could_win": "Since judges in competitive programming evaluate correctness and efficiency, a tool that exposes the inner mechanics and performance bottlenecks of advanced algorithms directly targets their evaluation criteria."
     },
     {
       "build_hours": 40,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A reinforcement learning agent that optimizes competitive programming solutions by exploring alternative algorithmic paths and reducing time complexity on the fly.",
+      "inspired_by": [],
+      "pitch": "A minimalist, low-latency live coding platform designed for individual contestants to practice head-to-head algorithmic problem-solving with automated test-case generation.",
+      "problem_statement": "Round 1: Programming Fundamentals and Algorithmic Challenge solving.",
       "stack": [
-        "Python",
-        "PyTorch",
-        "Ray"
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Redis"
       ],
-      "title": "HyperSolve RL",
+      "title": "CP-Duel Arena",
       "track": "",
-      "why_it_could_win": "Leverages the advanced reasoning and efficiency patterns proven in winning entries focused on algorithm optimization and reinforcement learning."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router that categorizes incoming algorithmic problem statements into optimal data structure and pattern templates before coding begins.",
-      "stack": [
-        "Python",
-        "Superlinked",
-        "Qwen"
-      ],
-      "title": "Semantic Judge",
-      "track": "",
-      "why_it_could_win": "Adapts a proven semantic routing and exemplar index approach to drastically speed up problem classification during high-intensity contests."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "An adversarial AI testing framework that generates edge-case inputs specifically designed to break suboptimal algorithmic solutions during practice sessions.",
-      "stack": [
-        "Python",
-        "Braintrust",
-        "Claude"
-      ],
-      "title": "Adversarial Testgen",
-      "track": "",
-      "why_it_could_win": "Utilizes adversarial AI patterns to push code correctness and robustness to the absolute limit, directly aligning with rigorous evaluation criteria."
+      "why_it_could_win": "Focuses intensely on speed, accuracy, and penalty reduction—the exact metrics specified for evaluating participants in the hackathon guidelines."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1351321536"
+        "github:1179000073"
       ],
-      "pitch": "An OS-orchestrated local development extension tailored for competitive programmers to auto-boilerplate standard templates and trace variable states instantly.",
+      "pitch": "A specialized C-based CLI tool and library for solving heavy logical and mathematical problems with optimized bit manipulation shortcuts.",
+      "problem_statement": "Round 1: Logical & Mathematical Problems and Programming Fundamentals.",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Cursor API"
+        "C",
+        "Make"
       ],
-      "title": "Cursor CP Assistant",
+      "title": "Bitwise Math Solver",
       "track": "",
-      "why_it_could_win": "Builds on the winning cursor-focused developer productivity and operational orchestration patterns for maximum coding speed and accuracy."
+      "why_it_could_win": "Demonstrates extreme execution speed and low-level optimization in C, mirroring projects that succeed through raw performance efficiency."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A local command-line judge utility that runs test suites against candidate solutions, measuring execution time, memory overhead, and corner-case failures instantly.",
+      "problem_statement": "Round 2: Evaluation based on problems solved, correctness, efficiency, and time/penalty.",
+      "stack": [
+        "Python",
+        "Subprocess",
+        "Rich"
+      ],
+      "title": "AutoJudge CLI",
+      "track": "",
+      "why_it_could_win": "Directly automates the exact grading rubric judges use, showing deep understanding of time/penalty constraints in competitive programming."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "An algorithmic sandbox specifically tuned for instant visualization and resolution of NP-hard graph and network flow problems under tight time limits.",
+      "problem_statement": "Round 2: Challenging algorithmic problems.",
+      "stack": [
+        "C++",
+        "OpenGL",
+        "Dear ImGui"
+      ],
+      "title": "GraphOpt Engine",
+      "track": "",
+      "why_it_could_win": "Appeals to judges looking for advanced data structure handling and optimized algorithmic complexity rather than basic web wrappers."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

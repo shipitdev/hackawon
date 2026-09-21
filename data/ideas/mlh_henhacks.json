@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:52.917548+00:00",
+  "generated_at": "2026-09-21T08:14:03.402691+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:henhacks",
   "ideas": [
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1155558847",
         "github:1213911408"
       ],
-      "pitch": "An AI-powered satellite monitoring tool tracking industrial runoff and water quality changes specifically for Delaware local waterways using spatial imagery analysis.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "Gemini API"
-      ],
-      "title": "Delaware Local Watershed AI Monitor",
-      "track": "",
-      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by applying geospatial AI to localized industrial and environmental compliance, which appeals strongly to regional university judges."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive model and dashboard estimating campus safety incidents and maintenance bottlenecks using Poisson regression and historical university facilities data.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "TypeScript"
-      ],
-      "title": "Campus AI Incident Forecasting Dashboard",
-      "track": "",
-      "why_it_could_win": "Directly replicates the technical win condition of the Apart Research AI Forecasting Hackathon by using robust statistical modeling like Poisson regression instead of a generic wrapper."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1213911408"
-      ],
-      "pitch": "A personalized meal planning and campus dining nutrition assistant utilizing LangGraph and RAG to optimize meals based on local student dining hall menus.",
+      "pitch": "A decentralized platform aggregating real-time energy consumption and waste metrics across University of Delaware campus buildings to optimize institutional sustainability.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
         "LangGraph"
       ],
-      "title": "Student Health and Nutrition Multi-Agent Platform",
+      "title": "Delaware Campus Carbon Footprint Aggregator",
       "track": "",
-      "why_it_could_win": "Builds upon the success of E-Foodiee and Greennovation by integrating multi-agent student workflows with practical, highly personalized health recommendations."
+      "why_it_could_win": "Follows the exact green-innovation winning pattern by tackling local sustainability metrics with a concrete multi-agent data ingestion pipeline."
     },
     {
-      "build_hours": 30,
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An interactive graph intelligence tool that maps and scores compliance and financial risk for mid-Atlantic regional manufacturing suppliers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "Neo4j"
+      ],
+      "title": "Local Supply Chain Fraud & Risk Graph",
+      "track": "",
+      "why_it_could_win": "Leverages the proven graph intelligence and risk-scoring architecture that secured first place at the DIGITIMES AI Innovation Hackathon."
+    },
+    {
+      "build_hours": 22,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous agent marketplace facilitating secure, escrow-backed transactions between student freelancers and local Newark businesses using USDC.",
+      "pitch": "An autonomous agent dispatcher for local delivery cooperatives using secure milestone-based escrow on Base for reliable gig-economy fulfillment.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
-        "TypeScript"
+        "Node.js"
       ],
-      "title": "Local Vendor Micro-Escrow Marketplace",
+      "title": "Autonomous Regional Transit Escrow Dispatch",
       "track": "",
-      "why_it_could_win": "Employs the proven Dispatch architecture combining autonomous agents with real financial settlement, creating a tangible product with immediate local utility."
+      "why_it_could_win": "Replicates the winning autonomous agent marketplace and USDC escrow architecture from the Synthesis Hackathon."
     },
     {
-      "build_hours": 24,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-driven patient intake and trust acquisition platform tailored for regional dental and health clinics around Delaware to streamline patient onboarding.",
+      "pitch": "A localized nutritional planning and dining hall integration assistant tailored specifically to university meal plans and dietary restrictions.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js"
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
       ],
-      "title": "Prosthodontic Patient Trust Engine for Regional Clinics",
+      "title": "Student Health and Campus Nutrition Optimizer",
       "track": "",
-      "why_it_could_win": "Leverages the exact winning strategy of Global-Smile by focusing on vertical-specific patient acquisition and trust-building workflows."
+      "why_it_could_win": "Adopts the practical consumer-health utility and rapid API integration strategy that won first prize at the Mealzy 24-Hour Hackathon."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A forecasting dashboard tracking localized automated software failures and algorithmic bias incidents using Poisson regression and calibrated prediction intervals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "Regional AI Incident Forensic Tracker",
+      "track": "",
+      "why_it_could_win": "Applies rigorous statistical modeling and calibrated prediction intervals proven successful at the Apart Research AI Forecasting Hackathon."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

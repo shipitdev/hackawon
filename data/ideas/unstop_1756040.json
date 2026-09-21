@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-16T07:51:18.061575+00:00",
+  "generated_at": "2026-09-21T08:35:07.726930+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1756040",
@@ -14,85 +18,94 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
+        "github:1213911408",
+        "github:1185920891"
       ],
-      "pitch": "An autonomous multi-agent system that analyzes live satellite feeds and regulatory zoning PDFs to generate compliance reports for state industrial development boards.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LangGraph",
-        "Gemini API"
-      ],
-      "title": "Agentic Compliance Auditor for Industrial Land",
-      "track": "Agentic AI",
-      "why_it_could_win": "Leverages the Agentic AI track explicitly called out in the hackathon description while combining hard geo-spatial processing inspired by previous hackathon winners."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent platform utilizing specialized LLM agents to monitor student engagement metrics, automatically generate personalized tutoring roadmaps, and flag dropout risks.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "Python"
-      ],
-      "title": "Autonomous Multi-Agent Student Support & Intervention Network",
-      "track": "Agentic AI",
-      "why_it_could_win": "Directly hits the Agentic AI track requirements for autonomous reasoning and planning, matching proven winning patterns from educational and student support hackathons."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive analytics dashboard utilizing Poisson regression and statistical modeling to forecast potential deployment failures and safety incidents in generative AI pipelines.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Scikit-Learn"
-      ],
-      "title": "AI Incident Forecasting & Safety Registry",
-      "track": "Agentic AI",
-      "why_it_could_win": "Applies rigorous statistical machine learning to safety governance, mimicking award-winning architectures that stand out against standard LLM wrappers."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An agentic patient intake workflow that automates consultation booking, automated clinical trust building, and personalized health plan generation for specialized healthcare practices.",
+      "pitch": "An autonomous multi-agent system that ingests smart campus maintenance requests, plans repair steps, assigns tools/contractors, and resolves multi-step issues automatically.",
+      "problem_statement": "Digital Twins & Predictive Intelligence and Agentic AI tracks: Building smart campus solutions using autonomous AI agents.",
       "stack": [
         "TypeScript",
         "Next.js",
+        "LangGraph",
         "Gemini API"
       ],
-      "title": "Autonomous Patient Acquisition & Trust Engine for Clinics",
+      "title": "Agentic Campus Incident & Ticket Dispatcher",
       "track": "Agentic AI",
-      "why_it_could_win": "Targets high-value operational bottlenecks in healthcare with a fully realized central workflow prototype rather than a basic pitch deck."
+      "why_it_could_win": "Directly hits the Agentic AI track with a clear, multi-step agentic workflow and execution plan that stands out to judges looking for actual reasoning loops rather than wrappers."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265",
+        "github:1143576965"
       ],
-      "pitch": "An agentic risk detection and investigation platform that combines graph intelligence models to surface suspicious transactional patterns and automate compliance filings.",
+      "pitch": "A real-time disaster management and prediction platform utilizing live sensor feeds to build a digital representation of urban flood risks.",
+      "problem_statement": "Digital Twins & Predictive Intelligence: Create digital representations of real-world systems that use data to monitor conditions and predict disaster management outcomes.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "FastAPI",
+        "Pandas"
+      ],
+      "title": "FloodWatch Digital Twin",
+      "track": "Digital Twins & Predictive Intelligence",
+      "why_it_could_win": "Combines predictive intelligence with a proven real-time disaster management format, appealing to judges who value clear measurable social impact."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1241231621"
+      ],
+      "pitch": "A localized voice-first and multilingual AI agent platform for rural communities providing instant preventive care info and automated vaccine scheduling.",
+      "problem_statement": "Agentic AI: Build autonomous AI agents or intelligent assistants capable of reasoning and completing multi-step tasks for community healthcare.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Web Speech API"
+      ],
+      "title": "RuralMed Multilingual Health Awareness Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Adapts the proven structure of successful multilingual health assistants to an agentic execution model, matching high-impact social needs."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A simulation and monitoring platform for smart city logistics that tracks vehicle fleets, computes carbon output, and predicts optimal routing during gridlock.",
+      "problem_statement": "Digital Twins & Predictive Intelligence: Create digital representations of real-world systems focusing on logistics and transportation.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Python"
+      ],
+      "title": "Logistics Carbon & Traffic Digital Twin",
+      "track": "Digital Twins & Predictive Intelligence",
+      "why_it_could_win": "Addresses the specific sub-theme of logistics and transportation in the Digital Twins track with a clean, demonstrable simulation interface."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1185920891"
+      ],
+      "pitch": "An agentic compliance assistant that constructs transaction networks, runs graph intelligence algorithms, and explains high-risk multi-step financial flows.",
+      "problem_statement": "Agentic AI: Build autonomous AI agents and intelligent multi-step assistants capable of reasoning, planning, and using tools.",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM",
+        "FastAPI",
         "NetworkX"
       ],
-      "title": "Graph-Powered AML Risk Intelligence Agent",
+      "title": "Autonomous AML & Risk Graph Investigator",
       "track": "Agentic AI",
-      "why_it_could_win": "Brings genuine algorithmic complexity to financial crime detection, satisfying judges looking for advanced analytical processing instead of superficial UI wraps."
+      "why_it_could_win": "Leverages heavy technical patterns like graph intelligence and explainable outputs which score well among technical judges evaluating hard engineering."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

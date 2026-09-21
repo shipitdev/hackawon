@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:58:07.953182+00:00",
+  "generated_at": "2026-09-21T08:27:04.210226+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749579",
@@ -14,86 +18,96 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring and supply chain risk platform that evaluates industrial land and green compliance against environmental standards.",
+      "pitch": "An edge-computed traffic light synchronization and air pollution mitigation dashboard designed for smart cities.",
+      "problem_statement": "Smart & Sustainable Cities Urban innovati",
       "stack": [
         "TypeScript",
-        "Python",
-        "Next.js",
-        "LightGBM"
-      ],
-      "title": "EcoGraph Compliance Intelligence",
-      "track": "",
-      "why_it_could_win": "Adapts proven satellite monitoring and graph intelligence patterns to address real-world environmental and industrial challenges, aligning closely with the national engineering and real-world impact goals of Zinnovatio 4.0."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered multi-agent student support and peer guidance platform utilizing RAG and specialized workflows to streamline academic counselling.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LangGraph",
-        "Gemini API"
-      ],
-      "title": "CampusCare Multi-Agent Advisor",
-      "track": "",
-      "why_it_could_win": "Leverages multi-agent architectures that have proven successful in similar academic hackathons by directly solving institutional support challenges."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-driven nutrition and wellness platform tailored for young adults, delivering personalized meal recommendations and lifestyle tracking with localized dietary data.",
-      "stack": [
         "Python",
         "FastAPI",
-        "Next.js",
-        "TailwindCSS"
+        "Leaflet.js",
+        "TensorFlow Lite"
       ],
-      "title": "NutriTrack Gen-Z Wellness Engine",
-      "track": "",
-      "why_it_could_win": "Directly applies the award-winning personalization engine architecture from recent fast-paced health hackathons to target Gen-Z demographics."
+      "title": "UrbanFlow AI - Smart Traffic & Air Quality Corridor Optimization",
+      "track": "Smart & Sustainable Cities",
+      "why_it_could_win": "Directly targets the Smart & Sustainable Cities track with measurable environmental impact, mirroring the satellite monitoring success seen in GeoNex-ATLAS."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive forecasting dashboard using Poisson regression and statistical modeling to anticipate infrastructure incidents and maintenance bottlenecks on university grounds.",
+      "pitch": "A machine learning predictive model forecasting localized municipal grid loads and renewable energy surpluses.",
+      "problem_statement": "Smart & Sustainable Cities Urban innovati",
       "stack": [
-        "Jupyter Notebook",
         "Python",
+        "Jupyter Notebook",
         "Pandas",
+        "Scikit-Learn",
         "Streamlit"
       ],
-      "title": "IncidentCast Campus Risk Forecaster",
-      "track": "",
-      "why_it_could_win": "Brings rigorous statistical modeling and calibrated prediction intervals to a practical campus management problem, demonstrating genuinely hard engineering."
+      "title": "EcoGrid AI - Urban Energy Consumption Forecaster",
+      "track": "Smart & Sustainable Cities",
+      "why_it_could_win": "Utilizes rigorous statistical forecasting and calibrated confidence intervals, directly drawing from the winning methodology of Apart Research AI Forecasting."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered computer vision and multi-agent pipeline that ingests citizen complaints, detects potholes and streetlamp failures from photos, and auto-routes tickets with data lineage.",
+      "problem_statement": "Smart & Sustainable Cities Urban innovati",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LangGraph",
+        "PostgreSQL",
+        "OpenCV"
+      ],
+      "title": "CivicSense - Automated Urban Infrastructure Issue Triager",
+      "track": "Smart & Sustainable Cities",
+      "why_it_could_win": "Combines practical municipal utility with autonomous agent routing, a proven formula seen in the BlackBox DataHub Agent Hackathon winner."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
+        "github:1143576965"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine designed for regional medical clinics to streamline onboarding and manage patient education securely.",
+      "pitch": "An IoT and sensor-stream analytics platform that monitors pipe pressure anomalies to flag municipal water leaks and contamination risks instantly.",
+      "problem_statement": "Smart & Sustainable Cities Urban innovati",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "PostgreSQL"
+        "Node.js",
+        "Python",
+        "InfluxDB",
+        "React",
+        "MQTT"
       ],
-      "title": "TrustClinics AI Patient Acquirer",
-      "track": "",
-      "why_it_could_win": "Replicates a proven high-performance template from short-duration medical tech sprints, focusing heavily on user trust and rapid prototyping."
+      "title": "AquaWatch - Real-Time Urban Water Contamination & Leak Detector",
+      "track": "Smart & Sustainable Cities",
+      "why_it_could_win": "Addresses critical infrastructure vulnerabilities in modern urban centers with a live, working telemetry dashboard that impresses judges evaluating tangible prototypes."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A geospatial design tool that analyzes satellite imagery and roof surface temperatures to recommend optimal locations for green roofing interventions.",
+      "problem_statement": "Smart & Sustainable Cities Urban innovati",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Mapbox GL JS",
+        "GeoPandas",
+        "Flask"
+      ],
+      "title": "GreenRoof AI - Urban Heat Island Mitigation Planner",
+      "track": "Smart & Sustainable Cities",
+      "why_it_could_win": "Provides concrete ecological benefits with quantifiable temperature reduction metrics, appealing directly to sustainability judges looking for actionable solutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

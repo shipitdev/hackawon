@@ -1,13 +1,17 @@
 {
-  "generated_at": "2026-09-13T07:52:39.543130+00:00",
+  "generated_at": "2026-09-21T08:20:39.393234+00:00",
   "grounding": {
     "domains": [
       "fintech"
     ],
     "exemplar_count": 8,
     "patterns": [
+      "judge-pain",
+      "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1743355",
@@ -15,85 +19,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:950564513"
-      ],
-      "pitch": "An AI-powered digital branch platform providing automated document verification and conversational credit underwriting specifically tuned for Indian student and young professional micro-loans.",
-      "stack": [
-        "Next.js",
-        "Node.js",
-        "Python",
-        "TensorFlow.js"
-      ],
-      "title": "LoanCue NSUT",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the Standard Chartered winning pattern by addressing realistic retail banking pain points with localized workflows."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered anti-money laundering risk detection tool that uses graph intelligence to flag suspicious UPI and crypto fund flows for everyday retail fintech apps.",
-      "stack": [
-        "TypeScript",
-        "AWS",
-        "Python",
-        "Neo4j"
-      ],
-      "title": "PaisaGraph AML",
-      "track": "",
-      "why_it_could_win": "Leverages heavy engineering patterns like graph intelligence and compliance infrastructure that appeal to finance judges."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-driven social trading execution platform tailored for Indian retail investors to safely copy, backtest, and execute algorithmic momentum strategies.",
+      "pitch": "An AI-powered graph intelligence platform that detects suspicious retail transactions and flags money laundering patterns in real-time.",
+      "problem_statement": "Real-world challenges faced by people in their everyday lives related to digital transaction fraud and financial security.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "WebSockets"
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "StrategyCopy India",
+      "title": "FinGuard AML",
       "track": "",
-      "why_it_could_win": "Builds on the grand prize-winning Pacifica Hackathon architecture by translating institutional algorithmic copy-trading into an accessible consumer interface."
+      "why_it_could_win": "Directly applies advanced graph intelligence and explainable machine learning inspired by proven AML winning architectures, appealing heavily to finance and economics judges looking for rigorous risk mitigation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1289086869"
+      ],
+      "pitch": "An enterprise-grade agent that combats wrongful insurance and financial claim denials by automatically parsing and matching insurer policy documents.",
+      "problem_statement": "Real-world challenges faced by people in their everyday lives regarding complex bureaucratic insurance claim rejections.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "LLMs",
+        "LangChain",
+        "TailwindCSS"
+      ],
+      "title": "PolicyShield",
+      "track": "",
+      "why_it_could_win": "Leverages multi-agent orchestration and rigorous document grounding to solve a painful consumer grievance that every judge or family member has personally experienced."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1091333339"
       ],
-      "pitch": "An autonomous AI agent marketplace that executes micro-task contracts and instantly settles payments using stablecoin escrow accounts.",
+      "pitch": "A lightweight HTTP 402 payment gateway enabling real-time micropayments for premium financial data feeds.",
+      "problem_statement": "Real-world challenges faced by people in their everyday lives in accessing premium financial insights without expensive monthly subscription models.",
       "stack": [
-        "JavaScript",
-        "Solidity",
-        "Base",
-        "Node.js"
+        "TypeScript",
+        "Solana",
+        "Node.js",
+        "Express"
       ],
-      "title": "AgentSettle",
+      "title": "SolMicroPay",
       "track": "",
-      "why_it_could_win": "Replicates the Synthesis Hackathon winning agent-economy model, showing judges a forward-looking paradigm for decentralized commerce."
+      "why_it_could_win": "Demonstrates hard engineering by cleanly implementing protocol-level HTTP 402 transaction flows, setting the project apart from basic frontend-only apps."
     },
     {
       "build_hours": 32,
       "inspired_by": [
+        "github:262411229"
+      ],
+      "pitch": "A plan-based structured expense management and smart budgeting platform powered by automated virtual card issuing workflows.",
+      "problem_statement": "Real-world challenges faced by people in their everyday lives around personal financial planning and uncontrolled discretionary spending.",
+      "stack": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "BudgetMate API",
+      "track": "",
+      "why_it_could_win": "Tackles everyday financial discipline with a highly polished dashboard and structured spending rules that judges from the finance society will immediately recognize as practical."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
         "github:969245239"
       ],
-      "pitch": "A multi-agent orchestration system that automatically performs qualitative market research and generates product-market fit reports for nascent fintech startups.",
+      "pitch": "A multi-agent orchestration framework for automated retail investment research and personalized portfolio management.",
+      "problem_statement": "Real-world challenges faced by people in their everyday lives when trying to navigate complex financial markets with limited financial literacy.",
       "stack": [
         "TypeScript",
-        "LangChain",
+        "Python",
         "OpenAI API",
         "Next.js"
       ],
-      "title": "AlphaThesis Marketmind",
+      "title": "MarketMind AI",
       "track": "",
-      "why_it_could_win": "Follows the CMU AI Valley Grand Prize formula by replacing slow manual financial analysis with synchronized multi-agent reasoning."
+      "why_it_could_win": "Employs sophisticated multi-agent orchestration that produces comprehensive and structured analytical reports, impressing judges with depth of technical execution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

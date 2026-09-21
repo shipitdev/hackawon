@@ -1,98 +1,105 @@
 {
-  "generated_at": "2026-09-13T07:54:50.413373+00:00",
+  "generated_at": "2026-09-21T08:23:04.141280+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746026",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An agentic data pipeline built on n8n that automatically detects database schema drops or data corruption incidents, verifies the error context, and opens verified repair pull requests with DataHub write-backs.",
+      "problem_statement": "n8n Sponsored Track: Automate everything. Build crazy-good workflows using n8n — AI automation, agentic workflows, integrations, data pipelines, autonomous processes",
+      "stack": [
+        "n8n",
+        "Python",
+        "DataHub",
+        "PostgreSQL"
+      ],
+      "title": "n8n Autonomous Incident Responder",
+      "track": "n8n Sponsored Track",
+      "why_it_could_win": "Directly targets the n8n sponsored track using the free account provided during the offline round, leveraging proven autonomous data incident response patterns that judges love."
+    },
+    {
+      "build_hours": 36,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An enterprise-grade incident response pipeline built on n8n that ingests alerts from Datadog or GitHub, spins up an LLM agent to investigate logs, correlates similar historical incidents, and auto-generates a hotfix PR.",
+      "pitch": "A multi-agent system where specialized agents (researcher, coder, reviewer) collaborate to scrape, synthesize, and format technical research documentation into actionable student guides.",
+      "problem_statement": "Agentic Track: Chatbots are cool. Agents are cooler. Build systems that can actually think → plan → use tools → take action. Multi-agent systems, coding agents, research agents, AI assistants",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Supabase"
+      ],
+      "title": "Multi-Agent Campus Research & Synthesis Hub",
+      "track": "Agentic Track",
+      "why_it_could_win": "Fits the Agentic Track precisely by demonstrating multi-agent orchestration, tool usage, and planning rather than a basic single-prompt chatbot."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An n8n workflow pipeline that ingests transaction feeds, queries graph intelligence endpoints for entity relationships, and calculates explainable risk scores for compliance teams.",
+      "problem_statement": "n8n Sponsored Track: Automate everything. Build crazy-good workflows using n8n — AI automation, agentic workflows, integrations, data pipelines, autonomous processes",
       "stack": [
         "n8n",
         "TypeScript",
-        "OpenAI API",
-        "GitHub API"
+        "LightGBM",
+        "PostgreSQL"
       ],
-      "title": "n8n Autonomous Incident Triage & Root Cause Agent",
+      "title": "n8n Automated AML & Risk Scoring Workflow",
       "track": "n8n Sponsored Track",
-      "why_it_could_win": "Directly targets the n8n Sponsored Track by going beyond simple automation into true agentic workflows, leveraging the free n8n account provided during the offline finale."
+      "why_it_could_win": "Combines high-value enterprise utility with n8n workflow automation, satisfying the requirement for heavy integrations and real-world impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An autonomous coding agent that accepts vague natural language engineering requirements, writes modular code, executes tests in a secure sandbox, and self-corrects based on error stack traces.",
+      "problem_statement": "Agentic Track: Chatbots are cool. Agents are cooler. Build systems that can actually think → plan → use tools → take action. Multi-agent systems, coding agents, research agents, AI assistants",
+      "stack": [
+        "Python",
+        "Docker SDK",
+        "Claude API",
+        "FastAPI"
+      ],
+      "title": "Autonomous Code-Execution Research Agent",
+      "track": "Agentic Track",
+      "why_it_could_win": "Addresses the specific 'coding agents' and 'autonomous systems' mandate in the Agentic track with a working live demo of self-correction."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1155558847"
+        "github:1346526259"
       ],
-      "pitch": "A multi-agent n8n workflow that monitors satellite imagery changes and cross-references them against local zoning laws to flag industrial land violations automatically.",
+      "pitch": "An n8n integration workflow that parses incoming citizen complaints from messaging apps, classifies severity using computer vision, and automatically assigns tasks to local municipal dashboards.",
+      "problem_statement": "Open Innovation: No published statement",
       "stack": [
         "n8n",
-        "Python",
-        "PostGIS",
-        "Gemini API"
+        "React",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "Agentic Compliance & Permitting Workflow for Industrial Land",
-      "track": "Agentic Track",
-      "why_it_could_win": "Combines hard-hitting computer vision data flows with n8n workflow automation, ticking both the Agentic Track and n8n Track requirements."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An n8n-powered agentic marketplace where developers can submit bug fixes, and an autonomous reviewer agent verifies tests, merges code, and releases USDC escrow payments on Base.",
-      "stack": [
-        "n8n",
-        "JavaScript",
-        "Base",
-        "USDC"
-      ],
-      "title": "Autonomous USDC Bounty Dispatcher",
-      "track": "n8n Sponsored Track",
-      "why_it_could_win": "Brings together robust agentic decision-making and automated payment processing, fitting the core philosophy of building things that actually work."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An investigative workflow that uses graph intelligence to map suspicious transaction rings and automatically generates comprehensive compliance audit reports using n8n and LightGBM.",
-      "stack": [
-        "Python",
-        "n8n",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "Graph-Powered AML Risk Intelligence Agent",
-      "track": "Agentic Track",
-      "why_it_could_win": "Demonstrates genuinely hard engineering and complex data correlation suitable for winning judges looking past basic slide-deck prototypes."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An automated patient intake system that parses medical history, conducts initial triage via voice/text agents, and routes verified leads directly into clinic scheduling pipelines.",
-      "stack": [
-        "TypeScript",
-        "n8n",
-        "Gemini API",
-        "Next.js"
-      ],
-      "title": "AI-Powered Patient Acquisition & Clinical Intake Engine",
-      "track": "n8n Sponsored Track",
-      "why_it_could_win": "Addresses a clear, highly practical business problem with a fully working prototype rather than conceptual wireframes."
+      "title": "n8n AI-Driven Civic Issue Dispatcher",
+      "track": "Open Innovation",
+      "why_it_could_win": "Showcases rapid integration power using n8n pipelines combined with clear, measurable real-world civic impact."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:33:29.052236+00:00",
+  "generated_at": "2026-09-21T08:34:12.014433+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,98 +10,99 @@
       "impact",
       "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755466",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
-        "github:935702069",
-        "github:939311314"
+        "github:1234067949"
       ],
-      "pitch": "An AI-powered wildfire and landslide risk assessment model tailored for Uttarakhand terrain, combining satellite data and weather forecasting to protect fragile mountain ecosystems.",
+      "pitch": "An early warning web platform predicting water contamination and algal bloom risks for local water bodies in Uttarakhand using machine learning and IoT sensors.",
+      "problem_statement": "Clean Water and Climate Action under UN SDGs",
       "stack": [
+        "TypeScript",
         "Python",
-        "TensorFlow",
-        "FastAPI",
         "React",
-        "Leaflet.js"
+        "FastAPI"
       ],
-      "title": "HimalayanForestShield",
-      "track": "Climate Action",
-      "why_it_could_win": "Directly targets the Climate Action SDG while echoing winning patterns from regional sustainability hackathons like the Sacramento State AI Hackathon."
+      "title": "AquaPredict AI",
+      "track": "Clean Water",
+      "why_it_could_win": "Directly targets the UN Sustainable Development Goal for clean water with a predictive model proven successful in environmental hackathons."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "A localized crop disease detection and soil health advisory platform using computer vision and lightweight ML models running on edge devices for farmers in rural Uttarakhand.",
-      "stack": [
-        "Python",
-        "PyTorch",
-        "Flutter",
-        "SQLite",
-        "Flask"
-      ],
-      "title": "AgriSachet-AI",
-      "track": "Agriculture",
-      "why_it_could_win": "Aligns tightly with SDG 2 (Zero Hunger) and regional economic realities in Dehradun, prioritizing agricultural impact which judges heavily favor."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1234067949"
-      ],
-      "pitch": "An IoT and machine learning-based water quality monitoring and leakage detection dashboard for smart hill cities, predicting contamination spikes before they hit municipal supplies.",
+      "pitch": "Satellite-based remote sensing platform that monitors crop health, soil moisture, and drought stress indices to assist smallholder farmers in hilly regions.",
+      "problem_statement": "Agriculture and Climate Action under UN SDGs",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "React",
         "Python",
-        "MQTT"
+        "Node.js",
+        "TailwindCSS"
       ],
-      "title": "JalSuraksha-WaterGrid",
-      "track": "Clean Water",
-      "why_it_could_win": "Combines IoT sensor simulation with predictive analytics, following the winning blueprint of the AquaSense IoT Hackathon."
+      "title": "GeoAgro Sentinel",
+      "track": "Agriculture",
+      "why_it_could_win": "Combines satellite monitoring with actionable local agricultural advice, matching regional priorities for rural sustainability."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "Edge-AI powered smart waste classification system designed for campus and smart city recycling bins using computer vision.",
+      "problem_statement": "Smart Cities and Climate Action under UN SDGs",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Arduino"
+      ],
+      "title": "EcoSort Vision",
+      "track": "Smart Cities",
+      "why_it_could_win": "Features a hardware-software simulation demo that is visually impressive and easy for judges to understand immediately."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1346526259"
       ],
-      "pitch": "An offline-first multilingual learning copilot that translates regional Indian curricula into localized dialects and generates interactive quizzes for underprivileged schools.",
+      "pitch": "An AI-driven diagnostic and triage copilot tailored for rural health workers in mountainous regions with limited connectivity.",
+      "problem_statement": "Healthcare under UN SDGs",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Supabase",
-        "OpenAI API",
-        "TailwindCSS"
+        "React",
+        "Python",
+        "Supabase"
       ],
-      "title": "EduBridge-OpenAI",
-      "track": "Education",
-      "why_it_could_win": "Targets Quality Education (SDG 4) with a strong local equity angle, highly appealing to academic judges at SRHU."
+      "title": "HealthTract AI",
+      "track": "Healthcare",
+      "why_it_could_win": "Solves a critical regional healthcare delivery problem using lightweight offline-first machine learning models."
     },
     {
-      "build_hours": 38,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1010199928"
+        "github:935702069"
       ],
-      "pitch": "An AI-driven waste segregation computer vision classifier combined with an optimized municipal collection route planner to tackle garbage management in tourist-heavy hill stations.",
+      "pitch": "Predictive risk assessment model for regional forest fires using meteorological data and satellite vegetation indices.",
+      "problem_statement": "Climate Action under UN SDGs",
       "stack": [
         "Python",
-        "OpenCV",
-        "Arduino",
-        "Node.js",
-        "Express"
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "SmartBins-Hills",
-      "track": "Smart Cities",
-      "why_it_could_win": "Replicates the winning hardware-software integration seen at the TechnoMorph Hackathon with a direct, highly visible local municipal use case."
+      "title": "WildfireWatch AI",
+      "track": "Climate Action",
+      "why_it_could_win": "Leverages geospatial data analytics to address ecological disasters highly relevant to Uttarakhand's geography."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

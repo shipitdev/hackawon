@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:53:19.876068+00:00",
+  "generated_at": "2026-09-21T08:21:19.846436+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,85 +8,99 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1744069",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 36,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "A Discord bot built with Caspian that automatically extracts study notes, generates daily quizzes, and tracks study streaks for student peer groups to maximize active daily usage.",
+      "pitch": "An AI agent built on Caspian deployed directly into university club and study group Discord servers to manage scheduling, resource sharing, and daily check-ins.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Caspian API",
         "Discord.js",
-        "Caspian SDK",
         "Next.js"
       ],
-      "title": "StudyScribe Agent",
+      "title": "Caspian Campus Connect",
       "track": "",
-      "why_it_could_win": "Targeting message volume and usage criteria (40% of score) by embedding directly into active student study servers with high daily engagement."
+      "why_it_could_win": "Targeting high-frequency university peer groups guarantees organic message volume and daily consistency, which makes up 40% of the core judging criteria."
     },
     {
       "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "An autonomous engineering standup bot that collects daily updates from team members via DMs, formats blockers into an aggregated summary, and pings devs to maintain consistent daily usage.",
-      "stack": [
-        "JavaScript",
-        "Caspian SDK",
-        "Node.js",
-        "PostgreSQL"
+      "inspired_by": [
+        "github:1155558847"
       ],
-      "title": "DevStandup Agent",
+      "pitch": "A Telegram and Discord-native AI agent that automatically collects daily asynchronous standups from early-stage startup teams, summarizes blockers, and updates project management boards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Caspian API",
+        "FastAPI",
+        "Telegram Bot API"
+      ],
+      "title": "Caspian Founder Standup",
       "track": "",
-      "why_it_could_win": "Directly optimizes for active days and message volume by integrating into development team workflows where consistent usage is guaranteed."
+      "why_it_could_win": "By solving a daily administrative pain point for startup founders and teammates, the agent will naturally achieve high active days and steady message volume."
     },
     {
-      "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "A gaming guild community agent that manages member rosters, schedules raids, and tracks internal resource pooling with automated reminders inside community Discord channels.",
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An AI agent embedded in creator and indie hacker communities that tracks daily micro-milestones, aggregates product feedback, and prompts members for engagement.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Caspian SDK",
-        "Supabase"
+        "Caspian API",
+        "Supabase",
+        "Node.js"
       ],
-      "title": "GuildTreasurer Agent",
+      "title": "Caspian Indie Hacker Pulse",
       "track": "",
-      "why_it_could_win": "Leverages gaming communities known for generating extremely high daily message volumes and consistent engagement spikes."
+      "why_it_could_win": "Focuses heavily on creativity and real-world impact by targeting active builder communities where message volume and consistency are naturally high."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A restaurant group reservation and lunch-ordering agent deployed in local community chat groups, handling real-time polling and multi-user meal coordination daily.",
+      "pitch": "An interactive AI tutoring agent integrated into private study group channels that quiz users daily, tracks progress streaks, and answers collaborative problem sets.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Caspian SDK",
-        "FastAPI"
+        "Caspian API",
+        "PostgreSQL",
+        "OpenAI"
       ],
-      "title": "LocalBites Concierge",
+      "title": "Caspian Study Buddy",
       "track": "",
-      "why_it_could_win": "Solves a real-world coordination problem with a creative use case that hits the impact and creativity judging metrics."
+      "why_it_could_win": "Gamifying daily study habits drives high message volume and user retention, directly hitting the primary metrics judges are evaluating."
     },
     {
-      "build_hours": 32,
+      "build_hours": 35,
       "inspired_by": [
-        "github:1087704265"
+        "github:1200926140"
       ],
-      "pitch": "A GitHub-linked Discord agent that greets new pull requests, assigns reviewers, and prompts developers with daily reminders to clear their code review backlogs.",
+      "pitch": "An ordering and coordination agent for local community buying groups and small food co-ops to handle weekly inventory questions, orders, and delivery schedules via chat.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "GitHub API",
-        "Caspian SDK"
+        "Caspian API",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "CodeReview Buddy",
+      "title": "Caspian Local Food Coop Agent",
       "track": "",
-      "why_it_could_win": "Combines developer tooling utility with high-frequency engagement metrics, ensuring consistent interaction throughout the challenge window."
+      "why_it_could_win": "Demonstrates a unique, creative real-world use case with actual customers or community members rather than generic test scripts, maximizing the use case and impact score."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:30.815288+00:00",
+  "generated_at": "2026-09-21T08:23:43.499277+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -7,85 +7,100 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746461",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "An interactive execution visualizer for complex graph and tree algorithms that explains state changes in real-time.",
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "An interactive execution visualizer built for competitive programmers to step through complex graph and dynamic programming algorithms line-by-line.",
+      "problem_statement": "DSA Challenge: Medium & Hard",
       "stack": [
         "TypeScript",
         "React",
-        "D3.js"
+        "Canvas API",
+        "Monaco Editor"
       ],
       "title": "AlgoTrace Visualizer",
-      "track": "DSA Challenge: Medium & Hard",
-      "why_it_could_win": "Directly appeals to a judges' panel focused on DSA mastery by breaking down hard-to-visualize concepts like Red-Black trees or Dijkstra step-by-step."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A benchmarking and optimization suite for competitive programmers to profile memory and execution time of C++ vs Python implementations.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "WebAssembly"
-      ],
-      "title": "BitwiseBench",
-      "track": "DSA Challenge: Medium & Hard",
-      "why_it_could_win": "Solves a core pain point for advanced participants optimizing solutions for tight time limits in DSA rounds."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A smart hints generator that analyses a user's failing code during a DSA challenge and provides Socratic nudges instead of full solutions.",
-      "stack": [
-        "Python",
-        "OpenAI API",
-        "Next.js"
-      ],
-      "title": "RecurseMentor",
-      "track": "DSA Challenge: Easy",
-      "why_it_could_win": "Aligns with the educational and testing spirit of a girls-only coding challenge by helping learners improve problem-solving fundamentals."
+      "track": "",
+      "why_it_could_win": "It targets the exact pain point of debugging complex algorithmic logic under time pressure, making it directly appealing to judges evaluating DSA optimization and problem-solving skills."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1296916648"
+        "github:1214808895"
       ],
-      "pitch": "A static analysis tool that scans submitted Python or C++ solutions and accurately predicts time and space complexity using abstract syntax trees.",
+      "pitch": "A lightweight static analysis tool that estimates time and space complexity of user-submitted C++/Python code snippets using AST parsing and heuristics.",
+      "problem_statement": "Round 1 — The Quiz",
       "stack": [
         "Python",
-        "AST module",
-        "Streamlit"
+        "FastAPI",
+        "Tree-sitter",
+        "React"
       ],
-      "title": "ComplexityPred",
-      "track": "DSA Challenge: Medium & Hard",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by parsing code structures to evaluate Big-O efficiency automatically without running test cases."
+      "title": "ComplexityPredictor AI",
+      "track": "",
+      "why_it_could_win": "It bridges computer science fundamentals and modern tooling, matching the educational and evaluative spirit of the quiz round."
     },
     {
       "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A spaced-repetition flashcard platform specifically generated from missed questions in fundamental computer science and DSA quizzes.",
+      "inspired_by": [
+        "github:86131364"
+      ],
+      "pitch": "A gamified command-line benchmark suite for testing low-level programming fundamentals and bit manipulation speed.",
+      "problem_statement": "DSA Challenge: Easy",
+      "stack": [
+        "Rust",
+        "Terminal UI",
+        "C"
+      ],
+      "title": "BitwiseBench",
+      "track": "",
+      "why_it_could_win": "It appeals directly to the programming fundamentals testing aspect of the beginner track with a polished, instantly demonstrable CLI interface."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1214808895",
+        "github:1334000568"
+      ],
+      "pitch": "An automatic state-compression and memoization suggestion tool that analyzes recursive functions and injects optimized iterative or memoized states.",
+      "problem_statement": "DSA Challenge: Medium & Hard",
+      "stack": [
+        "Python",
+        "AST",
+        "LLM Routing"
+      ],
+      "title": "DP-Memoizer Engine",
+      "track": "",
+      "why_it_could_win": "It demonstrates deep algorithmic competence in tackling optimization problems, which aligns with the hardest judging criteria of the hackathon."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "An AI-powered quiz generator that parses textbook sections on data structures and outputs rigorous multiple-choice and trace-table questions.",
+      "problem_statement": "Round 1 — The Quiz",
       "stack": [
         "TypeScript",
-        "TailwindCSS",
-        "IndexedDB"
+        "Next.js",
+        "OpenAI API"
       ],
-      "title": "DataStructDeck",
-      "track": "Round 1 — The Quiz",
-      "why_it_could_win": "Directly targets the format of Round 1 quizzes by bridging the gap between testing knowledge and long-term retention."
+      "title": "SyntaxQuiz Generator",
+      "track": "",
+      "why_it_could_win": "It directly assists the organizers and participants with quiz preparation and fundamentals testing, making it a highly relevant utility tool."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

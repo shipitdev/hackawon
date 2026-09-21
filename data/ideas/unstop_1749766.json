@@ -1,98 +1,110 @@
 {
-  "generated_at": "2026-09-20T07:53:06.837028+00:00",
+  "generated_at": "2026-09-21T08:27:36.524315+00:00",
   "grounding": {
     "domains": [
       "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "unusual-hardware",
       "working-demo",
-      "technical-depth",
+      "unusual-hardware",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749766",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1296916648"
+        "github:1341712439",
+        "github:1144331507"
       ],
-      "pitch": "A telemetry-to-tuning companion app that analyzes blackbox logs from Betaflight after a test flight and automatically suggests PID tuning adjustments for tight obstacle courses.",
+      "pitch": "A lightweight onboard telemetry and post-flight analysis tool for custom racing drones to optimize lap times and battery health.",
+      "problem_statement": "Senior Drone Race: Design, build, and pilot a custom drone through a timed obstacle course, demonstrating speed, maneuverability, precision, and responsible flight control.",
       "stack": [
         "Python",
+        "MicroPython",
+        "ESP32",
         "React",
-        "Betaflight API"
+        "WebSockets"
       ],
-      "title": "AeroTune FPV",
+      "title": "AeroTelemetry: Real-Time FPV Drone Telemetry & Blackbox Analyzer",
       "track": "",
-      "why_it_could_win": "Leverages software optimization to improve drone agility and pilot handling for the timed obstacle course without risking hardware mid-event."
+      "why_it_could_win": "Directly addresses the need for precision and adjusted time by giving pilots immediate post-flight data insights to adjust their lines and motor usage between elimination rounds, mirroring winning hardware and IoT data feedback loops."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:694390550",
+        "github:1144331507"
+      ],
+      "pitch": "An edge-AI computer vision gate sensor system that automatically logs drone crossing times during practice runs on the volleyball court course.",
+      "problem_statement": "Senior Drone Race: Design, build, and pilot a custom drone through a timed obstacle course, demonstrating speed, maneuverability, precision, and responsible flight control.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Flask"
+      ],
+      "title": "GateSnap: Automated Drone Obstacle Gate Timer and Lap Counter",
+      "track": "",
+      "why_it_could_win": "Solves the exact logistical challenge of manual timing during high-speed drone races with a working live hardware-software demo, following the winning pattern of unusual physical builds and live-tested setups."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1010199928"
+        "github:1069834761",
+        "github:1281918590"
       ],
-      "pitch": "An edge-computing gate timer and fault-detection system using an ESP32 and camera module to automatically log lap times and penalize course deviations via computer vision.",
-      "stack": [
-        "C++",
-        "Python",
-        "OpenCV",
-        "ESP32"
-      ],
-      "title": "GateWatch Vision",
-      "track": "",
-      "why_it_could_win": "Provides reliable, automated judging infrastructure that helps race coordinators accurately track adjusted times during the high-speed event."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1144331507"
-      ],
-      "pitch": "A low-latency wireless relay system placed across the obstacle course to stream live telemetry and emergency kill-signal overrides directly to the pilot station.",
-      "stack": [
-        "TypeScript",
-        "ESP32",
-        "LoRa"
-      ],
-      "title": "OmniGate Mesh",
-      "track": "",
-      "why_it_could_win": "Focuses on robust hardware communication and safety mechanisms, which aligns well with responsible flight control guidelines."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1274691349"
-      ],
-      "pitch": "A lightweight secondary sensor module mounted on the drone chassis that tracks g-force limits, maximum tilt angles, and battery health to ensure compliance with weight and safety limits.",
+      "pitch": "An auxiliary hardware safety monitor that clips onto custom 450mm racing drones to track cell voltage drops, temperature spikes, and prevent catastrophic battery failures.",
+      "problem_statement": "Senior Drone Race: Pre-Competition Safety & Inspection - All drones must be successfully test-flown prior to the event; airworthiness inspection covering materials, workmanship, and radio installation.",
       "stack": [
         "C++",
         "Arduino",
-        "MPU6050"
+        "OLED Display",
+        "Voltage Sensors"
       ],
-      "title": "Inertial Flight Guard",
+      "title": "VoltGuard: 6S LiPo Battery Health & Thermal Safety Monitor",
       "track": "",
-      "why_it_could_win": "Solves the practical verification challenge of checking drone weight and flight safety parameters before race registration."
+      "why_it_could_win": "Aligns perfectly with the strict pre-competition safety and airworthiness inspection guidelines, giving the verification committee confidence and standing out as a practical safety device."
     },
     {
-      "build_hours": 26,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1259981732"
+        "github:1340275018"
       ],
-      "pitch": "An optional FPV overlay simulator built for training pilots on dynamically generated obstacle courses before they take their physical run.",
+      "pitch": "A mobile-friendly configuration assistant that streamlines PID tuning and filter adjustments on the field right before race heats.",
+      "problem_statement": "Senior Drone Race: The course will be revealed at the venue, testing participants' ability to adapt on the spot.",
       "stack": [
-        "C++",
-        "Godot",
-        "Python"
+        "TypeScript",
+        "React Native",
+        "Bluetooth LE",
+        "Betaflight API"
       ],
-      "title": "PathFinder HUD",
+      "title": "AeroTune: PID Tuning Companion App for Custom FPV Quads",
       "track": "",
-      "why_it_could_win": "Gives competitors a practical tool to adapt on the spot when the surprise course layout is revealed at the venue."
+      "why_it_could_win": "Addresses the explicit need for rapid on-the-spot adaptation when the course layout is revealed at the venue, allowing teams to adjust flight profiles faster than opponents."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A quick inventory and checklist app tailored for the two-drone model limit and rapid part replacement rules during elimination rounds.",
+      "problem_statement": "Senior Drone Race: Each team may register and use up to 2 drone models, verified by the Inspection Committee; a damaged or lost drone may be replaced with a further model before the start time.",
+      "stack": [
+        "TypeScript",
+        "TailwindCSS",
+        "IndexedDB",
+        "PWA"
+      ],
+      "title": "PropSwap: Quick-Swap Drone Component and Spares Tracker",
+      "track": "",
+      "why_it_could_win": "Organizes the complex logistics of managing dual drone models and spare parts within tight event timelines, minimizing stress and administrative errors during intense tournament brackets."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

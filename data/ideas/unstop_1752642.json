@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-09-13T08:00:41.194922+00:00",
+  "generated_at": "2026-09-21T08:31:43.323774+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752642",
@@ -14,86 +16,90 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
+        "github:1275874285"
       ],
-      "pitch": "A mobile-first web app that combines localized financial literacy modules with automated micro-budgeting simulations, specifically targeting the digital and financial independence themes for high school and diploma students.",
+      "pitch": "Gamified micro-learning circles for young women to master financial literacy and group savings.",
+      "problem_statement": "Track 1 – Empowering Tomorrow’s Women: Digital Literacy, Financial Independence, Innovation & Future-Ready Skills.",
       "stack": [
-        "TypeScript",
         "Next.js",
         "TailwindCSS",
-        "Gemini API"
+        "Node.js",
+        "PostgreSQL"
       ],
-      "title": "FinLit Agent: AI-Driven Micro-Savings & Budgeting Mentor for Young Women",
-      "track": "Track 1 – Empowering Tomorrow’s Women",
-      "why_it_could_win": "Directly targets the core themes of Digital Literacy and Financial Independence for Track 1, appealing heavily to judges looking for practical societal impact for young women."
+      "title": "FinLit Micro-Guilds",
+      "track": "Track 1",
+      "why_it_could_win": "Directly targets Track 1's theme of Financial Independence with an interactive approach that will stand out among basic slide decks."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621"
+        "github:1228867095"
       ],
-      "pitch": "An interactive legal companion tailored for female students and young professionals that simplifies complex legal rights, labor laws, and safety protocols into conversational, accessible regional languages.",
+      "pitch": "An AI-powered phishing and social engineering simulation platform tailored for women entering tech roles.",
+      "problem_statement": "Track 2 – Women at the Tech Frontier: Cybersecurity, Emerging Technologies, Innovation, Leadership & Entrepreneurship.",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "OpenAI API"
+        "Transformers"
       ],
-      "title": "HerRights AI: Legal Literacy and Rights Assistant",
-      "track": "Track 1 – Empowering Tomorrow’s Women",
-      "why_it_could_win": "Fulfills the digital literacy and empowerment criteria of Track 1 by solving a critical real-world information asymmetry problem with accessible AI."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A dedicated collaboration and portfolio platform for engineering women featuring automated project verification, hackathon team-matching, and direct mentorship routing from senior female tech leaders.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-        "Prisma"
-      ],
-      "title": "CredHer: Engineering Portfolio & Peer Mentorship Platform",
-      "track": "Track 2 – Engineering",
-      "why_it_could_win": "Tailored specifically for the engineering track demographic, addressing the retention and networking gap in STEM fields through a functional community platform."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An engineering-focused health analytics platform that tracks physiological cycles alongside academic workload stress markers to provide personalized nutrition and wellness insights.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Scikit-learn"
-      ],
-      "title": "BioCycle & Wellness Tracker for Student Health",
-      "track": "Track 2 – Engineering",
-      "why_it_could_win": "Combines rigorous data tracking with health engineering, adapting proven nutrition-platform mechanics to women's specific physiological needs."
+      "title": "CyberGuard Sentinel",
+      "track": "Track 2",
+      "why_it_could_win": "Focuses heavily on the explicit Cybersecurity priority in Track 2 with a working prototype that demonstrates real threat alerts."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:945008026"
       ],
-      "pitch": "An AI-powered resume parsing and mock-interview platform designed to bridge the gap between technical diplomas or engineering degrees and the corporate workforce.",
+      "pitch": "A voice-first coding companion that helps high school and diploma female students learn programming fundamentals.",
+      "problem_statement": "Track 1 – Empowering Tomorrow’s Women: Digital Literacy, Financial Independence, Innovation & Future-Ready Skills.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Web Speech API",
+        "OpenAI API"
+      ],
+      "title": "CodeMentor AI",
+      "track": "Track 1",
+      "why_it_could_win": "Bridges digital literacy and future-ready coding skills for Track 1 participants with an accessible voice interface."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An engineering project management and pitch-matching platform for female founders to launch tech startups.",
+      "problem_statement": "Track 2 – Women at the Tech Frontier: Cybersecurity, Emerging Technologies, Innovation, Leadership & Entrepreneurship.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "OpenAI API",
+        "Supabase",
         "TailwindCSS"
       ],
-      "title": "SkillBridge: Automated Career Readiness and Resume Optimizer for Graduates",
-      "track": "Track 2 – Engineering",
-      "why_it_could_win": "Demonstrates clear utility and career enablement, a metric that judging panels at innovation-focused ideathons consistently prioritize."
+      "title": "LeadTech Incubator",
+      "track": "Track 2",
+      "why_it_could_win": "Addresses the entrepreneurship and leadership themes of Track 2 by providing a functional collaboration tool for student founders."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A localized digital skills tracker and portfolio builder designed for female diploma and science stream students.",
+      "problem_statement": "Track 1 – Empowering Tomorrow’s Women: Digital Literacy, Financial Independence, Innovation & Future-Ready Skills.",
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "title": "SkillBridge Diploma",
+      "track": "Track 1",
+      "why_it_could_win": "Provides tangible digital literacy outcomes tailored specifically to the diploma student demographic specified in Track 1."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

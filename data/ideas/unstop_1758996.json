@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-21T08:38:29.254399+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758996",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A tamper-evident digital chain-of-custody logging system tailored for forensic evidence collection by NFSU investigators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Cryptography"
+      ],
+      "title": "ForensicChain Evidence Tracker",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the domain expertise of National Forensic Sciences University, making it instantly relevant to the host institution's judging panel."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "An offline-first security log anomaly detector that highlights malicious IP activity for forensic cyber investigations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "CyberSleuth Log Analyzer",
+      "track": "",
+      "why_it_could_win": "Aligns with the cybersecurity and investigative focus of NFSU Guwahati, scoring high on problem understanding and practical feasibility."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "A voice-activated crime scene note-taking and auto-summarization tool designed for fast-paced forensic documentation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "OpenAI API"
+      ],
+      "title": "SceneScribe Mobile",
+      "track": "",
+      "why_it_could_win": "Features a live, working audio-to-summary demo which is fast to build and hits the presentation and demonstration judging criteria directly."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision prototype for classifying physical trace evidence categories from mobile camera uploads.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "FastAPI"
+      ],
+      "title": "TraceScan AI",
+      "track": "",
+      "why_it_could_win": "Directly applies high-impact computer vision to a forensic use case, appealing to technical implementation and innovation metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An Arduino and web dashboard setup to monitor chemical storage lab conditions and trigger real-time hazard alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "Python",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "SafeLab IoT Monitor",
+      "track": "",
+      "why_it_could_win": "Practical feasibility and hardware-software integration make it stand out against purely software-based submissions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:42.719978+00:00",
+  "generated_at": "2026-09-21T08:29:02.666822+00:00",
   "grounding": {
     "domains": [
       "civic"
@@ -7,10 +7,10 @@
     "exemplar_count": 8,
     "patterns": [
       "impact",
-      "working-demo",
-      "technical-depth",
-      "sponsor-tech"
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750320",
@@ -18,86 +18,99 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1132337467",
-        "github:1170846981"
+        "github:1170846981",
+        "github:901472660"
       ],
-      "pitch": "A multilingual voice-first rural health assistant providing preventive care, outbreak tracking, and vaccination schedules via low-bandwidth audio.",
+      "pitch": "A voice-first, multilingual local governance assistant helping Gram Panchayats manage rural development schemes and asset audits via offline-capable Indian language STT/TTS.",
+      "problem_statement": "Digital Empowerment for Rural Communities",
       "stack": [
         "TypeScript",
-        "React",
-        "Gemini AI",
-        "Firebase"
+        "React Native",
+        "Node.js",
+        "Whisper API"
       ],
-      "title": "GraminSwasthya",
-      "track": "",
-      "why_it_could_win": "Directly targets rural Indian community challenges by solving accessibility issues for semi-urban and rural populations, echoing proven multilingual health awareness wins."
+      "title": "GramVaani AI",
+      "track": "Digital Empowerment for Rural Communities",
+      "why_it_could_win": "Directly targets rural empowerment by solving administrative overhead for local bodies, mirroring the pattern of JalSetu which won at Smart India Hackathon."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:769262834",
+        "github:1069834761"
+      ],
+      "pitch": "IoT-enabled smart waste bin network with fill-level ultrasonic sensors and dynamic routing for municipal garbage collection trucks in Indian urban areas.",
+      "problem_statement": "Waste Management and Recycling",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Arduino",
+        "React",
+        "Leaflet.js"
+      ],
+      "title": "AeroBin City",
+      "track": "Waste Management and Recycling",
+      "why_it_could_win": "Focuses on tangible urban infrastructure optimization with measurable civic impact, building upon proven concepts from winning IoT and smart city entries."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265",
+        "github:1069834761"
       ],
-      "pitch": "An AI-powered app connecting elderly citizens in urban Indian neighborhoods with verified volunteer drivers for routine social outings and medical visits.",
+      "pitch": "Low-cost loRaWAN sensor network and localized machine learning predictor to safeguard horticulture crops against sudden temperature drops and unseasonal frost.",
+      "problem_statement": "Agriculture and Food Technology",
       "stack": [
-        "TypeScript",
-        "React",
-        "Supabase",
-        "Leaflet"
+        "Python",
+        "C++",
+        "MQTT",
+        "InfluxDB",
+        "React"
       ],
-      "title": "SahayakDriver",
-      "track": "",
-      "why_it_could_win": "Addresses urban loneliness and elderly care mobility issues, aligning with the hackathon's mission to solve real-time urban community challenges."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1143576965"
-      ],
-      "pitch": "Real-time disaster management and crowd-sourced relief coordination platform tailored for flood and landslide-prone Indian districts.",
-      "stack": [
-        "JavaScript",
-        "Node.js",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "AapdaNet",
-      "track": "",
-      "why_it_could_win": "Focuses on high-impact social crisis management with a live working prototype that judges can test instantly on their phones."
+      "title": "AgroFrost Early Warning",
+      "track": "Agriculture and Food Technology",
+      "why_it_could_win": "Combines hardware telemetry with localized predictive modeling to protect farmer livelihoods, directly serving the national focus on rural agrarian innovation."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1346526259"
+        "github:628572166",
+        "github:927292639"
       ],
-      "pitch": "An AI marketing and inventory copilot for local rural artisans and street vendors to instantly digitize products and reach nearby buyers.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "LLM API",
-        "Supabase"
-      ],
-      "title": "Gram Bazaar Copilot",
-      "track": "",
-      "why_it_could_win": "Drives tangible economic upliftment for rural-urban micro-entrepreneurs, hitting the core objective of building practical tools for Indian communities."
-    },
-    {
-      "build_hours": 44,
-      "inspired_by": [
-        "github:1228867095"
-      ],
-      "pitch": "A voice-first agent running locally on edge devices that detects and intercepts financial scam calls targeting elderly family members in regional languages.",
+      "pitch": "Smart traffic light pre-emption and real-time ambulance routing system that coordinates municipal signals to clear corridors during critical trauma transport.",
+      "problem_statement": "Urban Mobility and Traffic Management",
       "stack": [
         "Python",
-        "WebRTC",
-        "Whisper API",
-        "FastAPI"
+        "FastAPI",
+        "TypeScript",
+        "Mapbox GL",
+        "OpenCV"
       ],
-      "title": "SurakshaVoice",
-      "track": "",
-      "why_it_could_win": "Tackles a widespread cybercrime issue affecting vulnerable demographics across India with advanced voice AI engineering."
+      "title": "MedRoute Emergency Grid",
+      "track": "Urban Mobility and Traffic Management",
+      "why_it_could_win": "Solves life-critical urban bottlenecks with a clear, quantifiable reduction in emergency response latency, appealing strongly to judges looking for high societal utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265",
+        "github:901472660"
+      ],
+      "pitch": "IoT monitoring dashboard for rural rooftop solar micro-grids predicting generation drops and tracking battery health to maximize renewable uptime in off-grid villages.",
+      "problem_statement": "Renewable/sustainable Energy Solutions",
+      "stack": [
+        "Node.js",
+        "React",
+        "MQTT",
+        "Chart.js",
+        "MongoDB"
+      ],
+      "title": "GridPulse Micro-Solar",
+      "track": "Renewable/sustainable Energy Solutions",
+      "why_it_could_win": "Addresses energy security challenges in rural India with concrete performance telemetry, combining sustainability with practical maintenance automation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

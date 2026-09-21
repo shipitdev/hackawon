@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-14T08:03:37.677644+00:00",
+  "generated_at": "2026-09-21T08:30:09.431148+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "impact",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751374",
@@ -14,86 +17,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
+        "github:1329458499"
       ],
-      "pitch": "AI-powered satellite and local sensor monitoring platform for automated industrial environmental compliance checking, combining computer vision and RAG for regulatory reporting.",
+      "pitch": "An autonomous data pipeline incident response agent that automatically diagnoses broken schemas, runs verified repair scripts, and pushes PRs with DataHub write-back.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Next.js",
-        "Gemini API"
+        "Claude API",
+        "DataHub SDK",
+        "FastAPI"
       ],
-      "title": "EcoAudit-AI",
-      "track": "Artificial Intelligence & Machine Learning",
-      "why_it_could_win": "Leverages the winning pattern of GeoNex-ATLAS by applying computer vision to satellite and industrial monitoring, addressing regional compliance challenges directly relevant to an Indian engineering college hackathon backed by state-level industrial development themes."
+      "title": "ApexDataFlow",
+      "track": "Track 3 – Open Innovation",
+      "why_it_could_win": "Leverages the winning formula of autonomous agentic architecture combined with data lineage write-backs, appealing directly to technical judges looking for hard engineering over basic wrappers."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "AWS-powered risk detection and alternative credit-scoring platform for agricultural micro-loans using graph intelligence and LightGBM on transaction and supply chain data.",
+      "pitch": "An AWS-powered graph intelligence and Focal LightGBM platform for detecting circular trading and financial fraud in agricultural supply chain financing.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "AWS Neptune",
         "Python",
-        "AWS",
         "LightGBM"
       ],
-      "title": "AgriGraph AML & Credit Engine",
-      "track": "Data Science & Analytics",
-      "why_it_could_win": "Directly mirrors the technical architecture of Bito, employing graph intelligence and tabular gradient boosting to solve a high-impact financial inclusion problem relevant to Indian markets."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-driven patient trust and acquisition platform for specialized regional clinics, automating verified testimonial generation, educational content, and intelligent inquiry routing.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "MediTrust Acquisition Engine",
-      "track": "Web & Backend Development",
-      "why_it_could_win": "Adapts the exact winning formula of Global-Smile, focusing on a real business vertical with high conversion impact and an easy-to-demonstrate UI within a tight 24-48 hour window."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous AI agent marketplace featuring USDC escrow payments on Base, enabling programmatic service execution and verifiable settlement without intermediaries.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity"
-      ],
-      "title": "Decentralized Escrow Dispatch",
-      "track": "Blockchain & Web3",
-      "why_it_could_win": "Replicates the successful Dispatch hackathon entry by combining autonomous agents with real crypto escrow rails, appealing to judges looking for functional Web3 integration."
+      "title": "AgriGraph AML & Risk Intelligence",
+      "track": "Track 3 – Open Innovation",
+      "why_it_could_win": "Adapts proven financial crime graph architecture to high-impact domain use cases, demonstrating complex feature engineering and explainable AI insights that judges love."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "Personalized regional meal recommendation and nutritional compliance assistant using multi-agent RAG to account for local dietary preferences and health constraints.",
+      "pitch": "A Poisson GAM and multinomial share model platform forecasting urban IoT sensor failures and predictive grid anomalies with calibrated 90% prediction intervals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "AeroForecast AI",
+      "track": "Track 3 – Open Innovation",
+      "why_it_could_win": "Brings rigorous statistical modeling and prediction intervals instead of standard machine learning guesswork, impressing judges with rigorous validation and robust backtesting."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual local-first AI voice agent providing preventive health tracking, automated symptom logging, and vaccination schedules for rural populations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI Whisper",
+        "PostgreSQL"
+      ],
+      "title": "SwasthyaVani",
+      "track": "Track 3 – Open Innovation",
+      "why_it_could_win": "Delivers clear measurable social impact and addresses accessibility challenges in regional languages, satisfying critical evaluation criteria for real-world utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutritional optimization platform that generates hyper-personalized meal plans while calculating and minimizing the carbon footprint of food supply choices.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TypeScript",
-        "LangGraph",
-        "Next.js"
+        "FastAPI",
+        "React",
+        "TailwindCSS"
       ],
-      "title": "NutriPlan AI",
-      "track": "Artificial Intelligence & Machine Learning",
-      "why_it_could_win": "Follows the blueprint of E-Foodiee-AI-Nutrition-Assistant and greennovation-ai-platform, offering a deeply personalized AI workflow with a polished consumer-facing frontend."
+      "title": "EcoNutri AI",
+      "track": "Track 3 – Open Innovation",
+      "why_it_could_win": "Combines personalized health analytics with environmental consciousness, creating an engaging consumer-facing application with immediate visual impact during demo pitches."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

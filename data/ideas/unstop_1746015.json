@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:39.223280+00:00",
+  "generated_at": "2026-09-21T08:22:59.623850+00:00",
   "grounding": {
     "domains": [
       "web3",
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746015",
@@ -18,83 +20,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1188682384"
+        "github:1185920891"
       ],
-      "pitch": "A DeFi yield aggregation vault tokenize real-world assets (RWAUSD) from Multipli.fi and uses Noir-lang zero-knowledge proofs to verify that underlying treasury yields meet projected APYs without revealing private institutional portfolio details.",
+      "pitch": "An autonomous AI agent that detects cross-protocol yield discrepancies between tokenized real-world asset (RWA) vaults and DeFi lending pools, executing automated rebalancing strategies via Multipli.fi integration.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Python",
         "Solidity",
-        "Noir-lang",
-        "TypeScript",
-        "Base"
+        "LangChain",
+        "Web3.py"
       ],
-      "title": "RWA-Backed Micro-Vaults with ZK Yield Verification",
+      "title": "MultipliRWA Yield Arbitrage Agent",
       "track": "DeFi & Real-World Assets (RWA)",
-      "why_it_could_win": "Directly targets the primary sponsor Multipli.fi's focus on DeFi and RWA, leveraging hard engineering (ZK-gated state proofs) demonstrated by winning projects."
+      "why_it_could_win": "Directly targets the core focus of the title sponsor Multipli.fi by building a functional financial utility around DeFi and RWA tokenization."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384",
+        "github:1131796276"
+      ],
+      "pitch": "A Zero-Knowledge proof verification pipeline using Noir circuits to privately verify institutional reserve backing for tokenized RWAUSD without exposing sensitive treasury asset addresses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Hardhat",
+        "Next.js"
+      ],
+      "title": "zkRWA-Proof",
+      "track": "RWAUSD & Tokenization",
+      "why_it_could_win": "Leverages advanced cryptography (ZK) which appeals to judges looking for hard engineering challenges rather than simple wrapper applications."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1185920891"
+        "github:1183964401",
+        "github:1220411239"
       ],
-      "pitch": "An AI agent marketplace framework where specialized autonomous agents independently discover, analyze, and execute yield arbitrage strategies across Multipli.fi RWA pools and decentralized perpetual exchanges.",
+      "pitch": "A high-performance quantitative backtesting and execution engine optimized for perpetual DEX markets, featuring automated parameter optimization via historical volatility benchmarks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangChain",
-        "Solidity",
-        "USDC SDK"
+        "Pandas",
+        "FastAPI",
+        "React"
       ],
-      "title": "Autonomous Multipli Liquidity Arbitrage Agent",
-      "track": "AI & Machine Learning",
-      "why_it_could_win": "Combines AI agents with financial execution, matching the exact winning formula of autonomous agent marketplaces with crypto escrow."
+      "title": "QuantGrid Arbitrage Engine",
+      "track": "Trading & Quantitative Strategies",
+      "why_it_could_win": "Aligns with the quantitative strategies track and implements rigorous data benchmarking inspired by systematic trading hackathon winners."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A quantitative risk detection platform built for Multipli.fi RWA assets that uses graph intelligence and LightGBM to trace transaction flows, flag counterparty risk, and generate explainable compliance reports.",
-      "stack": [
-        "Python",
-        "LightGBM",
-        "NetworkX",
-        "FastAPI"
-      ],
-      "title": "Quant-Driven RWA Risk Assessment and AML Graph",
-      "track": "Trading & Quantitative Strategies",
-      "why_it_could_win": "Leverages quantitative finance and machine learning for institutional compliance, mirroring past winners that combined graph intelligence with risk modeling."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
+        "github:1181344931",
         "github:1349346531"
       ],
-      "pitch": "A DeFi hedging protocol that automatically constructs options strategies via decentralized options protocols to protect Multipli.fi RWA token holders against sudden interest rate drops or collateral depegging.",
+      "pitch": "An options portfolio risk management tool powered by gradient-boosted decision trees that calculates real-time delta-hedging adjustments during extreme market volatility.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Solidity",
-        "Thetanuts SDK",
-        "ethers.js"
+        "LightGBM",
+        "Python",
+        "Ethers.js"
       ],
-      "title": "Options-Based Gamma Shield for Tokenized RWA Yields",
-      "track": "DeFi & Real-World Assets (RWA)",
-      "why_it_could_win": "Addresses sophisticated financial risk management in DeFi, aligning with tracks that reward advanced options integrations and quantitative financial strategies."
+      "title": "AI Options Risk Shield",
+      "track": "AI & Machine Learning",
+      "why_it_could_win": "Combines machine learning with complex financial derivatives, mimicking successful hackathon entries that tackle specialized trading risk mechanics."
     },
     {
-      "build_hours": 40,
-      "inspired_by": [],
-      "pitch": "An emerging technology integration that streams real-time drone inventory and asset inspection telemetry directly on-chain to automatically adjust collateralization ratios for physical RWA loans on Multipli.fi.",
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An edge-computed coordination protocol for autonomous drone delivery fleets that uses smart contract escrow payments on Base to settle micro-transactions upon successful payload drop verification.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Mavlink",
         "Solidity",
-        "Chainlink Functions"
+        "ROS2",
+        "Base"
       ],
-      "title": "Autonomous Drone Telemetry Oracle for Physical RWA Collateral",
+      "title": "Autonomous Drone Fleet Settlement",
       "track": "Drones & Emerging Technologies",
-      "why_it_could_win": "Blends emerging hardware domains (drones) with blockchain oracles and RWA tokenization, offering a completely unique solution outside standard web apps."
+      "why_it_could_win": "Bridges emerging hardware technologies (Drones) with blockchain settlement rails, creating a memorable physical demonstration for the judging panel."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

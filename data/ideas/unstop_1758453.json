@@ -1,100 +1,112 @@
 {
-  "generated_at": "2026-09-20T07:54:32.544453+00:00",
+  "generated_at": "2026-09-21T08:37:30.758514+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758453",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 35,
       "inspired_by": [
-        "github:1087704265"
+        "github:1092255844"
       ],
-      "pitch": "A Poisson GAM-based predictive forecasting engine to estimate the frequency and severity of enterprise AI security incidents and model failures over rolling backtest windows.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Statsmodels",
-        "Scikit-learn"
-      ],
-      "title": "IncidentCast-AI",
-      "track": "Track 1",
-      "why_it_could_win": "Mirrors the exact technical architecture of winning forecasting systems by using statistical calibration and Poisson regression rather than generic LLM wrappers, appealing to rigorous engineering judges."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-integrated graph intelligence and gradient-boosting platform designed to detect complex anti-money laundering transaction rings and explain high-risk entity behaviors.",
+      "pitch": "An AI-powered office workspace manager that automates room bookings, conflict resolutions, and event planning using predictive utilization analytics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "GraphAML-AI",
-      "track": "Track 2",
-      "why_it_could_win": "Combines graph data structures with explainable gradient boosting, providing the hard technical depth that judges reward in financial and security AI hackathons."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "A natural language no-code trading bot builder that parses user intent, constructs execution strategies, and backtests them against perpetual market APIs.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Next.js",
+        "React",
+        "Node.js",
+        "OpenAI API",
         "TailwindCSS"
       ],
-      "title": "TradeNoCode-AI",
-      "track": "Track 3",
-      "why_it_could_win": "Demonstrates practical financial utility and complex state execution within a tight window, following the winning pattern of autonomous execution platforms."
+      "title": "SmartWorkspace AI: Autonomous Workspace & Resource Allocation Platform",
+      "track": "",
+      "why_it_could_win": "Mirrors the runner-up win at SmartHack'25 by solving an enterprise workflow headache with immediate, demonstrable visual value and real-time scheduling logic."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1282252864"
       ],
-      "pitch": "An automated satellite imagery monitoring system that processes spatial raster files to detect illegal industrial land usage and environmental compliance breaches.",
+      "pitch": "A BPMN-orchestrated autonomous agent that runs compliance checks and pre-deployment risk diagnostics for software and AI pipelines.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "OpenCV",
-        "Leaflet.js"
-      ],
-      "title": "GeoAudit-AI",
-      "track": "Track 4",
-      "why_it_could_win": "Brings heavy domain-specific utility to industrial monitoring, replicating the exact niche infrastructure success seen in satellite-based compliance runner-ups."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "An enterprise video intelligence platform that converts hours of unstructured meeting and screencast recordings into a fully searchable, semantically queryable database.",
-      "stack": [
-        "HTML",
         "Python",
         "FastAPI",
-        "ChromaDB",
-        "OpenAI API"
+        "LangChain",
+        "BPMN Engine",
+        "React"
       ],
-      "title": "VideoLibrAI",
-      "track": "Track 5",
-      "why_it_could_win": "Solves an immediate productivity bottleneck with polished vector search and UI integration, directly emulating multi-prize-winning data intelligence applications."
+      "title": "AegisBPMN: Pre-Deployment Risk & Compliance Orchestrator for AI Workflows",
+      "track": "",
+      "why_it_could_win": "Directly inspired by UiPath AgentHack winning patterns; judges evaluating freshers and IT students love enterprise governance, safety tooling, and human-in-the-loop workflows."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered natural language prompt-to-strategy trading bot builder that allows users to test, deploy, and copy strategies on perpetuals markets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "OpenAI GPT-4",
+        "Web3.py"
+      ],
+      "title": "PacificaBot: No-Code Perpetuals Trading & Strategy Copycat Platform",
+      "track": "",
+      "why_it_could_win": "Leverages the grand prize winning pattern of Pacifica Hackathon by merging clean fintech execution with a high-utility no-code AI interface that is fun for judges to test live."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An interactive multilingual voice and text chatbot that brings localized health awareness, vaccine tracking, and symptom information to semi-urban and rural populations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "ElevenLabs",
+        "Next.js"
+      ],
+      "title": "PulseVibe: Multilingual Health Awareness & Preventive Care AI Agent",
+      "track": "",
+      "why_it_could_win": "Employs the social impact and regional accessibility strategy that won the First Prize Hackathon, scoring heavily on social value and accessibility metrics."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An automated AI Chief of Staff agent that processes civic grievances, triages emails, summarizes municipal meetings, and generates actionable task lists for executives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "CivicChief: Executive AI Chief of Staff for Local Governance and Founders",
+      "track": "",
+      "why_it_could_win": "Follows the 1st place winning pattern of The Agent Toolkit OpenClaw Hack Day by combining multi-tool agent orchestration with clear productivity and public-sector metrics."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

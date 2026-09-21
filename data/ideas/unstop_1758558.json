@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-21T08:38:03.099495+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758558",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An automated workflow engine built on n8n that continuously checks cloud infrastructure and application logs against RBI and SEBI compliance guidelines, auto-generating audit reports and remediation PRs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "n8n",
+        "Python",
+        "AWS"
+      ],
+      "title": "N8n Automated Compliance Auditor for Indian Fintech Startups",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Leverages the explicit n8n Pro Plan prize incentive by building a practical, enterprise-grade workflow automation tool that appeals directly to judges looking for business viability and incubation potential."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-based risk assessment platform for rural micro-entrepreneurs and farmers using alternative transaction data, combining network intelligence with lightGBM to unlock institutional credit.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AgriCredit Flow: Alternative Credit Scoring via Supply Chain Graph Analytics",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Employs genuinely hard graph engineering and machine learning, directly mirroring winning architectures like Bito's AML risk detection platform."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized voice-first multilingual AI agent that assists frontline healthcare workers in rural areas with preliminary symptom checks, vaccination tracking, and regional outbreak alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "LLM",
+        "Flutter",
+        "SQLite"
+      ],
+      "title": "AyurSync: Multilingual AI Health Navigator for Rural Clinics",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Follows the proven pattern of winning socially impactful regional health projects like SAGACITY, prioritizing clear measurable community benefit and accessibility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data pipeline incident investigator that detects schema breaks and corrupt data feeds across campus administrative databases, creating verified repair scripts and DataHub audit logs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "DataHub",
+        "Claude API",
+        "Docker"
+      ],
+      "title": "CampusPulse: Automated Institutional Data Lineage and Incident Response",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Directly implements the complex automated data engineering and self-healing agent architecture that won the DataHub Agent Hackathon."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-computed computer vision pipeline running on low-cost hardware that classifies recyclables instantly, tied to an automated conveyor diverter for municipal waste management.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Arduino",
+        "MQTT"
+      ],
+      "title": "EcoSort Edge: Real-Time IoT Waste Stream Segregation System",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Combines physical hardware simulation with robust machine learning, replicating the multi-disciplinary technical execution seen in TechnoMorph Hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

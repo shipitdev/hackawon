@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:23.128344+00:00",
+  "generated_at": "2026-09-21T08:22:27.581079+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745542",
@@ -18,80 +20,88 @@
       "inspired_by": [
         "github:1208011447"
       ],
-      "pitch": "A defense-in-depth security harness designed specifically to evaluate and harden LLM-based applications against sophisticated prompt injection and data exfiltration challenges commonly found in AI-themed CTF categories.",
+      "pitch": "A runtime proxy and testing tool designed to intercept prompt injections, validate model inputs via structured guardrails, and secure AI agent tool-calling chains.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Vercel AI SDK",
-        "FastAPI"
+        "FastAPI",
+        "Vercel AI SDK"
       ],
-      "title": "PromptShield CTF Agent",
+      "title": "AgentShield: Defense-in-Depth Prompt Injection Hardener for LLM Apps",
       "track": "",
-      "why_it_could_win": "Leverages the winning pattern of defense-in-depth and hardening principles seen in successful security challenges, providing an automated tool for judges to test LLM robustness."
+      "why_it_could_win": "Leverages technical difficulty and security engineering patterns inspired by winning defense-in-depth security architectures."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A privacy-preserving secret exchange platform utilizing Noir ZK-circuits to verify authorization tokens without exposing underlying sensitive credentials or plaintext private keys.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "Base Chain",
+        "Solidity"
+      ],
+      "title": "CryptoSentry: Zero-Knowledge Credential and Secret Sharing Vault",
+      "track": "",
+      "why_it_could_win": "Focuses on genuinely hard cryptographic engineering, setting it apart from standard web apps in a cybersecurity-focused competition."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "An automated security insights and vulnerability report generator that parses codebases for secret leaks, hardcoded credentials, and insecure cryptographic configurations during high-pressure CTF code-audit challenges.",
+      "pitch": "An advanced static analysis and automated reporting tool that crawls repositories to generate comprehensive security risk profiles, patch recommendations, and compliance audits.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "AST",
-        "React.js"
+        "FastAPI",
+        "React"
       ],
-      "title": "RepoSentinel",
+      "title": "RepoInspect: Automated Codebase Vulnerability and Security Insight Generator",
       "track": "",
-      "why_it_could_win": "Mirrors the success of automated repository summary and security insight tools that directly appeal to judges looking for practical workflow accelerators in software security."
+      "why_it_could_win": "Builds upon a proven hackathon-winning architecture designed to solve practical developer security workflows."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A network analysis tool that parses transaction graphs and flag suspicious clusters using anomaly detection algorithms with explainable heuristic breakdowns for security analysts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "GraphAML: Graph-Powered Anti-Money Laundering and Threat Traceability Platform",
+      "track": "",
+      "why_it_could_win": "Applies complex algorithmic graph intelligence and explainability that appeals directly to technical security judges."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1188682384"
-      ],
-      "pitch": "A zero-knowledge authentication gateway that enables capture-the-flag platforms to verify competitor progression and solve states without revealing the underlying flag payload or exploit scripts.",
-      "stack": [
-        "TypeScript",
-        "Noir-lang",
-        "Base"
-      ],
-      "title": "CryptoGate Zero-Knowledge Access Manager",
-      "track": "",
-      "why_it_could_win": "Applies advanced cryptographic verification primitives similar to winning ZK projects, demonstrating high technical difficulty suited for a cybersecurity-focused hackathon."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "A real-time communication analysis pipeline using fine-tuned BERT models to instantly detect and flag phishing URLs, social engineering emails, and malicious SMS payloads submitted during OSINT challenges.",
-      "stack": [
-        "JavaScript",
-        "Python",
-        "FastAPI",
-        "BERT"
-      ],
-      "title": "PhishGuard BERT",
-      "track": "",
-      "why_it_could_win": "Follows a proven runner-up pattern from cybersecurity hackathons by combining natural language processing with practical threat intelligence detection."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1284625256"
       ],
-      "pitch": "A deterministic engagement gateway for analyzing jammed or compromised wireless IoT and drone communication protocols at the edge, featuring human-in-the-loop manual override for security analysts.",
+      "pitch": "A localized deterministic engagement filter for IoT and network endpoints that processes telemetry at the edge while maintaining strict human-in-the-loop isolation.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "AWS"
+        "AWS Bedrock",
+        "Docker"
       ],
-      "title": "EdgeSentry Anti-UAS Protocol Analyzer",
+      "title": "AegisEdge: Jam-Resilient Edge Security and Threat Interception Gateway",
       "track": "",
-      "why_it_could_win": "Directly embodies hard engineering and defense-tech principles praised in competition wins for resilience under adversarial network conditions."
+      "why_it_could_win": "Combines defense-tech infrastructure with robust deterministic safety checks, demonstrating exceptional real-world utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

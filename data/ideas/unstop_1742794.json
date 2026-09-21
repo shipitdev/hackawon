@@ -1,104 +1,110 @@
 {
-  "generated_at": "2026-09-13T07:52:21.806076+00:00",
+  "generated_at": "2026-09-21T08:20:17.499395+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1742794",
   "ideas": [
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite imagery monitoring platform that detects unauthorized commercial developments and environmental infractions in restricted space-port and aerospace manufacturing zones.",
+      "pitch": "An AI-powered satellite imagery monitoring platform that tracks unauthorized space debris dumping and industrial land encroachment near aerospace facilities.",
+      "problem_statement": "Graviton — Where AI Meets the Final Frontier: space-inspired innovation and artificial intelligence for real-world problem solving.",
       "stack": [
         "TypeScript",
+        "React",
         "Python",
-        "Next.js",
-        "PyTorch",
-        "SentinelHub API"
+        "OpenCV",
+        "TensorFlow"
       ],
-      "title": "AstroCompliance Atlas",
-      "track": "",
-      "why_it_could_win": "Directly taps into the space-inspired innovation and emerging technology theme of Graviton by applying heavy geospatial AI similar to past geospatial compliance winners."
+      "title": "OrbitWatch AI",
+      "track": "Space & AI Innovation",
+      "why_it_could_win": "Directly targets the space-inspired innovation theme of the hackathon while delivering practical hard engineering similar to GeoNex-ATLAS."
     },
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "AIsafety and incident prediction model utilizing Poisson regression and rolling backtests to forecast satellite conjunctions and space debris collision cascades in low Earth orbit.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "Pandas",
-        "Scikit-learn"
-      ],
-      "title": "OrbitalRisk Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages rigorous statistical modeling and difficult backend forecasting inspired by winning AI safety and incident prediction architectures."
-    },
-    {
-      "build_hours": 24,
+      "build_hours": 22,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "AWS-powered anti-money laundering and supply chain risk detection platform using graph intelligence to track illicit component sourcing for aerospace hardware manufacturers.",
+      "pitch": "A graph intelligence platform for aerospace supply chain risk detection, utilizing graph neural networks to spot anomalies in satellite component manufacturing.",
+      "problem_statement": "Graviton — Where AI Meets the Final Frontier: emerging technologies and AI applications for complex industrial security.",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "LightGBM",
         "Neo4j",
-        "AWS Lambda"
+        "Python",
+        "LightGBM"
       ],
-      "title": "CosmoTx AI Supply Shield",
-      "track": "",
-      "why_it_could_win": "Combines graph intelligence and enterprise risk investigation, mirroring the technical complexity of past financial and industrial hackathon champions."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous AI agent marketplace with USDC escrow payments on Base designed for booking and trading decentralized telemetry and space observation data pipelines.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
-        "Node.js",
-        "USDC SDK"
-      ],
-      "title": "AstroAgent Escrow",
-      "track": "",
-      "why_it_could_win": "Demonstrates full-stack web3 integration and autonomous agent execution, matching the exact winning blueprint of recent autonomous marketplace tracks."
+      "title": "CosmoGraph AML",
+      "track": "Emerging Technologies",
+      "why_it_could_win": "Applies proven graph intelligence architecture from the DIGITIMES winning project to a high-value aerospace supply chain use case."
     },
     {
       "build_hours": 18,
       "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive modeling tool using Poisson GAMs and regression to forecast mission-critical anomalies and system failures in simulated rocket launches.",
+      "problem_statement": "Graviton — Where AI Meets the Final Frontier: artificial intelligence for space exploration safety and incident forecasting.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "FastAPI"
+      ],
+      "title": "AstroIncident Predictor",
+      "track": "AI & Space Safety",
+      "why_it_could_win": "Leverages rigorous statistical modeling and predictive calibration that won the Apart Research AI Forecasting Hackathon."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "AI-powered video intelligence platform transforming raw, unstructured telescope feeds and mission live-streams into searchable, indexed cosmological events.",
+      "pitch": "An AI-powered multimodal platform that ingests unstructured mission control telemetry, audio logs, and sensor feeds to make them instantly searchable and queryable.",
+      "problem_statement": "Graviton — Where AI Meets the Final Frontier: transforming complex space and technical operational data into accessible intelligence.",
       "stack": [
         "HTML",
+        "JavaScript",
         "Python",
-        "OpenCV",
-        "Gemini API",
-        "TailwindCSS"
+        "OpenAI Whisper",
+        "Pinecone"
       ],
-      "title": "Star-Gazer Video Intelligence",
-      "track": "",
-      "why_it_could_win": "Solves unstructured data processing with high utility for space researchers, directly echoing the data-to-insights design focus of previous first-place winners."
+      "title": "MissionLog AI",
+      "track": "Data & AI",
+      "why_it_could_win": "Mirrors the winning formula of LibrAI by solving unstructured data overload with multimodal AI capabilities."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced inventory tracking and lost-item portal tailored for space agency equipment depots, integrating Gemini multimodal search and real-time mapping.",
+      "problem_statement": "Graviton — Where AI Meets the Final Frontier: operational efficiency and asset management using emerging AI technologies.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini-AI"
+      ],
+      "title": "StellarFind",
+      "track": "Operations & AI",
+      "why_it_could_win": "Adapts the proven architecture of GDG Hackathon winner Lumina to optimize logistical pain points familiar to large technical institutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

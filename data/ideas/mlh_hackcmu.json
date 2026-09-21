@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:11.134844+00:00",
+  "generated_at": "2026-09-21T08:12:24.814475+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackcmu",
@@ -14,95 +16,90 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265",
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "A time-series forecasting dashboard for monitoring and predicting building-level energy usage and carbon output across CMU campus buildings using Poisson regression and rolling backtests.",
+      "pitch": "A forecasting tool predicting building energy consumption peaks across campus using Poisson regression and weather data to optimize utility usage.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Pandas",
         "Scikit-Learn",
-        "Streamlit"
+        "Pandas"
       ],
-      "title": "CMU Campus Energy & Carbon Footprint Forecaster",
+      "title": "CMU Campus Energy Mesh Predictor",
       "track": "",
-      "why_it_could_win": "Leverages rigorous statistical forecasting techniques proven to win analytical tracks, directly mirroring successful incident and risk forecasting architectures."
+      "why_it_could_win": "Follows the exact mathematical rigor seen in past forecasting winners, appealing directly to technically minded judges who value solid statistical models over generic wrappers."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1185920891",
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous AI agent marketplace where student researchers can deploy, rent, and execute specialized research automation agents with secure escrow payments.",
+      "pitch": "An automated anomaly detection and risk-scoring platform designed for university student government accounts using graph intelligence to flag suspicious transactions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "LangChain",
-        "Base",
-        "Solidity"
-      ],
-      "title": "Tartan Autonomous Research Agent Marketplace",
-      "track": "",
-      "why_it_could_win": "Combines multi-agent workflow architecture with transactional utility, matching the exact winning pattern of autonomous agent marketplaces."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
-      ],
-      "pitch": "An AML-style risk detection and graph intelligence platform designed to scan academic research grant allocations for compliance anomalies, conflicts of interest, and hidden network ties.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Neo4j",
-        "LightGBM",
-        "FastAPI"
-      ],
-      "title": "Graph-Powered Research Grant Risk & Compliance Auditor",
-      "track": "",
-      "why_it_could_win": "Applies graph intelligence and explainable machine learning models to solve high-stakes compliance problems, a proven formula for winning data-heavy hackathons."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered satellite monitoring tool that processes multispectral geospatial imagery to track urban heat islands and vegetation loss across Allegheny County in real time.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Mapbox GL",
-        "Rasterio",
+        "NetworkX",
         "TailwindCSS"
       ],
-      "title": "Pittsburgh Urban Heat Island Satellite Monitor",
+      "title": "Tartan Graph AML: Financial Compliance for Student Orgs",
       "track": "",
-      "why_it_could_win": "Tackles a complex, visually compelling engineering problem combining remote sensing data pipelines with modern frontend mapping libraries."
+      "why_it_could_win": "Leverages graph-based intelligence for financial risk, emulating a proven winning formula from AML and fraud-detection hackathon entries."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "A personalized nutrition assistant tailored specifically to campus dining hall menus, delivering real-time dietary recommendations and wellness insights for student athletes and busy undergraduates.",
+      "pitch": "A localized multi-agent transit support system using LangGraph and real-time Port Authority feeds to route students dynamically during severe Pittsburgh weather.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Next.js",
+        "TypeScript",
+        "LangGraph",
         "OpenAI API",
-        "TailwindCSS",
         "PostgreSQL"
       ],
-      "title": "Campus Health & Nutritional Intake Optimizer",
+      "title": "Pittsburgh Transit Multi-Agent RAG Assistant",
       "track": "",
-      "why_it_could_win": "Focuses on immediate consumer utility and polished user experience, echoing the winning strategy of practical wellness and nutrition assistants."
+      "why_it_could_win": "Combines multi-agent architectures with real hyper-local utility, mirroring the winning pattern of green and student-support workflow automation."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition platform tailored specifically to on-campus dining menus, offering automated macro tracking and personalized meal plans for student athletes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Gemini API"
+      ],
+      "title": "CMU Dining Hall Nutritional Optimizer",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable campus-wide problem with a polished consumer interface, matching the execution style of winning wellness tools."
+    },
+    {
+      "build_hours": 23,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous agent marketplace utilizing crypto escrow to securely trade and coordinate study groups or peer tutoring slots on campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC SDK",
+        "Node.js"
+      ],
+      "title": "Autonomous Course Registration Escrow Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates actual autonomous agent workflows combined with escrow mechanics, reproducing the technical complexity that wins modern developer tracks."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

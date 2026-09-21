@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:57.571545+00:00",
+  "generated_at": "2026-09-21T08:12:11.194048+00:00",
   "grounding": {
     "domains": [
       "healthtech",
@@ -10,93 +10,101 @@
       "impact",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackbios",
   "ideas": [
     {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A computer vision and weather data tool that estimates tendu leaf and mahua yield for local cooperative societies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Next.js",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "Chhattisgarh Minor Forest Produce Yield Forecaster",
+      "track": "",
+      "why_it_could_win": "Addresses regional economic impact for local agriculture and forestry co-ops in Chhattisgarh, aligning with high-impact local themes."
+    },
+    {
       "build_hours": 22,
+      "inspired_by": [
+        "github:1208831994",
+        "github:1170846981"
+      ],
+      "pitch": "Multilingual voice note logger that translates worker safety reports from Chhattisgarhi/Hindi into structured compliance tickets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Web Speech API"
+      ],
+      "title": "Bhilai Steel Plant Safety Compliance Audio Auditor",
+      "track": "",
+      "why_it_could_win": "Directly targets industrial safety automation relevant to Bhilai's heavy manufacturing ecosystem, making it deeply contextual."
+    },
+    {
+      "build_hours": 26,
       "inspired_by": [
         "github:1170846981",
         "github:1185527998"
       ],
-      "pitch": "A localized health triage and disease outbreak predictor designed for semi-urban and rural communities around Bhilai, featuring local language support and rapid clinical symptom assessment.",
+      "pitch": "An offline-first voice and visual symptom checker bridging localized tribal healthcare gaps with basic triage protocols.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "Bhilai-Pulse",
-      "track": "",
-      "why_it_could_win": "It follows the exact winning pattern of localized multilingual healthcare accessibility demonstrated by SAGACITY and mediscan-ai, which resonates strongly with regional hackathon judges looking for grassroots impact."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1208831994"
-      ],
-      "pitch": "A 60-second voice biomarker screening tool optimized for detecting early respiratory conditions prevalent in industrial towns like Bhilai using quick audio diagnostic inputs.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Web Audio API",
-        "LLM"
-      ],
-      "title": "Arogya-Voice",
-      "track": "",
-      "why_it_could_win": "It leverages the grand prize-winning formula of fast voice-based diagnostics seen in Timbre, providing judges with a memorable and novel audio-first tech demo."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1182199849"
-      ],
-      "pitch": "An interactive clinical training simulator that uses MediaPipe computer vision to track student posture during emergency CPR and evaluates simulated patient interviews.",
-      "stack": [
-        "TypeScript",
+        "JavaScript",
+        "Electron",
         "MediaPipe",
-        "React",
-        "TailwindCSS"
+        "Python"
       ],
-      "title": "MediTrain-Vision",
+      "title": "Adivasi Dialect Health Triage Kiosk",
       "track": "",
-      "why_it_could_win": "It replicates the winning architecture of Clinical-Simulator by combining computer vision pose tracking with live scoring, ensuring a high-impact, interactive live demo."
+      "why_it_could_win": "Demonstrates clear social impact for underserved rural populations in Central India, heavily favored by judging panels looking for grassroots solutions."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1194555365"
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered community coordination platform that connects elderly residents in Bhilai with volunteer drivers for medical appointments and social outings.",
+      "pitch": "A streamlined mobile web app tracking raw material distribution and fair wage payouts for Kosa silk weavers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
+        "React",
         "Node.js",
-        "PostgreSQL"
+        "SQLite"
       ],
-      "title": "ElderLink-Bhilai",
+      "title": "Local Artisan Supply Chain Ledger",
       "track": "",
-      "why_it_could_win": "It directly implements the grand prize-winning social good model of Outreach, addressing local community challenges with a clear, measurable human impact."
+      "why_it_could_win": "Focuses on measurable economic transparency for traditional artisans in Chhattisgarh, leveraging working prototype viability."
     },
     {
-      "build_hours": 18,
+      "build_hours": 25,
       "inspired_by": [
-        "github:1275874285"
+        "github:1353074073"
       ],
-      "pitch": "A personalized nutrition and wellness assistant tailored for local dietary habits in Chhattisgarh, offering instant meal scanning and localized health guidance.",
+      "pitch": "An OCR and analytics tool reconciling public distribution system store stock logs with beneficiary dispatch records.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Streamlit",
-        "Gemini API",
+        "Tesseract OCR",
         "Pandas"
       ],
-      "title": "NutriTrack-AI",
+      "title": "Chhattisgarh PDS Ration Leakage Auditor",
       "track": "",
-      "why_it_could_win": "It builds upon the proven first-prize success of E-Foodiee-AI-Nutrition-Assistant, combining everyday practical utility with a slick, working user interface."
+      "why_it_could_win": "Tackles a high-visibility civic governance problem with an undeniable demo that processes real mock document inputs instantly."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,93 +1,94 @@
 {
-  "generated_at": "2026-09-14T08:03:28.902034+00:00",
+  "generated_at": "2026-09-21T08:29:28.170376+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750817",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A web platform tailored for competitive programming teams to analyze past contest performance, track algorithmic weak points across codeforces or custom problem sets, and generate collaborative solve-order strategies for multi-PC preliminary rounds.",
+      "pitch": "A localized competitive programming testing suite with automated testcase generators and stress-testing utilities.",
+      "problem_statement": "Walchand Collegiate Programming Contest (WCPC) competitive programming rounds with 8 problems of varied difficulty.",
       "stack": [
-        "TypeScript",
-        "Next.js",
         "Python",
+        "C++",
+        "Docker",
         "FastAPI"
       ],
-      "title": "ICPC Team Strategy Visualizer and Algorithm Recommender",
+      "title": "ICPCHelper Offline Virtual Judge",
       "track": "",
-      "why_it_could_win": "WCPC is inspired by the ICPC and targets competitive programmers. Building a tooling platform specifically meant to optimize ICPC team dynamics and problem-solving order directly appeals to the organizers and judges' core domain."
+      "why_it_could_win": "Targeted directly at the ICPC-inspired competitive programming nature of the contest, helping participants debug and stress-test solutions rapidly under strict time limits."
     },
     {
-      "build_hours": 36,
+      "build_hours": 18,
       "inspired_by": [],
-      "pitch": "A specialized code editor designed for multi-PC preliminary rounds where teams of 3 can seamlessly share state, annotate problem statements together in real-time, and prevent duplicate coding efforts across distributed terminals.",
+      "pitch": "A collaborative single-PC coding environment optimized for multi-user competitive programming sessions.",
+      "problem_statement": "Final Round requiring team members to work together on one single PC.",
       "stack": [
         "TypeScript",
+        "React",
         "WebSockets",
-        "Monaco Editor",
-        "Node.js"
+        "Monaco Editor"
       ],
-      "title": "AlgoDuet: Synchronous Multi-PC Collaborative Code Editor for ICPC Prelims",
+      "title": "TeamSync CP Multi-Editor",
       "track": "",
-      "why_it_could_win": "Directly targets the specific rule format of WCPC where preliminary rounds allow up to three PCs, solving a real coordination pain point for collegiate competitive programmers."
+      "why_it_could_win": "Solves the specific bottleneck of multiple team members sharing a single keyboard and screen during the intense final round."
     },
     {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1155558847"
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An instant algorithm visualizer designed to trace dynamic programming and graph theory problems from contest sets.",
+      "problem_statement": "WCPC preliminary and final round problems focusing on logic, coding, and advanced problem-solving.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "TailwindCSS"
       ],
-      "pitch": "A high-performance local judging environment that uses lightweight LLM generation to automatically create edge-case test generators and stress-testers for complex algorithmic problems from incomplete problem descriptions.",
+      "title": "AlgoVisualizer WCPC",
+      "track": "",
+      "why_it_could_win": "Leverages a working, interactive demo that makes complex algorithmic execution transparent and easy to explain during judging."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:504196992"
+      ],
+      "pitch": "A real-time submission tracker and penalty calculator for collegiate programming contests.",
+      "problem_statement": "Walchand Collegiate Programming Contest multi-round structure with diverse problem difficulties.",
       "stack": [
         "Python",
-        "Docker",
-        "FastAPI",
-        "TypeScript"
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "CP-Kernel: Automated Local Judge and Test Case Generator",
+      "title": "CP Contest Analytics Dashboard",
       "track": "",
-      "why_it_could_win": "Combines rigorous algorithmic engineering with smart tooling, mirroring the technical depth seen in winning projects that execute difficult logic under strict time constraints."
+      "why_it_could_win": "Provides immediate analytical utility for teams tracking leaderboard standings and standings strategies."
     },
     {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AST-based static analysis extension that parses candidate solutions in C++ or Python during a live contest, instantly calculating exact big-O bounds and flagging potential TLE or MLE vulnerabilities before submission.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Tree-sitter",
-        "VS Code Extension"
-      ],
-      "title": "ComplexityPulse: Real-Time Time and Space Complexity Estimator for Competitive Coders",
-      "track": "",
-      "why_it_could_win": "Addresses the exact failure mode every competitive programmer faces in high-pressure rounds (Time Limit Exceeded), providing immediate, highly practical utility for an audience of ICPC aspirants."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An intelligent team formation and assignment engine that analyzes individual member ratings across graph theory, dynamic programming, and data structures to recommend optimal pairing and problem distribution strategies.",
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "An intelligent snippet manager and template repository optimized for rapid retrieval during competitive contests.",
+      "problem_statement": "WCPC competitive programming rounds pushing problem-solving skills to the limit.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "TailwindCSS"
+        "SQLite"
       ],
-      "title": "GraphMatch: ICPC Roster Optimizer and Skill-Gap Analyzer",
+      "title": "Smart Problem Notebook for ICPC",
       "track": "",
-      "why_it_could_win": "Focuses on the teamwork aspect heavily emphasized in the WCPC description, helping student colleges build stronger, well-balanced competitive programming squads."
+      "why_it_could_win": "Focuses on practical efficiency, giving competitive programmers a tangible tool to reduce boilerplate writing time."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

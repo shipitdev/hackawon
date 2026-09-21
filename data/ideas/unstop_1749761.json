@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-21T08:27:26.560150+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749761",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A highly agile 350x350mm wireless robo soccer striker with an adjustable mechanical kicking arm that complies strictly with the 50% ball exposure rule.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Bluetooth",
+        "DC Motors"
+      ],
+      "title": "StrikerBot Pro",
+      "track": "",
+      "why_it_could_win": "Leverages the physical build pattern seen in hardware winners, ensuring reliable handling and powerful shooting within strict weight and size constraints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A rapid-lateral movement robotic defense unit utilizing dual high-torque DC motors for instant side-to-side goal coverage under 3kg.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Raspberry Pi Pico",
+        "RF Control"
+      ],
+      "title": "GoalKeeper Defensive Rig",
+      "track": "",
+      "why_it_could_win": "Focuses on defensive dominance and mechanical speed, which directly counters aggressive offensive robots in head-to-head matches."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A holonomic drive robot using omni-wheels for 360-degree vector movement, giving it superior agility in tight volleyball court arenas.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Omni Wheels",
+        "PWM Motor Drivers"
+      ],
+      "title": "OmniDrive Soccer Bot",
+      "track": "",
+      "why_it_could_win": "Features advanced mechanical mobility that stands out against traditional differential-drive setups during live match demonstrations."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A compact robot equipped with a high-speed servo-actuated flicking mechanism designed to drive the ball across the opponent goal line instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "Servo Motors",
+        "3S LiPo Battery",
+        "RF Receiver"
+      ],
+      "title": "FlickerShot Melee Bot",
+      "track": "",
+      "why_it_could_win": "Directly optimizes for the scoring mechanic while strictly respecting the rule that 50% of the ball's surface remains exposed."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A lightweight 3D-printed chassis reinforced for high-impact collisions during competitive matches while keeping the total weight safely below 3kg.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "CAD",
+        "3D Printing",
+        "DC Gearbox Motors"
+      ],
+      "title": "ToughFrame Chassis & Armor",
+      "track": "",
+      "why_it_could_win": "Prioritizes durability and structural resilience, ensuring the robot survives aggressive tournament play without mechanical failure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

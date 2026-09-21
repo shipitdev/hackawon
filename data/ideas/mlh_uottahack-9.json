@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:54.922103+00:00",
+  "generated_at": "2026-09-21T08:16:18.449377+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:uottahack-9",
   "ideas": [
     {
-      "build_hours": 48,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "An AML and compliance risk-detection platform built for public sector procurement, combining graph intelligence and LightGBM to flag municipal tender fraud in real-time.",
+      "pitch": "An AI-powered municipal feedback aggregator that parses local Ottawa public consultation transcripts and maps citizen sentiment to city council agenda items.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "LangChain",
+        "PostgreSQL"
       ],
-      "title": "OttawaGov-RiskGraph",
+      "title": "OttawaCivicPulse",
       "track": "",
-      "why_it_could_win": "It mirrors the winning pattern of combining graph intelligence and advanced tabular ML seen in Bito, making it visually compelling and technically robust for judges looking for enterprise-grade security tools."
-    },
-    {
-      "build_hours": 55,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace enabling micro-transactions and USDC escrow payments for local Ottawa delivery and ride-pooling optimization.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "LangGraph"
-      ],
-      "title": "CapitalTransit-AgentMarket",
-      "track": "",
-      "why_it_could_win": "It applies proven autonomous multi-agent marketplace mechanics to localized infrastructure, echoing the architecture of the Synthesis Hackathon winner."
-    },
-    {
-      "build_hours": 60,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "AI-powered satellite monitoring for Ottawa industrial zones and greenbelt compliance, tracking environmental changes using multi-modal geospatial data.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "GIS APIs",
-        "Next.js"
-      ],
-      "title": "GreenCapital-SatelliteMonitor",
-      "track": "",
-      "why_it_could_win": "Hard engineering focused on geospatial analysis and satellite data always stands out at regional hackathons, directly matching the success of GeoNex-ATLAS."
+      "why_it_could_win": "Targeting local government data appeals strongly to judges looking for tangible regional impact in Ottawa without needing corporate sponsor integrations."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Predictive modeling platform for OC Transpo bus delays and pedestrian hazards during Ottawa winter storms using historical weather feeds and crowd-sourced reports.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "React"
+      ],
+      "title": "WinterTransitRisk",
+      "track": "",
+      "why_it_could_win": "Leveraging local utility pain points like Ottawa winters instantly resonates with local judges and event organizers."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine optimized for local dental and prosthodontic clinics in the National Capital Region.",
+      "pitch": "Automated pipeline for tracking federal legislative changes and lobbying disclosures, synthesizing complex policy documents into digestible impact briefs for journalists.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Gemini API",
-        "Next.js",
         "TailwindCSS"
       ],
-      "title": "MedTrust-Ottawa",
+      "title": "ParliamentWatch",
       "track": "",
-      "why_it_could_win": "It adapts a proven high-converting architecture from the Elevate X sprint, delivering immediate utility for local small businesses that judges appreciate."
+      "why_it_could_win": "Taps into the political ecosystem of Ottawa by providing practical value for federal policy watchers."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "Poisson GAM and multinomial share model forecasting platform for predicting regional energy grid incidents and demand spikes in Ontario.",
+      "pitch": "Satellite imagery analytics platform monitoring urban tree canopy health and green space loss in the National Capital Region.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "Statsmodels",
-        "Streamlit"
+        "Leaflet.js",
+        "FastAPI"
       ],
-      "title": "EcoGrid-ForecastAI",
+      "title": "CapitalCanopy",
       "track": "",
-      "why_it_could_win": "It leverages rigorous statistical modeling and calibrated prediction intervals, following the exact winning formula of the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Combines hard geospatial engineering with environmental monitoring, mimicking proven high-scoring technical architectures."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Supply chain transparency ledger designed for local Ontario agricultural producers to track carbon offset metrics from farm to Ottawa farmers' markets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "title": "BioRegionTrace",
+      "track": "",
+      "why_it_could_win": "Focuses on regional sustainability initiatives, aligning with themes commonly favored by academic and community-backed hackathon judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,102 +1,94 @@
 {
-  "generated_at": "2026-09-16T07:50:47.220904+00:00",
+  "generated_at": "2026-09-21T08:32:28.347960+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo",
+      "impact"
     ],
+    "problem_source_count": 3,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754670",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1155558847"
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A practical hybrid infrastructure monitoring prototype designed for local community asset management, built for beginner-friendly innovation challenges.",
+      "problem_statement": "General innovation challenge problem statement revealed on event day focusing on turning local problems into practical solutions.",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python"
       ],
-      "pitch": "A mobile-first web app allowing citizens to photograph local infrastructure issues like potholes or broken streetlights, automatically tagging GPS coordinates and translating descriptions into local official languages for municipal bodies.",
+      "title": "BridgeGrid",
+      "track": "Online Track",
+      "why_it_could_win": "Aligns with the beginner-friendly focus of SETU by emphasizing a practical, working prototype that solves a tangible local asset tracking problem."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1261513376"
+      ],
+      "pitch": "An offline-first task dispatch and issue reporting tool tailored for community infrastructure repair coordination.",
+      "problem_statement": "General innovation challenge problem statement revealed on event day focusing on practical technology solutions.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Next.js"
       ],
-      "title": "SetuScan: Regional Language Public Infrastructure Auditor",
-      "track": "Online Track",
-      "why_it_could_win": "Targeted directly at a beginner-friendly hybrid hackathon focused on turning local problems into practical solutions, appealing to judges looking for immediate civic utility."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1213911408"
-      ],
-      "pitch": "A lightweight platform connecting local farmers facing crop surplus with nearby micro-enterprises and food banks, optimizing routes to minimize food waste during harvest season.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Leaflet.js",
-        "SQLite"
-      ],
-      "title": "AgriBridge: Direct Farmer-to-Consumer Produce Surplus Matcher",
+      "title": "FixFlow",
       "track": "Offline Track",
-      "why_it_could_win": "Solves a grounded regional economic problem with a clear logistical prototype that judges can easily test and understand within a short timeframe."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An AI-powered curriculum generator that builds hyper-localized, offline-accessible micro-learning roadmaps for vocational students based on available regional industries.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "IndexedDB",
-        "Ollama"
-      ],
-      "title": "EduSetu: Low-Bandwidth Offline-First Skill Pathway Generator",
-      "track": "Online Track",
-      "why_it_could_win": "Addresses accessibility challenges in hybrid and tier-2 educational settings, resonating well with beginner-friendly impact criteria."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1241231621"
-      ],
-      "pitch": "An emergency logistics prototype mapping regional blood banks and community donors to hospitals in real-time using SMS fallback notifications for areas with poor internet connectivity.",
-      "stack": [
-        "Python",
-        "Flask",
-        "Twilio API",
-        "PostgreSQL"
-      ],
-      "title": "MedRoute: Community Blood and Resource Allocator",
-      "track": "Offline Track",
-      "why_it_could_win": "High emotional and practical resonance for local hackathon judges prioritizing emergency healthcare resilience."
+      "why_it_could_win": "Targets the hybrid nature of the event with offline-first synchronization capabilities, showcasing a robust prototype in a short timeframe."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
+        "github:1088994743"
       ],
-      "pitch": "An IoT and web dashboard simulator that tracks institutional utility usage, providing automated daily reduction targets and gamified leaderboards for student hostels.",
+      "pitch": "A lightweight resource distribution planner for local aid stations, optimizing supply delivery paths during regional disruptions.",
+      "problem_statement": "General innovation challenge problem statement revealed on event day focusing on practical solutions.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook"
+      ],
+      "title": "SetuRoute",
+      "track": "Online Track",
+      "why_it_could_win": "Demonstrates clear measurable impact and practical utility, which judges value heavily in innovation challenges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A peer-to-peer micro-credential verification prototype that links local vocational trainees with small businesses needing short-term help.",
+      "problem_statement": "General innovation challenge problem statement revealed on event day focusing on bridging gaps in community resources.",
       "stack": [
         "JavaScript",
-        "Node.js",
-        "Chart.js",
-        "MQTT"
+        "HTML"
       ],
-      "title": "CampusFlow: Smart Energy & Water Usage Monitor for Hostels",
+      "title": "SkillBridge",
+      "track": "Online Track",
+      "why_it_could_win": "Directly embraces the 'Bridge the Gap' theme of the hackathon with a highly demonstrable web interface."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "A low-overhead sensor data aggregator for local waste management tracking, helping municipalities identify overflow hotspots.",
+      "problem_statement": "General innovation challenge problem statement revealed on event day focusing on practical environmental prototypes.",
+      "stack": [
+        "Python",
+        "TypeScript"
+      ],
+      "title": "EcoLog",
       "track": "Offline Track",
-      "why_it_could_win": "Directly deployable by the hosting institution or local campuses, giving judges a tangible, ready-to-pilot real-world prototype."
+      "why_it_could_win": "Combines a working live demo with a clear environmental impact narrative suited for a 24-48 hour build limit."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

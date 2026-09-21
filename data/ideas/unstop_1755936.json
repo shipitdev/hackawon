@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:51:04.295816+00:00",
+  "generated_at": "2026-09-21T08:34:47.831386+00:00",
   "grounding": {
     "domains": [
       "hardware",
@@ -12,87 +12,98 @@
       "technical-depth",
       "unusual-hardware"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1755936",
   "ideas": [
     {
-      "build_hours": 5,
+      "build_hours": 18,
       "inspired_by": [
+        "github:1341712439",
         "github:1010199928"
       ],
-      "pitch": "An automated school waste segregation bin using provided sensor kits and microcontroller boards to classify wet and dry waste in real-time.",
+      "pitch": "An IoT-based automated power conservation system using provided sensor kits and microcontrollers to monitor and cut off idle classroom electricity.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "Arduino",
-        "C++"
+        "Python",
+        "ESP32",
+        "MQTT"
       ],
-      "title": "Smart Campus Segregator",
-      "track": "Junior Innovators",
-      "why_it_could_win": "Leverages the provided on-campus hardware kits and directly mirrors a proven robotics win style by integrating hardware with practical campus utility."
+      "title": "Smart Campus Energy Guard",
+      "track": "",
+      "why_it_could_win": "Leverages the provided on-campus hardware and sensor kits directly, offering a tangible physical build that stands out in a room of standard web applications."
     },
     {
-      "build_hours": 5,
+      "build_hours": 20,
       "inspired_by": [
         "github:1182199849"
       ],
-      "pitch": "A computer vision safety monitor that alerts students via buzzer if they handle chemicals without safety goggles or lab coats in the school innovation lab.",
+      "pitch": "A real-time computer vision safety assistant that flags students in the school innovation lab who are not wearing safety goggles or handling equipment incorrectly.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
-        "Raspberry Pi"
+        "MediaPipe"
       ],
-      "title": "Lab Safety Guard AI",
-      "track": "Senior Innovators",
-      "why_it_could_win": "Demonstrates a working physical prototype using college-provided lab equipment and addresses an immediate, relatable problem for school innovation labs."
+      "title": "LabSafety Vision Monitor",
+      "track": "",
+      "why_it_could_win": "Directly addresses school innovation lab usage, aligning well with the university's focus on on-campus hardware and laboratory equipment safety."
     },
     {
-      "build_hours": 5,
+      "build_hours": 16,
       "inspired_by": [
-        "github:1341712439"
+        "github:1010199928"
       ],
-      "pitch": "An automated IoT power conservation node that cuts off classroom lights and fans when motion sensors detect an empty room.",
+      "pitch": "An automated waste segregation prototype utilizing a microcontroller, camera module, and servo motors to instantly classify and sort biodegradable and non-biodegradable trash.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Python",
         "Arduino",
-        "ESP32",
-        "C++"
+        "TensorFlow Lite"
       ],
-      "title": "Eco-Watt Classroom Controller",
-      "track": "Junior Innovators",
-      "why_it_could_win": "Uses the provided sensor kits to solve a clear resource-saving problem, fitting the tight 6-hour timeframe with a physical demonstration."
+      "title": "EcoSort Autonomous Bin",
+      "track": "",
+      "why_it_could_win": "Combines hardware components and sensors provided by the college with a live, working physical demonstration that appeals strongly to school judges."
     },
     {
-      "build_hours": 5,
+      "build_hours": 15,
       "inspired_by": [
+        "github:1213911408",
         "github:1074933780"
       ],
-      "pitch": "A localized curriculum roadmap generator tailored for high school board exams, providing practice questions and targeted revision topics.",
+      "pitch": "A localized student support and curriculum roadmap generator tailored specifically for high school board exam preparation in Classes 9 through 12.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Tailwind"
+        "React",
+        "LangChain"
       ],
       "title": "StudyPath AI Mentor",
-      "track": "Senior Innovators",
-      "why_it_could_win": "Directly appeals to the high school demographic and judges by solving a high-value academic stress point within the short hackathon window."
+      "track": "",
+      "why_it_could_win": "Targets the exact age demographic of the hackathon participants (Classes 9-12), making the problem and solution deeply relatable to the judges and students."
     },
     {
-      "build_hours": 5,
+      "build_hours": 12,
       "inspired_by": [
-        "github:1281918590"
+        "github:1281918590",
+        "github:1341712439"
       ],
-      "pitch": "A compact agricultural monitoring device that tracks soil moisture and temperature, automatically triggering a mini water pump via relay circuits.",
+      "pitch": "An automated micro-irrigation prototype built with soil moisture sensors, a relay circuit, and a microcontroller to manage school garden watering efficiently.",
+      "problem_statement": "No published statement",
       "stack": [
         "Arduino",
         "C++",
-        "Sensors"
+        "Relay Module"
       ],
-      "title": "Smart Greenhouse Monitor",
-      "track": "Junior Innovators",
-      "why_it_could_win": "Combines custom circuit components provided by the college with a live, functioning physical demo that is easy for judges to understand and test."
+      "title": "Smart Plant Hydration System",
+      "track": "",
+      "why_it_could_win": "Uses physical sensor kits provided on-campus to solve a real school maintenance problem with a reliable working live demo."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:10.619557+00:00",
+  "generated_at": "2026-09-21T08:29:10.417560+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,76 +7,90 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750453",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [],
-      "pitch": "A practice sandbox built specifically for preparing for blind coding challenges, featuring audio feedback for syntax errors without revealing visual text.",
+      "pitch": "A specialized practice environment for blind coding competitions that records keystrokes without rendering video output, analyzing logic and syntax errors post-submission.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Web Audio API",
-        "Monaco Editor"
+        "React",
+        "Monaco Editor",
+        "Node.js"
       ],
-      "title": "BlindType IDE",
-      "track": "Blind Coding",
-      "why_it_could_win": "It targets the exact niche of the event's Blind Coding round, giving students a tool to train for the competition format itself."
+      "title": "BlindCoder Sandbox",
+      "track": "",
+      "why_it_could_win": "Directly targets the event's unique Blind Coding challenge format, providing a much-needed training tool for students preparing for the competition."
     },
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A real-time visualizer for head-to-head DSA problem solving that tracks AST diffs and execution traces during live duels.",
-      "stack": [
-        "Python",
-        "WebSockets",
-        "React"
-      ],
-      "title": "Algorunner Live",
-      "track": "DSA Battle",
-      "why_it_could_win": "Directly enhances the live competitive programming format of the DSA Battle with unique observability tools."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "An IDE extension that trains developers to rely purely on syntax memory by progressively obfuscating lines of code as typing speed increases.",
+      "pitch": "A real-time competitive programming arena featuring automated test-case generation, WebSocket-based synchronization, and live head-to-head performance tracking for DSA battles.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "VS Code Extension API"
+        "Next.js",
+        "WebSockets",
+        "Docker"
       ],
-      "title": "MemoryScope",
-      "track": "Blind Coding",
-      "why_it_could_win": "Appeals directly to the fundamentals-first, high-pressure memory test ethos of the blind coding challenge."
+      "title": "AlgoDuel Live",
+      "track": "",
+      "why_it_could_win": "Aligns with the DSA Battle event format by offering judges a seamless platform to manage and visualize live algorithmic showdowns."
     },
     {
-      "build_hours": 40,
+      "build_hours": 24,
       "inspired_by": [],
-      "pitch": "An automated sparring partner that generates adversarial test cases for data structure implementations in real time during head-to-head algorithm battles.",
+      "pitch": "An educational IDE extension that forces early-year students to practice coding entirely from memory by hiding the editor canvas on a countdown timer.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "VS Code API",
+        "JavaScript"
+      ],
+      "title": "MemoryTrace",
+      "track": "",
+      "why_it_could_win": "Engages the first and second-year demographic participating in the blind coding track by gamifying foundational memory and logic retention."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated DSA problem analyzer that evaluates submitted solutions for time and space complexity bottlenecks using abstract syntax tree parsing.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Docker"
+        "Tree-sitter",
+        "React"
       ],
-      "title": "DSADealer",
-      "track": "DSA Battle",
-      "why_it_could_win": "Solves a core friction point in competitive programming practice by dynamically stressing code against edge cases."
+      "title": "ComplexityCoach",
+      "track": "",
+      "why_it_could_win": "Appeals to the advanced competitive programmers in the DSA Battle track by offering deep, instant algorithmic insights beyond simple pass/fail verdicts."
     },
     {
-      "build_hours": 18,
+      "build_hours": 28,
       "inspired_by": [],
-      "pitch": "A flashcard and muscle-memory training game for standard library functions and boilerplate code needed in blind coding competitions.",
+      "pitch": "A tournament management system purpose-built for multi-tier coding hackathons, handling real-time leaderboards, blind submissions, and bracket pairings.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
-        "TailwindCSS"
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "SyntaxRecall",
-      "track": "Blind Coding",
-      "why_it_could_win": "Provides tangible utility for the first and second-year students participating in the foundational blind coding track."
+      "title": "ClashBracket",
+      "track": "",
+      "why_it_could_win": "Solves the logistical overhead of running both Blind Coding and DSA Battle tracks simultaneously under one roof."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

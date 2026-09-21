@@ -1,102 +1,105 @@
 {
-  "generated_at": "2026-09-20T07:53:38.115684+00:00",
+  "generated_at": "2026-09-21T08:30:27.251592+00:00",
   "grounding": {
     "domains": [
-      "hardware",
-      "devtools"
+      "hardware"
     ],
     "exemplar_count": 8,
     "patterns": [
+      "unusual-hardware",
       "technical-depth",
-      "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751540",
   "ideas": [
     {
-      "build_hours": 11,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous AI agent pipeline for satellite collision avoidance, processing live TLE data and simulating orbital maneuvers to generate verified collision-avoidance telemetry.",
-      "stack": [
-        "Python",
-        "ai-agents",
-        "astropy",
-        "fastapi"
-      ],
-      "title": "OrbitalDebris-AI",
-      "track": "Software",
-      "why_it_could_win": "Addresses a critical real-world aerospace problem and mimics the autonomous incident response pattern seen in previous hackathon winners."
-    },
-    {
-      "build_hours": 10,
-      "inspired_by": [
-        "github:1341712439"
-      ],
-      "pitch": "Real-time telemetry anomaly detection dashboard for sounding rockets using machine learning models on live sensor streams.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "gemini-2-5",
-        "timescaledb"
-      ],
-      "title": "TelemetryGuard",
-      "track": "Software",
-      "why_it_could_win": "Fits the software track perfectly by bringing advanced industrial anomaly detection techniques directly into aerospace telemetry operations."
-    },
-    {
-      "build_hours": 10,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A semantic routing framework optimized for querying complex aerospace engineering documentation and orbital mechanics guidelines using local embeddings.",
-      "stack": [
-        "Python",
-        "qwen",
-        "semantic-router",
-        "superlinked"
-      ],
-      "title": "AeroSim-Router",
-      "track": "Software",
-      "why_it_could_win": "Demonstrates sophisticated software engineering and efficient LLM routing techniques that stand out among generic chatbot submissions."
-    },
-    {
       "build_hours": 12,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An on-board computer vision and flight code reviewer running on constrained hardware NPUs to inspect rocket component imagery pre-launch.",
+      "pitch": "An offline edge-AI system running on low-power NPUs to detect critical satellite telemetry anomalies in real-time without ground station delay.",
+      "problem_statement": "Software Track: Space/Astronomy Data Processing and Anomaly Detection",
       "stack": [
         "Python",
-        "opencv",
-        "onnx",
-        "numpy"
+        "TensorFlow Lite",
+        "FastAPI",
+        "React"
       ],
-      "title": "FlightEdge-NPU",
+      "title": "AstroTrack NPU: On-Board Satellite Telemetry & Anomaly Detector",
+      "track": "Software",
+      "why_it_could_win": "Leverages the offline AI processing pattern from winning projects like DevMesh, directly addressing the core aerospace challenge of autonomous orbital monitoring."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1144331507"
+      ],
+      "pitch": "An autonomous surface rover capable of navigating simulated obstacles and transmitting telemetry over a redundant low-bandwidth mesh network.",
+      "problem_statement": "Hardware Track: Robotics and Autonomous Aerospace Systems",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "Python"
+      ],
+      "title": "Mars Rover Mesh: Autonomous Rover Tele-operation over Acoustic/RF Relay",
       "track": "Hardware",
-      "why_it_could_win": "Leverages edge computing principles and hardware-software integration suitable for the hardware-adjacent judging criteria."
+      "why_it_could_win": "Combines the physical build and robotics patterns of Quanta 2025 winner Rover with robust off-grid networking, highly impressive for judges evaluating hardware."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A high-performance computational tool that ingests TLE orbital data, simulates conjunction risks, and generates optimal orbital dodge burns.",
+      "problem_statement": "Software Track: Space Situational Awareness and Traffic Management",
+      "stack": [
+        "Python",
+        "NumPy",
+        "CesiumJS",
+        "Flask"
+      ],
+      "title": "Orbital Debris Collision Avoidance & Trajectory Predictor",
+      "track": "Software",
+      "why_it_could_win": "Tackles a high-stakes, mathematically rigorous problem with a working visual dashboard, standing out from standard CRUD apps."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A custom FPGA-based hardware module that reads high-frequency aerodynamic pressure sensor arrays and instantly computes lift-to-drag coefficients.",
+      "problem_statement": "Hardware Track: Aeronautics and Wind Tunnel Instrumentation",
+      "stack": [
+        "Verilog",
+        "FPGA",
+        "C++",
+        "Python"
+      ],
+      "title": "AeroFoil FPGA: Real-Time Wind Tunnel Pressure Sensor Processing Unit",
+      "track": "Hardware",
+      "why_it_could_win": "Hits the 'genuinely hard engineering' and custom hardware patterns seen in SanDisk Hardware Hackathon winning projects."
     },
     {
       "build_hours": 11,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "BPMN-orchestrated pre-flight safety checklist and risk diagnosis agent that coordinates multi-system readiness for small satellite launches.",
+      "inspired_by": [],
+      "pitch": "An onboard optical navigation system that uses star trackers and horizon line-of-sight algorithms to compute accurate drone coordinates without GPS.",
+      "problem_statement": "Software Track: Autonomous Guidance and Navigation",
       "stack": [
         "Python",
-        "ai-agents",
-        "bpmn",
-        "fastapi"
+        "OpenCV",
+        "Pygame",
+        "C++"
       ],
-      "title": "AeroBPMN-Workflow",
+      "title": "StarNav: GPS-Denied Celestial Navigation Assistant for UAVs",
       "track": "Software",
-      "why_it_could_win": "Brings rigorous enterprise workflow governance to aerospace engineering checklists, impressing judges looking for structured execution."
+      "why_it_could_win": "Applies computer vision and astronomy to a critical defense and aerospace use case, demonstrating advanced technical depth within a 12-hour build window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

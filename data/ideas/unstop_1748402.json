@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:13.793553+00:00",
+  "generated_at": "2026-09-21T08:26:05.555872+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,102 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1748402",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An on-device AML risk detection and investigation platform running on Snapdragon hardware, utilizing graph intelligence and Focal LightGBM to analyze transaction flows locally without cloud latency.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Qualcomm Neural Processing SDK",
-        "LightGBM"
-      ],
-      "title": "Qualcomm EdgeAML Compliance Monitor",
-      "track": "",
-      "why_it_could_win": "Leverages Qualcomm hardware capabilities directly, aligning with the primary collaborator's focus on high-performance edge computing."
-    },
-    {
-      "build_hours": 40,
+      "build_hours": 22,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring tool that processes real-time imagery on the edge to detect unauthorized industrial land usage and environmental violations automatically.",
+      "pitch": "An edge-AI surveillance platform running on Qualcomm hardware to detect industrial land violations and safety breaches instantly without cloud latency.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
+        "TensorFlow Lite",
         "OpenCV",
-        "TensorFlow Lite"
+        "Next.js"
       ],
-      "title": "Satellite Industrial Land Compliance Agent",
+      "title": "EdgeGuard AI: Real-time On-Device Industrial Compliance Monitoring",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering combining geospatial data pipelines with edge AI inference models."
+      "why_it_could_win": "Leverages edge computing capabilities heavily relevant to Qualcomm collaborations, focusing on real-time processing and low-latency computer vision rather than relying on standard cloud APIs."
     },
     {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Decentralized marketplace enabling IoT devices on Qualcomm chips to autonomously buy and sell compute resources using USDC escrow payments on Base.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC SDK",
-        "Solidity"
-      ],
-      "title": "Autonomous USDC Escrow Marketplace for IoT",
-      "track": "",
-      "why_it_could_win": "Integrates cutting-edge autonomous agent frameworks with real-time micropayments, fitting the feasibility and implementation plan criteria."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Poisson GAM and multinomial share model forecasting system designed to predict hardware failures and grid incidents across connected IoT infrastructure.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Poisson Regression",
-        "FastAPI"
-      ],
-      "title": "AI Incident Forecasting Engine for Smart Grids",
-      "track": "",
-      "why_it_could_win": "Provides rigorous statistical validation and calibrated prediction intervals, satisfying the technical depth and potential impact judging criteria."
-    },
-    {
-      "build_hours": 28,
+      "build_hours": 20,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent student support platform utilizing LangGraph and local RAG models optimized to run entirely offline on edge hardware for campus deployment.",
+      "pitch": "An offline-first, local multi-agent student assistance framework optimized for mobile and edge processors.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
         "Python",
-        "Ollama"
+        "LangGraph",
+        "Ollama",
+        "React Native"
       ],
-      "title": "Edge RAG Student Support Assistant",
+      "title": "QualcommLink: On-Device Heterogeneous Multi-Agent Student Support",
       "track": "",
-      "why_it_could_win": "Demonstrates advanced multi-agent architecture with a clear feasibility plan for localized hardware implementation."
+      "why_it_could_win": "Demonstrates practical local LLM orchestration and resource management suited for hardware-sponsored evaluation panels looking for technical depth over simple web wrappers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight financial fraud detection tool using graph intelligence and quantized models running locally on edge hardware.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "Node.js"
+      ],
+      "title": "QualcommPulse: Edge-Optimized AML and Transaction Risk Engine",
+      "track": "",
+      "why_it_could_win": "Combines complex graph intelligence with extreme optimization constraints, matching past winning formulas in fintech risk analysis."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A no-code strategy execution engine optimized for low-bandwidth environments, processing trigger conditions via local edge logic.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "EdgeTrade: Low-Latency Offline-Resilient Trading Strategy Runner",
+      "track": "",
+      "why_it_could_win": "Addresses execution speed and reliability under constrained network environments, aligning with embedded systems performance metrics."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An on-device wellness and meal planning advisor powered by compressed models that operate entirely without constant cloud connectivity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "React",
+        "SQLite",
+        "ONNX Runtime"
+      ],
+      "title": "NutriEdge: Low-Power Offline Nutritional Insight Assistant",
+      "track": "",
+      "why_it_could_win": "Appeals to judges looking for consumer-facing utility combined with privacy-first local computing architectures."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

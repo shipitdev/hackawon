@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:29.220196+00:00",
+  "generated_at": "2026-09-21T08:16:05.593341+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:tigerhacks",
@@ -14,80 +16,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An IoT and AI-driven agricultural land compliance and crop forecasting dashboard tailored for local midwestern farming data, predicting runoff and soil health using spatial modeling.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js"
-      ],
-      "title": "Missouri Ag-Sensor Intelligence Platform",
-      "track": "",
-      "why_it_could_win": "Combines geo-spatial satellite monitoring patterns from successful environmental hacks with localized practical utility for the Missouri region."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A municipal data forecasting tool that uses Poisson regression models to predict localized utility infrastructure failures and safety incidents in small cities like Columbia.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas"
-      ],
-      "title": "LocalGov AI Incident Forecaster",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering through statistical modeling and time-series backtesting rather than just wrapping a basic LLM API."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
+        "github:1087704265",
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support and resource allocation platform designed to optimize campus energy usage and sustainability initiatives using LangGraph and localized RAG.",
+      "pitch": "A localized energy forecasting and management dashboard built for university microgrids to optimize battery storage and renewable input.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "LangGraph"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "Campus GreenNovation Agent",
+      "title": "Missouri Campus Microgrid Load Balancer",
       "track": "",
-      "why_it_could_win": "Directly builds upon proven multi-agent student support architectures that excel at university-hosted hackathons."
+      "why_it_could_win": "Applies localized utility forecasting mechanics similar to proven weather and incident prediction engines, which appeals to academic and regional judges looking for practical infrastructure utility."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered patient acquisition and trust-building engine specifically structured for regional specialty clinics requiring secure, compliant intake flows.",
+      "pitch": "An AML-inspired risk and relationship mapping tool for local agricultural cooperatives to audit supply chain resilience and trace food provenance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Neo4j",
+        "React"
+      ],
+      "title": "Midwest Local Farm Supply Chain Graph",
+      "track": "",
+      "why_it_could_win": "Borrows graph intelligence and risk-scoring frameworks from award-winning fintech platforms and adapts them to regional agriculture supply chains."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "A privacy-preserving triage and resource routing platform designed for university counseling centers to match students with appropriate wellness care.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Gemini API"
+        "Gemini API",
+        "PostgreSQL"
       ],
-      "title": "Midwest Clinic Trust & Intake Engine",
+      "title": "Campus Health Peer Navigation Engine",
       "track": "",
-      "why_it_could_win": "Applies a proven rapid-sprint business automation framework to solve immediate administrative bottlenecks for local healthcare providers."
+      "why_it_could_win": "Focuses on high-utility administrative workflows and trust engineering, mirroring successful patient acquisition and navigation tools from prior health-tech hackathon winners."
     },
     {
-      "build_hours": 42,
+      "build_hours": 30,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous agent marketplace facilitating direct-to-consumer farm produce transactions backed by secure escrow mechanisms.",
+      "pitch": "An autonomous multi-sig payout system on Base for university club funding that releases capital based on verified milestone completion.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
+        "Solidity",
         "USDC"
       ],
-      "title": "AgriChain Autonomous Escrow Marketplace",
+      "title": "Student Org Micro-Grant Escrow Agent",
       "track": "",
-      "why_it_could_win": "Implements autonomous agent workflows and escrow systems which consistently capture top spots in modern hackathon marketplaces."
+      "why_it_could_win": "Leverages autonomous agent architectures and crypto escrow mechanics that historically win hackathons due to functional smart contract deployments."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite imagery analysis tool that detects industrial land use changes and potential environmental runoff near Missouri waterways.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "Mid-Missouri Industrial Runoff Satellite Monitor",
+      "track": "",
+      "why_it_could_win": "Tackles heavy computer vision and satellite monitoring workflows, directly replicating the technical depth seen in previous runner-up industrial compliance winners."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

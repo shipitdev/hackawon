@@ -1,107 +1,110 @@
 {
-  "generated_at": "2026-09-13T07:57:23.659804+00:00",
+  "generated_at": "2026-09-21T08:26:14.260822+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
-      "sustainability"
+      "sustainability",
+      "civic"
     ],
     "exemplar_count": 8,
     "patterns": [
       "impact",
-      "working-demo"
+      "working-demo",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1748511",
   "ideas": [
     {
-      "build_hours": 14,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered platform using open-source satellite imagery and computer vision to track industrial expansion and illegal land encroachment on protected green belts around Pune.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "React",
-        "Supabase",
-        "Leaflet.js"
-      ],
-      "title": "EcoWatch Pune: Satellite Land Use and Encroachment Monitor",
-      "track": "SDG 15: Life on Land",
-      "why_it_could_win": "Directly mirrors a proven winner by applying spatial AI to local environmental and industrial compliance, appealing heavily to judges looking for measurable SDG 15 (Life on Land) impact."
-    },
-    {
       "build_hours": 16,
       "inspired_by": [
         "github:1234067949"
       ],
-      "pitch": "A machine learning pipeline that ingests local IoT sensor data and weather forecasts to predict heavy metal contamination spikes and dissolved oxygen drops in the Mula-Mutha river 48 hours in advance.",
+      "pitch": "A predictive web platform that forecasts harmful algal bloom risks in local water bodies 3-5 days in advance using machine learning.",
+      "problem_statement": "Clean Water",
       "stack": [
+        "TypeScript",
+        "React",
         "Python",
-        "Pandas",
-        "Scikit-Learn",
-        "FastAPI",
-        "React"
+        "scikit-learn"
       ],
-      "title": "AquaPredict Pune: Mula-Mutha River Water Quality Forecaster",
-      "track": "SDG 6: Clean Water and Sanitation",
-      "why_it_could_win": "Addresses local environmental realities in Pune with predictive analytics, following the winning blueprint of proactive ecological monitoring."
+      "title": "AquaPredict Burgas: Algal Bloom Early Warning",
+      "track": "Clean Water",
+      "why_it_could_win": "Matches the proven pattern of winning the AquaSense IoT Hackathon with clear measurable environmental impact and predictive modeling."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual AI voice chatbot designed for semi-urban populations providing preventive care information, vaccination schedules, and symptom checks.",
+      "problem_statement": "Health",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "ArogyaVani: Multilingual Rural Health Copilot",
+      "track": "Health",
+      "why_it_could_win": "Directly builds on a proven 1st-prize-winning architecture that addresses critical community health education barriers in local languages."
     },
     {
       "build_hours": 15,
       "inspired_by": [
-        "github:1010199928"
+        "github:1155558847"
       ],
-      "pitch": "An edge-AI garbage classification tool paired with an Arduino/TinkerCAD simulation that identifies dry, wet, and hazardous waste in real time to optimize municipal recycling routes.",
+      "pitch": "An AI-powered satellite monitoring tool that automatically flags industrial land use violations and environmental non-compliance for local regulators.",
+      "problem_statement": "Climate Change",
       "stack": [
+        "TypeScript",
         "Python",
-        "OpenCV",
-        "TensorFlow Lite",
-        "Arduino",
-        "Node.js"
+        "Leaflet.js",
+        "FastAPI"
       ],
-      "title": "SmartBins Pune: IoT & AI Waste Segregation Assistant",
-      "track": "SDG 11: Sustainable Cities and Communities",
-      "why_it_could_win": "Combines hardware and AI with immediate, practical application for urban municipal corporations managing urban waste under SDG 11."
+      "title": "EcoAudit AI: Industrial Land Compliance Monitor",
+      "track": "Climate Change",
+      "why_it_could_win": "Replicates a runner-up hackathon strategy combining high-impact geospatial data with practical regulatory workflows."
     },
     {
-      "build_hours": 12,
+      "build_hours": 16,
       "inspired_by": [
-        "github:935702069",
-        "github:939311314"
+        "github:927292639"
       ],
-      "pitch": "A predictive mapping tool analyzing urban density, historical temperature anomalies, and dry vegetation indexes to highlight high-risk heat island and urban fire zones across Pune districts.",
+      "pitch": "A computer vision pipeline that detects railway track surface defects and obstacles to prevent infrastructural accidents.",
+      "problem_statement": "Infrastructure",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Streamlit",
-        "GeoPandas"
+        "YOLOv11",
+        "OpenCV"
       ],
-      "title": "UrbanHeat AI: Pune Micro-Climate & Wildfire Risk Mapper",
-      "track": "SDG 13: Climate Action",
-      "why_it_could_win": "Adapts proven climate-risk modeling techniques into an accessible dashboard format that municipal planners can immediately evaluate during a live demo."
+      "title": "RailInspect Vision: Track Defect Detection",
+      "track": "Infrastructure",
+      "why_it_could_win": "Mirrors a runner-up win at an industrial hackathon by solving a high-stakes safety problem with a working computer vision model."
     },
     {
-      "build_hours": 15,
+      "build_hours": 14,
       "inspired_by": [
-        "github:1079921550",
-        "github:923146379"
+        "github:1346526259"
       ],
-      "pitch": "A backend service and digital twin platform that monitors lithium-ion battery health metrics for localized community solar installations to prevent premature failure and optimize energy storage.",
+      "pitch": "An interactive civic engagement dashboard that aggregates citizen reports via AI summaries and routes them directly to local municipal authorities.",
+      "problem_statement": "Smart Cities",
       "stack": [
-        "JavaScript",
-        "Node.js",
-        "Express",
-        "REST APIs",
-        "Chart.js"
+        "TypeScript",
+        "React",
+        "Supabase",
+        "LLM API"
       ],
-      "title": "GridSmart Pune: Solar Micro-Grid Battery Health Digital Twin",
-      "track": "SDG 7: Affordable and Clean Energy",
-      "why_it_could_win": "Leverages backend digital-twin architecture that previously won top honors in energy-focused hackathons, targeting SDG 7 (Affordable and Clean Energy)."
+      "title": "CivicPulse: Local Council Feedback Dashboard",
+      "track": "Smart Cities",
+      "why_it_could_win": "Leverages the winning formula of real-time municipal dashboards and civic tech integration that judges at community-focused hackathons prioritize."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

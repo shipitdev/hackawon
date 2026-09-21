@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:44.088587+00:00",
+  "generated_at": "2026-09-21T08:28:38.650203+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,91 +10,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750208",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1334000568"
+        "github:1296916648"
       ],
-      "pitch": "A training-free semantic router using kNN over an exemplar index and LLM-judge writeback to direct student queries and university administrative paperwork to the correct department instantly.",
+      "pitch": "An offline-first environmental and infrastructural impact auditor for local municipal bodies running on lightweight on-device models.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Qwen",
-        "Semantic Router",
-        "Superlinked"
+        "FastAPI",
+        "React",
+        "SQLite",
+        "Transformers"
       ],
-      "title": "Semantic Campus Route Optimizer",
+      "title": "ImpactLens Local",
       "track": "Artificial Intelligence",
-      "why_it_could_win": "Directly applies the proven architecture of darwin-router to solve a high-friction real-world bottleneck in university administration under the 'Build for Impact' theme."
+      "why_it_could_win": "Directly aligns with the 'Build for Impact' theme by targeting hyper-local civic issues with a tangible solution that can be deployed instantly during the offline judging day."
     },
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "A pre-deployment risk diagnosis tool for student-run university events that evaluates compliance, safety regulations, and resource allocation using Maestro BPMN and coded AI agents.",
+      "pitch": "A workflow orchestrator for university administrative processes that models requests using BPMN and uses human-in-the-loop AI agents to flag bottlenecks.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "AI Agents",
-        "BPMN",
-        "Maestro"
+        "Streamlit",
+        "Camunda",
+        "LangChain"
       ],
-      "title": "BPMN-Orchestrated Campus Event Risk Engine",
-      "track": "Artificial Intelligence",
-      "why_it_could_win": "Mirrors the exact technical sophistication that won UiPath AgentHack by bringing robust workflow automation and governance to complex human-in-the-loop processes."
+      "title": "CampusFlow BPMN",
+      "track": "Web Development",
+      "why_it_could_win": "Demonstrates rigorous workflow automation and enterprise architecture, which appeals strongly to judges looking for scalable, real-world utility over simple wrapper apps."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1296916648"
+        "github:1334000568"
       ],
-      "pitch": "An offline, privacy-first AI code review assistant running locally on Snapdragon NPUs to scan student repositories for security vulnerabilities without needing internet connectivity.",
+      "pitch": "A training-free semantic routing system matching local farmers' produce queries directly to regional agricultural schemes and mandi prices without expensive API roundtrips.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Snapdragon SDK",
-        "ONNX Runtime"
+        "FastAPI",
+        "ChromaDB",
+        "Qwen"
       ],
-      "title": "NPU-Accelerated Local Code Reviewer",
+      "title": "AgriRoute Semantic Hub",
       "track": "Emerging Technologies",
-      "why_it_could_win": "Replicates the winning runner-up strategy of DevMesh by providing high-performance local AI tooling suited for resource-constrained offline demonstration environments."
+      "why_it_could_win": "Solves a genuine regional socioeconomic problem with sophisticated routing algorithms, matching the high technical bar of previous semantic router winners."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1199751414"
       ],
-      "pitch": "A federated Model Context Protocol (MCP) server running on lightweight Kubernetes to securely aggregate and query decentralized local clinic records for rural medical outreach.",
+      "pitch": "A lightweight GitOps and container deployment dashboard designed for rural computer labs to manage offline-first educational software updates seamlessly.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
-        "AI Agents",
-        "Kubernetes",
-        "MCP"
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Kubernetes"
       ],
-      "title": "Federated Clinical MCP Platform for Local Healthcare",
+      "title": "EduSync Cloud Bridge",
       "track": "Cloud",
-      "why_it_could_win": "Adapts the architecture of the MCP Clinical Platform winner to address a massive socio-economic impact area, directly fitting the 'Build for Impact' directive."
+      "why_it_could_win": "Addresses educational inequality in rural regions by providing robust infrastructure management tools that are easy for judges to evaluate during a live offline demo."
     },
     {
-      "build_hours": 28,
+      "build_hours": 35,
       "inspired_by": [
         "github:1207207353"
       ],
-      "pitch": "An auto-embedding and RAG toolkit optimized for MariaDB to instantly index, search, and summarize massive repositories of university lecture notes, research papers, and circulars.",
+      "pitch": "An offline-capable clinical data indexing and retrieval tool designed for frontline health workers operating in low-connectivity rural zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "MariaDB",
-        "Embeddings",
-        "HNSW"
+        "Flask",
+        "Embeddings"
       ],
-      "title": "TOON-Native Campus RAG Document Search",
-      "track": "Web Development",
-      "why_it_could_win": "Leverages the proven high-utility database integration pattern from seamless-rag, offering judges a blazing-fast, practical developer tool."
+      "title": "MediAssist Field Agent",
+      "track": "App Development",
+      "why_it_could_win": "Combines high-impact healthcare utility with clever local vector database caching, securing strong marks in both social impact and technical execution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

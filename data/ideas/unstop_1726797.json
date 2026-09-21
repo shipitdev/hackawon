@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:57:42.453731+00:00",
+  "generated_at": "2026-09-21T08:17:48.560669+00:00",
   "grounding": {
     "domains": [
       "sustainability"
@@ -9,6 +9,8 @@
       "working-demo",
       "impact"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1726797",
@@ -16,89 +18,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1346526259",
-        "github:939311314"
+        "github:1346526259"
       ],
-      "pitch": "A platform that calculates the real-time carbon reduction and financial cost savings of enterprise supply chain decisions to prove the ROI of sustainability.",
+      "pitch": "A B2B enterprise platform that measures and predicts the financial ROI and carbon offset impact of industrial green transitions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
-        "Node.js",
+        "Supabase",
         "TailwindCSS"
       ],
-      "title": "EcoAudit ROI: Smart Green Supply Chain Dashboard",
+      "title": "EcoImpact ROI Calculator for Green Tech Adoption",
       "track": "Sustainability & Smart Green Solutions",
-      "why_it_could_win": "Directly matches the central theme of Measuring ROI & Impact of Emerging Technologies by balancing environmental sustainability with tangible financial metrics that enterprise judges love."
+      "why_it_could_win": "Directly targets the main theme of measuring ROI and impact of emerging technologies for a sustainable planet, addressing what enterprise judges care about most."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847",
-        "github:1234067949"
+        "github:923146379"
       ],
-      "pitch": "An AI-powered monitoring web app that ingests IoT sensor data to forecast local pollution spikes and quantifies the economic healthcare cost savings for municipal policymakers.",
+      "pitch": "An automated compliance and data privacy risk auditing tool tailored for international trade networks using machine learning.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "TypeScript",
-        "React"
-      ],
-      "title": "AeroMetric AI: Urban Air Quality & Economic Impact Engine",
-      "track": "Artificial Intelligence & Machine Learning",
-      "why_it_could_win": "Combines predictive machine learning with clear, measurable impact metrics, following the pattern of successful real-world impact and forecasting winners."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:923146379",
-        "github:939311314"
-      ],
-      "pitch": "A lightweight analytics service that tracks enterprise cloud workload execution schedules and shifts non-urgent compute jobs to times when local grid carbon intensity is lowest.",
-      "stack": [
-        "Python",
-        "Flask",
-        "JavaScript",
+        "React",
         "PostgreSQL"
       ],
-      "title": "GridTrace: Carbon-Aware Enterprise Cloud Compute Optimizer",
-      "track": "Digital Transformation & Enterprise Solutions",
-      "why_it_could_win": "Addresses enterprise digital transformation and sustainability simultaneously, providing a quantified reduction in cloud emissions and utility overhead."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1143576965"
-      ],
-      "pitch": "An emergency response GIS dashboard that calculates optimal evacuation resource allocation and estimates loss prevention ROI for local disaster management authorities.",
-      "stack": [
-        "TypeScript",
-        "Mapbox GL",
-        "React",
-        "Supabase"
-      ],
-      "title": "DisasterResilience ROI Mapper",
+      "title": "SupplyChainGuard AI: Data Privacy & Risk Auditor",
       "track": "Cybersecurity & Data Privacy",
-      "why_it_could_win": "Builds directly on proven disaster management and satellite monitoring hackathon wins by adding a rigorous economic loss-prevention calculation for evaluation juries."
+      "why_it_could_win": "Combines high-priority enterprise compliance requirements with AI automation, hitting two focus areas simultaneously."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1010199928"
+        "github:1234067949"
       ],
-      "pitch": "A computer vision prototype utilizing a lightweight object detection model to classify e-waste components on a conveyor belt feed, calculating material recovery ROI for recycling plants.",
+      "pitch": "An IoT and ML-driven water usage and leak detection dashboard that quantifies financial savings and resource conservation in large institutions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Node.js",
+        "Chart.js"
+      ],
+      "title": "AquaSense Campus: Smart Water Grid Monitor",
+      "track": "Sustainability & Smart Green Solutions",
+      "why_it_could_win": "Leverages the proven success pattern of IoT monitoring paired with clear, quantified economic and environmental metrics."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An augmented reality visualization and AI diagnostic tool that reduces equipment downtime and measures productivity gains for manufacturing facilities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Three.js",
+        "Python",
+        "Flask"
+      ],
+      "title": "AeroMind AR: Next-Gen Industrial Maintenance Copilot",
+      "track": "AR/VR & Next-Generation Technologies",
+      "why_it_could_win": "Fulfills the AR/VR and Automation focus area with a working prototype demonstrating concrete improvements in operational efficiency."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:935702069",
+        "github:939311314"
+      ],
+      "pitch": "A machine learning platform that forecasts crop yields while calculating the exact economic and environmental ROI of regenerative farming practices.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "OpenCV",
-        "PyTorch",
-        "Streamlit"
+        "Scikit-Learn",
+        "Streamlit",
+        "Pandas"
       ],
-      "title": "SmartWaste Vision: Automated E-Waste Sorting Pipeline",
-      "track": "Automation, Robotics & Productivity",
-      "why_it_could_win": "Utilizes a working hardware-simulation and computer vision demo that consistently catches judges' attention due to its tangible, physical application to automation."
+      "title": "AgriVision AI: Smart Crop Yield & Carbon ROI Predictor",
+      "track": "Artificial Intelligence & Machine Learning",
+      "why_it_could_win": "Aligns with the core hackathon theme of driving innovation through conclusive thinking and sustainable impact."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

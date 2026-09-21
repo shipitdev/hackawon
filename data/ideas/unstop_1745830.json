@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:40.686236+00:00",
+  "generated_at": "2026-09-21T08:22:45.219458+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,86 +7,89 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745830",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [],
-      "pitch": "An automated algorithmic complexity analyzer and performance profiler that detects hidden bottlenecks and worst-case time complexities in C++, Python, and Java source code.",
+      "pitch": "A specialised visual debugging and performance profiling extension that steps through complex data structure operations in real time to pinpoint hidden algorithmic bottlenecks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "AST Parser",
         "TypeScript",
-        "Next.js"
+        "Python",
+        "Monaco Editor",
+        "WebAssembly"
       ],
-      "title": "AlgoTrace",
+      "title": "AlgoTrace: Visual Algorithm Debugger and Execution Optimiser",
       "track": "",
-      "why_it_could_win": "Directly aligns with the hackathon's core focus on algorithms, debugging, optimization, and practical coding skills."
+      "why_it_could_win": "Directly targets the hackathon's core evaluation focus on debugging, algorithmic optimisation, and practical coding skills by offering an interactive developer tool rather than a generic app."
     },
     {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A high-performance interactive debugging and visualization tool for complex regular expressions, offering real-time backtracking analysis and catastrophic backtracking prevention.",
-      "stack": [
-        "JavaScript",
-        "WebAssembly",
-        "Rust",
-        "React"
-      ],
-      "title": "RegExSandbox",
-      "track": "",
-      "why_it_could_win": "Targeted explicitly at debugging and logic challenges under time constraints, appealing heavily to computer science judges."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An intelligent SQL and pandas query refactoring engine that translates unoptimized data retrieval scripts into highly efficient, execution-plan-optimized alternatives.",
+      "pitch": "An automated stress-testing and edge-case generation tool for competitive programmers that compares naive and optimised algorithmic solutions against randomly generated adversarial inputs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "PostgreSQL",
-        "OpenAI API"
+        "React",
+        "TailwindCSS"
       ],
-      "title": "QueryOptimizer-AI",
+      "title": "QueryForge: Competitive Programming Test Case Generator and Fuzzer",
       "track": "",
-      "why_it_could_win": "Leverages the data science and algorithm evaluation criteria by demonstrating immediate, quantifiable performance gains."
+      "why_it_could_win": "Addresses a massive pain point for competitive programmers and logic-heavy challenge participants by automating test case generation and corner-case detection."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An Abstract Syntax Tree (AST) comparison tool designed for programming educators and contest hosts to detect structural code duplication and logic reuse across submissions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "TypeScript",
+        "Next.js"
+      ],
+      "title": "LexiDiff: AST-Based Code Similarity and Plagiarism Detector",
+      "track": "",
+      "why_it_could_win": "Leverages deep computer science concepts (AST parsing and graph matching) to solve a real evaluation challenge for coding platforms, fitting the algorithmic and logic-heavy theme."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A lightweight runtime profiler that tracks memory allocations, garbage collection pauses, and cache locality misses to help developers optimise resource-constrained algorithms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "WebSockets",
+        "Chart.js"
+      ],
+      "title": "MemoryScope: C++ and Python Memory Profiler for Deep Optimisation",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by focusing on low-level performance profiling, standing out against high-level wrappers and simple CRUD projects."
     },
     {
       "build_hours": 28,
       "inspired_by": [],
-      "pitch": "A low-level bit manipulation and binary arithmetic visualization utility designed to help programmers master systems-level debugging and computational thinking.",
+      "pitch": "A high-performance constraint satisfaction solver and visualization engine built to tackle complex discrete mathematics, pathfinding, and combinatorial optimisation challenges.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C++",
-        "WebAssembly",
-        "TypeScript",
-        "HTML5 Canvas"
-      ],
-      "title": "BitwisePlayground",
-      "track": "",
-      "why_it_could_win": "Appeals directly to the strict logic and computational thinking assessment areas outlined in the competition guidelines."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A real-time concurrency deadlock detector and thread-state visualizer for multi-threaded Python and Java programs.",
-      "stack": [
-        "Java",
         "Python",
-        "WebSocket",
-        "React"
+        "Cython",
+        "React",
+        "Canvas API"
       ],
-      "title": "AsyncTrace",
+      "title": "LogicSolver: Automated Constraint Satisfaction and Grid Optimiser",
       "track": "",
-      "why_it_could_win": "Showcases genuinely hard engineering by tackling non-trivial distributed systems and concurrency debugging problems."
+      "why_it_could_win": "Directly appeals to judges evaluating computer science fundamentals, logic, and computational thinking through a robust, mathematically rigorous backend."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

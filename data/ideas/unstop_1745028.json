@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:00.897832+00:00",
+  "generated_at": "2026-09-21T08:22:00.808707+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745028",
@@ -16,84 +18,86 @@
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "A dashboard integrating tightly with the IcyPluto platform to analyze a brand's AI visibility and GEO (Generative Engine Optimization) performance against top three competitors, automatically outputting a 3-month actionable content roadmap.",
+      "pitch": "An autonomous AI marketing platform that audits and optimizes a real brand's generative engine optimization (GEO) and AI assistant visibility against competitors.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "TailwindCSS",
-        "Python",
-        "FastAPI"
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "IcyPulse Brand Intelligence & Competitor Gap Visualizer",
+      "title": "AuraBrand: AI Agentic GEO and Visibility Engine",
       "track": "AI-powered marketing and automation",
-      "why_it_could_win": "Directly leverages the core platform required by the hackathon (IcyPluto) to solve the exact brand analysis and gap identification problem requested in the challenge brief."
+      "why_it_could_win": "Directly leverages the power of IcyPluto and focuses on the high-priority judging criteria of AI-powered marketing automation and GEO strategies."
     },
     {
       "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An agentic tool leveraging IcyPluto's insights to scan trending audio and topics on Instagram and TikTok, auto-generating script hooks, storyboard assets, and caption frameworks tailored to the assigned brand's voice.",
+      "inspired_by": [],
+      "pitch": "A 3-month short-form video marketing generator that scans trending audio and competitor reels to automatically script, storyboard, and batch-produce vertical video content.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
+        "Python",
+        "OpenCV",
         "React",
-        "Gemini API",
-        "FFmpeg"
+        "FastAPI"
       ],
-      "title": "ReelGenie: AI Short-Form Video & Trend Hijacker",
+      "title": "ReelGen: Automated Short-Form Video & Trend Pipeline",
       "track": "Reels and short-form video content",
-      "why_it_could_win": "Tackles short-form video content and reels, which are critical for 3-month brand visibility strategies, using automated multi-agent workflows."
+      "why_it_could_win": "Solves the massive operational bottleneck of scaling creator collaborations and short-form video content production over a 3-month campaign window."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "An AI-powered geographic and semantic search optimization tool designed to ensure the assigned brand ranks prominently in conversational AI search engines and local queries over the 3-month strategy window.",
-      "stack": [
-        "Python",
-        "LangChain",
-        "Streamlit",
-        "PostgreSQL"
-      ],
-      "title": "GeoPulse: Localized GEO & Search Intent Engine",
-      "track": "SEO & GEO strategies",
-      "why_it_could_win": "Focuses heavily on GEO (Generative Engine Optimization) and SEO strategies mentioned in the hackathon brief, an advanced angle most traditional marketing teams will miss."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An autonomous agent platform that scrapes niche creators, analyzes their engagement authenticity against the assigned brand's demographic gaps, and simulates campaign ROI using predictive modeling.",
+      "pitch": "An agentic marketing dashboard that analyzes niche subcultures to match real brands with hyper-targeted micro-influencers and tracks multi-channel growth experiments.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Node.js",
-        "Python",
-        "Scikit-learn"
+        "PostgreSQL",
+        "LangChain"
       ],
-      "title": "CreatorMatch AI: Automated Influencer Collab & ROI Predictor",
+      "title": "CommunityPulse: Growth Experiment & Micro-Influencer Matchmaker",
       "track": "Influencer & creator collaborations",
-      "why_it_could_win": "Combines hard engineering (predictive modeling and scraper pipelines) with influencer collaborations to present a foolproof 3-month growth plan."
+      "why_it_could_win": "Combines influencer collaboration tracking with rapid growth experimentation, showing judges a complete end-to-end execution framework for the assigned brand."
     },
     {
-      "build_hours": 35,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265"
       ],
-      "pitch": "A rapid experimentation sandbox where teams can plug in performance marketing campaigns, simulate click-through rates, and deploy automated community-building engagement loops for the assigned brand.",
+      "pitch": "A centralized marketing command center providing real-time sentiment analysis, automated ad-spend adjustments, and cross-channel performance marketing attribution.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "React",
-        "TailwindCSS",
-        "Node.js"
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "GrowthExperiment OS: Automated A/B Testing & Funnel Simulator",
-      "track": "Growth experiments & community building",
-      "why_it_could_win": "Addresses performance marketing and growth experiments directly through a functional dashboard that proves the feasibility of the 3-month strategy."
+      "title": "BrandOmni: Unified Performance & Social Sentiment Tracker",
+      "track": "Performance marketing & paid campaigns",
+      "why_it_could_win": "Demonstrates sophisticated data integration and performance marketing analytics that impress judges looking for measurable ROI on brand positioning."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated SEO and content marketing agent that builds topic clusters, writes high-ranking blog posts, and monitors a brand's long-tail search dominance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Prisma"
+      ],
+      "title": "NicheRank: AI Content Marketing & SEO Authority Hub",
+      "track": "Content marketing & blogs",
+      "why_it_could_win": "Delivers an immediate, tangible asset (built-out blog content and SEO strategy) that teams can present as part of their 3-month brand execution plan."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

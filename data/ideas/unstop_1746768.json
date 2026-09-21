@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:19.338150+00:00",
+  "generated_at": "2026-09-21T08:24:10.510217+00:00",
   "grounding": {
     "domains": [
       "data",
@@ -12,94 +12,95 @@
       "sponsor-tech",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1746768",
   "ideas": [
     {
       "build_hours": 6,
-      "inspired_by": [
-        "github:1228328106"
-      ],
-      "pitch": "An automated data wrangling and missing-value imputation pipeline built specifically to survive the high-speed data cleaning phase of Data Wars by rapidly handling corrupted industry datasets.",
+      "inspired_by": [],
+      "pitch": "An automated data cleaning and imputation toolkit built specifically for fast-paced crisis survival sprints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Pandas",
         "Streamlit",
         "Scikit-Learn"
       ],
-      "title": "CrisisFlow Automated Data Cleanser",
+      "title": "CrisisPulse Streamlined Cleaning Pipeline",
       "track": "",
-      "why_it_could_win": "Since the hackathon starts with an intense data cleaning sprint, judges will reward teams that automate this bottleneck fastest to get a head start on dashboarding."
+      "why_it_could_win": "Since the hackathon features a strict cross-domain data survival sprint with a data cleaning phase, having an accelerated, reliable cleaning script directly maximizes early phase scores."
     },
     {
       "build_hours": 8,
       "inspired_by": [
-        "github:985196561",
         "github:1026027777"
       ],
-      "pitch": "A rapid-deployment crisis dashboard framework that ingests messy assigned datasets and instantly generates executive-ready visual metrics and alerting triggers.",
+      "pitch": "A modular dashboard generator that instantly translates messy multi-domain CSV data into executive-ready crisis metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Plotly",
-        "FastAPI",
-        "TailwindCSS"
+        "Streamlit",
+        "FastAPI"
       ],
-      "title": "ExecPulse Crisis Dashboard Generator",
+      "title": "RapidBoard Executive Crisis Dashboard",
       "track": "",
-      "why_it_could_win": "Directly targets the second phase of the sprint (crisis dashboard building) by ensuring the dashboard is both analytically sound and visually impressive for industry judges."
+      "why_it_could_win": "Demonstrates a live, working product that directly addresses the crisis dashboard building phase and appeals to industry judges looking for clear executive insights."
     },
     {
       "build_hours": 10,
       "inspired_by": [
         "github:1228328106"
       ],
-      "pitch": "A streamlined, automated machine learning modeling framework optimized to quickly generate baseline and tuned predictive models for the Kaggle competition phase of the event.",
+      "pitch": "An automated Kaggle-style predictive modeling pipeline with built-in SHAP values for instant model interpretability during executive pitches.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "XGBoost",
         "SHAP",
-        "Optuna"
+        "Streamlit"
       ],
-      "title": "KaggleSprint XGBoost Pipeline",
+      "title": "XGB-Explain Clinical & Crisis Predictor",
       "track": "",
-      "why_it_could_win": "The unified leaderboard heavily factors in predictive modeling performance, making an optimized and robust modeling pipeline a massive competitive advantage."
+      "why_it_could_win": "Combines high predictive accuracy with clinical and executive explainability, mirroring winning projects that rely on SHAP for transparent judging."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A rapid diagnostic tool to detect and mitigate dataset and model bias before submitting predictions to the leaderboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Fairlearn",
+        "Streamlit"
+      ],
+      "title": "AutoAudit Bias & Fairness Shield",
+      "track": "",
+      "why_it_could_win": "Judges in data science competitions increasingly value robust, fair, and unbiased models over purely overfitted metrics."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1341712439",
-        "github:1200926140"
+        "github:985196561"
       ],
-      "pitch": "An AI-powered assistant that ingests the team's cleaning outputs, dashboard analytics, and Kaggle predictions to automatically generate an elite executive pitch script and slide structure.",
+      "pitch": "An AI assistant that consumes Jupyter notebooks and dashboard outputs to instantly generate an executive pitch script and slide deck structure.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "Google Gemini API"
       ],
-      "title": "PitchDeck AI Executive Summarizer",
+      "title": "PitchDeck AI Narrative Synthesizer",
       "track": "",
-      "why_it_could_win": "Only the top 7 teams advance to the final executive pitch to industry judges, making a tool that perfects the final presentation format extremely high-leverage."
-    },
-    {
-      "build_hours": 12,
-      "inspired_by": [
-        "github:1341712439"
-      ],
-      "pitch": "A unified multi-agent diagnostic tool designed to ingest any of the five potential industry-crisis lottery scenarios and simulate predictive outcomes under extreme operational stress.",
-      "stack": [
-        "Python",
-        "LangGraph",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "ScenarioSim Cross-Domain Survival Toolkit",
-      "track": "",
-      "why_it_could_win": "Since scenario assignments are based on a lottery system, having a modular architecture capable of instantly adapting to any of the domains ensures rapid execution regardless of the draw."
+      "why_it_could_win": "Targets the final executive pitch phase directly, ensuring teams deliver a polished, high-impact presentation that stands out to industry judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

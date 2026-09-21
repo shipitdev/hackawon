@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:09.804662+00:00",
+  "generated_at": "2026-09-21T08:18:47.493305+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1736284",
@@ -14,84 +16,92 @@
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:1155558847"
+        "github:1275874285",
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring tool tracking unauthorized structural changes and land encroachment around the IEM Gurukul building area.",
+      "pitch": "An instant meal analyzer and campus mess dietary tracker built for an 8-hour sprint using multimodal AI.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "OpenCV"
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "IEM-Campus GeoSat Compliance Monitor",
+      "title": "HyperVite: Rapid AI Nutrition & Calorie Estimator for College Students",
       "track": "",
-      "why_it_could_win": "It leverages hard geospatial engineering and computer vision similar to previous regional winners, appealing strongly to technical judges looking for complex spatial data processing done within an 8-hour window."
+      "why_it_could_win": "Demonstrates rapid execution under an extreme 8-hour time constraint, similar to winners of short-duration sprints like Hour Hackathon."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-intelligence-powered platform connecting students with matching project partners, study materials, and lab equipment on campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Neo4j",
+        "React"
+      ],
+      "title": "CampusGraph: Real-Time Student Resource & Peer Collaboration Engine",
+      "track": "",
+      "why_it_could_win": "Leverages graph-based data structures for high-utility local matching, mimicking complex investigative graph platforms that win innovation awards."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered environmental monitoring dashboard that tracks local classroom power consumption and waste bin fill levels using simulated sensor feeds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "EcoAudit IEM: Automated Energy & Waste Tracker for Educational Campuses",
+      "track": "",
+      "why_it_could_win": "Applies sustainability metrics directly relevant to an institutional venue like IEM Gurukul, catching local judges' attention."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-driven multi-agent student support and curriculum navigation platform combining LangGraph and localized RAG specifically tailored for engineering course syllabi.",
+      "pitch": "A streamlined multi-agent pipeline that takes a raw hackathon project idea and instantly generates an architecture diagram, tech stack, and slide outline.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
         "LangGraph",
-        "Next.js"
+        "FastAPI",
+        "React"
       ],
-      "title": "Academic Multi-Agent Support RAG",
+      "title": "AgentVenture: Multi-Agent Idea Validation & Pitch Deck Generator",
       "track": "",
-      "why_it_could_win": "Directly targets student and institutional pain points, utilizing proven multi-agent orchestration frameworks that score well in rapid hackathons."
+      "why_it_could_win": "Uses practical LangGraph agent workflows that appeal to technical hackathon judges looking for advanced orchestration."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A statistical forecasting dashboard utilizing Poisson regression and rolling backtests to predict local power grid failures and network downtime risks.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Pandas",
-        "Plotly"
-      ],
-      "title": "AI Incident Forecasting Engine for Local Infrastructure",
-      "track": "",
-      "why_it_could_win": "Employs rigorous statistical modeling rather than generic LLM wrappers, matching the technical depth seen in winning forecasting entries."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An automated AI patient trust and acquisition platform tailored for local student health camps and university medical clinics, featuring instant multilingual triage.",
+      "pitch": "A location-based safety scoring and peer-grouping app for students traveling back from campus late at night.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Gemini API"
+        "Leaflet Maps",
+        "Supabase"
       ],
-      "title": "ClinicTrust Patient Acquisition Engine",
+      "title": "SafeTransit: Campus Late-Night Commute Risk & Companion Finder",
       "track": "",
-      "why_it_could_win": "Combines practical utility with an immediate local deployment angle, solving a tangible real-world intake problem within a constrained 8-hour limit."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition assistant that analyzes local hostel and campus canteen menus to deliver personalized meal plans and real-time macro tracking.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "Campus Canteen AI Nutritionist",
-      "track": "",
-      "why_it_could_win": "Relates directly to everyday student life at IEM Gurukul, making the demo extremely relatable and practical for the judging panel."
+      "why_it_could_win": "Solves a hyper-local, high-urgency real-world problem for college students attending offline events ending late in the evening."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

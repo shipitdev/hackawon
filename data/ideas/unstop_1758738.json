@@ -1,98 +1,112 @@
 {
-  "generated_at": "2026-09-20T07:54:54.724936+00:00",
+  "generated_at": "2026-09-21T08:38:16.588830+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758738",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1341712439"
       ],
-      "pitch": "An offline-first satellite monitoring and computer vision tool to detect crop stress and yield anomalies tailored for regional farming conditions in Uttar Pradesh.",
+      "pitch": "A multi-agent agricultural diagnostic platform that processes drone imagery and IoT soil telemetry to generate localized treatment plans.",
+      "problem_statement": "Applied Research and Sustainability in regional agriculture facing crop yield loss due to delayed disease identification.",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "React"
+        "Gemini API",
+        "LangGraph",
+        "TimescaleDB"
       ],
-      "title": "AgriVision-UP",
-      "track": "Applied Research",
-      "why_it_could_win": "Aligns with the applied research and real-world impact focus of the ideathon by addressing local agricultural challenges in Uttar Pradesh, echoing the technical depth of GeoNex-ATLAS."
+      "title": "AgriSense: Autonomous Crop Disease Diagnostic & Treatment Loop",
+      "track": "Sustainability",
+      "why_it_could_win": "Directly hits the applied research and sustainability domains requested by the hackathon while utilizing a multi-agent closed-loop operations pattern inspired by winning IoT and AI architectures."
     },
     {
-      "build_hours": 30,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1087704265"
+        "github:1182199849"
       ],
-      "pitch": "An AI-powered predictive incident forecasting dashboard for urban water and power distribution networks using Poisson regression and spatial analytics.",
+      "pitch": "An AI-powered training platform for medical students that conducts simulated patient diagnostic interviews and evaluates CPR performance using pose estimation.",
+      "problem_statement": "Healthcare training gaps where students lack accessible, objective practice tools for patient communication and emergency resuscitation.",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
+        "TypeScript",
+        "MediaPipe",
+        "OpenAI API",
+        "React",
         "TailwindCSS"
       ],
-      "title": "GridSafe-AI",
+      "title": "MedPrep AI: Clinical OSCE & CPR Examiner",
+      "track": "Healthcare",
+      "why_it_could_win": "Leverages a proven grand-prize-winning architecture from AI healthcare hackathons, focusing on a demonstrable live CV and LLM pipeline that immediately captivates judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A real-time community engagement dashboard that aggregates infrastructure complaints via GPS and automates local economic marketing copilot tools for town councils.",
+      "problem_statement": "Smart Systems and municipal inefficiencies in citizen-to-government communication and local merchant engagement.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Leaflet.js",
+        "LLM API"
+      ],
+      "title": "CivicTrack: Municipal Issue Triage & Local Business Copilot",
+      "track": "Smart Systems",
+      "why_it_could_win": "Employs a clear civic-tech impact pattern that won first place at real-world impact hackathons by combining live mapping dashboards with localized AI generation."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent auditing system that reviews automated microfinance loan applications and lending decisions to flag algorithmic discrimination and compliance errors.",
+      "problem_statement": "Applied Research in algorithmic fairness and transparent financial inclusion for underserved undergraduate populations.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "Google ADK",
+        "Streamlit"
+      ],
+      "title": "AuditFlow AI: Automated Loan Decision Bias Checker",
       "track": "Applied Research",
-      "why_it_could_win": "Demonstrates hard engineering and predictive modeling, mirroring the statistical rigor that won the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Replicates a proven first-place winning formula for algorithmic bias evaluation, appealing directly to the applied research and rigorous evaluation expectations of the judging panel."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1241231621"
+        "github:1010199928"
       ],
-      "pitch": "An AI-driven patient acquisition and trust engine optimized for local semi-urban clinics and regional healthcare providers with multi-lingual support.",
+      "pitch": "An IoT-enabled edge computer vision classifier and simulator that sorts recyclable waste streams using custom-trained models and automated sorting feedback.",
+      "problem_statement": "Sustainability and waste management infrastructure challenges in dense urban campuses and educational institutions.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
-      ],
-      "title": "MediTrust-Regional",
-      "track": "Applied Research",
-      "why_it_could_win": "Solves a tangible economic problem for local healthcare practitioners, following the practical execution strategy of Global-Smile."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student support and personalized academic guidance platform tailored for higher education institutions like KIET using localized RAG pipelines.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
         "Python",
-        "VectorDB"
+        "OpenCV",
+        "Arduino",
+        "TensorFlow Lite",
+        "TinkerCAD"
       ],
-      "title": "EduAgent-Local",
-      "track": "Applied Research",
-      "why_it_could_win": "Directly targets the academic ecosystem hosting the event by solving student mentorship bottlenecks, inspired by GreenNovation's multi-agent architecture."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated compliance and risk detection platform utilizing graph intelligence and explainable machine learning for regional manufacturing supply chains.",
-      "stack": [
-        "TypeScript",
-        "LightGBM",
-        "NetworkX",
-        "Node.js"
-      ],
-      "title": "SupplyChain-Compliance-Auditor",
-      "track": "Applied Research",
-      "why_it_could_win": "Applies advanced graph intelligence to industrial verification, matching the technical ambition and judges' preference for explainable models seen in Bito."
+      "title": "EcoSort Robotics: Smart Vision Waste Categorizer",
+      "track": "Robotics",
+      "why_it_could_win": "Combines physical robotics simulation and practical computer vision matching a proven runner-up formula that scores high on tangible hardware-software integration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

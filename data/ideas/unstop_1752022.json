@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-21T08:31:03.598537+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1752022",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1179000073",
+        "github:1340275018"
+      ],
+      "pitch": "A portable diagnostics dock that tests your drone's battery voltage, ESC continuity, and center-of-gravity balance to prevent on-field disqualification.",
+      "problem_statement": "Drone must be airworthy and safely secured, with damaged propellers or loose wiring corrected before flight.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "OLED Display",
+        "Current Sensors"
+      ],
+      "title": "AeroMetric: Pre-Flight Safety & Wiring Diagnostic Pod",
+      "track": "",
+      "why_it_could_win": "Reflects the winning pattern of reliability and hardware safety checks, directly addressing the strict rule that event officials may stop unsafe flights."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1144331507"
+      ],
+      "pitch": "A modular, standalone gate-tracking sensor unit that wirelessly logs drone passes and calculates adjusted completion times for practice runs.",
+      "problem_statement": "Teams will navigate a designated aerial course while demonstrating control, precision, safety, and successful course completion, ranked by adjusted completion time.",
+      "stack": [
+        "ESP32",
+        "MicroPython",
+        "IR Sensors",
+        "WebSocket"
+      ],
+      "title": "GateCount: Ultrasonic & IR Lap Timing Rig",
+      "track": "",
+      "why_it_could_win": "Solves a critical logistical need for pilot training on unpredictable outdoor courses where official timing equipment may be scarce."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1069834761",
+        "github:1340275018"
+      ],
+      "pitch": "A lightweight telemetry attachment that sounds a loud onboard buzzer and logs a warning if the pilot drifts outside the designated flight boundary.",
+      "problem_statement": "Participants must remain within the designated areas and intentional interference with another participant's flight is prohibited.",
+      "stack": [
+        "Betaflight API",
+        "C++",
+        "GPS/Compass module",
+        "Buzzer"
+      ],
+      "title": "FieldSafe: Drone Telemetry & Boundary Geofence Buzzer",
+      "track": "",
+      "why_it_could_win": "Targets safety compliance judges directly by preventing accidental course boundary breaches and potential disqualifications."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1144331507"
+      ],
+      "pitch": "A compact balancing jig with an integrated accelerometer to detect and quantify propeller vibration imbalances in under 60 seconds.",
+      "problem_statement": "Damaged propellers, loose batteries, or unsafe wiring must be corrected before flight.",
+      "stack": [
+        "Raspberry Pi Pico",
+        "MPU6050 Accelerometer",
+        "LCD Display"
+      ],
+      "title": "QuickProp: Rapid Field Balancing & Vibration Analyzer",
+      "track": "",
+      "why_it_could_win": "Delivers a practical trackside tool that tackles a frequent cause of drone failure and pilot penalties during time-crunch race events."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A lightweight progressive web app for teams to track pre-flight safety inspections, battery health logs, and queue slots for race heats.",
+      "problem_statement": "All instructions from the event coordinator must be followed and participants may only arm and disarm in designated areas.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "IndexedDB",
+        "Tailwind CSS"
+      ],
+      "title": "PitLog: Pilot Queue & Safety Checklist Management PWA",
+      "track": "",
+      "why_it_could_win": "Improves event workflow organization for teams under tight schedules, focusing on structured compliance and safety coordination."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

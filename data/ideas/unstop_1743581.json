@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:52:53.228882+00:00",
+  "generated_at": "2026-09-21T08:20:52.354940+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,93 +7,96 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1743581",
   "ideas": [
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring and industrial land compliance platform tailored for local environmental regulations in India, leveraging computer vision to track illegal dumping and emissions.",
+      "pitch": "An automated satellite and document compliance monitor for industrial and municipal zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Next.js",
-        "SentinelHub API"
+        "Leaflet",
+        "FastAPI"
       ],
-      "title": "EcoCompliance-ATLAS",
+      "title": "LocalGov CompliScan",
       "track": "",
-      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS by solving real-world regional industrial compliance challenges using satellite data, which heavily appeals to local state-level judges and governance bodies."
+      "why_it_could_win": "Adapts proven satellite monitoring patterns from recent hackathon winners to local infrastructure auditing, appealing directly to regional governance use cases."
     },
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient and trust acquisition engine optimized for rural healthcare and localized prosthodontic/dental clinics across Indian states, bridging trust deficits with multi-lingual voice agents.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "AgriTrust-AI",
-      "track": "",
-      "why_it_could_win": "Adapts the winning formula of Global-Smile for local Indian healthcare contexts where linguistic diversity and trust engines are massive priorities for regional adoption."
-    },
-    {
-      "build_hours": 24,
+      "build_hours": 22,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered AML risk detection and transaction investigation platform combining graph intelligence and light gradient boosting to flag fraudulent UPI and banking rings in real time.",
+      "pitch": "A graph-based risk detection and investigation platform for local financial transactions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "NetworkX",
-        "AWS"
+        "Neo4j"
       ],
-      "title": "FinGuard-AML",
+      "title": "StateStream AML Radar",
       "track": "",
-      "why_it_could_win": "Employs genuinely hard financial engineering and graph intelligence similar to Bito, capturing judges' attention through high technical difficulty and financial security relevance."
+      "why_it_could_win": "Leverages graph intelligence and lightweight gradient boosting to deliver enterprise-grade risk analysis within a tight 24-hour delivery window."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-powered regional nutrition and wellness platform that delivers personalized meal recommendations based on traditional Indian thalis, local dietary habits, and caloric health goals.",
+      "pitch": "Personalized nutritional and crop-yield recommendation platform optimized for local agrarian practices.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Streamlit",
-        "OpenAI API",
-        "Pandas"
+        "Gemini API"
       ],
-      "title": "NutriBharat",
+      "title": "AgriYield AI Assistant",
       "track": "",
-      "why_it_could_win": "Replicates the winning structure of E-Foodiee-AI-Nutrition-Assistant while hyper-localizing the dataset for Indian cultural food habits, making the demo instantly relatable to judges."
+      "why_it_could_win": "Reuses successful wellness assistant architectures and tailors them to regional agricultural intelligence, striking a chord with local judges."
     },
     {
       "build_hours": 20,
       "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered patient acquisition and trust verification engine for regional healthcare providers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "ClinicTrust Engine",
+      "track": "",
+      "why_it_could_win": "Solves immediate customer acquisition pain points for local clinics using rapid Next.js and LLM integration."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support and campus sustainability platform combining LangGraph, RAG, and personalized AI agents to optimize energy use and student queries in Indian university hostels.",
+      "pitch": "Multi-agent student support and campus sustainability platform combining RAG and personalized workflows.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Python",
-        "FastAPI"
+        "TailwindCSS"
       ],
-      "title": "CampusGreen-Agent",
+      "title": "EcoCampus Agent",
       "track": "",
-      "why_it_could_win": "Mirrors the multi-agent architecture of the greennovation-ai-platform, hitting both sustainability and campus utility metrics which resonate well with collegiate hackathon judges."
+      "why_it_could_win": "Combines LangGraph and RAG to create a polished, multi-agent assistant that addresses common academic administrative bottlenecks."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

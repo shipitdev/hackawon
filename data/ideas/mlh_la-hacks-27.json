@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:23.968549+00:00",
+  "generated_at": "2026-09-21T08:14:35.224531+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:la-hacks-27",
@@ -14,78 +16,93 @@
     {
       "build_hours": 48,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "An autonomous agent network on Base that coordinates rideshare and parking pooling for major Los Angeles events using USDC escrow payments.",
-      "stack": [
-        "JavaScript",
-        "base",
-        "usdc"
-      ],
-      "title": "LA Traffic & Event Micro-Escrow",
-      "track": "",
-      "why_it_could_win": "Leverages the proven autonomous agent marketplace pattern from Dispatch, directly addressing a massive local pain point in Los Angeles."
-    },
-    {
-      "build_hours": 55,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered no-code automated trading strategy builder tailored for decentralized perpetuals exchanges operating in the LA fintech ecosystem.",
-      "stack": [
-        "Python",
-        "TypeScript"
-      ],
-      "title": "Pacifico-Perp Sentinel",
-      "track": "",
-      "why_it_could_win": "Follows the exact Grand Prize winning architecture of ClashX by combining intuitive no-code interfaces with high-frequency execution platforms."
-    },
-    {
-      "build_hours": 60,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-powered anti-money laundering and risk detection platform custom-built for independent film financing using graph intelligence and LightGBM.",
+      "pitch": "Real-time public transit delay forecasting and alternative route optimization platform for Los Angeles commuters.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
-        "LightGBM"
+        "Next.js",
+        "Python",
+        "TailwindCSS"
       ],
-      "title": "Hollywood Production AML Graph",
+      "title": "LA-Mobility-Pulse",
       "track": "",
-      "why_it_could_win": "Mirrors the complex engineering and graph intelligence of the Bito platform that won the DIGITIMES AI Innovation Hackathon."
+      "why_it_could_win": "Targeting a localized Los Angeles infrastructure pain point appeals directly to in-person judges who experience the city's transit issues daily."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1155558847"
+        "github:1155558847",
+        "github:1213911408"
       ],
-      "pitch": "Satellite monitoring and AI-powered compliance platform for industrial and residential land zones across Southern California.",
+      "pitch": "Computer vision platform for automated municipal waste sorting compliance and recycling contamination alerts in California.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python"
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenCV"
       ],
-      "title": "SoCal Wildfire Risk & Land Monitor",
+      "title": "CaliWaste-AI",
       "track": "",
-      "why_it_could_win": "Replicates the successful runner-up GIS architecture of GeoNex-ATLAS, tackling regionally critical environmental safety challenges."
+      "why_it_could_win": "Leverages localized environmental mandates, using a focused computer vision pipeline that can be easily demonstrated live to judges."
     },
     {
-      "build_hours": 40,
+      "build_hours": 45,
       "inspired_by": [
-        "github:1241231621"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered patient acquisition, triage, and trust engine optimized for multi-lingual healthcare clinics across Los Angeles county.",
+      "pitch": "Localized energy grid load forecasting dashboard designed to predict peak usage anomalies across Los Angeles neighborhoods.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "EchoGrid-LA",
+      "track": "",
+      "why_it_could_win": "Adopts the proven statistical forecasting approach from past winning projects, replacing generic machine learning with rigorous calibrated prediction intervals."
+    },
+    {
+      "build_hours": 55,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous talent matching marketplace and secure micro-contract escrow platform tailored for Los Angeles independent creators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "USDC"
+      ],
+      "title": "StudioMatch-LA",
+      "track": "",
+      "why_it_could_win": "Builds on a proven autonomous marketplace and escrow architecture that successfully won previous hackathons."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "AI-powered clinical trial patient recruitment and trust verification engine built for Los Angeles healthcare networks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "gemini-api",
-        "nextjs"
+        "Next.js",
+        "Python",
+        "Gemini API"
       ],
-      "title": "Bilingual Patient Trust Engine LA",
+      "title": "ScriptHealth-LA",
       "track": "",
-      "why_it_could_win": "Builds on the rapid-deployment framework of Global-Smile, addressing severe localized healthcare accessibility demands."
+      "why_it_could_win": "Addresses a high-value domain with strict compliance requirements, mimicking the architecture of proven healthcare and trust platforms."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

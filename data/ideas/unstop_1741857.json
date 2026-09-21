@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:45.623826+00:00",
+  "generated_at": "2026-09-21T08:19:23.382814+00:00",
   "grounding": {
     "domains": [
       "data"
@@ -11,6 +11,8 @@
       "working-demo",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1741857",
@@ -18,88 +20,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1329458499"
       ],
-      "pitch": "An AI-powered satellite monitoring pipeline that cross-references multi-spectral spatial imagery with state environmental databases to automatically detect industrial zoning violations and illegal waste dumping.",
+      "pitch": "An autonomous data engineering agent that detects pipeline anomalies, traces lineage, and auto-generates verified repairs.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
+        "LangGraph",
         "FastAPI",
-        "PostGIS",
-        "Gemini"
+        "TypeScript"
       ],
-      "title": "EcoCompliant-SAT",
+      "title": "DataLine-DS: Autonomous Data Lineage & Incident Repair Agent",
       "track": "",
-      "why_it_could_win": "Targeting the Data Science department's focus on industry, government, and NGO problem statements, this leverages high-impact geospatial data analysis proven by previous satellite monitoring winners."
+      "why_it_could_win": "Leverages the grand-prize-winning agentic data lineage pattern which deeply appeals to data science and engineering judges from Nexus-DS."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1329458499",
-        "github:1341712439"
+        "github:1155558847"
       ],
-      "pitch": "An automated data lineage and incident response platform tailored for agricultural supply chain logistics, detecting sensor anomalies and automatically generating root-cause audit trails.",
+      "pitch": "An AI-powered monitoring platform combining satellite imagery analysis with IoT sensor streams to flag industrial zoning and environmental violations.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "AI Agents",
-        "Claude",
-        "Data Engineering",
-        "TimescaleDB"
+        "Gemini 2.5",
+        "PostGIS"
       ],
-      "title": "AgriTrace-Lineage",
+      "title": "EcoWatch-DS: Satellite & IoT Industrial Compliance Monitoring",
       "track": "",
-      "why_it_could_win": "Combines hard engineering in data pipeline telemetry with real-world utility for agricultural NGOs and government oversight bodies."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1228328106"
-      ],
-      "pitch": "A clinical decision support dashboard predicting patient readmission rates using tabular data models, paired with SHAP values to provide doctors with real-time explainable risk factors.",
-      "stack": [
-        "Python",
-        "XGBoost",
-        "SHAP",
-        "Streamlit"
-      ],
-      "title": "MediExplain-XGB",
-      "track": "",
-      "why_it_could_win": "Addresses critical healthcare infrastructure challenges demanded by domain experts while guaranteeing strict clinical interpretability via transparent ML tooling."
+      "why_it_could_win": "Mirrors the runner-up GeoNex-ATLAS pattern of hard-to-solve enterprise monitoring that appeals directly to industrial domain experts."
     },
     {
       "build_hours": 30,
       "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "An XGBoost-powered predictive dashboard for patient readmission risk featuring real-time SHAP values for immediate clinical explainability.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "SHAP"
+      ],
+      "title": "HealthReadmit-X: Clinical Explainability Dashboard for Patient Outcomes",
+      "track": "",
+      "why_it_could_win": "Uses the proven first-place winning formula of high-accuracy tabular machine learning combined with transparent SHAP explanations."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "An autonomous multi-agent operational dashboard that isolates NGINX and server log anomalies using fast machine learning and closed-loop mitigation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Isolation Forest",
+        "Next.js"
+      ],
+      "title": "LogSentinel-DS: Multi-Agent NGINX & Infrastructure Diagnostics",
+      "track": "",
+      "why_it_could_win": "Combines winning anomaly detection algorithms with a fully functional live demo that judges can interact with instantly."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
         "github:1266090747"
       ],
-      "pitch": "A standalone fairness and bias auditing platform designed to scan student placement and resume-screening algorithms for demographic bias, generating immediate mitigation reports.",
+      "pitch": "A solo-built or team-engineered evaluation toolkit that automatically detects, explains, and provides mitigation strategies for biased machine learning models.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "AI Fairness",
-        "Bias Mitigation"
+        "Scikit-learn",
+        "FastAPI"
       ],
-      "title": "FairLens-Campus",
+      "title": "FairLens-DS: Automated Bias Detection & Mitigation for ML Pipelines",
       "track": "",
-      "why_it_could_win": "Presents a crucial governance and ethical AI tool that directly appeals to academic committees and societal impact evaluation metrics."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "A localized video intelligence platform that ingests unstructured public assembly or parliamentary proceedings, transcribing and indexing key policy discussions into a fully searchable knowledge graph.",
-      "stack": [
-        "HTML",
-        "Python",
-        "Vector Search",
-        "Whisper API"
-      ],
-      "title": "GovVideo-Index",
-      "track": "",
-      "why_it_could_win": "Solves real-world document and media accessibility pain points for government organizations and public administrative bodies."
+      "why_it_could_win": "Tackles model fairness head-on, matching a proven 3rd place winning pattern that addresses ethical and societal AI challenges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

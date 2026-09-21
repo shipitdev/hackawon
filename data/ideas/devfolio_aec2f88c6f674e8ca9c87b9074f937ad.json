@@ -1,93 +1,108 @@
 {
-  "generated_at": "2026-09-13T07:41:27.427078+00:00",
+  "generated_at": "2026-09-21T08:09:37.819560+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "ai-ml"
+    ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
     ],
+    "problem_source_count": 5,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:aec2f88c6f674e8ca9c87b9074f937ad",
   "ideas": [
     {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "An automated compliance tracking and document verification workflow built specifically for small businesses using n8n integration, connecting local filing portals with automated notification pipelines.",
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated workflow engine that monitors API data flows and generates compliance reports using n8n and SSOJet authentication.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "n8n",
-        "Node.js",
-        "PostgreSQL"
+        "SSOJet",
+        "Node.js"
       ],
-      "title": "N8N Workflow Automator for Local Compliance",
+      "title": "N8N Automated Compliance Audit Workflow",
       "track": "N8N",
-      "why_it_could_win": "Directly targets the dedicated n8n sponsor track with a practical enterprise automation use case, significantly lowering competition compared to general categories."
+      "why_it_could_win": "Directly targets the n8n sponsor track with a functional workflow that automates a painful enterprise problem."
     },
     {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A rapid branding and microsite generator utilizing .xyz domain APIs to instantly spin up landing pages, DNS records, and social kits for student founders during the hackathon.",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "TailwindCSS",
-        ".xyz API"
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1200926140"
       ],
-      "title": "DomainDrop XYZ Portfolio & Brand Engine",
+      "pitch": "A decentralized identity resolution and lookup tool leveraging .xyz domains for verified developer portfolios and proof of work.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        ".xyz API",
+        "SSOJet"
+      ],
+      "title": "SecureDomain Identity Resolver",
       "track": "Free .xyz Domains",
-      "why_it_could_win": "Leverages the Free .xyz Domains track by embedding active .xyz domain registration directly into the core product loop."
+      "why_it_could_win": "Integrates the .xyz domain registration incentive directly into the core user onboarding flow."
     },
     {
-      "build_hours": 26,
-      "inspired_by": [],
-      "pitch": "A lightweight server monitoring dashboard configured to optimize infrastructure workloads specifically for Tin Computer growth credits, providing real-time resource allocation and cost alerts.",
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An intelligent infrastructure monitoring agent that analyzes cloud resource consumption and applies Tin Computer growth credits efficiently.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "Docker"
+        "Tin Computer API",
+        "React"
       ],
-      "title": "TinScale Cloud Resource Optimizer",
+      "title": "CloudGrowth AI Cost Optimizer",
       "track": "Tin Computer Growth credit",
-      "why_it_could_win": "Aligns tightly with the Tin Computer Growth credit track by solving resource management directly on their infrastructure model."
+      "why_it_could_win": "Applies directly to the Tin Computer Growth credit track by optimizing server costs with a working dashboard."
     },
     {
-      "build_hours": 28,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "AI-powered satellite imagery change detection dashboard that monitors industrial land compliance and alerts operators of unauthorized structural alterations.",
+      "pitch": "A decentralized proof-of-work aggregation tool using Mastra AI agents to automatically verify and grade student hackathon submissions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Gemini API",
-        "Leaflet.js"
+        "Mastra AI",
+        "Fueler",
+        "Next.js"
       ],
-      "title": "GeoMonitor AI Land Compliance",
-      "track": "1st Prize",
-      "why_it_could_win": "Adapts the proven engineering pattern of GeoNex-ATLAS to solve a hard computer vision problem within a tight 32-hour build window."
+      "title": "ProofGraph Mastra AI Workflows",
+      "track": "Overall Winners",
+      "why_it_could_win": "Showcases Mastra AI agent capabilities and appeals to the overall judging criteria by solving hackathon evaluation bottlenecks."
     },
     {
-      "build_hours": 28,
+      "build_hours": 16,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1353074073"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine tailored for local clinics, automating initial health intake surveys and personalized nutritional roadmap delivery.",
+      "pitch": "A plug-and-play authentication portal designed for multi-tenant hackathon management platforms using SSOJet.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API",
+        "SSOJet",
+        "Express",
         "TailwindCSS"
       ],
-      "title": "MedTrust AI Patient Engine",
+      "title": "HackerMate Secure SSO Integration Hub",
       "track": "1st Prize",
-      "why_it_could_win": "Combines the winning architecture of Global-Smile and E-Foodiee into a cohesive clinical workflow that appeals to overall top-prize judges."
+      "why_it_could_win": "Directly implements SSOJet technology to solve a tangible integration challenge for hackathon organizers."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

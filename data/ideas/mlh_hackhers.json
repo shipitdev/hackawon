@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:28.578506+00:00",
+  "generated_at": "2026-09-21T08:12:42.213669+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackhers",
@@ -14,83 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "AI-powered incident forecasting and community risk mapping dashboard specifically tailored for urban campus safety in New Brunswick.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Jupyter Notebook",
-        "Leaflet.js"
-      ],
-      "title": "SafetyNet-AI",
-      "track": "",
-      "why_it_could_win": "Follows the exact winning pattern of ai-incident-forecasting by combining statistical prediction models with geospatial mapping to solve a localized, high-impact problem."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285",
+        "github:1213911408",
         "github:1241231621"
       ],
-      "pitch": "Personalized AI nutrition and budget meal planning platform optimized for college dining halls and local grocery stores in New Brunswick.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "NutriCampus",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning blueprint of E-Foodiee-AI-Nutrition-Assistant by targeting an audience familiar to the judges—college students—with practical utility."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student support and carbon footprint tracking platform for university sustainability initiatives in New Jersey.",
+      "pitch": "An AI-powered student support and wellness platform built specifically for university resource navigation.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "TailwindCSS"
+        "Next.js",
+        "Gemini API",
+        "LangGraph"
       ],
-      "title": "EcoScore-NJ",
+      "title": "CampusCare AI",
       "track": "",
-      "why_it_could_win": "Replicates the winning strategy of greennovation-ai-platform by combining multi-agent architecture with localized environmental impact tracking."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous student marketplace using decentralized escrow payments for textbook and dorm furniture exchanges on New Brunswick campuses.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
-      ],
-      "title": "LocalMarket-Escrow",
-      "track": "",
-      "why_it_could_win": "Adapts the transactional and escrow mechanics that won the Synthesis Hackathon into a closed-loop ecosystem designed for university students."
+      "why_it_could_win": "Leverages multi-agent architectures proven effective at student support hackathons like GreenNovation."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1155558847"
       ],
-      "pitch": "AI-powered patient onboarding and trust-building platform designed for student health services and local university clinics.",
+      "pitch": "A campus safety route-planning app that evaluates real-time lighting, crowd density, and historical incident data.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Gemini API"
+        "Mapbox",
+        "Node.js",
+        "PostgreSQL"
       ],
-      "title": "ClinicTrust-AI",
+      "title": "SafeReturn AI",
       "track": "",
-      "why_it_could_win": "Directly mirrors the healthcare acquisition engine that won Prize Hackathon by addressing a concrete operational friction point in patient intake."
+      "why_it_could_win": "Directly targets student safety concerns on college campuses with high-utility geolocation mapping."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A personalized nutrition and dining hall meal planner tailored to campus dining menus and student dietary restrictions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "NutriCampus",
+      "track": "",
+      "why_it_could_win": "Follows the exact formula of the Hour Hackathon winner by providing immediate hyper-local utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized micro-reward marketplace for tracking and verifying sustainable student habits on campus using escrow.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "TailwindCSS"
+      ],
+      "title": "EcoCredit Campus",
+      "track": "",
+      "why_it_could_win": "Incorporates autonomous transaction mechanics and marketplace dynamics that appeal to judges looking for novel economic implementations."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated risk-forecasting tool for academic departments to predict student dropout rates and resource bottlenecks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "RiskRadar Academic",
+      "track": "",
+      "why_it_could_win": "Applies rigorous statistical modeling and regression forecasting similar to award-winning AI forecasting entries."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

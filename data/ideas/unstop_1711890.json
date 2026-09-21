@@ -1,13 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:49:39.958166+00:00",
+  "generated_at": "2026-09-21T08:17:08.626158+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1711890",
@@ -17,89 +20,93 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An offline-first graph intelligence and risk detection platform tailored for monitoring suspicious micro-transactions, peer-to-peer lending irregularities, and vendor payouts within a large campus ecosystem.",
+      "pitch": "An AI-powered transaction monitoring and anomaly detection platform tailored for student co-op banks and campus fintech apps using graph intelligence.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Next.js",
+        "Neo4j",
         "Python",
-        "NetworkX",
-        "LightGBM",
-        "Next.js"
+        "LightGBM"
       ],
-      "title": "CampusGraph AML: Financial Risk Intelligence for University Ecosystems",
+      "title": "CampusGraph AML Risk Navigator",
       "track": "",
-      "why_it_could_win": "Leverages graph intelligence and explainable models similar to Bito, appealing directly to judges looking for robust enterprise-grade AI architecture applied locally."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite imagery monitoring platform designed to track unauthorized land usage, construction changes, and environmental degradation across university or regional municipal boundaries.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "SentinelHub API",
-        "PyTorch",
-        "Leaflet.js"
-      ],
-      "title": "GeoNex-MUJ: Satellite Land and Infrastructure Compliance Monitor",
-      "track": "",
-      "why_it_could_win": "Mirrors the success of GeoNex-ATLAS by solving real-world GIS compliance problems with practical computer vision pipelines that judges can immediately visualize."
+      "why_it_could_win": "Leverages graph intelligence and Focal LightGBM similar to a major 2026 winning project, offering judges genuine hard engineering rather than just a wrapper."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An offline-friendly nutritional intelligence platform that scans campus dining hall menus, predicts daily micronutrient intake, and dynamically generates personalized meal plans for student athletes and residents.",
+      "pitch": "An automated campus mess and cafeteria nutrition assistant that delivers tailored meal recommendations and tracks dietary goals for university students.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "Gemini API",
-        "React Native",
-        "TailwindCSS"
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
       ],
-      "title": "NutriCampus AI: Real-time Mess Nutrition and Wellness Optimizer",
+      "title": "NutriCampus AI Personalized Meal Planner",
       "track": "",
-      "why_it_could_win": "Directly builds on the winning formula of E-Foodiee by targeting an immediate, relatable campus pain point with rapid AI API integration."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A forecasting engine that utilizes Poisson regression and rolling backtests on historical campus security logs and lighting data to predict localized safety incidents and optimize patrol routes.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Statsmodels",
-        "Streamlit",
-        "PostgreSQL"
-      ],
-      "title": "IncidentCast AI: Campus Safety and Security Risk Forecaster",
-      "track": "",
-      "why_it_could_win": "Adapts the rigorous statistical forecasting methodology of the Apart Research winning incident forecaster to an impactful institutional safety use case."
+      "why_it_could_win": "Replicates the formula of a proven 24-hour hackathon winner by targeting an immediate, relatable campus consumer problem with polished UI and accurate nutritional heuristics."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1200926140"
+        "github:1213911408"
       ],
-      "pitch": "A high-speed video intelligence platform that ingests unstructured recorded lecture archives, transcribes and indexes semantic concepts, and generates searchable, time-stamped knowledge graphs.",
+      "pitch": "A multi-agent student grievance and academic support platform utilizing LangGraph and RAG to dynamically route queries to the correct department.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
         "TypeScript",
-        "Whisper API",
-        "VectorDB",
-        "Next.js"
+        "LangGraph",
+        "PostgreSQL",
+        "OpenAI API",
+        "React"
       ],
-      "title": "LectureLibrAI: Multimodal Video Intelligence for Academic Archives",
+      "title": "Agentic Campus Multi-Agent Support Hub",
       "track": "",
-      "why_it_could_win": "Replicates the LibrAI winning formula by turning unstructured educational media into instantly queryable data, a major win for university-hosted hackathons."
+      "why_it_could_win": "Mirrors an award-winning multi-agent support architecture, impressing judges with complex multi-step reasoning workflows rather than single-prompt chat interfaces."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "An AI-powered university lecture hall and lab booking platform featuring real-time availability tracking and automated conflict-free event scheduling.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "FullCalendar.js"
+      ],
+      "title": "SpaceFlow MUJ Smart Workspace Manager",
+      "track": "",
+      "why_it_could_win": "Builds on a proven hackathon runner-up concept by addressing a universal university logistics pain point that every judge and student organizer intimately understands."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "A RAG-based voice assistant optimized for campus enquiry desks that accurately retrieves handbook policies, exam schedules, and fee details via voice input.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Whisper API",
+        "LangChain",
+        "ChromaDB"
+      ],
+      "title": "Voz-Campus Voice RAG Assistant",
+      "track": "",
+      "why_it_could_win": "Incorporates specialized voice-to-text pipeline engineering and accurate RAG retrieval, following a recognized winning pattern for high-utility AI assistants."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

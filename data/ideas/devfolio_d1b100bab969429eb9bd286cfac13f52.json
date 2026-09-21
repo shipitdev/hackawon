@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:42:59.799862+00:00",
+  "generated_at": "2026-09-21T08:10:09.746257+00:00",
   "grounding": {
     "domains": [
       "healthtech",
@@ -11,90 +11,96 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 6,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:d1b100bab969429eb9bd286cfac13f52",
   "ideas": [
     {
       "build_hours": 20,
-      "inspired_by": [
-        "github:614169755",
-        "github:453300418"
-      ],
-      "pitch": "A decentralized medical history storage system that uses zero-knowledge proofs to let patients share specific health credentials with doctors without revealing their entire medical background.",
+      "inspired_by": [],
+      "pitch": "An AI-powered medical transcription and patient intake tool utilizing advanced voice models.",
+      "problem_statement": "Healthcare track focus on real-world diagnostic and administrative bottlenecks.",
       "stack": [
-        "Solidity",
+        "Python",
+        "FastAPI",
         "React",
-        "JavaScript",
-        "zero-knowledge-proofs"
+        "ElevenLabs API"
       ],
-      "title": "MediProof ZK Records",
+      "title": "VoiceHealth AI Assistant",
       "track": "Healthcare",
-      "why_it_could_win": "Combines Healthcare and Web3/Blockchain tracks while leveraging hard engineering patterns seen in winning ZK projects like UC Berkeley ZKP Hackathon entries."
+      "why_it_could_win": "Directly targets the ElevenLabs sponsor track by integrating high-fidelity voice synthesis and analysis for clinical environments."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1188682384"
+        "github:1188682384",
+        "github:614169755"
       ],
-      "pitch": "A ZK-gated community platform for HackBIOS participants where human developers and autonomous AI agents can collaboratively review code while keeping implementation secrets hidden.",
+      "pitch": "A zero-knowledge proof credential verification platform ensuring student privacy using decentralized infrastructure.",
+      "problem_statement": "EdTech and Cybersecurity track focus on privacy-preserving credential verification.",
       "stack": [
         "TypeScript",
-        "ai-agents",
-        "base-chain",
-        "noir-lang"
+        "Noir",
+        "Next.js",
+        "Solidity"
       ],
-      "title": "AgentStoa Junwani",
-      "track": "Open Innovation",
-      "why_it_could_win": "Aligns directly with the Open Innovation and AI/ML tracks by implementing advanced AI agents and cryptographic privacy mechanics proven at the Synthesis Hackathon."
+      "title": "ZK-Cred: Secure Academic Credential Verifier",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Combines hard cryptographic engineering with a high-utility EdTech use case, reminiscent of past ZKP hackathon winners."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An AI agent that hooks into GitHub repositories to automatically generate and maintain codebase architecture documents.",
+      "problem_statement": "Web Development and Open Innovation track focus on developer tooling efficiency.",
+      "stack": [
+        "TypeScript",
+        "GitHub API",
+        "OpenAI API",
+        "Node.js"
+      ],
+      "title": "CommitAI: Autonomous Documentation Agent",
+      "track": "Web Development",
+      "why_it_could_win": "Leverages the GitHub sponsor track with a practical, instantly demoable developer tool that saves hours of manual work."
     },
     {
       "build_hours": 21,
       "inspired_by": [
-        "github:776580131"
+        "github:783172279"
       ],
-      "pitch": "A secure multi-party computation collaboration platform built for EdTech assignments, allowing students to submit collaborative code without exposing individual answers to peers.",
+      "pitch": "A FinTech security layer that analyzes smart contract transaction payloads for malicious drain patterns before signing.",
+      "problem_statement": "FinTech and Web3/Blockchain track focus on user asset protection and threat detection.",
       "stack": [
-        "Rust",
-        "TypeScript",
-        "filecoin"
+        "Solidity",
+        "Ethers.js",
+        "Python",
+        "FastAPI"
       ],
-      "title": "HermitEd Secure Multi-Party Classroom",
-      "track": "EdTech",
-      "why_it_could_win": "Targets the EdTech track by applying heavy privacy-preserving multi-party computation patterns that previously won the Filecoin data economy hackathon."
+      "title": "DeFiGuard: Multi-Sig Fraud Detector",
+      "track": "FinTech",
+      "why_it_could_win": "Addresses critical security pain points in Web3, appealing strongly to judges looking for robust risk mitigation tools."
     },
     {
-      "build_hours": 18,
+      "build_hours": 19,
       "inspired_by": [
         "github:609345126"
       ],
-      "pitch": "A decentralized authentication and certificate issuance dApp for educational institutions running on Solana to prevent credential fraud during hackathon submissions.",
+      "pitch": "An interactive learning platform on .xyz domains that issues verifiable on-chain completion badges for course modules.",
+      "problem_statement": "EdTech and Web3 track focus on verifiable digital achievement systems.",
       "stack": [
-        "JavaScript",
-        "Solana",
-        "React"
+        "React",
+        "Solidity",
+        "TailwindCSS",
+        "Ethers.js"
       ],
-      "title": "SolAuth Campus Credentials",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Fits the Cybersecurity and Web Development tracks using fast, reliable smart contract authentication patterns from Superteam Turkey Solana Hackathon winners."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:633718399"
-      ],
-      "pitch": "A decentralized privacy-first crypto asset management and automated inheritance wallet utilizing zero-knowledge cryptographic primitives.",
-      "stack": [
-        "TypeScript",
-        "ZKSync",
-        "Solidity"
-      ],
-      "title": "WillWallet FinTech Privacy Guard",
-      "track": "FinTech",
-      "why_it_could_win": "Speaks directly to the FinTech track by implementing advanced privacy-preserving transaction protocols proven at the ETH Privacy Istanbul Hackathon."
+      "title": "EduChain Quiz & Reward Protocol",
+      "track": "EdTech",
+      "why_it_could_win": "Directly integrates .xyz domain branding and utility while solving engagement drops in online learning."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

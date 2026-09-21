@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:21.761029+00:00",
+  "generated_at": "2026-09-21T08:13:32.283248+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackru",
@@ -16,87 +18,93 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive dashboard utilizing Poisson regression and rolling backtests to forecast bus crowding and emissions across Rutgers campus routes based on weather, class schedules, and event data.",
+      "pitch": "A predictive machine learning dashboard forecasting peak power loads and renewable energy output across Rutgers university buildings using historical weather and consumption data.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Streamlit",
-        "Pandas"
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
       ],
-      "title": "Rutgers Campus Transit Demand & Carbon Forecaster",
+      "title": "Rutgers Campus Energy Micro-Grid Forecaster",
       "track": "",
-      "why_it_could_win": "Matches the proven predictive modeling and safety forecasting pattern of past winning projects like ai-incident-forecasting, appealing strongly to university-level evaluators looking for practical campus utility."
+      "why_it_could_win": "Adopts the successful pipeline and rigorous statistical methodology of the Apart Research AI Forecasting winner, which judges favor for depth over simple UI demos."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "An automated platform combining graph intelligence and LightGBM to monitor campus smart devices and IoT networks, highlighting potential security vulnerabilities and compliance risks.",
+      "pitch": "An AI-driven risk scoring platform for local New Brunswick municipal regulators to automate safety and zoning compliance checks using graph intelligence and explainable machine learning.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Python",
         "LightGBM",
-        "NetworkX"
-      ],
-      "title": "ScarletSecure: Rutgers IoT Device Anomaly & Risk Detector",
-      "track": "",
-      "why_it_could_win": "Leverages the winning formula of combining graph intelligence and explainable machine learning seen in top financial and industrial monitoring hackathon winners."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "A localized nutrition tracking app that scans Rutgers dining hall menus, optimizes daily meal choices based on student fitness goals, and tracks food waste metrics for sustainability.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "Gemini API",
         "TailwindCSS"
       ],
-      "title": "DiningHall AI: Rutgers Sustainable Nutrition Assistant",
+      "title": "New Brunswick Local Business Risk & Compliance Analyzer",
       "track": "",
-      "why_it_could_win": "Replicates the practical, consumer-facing health utility that secured first prize at the Mealzy 24-Hour Hackathon, targeting an immediate student pain point."
+      "why_it_could_win": "Replicates the high-impact B2B vertical approach of the DIGITIMES AI Innovation Hackathon winner by targeting administrative utility with explainable metrics."
     },
     {
-      "build_hours": 25,
+      "build_hours": 22,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous agent platform that automates club budgeting and reimbursement payouts using USDC escrow smart contracts on Base, removing administrative friction for student organizations.",
+      "pitch": "A secure campus marketplace for student services featuring automated USDC escrow payments to eliminate transaction fraud and simplify peer commerce.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
         "USDC",
         "Solidity",
-        "Next.js"
+        "React"
       ],
-      "title": "KnightPay: Autonomous Student Club Expense Escrow",
+      "title": "Student Budget Peer-to-Peer Escrow Marketplace",
       "track": "",
-      "why_it_could_win": "Directly applies the autonomous agent and escrow pattern that won the Synthesis Hackathon Locus track, offering tangible administrative utility for university groups."
+      "why_it_could_win": "Leverages the proven market utility and decentralized trust mechanics of the Synthesis Hackathon winning Dispatch platform."
     },
     {
-      "build_hours": 22,
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered nutrition app that aggregates daily Rutgers dining hall menus to generate hyper-personalized, macro-balanced meal recommendations and health plans for students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "Rutgers Dining Hall Nutrition & Meal Prep Optimizer",
+      "track": "",
+      "why_it_could_win": "Follows the direct-to-consumer utility blueprint of the Mealzy 24-Hour Hackathon winner, making it immediately relatable and easy for judges to test live."
+    },
+    {
+      "build_hours": 25,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support system utilizing LangGraph and RAG to match Rutgers course codes with personalized AI tutor agents and verified student study materials.",
+      "pitch": "An interactive multi-agent support platform built with LangGraph and RAG to guide student groups through sustainability initiative applications and grant submissions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "OpenAI API",
-        "Pinecone",
-        "Next.js"
+        "Next.js",
+        "PostgreSQL",
+        "OpenAI API"
       ],
-      "title": "StudyMesh: Multi-Agent Peer Tutoring & Resource Hub",
+      "title": "Campus Sustainability Multi-Agent Advisor",
       "track": "",
-      "why_it_could_win": "Mirrors the architecture of the GreenNovation Hackathon winner by deploying specialized multi-agent workflows to solve educational coordination problems."
+      "why_it_could_win": "Employs advanced agentic workflows proven effective at the GreenNovation Hackathon, offering deep technical complexity beyond a basic wrapper."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

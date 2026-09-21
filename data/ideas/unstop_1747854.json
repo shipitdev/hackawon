@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:56:51.470858+00:00",
+  "generated_at": "2026-09-21T08:25:44.315882+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1747854",
@@ -18,85 +20,96 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1341712439",
-        "github:1281918590"
+        "github:1069834761",
+        "github:1144331507"
       ],
-      "pitch": "An IoT-based power monitoring system using ESP32 and current sensors that detects anomalous energy consumption spikes in department labs and provides real-time alerts.",
+      "pitch": "An embedded hardware safety module that automatically detects crash impacts using IMUs and transmits encrypted SOS packets via an off-grid acoustic/RF mesh when cellular networks fail.",
+      "problem_statement": "Hardware Track - Real-world IoT and safety challenges in transportation and communication.",
       "stack": [
-        "Python",
         "C++",
+        "Arduino",
         "ESP32",
-        "MQTT",
-        "Streamlit"
+        "MPU6050",
+        "LoRa"
       ],
-      "title": "Smart Campus Energy Grid Monitor",
+      "title": "AutoSOS ECE: ESP32-Based Post-Accident Vehicle Emergency Mesh",
       "track": "Hardware & Software",
-      "why_it_could_win": "Targeting the Hardware & Software tracks with a low-cost, immediately deployable prototype fits the ECE & EE department vibe of the organizing institution."
+      "why_it_could_win": "Hardware and IoT projects that bring physical safety devices with working live demos consistently win physical hackathons like Kernel Prime, appealing directly to ECE/EE judges."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1010199928"
+        "github:1274691349",
+        "github:1341712439"
       ],
-      "pitch": "A computer vision garbage segregation system running locally on a Raspberry Pi using a lightweight model to sort metal, plastic, and organic waste instantly without cloud dependency.",
+      "pitch": "A lightweight custom pipeline implemented on an FPGA to monitor high-frequency sensor streams from industrial motors and detect anomalies instantly without cloud roundtrips.",
+      "problem_statement": "Hardware Track - Industrial automation and low-power hardware optimization.",
       "stack": [
+        "Verilog",
+        "FPGA",
         "Python",
-        "OpenCV",
-        "TensorFlow Lite",
-        "Raspberry Pi"
+        "Vivado"
       ],
-      "title": "Edge AI Smart Dustbin Classifier",
+      "title": "VLSI-Edge: FPGA-Accelerated Real-Time Anomaly Detection for Industrial IoT",
       "track": "Hardware & Software",
-      "why_it_could_win": "Combines physical hardware components with embedded machine learning, echoing proven robotics winning patterns from previous hardware-heavy hackathons."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1144331507"
-      ],
-      "pitch": "A localized data transmission system leveraging audio frequencies over standard walkie-talkies or speakers to pass short text packets in dead zones where cellular networks fail.",
-      "stack": [
-        "Python",
-        "Audio Processing",
-        "PyAudio",
-        "Hardware"
-      ],
-      "title": "Offline Acoustic Mesh Communicator",
-      "track": "Hardware & Software",
-      "why_it_could_win": "Involves unusual physical build and complex signal processing that immediately stands out against standard web apps in a room of college judges."
+      "why_it_could_win": "Organized by the Departments of ECE & EE (VLSI Design & Technology), hardware optimization and FPGA-oriented solutions directly align with the department's core evaluation preferences."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1296916648"
+        "github:1010199928"
       ],
-      "pitch": "A developer tool running small open-source language models locally via hardware NPUs to scan Python codebases for security vulnerabilities without sending code to external servers.",
+      "pitch": "A compact smart waste bin prototype using a camera, lightweight object detection, and servo-driven flaps to classify and separate biodegradable, plastic, and metallic trash in real time.",
+      "problem_statement": "Hardware & Software Track - Smart city and environmental hygiene challenges.",
       "stack": [
         "Python",
-        "ONNX Runtime",
-        "Transformers"
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi",
+        "Arduino"
       ],
-      "title": "NPU-Accelerated Offline Code Auditor",
-      "track": "Software Track",
-      "why_it_could_win": "Leverages local AI hardware execution and targets the growing demand for secure, offline, privacy-first developer tools."
+      "title": "SmartBin AI: Edge-Vision Waste Segregator with Automated Sorting Mechanism",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Combines computer vision with a functional hardware sorting mechanism, matching the winning formula of physical robotics builds that perform live, reliable demonstrations."
     },
     {
-      "build_hours": 22,
+      "build_hours": 19,
       "inspired_by": [
-        "github:1274691349"
+        "github:1144331507"
       ],
-      "pitch": "A compact hardware debugging peripheral built on an FPGA development board that captures, decodes, and displays serial communication packets directly on an attached OLED screen.",
+      "pitch": "A decentralized, battery-powered emergency intercom mesh that routes audio and text data across campus zones during power outages using inexpensive transceiver modules.",
+      "problem_statement": "Hardware Track - Robust local communication and disaster management systems.",
       "stack": [
-        "Verilog",
-        "FPGA",
-        "Embedded C"
+        "C++",
+        "TypeScript",
+        "ESP32",
+        "RF Modules",
+        "React"
       ],
-      "title": "FPGA-Based UART Protocol Analyzer",
-      "track": "Hardware Track",
-      "why_it_could_win": "Directly aligns with the ECE & EE organizing departments' core focus on VLSI design and hardware testing, appealing heavily to technical faculty judges."
+      "title": "EcoMesh Campus: Ultra-Fast LoRa/Radio Emergency Broadcast Network",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Addresses critical campus infrastructure problems with a tangible, hardware-heavy network architecture that judges can test live during the 24-hour window."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A custom relay and current-sensing circuit designed to monitor appliance loads, prevent overloads, and report metrics over a local web dashboard for energy conservation.",
+      "problem_statement": "Hardware & Software Track - Electrical energy monitoring and efficiency.",
+      "stack": [
+        "C++",
+        "ESP8266",
+        "Current Sensors",
+        "Relay Modules",
+        "Node.js"
+      ],
+      "title": "GridGuard: Low-Cost Microcontroller-Based Smart Power Tap Controller",
+      "track": "Hardware & Software",
+      "why_it_could_win": "Directly appeals to the Electrical Engineering department co-organizing the event by targeting core power management and circuit design principles."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

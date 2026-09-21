@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:29.161541+00:00",
+  "generated_at": "2026-09-21T08:29:42.183809+00:00",
   "grounding": {
     "domains": [
       "sustainability",
@@ -10,6 +10,8 @@
       "impact",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750908",
@@ -17,85 +19,93 @@
     {
       "build_hours": 7,
       "inspired_by": [
-        "github:781211861",
-        "github:769262834",
-        "github:714473994"
+        "github:1346526259",
+        "github:901472660"
       ],
-      "pitch": "A mobile application tailored for local municipalities to incentivize household waste segregation through QR-coded drop-off bins and token rewards.",
+      "pitch": "A mobile web app enabling local panchayats to track and report village-level sanitation, clean water, and green energy metrics aligned with UN SDGs.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React Native",
-        "Node.js",
-        "Supabase"
+        "React",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "EcoKottayam Waste-to-Reward Hub",
+      "title": "EcoGram: UN SDG Local Tracker",
       "track": "",
-      "why_it_could_win": "Aligns directly with UN Sustainable Development Goal 12 (Responsible Consumption and Production) and mirrors proven winning mechanics from past sustainability hackathons."
+      "why_it_could_win": "Directly targets the official hackathon theme of UN Sustainable Development Goals with a measurable impact dashboard, a pattern proven successful in winning civic tech hacks."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:781211861",
+        "github:714473994"
+      ],
+      "pitch": "A fast mobile-first camera web app that scans product packaging barcodes or labels and instantly tells citizens how and where to recycle them locally.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "TensorFlow.js",
+        "React",
+        "CSS"
+      ],
+      "title": "BinScan: AI Recyclability Scanner",
+      "track": "",
+      "why_it_could_win": "Combines computer vision with environmental sustainability, echoing past winning projects that focused on gamified or accessible recycling guidance."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:901472660"
       ],
-      "pitch": "A lightweight dashboard and mobile tracker for local panchayats and community bodies to log water pump maintenance logs, pipe leakage complaints, and resource distribution.",
+      "pitch": "A streamlined lightweight dashboard for rural bodies to monitor water purification unit statuses, pipeline leak reports, and community consumption.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Node.js",
-        "React"
+        "Express",
+        "SQLite"
       ],
-      "title": "JalSetu Local Water Asset Manager",
+      "title": "JalSetu Lite: Community Water Asset Manager",
       "track": "",
-      "why_it_could_win": "Targets UN SDG 6 (Clean Water and Sanitation) with a practical governance tool modeled after major national hackathon runners-up."
+      "why_it_could_win": "Leverages the architectural pattern of successful national rural infrastructure tracking tools while scaled down perfectly for an 8-hour build timeframe."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1179029975"
+        "github:1346526259",
+        "github:781211861"
       ],
-      "pitch": "A crowdsourced mobile platform enabling commuters to log pothole coordinates, unlit street corners, and road damage with automated severity scoring for civic bodies.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "Leaflet.js"
-      ],
-      "title": "MargMitra Kerala Road Hazard Reporter",
-      "track": "",
-      "why_it_could_win": "Addresses UN SDG 11 (Sustainable Cities and Communities) by offering an immediately deployable safety asset for local infrastructure management."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:927292639"
-      ],
-      "pitch": "An offline-first mobile app using a lightweight computer vision model to diagnose common crop blights in regional staple crops, connecting farmers with local cooperative solutions.",
-      "stack": [
-        "Python",
-        "Flutter",
-        "TensorFlow Lite"
-      ],
-      "title": "AgriYield Local Crop Disease Triage",
-      "track": "",
-      "why_it_could_win": "Focuses on UN SDG 2 (Zero Hunger) by delivering actionable agricultural support tailored to regional farming contexts."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1346526259"
-      ],
-      "pitch": "An AI-powered dashboard for local rural artisans and small shops to track carbon footprint reduction metrics and generate localized digital promotions.",
+      "pitch": "A route planner and community challenge app that incentivizes students and faculty to take low-emission public transport or carpool within college zones.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
-        "Supabase",
-        "LLM API"
+        "React Leaflet",
+        "Supabase"
       ],
-      "title": "GreenShop AI Local Commerce Optimizer",
+      "title": "GreenPath: Carbon-Aware Campus Commute",
       "track": "",
-      "why_it_could_win": "Combines UN SDG 8 (Decent Work and Economic Growth) with the winning blueprint of combining small business tools and impact reporting."
+      "why_it_could_win": "Appeals directly to university sustainability goals with a functional walk-to-earn/commute-to-save mechanic that translates exceptionally well to live offline judging demos."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1179029975",
+        "github:927292639"
+      ],
+      "pitch": "An offline-first progressive web app allowing local farmers to snap photos of crop leaves and receive instant disease diagnosis and organic remedy suggestions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AgriGuard: Crop Disease Early Warning",
+      "track": "",
+      "why_it_could_win": "Addresses UN SDG Zero Hunger and Life on Land with a high-utility, working prototype that solves an immediate regional agricultural problem."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

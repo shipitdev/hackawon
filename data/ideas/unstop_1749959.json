@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:26.314780+00:00",
+  "generated_at": "2026-09-21T08:28:20.338609+00:00",
   "grounding": {
     "domains": [
       "devtools"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749959",
@@ -16,90 +18,90 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1329458499"
+        "github:1296916648"
       ],
-      "pitch": "An automated security-linting and vulnerability patcher specifically tailored for MERN stack applications, combining static AST analysis with LLM-assisted remediation to generate verified pull requests.",
+      "pitch": "An automated MERN stack code review agent that enforces clean architecture, security policies, and optimal Tailwind usage directly inside GitHub PRs.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "React",
         "Node.js",
         "Express",
         "MongoDB",
         "Tailwind CSS"
       ],
-      "title": "MERN Security Sentinel",
+      "title": "InternHill MERN Code Quality Gate",
       "track": "",
-      "why_it_could_win": "Directly targets InternHill Solutions' explicit call for security-minded developers and modern MERN stack enthusiasts by automating the exact code hygiene and edge-case handling they care about."
+      "why_it_could_win": "Directly targets InternHill Solutions' stated desire for clean coders, modern web enthusiasts, and security-minded developers by automating the exact evaluation criteria they care about."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A plug-and-play role-based access control and security auditing boilerplate built specifically for MERN stack applications with zero-trust middleware.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "JWT",
+        "Tailwind CSS"
+      ],
+      "title": "SecureRoute MERN - RBAC & Audit Engine",
+      "track": "",
+      "why_it_could_win": "Presents a heavy focus on security-minded development, which is explicitly called out in the hiring challenge description."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A developer tool dashboard for MERN applications that visualizes inefficient MongoDB aggregation pipelines and slow Express endpoints in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Chart.js"
+      ],
+      "title": "QueryOptimizer Studio",
+      "track": "",
+      "why_it_could_win": "Appeals directly to analytical problem solvers who appreciate performance optimization, scalability, and robust digital platforms."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A utility-first Tailwind design system documentation generator and automated accessibility checker for modern React single-page applications.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "title": "ComponentFlow UI System",
+      "track": "",
+      "why_it_could_win": "Demonstrates mastery over clean UI implementation and modern styling methodologies, satisfying the evaluation criteria for modern web enthusiasts."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1282252864"
+        "github:1329458499"
       ],
-      "pitch": "A BPMN-orchestrated applicant tracking and code-assessment pipeline that automatically flags edge cases in candidate submissions and runs sandbox test suites under tight resource limits.",
+      "pitch": "An automated system health monitor for MERN backends that catches edge-case server crashes, logs stack traces, and generates diagnostic patches.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
-        "Node.js",
-        "Tailwind CSS",
-        "Docker"
-      ],
-      "title": "InternFlow ATS Workflow Engine",
-      "track": "",
-      "why_it_could_win": "Aligns with the organizing company's technical hiring domain, demonstrating complex workflow orchestration and analytical problem-solving under a 24-48 hour constraint."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router and intelligent caching layer for MERN applications that optimizes MongoDB query execution by routing natural language search intents through a lightweight exemplar index.",
-      "stack": [
-        "Python",
-        "Node.js",
-        "MongoDB",
-        "Express",
-        "Qwen"
-      ],
-      "title": "QueryRouter MERN Cache",
-      "track": "",
-      "why_it_could_win": "Leverages proven patterns of hard engineering and efficient LLM routing to showcase deep backend optimization skills, appealing to judges looking for robust and highly efficient digital platforms."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An interactive utility-first dashboard built with Tailwind CSS that analyzes messy React and Node.js codebases, refactors components into maintainable structures, and enforces strict clean-code guidelines.",
-      "stack": [
-        "React",
-        "Node.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "Babel"
-      ],
-      "title": "CleanCode MERN Refactor Agent",
-      "track": "",
-      "why_it_could_win": "Directly satisfies the 'Clean Coders' evaluation criteria emphasized by the hosting company, showcasing mastery of modern styling methodologies and readable code enforcement."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "A specialized testing framework for MERN stack microservices that simulates complex distributed edge cases, race conditions, and heavy payload spikes to test application resilience.",
-      "stack": [
         "Node.js",
         "Express",
         "MongoDB",
-        "React",
-        "Tailwind CSS"
+        "React"
       ],
-      "title": "AsyncEdge Stress Tester",
+      "title": "InternWatch Automated Incident Response",
       "track": "",
-      "why_it_could_win": "Demonstrates the rigorous handling of complex edge cases under time constraints that InternHill Solutions explicitly looks for in software engineering intern candidates."
+      "why_it_could_win": "Showcases the ability to handle complex edge cases under time constraints and build highly reliable digital infrastructure."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

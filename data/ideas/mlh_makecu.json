@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:33.739010+00:00",
+  "generated_at": "2026-09-21T08:14:44.578874+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:makecu",
@@ -20,82 +22,86 @@
       "inspired_by": [
         "github:1144331507"
       ],
-      "pitch": "An acoustic off-grid messaging mesh network optimized for underground transit systems like the NYC subway, utilizing walkie-talkies and ultrasonic audio pulses for station-to-station data hopping.",
+      "pitch": "An edge-computed acoustic sensor network placed near subway tracks to map train delays and mechanical wear through audio signature analysis.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Web Audio API",
-        "Hardware",
-        "Radio"
-      ],
-      "title": "SubwaySound Mesh",
-      "track": "",
-      "why_it_could_win": "Follows the proven physical build pattern from ICHack where hardware-adjacent networking stood out dramatically against standard web apps."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1296916648"
-      ],
-      "pitch": "An offline AI code review hook running locally on device via NPUs or lightweight runtimes that flags vulnerabilities and bad commits without sending proprietary code to the cloud.",
-      "stack": [
         "Python",
-        "ONNX Runtime",
-        "Git Hooks"
+        "Raspberry Pi",
+        "WebAudio API"
       ],
-      "title": "LocalLlama GitGuardian",
+      "title": "SubwaySound: Real-Time Acoustic Transit Delay Mapping",
       "track": "",
-      "why_it_could_win": "Leverages the offline AI architecture that won the Qualcomm Snapdragon Multiverse Hackathon, appealing to developer tooling and local privacy judges."
+      "why_it_could_win": "Follows the winning hardware and acoustic mesh pattern from ICHack, offering a tangible, physical installation that judges can interact with live in New York City."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "A computer vision garbage classification edge device built with a camera and microcontroller to automatically categorize NYC street waste for local composting and recycling compliance.",
+      "pitch": "A low-latency edge-AI camera system that detects double-parked delivery trucks blocking NYC bike lanes and automatically logs municipal infractions.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
-        "Arduino",
-        "TensorFlow Lite"
+        "TensorFlow Lite",
+        "React"
       ],
-      "title": "MetroScan AI Waste Sorter",
+      "title": "GridLock: NYC Commercial Loading Zone Computer Vision Agent",
       "track": "",
-      "why_it_could_win": "Directly matches the winning physical robotics and AI classification pattern seen at TechnoMorph Hackathon with a local NYC angle."
+      "why_it_could_win": "Targets an intensely hyper-local New York City pain point that immediately resonates with local judges and city-dwellers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An offline-first mesh network tracking real-time temperature and perishable inventory levels in mutual aid community fridges across upper Manhattan.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "ESP32",
+        "LoRa",
+        "Node.js"
+      ],
+      "title": "BoroughBite: Community Fridge Perishable Inventory Mesh",
+      "track": "",
+      "why_it_could_win": "Leverages the social impact angle combined with a working hardware dashboard, appealing directly to judges looking for tangible community utility."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A peer-to-peer WebRTC lecture streaming protocol optimized for congested university Wi-Fi networks during heavy midterms weeks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "WebRTC",
+        "TailwindCSS",
+        "Go"
+      ],
+      "title": "CUNYClassroom: Low-Bandwidth Peer Lecture Streamer",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable campus-wide infrastructure issue for Columbia students experiencing poor network conditions."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1341712439"
+        "github:1259981732"
       ],
-      "pitch": "An autonomous multi-agent diagnostic platform that monitors simulated municipal water pipe sensor data, running anomaly detection loops to alert operators before leaks cause street flooding.",
+      "pitch": "An inertial measurement unit (IMU) sensor strapped to campus mail carts that crowdsources sidewalk bumpiness and stair obstructions in real-time.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Gemini API",
-        "TimescaleDB"
+        "Python",
+        "Arduino",
+        "Mapbox GL",
+        "FastAPI"
       ],
-      "title": "UrbanPipe Multi-Agent Ops",
+      "title": "PavementPulse: Campus Accessibility Routing for Wheelchairs",
       "track": "",
-      "why_it_could_win": "Adapts the complex multi-agent anomaly detection architecture that secured 3rd place at SEAL Hackathon into a localized municipal infrastructure utility."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1284625256"
-      ],
-      "pitch": "A governable counter-UAS edge display system featuring a deterministic engagement gate and human-in-the-loop controls, keeping LLMs strictly off the critical decision path.",
-      "stack": [
-        "TypeScript",
-        "AWS Bedrock",
-        "Edge Computing",
-        "WebSockets"
-      ],
-      "title": "Aegis-City Drone Interceptor Gate",
-      "track": "",
-      "why_it_could_win": "Employs the exact high-integrity safety architecture that won Best Collaboration at the AWS Global Government Hackathon by proving safe defense-tech constraint handling."
+      "why_it_could_win": "Combines physical sensor data collection with a compelling accessibility use case, fulfilling the hardware-plus-live-demo winning formula."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

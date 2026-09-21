@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:52:25.859696+00:00",
+  "generated_at": "2026-09-21T08:20:25.614984+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,83 +7,81 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1743110",
   "ideas": [
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A Python-based competitive programming sandbox optimized for logical reasoning puzzles designed specifically for high school students.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "LogicalReasoningPathfinder",
-      "track": "",
-      "why_it_could_win": "Directly targets the core focus of the St. Jude's Code Arena on logical reasoning and Python proficiency for grades 9-12."
-    },
-    {
       "build_hours": 24,
       "inspired_by": [],
-      "pitch": "A peer-to-peer live Python algorithm dueling platform allowing students in grades 9-12 to solve logic problems simultaneously.",
+      "pitch": "A Python-based competitive programming utility that parses student submissions, runs dynamic test suites with isolated memory constraints, and generates logic-failure heatmaps.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "WebSockets",
-        "Flask"
+        "pytest",
+        "Docker"
       ],
-      "title": "CodeArenaDuels",
+      "title": "LogicArena Python Benchmarker",
       "track": "",
-      "why_it_could_win": "Leverages the competitive nature of an online coding challenge hosted by a school for high schoolers."
+      "why_it_could_win": "Targeting Python capability directly matches the hackathon's explicit focus on honing abilities in Python and logical reasoning."
     },
     {
       "build_hours": 18,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An educational Python error analyzer that gives conversational logic explanations rather than raw stack traces for young coders.",
+      "inspired_by": [],
+      "pitch": "An interactive logic puzzle platform built for Grades 9-12 students featuring step-by-step constraint satisfaction problem generators.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Ast",
         "Streamlit"
       ],
-      "title": "SyntaxSagePython",
+      "title": "Algorist Logical Reasoning Trainer",
       "track": "",
-      "why_it_could_win": "Appeals directly to the event's stated goal of sharpening Python and problem-solving skills in a virtual environment."
+      "why_it_could_win": "Aligns with the target demographic of school students by gamifying the exact logical reasoning skills tested in the arena."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A lightweight visual execution tracer for Python code designed to help high schoolers step through complex loops and recursive functions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "JavaScript"
+      ],
+      "title": "CodeTrace Python Debugger",
+      "track": "",
+      "why_it_could_win": "Directly supports the permitted language stack (Python) and addresses common learning hurdles for beginner to intermediate coders."
     },
     {
       "build_hours": 16,
       "inspired_by": [],
-      "pitch": "An algorithmic generator of custom logical reasoning and math puzzles tailored for grades 9-12 difficulty curves in Python.",
+      "pitch": "A custom static analysis tool built in Python that evaluates student code submissions not just for correctness, but for algorithmic efficiency and style.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "NetworkX",
-        "Tkinter"
+        "AST module"
       ],
-      "title": "LogicPuzzleGenerator",
+      "title": "SyntaxScore Code Quality Linter",
       "track": "",
-      "why_it_could_win": "Solves the exact skill testing requirements emphasized in the St. Jude's Code Arena description."
+      "why_it_could_win": "Applies deeper software engineering principles to introductory competitive programming, appealing to rigorous judges."
     },
     {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A lightweight performance tracking dashboard for Python code submissions measuring time complexity and logical efficiency.",
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "An educational Python toolkit for visualizing binary operations, truth tables, and Boolean algebra for high school computer science curricula.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Pandas",
-        "Plotly"
+        "Tkinter"
       ],
-      "title": "CodeArenaAnalytics",
+      "title": "Bitwise Logic Playground",
       "track": "",
-      "why_it_could_win": "Provides deep technical insight into code performance, aligning with rigorous judging criteria for coding challenges."
+      "why_it_could_win": "Serves as an ideal teaching aid that fits comfortably within a short 24-48 hour solo development window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

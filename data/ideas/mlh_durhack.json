@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:55.195672+00:00",
+  "generated_at": "2026-09-21T08:11:08.151188+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:durhack",
@@ -14,89 +16,90 @@
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "A spatial-temporal forecasting tool using Poisson regression and geospatial mapping to predict structural maintenance risks for historical buildings in County Durham.",
+      "pitch": "AI-powered satellite and local sensor integration platform to monitor structural shifts, weathering, and environmental degradation of historical stone architecture in Durham.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "Leaflet.js"
+        "Next.js",
+        "Leaflet"
       ],
-      "title": "Durham Historic Infrastructure Risk Forecaster",
+      "title": "Durham Historic Fabric & Stone Monitoring Platform",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of combining rigorous predictive modeling with localized data, which appeals to judges looking for tangible real-world regional impact."
+      "why_it_could_win": "Adapts proven satellite monitoring and spatial intelligence patterns to local heritage conservation, appealing directly to regional preservation contexts in County Durham."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1275874285",
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "An autonomous AI agent platform that aggregates real-time student wearable metrics to dynamically adjust study schedules and trigger localized healthy meal deliveries.",
+      "pitch": "Predictive hydrological forecasting model using local river gauge telemetry to predict sudden flooding events threatening low-lying bridges and pathways in Durham.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "LangGraph",
-        "Python"
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "TailwindCSS"
       ],
-      "title": "Wearable-Integrated Student Stress & Nutrition Dispatcher",
+      "title": "Wearable River Flow & Flood Risk Estimator",
       "track": "",
-      "why_it_could_win": "Combines multi-agent workflow architecture with health data utility, reflecting the formula of previous winners focused on wellness and autonomous orchestration."
+      "why_it_could_win": "Leverages rigorous probabilistic forecasting and rolling backtests similar to winning AI forecasting projects, offering tangible utility for municipal safety."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "An automated risk-scoring and graph intelligence platform to trace research grant allocations and flag potential compliance violations or anomalies in real time.",
+      "pitch": "Multi-agent optimization platform designed to balance solar generation, battery storage, and peak heating loads across decentralized campus micro-grids.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "LangGraph",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "PostgreSQL"
       ],
-      "title": "Graph-Based Compliance & Anomaly Detector for University Grants",
+      "title": "Campus Green Energy Micro-Grid Dispatcher",
       "track": "",
-      "why_it_could_win": "Leans into hard engineering by utilizing graph intelligence and explainable machine learning models, mirroring the technical depth seen in previous AML and compliance winners."
+      "why_it_could_win": "Combines multi-agent orchestration frameworks with real-world sustainability metrics, mirroring the structure of winning green-tech platforms."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "A multi-agent AI system that simulates and optimizes campus energy grids, minimizing carbon footprints through automated predictive scheduling.",
+      "pitch": "Automated document analysis and graph-based auditing platform for student union treasurers to instantly surface compliance risks, unusual transactions, and event liabilities.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Gemini API",
-        "TailwindCSS"
+        "Next.js",
+        "Neo4j",
+        "LightGBM"
       ],
-      "title": "Eco-Campus Multi-Agent Resource Allocator",
+      "title": "Student Society Compliance & Risk Dashboard",
       "track": "",
-      "why_it_could_win": "Leverages the winning combination of multi-agent student support frameworks applied to sustainability challenges, matching the success criteria of green tech hackathons."
+      "why_it_could_win": "Applies enterprise graph intelligence and risk detection workflows to an everyday university administration pain point, guaranteeing immediate local relevance."
     },
     {
-      "build_hours": 27,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
+        "github:1241231621"
       ],
-      "pitch": "A no-code strategy builder and execution platform for synthetic student-led prediction markets and micro-perpetuals utilizing decentralized escrow.",
+      "pitch": "AI-driven professional networking and trust graph platform matching university alumni with current students based on nuanced project histories and career trajectories.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Python"
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "Prisma"
       ],
-      "title": "Micro-Perp Campus Prediction Market",
+      "title": "Collegiate Alum Trust & Mentorship Engine",
       "track": "",
-      "why_it_could_win": "Packs sophisticated financial logic and automated execution into an intuitive no-code interface, matching the grand prize-winning formula of trading platform simplifiers."
+      "why_it_could_win": "Directly targets the collegiate demographic with a polished trust and acquisition engine framework inspired by verified prize-winning prototypes."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

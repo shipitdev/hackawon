@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:00:31.993172+00:00",
+  "generated_at": "2026-09-21T08:31:35.239876+00:00",
   "grounding": {
     "domains": [
       "web3",
@@ -9,93 +9,97 @@
     "patterns": [
       "sponsor-tech"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752595",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:870537595",
-        "github:904021682"
-      ],
-      "pitch": "A gamified mini-app where players explore a virtual map of Manali, collecting tokenized local medicinal plants and completing conservation quests backed by smart contracts.",
+      "inspired_by": [],
+      "pitch": "A vision-based autonomous rover capable of traversing rough mountainous terrain to locate stranded trekkers and deliver emergency medical supplies.",
+      "problem_statement": "01. Vision-Based Autonomous Robot: Build an autonomous robot that uses an AI-powered vision system to understand its surroundings, identify relevant objects and people, and navigate autonomously.",
       "stack": [
-        "JavaScript",
-        "React",
-        "Solidity",
-        "TailwindCSS"
-      ],
-      "title": "Himalayan Herbalist Web3 Quest",
-      "track": "Web3 and Gaming",
-      "why_it_could_win": "Leverages the strong Web3 and gaming partner ecosystem mentioned in the hackathon brief, combining local flavor with blockchain transaction testing."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:928533631",
-        "github:1185920891"
-      ],
-      "pitch": "An AI-powered autonomous agent marketplace that allows hikers to securely hire decentralized guide services and pay via USDC escrow on Base.",
-      "stack": [
-        "TypeScript",
         "Python",
-        "Base",
-        "USDC"
+        "ROS2",
+        "OpenCV",
+        "YOLOv8",
+        "PyTorch"
       ],
-      "title": "Agentic Mountain Guide",
-      "track": "Web3 and Gaming",
-      "why_it_could_win": "Aligns with the rise of agentic workflows seen in recent hackathons while solving a practical problem for offline mountainous regions like Manali."
+      "title": "HimalayanRescueBot",
+      "track": "Vision-Based Autonomous Robot",
+      "why_it_could_win": "Judges at a physical offline event in Manali will be heavily impressed by a hardware-meets-AI prototype that solves an actual geographic problem relevant to the Himalayas, rather than a generic simulator."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:706794838"
+        "github:1183964401"
       ],
-      "pitch": "A mobile web platform tracking clean-up efforts on mountain trails, utilizing gamification and blockchain rewards to incentivize eco-friendly tourism.",
+      "pitch": "A fully onchain perpetual futures exchange featuring high-frequency funding rate updates calculated every block without any offchain relayers.",
+      "problem_statement": "02. Onchain Finance & Trading: Build a fully onchain financial product that leverages fast blockchain settlement to create innovative and transparent trading or lending markets.",
       "stack": [
-        "Dart",
-        "Blockchain",
-        "Flutter",
-        "Gamification"
+        "Solidity",
+        "Foundry",
+        "TypeScript",
+        "React",
+        "Next.js"
       ],
-      "title": "EcoTrail Gamified Waste Tracker",
-      "track": "",
-      "why_it_could_win": "Directly addresses sustainability in the Himalayas, capturing the attention of judges looking for real-world local impact."
+      "title": "PeakPerp",
+      "track": "Onchain Finance & Trading",
+      "why_it_could_win": "Leverages the core challenge requirement of completely eliminating centralized offchain infrastructure, appealing directly to technical DeFi judges looking for pure smart contract architecture."
     },
     {
-      "build_hours": 42,
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An undercollateralized lending protocol that evaluates user creditworthiness strictly based on verifiable onchain transaction history across multiple EVM chains.",
+      "problem_statement": "02. Onchain Finance & Trading: Build a fully onchain financial product that leverages fast blockchain settlement to create innovative and transparent trading or lending markets.",
+      "stack": [
+        "Solidity",
+        "Ethers.js",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "CredMountain",
+      "track": "Onchain Finance & Trading",
+      "why_it_could_win": "Solves one of the hardest practical problems in DeFi (undercollateralized lending) using transparent onchain analytics, making it a standout financial utility project."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An edge-computed vision-language navigation assistant for rescue drones that interprets complex mountain weather and terrain obstacles in real time.",
+      "problem_statement": "01. Vision-Based Autonomous Robot: Build an autonomous robot that uses an AI-powered vision system to understand its surroundings, identify relevant objects and people, and navigate autonomously toward a given objective.",
+      "stack": [
+        "Python",
+        "JetPack SDK",
+        "TensorRT",
+        "OpenCV"
+      ],
+      "title": "TrailFinderAI",
+      "track": "Vision-Based Autonomous Robot",
+      "why_it_could_win": "Combines cutting-edge vision-language models with embedded perception, directly addressing the sophisticated technical directions listed in the robotics problem statement."
+    },
+    {
+      "build_hours": 34,
       "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "An AI-powered no-code trading and strategy platform tailored for niche localized token economies and regional gaming assets.",
+      "pitch": "A fully onchain order book matching engine settling trades directly on every block with deterministic liquidity pools.",
+      "problem_statement": "02. Onchain Finance & Trading: Build a fully onchain financial product that leverages fast blockchain settlement to create innovative and transparent trading or lending markets.",
       "stack": [
-        "Python",
-        "TypeScript",
-        "React"
+        "Solidity",
+        "Hardhat",
+        "React",
+        "Wagmi"
       ],
-      "title": "PeakPulse Trading Bot for Mountain Assets",
-      "track": "Web3 and Gaming",
-      "why_it_could_win": "Translates high-performing automated trading bot architecture into a gamified, creative format suited for the hackathon's gaming and Web3 focus."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:904021682"
-      ],
-      "pitch": "A Web3 homebase application where builders and travelers can customize 3D avatars and virtual alpine cabins, exploring a metaverse centered around the Manali community.",
-      "stack": [
-        "TypeScript",
-        "Three.js",
-        "Metaverse",
-        "NFTs"
-      ],
-      "title": "Meta-Manali Virtual Homestay",
-      "track": "Web3 and Gaming",
-      "why_it_could_win": "Appeals directly to the Web3 creator track and provides an engaging, interactive demo for judges during the offline finale."
+      "title": "HimaBook",
+      "track": "Onchain Finance & Trading",
+      "why_it_could_win": "Addresses the specific challenge track requirement for onchain order books with matching and settlement handled natively onchain."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

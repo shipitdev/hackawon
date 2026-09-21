@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:06.270147+00:00",
+  "generated_at": "2026-09-21T08:12:20.180858+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackcbs-9-o",
@@ -14,82 +16,91 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1155558847",
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring and predictive forecasting platform for industrial and urban emissions in the National Capital Region.",
+      "pitch": "AI-powered satellite monitoring tool to audit industrial compliance and carbon footprint for manufacturing hubs in the National Capital Region.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Gemini API"
+        "TailwindCSS",
+        "Python",
+        "FastAPI"
       ],
-      "title": "DelhiSmog-ATLAS",
+      "title": "EcoAudit India",
       "track": "",
-      "why_it_could_win": "Leverages technical difficulty similar to GeoNex-ATLAS by combining geospatial data processing with predictive modeling, a high-value priority for local government and sustainability judges in New Delhi."
+      "why_it_could_win": "Adapts the proven architecture of GeoNex-ATLAS to address pressing local industrial pollution and regulatory monitoring challenges in New Delhi."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized nutritional wellness platform tailored specifically to traditional Indian regional diets and local grocery availability.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
+      ],
+      "title": "NutriLocal AI",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of E-Foodiee-AI-Nutrition-Assistant while targeting the hyper-localized dietary needs of judges and students in New Delhi."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "AML and credit risk detection platform utilizing graph intelligence and LightGBM tailored for micro-lending to agricultural cooperatives in Northern India.",
+      "pitch": "Graph-intelligence based AML and fraud risk detection platform for micro-transactions in campus and local peer-to-peer delivery networks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
+        "Node.js",
+        "Neo4j",
         "LightGBM"
       ],
-      "title": "AgriCredit-Risk",
+      "title": "DelhiGrid RiskEngine",
       "track": "",
-      "why_it_could_win": "Directly applies proven financial intelligence patterns from Bito to an underserved regional market, showcasing complex algorithmic engineering that catches judges' attention."
+      "why_it_could_win": "Brings the hardcore graph intelligence and risk-scoring depth seen in Bito into a practical local financial security use case."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Localized AI nutrition and wellness platform providing personalized meal recommendations based on traditional Indian dietary parameters and modern nutritional science.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "Next.js"
-      ],
-      "title": "AyushNutrition-AI",
-      "track": "",
-      "why_it_could_win": "Builds upon the success formula of E-Foodiee by targeting cultural familiarity and health personalization, appealing to consumer-focused judges."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-powered patient acquisition, verification, and trust engine optimized for multi-specialty dental and medical clinics across urban India.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "ClinicTrust-Engine",
-      "track": "",
-      "why_it_could_win": "Replicates the rapid execution strategy of Global-Smile, solving a concrete go-to-market problem for local medical businesses within a tight 35-hour timeframe."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent student support and campus sustainability platform combining LangGraph, RAG, and automated resource tracking for large Indian universities.",
+      "pitch": "Autonomous multi-agent student support and task delegation platform built with LangGraph to handle institutional queries and resource allocation.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LangGraph"
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
       ],
-      "title": "EcoCampus-Agents",
+      "title": "CampusCred Agent",
       "track": "",
-      "why_it_could_win": "Adapts the multi-agent architecture of the greennovation platform to address operational inefficiencies in large local educational campuses."
+      "why_it_could_win": "Replicates the multi-agent orchestration architecture of greennovation-ai-platform, highly appealing to hackathon organizers from academic institutions."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Poisson regression and GAM-based incident forecasting tool predicting urban congestion and public transit bottlenecks across New Delhi.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Plotly"
+      ],
+      "title": "DelhiPulse Forecaster",
+      "track": "",
+      "why_it_could_win": "Employs rigorous statistical modeling and calibrated prediction intervals proven successful in AI forecasting competitions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

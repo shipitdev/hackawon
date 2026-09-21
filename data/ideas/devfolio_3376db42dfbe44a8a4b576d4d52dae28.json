@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-20T07:52:53.664690+00:00",
+  "generated_at": "2026-09-21T08:08:26.449887+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
+      "impact",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:3376db42dfbe44a8a4b576d4d52dae28",
@@ -14,86 +17,90 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1181344931"
+        "github:1346526259"
       ],
-      "pitch": "An AML-style risk detection and fraud mitigation platform for local agricultural cooperatives in New Chandigarh, combining graph intelligence and LightGBM to trace supply chain bottlenecks and payment leaks.",
+      "pitch": "A direct-to-consumer AgriTech platform connecting small-scale farmers with local urban buyers, featuring real-time logistics and cooperative pricing.",
+      "problem_statement": "Addressing inefficiencies in agricultural supply chains and low profit margins for small farmers under the AgriTech track.",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "Next.js"
+        "React",
+        "Node.js",
+        "Supabase"
       ],
-      "title": "Punjab Agri-Supply Chain Graph Risk Engine",
-      "track": "",
-      "why_it_could_win": "Leverages heavy localized context relevant to regional judges and mirrors the high-complexity engineering pattern seen in Bito, focusing on graph-based risk identification."
+      "title": "AgriLink",
+      "track": "AgriTech",
+      "why_it_could_win": "Aligns with the AgriTech track and focuses on clear measurable economic impact for local farmers, a pattern seen in winning community-focused solutions."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "Automated satellite imagery monitoring tool tailored for local industrial development corporations to track unauthorized land use changes and zoning violations in real-time.",
+      "pitch": "An AI-powered multi-agent student support platform providing personalized study roadmaps and collaborative peer study group matching.",
+      "problem_statement": "Addressing learning gaps and collaboration barriers in higher education under the EdTech track.",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "PostGIS"
+        "LangChain",
+        "React"
       ],
-      "title": "Industrial Land Compliance Satellite Monitor",
-      "track": "",
-      "why_it_could_win": "Directly tackles industrial and regional governance pain points with a concrete utility that appeals heavily to local institutional judges."
+      "title": "PeerMentor AI",
+      "track": "EdTech",
+      "why_it_could_win": "Leverages a proven multi-agent student support architecture that previously won 1st place at an AI education hackathon."
     },
     {
-      "build_hours": 21,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1185920891",
-        "github:1213911408"
+        "github:1194555365"
       ],
-      "pitch": "An autonomous AI agent marketplace that ingests real civic problems submitted by local communities and automatically matches them with verified student developer teams using decentralized escrow milestones.",
+      "pitch": "An accessibility-focused HealthTech app that matches nearby elderly or mobility-impaired patients with vetted volunteer drivers for hospital visits.",
+      "problem_statement": "Tackling healthcare access and medical transportation barriers for vulnerable populations under the HealthTech track.",
       "stack": [
-        "JavaScript",
-        "LangGraph",
-        "Base",
-        "USDC"
+        "TypeScript",
+        "React Native",
+        "Firebase",
+        "Google Maps API"
       ],
-      "title": "Local Community Problem-Solution Autonomous Matchmaker",
-      "track": "",
-      "why_it_could_win": "Directly embodies the core tagline of the hackathon—bridging real problems and solutions—while demonstrating sophisticated multi-agent orchestration."
+      "title": "MedRoute",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly mirrors a grand prize-winning concept by delivering clear, quantifiable social good and an intuitive live-working prototype."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1087704265"
+        "github:1346526259"
       ],
-      "pitch": "A Poisson regression and GAM-powered forecasting tool designed for local municipal authorities to predict urban utility failures and emergency response incidents with calibrated 90% prediction intervals.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "Regional AI Incident & Resource Forecasting Dashboard",
-      "track": "",
-      "why_it_could_win": "Showcases genuinely rigorous statistical modeling and predictive analytics, matching the technical depth of the Apart Research AI Forecasting winner."
-    },
-    {
-      "build_hours": 19,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust-building platform tailored for independent healthcare clinics in New Chandigarh to manage community outreach, intake, and transparent trust metrics.",
+      "pitch": "An E-Commerce copilot that generates hyper-local marketing content and manages inventory predictions for small neighbourhood shops.",
+      "problem_statement": "Helping independent merchants compete with large online retailers under the E-Commerce track.",
       "stack": [
         "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
+        "React",
+        "TailwindCSS",
+        "Gemini API"
       ],
-      "title": "Trust Engine for Local Health Clinics",
-      "track": "",
-      "why_it_could_win": "Delivers a polished, production-ready product for a clear local business vertical, mirroring the rapid utility delivery seen in the Global-Smile win."
+      "title": "LocalCart AI",
+      "track": "E-Commerce",
+      "why_it_could_win": "Focuses on immediate economic utility for local vendors, utilizing an AI copilot workflow that heavily appeals to judges looking for real-world impact."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A community issue-reporting platform that uses AI to automatically categorize, prioritize, and route local civic problems to municipal authorities.",
+      "problem_statement": "Bridging the gap between citizens and local governance under the Open Theme track.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "CivicPulse",
+      "track": "Open Theme",
+      "why_it_could_win": "Employs an AI-driven triage workflow that solves a tangible civic problem, echoing winning formats from civic challenge hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

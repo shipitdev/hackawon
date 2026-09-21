@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:39:19.654317+00:00",
+  "generated_at": "2026-09-21T08:09:02.304704+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "theme_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:6bdbc3c089214f8082e257f72ddde1e2",
@@ -14,84 +16,91 @@
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A predictive modeling dashboard using Poisson regression to forecast foot-traffic congestion, security bottlenecks, and facility maintenance incidents across Chandigarh University's large campus.",
+      "pitch": "An augmented reality indoor navigation app built specifically for complex university buildings to help freshers and visitors find classes instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebXR",
+        "TailwindCSS"
+      ],
+      "title": "CampusNav-AR: Real-time Indoor Navigation for CU Campuses",
+      "track": "Grand Prize",
+      "why_it_could_win": "Addresses a massive localized pain point for Chandigarh University students, making it instantly relatable to on-site judges who navigate the campus daily."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered dashboard for university mess operators that forecasts student attendance and dietary preferences using historical data to minimize food waste.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "FastAPI",
         "React"
       ],
-      "title": "CampusPulse AI-Powered Incident Forecasting",
+      "title": "Mess-AI: Predictive Food Waste and Menu Optimization Platform",
       "track": "Grand Prize",
-      "why_it_could_win": "Leverages rigorous predictive modeling similar to the Apart Research AI Forecasting winner, appealing directly to judges looking for hard engineering over basic wrappers in a large-scale university hackathon."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition and operations assistant for university messes that matches student dietary goals with surplus food forecasting to reduce campus food waste.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "MessTrack AI Nutrition & Waste Optimizer",
-      "track": "Grand Prize",
-      "why_it_could_win": "Directly adapts the winning formula of the Mealzy 24-Hour Hackathon into a localized, highly practical real-world problem for a massive student body."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite monitoring tool tailored for university campus environmental compliance, tracking green cover and waste accumulation via geospatial AI models.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "TailwindCSS"
-      ],
-      "title": "GreenCU Satellite Industrial & Green Space Monitor",
-      "track": "Grand Prize",
-      "why_it_could_win": "Replicates the technical depth of the Xcelerate Hackathon runner-up by applying satellite imaging analysis to institutional sustainability."
+      "why_it_could_win": "Combines practical sustainability with operational cost-saving, a metric university administration and student judges deeply care about."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Multi-agent student support and peer-matching platform using LangGraph and RAG to dynamically route academic queries to senior student mentors.",
+      "pitch": "A localized evaluation pipeline that checks student code and project reports for both traditional plagiarism and complex AI-generated logic patterns.",
+      "problem_statement": "No published statement",
       "stack": [
+        "Python",
         "TypeScript",
-        "LangGraph",
-        "Next.js",
+        "LangChain",
         "PostgreSQL"
       ],
-      "title": "CU PeerTrust AI Student Support & Tutoring Mesh",
+      "title": "PeerProof: AI-Driven Plagiarism and AI-Content Shield for Student Submissions",
       "track": "Grand Prize",
-      "why_it_could_win": "Mirrors the architecture of the GreenNovation Hackathon winner, combining localized RAG with multi-agent workflows to solve a relatable university scaling issue."
+      "why_it_could_win": "Solves an urgent evaluation bottleneck faced by professors and student-led hackathons alike, leveraging advanced localized ML models."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous agent marketplace and escrow payment system tailored for hostel room-mate expense splitting and utility bill pooling using stablecoins.",
+      "pitch": "A geo-tagged reporting and dispatch platform that automates maintenance request routing for university hostels using priority-scoring algorithms.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "React"
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
       ],
-      "title": "HostelPay Autonomous USDC Escrow Splitter",
+      "title": "HostelMaint: Smart Ticketing and Resource Allocation for University Hostels",
       "track": "Grand Prize",
-      "why_it_could_win": "Implements the robust base-chain transaction workflow seen in the Synthesis Hackathon winner, demonstrating immediate utility for student-led financial coordination."
+      "why_it_could_win": "Directly targets everyday student life friction points with an immediately demoable dashboard and clear workflow execution."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An onboarding web app that analyzes developer portfolios and GitHub profiles to auto-assemble balanced hackathon teams based on complementary skill sets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "SkillSync CU: Automated Team Formation and Skill-Gap Analyzer",
+      "track": "Grand Prize",
+      "why_it_could_win": "Meta-hackathon utility that solves the exact problem faced by attendees at large-scale events like HackOphobia looking to form teams instantly."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

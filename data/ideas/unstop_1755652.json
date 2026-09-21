@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:58:23.151872+00:00",
+  "generated_at": "2026-09-21T08:34:25.689812+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1755652",
@@ -14,83 +16,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1213911408"
+        "github:1155558847"
       ],
-      "pitch": "An AI-powered startup pipeline and milestone tracking dashboard specifically built for RIDE incubation center to evaluate student venture metrics, growth velocity, and funding readiness.",
+      "pitch": "Automated satellite compliance monitoring platform for industrial zones to help early-stage ventures verify environmental standards for government grants.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
-        "LangGraph"
+        "Satellite APIs"
       ],
-      "title": "JIIT Campus Smart Incubator Tracker",
+      "title": "EcoAudit AI",
       "track": "",
-      "why_it_could_win": "Directly targets the core objective of the RIDE incubation center at JIIT Noida by providing them with a concrete operational tool to manage and scale their Rs 1 Crore funding pool pipeline."
+      "why_it_could_win": "Aligns directly with the incubation center's focus on scalable ventures with high economic and social impact, mirroring the success of GeoNex-ATLAS at Xcelerate."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Satellite and AI-driven agricultural land monitoring platform to verify crop health, land use compliance, and automate government agricultural subsidy claims for rural entrepreneurs.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "Gemini API"
-      ],
-      "title": "AgriYield AI-Land Compliance & Subsidy Monitor",
-      "track": "",
-      "why_it_could_win": "Leverages satellite monitoring and localized economic impact, which judges at institutional entrepreneurship events prioritize for regional scalability."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated compliance screening and graph-intelligence risk detection tool designed for early-stage student startups to pass due diligence before pitching to incubators like RIDE.",
+      "pitch": "Graph-intelligence and risk-scoring platform designed for early-stage fintech startups to pass compliance checks and attract incubation funding.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "LightGBM"
+        "LightGBM",
+        "Neo4j"
       ],
-      "title": "FinVenture AML Risk & Investor Matchmaker",
+      "title": "BioGraph AML",
       "track": "",
-      "why_it_could_win": "Demonstrates hard engineering through graph intelligence and risk scoring models, echoing technical depth seen in winning financial platform hackathon projects."
+      "why_it_could_win": "Employs genuinely hard graph intelligence and explainable risk scoring, which heavily impresses incubation judges looking for viable commercial tech."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "A localized AI nutrition and wellness formulation platform that helps student food-tech startups automate regulatory compliance, ingredient sourcing, and personalized market testing.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "OpenAI API"
-      ],
-      "title": "BioNutriScale Commercialization Engine",
-      "track": "",
-      "why_it_could_win": "Transforms a consumer health concept into a viable startup commercialization framework, directly appealing to incubator panels looking for scalable business ideas."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent platform that ties milestone completion of student incubator projects to automated milestone-based grant disbursements via smart contracts.",
+      "pitch": "Autonomous AI agent marketplace with secure milestone escrow payments tailored for regional agricultural supply chain startups.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "Python"
+        "USDC SDK",
+        "LangChain"
       ],
-      "title": "VentureEscrow Autonomous Grant Disburser",
+      "title": "AgriChain Escrow",
       "track": "",
-      "why_it_could_win": "Combines autonomous agents with financial escrow workflows, showcasing high technical utility for managing institutional startup funding transparently."
+      "why_it_could_win": "Demonstrates clear commercialization potential and immediate economic impact, which is the core evaluation metric for RIDE incubation centers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered patient acquisition and trust engine built specifically to help medical tech startups scale their clinical services.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "MediTrust Pro",
+      "track": "",
+      "why_it_could_win": "Directly targets the healthcare vertical with a productized business model, appealing to incubator judges who value rapid market validation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support and venture matchmaking platform connecting university innovators with funding resources and mentorship tracks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "CampusIncubate AI",
+      "track": "",
+      "why_it_could_win": "Solves the exact problem of university-level venture incubation by automating mentorship workflows and resource allocation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

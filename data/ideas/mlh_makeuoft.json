@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:38.259523+00:00",
+  "generated_at": "2026-09-21T08:14:48.643453+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:makeuoft",
@@ -20,83 +22,86 @@
       "inspired_by": [
         "github:1144331507"
       ],
-      "pitch": "An offline acoustic mesh network using walkie-talkies and audio frequency modulation to transmit emergency transit delay alerts between subway stations without cellular reception.",
+      "pitch": "An offline acoustic mesh network using walkie-talkies and audio modulation to transmit emergency alerts across dead zones on campus.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "hardware",
-        "radio",
-        "audio-processing"
+        "C++",
+        "Web Audio API",
+        "Hardware"
       ],
-      "title": "AcousticMesh Transit Alert",
+      "title": "CampusPulse Acoustic Mesh",
       "track": "",
-      "why_it_could_win": "Follows the proven hardware and offline communication pattern from ICHack where real radio and mesh implementations stand out dramatically against typical web apps."
+      "why_it_could_win": "Leverages the proven 'Unusual physical build' pattern from ICHack winners, standing out in a sea of standard web apps with real hardware integration."
     },
     {
-      "build_hours": 22,
+      "build_hours": 20,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline AI code review assistant running locally on a Raspberry Pi with an attached NPU accelerator to scan Python repositories without internet access.",
+      "pitch": "An offline developer tool that runs code reviews locally utilizing on-device hardware acceleration to maintain complete code privacy.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "npu",
-        "onnx-runtime",
-        "fastapi"
+        "ONNX Runtime",
+        "FastAPI"
       ],
-      "title": "EdgeNPU Code Reviewer",
+      "title": "NPU-Accelerated Local Code Reviewer",
       "track": "",
-      "why_it_could_win": "Leverages the offline hardware execution pattern proven at Qualcomm Snapdragon Multiverse Hackathon, appealing to judges who value privacy and local inference."
+      "why_it_could_win": "Follows the winning strategy of targeting developer tooling and offline execution for privacy-first enterprise use cases."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1010199928"
       ],
-      "pitch": "A robotic waste sorting bin powered by a live camera feed and a micro-controller that uses a fast local ML classification model to sort recyclables instantly.",
+      "pitch": "A smart recycling bin prototype driven by a camera and a lightweight classifier model that physically sorts waste into compost, recycling, and landfill.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Arduino",
         "OpenCV",
-        "TensorFlow-Lite"
+        "TensorFlow Lite"
       ],
-      "title": "SmartBin Vision Classifier",
+      "title": "Edge-AI Autonomous Trash Sorter",
       "track": "",
-      "why_it_could_win": "Directly mirrors the robotics and edge-AI computer vision pattern that won awards at TechnoMorph Hackathon by delivering an engaging live physical demo."
+      "why_it_could_win": "Combines physical robotics with working live demos, which consistently impress judges looking for tangible builds."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A small autonomous rover equipped with ultrasonic sensors and SLAM mapping to navigate indoor hallways and deliver small items between campus labs.",
+      "pitch": "A small-scale autonomous rover utilizing computer vision and ultrasonic sensors to navigate hallways and deliver small items between offices.",
+      "problem_statement": "No published statement",
       "stack": [
         "C++",
-        "ROS2",
-        "lidar",
-        "stm32"
+        "ROS",
+        "Raspberry Pi",
+        "Python"
       ],
-      "title": "Autonomous Campus Rover",
+      "title": "Autonomous Indoor Delivery Rover",
       "track": "",
-      "why_it_could_win": "Builds on the physical autonomous robotics winning strategy seen at International Hackathon Quanta, which always captivates judges during live judging walk-throughs."
+      "why_it_could_win": "Applies the hardware-focused winning pattern from international robotics hacks, proving robust autonomous navigation within tight timeframe constraints."
     },
     {
-      "build_hours": 27,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1284625256"
+        "github:1281918590"
       ],
-      "pitch": "A lightweight edge defense monitor that detects unauthorized drone radio frequencies and triggers a deterministic mechanical lockdown gate without relying on cloud connectivity.",
+      "pitch": "A custom-designed hardware timer circuit using a 555 timer and logic counters to retrofit dumb campus appliances with smart auto-shutoff capabilities.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "sdr",
-        "node-red",
-        "hardware-relay"
+        "KiCad",
+        "C",
+        "Embedded Hardware"
       ],
-      "title": "EdgeJam Counter-UAS Monitor",
+      "title": "Custom PCB Smart Appliance Timer",
       "track": "",
-      "why_it_could_win": "Adopts the robust edge-resilience and deterministic fail-safe engineering pattern that secured wins at the AWS Global Government Hackathon."
+      "why_it_could_win": "Shows genuine hardware engineering and circuit design, echoing the surprise wins of physical electronics projects at hardware-focused events."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

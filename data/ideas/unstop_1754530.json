@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:01:17.508989+00:00",
+  "generated_at": "2026-09-21T08:32:19.738202+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1754530",
@@ -15,90 +17,96 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265",
+        "github:1181344931"
       ],
-      "pitch": "A multi-agent autonomous system designed specifically for engineering colleges to handle complex institutional tasks like automated lab equipment scheduling, inter-departmental resource allocation, and grievance escalation via specialized collaborating AI agents.",
+      "pitch": "An agentic multi-agent system that monitors multi-source campus feeds, forecasts infrastructure risks, and autonomously orchestrates emergency response protocols.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "LangChain",
         "FastAPI",
-        "React",
-        "PostgreSQL"
+        "TypeScript",
+        "Next.js"
       ],
-      "title": "AgenticCampus: Autonomous Multi-Agent Academic Workflow & Resource Orchestrator",
+      "title": "Autonomous Campus Incident and Safety Intelligence Network",
       "track": "",
-      "why_it_could_win": "Targeted directly at Mahendra Engineering College judges by solving a relatable, highly practical administrative bottleneck using cutting-edge agentic workflows rather than simple wrappers."
+      "why_it_could_win": "Combines predictive forecasting models proven in winning AI governance hacks with real-time autonomous multi-agent execution, scoring high on technical implementation and practical campus impact."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized AI agent marketplace that autonomously negotiates, dispatches, and settles micro-tasks and computing jobs among student researchers using secure escrow.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Solidity",
+        "TypeScript",
+        "Base"
+      ],
+      "title": "Agentic Autonomous Marketplace for Academic & Research Compute",
+      "track": "",
+      "why_it_could_win": "Directly implements the autonomous agent marketplace architecture that won the Synthesis Hackathon, providing judges with a polished, end-to-end working economic loop."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An agentic AI monitoring system that ingests regional satellite feeds and IoT sensor data to autonomously detect agricultural stress, predict local yield drops, and trigger multi-agent mitigation advisory reports for local farming cooperatives.",
+      "pitch": "An autonomous agent that inspects campus and regional satellite imagery to track environmental changes, resource utilization, and regulatory land compliance.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "Gemini API",
-        "GeoPandas"
+        "OpenCV",
+        "PostGIS",
+        "React"
       ],
-      "title": "AgriGuard-Agents: Autonomous Vision & Satellite Monitoring for Regional Crop Health",
+      "title": "AI-Powered Institutional Compliance and Satellite Monitoring Agent",
       "track": "",
-      "why_it_could_win": "Combines high-impact regional relevance with advanced multi-agent spatial analysis, aligning strongly with the judging criteria of impact and relevance for regional development."
+      "why_it_could_win": "Mirrors the exact technical execution of the Xcelerate Hackathon runner-up by integrating computer vision and spatial data processing into an actionable monitoring product."
     },
     {
-      "build_hours": 40,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An agentic compliance officer that uses graph intelligence and explainable machine learning models to autonomously audit transaction streams and flag suspicious multi-hop financial patterns in real-time.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX",
-        "TailwindCSS"
-      ],
-      "title": "RiskLens-Agent: Explainable AML & Compliance Investigation Platform for Student Fintech Startups",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing graph intelligence and explainable ML, directly mirroring a proven first-place winning architecture from similar innovation hackathons."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An ensemble agentic framework that deploys specialized security reviewer agents to scan, simulate execution paths, and forecast zero-day logic vulnerabilities in student-submitted codebases before deployment.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Docker",
-        "Next.js"
-      ],
-      "title": "CodeAudit-Agent: Autonomous Multi-Agent Smart Contract & Vulnerability Forecaster",
-      "track": "",
-      "why_it_could_win": "Focuses on rigorous technical implementation and AI safety forecasting, appealing to judges looking for deep technical execution and robust agentic self-reflection loops."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621",
         "github:1200926140"
       ],
-      "pitch": "An agentic voice-and-text intake engine that communicates in regional dialects to verify patient symptoms, cross-reference medical history securely, and structure health data for overburdened rural medical practitioners.",
+      "pitch": "An agentic video intelligence tool that ingests unstructured lecture recordings, transcribes and indexes semantic concepts, and provides instant deep-searchable knowledge retrieval.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Next.js",
+        "Python",
+        "HTML",
+        "OpenAI API",
+        "VectorDB",
+        "TailwindCSS"
+      ],
+      "title": "Multimodal Video Intelligence Platform for Lecture & Archive Search",
+      "track": "",
+      "why_it_could_win": "Replicates the winning formula of the Data & Design Hackathon by converting messy unstructured data into an immediately useful productivity tool for educational institutions."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI agent platform tailored for college students that aggregates mess hall menus and local food options to deliver real-time personalized nutrition tracking and wellness coaching.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
         "Gemini API",
-        "Web Speech API",
+        "Pandas",
         "SQLite"
       ],
-      "title": "MedTrust-Agent: Autonomous Patient Intake & Clinical Verification Engine for Rural Clinics",
+      "title": "Agentic Personalized Campus Wellness and Nutrition Architect",
       "track": "",
-      "why_it_could_win": "Solves a critical localized healthcare accessibility problem with high social impact, matching the evaluation criteria for real-world usability and high-value presentation."
+      "why_it_could_win": "Leverages the proven high-engagement concept of the Hour Hackathon winner, focusing on immediate usability, high aesthetic polish, and direct relevance to student life."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:25.598506+00:00",
+  "generated_at": "2026-09-21T08:13:36.380731+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hacktx-26",
   "ideas": [
     {
-      "build_hours": 26,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "A localized energy grid strain forecasting tool using Poisson regression and historical ERCOT data to predict peak load incidents and price volatility in Austin.",
+      "pitch": "Real-time municipal energy anomaly and outage prediction platform using localized sensor data.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "Pandas"
+        "TailwindCSS"
       ],
-      "title": "Austin Grid Load Forecaster",
+      "title": "Austin GridWatch",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of hard engineering and predictive modeling from the AI forecasting hackathon, highly relevant to local Austin judges."
+      "why_it_could_win": "Addresses critical local infrastructure concerns relevant to Austin, making the demo immediately tangible and appealing to local judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1185920891"
+        "github:1155558847"
       ],
-      "pitch": "An autonomous AI agent marketplace for local Austin food trucks and small businesses with automated USDC escrow payments.",
+      "pitch": "CapMetro crowd-sourced bus delay forecasting and alternative route optimization engine.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Mapbox"
       ],
-      "title": "ATX Local Merchant Escrow Market",
+      "title": "AustinTransitFlow",
       "track": "",
-      "why_it_could_win": " Leverages the autonomous agent and escrow payment architecture that won the Synthesis Hackathon."
+      "why_it_could_win": "Solves a hyper-local daily friction point for everyone attending a hackathon in Austin, ensuring instant judge buy-in during live demos."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Automated compliance monitoring platform for Texas water permit filings using document extraction and RAG.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "TypeScript",
+        "PostgreSQL"
+      ],
+      "title": "TxStreamAI",
+      "track": "",
+      "why_it_could_win": "Tackles a complex, niche regulatory domain that demonstrates genuine technical depth rather than a simple wrapper."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite and aerial land monitoring platform to track environmental compliance for construction sites in Austin.",
+      "pitch": "Computer vision pipeline for early detection of invasive plant species in local Texas state parks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Satellite-API",
         "Python",
+        "PyTorch",
+        "TypeScript",
         "React"
       ],
-      "title": "Austin GreenSite Compliance Monitor",
+      "title": "HillCountryBioDetect",
       "track": "",
-      "why_it_could_win": "Mirrors the runner-up winner at the Xcelerate Hackathon by combining geospatial data with automated compliance checks."
+      "why_it_could_win": "Combines environmental utility with a clean mobile-friendly frontend, hitting the sweet spot for rapid prototyping and impactful visuals."
     },
     {
-      "build_hours": 25,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1213911408"
+        "github:1275874285"
       ],
-      "pitch": "A personalized multi-agent student support platform tailored specifically for university curriculum navigation using LangGraph and RAG.",
+      "pitch": "Audio feature clustering platform that recommends emerging Austin local bands based on venue attendance and Spotify metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "RAG",
-        "Next.js"
-      ],
-      "title": "UT Austin Student Multi-Agent Support",
-      "track": "",
-      "why_it_could_win": "Directly replicates the 1st place GreenNovation Hackathon architecture using specialized multi-agent student support frameworks."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust engine specifically built for local specialty health and wellness clinics in Austin.",
-      "stack": [
-        "TypeScript",
-        "Gemini-API",
         "Next.js",
-        "Tailwind"
+        "Python",
+        "Spotify API"
       ],
-      "title": "Austin Health Trust & Patient Engine",
+      "title": "ATXMusicScout",
       "track": "",
-      "why_it_could_win": "Applies the proven 1st prize-winning blueprint from the Prize Hackathon for localized health trust and acquisition workflows."
+      "why_it_could_win": "Leans heavily into Austin's cultural identity as the Live Music Capital of the World, creating an engaging and memorable presentation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:59:56.399553+00:00",
+  "generated_at": "2026-09-21T08:30:17.510395+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,97 +7,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1751477",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1155558847"
-      ],
-      "pitch": "An offline-first, mobile-friendly crop disease and soil health monitoring platform built specifically for local agricultural conditions in Bihar, utilizing image classification models optimized for low-bandwidth devices.",
-      "stack": [
-        "Python",
-        "TensorFlow Lite",
-        "React Native",
-        "FastAPI"
-      ],
-      "title": "Araria FarmGuard AI",
-      "track": "agriculture",
-      "why_it_could_win": "Directly targets the agriculture domain highlighted by the engineering college organizers while solving a hyper-local economic problem."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "Real-time crop disease and nutrient deficiency detection mobile web app optimized for rural Indian farmers with low-bandwidth offline caching.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "TensorFlow Lite"
+      ],
+      "title": "AgriVision AI",
+      "track": "agriculture",
+      "why_it_could_win": "Directly targets local agricultural challenges in Bihar region relevant to the host engineering college's community context."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A localized, multi-lingual voice-to-text educational assistant designed for rural students to access curriculum help in regional languages like Maithili and Hindi without needing high-end hardware.",
+      "pitch": "Multilingual AI assistant via voice interface for rural citizens to navigate and apply for state and central government welfare schemes.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "OpenAI Whisper API",
-        "TailwindCSS"
+        "OpenAI Whisper",
+        "LangChain"
       ],
-      "title": "Gram Shiksha Renu",
-      "track": "education",
-      "why_it_could_win": "Addresses the education domain focus of the hackathon with a strong social impact angle that appeals to local academic judges."
+      "title": "GramSathi",
+      "track": "society",
+      "why_it_could_win": "Combines RAG with local Indian language audio processing, solving a major societal deployment friction point."
     },
     {
       "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
-      ],
-      "pitch": "A low-cost IoT sensor data aggregator combined with a predictive machine learning model to forecast local water level anomalies and alert community stakeholders via SMS.",
-      "stack": [
-        "Python",
-        "Scikit-Learn",
-        "Node.js",
-        "MQTT"
-      ],
-      "title": "Kosi River Flood Early Warning Node",
-      "track": "sustainability",
-      "why_it_could_win": "Leverages difficult engineering (predictive forecasting and hardware-software integration) addressing regional disaster management relevant to Araria."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1181344931"
-      ],
-      "pitch": "An offline-capable patient symptom triage and electronic health record manager tailored for primary health centers in rural Bihar.",
+      "inspired_by": [],
+      "pitch": "Offline-first electronic health record sync tool for rural primary health centers using local P2P mesh networking when internet fails.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
         "IndexedDB",
-        "Node.js"
+        "WebRTC"
       ],
-      "title": "Swasthya Setu Rural Health Triage",
+      "title": "SwasthyaConnect",
       "track": "healthcare",
-      "why_it_could_win": "Aligns tightly with the healthcare domain priority and solves a practical deployment challenge for resource-constrained environments."
+      "why_it_could_win": "Solves genuine hard engineering constraints of low connectivity in rural healthcare deployment scenarios."
     },
     {
-      "build_hours": 36,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1181344931",
-        "github:1185920891"
+        "github:1241231621"
       ],
-      "pitch": "An alternative credit scoring prototype for local artisans and small shop owners using digital transaction histories and micro-behavioral data.",
+      "pitch": "Adaptive vocational training roadmap generator that matches local student skillsets with micro-entrepreneurship opportunities in rural areas.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Pandas",
-        "Streamlit",
-        "PostgreSQL"
+        "Flask",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "BazaarLink MSME Credit Scorer",
-      "track": "entrepreneurship",
-      "why_it_could_win": "Targets the entrepreneurship domain by providing a tangible financial inclusion tool that resonates with state-level economic development goals."
+      "title": "SkillPath AI",
+      "track": "education",
+      "why_it_could_win": "Addresses local economic development and entrepreneurship tracks with actionable, hyper-localized career pathways."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite imagery and IoT sensor fusion dashboard to monitor brick kiln emissions and local groundwater table depletion.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Leaflet.js",
+        "Python",
+        "GeoPandas"
+      ],
+      "title": "EcoAudit Bihar",
+      "track": "sustainability",
+      "why_it_could_win": "Leverages satellite monitoring data visually, replicating the impactful geo-spatial approach seen in successful regional hackathon winners."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-16T07:50:38.792477+00:00",
+  "generated_at": "2026-09-21T08:20:21.816376+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1742848",
@@ -14,92 +18,96 @@
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1181344931",
-        "github:1155558847"
+        "github:1170846981"
       ],
-      "pitch": "A graph intelligence and risk detection platform built to trace agricultural supply chains, detect price manipulation, and flag fraudulent intermediary networks for Indian Farmer Producer Organizations (FPOs).",
+      "pitch": "A multilingual voice-first AI assistant designed for rural and semi-urban communities to access preventive healthcare, vaccination trackers, and real-time regional outbreak alerts.",
+      "problem_statement": "Build for Bharat 2.0: National-level challenge focusing on building practical, scalable, and impactful solutions for real-world national challenges using technology.",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "Neo4j",
-        "Next.js"
-      ],
-      "title": "KrishiGraph: AI-Powered Supply Chain AML & Price Risk Detection for Farmer Producer Organizations",
-      "track": "",
-      "why_it_could_win": "Leverages advanced graph intelligence and localized risk detection modeled after winning financial and compliance platforms like Bito, directly addressing the massive Indian agritech market focus of Build for Bharat."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered patient onboarding and clinical trust platform tailored for rural Indian healthcare providers, supporting vernacular voice inputs, automated intake triage, and regional medical compliance.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
         "Next.js",
-        "TailwindCSS"
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "LLM APIs"
       ],
-      "title": "BhashaArogya: Multilingual AI Patient Acquisition and Trust Engine for Rural Clinics",
+      "title": "ArogyaVani: Multilingual Rural Health and Outbreak Watch",
       "track": "",
-      "why_it_could_win": "Directly adapts the winning formula of the Global-Smile patient acquisition engine for the unique vernacular and accessibility requirements of rural Indian healthcare markets."
+      "why_it_could_win": "Directly tackles large-scale socio-economic and public health needs in India with a working multilingual approach, proven successful in SAGACITY."
     },
     {
       "build_hours": 34,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An automated satellite monitoring tool that detects unauthorized industrial land expansion, deforestation, and environmental regulatory violations across major Indian industrial zones using geospatial vector data.",
+      "pitch": "An AI-powered geospatial monitoring platform that processes satellite imagery to track industrial land changes, illegal encroachment, and agricultural health across Indian districts.",
+      "problem_statement": "Build for Bharat 2.0: National-level challenge focusing on building practical, scalable, and impactful solutions for real-world national challenges using technology.",
       "stack": [
         "TypeScript",
         "Python",
-        "Sentinel Hub API",
         "Leaflet.js",
-        "PostGIS"
+        "PyTorch",
+        "SentinelHub API"
       ],
-      "title": "SatEnviro-Compliance: Satellite-Powered Environmental Monitoring for Industrial Corridors in India",
+      "title": "BhoomiSat: AI Satellite Monitoring for Agricultural and Land Compliance",
       "track": "",
-      "why_it_could_win": "Replicates the hard engineering and high-impact industrial compliance monitoring demonstrated by GeoNex-ATLAS, targeting pressing environmental governance challenges in India."
+      "why_it_could_win": "Leverages advanced satellite image processing to solve real national governance and compliance monitoring problems with concrete visual demo potential."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265",
         "github:1213911408"
       ],
-      "pitch": "A predictive modeling platform utilizing Poisson regression and multi-agent AI orchestration to forecast localized crop failures, pest outbreaks, and yield volatility for regional agricultural co-ops in India.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "LangGraph",
-        "Scikit-Learn"
-      ],
-      "title": "KrishiYield: Multi-Agent Micro-Weather and Crop Risk Forecasting Platform",
-      "track": "",
-      "why_it_could_win": "Combines rigorous predictive statistical modeling and multi-agent student support architectures seen in top-tier forecasting and AI hackathon winners."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408",
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous multi-agent platform that parses municipal and central government welfare schemes, maps them automatically to citizen eligibility profiles, and streamlines grievance tracking with verifiable status updates.",
+      "pitch": "An AI-powered multi-agent student support and doubt-resolution platform utilizing RAG and specialized agents to tailor educational content for Tier-2 and Tier-3 Indian students.",
+      "problem_statement": "Build for Bharat 2.0: National-level challenge focusing on building practical, scalable, and impactful solutions for real-world national challenges using technology.",
       "stack": [
         "TypeScript",
+        "LangGraph",
         "Python",
-        "LangChain",
-        "PostgreSQL",
+        "ChromaDB",
+        "Next.js"
+      ],
+      "title": "SikshaAgent: Multi-Agent Adaptive Learning and Student Support",
+      "track": "",
+      "why_it_could_win": "Addresses critical educational scalability gaps with advanced agentic workflows and localized knowledge retrieval frameworks."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An advanced AML and financial risk detection platform that combines graph intelligence and explainable machine learning models to detect fraudulent transactions in real time.",
+      "problem_statement": "Build for Bharat 2.0: National-level challenge focusing on building practical, scalable, and impactful solutions for real-world national challenges using technology.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LightGBM",
+        "NetworkX",
         "FastAPI"
       ],
-      "title": "JanSahayak: Autonomous Multi-Agent Grievance Redressal and Scheme Matching Platform",
+      "title": "SAS-RiskView: Automated Financial AML and Compliance Intelligence",
       "track": "",
-      "why_it_could_win": "Directly targets national governance and public service delivery—the core mandate of a flagship 'Build for Bharat' hackathon—using proven multi-agent RAG patterns."
+      "why_it_could_win": "Integrates directly with enterprise analytics paradigms and addresses critical banking fraud problems with high economic impact."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An interactive clinical training simulator featuring an AI patient evaluated on a structured 6-dimension rubric, combined with computer vision pose estimation for real-time CPR feedback.",
+      "problem_statement": "Build for Bharat 2.0: National-level challenge focusing on building practical, scalable, and impactful solutions for real-world national challenges using technology.",
+      "stack": [
+        "TypeScript",
+        "MediaPipe",
+        "Next.js",
+        "Python",
+        "WebSockets"
+      ],
+      "title": "MediTrain: AI Clinical Interview and Emergency Care Simulator",
+      "track": "",
+      "why_it_could_win": "Combines multimodal inputs (speech, vision) into a robust, highly demonstrable prototype that directly improves medical education readiness."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

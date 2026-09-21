@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:47.028995+00:00",
+  "generated_at": "2026-09-21T08:12:56.024357+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hacklanta",
@@ -14,88 +16,93 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "A predictive spatial-temporal modeling platform that forecasts traffic congestion hotspots and vehicular emissions across Atlanta corridors using Poisson regression and mobility data.",
+      "pitch": "A predictive model leveraging Poisson regression and historical Georgia Department of Transportation data to forecast traffic congestion hot spots and accident risks across Atlanta corridors.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Poisson-Regression",
-        "Streamlit"
+        "Pandas",
+        "Scikit-Learn",
+        "FastAPI"
       ],
-      "title": "Atlanta Traffic Flow and Emissions Forecasting Engine",
+      "title": "Atlanta Traffic Flow Forecaster",
       "track": "",
-      "why_it_could_win": "Follows the exact engineering pattern of AI incident forecasting winners by utilizing robust statistical modeling rather than generic wrappers, appealing to local municipal stakeholders."
+      "why_it_could_win": "Demonstrates genuinely hard engineering through statistical modeling and time-series forecasting, mirroring the rigorous data science approach of top-winning projects."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "An investigative graph intelligence platform for Atlanta public transit security teams to map, detect, and explain anomalous incident patterns across MARTA rail and bus networks.",
+      "pitch": "An automated satellite and street-level monitoring tool designed for Atlanta urban planning to detect environmental violations and unauthorized industrial runoff near the BeltLine.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "NetworkX",
-        "LightGBM",
-        "Next.js"
+        "Next.js",
+        "Python",
+        "OpenCV",
+        "PostGIS"
       ],
-      "title": "MARTA Transit Safety and Risk Graph Analyzer",
+      "title": "BeltLine Eco-Compliance Monitor",
       "track": "",
-      "why_it_could_win": "Leverages graph intelligence and explainable analytics, replicating the winning formula of complex AML and risk detection platforms."
+      "why_it_could_win": "Brings high visual impact through spatial data processing and addresses a hyper-local civic problem specific to Atlanta geography."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous AI agent marketplace tailored for local Atlanta courier networks, featuring secure USDC escrow payments settled instantly on Base.",
+      "pitch": "An enterprise risk detection and investigation platform tailored for Georgia logistics hubs, combining graph intelligence and gradient boosting to flag fraudulent freight invoices.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity"
+        "TypeScript",
+        "LightGBM",
+        "NetworkX",
+        "TailwindCSS"
       ],
-      "title": "PeachState Autonomous Logistics Escrow",
+      "title": "PeachState SupplyChain AML & Fraud Shield",
       "track": "",
-      "why_it_could_win": "Directly applies the proven autonomous marketplace and blockchain escrow winning pattern to regional last-mile delivery use cases."
+      "why_it_could_win": "Leverages complex graph analytics and explainable machine learning which consistently scores high with technical judges looking for enterprise utility."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1185920891"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform that sources ingredients from local Atlanta community gardens and farmers markets to deliver hyper-personalized meal plans.",
+      "pitch": "An autonomous AI agent marketplace facilitating micro-transactions and secure escrow payments via USDC for local Atlanta artisans and farmers markets.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Gemini-API",
-        "FastAPI",
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity",
         "React"
       ],
-      "title": "Atlanta Urban Agriculture and Nutrition Planner",
+      "title": "ATL Local Vendor Autonomous Escrow",
       "track": "",
-      "why_it_could_win": "Builds upon the prize-winning nutrition assistant architecture while tying it directly into Atlanta's local food equity and urban agriculture initiatives."
+      "why_it_could_win": "Combines practical web3 payment rails with tangible real-world commerce utility for the local Atlanta economy."
     },
     {
-      "build_hours": 40,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1213911408"
+        "github:1275874285"
       ],
-      "pitch": "A multi-agent student support and campus resource platform designed for Georgia universities to optimize energy consumption, waste reduction, and sustainability tracking.",
+      "pitch": "An AI-powered nutrition assistant customized for Southern dietary preferences that delivers personalized meal recommendations and cardiometabolic health insights.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "OpenAI",
-        "Next.js"
+        "Python",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "GreenNovate Georgia Campus Sustainability Multi-Agent Hub",
+      "title": "Southern Comfort Meal Planner",
       "track": "",
-      "why_it_could_win": "Combines LangGraph and RAG workflows mirroring multi-agent hackathon champions, tailored specifically for local university sustainability offices."
+      "why_it_could_win": "Appeals directly to local cultural context while delivering a polished, user-ready consumer application that demos exceptionally well."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

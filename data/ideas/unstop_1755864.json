@@ -1,100 +1,109 @@
 {
-  "generated_at": "2026-09-16T07:50:59.917156+00:00",
+  "generated_at": "2026-09-21T08:34:43.704306+00:00",
   "grounding": {
     "domains": [
       "healthtech"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "impact",
-      "working-demo"
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755864",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1353074073"
-      ],
-      "pitch": "An offline-first decision support tool for tracking and optimizing drug-resistant tuberculosis drug repurposing shortlists using localized genomic mutation markers.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Streamlit",
-        "Biopython"
-      ],
-      "title": "TB-Guard AI",
-      "track": "Precision Biotherapeutics & Drug Discovery",
-      "why_it_could_win": "Directly targets problem statement BB-PB-01 under Precision Biotherapeutics and Drug Discovery, offering judges an immediate, practical tool for urgent clinical needs."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "A lightweight web viewer for protein structures that highlights potential binding sites and flags mutations prone to drug resistance.",
+      "pitch": "A Python and Streamlit-based web tool to rapidly repurpose and filter drug combinations for drug-resistant tuberculosis based on chemical property matching.",
+      "problem_statement": "BB-PB-01 Repurposing shortlist for drug-resistant TB",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Three.js",
-        "BioPython"
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "RDKit"
       ],
-      "title": "FoldExplorer Lite",
+      "title": "TB-Shortlist Navigator",
       "track": "Precision Biotherapeutics & Drug Discovery",
-      "why_it_could_win": "Directly addresses problem statement BB-PB-02 with a working visual interface that bioinformatics judges can test live during judging."
+      "why_it_could_win": "Addresses a specific therapeutic problem statement directly with a clean, working web demo that biomedical judges can test live."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1185527998"
+        "github:1182199849"
       ],
-      "pitch": "An IoT and mobile dashboard simulator that tracks temperature breaches and predicts spoilage risk for biologics and vaccines in last-mile transit.",
+      "pitch": "A lightweight web app providing 3D protein structure visualization and binding-site inspection using browser-side rendering libraries.",
+      "problem_statement": "BB-PB-02 Protein structure and binding-site explorer",
       "stack": [
-        "React Native",
-        "Node.js",
-        "Python",
-        "MQTT"
+        "JavaScript",
+        "Three.js",
+        "Bio.js",
+        "TailwindCSS"
       ],
-      "title": "ColdChain Sentinel",
+      "title": "PocketBind Explorer",
       "track": "Precision Biotherapeutics & Drug Discovery",
-      "why_it_could_win": "Directly maps to problem statement BB-PB-03, emphasizing measurable economic and health impact by preventing vaccine degradation."
+      "why_it_could_win": "Delivers an interactive 3D visualization demo on the web, standing out against generic slides through real-time structural rendering."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A prototype hardware and cloud telemetry system monitoring temperature fluctuations for last-mile biologic and vaccine cold chains.",
+      "problem_statement": "BB-PB-03 Last-mile cold chain integrity for biologics",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "Node-RED"
+      ],
+      "title": "ColdChain Guard IoT",
+      "track": "Precision Biotherapeutics & Drug Discovery",
+      "why_it_could_win": "Features an unusual physical build using real sensors and edge telemetry, ensuring it stands out in a room full of standard web applications."
     },
     {
       "build_hours": 28,
       "inspired_by": [
         "github:1185527998"
       ],
-      "pitch": "An agricultural biotechnology app that analyzes leaf microbiome profiles via image uploads to recommend targeted bio-pesticides.",
+      "pitch": "A smartphone-based computer vision tool using fingernail bed color analysis to screen for non-invasive anaemia indicators.",
+      "problem_statement": "BB-DM-01 Non-invasive anaemia screening",
       "stack": [
         "Python",
         "OpenCV",
         "Flask",
-        "TailwindCSS"
+        "React"
       ],
-      "title": "AgriBio YieldGuard",
-      "track": "",
-      "why_it_could_win": "Aligns with the agricultural biotechnology theme, offering a highly practical tool for local farmers with a live image-upload demonstration."
+      "title": "AnemiaVision",
+      "track": "Diagnostics & Medical Devices",
+      "why_it_could_win": "Solves an urgent primary-care screening need with a camera-based pipeline that judges can test instantly on their own devices."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1275874285"
+        "github:1185527998"
       ],
-      "pitch": "A monitoring dashboard for environmental biotechnology plants optimizing microbial consortium ratios for industrial wastewater treatment.",
+      "pitch": "A mobile-friendly field-testing log and rapid optical analysis assistant for identifying water-borne pathogens from microscope images.",
+      "problem_statement": "BB-DM-02 Field test for water-borne pathogens",
       "stack": [
         "TypeScript",
         "React",
-        "Python",
-        "Pandas"
+        "OpenCV.js",
+        "Firebase"
       ],
-      "title": "EnviroDigest AI",
-      "track": "",
-      "why_it_could_win": "Appeals to the environmental biotechnology domain by demonstrating concrete economic and ecological efficiency gains through real-time sensor data simulation."
+      "title": "PathoField Kit",
+      "track": "Diagnostics & Medical Devices",
+      "why_it_could_win": "Targets an acute rural health challenge with a practical, field-ready mobile web interface that executes reliably during judging."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

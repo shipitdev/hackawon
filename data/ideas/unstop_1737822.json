@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:27.805936+00:00",
+  "generated_at": "2026-09-21T08:19:05.368984+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -12,92 +12,98 @@
       "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1737822",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A smart school administration and attendance integration tool inspired by Code-X-Novas's own product ecosystem, combining smart attendance logging with real-time student sentiment feedback loops.",
+      "inspired_by": [],
+      "pitch": "A smart attendance and administrative dashboard extension compatible with large school networks, providing real-time analytics and anomaly detection for student engagement.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
+        "Next.js",
+        "TailwindCSS",
         "Node.js",
         "PostgreSQL"
       ],
-      "title": "VidyaOS Automated Attendance and Feedback Intelligence",
+      "title": "VidyaOS Automated Institutional Attendance & Analytics Bridge",
       "track": "",
-      "why_it_could_win": "Code-X-Novas organizes the hackathon and focuses heavily on education technology platforms like VidyaOS 360 and SAS 360; aligning the project directly with their core business domain provides an immediate strategic advantage with judges."
+      "why_it_could_win": "Code-X-Novas organises the hackathon and explicitly builds educational tech like VidyaOS 360 and SAS 360 for school networks; aligning your project with their existing ecosystem interests maximizes appeal to the organizers."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1282252864"
+        "github:1213911408"
       ],
-      "pitch": "A visual workflow orchestration engine that monitors automated school administrative processes and flags compliance and operational risks before deployment across institutional networks.",
+      "pitch": "An AI-powered multi-agent tutoring platform tailored for school curricula, combining LangGraph and vector search to assist teachers with personalized student support.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "ai-agents",
-        "bpmn",
+        "LangGraph",
+        "OpenAI API",
         "FastAPI"
       ],
-      "title": "BPMN-Orchestrated EdTech Risk Workflow",
+      "title": "EdTech Multi-Agent Student Support & RAG Copilot",
       "track": "",
-      "why_it_could_win": "Mirrors the architectural rigor of UiPath AgentHack winners by using BPMN orchestration for practical enterprise and institutional risk management."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "A training-free semantic router that classifies student and institutional support queries, routing them to appropriate automated workflows while self-improving via LLM-judge feedback loops.",
-      "stack": [
-        "Python",
-        "qwen",
-        "semantic-router",
-        "superlinked"
-      ],
-      "title": "Self-Improving Semantic Routing for EdTech Support",
-      "track": "",
-      "why_it_could_win": "Adapts the proven architecture of the Superlinked x Qwen Hackathon winner into the educational domain, demonstrating hard engineering in routing and prompt optimization."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two specialized business intelligence agents simulating client-vendor negotiations over service-level agreements to stress-test enterprise contracts before human deployment.",
-      "stack": [
-        "Python",
-        "adversarial-ai",
-        "LLM",
-        "FastAPI"
-      ],
-      "title": "Adversarial Business Intelligence Negotiation Agent",
-      "track": "",
-      "why_it_could_win": "Uses the complex multi-agent adversarial dynamic seen in the Datadog Self-Improving Agents Hack winner, showcasing advanced autonomous agent behavior."
+      "why_it_could_win": "Follows the exact architecture of a proven 1st place winner by incorporating multi-agent orchestration and localized RAG to tackle educational workflows."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1296916648"
+        "github:1334000568"
       ],
-      "pitch": "A local developer tool that reviews student codebase submissions for security flaws and performance bottlenecks completely offline using hardware-accelerated NPUs.",
+      "pitch": "A semantic routing engine that classifies incoming customer feedback and business intelligence data, routing them to the correct department with zero-shot classification.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ONNX",
-        "LLM",
-        "Local NPU SDK"
+        "FastAPI",
+        "Transformers",
+        "Semantic Router",
+        "React"
       ],
-      "title": "Offline-First NPU Code Reviewer for Student Projects",
+      "title": "FeedbackLoop: Automated Business Intelligence & Customer Sentiment Router",
       "track": "",
-      "why_it_could_win": "Follows the hardware-adjacent, local-first utility pattern of the Qualcomm Snapdragon Multiverse runner-up, focusing on practical developer tooling."
+      "why_it_could_win": "Leverages a training-free semantic router pattern that drastically cuts down LLM inference costs while maintaining high accuracy, appealing to judges looking for engineering efficiency."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual BPMN workflow tool that evaluates automated client services and AI integrations for risk and regulatory compliance before deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "BPMN.io",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "WorkflowAudit: BPMN-Orchestrated Risk and Compliance Scanner for AI Solutions",
+      "track": "",
+      "why_it_could_win": "Employs a BPMN-orchestrated architecture that aligns with enterprise automation and AI risk governance, making it highly relevant to a company delivering digital solutions for businesses."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An audio-to-insight tool that processes parent-teacher meetings, extracts actionable action items, and populates institutional management systems securely.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "FastAPI",
+        "React"
+      ],
+      "title": "EduVoice: Automated Teacher-Parent Engagement and Feedback Summarizer",
+      "track": "",
+      "why_it_could_win": "Targets real operational bottlenecks in educational institutions, demonstrating a working demo that saves administrators hours of manual documentation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

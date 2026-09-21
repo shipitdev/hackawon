@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:26.060955+00:00",
+  "generated_at": "2026-09-21T08:16:50.094958+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -11,96 +11,102 @@
       "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1677311",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
         "github:985196561"
       ],
-      "pitch": "An autonomous NGINX and Linux audit log analysis dashboard tailored for enterprise threat detection, featuring real-time anomaly detection and automated incident response workflows.",
+      "pitch": "An AI-powered NGINX log analysis and anomaly detection dashboard tailored for secure campus and enterprise networks.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "FastAPI",
         "Gemini",
         "Next.js",
-        "Nginx"
+        "NGINX"
       ],
-      "title": "SecOps-AI Log Sentinel",
-      "track": "Cyber Security",
-      "why_it_could_win": "Organized by the Department of CSE (Cyber Security), this project directly addresses cybersecurity priorities by combining deep log analysis with automated mitigation playbooks."
+      "title": "CyberGuard NGINX AI Log Sentinel",
+      "track": "",
+      "why_it_could_win": "Targeted specifically toward the organizing Department of CSE (Cyber Security) by providing real-time defense against security anomalies, matching successful architectures seen in previous security and logging hacks."
     },
     {
-      "build_hours": 40,
+      "build_hours": 36,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A transaction risk detection and investigation platform combining graph intelligence and explainable machine learning to uncover fraudulent financial routing within educational institution grant allocations.",
+      "pitch": "An AWS-powered AML risk detection and investigation tool utilizing graph intelligence and explainable machine learning for financial compliance.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "Neo4j",
-        "TailwindCSS"
+        "AWS"
       ],
-      "title": "CampusGraph AML & Fraud Monitor",
-      "track": "Data Science",
-      "why_it_could_win": "Aligns strongly with institutional data science and security evaluation criteria by delivering mathematically explainable risk scoring rather than a black-box model."
+      "title": "GraphGuard AML Risk Platform",
+      "track": "",
+      "why_it_could_win": "Demonstrates complex graph algorithms and hard engineering within a compact 24-hour timeframe, appealing strongly to data science and cybersecurity evaluators."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool designed to detect industrial land compliance violations and environmental shifts automatically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "SentinelHub API",
+        "Next.js"
+      ],
+      "title": "AeroSight Satellite Land Monitor",
+      "track": "",
+      "why_it_could_win": "Combines spatial data visualization with modern vision models, yielding an impressive, highly visual demo that stands out to technical judging panels."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A video intelligence platform that indexes unstructured visual data into searchable, queryable event logs using local and cloud AI models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Gemini"
+      ],
+      "title": "OmniSearch Video Intelligence",
+      "track": "",
+      "why_it_could_win": "Solves the unstructured data challenge directly, appealing to the Department of CSE (Data Science) organizers through high utility and an interactive search UI."
+    },
+    {
+      "build_hours": 40,
       "inspired_by": [
         "github:1341712439"
       ],
-      "pitch": "An autonomous multi-agent IoT operations and diagnostic platform powered by time-series anomaly detection to monitor and self-heal smart campus energy grids and sensor networks.",
+      "pitch": "An autonomous multi-agent IoT diagnostic and closed-loop operations platform powered by local anomaly detection models and LangGraph.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Qdrant",
         "TimescaleDB",
-        "Isolation Forest"
+        "FastAPI"
       ],
-      "title": "SmartCampus IoT Auto-Diagnostic Mesh",
+      "title": "IoT Multi-Agent Self-Healing Ops",
       "track": "",
-      "why_it_could_win": "Features hard engineering through a closed-loop multi-agent architecture that resolves real-world infrastructure failures autonomously within a 24-hour window."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1329458499"
-      ],
-      "pitch": "An autonomous data pipeline incident response agent that detects schema regressions in data lakes, verifies repairs, and writes back metadata lineage corrections directly to enterprise catalogs.",
-      "stack": [
-        "Python",
-        "Claude",
-        "DataHub API",
-        "FastAPI",
-        "PostgreSQL"
-      ],
-      "title": "DataLine DataHub Incident Auto-Fixer",
-      "track": "Data Science",
-      "why_it_could_win": "Leverages advanced data engineering patterns and autonomous agent loops which consistently impress technical judges evaluating complex data science projects."
-    },
-    {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A defense-in-depth security proxy and personal agent gateway with layered prompt-injection hardening and real-time behavioral monitoring for secure enterprise AI interactions.",
-      "stack": [
-        "TypeScript",
-        "Vercel AI SDK",
-        "ConnectRPC",
-        "Redis"
-      ],
-      "title": "ZeroGuard AI Agent Gateway",
-      "track": "Cyber Security",
-      "why_it_could_win": "Tackles the rising security challenges of deploying AI agents in enterprise environments, directly engaging the focus areas of the Cyber Security organizing department."
+      "why_it_could_win": "Showcases advanced agentic architecture and genuine systems engineering, which heavily matches winning patterns from technical hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

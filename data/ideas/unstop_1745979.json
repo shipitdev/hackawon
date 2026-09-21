@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:45.465461+00:00",
+  "generated_at": "2026-09-21T08:22:55.056625+00:00",
   "grounding": {
     "domains": [
       "sustainability",
@@ -9,6 +9,8 @@
     "patterns": [
       "unique-data"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745979",
@@ -16,86 +18,95 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:544506500"
-      ],
-      "pitch": "An interactive 3D visualization and real-time alert platform for solar wind and coronal mass ejections using Parker Solar Probe open data.",
-      "stack": [
-        "Python",
-        "JavaScript",
-        "Three.js",
-        "NASA APIs"
-      ],
-      "title": "SolarFlare Pulse",
-      "track": "",
-      "why_it_could_win": "Leverages direct NASA heliophysics data pipelines just like previous global championship winners in the NASA Space Apps Challenge."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
         "github:1177555968"
       ],
-      "pitch": "A localized biodiversity tracking dashboard simulating regional flora and fauna vulnerability metrics using open ecological datasets.",
+      "pitch": "An interactive web dashboard visualizing local ecosystem species data and habitat simulations for public awareness and environmental monitoring.",
+      "problem_statement": "NASA Space Apps Challenge 2026 – Raipur: The Next Frontier - Challenges related to Earth, science, technology, and humanity's future using NASA's open data.",
       "stack": [
         "JavaScript",
-        "React",
+        "CSS",
+        "Express",
         "Cytoscape.js",
-        "Express"
+        "React"
       ],
-      "title": "EcoSpecies Raipur",
-      "track": "",
-      "why_it_could_win": "Directly builds on proven hackathon-winning ecosystem visualization designs tailored for public environmental awareness."
+      "title": "EcoSpecies Raipur: Urban Biodiversity & Ecosystem Dashboard",
+      "track": "Earth and Space Science",
+      "why_it_could_win": "Leverages the proven success pattern of the winning Eco_Track project, combining public-facing ecosystem awareness with interactive cytoscape-based species cycle simulation."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool tracking land use changes and industrial environmental compliance around Chhattisgarh.",
+      "pitch": "An automated monitoring system utilizing NASA Earth observation datasets and AI to track changes in land use, deforestation, and industrial footprints.",
+      "problem_statement": "NASA Space Apps Challenge 2026 – Raipur: The Next Frontier - Challenges related to Earth, space, science, technology and humanity's future.",
       "stack": [
         "TypeScript",
         "Python",
-        "SentinelHub API",
-        "Leaflet"
+        "TensorFlow",
+        "React",
+        "Node.js"
       ],
-      "title": "GeoSentinel Industrial",
-      "track": "",
-      "why_it_could_win": "Mirrors the exact technical success of local regional hackathon runners-up utilizing geospatial satellite imagery analysis."
+      "title": "GeoNex-Terra: AI-Powered Satellite Land Compliance & Monitoring",
+      "track": "Earth Observation",
+      "why_it_could_win": "Adapts the exact architecture of GeoNex-ATLAS which won runner-up at a regional AI-powered satellite monitoring hackathon, satisfying NASA's focus on open-data Earth observation."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:863792791"
+        "github:544506500"
       ],
-      "pitch": "An automated anomaly detection system flagging suspicious maritime or aerial vessel inactivity using historical telemetry logs.",
+      "pitch": "An immersive audio-visual data art application transforming complex plasma and magnetic field telemetry from the Parker Solar Probe into an intuitive experience.",
+      "problem_statement": "NASA Space Apps Challenge 2026 – Raipur: The Next Frontier - Challenges related to space science and humanity's future using space agency open data.",
       "stack": [
         "Python",
-        "Pandas",
-        "FastAPI",
-        "Plotly"
+        "Streamlit",
+        "Plotly",
+        "WebAudio API",
+        "Pandas"
       ],
-      "title": "AeroShip Flag",
-      "track": "",
-      "why_it_could_win": "Replicates award-winning geospatial intelligence and tracking architectures proven to secure top honors in large-scale data hackathons."
+      "title": "SolarFlare Pulse: Creative Parker Solar Probe Data Display",
+      "track": "Space Exploration",
+      "why_it_could_win": "Directly mirrors the strategy of earth-wind-and-flare, which won 1st place globally at the NASA Space Apps Hackathon by creatively displaying complex solar probe data."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1079913400",
         "github:569668622"
       ],
-      "pitch": "A digital twin monitoring platform analyzing polar ice sheet degradation and climate telemetry using historical NASA earth science datasets.",
+      "pitch": "A robust data-engineering platform ingesting raw Arctic climate datasets into a unified MongoDB backend to track ice-sheet degradation patterns over time.",
+      "problem_statement": "NASA Space Apps Challenge 2026 – Raipur: The Next Frontier - Challenges related to Earth and climate science using open scientific data.",
       "stack": [
-        "Node.js",
-        "React",
+        "Python",
+        "C++",
         "MongoDB",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "PolarWatch Arctic: Multi-Source Climate Data Engineering Pipeline",
+      "track": "Climate and Environment",
+      "why_it_could_win": "Follows the blueprint of the 2022 Arctic Challenge first prize winner by emphasizing heavy data-engineering pipelines and optimized database querying over superficial UI."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213154728"
+      ],
+      "pitch": "A full-stack tracking tool that maps local resource consumption grids to raw federal and space agency supply data.",
+      "problem_statement": "NASA Space Apps Challenge 2026 – Raipur: The Next Frontier - Challenges related to humanity's future, science, and open-data utilization.",
+      "stack": [
+        "Python",
+        "Snowflake",
+        "React",
+        "Node.js",
         "TailwindCSS"
       ],
-      "title": "Arctic CryoTwin",
-      "track": "",
-      "why_it_could_win": "Combines complex data engineering pipelines with intuitive predictive data visualization, aligning with multi-award-winning digital twin projects."
+      "title": "GridTrace Supply: Federal Energy and Resource Transparency App",
+      "track": "Data and Technology",
+      "why_it_could_win": "Builds on the winning paradigm of combining multi-source public datasets into a seamless user-facing web application as demonstrated in the DEV Weekend Challenge winner."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

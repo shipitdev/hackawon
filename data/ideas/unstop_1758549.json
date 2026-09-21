@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-09-21T08:37:48.955732+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "judge-pain",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758549",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An AI agent that automatically generates comprehensive API documentation, sequence diagrams, and integration test suites directly from your codebase git diffs upon every pull request.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Graphviz",
+        "GitHub Webhooks"
+      ],
+      "title": "Eclipse-AutoDoc",
+      "track": "",
+      "why_it_could_win": "Addresses documentation debt which is a massive pain point for judges and developers alike, and features a functional git-hook automation pipeline that demos instantly."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:670456402"
+      ],
+      "pitch": "A natural language to enterprise SQL and NoSQL query engine with schema auto-introspection, designed for non-technical operations teams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "QueryGenie",
+      "track": "",
+      "why_it_could_win": "Directly mirrors enterprise utility wins like Semantic Kernel plugins, making it immediately appealing to business-oriented hackathon judges looking for real-world impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181275893",
+        "github:1226951926"
+      ],
+      "pitch": "An automation agent that ingests raw customer support tickets, clusters them using semantic embeddings, and automatically drafts formatted GitHub issues with proposed code patch files.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Qdrant",
+        "Claude API",
+        "GitHub API"
+      ],
+      "title": "AutoSprint-AI",
+      "track": "",
+      "why_it_could_win": "Combines ticket classification and automated code generation into a polished end-to-end workflow that guarantees a high-impact live demo."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1010255318",
+        "github:1334000568"
+      ],
+      "pitch": "A lightweight, training-free semantic router that dynamically directs user queries to the cheapest and most accurate local or cloud LLM based on task complexity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen",
+        "Redis"
+      ],
+      "title": "SmartRoute LLM Gateway",
+      "track": "",
+      "why_it_could_win": "Tackles cost-efficiency and performance routing—a technically sophisticated engineering feat that stands out in pure AI-focused hackathons."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:938030912",
+        "github:1226951926"
+      ],
+      "pitch": "An automated GitHub Actions troubleshooting bot that reads failing build logs, analyzes stack traces, generates fix patches, and pushes automated corrective pull requests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Probot",
+        "OpenAI API",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "title": "CI-Healer",
+      "track": "",
+      "why_it_could_win": "Solves an urgent everyday pain point for developers with a concrete, hands-on automation workflow that is easy to record and demonstrate live."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

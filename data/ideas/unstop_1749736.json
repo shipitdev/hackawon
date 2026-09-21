@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:12.376906+00:00",
+  "generated_at": "2026-09-21T08:27:08.640427+00:00",
   "grounding": {
     "domains": [
       "civic"
@@ -7,94 +7,102 @@
     "exemplar_count": 8,
     "patterns": [
       "impact",
-      "working-demo",
-      "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749736",
   "ideas": [
     {
-      "build_hours": 18,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1194555365",
-        "github:1132337467"
+        "github:1194555365"
       ],
-      "pitch": "A hyper-local volunteer driver and senior outing organizer specifically tailored for Mumbai local transit corridors to combat elder isolation.",
+      "pitch": "An AI-powered matchmaking platform for senior citizens in Mumbai to form local companionship groups and coordinate volunteer drivers for social outings.",
+      "problem_statement": "Community isolation among urban elderly populations in Mumbai.",
       "stack": [
         "TypeScript",
-        "React",
-        "Firebase",
-        "TomTom Maps"
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL"
       ],
-      "title": "SahayakNet",
+      "title": "SeniorLink Mumbai",
       "track": "",
-      "why_it_could_win": "Directly matches the community and social issues focus required by Ideation'26 while tackling elder isolation, heavily aligning with successful social impact hackathon patterns."
+      "why_it_could_win": "Directly targets community and social issues with high social impact, matching the explicit judging criteria of innovation and practical social welfare."
     },
     {
-      "build_hours": 16,
+      "build_hours": 18,
       "inspired_by": [
-        "github:1170846981"
+        "github:714473994",
+        "github:611784301"
       ],
-      "pitch": "A multilingual local-dialect AI voice assistant providing preventive healthcare and vaccination schedules tailored to urban slum communities in Mumbai.",
+      "pitch": "A mobile web app utilizing device cameras to scan product barcodes and packaging, providing hyper-local recycling instructions and drop-off center locations across Mumbai.",
+      "problem_statement": "Local urban waste management and improper household garbage disposal.",
       "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini AI"
+        "Flutter",
+        "Dart",
+        "Firebase"
       ],
-      "title": "ArogyaVani",
+      "title": "EcoScan Mumbai",
       "track": "",
-      "why_it_could_win": "Judges prioritize social impact and practicality; addressing urban health awareness in a regional context hits both priorities cleanly."
+      "why_it_could_win": "Leverages the proven success pattern of environmental and sustainability applications with immediate practical utility for municipal waste reduction."
     },
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1143576965",
-        "github:1346526259"
+        "github:1068856633"
       ],
-      "pitch": "Real-time water logging and urban flood prediction platform mapping civic complaints and crowdsourced sensor data across Mumbai's prone low-lying areas.",
+      "pitch": "A localized legal networking portal connecting underprivileged communities in Mumbai with volunteer law students and practitioners offering pro-bono advice.",
+      "problem_statement": "Lack of accessible legal aid for marginalized communities in urban centers.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Prisma"
+      ],
+      "title": "ProBono Connect",
+      "track": "",
+      "why_it_could_win": "High practicality and social impact score, addressing a severe community pain point with a clear, scalable digital workflow."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:470873903",
+        "github:933310408"
+      ],
+      "pitch": "An agentic workflow platform to track, report, and coordinate rehabilitation resources for rescued child labor and vulnerable daily-wage workers.",
+      "problem_statement": "Child labor and exploitation tracking in regional unorganized sectors.",
       "stack": [
         "JavaScript",
-        "Supabase",
-        "Leaflet.js"
+        "Node.js",
+        "Express",
+        "MongoDB"
       ],
-      "title": "PaniPrahari",
+      "title": "ShramikSahay",
       "track": "",
-      "why_it_could_win": "Solves an urgent, recurring municipal issue in Mumbai, ensuring high practical relevance and immediate engagement from judges looking for local social impact."
+      "why_it_could_win": "Addresses a deeply embedded social issue with structured data management, appealing strongly to judges looking for high societal transformation potential."
     },
     {
       "build_hours": 16,
       "inspired_by": [
-        "github:1346526259"
+        "github:716416040"
       ],
-      "pitch": "An AI-powered digital storefront and micro-logistics copilot for local street vendors and artisans in Mumbai to boost community commerce.",
+      "pitch": "A digital administrative portal designed for Mumbai B.Tech colleges to eliminate paper trails in grievance redressal, document approvals, and student event clearances.",
+      "problem_statement": "Inefficient institutional paperwork and bureaucratic waste in educational establishments.",
       "stack": [
-        "React",
-        "Node.js",
-        "TailwindCSS"
+        "PHP",
+        "MySQL",
+        "Bootstrap",
+        "pdftk"
       ],
-      "title": "BastiBazaar",
+      "title": "CampusPaperless",
       "track": "",
-      "why_it_could_win": "Combines economic empowerment with community tech, directly checking the evaluation criteria of innovation and social impact."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1228867095"
-      ],
-      "pitch": "A voice-first simulation tool that trains elderly users in Mumbai to recognize and deflect financial scam calls conducted in regional Indian languages.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Web Speech API"
-      ],
-      "title": "SurakshaKavach",
-      "track": "",
-      "why_it_could_win": "Tackles the growing epidemic of financial fraud against seniors using accessible voice AI technology, providing a clear and demonstrable social win."
+      "why_it_could_win": "Directly resonates with the college audience and judging panel by solving an administrative bottleneck present in their own institutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

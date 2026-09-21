@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:38.267717+00:00",
+  "generated_at": "2026-09-21T08:11:48.966899+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-ncstate",
@@ -14,86 +16,95 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1155558847"
       ],
-      "pitch": "A Poisson regression and time-series forecasting dashboard predicting peak energy demand and infrastructure strain across North Carolina State University buildings using historical meter data.",
+      "pitch": "An AI-powered telemetry monitoring system for university microgrids that detects efficiency drops and hardware anomalies using spatial-temporal forecasting models.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "Poisson-Regression",
-        "Streamlit"
+        "Next.js",
+        "PostgreSQL",
+        "LightGBM"
       ],
-      "title": "NCState-Campus-Energy-Grid-Forecaster",
+      "title": "NCState Campus Energy Grid Anomaly Detector",
       "track": "",
-      "why_it_could_win": "Leverages the proven statistical forecasting pattern from the Apart Research AI Forecasting winner, applying hard domain modeling to local university utility data."
+      "why_it_could_win": "Mirrors the hard engineering approach of GeoNex-ATLAS, targeting a practical industrial and institutional problem that resonates well with university facility management judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring platform that automatically flags unauthorized industrial land use and environmental compliance breaches in Wake County.",
+      "pitch": "A localized risk detection platform that combines graph intelligence and explainable machine learning to help regional credit unions screen transactions for illicit patterns.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Mapbox",
-        "OpenCV"
+        "AWS",
+        "NetworkX",
+        "TailwindCSS"
       ],
-      "title": "Wolfpack-Compliance-Sentinel",
+      "title": "Raleigh Small Business AML Risk Radar",
       "track": "",
-      "why_it_could_win": "Mirrors the exact technical architecture of the GeoNex-ATLAS runner-up by combining geospatial data APIs with computer vision models for automated auditing."
+      "why_it_could_win": "Adopts the architecture of Bito to deliver a sophisticated financial compliance tool with high enterprise utility, demonstrating serious technical depth in under 48 hours."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
+        "github:1087704265"
       ],
-      "pitch": "A localized no-code trading and automated dispatch platform enabling peer-to-peer solar energy credit sharing for North Carolina micro-communities using smart contracts.",
+      "pitch": "A predictive modeling dashboard that runs rolling backtests and Poisson regressions to forecast software vulnerability regressions and AI deployment incidents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Statsmodels"
+      ],
+      "title": "Triangle Research AI Safety Forecaster",
+      "track": "",
+      "why_it_could_win": "Directly replicates the rigorous statistical methodology of the Apart Research AI Forecasting winner, appealing strongly to judges who value data science integrity over generic wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A personalized meal planning platform tailored specifically to North Carolina local agriculture, agricultural supply chains, and student dietary constraints.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Solidity",
-        "Base",
-        "Next.js"
+        "FastAPI",
+        "Next.js",
+        "PostgreSQL",
+        "Gemini API"
       ],
-      "title": "Raleigh-Micro-Grid-Trading",
+      "title": "PackMeal Local Nutrition & Sourcing Assistant",
       "track": "",
-      "why_it_could_win": "Combines the automated agent execution mechanics seen in the ClashX trading platform with decentralized asset escrow."
+      "why_it_could_win": "Follows the polished UX and targeted utility of E-Foodiee, focusing on local agricultural integration to catch the attention of regional judges."
     },
     {
-      "build_hours": 35,
+      "build_hours": 38,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent RAG student support platform tailored to NC State academic advising data, providing personalized curriculum planning and mental health resource triage.",
+      "pitch": "A multi-agent academic advising platform leveraging LangGraph and localized RAG to route student inquiries across campus departments automatically.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Next.js",
-        "PostgreSQL"
+        "Python",
+        "Pinecone",
+        "Next.js"
       ],
-      "title": "Student-Wellbeing-Multiagent-Advisor",
+      "title": "Wolfpack Student Support Multi-Agent Hub",
       "track": "",
-      "why_it_could_win": "Replicates the winning multi-agent architecture and LangGraph orchestration framework used by the GreenNovation AI platform."
-    },
-    {
-      "build_hours": 44,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-powered anti-money laundering risk investigation platform utilizing graph intelligence and explainable gradient boosting models tailored for local credit unions.",
-      "stack": [
-        "TypeScript",
-        "AWS",
-        "LightGBM",
-        "Neo4j"
-      ],
-      "title": "Triangle-Fintech-Risk-Graph",
-      "track": "",
-      "why_it_could_win": "Adopts the graph intelligence and explainable Focal LightGBM architecture that secured first place in the DIGITIMES AI Innovation Hackathon."
+      "why_it_could_win": "Leverages the proven multi-agent architecture of Greennovation AI, offering immediate practical value for academic administration use cases."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

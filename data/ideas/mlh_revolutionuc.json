@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:00.204820+00:00",
+  "generated_at": "2026-09-21T08:15:20.148338+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:revolutionuc",
@@ -14,84 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1087704265",
+        "github:1155558847"
       ],
-      "pitch": "An AML and supply chain risk detection platform mapping local logistics networks in the Midwest using graph intelligence and LightGBM.",
+      "pitch": "Real-time municipal service bottleneck detector aggregating public transit and 311 request data to predict neighborhood service degradation in Cincinnati.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "TailwindCSS"
       ],
-      "title": "Cincinnati Rust Belt Supply Chain Graph",
+      "title": "CincyCivic Pulse",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of combining complex graph intelligence with LightGBM seen in Bito, offering genuine hard engineering."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Poisson GAM and multinomial share model forecasting environmental and water incident anomalies with calibrated 90% prediction intervals.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "statsmodels",
-        "Poisson Regression"
-      ],
-      "title": "Ohio River Basin Water Quality Forecasting",
-      "track": "",
-      "why_it_could_win": "Directly replicates the advanced statistical forecasting and incident prediction approach that won 1st place at the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Leverages local geographic relevance for in-person judges in Cincinnati, utilizing a structured predictive workflow modeled after winning forecasting architectures."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1181344931",
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring platform tracking industrial land use changes and compliance across the Ohio manufacturing corridor.",
+      "pitch": "Supply chain anomaly detection tool using graph intelligence to map regional distribution vulnerabilities across the Midwest logistics corridor.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Satellite APIs",
-        "Leaflet"
+        "LightGBM",
+        "NetworkX"
       ],
-      "title": "Midwest Smart Manufacturing Satellite Monitor",
+      "title": "Midwest Supply Risk Matrix",
       "track": "",
-      "why_it_could_win": "Mirrors the runner-up GeoNex-ATLAS project by addressing industrial monitoring needs with localized spatial intelligence."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph intelligence with predictive risk scoring, matching proven technical winning patterns."
     },
     {
-      "build_hours": 24,
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent student support platform that optimizes university energy grid consumption patterns and dorm-level sustainability metrics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "CampusEco Agent",
+      "track": "",
+      "why_it_could_win": "Applies a proven multi-agent architecture directly to a hyper-relevant university setting where judges are students and faculty."
+    },
+    {
+      "build_hours": 30,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "AI-powered patient acquisition and trust engine tailored for regional dental and prosthodontic clinics in underserved areas.",
+      "pitch": "AI-powered patient acquisition and trust engine tailored for local regional dental and health clinics in Ohio.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API"
       ],
-      "title": "Appalachian Health Patient Trust & Acquisition Engine",
+      "title": "PatientTrust Ohio",
       "track": "",
-      "why_it_could_win": "Applies proven rapid-prototype healthcare trust acquisition patterns from Global-Smile into a focused regional domain."
+      "why_it_could_win": "Focuses on immediate commercial utility for small businesses, appealing to judges looking for viable pitch-ready products."
     },
     {
       "build_hours": 35,
       "inspired_by": [
-        "github:1213911408"
+        "github:1185920891"
       ],
-      "pitch": "Multi-agent student support platform combining LangGraph, RAG, and personalized AI agents to optimize university sustainability initiatives.",
+      "pitch": "Autonomous agent marketplace facilitating direct-to-consumer farm transactions with automated escrow logic for regional Ohio agriculture.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "LangGraph",
-        "OpenAI API"
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Node.js"
       ],
-      "title": "Campus GreenNovation Multi-Agent Support Hub",
+      "title": "LocalHarvest Escrow",
       "track": "",
-      "why_it_could_win": "Leverages the multi-agent LangGraph and RAG architecture that won 1st place at the GreenNovation Hackathon."
+      "why_it_could_win": "Combines autonomous agent workflows with secure transactional mechanics, mirroring proven hackathon architectures."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

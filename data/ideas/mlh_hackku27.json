@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:38.024325+00:00",
+  "generated_at": "2026-09-21T08:12:51.681321+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,93 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackku27",
   "ideas": [
     {
-      "build_hours": 48,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AI-powered risk intelligence platform tailored for Kansas agricultural supply chains, leveraging graph intelligence and LightGBM to predict regional supply bottlenecks and weather-driven logistics failures.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "Next.js"
-      ],
-      "title": "PrairieRisk AI: Agricultural Supply Chain Anomaly Detector",
-      "track": "",
-      "why_it_could_win": "It incorporates the proven high-performance pattern of graph intelligence and LightGBM seen in Bito, while hyper-localizing the context to the geographic and economic hub of Kansas for maximum judge relevance."
-    },
-    {
-      "build_hours": 50,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "Automated satellite imagery monitoring platform to track unauthorized land use, zoning violations, and environmental changes across rural and urban Kansas infrastructure.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "SentinelHub API",
-        "Leaflet.js"
-      ],
-      "title": "Midwest GeoMonitor: Satellite Land Compliance for Local Infrastructure",
-      "track": "",
-      "why_it_could_win": "Directly mirrors the runner-up success of GeoNex-ATLAS by tackling industrial and geographic land compliance through automated geospatial analysis, appealing to regional infrastructure priorities."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A statistical forecasting dashboard predicting regional crop yields and weather-related agricultural incidents using Poisson regression and rolling backtests with calibrated 90 percent prediction intervals.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Poisson GAM",
-        "Pandas"
-      ],
-      "title": "AgriYield AI: Localized Crop Forecasting & Calibrated Risk Intervals",
-      "track": "",
-      "why_it_could_win": "Replicates the mathematically rigorous approach of the AI incident forecasting winner, substituting generic AI safety with highly practical, actionable agricultural forecasting valuable to the local region."
-    },
-    {
       "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A location-aware, privacy-first peer walking escort platform built for university campuses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "Jayhawk Campus Safety Guardian",
+      "track": "",
+      "why_it_could_win": "Addresses an urgent student pain point on a physical campus setting like Lawrence, which resonates strongly with local judges looking for immediate community utility."
+    },
+    {
+      "build_hours": 45,
+      "inspired_by": [],
+      "pitch": "A supply chain visibility and B2B ordering platform connecting regional Kansas farmers directly with university dining halls.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Midwest Local Farm Supply Aggregator",
+      "track": "",
+      "why_it_could_win": "Appeals to regional economic themes and sustainability, leveraging real-world logistics bottlenecks that local judges easily understand."
+    },
+    {
+      "build_hours": 30,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-driven patient intake and trust-building platform designed for regional dental and medical clinics in Kansas to streamline patient acquisition and compliance education.",
+      "pitch": "An AI-powered generator that adapts Kansas state education curriculum standards into interactive classroom activities.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API",
-        "TailwindCSS"
+        "Prisma"
       ],
-      "title": "HealthTrust AI: Patient Acquisition & Trust Engine for Rural Kansas Clinics",
+      "title": "K-12 STEM Lesson Plan Copilot",
       "track": "",
-      "why_it_could_win": "Adapts the rapid-execution, high-impact healthcare trust engine model from the Global-Smile winner, tailored specifically to solve access-to-care challenges for underserved rural populations."
+      "why_it_could_win": "Targets local educational impact, giving student and faculty judges a practical tool they can imagine deploying in nearby schools immediately."
     },
     {
-      "build_hours": 52,
+      "build_hours": 50,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "A multi-agent student support and resource optimization platform combining LangGraph, RAG, and personalized agents to track and reduce university carbon footprints and resource waste.",
+      "pitch": "A machine learning predictive dashboard estimating micro-grid solar panel output based on localized Kansas prairie weather patterns.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "Prairie Weather Solar Output Forecaster",
+      "track": "",
+      "why_it_could_win": "Features genuinely hard engineering through rigorous statistical forecasting and calibrated prediction intervals, matching successful analytical hackathon entries."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An automated receipt scanning and compliance tracking tool designed specifically for university student organization treasurers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Python",
-        "VectorDB"
+        "React",
+        "Express",
+        "Tesseract.js"
       ],
-      "title": "CampusGreen: Multi-Agent University Sustainability & Student Support Platform",
+      "title": "Student Org Budget Auditor",
       "track": "",
-      "why_it_could_win": "Builds on the multi-agent architecture and RAG implementation that secured 1st place in the GreenNovation Hackathon, offering immediate utility for campus administrators and student bodies."
+      "why_it_could_win": "Solves a universal, deeply felt administrative headache for student leaders, guaranteeing instant engagement and empathy from a collegiate judging panel."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:26.355699+00:00",
+  "generated_at": "2026-09-21T08:11:35.898261+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-brown-2027",
@@ -14,86 +16,92 @@
     {
       "build_hours": 45,
       "inspired_by": [
-        "github:1087704265",
         "github:1155558847"
       ],
-      "pitch": "A spatial-temporal forecasting model using Poisson GAMs and satellite monitoring data to predict microclimate heat stress and utility strain across Providence neighborhoods.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "TensorFlow",
-        "GeoPandas"
-      ],
-      "title": "Providence Urban Heat Island Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages genuine hard engineering by combining geospatial analytics and advanced regression forecasting, matching the technical depth seen in winning forecasting and satellite monitoring projects."
-    },
-    {
-      "build_hours": 50,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-backed graph intelligence platform mapping supplier dependencies and financial AML risk for regional Rhode Island manufacturing networks.",
+      "pitch": "Real-time municipal noise and traffic mapping tool using crowdsourced audio data and lightweight sensor feeds.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS Neptune",
-        "LightGBM",
-        "Next.js"
+        "Next.js",
+        "Leaflet",
+        "Python",
+        "FastAPI"
       ],
-      "title": "Rhode Island Local Supply Chain Risk Graph",
+      "title": "Providence CivicPulse",
       "track": "",
-      "why_it_could_win": "Applies complex graph-based risk modeling and explainable ML, replicating the architecture of platforms that win innovation hackathons."
+      "why_it_could_win": "Local university hackathons frequently reward projects that solve hyper-local municipal problems, making city officials or local community judges eager to see practical deployment."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Decentralized, trust-minimized carpooling coordination platform exclusively for New England college students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "title": "RhodeIsland Campus RideShare Co-op",
+      "track": "",
+      "why_it_could_win": "Targeting a specific, closed-ecosystem user base (providence college students) solves cold-start adoption issues that judges always grill teams on."
+    },
+    {
+      "build_hours": 50,
+      "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent student support system using LangGraph and localized RAG to help campus facilities manage and optimize building energy consumption in real time.",
+      "pitch": "Multi-agent AI study group coordinator that builds real-time interactive concept maps from uploaded course syllabi and lecture slides.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Python",
-        "OpenAI API"
+        "React",
+        "Pinecone"
       ],
-      "title": "Campus Green Energy Multi-Agent Support",
+      "title": "BrownStudy Peer-to-Peer Knowledge Graph",
       "track": "",
-      "why_it_could_win": "Directly mirrors the multi-agent architecture and domain-specific problem solving of proven student-focused AI platform winners."
+      "why_it_could_win": "Appeals directly to student and faculty judges by solving an immediate, daily friction point of coursework organization."
     },
     {
-      "build_hours": 35,
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Hyper-local surplus food redistribution matching platform connecting campus dining halls with local Providence shelters.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL"
+      ],
+      "title": "LocalHarvest Providence",
+      "track": "",
+      "why_it_could_win": "Impact-driven projects with clear, demonstrable social utility score exceptionally well with general hackathon judging panels."
+    },
+    {
+      "build_hours": 42,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine tailored for local Providence specialized health clinics to streamline intake and credential verification.",
+      "pitch": "AI-generated walking tour application that narrates historical architectural facts about Providence based on real-time GPS coordinates.",
+      "problem_statement": "No published statement",
       "stack": [
+        "React Native",
         "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
+        "OpenAI API",
+        "Mapbox"
       ],
-      "title": "Providence Clinic Trust & Patient Intake Engine",
+      "title": "Providence Heritage Audio Guide",
       "track": "",
-      "why_it_could_win": "Delivers immediate, practical utility for local service providers, a proven angle for high-impact prize-winning applications."
-    },
-    {
-      "build_hours": 48,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace facilitating surplus food logistics between Providence restaurants and shelters with secure escrow transactions.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "Local Food Recovery Autonomous Escrow",
-      "track": "",
-      "why_it_could_win": "Combines autonomous agent workflows with real-world logistics and escrow mechanics, echoing the winning formula of autonomous agent marketplace hacks."
+      "why_it_could_win": "Leverages location-aware APIs and creative UI storytelling, which always grabs attention during live demo walk-throughs."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

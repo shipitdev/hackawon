@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:57:56.705102+00:00",
+  "generated_at": "2026-09-21T08:30:36.473862+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -8,101 +8,103 @@
     "patterns": [
       "unusual-hardware",
       "working-demo",
-      "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751780",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1281918590",
-        "github:1341712439"
-      ],
-      "pitch": "A localized IoT relay protection circuit that detects phase imbalances and micro-surges, instantly triggering hardware-level cutoff and transmitting telemetry via ESP32 to a central dashboard.",
-      "stack": [
-        "C++",
-        "ESP32",
-        "Arduino",
-        "Relay Modules",
-        "TypeScript",
-        "TimescaleDB"
-      ],
-      "title": "Smart Microgrid Relay Protection Node",
-      "track": "Track 1: Smart Campus & Energy Management (IoT, Microgrids, Relay Protection)",
-      "why_it_could_win": "Directly targets Track 1 (Smart Campus & Energy Management) and leverages the winning formula of combining a physical custom circuit (similar to the washing machine timer circuit) with real-time IoT dashboards."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1144331507"
-      ],
-      "pitch": "A wearable vest equipped with ultrasonic sensors and directional haptic vibration motors powered by an Arduino to map obstacles and alert the user without audio interference.",
-      "stack": [
-        "C++",
-        "Arduino Nano",
-        "Ultrasonic Sensors",
-        "Vibration Motors"
-      ],
-      "title": "Haptic Assistive Navigational Vest for the Visually Impaired",
-      "track": "Track 2: MedTech & Assistive Wearables (Embedded Sensors, Haptic Feedback)",
-      "why_it_could_win": "Fits perfectly into Track 2 (MedTech & Assistive Wearables), offering a tangible hardware demo with immediate social impact and utilizing physical embedded sensors."
-    },
-    {
       "build_hours": 36,
       "inspired_by": [
-        "github:1259981732",
-        "github:1010199928"
+        "github:1341712439"
       ],
-      "pitch": "A custom-chassis differential drive rover featuring IR array line-following combined with an ESP32-CAM module for real-time obstacle avoidance and remote monitoring.",
+      "pitch": "An IoT-based smart campus microgrid controller featuring automated relay protection and load shedding to optimize energy distribution.",
+      "problem_statement": "Track 1: Smart Campus & Energy Management (IoT, Microgrids, Relay Protection)",
       "stack": [
+        "ESP32",
         "C++",
-        "ESP32-CAM",
-        "Motor Drivers",
-        "Arduino",
-        "Python"
+        "Python",
+        "MQTT",
+        "Relay Modules"
       ],
-      "title": "Autonomous Indoor Line-Following Supply Rover",
-      "track": "Track 3: Robotics & Autonomous Systems (Rovers, Motor Drivers, Microcontrollers)",
-      "why_it_could_win": "Directly addresses Track 3 (Robotics & Autonomous Systems) by bringing a fully functional physical robot that performs a live, demonstrable autonomous routine."
+      "title": "CampusMicrogridOptimizer",
+      "track": "Track 1: Smart Campus & Energy Management",
+      "why_it_could_win": "Addresses Track 1 directly with physical relay modules and current sensors, demonstrating a live closed-loop hardware response rather than just a dashboard."
     },
     {
-      "build_hours": 32,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1010199928"
+        "github:1140260754"
       ],
-      "pitch": "An industrial automation prototype using a TCS3200 color sensor and IR counters to sort produce by ripeness on a miniature conveyor belt driven by a stepper motor.",
+      "pitch": "An embedded biomedical wearable providing real-time post-operative patient monitoring with targeted haptic feedback alerts.",
+      "problem_statement": "Track 2: MedTech & Assistive Wearables (Embedded Sensors, Haptic Feedback)",
       "stack": [
-        "Python",
         "Arduino",
-        "Stepper Motors",
-        "Color Sensors",
-        "OpenCV"
+        "C++",
+        "MAX30102 Sensor",
+        "Haptic Motor Drivers"
       ],
-      "title": "Edge-Powered Automated Sorting Agritech Conveyor",
-      "track": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitor",
-      "why_it_could_win": "Meets the criteria for Track 4 (Open Innovation - AgriTech & Industrial Automation) with a working miniature mechanical build that judges can interact with live on campus."
+      "title": "PostOpHapticVest",
+      "track": "Track 2: MedTech & Assistive Wearables",
+      "why_it_could_win": "Leverages the winning pattern of biomedical IoT edge systems and embeds physical haptic actuators that create an engaging live hardware demo for judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1274691349"
+        "github:1259981732"
       ],
-      "pitch": "A custom Verilog-based hardware protocol analyzer implemented on an FPGA board to decode asynchronous serial communications in real-time without an external oscilloscope.",
+      "pitch": "An obstacle-avoiding autonomous rover utilizing customized motor drivers and microcontrollers for campus utility transport.",
+      "problem_statement": "Track 3: Robotics & Autonomous Systems (Rovers, Motor Drivers, Microcontrollers)",
       "stack": [
-        "Verilog",
-        "FPGA",
-        "Digital Logic",
-        "C++"
+        "Raspberry Pi",
+        "C++",
+        "ROS",
+        "L298N Motor Driver",
+        "Ultrasonic Sensors"
       ],
-      "title": "FPGA-Accelerated UART Protocol Analyzer",
-      "track": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitor",
-      "why_it_could_win": "Demonstrates genuinely hard digital design and hardware execution, appealing strongly to an ECE-organized department hackathon looking for rigorous circuit-level engineering."
+      "title": "AutonomousCampusDeliveryRover",
+      "track": "Track 3: Robotics & Autonomous Systems",
+      "why_it_could_win": "Directly hits Track 3 with a fully functional physical robot prototype, matching the profile of past international hardware hackathon winners."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "An edge-AI hardware node using a camera module and microcontroller to instantly detect safety gear violations on the factory floor.",
+      "problem_statement": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitoring)",
+      "stack": [
+        "ESP32-CAM",
+        "Python",
+        "TensorFlow Lite",
+        "OpenCV"
+      ],
+      "title": "IndustrialSafetyVisionNode",
+      "track": "Track 4: Open Innovation",
+      "why_it_could_win": "Combines edge computer vision with industrial automation constraints, directly appealing to open innovation judges looking for practical deployment value."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An off-grid acoustic walkie-talkie mesh network routing ultra-fast emergency data packets without cellular infrastructure.",
+      "problem_statement": "Track 4: Open Innovation (AgriTech, Industrial Automation, Environmental Monitoring)",
+      "stack": [
+        "Arduino",
+        "SX1276 LoRa Modules",
+        "C++",
+        "TypeScript"
+      ],
+      "title": "AcousticMeshFieldComm",
+      "track": "Track 4: Open Innovation",
+      "why_it_could_win": "Wins on unique physical hardware capabilities by demonstrating robust off-grid RF and acoustic communication live on campus."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

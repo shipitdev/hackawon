@@ -1,94 +1,111 @@
 {
-  "generated_at": "2026-09-13T07:59:33.886525+00:00",
+  "generated_at": "2026-09-21T08:29:47.336062+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750960",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "An automated pipeline using Stable Diffusion and ControlNet to cleanly composite an actual screenshot of your itsfolio portfolio inside a retro cyberpunk workstation desktop background for social media.",
-      "stack": [
-        "Python",
-        "Stable Diffusion",
-        "ControlNet",
-        "FastAPI"
-      ],
-      "title": "FolioBlend AI Social Creative",
-      "track": "",
-      "why_it_could_win": "Directly hits the strict core requirement of the competition by ensuring the itsfolio portfolio is visibly and aesthetically embedded within an original AI-generated promotional asset."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI image generator tuned specifically on LinkedIn influencer aesthetics that ingests your itsfolio URL, scrapes your projects, and outputs a multi-panel visual narrative infographic.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "OpenAI API",
-        "Midjourney API"
-      ],
-      "title": "CareerStory Gen",
-      "track": "",
-      "why_it_could_win": "Appeals directly to the judges by fulfilling the prompt's request to showcase personal career transformation and skill representation through itsfolio."
-    },
-    {
-      "build_hours": 40,
+      "build_hours": 18,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "A tool that generates isometric 3D device mockups displaying your live itsfolio URL inside AI-rendered scenic workspace environments ready for Twitter and LinkedIn posting.",
+      "pitch": "An AI image generation workflow using Stable Diffusion inpainting that organically composites a live itsfolio URL mockup onto a futuristic holographic desk setup.",
+      "problem_statement": "Portfolio In Pixels 2026: Create an AI-generated social media post that tells your personal story with itsfolio, visibly incorporating your live itsfolio portfolio.",
       "stack": [
-        "JavaScript",
-        "Three.js",
         "Python",
-        "ComfyUI"
+        "Stable Diffusion",
+        "Automatic1111",
+        "Photoshop API",
+        "HTML"
       ],
-      "title": "PixelFolio Mockup Engine",
+      "title": "PixelFolio Holo-Desk",
       "track": "",
-      "why_it_could_win": "Creates extremely high visual polish and social-media-ready appeal, which is explicitly highlighted in the judging and submission guidelines."
+      "why_it_could_win": "By using precise inpainting rather than generic text-to-image, it ensures the required portfolio mockup is seamlessly and clearly readable, satisfying the twist requirement while looking exceptionally high-end for social media."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A comic-book style AI generation pipeline that illustrates a developer's transformation from a messy paper resume into a clean itsfolio webpage inside a cyberpunk manga panel.",
+      "problem_statement": "Portfolio In Pixels 2026: Create an AI-generated social media post showcasing how itsfolio helped you transform your resume into a professional portfolio.",
+      "stack": [
+        "Python",
+        "Midjourney API",
+        "ComfyUI",
+        "Node.js"
+      ],
+      "title": "CyberResume Evolution",
+      "track": "",
+      "why_it_could_win": "Comic aesthetics stand out instantly in a Twitter or LinkedIn feed compared to corporate stock-photo style images, maximizing the social-media-ready judging criteria."
     },
     {
       "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "An image generation companion that transforms your itsfolio resume bullet points into a surrealist, metaphorical hero's journey digital painting suitable for tech Twitter storytelling.",
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An automated pipeline that takes screenshots of an itsfolio portfolio and uses ControlNet to generate an artistic museum gallery background where the portfolio hangs as a masterpiece painting.",
+      "problem_statement": "Portfolio In Pixels 2026: Show how your portfolio represents your skills and achievements by visibly incorporating your itsfolio portfolio into an original AI-generated image.",
       "stack": [
         "Python",
-        "LangChain",
-        "DALL-E 3 API"
+        "ControlNet",
+        "Stable Diffusion XL",
+        "FastAPI"
       ],
-      "title": "Resume-to-Art Narrative AI",
+      "title": "ItsFolio SynthGallery",
       "track": "",
-      "why_it_could_win": "Stands out from standard boring screenshots by offering a highly creative and original interpretation of turning professional experience into an engaging social creative."
+      "why_it_could_win": "ControlNet guarantees structural fidelity of the embedded itsfolio screenshot while allowing creative freedom for the surrounding gallery environment, directly hitting the core challenge twist."
     },
     {
-      "build_hours": 42,
+      "build_hours": 12,
       "inspired_by": [
-        "github:1185920891"
+        "github:1200926140"
       ],
-      "pitch": "A lightweight web app where users paste their itsfolio link, pick a professional persona theme, and instantly generate custom branded carousel posts with embedded portfolio previews.",
+      "pitch": "A surrealist 3D render generated via AI where an astronaut or professional steps through a magical portal, with the portal frame displaying an exact screenshot of their live itsfolio portfolio.",
+      "problem_statement": "Portfolio In Pixels 2026: Showcase how having an online portfolio can help in your career by creating an AI-generated social media post with your itsfolio portfolio visibly incorporated.",
+      "stack": [
+        "Python",
+        "DALL-E 3 API",
+        "Playwright",
+        "React"
+      ],
+      "title": "CareerDimension Portal",
+      "track": "",
+      "why_it_could_win": "Surreal storytelling metaphors resonate strongly with marketing and design judges, transforming a dry resume upgrade story into an epic visual narrative."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1183964401",
+        "github:1200926140"
+      ],
+      "pitch": "A custom web wrapper that lets users instantly snapshot their itsfolio profile, apply thematic AI-generated backgrounds (cyberpunk, minimalist loft, cozy desk), and export a ready-to-post graphic.",
+      "problem_statement": "Portfolio In Pixels 2026: Create an AI-generated social media post that tells your personal story with itsfolio while visibly incorporating your own itsfolio portfolio.",
       "stack": [
         "TypeScript",
-        "React",
-        "Tailwind CSS",
-        "Cloudinary"
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI API",
+        "html2canvas"
       ],
-      "title": "FolioFlex Social Studio",
+      "title": "PixelArchitect Studio",
       "track": "",
-      "why_it_could_win": "Provides a practical and complete end-to-end user experience that demonstrates deep integration with the platform hosting the competition (itsfolio.tech)."
+      "why_it_could_win": "Building a functional mini-tool that actually automates the submission format demonstrates superior engineering effort over manual prompt generation, giving judges a working demo to test."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

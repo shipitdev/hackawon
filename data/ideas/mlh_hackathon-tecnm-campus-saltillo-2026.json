@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:55:24.843610+00:00",
+  "generated_at": "2026-09-21T08:12:06.651379+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,98 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackathon-tecnm-campus-saltillo-2026",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 26,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring and land compliance platform designed to track industrial expansion and zoning violations in Coahuila manufacturing corridors.",
+      "pitch": "AI-powered satellite and drone imagery monitoring platform for tracking industrial land and environmental compliance in Coahuila manufacturing corridors.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "PostGIS",
-        "Leaflet"
+        "Next.js",
+        "OpenCV"
       ],
-      "title": "SaltilloAutoCompliance",
+      "title": "SaltilloFlow Industrial Compliance Vision",
       "track": "",
-      "why_it_could_win": "Mirrors the exact technical architecture that won the Xcelerate Hackathon by combining geospatial data with automated computer vision to solve local industrial oversight problems."
+      "why_it_could_win": "Follows the pattern of GeoNex-ATLAS by delivering hard geospatial intelligence tailored to regional industrial manufacturing needs, which appeals directly to local industry judges."
     },
     {
-      "build_hours": 26,
+      "build_hours": 28,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "AWS-powered risk detection and investigation platform tailored for local maquiladora supply chains, combining graph intelligence and anomaly detection.",
+      "pitch": "An AWS-powered risk detection platform combining graph intelligence and LightGBM to flag anomalous transactions and supplier fraud in regional automotive supply chains.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
+        "Python",
         "AWS",
-        "Neo4j",
         "LightGBM"
       ],
-      "title": "CoahuilaSupplyChainAML",
+      "title": "Coahuila Supply Chain AML & Risk Graph",
       "track": "",
-      "why_it_could_win": "Leverages heavy enterprise tooling and graph intelligence to solve a concrete financial and logistics compliance issue relevant to industrial border regions."
+      "why_it_could_win": "Employs rigorous graph analytics and explainable machine learning proven to win technical tracks, showing depth beyond a simple wrapper."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Poisson GAM and multinomial share model forecasting platform for predicting energy consumption and incident anomalies across TecNM campus facilities with calibrated confidence intervals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "SaltilloGreen Campus Energy Forecaster",
+      "track": "",
+      "why_it_could_win": "Leverages advanced statistical modeling and rolling backtests seen in winning forecasting systems, demonstrating rigorous data science execution."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Personalized multi-agent student support platform combining LangGraph, RAG, and specialized AI agents to guide engineering students through local curriculum requirements.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "TecNM Student Multi-Agent Academic Support",
+      "track": "",
+      "why_it_could_win": "Directly tackles a relatable student pain point with a sophisticated multi-agent orchestration architecture proven at university hackathons."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1087704265"
+        "github:1241231621"
       ],
-      "pitch": "Poisson regression and GAM-based forecasting tool predicting regional agricultural yield disruptions and climate incident risks in northern Mexico.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Scikit-learn",
-        "Pandas"
-      ],
-      "title": "NorteAgroForecaster",
-      "track": "",
-      "why_it_could_win": "Demonstrates genuine mathematical and statistical rigor rather than a basic wrapper, matching the winning formula of the Apart Research AI Forecasting Hackathon."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student support and institutional RAG platform built with LangGraph to automate administrative navigation and academic resource allocation.",
+      "pitch": "AI-powered patient acquisition and trust engine designed for local health clinics in Saltillo to streamline intake and automate regional insurance compliance.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "OpenAI API",
-        "Next.js"
+        "Next.js",
+        "Gemini API"
       ],
-      "title": "TecNMSmartCampusRAG",
+      "title": "SaltilloMed AI Patient Trust Engine",
       "track": "",
-      "why_it_could_win": "Directly addresses campus administrative friction at TecNM using state-of-the-art multi-agent orchestration, following the GreenNovation Hackathon winner."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-driven nutrition and personalized meal planning assistant optimized for local traditional Mexican ingredients, dietary restrictions, and regional markets.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "LocalBitesSaltillo",
-      "track": "",
-      "why_it_could_win": "Provides immediate consumer utility with localized personalization, matching the rapid scoping and execution profile of the Mealzy 24-Hour Hackathon winner."
+      "why_it_could_win": "Focuses on high-impact vertical software with immediate practical utility for local service providers, prioritizing a polished user workflow."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

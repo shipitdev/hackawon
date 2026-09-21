@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T07:37:34.103553+00:00",
+  "generated_at": "2026-09-21T08:08:31.080349+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "impact"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:4d5b894df7164d34ae411f4b9c2d996c",
@@ -14,87 +18,96 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1241231621"
+        "github:1346526259"
       ],
-      "pitch": "An AI-powered voiceover and localization workbench designed for regional creators in Central India, allowing instant dubbing into local dialects while matching authentic emotional tone and lip-sync cadence.",
+      "pitch": "A localized public announcement and civic archiving system that converts official government safety bulletins and public interest notices into hyper-realistic regional Indian languages using ElevenLabs voice cloning, making critical public information accessible to non-literate citizens.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
+        "React",
+        "Node.js",
         "ElevenLabs API",
         "TailwindCSS"
       ],
-      "title": "VoiceCraft Studio",
+      "title": "ElevenNarrate Public Interest Voice Archive",
       "track": "1 Month Free Creator Tier",
-      "why_it_could_win": "Leverages ElevenLabs sponsor track directly by integrating cutting-edge voice generation APIs to solve a localized media production problem, maximizing sponsor track win probability."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring and change-detection platform tailored for tracking industrial land compliance and mining encroachment in the Chhattisgarh region using multi-spectral imagery.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "GIS libraries",
-        "OpenAI API",
-        "React"
-      ],
-      "title": "BastarGIS Satellite Monitor",
-      "track": "Open Innovation",
-      "why_it_could_win": "Mirrors the exact success pattern of regional infrastructural wins like GeoNex-ATLAS at local state industrial hackathons by tackling a problem of direct public and industrial interest in Raipur."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A voice-first agricultural advisory platform utilizing ElevenLabs for natural language text-to-speech output, helping local farmers navigate mandi prices, crop disease diagnoses, and government welfare schemes in regional languages.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "ElevenLabs API",
-        "React Native"
-      ],
-      "title": "AgriVoice Advisory",
-      "track": "Grand Prize: 3 Months Pro Tier",
-      "why_it_could_win": "Directly targets the ElevenLabs sponsor track by building a practical real-world utility of public interest for the agrarian economy of Central India."
+      "why_it_could_win": "Directly targets the ElevenLabs sponsor prize track by deeply integrating their voice synthesis API into a real public interest workflow."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1185920891"
+        "github:1177555968"
       ],
-      "pitch": "A localized decentralized escrow and autonomous agent marketplace for rural artisans and self-help groups to securely transact with buyers using low-fee settlement layers.",
+      "pitch": "An interactive ecosystem simulation platform focused on local biodiversity and species monitoring in Central India, featuring real-time analytics and predictive environmental modeling for public awareness.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "Solidity",
-        "Base",
-        "USDC SDK"
+        "Express",
+        "Cytoscape.js",
+        "Cycle-detection",
+        "CSS"
       ],
-      "title": "GraminChain Escrow",
+      "title": "EcoSim Central India",
       "track": "Open Innovation",
-      "why_it_could_win": "Adapts the proven fintech-agent marketplace architecture seen in Synthesis Hackathon wins into a context that serves public welfare and regional commerce."
+      "why_it_could_win": "Mirrors the exact architecture of proven environmental dashboard winners with robust simulation loops and clear public utility."
     },
     {
-      "build_hours": 20,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1182199849",
+        "github:1346526259"
       ],
-      "pitch": "An interactive voice-driven nutrition and wellness companion that analyzes regional diets and delivers spoken personalized meal recommendations and lifestyle guidance using ElevenLabs voice synthesis.",
+      "pitch": "A voice-first multilingual medical triage and preliminary symptom collection app built using ElevenLabs speech-to-text and text-to-speech pipelines, designed to assist rural health clinics in rapid patient intake.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "TypeScript",
         "Next.js",
         "ElevenLabs API",
-        "Gemini API"
+        "Supabase"
       ],
-      "title": "NutriVoice Health Assistant",
+      "title": "VoiceCare AI Health Intake",
+      "track": "Grand Prize: 3 Months Pro Tier",
+      "why_it_could_win": "Combines socially impactful healthcare application design with seamless execution of sponsor audio tech."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A GPS-enabled civic issue reporting and reward platform that incentivizes citizens to log local infrastructure problems, paired with an AI copilot that automatically routes complaints to the correct municipal department.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Leaflet.js",
+        "LLM API"
+      ],
+      "title": "CivicPulse Raipur",
+      "track": "Open Innovation",
+      "why_it_could_win": "Focuses on real-world public interest problems mandated by CodeUtsava, delivering a fully working mobile-web demo with immediate municipal utility."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1234067949",
+        "github:1221831348"
+      ],
+      "pitch": "An IoT and voice-accessible web platform that warns local farmers and water management authorities about water contamination and irrigation risks days in advance using lightweight ML models and audio briefings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "ElevenLabs API",
+        "Chart.js"
+      ],
+      "title": "AgriVoice AquaPredict",
       "track": "3 Months Scale Tier",
-      "why_it_could_win": "Combines consumer health tech with the ElevenLabs sponsor track, making it a strong contender for both the general prizes and the creator/scale tier sponsor awards."
+      "why_it_could_win": "Integrates predictive machine learning for regional public safety while leveraging ElevenLabs audio generation for accessible farmer alerts."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

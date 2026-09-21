@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:40:57.605163+00:00",
+  "generated_at": "2026-09-21T08:09:29.046088+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "theme_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:92471ffe6c0c4d7399ab14b31c4d75e0",
@@ -14,87 +16,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph-intelligence and LightGBM-powered transaction monitoring system designed to flag anomalous ticketing and local micro-mobility fund flows in real-time.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "Mathura-Transit-Graph-AML",
-      "track": "1st Prize",
-      "why_it_could_win": "Leverages heavy data-science engineering and structured graph models, mirroring the exact technical complexity that won the DIGITIMES AI Innovation Hackathon."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring pipeline that tracks unauthorized industrial encroachment on agricultural land around Mathura using multi-spectral imagery.",
+      "pitch": "AI-powered satellite monitoring for regional agricultural and industrial land compliance around Mathura.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "Next.js"
+        "Next.js",
+        "TailwindCSS",
+        "Leaflet"
       ],
-      "title": "Agri-Satellite-Land-Watch-UP",
-      "track": "2nd Prize",
-      "why_it_could_win": "Directly replicates the satellite monitoring and computer vision execution pattern that secured 2nd runner-up at the Xcelerate Hackathon."
+      "title": "AgriSights GLA",
+      "track": "1st Prize",
+      "why_it_could_win": "Leverages heavy geographic AI monitoring similar to past winners like GeoNex-ATLAS, giving judges an impressive data visualization and computer vision showcase."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "A localized nutrition and meal-planning assistant blending traditional regional dietary wisdom with modern macro-nutrient tracking via a fine-tuned Gemini API.",
-      "stack": [
-        "Python",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "Ayurvedic-Nutrition-RAG-Engine",
-      "track": "3rd Prize",
-      "why_it_could_win": "Follows the proven formula of winning wellness and nutrition hackathons by pairing localized utility with high-speed RAG architecture."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1185920891",
         "github:1213911408"
       ],
-      "pitch": "An autonomous AI agent marketplace for university event management featuring automated USDC escrow payments and service verification.",
+      "pitch": "Multi-agent student support and mentorship platform built specifically for large campus hackathons using LangGraph and RAG.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "LangGraph"
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
       ],
-      "title": "Campus-Event-Autonomous-Escrow",
+      "title": "CampusGraph AI Support",
       "track": "1st Prize",
-      "why_it_could_win": "Combines autonomous multi-agent workflows with cryptographic escrow infrastructure, duplicating the winning architecture from the Synthesis Hackathon."
+      "why_it_could_win": "Directly tackles the multi-agent architecture pattern seen in GreenNovation AI Platform, providing immediate utility to the 600+ developers attending the event."
     },
     {
-      "build_hours": 34,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1087704265"
+        "github:1241231621"
       ],
-      "pitch": "A Poisson GAM regression model engineered to forecast localized power grid anomalies and infrastructure failure risks for campus micro-grids.",
+      "pitch": "AI-powered patient acquisition and trust engine tailored for regional dental and prosthodontic clinics.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Scikit-Learn",
-        "Pandas"
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "PostgreSQL"
       ],
-      "title": "Local-Grid-Load-Forecasting",
+      "title": "TrustEngine Prosthodontics India",
       "track": "2nd Prize",
-      "why_it_could_win": "Features heavy statistical modeling and robust rolling backtests, matching the rigorous technical evaluation criteria of the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Replicates the fast validation and clear business utility of Global-Smile, demonstrating immediate monetization potential to startup-focused judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized nutrition and wellness platform utilizing local Indian dietary habits for meal recommendations and health tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AgriNutri AI Local",
+      "track": "3rd Prize",
+      "why_it_could_win": "Adapts the proven consumer health architecture of E-Foodiee-AI-Nutrition-Assistant into a localized context with high everyday user engagement."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Graph intelligence and risk detection platform for flagging suspicious regional financial transactions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "LightGBM",
+        "Neo4j"
+      ],
+      "title": "ComplianceGuard AML",
+      "track": "1st Prize",
+      "why_it_could_win": "Applies hardcore graph data structures and anomaly detection similar to Bito, satisfying judges looking for advanced backend engineering."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

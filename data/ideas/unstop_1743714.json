@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:53:06.776131+00:00",
+  "generated_at": "2026-09-21T08:21:07.446793+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,11 +7,12 @@
     ],
     "exemplar_count": 8,
     "patterns": [
-      "working-demo",
       "technical-depth",
-      "sponsor-tech",
-      "unique-data"
+      "unique-data",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1743714",
@@ -21,85 +22,89 @@
       "inspired_by": [
         "github:1228328106"
       ],
-      "pitch": "A custom CNN architecture that concatenates the sun_azimuth_angle metadata directly into the latent feature layers to overcome topographic inversion on 256x256 grayscale lunar images.",
+      "pitch": "A dual-input CNN that processes both grayscale lunar surface images and sun azimuth metadata to correctly classify craters versus mounds despite variable lighting shadows.",
+      "problem_statement": "The Pareidolia Paradox: Classifying 256x256 grayscale lunar surface images into depth (craters/holes) and rise (mounds/hills) categories while accounting for topographic inversion using sun_azimuth_angle.",
       "stack": [
         "Python",
         "PyTorch",
         "Pandas",
-        "Scikit-Learn"
+        "Scikit-Learn",
+        "Jupyter Notebook"
       ],
-      "title": "SunAngle-ResNet: Azimuth-Aware Lunar Feature Classifier",
+      "title": "Azimuth-Aware ResNet for Lunar Topographic Inversion",
       "track": "",
-      "why_it_could_win": "Directly tackles the core computer vision challenge of the event by treating illumination angle as a first-class feature rather than post-processing noise."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1228328106"
-      ],
-      "pitch": "Extracts robust spatial texture and gradient histograms from lunar images and combines them with sun_azimuth_angle in an XGBoost pipeline with SHAP interpretability.",
-      "stack": [
-        "Python",
-        "XGBoost",
-        "OpenCV",
-        "SHAP",
-        "Streamlit"
-      ],
-      "title": "TopoInvert-XGB: Metadata-Enriched Gradient Boosting for Lunar Surface Classification",
-      "track": "",
-      "why_it_could_win": "Leverages proven tabular and vision feature extraction techniques with explainable AI to ensure robust performance on evaluation sets."
+      "why_it_could_win": "By explicitly concatenating the sun azimuth angle as a secondary feature vector alongside image embeddings, the model directly solves the core optical illusion problem of topographic inversion, maximizing Balanced Accuracy."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A fine-tuned Vision Transformer leveraging specialized positional embeddings derived from sun azimuth angles to correctly classify craters versus boulders under varying lighting.",
-      "stack": [
-        "Python",
-        "HuggingFace Transformers",
-        "PyTorch",
-        "FastAPI"
-      ],
-      "title": "ShadowShift-ViT: Vision Transformer for Crater vs Rise Detection",
-      "track": "",
-      "why_it_could_win": "Employs state-of-the-art transformer architectures capable of capturing global spatial context across tricky lunar terrain lighting conditions."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1200926140",
         "github:1228328106"
       ],
-      "pitch": "An interactive web dashboard that visualizes misclassified lunar patches, displays confidence scores alongside sun azimuth angles, and runs live inference on test metadata.",
+      "pitch": "An image preprocessing pipeline that simulates or normalizes lighting variations based on sun azimuth before feeding patches into an EfficientNet classifier.",
+      "problem_statement": "The Pareidolia Paradox: Classifying 256x256 grayscale lunar surface images into depth (craters/holes) and rise (mounds/hills) categories while accounting for topographic inversion using sun_azimuth_angle.",
       "stack": [
         "Python",
-        "Streamlit",
-        "Plotly",
-        "PyTorch"
+        "OpenCV",
+        "TensorFlow",
+        "Albumentations"
       ],
-      "title": "LunarDebug-Dash: Real-time Pareidolia Inspection and Error Analysis UI",
+      "title": "TopoShadow-Net: Contrastive Shadow Normalization for Lunar Classification",
       "track": "",
-      "why_it_could_win": "Provides a polished, working live demo that helps judges instantly inspect model weaknesses and understand how lighting changes predictions."
+      "why_it_could_win": "Most teams will pass raw images directly into a standard pretrained model and fail on inverted shadows; this preprocessing approach targets the exact failure mode judges will test against."
     },
     {
-      "build_hours": 36,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1155558847"
+        "github:1266090747",
+        "github:1228328106"
       ],
-      "pitch": "A custom data augmentation and contrastive learning pipeline that pairs images under different synthetic azimuth angles to learn invariant representations of craters and rises.",
+      "pitch": "An XGBoost and CNN hybrid model equipped with Grad-CAM visualization to prove to judges that predictions are based on structural terrain curvature rather than misleading shadow artifacts.",
+      "problem_statement": "The Pareidolia Paradox: Classifying 256x256 grayscale lunar surface images into depth (craters/holes) and rise (mounds/hills) categories while accounting for topographic inversion using sun_azimuth_angle.",
       "stack": [
         "Python",
         "PyTorch",
-        "Albumentations",
-        "NumPy"
+        "Captum",
+        "Streamlit",
+        "XGBoost"
       ],
-      "title": "AzimuthAugment: Self-Supervised Lighting Invariant Pretrainer",
+      "title": "LunarGrad-CAM Explainable Terrain Classifier",
       "track": "",
-      "why_it_could_win": "Solves the specific dataset scarcity issue by generating robust self-supervised representations explicitly conditioned on illumination variance."
+      "why_it_could_win": "Incorporates model explainability to satisfy the evaluation encouragement of focusing on underlying terrain rather than visual shadow patterns, mirroring clinical explainability wins."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A multi-modal architecture using a vision backbone for the 256x256 image and a cyclical encoding of the sun azimuth angle fused via fully connected layers for binary classification.",
+      "problem_statement": "The Pareidolia Paradox: Classifying 256x256 grayscale lunar surface images into depth (craters/holes) and rise (mounds/hills) categories while accounting for topographic inversion using sun_azimuth_angle.",
+      "stack": [
+        "Python",
+        "PyTorch Lightning",
+        "NumPy",
+        "Scikit-Learn"
+      ],
+      "title": "SunAzimuth Meta-Embedding Fusion for Lunar Vision",
+      "track": "",
+      "why_it_could_win": "Treats sun azimuth as a cyclical continuous feature (sine/cosine transformation) rather than a raw linear variable, capturing the true periodic nature of solar angles."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "An automated model ensemble combining Vision Transformers and custom CNNs optimized specifically for balanced accuracy on skewed lunar surface validation splits.",
+      "problem_statement": "The Pareidolia Paradox: Classifying 256x256 grayscale lunar surface images into depth (craters/holes) and rise (mounds/hills) categories while accounting for topographic inversion using sun_azimuth_angle.",
+      "stack": [
+        "Python",
+        "Timm",
+        "PyTorch",
+        "Pandas"
+      ],
+      "title": "Ensemble Topographic Voting Engine",
+      "track": "",
+      "why_it_could_win": "Leaderboards relying on Balanced Accuracy are almost always won by robust blending and ensembling strategies rather than single-model architectures."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

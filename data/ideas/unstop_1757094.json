@@ -1,103 +1,110 @@
 {
-  "generated_at": "2026-09-17T07:56:59.692174+00:00",
+  "generated_at": "2026-09-21T08:36:10.212085+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757094",
   "ideas": [
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1181344931",
         "github:1200926140"
       ],
-      "pitch": "A real-time analytics dashboard that ingests chat transcripts, tracks the emotional arc across multi-turn exchanges, and flags subtle shifts into sarcasm, passive-aggression, and escalation.",
+      "pitch": "An AI-powered tool that ingests chat exports from WhatsApp and Slack, mapping out emotional arcs and flagging sarcasm, passive-aggressiveness, and escalation points in real time.",
+      "problem_statement": "PS-01 — Tone Intelligence in Conversations",
       "stack": [
         "Python",
         "FastAPI",
-        "Next.js",
-        "Hugging Face Transformers",
+        "React",
+        "TailwindCSS",
+        "HuggingFace Transformers",
         "Recharts"
       ],
-      "title": "ChatPulse: Multi-Turn Conversation Emotional Arc & Sarcasm Tracker",
+      "title": "ChatArc: Multi-Turn Conversation Tone & Escalation Visualizer",
       "track": "PS-01 — Tone Intelligence in Conversations",
-      "why_it_could_win": "Directly targets Problem Statement PS-01 for the Cerebro Hackathon, addressing the exact requirements of sarcasm detection and emotion-arc visualization over conversations."
+      "why_it_could_win": "Directly hits all requirements of PS-01 with a concrete emotional-arc visualization dashboard, satisfying the core judging criteria for affective computing sentiment tracking."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
-      ],
-      "pitch": "An NLP pipeline that monitors live customer support chats, calculates rolling sentiment and toxicity metrics, and predicts customer churn or escalation risk before it happens.",
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A web utility that accepts raw audio recordings from support calls or meetings, extracting pitch, jitter, shimmer, and vocal inflection to predict hidden emotional states and stress levels.",
+      "problem_statement": "PS-02 — Voice as a Mood Signal",
       "stack": [
         "Python",
-        "TypeScript",
+        "Librosa",
         "PyTorch",
-        "TailwindCSS"
+        "Flask",
+        "Next.js"
       ],
-      "title": "EscalationEye: Customer Support Sentiment Escalation Predictor",
-      "track": "PS-01 — Tone Intelligence in Conversations",
-      "why_it_could_win": "Leverages time-series forecasting and regression patterns seen in winning AI incident models, applied specifically to conversational emotion tracking."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph-based sentiment visualization tool that maps interpersonal relationships, hidden tensions, and shifting tone dynamics across group messaging platforms.",
-      "stack": [
-        "Python",
-        "NetworkX",
-        "React",
-        "Flask"
-      ],
-      "title": "ToneGraph: Network Analysis of Group Chat Dynamics and Tensions",
-      "track": "PS-01 — Tone Intelligence in Conversations",
-      "why_it_could_win": "Combines graph intelligence with affective computing, providing the technical depth judges look for in CSE department hackathons."
+      "title": "VoicePulse: Voice-First Mood and Stress Signal Analyzer",
+      "track": "PS-02 — Voice as a Mood Signal",
+      "why_it_could_win": "Tackles speech processing and affective computing—areas highlighted in the hackathon description—by transforming raw audio signals into interpretable psychological metrics."
     },
     {
       "build_hours": 28,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "A lightweight browser extension and API that highlights ironic or passive-aggressive remarks in long Slack or Discord chat logs with confidence scores.",
+      "inspired_by": [],
+      "pitch": "A specialized NLP browser extension and dashboard that scans Slack channels for hidden friction, passive-aggressive remarks, and sarcasm among remote software teams.",
+      "problem_statement": "PS-01 — Tone Intelligence in Conversations",
       "stack": [
-        "JavaScript",
+        "TypeScript",
+        "React",
         "Python",
         "FastAPI",
-        "Chrome Extensions API"
+        "RoBERTa"
       ],
-      "title": "SarcasmScope: Fine-Tuned Irony Detector for Multi-Turn Dialogues",
+      "title": "SarcasmRadar: Detecting Passive-Aggressive Tones in Developer Chatlogs",
       "track": "PS-01 — Tone Intelligence in Conversations",
-      "why_it_could_win": "Solves the notoriously difficult NLP problem of sarcasm and irony detection requested in PS-01 with a functional, end-to-end usable product."
+      "why_it_could_win": "Solves a problem judges and developers feel themselves daily in remote collaboration tools, coupling high technical difficulty in irony detection with immediate practical utility."
     },
     {
       "build_hours": 34,
       "inspired_by": [
-        "github:1241231621",
-        "github:1200926140"
+        "github:1132337467"
       ],
-      "pitch": "An automated auditing tool that ingests customer success chat histories, visualizes the emotional trajectory, and generates executive summaries of team-to-customer emotional resonance.",
+      "pitch": "A combined sentiment tracking pipeline that correlates textual transcripts with raw vocal prosody signals to resolve ambiguities like sarcasm where words and voice tones conflict.",
+      "problem_statement": "PS-02 — Voice as a Mood Signal",
+      "stack": [
+        "Python",
+        "Transformers",
+        "Librosa",
+        "Streamlit"
+      ],
+      "title": "EmoteSync: Multimodal Audio-Text Sentiment Synchronizer",
+      "track": "PS-02 — Voice as a Mood Signal",
+      "why_it_could_win": "Combines natural language processing and speech processing into a robust multimodal engine, showcasing advanced machine learning depth expected at a neural sentiment hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An enterprise-ready customer support dashboard that monitors incoming multi-turn support chats, scoring frustration levels and automatically triggering alerts before customer churn occurs.",
+      "problem_statement": "PS-01 — Tone Intelligence in Conversations",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
-        "Gemini API"
+        "Pandas",
+        "Chart.js"
       ],
-      "title": "EmpathChat: Executive Summary of Conversational Emotional Health",
+      "title": "EscalationGuard: Customer Support Sentiment and Tension Tracker",
       "track": "PS-01 — Tone Intelligence in Conversations",
-      "why_it_could_win": "Translates complex affective computing metrics into clear, actionable business insights that appeal directly to academic and industry judges."
+      "why_it_could_win": "Demonstrates clear measurable economic impact by preventing customer support escalation, appealing directly to evaluators looking for practical AI business applications."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

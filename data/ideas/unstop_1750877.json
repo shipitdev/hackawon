@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:33.091736+00:00",
+  "generated_at": "2026-09-21T08:29:37.946789+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,104 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750877",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An offline-first graph intelligence platform for rural cooperatives to predict supply chain disruptions, crop yield failures, and credit default risks using localized weather and market signals.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "NetworkX",
-        "LightGBM"
-      ],
-      "title": "AgriGraph Rural Supply Chain Risk Analyzer",
-      "track": "Social Impact: HealthTech, Medical AI, AgriTech & Rural Innovation",
-      "why_it_could_win": "Directly targets the Social Impact track (AgriTech & Rural Innovation) by combining graph intelligence and risk scoring, echoing the exact technical architecture that won the DIGITIMES AI Innovation Hackathon."
-    },
-    {
       "build_hours": 32,
       "inspired_by": [
-        "github:1181344931"
+        "github:1241231621"
       ],
-      "pitch": "A localized antimicrobial resistance (AMR) tracking platform that uses graph neural networks to map hospital infection outbreaks and predict treatment failures before clinical symptoms peak.",
-      "stack": [
-        "Python",
-        "PyTorch Geometric",
-        "Next.js",
-        "PostgreSQL"
-      ],
-      "title": "MediGraph AMR Pathogen Surveillance",
-      "track": "Social Impact: HealthTech, Medical AI, AgriTech & Rural Innovation",
-      "why_it_could_win": "Fulfills the Social Impact track (HealthTech & Medical AI) with a deeply rigorous machine learning approach, matching the technical depth of winning graph-based anomaly detection systems."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An edge-computing satellite monitoring system that automatically detects unauthorized industrial waste dumping and deforestation in rural and semi-urban zones using computer vision.",
+      "pitch": "An AI-powered emergency department triage and bed allocation engine that integrates generative text ingestion with real-time hospital resource mapping.",
+      "problem_statement": "HealthTech & MedAI: Technology-driven solutions for better healthcare.",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "Node.js"
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "EcoEdge Industrial Land Compliance Monitor",
-      "track": "Smart Infrastructure: Smart Cities, IoT, Edge Computing & Green Tech",
-      "why_it_could_win": "Targets the Smart Infrastructure track (Smart Cities, IoT, Edge Computing & Green Tech) and directly mirrors the architecture of the runner-up project at Xcelerate Hackathon."
+      "title": "MediChain-AI: Automated Hospital Triage & Resource Allocation",
+      "track": "HealthTech & MedAI",
+      "why_it_could_win": "Addresses a critical high-stress hospital bottleneck and incorporates an explainable LLM triage log, directly appealing to medical judges looking for practical clinical workflows rather than generic chatbots."
     },
     {
       "build_hours": 34,
       "inspired_by": [
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous multi-agent system built with LangGraph to dynamically balance local solar microgrid loads, battery storage, and EV charging stations during sudden grid instability.",
+      "pitch": "A high-speed transaction monitoring dashboard that uncovers synthetic identity rings using graph intelligence and lightweight gradient-boosted decision trees.",
+      "problem_statement": "FinTech & Blockchain: Innovations in finance, digital payments, and blockchain.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "Neo4j",
+        "FastAPI"
+      ],
+      "title": "VeritasGrid: AML & Fraud Graph Detection for FinTech",
+      "track": "FinTech & Blockchain",
+      "why_it_could_win": "Employs heavy graph-based relational data processing instead of a simple rule engine, mirroring award-winning financial engineering patterns."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An autonomous computer vision pipeline paired with a mapping dashboard to detect safety violations and land encroachment in industrial facilities.",
+      "problem_statement": "Robotics & Autonomous Systems: Smart robotics, automation, and autonomous technologies.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ROS2",
+        "React",
+        "Node.js"
+      ],
+      "title": "Autonomous Drone-Based Industrial Compliance Scanner",
+      "track": "Robotics & Autonomous Systems",
+      "why_it_could_win": "Combines physical automation workflows with computer vision metrics, giving judges a tangible system demo that goes beyond basic software screens."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1087704265"
+      ],
+      "pitch": "A multi-agent RAG system that runs simulation forecasts on operational regulatory changes to predict enterprise compliance failures.",
+      "problem_statement": "Generative AI & LLM Applications: AI-powered solutions using Generative AI and LLMs.",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Python",
-        "TailwindCSS"
+        "FastAPI",
+        "Pinecone"
       ],
-      "title": "GridPulse Autonomous Microgrid Optimizer",
-      "track": "Smart Infrastructure: Smart Cities, IoT, Edge Computing & Green Tech",
-      "why_it_could_win": "Matches the Smart Infrastructure track by blending automation and edge computing, utilizing multi-agent coordination patterns proven at the GreenNovation Hackathon."
+      "title": "Nexus-LLM: Multi-Agent Policy Compliance & Incident Forecaster",
+      "track": "Generative AI & LLM Applications",
+      "why_it_could_win": "Uses advanced multi-agent coordination rather than a basic wrapper, showing real algorithmic depth that impresses technical evaluators."
     },
     {
-      "build_hours": 26,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1087704265"
+        "github:1183964401"
       ],
-      "pitch": "A localized security telemetry forecasting engine that utilizes Poisson regression and rolling backtests to predict system breaches and resource overloads in enterprise IT infrastructure.",
+      "pitch": "A decentralized algorithmic strategy builder allowing non-technical users to compose, backtest, and safely execute trading bots with automated escrow logic.",
+      "problem_statement": "FinTech & Blockchain: Innovations in finance, digital payments, and blockchain.",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "FastAPI"
+        "TypeScript",
+        "Solidity",
+        "Next.js",
+        "Ethers.js"
       ],
-      "title": "AuraGuard AI Incident Forecaster",
-      "track": "AI & Next-Gen Tech: Generative AI, LLM Applications, Artificial Intelligence & Cybersecurity",
-      "why_it_could_win": "Addresses the AI & Next-Gen Tech track (Artificial Intelligence & Cybersecurity) through rigorous statistical modeling, mimicking the exact winning methodology of the Apart Research AI Forecasting Hackathon."
+      "title": "Perpetual-AI: No-Code Algorithmic Trading & Escrow Engine",
+      "track": "FinTech & Blockchain",
+      "why_it_could_win": "Delivers a fully functional end-to-end user product with financial transaction controls, satisfying both UI polish and technical execution criteria."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,15 +1,18 @@
 {
-  "generated_at": "2026-09-19T07:29:13.359679+00:00",
+  "generated_at": "2026-09-21T08:36:45.778745+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
-      "devtools"
+      "fintech"
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757817",
@@ -17,86 +20,93 @@
     {
       "build_hours": 3,
       "inspired_by": [
-        "github:1282252864"
+        "github:995312246"
       ],
-      "pitch": "A human-in-the-loop invoice generator that runs structured entity extraction via an LLM and cross-references a secure price catalog using strict lookup constraints to prevent hallucination.",
+      "pitch": "A rapid Streamlit application that transforms messy Slack chat customer queries into a validated, review-ready invoice using Google Sheets pricing data.",
+      "problem_statement": "Can you turn a simple customer message into a professional invoice using AI?",
       "stack": [
         "Python",
-        "FastAPI",
         "Streamlit",
-        "OpenAI",
-        "Google Sheets API"
+        "OpenAI API",
+        "Google Sheets API",
+        "LangChain"
       ],
-      "title": "AegisInvoice Agent",
+      "title": "StreamLit InvoiceAgent Pro",
       "track": "",
-      "why_it_could_win": "Directly nails the core challenge workflow and explicitly prevents AI price fabrication, which aligns with judges looking for robust enterprise guardrails similar to audited agent workflows."
+      "why_it_could_win": "Directly targets the 30% Functionality & Correctness criterion by strictly matching the required workflow and preventing AI price fabrication via database lookup."
     },
     {
       "build_hours": 3,
       "inspired_by": [
-        "github:1334000568"
+        "github:1289086869"
       ],
-      "pitch": "An intent-based natural language invoice parser that uses a semantic router to route customer messaging to correct pricing tables and service SKU lookups without hardcoded templates.",
+      "pitch": "A headless invoice automation backend built with FastAPI that parses unstructured client requests, checks Airtable for pricing, and generates a PDF review draft.",
+      "problem_statement": "Can you turn a simple customer message into a professional invoice using AI?",
       "stack": [
+        "FastAPI",
         "Python",
-        "Streamlit",
-        "LangChain",
-        "Qwen",
-        "Airtable API"
+        "Airtable API",
+        "ReportLab",
+        "Groq"
       ],
-      "title": "ChatToBill Semantic Router",
+      "title": "FastAPI InvoiceFlow",
       "track": "",
-      "why_it_could_win": "Leverages advanced routing patterns to ensure high-accuracy entity extraction from messy, colloquial customer strings in under 180 minutes."
+      "why_it_could_win": "Wins on the AI Implementation and Price Source Integration criteria by separating extraction logic from structural validation cleanly."
     },
     {
-      "build_hours": 2,
-      "inspired_by": [],
-      "pitch": "A rapid Streamlit application that ingests unstructured customer chat logs, extracts line items via structured JSON outputs, queries an active Excel/Google Sheet database, and outputs a downloadable PDF review-ready invoice.",
+      "build_hours": 3,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A React and Next.js interface with an integrated human-in-the-loop review step that takes natural language requirements and matches them against an Excel price book.",
+      "problem_statement": "Can you turn a simple customer message into a professional invoice using AI?",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "OpenAI API",
+        "SheetJS"
+      ],
+      "title": "Next.js InvoiceGen Dashboard",
+      "track": "",
+      "why_it_could_win": "Excels in the Invoice Quality & Usability (15 Marks) and Real-World Usefulness (10 Marks) criteria by providing a polished front-end approval dashboard."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:855084718"
+      ],
+      "pitch": "A standalone Python script utilizing Claude via LangChain to extract entities from messy emails and strictly enforce CSV-based pricing rules without hallucinations.",
+      "problem_statement": "Can you turn a simple customer message into a professional invoice using AI?",
       "stack": [
         "Python",
-        "Streamlit",
         "Anthropic Claude",
         "Pandas",
-        "Excel"
+        "CSV",
+        "Jinja2"
       ],
-      "title": "SheetSync Invoice Copilot",
+      "title": "Claude Invoice Builder with CSV Guardrails",
       "track": "",
-      "why_it_could_win": "Focuses intensely on smooth UI/UX and zero-latency database fetching, satisfying the exact evaluation criteria for review-ready output generation."
+      "why_it_could_win": "Leverages superior prompt engineering and explicit fallback flags to satisfy the strict anti-fabrication constraint required by judges."
     },
     {
       "build_hours": 3,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "An invoice automation tool featuring a multi-step validation check that rejects unrecognized items, throwing a manual review flag whenever a customer requests a service not present in the connected database.",
+      "inspired_by": [],
+      "pitch": "A zero-latency invoice extraction and price-matching tool powered by Gemini that maps arbitrary natural language orders to an internal Airtable inventory.",
+      "problem_statement": "Can you turn a simple customer message into a professional invoice using AI?",
       "stack": [
         "Python",
-        "FastAPI",
-        "Groq",
-        "Google Sheets API"
+        "Gemini API",
+        "Airtable",
+        "Streamlit",
+        "Pydantic"
       ],
-      "title": "GuardInvoice Zero-Fabrication Engine",
+      "title": "Gemini QuickInvoice Bot",
       "track": "",
-      "why_it_could_win": "Addresses the explicit requirement that the AI must not fabricate prices by implementing a deterministic fallback check."
-    },
-    {
-      "build_hours": 3,
-      "inspired_by": [
-        "github:1351321536"
-      ],
-      "pitch": "A multi-format ingestion tool that parses customer messages from email text, WhatsApp screenshots, or raw chat logs, extracts invoice parameters, and queries Airtable for matching SKUs.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "OpenAI GPT-4o",
-        "Airtable"
-      ],
-      "title": "OmniParse Billing Agent",
-      "track": "",
-      "why_it_could_win": "Handles chaotic real-world inputs while keeping the backend pricing strictly constrained to an external database source."
+      "why_it_could_win": "Focuses on speed and strict adherence to the required 5-step workflow: extraction, price lookup, generation, and review."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

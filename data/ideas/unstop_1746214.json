@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:54.643885+00:00",
+  "generated_at": "2026-09-21T08:23:07.697143+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,89 +7,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746214",
   "ideas": [
     {
       "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A desktop utility that interfaces with MSI hardware sensors via proprietary telemetry to dynamically optimize cooling and performance profiles using lightweight ML inference.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Electron",
-        "Node.js"
-      ],
-      "title": "MSI Hardware-Integrated Thermal AI Controller",
-      "track": "",
-      "why_it_could_win": "Targeted directly at the MSI sponsor stall and technical presence at the venue, appealing to hardware judges who want to see software leverage their specific ecosystem."
-    },
-    {
-      "build_hours": 22,
       "inspired_by": [
-        "github:1213911408"
+        "github:1087704265"
       ],
-      "pitch": "An IoT and AI-powered dashboard tailored for institutional campuses like KPRIET to forecast energy consumption peaks and recommend automated load-shedding strategies.",
+      "pitch": "A real-time energy consumption forecasting and anomaly detection platform for large institutional campuses using historical meter feeds.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Next.js",
-        "LangChain"
+        "FastAPI",
+        "React",
+        "Scikit-Learn",
+        "Chart.js"
       ],
-      "title": "Campus GreenNovation Energy Monitor",
+      "title": "CampusEnergy-AI",
       "track": "",
-      "why_it_could_win": "Leverages the winning pattern of multi-agent RAG forecasting seen in the GreenNovation hackathons, applied locally to the host college's infrastructure."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A geo-spatial monitoring platform that uses open satellite imagery and computer vision to flag unauthorized industrial land use or environmental violations near Coimbatore.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Leaflet.js",
-        "FastAPI"
-      ],
-      "title": "LitzTech Industrial Compliance Satellite Viewer",
-      "track": "",
-      "why_it_could_win": "Aligns with technical priorities from LitzTech and mirrors the technical depth of the Xcelerate satellite monitoring winning project."
+      "why_it_could_win": "Combines hard time-series regression modelling with practical utility, mirroring the technical depth seen in winning forecasting hacks."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A graph-intelligence based anomaly detection dashboard designed to monitor and score digital transaction risks for campus-run cooperative stores and student events.",
+      "pitch": "An AI-powered risk assessment and compliance tracking dashboard for university computer science and electronics laboratories.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
+        "Next.js",
         "LightGBM",
-        "NetworkX"
+        "TailwindCSS"
       ],
-      "title": "WYNTRIX Smart Campus AML & Trust Engine",
+      "title": "SmartLab-RiskGuard",
       "track": "",
-      "why_it_could_win": "Appeals directly to technical sponsor WYNTRIX by deploying graph intelligence and explainable machine learning models similar to the Bito AML platform."
+      "why_it_could_win": "Directly appeals to institutional judges by addressing on-campus safety and resource management with explainable risk scoring."
     },
     {
-      "build_hours": 18,
+      "build_hours": 16,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An automated dietary planning and food waste reduction platform that uses generative AI to map hostel mess weekly menus against individual student health metrics.",
+      "pitch": "A localized nutrition and mess menu optimizer that provides personalized dietary guidance and minimizes food waste in institutional dining halls.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Next.js",
-        "Gemini API"
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
       ],
-      "title": "KPRIET Mess AI Nutrition Assistant",
+      "title": "EcoCampus-DietAI",
       "track": "",
-      "why_it_could_win": "Localized specifically for the KPRIET student body, making the demo instantly relatable and engaging for local judges and faculty members."
+      "why_it_could_win": "Replicates the winning formula of consumer-facing AI wellness apps tailored specifically to a localized student demographic."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video intelligence platform that indexes lecture recordings and departmental event videos into searchable, timestamped transcripts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Whisper API",
+        "Vector Embeddings"
+      ],
+      "title": "CampusVideo-Index",
+      "track": "",
+      "why_it_could_win": "Solves an immediate administrative pain point for the host department using advanced multi-modal search mechanics."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support platform that routes academic and career queries to the most suitable senior peer mentors using knowledge graphs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "PeerMentor-Graph",
+      "track": "",
+      "why_it_could_win": "Showcases cutting-edge multi-agent orchestration and RAG architectures that consistently score high among technical panels."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

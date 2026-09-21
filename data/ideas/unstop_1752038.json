@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-13T08:00:09.519991+00:00",
+  "generated_at": "2026-09-21T08:31:11.701612+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "polish",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752038",
@@ -14,84 +17,90 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1154955274"
       ],
-      "pitch": "An AI-powered satellite and local sensor monitoring platform to automatically track land and facility utilization compliance across the SNS AI Campus.",
+      "pitch": "A clinical decision-support prototype that matches acute medical scans with historical patient twins to aid emergency diagnostics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Next.js",
-        "Leaflet.js"
-      ],
-      "title": "CampusCompliance AI Monitor",
-      "track": "",
-      "why_it_could_win": "Focuses on innovative AI application and clean, understandable coding tailored directly to the host institution's AI campus setting."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent RAG system built for regional agricultural supply chains to optimize fertilizer usage and local crop yields using localized soil data.",
-      "stack": [
-        "Python",
-        "LangGraph",
         "FastAPI",
         "React"
       ],
-      "title": "AgriSustain Multi-Agent Advisor",
+      "title": "CaseTwin AI",
       "track": "",
-      "why_it_could_win": "Leverages advanced multi-agent workflow architecture which strongly aligns with the hackathon being hosted at an AI Campus."
+      "why_it_could_win": "Matches the winning pattern of exceptional polish and clinical relevance seen in top health-tech hackathon projects, directly appealing to judges looking for understandable coding and high-impact innovation."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1275874285"
+        "github:1353074073"
       ],
-      "pitch": "An automated AI nutrition and meal planning assistant tailored for institutional mess halls to reduce food waste and optimize student nutritional intake.",
+      "pitch": "A multi-agent AI system that audits algorithmic decision-making pipelines for demographic and procedural bias.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "Gemini API",
         "Streamlit",
-        "Gemini API"
+        "LangChain"
       ],
-      "title": "CampusMess Nutrition & Waste AI",
+      "title": "ClaimBias Auditor",
       "track": "",
-      "why_it_could_win": "Addresses an immediate, highly relatable campus problem with a polished end-user presentation, matching the judge's focus on better presentation."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining multiple autonomous agents to cross-examine complex payloads, fulfilling the 'Innovative Idea' and 'Better Presentation' criteria."
     },
     {
-      "build_hours": 24,
+      "build_hours": 16,
       "inspired_by": [
-        "github:1181344931"
+        "github:935702069"
       ],
-      "pitch": "A lightweight graph-intelligence based AML and risk scoring platform for micro-transactions between local campus vendors and student cooperatives.",
+      "pitch": "An AI-powered risk assessment model mapping local environmental data and historical weather indicators to predict hazard zones.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "Scikit-Learn",
+        "Pandas",
+        "Leaflet.js"
       ],
-      "title": "LocalVendor Credit & AML Risk Engine",
+      "title": "WildfireRisk Localizer",
       "track": "",
-      "why_it_could_win": "Brings genuinely hard graph-based engineering into a compact, judges-friendly financial inclusion narrative."
+      "why_it_could_win": "Focuses on predictive modeling with concrete metrics and calibrated outputs, making it easy for judges to evaluate code understanding and presentation quality."
     },
     {
-      "build_hours": 20,
+      "build_hours": 15,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A statistical forecasting tool utilizing Poisson regression models to predict and report local IoT or server infrastructure failures within college labs.",
+      "pitch": "A statistical forecasting dashboard utilizing Poisson regression to predict and visualize safety incidents over rolling time horizons.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Plotly"
+      ],
+      "title": "AI Incident Forecaster",
+      "track": "",
+      "why_it_could_win": "Leverages rigorous mathematical backtesting and prediction intervals, which stands out against typical surface-level hackathon wrappers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "An authentic language learning bridge connecting peers via short-form situational video snippets and automated NLP analysis.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Flask"
+        "React Native",
+        "OpenAI Whisper",
+        "FastAPI"
       ],
-      "title": "AI Incident Safety Forecaster",
+      "title": "Mora Exchange",
       "track": "",
-      "why_it_could_win": "Demonstrates rigorous mathematical modeling and calibrated prediction intervals, appealing to judges looking for robust, data-backed execution."
+      "why_it_could_win": "High focus on user-centric product design and polished UI/UX, directly winning over judges who prioritize a great final presentation."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

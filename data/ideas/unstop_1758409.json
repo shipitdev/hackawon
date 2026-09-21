@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-09-20T07:54:23.365499+00:00",
+  "generated_at": "2026-09-21T08:37:22.115985+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758409",
@@ -14,87 +16,96 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
-        "github:1213911408"
+        "github:1329458499"
       ],
-      "pitch": "An automated AI safety incident reporting and forecasting pipeline using n8n workflows combined with Poisson regression models to ingest, parse, and predict regulatory compliance risks.",
+      "pitch": "An autonomous workflow maintenance agent that monitors n8n executions, detects node failures, diagnoses schema or API payload discrepancies, and uses an LLM to automatically patch and re-deploy the fixed n8n workflow JSON via the n8n API.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "n8n API",
         "Python",
-        "n8n",
-        "Jupyter Notebook",
-        "TypeScript"
+        "FastAPI",
+        "LangChain"
       ],
-      "title": "n8n-Powered AI Incident Forecaster",
-      "track": "n8n Pro Plan Winner",
-      "why_it_could_win": "Directly targets the n8n Pro Plan prize track by building an advanced workflow automation while leveraging proven winning methodology from AI forecasting hackathons."
+      "title": "n8n-Workflow-Self-Healing-Agent",
+      "track": "n8n Pro Plan",
+      "why_it_could_win": "Directly targets the n8n Pro Plan prize incentive by building a sophisticated workflow automation utility that utilizes n8n's native capabilities in an entirely novel way."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931"
       ],
-      "pitch": "Satellite imagery monitoring platform that automatically detects industrial land misuse and compliance violations, featuring instant alert triggers via n8n integrations.",
+      "pitch": "A high-performance transaction monitoring engine that constructs real-time transaction relationship graphs and flags anomalous anti-money laundering patterns using graph intelligence and explainable machine learning.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "n8n",
+        "Neo4j",
+        "LightGBM",
         "Next.js"
       ],
-      "title": "GeoCompliant ATLAS",
-      "track": "",
-      "why_it_could_win": "Builds upon runner-up satellite monitoring architecture while incorporating the hackathon's featured n8n integration ecosystem for automated alerts."
+      "title": "Multi-Tenant AML Risk Graph Platform",
+      "track": "Incubation and PPO Track",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in graph data structures and explainable ML within the 48-hour window, appealing heavily to enterprise-minded judges looking for PPO and incubation opportunities."
     },
     {
-      "build_hours": 30,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1241231621"
+        "github:1183964401"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine for specialty clinics, featuring automated multi-step intake and CRM updates powered by n8n.",
+      "pitch": "A no-code strategy builder that transforms plain-text trading ideas into executable perpetual futures smart routing scripts, running automated backtests and deployment routines.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "n8n"
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "Pandas"
       ],
-      "title": "Prosthodontic Trust Engine with Automated Intake",
-      "track": "n8n Pro Plan Winner",
-      "why_it_could_win": "Mirrors a proven fast-sprint winning project structure while satisfying the sponsor-heavy preference for n8n automation workflows."
+      "title": "Autonomous Decentralized Trading Strategy Copilot",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Leverages proven hackathon architecture patterns for complex algorithmic execution engines while maintaining a tight, achievable scope for a 48-hour sprint."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An offline-first multilingual voice and chat agent providing accessible preventive care information, localized symptom triage, and vaccination scheduling reminders for semi-urban communities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "React Native",
+        "SQLite"
+      ],
+      "title": "Rural Health Outreach Multilingual AI Companion",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Delivers concrete, quantifiable social impact and high accessibility, capturing the judges' priority for socially responsible technology eligible for incubator backing."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1213911408"
+        "github:1199751414",
+        "github:1329458499"
       ],
-      "pitch": "A multi-agent academic support and resource allocation platform using LangGraph and RAG, tied into campus administration tools via n8n automation.",
+      "pitch": "A Kubernetes-native operational agent that ties together distributed MCP servers to autonomously query cluster logs, debug infrastructure incidents, and propose verified pull requests.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "RAG",
-        "n8n"
+        "Go",
+        "Python",
+        "Kubernetes",
+        "MCP SDK",
+        "ArgoCD"
       ],
-      "title": "GreenNovation Multi-Agent Student Advisor",
-      "track": "",
-      "why_it_could_win": "Combines a validated multi-agent hackathon-winning architecture with practical workflow automation elements targeted at incubation opportunities."
-    },
-    {
-      "build_hours": 45,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1185920891"
-      ],
-      "pitch": "An AWS-powered anti-money laundering risk detection platform utilizing graph intelligence and automated investigation triggers through n8n.",
-      "stack": [
-        "TypeScript",
-        "AWS",
-        "LightGBM",
-        "n8n"
-      ],
-      "title": "AML Graph Intelligence Dispatcher",
-      "track": "n8n Pro Plan Winner",
-      "why_it_could_win": "Demonstrates genuinely hard engineering in graph-based risk scoring while aligning directly with the n8n automation tooling favored by judges."
+      "title": "Federated Model Context Protocol Incident Investigator",
+      "track": "Main Hackathon",
+      "why_it_could_win": "Showcases advanced systems engineering using the Model Context Protocol, distinguishing the team through deep infrastructure integration rather than wrapper-app simplicity."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

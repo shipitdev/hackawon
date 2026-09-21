@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-09-13T08:00:22.940197+00:00",
+  "generated_at": "2026-09-21T08:31:26.386195+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
       "security",
-      "data"
+      "devtools"
     ],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech",
-      "working-demo"
+      "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1752204",
@@ -19,84 +20,95 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:985196561"
+        "github:1181344931"
       ],
-      "pitch": "An AI-powered NGINX and server log analysis dashboard with real-time anomaly detection and natural language query capabilities.",
-      "stack": [
-        "TypeScript",
-        "FastAPI",
-        "Gemini API",
-        "Next.js"
-      ],
-      "title": "LogSentinel AI",
-      "track": "Web & App Development",
-      "why_it_could_win": "Directly targets the Web & App Development focus area by solving a high-friction real-world systems administration problem with a working dashboard."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1266090747"
-      ],
-      "pitch": "A developer-facing web application that inspects datasets and machine learning models to detect, explain, and mitigate algorithmic bias.",
+      "pitch": "An interactive web application leveraging graph intelligence and Focal LightGBM to detect, visualize, and investigate anti-money laundering risks in real-time.",
+      "problem_statement": "Web & App Development / AI/ML & Deep Learning: Design interactive web applications and build intelligent models or predictive systems to solve complex real-world problems.",
       "stack": [
         "TypeScript",
         "Python",
-        "FastAPI",
-        "React"
-      ],
-      "title": "FairML Auditor",
-      "track": "Web & App Development",
-      "why_it_could_win": "Leverages the proven winning pattern of building a specialized developer utility that addresses ethical AI and technical compliance."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An interactive web platform using satellite imagery data to monitor industrial land usage, zoning adherence, and environmental compliance.",
-      "stack": [
-        "TypeScript",
-        "Leaflet",
-        "Node.js",
+        "LightGBM",
+        "NetworkX",
+        "React",
         "TailwindCSS"
       ],
-      "title": "AeroCompliance Satellite",
-      "track": "Web & App Development",
-      "why_it_could_win": "Combines spatial data visualization with real-world accessibility, aligning strongly with the web application and usability focus areas."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1200926140"
-      ],
-      "pitch": "An AI-powered video intelligence web application that transforms unstructured video streams into fully searchable and timestamp-indexed data.",
-      "stack": [
-        "HTML",
-        "TypeScript",
-        "OpenCV",
-        "Next.js"
-      ],
-      "title": "VisionStream Indexer",
-      "track": "Web & App Development",
-      "why_it_could_win": "Demonstrates heavy multimedia processing combined with a polished web interface, making it stand out in usability and functionality."
+      "title": "AegisGraph: AML Risk Investigation Platform",
+      "track": "AI/ML & Deep Learning",
+      "why_it_could_win": "Combines advanced graph-based risk detection with an intuitive frontend web interface, aligning directly with the hackathon's Web & App and AI/ML focus areas."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
+        "github:1207207353"
       ],
-      "pitch": "A secure web portal for testing personal AI agents with layered prompt-injection hardening, soft SGR, and strict defense-in-depth parameters.",
+      "pitch": "A high-performance data analytics and document intelligence platform featuring auto-embedding RAG capabilities for instant retrieval and insight generation.",
+      "problem_statement": "Data Science & Analytics: Analyze datasets, identify patterns, build insightful dashboards, and generate actionable insights for real-world decision-making.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MariaDB",
+        "HNSWLib",
+        "React"
+      ],
+      "title": "ToonDoc: Auto-Embedding RAG Dashboard for Enterprise Docs",
+      "track": "Data Science & Analytics",
+      "why_it_could_win": "Solves data extraction bottlenecks with automated embedding pipelines and a clean dashboard layout, appealing strongly to judges looking for data-driven utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure web platform deploying federated microservice agents on Kubernetes to safely process and analyze distributed clinical medical data.",
+      "problem_statement": "Web & App Development / AI/ML & Deep Learning: Build interactive applications and intelligent models to solve complex problems with a focus on real-world utility.",
       "stack": [
         "TypeScript",
-        "Vercel AI SDK",
-        "Next.js"
+        "Python",
+        "Kubernetes",
+        "Docker",
+        "LangChain"
       ],
-      "title": "AgentGuard Sandbox",
+      "title": "Kagent Clinical: Federated Medical Data AI Agent Platform",
       "track": "Web & App Development",
-      "why_it_could_win": "Tackles emerging cybersecurity and application safety challenges head-on within an intuitive web interface."
+      "why_it_could_win": "Demonstrates enterprise-grade architecture and systems thinking, solving hard engineering challenges in privacy-sensitive data environments."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A developer-focused extension and UI dashboard featuring intelligent code auto-completion, visual bug detection, and automated test generation.",
+      "problem_statement": "UI/UX & Frontend Design / Web & App Development: Create engaging user interfaces and interactive applications with a focus on usability, functionality, and accessibility.",
+      "stack": [
+        "TypeScript",
+        "VS Code API",
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "CodeBoost GUI: AI-Powered VS Code Companion",
+      "track": "UI/UX & Frontend Design",
+      "why_it_could_win": "Focuses heavily on developer ergonomics and polished UI/UX design, directly targeting judges looking for exceptional frontend craft and everyday utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A data analytics tool that scans repositories to automatically generate deep summaries, documentation, and security vulnerability insights in a unified dashboard.",
+      "problem_statement": "Data Science & Analytics: Analyze datasets, identify patterns, build insightful dashboards, and generate actionable insights for real-world decision-making.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "AST parser",
+        "Pandas"
+      ],
+      "title": "ReportrSync: Automated Repo Documentation & Security Suite",
+      "track": "Data Science & Analytics",
+      "why_it_could_win": "Transforms raw code metrics into structured, actionable reports, showcasing high practical utility for engineering teams and clear analytical value."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

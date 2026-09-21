@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:45.728374+00:00",
+  "generated_at": "2026-09-21T08:16:09.677766+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:ugahacks",
@@ -14,90 +16,91 @@
     {
       "build_hours": 48,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An AWS-powered anti-money laundering and supply chain fraud risk detection platform that combines graph intelligence, Focal LightGBM, and explainable AI to protect local regional logistics networks.",
+      "pitch": "An AI-powered compliance and supply chain tracking tool specifically tailored for local businesses and regional manufacturing in Athens, Georgia.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
+        "Next.js",
         "Python",
-        "LightGBM",
-        "Neo4j"
+        "FastAPI"
       ],
-      "title": "Athens-Clemson Local Supply Chain Risk & Graph Intelligence Engine",
+      "title": "AthensLocal AI Supply Chain Audit",
       "track": "",
-      "why_it_could_win": "Leverages heavy data science engineering patterns similar to Bito, combining complex graph intelligence and machine learning models which traditionally capture the technical edge with judges."
+      "why_it_could_win": "Targeting local regional business needs resonates strongly with judges at university hackathons situated in specific host communities."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "A personalized nutrition and wellness agent tailored to college student dietary restrictions and campus dining hall menus using multimodal AI.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "Bulldog Campus Health and Wellness Hub",
+      "track": "",
+      "why_it_could_win": "Directly solves an everyday problem for students attending the university hosting the hackathon, making the demo extremely relatable to judges."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered satellite monitoring tool designed to track land-use compliance, environmental changes, and agricultural zoning violations specifically tailored for Georgia's extensive farming and rural regions.",
+      "pitch": "A predictive analytics and forecasting dashboard modeling pedestrian and traffic congestion during major campus events and game days in Athens.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
+        "Jupyter Notebook",
         "Python",
-        "SentinelHub API",
-        "PostGIS",
+        "Poisson GAM",
         "Leaflet.js"
       ],
-      "title": "Local Agricultural Satellite Land Compliance & Monitoring Platform",
+      "title": "SEC Game Day Autonomous Crowd Flow Forecaster",
       "track": "",
-      "why_it_could_win": "Mirrors the exact pattern of GeoNex-ATLAS by applying satellite monitoring and geospatial AI to solve practical regulatory and industrial challenges."
+      "why_it_could_win": "Leverages localized domain knowledge of high-traffic university events that local judges experience firsthand."
     },
     {
       "build_hours": 45,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent student support and facility energy management platform combining LangGraph, RAG, and personalized AI agents to optimize energy consumption across university campus micro-grids.",
+      "pitch": "A multi-agent RAG platform aggregating and optimizing campus energy consumption and recycling efforts for student organizations.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
         "Python",
-        "RAG",
-        "Next.js"
+        "OpenAI API"
       ],
-      "title": "Autonomous Regional Micro-Grid & Green Energy Agent",
+      "title": "GreenAthens Multi-Agent Campus Sustainability Tracker",
       "track": "",
-      "why_it_could_win": "Builds directly upon the multi-agent system architecture seen in Greennovation, targeting sustainability themes which resonate well with regional utility initiatives."
+      "why_it_could_win": "Combines trendy multi-agent architectures with real institutional sustainability initiatives that university administrators care about."
     },
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "An AI-powered nutrition and wellness platform that delivers personalized meal recommendations using local dining hall menus, nutritional insights, and healthy lifestyle guidance for students.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API",
-        "PostgreSQL"
-      ],
-      "title": "Georgia Campus Health & Nutrition Personalization Hub",
-      "track": "",
-      "why_it_could_win": "Replicates the practical consumer utility and rapid execution model of E-Foodiee, focusing on a hyper-relevant student demographic pain point during the 71-hour sprint."
-    },
-    {
-      "build_hours": 52,
+      "build_hours": 55,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace with USDC escrow payments on Base, enabling student clubs to transparently fund, request, and execute event service contracts without administrative friction.",
+      "pitch": "A decentralized local vendor marketplace featuring autonomous AI agent procurement and instant escrow settlement.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
-        "USDC",
-        "Solidity",
-        "Viem"
+        "USDC SDK",
+        "Next.js"
       ],
-      "title": "Decentralized Campus Event & Micro-Grant Autonomous Escrow Marketplace",
+      "title": "Classic City Micro-Merchant Escrow Marketplace",
       "track": "",
-      "why_it_could_win": "Implements real blockchain utility via autonomous escrow mechanisms proven successful in the Dispatch project, showing hard systems integration rather than abstract concepts."
+      "why_it_could_win": "Demonstrates sophisticated full-stack integration of autonomous agents with financial transactions within a tight timeline."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

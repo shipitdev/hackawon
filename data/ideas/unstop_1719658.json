@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:44.435131+00:00",
+  "generated_at": "2026-09-21T08:17:17.183129+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,97 +7,99 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1719658",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
-      ],
-      "pitch": "An autonomous multi-agent system utilizing satellite imagery analysis to continuously monitor industrial zones for environmental and land-use regulation violations, generating automated audit reports.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "LangGraph",
-        "Satellite API"
-      ],
-      "title": "Agentic Compliance Auditor for Industrial Lands",
-      "track": "Artificial Intelligence & Agentic AI",
-      "why_it_could_win": "Targets the Artificial Intelligence & Agentic AI track while solving real regional environmental challenges relevant to Indian industrial development authorities like CSIDC, matching the technical depth seen in GeoNex-ATLAS."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph-intelligence-powered anti-money laundering risk detection platform that maps suspicious wallet clusters and generates explainable risk scores for digital assets.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX",
-        "PostgreSQL"
-      ],
-      "title": "CryptoGraph AML: Real-Time Transaction Forensics",
-      "track": "FinTech & Digital Economy",
-      "why_it_could_win": "Directly addresses the FinTech & Digital Economy track by delivering hard engineering graph analytics similar to Bito's winning AML platform."
-    },
-    {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:1213911408"
       ],
-      "pitch": "A statistical and machine learning pipeline utilizing Poisson regression and rolling backtests to forecast infrastructure failures and grid incidents with calibrated 90 percent prediction intervals.",
+      "pitch": "An autonomous multi-agent DevOps assistant that monitors, detects, and automatically remediates cloud misconfigurations and IAM over-permissions in real time.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "Pandas",
-        "Docker"
+        "LangGraph",
+        "AWS SDK"
       ],
-      "title": "AI Incident Forecasting Engine for Smart Grids",
+      "title": "Agentic Compliance Guard for Cloud Infrastructure",
       "track": "Cloud Computing, DevOps & Developer Tools",
-      "why_it_could_win": "Fits the Cloud Computing, DevOps & Developer Tools track by focusing on hardcore backend forecasting and system reliability metrics, reflecting the winner of the Apart Research AI Forecasting Hackathon."
+      "why_it_could_win": "Addresses the Cloud Computing, DevOps & Developer Tools domain directly with hard engineering (multi-agent orchestration), avoiding simple wrappers."
     },
     {
       "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A digital forensics platform that records immutable logs of evidence acquisition and processing using cryptographic hashing for cyber crime investigations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "SQLite",
+        "CryptoJS"
+      ],
+      "title": "SecureChain Forensic: Digital Evidence Chain of Custody",
+      "track": "Cyber Security & Digital Forensics",
+      "why_it_could_win": "Targeted specifically at the Cyber Security & Digital Forensics domain, which traditionally attracts fewer teams, making category placement highly achievable."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A machine learning pipeline that ingests industrial supply chain procurement data to forecast carbon footprint spikes and suggest offset strategies using calibrated probabilistic models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "CarbonLedger AI: Scope 3 Emission Forecasting",
+      "track": "Sustainability & Climate Technology",
+      "why_it_could_win": "Leverages rigorous data science patterns from winning predictive analytics projects to stand out in the Sustainability & Climate Technology domain."
+    },
+    {
+      "build_hours": 25,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient onboarding and clinical trust verification assistant tailored for specialized medical practices, combining automated intake questionnaires with secure health record synthesis.",
+      "pitch": "An AI-powered platform for specialized medical clinics that evaluates patient symptom profiles, automates intake vetting, and builds verified trust metrics for healthcare providers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API",
         "TailwindCSS"
       ],
-      "title": "Clinical Trust & Patient Acquisition Engine",
+      "title": "MedTrust AI: Patient Acquisition & Trust Engine",
       "track": "Healthcare & MedTech",
-      "why_it_could_win": "Targets the Healthcare & MedTech track with a production-ready vertical SaaS workflow proven to win competitive health tech sprints."
+      "why_it_could_win": "Directly targets the Healthcare & MedTech domain by building a specialized, workflow-specific agent rather than a generic medical chatbot."
     },
     {
-      "build_hours": 36,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "A decentralized marketplace where autonomous AI agents trade verified carbon offsets, utilizing zero-friction escrow logic and automated verification pipelines.",
+      "pitch": "An AML risk detection and investigation platform that combines transaction graph intelligence and explainable machine learning to flag complex financial money laundering networks.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js",
-        "AI SDK"
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "PostgreSQL"
       ],
-      "title": "Autonomous Carbon Credit Escrow Marketplace",
-      "track": "Sustainability & Climate Technology",
-      "why_it_could_win": "Bridges the Sustainability & Climate Technology track with autonomous agent mechanics, echoing the award-winning architecture of Dispatch."
+      "title": "GraphAML: Graph-Powered FinTech Fraud Ring Detector",
+      "track": "FinTech & Digital Economy",
+      "why_it_could_win": "Replicates proven architecture from previous 1st place financial AI wins by emphasizing graph analytics and explainability for judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

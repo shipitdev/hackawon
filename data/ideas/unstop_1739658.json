@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:32.150995+00:00",
+  "generated_at": "2026-09-21T08:19:09.540426+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1739658",
@@ -16,86 +18,89 @@
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered anti-money laundering risk detection platform utilizing graph intelligence and explainable LightGBM specifically tailored for Indian UPI transaction networks.",
+      "pitch": "An automated Anti-Money Laundering risk detection platform utilizing graph intelligence and explainable machine learning for FinTech compliance officers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "AWS",
-        "LightGBM",
-        "NetworkX"
+        "NetworkX",
+        "LightGBM"
       ],
-      "title": "FinGraph AML Sentinel",
+      "title": "CryptoGraph AML Compliance Engine",
       "track": "FinTech",
-      "why_it_could_win": "Targeting the FinTech track with a production-grade risk detection model inspired by proven graph intelligence architectures will impress judges looking for heavy backend engineering over basic API wrappers."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered regional nutrition and wellness platform delivering personalized meal recommendations integrating traditional Indian dietary practices with modern macro tracking.",
-      "stack": [
-        "Python",
-        "Next.js",
-        "Gemini API",
-        "PostgreSQL"
-      ],
-      "title": "AyurNutri AI Assistant",
-      "track": "HealthTech",
-      "why_it_could_win": "Aligns with the HealthTech track by taking a proven nutrition platform architecture and localizing it for the Indian demographic, addressing a high-priority problem for local wellness judges."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring tool that automatically flags industrial land use violations and environmental waste discharge against permitted municipal zones in India.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "OpenCV",
-        "SentinelHub API",
-        "PostGIS"
-      ],
-      "title": "EcoWatch Industrial Compliance",
-      "track": "Sustainability",
-      "why_it_could_win": "Directly targets the Sustainability track with genuine hard engineering combining geospatial data processing and computer vision, mirroring successful regional hackathon winners."
+      "why_it_could_win": "Targets the FinTech track directly with heavy graph intelligence and explainable risk scores, echoing proven winning architectures in financial fraud detection."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1183964401"
       ],
-      "pitch": "An AI-powered algorithmic trading bot optimized for cross-border liquidity hedging and alternative asset pricing feeds.",
+      "pitch": "An AI-powered no-code strategy builder and copy-trading execution platform tailored for decentralized perpetual markets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "Ethers.js"
+      ],
+      "title": "PacifiCopy Decentralized Trading Copilot",
+      "track": "FinTech",
+      "why_it_could_win": "Combines natural language intent processing with automated transaction execution, appealing to judges looking for functional utility in the FinTech domain."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An automated patient nutrition and personalized meal-planning platform built specifically to boost trust and conversion rates for specialized health clinics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "WebSockets"
+        "Next.js",
+        "Gemini API"
       ],
-      "title": "Pacifica UPI Arbitrage Bot",
-      "track": "FinTech",
-      "why_it_could_win": "Captures the FinTech track by adapting a winning perpetuals trading engine into an automated no-code strategy builder that appeals to technical finance judges."
+      "title": "NutriTrust AI Clinical Nutrition Engine",
+      "track": "HealthTech",
+      "why_it_could_win": "Fits the HealthTech track by solving a clear operational problem for medical practices while delivering an immediate, polished end-user experience."
     },
     {
-      "build_hours": 35,
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite image monitoring system that tracks environmental violations and industrial land regulation compliance using computer vision.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Rasterio",
+        "OpenCV"
+      ],
+      "title": "EcoSat Industrial Land Compliance Monitor",
+      "track": "Sustainability",
+      "why_it_could_win": "Captures the Sustainability track by automating complex environmental auditing tasks that normally require manual site inspections."
+    },
+    {
+      "build_hours": 30,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "A multi-agent sustainability reporting and student carbon footprint tracking platform built using LangGraph and localized RAG pipelines.",
+      "pitch": "A multi-agent sustainability advisory platform utilizing retrieval-augmented generation to help institutions track and reduce their carbon footprint.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "LangGraph",
-        "Python",
-        "VectorDB"
+        "Pinecone",
+        "Next.js"
       ],
-      "title": "GreenGraph Campus Multi-Agent Support",
+      "title": "GreenAgent Multi-RAG Campus Support",
       "track": "Sustainability",
-      "why_it_could_win": "Fits the Sustainability track by utilizing advanced multi-agent orchestration to solve institutional green auditing, standing out from superficial wrapper submissions."
+      "why_it_could_win": "Leverages advanced multi-agent orchestration frameworks to provide actionable environmental strategies, securing a strong technical edge in the Sustainability track."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,105 +1,108 @@
 {
-  "generated_at": "2026-09-20T07:53:42.996908+00:00",
+  "generated_at": "2026-09-21T08:30:31.601881+00:00",
   "grounding": {
     "domains": [
       "civic"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "impact",
       "working-demo",
+      "impact",
       "technical-depth",
-      "sponsor-tech"
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751766",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1132337467",
         "github:1346526259"
       ],
-      "pitch": "An AI-powered computer vision and geolocation portal for PS01 that automatically classifies public infrastructure damage from user-submitted photos, estimates repair costs, and prioritizes municipal work orders.",
+      "pitch": "An AI-powered image clustering and severity scoring pipeline that automatically groups citizen-submitted pothole and infrastructure reports to eliminate duplicate tickets for municipal authorities.",
+      "problem_statement": "PS01 — Digital Reporting and Resolution System for Public Infrastructure Damage",
       "stack": [
         "TypeScript",
         "React",
-        "Firebase",
-        "Gemini AI",
-        "TomTom Maps"
+        "Supabase",
+        "Python",
+        "OpenCV"
       ],
-      "title": "CivicLens",
-      "track": "PS01 — Digital Reporting and Resolution System for Public Infrastructure Damage",
-      "why_it_could_win": "Directly targets PS01 with a working live demo and clear measurable impact for municipal authorities, mirroring the success of community-focused civic tech tools."
+      "title": "CivicLens AI",
+      "track": "",
+      "why_it_could_win": "Follows the pattern of winning civic tech apps by providing a live, working dashboard for municipal authorities with clear automated deduplication metrics."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1192028384"
-      ],
-      "pitch": "A personalized career path clarity platform for PS02 that maps student skill assessments against live industry job requirements and generates realistic milestone timelines and micro-internship recommendations.",
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An interactive, task-based career exposure platform where students complete 10-minute micro-simulations of real industry roles to receive authentic skill readiness scores.",
+      "problem_statement": "PS02 — Career Path Clarity and Realistic Exposure System for Students",
       "stack": [
-        "Python",
-        "React",
-        "Supabase",
-        "OpenAI API"
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Node.js"
       ],
-      "title": "SkillBridge AI",
-      "track": "PS02 — Career Path Clarity and Realistic Exposure System for Students",
-      "why_it_could_win": "Solves PS02 with a concrete focus on actionable student outcomes and realistic industry exposure, aligning with judges' preference for genuine real-world problem solving."
+      "title": "SkillPath Simulator",
+      "track": "",
+      "why_it_could_win": "Addresses judge priorities around practical educational impact by replacing passive career quizzes with active, verifiable skill simulations."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1194555365"
-      ],
-      "pitch": "A technology-driven integration system for PS03 that connects informal waste collectors with local households via SMS and web interfaces, optimizing daily pickup routes and providing verified recycling credits.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Twilio API"
-      ],
-      "title": "EcoRoute",
-      "track": "PS03 — Formal Integration System for Informal Waste Collectors into the Recycling Value Chain",
-      "why_it_could_win": "Directly addresses PS03 by creating measurable economic and environmental benefits for marginalized informal workers, echoing grand prize-winning social good apps."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
         "github:1170846981"
       ],
-      "pitch": "A multilingual voice and text AI assistant for PS02 that guides underprivileged students through technical career choices and scholarship opportunities in regional languages.",
+      "pitch": "A lightweight web app and SMS integration tool connecting informal waste pickers with local apartment complexes for scheduled, optimized recyclable pickups.",
+      "problem_statement": "PS03 — Formal Integration System for Informal Waste Collectors into the Recycling Value Chain",
       "stack": [
         "Python",
-        "Streamlit",
-        "Whisper API",
-        "LLM"
+        "FastAPI",
+        "React Native",
+        "PostgreSQL"
       ],
-      "title": "AshaConnect",
-      "track": "PS02 — Career Path Clarity and Realistic Exposure System for Students",
-      "why_it_could_win": "Combines accessibility with practical career guidance for PS02, following the winning pattern of multilingual health and community awareness bots."
+      "title": "KachraKnect",
+      "track": "",
+      "why_it_could_win": "Delivers clear measurable social and economic impact by formalizing informal workflows and quantifying waste diverted from landfills."
     },
     {
-      "build_hours": 36,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1346526259",
-        "github:1143576965"
+        "github:1144331507"
       ],
-      "pitch": "A real-time dashboard and GIS mapping tool for PS01 that aggregates infrastructure damage reports, uses clustering algorithms to spot recurring hazard hotspots, and tracks resolution timelines for city councils.",
+      "pitch": "A smartphone-accelerometer background logging prototype that passively detects severe road anomalies and automatically queues up structured repair reports for city engineers.",
+      "problem_statement": "PS01 — Digital Reporting and Resolution System for Public Infrastructure Damage",
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Node.js",
+        "Express"
+      ],
+      "title": "RoadGuard Live",
+      "track": "",
+      "why_it_could_win": "Leans into a working live demo that transforms standard smartphone sensors into active municipal infrastructure monitors without needing custom hardware."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A transparent tracking dashboard that aggregates recycling collection volumes from informal collectors and issues verified ESG impact certificates for local businesses.",
+      "problem_statement": "PS03 — Formal Integration System for Informal Waste Collectors into the Recycling Value Chain",
       "stack": [
         "TypeScript",
-        "TailwindCSS",
+        "React",
         "Supabase",
-        "Leaflet.js"
+        "TailwindCSS"
       ],
-      "title": "CivicCommand",
-      "track": "PS01 — Digital Reporting and Resolution System for Public Infrastructure Damage",
-      "why_it_could_win": "Provides a polished, end-to-end admin interface that shows authorities exactly how they can track and resolve issues efficiently."
+      "title": "EcoValue Ledger",
+      "track": "",
+      "why_it_could_win": "Matches the proven formula of pairing local operational utility with a clean analytics dashboard that non-technical judges can easily understand and evaluate."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

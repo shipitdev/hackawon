@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:28.346052+00:00",
+  "generated_at": "2026-09-21T08:10:41.246078+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,94 +7,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:codered-orion",
   "ideas": [
     {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A Poisson regression and GAM-based forecasting dashboard predicting electrical grid anomalies and weather-induced infrastructure failures across the Greater Houston area, featuring calibrated 90 percent prediction intervals.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "Houston Energy Grid Incident Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages the winning statistical modeling and incident forecasting pattern from past successful hackathons to solve a localized, high-impact regional problem relevant to Houston judges."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent marketplace facilitating automated logistics verification and USDC escrow payments for maritime shipping containers coming through the Port of Houston.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Locus SDK",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "Port of Houston Autonomous Cargo Escrow",
-      "track": "",
-      "why_it_could_win": "Combines autonomous agents with localized port logistics and secure escrow payments, mirroring the architectural complexity of previous top-winning decentralized marketplaces."
-    },
-    {
       "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
-      ],
-      "pitch": "A Next.js and Gemini-powered multi-agent patient acquisition and trust engine designed specifically for specialized surgical and dental clinics in the Texas Medical Center.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "Texas Medical Center Multi-Agent Patient Trust Engine",
-      "track": "",
-      "why_it_could_win": "Directly targets the healthcare vertical with a polished Gemini-backed architecture that has a proven track record of sweeping 1st place prizes at fast-paced sprints."
-    },
-    {
-      "build_hours": 29,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring platform using computer vision and geospatial APIs to automatically detect environmental zoning violations and industrial land non-compliance in Harris County.",
+      "pitch": "AI-powered satellite monitoring pipeline for regional industrial land and energy infrastructure compliance in Texas.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
         "OpenCV",
-        "Mapbox"
+        "Next.js"
       ],
-      "title": "Houston Industrial Land Compliance Monitor",
+      "title": "Orion Infrastructure Asset Monitor",
       "track": "",
-      "why_it_could_win": "Employs hard engineering through geospatial and computer vision analysis, matching the technical depth seen in runner-up and winning industrial monitoring hacks."
+      "why_it_could_win": "Leverages a proven architecture from satellite monitoring winners while targeting regional industrial compliance needs relevant to Houston."
     },
     {
-      "build_hours": 30,
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Poisson GAM and multinomial share model to forecast industrial and electrical incidents with calibrated 90% prediction intervals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "Houston Energy Grid Incident Forecaster",
+      "track": "",
+      "why_it_could_win": "Employs rigorous statistical forecasting methods that judges favor over basic LLM wrappers, matching successful incident-forecasting hacks."
+    },
+    {
+      "build_hours": 26,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-hosted graph intelligence and LightGBM platform that detects anti-money laundering and illicit trade routing risks across Gulf Coast supply chain transactions.",
+      "pitch": "Graph intelligence and Focal LightGBM platform combining explainable risk detection for regional financial and energy transactions.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
+        "Python",
         "LightGBM",
-        "Neo4j"
+        "NetworkX"
       ],
-      "title": "Gulf Coast Supply Chain AML Risk Graph",
+      "title": "Permian Basin Automated Compliance AML Agent",
       "track": "",
-      "why_it_could_win": "Utilizes advanced graph intelligence and explainable ML models to solve complex enterprise financial crime, following the blueprint of high-scoring corporate innovation winners."
+      "why_it_could_win": "Integrates complex graph intelligence and explainable machine learning models which score well in technical judging rubrics."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Autonomous AI agent marketplace with secure USDC escrow payments for peer-to-peer carbon credit and green energy trading.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "Solidity",
+        "USDC"
+      ],
+      "title": "Autonomous Energy Credit Escrow",
+      "track": "",
+      "why_it_could_win": "Builds a functional economic loop with autonomous agents and verifiable escrow settlement that judges can test live."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent RAG system built on LangGraph to automate specialized clinical onboarding and patient trust verification for Houston health networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "Texas Medical Center Patient Trust & Acquisition Engine",
+      "track": "",
+      "why_it_could_win": "Solves a high-value customer acquisition and trust problem for a dominant local industry sector using advanced multi-agent orchestration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

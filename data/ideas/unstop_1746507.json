@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:55:44.388783+00:00",
+  "generated_at": "2026-09-21T08:23:57.877903+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -7,89 +7,95 @@
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746507",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1282252864"
+        "github:1255987686"
       ],
-      "pitch": "An AI Employee built on Supervity Auto that automatically intercepts failed ERP inventory syncs, parses vendor email PDFs, checks warehouse database records, and triggers human-in-the-loop approvals before updating stock levels.",
+      "pitch": "An autonomous IT support desk employee built on Supervity Auto that handles incoming Jira or ServiceNow tickets, performs initial triage, executes approvals via Slack, and logs resolution in SharePoint without per-seat SaaS costs.",
+      "problem_statement": "Solve real enterprise operations problems using Supervity Auto by building AI Employees that execute meaningful work across business systems while keeping humans in control.",
       "stack": [
         "Supervity Auto",
-        "Python",
-        "REST APIs"
+        "Slack API",
+        "Jira API",
+        "SharePoint"
       ],
-      "title": "Supervity Auto-Pilot Supply Chain Exception Handler",
+      "title": "Supervity ITSM AutoPilot Agent",
       "track": "",
-      "why_it_could_win": "Directly targets the core evaluation criteria of solving a real enterprise operations problem using Supervity Auto, focusing heavily on exception handling and human-in-the-loop workflows."
+      "why_it_could_win": "Directly mirrors a proven enterprise automation workflow and leverages the specific platform (Supervity Auto) required by the hackathon while demonstrating robust exception handling."
     },
     {
       "build_hours": 24,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A no-code AI Employee that cross-references incoming vendor invoices in Gmail with purchase orders in a spreadsheet, flags discrepancies, drafts polite dispute emails, and requests manager sign-off via Slack.",
-      "stack": [
-        "Supervity Auto",
-        "Google Sheets API",
-        "Gmail API",
-        "Slack API"
-      ],
-      "title": "Automated Invoice Reconciliation & Dispute Agent",
-      "track": "",
-      "why_it_could_win": "Addresses a ubiquitous back-office enterprise pain point where no-code automation and exception governance shine brightest for non-technical judges."
-    },
-    {
-      "build_hours": 30,
       "inspired_by": [],
-      "pitch": "An intelligent workflow agent that ingests new hire documents, extracts government ID details using OCR, validates them against compliance databases, and automatically provisions corporate credentials while escalating anomalies to HR.",
+      "pitch": "A no-code AI employee that monitors an email inbox for supplier invoices, extracts line items via OCR, runs validation checks against enterprise databases, and flags anomalies for human review before updating the ERP.",
+      "problem_statement": "Solve real enterprise operations problems using Supervity Auto by building AI Employees that execute meaningful work across business systems while keeping humans in control.",
       "stack": [
         "Supervity Auto",
-        "OCR Engine",
-        "HRIS Webhooks"
+        "Email Parser",
+        "Google Sheets",
+        "Slack"
       ],
-      "title": "HR Onboarding Compliance & Document Verifier",
+      "title": "Invoice-to-ERP AutoPilot Clerk",
       "track": "",
-      "why_it_could_win": "Showcases a complete end-to-end enterprise workflow that saves hours of human administrative overhead, directly aligning with Supervity's enterprise operations mission."
+      "why_it_could_win": "Targeting high-volume back-office data entry is a textbook enterprise pain point that makes for an exceptionally practical business workflow demonstration during judging."
     },
     {
       "build_hours": 28,
-      "inspired_by": [
-        "github:1334000568"
-      ],
-      "pitch": "An AI Employee that monitors incoming customer support queues, categorizes sentiment and urgency, queries internal knowledge bases for resolutions, and drafts contextual replies requiring agent confirmation before sending.",
+      "inspired_by": [],
+      "pitch": "An automated HR employee that provisions new hire accounts across Google Workspace, Slack, and GitHub, generates employment agreements, and schedules check-ins while routing policy edge cases to human HR staff.",
+      "problem_statement": "Solve real enterprise operations problems using Supervity Auto by building AI Employees that execute meaningful work across business systems while keeping humans in control.",
       "stack": [
         "Supervity Auto",
-        "Zendesk API",
-        "Vector Search"
+        "Google Workspace API",
+        "Slack API",
+        "Notion"
       ],
-      "title": "Customer Support Ticket Triage and Auto-Responder",
+      "title": "HR Onboarding AutoPilot Assistant",
       "track": "",
-      "why_it_could_win": "Demonstrates robust handling of unstructured customer data and safe exception routing through human-in-the-loop validation."
+      "why_it_could_win": "HR operations are universally understood by judges, and showcasing multi-system orchestration with clear human-in-the-loop checkpoints highlights exceptional workflow design."
     },
     {
       "build_hours": 32,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A workflow agent that handles internal employee requests for software license provisioning, checks budget thresholds in finance systems, secures manager approval, and executes account setups automatically.",
+      "inspired_by": [],
+      "pitch": "An e-commerce operations AI employee that reads return request tickets, checks shipping carrier tracking status, validates return policies, and processes automated refunds in Shopify while escalating fraud suspicion to managers.",
+      "problem_statement": "Solve real enterprise operations problems using Supervity Auto by building AI Employees that execute meaningful work across business systems while keeping humans in control.",
       "stack": [
         "Supervity Auto",
-        "Jira API",
-        "Active Directory API"
+        "Shopify API",
+        "Zendesk",
+        "Twilio"
       ],
-      "title": "IT Asset Provisioning & Access Request Orchestrator",
+      "title": "Customer Refund and Return Triage AutoPilot",
       "track": "",
-      "why_it_could_win": "Leverages cross-system enterprise orchestration, proving the practical business value of no-code AI employees in day-to-day IT operations."
+      "why_it_could_win": "Judges evaluate teams heavily on how well they handle exceptions; showcasing a clear exception branch for suspected fraudulent returns makes the workflow robust."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [],
+      "pitch": "A compliance auditing AI employee that periodically fetches vendor certificates from shared drives, checks expiry dates against regulatory standards, updates compliance tracking tables, and alerts procurement officers of non-compliance.",
+      "problem_statement": "Solve real enterprise operations problems using Supervity Auto by building AI Employees that execute meaningful work across business systems while keeping humans in control.",
+      "stack": [
+        "Supervity Auto",
+        "Google Drive",
+        "Airtable",
+        "Microsoft Teams"
+      ],
+      "title": "Vendor Compliance Audit AutoPilot",
+      "track": "",
+      "why_it_could_win": "Demonstrates proactive risk management and continuous operational monitoring rather than just reactive task execution, scoring high on business value understanding."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

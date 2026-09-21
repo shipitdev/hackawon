@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:29:04.329752+00:00",
+  "generated_at": "2026-09-21T08:35:24.390596+00:00",
   "grounding": {
     "domains": [
       "gaming"
@@ -10,6 +10,8 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1756367",
@@ -17,83 +19,83 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1022921066"
-      ],
-      "pitch": "A mini-RPG where players use live voice input to converse with AI-driven NPCs whose dialogue and quests adapt in real-time to the player's spoken intent.",
-      "stack": [
-        "Python",
-        "Unity",
-        "WebRTC",
-        "OpenAI API"
-      ],
-      "title": "Voice-First NPC Dynamic Quest Generator",
-      "track": "",
-      "why_it_could_win": "Demonstrates complex real-time voice handling and AI integration under a tight game jam schedule, following the technical ambition seen in top AI hackathon winners."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1052196050"
-      ],
-      "pitch": "An autonomous AI agent that plays through dynamically generated dungeon crawler levels, optimizing pathfinding and combat strategies live on screen.",
-      "stack": [
-        "Python",
-        "vLLM",
-        "Godot"
-      ],
-      "title": "Autonomous Agentic Bot for Procedural Dungeons",
-      "track": "",
-      "why_it_could_win": "Leverages advanced agentic workflows which heavily impress judges looking for technical depth beyond standard gameplay scripts."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1276392534",
-        "github:759869516"
-      ],
-      "pitch": "A continuous generative 2D world where the environment and narrative twists dynamically alter mid-stream based on live spectator chat or voting inputs.",
-      "stack": [
-        "TypeScript",
-        "Phaser.js",
-        "Generative Video API"
-      ],
-      "title": "Echoes of Incarnia: Live Audience-Pivoted World Model",
-      "track": "",
-      "why_it_could_win": "Incorporates live interactive state transitions that make the live presentation stand out instantly to judges."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
+        "github:759869516",
         "github:855192292"
       ],
-      "pitch": "An educational visual novel game featuring branching dialogue trees focused on water conservation technologies and real-world resource management.",
+      "pitch": "A cyberpunk tactical puzzle game where players manipulate real-time audio waveforms to bypass security nodes.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Ren'Py",
-        "Python",
+        "C#",
+        "Unity",
         "Audacity"
       ],
-      "title": "AquaQuest: Conservation Visual Novel",
+      "title": "Echoes of the Grid",
       "track": "",
-      "why_it_could_win": "Strong narrative focus combined with a polished retro aesthetic resonates well with game jam judges looking for cohesive storytelling."
+      "why_it_could_win": "Leverages tight mechanics and polished audio-visual feedback, which traditionally scores high with game jam judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:870537595",
-        "github:877364534"
+        "github:759869516"
       ],
-      "pitch": "A fast-paced retro arcade minigame where players collect tokens and test simulated smart contract transactions under high-pressure platformer mechanics.",
+      "pitch": "A narrative puzzle platformer where reversing time changes the state of the environmental platforming elements dynamically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Phaser.js"
+      ],
+      "title": "Chronos Canvas",
+      "track": "",
+      "why_it_could_win": "Focuses on a core mechanical twist that is easy to understand in a live demonstration but deep enough to keep players engaged."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:855192292",
+        "github:870537595"
+      ],
+      "pitch": "An educational pixel-art management game simulating sustainable resource allocation for a futuristic smart campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pygame"
+      ],
+      "title": "Eco-Quest IIITN",
+      "track": "",
+      "why_it_could_win": "Appeals to university-hosted hackathon judges who value impactful educational themes paired with retro aesthetics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:759869516"
+      ],
+      "pitch": "A rogue-lite crawler featuring procedural dungeon rooms dynamically styled and populated based on player playstyles.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C#",
+        "Unity"
+      ],
+      "title": "Dungeon Architect AI",
+      "track": "",
+      "why_it_could_win": "Combines traditional game jam tropes with procedural generation, showcasing clever engineering within a strict timeframe."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:870537595"
+      ],
+      "pitch": "A fast-paced retro arcade mini-game collection built to test ultra-low input latency and responsive touch mechanics.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
-        "React",
-        "Firebase"
+        "HTML5 Canvas"
       ],
-      "title": "Token Tap: Retro Arcade Minigame with Mock Finance",
+      "title": "Reflex Arcade 64",
       "track": "",
-      "why_it_could_win": "Combines addictive retro game mechanics with seamless minigame loops, proven to be a winning formula in retro gaming events."
+      "why_it_could_win": "Directly targets nostalgia-driven judges with an instantly playable, highly polished arcade loop that runs smoothly in any browser."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

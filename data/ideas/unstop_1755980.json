@@ -1,90 +1,101 @@
 {
-  "generated_at": "2026-09-16T07:51:08.654684+00:00",
+  "generated_at": "2026-09-21T08:34:57.764327+00:00",
   "grounding": {
     "domains": [
-      "web3"
+      "devtools"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "sponsor-tech",
+      "judge-pain",
       "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755980",
   "ideas": [
     {
       "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "An automated frontend code review and design compliance tool that analyzes pulled repositories and instantly flags accessibility violations, layout shifts, and bad state management practices.",
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered live code review and instant UX/UI critique web application built for Frontend Arena challenge participants.",
+      "problem_statement": "BUILD BATTLE Web Development Hackathon common problem statement focusing on creative and functional web solutions.",
       "stack": [
-        "TypeScript",
         "Next.js",
         "TailwindCSS",
-        "AST Parser"
+        "OpenAI API",
+        "Monaco Editor"
       ],
-      "title": "FrontendAudit AI",
+      "title": "FrontendArena LiveCode Reviewer",
       "track": "",
-      "why_it_could_win": "Directly targets the core evaluation criteria of Problem Understanding and Functionality & User Experience by demonstrating deep technical execution in frontend analysis."
+      "why_it_could_win": "Directly targets the evaluation criteria of Functionality & User Experience (25%) and UI/UX & Design (20%) by giving developers instant automated feedback on their layout accessibility and CSS structure."
     },
     {
       "build_hours": 40,
       "inspired_by": [],
-      "pitch": "A visual state machine debugger and live documentation generator built specifically for complex frontend applications, allowing developers to inspect data flows in real-time.",
+      "pitch": "A web tool that instantly compares a deployed frontend web app against its Figma design file to score UI/UX accuracy and layout fidelity.",
+      "problem_statement": "BUILD BATTLE Web Development Hackathon common problem statement focusing on creative and functional web solutions.",
       "stack": [
         "React",
         "TypeScript",
-        "Canvas API",
-        "Zustand"
+        "Playwright",
+        "Canvas API"
       ],
-      "title": "StateSync UI",
+      "title": "PixelSync Design-to-Code Auditor",
       "track": "",
-      "why_it_could_win": "Solves a universal frontend problem with high technical complexity, scoring heavily on the 25% Functionality & User Experience weightage."
+      "why_it_could_win": "Catches the judges' eyes on UI/UX & Design (20%) and Technical Implementation (15%) by providing an automated metric for pixel-perfect frontend execution."
     },
     {
       "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "A drop-in micro-frontend sandbox that enables developers to test accessibility, responsiveness, and dark-mode rendering across multiple viewports simultaneously in a single browser pane.",
-      "stack": [
-        "Next.js",
-        "Web Workers",
-        "TailwindCSS"
+      "inspired_by": [
+        "github:1138792186"
       ],
-      "title": "ComponentFlow",
+      "pitch": "A solo developer web utility that converts natural language prompts and vibe-coding inputs into accessible, fully responsive Tailwind components with live preview.",
+      "problem_statement": "BUILD BATTLE Web Development Hackathon common problem statement focusing on creative and functional web solutions.",
+      "stack": [
+        "SvelteKit",
+        "TailwindCSS",
+        "Claude API",
+        "Vite"
+      ],
+      "title": "VibeComponent Generator",
       "track": "",
-      "why_it_could_win": "Caters directly to judges looking for polish, exceptional UX, and practical tools that enhance developer productivity."
+      "why_it_could_win": "Leverages the hackathon's explicit allowance of AI-assisted development and Vibe Coding while scoring high on Problem Understanding (15%) and Innovation & Creativity (15%)."
     },
     {
-      "build_hours": 35,
-      "inspired_by": [
-        "github:1092573500"
-      ],
-      "pitch": "An agentic design system generator that turns raw Figma JSON exports or plain text prompts into fully accessible, themeable Tailwind CSS and React component libraries.",
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A specialized web-based presentation builder designed for solo hackathon participants to instantly record, package, and demo their web application with embedded live code sandboxes.",
+      "problem_statement": "BUILD BATTLE Web Development Hackathon common problem statement focusing on creative and functional web solutions.",
       "stack": [
-        "TypeScript",
-        "OpenAI API",
-        "Next.js",
-        "TailwindCSS"
+        "Vue.js",
+        "TailwindCSS",
+        "MediaRecorder API",
+        "WebRTC"
       ],
-      "title": "DesignToken AI",
+      "title": "ArenaDeck Presentation & Demo Studio",
       "track": "",
-      "why_it_could_win": "Leverages modern AI-assisted workflows to solve a tedious frontend problem, aligning with the strong technical execution seen in winning developer tools."
+      "why_it_could_win": "Directly addresses the Presentation & Demo evaluation weightage (10%) by helping solo developers present their final build cleanly and professionally."
     },
     {
       "build_hours": 32,
       "inspired_by": [],
-      "pitch": "A real-time performance budget enforcer that monitors client-side bundle sizes and rendering metrics directly inside the browser viewport during local development.",
+      "pitch": "A lightweight web dashboard that tests frontend applications for layout shift, load performance, and responsiveness across various device viewports in real time.",
+      "problem_statement": "BUILD BATTLE Web Development Hackathon common problem statement focusing on creative and functional web solutions.",
       "stack": [
-        "JavaScript",
-        "Chrome Extensions API",
-        "React"
+        "React",
+        "Lighthouse API",
+        "Chart.js",
+        "Node.js"
       ],
-      "title": "PerfLens",
+      "title": "CSS Micro-Benchmark & Performance Suite",
       "track": "",
-      "why_it_could_win": "Demonstrates hard engineering and precise problem understanding around frontend performance metrics, which stands out in a crowded web development competition."
+      "why_it_could_win": "Scores heavily on Technical Implementation (15%) and Functionality & User Experience (25%) by offering deep quantitative performance insights into web applications."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

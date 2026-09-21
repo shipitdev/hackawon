@@ -1,105 +1,110 @@
 {
-  "generated_at": "2026-09-13T07:53:56.361456+00:00",
+  "generated_at": "2026-09-21T08:21:56.289087+00:00",
   "grounding": {
     "domains": [
-      "security",
-      "civic"
+      "security"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "working-demo",
       "technical-depth",
-      "unique-data"
+      "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1745016",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 32,
       "inspired_by": [
-        "github:690893685"
+        "github:1181344931",
+        "github:1004582948"
       ],
-      "pitch": "A real-time audio surveillance integration tool that processes crowd noise and acoustic triggers using lightweight ML, instantly streaming geolocation and threat classification to a local police dashboard.",
+      "pitch": "A real-time cyber threat intelligence and digital safety dashboard built in collaboration with Indore Police data feeds to track local cybercrime trends, phishing hot-spots, and digital fraud vectors.",
+      "problem_statement": "Cybersecurity, digital safety, and emerging technology challenges in collaboration with Indore Police.",
       "stack": [
-        "Python",
-        "PyTorch",
-        "Django",
+        "TypeScript",
         "React",
-        "WebSockets"
+        "Node.js",
+        "PostgreSQL",
+        "Leaflet.js"
       ],
-      "title": "Indore-Pulse Geo-Audio Gunshot and Distress Analyzer",
-      "track": "Cybersecurity and Digital Safety",
-      "why_it_could_win": "Directly aligns with the collaboration priority of Indore Police for digital safety and law enforcement tech, matching the proven architecture of previous real-time audio mapping winners."
+      "title": "CyberPulse Indore",
+      "track": "Cybersecurity & Digital Safety",
+      "why_it_could_win": "Directly serves the co-organizer (Indore Police) by solving local digital safety problems, giving it immediate practical validation during judging."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:243065226"
+        "github:889142131"
       ],
-      "pitch": "An edge-optimized video processing pipeline that ingests simulated CCTV feeds, runs fast facial recognition against a localized database of wanted individuals, and dispatches automated alert emails with timestamped snapshots to law enforcement officers.",
+      "pitch": "An automated red-teaming tool designed to stress-test government and enterprise chatbot portals against prompt injection, data exfiltration, and safety bypasses.",
+      "problem_statement": "Cybersecurity and digital safety challenges targeting emerging technology.",
       "stack": [
         "Python",
-        "OpenCV",
         "FastAPI",
-        "React",
-        "SQLite"
+        "LangChain",
+        "OpenAI API"
       ],
-      "title": "CCTV Wanted-Criminal Face Match and Alert Net",
-      "track": "Cybersecurity and Digital Safety",
-      "why_it_could_win": "Addresses direct public safety workflows established by police departments, copying a proven hackathon runner-up architecture scoped down for a fast MVP."
+      "title": "SpectreShield LLM RedTeamer",
+      "track": "Emerging Technology",
+      "why_it_could_win": "Leverages the winning formula from elite AI security hackathons by demonstrating active vulnerability exploitation rather than passive defense."
     },
     {
-      "build_hours": 32,
+      "build_hours": 34,
       "inspired_by": [
-        "github:1161237076"
+        "github:1284625256"
       ],
-      "pitch": "A crowd-sourced safety assistant that aggregates anonymous distress reports and municipal lighting data to dynamically calculate and suggest the safest transit routes through urban areas.",
+      "pitch": "A jam-resilient, offline-first encrypted messaging and alert propagation tool tailored for law enforcement tactical units operating in low-connectivity zones.",
+      "problem_statement": "Cybersecurity, digital safety, and emerging technology challenges in collaboration with Indore Police.",
       "stack": [
-        "Python",
-        "FastAPI",
+        "TypeScript",
         "React Native",
-        "PostgreSQL"
+        "WebRTC",
+        "SQLite"
       ],
-      "title": "SafeRoute AI: Localized Digital Harassment and Darkspot Mapper",
-      "track": "Digital Safety",
-      "why_it_could_win": "Leverages the winning formula of safety assistants that solve hyper-local municipal and citizen protection problems with a polished, working mobile UI."
+      "title": "Aegis-Edge SafeComm",
+      "track": "Cybersecurity & Digital Safety",
+      "why_it_could_win": "Wins by showcasing edge-computing and decentralized architecture that appeals to law enforcement operational requirements."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1326164711"
+        "github:1181344931",
+        "github:1339682542"
       ],
-      "pitch": "A public accountability web application where civic complaints and police station filings are sealed with cryptographic proofs, ensuring that local authorities cannot tamper with or delete public safety logs.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "PostgreSQL",
-        "TailwindCSS"
-      ],
-      "title": "ProofSeal: Cryptographically Verified Municipal Grievance Portal",
-      "track": "Emerging Technology",
-      "why_it_could_win": "Appeals to judges looking for transparency and tamper-proof auditing in public-facing safety infrastructure, matching recent civic-tech hackathon winners."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1196410850"
-      ],
-      "pitch": "An automated multi-agent pipeline that crawls regional social media channels and messaging platforms to detect phishing campaigns and digital scams targeting students and citizens, providing automated risk scoring.",
+      "pitch": "A browser extension and API backend that uses graph intelligence to analyze suspicious URLs, QR codes, and UPI payment gateways in real time to prevent financial cyber fraud.",
+      "problem_statement": "Cybersecurity, digital safety, and emerging technology challenges in collaboration with Indore Police.",
       "stack": [
         "Python",
-        "LangGraph",
         "FastAPI",
-        "Next.js"
+        "Chrome Extension APIs",
+        "LightGBM"
       ],
-      "title": "PhishTrace: Multi-Agent Cyber Threat Intelligence Scraper",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Combines advanced multi-agent scraping workflows with practical cyber-defense mechanisms requested by law enforcement partners."
+      "title": "PhishGuard AI",
+      "track": "Digital Safety",
+      "why_it_could_win": "Directly tackles high-frequency financial scams prevalent in urban policing jurisdictions, making the utility instantly understandable to judges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated code repository auditor that scans student and municipal developer codebases for exposed API keys, backdoors, and compliance failures before deployment.",
+      "problem_statement": "Cybersecurity and digital safety challenges.",
+      "stack": [
+        "Python",
+        "AST Parser",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "SecOps Repo Auditor",
+      "track": "Emerging Technology",
+      "why_it_could_win": "Mirrors award-winning automated developer tools that provide deep security insights with zero friction."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

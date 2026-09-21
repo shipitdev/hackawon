@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-09-13T07:53:43.033469+00:00",
+  "generated_at": "2026-09-21T08:21:42.505520+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1744294",
@@ -15,94 +20,91 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "A real-time proxy gateway for enterprise LLM applications that intercepts user prompts, detects adversarial jailbreaks and indirect prompt injections using vector similarity and classifiers, and sanitizes outputs before they reach downstream models.",
+      "pitch": "An AI-powered multi-agent student support platform that breaks down complex university syllabi into personalized study paths and collaborative practice tests.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "LangChain",
-        "Hugging Face Transformers",
-        "Next.js"
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "React"
       ],
-      "title": "AegisLog: LLM Prompt Injection & Jailbreak Defense Gateway",
+      "title": "AgenticStudySync",
       "track": "LLMs & Automation",
-      "why_it_could_win": "Aligns perfectly with the LLMs & Automation domain by addressing the most critical production vulnerability facing enterprise AI deployments, capturing judge attention via rigorous security engineering."
+      "why_it_could_win": "Leverages a proven multi-agent architecture pattern that previously won first place at a student hackathon, showcasing working LangGraph pipelines directly relevant to LLMs and automation."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:1220411239"
       ],
-      "pitch": "An AI-powered monitoring tool that ingests open-source satellite imagery and uses fine-tuned vision models to automatically detect unauthorized industrial land usage, deforestation, and zoning violations for regulatory agencies.",
+      "pitch": "A benchmarking tool that evaluates LLM reasoning capabilities and prompt architectures using chess move generation as a proxy task.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "PyTorch",
-        "Leaflet.js",
-        "PostGIS"
+        "Chess libraries",
+        "LLM APIs",
+        "FastAPI"
       ],
-      "title": "AgriVision: Satellite Land Compliance & Deforestation Tracker",
+      "title": "ModelPromptChessEvaluator",
       "track": "AI/ML",
-      "why_it_could_win": "Directly mimics a proven hackathon winner by combining geospatial data intelligence with computer vision, solving a tangible regulatory pain point that appeals to judges looking for real-world impact."
+      "why_it_could_win": "Employs hard engineering and a unique benchmarking proxy task that won grand prize at a recent systematic strategies hackathon, appealing to judges looking for deep technical execution."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1181344931",
-        "github:1200926140"
+        "github:1266090747"
       ],
-      "pitch": "An autonomous multi-agent system that ingests unstructured company policy documents, financial ledgers, and operational logs, then uses collaborative LLM agents to cross-reference regulations and generate comprehensive audit risk reports.",
-      "stack": [
-        "Python",
-        "CrewAI",
-        "LangGraph",
-        "Streamlit",
-        "ChromaDB"
-      ],
-      "title": "AutoAudit: Multi-Agent Regulatory Compliance Pipeline",
-      "track": "LLMs & Automation",
-      "why_it_could_win": "Leverages the powerful LLMs & Automation domain theme with an architecture that demonstrates complex multi-agent orchestration rather than a simple single-prompt wrapper."
-    },
-    {
-      "build_hours": 19,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
-      ],
-      "pitch": "An intelligent patient onboarding and triage assistant for specialized clinics that parses unstructured medical histories, validates insurance pre-authorizations, and generates transparent treatment explanations for patients.",
+      "pitch": "A solo-built or small-team AI platform for detecting, explaining, and mitigating bias in machine learning datasets and automated pipelines.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Google Gemini API",
-        "TailwindCSS",
-        "PostgreSQL"
+        "Python",
+        "Scikit-Learn",
+        "TailwindCSS"
       ],
-      "title": "MediTrust: AI-Powered Patient Intake & Trust Engine",
-      "track": "Open Innovation",
-      "why_it_could_win": "Follows the exact blueprint of a verified 1st-prize winner by solving specialized healthcare workflow bottlenecks where trust, accuracy, and clear communication are paramount."
+      "title": "FairLens Code Auditor",
+      "track": "AI/ML",
+      "why_it_could_win": "Directly targets the growing demand for responsible AI and model transparency, echoing a third-place winning formula focused on automated bias detection."
     },
     {
-      "build_hours": 21,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1200926140"
+        "github:1234067949"
       ],
-      "pitch": "An advanced multimodal search and summarization platform that ingests hours of recorded enterprise meetings or lectures, transcribes audio, extracts key visual frames, and constructs an interactive, queryable knowledge graph.",
+      "pitch": "A web platform that ingests local water body sensor feeds to predict algal bloom or contamination risks days in advance using machine learning.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
-        "JavaScript",
+        "TypeScript",
         "Python",
-        "Whisper",
-        "FAISS",
-        "FastAPI"
+        "Pandas",
+        "Leaflet.js"
       ],
-      "title": "DocuMorph: Unstructured Video & Audio Knowledge Base",
-      "track": "AI/ML",
-      "why_it_could_win": "Replicates a proven first-place winning formula by turning unwieldy unstructured multimedia into instantly searchable and structured intelligence, dazzling judges during live demos."
+      "title": "AquaPredict IoT Hyderabad",
+      "track": "Open Innovation",
+      "why_it_could_win": "Focuses on clear, measurable environmental impact with a predictive ML pipeline, mirroring an award-winning IoT and water-safety hackathon project."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1075630497",
+        "github:1259514645"
+      ],
+      "pitch": "An offline-first mobile web application that captures plant leaf images via camera to classify diseases instantly using lightweight machine learning models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "TensorFlow Lite",
+        "Python"
+      ],
+      "title": "AgriVision Local Crop Defect Classifier",
+      "track": "Open Innovation",
+      "why_it_could_win": "Features a live, working camera-based computer vision demo that solves a practical agricultural problem, similar to UN hackathon-winning solutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

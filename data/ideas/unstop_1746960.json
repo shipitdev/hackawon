@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-15T07:57:46.932979+00:00",
+  "generated_at": "2026-09-21T08:24:33.286232+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
+      "working-demo",
       "technical-depth",
-      "sponsor-tech"
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746960",
@@ -14,85 +17,94 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:1010199928"
       ],
-      "pitch": "AI-powered satellite and drone imagery monitoring platform for university campus land compliance, automated infrastructure expansion tracking, and safety hazard detection.",
+      "pitch": "An AI-powered smart waste classification and bin monitoring system tailored for university campus sustainability initiatives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "Arduino",
+        "React"
+      ],
+      "title": "AkalCampus EcoSort AI",
+      "track": "",
+      "why_it_could_win": "Leverages the proven success pattern of AI garbage classification projects while integrating local campus utility data to show clear, measurable environmental impact for university judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A location-based student engagement and campus grievance tracker featuring an AI response copilot for university administration.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "Next.js",
-        "TailwindCSS"
+        "React",
+        "Supabase",
+        "TailwindCSS",
+        "OpenAI API"
       ],
-      "title": "AkalCampus Sentinel",
+      "title": "CampusPulse Real-World Civic Copilot",
       "track": "",
-      "why_it_could_win": "Follows the winning GeoNex-ATLAS pattern by applying spatial AI to real-world regional infrastructure problems that academic and municipal judges care about."
+      "why_it_could_win": "Mirrors a first-place civic tech winning formula by combining a live operational dashboard with a functional AI copilot that solves direct real-world community issues."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1182199849"
       ],
-      "pitch": "Graph-intelligence and LightGBM-powered agricultural loan risk assessment platform tailored for local farming cooperatives and rural banking institutions in Punjab.",
+      "pitch": "An AI-driven interactive training and scoring simulator designed to test medical and nursing students on patient diagnostics and bedside manner.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
+        "Next.js",
+        "MediaPipe",
+        "LLM API",
+        "TailwindCSS"
       ],
-      "title": "AgriRisk Intel",
+      "title": "MedSim AI Clinical Interviewer",
       "track": "",
-      "why_it_could_win": "Leverages the Bito pattern of combining graph intelligence and explainable machine learning to solve a hyper-relevant financial and agricultural problem for regional judges."
+      "why_it_could_win": "Adapts a grand prize-winning healthcare architecture with a rigorous 6-dimension evaluation rubric that appeals directly to academic evaluation panels."
     },
     {
-      "build_hours": 24,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1275874285"
+        "github:1329458499"
       ],
-      "pitch": "Personalized AI nutrition assistant optimized for traditional North Indian diets, regional crop availability, and local health metrics.",
+      "pitch": "An autonomous agent system that monitors university database pipelines, flags anomalies, and automatically drafts pull requests to resolve data corruption.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
+        "LangChain",
+        "DataHub API",
         "FastAPI",
-        "Streamlit",
-        "OpenAI API"
+        "Docker"
       ],
-      "title": "BioNutri Local",
+      "title": "DataLineage Agentic Incident Response",
       "track": "",
-      "why_it_could_win": "Directly adapts the E-Foodiee winning approach but tailors the domain specifically to local dietary habits, ensuring high practical relevance during judging."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student support and campus sustainability platform combining RAG and LangGraph to track energy usage and automate resource conservation initiatives.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "PostgreSQL"
-      ],
-      "title": "EcoCampus AI",
-      "track": "",
-      "why_it_could_win": "Emulates the greennovation-ai-platform winning structure by deploying a multi-agent RAG workflow targeting institutional operational efficiency."
+      "why_it_could_win": "Employs genuinely hard engineering through autonomous agent workflows, aligning with grand-prize winning data engineering architectures."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1087704265"
+        "github:988515862"
       ],
-      "pitch": "Poisson regression and GAM-based predictive forecasting model for local public safety and municipal incident reporting in Talwandi Sabo region.",
+      "pitch": "A real-time desktop app utilizing computer vision to track student posture and desk ergonomics during long coding or study hours.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Statsmodels",
-        "Pandas"
+        "PyQt5",
+        "MediaPipe",
+        "OpenCV"
       ],
-      "title": "IncidentCast Punjab",
+      "title": "PostureFit AI Ergonomic Corrector",
       "track": "",
-      "why_it_could_win": "Applies rigorous statistical modeling seen in the Apart Research AI Forecasting Hackathon winner rather than relying on generic wrapper tools."
+      "why_it_could_win": "Features a robust, working live computer vision demo that solves a relatable daily pain point for every student hacker in the room."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

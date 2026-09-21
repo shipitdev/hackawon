@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:42.235409+00:00",
+  "generated_at": "2026-09-21T08:32:51.620298+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -8,8 +8,12 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754883",
@@ -17,89 +21,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1207207353"
+        "github:1226951926"
       ],
-      "pitch": "An agent that ingests Norwegian company registries, matches disparate mentions using semantic embeddings and entity resolution, and outputs verified facts with timestamped evidence links to prevent cross-company data contamination.",
+      "pitch": "A robust autonomous agent designed to ingest Norwegian company numbers, query official registers safely within rate limits, and output verified corporate JSON profiles.",
+      "problem_statement": "Build an agent that finds company information online using a Norwegian company number, returning facts, source links, dates, and maintaining current profiles for at least 1,000 companies.",
       "stack": [
         "Python",
         "FastAPI",
-        "PostgreSQL",
-        "Sentence-Transformers",
-        "LangChain"
+        "BeautifulSoup",
+        "Pydantic",
+        "DuckDuckGo Search API"
       ],
-      "title": "Norwegian Company Graph & Evidence Deduplicator",
+      "title": "NordicScrape Agent",
       "track": "",
-      "why_it_could_win": "Scoring heavily weights matching information correctly with evidence (30 points) and avoiding material wrong-company publications, which cause immediate disqualification."
+      "why_it_could_win": "Directly targets the core scoring rubric by strictly enforcing source-to-fact matching, utilizing deterministic caching to stay well under the 2,000 outbound request daily limit."
     },
     {
       "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An agent built to leverage JBOX components for fast parsing of Norwegian registry documents while maintaining zero fabricated financial values.",
+      "problem_statement": "Build an agent that finds company information online using a Norwegian company number, returning facts, source links, dates, and maintaining current profiles for at least 1,000 companies.",
+      "stack": [
+        "Python",
+        "JBOX",
+        "LangChain",
+        "SQLite"
+      ],
+      "title": "JBOX-Optimized Norwegian Entity Resolver",
+      "track": "",
+      "why_it_could_win": "Targets the separate $500 JBOX bonus prize pool where competition is significantly lower, while rigorously guarding against the disqualification rule regarding fabricated financial metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A self-correcting extraction agent that crawls permitted Norwegian public registries and runs strict schema validations before outputting company profiles.",
+      "problem_statement": "Build an agent that finds company information online using a Norwegian company number, returning facts, source links, dates, and maintaining current profiles for at least 1,000 companies.",
+      "stack": [
+        "Python",
+        "Asyncio",
+        "HTTPX",
+        "Instructor"
+      ],
+      "title": "VeritasCorp Autonomous Crawler",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the 30 points allocated for matching evidence correctly, preventing wrong-company cross-contamination through strict registry identifier validation."
+    },
+    {
+      "build_hours": 42,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "An agent designed to process 1,000+ Norwegian company profiles by querying official public APIs, verifying financial figures against historical records to catch fabricated values, and maintaining current profiles.",
+      "pitch": "An information extraction pipeline that uses a lightweight semantic router to classify unstructured registry text into precise corporate facts with verifiable date stamps.",
+      "problem_statement": "Build an agent that finds company information online using a Norwegian company number, returning facts, source links, dates, and maintaining current profiles for at least 1,000 companies.",
       "stack": [
         "Python",
-        "DuckDB",
-        "Playwright",
-        "Pydantic",
-        "Click"
+        "Superlinked",
+        "Qwen",
+        "PostgreSQL"
       ],
-      "title": "Autonomous Norwegian Registry Crawler & Incremental Updator",
+      "title": "FjordFact Agent with Semantic Validation",
       "track": "",
-      "why_it_could_win": "Directly targets the required scale of at least 1,000 company profiles and the 20-point scoring allocation for keeping profiles current and avoiding fabricated values."
+      "why_it_could_win": "Employs an intelligent routing and verification pattern to maximize the useful explanations category (10 points) and score high on coverage against the evaluation dataset."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1163393786",
-        "github:1334000568"
+        "github:1282252864"
       ],
-      "pitch": "An agent that uses dual-pass validation—where a secondary critic model checks extracted company facts against raw public source text and source dates before saving them to the profile store.",
-      "stack": [
-        "Python",
-        "Instructor",
-        "Qwen",
-        "SQLite",
-        "Loguru"
-      ],
-      "title": "Self-Correcting Norwegian Company Fact-Checking Agent",
-      "track": "",
-      "why_it_could_win": "Aligns with the 'adversarial self-improving' win pattern, reducing the risk of material wrong-company publication or hallucinations."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [],
-      "pitch": "A containerized CLI tool that executes parallel discovery loops over Norwegian public registers, builds a structured dataset of 1,000 companies, validates evidence links, and outputs exact run cost metrics.",
+      "pitch": "A streamlined, single-command executable agent designed to generate 1,000+ compliant company profiles within strict 45-minute daily test limits and $10 API cost caps.",
+      "problem_statement": "Build an agent that finds company information online using a Norwegian company number, returning facts, source links, dates, and maintaining current profiles for at least 1,000 companies.",
       "stack": [
         "Python",
         "Docker",
         "Typer",
-        "SQLAlchemy",
-        "Tenacity"
+        "Requests"
       ],
-      "title": "One-Command Norwegian Company Intelligence Pipeline",
+      "title": "NorChain Profiler",
       "track": "",
-      "why_it_could_win": "Directly fulfills the strict submission requirements of a single command to run, exact commit hash, model/API details, and expected run cost disclosures."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "An agent that not only fetches facts and source links for Norwegian companies but also generates clear natural language explanations detailing why each specific data point was extracted and how it was verified.",
-      "stack": [
-        "Python",
-        "Rich",
-        "OpenAI API",
-        "BeautifulSoup",
-        "Pandas"
-      ],
-      "title": "Explainable Company Profiler with Audit Trails",
-      "track": "",
-      "why_it_could_win": "Targeting the 10-point allocation for giving useful explanations and the 5-point 'easy to use' score by building robust inspection tooling into the CLI output."
+      "why_it_could_win": "Optimizes strictly for the execution constraints—ensuring the one-command run requirement and exact commit hash submission work seamlessly out-of-the-box for automated judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

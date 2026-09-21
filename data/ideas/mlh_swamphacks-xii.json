@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:36.280812+00:00",
+  "generated_at": "2026-09-21T08:15:56.699919+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:swamphacks-xii",
@@ -14,85 +16,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
+        "github:1213911408",
         "github:1155558847"
       ],
-      "pitch": "Satellite monitoring and industrial land compliance dashboard tailored for local Florida environmental regulations using geospatial imagery and automated change detection.",
+      "pitch": "An AI-powered campus energy management platform that optimizes local solar generation and battery storage to reduce peak demand charges for the University of Florida.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
-        "PostGIS"
+        "TailwindCSS"
       ],
-      "title": "GatorGrid AI",
+      "title": "GatorGreen Campus Microgrid Optimizer",
       "track": "",
-      "why_it_could_win": "Leverages the proven high-scoring pattern of GeoNex-ATLAS by applying satellite monitoring directly to localized regional compliance use cases that appeal to environmental judges."
+      "why_it_could_win": "It targets local operational cost-saving mechanics for a university campus environment, making it immediately relatable to local judges and presenting clear utility metrics."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1213911408"
+        "github:1155558847"
       ],
-      "pitch": "Multi-agent student and local grower support platform combining LangGraph and localized RAG to optimize supply chain logistics and crop yield predictions in the Southeastern US.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "RAG"
-      ],
-      "title": "AgriTrace AI",
-      "track": "",
-      "why_it_could_win": "Follows the winning architectural patterns of greennovation-ai-platform by combining multi-agent workflows with practical regional resource optimization."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-powered patient acquisition and trust engine specifically optimized for university health centers and local community clinics to streamline intake and triage.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
-      ],
-      "title": "CampusCare AI",
-      "track": "",
-      "why_it_could_win": "Replicates the winning formula of Global-Smile by delivering a highly focused, localized patient management and trust automation tool that judges can easily evaluate."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous AI agent marketplace with secure crypto-escrow payments optimized for micro-tasks and peer-to-peer campus service delivery.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
-      ],
-      "title": "GatorRoute Escrow",
-      "track": "",
-      "why_it_could_win": "Mirrors the successful Dispatch project pattern by integrating autonomous agent transactions with escrow mechanics, appealing to technical judges looking for complex integration."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Personalized nutrition and meal planning platform that analyzes local dining hall menus and grocery inventories to deliver tailored dietary recommendations.",
+      "pitch": "A computer vision and IoT sensor dashboard designed to monitor wetland water quality metrics and flag ecological anomalies in real time for local conservationists.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "React",
-        "OpenAI API"
+        "OpenCV"
       ],
-      "title": "NutriGator AI",
+      "title": "SwampWatch Aquatic Ecosystem Sentinel",
       "track": "",
-      "why_it_could_win": "Builds directly on the E-Foodiee-AI-Nutrition-Assistant win by targeting an immediate, relatable demographic need for students during a 48-hour sprint."
+      "why_it_could_win": "It leverages regional environmental themes relevant to north-central Florida, capturing judge interest through direct ecological relevance."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A dynamic campus shuttle scheduling platform that uses predictive passenger load modeling to reroute transit vehicles during peak class-change hours.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Leaflet",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "GatorRoute Smart Transit Sync",
+      "track": "",
+      "why_it_could_win": "Every student at an in-person hackathon in Gainesville deals with transit bottlenecks, providing an instantly understandable demonstration during the final pitch."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized micro-marketplace facilitating inventory sharing and equipment rentals between student-run organizations and local Gainesville pop-up vendors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "TailwindCSS",
+        "Prisma"
+      ],
+      "title": "CampusCartus Local Vendor Exchange",
+      "track": "",
+      "why_it_could_win": "It addresses community logistics with a functional transactional flow, scoring high on practical usability and user experience design."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1213911408"
+      ],
+      "pitch": "An AI-driven study group formation engine that pairs university students based on complementary skill gaps and assignment deadlines rather than random signups.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "StudyHive Peer Skill Matcher",
+      "track": "",
+      "why_it_could_win": "It solves an omnipresent student pain point with a clean matching algorithm, making the core value proposition exceptionally easy for judges to test live."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

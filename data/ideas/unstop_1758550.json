@@ -1,104 +1,117 @@
 {
-  "generated_at": "2026-09-20T07:54:41.284350+00:00",
+  "generated_at": "2026-09-21T08:37:54.042040+00:00",
   "grounding": {
     "domains": [
-      "data",
-      "ai-ml"
+      "ai-ml",
+      "data"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "working-demo",
-      "technical-depth",
       "sponsor-tech",
-      "unique-data"
+      "working-demo",
+      "impact",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758550",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
+        "github:504196992",
         "github:1228328106"
       ],
-      "pitch": "An AI-powered crop yield and soil health forecasting platform that integrates localized weather data with multi-spectral drone imagery to predict micro-farming anomalies.",
+      "pitch": "A machine learning platform built specifically for Indian agriculture to forecast crop yields and detect early blight anomalies from regional soil and weather telemetry.",
+      "problem_statement": "Agriculture domain challenge focused on data-driven solutions for farm yield and health monitoring.",
       "stack": [
         "Python",
+        "Scikit-learn",
         "XGBoost",
         "Streamlit",
         "Pandas"
       ],
-      "title": "AgriYield-AI",
+      "title": "AgriYield-ML: Regional Crop Disease and Yield Forecasting Engine",
       "track": "Agriculture",
-      "why_it_could_win": "Aligns directly with the Agriculture domain challenge at SUAS Indore, combining hard machine learning models with a clear localized impact on farming."
+      "why_it_could_win": "Directly targets the Agriculture domain requested by the School of Data Science, leveraging tabular machine learning and anomaly detection patterns proven in dengue and IoT forecasting wins."
     },
     {
-      "build_hours": 30,
+      "build_hours": 20,
       "inspired_by": [
         "github:1228328106"
       ],
-      "pitch": "A clinical decision support dashboard that predicts patient readmission risks using tabular hospital records and provides local explanations via SHAP.",
+      "pitch": "An XGBoost-powered clinical dashboard predicting patient readmission rates equipped with SHAP value visualizers for instant doctor-facing medical interpretability.",
+      "problem_statement": "Healthcare domain challenge focusing on predictive modeling and clinical data interpretation.",
       "stack": [
         "Python",
         "XGBoost",
         "SHAP",
-        "Streamlit"
+        "Streamlit",
+        "Plotly"
       ],
-      "title": "MediReadmit-Explain",
+      "title": "ClinicReadmit-X: Explainable Patient Readmission Risk Scoring",
       "track": "Healthcare",
-      "why_it_could_win": "Healthcare is a core focus area for the Datathon, and judges prioritize interpretable ML models that can be immediately understood by medical professionals."
+      "why_it_could_win": "Replicates a proven 1st place medical hackathon architecture by combining high-accuracy gradient boosting with clinical explainability (SHAP), which heavily appeals to academic and healthcare judges."
     },
     {
-      "build_hours": 40,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1341712439",
-        "github:985196561"
+        "github:1171690684",
+        "github:1341712439"
       ],
-      "pitch": "An IoT and CCTV telemetry log analysis system that detects traffic bottlenecks and anomalous congestion patterns in real-time.",
+      "pitch": "An automated exploratory data profiling and anomaly detection tool that ingests smart city sensor logs to catch pollution spikes and traffic congestion bottlenecks.",
+      "problem_statement": "Smart Cities and Environment domain challenge utilizing data analysis and AI/ML model development.",
       "stack": [
-        "TypeScript",
+        "Python",
         "FastAPI",
-        "Python",
-        "Next.js"
+        "Isolation Forest",
+        "Pandas",
+        "React"
       ],
-      "title": "SmartCity-TrafficAnomaly",
+      "title": "UrbanAir-Flow: Smart City Traffic & Emission Anomaly Profiler",
       "track": "Smart Cities",
-      "why_it_could_win": "Targets the Smart Cities domain explicitly and features a working anomaly detection pipeline similar to successful operational intelligence hacks."
+      "why_it_could_win": "Applies an automated data profiling engine that performs rigorous data integrity checks and anomaly detection, matching the runner-up pattern for automated EDA and data engineering tools."
     },
     {
-      "build_hours": 38,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1155558847"
+        "github:435231380"
       ],
-      "pitch": "An AI-powered satellite monitoring tool to track environmental degradation and industrial deforestation over designated green belts.",
+      "pitch": "A Natural Language Processing pipeline that automatically categorizes, prioritizes, and extracts root-cause summaries from financial consumer complaint datasets.",
+      "problem_statement": "Finance domain challenge applying machine learning and natural language processing to real-world complaint data.",
       "stack": [
-        "TypeScript",
         "Python",
-        "Leaflet",
-        "FastAPI"
+        "NLTK",
+        "Scikit-learn",
+        "Flask",
+        "TailwindCSS"
       ],
-      "title": "EcoAudit-Satellite",
-      "track": "Environment",
-      "why_it_could_win": "Solves an Environment domain problem using geospatial data analysis, matching the winning formula of satellite monitoring systems."
+      "title": "FinComplaint-AI: Consumer Grievance Auto-Tagger and Sentiment Sorter",
+      "track": "Finance",
+      "why_it_could_win": "Directly mirrors a 1st place data science solution built for consumer complaints databases, utilizing robust NLP text preprocessing and classification."
     },
     {
-      "build_hours": 32,
+      "build_hours": 18,
       "inspired_by": [
-        "github:1266090747"
+        "github:1266090747",
+        "github:1171690684"
       ],
-      "pitch": "An automated evaluation tool for educational admission and grading datasets that detects, explains, and mitigates algorithmic bias.",
+      "pitch": "A data profiling and fairness auditing platform that evaluates educational assessment data for hidden demographic biases and consistency issues.",
+      "problem_statement": "Education domain challenge focusing on data analysis, interpretation, and fairness in machine learning.",
       "stack": [
-        "TypeScript",
         "Python",
         "Pandas",
-        "Scikit-Learn"
+        "Streamlit",
+        "Seaborn"
       ],
-      "title": "EduFair-BiasAudit",
+      "title": "EduProfile-Audit: Student Performance Integrity & Bias Checker",
       "track": "Education",
-      "why_it_could_win": "Combines the Education domain with fairness and transparency metrics, satisfying the core data science interpretation criteria of the judges."
+      "why_it_could_win": "Combines data profiling with algorithmic bias detection—a winning combination from recent data science hackathons that highlights ethical AI practices for academic evaluators."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

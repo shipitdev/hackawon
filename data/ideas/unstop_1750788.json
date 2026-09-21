@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:23.607335+00:00",
+  "generated_at": "2026-09-21T08:29:23.532916+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,93 +7,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1750788",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A supply chain carbon accounting and offset optimization platform leveraging multi-agent AI to audit green energy certificates.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "LangGraph"
-      ],
-      "title": "GreenTrace Carbon Ledger",
-      "track": "Climate, Energy & Green Technologies",
-      "why_it_could_win": "Directly targets the Climate, Energy & Green Technologies domain with automated multi-agent reasoning similar to winning architecture patterns."
-    },
-    {
       "build_hours": 36,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A healthcare procurement fraud detection system that maps supplier-hospital supply networks using graph intelligence and explainable machine learning.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "MediGraph AML Shield",
-      "track": "Healthcare Tech & Wellness",
-      "why_it_could_win": "Merges Healthcare Tech & Wellness with Fintech procurement validation, leveraging graph intelligence that proved successful in complex regulatory competitions."
-    },
-    {
-      "build_hours": 32,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent dispatch system for maritime and inland container depots to optimize yard movements and reduce idling emissions.",
+      "pitch": "A transparent procurement and logistics provenance tracking system using verifiable supply chain receipts.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Node.js",
-        "Python",
-        "PostgreSQL"
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "SmartPort Logistics Flow",
+      "title": "ChainLogix",
       "track": "Procurement and Logistics",
-      "why_it_could_win": "Addresses Procurement and Logistics with an autonomous operational agent framework that appeals to technical judges looking for heavy backend execution."
+      "why_it_could_win": "Addresses the Procurement and Logistics domain directly with concrete operational traceability, giving offline judges a clear real-world deployment scenario."
     },
     {
-      "build_hours": 28,
+      "build_hours": 30,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "An automated regulatory compliance and risk assessment platform for micro-lending fintechs utilizing localized financial forecasting models.",
+      "pitch": "Renewable energy forecasting and local microgrid load balancing optimizer using Poisson regression and historical weather feeds.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
         "FastAPI",
         "React"
       ],
-      "title": "Regulend Risk Engine",
-      "track": "Fintech",
-      "why_it_could_win": "Focuses on the Fintech domain with calibrated statistical forecasting and strict prediction intervals, mirroring winning fintech and forecasting models."
+      "title": "EcoGrid AI",
+      "track": "Climate, Energy & Green Technologies",
+      "why_it_could_win": "Applies rigorous statistical modeling directly to the Climate, Energy & Green Technologies domain, mirroring winning forecasting architectures."
     },
     {
-      "build_hours": 24,
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Graph-based fraud and anomaly detection platform tailored for medical insurance claims and healthcare supply procurement.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "MediGraph AML",
+      "track": "Healthcare Tech & Wellness",
+      "why_it_could_win": "Adapts proven graph intelligence architectures to the Healthcare Tech & Wellness domain to flag suspicious claim networks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "Automated micro-settlement and liquidity routing engine for cross-border logistics and freight forwarders.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "TradeRoute Ledger",
+      "track": "Fintech",
+      "why_it_could_win": "Combines Fintech principles with supply chain logistics to solve real payment friction issues faced by regional enterprises."
+    },
+    {
+      "build_hours": 28,
       "inspired_by": [
         "github:1275874285",
         "github:1241231621"
       ],
-      "pitch": "An AI-powered nutritional compliance and patient trust engine for clinical wellness programs, featuring verifiable dietary generation.",
+      "pitch": "Personalized wellness and nutrition assistant leveraging generative AI to build customized rehabilitation meal plans for recovering patients.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
+        "Python",
         "Gemini API",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "NutriTrack Clinical Trust",
+      "title": "VitalsAI Coach",
       "track": "Healthcare Tech & Wellness",
-      "why_it_could_win": "Combines Healthcare Tech & Wellness with personalized AI insights, capitalizing on winning templates established in dedicated health sprint events."
+      "why_it_could_win": "Delivers an end-to-end user experience tailored to the Healthcare Tech & Wellness track with immediate, tangible utility for judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

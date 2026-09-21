@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:52:57.892449+00:00",
+  "generated_at": "2026-09-21T08:27:22.024834+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,91 +7,96 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749756",
   "ideas": [
     {
-      "build_hours": 28,
+      "build_hours": 26,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite monitoring and automated compliance reporting platform for industrial zones and manufacturing units to track environmental violations.",
+      "pitch": "An AI-powered satellite monitoring tool for local industrial environmental compliance and green norm tracking.",
+      "problem_statement": "Solving pressing real-world challenges under the Software track.",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Satellite API"
+        "Python",
+        "TailwindCSS"
       ],
       "title": "EcoCompliant-AI",
       "track": "Software",
-      "why_it_could_win": "Matches the pattern of hard engineering and geospatial monitoring seen in Xcelerate Hackathon winners, appealing directly to incubation center judges focused on real-world industrial compliance."
+      "why_it_could_win": "Directly builds on the proven runner-up pattern from GeoNex-ATLAS by targeting industrial compliance and regional monitoring, which heavily appeals to local incubation center judges from NFED."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "Autonomous AI agent marketplace with transparent milestone escrow payments on Base, designed to connect local farmers directly with entrepreneurial seed funders.",
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A low-cost hardware sensor kit with real-time telemetry to prevent crop spoilage and monitor soil health for local farmers.",
+      "problem_statement": "Solving pressing real-world challenges under the Hardware track.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "C++",
+        "Arduino",
+        "ESP32",
+        "Python",
+        "MQTT"
       ],
-      "title": "AgriTrace-Escrow",
-      "track": "Software",
-      "why_it_could_win": "Leverages the incubation center and entrepreneurship cell backing of the hackathon by solving localized supply chain trust issues through autonomous escrow."
+      "title": "AgriGuard IoT Node",
+      "track": "Hardware",
+      "why_it_could_win": "Targeting the hardware track with a tangible, deployable prototype matches the incubation interests of the hosting engineering college and incubator."
     },
     {
-      "build_hours": 26,
+      "build_hours": 24,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "AI-powered patient acquisition and trust engine for regional clinics and orthotic/prosthodontic centers to automate consultation pipelines and treatment outcome tracking.",
+      "pitch": "An AI-driven patient acquisition and trust engine optimized for local specialized clinics to improve community health onboarding.",
+      "problem_statement": "Solving pressing real-world challenges under the Software track.",
       "stack": [
         "TypeScript",
+        "Next.js",
         "Gemini API",
-        "Next.js"
+        "Prisma"
       ],
-      "title": "MedTrust-Prosthetics",
+      "title": "MedTrust AI Engine",
       "track": "Software",
-      "why_it_could_win": "Targeting local healthcare and institutional clinics addresses high-priority regional socio-economic challenges, a key focus for collegiate incubation judges."
+      "why_it_could_win": "Utilizes the proven fast-sprint winning pattern of Global-Smile, delivering a complete, high-impact business workflow tool tailored for local healthcare providers within a tight timeline."
     },
     {
-      "build_hours": 30,
+      "build_hours": 28,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "Graph intelligence and LightGBM-based risk detection platform for micro-enterprises and local financial cooperatives to flag fraudulent credit patterns.",
+      "pitch": "An automated risk-detection and graph intelligence platform to flag fraudulent micro-transactions for regional entrepreneurs.",
+      "problem_statement": "Solving pressing real-world challenges under the Software track.",
       "stack": [
         "TypeScript",
         "Python",
         "LightGBM",
-        "NetworkX"
+        "Neo4j"
       ],
-      "title": "GridRisk-AML",
+      "title": "AuditGraph AML",
       "track": "Software",
-      "why_it_could_win": "Features genuinely hard engineering by integrating graph networks with explainable ML, standing out among basic CRUD apps."
+      "why_it_could_win": "Leverages graph-based risk intelligence and explainable models similar to the Bito winner, providing judges with a sophisticated, production-grade financial tool."
     },
     {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student support and sustainability policy advisory platform combining LangGraph, local RAG, and automated campus resource tracking.",
+      "build_hours": 27,
+      "inspired_by": [],
+      "pitch": "An automated hardware-based sorting bin using computer vision to classify and log recyclable waste items on campus.",
+      "problem_statement": "Solving pressing real-world challenges under the Hardware track.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LangGraph",
-        "OpenAI API"
+        "OpenCV",
+        "Raspberry Pi",
+        "Flask"
       ],
-      "title": "CampusGreen-RAG",
-      "track": "Software",
-      "why_it_could_win": "Solves an internal collegiate problem while implementing advanced multi-agent architectures that heavily impress technical judges."
+      "title": "SmartWaste IoT Sorter",
+      "track": "Hardware",
+      "why_it_could_win": "Combines hardware sensors with a live software dashboard, fulfilling both hardware track requirements and campus sustainability goals that impress academic judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:18.398833+00:00",
+  "generated_at": "2026-09-21T08:26:10.320321+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1748404",
@@ -16,79 +18,91 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring platform that tracks industrial land compliance and deforestation changes in real time.",
+      "pitch": "An AI-powered satellite monitoring platform that tracks and verifies corporate carbon offset plantation claims using geospatial imagery.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
-        "Satellite APIs"
+        "Python",
+        "Leaflet",
+        "OpenCV"
       ],
-      "title": "EcoWatch Satellite Monitoring",
+      "title": "EcoGrid Satellite Monitor",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of GeoNex-ATLAS by combining geospatial imaging data with automated compliance checks, appealing strongly to judges looking for scalable environmental impact under the Innovate Without Borders theme."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered patient acquisition and trust engine specifically built for specialized medical clinics operating across international borders.",
-      "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js"
-      ],
-      "title": "GlobalSmile Patient Trust Engine",
-      "track": "",
-      "why_it_could_win": "Directly targets the global, borderless scope of the hackathon using proven architectures from the Global-Smile prize winner that streamline patient trust and onboarding."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student support platform that assists international learners by combining LangGraph, RAG, and personalized AI agents.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "RAG"
-      ],
-      "title": "GreenNovation Multi-Agent Student Support",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning architecture of the greennovation-ai-platform to deliver localized, reliable mentorship across educational institutions worldwide."
+      "why_it_could_win": "Leverages heavy technical integration of satellite imaging APIs and computer vision, mirroring the winning approach of GeoNex-ATLAS which succeeded in a general innovation and sustainability context."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AML risk detection and investigation platform that combines graph intelligence and explainable machine learning models for cross-border financial transactions.",
+      "pitch": "A graph-intelligence compliance platform that maps cross-border supply chain transactions to detect illegal wildlife and timber trafficking.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LightGBM",
-        "Graph Intelligence"
+        "Neo4j",
+        "Python",
+        "LightGBM"
       ],
-      "title": "Bito AML Risk Detective",
+      "title": "BioRisk Graph AML",
       "track": "",
-      "why_it_could_win": "Replicates the technical depth and compliance-focus of Bito, addressing the heavy due-diligence priorities of enterprise-minded hackathon judges."
+      "why_it_could_win": "Adapts the graph intelligence and risk scoring architecture that won the DIGITIMES AI Innovation Hackathon, applying complex relationship mapping to global sustainability challenges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace that deploys milestone-based humanitarian aid funding using transparent escrow and multi-signature verification.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Base",
+        "USDC",
+        "Node.js"
+      ],
+      "title": "Global Aid Escrow Agent",
+      "track": "",
+      "why_it_could_win": "Directly implements the autonomous agent marketplace pattern combined with secure escrow mechanics proven in the Synthesis Hackathon win."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1185920891"
+        "github:1213911408"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating instant services with USDC escrow payments settled on low-cost layer-2 chains.",
+      "pitch": "A localized multi-agent student support and tutoring platform combining LangGraph workflows and RAG to assist displaced and refugee students.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC"
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "OpenAI API",
+        "Pinecone"
       ],
-      "title": "Dispatch Cross-Border USDC Escrow",
+      "title": "EduBridge Multi-Agent Mentor",
       "track": "",
-      "why_it_could_win": "Builds on the proven Dispatch architecture to demonstrate real-world financial utility for freelancers and remote workers across multiple borders."
+      "why_it_could_win": "Reuses the exact multi-agent architecture and RAG implementation that secured 1st place at the GreenNovation Hackathon, ensuring high technical execution quality."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-driven multilingual intake and trust engine for international medical missions, matching patients with remote specialists and verifying treatment histories.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "Global Health Patient Trust Engine",
+      "track": "",
+      "why_it_could_win": "Scales the rapid prototyping speed and Gemini integration of the Global-Smile win, tailored specifically to international healthcare accessibility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

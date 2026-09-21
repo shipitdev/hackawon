@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:39.538190+00:00",
+  "generated_at": "2026-09-21T08:28:34.631954+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1750139",
@@ -14,86 +16,99 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1181344931",
+        "github:1200926140"
       ],
-      "pitch": "Satellite imagery and AI-powered monitoring platform for tracking agricultural land encroachment and crop health compliance tailored to Indian regional land records.",
+      "pitch": "An AI-powered voice-first financial ledger and credit scoring engine built specifically for semi-urban and rural Indian street vendors using vernacular Indian languages.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
         "Next.js",
-        "Satellite API"
-      ],
-      "title": "AgriSathi-AI-Land-Monitoring",
-      "track": "",
-      "why_it_could_win": "Leverages the proven satellite monitoring architecture from GeoNex-ATLAS, targeting pressing real-world agricultural and land compliance issues relevant to Indian national infrastructure."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "Localized AI nutrition and wellness assistant delivering personalized meal plans and macro breakdowns based on traditional Indian regional diets and local grocery availability.",
-      "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "OpenAI API"
+        "OpenAI Whisper",
+        "PostgreSQL"
       ],
-      "title": "Swasthya-AI-Nutrition-Regional",
+      "title": "BhashaLedger: Vernacular Micro-Enterprise Credit Intelligence",
       "track": "",
-      "why_it_could_win": "Adapts the 24-hour winning nutrition formula of E-Foodiee into a culturally relevant context that instantly resonates with local judges and users."
+      "why_it_could_win": "Aligns perfectly with the 'Build with Bharat' national focus by solving a grass-roots economic problem using voice AI, appealing strongly to judges looking for local social impact."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847",
+        "github:1275874285"
       ],
-      "pitch": "Graph-intelligence and machine learning platform designed to detect fraudulent ring topologies and AML risks in high-frequency UPI transaction networks.",
+      "pitch": "A mobile-friendly computer vision tool that processes drone or smartphone crop imagery offline to detect localized nutrient deficiencies and blight outbreaks instantly.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
+        "React Native",
         "Python",
-        "NetworkX",
-        "LightGBM"
+        "TensorFlow Lite",
+        "FastAPI"
       ],
-      "title": "FinGuard-UPI-AML-Engine",
+      "title": "KisaanDrone-AI: Real-Time Crop Disease & Yield Estimator",
       "track": "",
-      "why_it_could_win": "Employs heavy graph intelligence and explainable machine learning techniques similar to the Bito award-winning financial platform, solving an urgent fintech problem in India."
+      "why_it_could_win": "Agricultural tech holds massive appeal for national hackathons in India. Combining edge-optimized ML with a clear economic benefit makes it instantly compelling to offline judges."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Poisson regression and automated GAM forecasting tool for predicting and auditing AI safety incidents and regulatory compliance flags for Indian tech startups.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Statsmodels"
-      ],
-      "title": "AI-Incident-Tracker-India",
-      "track": "",
-      "why_it_could_win": "Replicates the sophisticated statistical modeling approach of the Apart Research AI Forecasting hackathon winner, showcasing genuinely hard engineering in a 24-hour window."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1185920891",
+        "github:1241231621",
         "github:1213911408"
       ],
-      "pitch": "Autonomous AI agent marketplace with smart contract escrow payments for connecting rural artisans and farmers directly with government subsidy schemes.",
+      "pitch": "A low-bandwidth, sync-capable diagnostic assistant for rural health workers that structures symptoms into triage reports and matches patients with nearby public health schemes.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Solidity",
-        "LangGraph",
-        "USDC"
+        "TypeScript",
+        "Next.js",
+        "SQLite",
+        "TailwindCSS",
+        "Node.js"
       ],
-      "title": "Kisaan-Autonomous-Grant-Escrow",
+      "title": "MedSetu: Offline-First Rural Telemedicine & Triaging Assistant",
       "track": "",
-      "why_it_could_win": "Combines multi-agent workflow architecture with escrow mechanics, mirroring the winning Dispatch autonomous agent pattern while solving grassroots economic distribution."
+      "why_it_could_win": "Addresses real infrastructure constraints in rural Indian healthcare, showing technical awareness of low-connectivity deployment."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1200926140"
+      ],
+      "pitch": "A semantic graph-based search engine that maps citizen profiles to central and state welfare schemes, cutting through bureaucratic eligibility hurdles with natural language queries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Neo4j",
+        "FastAPI",
+        "Next.js",
+        "LangChain"
+      ],
+      "title": "GovSchemeGraph: AI Navigator for Indian Public Welfare Schemes",
+      "track": "",
+      "why_it_could_win": "Directly targets governance and citizen service delivery, a recurring theme in national innovation challenges organized in institutional settings."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A lightweight dashboard simulating IoT sensor streams from municipal water grids to predict pipe rupture hotspots and leakage losses using statistical modeling.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Scikit-Learn",
+        "Chart.js"
+      ],
+      "title": "PanchayatPanni: IoT Water Pipeline Leakage & Waste Detector",
+      "track": "",
+      "why_it_could_win": "Leverages rigorous data forecasting methods similar to award-winning predictive systems, impressing judges with tangible resource management impact."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

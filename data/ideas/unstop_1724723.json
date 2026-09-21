@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:02.004014+00:00",
+  "generated_at": "2026-09-21T08:17:36.105035+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -7,8 +7,12 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "unique-data",
+      "sponsor-tech",
+      "polish"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1724723",
@@ -16,82 +20,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1208011447"
+        "github:1004582948"
       ],
-      "pitch": "A defense-in-depth AI agent framework designed to autonomously analyze smart contracts and web apps for prompt injection and security vulnerabilities during live CTF matches.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Vercel AI SDK",
-        "ConnectRPC"
-      ],
-      "title": "AgentShield CTF Agent",
-      "track": "",
-      "why_it_could_win": "Leverages technical difficulty and advanced agent security hardening, aligning with winning patterns from security and agent hackathons."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1161237076"
-      ],
-      "pitch": "An automated cryptographic vulnerability and side-channel analysis tool tailored for identifying weak key generations and faulty RSA/AES implementations in CTF challenges.",
+      "pitch": "An AI-assisted CTF training and automated write-up generation pipeline that documents flag captures, commands run, and proof-of-concept exploits in real time.",
+      "problem_statement": "Stage 2.2 Final Evaluation requirement for qualified teams to thoroughly document, reproduce, and demonstrate their techniques post-competition.",
       "stack": [
         "Python",
-        "SageMath",
-        "FastAPI"
+        "FastAPI",
+        "LangChain",
+        "React",
+        "Markdown"
       ],
-      "title": "CryptoLeak Analyzer",
+      "title": "FlagForge CTF Automation & Automated Write-up Generator",
       "track": "",
-      "why_it_could_win": "Tackles a domain-specific and technically arduous area of cybersecurity competitions that judges heavily respect."
+      "why_it_could_win": "Directly aligns with the Grand Finale's strict evaluation requirement where the top 10 teams must submit comprehensive write-ups and technical proof-of-work, saving exhausted finalists hours of manual documentation."
     },
     {
       "build_hours": 40,
       "inspired_by": [
+        "github:1196410850",
         "github:1181344931"
       ],
-      "pitch": "An investigative dashboard that ingests OSINT data dumps, metadata, and digital forensics artifacts to construct dynamic link analysis graphs for faster flag discovery.",
+      "pitch": "A localized OSINT intelligence tool that ingests disparate artifact feeds, metadata dumps, and public records to automatically map digital footprints for cyber forensic investigations.",
+      "problem_statement": "Overview Seize da Flaq challenge domain covering OSINT, digital forensics, and uncovering hidden vulnerabilities from realistic evidence.",
       "stack": [
-        "TypeScript",
-        "React",
-        "Neo4j",
-        "Python"
+        "Python",
+        "NetworkX",
+        "Streamlit",
+        "BeautifulSoup"
       ],
-      "title": "OSINT Graph Visualizer",
+      "title": "OSINT-Trace Multi-Source Credential and Footprint Visualizer",
       "track": "",
-      "why_it_could_win": "Combines graph intelligence with rapid artifact investigation, echoing the winning AML risk detection platform architecture."
+      "why_it_could_win": "Leverages hard engineering to parse complex, messy intelligence data faster than manual shell scripts, matching the high technical rigor expected in a national-level CTF."
     },
     {
       "build_hours": 42,
       "inspired_by": [
-        "github:1188682384"
+        "github:614169755"
       ],
-      "pitch": "A zero-knowledge proof gating system for CTF platforms where teams can cryptographically prove they found a flag hash without leaking the plaintext flag to shared servers.",
-      "stack": [
-        "Noir",
-        "TypeScript",
-        "Base"
-      ],
-      "title": "ZK-Flag Vault",
-      "track": "",
-      "why_it_could_win": "Showcases advanced ZK circuit engineering, mirroring the technical complexity of winning privacy and secrets hackathon projects."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A local developer tool that automatically scans source code repositories for secrets, hardcoded API keys, and security anti-patterns before deployment.",
+      "pitch": "A specialized static analysis and verification tool built to catch subtle cryptographic implementation flaws, padding oracles, and weak entropy generation in challenge binaries.",
+      "problem_statement": "Overview Seize da Flaq challenge domain focusing on cryptography, reverse engineering, and finding flaws in security challenges.",
       "stack": [
         "Python",
-        "AST Parser",
-        "React"
+        "Rust",
+        "Radare2",
+        "Docker"
       ],
-      "title": "RepoSec Audit Bot",
+      "title": "CryptoAudit Zero-Knowledge Cryptographic Vulnerability Scanner",
       "track": "",
-      "why_it_could_win": "Builds upon proven automated reporting and security insight generators that have taken top prizes at enterprise hackathons."
+      "why_it_could_win": "Tackles deeply technical security domains (cryptography and reverse engineering) rather than building a generic wrapper, appealing directly to the cybersecurity experts judging the event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A localized, zero-knowledge encrypted vault application designed for CTF competitors to securely store, organize, and sync captured flags, exploit payloads, and sensitive notes without risk of credential leakage.",
+      "problem_statement": "Overview Seize da Flaq competition requirement for participants to investigate evidence, manage findings, and secure data during intense multi-stage rounds.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "AES-256",
+        "SQLite"
+      ],
+      "title": "ZeroGuard Biometric Secure Evidence Vault",
+      "track": "",
+      "why_it_could_win": "Demonstrates exceptional polish, military-grade client-side encryption, and a polished UX that stands out amidst standard unstyled hacker tools."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A high-performance packet capture analysis tool optimized for edge deployment that automatically flags suspicious beaconing, lateral movement, and hidden flags within raw PCAP files.",
+      "problem_statement": "Overview Seize da Flaq challenge domains involving digital forensics and network traffic analysis under strict competition time constraints.",
+      "stack": [
+        "Python",
+        "Scapy",
+        "FastAPI",
+        "Vue.js"
+      ],
+      "title": "EdgePcap Real-Time Network Forensics & Anomaly Triage",
+      "track": "",
+      "why_it_could_win": "Provides raw utility during a fast-paced live CTF by automating tedious packet-filtering tasks, giving teams a tactical edge in dissecting network-based challenges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

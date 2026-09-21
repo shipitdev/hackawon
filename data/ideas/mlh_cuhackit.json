@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:33.052887+00:00",
+  "generated_at": "2026-09-21T08:10:45.776983+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:cuhackit",
@@ -14,87 +16,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847",
-        "github:1213911408"
+        "github:1213911408",
+        "github:1155558847"
       ],
-      "pitch": "A localized environmental monitoring dashboard using satellite and IoT sensor data to track building-level energy usage and green cover changes across the Clemson campus.",
+      "pitch": "Real-time IoT energy monitoring and predictive anomaly detection dashboard for campus buildings at Clemson University.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "Next.js",
+        "Python",
         "TailwindCSS"
       ],
-      "title": "Clemson Campus Footprint AI Carbon & Energy Tracker",
+      "title": "Campus Green Energy Monitor",
       "track": "",
-      "why_it_could_win": "Leverages the pattern from GeoNex-ATLAS by applying geospatial and satellite monitoring to a hyper-local, recognizable environment like the host university campus, appealing directly to sustainability-minded judges."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
-      ],
-      "pitch": "An AI-powered nutrition and campus dining optimization platform that generates personalized meal plans based on student schedules, dietary restrictions, and actual dining hall menus.",
-      "stack": [
-        "Python",
-        "React",
-        "FastAPI",
-        "Gemini API"
-      ],
-      "title": "Clemson Student Wellness & Meal Planner AI",
-      "track": "",
-      "why_it_could_win": "Adapts the proven formula of the E-Foodiee AI Nutrition Assistant to solve an immediate, relatable problem for students attending the university where the hackathon is hosted."
+      "why_it_could_win": "Leverages localized university campus utility data which appeals directly to local judges and institutional stakeholders."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An automated risk detection and incident forecasting platform for university research grants, utilizing Poisson regression and machine learning models to flag compliance anomalies early.",
+      "pitch": "Computer vision and geospatial routing platform to optimize pedestrian traffic bottlenecks around Memorial Stadium during game days.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Pandas",
-        "Scikit-learn"
+        "OpenCV",
+        "TypeScript",
+        "Mapbox"
       ],
-      "title": "Clemson Research Grant Compliance & Risk Forecaster",
+      "title": "Clemson GameDay Crowd Flow AI",
       "track": "",
-      "why_it_could_win": "Combines the rigorous statistical forecasting seen in the AI incident forecasting winner with real institutional use cases that university administrators and judges value."
+      "why_it_could_win": "Targets a universally recognized logistical pain point in Clemson, SC, making the demo instantly relatable and engaging for judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Multi-agent collaborative study planner that automatically indexes local course syllabi and generates personalized peer study groups.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Python"
+      ],
+      "title": "TigerLearn AI Study Coordinator",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, everyday problem for college students using proven multi-agent orchestration patterns."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "Hyper-local surplus food marketplace connecting Clemson dining halls and local restaurants with students in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "Local Eats Surplus Marketplace",
+      "track": "",
+      "why_it_could_win": "Combines a strong community sustainability angle with a fully functional marketplace UX that judges can test live during presentations."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1185920891"
+        "github:1087704265"
       ],
-      "pitch": "A decentralized micro-task marketplace where student organizations can post project needs and reward contributors using secure escrow smart contracts.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
-        "React"
-      ],
-      "title": "Clemson Student Club Autonomous Task & Escrow Marketplace",
-      "track": "",
-      "why_it_could_win": "Replicates the autonomous marketplace structure of Dispatch while tailoring the workflow specifically to student club operations and campus engagement."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "A lightweight, no-code algorithmic trading strategy builder designed for collegiate finance clubs to test and simulate crypto or stock strategies instantly.",
+      "pitch": "Poisson regression-based transit delay forecasting and alternative routing engine for the Clemson Area Transit system.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "Pandas"
+        "Jupyter Notebook",
+        "FastAPI",
+        "TypeScript"
       ],
-      "title": "TigerTrading No-Code Strategy Backtester",
+      "title": "Clemson Transit ETA Predictor",
       "track": "",
-      "why_it_could_win": "Employs the successful no-code architecture of ClashX while focusing on educational and local collegiate financial club engagement."
+      "why_it_could_win": "Integrates rigorous statistical modeling and regression techniques similar to award-winning forecasting hacks."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

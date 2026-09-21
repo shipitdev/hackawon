@@ -1,99 +1,107 @@
 {
-  "generated_at": "2026-09-15T07:58:00.160826+00:00",
+  "generated_at": "2026-09-21T08:32:37.564942+00:00",
   "grounding": {
     "domains": [
       "security"
     ],
     "exemplar_count": 8,
     "patterns": [
+      "sponsor-tech",
       "technical-depth",
-      "sponsor-tech"
+      "unique-data",
+      "unusual-hardware"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1754836",
   "ideas": [
     {
-      "build_hours": 6,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1004582948"
+        "github:1175183165"
       ],
-      "pitch": "A Python and Wireshark-plugin network forensics tool that automatically reconstructs multi-step exfiltration payloads from packet captures during a CTF.",
+      "pitch": "A Python toolkit designed to detect hidden payloads and steganographic data concealed within image and file latents, leveraging mechanistic interpretation techniques.",
+      "problem_statement": "Cryptography & Steganography",
+      "stack": [
+        "Python",
+        "NumPy",
+        "PyTorch",
+        "OpenCV"
+      ],
+      "title": "StegLatentAnalyzer",
+      "track": "Cryptography & Steganography",
+      "why_it_could_win": "Leverages the advanced mechanistic interpretation patterns from successful projects like patchsteg, tackling the hardest steganography challenges directly."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A network packet capture analysis tool that ingests PCAP files and visualizes anomalous traffic and potential intrusions in real-time 3D space.",
+      "problem_statement": "Digital Forensics & Network PCAP Analysis",
       "stack": [
         "Python",
         "Scapy",
-        "FastAPI",
-        "React"
+        "Three.js",
+        "FastAPI"
       ],
-      "title": "PCAP-Inspector",
+      "title": "NetPulse 3D PCAP",
       "track": "Digital Forensics & Network PCAP Analysis",
-      "why_it_could_win": "Tackles the digital forensics and network PCAP analysis domain by automating complex manual steps, reflecting hard engineering similar to past technical winners."
+      "why_it_could_win": "Adapts the real-time threat visualization engine concepts from GraphGuard to make complex network forensics instantly intuitive for judges."
     },
     {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1274691349"
-      ],
-      "pitch": "An automated cryptographic puzzle solver for custom asymmetric ciphers, small RSA exponent attacks, and common padding oracles encountered in CTF challenges.",
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "An automated binary analysis and decompilation helper that detects common obfuscation patterns and maps out control flow graphs for reverse engineering tasks.",
+      "problem_statement": "Reverse Engineering & Binary Exploitation",
       "stack": [
         "Python",
-        "SageMath",
-        "CryptoDome"
+        "LIEF",
+        "Rizin",
+        "NetworkX"
       ],
-      "title": "CryptoForge Analyzer",
-      "track": "Cryptography & Steganography",
-      "why_it_could_win": "Addresses the cryptography and steganography domain directly with algorithm-heavy execution, aligning with the pattern of winning hard engineering projects."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A static binary analysis companion that identifies custom calling conventions and common buffer overflow gadgets in stripped ELF binaries during reverse engineering challenges.",
-      "stack": [
-        "Python",
-        "Ridan",
-        "Capstones",
-        "Radare2"
-      ],
-      "title": "Binary-Guard Decompiler",
+      "title": "RevArmor Binary Deobfuscator",
       "track": "Reverse Engineering & Binary Exploitation",
-      "why_it_could_win": "Solves the reverse engineering and binary exploitation domain by automating vulnerability detection patterns judges look for in technical CTF puzzles."
+      "why_it_could_win": "Solves genuine hard engineering problems in binary analysis under tight time constraints, addressing a domain where automation stands out."
     },
     {
-      "build_hours": 5,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1022783746"
+        "github:1196410850"
       ],
-      "pitch": "A rapid payload testing environment tailored for complex server-side request forgery (SSRF) and deserialization vulnerabilities found in web exploitation tracks.",
+      "pitch": "A specialized reconnaissance automation script that securely crawls public data registries and metadata layers to surface hidden configuration flags and leaks.",
+      "problem_statement": "OSINT & System Security",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Docker",
-        "Express"
+        "Python",
+        "BeautifulSoup",
+        "Asyncio",
+        "SQLite"
       ],
-      "title": "WebExploit Sandbox",
-      "track": "Web Exploitation",
-      "why_it_could_win": "Streamlines the web exploitation domain with an efficient, highly focused local testing harness that saves crucial minutes during a 6-hour sprint."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An OSINT framework that aggregates public social footprints, metadata, and infrastructure correlations into a visual node graph to uncover hidden system security flags.",
-      "stack": [
-        "TypeScript",
-        "Neo4j",
-        "React",
-        "Python"
-      ],
-      "title": "OSINT Graph Mapper",
+      "title": "OSINT Footprint Aggregator",
       "track": "OSINT & System Security",
-      "why_it_could_win": "Provides an edge in the OSINT and system security domain through graph intelligence and quick correlation, mirroring successful analytical platform architectures."
+      "why_it_could_win": "Uses automated data ingestion pipelines reminiscent of WILDSCAN to rapidly parse complex unstructured information sources during live CTF challenges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid custom static analysis extension tailored to uncover modern web exploitation vectors like prototype pollution and insecure deserialization in custom applications.",
+      "problem_statement": "Web Exploitation",
+      "stack": [
+        "Python",
+        "Flask",
+        "Tree-sitter",
+        "JavaScript"
+      ],
+      "title": "WebVuln Inspector",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Builds on the reporting and analysis automation mindset of tools like reportr, giving competitors a tactical edge during the 6-hour time window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

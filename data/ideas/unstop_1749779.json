@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:29.307906+00:00",
+  "generated_at": "2026-09-21T08:27:57.990563+00:00",
   "grounding": {
     "domains": [
       "gaming"
@@ -10,6 +10,8 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749779",
@@ -19,81 +21,89 @@
       "inspired_by": [
         "github:1022921066"
       ],
-      "pitch": "A real-time voice-activated tactical assistant for Valorant teams that listens to match audio and displays optimal defensive or offensive setups on an overlay based on enemy economy and callouts.",
+      "pitch": "An AI-powered real-time tactical assistant that listens to team comms during a match and suggests optimal utility setups and rotation timings.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "PyQt",
-        "OpenAI Whisper"
+        "OpenAI Whisper",
+        "WebSockets"
       ],
-      "title": "ValorantStratCoach",
+      "title": "Valorant Tactical Coach Agent",
       "track": "",
-      "why_it_could_win": "Addresses the core theme of the esports tournament by directly enhancing team coordination and strategic decision-making during live matches."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:870537595"
-      ],
-      "pitch": "An automated tournament match analyzer that ingests custom game round data and generates heatmaps, clutch success rates, and team positioning statistics for post-match debriefs.",
-      "stack": [
-        "TypeScript",
-        "React",
-        "Node.js",
-        "TailwindCSS"
-      ],
-      "title": "BattleZoneStats",
-      "track": "",
-      "why_it_could_win": "Provides immediate practical value to tournament organizers and competing 5-person squads wanting competitive edges."
+      "why_it_could_win": "Demonstrates heavy technical execution in live voice processing under tight hackathon timeframes, directly appealing to competitive esports judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1052196050"
       ],
-      "pitch": "An autonomous AI bot trained to simulate standard Valorant agent utility usage and gunfight positioning to help tournament teams warm up and practice against specific compositions.",
+      "pitch": "An automated reinforcement learning bot capable of simulating basic tactical engagements on custom Valorant map layouts for pre-match strat crafting.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "PyTorch",
-        "vLLM"
+        "vLLM",
+        "Three.js"
       ],
-      "title": "ValorantAgentBot",
+      "title": "ZoneBot Autonomous Match Simulator",
       "track": "",
-      "why_it_could_win": "Demonstrates advanced multi-agent coordination and complex state simulation directly relevant to competitive gaming environments."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1276392534"
-      ],
-      "pitch": "A live telemetry dashboard for tournament admins to monitor team communication stress levels, round timings, and technical stability anomalies during matches.",
-      "stack": [
-        "TypeScript",
-        "WebSockets",
-        "React"
-      ],
-      "title": "EsportsCommMonitor",
-      "track": "",
-      "why_it_could_win": "Solves real-world operational challenges for an in-person BYOD esports tournament with tight schedules."
+      "why_it_could_win": "Builds on complex agent architectures proven in previous hackathon wins, offering a jaw-dropping live demonstration."
     },
     {
       "build_hours": 24,
       "inspired_by": [
+        "github:870537595"
+      ],
+      "pitch": "A unified platform for the Valorant tournament featuring automated real-time standings updates and dynamic viewer engagement feeds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Socket.io"
+      ],
+      "title": "Esports Tournament Bracket & Live Telemetry Hub",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical need for the event organizers, ensuring high utility and direct appreciation from event hosts."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1276392534"
+      ],
+      "pitch": "An automated clipping tool that ingests match VODs or live capture feeds, detecting multi-kills and clutch moments to generate social-ready highlight reels instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FFmpeg",
+        "Streamlit"
+      ],
+      "title": "Valorant Highlight Reel Automator",
+      "track": "",
+      "why_it_could_win": "Delivers immediate, highly shareable visual content that tournament organizers and participants can use right away after the event."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
         "github:877364534",
         "github:870537595"
       ],
-      "pitch": "A gamified companion app for tournament spectators to predict round outcomes and earn points while watching live matches unfold in the venue.",
+      "pitch": "A live micro-prediction web app where attendees can wager virtual points on match outcomes and individual round clutches during the tournament.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Firebase",
-        "React"
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Firebase"
       ],
-      "title": "ClutchCompanion",
+      "title": "ClutchRate Gamified Betting & Prediction App",
       "track": "",
-      "why_it_could_win": "Enhances audience engagement during downtime between tournament rounds at an in-person venue."
+      "why_it_could_win": "Gamification of live spectator sports creates high engagement among waiting teams and peers in the venue."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

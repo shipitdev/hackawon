@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:07.839536+00:00",
+  "generated_at": "2026-09-21T08:16:31.727782+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:wichacks",
@@ -14,80 +16,89 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "A graph-based dependency visualizer for local Upstate New York open-source repositories that highlights upstream security vulnerabilities and maintenance drift.",
+      "pitch": "An AI-powered multi-agent student mental health support and resource navigator.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Neo4j",
-        "Next.js"
+        "Next.js",
+        "LangGraph",
+        "Python"
       ],
-      "title": "UpstateFLOSS: Open Source Supply Chain Risk Visualizer",
+      "title": "CampusCare AI",
       "track": "",
-      "why_it_could_win": "Leverages graph intelligence patterns from previous winning projects while addressing local tech ecosystem dependencies in Rochester."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A Poisson regression and time-series dashboard for regional farmers markets in Rochester to predict surplus perishable inventory and automate food bank routing.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas"
-      ],
-      "title": "FingerLakesAgriAI: Local Produce Supply & Demand Forecaster",
-      "track": "",
-      "why_it_could_win": "Adapts rigorous statistical forecasting methods that won the Apart Research AI Forecasting Hackathon to a practical local community use case."
+      "why_it_could_win": "Leverages proven multi-agent RAG patterns similar to past winning educational platforms, hitting high-priority student welfare concerns directly."
     },
     {
       "build_hours": 22,
       "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "AI-powered hyper-local nutrition and meal planning platform for college students using local food pantries and dining halls.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Gemini API"
+      ],
+      "title": "NutriLocal Rochester",
+      "track": "",
+      "why_it_could_win": "Adapts a proven 24-hour hackathon-winning architecture while solving an immediate, concrete local student problem in Rochester."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient onboarding and trust engine tailored for community health clinics in Rochester with instant multilingual intake support.",
+      "pitch": "AI-driven patient acquisition and trust engine tailored for local student health clinics and wellness centers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API"
       ],
-      "title": "ClinicBridge Rochester: Patient Acquisition & Multilingual Triage",
+      "title": "ClinicTrust Rochester",
       "track": "",
-      "why_it_could_win": "Replicates the high-impact, rapid patient-acquisition engine approach that secured first prize at the Elevate X hackathon."
+      "why_it_could_win": "Directly ports a proven short-sprint winning concept into a practical local utility that judges can easily test and evaluate."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite and campus telemetry monitoring dashboard for tracking institutional energy waste and sustainability metrics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Leaflet",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "EcoCampus AI",
+      "track": "",
+      "why_it_could_win": "Mimics the technical presentation style of successful geospatial monitoring hacks, which consistently impress judges with visual dashboards."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1213911408"
+        "github:1185920891"
       ],
-      "pitch": "A multi-agent RAG system built for university campuses to optimize building energy consumption, schedule waste reduction sweeps, and track carbon offsets.",
+      "pitch": "Autonomous peer-to-peer student service marketplace utilizing secure escrow payments.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "OpenAI API"
+        "JavaScript",
+        "Base",
+        "React",
+        "USDC"
       ],
-      "title": "EcoCampus AI: Multi-Agent University Sustainability Planner",
+      "title": "CampusEscrow Market",
       "track": "",
-      "why_it_could_win": "Utilizes the multi-agent student support platform architecture that won first place at the GreenNovation Hackathon."
-    },
-    {
-      "build_hours": 27,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An automated satellite monitoring tool to track industrial land changes and environmental compliance along the Erie Canal corridor.",
-      "stack": [
-        "TypeScript",
-        "Leaflet.js",
-        "Python"
-      ],
-      "title": "CanalCorridor GeoMonitor: Satellite Land Use Change Tracker",
-      "track": "",
-      "why_it_could_win": "Directly implements the geospatial monitoring and industrial compliance pattern seen in the Xcelerate Hackathon runner-up project."
+      "why_it_could_win": "Applies a proven marketplace and escrow pattern from recent winning hackathon projects to a familiar university ecosystem."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

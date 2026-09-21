@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:58:09.634557+00:00",
+  "generated_at": "2026-09-21T08:33:14.213863+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,6 +9,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755028",
@@ -16,85 +18,88 @@
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
+        "github:1004582948"
       ],
-      "pitch": "An autonomous AI agent wrapper built with ConnectRPC and Vercel AI SDK that monitors challenge server infrastructure and applies real-time prompt-injection hardening and request validation against automated exploitation tools.",
+      "pitch": "A specialized enumeration and web exploit dashboard tailored for CTF bug bounty competitions to rapidly map out endpoints and surface common misconfigurations.",
+      "problem_statement": "About Bug Bounty - Challenge-based Bug Bounty / CTF competition focusing on web exploits and responsible vulnerability discovery.",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Vercel AI SDK",
-        "ConnectRPC"
+        "Python",
+        "FastAPI",
+        "React",
+        "Docker"
       ],
-      "title": "CTF-Guard Live Defense-in-Depth Agent",
+      "title": "FlagScope: Automated Recon & Vulnerability Dashboard",
       "track": "",
-      "why_it_could_win": "Directly addresses security hardening and defense-in-depth principles relevant to competitive capture-the-flag events, mirroring winning strategies from recent personal agent and cybersecurity challenges."
+      "why_it_could_win": "Addresses the fast-paced competitive leaderboard nature of the event by automating tedious reconnaissance, freeing up the team to focus on logic flaws and high-value flags."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1069255350"
       ],
-      "pitch": "A graph-based intelligence platform using LightGBM and network mapping to visualize and score the attack surface of web application binaries and trace complex multi-step exploit chains.",
+      "pitch": "A localized containerized environment that simulates real-world vulnerable network topologies and attack paths for training and testing exploits safely.",
+      "problem_statement": "About Bug Bounty - Real-world security scenarios with varying difficulty levels and challenge-based CTF formats.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "React"
+        "Go",
+        "Docker",
+        "Three.js"
       ],
-      "title": "Vulnerability Graph Intelligence Visualizer",
+      "title": "NetSim-CTF: Real-Time Network Attack Sandbox",
       "track": "",
-      "why_it_could_win": "Leans into genuinely hard engineering by combining machine learning risk scoring with graph intelligence to accelerate vulnerability discovery during CTF challenges."
+      "why_it_could_win": "Follows the pattern of solving genuinely hard engineering problems, providing advanced visualization and simulation capabilities similar to top hackathon winners."
     },
     {
-      "build_hours": 40,
+      "build_hours": 28,
       "inspired_by": [
-        "github:1188682384"
+        "github:1004582948"
       ],
-      "pitch": "A ZK-gated submission portal using Noir circuits that allows teams to prove they possess a specific flag or exploit hash on-chain without revealing the raw string or solution to neighboring teams.",
+      "pitch": "An intelligent static analysis helper that scans codebase snippets, identifies potential exploits, and suggests secure code patches on the fly.",
+      "problem_statement": "About Bug Bounty - Focus on ethical hacking, web exploits, and responsible vulnerability discovery.",
       "stack": [
+        "Python",
         "TypeScript",
-        "Noir",
-        "Base",
-        "Solidity"
+        "AST Parsers",
+        "OpenAI API"
       ],
-      "title": "Zero-Knowledge Flag Verification Portal",
+      "title": "SecurePatch: AI-Powered Vulnerability Remediation Tool",
       "track": "",
-      "why_it_could_win": "Applies cutting-edge zero-knowledge proofs to solve the classic CTF problem of flag leaking and sharing, showing high technical sophistication that stands out to judges."
+      "why_it_could_win": "Combines offensive security identification with defensive remediation, giving judges a complete lifecycle perspective on bug bounties."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1004582948"
+        "github:1208011447"
       ],
-      "pitch": "A rapid automated code audit tool that parses repository structures, flags insecure deserialization, hardcoded secrets, and common web exploits before deployment.",
+      "pitch": "A lightweight proxy and runtime inspection tool designed to detect and block SQL injection, XSS, and command injection payloads in real time.",
+      "problem_statement": "About Bug Bounty - Participants may attack only the event application with focus on web exploits.",
       "stack": [
-        "Python",
-        "FastAPI",
-        "AST",
-        "React"
+        "Node.js",
+        "TypeScript",
+        "Express",
+        "Redis"
       ],
-      "title": "RepoInspector Security Insight Engine",
+      "title": "PayloadShield: Local WAF and Exploit Detector",
       "track": "",
-      "why_it_could_win": "Directly tackles the core theme of responsible vulnerability discovery and ethical hacking by providing instant repository security insights."
+      "why_it_could_win": "Demonstrates deep understanding of defensive security mechanisms against the exact type of web exploits featured in the CTF challenges."
     },
     {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "A real-time log analysis system powered by a fine-tuned BERT model that classifies incoming web requests into legitimate traffic versus malicious exploit payloads, updating the live scoreboard context.",
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An independent, high-performance scoreboard interface that parses live challenge difficulty metrics, first-blood bonuses, and team standing adjustments.",
+      "problem_statement": "About Bug Bounty - Dynamic live leaderboard for participant rankings and challenge-based CTF competition.",
       "stack": [
         "Python",
-        "FastAPI",
-        "React.js",
-        "Transformers"
+        "WebSockets",
+        "TailwindCSS",
+        "SQLite"
       ],
-      "title": "BERT-Powered Exploit Log Classifier",
+      "title": "CTF-Tracker: Dynamic Leaderboard & Submission Bot",
       "track": "",
-      "why_it_could_win": "Combines natural language processing with security log analysis, following the proven blueprint of runner-up cyber hackathon winners that integrate robust machine learning classifiers."
+      "why_it_could_win": "Showcases exceptional systems engineering and real-time data handling, fulfilling core infrastructure needs for competitive hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

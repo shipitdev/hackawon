@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:03:59.802623+00:00",
+  "generated_at": "2026-09-21T08:34:03.489741+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,88 +9,100 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755320",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
+        "github:1208011447",
         "github:1004582948"
       ],
-      "pitch": "A Python and TypeScript tool that automates CTF challenge provisioning, flag submission verification, and dynamically compiles structured Markdown writeups directly from terminal logs and command history.",
+      "pitch": "An AI-driven automated vulnerability scanner and exploit generator specifically tuned for web and binary exploitation challenges typical in CTF competitions.",
+      "problem_statement": "SecLeaf Q4 CTF practical cybersecurity challenges",
       "stack": [
         "Python",
         "TypeScript",
-        "FastAPI",
-        "React"
-      ],
-      "title": "SecLeaf CTFd Automator & Writeup Generator",
-      "track": "",
-      "why_it_could_win": "It directly targets the core workflow of CTF participants and organizers, leveraging the exact automation patterns seen in winning productivity tools like reportr."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A defense-in-depth AI proxy designed specifically for LLM-based security challenges, featuring layered prompt-injection hardening, soft SGR, and real-time validation of untrusted inputs.",
-      "stack": [
-        "TypeScript",
         "Vercel AI SDK",
-        "Python"
+        "Docker"
       ],
-      "title": "PromptShield CTF Agent",
+      "title": "CTF-Automata",
       "track": "",
-      "why_it_could_win": "It applies advanced defense-in-depth security principles to the emerging category of LLM-based CTF challenges, mirroring the winning architecture of defense-focused personal agents."
+      "why_it_could_win": "Demonstrates advanced security automation and leverages defense-in-depth security hardening principles seen in winning hackathon entries."
     },
     {
-      "build_hours": 36,
+      "build_hours": 20,
       "inspired_by": [
         "github:1188682384"
       ],
-      "pitch": "A zero-knowledge access control portal where players must prove they solved prerequisite challenges using Noir circuits before unlocking advanced, high-tier CTF flags.",
+      "pitch": "A zero-knowledge proof verification pipeline designed to securely validate and submit CTF flags without exposing raw payloads or triggering honeypots.",
+      "problem_statement": "SecLeaf Q4 CTF practical cybersecurity challenges",
       "stack": [
         "TypeScript",
         "Noir-lang",
-        "Base"
+        "Base Chain",
+        "Node.js"
       ],
-      "title": "ZK-Gated CTF Flag Vault",
+      "title": "CryptoFlag-ZK",
       "track": "",
-      "why_it_could_win": "It introduces hard engineering cryptography and ZK proofs into a competitive capture-the-flag environment, matching the technical depth of top-tier ZK hackathon winners."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph intelligence and machine learning platform tailored for financial-themed CTF forensics challenges, combining network analysis and anomaly detection to trace illicit flag transactions.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM"
-      ],
-      "title": "CyberGraph AML CTF Visualizer",
-      "track": "",
-      "why_it_could_win": "Judges in cybersecurity contexts favor complex data visualization and graph intelligence that simplifies heavy forensic analysis."
+      "why_it_could_win": "Integrates cutting-edge cryptographic verification methods similar to winning ZK-gated community hackathon projects."
     },
     {
       "build_hours": 24,
       "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A real-time network traffic analyzer and multi-agent simulation platform for detecting lateral movement and unauthorized privilege escalation during a CTF match.",
+      "problem_statement": "SecLeaf Q4 CTF practical cybersecurity challenges",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "WebSockets"
+      ],
+      "title": "NetSec-Visualizer",
+      "track": "",
+      "why_it_could_win": "Utilizes a multi-agent platform approach for threat simulation and visualization, mirroring proven security hackathon winners."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
         "github:1284625256"
       ],
-      "pitch": "An edge-deployed network packet inspection tool built for pcap-heavy reverse engineering and network forensics challenges in a CTF.",
+      "pitch": "An edge-deployable binary analysis toolkit that conducts static and dynamic heuristic checks against obfuscated ELF and PE executables.",
+      "problem_statement": "SecLeaf Q4 CTF practical cybersecurity challenges",
       "stack": [
         "Python",
         "C++",
-        "Scapy"
+        "Radare2",
+        "Docker"
       ],
-      "title": "EdgeGuard CTF Packet Interceptor",
+      "title": "BinaryGuard-Edge",
       "track": "",
-      "why_it_could_win": "It solves low-level networking and hardware-adjacent debugging challenges that require genuine systems engineering within a tight time frame."
+      "why_it_could_win": "Focuses on hard engineering constraints and deterministic engagement gates ideal for rapid security assessment."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A locally hosted context-aware LLM copilot that indexes previous CTF write-ups to provide structured hints and methodology pathways rather than direct solutions.",
+      "problem_statement": "SecLeaf Q4 CTF practical cybersecurity challenges",
+      "stack": [
+        "Python",
+        "LangChain",
+        "ChromaDB",
+        "Streamlit"
+      ],
+      "title": "CTF-HintEngine",
+      "track": "",
+      "why_it_could_win": "Addresses the specific needs of CTF competitors through localized Retrieval-Augmented Generation, aligning with past documentation and repo summary winners."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

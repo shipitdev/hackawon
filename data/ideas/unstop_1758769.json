@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-21T08:38:20.344160+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758769",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:544506500"
+      ],
+      "pitch": "An interactive 3D visualization and storytelling dashboard rendering Parker Solar Probe plasma and solar wind telemetry for educational outreach.",
+      "problem_statement": "Creative Data Display with the Parker Solar Probe",
+      "stack": [
+        "Python",
+        "Three.js",
+        "FastAPI",
+        "NASA APIs"
+      ],
+      "title": "ParkerSolarPulse",
+      "track": "",
+      "why_it_could_win": "Follows the exact blueprint of a previous NASA Space Apps Global Championship winner by turning complex space agency data into an engaging, accessible narrative."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213154728"
+      ],
+      "pitch": "A full-stack tracking web app that maps local power grid consumption directly to regional coal and mineral supply chains using federal MSHA and EIA open datasets.",
+      "problem_statement": "General Earth Science and Resource Tracking Challenge",
+      "stack": [
+        "Python",
+        "Snowflake",
+        "React",
+        "Mapbox"
+      ],
+      "title": "GridToMine",
+      "track": "",
+      "why_it_could_win": "Leverages hard-to-parse government data combined with geospatial visualization, matching the winning formula of recent earth-data hackathon projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1177555968"
+      ],
+      "pitch": "An ecological simulation and public awareness dashboard tracking local species migration, habitat fragmentation, and environmental stressors using open biodiversity data.",
+      "problem_statement": "Ecosystem and Biodiversity Monitoring Challenge",
+      "stack": [
+        "JavaScript",
+        "Cytoscape.js",
+        "Express",
+        "TailwindCSS"
+      ],
+      "title": "EcoSim Dashboard",
+      "track": "",
+      "why_it_could_win": "Appeals strongly to judges looking for public-facing educational tools with live simulation features and clean interactive dashboards."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:569668622"
+      ],
+      "pitch": "A high-performance geospatial data pipeline and database tool processing multi-spectral satellite imagery to measure seasonal Arctic ice coverage changes.",
+      "problem_statement": "Climate Change and Polar Ice Observation Challenge",
+      "stack": [
+        "C++",
+        "Python",
+        "MongoDB",
+        "GDAL"
+      ],
+      "title": "ArcticIceMonitor",
+      "track": "",
+      "why_it_could_win": "Demonstrates heavy data engineering chops and practical utility for climate researchers, replicating the technical depth of past challenge winners."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite imagery monitoring tool that automatically flags illegal land encroachment and environmental violations around industrial zones.",
+      "problem_statement": "Satellite Data Analysis for Environmental Protection",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "PyTorch"
+      ],
+      "title": "GeoSat-IndustrialCompliance",
+      "track": "",
+      "why_it_could_win": "Aligns with recent satellite monitoring wins by automating complex image classification tasks into actionable compliance reports for environmental regulators."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

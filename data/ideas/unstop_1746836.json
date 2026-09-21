@@ -1,13 +1,18 @@
 {
-  "generated_at": "2026-09-13T07:55:57.945925+00:00",
+  "generated_at": "2026-09-21T08:24:19.951490+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth"
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "impact"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1746836",
@@ -17,83 +22,89 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite imagery monitoring tool that detects unauthorized industrial land usage and environmental compliance violations for state industrial development corporations.",
+      "pitch": "An AI-enhanced campus infrastructure compliance and safety monitoring system using computer vision and satellite/drone imagery.",
+      "problem_statement": "Overview Where Industry Challenges Meet Student Innovation / Industry-driven problem statements",
       "stack": [
-        "TypeScript",
         "Python",
-        "Next.js",
-        "OpenCV"
+        "OpenCV",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
       ],
-      "title": "EcoCompliant-AI",
+      "title": "CampusSight AI",
       "track": "AI-focused track",
-      "why_it_could_win": "Directly mirrors a proven winner that solved regional industrial compliance challenges using geo-spatial AI, aligning with the industry-focused mandate of SIT Pune hackathons."
-    },
-    {
-      "build_hours": 7,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An AWS-backed anti-money laundering risk detection platform that uses graph intelligence and LightGBM to flag suspicious financial transaction networks in real-time.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "AWS",
-        "LightGBM"
-      ],
-      "title": "RiskGraph AML",
-      "track": "AI-focused track",
-      "why_it_could_win": "Applies heavy graph analytics and rigorous ML to solve an authentic industry problem, catching the eye of financial and corporate judges looking for production-grade security logic."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A Poisson regression and GAM forecasting tool designed to predict AI safety and governance incidents with calibrated rolling backtests and prediction intervals.",
-      "stack": [
-        "Jupyter Notebook",
-        "Python",
-        "Pandas",
-        "Scikit-Learn"
-      ],
-      "title": "IncidentCast",
-      "track": "AI-focused track",
-      "why_it_could_win": "Demonstrates genuine statistical rigor and mathematical modeling beyond simple wrapper APIs, impressing judges looking for deep technical depth in an 8-hour sprint."
+      "why_it_could_win": "Leverages computer vision for industrial land compliance, echoing winning strategies from spatial monitoring hacks while fitting an 8-hour sprint through pre-trained models."
     },
     {
       "build_hours": 6,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine built for specialized medical clinics to automatically synthesize patient testimonials, verify credentials, and draft localized outreach.",
+      "pitch": "An AI-powered patient acquisition, trust verification, and record summarization engine tailored for local clinics and hospitals.",
+      "problem_statement": "Overview Where Industry Challenges Meet Student Innovation / Industry-driven problem statements",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API",
         "TailwindCSS"
       ],
-      "title": "ClinicTrust AI",
+      "title": "MedTrust AI Engine",
       "track": "AI-focused track",
-      "why_it_could_win": "Targets a clear commercial use case with immediate ROI for local businesses, a profile that traditionally wins time-constrained sprints focused on practical utility."
+      "why_it_could_win": "Solves real administrative and patient trust pain points for healthcare industry judges, mirroring proven fast-paced winning patterns."
     },
     {
       "build_hours": 6,
       "inspired_by": [
-        "github:1200926140"
+        "github:1132337467"
       ],
-      "pitch": "An AI-driven video intelligence engine that ingests unstructured campus lecture and industry seminar recordings to convert them into a fully searchable, queryable database.",
+      "pitch": "An intelligent lost-and-found portal utilizing multimodal AI for image matching and real-time geolocation mapping for large university campuses.",
+      "problem_statement": "Overview Where Industry Challenges Meet Student Innovation / Industry-driven problem statements",
       "stack": [
-        "HTML",
-        "Python",
-        "FastAPI",
-        "OpenAI API"
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini AI"
       ],
-      "title": "VideoIntelli Search",
+      "title": "CampusFind AI",
+      "track": "Technical track",
+      "why_it_could_win": "Directly targets an everyday campus problem experienced by everyone in the room, aligning with past hackathon winners that solved localized pain points."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An AI-driven community resource and senior transport coordination network that groups nearby riders for efficient shared transit.",
+      "problem_statement": "Overview Where Industry Challenges Meet Student Innovation / Industry-driven problem statements",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "EcoLogistics AI",
       "track": "AI-focused track",
-      "why_it_could_win": "Solves an immediate productivity bottleneck for educational and enterprise environments using multimodal data pipelines, making it instantly relatable to institutional judges."
+      "why_it_could_win": "Presents clear social impact and quantifiable community benefit, a winning formula evaluated favorably by industry professionals."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered institutional dietary and nutrition tracking platform generating real-time meal recommendations and dietary analytics.",
+      "problem_statement": "Overview Where Industry Challenges Meet Student Innovation / Industry-driven problem statements",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
+      ],
+      "title": "NutriFlow AI",
+      "track": "Technical track",
+      "why_it_could_win": "Demonstrates rapid end-to-end data processing and user-facing utility within tight hackathon timeframes, replicating fast-turnaround competition wins."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

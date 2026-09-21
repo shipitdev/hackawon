@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:48:40.770263+00:00",
+  "generated_at": "2026-09-21T08:16:00.790777+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,92 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:technica-hacks",
   "ideas": [
     {
       "build_hours": 26,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "An AI-powered public infrastructure incident forecasting dashboard that uses Poisson regression and rolling backtests to predict local municipal maintenance failures in Hyattsville before they occur.",
+      "inspired_by": [],
+      "pitch": "A community-driven grant allocation platform using quadratic funding to distribute local civic improvement funds.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "IncidentLens",
+      "title": "LocalImpact Hyattsville",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing advanced statistical forecasting models rather than a simple wrapper."
+      "why_it_could_win": "Since there are no specific sponsor tracks, judges will look for high civic utility and tangible local application that can be demoed live in Maryland."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Real-time micro-transit and pedestrian congestion monitor utilizing public data feeds and lightweight spatial heatmaps.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Leaflet.js",
+        "Python"
+      ],
+      "title": "Hyattsville Mobility Pulse",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of localized utility and spatial data analysis, similar to GeoNex-ATLAS, which appeals strongly to regional hackathon judges."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "A satellite and aerial imagery monitoring platform that automatically flags industrial land and zoning compliance violations using computer vision.",
+      "pitch": "An AI-powered multi-agent student sustainability audit assistant that parses university utility data and recommends carbon-reduction steps.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "Next.js"
+        "LangGraph",
+        "Node.js"
       ],
-      "title": "GreenAudit AI",
+      "title": "CampusGreen Agent",
       "track": "",
-      "why_it_could_win": "Leverages complex geospatial processing and environmental tracking, reflecting patterns from successful specialized monitoring hacks."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A graph intelligence and LightGBM-powered risk detection platform designed to flag suspicious micro-transactions in peer-to-peer student marketplaces.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
-      ],
-      "title": "PeerGuard AML",
-      "track": "",
-      "why_it_could_win": "Combines graph data structures and explainable machine learning to solve a technically demanding security challenge."
+      "why_it_could_win": "Directly mirrors the multi-agent orchestration pattern of Greennovation AI, delivering structured, actionable institutional insights within a tight timeframe."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A localized AI nutrition assistant that analyzes campus dining hall menus daily to deliver personalized, allergen-safe meal plans and nutritional tracking for students.",
+      "pitch": "An AI nutrition planner specifically localized to affordable grocery options and farmers markets available in the DC-Maryland-Virginia area.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Streamlit",
-        "OpenAI API",
-        "PostgreSQL"
+        "Gemini API"
       ],
-      "title": "NutriCampus",
+      "title": "NutriLocal DMV",
       "track": "",
-      "why_it_could_win": "Addresses an immediate, highly relatable student problem with a polished consumer-facing AI workflow."
+      "why_it_could_win": "Builds on the proven consumer-wellness hackathon winner formula by adding strong local hyper-relevance to differentiate from generic health apps."
     },
     {
-      "build_hours": 28,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1185920891"
+        "github:1181344931"
       ],
-      "pitch": "An autonomous AI agent marketplace with secure USDC escrow payments specifically tailored for student freelancers and campus service providers.",
+      "pitch": "A lightweight transaction anomaly detector designed for local non-profit treasuries to automatically flag suspicious fund movements.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
-        "LangChain"
+        "TypeScript",
+        "LightGBM",
+        "Python"
       ],
-      "title": "CampusEscrow",
+      "title": "CivicTrust AML Monitor",
       "track": "",
-      "why_it_could_win": "Integrates autonomous agent workflows with real financial settlement logic, a proven winning formula at recent hackathons."
+      "why_it_could_win": "Adapts sophisticated financial compliance graph and risk-scoring techniques into an accessible tool for everyday organizations."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

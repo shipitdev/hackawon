@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:05.531148+00:00",
+  "generated_at": "2026-09-21T08:18:42.450638+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1736048",
@@ -14,89 +16,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
+        "github:1241231621"
       ],
-      "pitch": "An AI agent platform integrated with campus workflows that screens for early-stage depression and academic burnout using voice biomarkers and conversational journaling, automatically routing severe cases to institutional medical boards with privacy-first encryption.",
+      "pitch": "An AI-powered diagnostic triage platform designed for urban hospital emergency workflows, optimizing patient intake and initial risk scoring.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
         "Gemini API"
       ],
-      "title": "AuraCare: AI-Powered Preventive Mental Health & Diagnostic Triage for Campuses",
+      "title": "AuraCare AI Diagnostics",
       "track": "Healthcare and Well being",
-      "why_it_could_win": "Directly targets the Healthcare and Well being track's focus on mental health and hospital workflows, solving a massive administrative and student welfare problem for the engineering college organizers."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1185920891",
-        "github:1155558847"
-      ],
-      "pitch": "A spatial tracking and matching platform that connects manufacturing plants with recycling startups to trade industrial byproducts and scrap materials, optimizing local supply chains for zero-waste compliance.",
-      "stack": [
-        "TypeScript",
-        "Base",
-        "Node.js",
-        "GIS mapping"
-      ],
-      "title": "CircuGrid: Circular Economy Marketplace & Waste-to-Resource Matchmaker for Industrial Zones",
-      "track": "Sustainability and ClimateTech",
-      "why_it_could_win": "Fits squarely into the Sustainability and ClimateTech track by tackling circular economy and waste management with actionable business utility for local industries."
+      "why_it_could_win": "Directly targets the Healthcare and Well being track with a heavy focus on hospital workflows, appealing to industry experts from incubation partners looking for deployable B2B tools."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An intelligent academic curriculum adjustment platform that scans live job market skill gaps using RAG and automatically generates project-based lab modules and automated assessment rubrics for university departments.",
+      "pitch": "A smart agriculture platform matching agricultural waste producers with circular economy processing units for optimized biomass valorization.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "LangGraph",
         "TypeScript",
-        "PostgreSQL"
+        "PostgreSQL",
+        "TailwindCSS"
       ],
-      "title": "SkillForge: Multi-Agent AI Curriculum Generator for Engineering Institutions",
-      "track": "Education Technology",
-      "why_it_could_win": "Aligns with the Education Technology track's focus on AI-powered learning, skill development, and campus solutions, making it instantly appealing to academic judges from Fr. Conceicao Rodrigues College of Engineering."
+      "title": "AgriCirculate Supply Hub",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Aligns with the Sustainability and ClimateTech track, focusing on circular economy metrics that appeal to incubator sustainability judges."
     },
     {
-      "build_hours": 42,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "A real-time irrigation monitoring dashboard combining satellite soil moisture data with local weather forecasting to generate automated, ultra-precise water allocation schedules for regional farmers.",
+      "pitch": "An AI-powered skill development and dynamic assessment platform that builds verifiable competency graphs for university students.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Leaflet.js",
-        "FastAPI"
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "Python"
       ],
-      "title": "AgriPulse AI: IoT and Satellite-Driven Water Conservation Tracker",
-      "track": "Sustainability and ClimateTech",
-      "why_it_could_win": "Leverages technical difficulty in geospatial data processing while serving the Sustainability and ClimateTech track's specific focus on water conservation and smart agriculture."
+      "title": "CampusSkill Graph",
+      "track": "Education Technology",
+      "why_it_could_win": "Fits cleanly into the Education Technology track by addressing campus solutions and skill development, an area with high interest from incubation partners."
     },
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
+        "github:1087704265"
+      ],
+      "pitch": "A localized EV charging infrastructure load-balancing dashboard utilizing predictive forecasting for smart microgrids.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "TypeScript",
+        "FastAPI"
+      ],
+      "title": "EcoGrid EV Optimizer",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Leverages the EV infrastructure theme under Sustainability and ClimateTech, utilizing robust forecasting logic similar to proven hackathon entries."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A lightweight web-based diagnostic assistant that analyzes rapid test strip images and basic clinical inputs under low-bandwidth constraints to flag infectious anomalies for community health workers.",
+      "pitch": "A personalized preventive mental healthcare and journaling companion featuring localized sentiment tracking and clinical escalation prompts.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "TailwindCSS"
+        "React",
+        "Node.js",
+        "OpenAI API"
       ],
-      "title": "BioScan: Computer Vision-Based Point-of-Care Diagnostic Screener for Rural Clinics",
+      "title": "MindMosaic AI Wellness",
       "track": "Healthcare and Well being",
-      "why_it_could_win": "Addresses the Healthcare and Well being track's AI diagnostics and medical devices criteria with a practical deployment angle suited for incubation and real-world pilot tests."
+      "why_it_could_win": "Addresses mental health and preventive healthcare within the Healthcare and Well being track, offering a clean consumer-facing prototype for pitching stages."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

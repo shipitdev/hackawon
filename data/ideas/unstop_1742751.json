@@ -1,91 +1,100 @@
 {
-  "generated_at": "2026-09-13T07:52:12.715148+00:00",
+  "generated_at": "2026-09-21T08:20:09.011946+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1742751",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [],
-      "pitch": "A standalone interactive browser extension and parser that steps through complex graph and dynamic programming solutions line by line, visualizing the state transitions and memory allocations during execution.",
-      "stack": [
-        "JavaScript",
-        "TypeScript",
-        "HTML5 Canvas",
-        "Python"
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1131371166"
       ],
-      "title": "CP-Visualizer & Debugger Engine",
+      "pitch": "A standalone analytics dashboard to track coding contest performance, parse submission errors, and suggest targeted algorithm practice.",
+      "problem_statement": "Tech Zephyr 4.0 CP Contest — IIT Bhubaneswar: Competitive programming contest featuring algorithmic problems ranging from basic data structures to advanced algorithms.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Chart.js"
+      ],
+      "title": "CP-Analyzer: Automated Competitive Programming Performance Tracker",
       "track": "",
-      "why_it_could_win": "Targeted directly at competitive programmers participating in the Tech Zephyr 4.0 CP Contest, offering immediate utility for analyzing complex algorithms during or after the contest."
+      "why_it_could_win": "Focuses on the exact target audience of the contest by providing deep post-contest performance diagnostics which appeals directly to competitive programming organizers and participants."
     },
     {
-      "build_hours": 40,
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1131371166"
+      ],
+      "pitch": "A lightweight web utility to visually step through common data structures and algorithmic patterns used in competitive programming.",
+      "problem_statement": "Tech Zephyr 4.0 CP Contest — IIT Bhubaneswar: Test algorithmic thinking and problem-solving speed with problems ranging from basic data structures to advanced algorithms.",
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "TailwindCSS"
+      ],
+      "title": "AlgoVisualizer Pro: Real-Time Algorithm Step Execution Tool",
+      "track": "",
+      "why_it_could_win": "Leverages a modular software architecture and working live demo pattern, making it immediately useful for learners preparing for algorithm-heavy rounds."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1131371166"
+      ],
+      "pitch": "A local-first, low-latency template and snippet manager tailored for competitive programmers to quickly pull boilerplate data structures during contests.",
+      "problem_statement": "Tech Zephyr 4.0 CP Contest — IIT Bhubaneswar: Test algorithmic thinking, problem-solving speed, and coding proficiency under strict time constraints.",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "Pyperclip"
+      ],
+      "title": "SnippetVault: Fast Competitive Programming Code Template Manager",
+      "track": "",
+      "why_it_could_win": "Solves a tangible speed bottleneck for solo participants facing strict time limits in a 135-minute contest format."
+    },
+    {
+      "build_hours": 15,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A machine learning model trained on competitive programming submissions that predicts whether a given Python or C++ solution will pass time and memory limits based on its abstract syntax tree and loop structures.",
+      "pitch": "A CLI tool that locally benchmarks Python and C++ solutions against custom test case files to estimate time and space complexity before submission.",
+      "problem_statement": "Tech Zephyr 4.0 CP Contest — IIT Bhubaneswar: Problems evaluated automatically against hidden test cases with standard competitive programming scoring.",
       "stack": [
         "Python",
-        "scikit-learn",
-        "AST Parser",
-        "FastAPI"
+        "Subprocess",
+        "Click"
       ],
-      "title": "Algorithmic Complexity Predictor",
+      "title": "ComplexityTracker: Online Judge Memory and Time Profiler",
       "track": "",
-      "why_it_could_win": "Leverages genuine algorithmic engineering and technical depth, aligning with patterns seen in winning submissions that solve hard technical challenges."
+      "why_it_could_win": "Directly targets the evaluation criteria of automated grading by helping solo developers avoid TLE (Time Limit Exceeded) errors."
     },
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "An intelligent companion tool that analyzes a coder's submission history on GFG and CodeForces, identifies weak algorithmic patterns, and automatically curates a personalized upsolving list with hints instead of full solutions.",
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A minimalist time-management overlay specifically designed for 135-minute individual contests to allocate minutes per problem dynamically.",
+      "problem_statement": "Tech Zephyr 4.0 CP Contest — IIT Bhubaneswar: Duration: 135 minutes (2 hours 15 minutes) with 4 to 6 coding problems of varying difficulty levels.",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "PostgreSQL",
-        "TailwindCSS"
+        "React",
+        "LocalForage"
       ],
-      "title": "CodeForces/GFG Upsolving Companion",
+      "title": "ContestTimer & Strategy Planner",
       "track": "",
-      "why_it_could_win": "Provides high utility for the exact demographic of competitive programming students participating in this individual contest format."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [],
-      "pitch": "A real-time 1v1 coding sandbox allowing solo participants to challenge peers to rapid 15-minute problem-solving sprints with automated test case evaluation.",
-      "stack": [
-        "TypeScript",
-        "WebSockets",
-        "Node.js",
-        "Docker"
-      ],
-      "title": "CP Duel Matchmaking Sandbox",
-      "track": "",
-      "why_it_could_win": "Enhances the competitive programming experience of the contest by adding a live interactive sparring feature that appeals to participants wanting extra practice."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [],
-      "pitch": "A command-line tool for competitive programmers that quickly generates randomized edge cases and compares a slow brute-force solution against an optimized solution to catch edge-case bugs before submission.",
-      "stack": [
-        "Python",
-        "Click",
-        "Subprocess"
-      ],
-      "title": "Contest Stress-Tester CLI",
-      "track": "",
-      "why_it_could_win": "Solves an immediate, highly practical pain point for solo developers participating in fast-paced timed coding contests."
+      "why_it_could_win": "Addresses the specific time-constraint constraint of the contest structure with a focused, highly polished utility application."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

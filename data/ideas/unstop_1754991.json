@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T08:01:30.497554+00:00",
+  "generated_at": "2026-09-21T08:33:09.216821+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -12,6 +12,8 @@
       "technical-depth",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1754991",
@@ -21,86 +23,86 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring and change detection platform built for tracking illegal mining and environmental encroachment using Google Maps Platform and Vertex AI.",
+      "pitch": "Automated satellite monitoring and compliance checker for industrial land using Google Maps Platform and Vertex AI.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Google Maps Platform",
         "Vertex AI",
-        "Firebase",
-        "Cloud Storage"
+        "Firebase"
       ],
-      "title": "GeoSentinel India",
+      "title": "GeoCompliance AI",
       "track": "Location-based solutions",
-      "why_it_could_win": "Directly leverages multiple core Google technologies requested by the hackathon organizers (Google Maps Platform, Vertex AI) and follows the proven pattern of winning real-world compliance tools like GeoNex-ATLAS."
+      "why_it_could_win": "Directly leverages multiple core Google technologies requested by the event (Google Maps Platform, Vertex AI), mirroring the technical depth of successful geospatial monitoring projects like GeoNex-ATLAS."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1171690684"
       ],
-      "pitch": "An automated data profiling and schema validation tool that connects directly to BigQuery, performs instant EDA using Gemini, and generates data integrity compliance reports.",
+      "pitch": "Automated EDA and data integrity rating pipeline built natively on Google BigQuery and Gemini for instant schema profiling.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "BigQuery",
         "Gemini",
-        "Cloud Run",
-        "Google OAuth"
+        "Google Cloud Run"
       ],
-      "title": "QueryPulse BigQuery Insights",
+      "title": "DataVeritas Cloud",
       "track": "Data-driven intelligence platforms",
-      "why_it_could_win": "Combines BigQuery and Gemini to solve a heavy data engineering pain point, closely echoing the data-profiling and automated EDA approach that won DataVeritas an award."
+      "why_it_could_win": "Fits the data-driven intelligence track by implementing automated data quality profiling directly on BigQuery with an LLM interface."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1341712439"
       ],
-      "pitch": "An autonomous multi-agent diagnostic platform powered by Gemini and LangGraph that ingests IoT sensor feeds and citizen complaints via Firebase to prioritize urban infrastructure repairs.",
+      "pitch": "Autonomous multi-agent IoT diagnostic and closed-loop operations platform powered by Gemini, Cloud Storage, and Cloud Run.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Gemini",
-        "Firebase",
-        "Cloud Run"
+        "Cloud Storage",
+        "Google Cloud Run"
       ],
-      "title": "CivicEye Autonomous Municipal Ops",
-      "track": "AI/ML-powered solutions",
-      "why_it_could_win": "Leverages cutting-edge multi-agent orchestration combined with Gemini and Firebase, replicating the exact technical architecture that secured 3rd prize at the SEAL Hackathon."
+      "title": "IoT Sentinel Ops",
+      "track": "Cloud-based applications",
+      "why_it_could_win": "Combines multi-agent reasoning with robust Google Cloud infrastructure, mirroring the hard engineering approach of award-winning IoT operations apps."
     },
     {
       "build_hours": 32,
       "inspired_by": [
         "github:1200926140"
       ],
-      "pitch": "A video intelligence platform that transforms unstructured municipal and educational video archives into searchable, indexed knowledge bases using Vertex AI and Cloud Storage.",
+      "pitch": "An AI-powered video and document intelligence platform that transforms unstructured compliance footage into searchable Firebase records.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
+        "HTML",
+        "Firebase",
         "Vertex AI",
-        "Cloud Storage",
-        "Looker",
-        "Cloud Run"
+        "Google OAuth"
       ],
-      "title": "DocuStream AI Video Intelligence",
-      "track": "Cloud-based applications",
-      "why_it_could_win": "Addresses unstructured data search and accessibility with heavy reliance on Google Cloud infrastructure, directly aligning with the LibrAI winning formula."
+      "title": "SecureDoc Video Intelligence",
+      "track": "AI/ML-powered solutions",
+      "why_it_could_win": "Focuses on high-impact unstructured data processing using Google ecosystem tools, ensuring a working demo within the 48-hour window."
     },
     {
       "build_hours": 28,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A secure web application featuring automated pre-deployment risk diagnosis for cloud infrastructure changes, orchestrated via Google OAuth and Gemini-driven security guardrails.",
+      "inspired_by": [],
+      "pitch": "Real-time municipal issue tracker and intelligent routing system using Google Maps Platform and Looker for city analytics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Google OAuth",
-        "Gemini",
-        "Firebase"
+        "Google Maps Platform",
+        "Looker",
+        "Google OAuth"
       ],
-      "title": "SecureGuard Identity & Access Dashboard",
-      "track": "Secure web applications",
-      "why_it_could_win": "Focuses heavily on security and governance which are core stated themes of the TechRoom initiative ('secure, intelligent, scalable'), mimicking the successful agent-governance patterns seen in agent hackathons."
+      "title": "CivicRoute Maps",
+      "track": "Location-based solutions",
+      "why_it_could_win": "Ties into the 'stronger, smarter India' vision of the hackathon with a polished location-based dashboard utilizing Looker visualization."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

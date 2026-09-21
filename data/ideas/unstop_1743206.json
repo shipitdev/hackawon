@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:52:30.382524+00:00",
+  "generated_at": "2026-09-21T08:20:30.260637+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -7,8 +7,11 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "unusual-hardware",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1743206",
@@ -18,74 +21,89 @@
       "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "An automated reconnaissance tool tailored for CTF web and OSINT categories that rapidly parses digital footprints and social graphs.",
+      "pitch": "An automated OSINT investigation workspace that aggregates public metadata, social media footprints, and geolocation data to reconstruct digital trails during CTF challenges.",
+      "problem_statement": "OSINT (Open-Source Intelligence): Track down hidden information and piece together digital trails across the public internet.",
       "stack": [
         "Python",
         "FastAPI",
-        "BeautifulSoup"
+        "BeautifulSoup",
+        "React",
+        "Docker"
       ],
-      "title": "OSINT-Automator",
-      "track": "",
-      "why_it_could_win": "Directly targets the core domains of Slay CTF by automating repetitive OSINT tracking phases, giving a competitive edge on the jeopardy board."
+      "title": "OSINT-Trailblazer",
+      "track": "OSINT",
+      "why_it_could_win": "Addresses a high-friction category in CTFs where manual searching is slow; automating multi-source data correlation gives teams a competitive speed advantage on the leaderboard."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
-      ],
-      "pitch": "A specialized defense-in-depth proxy designed to catch and neutralize prompt injection attempts in LLM-based CTF challenges.",
-      "stack": [
-        "TypeScript",
-        "Node.js",
-        "Vercel AI SDK"
-      ],
-      "title": "PromptShield-CTF",
-      "track": "",
-      "why_it_could_win": "Leverages advanced defense-in-depth patterns to solve modern security challenges, scoring well with technical security judges."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "A Python-based repository and dependency security analyzer that flags hidden API keys, SQLi vectors, and hardcoded secrets.",
+      "pitch": "An interactive cryptographic analysis and automated cipher-breaking suite designed to quickly identify encoding types, frequency analysis anomalies, and weak RSA/AES implementations.",
+      "problem_statement": "Cryptography: Break encryption schemes, decode ciphers, and analyze cryptographic protocols.",
       "stack": [
         "Python",
-        "Click",
-        "AST"
-      ],
-      "title": "SecureAudit-CLI",
-      "track": "",
-      "why_it_could_win": "Focuses on genuine hard engineering in static code analysis, mirroring winning report-generation security tooling."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [],
-      "pitch": "An interactive crypto-analysis dashboard equipped with frequency analysis, custom substitution cracking, and automated cipher identification.",
-      "stack": [
-        "TypeScript",
-        "React",
+        "SageMath",
+        "Flask",
         "TailwindCSS"
       ],
       "title": "CipherForge",
-      "track": "",
-      "why_it_could_win": "Addresses the cryptography and analytical thinking tracks of the CTF directly with a polished, high-performance UI."
+      "track": "Cryptography",
+      "why_it_could_win": "Combines rigorous mathematical automation with a clean UI, solving the exact cipher-guessing bottlenecks players face in jeopardy CTFs."
     },
     {
       "build_hours": 40,
-      "inspired_by": [],
-      "pitch": "A purposely vulnerable web application framework complete with built-in exploit verification scripts for educational CTF training.",
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A lightweight web vulnerability scanner and sandbox environment built specifically for rapidly detecting and exploiting SQLi, XSS, IDOR, and SSRF flaws during live CTF matches.",
+      "problem_statement": "Web Exploitation: Uncover vulnerabilities in web applications (e.g., SQLi, XSS, IDOR, SSRF).",
       "stack": [
-        "Python",
-        "Flask",
+        "Go",
+        "TypeScript",
+        "Playwright",
         "SQLite"
       ],
-      "title": "VulnWeb-Lab",
-      "track": "",
-      "why_it_could_win": "Creates deep technical value for both offensive security players and event organizers seeking training utilities."
+      "title": "PayloadLab",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Directly targets the most common point-scoring category in jeopardy CTFs by providing an integrated toolkit instead of relying on disjointed command-line scripts."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A streamlined digital forensics triage tool for fast parsing of memory dumps and PCAP files, extracting hidden strings, IOCs, and suspicious network streams.",
+      "problem_statement": "Digital Forensics: Analyze memory dumps, network packet captures (PCAPs), and hidden file metadata.",
+      "stack": [
+        "Python",
+        "Volatility3",
+        "Scapy",
+        "Streamlit"
+      ],
+      "title": "MemoryScope",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Solves the tedious file-carving and packet-inspection challenges of forensics tracks by providing instant visual timelines and automated artifact extraction."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "An intelligent static binary analysis wrapper that correlates assembly patterns with known vulnerable code snippets to speed up reverse engineering challenges.",
+      "problem_statement": "Reverse Engineering: Deconstruct compiled binaries and understand their underlying logic.",
+      "stack": [
+        "Python",
+        "Capstone",
+        "Rabin2",
+        "Electron"
+      ],
+      "title": "BinaryDeconstruct",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Provides a force multiplier for analyzing stripped binaries under strict time limits, standing out through practical automation for reverse engineering enthusiasts."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:47:51.634296+00:00",
+  "generated_at": "2026-09-21T08:15:02.322742+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:nwhacks",
@@ -14,85 +16,89 @@
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1087704265",
-        "github:1181344931"
+        "github:1087704265"
       ],
-      "pitch": "An AI-powered maritime supply chain risk prediction dashboard utilizing Poisson regression and graph intelligence to forecast shipping disruptions in British Columbia waters.",
+      "pitch": "An AI-powered seismic and extreme weather insurance risk modeling platform designed for Pacific Northwest real estate and infrastructure.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "Jupyter Notebook",
-        "Next.js"
+        "TypeScript",
+        "Next.js",
+        "Poisson Regression",
+        "PostGIS"
       ],
-      "title": "PacificRisk-AI",
+      "title": "PacificRisk AI",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of combining rigorous predictive modeling with localized domain importance, appealing directly to regional judges in Vancouver."
+      "why_it_could_win": "Leverages localized domain expertise relevant to Vancouver's geography and mirrors the data-heavy forecasting approach of top-winning projects like github:1087704265."
     },
     {
       "build_hours": 26,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "Real-time municipal energy usage forecasting and carbon footprint optimization agent leveraging multi-agent workflows to balance local grid demands.",
+      "pitch": "A multi-agent commuter optimization platform that dynamically reroutes public transit users based on live carbon impact and congestion metrics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
         "LangGraph",
+        "Next.js",
         "TailwindCSS"
       ],
-      "title": "BC-Grid-Watch",
+      "title": "GreenTransit Vancouver",
       "track": "",
-      "why_it_could_win": "Targets the sustainability and green technology priorities common at Pacific Northwest hackathons by solving a concrete local infrastructure problem."
+      "why_it_could_win": "Combines multi-agent orchestration with sustainability metrics, directly echoing the architectural wins seen in github:1213911408."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated cross-border compliance and tax estimation tool tailored for Canadian tech startups hiring remote workers in the US.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "Borderscale Compliance Engine",
+      "track": "",
+      "why_it_could_win": "Solves a painful, concrete legal and financial problem for local Vancouver companies expanding internationally, appealing to pragmatic judges."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent platform for peer-to-peer equipment rentals featuring automated USDC escrow payments and trust verification.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC SDK",
-        "Node.js"
-      ],
-      "title": "LocalLend-Escrow",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning formula of autonomous agent marketplaces combined with secure escrow handling, making a complete financial micro-application in a short timeframe."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-driven patient intake and trust-building engine specifically tailored for local community health clinics to streamline acquisition and intake compliance.",
+      "pitch": "An AI patient intake and triage optimization agent designed to reduce wait times in crowded British Columbia walk-in medical clinics.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Gemini API",
-        "Next.js"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "MediTrust-Vancouver",
+      "title": "MedFlow Vancouver",
       "track": "",
-      "why_it_could_win": "Mirrors successful healthcare pitch strategies by focusing on real administrative pain points with an immediate, working frontend demo."
+      "why_it_could_win": "Addresses a severe local healthcare bottleneck using proven Gemini API integration patterns from past winning health tech submissions like github:1241231621."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "AI-powered satellite and aerial imagery monitoring tool for tracking industrial land compliance and environmental degradation in Western Canada.",
+      "pitch": "Satellite-based anomaly detection platform monitoring unauthorized vessel movements and environmental infractions around the Port of Vancouver.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "OpenCV",
-        "React"
+        "OpenLayers",
+        "PyTorch"
       ],
-      "title": "EcoLog-AI",
+      "title": "PortGuard Maritime AI",
       "track": "",
-      "why_it_could_win": "Delivers genuine hard engineering through geospatial data processing, standing out among standard CRUD apps in a 33-hour sprint."
+      "why_it_could_win": "Applies geospatial computer vision to a high-profile local industrial asset, matching the technical depth of award-winning monitoring projects like github:1155558847."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

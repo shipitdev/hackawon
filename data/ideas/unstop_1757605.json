@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:54:00.603202+00:00",
+  "generated_at": "2026-09-21T08:36:32.126933+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1757605",
@@ -19,80 +21,88 @@
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A training-free, self-improving semantic router tailored for rapid student AI app prototyping during an overnight sprint.",
+      "pitch": "A training-free, self-improving semantic query router for AI coding agent requests.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "faiss",
-        "OpenAI"
+        "Semantic Router",
+        "OpenAI API"
       ],
       "title": "VibeRouter",
       "track": "",
-      "why_it_could_win": "Leverages the genuinely hard engineering pattern seen in past hackathon winners by implementing a fast kNN index and self-improving feedback loop in under 8 hours."
+      "why_it_could_win": "Adapts proven architecture from past hackathon winners like darwin-router to handle fast semantic routing, scoring high on technical difficulty during a tight overnight sprint."
     },
     {
-      "build_hours": 6,
+      "build_hours": 8,
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "Pre-deployment risk diagnosis for multi-agent workflows using a streamlined BPMN orchestration visualizer.",
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis tool for autonomous AI workflows.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "NetworkX",
-        "LangChain"
+        "BPMN Engine",
+        "LangChain",
+        "Streamlit"
       ],
-      "title": "BPMNGuard",
+      "title": "AgentBPMN Guard",
       "track": "",
-      "why_it_could_win": "Replicates the architectural rigor of successful agentic governance tools, making complex error checking instantly readable for judges."
-    },
-    {
-      "build_hours": 6,
-      "inspired_by": [
-        "github:1163393786"
-      ],
-      "pitch": "Two autonomous agents engaged in a high-stakes resource negotiation game to autonomously study emergent strategic deception.",
-      "stack": [
-        "Python",
-        "Asyncio",
-        "Anthropic API"
-      ],
-      "title": "DeceitSim",
-      "track": "",
-      "why_it_could_win": "Directly applies the adversarial AI pattern where autonomous self-improving interactions create an instantly compelling live demo for judges."
+      "why_it_could_win": "Leverages structural workflow orchestration and human-in-the-loop patterns that consistently impress judges looking for robust agent governance."
     },
     {
       "build_hours": 7,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "An offline-first semantic code reviewer designed to run locally with zero cloud dependencies.",
+      "pitch": "An offline AI code reviewer optimized for running locally on hardware NPUs and constrained environments.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "llama.cpp",
-        "AST module"
+        "ONNX Runtime",
+        "Llama.cpp",
+        "Flask"
       ],
-      "title": "NanoCache",
+      "title": "EdgeDebug AI",
       "track": "",
-      "why_it_could_win": "Focuses on hard engineering limits like local latency and resource efficiency, which stand out sharply in rapid overnight builds."
+      "why_it_could_win": "Focuses on local execution and performance efficiency, mirroring the runner-up strategy of Qualcomm Snapdragon Multiverse Hackathon entries."
     },
     {
-      "build_hours": 5,
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "An adversarial simulation environment where two identical AI negotiation agents discover cooperative strategies autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Asyncio",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "SplitAgent",
+      "track": "",
+      "why_it_could_win": "Demonstrates emergent behavior and adversarial AI dynamics without hardcoded rules, an approach that secured first place at the Datadog Self-Improving Agents Hack."
+    },
+    {
+      "build_hours": 6,
       "inspired_by": [
         "github:1207207353"
       ],
-      "pitch": "Zero-config auto-embedding RAG toolkit that converts unstructured Markdown documentation instantly into a searchable vector store.",
+      "pitch": "A zero-config auto-embedding and lightweight RAG toolkit designed for rapid database-backed prototyping.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "SQLite",
-        "Sentence-Transformers"
+        "MariaDB",
+        "Embeddings",
+        "FastAPI"
       ],
-      "title": "AutoToonRAG",
+      "title": "AutoEmbed RAG Toolkit",
       "track": "",
-      "why_it_could_win": "Solves an immediate developer pain point with a polished utility tool, scoring high on practical usability during a fast-paced sprint."
+      "why_it_could_win": "Solves developer friction directly with a practical tool that hackathon judges can immediately test and appreciate during live demos."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

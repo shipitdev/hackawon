@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:24.187921+00:00",
+  "generated_at": "2026-09-21T08:12:38.424640+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,93 +7,98 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackhers-gsu",
   "ideas": [
     {
-      "build_hours": 26,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1155558847",
         "github:1241231621"
       ],
-      "pitch": "An AI-powered spatial monitoring and crowdsourced reporting platform for campus safety in Atlanta, utilizing satellite and GIS mapping to highlight poorly lit pedestrian routes.",
+      "pitch": "An AI-powered mobile web application designed for GSU students to navigate campus safely at night and access mental health resources instantly.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "GIS API",
-        "Gemini API"
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "Atlanta Campus Safety & Lighting Audit Agent",
+      "title": "CampusCare AI: Student Safety & Resource Navigator",
       "track": "",
-      "why_it_could_win": "Follows the exact pattern of GeoNex-ATLAS by applying spatial intelligence to a real-world civic and campus safety problem, appealing directly to institutional judges at GSU."
+      "why_it_could_win": "Addresses a hyper-local, high-urgency pain point for students attending an urban campus like Georgia State University, making it immediately resonant with local judges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A real-time transit status tracker and predictor leveraging MARTA bus and train data to help students avoid major delays during peak Atlanta traffic.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js"
+      ],
+      "title": "AtlantaTransit Pulse: Predictive Commute & Crowdsourcing Tool",
+      "track": "",
+      "why_it_could_win": "Relates directly to the everyday logistical frustrations of commuting students in Atlanta, appealing to practical utility and local relevance."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A hyper-local peer study group matching platform specifically optimized for GSU course codes, building instant study cohorts based on syllabus milestones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "StudySync Atlanta: Peer Micro-Tutoring & Study Group Matcher",
+      "track": "",
+      "why_it_could_win": "Solves an immediate academic friction point for college students with a clean, highly demonstrable user interface."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A personalized meal planning and wellness app tailored specifically to campus dining hall menus and local student budgets in Atlanta.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "OpenAI API"
-      ],
-      "title": "Student Health & Campus Dining Nutrition Optimizer",
-      "track": "",
-      "why_it_could_win": "Replicates the success of E-Foodiee by focusing on hyper-localized, highly practical personal health use cases that resonate immediately with student and faculty judges."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent academic advisor and student support ecosystem using LangGraph and RAG to help students navigate course prerequisites, financial aid deadlines, and department requirements.",
+      "pitch": "A decentralized coordination tool allowing students with extra dining hall meal swipes to securely donate them to peers in need.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
-        "Vector DB",
-        "Next.js"
+        "Next.js",
+        "Supabase"
       ],
-      "title": "GSU Student Support Multi-Agent RAG Hub",
+      "title": "GSU Food Security & Meal Swipe Share Network",
       "track": "",
-      "why_it_could_win": "Adapts the winning formula of greennovation-ai-platform to solve administrative friction points specific to large universities like GSU."
+      "why_it_could_win": "Focuses on community impact and student welfare, which often scores exceptionally high on social good judging criteria at university hackathons."
     },
     {
-      "build_hours": 25,
+      "build_hours": 20,
       "inspired_by": [
-        "github:1185920891"
+        "github:1183964401"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating micro-transactions and escrow for student entrepreneurs and local Atlanta makers.",
+      "pitch": "A localized job board and resume tailoring tool connecting GSU students directly with Atlanta-based tech startups and internships.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC SDK",
-        "Node.js"
-      ],
-      "title": "Atlanta Local Vendor Autonomous Micro-Marketplace",
-      "track": "",
-      "why_it_could_win": "Leverages the technical execution pattern of Dispatch by building agent-driven commerce workflows that showcase complex state management and payment logic."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A predictive forecasting dashboard using Poisson regression and statistical modeling to anticipate maintenance bottlenecks and facility incidents across campus buildings.",
-      "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Pandas",
-        "Streamlit"
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
       ],
-      "title": "Campus Incident & Maintenance Forecasting Engine",
+      "title": "Atlanta Career Bridge: AI Resume & Local Job Matcher",
       "track": "",
-      "why_it_could_win": "Employs rigorous predictive modeling and data calibration similar to the ai-incident-forecasting winner, proving technical depth beyond a simple wrapper."
+      "why_it_could_win": "Provides tangible career outcomes for students, making the pitch immediately compelling to university stakeholders and local judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

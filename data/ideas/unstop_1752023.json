@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-21T08:31:07.991241+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1752023",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A high-responsiveness ESP32-based Wi-Fi/ESP-NOW controller with custom PCB layout to minimize input lag during head-to-head robot pushing matches.",
+      "problem_statement": "Junior Robo Sumo: Wheel-to-wheel sumo-style match pushing opponent's robot completely outside the ring under strict manual control constraints.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "KiCad"
+      ],
+      "title": "Low-Latency ESP32 Custom Wireless Robo Sumo Controller",
+      "track": "",
+      "why_it_could_win": "Relies on a custom hardware build and low latency communication, directly addressing the core winning factor of quick decision-making under pressure and precise maneuverability."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An auxiliary microcontroller module featuring MPU6050 gyro tracking and edge-detection IR sensors to prevent the sumo robot from accidentally reversing out of the ring.",
+      "problem_statement": "Junior Robo Sumo: Pushing your opponent's robot completely outside the competition ring while keeping your own robot in play.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "MPU6050",
+        "IR Sensors"
+      ],
+      "title": "Multi-Sensor Edge Stability and Traction Booster",
+      "track": "",
+      "why_it_could_win": "Solves the common failure mode of robots accidentally reversing out of the circular ring boundaries, giving a massive competitive edge in a knockout format."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A mechanically optimized 3-kg maximum weight class chassis design featuring a low-slung steel wedge and high-torque DC motors powered via a 3S LiPo battery.",
+      "problem_statement": "Junior Robo Sumo: Maximum Dimensions 350x350 mm, Maximum Weight 3 kg, Maximum Voltage 3S LiPo 12.6V, manual control only.",
+      "stack": [
+        "Fusion360",
+        "3D Printing",
+        "C++",
+        "DC Motors"
+      ],
+      "title": "High-Torque Gearbox and Wedge Configuration Simulator",
+      "track": "",
+      "why_it_could_win": "Adheres strictly to all strict hardware constraints (weight, voltage, size) while maximizing pushing physics and center of gravity stability for the sumo arena."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1100461811"
+      ],
+      "pitch": "A custom wireless joystick receiver firmware that introduces exponential throttle curves to make micro-adjustments smoother at high speeds.",
+      "problem_statement": "Junior Robo Sumo: Success comes down to robot control, strategy, stability, and quick decision-making under pressure.",
+      "stack": [
+        "C++",
+        "ESP-NOW",
+        "FreeRTOS"
+      ],
+      "title": "Dual-Axis Throttle Response Curve Modifier for Precision Steering",
+      "track": "",
+      "why_it_could_win": "Fine-tunes the handling characteristics of the robot under intense match pressure, reducing driver error during high-speed collisions."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A safety and performance logging shield that monitors 3S LiPo voltage drop and motor driver temperatures to prevent burnouts during intense stalling matches.",
+      "problem_statement": "Junior Robo Sumo: The robot must carry its own onboard power source (3S LiPo, 12.6 V) with mandatory technical inspection.",
+      "stack": [
+        "C",
+        "Arduino",
+        "INA219",
+        "OLED"
+      ],
+      "title": "Onboard Current and Thermal Telemetry Monitor",
+      "track": "",
+      "why_it_could_win": "Ensures the robot passes the strict pre-event inspection and avoids catastrophic thermal shutdowns during extended pushing battles."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

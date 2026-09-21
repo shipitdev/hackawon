@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:51:22.825612+00:00",
+  "generated_at": "2026-09-21T08:35:10.890486+00:00",
   "grounding": {
     "domains": [
       "ai-ml"
@@ -8,6 +8,8 @@
     "patterns": [
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1756226",
@@ -15,84 +17,87 @@
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite imagery and campus infrastructure monitoring tool built with Google Gemini API to automatically flag safety hazards, maintenance needs, and zoning compliance issues from drone or aerial shots.",
-      "stack": [
-        "Next.js",
-        "TypeScript",
-        "Google Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "GeminiLens Campus Compliance",
-      "track": "Best Use Of Google Gemini API",
-      "why_it_could_win": "Directly targets the Google Gemini API theme while solving a concrete operational problem for college campuses like GCET, mirroring the real-world utility of GeoNex-ATLAS."
-    },
-    {
-      "build_hours": 15,
-      "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "A rapid diagnostic pre-screening web app that ingests patient medical reports, lab results, and visual symptom images to generate structured clinical summaries and triage recommendations using Gemini's multimodal capabilities.",
+      "pitch": "An AI-powered patient acquisition and trust engine for specialty dental clinics using Gemini API multi-modal analysis.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Streamlit",
-        "Google Gemini API"
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
       ],
-      "title": "MultiModal MedScan AI",
+      "title": "Gemini Clinical Intake & Trust Engine for Prosthodontics",
       "track": "Best Use Of Google Gemini API",
-      "why_it_could_win": "Leverages advanced multimodal capabilities of the Gemini API for healthcare data, following the winning pattern of Global-Smile."
+      "why_it_could_win": "Directly targets the core theme of Best Use Of Google Gemini API by leveraging multi-modal streaming for instant dental scan analysis and trust generation, mimicking proven hackathon winners."
     },
     {
       "build_hours": 16,
       "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "Transforms unstructured campus lecture and event videos into fully searchable, indexed knowledge bases using Gemini native video understanding.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "Gemini Video Intelligence Platform for Lecture Compliance",
+      "track": "Best Use Of Google Gemini API",
+      "why_it_could_win": "Utilizes the newest Gemini multi-hour video context window, guaranteeing high impact for judges evaluating deep API utilization within a 24-hour sprint."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An interactive dietary coach that processes real-time photo uploads of meals using Gemini to calculate macro-nutrients, spot allergens, and adaptively plan weekly student meal schedules based on budget.",
+      "pitch": "An intelligent nutritional tracking and meal recommendation assistant tailored specifically for university canteens using Gemini structured outputs.",
+      "problem_statement": "No published statement",
       "stack": [
-        "React",
-        "Node.js",
-        "Google Gemini API",
-        "MongoDB"
+        "Python",
+        "Streamlit",
+        "Gemini API"
       ],
-      "title": "AuraDiet Gemini Nutritionist",
+      "title": "Gemini AI-Powered Nutrition & Campus Canteen Advisor",
       "track": "Best Use Of Google Gemini API",
-      "why_it_could_win": "Combines consumer utility with heavy multimodal utilization of the Gemini API, directly matching the fast-paced delivery and design style of E-Foodiee."
+      "why_it_could_win": "Consumer-facing, highly polished UI combined with strict JSON schema outputs from Gemini ensures a flawless table-to-table demo for judges."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1200926140"
+        "github:1155558847"
       ],
-      "pitch": "An educational video intelligence platform that ingests raw lecture recordings, indexes visual slides, extracts whiteboard diagrams using Gemini vision, and generates searchable knowledge bases with interactive quizzes.",
+      "pitch": "An automated satellite image analysis tool leveraging Gemini vision capabilities to detect industrial land use changes and regulatory violations.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
-        "Google Gemini API",
-        "PostgreSQL"
+        "Leaflet.js",
+        "Gemini API"
       ],
-      "title": "TranscriptIQ Lecture Intelligence",
+      "title": "Gemini Satellite Land Monitoring & Compliance Assistant",
       "track": "Best Use Of Google Gemini API",
-      "why_it_could_win": "Solves an acute student pain point by turning unstructured educational media into searchable structured data, matching LibrAI's winning formula."
+      "why_it_could_win": "Demonstrates complex spatial-visual reasoning using Gemini vision endpoints, satisfying judges looking for advanced practical applications of the API."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An automated regulatory and financial transaction risk investigator that parses unstructured bank statements and legal documents using Gemini structured outputs to flag suspicious activity patterns.",
+      "pitch": "An investigative copilot for compliance officers that parses complex transaction logs and builds graphical risk networks using Gemini function calling.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "Google Gemini API",
-        "TailwindCSS"
+        "TypeScript",
+        "D3.js",
+        "Gemini API"
       ],
-      "title": "Gemini AML Risk Screener",
+      "title": "Gemini AML Graph & Risk Investigation Copilot",
       "track": "Best Use Of Google Gemini API",
-      "why_it_could_win": "Brings rigorous domain-specific compliance workflows into an intuitive interface, reflecting the heavy engineering and explainability themes of Bito."
+      "why_it_could_win": "Focuses on enterprise use-cases with heavy data parsing, leveraging Gemini function calling to impress technical judges looking for robust backend integration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

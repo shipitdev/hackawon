@@ -1,97 +1,109 @@
 {
-  "generated_at": "2026-09-20T07:53:11.326324+00:00",
+  "generated_at": "2026-09-21T08:27:40.355373+00:00",
   "grounding": {
-    "domains": [],
+    "domains": [
+      "hardware"
+    ],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749772",
   "ideas": [
     {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "An AI-powered satellite monitoring system designed to track industrial land compliance and ecological changes in real time for grassroots environmental auditors.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Python",
-        "Satellite API"
-      ],
-      "title": "EcoTrack-AI",
-      "track": "",
-      "why_it_could_win": "Combines high-impact environmental problem solving with sophisticated satellite monitoring techniques, directly addressing the core judging criterion of practical application for grassroots innovators."
-    },
-    {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931"
+        "github:1141364034"
       ],
-      "pitch": "A localized AML and credit risk detection platform tailored for rural agricultural cooperatives using graph intelligence and explainable machine learning models.",
+      "pitch": "An A1-poster-integrated modular hardware kit that demonstrates real-time NPK and moisture sensor data streaming for precision farming.",
+      "problem_statement": "Grassroots innovators addressing real-world problems across software and hardware domains.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "ESP32",
+        "Arduino",
+        "IoT Sensors"
       ],
-      "title": "AgriVision-Risk",
+      "title": "AgriSense: Low-Cost Soil Nutrient and Moisture Mapping Poster Kit",
       "track": "",
-      "why_it_could_win": "Applies enterprise-grade graph intelligence and risk scoring to a localized rural context, showing judges a tangible financial application for grassroots economies."
+      "why_it_could_win": "Combines a physical hardware prototype with the required A1 poster format, aligning with the exhibition and jury preference for practical, real-world application demos."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A portable acoustic modem prototype that allows remote clinics to transmit emergency distress codes via standard walkie-talkie audio frequencies without internet.",
+      "problem_statement": "Grassroots innovators addressing real-world problems across software and hardware domains.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Audio Processing",
+        "Hardware"
+      ],
+      "title": "MediGrid: Offline Acoustic Emergency Mesh for Rural Clinics",
+      "track": "",
+      "why_it_could_win": "Replicates the 'Unusual physical build' pattern that stands out in a room full of standard software posters, directly appealing to judges looking for grassroots utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A compact edge-AI powered sorting box that uses a low-cost camera to classify recyclable materials instantly, displayed alongside a structured methodology poster.",
+      "problem_statement": "Grassroots innovators addressing real-world problems across software and hardware domains.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "TensorFlow Lite"
+      ],
+      "title": "SmartBin Vision: Edge AI Waste Segregation Demonstrator",
+      "track": "",
+      "why_it_could_win": "Uses a live, working hardware demonstration that directly answers the jury's demand for practical application and clear results."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1275874285"
+        "github:1179000073"
       ],
-      "pitch": "A regional nutrition and wellness assistant that delivers personalized meal recommendations based on locally available, affordable indigenous food items.",
+      "pitch": "An embedded C system connected to a small solar panel setup that computes live sustainability scores and battery health ratios for local microgrids.",
+      "problem_statement": "Grassroots innovators addressing real-world problems across software and hardware domains.",
       "stack": [
-        "Python",
-        "Streamlit",
-        "Gemini API"
+        "C",
+        "Microcontroller",
+        "Power Sensors",
+        "LCD Display"
       ],
-      "title": "NutriLocal-AI",
+      "title": "SolarVault: Micro-Scale Renewable Energy Mix and Efficiency Calculator",
       "track": "",
-      "why_it_could_win": "Directly tackles community health and grassroots nutrition with an accessible interface that juries can immediately test and understand."
+      "why_it_could_win": "Follows the exact pattern of the winning sustainability calculator while pairing code execution with clear A1 poster documentation on methodology."
     },
     {
-      "build_hours": 28,
+      "build_hours": 38,
       "inspired_by": [
-        "github:1087704265"
+        "github:1141364034"
       ],
-      "pitch": "A predictive municipal incident forecasting tool using Poisson regression to anticipate infrastructure failures and civic complaints across urban zones.",
+      "pitch": "A physical packaging prototype using conductive ink traces and an ESP32 scanner to verify supply chain tampering, mapped out on an A1 research poster.",
+      "problem_statement": "Grassroots innovators addressing real-world problems across software and hardware domains.",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Pandas",
-        "Statsmodels"
+        "ESP32",
+        "Conductive Circuits",
+        "Cloud DB"
       ],
-      "title": "CivicIssue-Forecaster",
+      "title": "AntiTamper Log: Conductive Ink Logistics Verification Unit",
       "track": "",
-      "why_it_could_win": "Presents rigorous statistical forecasting and calibrated prediction intervals that appeal strongly to technical judges looking for hard engineering solutions."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent student support and administrative query platform leveraging RAG to streamline institutional processes and grievance redressal.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "OpenAI API",
-        "Next.js"
-      ],
-      "title": "CampusCare-Agent",
-      "track": "",
-      "why_it_could_win": "Solves an immediate, relatable operational problem for an educational institution, scoring high on utility and immediate campus deployment potential."
+      "why_it_could_win": "Presents tangible hardware security that judges can physically interact with during the poster walkthrough, satisfying criteria for technical depth."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

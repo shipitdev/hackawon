@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:48.791871+00:00",
+  "generated_at": "2026-09-21T08:17:21.758252+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -12,90 +12,98 @@
       "sponsor-tech",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1720578",
   "ideas": [
     {
-      "build_hours": 30,
+      "build_hours": 36,
       "inspired_by": [
         "github:1340275018"
       ],
-      "pitch": "A real-time worker safety compliance system running computer vision locally on a Raspberry Pi with a connected camera to detect missing hardhats and vests without sending video streams to the cloud.",
+      "pitch": "A real-time computer vision system running on Raspberry Pi that detects worker safety violations locally at the edge without cloud dependency.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "OpenCV",
         "TensorFlow Lite",
         "Raspberry Pi"
       ],
-      "title": "EdgeGuard Industrial Safety Monitor",
+      "title": "EdgeGuard: Industrial PPE & Safety Violation Detector",
       "track": "Raspberry Pi / Renesas Kit",
-      "why_it_could_win": "Directly targets the image and signal processing domain and industrial safety requirements while demonstrating a live on-site hardware demo, following the pattern of the hackathon-winning industrial safety detection system."
+      "why_it_could_win": "Hardware-focused judging panels love working physical demos that solve critical industrial safety issues, directly matching patterns from previous winning industrial safety edge systems."
     },
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1010199928"
+        "github:1140260754"
       ],
-      "pitch": "An automated waste segregation prototype utilizing an ESP32 microcontroller, a TCS3200 color sensor, and a servo-driven trapdoor to sort dry and wet waste at the point of disposal.",
+      "pitch": "An ESP32-based biomedical telemetry device that monitors vital signs and flags anomalies locally before transmitting encrypted data via Wi-Fi.",
+      "problem_statement": "No published statement",
       "stack": [
         "C++",
-        "Arduino IDE",
         "ESP32",
-        "Servo Motors"
+        "Arduino IDE",
+        "MQTT",
+        "Node-RED"
       ],
-      "title": "EcoSort Smart Bin",
+      "title": "BioStream: Edge IoT Post-Operative Health Monitor",
       "track": "ESP32 / Arduino",
-      "why_it_could_win": "Aligns with the ESP32/Arduino track and features a physical, interactive hardware prototype that guarantees a reliable live demonstration for judges."
+      "why_it_could_win": "Targeting the Biomedical Engineering domain with a physical embedded sensor kit gives teams a massive edge in hardware hackathons where judges evaluate circuit wiring and real-time telemetry."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1140260754"
+        "github:1141364034"
       ],
-      "pitch": "A wearable biomedical monitoring prototype built on an ESP32 that measures heart rate and SpO2 via a MAX30102 sensor, performing local threshold anomaly detection and triggering local buzzer alarms during critical drops.",
+      "pitch": "An ESP32-powered handheld scanner that reads physical analog signatures and conductive ink traces to authenticate high-value components at the edge.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C++",
+        "Python",
         "ESP32",
-        "MAX30102 Sensor",
-        "FreeRTOS"
+        "MicroPython",
+        "Firebase"
       ],
-      "title": "PulseGuard Edge Telemetry Unit",
+      "title": "VeriSign: Hardware-Secured Anti-Counterfeiting Tag",
       "track": "ESP32 / Arduino",
-      "why_it_could_win": "Matches the Biomedical Engineering problem domain and showcases real-time edge computing for patient telemetry, mirroring winning embedded healthcare concepts."
+      "why_it_could_win": "Demonstrates complex hardware integration combining sensors and microcontrollers, directly echoing winning supply chain security projects."
     },
     {
-      "build_hours": 36,
+      "build_hours": 40,
       "inspired_by": [],
-      "pitch": "A hardware-implemented finite impulse response (FIR) filter on an FPGA development board to clean up noisy real-time analog signals from environmental sensors instantly.",
+      "pitch": "A hardware-implemented digital signal processor filter on an FPGA board for real-time biomedical or communication signal denoising.",
+      "problem_statement": "No published statement",
       "stack": [
         "Verilog",
         "VHDL",
         "Xilinx Vivado",
-        "FPGA Board"
+        "FPGA Development Board"
       ],
-      "title": "FPGA-Accelerated FIR Filter for Sensor Noise",
+      "title": "FPGA-Accelerated Real-Time Noise Filter",
       "track": "FPGA",
-      "why_it_could_win": "Targets the FPGA track and the Processor Design / Image and Signal Processing problem domains by showcasing low-level, high-performance hardware description language implementation."
+      "why_it_could_win": "Utilizes the FPGA track with true low-level hardware design, showcasing genuine hard engineering that standard software teams cannot replicate."
     },
     {
-      "build_hours": 28,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1141364034"
+        "github:1010199928"
       ],
-      "pitch": "An ESP32-based logistics tracker featuring a conductive ink continuity loop that detects physical seal breakage and immediately alerts local wireless receivers.",
+      "pitch": "A hardware-accelerated image classification pipeline deployed on an FPGA board to instantly sort recyclable materials via sensor integration.",
+      "problem_statement": "No published statement",
       "stack": [
-        "C++",
-        "ESP32",
-        "Analog Sensors",
-        "MQTT"
+        "Verilog",
+        "Python",
+        "OpenCV",
+        "FPGA"
       ],
-      "title": "ChainVerify Tamper-Evident Cargo Tag",
-      "track": "ESP32 / Arduino",
-      "why_it_could_win": "Addresses Defence and Security problem domains using cheap edge microcontrollers to detect physical tampering, following the prize-winning anti-counterfeiting hardware logistics pattern."
+      "title": "EcoSort: FPGA-Based Edge Garbage Classification",
+      "track": "FPGA",
+      "why_it_could_win": "Combines computer vision with FPGA hardware acceleration, standing out through a compelling live sorting demonstration."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:50:55.720508+00:00",
+  "generated_at": "2026-09-21T08:34:39.254396+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -8,8 +8,12 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "judge-pain",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755808",
@@ -17,86 +21,89 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1282252864"
+        "github:1226951926"
       ],
-      "pitch": "A verification gateway that serializes agent state, memory, and tool definitions into a portable JSON-LD schema, allowing an agent built in LangChain to instantly resume execution inside a Lyzr runtime without state loss.",
+      "pitch": "A framework translation tool that automatically converts agent state graphs and prompt chains from LangGraph to CrewAI and Lyzr formats, preserving execution context.",
+      "problem_statement": "Agent Passport Challenge - Build. Verify. Prove Your Agent Can Travel.",
       "stack": [
         "Python",
-        "Pydantic",
         "FastAPI",
-        "LangChain",
-        "Lyzr"
+        "LangGraph",
+        "CrewAI",
+        "AST"
       ],
-      "title": "CrossRuntime Agent Passport Validator",
-      "track": "Agent Building",
-      "why_it_could_win": "Directly addresses the core requirement of the Agent Passport Challenge by proving agent portability and interoperability across different runtimes."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1282252864"
-      ],
-      "pitch": "A tool that automatically parses a BPMN workflow diagram and transpiles it into executable multi-agent configurations that can be deployed across different agent frameworks seamlessly.",
-      "stack": [
-        "Python",
-        "BPMN-Parser",
-        "Docker",
-        "OpenAI API"
-      ],
-      "title": "BPMN Agent Runtime Migrator",
-      "track": "Framework Migration",
-      "why_it_could_win": "Leverages the proven success of BPMN-orchestrated AI workflows while focusing on the framework migration and verification checkpoints required by the challenge."
+      "title": "PortaAgent Transpiler",
+      "track": "Agent Building Framework Migration",
+      "why_it_could_win": "Directly hits the core challenge requirement of cross-framework agent portability and runtime interoperability."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1199751414"
+        "github:1181275893"
       ],
-      "pitch": "A Model Context Protocol (MCP) server extension that standardizes tool-calling schemas and context persistence so that autonomous agents can hot-swap their underlying LLM runtime mid-task.",
+      "pitch": "An automated verification pipeline that runs sandboxed integration tests across multiple agent runtimes to issue a verifiable portability passport JSON.",
+      "problem_statement": "Agent Passport Challenge - Build. Verify. Prove Your Agent Can Travel.",
       "stack": [
         "TypeScript",
-        "MCP SDK",
+        "Docker",
         "Node.js",
-        "Redis"
+        "Jest"
       ],
-      "title": "Federated MCP Agent State Sync",
+      "title": "PassportGate Verifier",
+      "track": "Technical Deep Dives",
+      "why_it_could_win": "Matches the verification checkpoint and production-grade documentation criteria required for leaderboard points."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol adapter that allows legacy LangChain agents to seamlessly consume external tools hosted on remote MCP servers without code modification.",
+      "problem_statement": "Agent Passport Challenge - Build. Verify. Prove Your Agent Can Travel.",
+      "stack": [
+        "Python",
+        "MCP SDK",
+        "FastAPI",
+        "Pydantic"
+      ],
+      "title": "MCP-Agent Bridge",
       "track": "Open Source Contributions",
-      "why_it_could_win": "Combines federated protocol architectures with rigorous verification checkpoints, aligning with high-scoring engineering patterns from infrastructure hackathons."
+      "why_it_could_win": "Solves interoperability challenges between emerging protocol standards and established agent frameworks."
     },
     {
       "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An open-source runtime adapter translating Lyzr agent execution hooks into standard OpenAI Assistant API calls for multi-environment deployment.",
+      "problem_statement": "Agent Passport Challenge - Build. Verify. Prove Your Agent Can Travel.",
+      "stack": [
+        "Python",
+        "Lyzr SDK",
+        "OpenAI API",
+        "Flask"
+      ],
+      "title": "Lyzr-to-OpenAI Adapter",
+      "track": "Agent Building Framework Migration",
+      "why_it_could_win": "Targets partner ecosystem integration requirements by making proprietary agent logic portable to standard endpoints."
+    },
+    {
+      "build_hours": 32,
       "inspired_by": [
         "github:1163393786"
       ],
-      "pitch": "An automated testing harness that subjects portable AI agents to adversarial inputs during runtime migration to prove that memory corruption and tool-hallucination do not occur when crossing ecosystems.",
+      "pitch": "A state serialization tool that serializes complex agent memories into a portable JSON schema, enabling cold-boot resumption across different vector databases.",
+      "problem_statement": "Agent Passport Challenge - Build. Verify. Prove Your Agent Can Travel.",
       "stack": [
         "Python",
-        "Pytest",
-        "LLM-Judge",
-        "Docker"
+        "ChromaDB",
+        "Redis",
+        "Pydantic"
       ],
-      "title": "Adversarial State Verification Harness",
+      "title": "AgentState Diff & Sync",
       "track": "Technical Deep Dives",
-      "why_it_could_win": "Focuses heavily on production-grade documentation and verification checkpoints, which earn direct points in the 21-day challenge milestones."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1214808895"
-      ],
-      "pitch": "A cryptographic verification pipeline that generates zero-knowledge proofs of agent execution steps, allowing a client to verify that a portable agent completed its task correctly on an untrusted runtime.",
-      "stack": [
-        "Python",
-        "Rust",
-        "ZK-Circuits",
-        "FastAPI"
-      ],
-      "title": "Zero-Knowledge Agent Proof Passport",
-      "track": "Technical Deep Dives",
-      "why_it_could_win": "Provides genuinely hard engineering that satisfies the verification and proof requirements of the Agent Passport Challenge."
+      "why_it_could_win": "Focuses on deep architectural infrastructure problems that separate robust agent systems from basic wrappers."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

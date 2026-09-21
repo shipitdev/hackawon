@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:53:16.167105+00:00",
+  "generated_at": "2026-09-21T08:27:44.987409+00:00",
   "grounding": {
     "domains": [
       "hardware"
@@ -7,99 +7,98 @@
     "exemplar_count": 8,
     "patterns": [
       "unusual-hardware",
-      "working-demo",
-      "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749773",
   "ideas": [
     {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1274691349",
-        "github:1259981732"
-      ],
-      "pitch": "A 350x350mm omni-directional robot using mecanum wheels for rapid lateral strafing and precision ball-handling under strict size constraints.",
-      "stack": [
-        "Arduino",
-        "C++",
-        "Mecanum Wheels",
-        "DC Motors"
-      ],
-      "title": "OmniBot Soccer Chassis",
-      "track": "",
-      "why_it_could_win": "Matches physical build patterns from hardware winners by optimizing mechanical agility within the exact 350x350mm dimension limit for the knockout tournament."
-    },
-    {
       "build_hours": 24,
       "inspired_by": [
-        "github:1144331507"
+        "github:1259981732"
       ],
-      "pitch": "A custom Wi-Fi and ESP-NOW based controller setup minimizing command input latency for instant acceleration and shot response on the volleyball court arena.",
+      "pitch": "A high-mobility soccer robot utilizing omnidirectional wheels within the 350x350mm limit for rapid lateral maneuvers.",
+      "problem_statement": "Robo Soccer: Build a custom-built, wirelessly controlled robot to maneuver a ball into the opponent's goal within 350x350 mm and 3 kg limits.",
       "stack": [
+        "C++",
+        "Arduino",
         "ESP32",
-        "MicroPython",
-        "RF Transceiver",
-        "C++"
+        "PWM Motor Drivers"
       ],
-      "title": "Low-Latency ESP32 Wireless Rig",
+      "title": "OmniStrike RoboSoccer Bot",
       "track": "",
-      "why_it_could_win": "Prioritizes live demonstration reliability and split-second responsiveness required in fast-paced knockout robotics matches."
+      "why_it_could_win": "Leverages an unusual physical build pattern and direct live maneuverability demonstration that wins physical robotics tournaments."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1281918590",
-        "github:1274691349"
+        "github:1259981732",
+        "github:1066546613"
       ],
-      "pitch": "An electromagnetically assisted front-scoop mechanism that locks onto the ball during dribbling and releases instantly on trigger command for penalty shots.",
+      "pitch": "A competition-ready soccer robot featuring an electromagnetic solenoid kick mechanism that complies strictly with the 3S LiPo 12V voltage limit.",
+      "problem_statement": "Robo Soccer: Build a custom-built, wirelessly controlled robot to maneuver a ball into the opponent's goal while keeping ball handling compliant with the 50% surface rule.",
       "stack": [
-        "Relay Circuits",
-        "Electromagnets",
-        "Arduino Nano",
-        "Custom PCB"
+        "C++",
+        "ESP32",
+        "MOSFET Drivers",
+        "FreeRTOS"
       ],
-      "title": "Magnetic Ball-Capture Frontguard",
+      "title": "Pneumatic-Free Solenoid Kicker Bot",
       "track": "",
-      "why_it_could_win": "Provides a distinct mechanical advantage in ball retention during high-energy defensive challenges, echoing winning hardware engineering projects."
+      "why_it_could_win": "Judges in a knockout tournament value reliability and high-speed shooting without violating pneumatic bans."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A custom handheld gamepad using a dual-core microcontroller providing sub-20ms wireless response time for precision robot steering.",
+      "problem_statement": "Robo Soccer: Fully wireless (RF or Bluetooth) manual control within the specified match duration.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "BLE",
+        "Joystick Modules"
+      ],
+      "title": "Low-Latency Bluetooth LE Soccer Controller",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on operator control ergonomics and zero lag, which directly determines tournament outcomes in fast-paced knockout rounds."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A lightweight 3D-printed chassis designed to strictly satisfy the 50% ball surface exposure rule while preventing opponents from stealing the ball.",
+      "problem_statement": "Robo Soccer: At least 50% of the ball's surface must remain exposed at all times under a 3 kg weight limit.",
+      "stack": [
+        "Fusion 360",
+        "PLA 3D Printing",
+        "CAD"
+      ],
+      "title": "Open-Cage Ball-Guard Chassis",
+      "track": "",
+      "why_it_could_win": "Ensures absolute rule compliance during technical inspection while maximizing defensive maneuverability."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1259981732"
       ],
-      "pitch": "A 3D-printed modular polycarbonate bumper and chassis skeleton designed to absorb high-velocity impacts from opposing robots during aggressive match play.",
+      "pitch": "A high-torque, gear-reduced differential drive robot tuned for maximum acceleration and pushing power within the 3 kg threshold.",
+      "problem_statement": "Robo Soccer: Balancing speed, control, and defensive strategy to outmaneuver opponents within a 3 kg maximum weight limit.",
       "stack": [
-        "CAD",
-        "3D Printing",
-        "Polycarbonate",
-        "Fasteners"
-      ],
-      "title": "Ruggedized Impact-Resistant Chassis",
-      "track": "",
-      "why_it_could_win": "Ensures structural durability throughout a grueling multi-round knockout tournament without requiring major spare part replacements."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1144331507",
-        "github:1281918590"
-      ],
-      "pitch": "A custom ergonomic handheld transmitter featuring dual joysticks and quick-toggle turbo speed multipliers tailored for competitive robot soccer maneuvers.",
-      "stack": [
-        "Joystick Modules",
-        "nRF24L01",
         "Arduino",
-        "PCB Design"
+        "C++",
+        "DC Geared Motors",
+        "Motor Shield"
       ],
-      "title": "Dual-Mode Analog-Digital Controller",
+      "title": "Dual-Motor Differential Drive Striker",
       "track": "",
-      "why_it_could_win": "Focuses heavily on operator ergonomics and precision control, directly addressing the speed and maneuverability criteria of the tournament."
+      "why_it_could_win": "Emphasizes a robust, battle-tested mechanical layout that survives intense physical collisions in the volleyball court arena."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

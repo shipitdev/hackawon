@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:58:21.873028+00:00",
+  "generated_at": "2026-09-21T08:28:15.950632+00:00",
   "grounding": {
     "domains": [
       "fintech",
@@ -13,90 +13,99 @@
       "impact",
       "technical-depth"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1749938",
   "ideas": [
     {
-      "build_hours": 36,
+      "build_hours": 24,
       "inspired_by": [
         "github:1289086869"
       ],
-      "pitch": "An enterprise agent for Indian health insurance that ingests hospital discharge summaries and policy wordings to automatically flag improper claim rejections and generate legally grounded appeal drafts.",
+      "pitch": "An enterprise agent that fights wrongful health insurance claim denials by automatically auditing patient medical records against the insurer's exact policy documents.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "FastAPI",
-        "LLM",
-        "PostgreSQL"
-      ],
-      "title": "ClaimShield AI",
-      "track": "HealthTech",
-      "why_it_could_win": "Targeting HealthTech with a heavy emphasis on Business Viability & Scalability (15%) and Problem-Solution Fit (15%). It adapts proven enterprise agent workflows to the complex Indian TPA insurance market."
-    },
-    {
-      "build_hours": 38,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A localized graph-intelligence and risk-scoring platform designed for Indian fintech startups to detect automated layering and mule accounts in real-time UPI transactions.",
-      "stack": [
         "Python",
-        "TypeScript",
-        "NetworkX",
-        "LightGBM"
+        "LLM APIs"
       ],
-      "title": "Regulon AML",
+      "title": "VeriClaim AI",
       "track": "FinTech",
-      "why_it_could_win": "Leverages FinTech and directly targets Technical Implementation (25%) through graph-based anomaly detection, fulfilling the business viability criteria for high-growth financial markets."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1182199849"
-      ],
-      "pitch": "An AI-powered clinical training platform tailored for Indian medical students, featuring localized multilingual patient personas and computer-vision-based procedural checks for emergency triage.",
-      "stack": [
-        "TypeScript",
-        "MediaPipe",
-        "LLM",
-        "TailwindCSS"
-      ],
-      "title": "MediSim India",
-      "track": "EdTech",
-      "why_it_could_win": "Combines HealthTech and EdTech with exceptional Innovation & Creativity (20%) and a fully functional live demo combining LLMs and pose tracking."
+      "why_it_could_win": "Directly targets business viability and scalability as well as technical implementation by solving a painful, high-stakes corporate and consumer finance problem, mirroring the winning strategy of Overturn."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:968379171"
+        "github:1182199849"
       ],
-      "pitch": "A supply chain carbon accounting and scope-3 reporting portal built specifically for Indian Micro, Small, and Medium Enterprises to automate compliance with evolving export sustainability mandates.",
+      "pitch": "An interactive clinical simulation platform for medical students featuring an AI patient evaluated on a 6-dimension rubric and camera-based pose tracking for procedural skills.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "React",
-        "Supabase",
-        "Node.js"
+        "MediaPipe",
+        "Next.js",
+        "Python"
       ],
-      "title": "CarbonLedger MSME",
-      "track": "SustainTech",
-      "why_it_could_win": "Hits SustainTech with clear measurable economic and environmental impact, appealing directly to Business Viability & Scalability (15%)."
+      "title": "MediTrain OSCE",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines computer vision and LLMs to create a highly demonstrable, interactive product that impresses judges on Innovation and Creativity while fitting the HealthTech track."
     },
     {
-      "build_hours": 34,
-      "inspired_by": [],
-      "pitch": "A smart governance grievance-routing platform that utilizes multilingual audio embeddings to automatically categorize, prioritize, and dispatch municipal infrastructure complaints to the correct local ward office.",
+      "build_hours": 22,
+      "inspired_by": [
+        "github:968379171"
+      ],
+      "pitch": "A supply chain transparency platform that tracks Scope 3 carbon emissions and instantly generates auditable sustainability compliance reports for local manufacturers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "SustainChain Ledger",
+      "track": "SustainTech",
+      "why_it_could_win": "Addresses the SustainTech track with clear, quantifiable economic and environmental impact, scoring high on Business Viability & Scalability."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:230250148"
+      ],
+      "pitch": "An AI-driven accessibility and learning platform designed to detect dyslexia patterns in students and automatically re-format complex academic texts into accessible formats.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "FastAPI",
-        "Whisper",
-        "React"
+        "Flask",
+        "React",
+        "NLP libraries"
       ],
-      "title": "CivicPulse Gov",
+      "title": "EduAdaptive Portal",
+      "track": "EdTech",
+      "why_it_could_win": "Fits the EdTech track by solving a genuine accessibility pain point with clear social impact and straightforward, robust technical execution."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated procurement and vendor compliance auditor for municipal government contracts that cross-references public spending data with regulatory frameworks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "FastAPI"
+      ],
+      "title": "GovFlow Compliance",
       "track": "Smart Governance",
-      "why_it_could_win": "Directly serves Smart Governance with strong Problem-Solution Fit (15%) and a demo that uses localized audio processing, solving a persistent urban governance pain point."
+      "why_it_could_win": "Targets Smart Governance with a clear business-to-government model that directly appeals to judges looking for high economic relevance and scalability."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-21T08:27:13.102146+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749752",
+  "ideas": [
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An IoT and web dashboard platform tracking school energy and water wastage in real-time using low-cost sensors.",
+      "problem_statement": "Hardware/Software category student innovation for campus sustainability",
+      "stack": [
+        "Arduino",
+        "ESP8266",
+        "TypeScript",
+        "React"
+      ],
+      "title": "Smart Campus EcoTracker IoT",
+      "track": "Hardware",
+      "why_it_could_win": "Combines physical hardware sensing with a live working software dashboard, directly hitting the criteria for feasibility and impact in the hardware category."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A local AI multi-agent platform for school students to break down complex syllabus topics into interactive quizzes and flashcards.",
+      "problem_statement": "Software category student innovation for educational productivity",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "title": "EduAgent Multi-Agent Study Buddy",
+      "track": "Software",
+      "why_it_could_win": "Demonstrates advanced multi-agent workflow concepts tailored specifically for school students, impressing judges with high innovation scores."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A mobile-friendly web app that scans school lunch boxes using computer vision to give instant nutritional feedback and healthy eating tips.",
+      "problem_statement": "Software category student innovation for health and wellness",
+      "stack": [
+        "JavaScript",
+        "TailwindCSS",
+        "Tesseract.js",
+        "Node.js"
+      ],
+      "title": "NutriSchool Smart Tiffin Analyzer",
+      "track": "Software",
+      "why_it_could_win": "Mirrors award-winning health assistant patterns with a fast, live demo that directly appeals to student well-being and health impact."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An offline-capable biometric and voice-verification attendance tracker built using low-cost microcontrollers for school classrooms.",
+      "problem_statement": "Hardware category student innovation for administrative efficiency",
+      "stack": [
+        "Raspberry Pi",
+        "Python",
+        "Flask",
+        "SQLite"
+      ],
+      "title": "VoiceSign School Attendance System",
+      "track": "Hardware",
+      "why_it_could_win": "Solves an immediate, relatable school administration problem with a functional hardware prototype that scores high on feasibility."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A real-time school bus tracking and safety warning prototype utilizing GPS modules and proximity sensors for student transit.",
+      "problem_statement": "Hardware/Software category student safety solution",
+      "stack": [
+        "ESP32",
+        "GPS Module",
+        "HTML5",
+        "JavaScript"
+      ],
+      "title": "SafeTransit School Bus IoT Alert",
+      "track": "Hardware",
+      "why_it_could_win": "High emotional and social impact score, addressing a critical parent-school concern with an easily demonstrable working prototype."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

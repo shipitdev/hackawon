@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:45.245430+00:00",
+  "generated_at": "2026-09-21T08:11:52.984235+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-the-hill",
@@ -14,92 +16,92 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "A predictive spatial analysis dashboard forecasting municipal infrastructure failure in Ottawa using historical public works data, Poisson regression, and spatial clustering.",
+      "pitch": "An AI-powered municipal feedback aggregator that parses local Ottawa public consultation transcripts and council meeting logs to surface actionable community priorities for city planners.",
+      "problem_statement": "No published statement",
       "stack": [
+        "TypeScript",
+        "Next.js",
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Leaflet.js",
-        "FastAPI"
+        "LangGraph",
+        "TailwindCSS"
       ],
-      "title": "Ottawa Municipal Asset Risk Forecaster",
+      "title": "OttawaCivicPulse",
       "track": "",
-      "why_it_could_win": "Follows the winning pattern of combining rigorous predictive modeling with a concrete civic use case, mirroring the data-heavy statistical wins seen in AI forecasting hackathons."
+      "why_it_could_win": "Local government and civic tech appeals strongly to regional hackathon judges in Ottawa by targeting immediate municipal utility without requiring complex proprietary integrations."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Real-time commuter analytics dashboard predicting OC Transpo bottleneck surges using historical scheduling data and live weather impacts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Leaflet.js"
+      ],
+      "title": "CapitalTransitFlow",
+      "track": "",
+      "why_it_could_win": "Directly tackles a notorious local pain point for Ottawa residents and transit users, ensuring immediate relatability and high engagement from judges."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Satellite imagery monitoring tool tailored for Canadian environmental regulations, tracking industrial land usage changes and flagging unauthorized zoning clearings automatically.",
+      "pitch": "Satellite-based urban canopy monitoring tool that tracks tree cover health and heat island vulnerabilities across specific Ottawa neighborhoods.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
         "Python",
-        "OpenCV",
-        "SentinelHub API"
+        "PostGIS",
+        "Mapbox",
+        "React"
       ],
-      "title": "CanGeo-Compliance AI",
+      "title": "CanopyOttawa",
       "track": "",
-      "why_it_could_win": "Directly replicates the hard engineering and satellite-monitoring architecture of the GeoNex-ATLAS runner-up project, appealing to judges looking for tangible environmental and regulatory tech."
+      "why_it_could_win": "Utilizes spatial analysis patterns similar to successful environmental monitoring projects, which score well on visual presentation and tangible climate impact."
     },
     {
-      "build_hours": 32,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1275874285",
         "github:1241231621"
       ],
-      "pitch": "AI-powered regional nutrition and meal planning platform connecting local Ottawa farmers' market inventory directly to dietary meal prep recommendations for users.",
+      "pitch": "Automated bill tracker and plain-language summary generator for federal legislation introduced in the Parliament of Canada.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "TypeScript",
+        "OpenAI API",
         "Next.js",
-        "Gemini API",
-        "TailwindCSS"
+        "PostgreSQL"
       ],
-      "title": "LocalHarvest Ottawa",
+      "title": "ParliamentWatchAI",
       "track": "",
-      "why_it_could_win": "Applies the localized health-tech success pattern from E-Foodiee, tailoring a consumer nutrition engine to a hyper-local geographical supply chain."
+      "why_it_could_win": "Leverages the unique political geography of Ottawa, providing immediate value to researchers, journalists, and policy students."
     },
     {
       "build_hours": 35,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent RAG system built for university administrative navigation, utilizing LangGraph to route queries between academic advising, financial aid, and health services.",
+      "inspired_by": [],
+      "pitch": "Optimized route planning tool for snow removal and winter infrastructure maintenance contractors operating in Eastern Ontario.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangChain",
-        "LangGraph",
-        "PostgreSQL",
-        "OpenAI API"
-      ],
-      "title": "CampusPulse Multi-Agent Student Support",
-      "track": "",
-      "why_it_could_win": "Leverages the proven architecture of the Greennovation AI winning platform, focusing on robust workflow orchestration rather than a simple wrapper chatbot."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous AI agent platform that reviews local Ottawa community project proposals, verifies milestone deliverables via open data sources, and executes conditional USDC micro-grants.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "Solidity",
+        "React",
         "Node.js",
-        "USDC SDK"
+        "Google Maps API"
       ],
-      "title": "CivicTrust Autonomous Micro-Grant Escrow",
+      "title": "WinterWorksOttawa",
       "track": "",
-      "why_it_could_win": "Combines autonomous agent mechanics with secure decentralized escrow settlements, matching the winning architecture of the Dispatch marketplace project."
+      "why_it_could_win": "Focuses on operational logistics tailored directly to the local climate realities of the region, demonstrating practical engineering utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

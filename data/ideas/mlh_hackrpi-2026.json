@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:46:17.165742+00:00",
+  "generated_at": "2026-09-21T08:13:27.763647+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackrpi-2026",
@@ -14,87 +16,92 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265",
-        "github:1155558847"
+        "github:1087704265"
       ],
-      "pitch": "A localized energy grid forecasting tool tailored for Upstate New York municipalities to predict peak load and renewable output anomalies using Poisson regression and geospatial satellite monitoring.",
+      "pitch": "A real-time energy forecasting and simulation dashboard tailored for university microgrids using Poisson regression and rolling backtests.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Jupyter Notebook",
-        "Poisson-Regression",
-        "TypeScript"
+        "Streamlit",
+        "Pandas",
+        "Scikit-learn"
       ],
-      "title": "TroyGrid AI",
+      "title": "CampusGrid RPI: Microgrid Load Forecaster",
       "track": "",
-      "why_it_could_win": "Combines rigorous forecasting with localized regional utility relevance, matching the technical depth seen in winning statistical and satellite monitoring projects."
+      "why_it_could_win": "Leverages rigorous predictive modeling similar to past winning forecasting architectures, appealing to technical judges who value statistical calibration over simple wrappers."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent student support and sustainability tracker that coordinates campus resource allocation and carbon footprint reduction initiatives using LangGraph and localized RAG.",
+      "pitch": "An AI-powered multi-agent transit assistant that helps students and Troy residents navigate complex local bus schedules and delays with contextual retrieval.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "LangGraph",
         "Next.js",
-        "Python"
+        "LangGraph",
+        "TailwindCSS"
       ],
-      "title": "CampusGreen Multi-Agent",
+      "title": "TroyTransit AI: Local Transit Multi-Agent RAG Assistant",
       "track": "",
-      "why_it_could_win": "Directly mirrors the winning multi-agent student platform architecture while targeting a universally appealing university campus improvement use case."
+      "why_it_could_win": "Implements a robust multi-agent orchestration pattern that scored wins in previous hackathons by breaking complex user queries into specialized agent tasks."
     },
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1181344931"
+        "github:1155558847"
       ],
-      "pitch": "An AML risk detection and investigation dashboard utilizing graph intelligence and explainable gradient boosting to map and flag suspicious transaction networks for local financial cooperatives.",
+      "pitch": "An AI-powered resource compliance and campus sustainability auditing platform that analyzes building utility data against environmental standards.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "LightGBM",
-        "NetworkX"
+        "React",
+        "Node.js",
+        "PostgreSQL"
       ],
-      "title": "Hudson AML Inspector",
+      "title": "GreenRPI: Campus Carbon and Resource Auditor",
       "track": "",
-      "why_it_could_win": "Employs genuine hard engineering through graph intelligence and explainable machine learning models, replicating the winning formula of top fintech hackathon entries."
+      "why_it_could_win": "Adopts the successful structured evaluation and compliance auditing architecture seen in past industrial monitoring winners, tailored for campus sustainability goals."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1275874285",
-        "github:1241231621"
+        "github:1275874285"
       ],
-      "pitch": "An AI-driven regional nutritional assistant that generates personalized meal recommendations and sourcing routes based on inventory from local Upstate New York farmers markets and co-ops.",
+      "pitch": "A personalized meal planning and nutritional insight web application optimized for student dining hall menus and dietary restrictions.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Gemini API",
-        "Next.js",
+        "FastAPI",
+        "React",
         "TailwindCSS"
       ],
-      "title": "LocalHarvest Nutrition Engine",
+      "title": "RPI Student Health Nutrition Engine",
       "track": "",
-      "why_it_could_win": "Takes the proven winner template of personalized nutrition platforms and grounds it in hyper-local community economics, which local hackathon judges favor."
+      "why_it_could_win": "Focuses on high-utility consumer wellness features that won previous rapid development sprints through a polished user interface and immediate practical value."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1185920891"
+        "github:1185920891",
+        "github:1241231621"
       ],
-      "pitch": "An autonomous AI agent marketplace facilitating micro-task execution and instant USDC escrow payments tailored for student freelance and research compute sharing.",
+      "pitch": "An autonomous AI agent platform that facilitates alumni networking and mentorship matching with secure verification workflows.",
+      "problem_statement": "No published statement",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Node.js"
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Prisma"
       ],
-      "title": "RPI Autonomous Escrow Dispatch",
+      "title": "AlumniTrust RPI: Verified Credential & Engagement Platform",
       "track": "",
-      "why_it_could_win": "Leverages the proven winning pattern of autonomous agent marketplaces paired with cryptographic escrow rails, appealing to judges interested in decentralized automation."
+      "why_it_could_win": "Replicates the autonomous agent architecture and clean marketplace interaction loops that successfully captured top prizes in recent agent-focused hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

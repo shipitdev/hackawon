@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:36.406718+00:00",
+  "generated_at": "2026-09-21T08:22:40.906739+00:00",
   "grounding": {
     "domains": [
       "fintech",
@@ -12,92 +12,99 @@
       "judge-pain",
       "impact"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745790",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 22,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An anti-money laundering risk detection engine combining graph intelligence and post-quantum lattice-based encryption metadata to safeguard cross-border fintech ledgers.",
+      "pitch": "An AWS-powered anti-money laundering risk detection and investigation platform tailored for emerging hybrid-quantum financial systems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AWS",
+        "LightGBM"
+      ],
+      "title": "QuantumLedger AML",
+      "track": "Track 1: Quantum FinTech",
+      "why_it_could_win": "Combines advanced graph intelligence and financial risk modeling, following the exact pattern of the Bito win which secured 1st place in a fintech track."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-one-code trading bot platform optimized for automated strategy building and risk-managed execution.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "NetworkX",
         "FastAPI",
-        "React"
+        "React",
+        "TailwindCSS"
       ],
-      "title": "QuantumVault AML",
+      "title": "PacificaQuant AI",
       "track": "Track 1: Quantum FinTech",
-      "why_it_could_win": "Directly targets the Quantum FinTech track by merging emerging financial cryptography with graph intelligence, mirroring the winning strategy of Bito."
+      "why_it_could_win": "Directly targets high-frequency trading and fintech usability judges by delivering a functioning automated execution loop within 24 hours."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1087704265"
+        "github:1194555365"
       ],
-      "pitch": "A real-time public safety and transit incident forecasting application that uses Poisson regression and spatial mapping to highlight high-risk civic zones for night commuters.",
+      "pitch": "An AI-powered logistics and matching app that groups nearby seniors into social outings, pairing them with verified volunteer drivers.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Leaflet.js",
-        "Flask"
+        "TypeScript",
+        "Node.js",
+        "Google Maps API",
+        "PostgreSQL"
       ],
-      "title": "SafeRoute AI",
+      "title": "ElderRoute Social",
       "track": "Track 2: Software for Social Welfare & Public Safety",
-      "why_it_could_win": "Fulfills the Software for Social Welfare & Public Safety track by solving a genuine community pain point using rigorous statistical forecasting seen in winning AI projects."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1183964401"
-      ],
-      "pitch": "An AI-powered no-code trading strategy builder that simulates portfolio performance under quantum-inspired market volatility models.",
-      "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Scikit-Learn"
-      ],
-      "title": "QuantumHedge",
-      "track": "Track 1: Quantum FinTech",
-      "why_it_could_win": "Combines a familiar fintech utility with advanced modeling, taking inspiration from the winning ClashX platform built for fast execution."
+      "why_it_could_win": "Presents undeniable social welfare impact with a quantified community benefit, replicating the grand prize win strategy of Outreach."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1194555365"
+        "github:1087704265"
       ],
-      "pitch": "An AI-coordinated logistics and matching application that groups nearby seniors into essential medical or social outings with verified volunteer drivers.",
+      "pitch": "A Poisson GAM-based predictive incident forecasting tool designed to evaluate and flag public safety risks with calibrated prediction intervals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "IncidentGamma Forecaster",
+      "track": "Track 2: Software for Social Welfare & Public Safety",
+      "why_it_could_win": "Demonstrates rigorous statistical modeling and predictive accuracy that technical judges respect, mimicking the Apart Research AI Forecasting Hackathon winner."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced lost-and-found portal featuring multimodal item matching and real-time geolocation services for public safety and campus welfare.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "React",
         "Firebase",
-        "Google Maps API"
+        "Gemini AI"
       ],
-      "title": "ElderLink",
+      "title": "CampusFind Multimodal",
       "track": "Track 2: Software for Social Welfare & Public Safety",
-      "why_it_could_win": "Aligns with the Social Welfare track by creating clear, measurable community impact, replicating the grand prize-winning formula of Outreach."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous social-welfare grant disbursement platform featuring transparent milestone tracking and automated escrow releases.",
-      "stack": [
-        "JavaScript",
-        "Solidity",
-        "Node.js",
-        "TailwindCSS"
-      ],
-      "title": "CivicTrust Escrow",
-      "track": "Track 2: Software for Social Welfare & Public Safety",
-      "why_it_could_win": "Leverages technical execution and transparent financial tracking to address trust issues in public sector welfare funding."
+      "why_it_could_win": "Solves an everyday administrative pain for event organizers and institutions using practical computer vision and mapping, mirroring the GDG Hackathon win."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

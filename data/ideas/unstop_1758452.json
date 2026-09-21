@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-20T07:54:28.297717+00:00",
+  "generated_at": "2026-09-21T08:37:26.045098+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758452",
@@ -14,78 +17,78 @@
     {
       "build_hours": 36,
       "inspired_by": [],
-      "pitch": "A real-time multiplayer code-dueling platform where two participants solve algorithmic problems simultaneously on a shared canvas with live syntax-aware diffing and automated test-case generation.",
+      "pitch": "An interactive web-based algorithm visualizer specifically tailored to step through arrays, sorting, and searching problems commonly found in competitive programming.",
+      "problem_statement": "CodeForge – Coding Competition: Coding Round featuring 5 problems covering arrays, strings, searching, sorting, data structures, and algorithms.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "WebSockets",
-        "Monaco Editor",
-        "Python"
+        "React",
+        "JavaScript",
+        "TailwindCSS"
       ],
-      "title": "AlgoDuet: Collaborative Competitive Programming Arena",
+      "title": "CodePath Visualizer",
       "track": "",
-      "why_it_could_win": "Directly targets the competitive programming and algorithmic problem-solving core of CodeVerse by enhancing the participant experience beyond standard platforms."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [],
-      "pitch": "A static analysis tool that parses submitted source code in Python, C++, or Java, constructs abstract syntax trees, and dynamically estimates both Time and Space complexity while flagging potential TLE bottlenecks.",
-      "stack": [
-        "Python",
-        "Tree-sitter",
-        "FastAPI",
-        "React"
-      ],
-      "title": "ComplexityLens: Automated Algorithmic Complexity Analyzer",
-      "track": "",
-      "why_it_could_win": "Solves a core problem for competitive programmers during rapid trial-and-error testing phases, appealing directly to the judges' background in data structures and algorithms."
+      "why_it_could_win": "Addresses the exact domain of the coding competition by helping students break down and learn how to mentally trace complex searching and sorting algorithms, fitting the algorithmic theme of the event."
     },
     {
       "build_hours": 40,
       "inspired_by": [],
-      "pitch": "An educational debugging plugin that hooks into competitive programming execution runs to render real-time graphical representations of pointers, trees, graphs, and heap structures in memory.",
+      "pitch": "A 1-on-1 real-time competitive programming arena where teams can solve timed data structure and sorting challenges together against the clock.",
+      "problem_statement": "CodeForge – Coding Competition: Competitive programming event designed to test participants' problem-solving, logical thinking, data structures, and algorithmic skills within a fixed time limit.",
       "stack": [
-        "TypeScript",
-        "D3.js",
-        "WebAssembly",
-        "C++"
+        "Node.js",
+        "Socket.io",
+        "Express",
+        "React"
       ],
-      "title": "DataStructViz: Interactive Memory Layout Visualizer",
+      "title": "AlgoDuel",
       "track": "",
-      "why_it_could_win": "Leverages the hackathon's focus on data structures and algorithms by providing a high-utility visualization tool for complex pointer manipulations."
+      "why_it_could_win": "Directly mirrors the competitive programming format of the hackathon, providing immediate utility for students practicing for the coding round."
     },
     {
       "build_hours": 24,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "An LLM-assisted tool that takes a competitive programming problem statement and automatically generates tricky edge cases, maximum constraints, and stress-testing scripts to break naive solutions.",
+      "inspired_by": [],
+      "pitch": "A specialized data structure analyzer that builds syntax trees and step-by-step evaluation traces for string matching and sorting constraints.",
+      "problem_statement": "CodeForge – Coding Competition: Problems will cover arrays, strings, searching, sorting, data structures, algorithms, and problem-solving.",
       "stack": [
         "Python",
-        "Gemini API",
         "Streamlit",
-        "Docker"
+        "NetworkX"
       ],
-      "title": "TestGenie: AI Edge-Case Generator for CP",
+      "title": "RegexTree Parser",
       "track": "",
-      "why_it_could_win": "Combines algorithmic problem understanding with practical developer tooling, echoing the technical problem-solving spirit required in the 90-minute coding round."
+      "why_it_could_win": "Solves the specific pain point of debugging tricky string manipulation and sorting edge cases during timed algorithmic rounds."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated static analysis tool that scans submitted code snippets to estimate time and space complexity based on loops, arrays, and sorting routines.",
+      "problem_statement": "CodeForge – Coding Competition: Participants will solve programming problems within a fixed time limit and compete based on their performance.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Tree-sitter"
+      ],
+      "title": "ComplexityMeter",
+      "track": "",
+      "why_it_could_win": "Helps competitive programmers instantly check if their algorithm's time complexity will pass strict platform test cases before submitting."
     },
     {
       "build_hours": 32,
       "inspired_by": [],
-      "pitch": "A recommendation engine that analyzes a competitive programmer's past submission history and weak spots across arrays, sorting, and graph algorithms to dynamically curate an optimal practice path.",
+      "pitch": "A dynamic test case generator that automatically produces edge cases for array, string, and sorting problems to stress-test participant logic.",
+      "problem_statement": "CodeForge – Coding Competition: All submissions will be evaluated automatically through test cases. Participants must ensure that their submitted code passes the required test cases.",
       "stack": [
         "TypeScript",
-        "PostgreSQL",
-        "TailwindCSS",
-        "Python"
+        "Next.js",
+        "FastAPI"
       ],
-      "title": "CP-Route: Optimal Problem Selection Engine",
+      "title": "TestCaseGen",
       "track": "",
-      "why_it_could_win": "Focuses strictly on logical thinking and algorithmic proficiency tracking, aligning with the evaluation metrics of the competition."
+      "why_it_could_win": "Directly targets the evaluation constraint of the hackathon, ensuring participants can thoroughly test their algorithms against corner cases."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

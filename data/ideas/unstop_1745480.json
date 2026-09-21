@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:54:18.688840+00:00",
+  "generated_at": "2026-09-21T08:22:23.129244+00:00",
   "grounding": {
     "domains": [
       "security",
@@ -10,92 +10,96 @@
       "technical-depth",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1745480",
   "ideas": [
     {
-      "build_hours": 20,
+      "build_hours": 36,
       "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A live forensic terminal and log-reconstruction puzzle engine designed to simulate Dr. Meera Kapoor's final hours on SERVER EPOCH-01.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Xterm.js"
+      ],
+      "title": "EpochGuard Terminal",
+      "track": "",
+      "why_it_could_win": "Directly matches the immersive lore of the hackathon theme, providing judges with a high-energy, interactive narrative demo rather than a standard slides-and-code presentation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:618728877",
         "github:965357458"
       ],
-      "pitch": "A real-time log ingestion and governance tool designed to halt self-erasing database scripts by detecting unauthorized SQL execution patterns and isolating memory dumps during a simulated server wipe.",
+      "pitch": "A real-time file carving and chunk-recovery tool that simulates stopping an active data-wipe script on a corrupted server.",
+      "problem_statement": "No published statement",
       "stack": [
         "Go",
-        "Python",
         "SQLite",
         "WebSockets"
       ],
-      "title": "EpochGuard: Automated Forensic Telemetry Recovery",
+      "title": "WipeBar: Distributed Log Recovery",
       "track": "",
-      "why_it_could_win": "Directly tackles the core narrative of escaping a self-wiping server by combining open-source telemetry governance with live anomaly detection, echoing proven hackathon architectures."
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing low-level file reconstruction and concurrency control under a strict countdown timer."
     },
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An investigative dashboard that ingests recovered workstation logs and uses graph intelligence to map relationships and data access pathways between Dr. Meera Kapoor and potential insider threats.",
+      "pitch": "An investigative graph intelligence tool that parses the surviving server logs to map out who had access, who was behind Dr. Kapoor, and flag anomalies.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "NetworkX",
-        "TailwindCSS"
+        "Neo4j",
+        "D3.js"
       ],
-      "title": "BitoTrace: Graph-Based AML & Insider Threat Investigator",
+      "title": "Meera's Graph: Insider Threat Profiler",
       "track": "",
-      "why_it_could_win": "Leverages graph intelligence and automated risk detection patterns that consistently win high-stakes investigation and compliance hackathons."
+      "why_it_could_win": "Applies proven graph intelligence techniques to an investigative mystery narrative, making the solution both analytically impressive and highly entertaining for judges."
     },
     {
-      "build_hours": 18,
+      "build_hours": 28,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A training-free semantic routing system that rapidly indexes, classifies, and queries thousands of fragmented text files and half-erased server log fragments against a dynamic exemplar index.",
+      "pitch": "A training-free semantic router and query engine that lets investigators quickly search through unstructured farewell card messages and half-erased server logs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Qwen",
         "Superlinked",
-        "FastAPI"
+        "Qwen"
       ],
-      "title": "DarwinLog: Semantic Router for Corrupted Evidence",
+      "title": "Epoch-01 Semantic Log Query",
       "track": "",
-      "why_it_could_win": "Implements an advanced semantic routing approach that won top prizes for efficiency, allowing judges to query chaotic unstructured log data instantly during a live demo."
+      "why_it_could_win": "Leverages efficient semantic routing to give judges an instant, lightning-fast search interface over messy narrative data during the live demo."
     },
     {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A lightweight Python utility that scans a recovered machine's state, instantly generating an executive security summary, timeline of unauthorized database orders, and a complete forensic report of the breach.",
-      "stack": [
-        "Python",
-        "Markdown",
-        "Rich",
-        "Click"
-      ],
-      "title": "Reportr-Forensic: Automated Terminal Summarization",
-      "track": "",
-      "why_it_could_win": "Mirrors the exact formula of Microsoft Global Intern Hackathon winners by delivering automated repo and system summarization with immediate utility for incident responders."
-    },
-    {
-      "build_hours": 22,
+      "build_hours": 32,
       "inspired_by": [
         "github:1282252864"
       ],
-      "pitch": "A BPMN-orchestrated agentic workflow that guides the recovery squad through triage steps, validating human decisions and safely rolling back unauthorized database migrations before the wipe bar hits 100%.",
+      "pitch": "An automated AI agent framework orchestrated with BPMN workflows to autonomously analyze recovered server logs and run pre-deployment security diagnostics.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "BPMN Engine",
         "LangChain",
-        "Streamlit"
+        "UiPath"
       ],
-      "title": "AgentBPMN: Human-in-the-Loop Server Recovery Orchestrator",
+      "title": "Agentic Recovery Squad",
       "track": "",
-      "why_it_could_win": "Capitalizes on structured agent governance and human-in-the-loop validation patterns that scored podium finishes in recent agentic hackathons."
+      "why_it_could_win": "Combines structured workflow orchestration with agentic execution, appealing to judges looking for robust architecture and human-in-the-loop control."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

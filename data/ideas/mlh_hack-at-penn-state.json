@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:17.862992+00:00",
+  "generated_at": "2026-09-21T08:11:30.681944+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-at-penn-state",
@@ -14,86 +16,91 @@
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1087704265",
-        "github:1213911408"
-      ],
-      "pitch": "A localized forecasting tool that uses historical campus utility data and Poisson regression to predict peak energy demand spikes across University Park buildings, helping facilities management optimize consumption.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "FastAPI"
-      ],
-      "title": "PennState Campus Carbon & Energy Grid Forecaster",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning pattern of rigorous predictive modeling and time-series forecasting seen in top AI forecasting hackathons, appealing directly to sustainability-focused judges."
-    },
-    {
-      "build_hours": 26,
-      "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite and aerial image analysis dashboard designed to monitor campus construction and environmental compliance around the Pennsylvania region, providing automated zoning alerts.",
+      "pitch": "An AI-powered campus micro-mobility fleet redistribution tool for Penn State's CATA bus and bike share systems using predictive demand forecasting.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Python",
-        "OpenCV"
+        "Leaflet.js"
       ],
-      "title": "Nittany AI Health Compliance Monitor",
+      "title": "NittanyRoute Optimizer",
       "track": "",
-      "why_it_could_win": "Follows the exact blueprint of spatial intelligence and satellite monitoring projects that excel at regional engineering competitions."
+      "why_it_could_win": "Leverages localized university infrastructure data, making it immediately relevant to judges living and studying at University Park."
     },
     {
       "build_hours": 22,
       "inspired_by": [
-        "github:1241231621"
+        "github:1213911408"
       ],
-      "pitch": "An AI-driven platform for downtown State College small businesses to automate trust-building reviews, client acquisition funnels, and personalized local marketing campaigns.",
+      "pitch": "A multi-agent peer study group matching platform tailored for large lecture courses at Penn State, using vector embeddings to align syllabi, schedules, and learning styles.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Gemini API",
-        "Next.js",
+        "LangGraph",
+        "Python",
         "TailwindCSS"
       ],
-      "title": "StateCollege Local Vendor Trust & Acquisition Engine",
+      "title": "StateCollab Campus AI",
       "track": "",
-      "why_it_could_win": "Addresses a concrete local economic pain point with a polished UI and rapid AI pipeline, mirroring winning fast-sprint patient and business acquisition engines."
+      "why_it_could_win": "Modeled after multi-agent architectures that excel in academic hackathons by solving a ubiquitous student pain point."
     },
     {
-      "build_hours": 20,
+      "build_hours": 26,
       "inspired_by": [
-        "github:1275874285"
+        "github:1241231621"
       ],
-      "pitch": "A personalized wellness and nutrition platform tailored specifically to Penn State dining hall menus, delivering automated real-time dietary insights and custom meal plans for student athletes.",
+      "pitch": "A verified review and trust platform for off-campus student housing in State College, utilizing decentralized identity and automated lease parsing.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "PostgreSQL"
+        "TypeScript",
+        "Solidity",
+        "Next.js",
+        "OpenAI API"
       ],
-      "title": "Happy Valley Student Nutrition & Dining Assistant",
+      "title": "HappyValley Local Trust Engine",
       "track": "",
-      "why_it_could_win": "Combines hyper-localized data ingestion with consumer-friendly wellness features, directly replicating the success of nutrition assistant winners."
+      "why_it_could_win": "Directly targets a major stressor for every Penn State student renting apartments in the borough, guaranteeing high judge engagement."
     },
     {
       "build_hours": 25,
       "inspired_by": [
-        "github:1213911408"
+        "github:1181344931"
       ],
-      "pitch": "A multi-agent routing system using LangGraph and RAG specifically customized for academic advising, course registration troubleshooting, and mental health resource navigation at Penn State.",
+      "pitch": "An automated grant and faculty research proposal intelligence platform designed to surface collaboration opportunities across Penn State colleges.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LangGraph",
-        "ChromaDB"
+        "Neo4j",
+        "FastAPI",
+        "React"
       ],
-      "title": "PennState Student Multi-Agent Support Network",
+      "title": "LionAnalytics Research Graph",
       "track": "",
-      "why_it_could_win": "Utilizes complex multi-agent orchestration and retrieval architectures that consistently score high among technical judges looking for hard engineering implementation."
+      "why_it_could_win": "Applies graph intelligence to institutional data, a proven winning formula for enterprise and academic productivity tools."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "Real-time congestion prediction and egress routing simulation tool for large campus events at Beaver Stadium using computer vision analytics feeds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TypeScript",
+        "Three.js"
+      ],
+      "title": "BeaverStadium Crowd Flow AI",
+      "track": "",
+      "why_it_could_win": "Tackles a massive logistical challenge unique to Penn State's massive event footprint, impressing judges with scale and real-world utility."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

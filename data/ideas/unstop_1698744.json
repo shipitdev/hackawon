@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:49:31.092505+00:00",
+  "generated_at": "2026-09-21T08:16:54.911848+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -9,90 +9,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1698744",
   "ideas": [
     {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1022783746",
-        "github:1004582948"
-      ],
-      "pitch": "A Python and TypeScript tool designed to aggregate OSINT data across public platforms, automatically correlating EXIF metadata, social connection graphs, and username reuse to accelerate investigations during CTF rounds.",
-      "stack": [
-        "Python",
-        "TypeScript",
-        "FastAPI",
-        "React.js"
-      ],
-      "title": "OSINT-Visualizer: Geolocation and Social Graph Correlation Tool",
-      "track": "OSINT",
-      "why_it_could_win": "Targeting the OSINT challenge domain directly, this gives a competitive edge by automating tedious data aggregation tasks typical of hard and expert-tier jeopardy CTF problems."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1161237076"
-      ],
-      "pitch": "An advanced Python-based toolkit utilizing pwntools to analyze binary security mitigations (NX, ASLR, RELRO) and automatically suggest or construct basic ROP chains for beginner to intermediate binary exploitation challenges.",
-      "stack": [
-        "Python",
-        "pwntools",
-        "C"
-      ],
-      "title": "HeapCraft: Automated Binary Exploitation and ROP Chain Generator",
-      "track": "Binary Exploitation",
-      "why_it_could_win": "Binary exploitation and reverse engineering are high-value, low-solve-rate categories in jeopardy CTFs. A specialized automation tool directly assists with hard puzzles."
-    },
-    {
       "build_hours": 18,
       "inspired_by": [
         "github:1004582948"
       ],
-      "pitch": "A Python library and web interface that identifies common cryptographic flaws (such as weak RSA exponents, ECB padding oracles, or improper IV reuse) and provides immediate automated decryption pipelines.",
+      "pitch": "A local static and dynamic analysis tool that parses binary binaries to extract custom ROP gadgets and automate CTF payload generation for stack buffer overflows.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "SymPy",
-        "Flask"
+        "Angr",
+        "Pwntools",
+        "Capstone"
       ],
-      "title": "CryptoOracle: Automated Cryptographic Weakness Detection and Cipher Solver",
-      "track": "Cryptography",
-      "why_it_could_win": "Cryptography challenges often require repetitive mathematical checks. A rapid solver tool saves critical time during a 12-hour intense qualifier sprint."
+      "title": "HexTrace: Automated Binary Exploit Pattern Analyzer",
+      "track": "Binary Exploitation",
+      "why_it_could_win": "Addresses the Binary Exploitation and Reverse Engineering domains directly with genuinely hard engineering, automating tedious tasks that consume CTF teams' time during jeopardy rounds."
     },
     {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1208011447"
-      ],
-      "pitch": "A targeted web security scanner built in TypeScript designed to aggressively probe endpoints for JavaScript prototype pollution, insecure deserialization, and complex JWT signature bypass vulnerabilities.",
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A unified CTF cryptography toolkit that automatically tests for common modular arithmetic vulnerabilities, common modulus attacks, and weak public exponents.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Node.js",
-        "Cheerio"
+        "Python",
+        "SageMath",
+        "SymPy",
+        "FastAPI"
       ],
-      "title": "WebScannerX: Automated Prototype Pollution and JWT Flaw Detector",
-      "track": "Web Exploitation",
-      "why_it_could_win": "Web exploitation is a staple of jeopardy CTFs; building a specialized tool helps rapidly surface obscure vulnerabilities often hidden in hard-tier web challenges."
+      "title": "CryptoSleuth: Automated RSA & Elliptic Curve Attack Orchestrator",
+      "track": "Cryptography",
+      "why_it_could_win": "Directly tackles the Cryptography domain with a focus on speed, allowing solo players or small teams to instantly identify and solve classic CTF crypto challenges."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "An OSINT framework that rapidly crawls image EXIF data, social media handles, and historical DNS records to trace digital artifacts during time-sensitive CTF investigations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "ExifRead",
+        "Streamlit"
+      ],
+      "title": "OSINT-Mesh: Real-Time Digital Footprint and Metadata Aggregator",
+      "track": "OSINT",
+      "why_it_could_win": "Speeds up investigation workflows in the OSINT and Digital Forensics domains, mirroring the efficient data-processing patterns seen in winning analytical tool hacks."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1004582948",
-        "github:1161237076"
+        "github:1208011447"
       ],
-      "pitch": "A Python-based digital forensics utility designed to parse memory dumps, rapidly extract hidden network connections, unlinked DLLs, and injected shellcode signatures to solve DFIR challenges efficiently.",
+      "pitch": "A localized web security tool that identifies complex SQLi and prototype pollution vulnerabilities by leveraging context-aware payload mutation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Cheerio",
+        "Axios"
+      ],
+      "title": "WebFuzz-AI: Intelligent Payload Generator for Edge Web Vulnerabilities",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Targeting Web Exploitation, this tool applies automated hardening and defense-in-depth concepts to discover edge-case application logic flaws."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A fast forensics dashboard that parses memory dumps to detect hidden processes, injected DLLs, and suspicious network connections using heuristic signature matching.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Volatility3"
+        "Volatility3",
+        "Pandas",
+        "Plotly"
       ],
-      "title": "MemoryScope: Automated Volatile Memory Forensics and Artifact Extractor",
+      "title": "MemoryDump-Inspector: Automated Volatile Artifact Correlator",
       "track": "Digital Forensics",
-      "why_it_could_win": "Digital forensics challenges require parsing large amounts of raw data under tight time constraints. Providing an automated triage workflow drastically improves solve speed."
+      "why_it_could_win": "Provides an edge in the Digital Forensics domain through deep systems engineering and instant report generation, matching the rigor of high-scoring automation tools."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:50:06.614844+00:00",
+  "generated_at": "2026-09-21T08:17:39.765209+00:00",
   "grounding": {
     "domains": [
       "edtech",
@@ -10,6 +10,8 @@
       "sponsor-tech",
       "working-demo"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1726534",
@@ -18,87 +20,98 @@
       "build_hours": 36,
       "inspired_by": [
         "github:1352073210",
-        "github:1034488175"
+        "github:1213911408"
       ],
-      "pitch": "An AI academic copilot integrating Canvas LMS and institutional document repositories using LangGraph agents and MCP servers to automate student advising and administrative workflows.",
+      "pitch": "An AI-powered academic copilot that connects Canvas LMS data with LangGraph agents to automate administrative workflows and faculty-student communication.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "LangGraph",
         "FastAPI",
-        "React",
-        "Canvas API"
+        "LangGraph",
+        "Canvas LMS API",
+        "React"
       ],
-      "title": "CampusFlow RAG & MCP Copilot",
+      "title": "EduFlow Agentic LMS Integrator",
       "track": "",
-      "why_it_could_win": "Directly tackles administrative inefficiencies and fragmented communication in universities, aligning with the core problem statement of the Paper Buddy EduVerse Hackathon."
-    },
-    {
-      "build_hours": 30,
-      "inspired_by": [
-        "github:1074933780"
-      ],
-      "pitch": "An AI-powered career mentor for college students that analyzes university transcripts and project portfolios to dynamically generate personalized skill roadmaps and interview simulations.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "Gemini API",
-        "TailwindCSS"
-      ],
-      "title": "EduMentor AI Career & Roadmap Engine",
-      "track": "",
-      "why_it_could_win": "Follows the proven winning formula of CodeADA Hackathon by turning static academic data into actionable, interactive career guidance."
+      "why_it_could_win": "Directly tackles administrative inefficiencies and fragmented communication in educational institutions by leveraging a proven multi-agent architecture that judges can see working live."
     },
     {
       "build_hours": 40,
       "inspired_by": [
         "github:1182199849",
-        "github:1104248361"
+        "github:1074933780"
       ],
-      "pitch": "An interactive AI oral examination simulator that conducts voice-based vivas for university students, scoring responses against a multi-dimensional rubric using local multimodal models.",
+      "pitch": "An AI-driven clinical viva and practical examination simulator for medical and nursing colleges, scoring student responses across a multi-dimensional rubric.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Vue",
-        "Express",
+        "TypeScript",
+        "Next.js",
         "Gemini API",
-        "Web Speech API"
+        "MediaPipe",
+        "TailwindCSS"
       ],
-      "title": "VivaSim Clinical & Academic Evaluator",
+      "title": "VivaSim Clinical Examiner",
       "track": "",
-      "why_it_could_win": "Leverages live multimodal audio interactions and automated rubrics which consistently win judging panels looking for production-ready educational tools."
+      "why_it_could_win": "Focuses on high-stakes professional education (medical/nursing schools) where manual examination processes are exceptionally time-consuming and prone to human bias."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1152129601"
+        "github:1034488175"
       ],
-      "pitch": "A campus-wide platform that matches students for exam preparation and study groups based on active coursework, learning styles, and verified project portfolios.",
-      "stack": [
-        "React",
-        "Django",
-        "PostgreSQL",
-        "CSS"
-      ],
-      "title": "StudySync Peer & Portfolio Matcher",
-      "track": "",
-      "why_it_could_win": "Replicates the winning approach of the KMC Hackathon by solving student isolation and study partner discovery through a functional, clean web application."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:918466502"
-      ],
-      "pitch": "An app that connects students learning foreign languages through short-form video exchange, utilizing natural language processing to suggest vocabulary and correct grammar in real-time.",
+      "pitch": "An intelligent document platform that converts static college syllabus PDFs, lecture notes, and institutional handbooks into interactive semantic knowledge graphs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "React Native",
-        "FastAPI",
-        "NLP Libraries"
+        "LangChain",
+        "ChromaDB",
+        "Streamlit",
+        "OpenAI API"
       ],
-      "title": "LinguaSpark Short-Form Language Exchange",
+      "title": "SyllabiGraph Knowledge Base",
       "track": "",
-      "why_it_could_win": "Adapts the UofTHacks winning concept of user-generated educational video feeds for institutional language departments and coaching institutes."
+      "why_it_could_win": "Solves the limited access to intelligent digital tools for students trying to parse massive amounts of institutional and course documentation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1074933780",
+        "github:1152129601"
+      ],
+      "pitch": "An institutional career and peer-matching mentor platform for universities that integrates real-time curriculum data with personalized skill-gap roadmaps.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "Gemini API"
+      ],
+      "title": "UniMentor AI Career Roadmap",
+      "track": "",
+      "why_it_could_win": "Bridges the gap between academic learning and employability, offering universities a production-ready solution to track student placement readiness."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:918466502",
+        "github:1152129601"
+      ],
+      "pitch": "A language acquisition and peer exchange platform for educational institutions built around user-generated short-form video interactions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Django",
+        "React",
+        "TailwindCSS",
+        "WebRTC"
+      ],
+      "title": "LinguaPeer Short-Form Exchange",
+      "track": "",
+      "why_it_could_win": "Offers a highly engaging, consumer-grade UI/UX design that stands out among standard administrative dashboards typically submitted to education hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

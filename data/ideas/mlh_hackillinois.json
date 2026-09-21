@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:33.026902+00:00",
+  "generated_at": "2026-09-21T08:12:47.916751+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hackillinois",
@@ -16,83 +18,88 @@
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "A predictive model for campus-wide facility maintenance issues and student support service bottlenecks using Poisson GAM and rolling backtests.",
+      "pitch": "An intelligent microgrid load-forecasting platform optimized for university campuses using Poisson regression and rolling backtests.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Jupyter Notebook",
         "Python",
-        "Poisson-Regression",
-        "Next.js"
+        "Jupyter Notebook",
+        "scikit-learn",
+        "Streamlit"
       ],
-      "title": "Campus Incident AI Forecasting Engine",
+      "title": "CampusGrid AI",
       "track": "",
-      "why_it_could_win": "Follows the exact technical pattern of the Apart Research AI Forecasting Hackathon winner by using rigorous statistical modeling rather than a generic wrapper."
+      "why_it_could_win": "Leverages rigorous predictive modeling similar to past forecasting winners, which appeals heavily to technical judges looking for genuine mathematical depth rather than a wrapper."
     },
     {
-      "build_hours": 45,
+      "build_hours": 42,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "An AWS-powered risk detection platform combining graph intelligence and LightGBM to audit student organization funding requests and detect anomalies.",
+      "pitch": "A graph-intelligence-powered anti-money laundering and risk detection platform for campus student-run financial cooperatives and clubs.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "AWS",
+        "Python",
         "LightGBM",
-        "Neo4j"
+        "NetworkX"
       ],
-      "title": "Student Grant AML and Risk Graph",
+      "title": "QuadSafe AML",
       "track": "",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by combining graph databases and machine learning models, matching the winning architecture of the DIGITIMES AI Innovation Hackathon."
+      "why_it_could_win": "Combines graph intelligence and explainable analytics, a proven formula from previous winning entries in fintech and AML tracks."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1185920891"
       ],
-      "pitch": "An autonomous AI agent marketplace with USDC escrow payments on Base that automatically disburses hackathon team bounties upon verified GitHub PR merges.",
+      "pitch": "An autonomous AI agent marketplace facilitating secure peer-to-peer textbook and service exchanges with stablecoin escrow on Base.",
+      "problem_statement": "No published statement",
       "stack": [
         "JavaScript",
         "Base",
-        "Locus",
-        "USDC"
+        "USDC",
+        "Node.js"
       ],
-      "title": "Decentralized Hackathon Bounty Escrow",
+      "title": "CampusEscrow Agent",
       "track": "",
-      "why_it_could_win": "Directly mirrors the Synthesis Hackathon winning project by providing fully autonomous financial execution via escrow on Base."
+      "why_it_could_win": "Integrates autonomous agent workflows with real transaction settlement, mirroring the architecture of successful decentralized marketplace winners."
     },
     {
-      "build_hours": 24,
+      "build_hours": 28,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "A localized nutrition and wellness platform that analyzes dining hall menus to deliver personalized meal recommendations and micronutrient tracking for students.",
+      "pitch": "An AI-powered personalized meal and nutrition planning assistant tailored specifically to university dining hall menus and student budgets.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "Next.js",
-        "TailwindCSS"
+        "OpenAI API"
       ],
-      "title": "Campus Dining AI Nutritionist",
+      "title": "UniNutri AI",
       "track": "",
-      "why_it_could_win": "Leverages hyper-local utility tailored directly to student life, echoing the practical, prize-winning health focus of the Mealzy 24-Hour Hackathon."
+      "why_it_could_win": "Targets a universally relatable student problem with a polished, consumer-ready interface that routinely wins crowd-favorite awards."
     },
     {
-      "build_hours": 48,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1155558847"
+        "github:1213911408"
       ],
-      "pitch": "AI-powered satellite image monitoring pipeline to detect heat loss and roof-mounted solar panel efficiency across university campus buildings.",
+      "pitch": "A multi-agent student support and sustainability compliance platform using LangGraph and RAG to audit campus building energy efficiency.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Python",
-        "OpenCV",
-        "PostGIS"
+        "LangGraph",
+        "Pinecone",
+        "Next.js"
       ],
-      "title": "GreenQuad Energy Monitoring Satellite Pipeline",
+      "title": "GreenQuad AI",
       "track": "",
-      "why_it_could_win": "Replicates the technical computer vision and GIS integration that won the Xcelerate Hackathon runner-up spot."
+      "why_it_could_win": "Employs advanced multi-agent orchestration frameworks like LangGraph, aligning with winning architectures from sustainability and education hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

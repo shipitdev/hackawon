@@ -1,95 +1,104 @@
 {
-  "generated_at": "2026-09-17T07:56:05.496737+00:00",
+  "generated_at": "2026-09-21T08:33:32.424514+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755080",
   "ideas": [
     {
-      "build_hours": 16,
-      "inspired_by": [],
-      "pitch": "A dynamic code-scaffolding tool that intentionally injects modular architectural abstractions during the first 8 hours to instantly refactor or rewrite backend business logic when sudden structural constraints are introduced in a hackathon twist.",
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A modular solo developer state machine builder designed to rapidly restructure app logic when hit by surprise project requirement changes.",
+      "problem_statement": "Grevix AfterCode is a 24-hour online solo hackathon where original plans are disrupted by unexpected challenges every 8 hours, testing adaptation under pressure.",
       "stack": [
         "TypeScript",
         "Next.js",
-        "OpenAI API"
+        "TailwindCSS",
+        "XState"
       ],
-      "title": "PivotMorph AI",
+      "title": "AdaptFlow AI",
       "track": "",
-      "why_it_could_win": "Designed specifically for the 3-phase AfterCode Challenge System where plans get disrupted every 8 hours, directly showcasing adaptability and fast refactoring capabilities."
+      "why_it_could_win": "Directly tackles the unique structural twist of the AfterCode Challenge System, showcasing a tool built specifically to help solo developers pivot architectures instantly during mid-hackathon disruptions."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1185920891"
+        "github:1213911408",
+        "github:1329458499"
       ],
-      "pitch": "An autonomous micro-agent marketplace that automatically locks funds into USDC smart contracts on Base and dynamically splits payouts when tasks are re-routed mid-workflow.",
+      "pitch": "An AI-powered autonomous coding assistant that analyzes new Challenge Cards injected during a hackathon and automatically generates refactoring patches for the existing codebase.",
+      "problem_statement": "Grevix AfterCode is a 24-hour online solo hackathon where participants receive unexpected Challenge Cards requiring core feature modifications, target user shifts, or constraint changes.",
       "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "Solidity"
-      ],
-      "title": "AgenticEscrow Base",
-      "track": "",
-      "why_it_could_win": "Leverages autonomous execution and decentralized escrow mechanics proven to win fast-paced autonomous agent hackathons."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1181344931",
-        "github:1213911408"
-      ],
-      "pitch": "A multi-agent sustainability compliance platform combining LangGraph, RAG, and automated graph intelligence to audit industrial supply chains and immediately adapt its ingestion schema when new regulatory rules are dynamically triggered.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "LightGBM"
-      ],
-      "title": "RegenGraph AI",
-      "track": "",
-      "why_it_could_win": "Combines robust graph intelligence and multi-agent frameworks matching the technical depth of multi-phase hackathon winning projects."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A Poisson regression and GAM-powered forecasting dashboard that monitors live application API logs to predict runtime failure probabilities and calculate calibrated 90% error prediction intervals during high-stress state changes.",
-      "stack": [
-        "Jupyter Notebook",
         "Python",
         "FastAPI",
+        "LangChain",
         "React"
       ],
-      "title": "BioCalibrate Predictive Incident Engine",
+      "title": "Pivoter Agent",
       "track": "",
-      "why_it_could_win": "Brings rigorous statistical modeling and calibrated probabilistic prediction intervals to a solo speed-coding environment where unexpected challenges routinely break simple apps."
+      "why_it_could_win": "Leverages AI code generation to solve the exact pain point of the hackathon's multi-phase disruption mechanism, proving high utility for solo builders racing against strict time limits."
     },
     {
-      "build_hours": 20,
+      "build_hours": 16,
       "inspired_by": [
-        "github:1183964401"
+        "github:1185527998"
       ],
-      "pitch": "An AI-powered adaptive crypto trading bot platform that instantly rewrites its execution strategies and swaps out risk parameters via natural language commands when mock market volatility surges.",
+      "pitch": "A solo builder task-scoping and time-blocking dashboard that dynamically recomputes deliverables and drops non-essential features when requirements change mid-project.",
+      "problem_statement": "Grevix AfterCode is a 24-hour online solo hackathon requiring solo participants to efficiently manage their time across three 8-hour phases while handling abrupt scope changes.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "FlexiScope",
+      "track": "",
+      "why_it_could_win": "Emphasizes practical project management and rapid scoping strategy, demonstrating a working live demo that helps solo developers survive high-pressure time crunches."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A rapid mock backend generator with live endpoint hot-swapping designed for solo developers whose API requirements change unexpectedly during a hackathon.",
+      "problem_statement": "Grevix AfterCode is a 24-hour online solo hackathon where participants must frequently adapt their data models and interaction flows due to unexpected challenge constraints.",
+      "stack": [
+        "TypeScript",
+        "Express",
+        "SQLite",
+        "Docker"
+      ],
+      "title": "ModularMock API",
+      "track": "",
+      "why_it_could_win": "Solves a universal bottleneck for solo hackers having to rewrite backend schemas on the fly when rules change, offering a clean, working utility product with clear measurable time savings."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A git-integrated checkpoint visualizer that helps solo builders branch, compare, and rollback architecture states before and after unexpected hackathon challenge injections.",
+      "problem_statement": "Grevix AfterCode is a 24-hour online solo hackathon divided into 3 phases where original plans are disrupted and developers must effectively manage codebases under shifting constraints.",
       "stack": [
         "Python",
-        "TypeScript",
-        "TailwindCSS"
+        "Streamlit",
+        "GitPython"
       ],
-      "title": "ClashPivot Bot",
+      "title": "PatchPilot",
       "track": "",
-      "why_it_could_win": "Demonstrates rapid algorithmic reconfiguration and real-time execution capabilities, perfectly aligned with surviving unexpected rules changes in a 24-hour sprint."
+      "why_it_could_win": "Focuses on clean developer ergonomics and clean version control management under strict time limits, aligning with what judges look for in disciplined solo execution."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

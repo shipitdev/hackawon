@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:51:41.447482+00:00",
+  "generated_at": "2026-09-21T08:19:18.339233+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -11,6 +11,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1741840",
@@ -18,88 +20,87 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1181344931",
-        "github:1282252864"
+        "github:965357458"
       ],
-      "pitch": "An automated compliance and risk discovery agent that parses infrastructure-as-code and cloud deployment logs using local graph intelligence and deterministic validators to catch security vulnerabilities before deployment.",
+      "pitch": "An open-source telemetry and compliance governance proxy for multi-tenant LLM applications.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "FastAPI",
-        "LightGBM",
-        "NetworkX",
-        "React"
+        "Go",
+        "Docker",
+        "OpenTelemetry"
       ],
-      "title": "CloudAudit AI",
-      "track": "Cybersecurity",
-      "why_it_could_win": "Aligns directly with the Cybersecurity and Cloud tracks by offering a practical, enterprise-focused utility that judges from industry can instantly understand and appreciate."
+      "title": "CloudPolicy Guard",
+      "track": "AI/GenAI",
+      "why_it_could_win": "Leverages the Genuinely hard engineering pattern by solving runtime AI governance and cost optimization locally without third-party SaaS lock-in."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1334000568"
       ],
-      "pitch": "A training-free, ultra-fast semantic routing proxy that categorizes inbound API queries and dynamically directs them to specialized, cost-effective small language models or local models.",
+      "pitch": "A training-free, self-improving semantic routing proxy using kNN over exemplar indexes to slash LLM API costs.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
         "Superlinked",
         "Qwen"
       ],
-      "title": "SemanticRoute LLM",
+      "title": "SemanticRouter Lite",
       "track": "AI/GenAI",
-      "why_it_could_win": "Demonstrates genuinely hard engineering by focusing on cost-efficiency and performance optimization, which stands out against basic wrappers."
+      "why_it_could_win": "Mirrors a first-prize winning architecture by demonstrating immediate, quantifiable cost and latency reductions using an innovative routing mechanism."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1296916648"
+        "github:1282252864"
       ],
-      "pitch": "An offline-first code quality and security analyzer that runs static analysis combined with a compressed local model to perform security reviews without leaking repository data to external APIs.",
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis tool that runs automated compliance checks on AI workflows.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ONNX Runtime",
-        "TypeScript",
-        "VS Code Extension API"
+        "BPMN",
+        "LangChain",
+        "FastAPI"
       ],
-      "title": "EdgeCode Reviewer",
-      "track": "Open Innovation",
-      "why_it_could_win": "Appeals strongly to privacy-conscious enterprise judges in the Open Innovation and AI tracks by processing code completely on-device."
-    },
-    {
-      "build_hours": 42,
-      "inspired_by": [
-        "github:1282252864",
-        "github:1351321536"
-      ],
-      "pitch": "A visual workflow automation builder that translates business process diagrams into executed multi-agent workflows with built-in human-in-the-loop validation checkpoints.",
-      "stack": [
-        "TypeScript",
-        "React Flow",
-        "Python",
-        "LangGraph"
-      ],
-      "title": "AgentBPMN Orchestrator",
+      "title": "BPMN Risk Agent",
       "track": "Automation",
-      "why_it_could_win": "Tackles the Automation track with a structured visual interface that makes complex AI agent interactions manageable and auditable."
+      "why_it_could_win": "Combines visual workflow orchestration with rigorous human-in-the-loop validation, appealing directly to enterprise judges looking for practical safety measures."
     },
     {
       "build_hours": 38,
       "inspired_by": [
-        "github:1188682384"
+        "github:1214808895"
       ],
-      "pitch": "A zero-knowledge access management system that allows students to prove enrollment and eligibility criteria for campus resources or hackathon submissions without revealing personal credentials.",
+      "pitch": "An optimization layer that accelerates LLM reasoning loops through advanced state caching and reinforcement learning principles.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Noir",
-        "Next.js",
-        "Hardhat"
+        "Python",
+        "PyTorch",
+        "Redis"
       ],
-      "title": "ZK-Gated Campus Vault",
+      "title": "HyperReason Cache",
+      "track": "AI/GenAI",
+      "why_it_could_win": "Focuses on raw technical performance and deep optimization, aligning with the winning pattern of solving complex computational bottlenecks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI code review assistant built to run locally on resource-constrained environments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ONNX",
+        "Streamlit"
+      ],
+      "title": "EdgeCode Reviewer",
       "track": "Cybersecurity",
-      "why_it_could_win": "Brings advanced cryptographic techniques to the Cybersecurity and Open Innovation tracks, showcasing deep technical implementation beyond standard web apps."
+      "why_it_could_win": "Showcases offline-first deployment capabilities, which impress judges by solving privacy and latency issues inherent in cloud-only solutions."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

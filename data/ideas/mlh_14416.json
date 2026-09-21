@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:15.132196+00:00",
+  "generated_at": "2026-09-21T08:10:27.292581+00:00",
   "grounding": {
     "domains": [
       "data"
@@ -11,98 +11,104 @@
       "working-demo",
       "unique-data"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:14416",
   "ideas": [
     {
-      "build_hours": 48,
+      "build_hours": 40,
       "inspired_by": [
-        "github:1341712439",
-        "github:1329458499",
         "github:985196561"
       ],
-      "pitch": "An autonomous log analysis and incident remediation pipeline that parses multi-server NGINX and application logs in real-time, isolates root causes using anomaly detection, and automatically generates verified pull requests to fix configuration errors.",
+      "pitch": "Real-time log intelligence dashboard with predictive anomaly mitigation for high-throughput distributed systems.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "FastAPI",
         "Gemini",
         "Next.js",
-        "LangGraph"
+        "NGINX"
       ],
-      "title": "LogSentry-AI",
+      "title": "StreamLogic AI",
       "track": "",
-      "why_it_could_win": "Combines high-difficulty data engineering with automated closed-loop remediation, directly mirroring the winning architecture of autonomous data incident response platforms."
+      "why_it_could_win": "Directly mimics a proven winning architecture by combining fast anomaly detection with actionable operational dashboards."
     },
     {
-      "build_hours": 36,
+      "build_hours": 48,
       "inspired_by": [
-        "github:1266090747",
-        "github:1228328106"
+        "github:1329458499"
       ],
-      "pitch": "An automated data preprocessing and ML pipeline auditing tool that detects, explains, and provides concrete data-mitigation strategies for hidden demographic and socioeconomic bias in tabular datasets.",
+      "pitch": "Autonomous data incident response agent with evidence gates and verified PR generation for data pipelines.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Streamlit",
-        "XGBoost",
-        "SHAP"
+        "ai-agents",
+        "claude",
+        "data-engineering",
+        "data-lineage"
       ],
-      "title": "FairLens Pipeline",
+      "title": "DataLine Autorepair",
       "track": "",
-      "why_it_could_win": "Addresses the critical need for transparent, responsible AI by focusing specifically on bias mitigation at the data ingestion and preprocessing layer."
-    },
-    {
-      "build_hours": 60,
-      "inspired_by": [
-        "github:1155558847"
-      ],
-      "pitch": "A satellite imagery monitoring dashboard that processes multi-spectral data to track industrial land use changes, flag unauthorized environmental footprint expansions, and automate compliance reporting.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "PostGIS",
-        "Next.js"
-      ],
-      "title": "GeoPulse Industrial",
-      "track": "",
-      "why_it_could_win": "Leverages complex geospatial data workflows to solve a tangible regulatory problem, following the proven trajectory of winning satellite monitoring projects."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1189359296"
-      ],
-      "pitch": "A multi-turn metacognition testing framework that evaluates and visualizes the self-correction and reasoning limits of open-source LLMs across complex data extraction tasks.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "Pandas",
-        "Streamlit"
-      ],
-      "title": "MetaEval Benchmark",
-      "track": "",
-      "why_it_could_win": "Focuses on rigorous evaluation methodology and benchmarking, mirroring the approach of grand prize winners in measuring progress toward advanced AI systems."
+      "why_it_could_win": "Adapts a grand-prize-winning data-engineering agent pattern that automates complex data lineage healing."
     },
     {
       "build_hours": 50,
       "inspired_by": [
-        "github:1200926140",
         "github:1341712439"
       ],
-      "pitch": "A video intelligence platform that ingests unstructured streaming data, builds a searchable vector index of visual and auditory events, and allows natural language querying across long-form video archives.",
+      "pitch": "Closed-loop multi-agent IoT diagnostic platform powered by autonomous reasoning and isolation forests.",
+      "problem_statement": "No published statement",
       "stack": [
-        "HTML",
         "TypeScript",
-        "Python",
-        "Qdrant",
-        "Gemini"
+        "anomaly-detection",
+        "gemini-2-5",
+        "iot-operations",
+        "langgraph"
       ],
-      "title": "StreamIntel Video Hub",
+      "title": "AgenticIoT Ops",
       "track": "",
-      "why_it_could_win": "Delivers a fully functional, live-demoable multi-modal pipeline that transforms unstructured data into instantly searchable assets, matching recent hackathon-winning user experience standards."
+      "why_it_could_win": "Employs a multi-agent diagnostic loop that secured a top prize at a prominent data and operations hackathon."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "High-accuracy patient readmission predictor paired with interactive SHAP value explainability for clinicians.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "healthcare",
+        "shap",
+        "streamlit",
+        "xgboost"
+      ],
+      "title": "ClinicalSHAP Readmit",
+      "track": "",
+      "why_it_could_win": "Replicates a proven first-place healthcare predictive model that emphasizes rigorous clinical interpretability."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "Solo-built diagnostic platform for detecting, explaining, and automatically mitigating bias in tabular machine learning models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "ai-fairness",
+        "artificial-intelligence",
+        "bias-detection",
+        "bias-mitigation"
+      ],
+      "title": "FairLens ML",
+      "track": "",
+      "why_it_could_win": "Utilizes a third-place-winning design pattern focused on ethical AI and algorithmic fairness transparency."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

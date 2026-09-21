@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:44:29.363148+00:00",
+  "generated_at": "2026-09-21T08:11:40.122436+00:00",
   "grounding": {
     "domains": [
       "arvr"
@@ -10,92 +10,99 @@
       "technical-depth",
       "polish"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "mlh:hack-dearborn-5-conjure-reality",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 26,
       "inspired_by": [
         "github:1227086460",
         "github:985707686"
       ],
-      "pitch": "An interactive 3D digital twin of the local university campus visualizing energy consumption anomalies and real-time foot traffic data.",
+      "pitch": "An immersive spatial computing and web-based 3D digital twin for Dearborn campus facilities to track and visualize real-time energy anomalies.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "TypeScript",
-        "react-three-fibre",
-        "Three.js"
+        "React",
+        "Three.js",
+        "Python",
+        "Machine Learning"
       ],
-      "title": "DearbornXR Campus Twin",
+      "title": "ConjureCampus 3D",
       "track": "",
-      "why_it_could_win": "Leverages the proven success of combining 3D spatial visualization with anomaly detection, which historically wins hardware and immersive tracks."
+      "why_it_could_win": "Demonstrates exceptional visual polish using 3D web technologies, directly mirroring a proven 2nd place winning architecture."
     },
     {
-      "build_hours": 26,
+      "build_hours": 25,
+      "inspired_by": [
+        "github:988515862"
+      ],
+      "pitch": "A hands-free AR/VR interface allowing users to manipulate reality overlays using computer vision hand and pose tracking without controllers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "PyQt5",
+        "OpenCV"
+      ],
+      "title": "HolisticInteract VR",
+      "track": "",
+      "why_it_could_win": "Leverages difficult computer vision engineering that reliably scores high with judges looking for advanced technical execution."
+    },
+    {
+      "build_hours": 27,
       "inspired_by": [
         "github:1069255350"
       ],
-      "pitch": "A multi-agent network traffic simulator that renders active DDoS mitigation and cyber attack vectors in an interactive 3D environment.",
+      "pitch": "A multi-agent platform for real-time network traffic simulation and 3D threat visualization tailored for cybersecurity situational awareness.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "Three.js",
         "WebSockets"
       ],
-      "title": "ConjureNet Security Visualizer",
+      "title": "NetworkRealm Defender",
       "track": "",
-      "why_it_could_win": "Matches the 'Conjure Reality' theme by materializing invisible network packets into physical-looking 3D hazards, a proven winner at security-focused events."
+      "why_it_could_win": "Replicates a proven hackathon-winning multi-agent architecture with a compelling 3D visual component."
     },
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:988515862"
+        "github:985707686"
       ],
-      "pitch": "A webcam-based biomechanical feedback engine that extracts real-time skeletal and joint landmarks to correct user posture during physical therapy exercises.",
+      "pitch": "An interactive spatial breathing and wellness application featuring procedural 3D particle systems designed for immersive mental reset.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
-        "MediaPipe",
-        "OpenCV",
-        "PyQt5"
-      ],
-      "title": "PoseStream AR Coach",
-      "track": "",
-      "why_it_could_win": "Relying on a robust, working MediaPipe pipeline guarantees a reliable live demo, which judges heavily favor over vaporware."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:609381007",
-        "github:643453435"
-      ],
-      "pitch": "An augmented reality assembly instruction helper that uses spatial anchors to guide factory workers through complex wiring tasks in real-time.",
-      "stack": [
-        "C#",
-        "Unity",
-        "ARCore"
-      ],
-      "title": "AutoXR Manufacturing Floor",
-      "track": "",
-      "why_it_could_win": "Directly appeals to the industrial automation and manufacturing heritage of Dearborn, Michigan."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:569668622"
-      ],
-      "pitch": "A data-engineering dashboard processing regional weather sensor feeds to predict power grid strain and visualize failure points in 3D.",
-      "stack": [
-        "C++",
-        "MongoDB",
-        "Python",
+        "TypeScript",
+        "React Three Fiber",
         "Three.js"
       ],
-      "title": "EcoGrid Arctic Simulator",
+      "title": "RealityBreathe Spatial",
       "track": "",
-      "why_it_could_win": "Combines hard data engineering with a polished visualization interface, directly mimicking past hackathon prize-winning criteria."
+      "why_it_could_win": "Focuses on exceptional UX, design, and completeness, matching the profile of previous winning projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:692610565",
+        "github:643453435"
+      ],
+      "pitch": "An augmented reality vocabulary and environment exploration tool designed to overlay contextual linguistic data onto physical spaces.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "SwiftUI",
+        "RealityKit"
+      ],
+      "title": "EduConjure AR",
+      "track": "",
+      "why_it_could_win": "Aligns with the 'Conjure Reality' theme by blending physical environments with immersive digital learning overlays."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

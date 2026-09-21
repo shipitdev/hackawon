@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:58:13.738354+00:00",
+  "generated_at": "2026-09-21T08:33:44.935756+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,92 +7,97 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1755103",
   "ideas": [
     {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An offline-first crop disease diagnostic and yield forecasting tool optimized for local agricultural extension officers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "FastAPI",
+        "React Native"
+      ],
+      "title": "SmartCrop AI",
+      "track": "Agriculture & Sustainability",
+      "why_it_could_win": "Directly targets the Agriculture & Sustainability domain with a localized, low-bandwidth solution that appeals strongly to institutional judges."
+    },
+    {
       "build_hours": 22,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A localized electronic health record system featuring offline edge AI symptom triage and automated prescription parsing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Python"
+      ],
+      "title": "ArogyaSync",
+      "track": "Healthcare & Wellness",
+      "why_it_could_win": "Combines practical utility for rural clinics with a robust architecture, addressing the Healthcare & Wellness domain effectively."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent learning platform that automatically generates localized remedial quizzes based on student performance telemetry.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangChain",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "EduAdapt AI",
+      "track": "EdTech",
+      "why_it_could_win": "Aligns with the EdTech domain by leveraging a multi-agent workflow that showcases genuine engineering complexity within a short timeframe."
+    },
+    {
+      "build_hours": 20,
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "Satellite-based remote sensing platform for monitoring regional agricultural land compliance, yield forecasting, and soil health anomalies using multi-spectral indices.",
+      "pitch": "A smart transit and logistics optimizer calculating carbon-efficient routing for regional supply chains and tourism.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "Leaflet"
+        "JavaScript",
+        "Mapbox GL JS",
+        "Node.js",
+        "Express"
       ],
-      "title": "AgriCrop-Sentinel",
-      "track": "Agriculture & Sustainability",
-      "why_it_could_win": "Directly targets the Agriculture & Sustainability domain while employing heavy geospatial data processing, mimicking winning architecture from regional compliance hackathons."
+      "title": "EcoRoute India",
+      "track": "Travel & Smart Cities",
+      "why_it_could_win": "Fits the Travel & Smart Cities domain by delivering a visually compelling dashboard with tangible efficiency metrics that judges favor."
     },
     {
       "build_hours": 24,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "Explainable patient health deterioration warning system combining graph intelligence and gradient boosting to flag critical vitals and early sepsis risks in hospital settings.",
+      "pitch": "An AI-powered anomaly detection and risk scoring platform for regional manufacturing supply chains.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "TypeScript",
         "LightGBM",
-        "NetworkX"
-      ],
-      "title": "MediGraph-Risk",
-      "track": "Healthcare & Wellness",
-      "why_it_could_win": "Aligns with the Healthcare & Wellness domain and leverages advanced graph-based risk modeling inspired by award-winning financial and clinical monitoring architectures."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student advisory platform using RAG and LangGraph to generate personalized academic roadmaps, career paths, and real-time tutoring interventions for technical institutes.",
-      "stack": [
-        "TypeScript",
-        "Next.js",
-        "LangChain",
-        "Python"
-      ],
-      "title": "EduAgent-Support",
-      "track": "EdTech",
-      "why_it_could_win": "Fits the EdTech domain and utilizes multi-agent orchestration proven to win developer competitions by providing functional, deeply customized student workflows."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Dynamic route optimization and predictive congestion management system for smart city transit authorities leveraging real-time telemetry and spatial forecasting.",
-      "stack": [
-        "Python",
-        "Pandas",
         "Streamlit",
-        "Scikit-learn"
+        "Pandas"
       ],
-      "title": "SmartTransit-AI",
-      "track": "Travel & Smart Cities",
-      "why_it_could_win": "Addresses the Travel & Smart Cities domain with production-ready forecasting algorithms and robust visualization tailored for municipal judges."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1275874285"
-      ],
-      "pitch": "AI-powered personalized nutrition and dietary restriction management assistant that generates local meal plans and tracks micro-nutrients using computer vision for food logging.",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "React",
-        "TailwindCSS"
-      ],
-      "title": "NutriPlan-AI",
-      "track": "Healthcare & Wellness",
-      "why_it_could_win": "Combines practical consumer utility in the Healthcare & Wellness domain with rapid-to-implement vision APIs, following previous rapid-hackathon winning formats."
+      "title": "SupplyGuard AI",
+      "track": "AI/ML",
+      "why_it_could_win": "Leverages advanced gradient boosting models to solve a real-world enterprise problem, matching winning patterns from industry-focused hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

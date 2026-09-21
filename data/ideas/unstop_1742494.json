@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:28:59.513522+00:00",
+  "generated_at": "2026-09-21T08:19:49.988643+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1742494",
@@ -16,83 +18,88 @@
       "inspired_by": [
         "github:1155558847"
       ],
-      "pitch": "An AI-powered satellite monitoring tool for agricultural land and environmental compliance, tracking soil health degradation and illegal deforestation using multi-spectral imagery.",
+      "pitch": "AI-powered satellite monitoring tool to track agricultural land use, crop health anomalies, and regulatory compliance for regional farming cooperatives.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "Leaflet.js",
-        "Sentinel API"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "AgriSustain-Satellite-Compliance",
+      "title": "AgriSense Satellite Land Compliance",
       "track": "Agriculture & Sustainability",
-      "why_it_could_win": "Matches the Agriculture & Sustainability domain and leverages the technically hard engineering pattern seen in GeoNex-ATLAS."
+      "why_it_could_win": "Leverages heavy visual data interpretation similar to proven satellite monitoring architectures, standing out in the Agriculture & Sustainability domain."
     },
     {
       "build_hours": 18,
       "inspired_by": [
         "github:1275874285"
       ],
-      "pitch": "An AI-driven nutrition and wellness platform built specifically for regional dietary needs that delivers personalized meal recommendations and nutritional insights instantly.",
+      "pitch": "Personalized nutrition and wellness platform designed for regional dietary habits, offering automated meal planning and local health guidance.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
         "FastAPI",
-        "React",
-        "Gemini API"
+        "Streamlit",
+        "OpenAI API"
       ],
-      "title": "NutriHealth-AI-Personalizer",
+      "title": "NutriRoute AI Health Assistant",
       "track": "Healthcare & Wellness",
-      "why_it_could_win": "Fits the Healthcare & Wellness domain directly and replicates the winning formula of the E-Foodiee 24-hour hackathon project."
+      "why_it_could_win": "Follows the exact blueprint of a proven 24-hour hackathon winner by focusing on fast AI-driven nutrition delivery and clean UI."
     },
     {
       "build_hours": 22,
       "inspired_by": [
         "github:1213911408"
       ],
-      "pitch": "An AI-powered multi-agent student support and learning assistant platform combining LangGraph, RAG, and personalized academic guidance for institutional course management.",
+      "pitch": "AI-powered multi-agent student support platform utilizing RAG to assist learners with curriculum navigation and doubt resolution.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "Next.js",
         "LangGraph",
-        "Python"
+        "Node.js",
+        "PostgreSQL"
       ],
-      "title": "EduAgent-Multi-Support",
+      "title": "EduFlow Multi-Agent Student Support",
       "track": "EdTech",
-      "why_it_could_win": "Aligns with the EdTech domain and utilizes the proven multi-agent RAG architecture that won the GreenNovation Hackathon."
+      "why_it_could_win": "Reuses winning multi-agent architectural patterns to directly target the EdTech track with robust backend tooling."
     },
     {
-      "build_hours": 22,
+      "build_hours": 24,
       "inspired_by": [
         "github:1181344931"
       ],
-      "pitch": "A supply chain risk detection and investigation platform combining graph intelligence and explainable machine learning to trace agricultural subsidies and detect fraudulent fund routing.",
+      "pitch": "Graph intelligence and risk detection platform tailored for regional supply chain financing and cross-border vendor onboarding.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Python",
-        "NetworkX",
+        "Neo4j",
         "LightGBM"
       ],
-      "title": "AgriTrace-Graph-AML",
-      "track": "Agriculture & Sustainability",
-      "why_it_could_win": "Combines the Agriculture & Sustainability domain with hard engineering graph intelligence techniques proven in the Bito AML platform."
+      "title": "SupplyGraph AML Risk Screener",
+      "track": "AI/ML",
+      "why_it_could_win": "Brings rigorous risk assessment methodologies seen in top financial hackathon winners into an enterprise-adjacent workflow."
     },
     {
       "build_hours": 16,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient acquisition and trust engine designed for specialized healthcare clinics to automate consultations, intake forms, and treatment visualization.",
+      "pitch": "AI-driven trust and patient intake automation engine customized for local wellness clinics and specialty healthcare centers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
         "Gemini API",
         "TailwindCSS"
       ],
-      "title": "PatientTrust-Prosthodontic-Engine",
+      "title": "ClinTrust Patient Acquisition Engine",
       "track": "Healthcare & Wellness",
-      "why_it_could_win": "Targets the Healthcare & Wellness domain using a proven rapid-sprint implementation strategy from the Global-Smile win."
+      "why_it_could_win": "Targets high-value business outcomes for healthcare providers, impressing judges looking for practical commercial viability."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-20T07:54:14.377361+00:00",
+  "generated_at": "2026-09-21T08:37:12.942707+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
+      "working-demo",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1758217",
@@ -14,84 +17,88 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1155558847"
+        "github:855192292"
       ],
-      "pitch": "AI-powered satellite monitoring platform to automatically detect and flag industrial environmental compliance violations for local regulatory bodies.",
+      "pitch": "An interactive educational visual novel that teaches local water conservation techniques and challenges players to manage a virtual community's water reserves during a drought.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
+        "Ren'Py",
         "Python",
-        "Next.js",
-        "OpenCV"
+        "Audacity",
+        "Photoshop"
       ],
-      "title": "EcoCompliant-AI",
+      "title": "Smart India Water Guardian",
       "track": "",
-      "why_it_could_win": "Follows the exact winning pattern of GeoNex-ATLAS by blending practical civic utility with satellite computer vision, which appeals directly to pragmatic problem-solving hackathons."
+      "why_it_could_win": "Leverages the proven winning formula of combining gamified storytelling with real-world civic education, appealing directly to judges looking for practical societal impact."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1181344931"
+        "github:1353074073"
       ],
-      "pitch": "Graph-intelligence and risk-investigation platform designed to trace supply chain fund flows and flag illicit agricultural subsidies.",
+      "pitch": "A multi-agent auditing tool that reviews automated insurance or welfare payout decisions to detect and flag algorithmic bias or unfair denials before execution.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX"
+        "Google ADK",
+        "Gemini API"
       ],
-      "title": "AgriGuard-AML",
+      "title": "ClaimAudit AI",
       "track": "",
-      "why_it_could_win": "Applies hardcore graph intelligence and anomaly detection techniques similar to Bito, giving technical judges a complex, working engineering artifact."
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration to tackle algorithmic fairness, aligning with high-level technical judging criteria seen in top-tier competitions."
     },
     {
-      "build_hours": 24,
+      "build_hours": 42,
       "inspired_by": [
-        "github:1241231621"
+        "github:1228867095"
       ],
-      "pitch": "AI-driven patient trust engine that ingests clinical case histories to automatically generate empathetic, verified treatment previews for specialized dental clinics.",
+      "pitch": "A voice-first desktop companion running locally via lightweight models that intercepts and warns elderly users in real time when answering suspicious phone or computer scam prompts.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js"
+        "Swift",
+        "Cloudflare Workers",
+        "Z.AI GLM-4.6"
       ],
-      "title": "MediTrust-Acquisition",
+      "title": "SeniorShield Voice Agent",
       "track": "",
-      "why_it_could_win": "Modeled precisely on Global-Smile's winning formula of combining niche healthcare workflows with rapid LLM integration for high conversion impact."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1213911408"
-      ],
-      "pitch": "Multi-agent student advisory platform leveraging RAG and LangGraph to dynamically route administrative and academic queries across university departments.",
-      "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Python",
-        "Vector DB"
-      ],
-      "title": "EcoCampus-Support",
-      "track": "",
-      "why_it_could_win": "Mirrors the architecture of GreenNovation's 1st place multi-agent platform, addressing tangible institutional efficiency which academic-adjacent hackathon judges favor."
+      "why_it_could_win": "Focuses on a deeply practical real-world safety problem with an immediate, working live voice demo that captivates judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
         "github:1087704265"
       ],
-      "pitch": "Poisson regression and probabilistic incident forecasting dashboard that predicts regional infrastructure supply bottlenecks based on historical weather and traffic data.",
+      "pitch": "A predictive data dashboard utilizing Poisson regression and statistical modeling to forecast regional infrastructure or public service incidents using historical government open datasets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "India Incident Forecaster",
+      "track": "",
+      "why_it_could_win": "Combines rigorous statistical modeling with clear data visualization, scoring high on technical depth and genuine problem-solving utility."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "A short-form video language-learning platform where regional Indian language learners exchange authentic conversational snippets with native speakers.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "Streamlit"
+        "TypeScript",
+        "React Native",
+        "FastAPI"
       ],
-      "title": "RiskCast-AI",
+      "title": "BhashaExchange",
       "track": "",
-      "why_it_could_win": "Directly implements the statistically rigorous forecasting mechanics seen in Apart Research's AI-incident winner, showcasing real math rather than just wrapper UI."
+      "why_it_could_win": "Appeals to localized cultural needs across India with a highly polished social application user experience that is easy to demonstrate live."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

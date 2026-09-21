@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:57:27.740664+00:00",
+  "generated_at": "2026-09-21T08:26:19.001276+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1748546",
@@ -14,77 +16,79 @@
     {
       "build_hours": 20,
       "inspired_by": [],
-      "pitch": "A radical redesign of timeline-based video editing interfaces that replaces tracks and keyframes with spatial, node-based branching memory to eliminate version control chaos.",
+      "pitch": "Reimagining asynchronous design collaboration by transforming messy Figma comment threads into an interactive, timeline-based storyboard where feedback directly maps to specific design version states.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Figma",
-        "React",
-        "TailwindCSS",
-        "TypeScript"
-      ],
-      "title": "ChronoCanvas: Non-Linear Temporal Navigation for Creative Software",
-      "track": "",
-      "why_it_could_win": "Targeting a 24-hour designathon focused on questioning conventional UX paradigms, this tackles the deeply ingrained friction of traditional linear editing timelines with a radically new interaction model."
-    },
-    {
-      "build_hours": 18,
-      "inspired_by": [],
-      "pitch": "An interface design utility that dynamically shifts font weight, kerning, and visual hierarchy in real-time based on the user's peripheral gaze distance and ambient lighting.",
-      "stack": [
-        "Figma Plugin API",
         "TypeScript",
-        "Canvas API"
+        "Next.js",
+        "TailwindCSS",
+        "Figma REST API"
       ],
-      "title": "AuraType: Context-Aware Spatial Typography and Dynamic Hierarchy Engine",
-      "track": "",
-      "why_it_could_win": "Directly aligns with the focus areas of UI/UX design and interaction design by pushing visual typography beyond static constraints into responsive digital environments."
+      "title": "ChronoCanvas: The Async Figma Comment Redesign",
+      "track": "UI/UX Design",
+      "why_it_could_win": "Targeting the core UI/UX design focus of Redefine with an innovative interaction model for a familiar tool (Figma), directly appealing to design-heavy judges."
     },
     {
       "build_hours": 22,
       "inspired_by": [],
-      "pitch": "A complete reimagining of mobile and desktop operating systems that eliminates nested menus and icons entirely, replacing them with intent-driven haptic and gesture gestures.",
+      "pitch": "An accessibility-first browser extension that redesigns standard web pages into spatial, audio-first narrative layouts instead of linear text-to-speech scraping.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Framer",
-        "React",
-        "Framer Motion"
-      ],
-      "title": "Synapse: Zero-Menu Operating System Concept for Spatial Computing",
-      "track": "",
-      "why_it_could_win": "Design judges at a 24-hour sprint look for foundational challenges to digital products; proposing an entirely new interaction model makes for a compelling visual presentation and pitch."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "A conversational and spatial form interface that dynamically morphs and builds input fields based on previous answers, reducing cognitive overload in government and medical documentation.",
-      "stack": [
-        "Next.js",
-        "TailwindCSS",
-        "Lucide Icons",
-        "Figma"
-      ],
-      "title": "EchoForm: Generative Form-Filling UX for Complex Bureaucratic Workflows",
-      "track": "",
-      "why_it_could_win": "Combines creative problem solving with practical digital product design, demonstrating high utility and empathetic UI/UX that appeals directly to evaluation panels."
-    },
-    {
-      "build_hours": 21,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "A tool that audits and visualizes app navigation paths as an interactive force-directed graph to instantly highlight dead-ends, friction points, and redundant user journeys.",
-      "stack": [
-        "TypeScript",
-        "D3.js",
-        "React",
+        "JavaScript",
+        "Web Audio API",
+        "Chrome Extensions Manifest V3",
         "TailwindCSS"
       ],
-      "title": "NudgeGraph: Intent-Based Information Architecture Visualizer",
-      "track": "",
-      "why_it_could_win": "Provides a meta-design solution that empowers other designers, showcasing a high degree of creative problem-solving and visual design polish within a tight 24-hour window."
+      "title": "AudioLens: Spatial Screen Reader for the Visually Impaired",
+      "track": "Creative Problem Solving",
+      "why_it_could_win": "Combines creative problem solving with an impactful human-centered design approach, which heavily sways judging panels looking for meaningful real-world utility."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A design system and interactive prototype that replaces infinite scroll mechanics in social apps with deliberate, episodic consumption checkpoints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Framer Motion",
+        "TailwindCSS"
+      ],
+      "title": "ScrollZero: Mindful Mobile App Redesign System",
+      "track": "Digital Product Design",
+      "why_it_could_win": "Directly challenges familiar digital product mechanics from the ground up, aligning with Redefine's specific challenge to question how digital products work."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A dynamic typography tool for digital interfaces that automatically adjusts font weights, optical sizes, and tracking based on ambient lighting and reading distance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Canvas API",
+        "Variable Fonts",
+        "TailwindCSS"
+      ],
+      "title": "TypeOS: Context-Aware Visual Micro-Typography Engine",
+      "track": "Visual Design",
+      "why_it_could_win": "Showcases meticulous attention to visual design details and typography, which stands out in a 24-hour designathon crowded with standard UI mockups."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An experimental note-taking and idea-mapping interface built around multi-touch spatial gestures rather than cumbersome toolbar clicks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Pointer Events API",
+        "SVG",
+        "Next.js"
+      ],
+      "title": "NodeFlow: Gesture-Driven Canvas for Non-Linear Thinking",
+      "track": "Interaction Design",
+      "why_it_could_win": "Presents an entirely new interaction model for productivity software, directly fulfilling the designathon's prompt to think beyond conventional design."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

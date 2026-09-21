@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:29:09.160114+00:00",
+  "generated_at": "2026-09-21T08:36:40.663569+00:00",
   "grounding": {
     "domains": [
       "security"
@@ -7,8 +7,11 @@
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "polish"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1757802",
@@ -16,85 +19,83 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1004582948"
+        "github:985196561"
       ],
-      "pitch": "A Python-based static and dynamic analysis command-line tool that parses OpenAPI specs and intercepts HTTP traffic to automatically test for BOLA and vertical privilege escalation vulnerabilities.",
+      "pitch": "An AI-powered AST extension that parses API definitions and automatically flags common OWASP Top 10 flaws like broken object-level authorization (BOLA).",
+      "problem_statement": "API Security & Common Vulnerabilities",
       "stack": [
-        "Python",
+        "TypeScript",
         "FastAPI",
-        "mitmproxy",
-        "PyYAML"
+        "Next.js"
       ],
-      "title": "AuthAudit CLI: Automated Broken Object Level Authorization Scanner",
+      "title": "VulnerabilityLens",
       "track": "",
-      "why_it_could_win": "Directly targets the API Security and Authentication vs Authorization challenge focus areas, giving judges a practical tool they can immediately use to find real-world flaws."
+      "why_it_could_win": "Addresses real-world application security directly by providing instant, actionable vulnerability analysis, matching the technical depth seen in winning log analysis dashboards."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
+        "github:1188643990"
       ],
-      "pitch": "A defense-in-depth middleware proxy that sanitizes incoming API prompts using dual-layer heuristics and deterministic regex boundaries before forwarding requests to backend LLMs.",
+      "pitch": "An interactive web app scenario trainer designed to test developer understanding of authentication versus authorization flaws in microservices.",
+      "problem_statement": "Authentication & Authorization",
       "stack": [
         "TypeScript",
-        "Node.js",
-        "Express",
-        "Vercel AI SDK"
+        "Next.js",
+        "TailwindCSS"
       ],
-      "title": "PromptShield: Layered Prompt-Injection Hardener for LLM APIs",
+      "title": "AuthGuard Simulator",
       "track": "",
-      "why_it_could_win": "Leverages the proven defense-in-depth architecture pattern that won past agent challenges, addressing modern API security risks inherent to AI integration."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1004582948"
-      ],
-      "pitch": "A Python tool that ingests raw Burp Suite or OWASP ZAP XML scan files and automatically generates executive-ready markdown reports with severity scores and remediation code snippets.",
-      "stack": [
-        "Python",
-        "Jinja2",
-        "BeautifulSoup",
-        "ReportLab"
-      ],
-      "title": "VulnLens: Automated Web Vulnerability Report Generator",
-      "track": "",
-      "why_it_could_win": "Mirrors the exact architecture and workflow of the Microsoft Global Intern Hackathon winner by transforming security data into actionable developer insights."
-    },
-    {
-      "build_hours": 32,
-      "inspired_by": [
-        "github:1022783746"
-      ],
-      "pitch": "An interactive web dashboard that inspects JSON Web Tokens, tests for common signature algorithm confusion attacks (RS256 to HS256), and audits expiration claims.",
-      "stack": [
-        "JavaScript",
-        "React.js",
-        "Node.js",
-        "jsonwebtoken"
-      ],
-      "title": "OAuthScope: JWT Configuration & Misuse Analyzer",
-      "track": "",
-      "why_it_could_win": "Focuses intensely on authentication and authorization fundamentals, hitting the core scoring criteria for practical cybersecurity scenario testing."
+      "why_it_could_win": "Directly targets the challenge theme of testing practical security scenarios with an exceptionally polished and educational UX."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1161237076"
+        "github:985196561"
       ],
-      "pitch": "A local-first retrieval-augmented generation assistant loaded with OWASP Top 10 documentation and CWE databases to help junior developers query and remediate secure coding anti-patterns.",
+      "pitch": "An automated anomaly detection tool that parses web server logs to surface subtle exploitation attempts in real time.",
+      "problem_statement": "Web Application Security & Security Analysis",
       "stack": [
         "Python",
-        "ChromaDB",
-        "LangChain",
-        "Streamlit"
+        "FastAPI",
+        "Gemini"
       ],
-      "title": "SecAgent: Local RAG-Powered VAPT Assistant",
+      "title": "LogSleuth AI",
       "track": "",
-      "why_it_could_win": "Combines rigorous educational utility with technical execution, appealing to judges evaluating how well participants understand vulnerability analysis."
+      "why_it_could_win": "Built on proven hackathon-winning architectures that merge log parsing with AI anomaly detection for immediate utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A repository scanning utility that generates codebase security reports and highlights missing input validation checks.",
+      "problem_statement": "Cybersecurity Problem Solving & Security Analysis",
+      "stack": [
+        "Python",
+        "Next.js"
+      ],
+      "title": "SecureScope Repo Analyzer",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact technical approach of 1st-place documentation and code analysis tools by automating security insights."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A lightweight API gateway middleware enforcing strict defense-in-depth validation to prevent prompt injection and authorization bypass.",
+      "problem_statement": "API Security & Common Vulnerabilities",
+      "stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "title": "APIShield Defense Proxy",
+      "track": "",
+      "why_it_could_win": "Employs a defense-in-depth architecture that judges favor for robust security engineering."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

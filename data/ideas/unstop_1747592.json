@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:56:33.834181+00:00",
+  "generated_at": "2026-09-21T08:25:00.154963+00:00",
   "grounding": {
     "domains": [
       "ai-ml",
@@ -10,6 +10,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 0,
+    "status": "limited",
     "thin": false
   },
   "hackathon_uid": "unstop:1747592",
@@ -17,83 +19,91 @@
     {
       "build_hours": 36,
       "inspired_by": [
-        "github:1282252864"
+        "github:1351321536"
       ],
-      "pitch": "A visual BPMN workflow orchestration node for BossConsole that allows multi-agent pipelines to execute complex branching, human-in-the-loop review steps, and pre-deployment risk checks.",
+      "pitch": "A lightweight VS Code extension that streams BossConsole agent execution states, tool calls, and error traces directly into the editor sidebar.",
+      "problem_statement": "No published statement",
       "stack": [
-        "Python",
         "TypeScript",
-        "BPMN",
-        "BossConsole SDK"
+        "VS Code Extension API",
+        "WebSocket",
+        "React"
       ],
-      "title": "BossConsole BPMN Agent Workflow Orchestrator",
+      "title": "BossConsole VS Code Extension for Real-Time Agent Telemetry",
       "track": "",
-      "why_it_could_win": "Leverages the BPMN orchestration pattern from UiPath AgentHack, directly improving BossConsole's core value proposition for multi-agent harness usability."
+      "why_it_could_win": "Targeting the developer-experience upgrade category in BossConsole directly appeals to judges looking for tools that improve daily open-source usability and ecosystem growth."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1334000568"
+        "github:1207207353",
+        "github:1199751414"
       ],
-      "pitch": "A training-free semantic router for BossConsole agent harnesses that uses a local kNN exemplar index to dispatch tasks to specialized sub-agents with high accuracy and lower token overhead.",
+      "pitch": "A Model Context Protocol (MCP) server that exposes MariaDB schema introspection and query execution safely to BossConsole AI agents.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "Semantic Router",
-        "BossConsole"
+        "MariaDB",
+        "FastAPI",
+        "Model Context Protocol"
       ],
-      "title": "BossConsole Semantic Routing Plugin",
+      "title": "BossConsole MCP Bridge for MariaDB",
       "track": "",
-      "why_it_could_win": "Directly ports proven semantic routing architecture that won the Superlinked x Qwen Hackathon to optimize agent latency and LLM cost within BossConsole."
+      "why_it_could_win": "Brings high-demand database tool use to the multi-platform harness, giving agents immediate enterprise data retrieval capabilities."
     },
     {
       "build_hours": 40,
       "inspired_by": [
-        "github:1199751414"
+        "github:1282252864"
       ],
-      "pitch": "A Model Context Protocol gateway plugin for BossConsole that enables secure discovery and federation of multiple external MCP servers running on Kubernetes and local nodes.",
+      "pitch": "A visual drag-and-drop workflow builder that exports standard BPMN 2.0 XML directly executable as multi-agent pipelines inside BossConsole.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
-        "MCP",
-        "Kubernetes",
-        "BossConsole"
+        "bpmn-js",
+        "React",
+        "Python"
       ],
-      "title": "Federated MCP Server Integration for BossConsole",
+      "title": "BPMN Visual Workflow Generator for BossConsole Agents",
       "track": "",
-      "why_it_could_win": "Taps into the multi-agent MCP architectural pattern that succeeded at the Solo.io MCP hackathon, expanding BossConsole's extensibility for enterprise tool use."
+      "why_it_could_win": "Leverages proven architectural patterns from UiPath AgentHack winning projects by integrating enterprise process management with autonomous agents."
     },
     {
       "build_hours": 32,
       "inspired_by": [
-        "github:1163393786"
+        "github:1334000568"
       ],
-      "pitch": "An automated testing harness plugin for BossConsole where two peer agents engage in adversarial gameplay (such as verification challenges) to expose prompt vulnerabilities and edge cases before deployment.",
+      "pitch": "A training-free semantic router middleware that intercepts agent prompts and tool outputs to block unauthorized system actions or hallucinations.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "BossConsole",
-        "Adversarial AI"
+        "Semantic Router",
+        "FastAPI",
+        "OpenAI API"
       ],
-      "title": "Adversarial Agent Self-Testing Suite for BossConsole",
+      "title": "Semantic Guardrails Middleware for BossConsole",
       "track": "",
-      "why_it_could_win": "Applies the self-improving adversarial agent pattern from the Datadog Agents Hack to solve real reliability problems for developers building on BossConsole."
+      "why_it_could_win": "Demonstrates genuinely hard engineering in agent governance and security, which consistently impresses technical open-source maintainer judges."
     },
     {
       "build_hours": 35,
       "inspired_by": [
         "github:1296916648"
       ],
-      "pitch": "A local AI code review agent integrated into BossConsole that runs entirely on hardware NPUs to inspect pull requests for security vulnerabilities without sending code to external APIs.",
+      "pitch": "An edge-running code reviewer integration for BossConsole utilizing local models and NPUs to audit pull requests completely offline.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "ONNX",
-        "BossConsole",
-        "Local LLMs"
+        "Ollama",
+        "BossConsole SDK",
+        "LlamaIndex"
       ],
-      "title": "Offline NPU-Accelerated Code Reviewer for BossConsole",
+      "title": "Offline Local Code Reviewer Plugin for BossConsole",
       "track": "",
-      "why_it_could_win": "Adapts the offline Snapdragon NPU code reviewer runner-up architecture to address developer privacy and speed requirements inside the BossConsole ecosystem."
+      "why_it_could_win": "Addresses privacy-conscious enterprise users by adding local execution capabilities to the multi-platform agent harness."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

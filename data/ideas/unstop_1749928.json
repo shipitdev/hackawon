@@ -1,98 +1,107 @@
 {
-  "generated_at": "2026-09-15T07:57:51.040519+00:00",
+  "generated_at": "2026-09-21T08:28:11.577626+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "working-demo",
+      "technical-depth"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1749928",
   "ideas": [
     {
-      "build_hours": 24,
+      "build_hours": 30,
       "inspired_by": [
-        "github:1155558847"
+        "github:1182199849"
       ],
-      "pitch": "Satellite-based industrial land compliance and zoning monitoring platform utilizing automated change detection to flag unauthorized environmental degradation.",
-      "stack": [
-        "TypeScript",
-        "Python",
-        "Next.js",
-        "PostGIS"
-      ],
-      "title": "EcoWatch-AI",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning pattern of combining spatial data analysis with regulatory compliance monitoring, matching successful entries like GeoNex-ATLAS."
-    },
-    {
-      "build_hours": 22,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "Poisson regression and multi-variable statistical modeling platform to forecast agricultural supply chain disruptions and yield anomalies for local cooperatives.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "Scikit-Learn",
-        "FastAPI"
-      ],
-      "title": "AgriYield-Forecaster",
-      "track": "",
-      "why_it_could_win": "Brings rigorous, mathematically grounded predictive modeling to traditional sectors, a proven judge-pleaser seen in ai-incident-forecasting."
-    },
-    {
-      "build_hours": 20,
-      "inspired_by": [
-        "github:1241231621"
-      ],
-      "pitch": "AI-powered patient onboarding and trust verification engine built specifically for local dental and specialized clinics to manage inbound lead acquisition.",
+      "pitch": "AI-powered medical triage and symptom checker designed specifically for college health centers.",
+      "problem_statement": "No published statement",
       "stack": [
         "TypeScript",
         "Next.js",
-        "Gemini API",
+        "Python",
+        "FastAPI",
+        "OpenAI API"
+      ],
+      "title": "CampusCare AI",
+      "track": "",
+      "why_it_could_win": "Follows the Clinical-Simulator pattern by targeting a highly relatable institutional vertical with measurable scoring rubrics that impress academic judges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "GPS-enabled civic reporting tool that automatically bundles community pothole and infrastructure complaints into verified municipal repair tickets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
         "TailwindCSS"
       ],
-      "title": "MediTrust-Engine",
+      "title": "CivicRoute",
       "track": "",
-      "why_it_could_win": "Directly targets local business utility with an automated pipeline, echoing the rapid-turnaround architecture of Global-Smile."
+      "why_it_could_win": "Mirrors the catwalk win by combining real-world local impact with a live map dashboard that judges can interact with instantly during the offline finale."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "App that coordinates local undergraduate student volunteers to drive and accompany nearby seniors on essential social outings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "ElderLink",
+      "track": "",
+      "why_it_could_win": "Directly inspired by the Vanderbilt Global Good Hackathon grand prize winner, focusing on social good and community building which strongly resonates with undergraduate engineering panels."
     },
     {
       "build_hours": 24,
       "inspired_by": [
-        "github:1213911408"
+        "github:1208831994"
       ],
-      "pitch": "Multi-agent student support network utilizing LangGraph and local RAG to route administrative queries and mental health resources autonomously.",
+      "pitch": "Sixty-second voice biomarker screening tool optimized for early detection of neurological fatigue or cognitive decline.",
+      "problem_statement": "No published statement",
       "stack": [
-        "TypeScript",
-        "LangGraph",
         "Python",
-        "VectorDB"
+        "Streamlit",
+        "Librosa",
+        "FastAPI"
       ],
-      "title": "CampusCare-Agent",
+      "title": "VoiceCheck",
       "track": "",
-      "why_it_could_win": "Applies proven multi-agent orchestration frameworks to a relatable collegiate use case, matching the winning architecture of greennovation-ai-platform."
+      "why_it_could_win": "Employs the exact winning formula of the Antrophic Hackathon winner by showcasing a fast, impressive AI audio diagnostic demo within a 24-hour build window."
     },
     {
-      "build_hours": 18,
+      "build_hours": 32,
       "inspired_by": [
-        "github:1275874285"
+        "github:933310408"
       ],
-      "pitch": "Personalized nutrition and wellness platform that generates hyper-local meal plans based on student mess menus and dietary restrictions.",
+      "pitch": "Autonomous multi-agent system that ingests emergency messages, cross-references local resource availability, and drafts optimized dispatch plans.",
+      "problem_statement": "No published statement",
       "stack": [
         "Python",
-        "React",
-        "Flask",
-        "SQLite"
+        "LangChain",
+        "FastAPI",
+        "React"
       ],
-      "title": "NutriTrack-Campus",
+      "title": "CrisisDispatch Agent",
       "track": "",
-      "why_it_could_win": "Focuses on immediate consumer utility with a polished user experience, replicating the formula of E-Foodiee-AI-Nutrition-Assistant."
+      "why_it_could_win": "Leverages the agentic disaster response pattern seen in the AI Agents Hackathon win, demonstrating hard engineering with autonomous loops that stand out against standard CRUD apps."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

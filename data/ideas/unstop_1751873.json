@@ -1,12 +1,16 @@
 {
-  "generated_at": "2026-09-13T08:00:05.340901+00:00",
+  "generated_at": "2026-09-21T08:30:41.022733+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "impact",
+      "sponsor-tech",
+      "working-demo"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1751873",
@@ -14,87 +18,88 @@
     {
       "build_hours": 26,
       "inspired_by": [
-        "github:1213911408",
-        "github:1181344931"
+        "github:1213911408"
       ],
-      "pitch": "A multi-agent autonomous workflow that scans local business operations, invoices, and regulatory updates to automatically generate compliance filings and flag financial risks.",
+      "pitch": "A multi-agent workflow system that coordinates calendar scheduling, email triage, and automated document generation across multiple small-business tools.",
+      "problem_statement": "Everyday Automation: Create practical products that automate repetitive everyday tasks, personal workflows, or small-business operations.",
       "stack": [
-        "TypeScript",
-        "LangGraph",
-        "Next.js",
-        "Python"
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "React"
       ],
-      "title": "Agentic Compliance Sentinel for MSMEs",
-      "track": "Agentic AI",
-      "why_it_could_win": "Directly targets the Agentic AI track by building a multi-agent system that reasons over tools and documents rather than just responding to chat inputs, which appeals to judges looking for autonomous capability."
+      "title": "AgentSync Multi-Agent Personal Executive Assistant",
+      "track": "Everyday Automation",
+      "why_it_could_win": "Directly targets the Everyday Automation track by showcasing a functional multi-agent loop with a clear central workflow completed within 30 hours, appealing heavily to judges looking for practical utility."
     },
     {
       "build_hours": 28,
       "inspired_by": [
-        "github:1155558847"
+        "github:1170846981"
       ],
-      "pitch": "An AI-powered satellite monitoring tool that automatically analyzes temporal raster data and industrial boundaries to detect unauthorized land usage and environmental zoning violations.",
+      "pitch": "A multilingual voice and text AI agent for rural health workers to instantly log patient symptoms, check vaccination schedules, and flag outbreak risks.",
+      "problem_statement": "Agentic AI: Build AI agents, intelligent assistants, autonomous systems, or multi-agent workflows that can reason, use tools, and complete meaningful tasks.",
       "stack": [
         "TypeScript",
-        "Python",
-        "PostGIS",
-        "TensorFlow"
+        "OpenAI API",
+        "Whisper API",
+        "Node.js"
       ],
-      "title": "AgroStream Satellite Land Audit",
-      "track": "Open Innovation",
-      "why_it_could_win": "Employs heavy technical execution combining geospatial APIs with computer vision models, mirroring winning projects that solved difficult engineering and monitoring tasks."
-    },
-    {
-      "build_hours": 24,
-      "inspired_by": [
-        "github:1185920891"
-      ],
-      "pitch": "An autonomous agent marketplace where micro-agents execute data scraping, invoice parsing, and summarization tasks, settling payouts instantly via crypto escrow.",
-      "stack": [
-        "JavaScript",
-        "Base",
-        "USDC",
-        "OpenAI API"
-      ],
-      "title": "AutoDispatch Micro-Tasker",
-      "track": "Everyday Automation",
-      "why_it_could_win": "Leverages the Everyday Automation track by productizing utility tasks into autonomous agents that complete real operational workflows without human bottlenecks."
-    },
-    {
-      "build_hours": 25,
-      "inspired_by": [
-        "github:1087704265"
-      ],
-      "pitch": "A probabilistic forecasting tool using Poisson regression models to predict localized supply chain bottlenecks, providing logistic managers with calibrated prediction intervals.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "Pandas"
-      ],
-      "title": "Supply Chain Incident Forecaster",
-      "track": "Open Innovation",
-      "why_it_could_win": "Demonstrates rigorous quantitative modeling and statistical validation, an engineering-heavy approach proven to win competitive data-focused tracks."
+      "title": "MediDispatch Rural Triage AI Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages the Agentic AI track with a compelling social impact angle, combining speech-to-text integration with an autonomous reasoning engine for triage."
     },
     {
       "build_hours": 22,
-      "inspired_by": [
-        "github:1241231621",
-        "github:1275874285"
+      "inspired_by": [],
+      "pitch": "An intelligent document processing pipeline that extracts invoice data, cross-references local tax compliance rules, and flags anomalies for small business owners.",
+      "problem_statement": "Everyday Automation: Create practical products that automate repetitive everyday tasks, personal workflows, or small-business operations, such as scheduling, communication, data entry, reminders, document processing, and productivity management.",
+      "stack": [
+        "Python",
+        "Tesseract OCR",
+        "Streamlit",
+        "Pandas"
       ],
-      "pitch": "An agentic system designed for specialized healthcare clinics that handles patient acquisition, trust-building conversational intake, and automated record triage securely.",
+      "title": "LedgerLens Automated Invoice and Compliance Auditor",
+      "track": "Everyday Automation",
+      "why_it_could_win": "Solves an immediate, tedious workflow problem for small businesses, making the demo extremely relatable and practical for judges evaluating productivity tools."
+    },
+    {
+      "build_hours": 27,
+      "inspired_by": [
+        "github:1143576965"
+      ],
+      "pitch": "An open-innovation mapping dashboard that ingests crowd-sourced reports during local utility outages and dynamically assigns relief resources using clustering algorithms.",
+      "problem_statement": "Open Innovation: Develop an original technology-based solution that addresses a significant real-world problem in any industry or community.",
+      "stack": [
+        "JavaScript",
+        "Leaflet.js",
+        "Express",
+        "MongoDB"
+      ],
+      "title": "GridWatch Real-Time Disaster Resource Coordinator",
+      "track": "Open Innovation",
+      "why_it_could_win": "Follows the blueprint of successful disaster management hackathon projects by pairing a live interactive map interface with a clear, high-impact emergency response workflow."
+    },
+    {
+      "build_hours": 29,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An open-innovation platform that maps a regional supply chain network on an interactive graph to simulate how disruptions spread and suggest alternative supplier routes.",
+      "problem_statement": "Open Innovation: Develop an original technology-based solution that addresses a significant real-world problem in any industry or community.",
       "stack": [
         "TypeScript",
-        "Gemini API",
+        "Neo4j",
         "Next.js",
         "TailwindCSS"
       ],
-      "title": "Autonomous Clinic Intake & Trust Engine",
-      "track": "Agentic AI",
-      "why_it_could_win": "Solves a high-friction vertical workflow with immediate commercial viability, combining specialized LLM agents with secure patient data management."
+      "title": "SupplyChain Risk Graph Explorer",
+      "track": "Open Innovation",
+      "why_it_could_win": "Applies advanced graph intelligence techniques within an open innovation context, providing a visually striking and technically robust demo in a 30-hour window."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

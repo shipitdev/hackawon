@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:37:51.857827+00:00",
+  "generated_at": "2026-09-21T08:08:35.871401+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
@@ -7,6 +7,8 @@
       "technical-depth",
       "sponsor-tech"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "devfolio:50e23a48e3964f43878279a3bf81339d",
@@ -14,88 +16,92 @@
     {
       "build_hours": 20,
       "inspired_by": [
-        "github:1155558847"
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered satellite monitoring tool tailored for regional agricultural and industrial land compliance in Kerala, tracking land use changes and crop health via geospatial imaging.",
+      "pitch": "An AI-powered local event promoter and voice-guided registration kiosk built using ElevenLabs voice technology to bridge rural accessibility gaps for community festivals like XTHRON.",
+      "problem_statement": "Open Innovation: Build anything that solves a real problem, including accessibility and local community productivity.",
       "stack": [
-        "TypeScript",
         "Next.js",
-        "Python",
-        "GDAL",
-        "OpenAI API"
+        "ElevenLabs API",
+        "TailwindCSS",
+        "Node.js"
       ],
-      "title": "LocalAgri-Compliance: AI Satellite Monitoring for Regional Farmlands",
-      "track": "OPEN INNOVATION",
-      "why_it_could_win": "Leverages heavy technical execution similar to winning spatial monitoring projects, appealing directly to judges looking for localized, high-impact utility."
+      "title": "VoiceVite",
+      "track": "AI / ML",
+      "why_it_could_win": "Directly leverages ElevenLabs sponsor technology to provide multi-lingual, voice-interactive accessibility for local event management, catching the eye of sponsor judges."
     },
     {
       "build_hours": 18,
       "inspired_by": [
-        "github:1213911408"
+        "github:1200926140"
       ],
-      "pitch": "A localized multi-agent student support platform for campus resource allocation and academic queries, combining LangGraph, RAG, and hyper-personalized student assistance agents.",
+      "pitch": "A voice-first agricultural advisory system using ElevenLabs to translate complex market prices and crop disease advisories into local dialects for farmers.",
+      "problem_statement": "Open Innovation: Agriculture, accessibility, and local productivity challenges.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LangGraph",
-        "Next.js",
-        "PostgreSQL"
+        "FastAPI",
+        "ElevenLabs SDK",
+        "React"
       ],
-      "title": "CampusCare-AI: Multimodal Student Support and RAG Platform",
-      "track": "OPEN INNOVATION",
-      "why_it_could_win": "Directly mimics successful multi-agent education platforms that win hackathons through robust LLM orchestration and immediate campus applicability."
+      "title": "AgriVoice Assist",
+      "track": "AI / ML",
+      "why_it_could_win": "Combines a high-impact local use case with ElevenLabs audio integration, creating an immediate emotional and practical hook for judges looking for real-world utility."
     },
     {
-      "build_hours": 16,
+      "build_hours": 22,
       "inspired_by": [
-        "github:1275874285"
+        "github:1200926140",
+        "github:1241231621"
       ],
-      "pitch": "An AI-powered nutrition and wellness platform optimized for local South Indian diets, delivering personalized meal recommendations and micro-nutrient tracking.",
+      "pitch": "An automated educational video-to-audio study guide generator that converts dense lecture slides into engaging podcast summaries using custom AI voice synthesis.",
+      "problem_statement": "Open Innovation: Education and productivity domain.",
       "stack": [
-        "Python",
-        "Streamlit",
-        "FastAPI",
-        "Gemini API"
+        "TypeScript",
+        "Next.js",
+        "ElevenLabs API",
+        "OpenAI API"
       ],
-      "title": "NutriLocal: AI Regional Wellness & Meal Planner",
+      "title": "EduNarrate",
       "track": "OPEN INNOVATION",
-      "why_it_could_win": "Mirrors the exact formula of the Hour Hackathon winner by targeting daily consumer health with a localized, culturally relevant dataset."
+      "why_it_could_win": "Solves an everyday student pain point at Amal College while showcasing the ElevenLabs API in a polished, production-ready interface."
     },
     {
       "build_hours": 20,
       "inspired_by": [
         "github:1241231621"
       ],
-      "pitch": "An AI-powered patient onboarding and trust engine tailored for local dental and specialty clinics to manage intake forms, automated follow-ups, and patient sentiment.",
+      "pitch": "An automated patient follow-up and symptom-check voice agent tailored for regional healthcare clinics, ensuring post-discharge compliance via natural telephone-style interactions.",
+      "problem_statement": "Open Innovation: Healthcare and accessibility domain.",
       "stack": [
-        "TypeScript",
-        "Next.js",
-        "Tailwind CSS",
-        "Gemini API"
+        "Python",
+        "Flask",
+        "ElevenLabs Conversational AI",
+        "SQLite"
       ],
-      "title": "TrustPatient-Clinics: AI Patient Acquisition Engine for Regional Healthcare",
-      "track": "OPEN INNOVATION",
-      "why_it_could_win": "Applies a proven high-converting B2B SaaS template that secures wins by solving immediate revenue and administration bottlenecks for local small businesses."
+      "title": "CareCall AI",
+      "track": "AI / ML",
+      "why_it_could_win": "Demonstrates advanced use of conversational AI and audio synthesis, targeting high-value healthcare problem spaces valued by hackathon judges."
     },
     {
-      "build_hours": 22,
+      "build_hours": 24,
       "inspired_by": [
-        "github:1181344931"
+        "github:1329458499",
+        "github:1213911408"
       ],
-      "pitch": "A lightweight graph-intelligence platform designed to detect anomalous transaction patterns and financial risk using explainable boosting models.",
+      "pitch": "An autonomous AI agent pipeline that ingests messy institutional data logs, identifies compliance or resource discrepancies, and drafts verified incident report PRs.",
+      "problem_statement": "Open Innovation: Cybersecurity, productivity, and organizational data processing.",
       "stack": [
-        "TypeScript",
         "Python",
-        "LightGBM",
-        "NetworkX",
-        "FastAPI"
+        "LangChain",
+        "FastAPI",
+        "PostgreSQL"
       ],
-      "title": "RiskAudit-AML: Graph-Powered Regional Financial Compliance",
+      "title": "CampusAudit",
       "track": "OPEN INNOVATION",
-      "why_it_could_win": "Demonstrates advanced data science depth and graph algorithms, standing out in an open innovation track filled with basic CRUD apps."
+      "why_it_could_win": "Brings rigorous backend engineering and agentic workflows to the Open Innovation track, mirroring grand-prize winning patterns from complex agent hackathons."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

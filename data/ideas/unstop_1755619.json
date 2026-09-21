@@ -1,98 +1,108 @@
 {
-  "generated_at": "2026-09-17T07:56:10.173869+00:00",
+  "generated_at": "2026-09-21T08:34:21.767006+00:00",
   "grounding": {
     "domains": [
-      "security"
+      "security",
+      "ai-ml"
     ],
     "exemplar_count": 8,
     "patterns": [
       "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "unusual-hardware",
+      "unique-data"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755619",
   "ideas": [
     {
-      "build_hours": 32,
+      "build_hours": 36,
       "inspired_by": [
-        "github:1208011447",
-        "github:1004582948"
+        "github:1208011447"
       ],
-      "pitch": "A localized, lightweight LLM orchestrator running fully offline that acts as an assistant for reverse engineering and binary analysis without relying on expensive cloud APIs, aligning with H7CTF's anti-pay-to-win ethos.",
+      "pitch": "A custom Jeopardy-style CTF challenge hosting engine featuring dynamic state-based input obfuscation designed specifically to defeat blind AI API solver loops.",
+      "problem_statement": "H7CTF 2026 aims to combat the dominance of large AI budgets in security competitions by designing original scoring formats and challenges that reward sharp human minds over brute-force API script execution.",
       "stack": [
         "Python",
         "FastAPI",
-        "Ollama",
-        "Ghidra API"
+        "Docker",
+        "JavaScript"
       ],
-      "title": "Anti-Budget CTF Triage Copilot",
-      "track": "AI",
-      "why_it_could_win": "Directly targets H7CTF 2026's core thesis: leveling the playing field against massive AI budgets by providing local, deterministic security reasoning assistance."
-    },
-    {
-      "build_hours": 36,
-      "inspired_by": [
-        "github:1188682384"
-      ],
-      "pitch": "A zero-knowledge flag verification circuit that allows players to prove they computed the correct flag hash or solved a binary challenge without leaking their exploit methodology or payload to other competitors during live rankings.",
-      "stack": [
-        "TypeScript",
-        "Noir-lang",
-        "Rust"
-      ],
-      "title": "ZK-Proof Auth for Capture The Flag Submissions",
-      "track": "Cryptography",
-      "why_it_could_win": "Brings advanced cryptography and zero-knowledge principles into a competitive CTF landscape, matching the hard engineering pattern seen in top hackathon wins."
-    },
-    {
-      "build_hours": 28,
-      "inspired_by": [
-        "github:1004582948",
-        "github:1161237076"
-      ],
-      "pitch": "An automated memory dump and disk image forensics tool that correlates file system metadata with volatile RAM artifacts to generate rapid incident response investigation timelines.",
-      "stack": [
-        "Python",
-        "Volatility3",
-        "React"
-      ],
-      "title": "DFIR Timeline & Memory Artifact Reconstructor",
-      "track": "DFIR",
-      "why_it_could_win": "Addresses the high-intensity Digital Forensics and Incident Response (DFIR) category with hard engineering focused on automated parsing and timeline generation."
-    },
-    {
-      "build_hours": 40,
-      "inspired_by": [
-        "github:1274691349"
-      ],
-      "pitch": "An educational hardware security dashboard that simulates stack-overflows and return-oriented programming (ROP) execution paths on a custom soft-core processor architecture.",
-      "stack": [
-        "Verilog",
-        "Python",
-        "TypeScript"
-      ],
-      "title": "RISC-V Pwnbox Visualizer",
-      "track": "Pwn",
-      "why_it_could_win": "Brings together hardware design concepts and Pwn exploitation challenges, satisfying the desire for genuinely hard, low-level systems engineering."
+      "title": "Anti-Budget CTF Challenge Platform",
+      "track": "AI and Misc",
+      "why_it_could_win": "Directly aligns with the core philosophy of H7Tex's competition goals by providing a novel defensive structure against automated LLM CTF solvers, which will intrigue competition judges."
     },
     {
       "build_hours": 30,
       "inspired_by": [
-        "github:1208011447"
+        "github:1141364034"
       ],
-      "pitch": "A specialized defense-in-depth fuzzing and analysis pipeline targeting Web3 smart contracts to detect reentrancy and access control flaws before deployment.",
+      "pitch": "An isolated microcontroller emulation environment for analyzing custom peripheral protocols without expensive hardware benches.",
+      "problem_statement": "Categories: Reverse Engineering, Pwn, DFIR, OSINT, Web Exploitation, Boot2Root, Web3, Hardware, Cryptography, Cloud, AI and Misc",
+      "stack": [
+        "C",
+        "Python",
+        "QEMU",
+        "AVR"
+      ],
+      "title": "Hardware-Triggered Firmware Sandbox",
+      "track": "Hardware",
+      "why_it_could_win": "Combines unusual physical build thinking with the Hardware and Pwn tracks, standing out among pure software web applications in the onsite finals."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge flag submission verification contract that prevents flag sharing and brute-forcing while maintaining team anonymity.",
+      "problem_statement": "Categories: Reverse Engineering, Pwn, DFIR, OSINT, Web Exploitation, Boot2Root, Web3, Hardware, Cryptography, Cloud, AI and Misc",
       "stack": [
         "TypeScript",
+        "Noir-lang",
         "Solidity",
-        "Foundry"
+        "Base"
       ],
-      "title": "Autonomous Smart Contract Bug Hunting Agent",
+      "title": "ZK-Proof Based Credential Vault for CTF Flags",
       "track": "Web3",
-      "why_it_could_win": "Leverages rigorous automated testing pipelines and security checks, directly appealing to judges evaluating Web3 and vulnerability detection."
+      "why_it_could_win": "Leverages advanced cryptographic primitive patterns similar to winning ZK projects, fitting cleanly into the Web3 and Cryptography categories."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated graph-based analysis tool that maps out multi-hop misconfigurations in AWS/GCP cloud environments for rapid DFIR triage.",
+      "problem_statement": "Categories: Reverse Engineering, Pwn, DFIR, OSINT, Web Exploitation, Boot2Root, Web3, Hardware, Cryptography, Cloud, AI and Misc",
+      "stack": [
+        "Python",
+        "Neo4j",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Cloud IAM Privilege Escalation Visualizer",
+      "track": "Cloud",
+      "why_it_could_win": "Addresses complex enterprise attack paths with graph intelligence, matching the winning methodology of AML risk and threat detection systems."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "A static binary analysis tool that tracks gadget survival across compiler optimizations to assist in fast Pwn challenge development.",
+      "problem_statement": "Categories: Reverse Engineering, Pwn, DFIR, OSINT, Web Exploitation, Boot2Root, Web3, Hardware, Cryptography, Cloud, AI and Misc",
+      "stack": [
+        "Python",
+        "LIEF",
+        "Capstone",
+        "C++"
+      ],
+      "title": "Memory Corruption Exploit Diffing Engine",
+      "track": "Pwn",
+      "why_it_could_win": "Delivers genuinely hard systems engineering that directly targets the Reverse Engineering and Pwn tracks prized during the finals."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }

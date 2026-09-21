@@ -1,12 +1,15 @@
 {
-  "generated_at": "2026-09-15T07:58:18.324134+00:00",
+  "generated_at": "2026-09-21T08:34:17.581312+00:00",
   "grounding": {
     "domains": [],
     "exemplar_count": 8,
     "patterns": [
-      "technical-depth",
-      "sponsor-tech"
+      "sponsor-tech",
+      "working-demo",
+      "judge-pain"
     ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
     "thin": false
   },
   "hackathon_uid": "unstop:1755564",
@@ -14,87 +17,95 @@
     {
       "build_hours": 16,
       "inspired_by": [
-        "github:1087704265"
+        "github:1341712439"
       ],
-      "pitch": "A real-time predictive analytics engine designed to forecast sudden infrastructure failures, LLM hallucinations, and cascading system outages using Poisson GAMs and rolling backtests.",
-      "stack": [
-        "Python",
-        "Jupyter Notebook",
-        "FastAPI",
-        "React"
-      ],
-      "title": "Singularity-Audit: Autonomous AI Incident Forecasting Platform",
-      "track": "",
-      "why_it_could_win": "Directly applies the hard engineering patterns of rigorous probabilistic modeling seen in the Apart Research win, matching the cosmic singularity theme of structural failures."
-    },
-    {
-      "build_hours": 17,
-      "inspired_by": [
-        "github:1181344931"
-      ],
-      "pitch": "An automated anti-money laundering risk investigation platform that combines graph intelligence and Focal LightGBM to trace suspicious wallet transactions and flag high-risk liquidity pools.",
+      "pitch": "An autonomous multi-agent diagnostic platform that detects and patches microservice anomalies in real-time under extreme resource constraints.",
+      "problem_statement": "The Technological Singularity theme focusing on automation, interconnected networks, and handling runaway digital complexity.",
       "stack": [
         "TypeScript",
-        "AWS",
-        "Python",
-        "Next.js"
+        "LangGraph",
+        "Gemini-2-5",
+        "Qdrant",
+        "TimescaleDB"
       ],
-      "title": "GraphGuard: AWS-Powered AML Risk Detection for DeFi",
+      "title": "Singularity-Grid: Autonomous Infrastructure Self-Healing Agent",
       "track": "",
-      "why_it_could_win": "Mirrors the complex architecture and graph analytics of the DIGITIMES AI Innovation Hackathon winner, offering judges a production-ready financial compliance tool."
-    },
-    {
-      "build_hours": 16,
-      "inspired_by": [
-        "github:1183964401",
-        "github:1185920891"
-      ],
-      "pitch": "A no-code platform for building, copying, and executing automated trading strategies on perpetual DEXs with built-in escrow settlement.",
-      "stack": [
-        "JavaScript",
-        "Python",
-        "Solidity",
-        "Next.js"
-      ],
-      "title": "PerpAgent: Autonomous AI Trading Bot Marketplace",
-      "track": "",
-      "why_it_could_win": "Leverages the proven winning formula of combining automated AI agents with decentralized execution marketplaces seen in the Synthesis Hackathon."
+      "why_it_could_win": "Demonstrates a fully working, closed-loop automated ops pipeline which directly hits the theme of autonomous digital tipping points and complex network management."
     },
     {
       "build_hours": 15,
       "inspired_by": [
-        "github:1155558847"
+        "github:1329458499"
       ],
-      "pitch": "An AI-powered satellite imagery analysis platform that automatically detects unauthorized industrial expansion, environmental degradation, and zoning violations.",
+      "pitch": "A localized data lineage and incident response agent that intercepts data corruption events, generates fixes, and validates them before writing back.",
+      "problem_statement": "The Technological Singularity theme focusing on automation, high-stakes infrastructure, and interconnected digital landscapes.",
       "stack": [
-        "TypeScript",
         "Python",
-        "OpenCV",
-        "Leaflet.js"
+        "Claude",
+        "FastAPI",
+        "PostgreSQL"
       ],
-      "title": "GeoSentinel: Satellite Monitoring for Industrial Land Compliance",
+      "title": "Aegis-Data: Autonomous Incident Response with Verified Repair",
       "track": "",
-      "why_it_could_win": "Presents heavy computer vision and real-world geospatial utility just like the Xcelerate Hackathon runner-up, which stands out strongly in a short sprint."
+      "why_it_could_win": "Features an evidence gate and automated write-back, mirroring a grand prize-winning data agent architecture that solves real engineering pain points."
     },
     {
       "build_hours": 14,
       "inspired_by": [
-        "github:1241231621",
-        "github:1213911408"
+        "github:1088994743"
       ],
-      "pitch": "A localized multi-agent healthcare platform that automates patient intake, trust-building consultations, and personalized treatment planning for specialized clinics.",
+      "pitch": "A real-time routing optimization engine for high-density metropolitan logistics inspired by emergency traffic algorithms.",
+      "problem_statement": "The Technological Singularity theme focusing on managing dense, hyper-connected urban automation networks.",
       "stack": [
-        "TypeScript",
-        "Gemini API",
-        "Next.js",
-        "TailwindCSS"
+        "Python",
+        "FastAPI",
+        "React",
+        "Leaflet.js"
       ],
-      "title": "BioTrust: AI-Powered Patient Trust & Acquisition Engine",
+      "title": "Nexus-Route: Hybrid Emergency & Heavy Payload Intelligence Router",
       "track": "",
-      "why_it_could_win": "Replicates the rapid-fire utility and polished user acquisition workflows of the Elevate X prize-winning project built within a tight 12-to-18 hour window."
+      "why_it_could_win": "Focuses on real-time optimization under strict performance constraints, appealing directly to technical judges looking for practical algorithmic execution."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "A real-time digital twin backend and dashboard monitoring hardware battery degradation and predicting failure anomalies using stream processing.",
+      "problem_statement": "The Technological Singularity theme focusing on monitoring complex physical-digital hardware frontiers.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "React",
+        "Vite"
+      ],
+      "title": "Synapse-Twin: Edge Battery Intelligence & Health Digital Twin",
+      "track": "",
+      "why_it_could_win": "Splits responsibilities neatly into a robust backend data-ingestion pipeline and a responsive visualization frontend, showing production-ready engineering in an 18-hour sprint."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1132337467"
+      ],
+      "pitch": "An offline-capable health triage portal featuring multimodal symptom input, multilingual support, and local sensor telemetry integration.",
+      "problem_statement": "The Technological Singularity theme focusing on accelerating digital tools for complex human-centric environments.",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "Gemini-AI",
+        "Firebase",
+        "React"
+      ],
+      "title": "Omni-Triage: Multimodal Clinical-Grade Health & Resource Platform",
+      "track": "",
+      "why_it_could_win": "Combines multimodal AI with an immediately demonstrable live camera/sensor input flow, which guarantees a high-impact presentation for the judges."
     }
   ],
-  "prompt_version": 1,
+  "prompt_version": 2,
   "provider": "gemini",
   "taxonomy_version": 2
 }
