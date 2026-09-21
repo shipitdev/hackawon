@@ -39,3 +39,7 @@ if (typeof globalThis.localStorage === "undefined") {
     configurable: true,
   });
 }
+
+// React's async `act` warnings are only useful when a test forgot to wrap an update.
+// Tell React that Vitest's jsdom environment is an intentional test renderer.
+(globalThis as typeof globalThis & { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;

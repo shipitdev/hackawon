@@ -107,12 +107,18 @@ export function onViewerChange(fn: (viewer: Viewer | null) => void): () => void 
   };
 }
 
+/** A stable callback avoids requiring one OAuth allow-list entry for every `/h/<slug>` page. */
+export function oauthRedirectUrl(origin: string, base: string): string {
+  return new URL(base, origin).href;
+}
+
 export async function signInWithGitHub(): Promise<void> {
   const db = await getClient();
-  // Come back to the page the visitor was on, not always the homepage.
+  // GitHub OAuth callbacks must match Supabase's allow-list. The stable app root only needs one
+  // entry, unlike every possible static hackathon detail URL.
   await db?.auth.signInWithOAuth({
     provider: "github",
-    options: { redirectTo: window.location.href },
+    options: { redirectTo: oauthRedirectUrl(window.location.origin, import.meta.env.BASE_URL) },
   });
 }
 

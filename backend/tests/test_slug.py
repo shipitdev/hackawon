@@ -1,7 +1,10 @@
 """Tests for hackathon slugs — the public URL identity."""
 
-from app.jobs.export_site import make_slug, to_web
+from datetime import UTC, datetime, timedelta
+
+from app.jobs.export_site import build, make_slug, to_web
 from app.models import HackathonRecord, ProblemSource
+from app.store import write_hackathon
 
 
 class TestSlug:
@@ -55,3 +58,20 @@ def test_web_export_bounds_problem_context_in_the_listing_bundle():
         problem_sources=[ProblemSource(kind="inline", text="x" * 1000, status="parsed")],
     )
     assert len(to_web(record)["problem_sources"][0]["text"]) == 601
+
+
+def test_web_export_omits_an_event_after_its_registration_deadline(tmp_path):
+    now = datetime(2026, 9, 12, tzinfo=UTC)
+    write_hackathon(
+        HackathonRecord(
+            source="unstop",
+            source_id="closed",
+            title="Closed registration",
+            url="https://example.com/closed",
+            reg_deadline=now - timedelta(seconds=1),
+            ends_at=now + timedelta(days=2),
+        ),
+        data_dir=tmp_path,
+    )
+
+    assert build(tmp_path, now=now)["hackathons"] == []

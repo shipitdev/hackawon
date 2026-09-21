@@ -12,18 +12,16 @@ from __future__ import annotations
 import argparse
 import re
 import sys
-from datetime import UTC, datetime, timedelta
+from datetime import datetime
 
+from app.eligibility import is_open_for_registration
 from app.health import check_counts, load_history, record_counts, save_history
 from app.models import HackathonRecord
 from app.problems import enrich_problem_sources
 from app.sources import devfolio, mlh, unstop
-from app.store import write_hackathon, write_source_runs
+from app.store import prune_hackathon_artifacts, read_hackathons, write_hackathon, write_source_runs
 
 SOURCES = (devfolio, unstop, mlh)
-
-#: Keep recently-finished events briefly — they're still useful context and dates are often wrong.
-GRACE = timedelta(days=7)
 
 _NOISE = re.compile(r"[^a-z0-9]+")
 
@@ -33,19 +31,9 @@ def _normalise_title(title: str) -> str:
     return _NOISE.sub(" ", title.lower()).strip()
 
 
-def _last_date(record: HackathonRecord) -> datetime | None:
-    return record.ends_at or record.reg_deadline or record.starts_at
-
-
 def is_current(record: HackathonRecord, now: datetime | None = None) -> bool:
-    """Undated events are kept: better a stale listing than silently dropping a real hackathon."""
-    now = now or datetime.now(UTC)
-    last = _last_date(record)
-    if last is None:
-        return True
-    if last.tzinfo is None:
-        last = last.replace(tzinfo=UTC)
-    return last >= now - GRACE
+    """Compatibility wrapper for the shared application-eligibility rule."""
+    return is_open_for_registration(record, now)
 
 
 def dedupe(records: list[HackathonRecord]) -> list[HackathonRecord]:
@@ -117,9 +105,13 @@ def run(dry_run: bool = False) -> int:
         print(f"  parsed {enriched} linked problem statement documents")
 
     changed = sum(write_hackathon(record) for record in unique)
-    write_source_runs(runs)
+    expired = [record for record in read_hackathons() if not is_current(record)]
+    removed = prune_hackathon_artifacts(expired)
+    write_source_runs(runs, expired_removed=removed)
     save_history(record_counts(history, counts))
-    print(f"  wrote {len(unique)} files ({changed} changed)")
+    print(
+        f"  wrote {len(unique)} files ({changed} changed), removed {sum(removed.values())} expired"
+    )
 
     # A drop is reported but does not fail the ingest: the data we did get is still worth keeping,
     # and the canary is what turns this into an issue someone reads.

@@ -51,5 +51,7 @@ describe("hackathon details", () => {
     expect(html).toContain("Apply on Unstop");
     expect(html).toContain("Make travel safer for disabled visitors.");
     expect(html).toContain('href="https://docs.google.com/document/d/abc/edit"');
+    expect(html).toContain('target="_blank"');
+    expect(html).toContain('rel="noopener noreferrer"');
   });
 });

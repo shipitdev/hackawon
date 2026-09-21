@@ -6,7 +6,7 @@ import pytest
 
 from app.jobs.ingest import dedupe, is_current
 from app.models import HackathonRecord
-from app.store import read_hackathons, write_hackathon
+from app.store import prune_hackathon_artifacts, read_hackathons, write_hackathon
 
 NOW = datetime(2026, 9, 12, tzinfo=UTC)
 
@@ -24,9 +24,8 @@ class TestIsCurrent:
     def test_long_past_event_is_dropped(self):
         assert not is_current(make(ends_at=NOW - timedelta(days=200)), now=NOW)
 
-    def test_just_finished_event_is_kept(self):
-        """Dates from these sites are often a day or two off; a grace window absorbs that."""
-        assert is_current(make(ends_at=NOW - timedelta(days=2)), now=NOW)
+    def test_just_finished_event_is_removed(self):
+        assert not is_current(make(ends_at=NOW - timedelta(days=2)), now=NOW)
 
     def test_undated_event_is_kept(self):
         """Dropping a real hackathon is worse than showing one with an unknown date."""
@@ -38,6 +37,10 @@ class TestIsCurrent:
 
     def test_falls_back_to_registration_deadline(self):
         assert is_current(make(reg_deadline=NOW + timedelta(days=5)), now=NOW)
+
+    def test_closed_registration_is_removed_even_when_the_event_is_still_future(self):
+        record = make(reg_deadline=NOW - timedelta(seconds=1), ends_at=NOW + timedelta(days=2))
+        assert not is_current(record, now=NOW)
 
 
 class TestDedupe:
@@ -91,6 +94,25 @@ class TestStore:
 
     def test_empty_store_reads_cleanly(self, tmp_path):
         assert read_hackathons(data_dir=tmp_path) == []
+
+    def test_pruning_removes_the_listing_ideas_and_label(self, tmp_path):
+        record = make(source="unstop", source_id="99")
+        write_hackathon(record, data_dir=tmp_path)
+        ideas = tmp_path / "ideas"
+        ideas.mkdir()
+        (ideas / "unstop_99.json").write_text("{}", encoding="utf-8")
+        labels = tmp_path / "labels"
+        labels.mkdir()
+        (labels / "hackathons.json").write_text(
+            '{"unstop:99": {"domains": ["ai-ml"]}, "unstop:keep": {}}', encoding="utf-8"
+        )
+
+        removed = prune_hackathon_artifacts([record], data_dir=tmp_path)
+
+        assert removed == {"unstop": 1}
+        assert read_hackathons(data_dir=tmp_path) == []
+        assert not (ideas / "unstop_99.json").exists()
+        assert '"unstop:99"' not in (labels / "hackathons.json").read_text(encoding="utf-8")
 
 
 @pytest.mark.parametrize("source", ["devfolio", "unstop", "mlh"])
