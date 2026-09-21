@@ -47,11 +47,47 @@ def read_hackathons(data_dir: Path | None = None) -> list[HackathonRecord]:
     return records
 
 
-def write_source_runs(runs: list[dict], data_dir: Path | None = None) -> Path:
+def prune_hackathon_artifacts(
+    records: list[HackathonRecord], data_dir: Path | None = None
+) -> dict[str, int]:
+    """Remove expired listings and the generated files that are meaningful only for them."""
+    root = data_dir or DATA_DIR
+    removed: dict[str, int] = {}
+    uids = {record.uid for record in records}
+    for record in records:
+        path = _path_for(record, root)
+        if path.exists():
+            path.unlink()
+            removed[record.source] = removed.get(record.source, 0) + 1
+        idea = root / "ideas" / f"{record.uid.replace(':', '_')}.json"
+        if idea.exists():
+            idea.unlink()
+
+    labels_path = root / "labels" / "hackathons.json"
+    if labels_path.exists() and uids:
+        labels = json.loads(labels_path.read_text(encoding="utf-8"))
+        remaining = {uid: value for uid, value in labels.items() if uid not in uids}
+        if len(remaining) != len(labels):
+            labels_path.write_text(
+                json.dumps(remaining, indent=2, sort_keys=True, ensure_ascii=False),
+                encoding="utf-8",
+            )
+    return removed
+
+
+def write_source_runs(
+    runs: list[dict], data_dir: Path | None = None, expired_removed: dict[str, int] | None = None
+) -> Path:
     """Per-source outcome of the last ingest — drives the status page and the canary."""
     path = (data_dir or DATA_DIR) / "source_runs.json"
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = {"updated_at": datetime.now().astimezone().isoformat(), "runs": runs}
+    expired_removed = expired_removed or {}
+    payload = {
+        "updated_at": datetime.now().astimezone().isoformat(),
+        "runs": [
+            {**run, "expired_removed": expired_removed.get(str(run["source"]), 0)} for run in runs
+        ],
+    }
     path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
     return path
 

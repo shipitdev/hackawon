@@ -18,6 +18,7 @@ from pathlib import Path
 
 import yaml
 
+from app.eligibility import is_open_for_registration
 from app.models import HackathonRecord
 from app.store import DATA_DIR, read_hackathons, read_projects
 from app.tools import load_tools
@@ -105,8 +106,12 @@ def _domain_labels(data_dir: Path | None) -> dict[str, str]:
     return {d["id"]: d["label"] for d in tax.get("domains", [])}
 
 
-def build(data_dir: Path | None = None) -> dict:
-    records = read_hackathons(data_dir or DATA_DIR)
+def build(data_dir: Path | None = None, now: datetime | None = None) -> dict:
+    records = [
+        record
+        for record in read_hackathons(data_dir or DATA_DIR)
+        if is_open_for_registration(record, now)
+    ]
     labels = _labels("hackathons", data_dir)
     ideas = _ideas(data_dir)
     domain_labels = _domain_labels(data_dir)

@@ -1,24 +1,26 @@
 @import "tailwindcss";
 
-/* One neutral family (cool zinc), one accent (signal orange), light and dark following the
-   system. The accent is reserved for two jobs: urgency and the primary action. Everything else
-   is ink on surface, so the orange always means something.
-
-   Shape system: controls (inputs, buttons, chips, tags) are rounded-lg; containers (rows,
-   panels, idea blocks) are rounded-2xl. Nothing is pill-shaped.
-
-   Layers: filter bar 30, header 40, grain 50. The detail sheet is a native <dialog>, which sits
-   in the browser's top layer above all of them. */
+/* Hackawon's Mistral-inspired palette: amber marquee, warm catalogue, rust accent, and dark ink.
+   Layers: filter bar 30 and header 40. The native detail dialog uses the browser's top layer. */
 @theme {
-  --color-surface: oklch(0.984 0.003 286);
-  --color-raised: oklch(0.996 0.001 286);
-  --color-sunken: oklch(0.955 0.004 286);
-  --color-ink: oklch(0.21 0.006 286);
-  --color-muted: oklch(0.45 0.01 286);
-  --color-faint: oklch(0.55 0.01 286);
-  --color-line: oklch(0.905 0.005 286);
-  --color-accent: oklch(0.545 0.19 38);
-  --color-on-accent: oklch(0.99 0.003 286);
+  --color-surface: #eee7dc;
+  --color-raised: #e5d9c7;
+  --color-sunken: #d8cab6;
+  --color-ink: #151524;
+  --color-muted: #62594f;
+  --color-faint: #756a5e;
+  --color-line: #c9bba8;
+  --color-accent: #ab3f05;
+  --color-on-accent: #f8e2b0;
+  --color-hero: #ec9209;
+  --color-hero-depth: #ab3f05;
+  --color-hero-detail: #f2cc7c;
+  --color-hero-ink: #151524;
+
+  --radius-md: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.75rem;
 
   --font-sans: "Geist Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
@@ -26,15 +28,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-surface: oklch(0.16 0.004 286);
-    --color-raised: oklch(0.2 0.005 286);
-    --color-sunken: oklch(0.225 0.006 286);
-    --color-ink: oklch(0.96 0.003 286);
-    --color-muted: oklch(0.73 0.01 286);
-    --color-faint: oklch(0.62 0.01 286);
-    --color-line: oklch(0.29 0.006 286);
-    --color-accent: oklch(0.73 0.16 48);
-    --color-on-accent: oklch(0.18 0.01 286);
+    --color-surface: #151524;
+    --color-raised: #211d2d;
+    --color-sunken: #2b2535;
+    --color-ink: #f4dfb5;
+    --color-muted: #c9ad83;
+    --color-faint: #aa8f6b;
+    --color-line: #493b3a;
+    --color-accent: #e8ad45;
+    --color-on-accent: #211407;
+    --color-hero: #9a3908;
+    --color-hero-depth: #5d210d;
+    --color-hero-detail: #e8ad45;
+    --color-hero-ink: #f4dfb5;
   }
 }
 
@@ -81,18 +87,6 @@ body {
   background: color-mix(in oklab, var(--color-accent) 30%, transparent);
 }
 
-/* Fixed, non-scrolling grain so large flat areas do not band. Never on a scrolling element: that
-   repaints on every frame. */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  pointer-events: none;
-  opacity: 0.035;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -132,6 +126,51 @@ body::before {
   from {
     opacity: 0;
     transform: translateY(10px);
+  }
+}
+
+/* The catalogue borrows the reference's quiet engineering paper, while cards remain content-led. */
+.catalogue-grid {
+  background-image:
+    linear-gradient(color-mix(in oklab, var(--color-line) 30%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in oklab, var(--color-line) 30%, transparent) 1px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+}
+
+.hackathon-card--urgent {
+  border-color: color-mix(in oklab, var(--color-accent) 55%, var(--color-line));
+  background: color-mix(in oklab, var(--color-hero-detail) 34%, var(--color-raised));
+}
+
+/* Original deadline terrain: three clipped CSS layers, no borrowed artwork or image asset. */
+.deadline-terrain {
+  background:
+    linear-gradient(167deg, transparent 0 52%, color-mix(in oklab, var(--color-hero-detail) 42%, transparent) 52.2% 63%, transparent 63.2%),
+    linear-gradient(172deg, transparent 0 60%, color-mix(in oklab, var(--color-hero-depth) 62%, transparent) 60.2% 76%, transparent 76.2%);
+  clip-path: polygon(0 55%, 12% 44%, 27% 56%, 39% 30%, 55% 54%, 70% 24%, 84% 43%, 100% 12%, 100% 100%, 0 100%);
+}
+
+.deadline-terrain::before,
+.deadline-terrain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.deadline-terrain::before {
+  background: color-mix(in oklab, var(--color-hero-depth) 72%, transparent);
+  clip-path: polygon(0 76%, 18% 49%, 34% 72%, 51% 45%, 67% 70%, 84% 39%, 100% 57%, 100% 100%, 0 100%);
+}
+
+.deadline-terrain::after {
+  background: color-mix(in oklab, var(--color-hero-ink) 18%, transparent);
+  clip-path: polygon(0 88%, 20% 70%, 37% 83%, 58% 62%, 78% 78%, 100% 55%, 100% 100%, 0 100%);
+}
+
+@media (max-width: 47.99rem) {
+  .deadline-terrain {
+    height: 34%;
+    opacity: 0.58;
   }
 }
 

@@ -1,4 +1,4 @@
-import type { Bundle, IdeaSet } from "./types";
+import type { Bundle, IdeaSet, ToolsBundle } from "./types";
 import { ideaFileName } from "./lib";
 
 /**
@@ -24,6 +24,10 @@ async function getJSON<T>(path: string): Promise<T> {
 /** The listings index: every hackathon, minus the ideas themselves. ~48 KB gzipped. */
 export function loadIndex(): Promise<Bundle> {
   return getJSON<Bundle>("data/hackathons.json");
+}
+
+export function loadTools(): Promise<ToolsBundle> {
+  return getJSON<ToolsBundle>("data/tools.json");
 }
 
 /**
