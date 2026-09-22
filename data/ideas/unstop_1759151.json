@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-22T07:53:27.000326+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759151",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "An AI-powered workspace and equipment reservation platform specifically designed for engineering colleges to manage high-demand labs, seminar halls, and hardware components.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "title": "SmartCampus Workspace & Lab Booking Engine",
+      "track": "",
+      "why_it_could_win": "Judges at a campus-hosted hackathon (Vishnu Institute of Technology) will instantly relate to the operational friction of booking labs and equipment, and the project directly mirrors the proven architecture of successful workspace management platforms."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A computer vision and geotagged reporting tool that automatically classifies civic infrastructure problems (potholes, streetlights, waste overflow) from smartphone camera uploads.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Python",
+        "FastAPI",
+        "OpenCV"
+      ],
+      "title": "LocalGov Infrastructure Issue Tracker",
+      "track": "",
+      "why_it_could_win": "Demonstrates practical utility for regional governance and local municipal problem-solving, aligning well with the hackathon's emphasis on real-world challenges for undergraduate engineers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A web-based dashboard and predictive tool for local agricultural zones to forecast water contamination and nutrient depletion risks days in advance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Scikit-learn"
+      ],
+      "title": "AgriSensor: Regional Soil & Water Quality Monitor",
+      "track": "",
+      "why_it_could_win": "Applies machine learning to regional environmental and agricultural data sets, following the winning pattern of localized forecasting models seen in regional hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "A micro-learning platform for engineering students to share short-form video tutorials on complex technical subjects like data structures, VLSI, or machine learning.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "TailwindCSS",
+        "Firebase"
+      ],
+      "title": "Campus Peer Tutoring & Skill Exchange",
+      "track": "",
+      "why_it_could_win": "Targets student collaboration and internal talent enhancement directly, resonating with the explicit goals of the host institution to encourage peer learning across engineering branches."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1182199849"
+      ],
+      "pitch": "An AI-driven simulation platform for college placement cells where students practice technical and HR interviews with real-time rubric-based scoring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "Placement Cell Automated Interview & Resume Evaluator",
+      "track": "",
+      "why_it_could_win": "Provides an immediately useful administrative and student tool that college placement cells can deploy post-hackathon, securing strong favor from faculty judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

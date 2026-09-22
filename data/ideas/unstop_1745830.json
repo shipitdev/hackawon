@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-22T07:53:21.315677+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745830",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A Python and C++ performance and algorithm tracer that visualizes execution paths and bottlenecks for complex data structure logic.",
+      "problem_statement": "Data Structures & Algorithms, Debugging, Optimisation, and Logic & Computational Thinking",
+      "stack": [
+        "Python",
+        "C++",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AlgoTrace",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation pillars of logic, algorithms, and debugging emphasized by Aven Coding Hackathon 2.0."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1226951926",
+        "github:938030912"
+      ],
+      "pitch": "An autonomous debugging and optimization tool that ingests failing C++/Python test suites, traces root causes, and suggests clean fixes.",
+      "problem_statement": "Debugging Optimisation and Real-world programming scenarios",
+      "stack": [
+        "Python",
+        "AST",
+        "LLM APIs",
+        "FastAPI"
+      ],
+      "title": "DebugAI Agent",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of automated debugging and repair agent winners by tackling a pain point every competitive coder faces."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A static analysis plugin for Python and C++ that evaluates code for time and space complexity bottlenecks during compilation.",
+      "problem_statement": "Optimisation and Logic & Computational Thinking",
+      "stack": [
+        "Python",
+        "Clang",
+        "Tree-sitter"
+      ],
+      "title": "ComplexityAnalyzer",
+      "track": "",
+      "why_it_could_win": "Appeals directly to judges looking for deep algorithmic optimization capabilities rather than generic wrappers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An interactive competitive programming sandbox that generates custom algorithmic test cases and validates logic constraints on the fly.",
+      "problem_statement": "Data Structures & Algorithms and Problem Solving",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Docker",
+        "Next.js"
+      ],
+      "title": "LogicGym",
+      "track": "",
+      "why_it_could_win": "Aligns with the rigorous coding and problem-solving focus of the event platform and target audience."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A lightweight refactoring utility that transforms naive brute-force implementations into optimized dynamic programming or memoized solutions.",
+      "problem_statement": "Optimisation and Data Structures & Algorithms",
+      "stack": [
+        "Python",
+        "Jinja2",
+        "FastAPI"
+      ],
+      "title": "CodeOptima",
+      "track": "",
+      "why_it_could_win": "Provides immediate utility for developers and competitive programmers looking to improve algorithmic efficiency."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-22T07:53:17.685841+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:communihacks",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A localized offline-first communication and resource-sharing platform for Kitchener neighborhoods to coordinate mutual aid during municipal emergencies or power outages.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "SQLite"
+      ],
+      "title": "Kitchener Community Resource and Mutual Aid Mesh",
+      "track": "",
+      "why_it_could_win": "Judges at local in-person hackathons in Kitchener heavily favor hyper-local community impact tools that address real regional resilience challenges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered crowdsourced transit stop accessibility mapper built specifically for Grand River Transit routes and stops across Kitchener-Waterloo.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Gemini API",
+        "Leaflet.js"
+      ],
+      "title": "Region of Waterloo Transit Accessibility Auditor",
+      "track": "",
+      "why_it_could_win": "It solves a concrete regional accessibility problem using computer vision and mapping APIs, making it immediately testable by local judges against real municipal data."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized trust and credential verification portal for downtown Kitchener small businesses to verify local supplier provenance and neighborhood compliance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "ethers.js"
+      ],
+      "title": "Kitchener Small Business Digital Identity & Trust Vault",
+      "track": "",
+      "why_it_could_win": "Combines practical utility for local merchants with robust technical architecture, drawing on verified winning patterns of building trustworthy business workflows."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1275874285"
+      ],
+      "pitch": "An automated matching and dispatch network connecting surplus food from Kitchener grocery stores and restaurants directly to local shelters and community fridges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "KW Neighborhood Food Rescue Dispatch",
+      "track": "",
+      "why_it_could_win": "Focuses on immediate operational logistics for real charities operating in the Kitchener-Waterloo region, giving judges tangible metrics of social return."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A peer-to-peer mentorship and micro-credential tracking platform designed for local community centers and libraries in Kitchener to coordinate vocational workshops.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "Kitchener Youth Skill-Share and Mentorship Roster",
+      "track": "",
+      "why_it_could_win": "Directly addresses local educational engagement needs with a complete end-to-end user experience that can be demoed live with real community center workflows."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
