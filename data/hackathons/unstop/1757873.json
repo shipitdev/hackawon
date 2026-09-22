@@ -5,7 +5,7 @@
   "ends_at": "2026-11-20T17:00:00+05:30",
   "mode": "online",
   "organiser": "Happiest Health",
-  "participants_count": 562,
+  "participants_count": 689,
   "prize_amount": 200000,
   "prize_currency": "INR",
   "problem_sources": [
@@ -36,7 +36,7 @@
       "sort_order": 1,
       "state": null,
       "state_code": null,
-      "updated_at": "2026-09-18T18:05:48+05:30",
+      "updated_at": "2026-09-22T15:18:20+05:30",
       "zip": null
     },
     "approved_date": "2026-09-18 18:34:25 GMT+0530",
@@ -45,7 +45,112 @@
     },
     "details": "<p><span style=\"font-weight: 400;\">The future of medicine is proactive, not reactive. At the upcoming </span><strong>Happiest Health Reimagining and Reforming Healthcare in India Summit</strong><span style=\"font-weight: 400;\"> - </span><strong>2026, Bengaluru</strong><span style=\"font-weight: 400;\">, we are exploring the frontiers of digital health, focusing heavily on the concept of the Digital Twin. A Digital Twin in healthcare is a dynamic, virtual replica of a patient, constantly updated with real-time data from wearables, paired with Electronic Health Records (EHR). By simulating a patient&rsquo;s unique physiology, it can predict adverse health events before they happen and personalize treatment protocols.</span></p>\n<p><span style=\"font-weight: 400;\">We are inviting the brightest minds from India's top university incubators to build the foundational prototypes of this future. We </span><strong>challenge</strong><span style=\"font-weight: 400;\"> student teams to build a </span><strong>proof-of-concept (PoC) Digital Twin Model</strong><span style=\"font-weight: 400;\"> focused on predicting a specific, localized health outcome.</span></p>\n<p><span style=\"font-weight: 400;\">Because building a complete, whole-body Digital Twin is beyond the scope of a short-term project, teams must select one specific chronic or lifestyle condition prevalent in India (e.g., Type 2 Diabetes, Hypertension, or Cardiovascular risk).</span></p>\n<p><strong>Eligibility</strong></p>\n<p><span style=\"font-weight: 400;\">Open to students interested in AI, healthcare, data science and digital health, including students from relevant technical, medical and interdisciplinary backgrounds.</span></p>\n<p><strong>Team Formation Guidelines:</strong></p>\n<ul>\n<li><span style=\"font-weight: 400;\">A team will consist of 1-4 students, and the one who registers the team will be the team leader.</span></li>\n<li><span style=\"font-weight: 400;\">Inter-college and interdisciplinary teams can participate.</span></li>\n<li><span style=\"font-weight: 400;\">Only full-time students can participate.</span></li>\n<li><span style=\"font-weight: 400;\">All the team members are required to verify and confirm their details to form a team.</span></li>\n<li><span style=\"font-weight: 400;\">There is no restriction on the number of individuals/teams from an institute.</span></li>\n<li><span style=\"font-weight: 400;\">Modification of team post registration will not be allowed.</span></li>\n<li><span style=\"font-weight: 400;\">Two members from each of the finalist teams will need to travel to Bengaluru to present their solution in front of an audience at the summit. (Happiest Health will sponsor travel and stay)</span></li>\n</ul>\n<p><strong>Phases of the Challenge:</strong></p>\n<p><strong>Phase 1 - Prototype &amp; Code Submission</strong></p>\n<ul>\n<li>The teams build their Digital Twin proof-of-concept and submit the completed project with required documentation as specified in the submission guidelines below under GitHub repository.&nbsp;</li>\n<li>Submitted solutions are evaluated by the technical and expert panel. Top 5 teams will be finalized by the jury, and an email communication will be sent to top 5 shortlisted team by Happiest Health&nbsp;</li>\n</ul>\n<p><strong>The prototype must successfully demonstrate the fusion of two data streams:</strong></p>\n<ol>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><strong>Static/Historical data:</strong><span style=\"font-weight: 400;\"> Simulated Electronic Health Records (demographics, past diagnoses, lab results, genetic markers).</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><strong>Dynamic/Real-time data:</strong><span style=\"font-weight: 400;\"> Simulated or open-source time-series data from consumer wearables/IoT sensors (heart rate variability, continuous glucose monitors, sleep stages, step count).</span></li>\n</ol>\n<p><strong>The output:</strong><span style=\"font-weight: 400;\"> A working algorithmic model that ingests these two streams and successfully predicts an adverse event (e.g., predicting a sudden glucose spike 2 hours in advance, or flagging a high-risk cardiovascular anomaly based on a week of sleep and heart-rate data). Teams must also present a conceptual UI dashboard showing how a doctor would interact with this virtual patient.</span></p>\n<p><strong>Navigating data constraints (The sandbox rules)</strong></p>\n<p><span style=\"font-weight: 400;\">We recognize that access to real patient data is restricted by privacy laws like the DPDP Act and HIPAA. Teams are strictly required to use anonymized, open-source, or synthetic datasets for training their models.</span></p>\n<ul>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><strong>For EHRs:</strong><span style=\"font-weight: 400;\"> Teams may use synthetic patient generation tools (like Synthea) or anonymized clinical databases (like MIMIC-IV).</span></li>\n<li style=\"font-weight: 400;\" aria-level=\"1\"><strong>For sensor data:</strong><span style=\"font-weight: 400;\"> Teams may utilize open-source wearable datasets or generate their own synthetic time-series data mimicking Apple Health, Google Fit, or dedicated medical IoT devices.</span></li>\n</ul>\n<p><strong>Submission Guidelines</strong><span style=\"font-weight: 400;\">: </span></p>\n<p><span style=\"font-weight: 400;\">Submit the project through a public GitHub repository link. Include all the details mentioned below in the README file of the repository.</span></p>\n<ul>\n<li><strong>Team details</strong><span style=\"font-weight: 400;\"> and </span><strong>college/incubator </strong><span style=\"font-weight: 400;\">information&nbsp;&nbsp;</span></li>\n<li><strong>Project Title</strong></li>\n<li><strong>Problem statement</strong><span style=\"font-weight: 400;\"> and </span><strong>healthcare use case</strong></li>\n<li><strong>Technical stack, AI/ML</strong><span style=\"font-weight: 400;\"> </span><strong>model</strong><span style=\"font-weight: 400;\"> or </span><strong>framework</strong><span style=\"font-weight: 400;\"> details&nbsp;</span></li>\n<li><strong>Minimum 2-5-minute video</strong><span style=\"font-weight: 400;\"> explaining and demonstrating your prototype. The video can be recorded as a PowerPoint presentation or uploaded as an unlisted YouTube video.</span></li>\n<li><strong>Open-source license details</strong></li>\n<li><strong>Architecture diagram</strong><span style=\"font-weight: 400;\"> in PDF/PPT format&nbsp;</span></li>\n<li><strong>Presentation</strong><span style=\"font-weight: 400;\"> in PDF/PPT format with project details and outcome&nbsp;&nbsp;</span></li>\n</ul>\n<p><strong>Submission Instructions</strong></p>\n<ul>\n<li><strong>Folder name:</strong><span style=\"font-weight: 400;\"> Team Name_College Name</span></li>\n<li><span style=\"font-weight: 400;\">Set the GitHub repository link access to </span><strong>Public, </strong><span style=\"font-weight: 400;\">Ensure that all files and links are accessible to the evaluation team.</span></li>\n<li><strong>Submit only the Team leaders name, phone number, email id and Public GitHub repository link </strong><span style=\"font-weight: 400;\">on the submission platform.</span></li>\n</ul>\n<p><strong>Phase 2 - Final Jury Presentation</strong></p>\n<p>After the initial screening, the top 10 teams will present their solution and demonstrate their working prototype to the expert jury virtually, showcasing both the technical implementation and real-world healthcare impact.<strong><br /></strong></p>\n<p><strong>Phase 3 - Summit Showcase</strong></p>\n<ul>\n<li>The top 5 teams will be invited to present their solution at the Reimagining and Reforming Healthcare in India Summit 2026, Bengaluru, on 20 November 2026.</li>\n<li>Winners will be announced following the final evaluation.</li>\n<li>Travel and stay for two members from each team will be sponsored by Happiest Health.</li>\n</ul>\n<p><strong>Rewards &amp; Opportunities</strong></p>\n<ol>\n<li data-section-id=\"lsy4ny\" data-start=\"23\" data-end=\"106\">Grand Finale winners/winning team will receive INR 1 lakh cash and a certificate.</li>\n<li data-section-id=\"l0fcl8\" data-start=\"107\" data-end=\"202\">1st Runner-Up/1st Runner-Up team will receive INR 50,000 cash and a certificate.</li>\n<li data-section-id=\"11si3di\" data-start=\"203\" data-end=\"375\" data-is-last-node=\"\">2nd Runner-Up/2nd Runner-Up team will receive INR 30,000 cash and a certificate</li>\n<li data-section-id=\"11si3di\" data-start=\"203\" data-end=\"375\" data-is-last-node=\"\">Two teams will receive a Special Recognition Award of INR 10,000 each.</li>\n<li data-section-id=\"11si3di\" data-start=\"203\" data-end=\"375\" data-is-last-node=\"\">\n<div id=\"tab-prize\" class=\"tab-prize position-relative force-lazy withBdr\">\n<div class=\"opp_types\">\n<div class=\"item\">\n<div class=\"cptn\">\n<p title=\"The winning teams will earn PPI Opportunities to intern with Happiest Health\">The winning teams will earn PPI Opportunities to intern with Happiest Health.</p>\n</div>\n</div>\n</div>\n</div>\n<div id=\"tab-review\" class=\"tab-review reviewBar force-lazy withBdr\"></div>\n</li>\n</ol>",
     "end_date": "2026-11-20T17:00:00+05:30",
-    "festival": null,
+    "festival": {
+      "abbr": null,
+      "end_date": "2026-11-30 23:59:27+05:30",
+      "footer_type": 0,
+      "header_type": 0,
+      "id": 517613,
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/festival/logo/150x150/6ab24e175cbc6_uploadedmanual-6aacf1deb3bad_frame_10.webp",
+      "name": "Reimagining & Reforming Healthcare in India Summit 2026",
+      "organisation": {
+        "id": 834495,
+        "logo": null,
+        "name": "Happiest Health"
+      },
+      "organization_id": 834495,
+      "public_url": "pf/reimagining-reforming-healthcare-in-india-summit-2026-happiest-health-517613",
+      "regnRequirements": {
+        "allow_coupons": 0,
+        "allow_social_login": 1,
+        "allow_specific_cities": false,
+        "allowed_countries": null,
+        "audio_capture": 0,
+        "can_edit_extended_form": 0,
+        "closed_job_end_date": 0,
+        "college_type": 0,
+        "consent_needed": 0,
+        "core_req_fields": null,
+        "deleted_at": null,
+        "digilocker_verification_service": 1,
+        "display_compatibility_score": null,
+        "driver_for_proctoring": "aws",
+        "eligibility": null,
+        "email_reply_to": 0,
+        "enable_data_transfer_to_SAP": 0,
+        "enable_draft_reg": false,
+        "enable_icsfile": null,
+        "enable_payment": 0,
+        "enable_verifications": null,
+        "end_regn_dt": "2026-09-29T15:12:28+05:30",
+        "experience": null,
+        "extendRegForm": null,
+        "extend_basic_form": null,
+        "extendedFormData": null,
+        "face_detect_driver": "aws",
+        "face_recog_driver": "aws",
+        "festival_id": 517613,
+        "free_webinar_for_unstop_pro": 0,
+        "gender": [
+          "A"
+        ],
+        "gender_diversity": null,
+        "gender_verification": false,
+        "has_compatibility_priority": 0,
+        "id": 2491569,
+        "invitations_allowed": 0,
+        "limit_type": 1,
+        "max_team_size": null,
+        "min_team_size": null,
+        "only_official_domains": null,
+        "open_for": 0,
+        "opportunity_id": null,
+        "payment_for": 0,
+        "payout_data": null,
+        "player_extended_form": null,
+        "proctoring": {
+          "face": false
+        },
+        "reg_amount": null,
+        "reg_restricted": 0,
+        "reg_status": "STARTED",
+        "registration_config": {
+          "enable_newsletter_subscription": 0
+        },
+        "registration_limit": null,
+        "remain_days": "6 days left",
+        "remainingDaysArray": {
+          "durations": 6,
+          "text": " days left"
+        },
+        "remaining_time": 597425,
+        "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
+        "resume_parser": 0,
+        "same_course": 0,
+        "same_graduation_year": 0,
+        "same_organisation": 1,
+        "same_user_type": 0,
+        "sap_stage_id": null,
+        "screening_round": null,
+        "service_charge_from": 0,
+        "show_deadline": 1,
+        "start_regn_dt": "2026-09-22T15:12:28+05:30",
+        "study_year_filter": 0,
+        "unique_face_verify": false,
+        "vendor_id": null,
+        "verification_service": 2,
+        "verified_aadhaar": 0,
+        "verified_aadhaar_face": 0,
+        "verified_aadhaar_face_via_digilocker": 0,
+        "verified_driving_licence_face": 0,
+        "verified_email": 1,
+        "verified_mobile": 1,
+        "work_location_type": "city"
+      },
+      "regn_open": 0,
+      "start_date": "2026-09-23 15:00:27+05:30",
+      "theme_colour": "blue"
+    },
     "filters": [
       {
         "domain_id": 0,
@@ -215,7 +320,7 @@
     ],
     "public_url": "hackathons/crp-digital-twin-challenge-2026-happiest-health-1757873",
     "region": "online",
-    "registerCount": 562,
+    "registerCount": 689,
     "regnRequirements": {
       "eligibility": "{\"sector\":[\"students\"],\"engineering\":[{\"course\":\"btech\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mtech\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"integrated\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"bca\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mca\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"mca1\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mcm\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdEng\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"diploma\",\"type\":\"engineering\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":0}],\"bSchools\":[{\"course\":\"mba1\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":1},{\"course\":\"mba2\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bba\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"bcom\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mcom\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bhm\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ca\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"cs\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"pgdm\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"execMba\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":1},{\"course\":\"ipm\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"phdManagement\",\"type\":\"bSchools\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3}],\"arts\":[{\"course\":\"bsc\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"msc\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"ba\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ma\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"mdes\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bdes\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"march\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"barch\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"bftech\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bplan\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mplan\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdArts\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"mftech\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bfa\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mfa\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bs\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ms\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bed\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"med\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"beled\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bped\",\"type\":\"arts\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2}],\"medicine\":[{\"course\":\"bPharma\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mPharma\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bums\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"bams\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"bds\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"bhms\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"mbbs\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"bvsc\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"mvsc\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5.5},{\"course\":\"msmd\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mds\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"dm\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"pharmaD\",\"type\":\"medicine\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":6}],\"law\":[{\"course\":\"llb\",\"type\":\"law\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"llm\",\"type\":\"law\",\"programme\":[\"fullTime\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3}],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null,\"eligibilitySummery\":\"Open to students interested in AI, healthcare, data science and digital health, including students from technical, medical and interdisciplinary backgrounds.\"}",
       "end_regn_dt": "2026-10-18T19:00:43+05:30",
@@ -228,7 +333,7 @@
         "durations": 26,
         "text": " days left"
       },
-      "remaining_time": 2276902,
+      "remaining_time": 2252810,
       "show_deadline": 1,
       "start_regn_dt": "2026-09-18T00:30:43+05:30",
       "work_location_type": "state"
@@ -240,7 +345,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1757873,
-          "id": 6159322,
+          "id": 6204170,
           "subject_id": 646023
         },
         "skill": "EHR/EMR Systems",
@@ -251,7 +356,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1757873,
-          "id": 6159323,
+          "id": 6204171,
           "subject_id": 646469
         },
         "skill": "IoT Sensor Integration",
@@ -262,7 +367,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1757873,
-          "id": 6159324,
+          "id": 6204172,
           "subject_id": 647003
         },
         "skill": "Predictive Modeling",
@@ -273,7 +378,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1757873,
-          "id": 6159325,
+          "id": 6204173,
           "subject_id": 643655
         },
         "skill": "Digital Twin Technology",
@@ -284,7 +389,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1757873,
-          "id": 6159326,
+          "id": 6204174,
           "subject_id": 645227
         },
         "skill": "Time Series Analysis",
@@ -300,8 +405,8 @@
     "thumb": null,
     "title": "Digital Twin Challenge 2026",
     "type": "hackathons",
-    "updated_at": "2026-09-18T18:34:25+05:30",
-    "viewsCount": 27372,
+    "updated_at": "2026-09-22T15:18:20+05:30",
+    "viewsCount": 29030,
     "visibility": "both",
     "workfunction": [
       {
@@ -313,7 +418,7 @@
         "pivot": {
           "ai_generated": false,
           "entity_id": 1757873,
-          "id": 6158818,
+          "id": 6204175,
           "subject_id": 2106
         },
         "updated_at": "2026-04-09T00:17:10+05:30",
@@ -328,23 +433,8 @@
         "pivot": {
           "ai_generated": false,
           "entity_id": 1757873,
-          "id": 6158819,
+          "id": 6204176,
           "subject_id": 1854
-        },
-        "updated_at": "2026-02-06T23:31:46+05:30",
-        "work_function_name": null
-      },
-      {
-        "batch_id": 11,
-        "created_at": "2026-02-06T23:31:46+05:30",
-        "description": "",
-        "id": 2014,
-        "name": "Quizzes & Treasure Hunt",
-        "pivot": {
-          "ai_generated": true,
-          "entity_id": 1757873,
-          "id": 6159327,
-          "subject_id": 2014
         },
         "updated_at": "2026-02-06T23:31:46+05:30",
         "work_function_name": null
