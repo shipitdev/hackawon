@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-09-24T07:45:43.395639+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755408",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "An agentic multimodal tool for astrophysicists that ingests raw space telescope fits images and logs to automatically detect anomalies and generate natural-language research briefings.",
+      "problem_statement": "Tool that accelerates research or solves operational bottlenecks in Space research.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini Pro Vision",
+        "LangChain",
+        "Astropy"
+      ],
+      "title": "AstroVision Agent",
+      "track": "Space",
+      "why_it_could_win": "Targets the Space track which has fewer submissions, and delivers a working agentic workflow inspired by multi-agent audit architectures that judges love."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1370167028"
+      ],
+      "pitch": "A multimodal BioTech copilot that allows researchers to photograph microscope slides or gel electrophoresis results and queries an LLM grounded in localized lab protocol PDFs.",
+      "problem_statement": "Tool that accelerates research in BioTech.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenCV",
+        "GPT-4o",
+        "TailwindCSS"
+      ],
+      "title": "BioLens Lab Assistant",
+      "track": "BioTech",
+      "why_it_could_win": "Directly hits the BioTech domain with a live, demonstrable multimodal computer vision component that works instantly on standard laptop cameras."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:964068655"
+      ],
+      "pitch": "An interactive education platform where students upload handwritten math problem photos or textbook pages, and an AI tutor guides them using voice synthesis and step-by-step visual hints.",
+      "problem_statement": "Application that improves access to learning in Education.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Web Speech API",
+        "Gemini Flash"
+      ],
+      "title": "EduScribe Multimodal Tutor",
+      "track": "Education",
+      "why_it_could_win": "Combines speech-to-speech interaction with image analysis, mimicking award-winning conversational agents with high emotional and pedagogical resonance."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "An operational bottleneck analyzer for satellite telemetry data and ground station schedules, using an agentic system to flag scheduling conflicts and propose resolution actions.",
+      "problem_statement": "System that solves an overlooked operational bottleneck in Space research.",
+      "stack": [
+        "Python",
+        "CrewAI",
+        "Pandas",
+        "Plotly",
+        "Streamlit"
+      ],
+      "title": "OrbitLogistics Agent",
+      "track": "Space",
+      "why_it_could_win": "Focuses on the operational bottleneck angle in Space, which appeals directly to organizer criteria regarding real-world problem-solving and agentic workflows."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:964068655",
+        "github:939993991"
+      ],
+      "pitch": "An interactive multimodal assistant for biology students that turns dense academic research papers into conversational audio dialogues with instant visual pathway diagrams.",
+      "problem_statement": "Application that improves access to learning and accelerates research in BioTech.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Mermaid.js",
+        "TailwindCSS"
+      ],
+      "title": "BioSynthesize Docent",
+      "track": "BioTech",
+      "why_it_could_win": "Bridges Education and BioTech tracks with a polished, fully functioning live demo that translates complex data into accessible formats."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

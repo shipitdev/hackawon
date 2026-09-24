@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-24T07:46:01.723596+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758828",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "A rapid automated anomaly detection and signal classification pipeline tailored for simulated quantum-magnetometer datasets.",
+      "problem_statement": "Participants will analyze extremely weak magnetic-field variations, identify meaningful patterns in the measurements, and determine the likely source or signature associated with the observed variation.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "Scikit-Learn",
+        "Jupyter Notebook"
+      ],
+      "title": "QuantumSig: Automated Weak Magnetic Signature Classifier",
+      "track": "",
+      "why_it_could_win": "Solves the exact individual analytical challenge of the competition with a fast, reproducible Jupyter/Python script that handles noisy time-series data cleanly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684",
+        "github:562215361"
+      ],
+      "pitch": "A Streamlit-based exploratory data analysis and visualization tool built specifically for parsing quantum-magnetometer time-series readings and isolating weak-field anomalies.",
+      "problem_statement": "Participants must process the provided data, apply suitable analytical techniques, and submit the required results along with supporting analysis, code, plots or parameter estimates.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "Pandas"
+      ],
+      "title": "MagInspector: Interactive Time-Series EDA & Anomaly Profiler",
+      "track": "",
+      "why_it_could_win": "Provides clear, immediate visualizations and parameter estimates which judges can verify instantly via a working UI during a live review."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "Applies wavelet transforms and isolation forests to decompose weak magnetic-field variations and extract precise source signatures from noisy baseline data.",
+      "problem_statement": "Detect weak magnetic-field variations and determine the likely source or signature of the observed variation.",
+      "stack": [
+        "Python",
+        "PyWavelets",
+        "Scikit-Learn",
+        "Matplotlib"
+      ],
+      "title": "WaveletMag: Multi-Resolution Magnetic Source Fingerprinting",
+      "track": "",
+      "why_it_could_win": "Uses robust signal-processing mathematics (Wavelet analysis) ideal for extremely weak physical measurements, addressing the core analytical constraint of the competition."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "An automated pipeline that ingests quantum-magnetometer data files, calculates required parameter estimates, and auto-generates comprehensive technical submission reports and plots.",
+      "problem_statement": "Submit the required results along with supporting analysis, code, plots or parameter estimates as specified by the organizers.",
+      "stack": [
+        "Python",
+        "ReportLab",
+        "Pandas",
+        "Seaborn"
+      ],
+      "title": "MagInfer: Fast Parameter Estimator and Report Generator",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on output quality and speed—critical for a tight 90-120 minute or fast-turnaround analytical challenge where formatting and correct parameter submission dictate qualification."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "A lightweight machine learning engine optimized for detecting outlier signatures and micro-fluctuations in simulated quantum sensor data streams.",
+      "problem_statement": "Participants will analyze extremely weak magnetic-field variations and identify meaningful patterns in the measurements.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "NumPy",
+        "FastAPI"
+      ],
+      "title": "SensorScan: Isolation Forest Magnetometer Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Leverages proven unsupervised anomaly detection models that train in seconds and deliver high-precision parameter estimates for evaluation metrics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

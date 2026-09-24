@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-24T07:47:54.164249+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760763",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping tool built with Flutter designed specifically to instantly generate, scaffold, and test UI variations based on sudden mystery prompt changes during a compressed 6-hour hackathon sprint.",
+      "problem_statement": "AppSurd '26 Mystery Prompt Challenge requiring teams to rapidly ideate, build, and pitch based on an unconventional mystery prompt in 5 to 6 hours.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Provider",
+        "Hive"
+      ],
+      "title": "FlutterMysteryPromptSimulator",
+      "track": "",
+      "why_it_could_win": "Directly targets the core chaotic constraint of the hackathon—rapid adaptability to a mystery prompt—making it deeply relatable to judges experiencing the same time crunch."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced cross-platform lost and found mobile app built with Flutter that uses image matching to automatically connect misplaced items with their rightful owners on campus.",
+      "problem_statement": "AppSurd '26 Mystery Prompt Challenge featuring beginner-friendly cross-platform app development requirements.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Google ML Kit",
+        "Firebase"
+      ],
+      "title": "CampusLostAndFoundFlutter",
+      "track": "",
+      "why_it_could_win": "Solves an everyday pain felt directly by students and organisers on campus, leveraging proven multimodal matching patterns while strictly adhering to the mandatory Flutter tech stack."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A lightweight mobile application built with Flutter to track, gamify, and optimize sustainable resource usage and recycling habits within college dorms and departments.",
+      "problem_statement": "AppSurd '26 Mystery Prompt Challenge focusing on rapid mobile prototyping for practical college utility.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "SQLite",
+        "Provider"
+      ],
+      "title": "GreenCampusFlutterTracker",
+      "track": "",
+      "why_it_could_win": "Appeals to university-level judges looking for practical sustainability initiatives that can be deployed immediately within IIT (ISM) Dhanbad."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A snappy, offline-first mobile nutrition assistant built with Flutter that delivers instant meal recommendations and calorie tracking using local caching for zero-latency performance.",
+      "problem_statement": "AppSurd '26 Mystery Prompt Challenge requiring functional cross-platform app development within a strict 5 to 6-hour sprint.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Rest API",
+        "Shared Preferences"
+      ],
+      "title": "FlutterNutritionBite",
+      "track": "",
+      "why_it_could_win": "Focuses on exceptionally polished UI/UX design and zero-lag performance, which is critical when judges only have minutes to evaluate a rapid prototype."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A minimalist mobile matching utility built in Flutter that connects students across different departments and years for spontaneous, ad-hoc peer study sessions.",
+      "problem_statement": "AppSurd '26 Mystery Prompt Challenge welcoming inter-specialization and inter-college team collaboration themes.",
+      "stack": [
+        "Flutter",
+        "Dart",
+        "Firebase Firestore"
+      ],
+      "title": "PeerStudyFlutterHub",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the inter-departmental collaboration rules of the hackathon, winning over judges with hyper-local relevance."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

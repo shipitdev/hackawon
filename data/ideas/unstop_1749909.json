@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-24T07:45:30.100067+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1749909",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered clinical practice and evaluation platform combining LLM patient interviews with MediaPipe computer vision pose tracking for CPR and physical examination training.",
+      "problem_statement": "Real-world applications in Machine Learning and Computer Vision focusing on medical education.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "MediaPipe",
+        "FastAPI",
+        "OpenCV",
+        "React"
+      ],
+      "title": "VisionMed OSCE Simulator",
+      "track": "Computer Vision",
+      "why_it_could_win": "Directly tackles the offline round's explicit focus on computer vision and real-world ML applications while leveraging a proven architecture from winning hackathon projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1370167028",
+        "github:1259514645"
+      ],
+      "pitch": "An edge-optimized computer vision mobile web application that tracks human body joints during physical workouts and physical therapy sessions to provide real-time corrections.",
+      "problem_statement": "Practical skills in Machine Learning and Computer Vision focusing on core concepts and real-world applications.",
+      "stack": [
+        "Java",
+        "Android SDK",
+        "TensorFlow Lite",
+        "OpenCV"
+      ],
+      "title": "FitPose AI Corrector",
+      "track": "Computer Vision",
+      "why_it_could_win": "Combines high-performance computer vision with a working mobile camera interface, satisfying the offline judging criteria for real-world CV applications."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A multimodal platform that ingests unstructured lecture and seminar videos, transcribes them using speech-to-text, and indexes frames using computer vision to make educational video content fully searchable.",
+      "problem_statement": "Real-world applications in Machine Learning and Computer Vision.",
+      "stack": [
+        "Python",
+        "Whisper",
+        "CLIP",
+        "Elasticsearch",
+        "FastAPI"
+      ],
+      "title": "DocIndex Video Intelligence",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Addresses the organizers' focus on AI and computer vision with a robust pipeline that transforms unstructured data into searchable assets, echoing past hackathon winners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A developer-focused toolkit that detects, explains, and mitigates demographic and systemic bias in tabular machine learning models before they are deployed.",
+      "problem_statement": "Core concepts and real-world applications in Machine Learning.",
+      "stack": [
+        "Python",
+        "Scikit-learn",
+        "Fairlearn",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "FairML Auditor",
+      "track": "Machine Learning",
+      "why_it_could_win": "Demonstrates deep technical proficiency in machine learning evaluation beyond simple model training, impressing judges looking for rigorous engineering."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight computer vision system designed for campus security and attendance tracking that utilizes facial feature embedding while preserving student privacy.",
+      "problem_statement": "Real-world applications in Computer Vision.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Face_recognition",
+        "SQLite",
+        "Flask"
+      ],
+      "title": "CampusCV Attendance & Safety Guard",
+      "track": "Computer Vision",
+      "why_it_could_win": "Directly targets the campus context of Chandigarh University by solving a local administrative problem using offline-capable computer vision models."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

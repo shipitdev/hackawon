@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-24T07:46:10.785828+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759469",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106",
+        "github:435231380"
+      ],
+      "pitch": "A high-performance classification pipeline leveraging gradient boosting and SHAP explainability to pinpoint specific quantum error sources from noisy syndrome measurements.",
+      "problem_statement": "Analyze provided noisy quantum data, investigate patterns and possible error sources, and develop appropriate techniques to identify or reduce the effects of noise.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Jupyter Notebook",
+        "scikit-learn"
+      ],
+      "title": "QNoise-XGB: Quantum Noise Pattern Classifier",
+      "track": "",
+      "why_it_could_win": "Adapts winning tabular/data-science competition patterns by pairing ultra-fast XGBoost error classification with SHAP values to give judges transparent, interpretable error signatures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated exploratory data analysis tool built for noisy quantum datasets that calculates cardinality, distribution skew, and fidelity metrics in seconds.",
+      "problem_statement": "Participants will analyze the provided noisy quantum data, investigate patterns and possible error sources, and develop appropriate techniques to identify or reduce the effects of noise.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly",
+        "data-profiling"
+      ],
+      "title": "Quantum Error Profiler & Visualizer",
+      "track": "",
+      "why_it_could_win": "Leverages automated data-profiling patterns to output clean visual dashboards instantly, scoring high on the reproducibility and visualization judging criteria."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping pipeline for processing noisy quantum state vectors, mapping error syndromes, and applying corrective transformations.",
+      "problem_statement": "Participants must investigate the supplied data and identify relevant noise patterns or error sources. Participants must develop an appropriate method for recovering or improving reliable quantum information.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "Matplotlib",
+        "Jupyter Notebook"
+      ],
+      "title": "Syndrome-Net: Automated Quantum Error Mitigation",
+      "track": "",
+      "why_it_could_win": "Focuses intensely on the recovery performance metric by implementing a streamlined data-to-correction algorithmic loop within a tight timeframe."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An automated log and metric analysis pipeline adapted from production anomaly detection systems to flag abnormal gate-fidelity drops and decoherence spikes.",
+      "problem_statement": "Participants will analyze the provided noisy quantum data, investigate patterns and possible error sources, and develop appropriate techniques to identify or reduce the effects of noise.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Pandas",
+        "Next.js"
+      ],
+      "title": "Q-Log Forensics: Anomaly Detection for Quantum Circuits",
+      "track": "",
+      "why_it_could_win": "Brings battle-tested log analytics and anomaly detection architectures from software engineering competitions directly into the quantum telemetry domain."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A rigorous, single-file computational notebook implementing end-to-end data loading, statistical noise profiling, error isolation, and fidelity verification with zero external state.",
+      "problem_statement": "Submissions will be evaluated based on the published criteria, including the quality of the analysis, accuracy of the identified noise/error patterns, recovery performance, methodology and reproducibility.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "NumPy",
+        "Seaborn"
+      ],
+      "title": "Q-Audit: Reproducible Quantum Noise Notebook",
+      "track": "",
+      "why_it_could_win": "Directly targets the explicit reproducibility evaluation criterion by providing a self-contained, thoroughly commented notebook that executes deterministically from raw data to final visual plots."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

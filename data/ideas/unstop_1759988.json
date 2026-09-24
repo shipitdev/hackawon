@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-24T07:46:28.383323+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759988",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Real-time digital twin and predictive anomaly detection platform for industrial manufacturing equipment using sensor telemetry streams.",
+      "problem_statement": "Smart Manufacturing and Digital Twin & Simulation focus areas of INDUX 5.0.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "TensorFlow"
+      ],
+      "title": "SmartTwin-IIoT",
+      "track": "Smart Manufacturing",
+      "why_it_could_win": "Directly targets the industrial manufacturing focus area with a working dashboard demonstrating real-time telemetry anomaly detection, appealing strongly to the industry-academia jury."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1370167028",
+        "github:1182199849"
+      ],
+      "pitch": "Computer vision system that monitors manufacturing shop floors and construction sites for personal protective equipment (PPE) compliance and safety hazards in real-time.",
+      "problem_statement": "Environment, Health & Safety (EHS) and Computer Vision & Image Processing focus areas of INDUX 5.0.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "Flask",
+        "React"
+      ],
+      "title": "VigilantVision-EHS",
+      "track": "Environment, Health & Safety (EHS)",
+      "why_it_could_win": "Solves a tangible safety problem in heavy industries with live camera inference, proving immediate real-world utility to industry judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998",
+        "github:1241231621"
+      ],
+      "pitch": "Multilingual AI healthcare triage assistant that translates and structures rural patient symptoms in regional languages for quick clinic routing.",
+      "problem_statement": "Multilingual AI & Language Technologies and Healthcare focus areas of INDUX 5.0.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "BhashaMed-Triage",
+      "track": "Multilingual AI & Language Technologies",
+      "why_it_could_win": "Combines multilingual capabilities with healthcare triage, echoing successful regional health solutions that prioritize social impact and accessibility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1234067949"
+      ],
+      "pitch": "Satellite imagery analytics platform for monitoring industrial land use and environmental compliance over time.",
+      "problem_statement": "Sustainability & Green Technologies and Space Technology & Exploration focus areas of INDUX 5.0.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Leaflet.js",
+        "FastAPI"
+      ],
+      "title": "AeroView-SatelliteAI",
+      "track": "Sustainability & Green Technologies",
+      "why_it_could_win": "Leverages satellite data monitoring, replicating a proven winning formula from industrial compliance hackathons with clear environmental impact."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "AI-powered inventory and demand forecasting tool for local supply chains and retail commerce minimizing perishable waste.",
+      "problem_statement": "Retail & Intelligent Commerce and Data Analytics & Predictive Intelligence focus areas of INDUX 5.0.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "AgriRetail-DemandPredictor",
+      "track": "Retail & Intelligent Commerce",
+      "why_it_could_win": "Provides concrete economic and sustainability benefits through predictive analytics, showing a clear metric of waste reduction for commercial judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

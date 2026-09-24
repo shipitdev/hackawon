@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-24T07:47:40.072867+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760460",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A specialized tool that evaluates user-submitted Python code for time and space complexity bottlenecks using AST parsing and automated stress testing.",
+      "problem_statement": "PYTHON CODE WAR 2026: Online individual coding contest focused on Python programming, algorithmic problem-solving, and efficient implementation.",
+      "stack": [
+        "Python",
+        "ast",
+        "timeit",
+        "pytest"
+      ],
+      "title": "Algorithmic Efficiency Benchmarker for Python",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the core contest criteria of optimized coding, logical thinking, and efficient implementation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An educational utility that converts complex recursive or dynamic programming Python solutions into real-time visual execution trees for debugging.",
+      "problem_statement": "PYTHON CODE WAR 2026: Online individual coding contest focused on Python programming, algorithmic problem-solving, and efficient implementation.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "graphviz"
+      ],
+      "title": "Python Dynamic AST Visualizer",
+      "track": "",
+      "why_it_could_win": "Provides a functioning live demo that solves the struggle of understanding complex algorithmic state changes during competitive coding."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A tool that parses Python function signatures and automatically generates robust edge-case test suites including boundary values and randomized stress inputs.",
+      "problem_statement": "PYTHON CODE WAR 2026: Online individual coding contest focused on Python programming, algorithmic problem-solving, and efficient implementation.",
+      "stack": [
+        "Python",
+        "Hypothesis",
+        "inspect"
+      ],
+      "title": "Automated Python Test Case Generator",
+      "track": "",
+      "why_it_could_win": "Applies software engineering rigor to competitive programming, helping coders catch edge-case bugs before submission."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A lightweight decorator-based memory profiler designed for Python scripts to detect peak RAM usage and memory leaks in tight algorithmic loops.",
+      "problem_statement": "PYTHON CODE WAR 2026: Online individual coding contest focused on Python programming, algorithmic problem-solving, and efficient implementation.",
+      "stack": [
+        "Python",
+        "tracemalloc",
+        "psutil"
+      ],
+      "title": "Competitive Programming Memory Profiler",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering constraints, helping participants avoid Memory Limit Exceeded (MLE) errors in competitive coding."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A CLI and web utility that runs multiple implementations of the same Python algorithm side-by-side to benchmark execution speeds under identical inputs.",
+      "problem_statement": "PYTHON CODE WAR 2026: Online individual coding contest focused on Python programming, algorithmic problem-solving, and efficient implementation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Timeit"
+      ],
+      "title": "Python Snippet Speed Comparator",
+      "track": "",
+      "why_it_could_win": "Gives developers an immediate, working tool to decide which algorithmic approach is optimal for tight execution time limits."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-24T07:46:59.706654+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760281",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered AML and compliance risk visualization platform utilizing graph intelligence to map suspicious fund flows across multiple decentralized finance protocols in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AegisGraph",
+      "track": "Finance & Commerce",
+      "why_it_could_win": "Leverages heavy backend graph intelligence and data processing pipelines similar to Bito, proving serious engineering execution within a short window."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A local-first video intelligence platform that transforms unstructured meeting and security footage into searchable, vector-indexed semantic data without relying on paid heavy cloud APIs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper",
+        "FAISS",
+        "HTML5"
+      ],
+      "title": "VisiQuery",
+      "track": "AI & Intelligent Systems",
+      "why_it_could_win": "Mirrors the LibrAI winning architecture by converting multi-modal raw data into queryable intelligence, appealing to judges looking for high practical utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A systematic backtesting sandbox that uses customized chess engine evaluation scores and decision tree prompts as a deterministic proxy task to benchmark small LLM reasoning capability.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Stockfish API",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "QuantEval Chess",
+      "track": "Software & Developer Tools",
+      "why_it_could_win": "Directly adopts the rigorous evaluation and benchmarking methodology of the PointChessEngine grand prize winner, focusing on hardcore metrics over fluff."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A lightweight clinical-grade diagnostic triage tool that integrates remote PPG heart rate extraction via webcam alongside multi-lingual offline symptom assessments for low-connectivity regions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "TailwindCSS",
+        "WebRTC"
+      ],
+      "title": "MedTriage Edge",
+      "track": "Healthcare & Wellbeing",
+      "why_it_could_win": "Follows the proven formula of SAGACITY and mediscan-ai by blending computer vision health metrics with high-impact social accessibility use cases."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent sustainability platform that uses LangGraph to coordinate decentralized data scrapers, generating automated carbon offset strategies and ESG compliance reports for local SMBs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js",
+        "Prisma"
+      ],
+      "title": "EcoGraph Agent",
+      "track": "Productivity & Automation",
+      "why_it_could_win": "Replicates the multi-agent RAG architecture of the award-winning greennovation-ai-platform, hitting the sweet spot of structured workflow automation and environmental impact."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

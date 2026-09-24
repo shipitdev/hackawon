@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-24T07:46:19.647854+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759716",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A tactile IoT desktop widget combined with a mobile app that translates subtle physical interactions (like a tap or a hold) into ambient light and haptic pulses for loved ones living apart.",
+      "problem_statement": "Human Connection: Build technology that helps people connect, understand, support, and relate to one another.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "WebSockets",
+        "ESP32"
+      ],
+      "title": "AuraLink: Empathy-Driven Long-Distance Connection Pod",
+      "track": "Human Connection",
+      "why_it_could_win": "Focuses heavily on live UI/UX appeal and emotional impact, which traditionally scores extremely high with judges looking for creative human-centered applications rather than standard productivity dashboards."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1185527998"
+      ],
+      "pitch": "An AI-powered video web application that analyzes real-time conversational nuances, eye contact, and tone to help users practice empathy and active listening during difficult interpersonal discussions.",
+      "problem_statement": "AI & Social Interaction: Explore how AI can enable more meaningful, natural, and human-centered interactions.",
+      "stack": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "PersonaMirror: AI-Facilitated Active Listening Coach",
+      "track": "AI & Social Interaction",
+      "why_it_could_win": "Leverages real-time AI and multi-modal media processing similar to winning video intelligence platforms, demonstrating high technical implementation difficulty within a 48-hour window."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A decentralized discovery tool for niche hobbyists to form interest-based pods with verified identity reputation badges and automated collaborative event scheduling.",
+      "problem_statement": "Communities: Create tools that help people discover, build, and strengthen communities around shared interests.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Express.js"
+      ],
+      "title": "NicheNet: Hyper-Local Micro-Community Discovery and Trust Hub",
+      "track": "Communities",
+      "why_it_could_win": "Solves community fragmentation with clear measurable structural utility, appealing directly to judges prioritizing scalable community tools and clean interface design."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A private digital communication platform for close-knit groups to share voice-first, ephemeral story capsules annotated with ambient soundscapes rather than text.",
+      "problem_statement": "Communication: Reimagine how people communicate, express themselves, and build relationships in the digital world.",
+      "stack": [
+        "Vue.js",
+        "Web Audio API",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "EchoVibe: Asynchronous Emotional Story Circles",
+      "track": "Communication",
+      "why_it_could_win": "Reimagines standard text and video chat paradigms into an imaginative audio-first medium, capturing points for creative expression and novel UI/UX design."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1213911408"
+      ],
+      "pitch": "A localized, multilingual AI companion interface designed for families to document oral history, track daily medication schedules, and generate wellness digests for elderly members.",
+      "problem_statement": "Human Connection: Build technology that helps people connect, understand, support, and relate to one another.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "KinSync: Multi-Generational Health & Memory Companion",
+      "track": "Human Connection",
+      "why_it_could_win": "Directly mirrors the social impact model of multilingual healthcare and assistant agents that frequently win top prizes by solving deeply felt local accessibility and connection challenges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

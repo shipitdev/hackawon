@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-24T07:46:55.509143+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "polish",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760233",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1196410850",
+        "github:889142131"
+      ],
+      "pitch": "An intelligent framework designed to ingest, parse, and solve cryptic cyber puzzles and CTF challenges by combining symbolic execution with LLM agents.",
+      "problem_statement": "Round 2 — Cyber CTF and Round 3 — Cryptic Cyber Hunt",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Angr"
+      ],
+      "title": "CryptoHunt CTF Automated Solver & Analyzer",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core theme of the offline CTF and cryptic hunt rounds by providing an innovative automation layer, leveraging hard engineering principles seen in winning agentic red-teaming tools."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A zero-knowledge, biometric-secured vault app built for local offline environments to store sensitive credentials and investigation notes securely during red-teaming engagements.",
+      "problem_statement": "Round 1 — Vulnerability Hunt and Round 2 — Cyber CTF",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "AES-256",
+        "Biometrics API"
+      ],
+      "title": "ZeroTrace Secure Cryptographic Data Vault",
+      "track": "",
+      "why_it_could_win": "Applies battle-tested, award-winning zero-knowledge architecture to solve the practical need for secure credential management during a live cybersecurity competition."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1175183165"
+      ],
+      "pitch": "A mechanistic interpretability tool designed to uncover hidden data and steganographic payloads concealed within latent model spaces or file headers during vulnerability investigations.",
+      "problem_statement": "Round 1 — Vulnerability Hunt",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "LatentSteg: SOTA Steganography Detector",
+      "track": "",
+      "why_it_could_win": "Features genuinely hard engineering and a novel technical approach that stands out to judges evaluating deep analytical security skills."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:889142131"
+      ],
+      "pitch": "An agentic red-teaming pipeline that rapidly scouts target web applications, flags misconfigurations, and generates actionable exploit verification reports for vulnerability hunts.",
+      "problem_statement": "Round 1 — Vulnerability Hunt",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Docker",
+        "BeautifulSoup"
+      ],
+      "title": "SpectreRed: Automated Web Vulnerability Mapper",
+      "track": "",
+      "why_it_could_win": "Leverages agentic LLM principles from grand-prize-winning projects to streamline the vulnerability discovery process under tight hackathon timeframes."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:600524805"
+      ],
+      "pitch": "An interactive gamified platform teaching secure coding practices and web vulnerability mitigation to participants during the introductory masterclass round.",
+      "problem_statement": "Round 0 — Cybersecurity Masterclass",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "EduSec Cyber Playground",
+      "track": "",
+      "why_it_could_win": "Directly enhances the educational masterclass segment with exceptional frontend polish and practical cybersecurity pedagogy that won previous hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

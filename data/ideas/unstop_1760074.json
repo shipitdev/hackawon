@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-24T07:46:46.187856+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760074",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A privacy-preserving orchestration platform where specialized AI agents collaborate across decentralized networks using zero-knowledge proofs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Noir",
+        "Base",
+        "Python"
+      ],
+      "title": "AegisNode: ZK-Gated Autonomous Agent Collaboration Network",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines cutting-edge ZK proofs with autonomous agent workflows, matching the technical depth seen in winning architectures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An edge-computed voice and text AI assistant providing localized preventive health insights and outbreak warnings in vernacular languages.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "Whisper",
+        "LangChain"
+      ],
+      "title": "AuraHealth: Multilingual Offline-First Health Awareness Agent",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly tackles high-impact social needs with localized LLMs and robust offline capabilities, resonating strongly with judges looking for real-world utility."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated monitoring dashboard leveraging multi-spectral satellite imagery to detect unauthorized industrial land usage and emissions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Rasterio",
+        "OpenLayers",
+        "FastAPI"
+      ],
+      "title": "GeoSentinel: Satellite-Based Industrial Compliance and Emission Tracker",
+      "track": "CivicTech",
+      "why_it_could_win": "Features complex data pipeline engineering and tangible environmental impact monitoring, a proven winning formula."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure Model Context Protocol gateway allowing disparate hospital databases to query clinical AI agents without compromising patient data boundaries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "Kubernetes",
+        "Python",
+        "Docker",
+        "Model Context Protocol"
+      ],
+      "title": "MedGraph MCP: Federated Medical Agent Registry on Kubernetes",
+      "track": "HealthTech",
+      "why_it_could_win": "Implements modern cloud-native architectural standards (MCP, Kubernetes) that demonstrate exceptional technical rigor."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A real-time edge AI garbage classification system coupled with a hardware simulation pipeline for automated municipal recycling facilities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "PyTorch",
+        "Arduino",
+        "Flask"
+      ],
+      "title": "EcoSort Edge: Computer Vision Robotic Waste Sorting Simulator",
+      "track": "AI",
+      "why_it_could_win": "Combines live computer vision inference with clear sustainability metrics, presenting an immediately demonstrable and engaging working product."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

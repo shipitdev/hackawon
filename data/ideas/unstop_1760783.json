@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-24T07:47:59.085721+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "civic",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "judge-pain",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760783",
+  "ideas": [
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "Multilingual autonomous health agent for rural clinics that diagnoses preliminary symptoms, checks local vaccine stocks, and auto-generates outbreak alert reports for district authorities.",
+      "problem_statement": "Rural health awareness and automated district health reporting across Bharat languages.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "ArogyaDoot Bharat",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly echoes the winning SAGACITY pattern by combining vernacular accessibility with critical health utility, appealing heavily to GovTech and HealthTech judges."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "Autonomous multi-step agricultural procurement agent that analyzes regional soil data, plans fertilizer application schedules, and coordinates directly with local cooperative supply chains.",
+      "problem_statement": "AgriTech supply chain inefficiencies and lack of actionable, localized farming advice.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "KrishiKosh Agent",
+      "track": "AgriTech",
+      "why_it_could_win": "Features true multi-step planning and tool usage over simple wrapper text, fulfilling strict project requirements while targeting AgriTech."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "An agentic navigator for rural welfare schemes that verifies citizen eligibility across 50+ government portals via voice in regional Indian languages and submits applications automatically.",
+      "problem_statement": "Low scheme utilization and complex paperwork in GovTech across Bharat languages.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Bhashini API",
+        "LangGraph",
+        "SQLite"
+      ],
+      "title": "BhashaGov Navigator",
+      "track": "GovTech",
+      "why_it_could_win": "Solves a painful administrative problem familiar to judges living in India, with high measurable socio-economic impact."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "Adaptive AI teaching assistant agent that generates personalized regional-language remediation modules for rural students based on diagnostic quiz telemetry.",
+      "problem_statement": "EdTech access gaps and personalization challenges in vernacular Indian classrooms.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini API"
+      ],
+      "title": "ShikshaSutra",
+      "track": "EdTech",
+      "why_it_could_win": "Combines EdTech and Bharat Languages tracks into a tightly scoped, working prototype with a clear pedagogical feedback loop."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1228867095",
+        "github:1034660288"
+      ],
+      "pitch": "Voice-first desktop agent for senior citizens in India that actively intercepts and analyzes suspicious financial UPI requests and fraudulent phishing calls in real time.",
+      "problem_statement": "FinTech cyber fraud targeting vulnerable and elderly demographics across India.",
+      "stack": [
+        "Swift",
+        "Python",
+        "WebSockets",
+        "GLM API"
+      ],
+      "title": "VridhGuard AI",
+      "track": "FinTech",
+      "why_it_could_win": "Adapts a proven global hackathon winner concept to the Indian FinTech and UPI ecosystem, demonstrating sophisticated event-driven agent workflows."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

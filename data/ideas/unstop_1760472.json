@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-24T07:47:44.870479+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760472",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated multi-agent compliance pipeline that performs pre-deployment risk assessments for automated workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "BPMN.io"
+      ],
+      "title": "AgenticBPMN: Autonomous Multi-Agent Risk and Compliance Auditor",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track by moving beyond basic chatbots into structured agent workflows with human-in-the-loop governance, mirroring a proven winning pattern."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router utilizing kNN exemplar indexing and automated LLM-judge writebacks to optimize routing accuracy and lower inference costs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "SemanticRoute-Q: Self-Improving Dynamic LLM Router",
+      "track": "Agentic AI",
+      "why_it_could_win": "Combines high technical difficulty with an immediately quantifiable metric (routing cost reduction and accuracy boost), appealing strongly to technical judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An automated RAG toolkit that integrates native auto-embedding indexing directly within MariaDB to streamline document retrieval for enterprise databases.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "HNSWLib"
+      ],
+      "title": "MariaDB-TOON: Native Auto-Embedding & RAG Toolkit",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Delivers practical data engineering value with a clear database integration angle, echoing successful data infrastructure hacks."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol (MCP) server mesh on Kubernetes designed for secure, distributed medical and clinical data AI agent workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Kubernetes",
+        "ArgoCD",
+        "Python",
+        "Go"
+      ],
+      "title": "K-Federate: Federated MCP Server Registry on Kubernetes",
+      "track": "Open Innovation",
+      "why_it_could_win": "Showcases complex distributed systems and DevOps engineering (K8s and service mesh) which stands out drastically in a field of basic wrapper applications."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An interactive data profiling engine that runs automated exploratory data analysis, checks cardinality and schema consistency, and generates instant integrity ratings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "OpenAI API"
+      ],
+      "title": "DataVeritas-EDA: Automated Data Integrity & Profiling Suite",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Solves an everyday developer and data scientist pain point with a polished full-stack interface and instant, actionable utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

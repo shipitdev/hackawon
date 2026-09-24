@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-09-24T07:45:34.799241+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750118",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1171690684",
+        "github:1079913400"
+      ],
+      "pitch": "A localized sustainability tracking tool that ingests municipal utility, supply chain, and transit logs to generate predictive corporate emission forecasts and live reduction dashboards.",
+      "problem_statement": "Sustainability challenges within the Data Quest 3.0 domains focusing on turning raw ecological data into actionable organizational insights.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "Pandas"
+      ],
+      "title": "EcoPulse: Automated Sustainability & Carbon Footprint Data Platform",
+      "track": "Sustainability",
+      "why_it_could_win": "Directly targets the Sustainability exploration domain by pairing robust backend analytics with clean interactive visualization dashboards, aligning with judges' preference for practical MVP prototypes."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An AI-powered emergency room queue and resource forecasting engine that predicts patient inflow spikes and optimizes bed allocations using historical hospital admission logs.",
+      "problem_statement": "Healthcare analytics challenges in Data Quest 3.0 aimed at optimizing real-world operational bottlenecks through data science.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly",
+        "PostgreSQL"
+      ],
+      "title": "MedFlow AI: Patient Triage & Healthcare Resource Analytics",
+      "track": "Healthcare",
+      "why_it_could_win": "Combines predictive machine learning with an operational dashboard that addresses a high-impact, real-world hospital management pain point."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A real-time transaction monitoring engine that uses unsupervised isolation forests and graph analytics to flag suspicious merchant settlement anomalies instantly.",
+      "problem_statement": "Finance domain challenges exploring financial data patterns, risk trends, and fraud analytics.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "React",
+        "Recharts"
+      ],
+      "title": "FinSight Ledger: Automated Financial Fraud & Anomaly Detection",
+      "track": "Finance",
+      "why_it_could_win": "Leverages fast machine learning algorithms for real-time anomaly detection, showing high technical complexity that appeals to industry professional judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1026027777",
+        "github:1200926140"
+      ],
+      "pitch": "An enterprise natural language query layer that converts conversational prompts into complex SQL queries and dynamic business intelligence dashboards instantly.",
+      "problem_statement": "Data Analytics & Business Intelligence challenges focused on transforming raw business databases into accessible insights.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "DataLens AI: Text-to-Analytics Business Intelligence Copilot",
+      "track": "Data Analytics & Business Intelligence",
+      "why_it_could_win": "Replicates the winning architecture of generating interactive dashboards from text inputs, offering an immediately demonstrable, highly polished user experience."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A lightweight auditing suite that inspects recruitment and grading machine learning models for demographic bias, generates interpretability reports, and applies re-weighting mitigation.",
+      "problem_statement": "Artificial Intelligence & Learning challenges focused on validating responsible, ethical AI models using data-driven approaches.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Fairlearn",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "FairHire ML: Algorithmic Bias Auditing & Mitigation Platform",
+      "track": "Artificial Intelligence & Machine Learning",
+      "why_it_could_win": "Tackles the increasingly critical requirement for responsible and fair AI systems, a standout topic for academic and industry judges alike."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

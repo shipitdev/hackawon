@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-24T07:47:17.812985+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760317",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage app providing rPPG contactless heart-rate sensing and multi-lingual triage for rural health workers in India.",
+      "problem_statement": "Healthcare access gaps in rural and semi-urban regions across India requiring rapid initial health assessment.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "MediScan Rural Triage",
+      "track": "Healthcare",
+      "why_it_could_win": "Combines high-impact social utility with a working computer-vision demo (rPPG), echoing successful health-tech hackathon winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1073244675"
+      ],
+      "pitch": "An alternative credit-scoring and risk mitigation platform for micro-agri-lenders using graph intelligence and explainable machine learning.",
+      "problem_statement": "FinTech and financial inclusion barriers for small-scale farmers and rural enterprises lacking formal credit histories.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX"
+      ],
+      "title": "AgriGraph AML & Credit Risk",
+      "track": "FinTech",
+      "why_it_could_win": "Addresses a massive economic problem in India's rural sector using sophisticated graph intelligence and explainable AI scoring."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered carbon tracking and optimized logistics routing dashboard for university and corporate campus supply chains.",
+      "problem_statement": "Inefficient delivery logistics and high carbon footprints within large institutional campuses across India.",
+      "stack": [
+        "TypeScript",
+        "Supabase",
+        "Leaflet.js",
+        "OpenAI API"
+      ],
+      "title": "EcoRoute Campus Logistics",
+      "track": "Sustainability",
+      "why_it_could_win": "Directly targets Sustainability and Logistics domains simultaneously while providing clear, quantifiable carbon-reduction metrics."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent personalized tutoring platform utilizing RAG to bridge learning gaps for engineering and vocational students in India.",
+      "problem_statement": "High student-to-faculty ratios in Indian universities leaving individual learning gaps unaddressed.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "EduMentor Agent Studio",
+      "track": "Education",
+      "why_it_could_win": "Leverages advanced multi-agent orchestrations and RAG architectures that consistently score top spots in educational hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-driven community reporting platform that aggregates local infrastructural issues and automatically drafts actionable reports for municipal authorities.",
+      "problem_statement": "Inefficient channels for citizens to report hyper-local civic issues and track resolution progress.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "OpenAI API"
+      ],
+      "title": "CivicPulse Local Impact Copilot",
+      "track": "Social Impact",
+      "why_it_could_win": "Combines civic tech with an AI copilot, creating a tangible product with immediate real-world deployment potential."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

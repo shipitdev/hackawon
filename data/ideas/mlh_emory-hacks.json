@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-24T07:45:02.828684+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:emory-hacks",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1213911408"
+      ],
+      "pitch": "A localized logistics platform that uses predictive demand modeling to route surplus dining hall food to Atlanta community fridges before expiration.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "Pandas"
+      ],
+      "title": "Atlanta Campus Food Rescue Router",
+      "track": "",
+      "why_it_could_win": "It targets local social impact in Atlanta, which appeals heavily to university-hosted hackathon judges looking for tangible community value."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1241231621"
+      ],
+      "pitch": "A privacy-first multi-agent RAG system built specifically on Emory Student Health guidelines to triage symptoms and route students to campus mental and physical health resources.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "Emory Student Health RAG Companion",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration and addresses an acute, relatable problem for students attending Emory University."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An interactive GIS spatial analysis tool combining MARTA public transit schedules with socioeconomic census data to highlight transit deserts around university areas in Atlanta.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Mapbox GL JS",
+        "Python",
+        "GeoPandas"
+      ],
+      "title": "MARTA Transit Equity Mapper",
+      "track": "",
+      "why_it_could_win": "Leverages geospatial data visualization, which immediately captures judges' attention with compelling, high-contrast visual outputs."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated compliance and anomaly detection platform for student government association allocations using lightweight graph intelligence to flag suspicious spending patterns.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "NetworkX",
+        "LightGBM"
+      ],
+      "title": "Campus Club Budget & Grant Auditor",
+      "track": "",
+      "why_it_could_win": "Solves an administrative pain point experienced directly by student organizers and campus faculty judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A localized environmental monitoring dashboard utilizing historical weather and satellite imagery to predict urban heat island intensity spikes across Atlanta neighborhoods.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "Atlanta Urban Canopy Micro-Forecaster",
+      "track": "",
+      "why_it_could_win": "Combines time-series forecasting with environmental data science, echoing the rigorous modeling approach seen in top-tier winning projects."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

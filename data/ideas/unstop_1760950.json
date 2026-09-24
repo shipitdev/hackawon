@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-09-24T07:48:07.368042+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760950",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A hyper-localized campus asset and navigation solver designed specifically for the sprawling layout of Punjab Engineering College.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Leaflet",
+        "Python"
+      ],
+      "title": "PEC Campus Navigation and Resource Optimization Engine",
+      "track": "",
+      "why_it_could_win": "Local judges from PEC Chandigarh will immediately recognize the utility of a tool built specifically to solve campus navigation and room allocation bottlenecks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A zero-latency collaborative coding and execution arena optimized for rapid online hackathon debugging and pair programming.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets",
+        "Docker"
+      ],
+      "title": "CodeSpike: Real-Time Algorithmic Collaborative Sandbox",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the core format of an online coding challenge by offering a tool that other developers and hackathon participants can use instantly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated deadline tracker and submission validator built to streamline online coding competition workflows for student coordinators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "PEC Event and Submission Synchronizer",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical friction point for organizers hosting an online coding event at Punjab Engineering College."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An intelligent static analysis wrapper that flags vulnerability patterns and architectural anti-patterns in real-time during competitive coding sprints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AST",
+        "TypeScript"
+      ],
+      "title": "AuraLog: AI-Powered Code Quality and Security Linter",
+      "track": "",
+      "why_it_could_win": "Focuses on deep engineering utility rather than superficial wrappers, matching the technical rigor expected at premier engineering institution events."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A matchmaking web app that connects struggling online hackathon teams with available campus mentors based on specific technical stack needs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "PeerSync: Instant Mentorship Matcher for Online Hackathons",
+      "track": "",
+      "why_it_could_win": "Improves participant retention and success rates in a virtual hackathon format, appealing strongly to event organizers who value community engagement."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

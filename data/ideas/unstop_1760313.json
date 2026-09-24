@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-24T07:47:13.493328+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760313",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:208268505"
+      ],
+      "pitch": "A dual-propulsion robotic vehicle combining catamaran hulls for open water mobility with caterpillar tracks for scaling muddy riverbanks to retrieve trapped plastic waste.",
+      "problem_statement": "Design a robot that can move through open water and reach riverbank debris without getting stuck.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "ROS",
+        "Python",
+        "SolidWorks"
+      ],
+      "title": "MudScout: Amphibious Bank-Crawler",
+      "track": "",
+      "why_it_could_win": "Addresses the core hardware challenge explicitly by solving the difficult transition phase from water to muddy riverbanks where standard boats fail."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-AI camera module mounted on an RC collection vessel that identifies and logs types of riverbank garbage in real-time before mechanical retrieval.",
+      "problem_statement": "Design a robot that can move through open water and reach riverbank debris without getting stuck.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "TensorFlow Lite"
+      ],
+      "title": "TrashTrack Vision: AI Riverbank Debris Classifier",
+      "track": "",
+      "why_it_could_win": "Leverages an unusual physical build paired with a proven computer vision winning pattern from past robotics hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A lightweight robotic arm with a scoop and gripping mechanism attached to a floating platform, specifically engineered to reach up mudbanks and pull down accumulated litter.",
+      "problem_statement": "Design a robot that can move through open water and reach riverbank debris without getting stuck.",
+      "stack": [
+        "Arduino",
+        "ESP32",
+        "Servo Motors",
+        "Fusion360"
+      ],
+      "title": "BankGrabber: Articulated Bank-Arm",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on mechanical execution and a working physical demo, which judges at a hardware hackathon heavily prioritize over abstract software."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1179000073",
+        "github:45683629"
+      ],
+      "pitch": "An autonomous surface vessel equipped with solar panels and energy monitoring systems that tracks power efficiency while cruising shorelines for debris collection.",
+      "problem_statement": "Design a robot that can move through open water and reach riverbank debris without getting stuck.",
+      "stack": [
+        "C",
+        "Arduino",
+        "Solar Charge Controller",
+        "GPS Module"
+      ],
+      "title": "EcoRipple: Solar-Powered Autonomous Skimmer",
+      "track": "",
+      "why_it_could_win": "Combines renewable energy metrics with hardware robotics, echoing past winning strategies focused on sustainability and power optimization."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:693288105"
+      ],
+      "pitch": "A radar-emulating ultrasonic and depth-sensing sensor array mounted on a watercraft to map underwater obstacles and identify accessible shorelines for cleanup.",
+      "problem_statement": "Design a robot that can move through open water and reach riverbank debris without getting stuck.",
+      "stack": [
+        "Python",
+        "ROS",
+        "Ultrasonic Sensors",
+        "ESP32"
+      ],
+      "title": "ShoreRadar: Obstacle and Bank Mapping Sonar",
+      "track": "",
+      "why_it_could_win": "Brings sophisticated mapping and sensor integration typically seen in autonomous vehicle hackathons into an environmental robotics context."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

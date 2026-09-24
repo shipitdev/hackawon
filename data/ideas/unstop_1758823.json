@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-24T07:45:56.764021+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758823",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A Python-based quantum circuit preprocessing and heuristic routing tool that automatically rewrites small gate sequences to minimize both instruction length and hardware-specific physical gate count.",
+      "problem_statement": "Participants will receive one or more target quantum states or unitaries. The objective is to construct the required target using the permitted programming framework and gate set while minimizing quantum gates.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy"
+      ],
+      "title": "QGolf-Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly attacks the primary scoring metric of code-length and gate-count optimization within a strict time limit, appealing directly to the algorithmic judging criteria."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated unitary synthesis CLI that translates arbitrary target state vectors into optimal short-depth Clifford+T or universal gate sequences.",
+      "problem_statement": "Participants will receive one or more target quantum states or unitaries. The objective is to construct the required target using the permitted programming framework and gate set.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Qiskit"
+      ],
+      "title": "StateSynthesizer",
+      "track": "",
+      "why_it_could_win": "Solves the core mechanical task of the competition by generating functionally correct, compact quantum code efficiently under tight time pressure."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A linter and static analysis plugin that verifies gate-set compliance, rule adherence, and counts exact instruction lengths for quantum code submissions.",
+      "problem_statement": "Each valid submission will first be checked for functional correctness and rule compliance. Valid solutions will then be compared using the published code-length and gate-count metrics.",
+      "stack": [
+        "Python",
+        "AST",
+        "Click"
+      ],
+      "title": "QuantumSnippetLinter",
+      "track": "",
+      "why_it_could_win": "Addresses the rule compliance and correctness-checking phase of the competition, ensuring zero penalties or disqualifications from invalid gate usage."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A lightweight web-based visual debugger that inspects generated quantum circuits, highlights redundant multi-qubit gates, and renders gate-reduction diffs.",
+      "problem_statement": "Participants must generate a specified target quantum state or unitary using a compact program while minimizing the number of quantum gates used.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "GateGolf-Visualizer",
+      "track": "",
+      "why_it_could_win": "Provides an immediate, clear visual demonstration of code-length reduction and gate minimization that judges can evaluate instantly during rapid reviews."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A macro expansion library for quantum programming languages that provides pre-optimized micro-templates for frequent matrix transformations and target unitaries.",
+      "problem_statement": "The objective is to construct the required target using the permitted programming framework and gate set. Solutions must satisfy the published correctness requirements.",
+      "stack": [
+        "Python",
+        "Jinja2"
+      ],
+      "title": "UnitaryTemplateGen",
+      "track": "",
+      "why_it_could_win": "Saves critical minutes during a compressed 90-120 minute sprint by letting individual coders rapidly drop in verified, ultra-short gate patterns."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

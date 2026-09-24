@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-09-24T07:47:49.083646+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "civic",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760514",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1088994743",
+        "github:841301002"
+      ],
+      "pitch": "Real-time intelligent emergency services and defense transport routing platform avoiding obstacles and traffic bottlenecks.",
+      "problem_statement": "road safety",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "TomTom Maps API"
+      ],
+      "title": "AegisRoute AI",
+      "track": "road safety",
+      "why_it_could_win": "Directly builds on proven architectures like HERO and DispatcherAI, hitting the road safety and defense challenges with a live, map-integrated simulation that technical juries can instantly test."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "Multimodal AI assistant for farmers to instantly diagnose crop diseases and match local marketplace logistics via voice.",
+      "problem_statement": "agriculture",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini AI"
+      ],
+      "title": "KrishiVision Multimodal",
+      "track": "agriculture",
+      "why_it_could_win": "Uses multimodal computer vision and language models tailored for agriculture, leveraging the live working demo pattern that judges look for in offline grand finales."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:841301002",
+        "github:1085972321"
+      ],
+      "pitch": "An AI-enhanced reporting and tracking portal for citizen services that automatically categorizes, prioritizes, and routes municipal grievances.",
+      "problem_statement": "citizen services",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "OpenAI API"
+      ],
+      "title": "CivicVoice Citizen Hub",
+      "track": "citizen services",
+      "why_it_could_win": "Solves a problem judges feel themselves in daily civic life, standing out through a clean operator cockpit and real-time triage mechanics."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An AI chief of staff and compliance tracker designed specifically to help early-stage incubators and student startups navigate regulatory filings.",
+      "problem_statement": "startups",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "FastAPI"
+      ],
+      "title": "FounderShield Startup Copilot",
+      "track": "startups",
+      "why_it_could_win": "Targets the startup ecosystem track directly by solving founder burnout with localized document parsing and automated action items."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An anomaly detection and forecasting dashboard for defense logistics and perimeter surveillance incident prediction.",
+      "problem_statement": "defence",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "SentinelLog AI",
+      "track": "defence",
+      "why_it_could_win": "Brings rigorous statistical forecasting and time-series modeling into the defense challenge, showing deep technical execution that impresses technical juries."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

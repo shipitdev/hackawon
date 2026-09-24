@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-24T07:45:47.797413+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758799",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A Python module using IBM Qiskit to optimize Quantum Approximate Optimization Algorithm parameters for combinatorial problems under strict gate constraints.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within a competition window.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy",
+        "SciPy"
+      ],
+      "title": "Qiskit Algorithmic Optimizer for QAOA",
+      "track": "",
+      "why_it_could_win": "Solves a technically difficult optimization bottleneck directly relevant to the core focus of the hackathon, aligning with the pattern of tackling genuinely hard engineering."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An interactive execution and profiling environment for simulating surface codes and fault-tolerant quantum circuits using Qiskit primitives.",
+      "problem_statement": "Implementing quantum-computing concepts through executable programs and solving programming challenges.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Matplotlib",
+        "Streamlit"
+      ],
+      "title": "Quantum Error Correction Visualizer",
+      "track": "",
+      "why_it_could_win": "Provides clear, demonstrable execution of complex error correction routines which are heavily emphasized in advanced Qiskit evaluation criteria."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A streamlined variational quantum eigensolver runner that tracks gradient descent pathways and ansatz parameter updates in real time.",
+      "problem_statement": "The competition consists of programming challenges related to quantum computing using Python and IBM Qiskit.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Qiskit-Nature"
+      ],
+      "title": "VQE Energy State Convergence Tracker",
+      "track": "",
+      "why_it_could_win": "Executes standard quantum chemistry simulations with clean telemetry, making it easy for automated test cases and judges to verify numerical accuracy."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:855084718"
+      ],
+      "pitch": "An automated pipeline that constructs quantum circuits, executes noisy state preparations, and reconstructs density matrices using Qiskit tools.",
+      "problem_statement": "Solutions will be evaluated using the published test cases and scoring rules, followed by technical verification.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Pandas"
+      ],
+      "title": "Quantum State Tomography Automation Tool",
+      "track": "",
+      "why_it_could_win": "Targets rigorous verification and testing pipelines, securing high scores on correctness and evaluation metrics."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A custom compilation benchmark script that optimizes gate depth and basis translation specifically targeting near-term quantum hardware constraints.",
+      "problem_statement": "Each problem will specify its requirements, constraints and expected output within the specified competition window.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "Parameterized Quantum Circuit transpiler Benchmark",
+      "track": "",
+      "why_it_could_win": "Optimizing circuit depth is a high-impact metric in competitive Qiskit programming challenges where execution overhead determines winning scores."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

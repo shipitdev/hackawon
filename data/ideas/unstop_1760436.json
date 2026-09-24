@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-24T07:47:31.742258+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760436",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated OSINT investigation dashboard that correlates public social media handles, image metadata, and forum posts into a single interactive node graph.",
+      "problem_statement": "What if you could solve real-world digital mysteries using only public footprints? ReConCTF ’26 challenges participants to trace online footprints, analyze metadata, verify imagery, and uncover hidden aliases.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "NetworkX",
+        "ExifTool"
+      ],
+      "title": "OSINT-Scope: Automated Digital Footprint Aggregator",
+      "track": "",
+      "why_it_could_win": "Combines graph intelligence architecture inspired by winning AML risk engines, giving investigators a professional-grade tooling experience that stands out against manual CTF workflows."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid-verification tool for geolocation and image forensics challenges that cross-references image metadata with public historical satellite imagery and shadow-angle calculations.",
+      "problem_statement": "Challenges Span Across Geolocation, Forensics, and Web Recon, requiring participants to verify imagery and analyze metadata.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Streamlit",
+        "Leaflet.js"
+      ],
+      "title": "GeoVerify: EXIF & Satellite Ground-Truth Verifier",
+      "track": "",
+      "why_it_could_win": "Tackles the specific bottleneck of manual geolocation in OSINT CTFs by offering automated shadow and terrain validation, saving hours during a tight 24-48 hour window."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A recursive OSINT reconnaissance scanner optimized for finding hidden aliases across hundreds of public web platforms without triggering rate limits or violating public-only rules.",
+      "problem_statement": "Uncover hidden aliases, connect scattered clues, and hunt down hidden information across the internet using only publicly available sources.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Cheerio",
+        "TailwindCSS"
+      ],
+      "title": "AliasTrace: Cross-Platform Username Enumeration Agent",
+      "track": "",
+      "why_it_could_win": "Features robust defensive rate-limiting and asynchronous scraping pipelines inspired by award-winning personal agent tool architectures, ensuring reliable execution under CTF constraints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:642839338"
+      ],
+      "pitch": "A specialized browser extension and backend pipeline designed to instantly extract hidden strings, embedded file headers, and steganographic layers from challenge artifacts.",
+      "problem_statement": "Challenges Span Across Geolocation, Forensics, and Web Recon, where participants must analyze metadata and capture the flags.",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "Flask",
+        "JavaScript Extractors"
+      ],
+      "title": "MetadataSentinel: Automated Forensics and Steganography Triage",
+      "track": "",
+      "why_it_could_win": "Focuses on high-speed execution for forensics puzzles, directly addressing the time pressure of a 24-48 hour CTF event by reducing repetitive command-line tasks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A real-time collaborative workspace for CTF teams featuring shared evidence pins, automated flag format regex validation, and synchronized timeline reconstruction.",
+      "problem_statement": "Team Size: 2–4 Participants solve diverse OSINT challenges, connect scattered clues, and submit discovered flags to the live scoreboard.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Socket.io",
+        "PostgreSQL"
+      ],
+      "title": "ClueCanvas: Collaborative OSINT Flag Submission & Evidence Board",
+      "track": "",
+      "why_it_could_win": "Solves team coordination friction during fast-paced online CTFs, ensuring zero duplicated effort and rapid handoffs between web recon and forensics specialists."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

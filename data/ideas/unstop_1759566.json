@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-24T07:46:14.851268+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759566",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An open source, voice-first developer documentation assistant powered by ElevenLabs text-to-speech and custom LLM RAG pipelines.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "ElevenLabs API",
+        "Python",
+        "FastAPI",
+        "LangChain"
+      ],
+      "title": "VoiceScribe Open Source Studio",
+      "track": "ElevenLabs Sponsored Track",
+      "why_it_could_win": "ElevenLabs is the Title Sponsor offering ₹4.5 Lakh+ in prizes, making direct and heavy integration of their audio APIs the single highest-leverage strategy to win track prizes."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An edge-computed voice agent that lets developers trigger git commands and run terminal scripts using ElevenLabs conversational voice interface.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ElevenLabs Conversational AI API",
+        "FastAPI",
+        "Node.js"
+      ],
+      "title": "LocalLlama Voice Copilot",
+      "track": "ElevenLabs Sponsored Track",
+      "why_it_could_win": "Showcases ElevenLabs technology deeply integrated into developer tooling, catching the eye of sponsor judges looking for innovative practical utility."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "An automated GitHub PR reviewer that posts human-sounding voice feedback on pull requests using ElevenLabs text-to-speech audio generation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "GitHub Actions",
+        "ElevenLabs API",
+        "Next.js"
+      ],
+      "title": "OpenVoice Code Reviewer",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines open source GitHub utility with ElevenLabs core sponsorship tech, aligning perfectly with an open source hackathon format."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An open source CLI tool that translates documentation READMEs into localized, high-quality audiocasts using ElevenLabs multilingual models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ElevenLabs API",
+        "Click (Python CLI)"
+      ],
+      "title": "PolyGlot Audio Reader",
+      "track": "ElevenLabs Sponsored Track",
+      "why_it_could_win": "Directly leverages ElevenLabs' advanced multilingual voice synthesis features, a key selling point for sponsor judges evaluating technical depth."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI agent that listens to runtime exception stack traces and generates a spoken, empathetic audio diagnosis using ElevenLabs voice generation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "ElevenLabs API",
+        "React"
+      ],
+      "title": "Agentic Audio Debugger",
+      "track": "ElevenLabs Sponsored Track",
+      "why_it_could_win": "Applies a novel multi-agent pattern seen in past winning projects while putting heavy emphasis on ElevenLabs title sponsor technology."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

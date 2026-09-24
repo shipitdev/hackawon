@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-24T07:47:04.874995+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760290",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A real-time behavioral firewall that detects and mitigates multi-turn adversarial prompt injections and jailbreaks before they hit underlying LLM weights.",
+      "problem_statement": "Cybersecurity / AI Security Track Problem Statement: Defending foundation models against sophisticated adversarial extraction and injection vectors.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "Hugging Face Transformers",
+        "Redis"
+      ],
+      "title": "AdversarialLLMJailbreakMonitor",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Aligns directly with Jāgriti Hacks' emphasis on adversarial thinking and technical rigor, tackling a real failure mode in modern AI deployment rather than building a superficial wrapper."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An autonomous DevOps sidecar agent that monitors cluster failure modes, analyzes pod crash loops via log embeddings, and automatically applies safe GitOps remediation patches.",
+      "problem_statement": "DevOps & Cloud Track Problem Statement: Building intelligent infrastructure automation that mitigates cascading cloud infrastructure failures.",
+      "stack": [
+        "Go",
+        "Kubernetes Client-Go",
+        "Docker",
+        "Prometheus API",
+        "ArgoCD"
+      ],
+      "title": "K8sSelfHealingMesh",
+      "track": "DevOps & Cloud",
+      "why_it_could_win": "Judges in the DevOps & Cloud track heavily reward production-grade engineering over simple UI dashboards; automated cluster recovery demonstrates true technical depth within the coding sprint window."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge cryptographic compliance attestation system allowing enterprises to prove adherence to data privacy regulations without exposing raw user records.",
+      "problem_statement": "Cybersecurity Track Problem Statement: Enforcing cryptographic zero-trust boundaries and regulatory compliance in multi-tenant cloud environments.",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "Node.js",
+        "PostgreSQL",
+        "Hardhat"
+      ],
+      "title": "ZKComplianceVault",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Incorporating advanced cryptographic primitives like zero-knowledge proofs stands out instantly to rigorous technical judges looking for genuine engineering difficulty."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated Anti-Money Laundering transaction tracking engine that constructs dynamic entity relationship graphs to uncover hidden multi-hop financial fraud rings.",
+      "problem_statement": "AI/ML Track Problem Statement: Deploying graph intelligence and explainable machine learning models to detect complex enterprise anomaly patterns.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "FastAPI",
+        "React"
+      ],
+      "title": "GraphAMLRadar",
+      "track": "AI/ML",
+      "why_it_could_win": "Uses graph intelligence paired with explainable machine learning, mirroring proven financial intelligence competition winners that prioritize mathematical explainability over black-box outputs."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A high-performance auto-embedding retrieval-augmented generation toolkit optimized for relational database engines to provide instant, context-aware technical documentation search.",
+      "problem_statement": "AI/ML / DevOps & Cloud Track Problem Statement: Scaling low-latency enterprise knowledge retrieval pipelines with minimal computational overhead.",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "HNSWLib",
+        "LangChain",
+        "Docker"
+      ],
+      "title": "AutoToonRAGEngine",
+      "track": "DevOps & Cloud",
+      "why_it_could_win": "Focuses on database-native vector operations and extreme optimization, addressing real enterprise latency bottlenecks that impress backend-focused hackathon judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

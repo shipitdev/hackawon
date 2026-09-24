@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-24T07:45:53.366151+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758822",
+  "ideas": [
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A Python CLI utility that ingests unknown tabular competition datasets, automatically handles missing data, engineers interaction features, and optimizes an XGBoost and LightGBM ensemble within a strict 30-minute time cap.",
+      "problem_statement": "The ML Competition: online individual machine-learning competition focused on predictive modelling, data analysis, and applied machine-learning problem solving.",
+      "stack": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "xgboost",
+        "lightgbm"
+      ],
+      "title": "AutoML Rapid-Pipeline Baseline Generator",
+      "track": "",
+      "why_it_could_win": "In a rapid 90-120 minute predictive modelling sprint, competitors lose crucial time writing boilerplate preprocessing code. This tool automates baseline generation instantly, mirroring winning architectures like patient-readmission-prediction."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An integrity verification script that scans training data splits, ID columns, and target correlations to catch accidental data leakage or target-id mapping before model submission.",
+      "problem_statement": "The ML Competition: Participants must not manipulate or access hidden test labels. Data leakage, unauthorized access to evaluation data or attempts to obtain hidden answers are prohibited.",
+      "stack": [
+        "Python",
+        "numpy",
+        "pandas",
+        "scipy"
+      ],
+      "title": "LeakGuard: Automated Data Leakage and Overfitting Detector",
+      "track": "",
+      "why_it_could_win": "Data leakage is the #1 reason competitors get disqualified or crash on test sets in fast ML competitions. Offering an automated safeguard addresses the strict rule-enforcement criterion."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A lightweight Streamlit interface designed for quick inference evaluation that calculates and visualizes SHAP values instantly for tree-based models.",
+      "problem_statement": "The ML Competition: Participants will work with the provided problem statement and dataset to understand the data, preprocess inputs, develop suitable machine-learning models, evaluate their approaches and generate the required predictions.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "shap",
+        "xgboost"
+      ],
+      "title": "SHAP-Fast: Real-time Feature Attribution Dashboard",
+      "track": "",
+      "why_it_could_win": "Judges in predictive modelling competitions appreciate interpretability alongside raw metric performance, directly applying proven explainability patterns from winning health/ML projects."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "A modular validation script that matches obscure custom evaluation metrics published in competition guidelines, setting up local cross-validation folds that mirror the official leaderboard setup.",
+      "problem_statement": "The ML Competition: Submissions will be evaluated using the published performance metric and may undergo technical verification before the final results are announced.",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "numpy"
+      ],
+      "title": "MetricSnap: Custom Evaluation Metric Harness",
+      "track": "",
+      "why_it_could_win": "Relying on standard MSE or Accuracy when the competition uses a custom weighted F1 or AUC metric leads to misaligned models. A plug-and-play evaluation harness ensures exact alignment with the scoring engine."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "A deterministic post-processing script that checks row counts, validates column headers, strips NaN values, and outputs correctly compressed CSV submission files matching exact contest schemas.",
+      "problem_statement": "The ML Competition: Final predictions must be submitted in the required format and must follow the specified dataset, tools, evaluation metric, submission format and competition rules.",
+      "stack": [
+        "Python",
+        "pandas"
+      ],
+      "title": "Submisi: Format Validator & Submission Auto-Formatter",
+      "track": "",
+      "why_it_could_win": "Countless competitors lose points simply due to formatting errors or misaligned row indexes in their final CSV outputs. A strict automated sanity-check eliminates formatting submission failures."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-24T07:44:58.761709+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:cal-hacks-13-0",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive forecasting dashboard for San Francisco transit operators using Poisson regression and spatial clustering to anticipate micro-mobility gridlock.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn",
+        "Leaflet.js"
+      ],
+      "title": "San Francisco Urban Micro-Mobility Demand Shifter",
+      "track": "",
+      "why_it_could_win": "Follows the exact architectural blueprint of past 1st-place forecasting winners by combining statistical models (Poisson GAM) with clear 90% prediction intervals, appealing to judges looking for rigorous backend data science rather than generic wrappers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent marketplace facilitating instant USDC escrow transactions for hyper-local Bay Area service micro-contracts on Base.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Base",
+        "USDC",
+        "Solidity",
+        "Node.js"
+      ],
+      "title": "BayArea Local Merchant Escrow Market",
+      "track": "",
+      "why_it_could_win": "Leverages the proven autonomous marketplace and crypto-escrow pattern that secured 1st place at Synthesis, directly appealing to modern fintech and agentic workflow judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-code trading strategy builder and execution engine tailored for high-frequency perpetual decentralized exchanges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Web3.py"
+      ],
+      "title": "Pacific-Edge Decentralized Order Router",
+      "track": "",
+      "why_it_could_win": "Replicates the grand-prize winning mechanics of ClashX by offering a fully functional visual strategy builder that non-technical judges can test live during the demo."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI nutrition and wellness assistant that parses local San Francisco restaurant menus to deliver hyper-personalized meal recommendations and nutritional insights.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "NutriLocal SF Personal Health Synthesizer",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact formula of the Hour Hackathon winner by combining consumer-facing health utility with rapid API integrations, scoring high on user experience and polish."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support and resource allocation platform utilizing LangGraph and local RAG to automate university sustainability reporting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL",
+        "Pinecone"
+      ],
+      "title": "EcoCampus Multi-Agent Support Grid",
+      "track": "",
+      "why_it_could_win": "Employs the multi-agent RAG architecture that won 1st place at GreenNovation, demonstrating complex state management and orchestration that technical judges favor."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

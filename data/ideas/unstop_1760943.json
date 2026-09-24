@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-24T07:48:02.855065+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760943",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A single-page web app that takes a prompt, uses AI coding assistants via API to scaffold a full React app in seconds, and deploys a live preview instantly.",
+      "problem_statement": "PROMPT RUN Prompt. Build. Run. 6-hour individual Web Development Vibe Coding Hackathon focused on modern web technologies and rapid product development.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "PromptPulse Web App Generator",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the 'Vibe Coding' and rapid workflow focus of a 6-hour individual hackathon where automated evaluation and speed matter most."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1243111392"
+      ],
+      "pitch": "A lightweight web-based dashboard for solo developers to instantly run local automated checks, simulate FAIE evaluation engines, and debug UI components before final submission.",
+      "problem_statement": "PROMPT RUN Prompt. Build. Run. 6-hour individual Web Development Vibe Coding Hackathon focused on modern web technologies and rapid product development.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Express",
+        "Playwright"
+      ],
+      "title": "FAIE Automated Test Runner & Debugger",
+      "track": "",
+      "why_it_could_win": "Directly addresses the FAIE Automated Evaluation Engine mentioned in the rules, giving solo builders an edge in verifying submissions before locking them in."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "An interactive web app that lets developers dynamically generate, test, and export customized Tailwind and shadcn/ui components using a pure prompt-driven interface.",
+      "problem_statement": "PROMPT RUN Prompt. Build. Run. 6-hour individual Web Development Vibe Coding Hackathon focused on modern web technologies and rapid product development.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Shadcn"
+      ],
+      "title": "VibeComponent Instant UI Assembler",
+      "track": "",
+      "why_it_could_win": "Fits the core requirement of leveraging component libraries, UI design systems, and AI-assisted workflows within a tight 6-hour timeframe."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:938030912",
+        "github:1243111392"
+      ],
+      "pitch": "A real-time error logger and AI suggestion overlay for web development that catches runtime crashes during rapid vibe coding and offers one-click fixes.",
+      "problem_statement": "PROMPT RUN Prompt. Build. Run. 6-hour individual Web Development Vibe Coding Hackathon focused on modern web technologies and rapid product development.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js"
+      ],
+      "title": "PromptTrace Debugging Assistant",
+      "track": "",
+      "why_it_could_win": "Solves the exact bottleneck of a 6-hour solo hackathon: losing precious time to debugging instead of building."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A real-time dashboard tracking individual submission attempts, build states, and countdown timers tailored for 6-hour vibe coding sprints.",
+      "problem_statement": "PROMPT RUN Prompt. Build. Run. 6-hour individual Web Development Vibe Coding Hackathon focused on modern web technologies and rapid product development.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "SpeedMap Live Submission Tracker",
+      "track": "",
+      "why_it_could_win": "Leverages the unique constraints of an individual 6-hour timed event with exactly 3 submission chances."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

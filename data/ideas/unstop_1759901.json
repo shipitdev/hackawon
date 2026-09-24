@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-24T07:46:23.429426+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759901",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1083231600"
+      ],
+      "pitch": "An autonomous football agent trained using NeuroEvolution of Augmenting Topologies to rapidly discover optimal goal-scoring trajectories in the 2D arena.",
+      "problem_statement": "Build an AI Soccer Agent for the deterministic 2D soccer arena.",
+      "stack": [
+        "Python",
+        "NEAT-Python",
+        "NumPy",
+        "Simulator Interface"
+      ],
+      "title": "NEAT-Driven Striker Agent",
+      "track": "",
+      "why_it_could_win": "Leverages direct evolutionary algorithmic tuning proven in racing and control simulators to outperform hand-coded heuristics under varied random seeds."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A robust rule-based and predictive finite state machine agent focused on ironclad goal defense, precise ball interception, and tactical clearance.",
+      "problem_statement": "Build an AI Soccer Agent for the deterministic 2D soccer arena.",
+      "stack": [
+        "Python",
+        "Pygame",
+        "NumPy"
+      ],
+      "title": "State-Machine Defensive Wall",
+      "track": "",
+      "why_it_could_win": "Matches are determined strictly by goals scored and prevented; a defensively sound agent avoids blowout losses against aggressive opponents while capitalizing on counter-attacks."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An autonomous soccer agent utilizing potential field navigation to smoothly weave past obstacles, intercept loose balls, and execute angled strikes.",
+      "problem_statement": "Build an AI Soccer Agent for the deterministic 2D soccer arena.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "NumPy"
+      ],
+      "title": "Vector-Field Obstacle-Dodging Playmaker",
+      "track": "",
+      "why_it_could_win": "Handles complex dynamic obstacle layouts and hidden evaluation seeds robustly without getting trapped in local minima."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A lightweight Q-learning agent pre-trained on simulated match states to make high-speed tactical decisions within the strict prescribed interface rules.",
+      "problem_statement": "Build an AI Soccer Agent for the deterministic 2D soccer arena.",
+      "stack": [
+        "Python",
+        "Gymnasium",
+        "PyTorch"
+      ],
+      "title": "Hybrid Reinforcement Learning Quick-Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced adaptive behavior within a 48-hour window by using tabular RL combined with heuristic fallback layers."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [],
+      "pitch": "A multi-behavior agent that dynamically switches between offensive pressing, ball chasing, and goal guarding based on real-time game state analysis.",
+      "problem_statement": "Build an AI Soccer Agent for the deterministic 2D soccer arena.",
+      "stack": [
+        "Python",
+        "NumPy"
+      ],
+      "title": "Ensemble Tactics Controller",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation metric by balancing aggressive goal-scoring logic with reliable obstacle navigation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
