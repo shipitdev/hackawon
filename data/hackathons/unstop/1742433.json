@@ -227,7 +227,7 @@
       }
     ],
     "id": 1742433,
-    "isPaid": false,
+    "isPaid": true,
     "locations": [],
     "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aad70fd3334f_logo_of_techfest.webp",
     "opportunity_config": {
@@ -250,7 +250,29 @@
       "tier": null
     },
     "organization_id": 675999,
-    "payment_services": [],
+    "payment_services": [
+      {
+        "amount": 100,
+        "entity_id": 1742433,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 732119,
+        "required": 0
+      },
+      {
+        "amount": 599,
+        "entity_id": 1742433,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 732120,
+        "required": 0
+      },
+      {
+        "amount": 299,
+        "entity_id": 1742433,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 732121,
+        "required": 0
+      }
+    ],
     "prizes": [
       {
         "cash": 3000,
@@ -323,12 +345,12 @@
       "min_team_size": 1,
       "opportunity_id": 1742433,
       "reg_status": "STARTED",
-      "remain_days": "15 days left",
+      "remain_days": "14 days left",
       "remainingDaysArray": {
-        "durations": 15,
+        "durations": 14,
         "text": " days left"
       },
-      "remaining_time": 1300461,
+      "remaining_time": 1285020,
       "show_deadline": 1,
       "start_regn_dt": "2026-08-21T00:00:00+05:30",
       "work_location_type": "city"
@@ -401,7 +423,7 @@
     "title": "Jugaad",
     "type": "hackathons",
     "updated_at": "2026-09-13T14:22:53+05:30",
-    "viewsCount": 16918,
+    "viewsCount": 16999,
     "visibility": "public",
     "workfunction": [
       {
