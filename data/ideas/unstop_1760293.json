@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-25T08:06:58.825958+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760293",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous AI code review and technical debt refactoring agent built specifically for students and solo developers participating in fast-paced hackathons like Algothon'26.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Claude API",
+        "TypeScript",
+        "React"
+      ],
+      "title": "Algoxilla CodeReviewer Agent",
+      "track": "",
+      "why_it_could_win": "Follows the winning autonomous agent pattern from the DataHub Agent Hackathon, focusing heavily on developer productivity and automated code quality validation which resonates well with technical judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A machine learning pipeline that forecasts urban traffic congestion and particulate emissions to optimize delivery routes in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "EcoRoute Algoxilla: Urban Carbon Footprint Forecaster",
+      "track": "",
+      "why_it_could_win": "Applies rigorous time-series forecasting and calibrated prediction intervals, replicating the winning methodology seen at the Apart Research AI Forecasting Hackathon."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A smart matching platform designed explicitly for Algothon'26 participants to find compatible teammates based on complementary technical stacks and timezones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "SkillSync: Peer Matchmaking & Team Formation Tool",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, painful bottleneck for solo registrants during the hackathon itself, ensuring high utility and direct engagement from event organizers and judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A lightweight, multilingual voice-enabled AI assistant tailored for offline-first symptom checking and local health awareness in semi-urban communities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "React Native",
+        "FastAPI"
+      ],
+      "title": "AgriSymptom AI: Multilingual Rural Health Assistant",
+      "track": "",
+      "why_it_could_win": "Adopts the successful social impact template from the SAGACITY project, prioritizing accessibility and real-world health literacy for underserved populations."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered computer vision and geospatial analysis tool to monitor and detect unauthorized industrial land usage changes over time using satellite imagery.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Leaflet.js",
+        "Flask"
+      ],
+      "title": "AeroAudit AI: Satellite Land Compliance Monitor",
+      "track": "",
+      "why_it_could_win": "Leverages heavy data-processing and visual intelligence to showcase complex technical depth, mirroring the runner-up success of GeoNex-ATLAS at the Xcelerate Hackathon."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-25T08:06:35.539081+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759422",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A fuzzer and automated vulnerability scanner specifically designed to find hidden logical flaws and flags inside buggy Qiskit quantum circuits.",
+      "problem_statement": "Problems may involve quantum circuits, Qiskit programming, probability, quantum information, cryptography, logic, debugging, data interpretation or other related areas.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "React"
+      ],
+      "title": "QiskitCircuitFuzz",
+      "track": "",
+      "why_it_could_win": "Solves a hard engineering problem by automating the tedious manual code analysis required in quantum CTFs, giving teams an unfair speed advantage."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A real-time visual debugger for quantum states, entanglement metrics, and gate operations during interactive CTF challenge solving.",
+      "problem_statement": "Depending on the final challenge design, problems may involve quantum circuits, Qiskit programming, probability, quantum information, cryptography, logic, debugging, data interpretation or other related areas.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Qiskit",
+        "D3.js"
+      ],
+      "title": "EntangleScope",
+      "track": "",
+      "why_it_could_win": "Focuses on a live, highly polished interactive demo that makes complex quantum debugging visually intuitive for judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "An automated cryptographic solver toolkit implementing BB84 protocol analysis, quantum key distribution (QKD) eavesdropping detection, and lattice cryptography attack vectors.",
+      "problem_statement": "Depending on the final challenge design, problems may involve quantum circuits, Qiskit programming, probability, quantum information, cryptography, logic, debugging, data interpretation or other related areas.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Qiskit-Cryptography"
+      ],
+      "title": "QuantumKeyCrack",
+      "track": "",
+      "why_it_could_win": "Tackles genuine cryptographic complexity in quantum information security, matching the rigorous technical expectations of a CTF competition."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A collaborative command center for quantum CTF teams featuring shared flag submission, live challenge board scraping, and integrated Qiskit notebook scratchpads.",
+      "problem_statement": "Teams can divide tasks among members according to their strengths, making communication and collaborative problem solving important.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebSockets",
+        "Python"
+      ],
+      "title": "CTFRanger",
+      "track": "",
+      "why_it_could_win": "Directly targets the collaborative team coordination aspect emphasized in the event rules, streamlining multi-person task division."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI-assisted prompt and code generation harness specialized in translating cryptic quantum math problems into executable Qiskit scripts to extract hidden flags.",
+      "problem_statement": "Teams receive a collection of challenges in which they must analyze information, solve technical problems, interpret quantum concepts, decode clues or complete computational tasks to obtain hidden flags.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Qiskit",
+        "OpenAI API"
+      ],
+      "title": "OracleOracle",
+      "track": "",
+      "why_it_could_win": "Leverages agentic code generation tuned specifically for niche quantum algorithms, showcasing a live, working accelerator for rapid flag discovery."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

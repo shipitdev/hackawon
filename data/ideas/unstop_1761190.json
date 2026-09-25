@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-25T08:08:18.984916+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761190",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight open-source tool that hooks into local git workflows to automatically review code quality and security vulnerabilities using open models.",
+      "problem_statement": "Elite Coders CodeSprint 2026 open-source building challenge focusing on an original MVP taken from idea to open-source repository.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Transformers",
+        "GitPython"
+      ],
+      "title": "OpenDev-Audit: Open Source AI Code Reviewer for Local Repositories",
+      "track": "Best Open Source Project",
+      "why_it_could_win": "Targets the 'Best Open Source Project' and 'Best Innovation' awards by providing high utility, clean documentation, and an architecture proven effective in recent competitive hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:685337788"
+      ],
+      "pitch": "An open-source platform mapping accessible public transport routes, local waste disposal bins, and civic amenities specifically for Dehradun and surrounding regions.",
+      "problem_statement": "Elite Coders CodeSprint 2026 open-source building challenge requiring an original MVP addressing real-world community needs.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "PostgreSQL",
+        "Leaflet.js"
+      ],
+      "title": "EcoRoute Dehradun: Community Welfare Transit & Accessibility Mapper",
+      "track": "Best Social Welfare Project",
+      "why_it_could_win": "Directly targets the 'Best Social Welfare Project' award by solving local infrastructural visibility challenges ahead of the offline presentation in Dehradun."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1041170799"
+      ],
+      "pitch": "A developer tool plugin that instantly inspects React/Tailwind frontend code, spots UI/UX anti-patterns, and generates accessible code replacements.",
+      "problem_statement": "Elite Coders CodeSprint 2026 open-source building challenge focused on delivering a functional MVP with strong design execution.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "AST-Parser"
+      ],
+      "title": "UI-Refine: Real-time Component Accessibility & UX Polish Assistant",
+      "track": "Best UI/UX",
+      "why_it_could_win": "Explicitly targets the 'Best UI/UX' award by featuring a polished user interface, dark mode support, seamless feedback loops, and clear developer ergonomics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that reads open-source repository structures, labels 'good first issues' with step-by-step guidance, and directly assists beginner contributors in making their first PR.",
+      "problem_statement": "Elite Coders CodeSprint 2026 open-source building challenge designed to take participants from idea to MVP and open-source contribution.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "GitHub API",
+        "Streamlit"
+      ],
+      "title": "GitMentor: AI-Powered Onboarding Agent for Open Source Newcomers",
+      "track": "Best Open Source Project",
+      "why_it_could_win": "Aims for the 'Best Beginner Team' and 'Best Open Source Project' categories by lowering the barrier of entry to open-source software development."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An open-source CLI utility that scans FastAPI or Express backends, automatically generates comprehensive OpenAPI markdown documentation, and hosts a clean developer landing page.",
+      "problem_statement": "Elite Coders CodeSprint 2026 open-source building challenge requiring an original open-source tool built during the online phase.",
+      "stack": [
+        "Python",
+        "Typer",
+        "Jinja2",
+        "Markdown"
+      ],
+      "title": "DocSync-Open: Automated API Spec and Documentation Generator for Hackathons",
+      "track": "Best Innovation",
+      "why_it_could_win": "Appeals strongly to judges looking for practical developer tools that solve immediate pain points during fast-paced coding events and open-source building cycles."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

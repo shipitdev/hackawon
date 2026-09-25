@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-25T08:05:55.860331+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:sheridan-datathon-2026",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A real-time predictive transit delay and congestion routing engine optimized for local commuter patterns in Peel Region.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Next.js",
+        "PostGIS"
+      ],
+      "title": "MississaugaTransit-Flow",
+      "track": "",
+      "why_it_could_win": "Uses unique local transit data and addresses a concrete regional pain point for judges living in Mississauga."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite and drone imagery processing platform that flags zoning and environmental infractions for municipal inspectors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Gemini 2.5",
+        "OpenCV"
+      ],
+      "title": "IndustrialCompliance-Vision",
+      "track": "",
+      "why_it_could_win": "Mirrors a proven winning pattern of solving complex spatial monitoring and data engineering challenges."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An automated data pipeline error root-cause analyzer that generates verified fixes and pull requests for broken ETL jobs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude API",
+        "LangGraph",
+        "PostgreSQL"
+      ],
+      "title": "DataLineage-Guardian",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced backend engineering and autonomous multi-agent workflows that heavily impress technical judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:985196561",
+        "github:1341712439"
+      ],
+      "pitch": "An IoT telemetry analysis dashboard that monitors building energy consumption and flags abnormal consumption spikes instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "TimescaleDB",
+        "Isolation Forest",
+        "Next.js"
+      ],
+      "title": "CampusEnergy-Anomaly",
+      "track": "",
+      "why_it_could_win": "Features a robust, live-working dashboard with anomaly detection algorithms that judges can test immediately."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "A lightweight diagnostic toolkit for detecting and mitigating statistical bias in tabular datasets used by local municipal services.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-Learn",
+        "SHAP"
+      ],
+      "title": "AlgorithmicFairness-Auditor",
+      "track": "",
+      "why_it_could_win": "Tackles the increasingly critical requirement for responsible AI and algorithmic transparency in public sector applications."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

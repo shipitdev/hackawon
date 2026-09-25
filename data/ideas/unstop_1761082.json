@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-25T08:07:59.481041+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761082",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated multi-agent framework that diagnoses pre-deployment risks in complex enterprise workflows.",
+      "problem_statement": "Agentic AI track",
+      "stack": [
+        "Python",
+        "LangChain",
+        "BPMN Engine",
+        "FastAPI"
+      ],
+      "title": "AgenticBPMN",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages structural process execution frameworks and human-in-the-loop validation, mimicking winning architecture from enterprise agent hacks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic query router utilizing kNN over an exemplar index with automated LLM-judge writeback.",
+      "problem_statement": "Agentic AI track",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FAISS"
+      ],
+      "title": "SemanticRouteOptimizer",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets LLM cost-efficiency and performance routing, a proven winning formula at recent high-tier AI hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An interactive data profiling and EDA tool with automated integrity checks, semantic cardinality analysis, and natural language exploration.",
+      "problem_statement": "Full-Stack Product Engineering track",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "AutoSchemaProfiler",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Provides immediate, tangible developer and data-engineer utility with rich visualization and straightforward execution scope."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An auto-embedding and RAG toolkit optimized for relational data stores, enabling instant context retrieval for structured schemas.",
+      "problem_statement": "Full-Stack Product Engineering track",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "HNSW"
+      ],
+      "title": "TOON-Native RAG Toolkit",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Solves practical database-retrieval latency issues with clean integration patterns that appeal to backend-heavy judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "Federated Model Context Protocol (MCP) servers on lightweight Kubernetes architecture for secure, containerized medical data agent interaction.",
+      "problem_statement": "Open Innovation track",
+      "stack": [
+        "TypeScript",
+        "Docker",
+        "Kubernetes",
+        "MCP SDK"
+      ],
+      "title": "FederatedMCPClinical",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates genuinely complex engineering, distributed systems orchestration, and secure AI agent boundaries within a short timeline."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

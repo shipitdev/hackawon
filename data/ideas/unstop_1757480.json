@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-25T08:06:13.613472+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757480",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual offline-first voice agent providing preventive care guidance and outbreak tracking tailored for rural communities.",
+      "problem_statement": "Round 1 / General Problem: Public health awareness and rural healthcare accessibility.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "Whisper",
+        "LangChain"
+      ],
+      "title": "ArogyaSetu Rural Health AI",
+      "track": "",
+      "why_it_could_win": "Directly builds on the winning architecture of SAGACITY by addressing regional health literacy with localized speech models, a priority for impact-focused judges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An IoT and machine learning web platform predicting urban waterlogging and contamination risks days in advance.",
+      "problem_statement": "Round 1 / General Problem: Smart city infrastructure and disaster prevention.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Node.js",
+        "scikit-learn",
+        "TailwindCSS"
+      ],
+      "title": "EcoDrain Smart Urban Water Management",
+      "track": "",
+      "why_it_could_win": "Combines predictive environmental analytics with a clear municipal use-case, mirroring the award-winning structure of iForeSea."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous multi-agent workflow orchestrator for local municipal bodies to triage citizen grievances and auto-assign task tickets.",
+      "problem_statement": "Round 1 / General Problem: Efficient governance and civic grievance redressal.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "CivicFlow Agentic Chief of Staff",
+      "track": "",
+      "why_it_could_win": "Leverages agentic frameworks and autonomous data routing similar to the winning Civic Challenge and DataHub Agent Hackathon projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A statistical forecasting dashboard predicting systemic institutional failures using Poisson regression and calibrated confidence bounds.",
+      "problem_statement": "Round 1 / General Problem: Risk management and predictive data analytics for public systems.",
+      "stack": [
+        "Python",
+        "Jupyter",
+        "Streamlit",
+        "Statsmodels"
+      ],
+      "title": "VeriForesee AI Incident Predictor",
+      "track": "",
+      "why_it_could_win": "Employs rigorous statistical validation and rolling backtests that impress technical judges looking for genuine algorithmic complexity."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision garbage classification backend paired with a microcontroller simulation pipeline for automated municipal waste segregation.",
+      "problem_statement": "Round 1 / General Problem: Sustainable waste management and recycling automation.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "PyTorch",
+        "Arduino"
+      ],
+      "title": "GreenBin AI Garbage Sorting Robot Simulator",
+      "track": "",
+      "why_it_could_win": "Integrates hardware prototyping workflows with real-time computer vision, replicating the runner-up success seen at TechnoMorph."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

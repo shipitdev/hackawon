@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-25T08:07:08.753499+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760776",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A vision AI system using standard store ceiling cameras to detect misplaced items and empty shelf spaces, alerting staff instantly via a closed-loop dispatch queue.",
+      "problem_statement": "Solve retail's exciting problems using vision AI to turn raw camera & sensor data into real action a store can take.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "ShelfSight: Real-Time Out-of-Stock and Planogram Compliance Agent",
+      "track": "",
+      "why_it_could_win": "Directly targets Everseen's core domain of retail loss prevention and operational efficiency, making it highly appealing to judges from their Vision AI team."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "Analyzes checkout lane camera feeds to count queue lengths and estimate wait times, automatically triggering manager alerts to open new registers.",
+      "problem_statement": "Solve retail's exciting problems using vision AI to turn raw camera & sensor data into real action a store can take.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "DeepSORT",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "QueueFlow: Computer Vision Checkout Bottleneck & Staff Dispatcher",
+      "track": "",
+      "why_it_could_win": "Demonstrates immediate, quantifiable business ROI by directly reducing customer abandonment at checkout."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:694390550"
+      ],
+      "pitch": "Detects sweethearting and missed scans at self-checkout kiosks by comparing item visual features against the scanned barcode stream in real time.",
+      "problem_statement": "Solve retail's exciting problems using vision AI to turn raw camera & sensor data into real action a store can take.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ResNet",
+        "Flask",
+        "SQLite"
+      ],
+      "title": "ScanGuard: Automated Self-Checkout Swiping & Non-Scan Detection",
+      "track": "",
+      "why_it_could_win": "Addresses retail shrink—one of Everseen's primary industry problem spaces—with a working multi-modal demo combining video feeds and transaction logs."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "Monitors store floor cameras for liquid spills, fallen produce, or debris, instantly creating high-priority cleanup tasks with precise aisle coordinates.",
+      "problem_statement": "Solve retail's exciting problems using vision AI to turn raw camera & sensor data into real action a store can take.",
+      "stack": [
+        "Python",
+        "Ultralytics YOLO",
+        "Node.js",
+        "PostgreSQL",
+        "Twilio API"
+      ],
+      "title": "AisleEye: Dynamic Spill and Hazard Detection with Autonomous Alerting",
+      "track": "",
+      "why_it_could_win": "Focuses on liability reduction and store safety, translating raw security footage into actionable employee workflows."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "Tracks abandoned shopping carts left in non-checkout areas using overhead security cameras to optimize store asset retrieval and layout efficiency.",
+      "problem_statement": "Solve retail's exciting problems using vision AI to turn raw camera & sensor data into real action a store can take.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "CartFlow: Visual Shopping Cart and Basket Abandonment Tracker",
+      "track": "",
+      "why_it_could_win": "Solves an overlooked operational pain point for large-format retailers with a clean, easy-to-demo tracking dashboard."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

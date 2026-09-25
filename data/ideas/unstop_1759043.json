@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-25T08:06:26.670000+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759043",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A regional language health triage platform for semi-urban communities featuring symptom checking and local clinic routing.",
+      "problem_statement": "Lack of accessible, localized healthcare guidance and preventive care literacy in semi-urban and rural areas.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "LocalAarogya: Multilingual Rural Health Triage",
+      "track": "",
+      "why_it_could_win": "Leverages a localized impact angle similar to prior multi-language triage winners, targeting practical community-level problem solving."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1155558847"
+      ],
+      "pitch": "A tool for small and medium enterprises to monitor carbon footprint metrics and generate sustainability reports.",
+      "problem_statement": "Difficulty for local small businesses to track and comply with emerging environmental standards without expensive auditing.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Pandas"
+      ],
+      "title": "EcoAudit: SME Environmental Compliance Tracker",
+      "track": "",
+      "why_it_could_win": "Focuses on measurable environmental benefit and regulatory ease, matching green tech hackathon winning patterns."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An agentic system that detects anomalous data pipeline drops and triggers automated incident response workflows.",
+      "problem_statement": "Data engineering pipelines breaking silently without fast incident triage or automated root-cause analysis.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "DataGuard: Automated Data Lineage Incident Response",
+      "track": "",
+      "why_it_could_win": "Showcases hard data-engineering logic and autonomous agent workflows that stand out to technical judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An offline-first platform that indexes lecture and institutional meeting recordings into searchable transcript embeddings.",
+      "problem_statement": "Inability of academic and local institutions to easily search through large volumes of unindexed archival video data.",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "Whisper API"
+      ],
+      "title": "VideoQuery: Unstructured Institutional Video Intelligence",
+      "track": "",
+      "why_it_could_win": "Directly builds on proven video intelligence and unstructured search paradigms from recent data hackathon winners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "A computer vision safety compliance checker that scans local site photos for PPE violations and safety hazards.",
+      "problem_statement": "High rates of preventable workplace injuries due to lack of real-time safety monitoring on small-scale construction sites.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "React"
+      ],
+      "title": "SiteSafe AI: Construction Hazard and Safety Assistant",
+      "track": "",
+      "why_it_could_win": "Demonstrates a robust working demo with immediate real-world utility, matching successful physical-safety hackathon entries."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

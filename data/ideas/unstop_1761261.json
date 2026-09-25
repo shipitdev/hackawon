@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-25T08:08:22.811223+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761261",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "An AI-powered voice assistant specifically trained on campus administrative and event guidelines to instantly answer student inquiries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Llama3",
+        "LangChain"
+      ],
+      "title": "CampusVoice RAG",
+      "track": "",
+      "why_it_could_win": "Targets an immediate pain point felt by event organizers and students on campus, fitting the 12-hour build window by focusing on a hyper-local RAG system."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A localized nutrition and mess-menu wellness tracker optimized for student dietary constraints and budget.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API"
+      ],
+      "title": "AuraMeal AI",
+      "track": "",
+      "why_it_could_win": "Mirrors a proven winning hackathon pattern by delivering a hyper-practical, consumer-facing health utility with a fully working live demo."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced multimodal lost-and-found portal built for the college campus to instantly match uploaded item photos using vision models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini AI"
+      ],
+      "title": "AIRS Lost & Found Vision",
+      "track": "",
+      "why_it_could_win": "Solves a problem judges in the host institution experience daily, ensuring high local relevance and immediate comprehension during live judging."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video intelligence platform that converts unstructured campus lecture recordings into searchable, timestamped knowledge notes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "OpenAI API"
+      ],
+      "title": "LectureSense AI",
+      "track": "",
+      "why_it_could_win": "Leverages a proven architecture from data hackathons while solving a direct academic pain point for students and faculty."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A lightweight medical interview simulation platform using computer vision for basic posture and emergency response training.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "MediaPipe",
+        "React"
+      ],
+      "title": "MediSim Campus",
+      "track": "",
+      "why_it_could_win": "Brings genuinely hard engineering and hardware/camera integration into a 12-hour sprint, setting the project apart from standard CRUD apps."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

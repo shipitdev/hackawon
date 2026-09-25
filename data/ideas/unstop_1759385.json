@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-25T08:06:31.732047+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759385",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:819399001"
+      ],
+      "pitch": "An automated Qiskit circuit optimization script that leverages local heuristics to aggressively reduce CNOT gate count and circuit depth for hardware execution.",
+      "problem_statement": "Improve the efficiency of quantum circuits by reducing unnecessary gates, lowering circuit depth, and preserving computational behavior using Qiskit.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "QDepth-Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core performance metric of the competition by demonstrating measurable reductions in gate depth and resource usage, aligning with the evaluation criteria for technical correctness and optimization degree."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A Python utility that parses quantum circuits in Qiskit, identifies redundant multi-qubit gate sequences, and applies algebraic cancellation rules to optimize hardware compatibility.",
+      "problem_statement": "Improve the efficiency of quantum circuits by simplifying equivalent operations and considering practical hardware constraints.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "QGate-Simplifier",
+      "track": "",
+      "why_it_could_win": "Features genuinely hard engineering in quantum logic reduction and showcases a robust algorithm that works reliably under strict time constraints."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A Qiskit-based optimizer that reorganizes circuit topology to fit restricted physical qubit connectivity maps while minimizing SWAP gate overhead.",
+      "problem_statement": "Improve the efficiency of quantum circuits while considering practical hardware constraints, qubit operations, and resource usage.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "Hardware-Aware Qubit Mapper",
+      "track": "",
+      "why_it_could_win": "Addresses real-world NISQ hardware limitations, giving judges a clear engineering justification for how the optimization translates to physical hardware execution."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A lightweight Qiskit pipeline that profiles input circuits, benchmarks initial execution metrics, and applies template-based matching to compress gate counts instantly.",
+      "problem_statement": "Participants will receive one or more quantum circuits and will be asked to optimize them while preserving the required computational behaviour or output.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "Circuit-Diet",
+      "track": "",
+      "why_it_could_win": "Focuses on a live, working demo that takes an unoptimized circuit as input and outputs a verified optimized circuit with a clear performance report."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "An advanced Qiskit optimization pass that utilizes commutation relations between gates to slide and cancel adjacent operations, achieving lower overall depth.",
+      "problem_statement": "The challenge may involve reducing unnecessary gates, lowering circuit depth, improving gate usage, and simplifying equivalent operations.",
+      "stack": [
+        "Python",
+        "Qiskit"
+      ],
+      "title": "Commutation-Pass Solver",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep technical reasoning and strong mastery of quantum circuit mechanics, directly hitting the judges' criteria for technical rigor."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

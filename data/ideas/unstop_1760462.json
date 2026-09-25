@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-09-25T08:07:03.517727+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760462",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:819399001",
+        "github:1199751414"
+      ],
+      "pitch": "An autonomous cloud infrastructure tuning agent that combines LLM reasoning with Kubernetes operator loops to optimize cloud costs and carbon footprints.",
+      "problem_statement": "Generative AI × Cloud",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Kubernetes",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "CloudGen-Ops Agent",
+      "track": "Generative AI × Cloud",
+      "why_it_could_win": "Directly targets the core hackathon theme of Generative AI × Cloud by proving measurable real-world impact through cloud cost savings and resource optimization."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A secure, zero-leakage RAG retrieval toolkit deployed serverlessly on cloud infrastructure for enterprise document querying with strict audit logging.",
+      "problem_statement": "Generative AI × Cloud",
+      "stack": [
+        "Python",
+        "PostgreSQL",
+        "Embeddings",
+        "AWS Lambda",
+        "LangChain"
+      ],
+      "title": "RAG-Vault Cloud",
+      "track": "Generative AI × Cloud",
+      "why_it_could_win": "Focuses on responsible data usage and scalable cloud deployment, key judging criteria explicitly called out in the event guidelines."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "An ethical AI governance and telemetry platform that monitors cloud-hosted LLM outputs for safety, compliance, and hallucination drift in real-time.",
+      "problem_statement": "Generative AI × Cloud",
+      "stack": [
+        "Go",
+        "OpenTelemetry",
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CloudGuard Telemetry",
+      "track": "Generative AI × Cloud",
+      "why_it_could_win": "Judges value responsible AI implementation and governance platforms that address production-readiness in enterprise environments."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912",
+        "github:1138792186"
+      ],
+      "pitch": "An IDE extension and cloud backend that auto-generates serverless function templates and cloud deployment scripts from natural language specifications.",
+      "problem_statement": "Generative AI × Cloud",
+      "stack": [
+        "TypeScript",
+        "VS Code API",
+        "Node.js",
+        "OpenAI API",
+        "Terraform"
+      ],
+      "title": "Serverless-Dev Assist",
+      "track": "Generative AI × Cloud",
+      "why_it_could_win": "Solves a pain familiar to developers and judges alike by streamlining cloud configuration through generative AI workflows."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An autonomous IT service management agent running on cloud infrastructure that handles automated incident triage, ticketing, and remediation workflows.",
+      "problem_statement": "Generative AI × Cloud",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "PostgreSQL",
+        "Docker",
+        "React"
+      ],
+      "title": "Cloud-Native ITSM Agent",
+      "track": "Generative AI × Cloud",
+      "why_it_could_win": "Demonstrates practical applications of AI with efficient cloud deployment and measurable business impact, matching the main theme criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

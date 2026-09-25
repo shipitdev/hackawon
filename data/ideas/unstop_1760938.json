@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-09-25T08:07:39.587392+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unique-data",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760938",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A reinforcement learning simulation sandbox implementing contextual bandits to optimize online matching under extreme information scarcity and delayed feedback.",
+      "problem_statement": "How should a system make decisions with incomplete information and respond when feedback arrives over time?",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "NumPy",
+        "Scikit-Learn",
+        "Plotly"
+      ],
+      "title": "BanditMatch: Contextual Multi-Armed Bandits for Dynamic Matching",
+      "track": "",
+      "why_it_could_win": "Solves the core theoretical challenge directly using interpretable sequential decision-making algorithms rather than standard heuristics, aligning heavily with IIT Madras's applied ML focus."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684",
+        "github:1079913400"
+      ],
+      "pitch": "An interactive dashboard that computes expected value of information (VoI) before making high-stakes matching decisions in simulated environments.",
+      "problem_statement": "What information is worth acquiring and how should uncertainty be handled in sequential matching?",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "Pandas"
+      ],
+      "title": "UncertaintyLens: Active Learning & Value-of-Information Visualizer",
+      "track": "",
+      "why_it_could_win": "Features a live interactive simulation and profiling dashboard that makes abstract sequential decision theory instantly transparent to judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A sequential matching agent equipped with real-time demographic parity and fairness constraints that dynamically adapt as the underlying population distribution shifts.",
+      "problem_statement": "How can a system make decisions that remain effective and fair as conditions and feedback change over time?",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit",
+        "NetworkX"
+      ],
+      "title": "FairMatch-Guard: Bias-Aware Sequential Allocation Simulator",
+      "track": "",
+      "why_it_could_win": "Addresses the societal and algorithmic fairness concerns inherent in automated recommendation systems and matching platforms."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A graph-based optimization engine that updates edge weights in real time based on stochastic, delayed feedback loops from previous match outcomes.",
+      "problem_statement": "How should a system decide who should be introduced to whom when each decision changes the options and information available later?",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "SciPy",
+        "Flask",
+        "Chart.js"
+      ],
+      "title": "GraphOptima: Dynamic Bipartite Matching with Delayed Edge Feedback",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard graph optimization and algorithmic rigor, separating the project from basic UI wrappers."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "A configurable simulation environment and digital twin that spawns synthetic user pools with varying preferences to stress-test matching algorithms under non-stationary conditions.",
+      "problem_statement": "Participants will work with a controlled environment using synthetic data, allowing them to experiment with these ideas without using real-world personal data.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "FastAPI",
+        "Vue.js",
+        "Docker"
+      ],
+      "title": "SimState-Twin: Synthetic Environment Generator for Sequential Decision-Making",
+      "track": "",
+      "why_it_could_win": "Provides the foundational experimentation infrastructure that other teams lack, directly addressing the organizers' emphasis on controlled environments and synthetic data."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

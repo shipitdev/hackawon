@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-25T08:08:09.712479+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761111",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade AI health platform featuring rPPG touchless heart rate sensing and offline-first multilingual triage for rural health camps.",
+      "problem_statement": "Healthcare & MedTech",
+      "stack": [
+        "TypeScript",
+        "React",
+        "OpenCV",
+        "TailwindCSS",
+        "FastAPI"
+      ],
+      "title": "MediTriage-Edge",
+      "track": "Healthcare & MedTech",
+      "why_it_could_win": "Mirrors the success of mediscan-ai by focusing on hardware-agnostic clinical utility and a working live demo that judges can immediately test via webcam."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite imagery monitoring platform to detect unauthorized industrial land expansion and environmental zoning violations.",
+      "problem_statement": "Agriculture & Climate Tech",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Leaflet.js",
+        "PyTorch",
+        "Node.js"
+      ],
+      "title": "AeroSat-LandCompliance",
+      "track": "Agriculture & Climate Tech",
+      "why_it_could_win": "Directly builds on the GeoNex-ATLAS pattern, providing high-impact visual proof of geospatial anomaly detection that immediately appeals to government and climate judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A voice-first macOS desktop agent that monitors incoming audio streams and protects elderly users from vishing and email phishing scams in real time.",
+      "problem_statement": "Blockchain & Cybersecurity",
+      "stack": [
+        "Swift",
+        "WebRTC",
+        "TypeScript",
+        "Cloudflare Workers",
+        "Whisper API"
+      ],
+      "title": "SeniorShield-VoiceAgent",
+      "track": "Blockchain & Cybersecurity",
+      "why_it_could_win": "Replicates the winning pattern of gosim-zai-hack-winner by targeting consumer safety through an end-to-end working voice pipeline under extreme time constraints."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An IoT and web dashboard platform that ingests local water sensor feeds to predict harmful algal bloom risks 3 to 5 days in advance.",
+      "problem_statement": "Smart Cities & IoT",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Scikit-Learn",
+        "MQTT"
+      ],
+      "title": "AquaSense-IoT-Predictor",
+      "track": "Smart Cities & IoT",
+      "why_it_could_win": "Follows the exact blueprint of iForeSea-AquaSense-IoT-Hackathon by combining predictive time-series machine learning with an actionable municipal dashboard."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An interactive medical student training platform where users interview an AI patient scored on a strict rubric alongside computer-vision posture tracking.",
+      "problem_statement": "Education & EdTech",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "MediaPipe",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "OSCE-Clinical-Simulator",
+      "track": "Education & EdTech",
+      "why_it_could_win": "Capitalizes on the Cornell AI Hackathon grand prize formula by delivering a deeply functional vertical domain tool rather than a generic chatbot."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

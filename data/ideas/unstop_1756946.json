@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-25T08:06:08.528475+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756946",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An AI-powered smart garbage classifier using low-cost hardware and computer vision to optimize local municipal waste collection routes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "Flask"
+      ],
+      "title": "IoT Smart Dustbin and Waste Analytics Platform",
+      "track": "Open Innovation",
+      "why_it_could_win": "Follows the winning pattern from TechnoMorph Hackathon by featuring a working computer vision waste classifier integrated with hardware simulations, appealing directly to the IoT and CSE background of the hosting department."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A hyper-local civic tech app that drives foot traffic to local businesses through GPS-verified check-ins paired with an automated AI marketing copy generator.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "LocalShops AI Walk-to-Earn & Copilot",
+      "track": "Open Innovation",
+      "why_it_could_win": "Mimics the 1st place winner at Chatswood AI Real-World Impact Hackathon by combining a tangible real-world local economic benefit with a live dashboard that judges can test instantly on their mobile browsers."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "An IoT dashboard tracking real-time power consumption across departmental lab nodes, using lightweight anomaly detection to flag electrical faults instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Node.js",
+        "MQTT",
+        "Chart.js"
+      ],
+      "title": "Campus Smart Energy & IoT Anomaly Monitor",
+      "track": "Open Innovation",
+      "why_it_could_win": "Directly targets the host institution's Department of CSE (IoT, CS & BT) by solving a relatable campus-level infrastructure problem within a tight 8-hour window."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A lightweight voice assistant extension that analyzes incoming phone and browser audio streams in real-time to alert users about common phishing and financial scams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "Python",
+        "FastAPI",
+        "WebSockets"
+      ],
+      "title": "Voice-First Senior Fraud Shield",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages the winning architecture of the GOSIM Agentic Hackathon by delivering a voice-first protective agent that solves an immediate, highly emotional social problem with high demo impact."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI agent that automatically logs, categorizes, and proposes verified pull requests or maintenance tickets for reported campus software and hardware bugs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude API",
+        "FastAPI",
+        "GitHub API"
+      ],
+      "title": "Autonomous Campus Incident Response Agent",
+      "track": "Open Innovation",
+      "why_it_could_win": "Replicates the grand prize-winning data agent concept from the DataHub Agent Hackathon by demonstrating a fully closed-loop autonomous repair workflow rather than just a conversational wrapper."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-25T08:08:06.151523+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "polish",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761083",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An automated local intelligence gathering tool tailored for Jeopardy CTF OSINT challenges to map digital footprints and social graphs quickly.",
+      "problem_statement": "Open-Source Intelligence (OSINT)",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "BeautifulSoup",
+        "Streamlit"
+      ],
+      "title": "CTF-Forge OSINT Grapher",
+      "track": "Open-Source Intelligence (OSINT)",
+      "why_it_could_win": "Targeted directly at one of the core competition domains of Zephyr CTF 2026, offering immediate practical utility for participants and scoring high on speed and accuracy."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid cryptographic analysis assistant designed to identify cipher types, automated padding oracle checks, and common RSA flaws for CTF challenges.",
+      "problem_statement": "Cryptography",
+      "stack": [
+        "Python",
+        "SageMath",
+        "CryptoDome"
+      ],
+      "title": "CryptoBreak Helper",
+      "track": "Cryptography",
+      "why_it_could_win": "Addresses a challenging technical domain in the event where manual calculation slows down competitors, giving an edge through automated script generation."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "An image and audio forensics utility that applies Least Significant Bit analysis, frequency spectrum inspection, and metadata diffing to find hidden flags.",
+      "problem_statement": "Stegnography",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Tkinter"
+      ],
+      "title": "StegoScope AI",
+      "track": "Stegnography",
+      "why_it_could_win": "Steganography challenges often waste valuable competition hours; a unified tool with visual inspectors directly targets high-friction CTF tasks."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight binary analysis wrapper providing automated strings extraction, dynamic symbol hooking summaries, and heuristic vulnerability flagging for reverse engineering.",
+      "problem_statement": "Reverse Engineering",
+      "stack": [
+        "Python",
+        "Capstone",
+        "LIEF",
+        "Flask"
+      ],
+      "title": "BinInspect RE",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Reverse engineering requires deep focus; a streamlined wrapper that cuts down repetitive assembly analysis fits the Jeopardy CTF format perfectly."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A localized vulnerability scanner configured specifically to detect common CTF web flaws like SQLi, SSTI, and insecure deserialization payloads.",
+      "problem_statement": "Web Exploitation",
+      "stack": [
+        "Python",
+        "Requests",
+        "FastAPI"
+      ],
+      "title": "WebExploit Scanner Mini",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Web exploitation is a staple of Jeopardy CTF events, and having a localized, fast assessment script template saves teams precious minutes during the contest."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

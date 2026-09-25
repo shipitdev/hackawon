@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-09-25T08:06:55.507716+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "unique-data",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759745",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1228867095"
+      ],
+      "pitch": "An offline-first, multilingual voice agent that provides localized maternal health guidance and vaccine tracking for rural health workers in low-connectivity regions.",
+      "problem_statement": "Addressing healthcare, offline-first, and low-resource AI solutions in rural communities as outlined in the Mozilla Human Scale AI Buildathon 2026 scope.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper-tiny",
+        "SQLite",
+        "React Native"
+      ],
+      "title": "GramVani HealthSync",
+      "track": "Healthcare & Community Development",
+      "why_it_could_win": "Directly hits Mozilla's core vision of offline-first, multilingual, and community-centred AI for healthcare, aligning perfectly with the organizing foundation's explicit mandate."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:927292639"
+      ],
+      "pitch": "A low-resource crop disease and soil deficiency detector running locally on edge hardware via quantized computer vision models, translating diagnosis into regional audio instructions.",
+      "problem_statement": "Addressing agriculture and low-resource AI solutions that are responsive to diverse societal needs as specified in the hackathon context.",
+      "stack": [
+        "Python",
+        "YOLOv11-nano",
+        "TensorFlow Lite",
+        "Flutter",
+        "FastAPI"
+      ],
+      "title": "Sahayak Krishi Vision",
+      "track": "Agriculture & Accessibility",
+      "why_it_could_win": "Utilizes resource-efficient edge AI that requires no cloud dependency, scoring high on Mozilla's human-scale, privacy-first, and low-resource technical ethos."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1349018752",
+        "github:1085972321"
+      ],
+      "pitch": "An accessible, synchronous classroom learning tool that generates simplified regional language concept maps and audio summaries for students with diverse learning abilities.",
+      "problem_statement": "Addressing education and accessibility challenges through inclusive open AI solutions as outlined in the buildathon guidelines.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Web Speech API",
+        "Supabase",
+        "HuggingFace Transformers"
+      ],
+      "title": "Bhasha Shikshak AI",
+      "track": "Education & Accessibility",
+      "why_it_could_win": "Combines accessibility features with multilingual educational tools, mimicking past winning accessibility architectures while fitting the open-source Mozilla ethos."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1261513376",
+        "github:1346526259"
+      ],
+      "pitch": "An interactive legal and wage rights navigation agent that translates complex municipal labor laws into regional voice queries and logs local grievance data securely.",
+      "problem_statement": "Addressing worker rights and civic services challenges under the community-centred AI track of the buildathon.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "BART-large-MNLI",
+        "PostgreSQL"
+      ],
+      "title": "Mazdoor Adhikar Copilot",
+      "track": "Worker Rights & Civic Services",
+      "why_it_could_win": "Focuses on worker rights and civic accountability—an underrepresented theme in most hackathons that directly answers Mozilla's call for social impact and human-scale dignity."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1261513376"
+      ],
+      "pitch": "An offline-capable community mapping tool that assesses urban infrastructure and public transit accessibility via crowdsourced sensor reports and localized AI routing.",
+      "problem_statement": "Addressing community development and accessibility challenges through open, inclusive technology as mandated by the hackathon themes.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Mapbox GL",
+        "TailwindCSS",
+        "SQLite"
+      ],
+      "title": "Sugamya Marg",
+      "track": "Civic Services & Accessibility",
+      "why_it_could_win": "Delivers a working prototype with a demonstrable live demo mapping local physical barriers, matching the judges' preference for working community-impact software."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

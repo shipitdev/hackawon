@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-25T08:07:35.857630+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760916",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A transparent supply chain tracking system for organic agricultural produce using cryptographic proofs to prevent certification fraud without exposing proprietary farmer supplier lists.",
+      "problem_statement": "Agriculture / AgriTech (Digital Solutions)",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "AgriTrace ZK: Verifiable Organic Supply Chain",
+      "track": "Agriculture / AgriTech (Digital Solutions)",
+      "why_it_could_win": "Addresses a massive economic problem in AgriTech by bringing verifiable trust to organic labels, combining practical backend architecture with a compelling real-world use case that stands out from typical CRUD farm dashboards."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1022783746",
+        "github:995518925"
+      ],
+      "pitch": "An AI-powered defense suite that intercepts and analyzes real-time SMS streams and audio calls for localized linguistic scam patterns and social engineering tactics.",
+      "problem_statement": "Cyber Security",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "FastAPI",
+        "Python",
+        "Hugging Face"
+      ],
+      "title": "PhishGuard AI: Multi-Modal Scam Call & SMS Detector",
+      "track": "Cyber Security",
+      "why_it_could_win": "Builds directly upon proven anti-scam mechanics with an aggressive focus on high-accuracy local threat classification, directly hitting the Cyber Security track criteria."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:776580131"
+      ],
+      "pitch": "A secure health data sharing and audit logging platform utilizing multi-party computation and graph intelligence to track unauthorized access attempts across distributed hospital networks.",
+      "problem_statement": "Healthcare (HealthTech / Digital Health)",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Graphology",
+        "Rust"
+      ],
+      "title": "MediGraph AML: Patient Data Privacy & Access Auditor",
+      "track": "Healthcare (HealthTech / Digital Health)",
+      "why_it_could_win": "Tackles the difficult intersection of strict healthcare data compliance and advanced risk-detection graphs, providing heavy technical depth that judges prioritize."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1175183165"
+      ],
+      "pitch": "An interactive EdTech platform that converts complex data structures and algorithms assignments into multi-player gamified challenges equipped with an AI hint-generator.",
+      "problem_statement": "Gamification & EdTech",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Python"
+      ],
+      "title": "EduQuest: Gamified Coding Mechanics with Latent Space Hints",
+      "track": "Gamification & EdTech",
+      "why_it_could_win": "Combines high student engagement via gamification with sophisticated mechanistic interpretation of student code submissions to diagnose exact logical misconceptions."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An advanced graph intelligence platform that aggregates decentralized weather, soil, and market pricing data to forecast localized crop failure risks and supply chain bottlenecks.",
+      "problem_statement": "Agriculture / AgriTech (Digital Solutions)",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AgriYield Graph: Supply Risk & Market Intelligence Engine",
+      "track": "Agriculture / AgriTech (Digital Solutions)",
+      "why_it_could_win": "Replaces basic weather-app wrappers with sophisticated graph analysis and risk scoring, impressing judges with predictive analytics instead of passive dashboards."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

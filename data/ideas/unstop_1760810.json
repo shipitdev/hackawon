@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-25T08:07:15.905383+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760810",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An automated OSINT and reconnaissance dashboard designed for CTF competitors to map out web endpoints, leaked logs, and assets instantly.",
+      "problem_statement": "Fragments to Fortress: Web exploitation, cryptography, forensics, steganography, OSINT and reverse engineering challenges.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "NetworkX"
+      ],
+      "title": "FortressMap: Automated Attack Surface and OSINT Mapper",
+      "track": "",
+      "why_it_could_win": "Leverages graph intelligence and rapid visualization techniques similar to GraphGuard to help competitors systematically analyze attack surfaces without triggering platform bans."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A secure, client-side encrypted collaboration scratchpad for CTF teams to share code snippets, keys, and decryption parameters securely.",
+      "problem_statement": "Fragments to Fortress: Jeopardy-style contest where teams solve challenges across cryptography, forensics, and reverse engineering.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Web Crypto API"
+      ],
+      "title": "CryptPad: Zero-Knowledge Secret Sharing Sandbox",
+      "track": "",
+      "why_it_could_win": "Applies zero-knowledge or advanced cryptographic primitives to ensure team collaboration security, reflecting the deep cryptography themes of the CTF."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A forensic analysis toolkit that rapidly scans images, packet captures, and binary logs for hidden steganographic payloads and anomalies.",
+      "problem_statement": "Fragments to Fortress: Jeopardy-style contest involving forensics, steganography, and reverse engineering challenges.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pillow",
+        "Scapy"
+      ],
+      "title": "StegoAudit: Automated Forensics & Hidden Data Extractor",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering algorithms for file structure parsing and automated heuristic detection of hidden data payloads."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A lightweight local proxy that intercepts and sanitizes web requests and flags potential injection attempts in real-time.",
+      "problem_statement": "Fragments to Fortress: Web exploitation and reverse engineering challenges.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express"
+      ],
+      "title": "DefensiveGuard: Prompt-Injection & Web Payload Hardening Proxy",
+      "track": "",
+      "why_it_could_win": "Applies defense-in-depth and payload hardening principles seen in winning agent security projects, translating defensive concepts into a practical tool."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A localized real-time flag management platform for tracking solved categories, team progress, and vulnerability vectors.",
+      "problem_statement": "Fragments to Fortress: Each solved challenge gives you a flag, and each flag brings you closer to rebuilding the fortress.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "FlagVault: Cryptographic Flag Validation and Scoring Tracker",
+      "track": "",
+      "why_it_could_win": "Provides extremely clean execution and robust state management for competitive environments, aligning with the core premise of tracking multi-vector CTF flags."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

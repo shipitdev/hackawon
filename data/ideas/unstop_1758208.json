@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-25T08:06:22.268131+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758208",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered anti-money laundering risk detection and investigation platform tailored for financial compliance domains.",
+      "problem_statement": "Domain problem statement involving fraud detection or financial compliance risk assessment.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "AMLGraph Risk Explorer",
+      "track": "",
+      "why_it_could_win": "Demonstrates heavy backend data engineering and graph intelligence similar to successful enterprise hackathon winners."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:841301002"
+      ],
+      "pitch": "An AI-powered emergency response and dispatch assistant with real-time audio transcripts, emotion-aware triage, and a live operator cockpit.",
+      "problem_statement": "Domain problem statement focused on emergency response automation or public safety infrastructure.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "OpenAI Whisper",
+        "TailwindCSS"
+      ],
+      "title": "DispatchAI Operator Cockpit",
+      "track": "",
+      "why_it_could_win": "Features a high-impact live interactive demo and solves a high-stress operational workflow that immediately catches judges' attention."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A smart waste classification and sorting prototype combining computer vision with an IoT hardware simulation interface.",
+      "problem_statement": "Domain problem statement targeting smart city waste management, sustainability, or automated recycling.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "TensorFlow Lite"
+      ],
+      "title": "EcoSort AI Garbage Classifier",
+      "track": "",
+      "why_it_could_win": "Provides a tangible, end-to-end hardware-software demonstration that stands out visually against standard web app pitches."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "A predictive spatial modeling dashboard estimating localized wildfire risks using historical weather and terrain inputs.",
+      "problem_statement": "Domain problem statement addressing environmental safety, disaster forecasting, or climate resilience.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "Wildfire Risk Forecaster",
+      "track": "",
+      "why_it_could_win": "Relies on rigorous predictive modeling and robust data backtesting which appeals directly to technical judges looking for genuine analytical depth."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:985707686"
+      ],
+      "pitch": "An interactive wellness and mindfulness application featuring customisable breathing patterns and immersive 3D visualizations.",
+      "problem_statement": "Open Innovation domain option for health-tech, human-computer interaction, or digital well-being.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Three.js",
+        "React Three Fiber",
+        "TailwindCSS"
+      ],
+      "title": "Zenith 3D Breathing App",
+      "track": "",
+      "why_it_could_win": "Achieves exceptional visual polish and delightful frontend UX that wins over judges through sheer user experience quality."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
