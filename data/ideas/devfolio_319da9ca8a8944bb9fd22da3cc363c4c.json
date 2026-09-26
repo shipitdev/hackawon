@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-26T07:56:18.380003+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:319da9ca8a8944bb9fd22da3cc363c4c",
+  "ideas": [
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An autonomous local git hooks daemon that uses offline small language models to inspect staged code changes for security anti-patterns before commits hit upstream FOSS repositories.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "GitPython",
+        "Ollama",
+        "Llama 3"
+      ],
+      "title": "RepoDoctor",
+      "track": "",
+      "why_it_could_win": "Targeted directly at open-source contributors during a Hacktoberfest event; judges appreciate utility tools that solve real-world maintainer bottlenecks."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A localized GitHub action runner simulation that automatically categorizes, labels, and generates first-pass review summaries for incoming pull requests in student-led repositories.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "GitHub REST API",
+        "LangChain",
+        "Node.js"
+      ],
+      "title": "PR-Triage-Agent",
+      "track": "",
+      "why_it_could_win": "Leverages the core ethos of Hacktoberfest (handling PR volume) with an autonomous agentic approach proven to win agent hackathons."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A lightweight interactive visualization tool that maps out FOSS dependency networks and highlights stale or unmaintained packages directly inside your local workspace.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Streamlit",
+        "PyGraphviz"
+      ],
+      "title": "CommitTrace",
+      "track": "",
+      "why_it_could_win": "Addresses open-source software supply chain visibility, a high-priority theme for maintainers and FOSS organizers."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A local CLI tool that ingests an open GitHub issue URL, crawls the codebase using AST parsing, and generates a minimal contextual patch file using locally run open-source models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "Click",
+        "Transformers"
+      ],
+      "title": "IssueToPatch",
+      "track": "",
+      "why_it_could_win": "Combines deep developer tooling with hard engineering (AST parsing and local model execution) suited for a 12-hour sprint."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An automated documentation updater that monitors local code refactors and injects updated architectural flow diagrams and API signatures directly into your project's markdown files.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Mermaid.js",
+        "Babel",
+        "OpenAI API"
+      ],
+      "title": "ReadMeSync",
+      "track": "",
+      "why_it_could_win": "Solves the eternal FOSS problem of outdated documentation with zero manual overhead, appealing directly to hackathon judges looking for immediate utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-26T07:57:31.276912+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761818",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "Real-time driver HUD and telemetry system for wireless rovers using ESP32 and WebSockets to optimize lap times.",
+      "problem_statement": "Overdrive is a high-speed wireless rover racing challenge on a Melbourne F1-style track featuring ramps, rollers, gravel pits, and airborne sections.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "WebSocket",
+        "HTML5",
+        "JavaScript"
+      ],
+      "title": "AeroDrive Telemetry & HUD",
+      "track": "",
+      "why_it_could_win": "Focuses on the live demo and hardware-software integration pattern seen in winning hardware hacks, giving the single operator crucial real-time sensor feedback to shave seconds off the final time."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1179000073",
+        "github:1281918590"
+      ],
+      "pitch": "Precision lap and checkpoint counting module utilizing a front-mounted white LED and LDR sensor configuration with onboard logging.",
+      "problem_statement": "Checkpoint detection will be performed using a front-mounted white LED and LDR-based checkpoint system to calculate Final Time = Race Time + Penalty Time.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "LDR Sensor"
+      ],
+      "title": "CheckpointPasser LDR Counter",
+      "track": "",
+      "why_it_could_win": "Addresses the exact penalty and checkpoint calculation method specified in the event flow, ensuring strict compliance and zero missed checkpoints."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "Custom 3D-printed chassis and modular dampening system designed to absorb impact from ramps and airborne sections while keeping total weight under the 2 kg limit.",
+      "problem_statement": "Teams compete to complete a Melbourne F1-style track featuring ramps, rollers, gravel pits, and airborne sections within a maximum weight of 2 kg and 8x8x8 inches dimensions.",
+      "stack": [
+        "CAD",
+        "3D Printing",
+        "Mechanical Hardware"
+      ],
+      "title": "RoverGrip Suspension & Weight Optimizer",
+      "track": "",
+      "why_it_could_win": "Leverages the unusual physical build pattern by directly solving the strict dimension and weight constraints required to survive high-impact jumps."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "Optimized ESP-NOW or nRF24L01 wireless controller firmware reducing command latency to sub-10ms for hairpin turns and high-speed straights.",
+      "problem_statement": "Control: Wireless only — Wi-Fi, BLE, RF, LoRa, nRF24L01, or commercial RC systems with a single operator per run.",
+      "stack": [
+        "C++",
+        "nRF24L01",
+        "ESP-NOW"
+      ],
+      "title": "LowLatency RC Control Bridge",
+      "track": "",
+      "why_it_could_win": "Executes on robust hardware-level wireless communication which directly dictates success in high-speed racing challenges where lag causes crashes."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1179000073",
+        "github:1281918590"
+      ],
+      "pitch": "Safe power distribution and voltage monitoring circuit keeping the max 48V DC supply stable across sudden motor surges during rapid acceleration.",
+      "problem_statement": "Pre-requisites: Competition-ready wireless-controlled rover complying with specifications including a maximum voltage of 48V DC.",
+      "stack": [
+        "C",
+        "Atmega328",
+        "Power Electronics"
+      ],
+      "title": "PowerGuard 48V Voltage Reg",
+      "track": "",
+      "why_it_could_win": "Follows the pattern of robust, reliable hardware engineering and safety compliance seen in winning C/C++ hardware and IoT projects."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-09-26T07:57:03.594416+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760401",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A Python-based companion tool optimized for offline campus treasure hunts that parses riddles, tracks team checkpoint status, and streamlines Google Form submissions.",
+      "problem_statement": "Tech Grand Prix on-ground technical treasure hunt featuring campus QR codes, riddles, and sequential challenge progression from 10 to 40 points.",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "Requests",
+        "QR Code Scanner API"
+      ],
+      "title": "PitStop Navigator: Campus QR and Riddle Solver",
+      "track": "General",
+      "why_it_could_win": "Directly tackles the logistical bottlenecks of a fast-paced physical scavenger hunt where speed and zero error margins determine the winner."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "An F1-inspired dashboard application to monitor team checkpoint splits, puzzle hint logs, and estimated finish times during the offline treasure hunt.",
+      "problem_statement": "Tech Grand Prix on-ground technical treasure hunt combining teamwork, strategy, speed, and point progression across multiple campus checkpoints.",
+      "stack": [
+        "Python",
+        "Flask",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "title": "TelemetryDash: Real-time Team Race Tracker",
+      "track": "General",
+      "why_it_could_win": "Aligns perfectly with the F1 theme of the hackathon while providing a tangible, high-speed utility that stands out in an offline race."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A lightweight, local Python challenge sandbox that validates code snippets and logical reasoning puzzles instantly without relying on unstable internet connections during the campus hunt.",
+      "problem_statement": "Tech Grand Prix pre-requisites involving basics of coding (Python), logical reasoning, and general aptitude tested across sequential stages.",
+      "stack": [
+        "Python",
+        "PyQt",
+        "Subprocess"
+      ],
+      "title": "Chicane Coder: Offline Python Puzzle Validator",
+      "track": "General",
+      "why_it_could_win": "Solves the core technical hurdle of the event by ensuring teams can verify their code logic instantly before submitting via Google Forms."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A lightweight rule-based and regex-powered clue mapper that helps teams quickly cross-reference campus landmark names with cryptic riddle keywords.",
+      "problem_statement": "Tech Grand Prix event flow where a riddle reveals the location of the next hidden QR code across the institute campus.",
+      "stack": [
+        "Python",
+        "NLTK",
+        "Regex"
+      ],
+      "title": "ApexRiddle: NLP-Assisted Campus Clue Decoders",
+      "track": "General",
+      "why_it_could_win": "Focuses heavily on strategy and speed, giving teams a competitive edge in decoding location-based clues faster than opponents."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A team strategy coordinator that logs scanned QRs, manages designated team leader email submissions, and prevents accidental rule violations.",
+      "problem_statement": "Tech Grand Prix strict rules and regulations regarding scanning designated QRs, single team leader email submissions, and disqualification avoidance.",
+      "stack": [
+        "Python",
+        "SQLite",
+        "FastAPI"
+      ],
+      "title": "GridLock Guard: Rule Enforcement and Penalty Tracker",
+      "track": "General",
+      "why_it_could_win": "Appeals directly to event organizers and judges by prioritizing strict compliance with event rules, ensuring the team avoids disqualification."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

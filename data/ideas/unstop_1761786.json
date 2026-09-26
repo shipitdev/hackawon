@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-26T07:57:26.791201+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761786",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A micro-robot using modified flood-fill algorithm optimized for the 3x3m covered maze constraints.",
+      "problem_statement": "Takeshi's Bots is a fully autonomous maze-navigation challenge that tests a robot's accuracy, sensing, path planning, and decision-making in a 3x3m covered maze.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ROS2",
+        "ToF Sensors"
+      ],
+      "title": "WallE-3X: Fast Flood-Fill Maze Solver",
+      "track": "",
+      "why_it_could_win": "Follows the winning hardware and autonomous rover pattern by focusing entirely on high-performance deterministic algorithms over unpredictable cameras under tight time limits."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A compact 20x20x15cm chassis utilizing 2D LiDAR and an IMU with graph-based SLAM to map and navigate the covered maze without GPS.",
+      "problem_statement": "Takeshi's Bots is a fully autonomous maze-navigation challenge that tests a robot's accuracy, sensing, path planning, and decision-making in a 3x3m covered maze.",
+      "stack": [
+        "Python",
+        "C++",
+        "ROS2",
+        "SLAM"
+      ],
+      "title": "Aegis-Nav: LiDAR-Inertial Odometry Navigator",
+      "track": "",
+      "why_it_could_win": "Leverages genuine hard engineering in edge robotics navigation, making it stand out as a technically sophisticated entry."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A nimble differential drive robot running on 48V DC with high-speed IR and ultrasonic arrays for rapid wall-following and dead-end escape.",
+      "problem_statement": "Takeshi's Bots is a fully autonomous maze-navigation challenge that tests a robot's accuracy, sensing, path planning, and decision-making in a 3x3m covered maze.",
+      "stack": [
+        "C++",
+        "STM32",
+        "Ultrasonic",
+        "Encoders"
+      ],
+      "title": "QuickTurn-48V: High-Torque Wall-Hugger",
+      "track": "",
+      "why_it_could_win": "Wins through an unusual, highly reliable physical build that executes the run consistently under the 5-minute strict time constraint."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An onboard Raspberry Pi camera setup running quantized visual corner detection to determine junctions and dead-ends independently.",
+      "problem_statement": "Takeshi's Bots is a fully autonomous maze-navigation challenge that tests a robot's accuracy, sensing, path planning, and decision-making in a 3x3m covered maze.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
+      ],
+      "title": "NeuroMaze: Embedded Edge-AI Vision Explorer",
+      "track": "",
+      "why_it_could_win": "Combines edge-computing AI pattern with a live physical demo, satisfying the judges looking for advanced onboard processing."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "An autonomous decision-making framework featuring stack-based memory to instantly reverse and re-route upon hitting dead ends within the 3x3m maze.",
+      "problem_statement": "Takeshi's Bots is a fully autonomous maze-navigation challenge that tests a robot's accuracy, sensing, path planning, and decision-making in a 3x3m covered maze.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "FreeRTOS"
+      ],
+      "title": "FailSafe-Replan: Dynamic Dead-End Reverser",
+      "track": "",
+      "why_it_could_win": "Directly targets the core challenge requirement of overcoming dead ends reliably without human intervention."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

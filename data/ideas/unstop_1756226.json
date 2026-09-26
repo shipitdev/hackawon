@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-26T07:56:41.372266+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756226",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A real-time medical consultation assistant using Gemini's multimodal audio and text capabilities to structure doctor-patient conversations into EHR-ready records.",
+      "problem_statement": "Health care: solving administrative burden and documentation errors in clinical workflows using Gemini API keys.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "React"
+      ],
+      "title": "Gemini-Powered Smart Clinical Scribe",
+      "track": "Health care",
+      "why_it_could_win": "Directly targets the healthcare theme using advanced Gemini multimodal capabilities to solve a high-value real-world administrative problem."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An educational document Q&A and curriculum mapper that parses complex academic syllabi and textbooks using Gemini and vector search for precise retrieval.",
+      "problem_statement": "Education: making dense educational materials easily navigable and searchable for students using Gemini API keys.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Google Gemini API",
+        "ChromaDB"
+      ],
+      "title": "Semantic RAG Syllabus Navigator",
+      "track": "Education",
+      "why_it_could_win": "Leverages the education track and demonstrates deep integration of Gemini's context window and structured output capabilities."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An AI agent that evaluates corporate supplier invoices and sustainability reports using Gemini to flag greenwashing and calculate carbon footprints.",
+      "problem_statement": "Sustainability: auditing and improving supply chain environmental impact using Gemini API keys.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini API",
+        "Pandas"
+      ],
+      "title": "EcoAudit: Supply Chain Sustainability Analyzer",
+      "track": "Sustainability",
+      "why_it_could_win": "Addresses the sustainability theme with a concrete tool that businesses can use immediately, appealing to practical judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:855084718",
+        "github:938030912"
+      ],
+      "pitch": "An automated GitHub PR reviewer powered by Gemini that detects bugs, security vulnerabilities, and style violations, leaving inline review comments.",
+      "problem_statement": "AI: improving developer productivity and code quality using Gemini API keys.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Google Gemini API",
+        "GitHub Webhooks"
+      ],
+      "title": "Gemini Code Review Bot for GitHub",
+      "track": "AI",
+      "why_it_could_win": "Builds upon proven developer-tool hackathon patterns by providing immediate, tangible utility for software engineering students."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An educational tool that ingests lecture slides or YouTube transcripts via Gemini to automatically generate spaced-repetition flashcards and interactive quizzes.",
+      "problem_statement": "Education: enhancing learning efficiency and knowledge retention using Gemini API keys.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Google Gemini API"
+      ],
+      "title": "Adaptive AI Study Partner & Flashcard Generator",
+      "track": "Education",
+      "why_it_could_win": "Combines a consumer-friendly UI with deep use of Gemini's JSON mode to structure educational content reliably."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

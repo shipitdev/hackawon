@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-09-26T07:57:21.744320+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761513",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A streamlined, frictionless booking and payment flow built to replace broken UI steps in the Hostelbird app.",
+      "problem_statement": "Hostelbird App: Identify and fix 3-5 bugs, UX gaps, and broken flows in the Hostelbird app.",
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Node.js"
+      ],
+      "title": "Hostelbird Booking Flow Redesign and Checkout Fix",
+      "track": "",
+      "why_it_could_win": "Directly targets the core hackathon requirement of auditing and fixing a real product for actual travelers, giving it a high chance of being deployed live."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A robust local caching layer and offline-first UI for Hostelbird's messaging and hostel guide features to handle poor connectivity during travel.",
+      "problem_statement": "Hostelbird App: Address real issues like bugs, UX problems, edge cases and performance gaps in the app.",
+      "stack": [
+        "React Native",
+        "AsyncStorage",
+        "SQLite"
+      ],
+      "title": "Hostelbird Offline Chat & Local Recommendations Fix",
+      "track": "",
+      "why_it_could_win": "Solves a critical real-world pain point for backpackers traveling in areas with spotty internet connectivity."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A redesigned community feed and icebreaker matching interface that fixes discoverability issues for solo travelers staying at the same hostel.",
+      "problem_statement": "Hostelbird App: Build what's missing and redesign a broken flow to improve user experience.",
+      "stack": [
+        "React Native",
+        "TailwindCSS"
+      ],
+      "title": "Hostelbird Social Feed & Solo Traveler Matcher UI",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on product thinking and community engagement, which directly aligns with the organizer's emphasis on user experience."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An embedded map and translated local guide section resolving UI overlap and incorrect location routing inside the Hostelbird mobile app.",
+      "problem_statement": "Hostelbird App: Fix bugs and UX gaps in the navigation and location features of the Hostelbird app.",
+      "stack": [
+        "React Native",
+        "Mapbox",
+        "JavaScript"
+      ],
+      "title": "Hostelbird Multilingual Itinerary & Map Integration",
+      "track": "",
+      "why_it_could_win": "Delivers a polished, bug-free demo of a highly requested travel feature with immediate utility for international guests."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An interactive bug tracking dashboard and integrated user feedback loop built specifically to triage Hostelbird app performance issues.",
+      "problem_statement": "Hostelbird App: Identify friction points, bugs, and missing features and provide proof of implementation.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "Hostelbird Automated Review & Feedback Bug Bounty Report",
+      "track": "",
+      "why_it_could_win": "Demonstrates rigorous engineering execution and thorough product auditing beyond standard UI tweaks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

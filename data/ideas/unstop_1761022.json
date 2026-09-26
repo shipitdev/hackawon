@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-26T07:57:17.128447+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761022",
+  "ideas": [
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first AI code review agent running locally on hardware NPUs to inspect student code submissions without cloud connectivity.",
+      "problem_statement": "Tracks in AI/ML, Blockchain, Cyber Security, Web3, Open Innovation & Sponsor Tracks",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Transformers",
+        "ONNX Runtime"
+      ],
+      "title": "NPU-Accelerated Local Code Reviewer for Offline Campus Labs",
+      "track": "AI/ML",
+      "why_it_could_win": "Directly tackles the infrastructural pain of unreliable campus lab internet during offline coding evaluations, while mimicking a proven winning architecture."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic routing layer that automatically corrects misclassified student support queries by maintaining an exemplar index with LLM-judge writeback.",
+      "problem_statement": "Tracks in AI/ML, Blockchain, Cyber Security, Web3, Open Innovation & Sponsor Tracks",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "Streamlit"
+      ],
+      "title": "Self-Improving Semantic Router for Campus Helpdesk Queries",
+      "track": "AI/ML",
+      "why_it_could_win": "Delivers genuine algorithmic ingenuity within the short 8-hour window by optimizing routing accuracy without expensive model retraining."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "Two autonomous AI agents playing attacker and defender roles on smart contract and web code to discover zero-day vulnerabilities natively.",
+      "problem_statement": "Tracks in AI/ML, Blockchain, Cyber Security, Web3, Open Innovation & Sponsor Tracks",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Docker",
+        "Solidity"
+      ],
+      "title": "Adversarial Code Vulnerability Simulator",
+      "track": "Cyber Security",
+      "why_it_could_win": "Combines Cyber Security and AI/ML tracks into an engaging live demo of self-discovered security flaws rather than static template checking."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "A Web3-powered zero-knowledge credential verification system ensuring hackathon submission authenticity and preventing plagiarism across institutional boundaries.",
+      "problem_statement": "Tracks in AI/ML, Blockchain, Cyber Security, Web3, Open Innovation & Sponsor Tracks",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "React",
+        "ethers.js"
+      ],
+      "title": "Decentralized Credential Verifier for Hackathon Submissions",
+      "track": "Web3",
+      "why_it_could_win": "Targeting the Web3 track at a university-run hackathon gives a high probability of winning due to lower competition density compared to general tracks."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A lightweight local code editor extension that auto-generates unit tests and builds GUI feedback loops for rapid hackathon prototyping.",
+      "problem_statement": "Tracks in AI/ML, Blockchain, Cyber Security, Web3, Open Innovation & Sponsor Tracks",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Ollama",
+        "Node.js"
+      ],
+      "title": "IDE-Integrated Automated Test Generator Extension",
+      "track": "Open Innovation",
+      "why_it_could_win": "Solves an immediate, relatable pain point for every developer and judge in the room who writes code under intense time pressure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
