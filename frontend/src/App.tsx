@@ -137,10 +137,11 @@ export default function App() {
   }
 
   useEffect(() => {
-    const onPop = () => setSelected(null);
+    const onPop = (event: PopStateEvent) =>
+      setSelected(all.find((h) => h.slug === event.state?.slug) ?? null);
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
-  }, []);
+  }, [all]);
 
   return (
     <>
@@ -354,9 +355,20 @@ export default function App() {
 
               {selected && <Detail hackathon={selected} topics={topicLabels} onClose={close} />}
 
+              <section className="mt-12 text-sm text-muted" aria-labelledby="more-discovery">
+                <h2 id="more-discovery" className="font-semibold text-ink">More places to discover hackathons</h2>
+                <p className="mt-2">These links open external listings.</p>
+                <div className="mt-3 flex gap-6">
+                  <a href="https://devpost.com/hackathons" target="_blank" rel="noopener noreferrer"
+                    className="underline decoration-line underline-offset-4 hover:text-ink">Devpost</a>
+                  <a href="https://www.hackerearth.com/challenges/" target="_blank" rel="noopener noreferrer"
+                    className="underline decoration-line underline-offset-4 hover:text-ink">HackerEarth</a>
+                </div>
+              </section>
+
               <footer className="mt-20 flex flex-col gap-4 border-t border-line py-8 font-mono text-xs leading-relaxed text-faint sm:flex-row sm:justify-between">
                 <p className="max-w-[60ch]">
-                  Aggregated from Devfolio, Unstop and MLH. Registration always happens on the
+                  Aggregated from Devfolio, Unstop, MLH and Hack2Skill. Registration always happens on the
                   organiser's own page. Updated{" "}
                   {new Date(bundle.generated_at).toLocaleString("en-IN", {
                     dateStyle: "medium",

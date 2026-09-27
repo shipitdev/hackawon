@@ -4,6 +4,7 @@ export const SOURCE_LABELS: Record<string, string> = {
   devfolio: "Devfolio",
   unstop: "Unstop",
   mlh: "MLH",
+  hack2skill: "Hack2Skill",
 };
 
 const startOfDay = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate());

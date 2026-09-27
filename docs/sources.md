@@ -37,7 +37,7 @@ References: [Devfolio terms](https://devfolio.co/terms-of-use), [robots](https:/
 
 ## Verification (2026-09-27)
 
-`make check`: 177 offline backend tests, 65 frontend tests, Ruff and TypeScript passed.
+`make check`: 177 offline backend tests, 68 frontend tests, Ruff and TypeScript passed.
 The eight-page Unstop fixture imports all 218 rows. Repetition, premature empty pages,
 malformed envelopes, safety ceilings, leap years, hidden fields and source failure retention
 are covered. The source failure test uses a temporary store and health history.

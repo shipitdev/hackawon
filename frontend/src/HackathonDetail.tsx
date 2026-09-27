@@ -82,6 +82,15 @@ export function HackathonDetail({
         {copySlot}
       </div>
 
+      {hackathon.eligibility_text && (
+        <section className="mt-10">
+          <h3 className="text-sm font-semibold">Eligibility</h3>
+          <p className="mt-3 max-w-[70ch] whitespace-pre-line text-sm leading-relaxed text-muted">
+            {hackathon.eligibility_text}
+          </p>
+        </section>
+      )}
+
       {hackathon.tracks.length > 0 && (
         <section className="mt-10">
           <h3 className="text-sm font-semibold">Prize tracks</h3>

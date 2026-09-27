@@ -81,44 +81,44 @@ export function Hero({
 
         <aside
           aria-labelledby="closing-heading"
-          className="rise min-w-0 self-end border-t border-hero-ink/55 bg-hero/75 text-left backdrop-blur-sm md:col-span-5 lg:col-span-4"
+          className="deadline-panel rise min-w-0 self-center text-left md:col-span-5 lg:col-span-4"
           style={{ "--i": 4 } as React.CSSProperties}
         >
-          <div className="flex min-h-12 items-center justify-between gap-3 border-b border-hero-ink/25 py-2">
-            <h2 id="closing-heading" className="font-mono text-xs font-medium uppercase tracking-[0.1em]">
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-hero-ink/15 px-5 py-4">
+            <h2 id="closing-heading" className="text-sm font-semibold tracking-[-0.015em]">
               Registration deadlines
             </h2>
             {closingTotal > 0 && (
-              <span className="font-mono text-xs tabular-nums text-hero-ink/65">{closingTotal} this week</span>
+              <span className="rounded-full bg-hero-ink/8 px-2.5 py-1 font-mono text-[0.65rem] tabular-nums text-hero-ink/75">{closingTotal} this week</span>
             )}
           </div>
 
           {loading ? (
-            <ul aria-hidden>
-              {Array.from({ length: 4 }).map((_, i) => (
-                <li key={i} className="flex min-h-14 items-center gap-4 border-b border-hero-ink/20 py-2">
+            <ul aria-hidden className="px-3 max-lg:[&>li:nth-child(n+4)]:hidden">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <li key={i} className="flex min-h-16 items-center gap-4 border-b border-hero-ink/10 px-2 py-3 last:border-b-0">
                   <span className="h-3 w-12 animate-pulse rounded bg-hero-detail/55" />
                   <span className="h-3 flex-1 animate-pulse rounded bg-hero-detail/40" />
                 </li>
               ))}
             </ul>
           ) : closing.length === 0 ? (
-            <p className="border-b border-hero-ink/20 py-5 text-sm leading-relaxed text-hero-ink/70">
+            <p className="px-5 py-6 text-sm leading-relaxed text-hero-ink/75">
               Nothing closes in the next seven days. The full index below has everything still open.
             </p>
           ) : (
-            <ul className="max-lg:[&>li:nth-child(n+4)]:hidden">
+            <ul className="px-3 max-lg:[&>li:nth-child(n+4)]:hidden">
               {closing.map((h) => (
-                <li key={h.uid} className="border-b border-hero-ink/20">
+                <li key={h.uid} className="border-b border-hero-ink/10 last:border-b-0">
                   <button
                     type="button"
                     onClick={() => onOpen(h)}
-                    className="press group grid min-h-14 w-full grid-cols-[3.75rem_minmax(0,1fr)_1rem] items-center gap-3 py-2 text-left hover:bg-hero-ink/8"
+                    className="press group grid min-h-16 w-full grid-cols-[3.5rem_minmax(0,1fr)_1rem] items-center gap-3 rounded-lg px-2 py-3 text-left hover:bg-hero-ink/6"
                   >
-                    <span className="font-mono text-xs font-medium tabular-nums">{daysLeft(h)}</span>
+                    <span className="rounded-md bg-hero-ink/8 py-1.5 text-center font-mono text-[0.65rem] font-medium tabular-nums">{daysLeft(h)}</span>
                     <span className="min-w-0">
                       <span className="block truncate text-sm font-medium">{h.title}</span>
-                      <span className="block truncate text-xs text-hero-ink/60">{where(h)}</span>
+                      <span className="mt-1 block truncate text-xs text-hero-ink/70">{where(h)}</span>
                     </span>
                     <ArrowRight
                       size={14}
@@ -135,7 +135,7 @@ export function Hero({
             <button
               type="button"
               onClick={onSeeClosing}
-              className={`${closingTotal > closing.length ? "" : "lg:hidden"} press min-h-11 w-full text-left font-mono text-xs uppercase tracking-[0.08em] text-hero-ink/70 hover:text-hero-ink`}
+              className={`${closingTotal > closing.length ? "" : "lg:hidden"} press min-h-12 w-full border-t border-hero-ink/15 px-5 py-3 text-left text-xs font-medium text-hero-ink/75 hover:bg-hero-ink/6 hover:text-hero-ink`}
             >
               Show all {closingTotal} in the index
             </button>
