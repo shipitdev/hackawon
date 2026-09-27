@@ -18,10 +18,10 @@ from app.eligibility import is_open_for_registration
 from app.health import check_counts, load_history, record_counts, save_history
 from app.models import HackathonRecord
 from app.problems import enrich_problem_sources
-from app.sources import devfolio, mlh, unstop
+from app.sources import devfolio, hack2skill, mlh, unstop
 from app.store import prune_hackathon_artifacts, read_hackathons, write_hackathon, write_source_runs
 
-SOURCES = (devfolio, unstop, mlh)
+SOURCES = (devfolio, unstop, mlh, hack2skill)
 
 _NOISE = re.compile(r"[^a-z0-9]+")
 

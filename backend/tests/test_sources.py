@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from app.sources import devfolio, mlh, unstop
+from app.sources import devfolio, hack2skill, mlh, unstop
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -155,6 +155,7 @@ class TestNormalisation:
 
     def test_all_sources_produce_the_same_shape(self):
         batches = [
+            hack2skill.parse(load_json("hack2skill/listing.json")),
             devfolio.parse(load_json("devfolio/hackathons_open.json")),
             unstop.parse(load_json("unstop/hackathons.json")),
             mlh.parse((FIXTURES / "mlh/events_snippet.html").read_text(), season=2027),

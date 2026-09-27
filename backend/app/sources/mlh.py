@@ -10,6 +10,7 @@ Only a handful of MLH events are in India, so this is a cheap secondary source.
 from __future__ import annotations
 
 import re
+from datetime import UTC, datetime
 from urllib.parse import parse_qs, unquote_plus, urlparse
 
 from app.models import HackathonRecord
@@ -87,7 +88,14 @@ def parse(html: str, season: int | None = None) -> list[HackathonRecord]:
     return records
 
 
-def fetch(client: PoliteClient | None = None, season: int = 2027) -> list[HackathonRecord]:
+def current_season(now: datetime | None = None) -> int:
+    now = now or datetime.now(UTC)
+    now = now.astimezone(UTC)
+    return now.year + (now.month >= 7)
+
+
+def fetch(client: PoliteClient | None = None, season: int | None = None) -> list[HackathonRecord]:
+    season = season if season is not None else current_season()
     owns_client = client is None
     client = client or PoliteClient()
     try:

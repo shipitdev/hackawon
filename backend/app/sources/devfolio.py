@@ -107,17 +107,43 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
     return records
 
 
-def fetch(client: PoliteClient | None = None, limit: int = PAGE_SIZE) -> list[HackathonRecord]:
-    """Fetch currently-open hackathons."""
+def fetch(client: PoliteClient | None = None) -> list[HackathonRecord]:
+    """Fetch all currently-open hackathons; never publish a truncated batch."""
     owns_client = client is None
     client = client or PoliteClient()
+    records = []
+    seen = set()
+    pages_seen = set()
     try:
-        response = client.post(
-            SEARCH_URL,
-            json={"type": "application_open", "from": 0, "size": limit},
-            headers={"Content-Type": "application/json"},
-        )
-        return parse(response.json())
+        for page in range(100):
+            payload = client.post(
+                SEARCH_URL,
+                json={"type": "application_open", "from": page * PAGE_SIZE, "size": PAGE_SIZE},
+                headers={"Content-Type": "application/json"},
+            ).json()
+            hits = payload.get("hits")
+            if not isinstance(hits, dict) or not isinstance(hits.get("hits"), list):
+                raise ValueError("Invalid Devfolio search envelope")
+            rows = hits["hits"]
+            signature = frozenset(str(row.get("_source", {}).get("uuid")) for row in rows)
+            if rows and signature in pages_seen:
+                raise ValueError("Repeated Devfolio page")
+            pages_seen.add(signature)
+            for record in parse(payload):
+                if record.source_id not in seen:
+                    records.append(record)
+                    seen.add(record.source_id)
+            total = hits.get("total")
+            total = total.get("value") if isinstance(total, dict) else total
+            if total is not None and (type(total) is not int or total < 0):
+                raise ValueError("Invalid Devfolio total")
+            if (
+                not rows
+                or len(rows) < PAGE_SIZE
+                or (total is not None and (page + 1) * PAGE_SIZE >= total)
+            ):
+                return records
+        raise ValueError("Devfolio exceeded 100 pages")
     finally:
         if owns_client:
             client.close()
