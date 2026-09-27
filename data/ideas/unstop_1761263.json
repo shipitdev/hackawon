@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-27T08:28:28.743702+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761263",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An analytical platform for head-to-head competitive programming matches using graph intelligence to map coder strengths and weaknesses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "NetworkX"
+      ],
+      "title": "DuelsGraph: 1v1 CP Matchmaking & Performance Graph Analyzer",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the core theme of the IIITD Programming League by providing advanced performance analysis for 1v1 competitive programming matches."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A high-speed WebSocket-powered coding duel platform that brings knockout-style head-to-head programming battles to life with instant test-case execution.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets",
+        "Docker"
+      ],
+      "title": "AlgoClash: Real-Time 1v1 Algorithm Duel Arena",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact knockout and head-to-head format of the IPL event, making it an engaging demonstration piece for judges and competitors alike."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A localized RAG-based assistant that instantly indexes competitive programming problem archives to generate optimized algorithmic editorials and hints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "TypeScript",
+        "OpenAI API"
+      ],
+      "title": "CP-RAG: AI-Powered Competitive Programming Coach and Editorial Generator",
+      "track": "",
+      "why_it_could_win": "Solves a major pain point for competitive programmers practicing under tight time constraints, utilizing proven multi-agent and RAG patterns."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An AST-based static analysis tool that predicts execution time and memory complexity for Python and C++ submissions to prevent TLE verdicts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "Tree-sitter"
+      ],
+      "title": "CodeTracer: Algorithmic Complexity and Time-Limit-Exceeded Predictor",
+      "track": "",
+      "why_it_could_win": "Involves genuine hard engineering in static code analysis and complexity estimation, which appeals to competitive programming judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A streamlined live scoreboard and automated tournament bracket visualizer designed for fast-paced 1v1 knockout elimination events.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "BracketLive: Automated Tournament Tree & Live Telemetry for CP Leagues",
+      "track": "",
+      "why_it_could_win": "Provides immediate utility for organizers running a national-level knockout league with real-time state management."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

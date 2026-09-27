@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-27T08:28:06.669997+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:40f5203a0b9842038b51dd3f73236690",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A real-time prompt-chaining canvas for creative artists that transforms mood boards and rough sketches into cohesive multi-genre musical themes and narrative backstories.",
+      "problem_statement": "Empowering the Creative Artist (Open Track): Storytelling & Narrative Assistants and generative art tooling.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "OpenAI API",
+        "Stable Diffusion API"
+      ],
+      "title": "MuseMesh",
+      "track": "Open Track",
+      "why_it_could_win": "Targeting the open track with a highly polished visual UI that solves a real creative workflow bottleneck rather than just returning static text."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An intelligent co-writing diagnostic tool that tracks pacing, character voice consistency, and thematic arc drift in screenplays and short stories.",
+      "problem_statement": "Empowering the Creative Artist (Open Track): GenAI co-writers that help authors overcome writer's block and refine narrative structure.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Anthropic API"
+      ],
+      "title": "ScriptDoctor AI",
+      "track": "Open Track",
+      "why_it_could_win": "Addresses a painful, highly relatable problem for writers and content creators, featuring structured multi-step analysis instead of a generic prompt box."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A semantic prompt router and lyric generation workspace that matches regional Indian folk rhythms and modern chord progressions to user-defined emotional prompts.",
+      "problem_statement": "Empowering the Creative Artist (Open Track): Music is composed and digital art is created with GenAI support.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Qwen API",
+        "Tone.js"
+      ],
+      "title": "LyricForge",
+      "track": "Open Track",
+      "why_it_could_win": "Tailored directly to local creative contexts in Kolkata, giving judges a culturally resonant and highly demonstrable product live."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An AI-powered design asset generator that reads prose descriptions from independent comic artists and generates consistent character model sheets and color palettes.",
+      "problem_statement": "Empowering the Creative Artist (Open Track): Digital art is created and styled consistently through human-in-the-loop prompt engineering.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI Vision API",
+        "Replicate API"
+      ],
+      "title": "PaletteSync",
+      "track": "Open Track",
+      "why_it_could_win": "Solves the notorious consistency problem in generative AI art, appealing directly to digital illustrators and comic creators in the room."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "An interactive audiobook prompt director that lets voice actors and indie podcasters direct synthetic voice performances using emotive prompt modifiers and punctuation cues.",
+      "problem_statement": "Empowering the Creative Artist (Open Track): Narrative assistants and audio performance tools.",
+      "stack": [
+        "Next.js",
+        "ElevenLabs API",
+        "TailwindCSS"
+      ],
+      "title": "VoiceCraft Studio",
+      "track": "Open Track",
+      "why_it_could_win": "Focuses on fine-grained control over audio generation, shifting the narrative from passive generation to active human-in-the-loop creative direction."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-27T08:28:10.824182+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1750856",
+  "ideas": [
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An offline-first multilingual patient triage and symptom checker designed for rural health camps with low connectivity.",
+      "problem_statement": "Healthcare & Wellness",
+      "stack": [
+        "Next.js",
+        "SQLite",
+        "TailwindCSS",
+        "Gemini API"
+      ],
+      "title": "ArogyaSync: Localized Rural Healthcare Triage & Trust Engine",
+      "track": "Healthcare & Wellness",
+      "why_it_could_win": "Focuses on practical offline execution and direct community impact, which deeply resonates with local university hackathon judges looking for real-world utility over flashy vapourware."
+    },
+    {
+      "build_hours": 13,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1213911408"
+      ],
+      "pitch": "A hyper-localized skill development platform that converts unstructured vocational training videos into interactive quizzes and flashcards in regional languages.",
+      "problem_statement": "Education & Skill Development",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "EduSutra: AI-Powered Regional Language Skill Development Copilot",
+      "track": "Education & Skill Development",
+      "why_it_could_win": "Leverages video intelligence parsing to solve a clear, quantifiable accessibility problem in Indian technical and vocational education."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A real-time IoT simulation and tracking dashboard for monitoring campus resource consumption, carbon footprint, and waste segregation bins.",
+      "problem_statement": "Environment & Sustainability",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Chart.js",
+        "Supabase"
+      ],
+      "title": "EcoGrid: Smart Campus Energy & Waste Audit Dashboard",
+      "track": "Environment & Sustainability",
+      "why_it_could_win": "Addresses institutional sustainability with an instantly demoable live dashboard that judges can interact with on their own devices."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A lightweight routing and pricing engine that minimizes post-harvest loss by matching local farmers directly with micro-retailers based on transit time.",
+      "problem_statement": "Agriculture & Rural Development",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "PostgreSQL"
+      ],
+      "title": "KrishiBazaar: Direct Farmer-to-Consumer Produce Logistics Optimizer",
+      "track": "Agriculture & Rural Development",
+      "why_it_could_win": "Tackles a massive agrarian pain point with a clear economic benefit model that appeals strongly to RGPV-level regional innovation criteria."
+    },
+    {
+      "build_hours": 13,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A rapid-response web app allowing students to drop pin-based emergency alerts with automated local authority escalation and broadcast capabilities.",
+      "problem_statement": "Safety & Security",
+      "stack": [
+        "React",
+        "Leaflet.js",
+        "Node.js",
+        "Socket.io"
+      ],
+      "title": "SafeCampus: Geofenced Incident Reporting & Emergency Response Dispatch",
+      "track": "Safety & Security",
+      "why_it_could_win": "Solves an immediate, relatable campus safety problem with a polished, working emergency trigger UI that impresses judges during live stress-testing."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

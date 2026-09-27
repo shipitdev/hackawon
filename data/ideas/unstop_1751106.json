@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-27T08:28:15.257748+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1751106",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Real-time edge-AI acoustic monitoring and panic-route generator for women safety in poorly lit urban zones.",
+      "problem_statement": "AI for Women Safety (Safety & Security)",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TensorFlow Lite"
+      ],
+      "title": "SurakshaNet",
+      "track": "AI for Women Safety (Safety & Security)",
+      "why_it_could_win": "Targets a deeply felt societal issue in India, appealing directly to the local judges at Acropolis Institute by integrating cheap CCTV/audio feeds with spatial risk mapping."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Multilingual vernacular voice-agent for rural classrooms providing interactive NCERT textbook Q&A via low-bandwidth telephony APIs.",
+      "problem_statement": "AI for Rural Education (Education & Learning)",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Twilio"
+      ],
+      "title": "GramVani",
+      "track": "AI for Rural Education (Education & Learning)",
+      "why_it_could_win": "Solves accessibility constraints of rural India using high-impact audio intelligence that works on basic feature phones or low-spec web clients."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "Offline-capable multi-spectral leaf disease and soil degradation classifier tailored for local Indore agricultural yields.",
+      "problem_statement": "AI for Agriculture",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Flask",
+        "Flutter"
+      ],
+      "title": "CropShield AI",
+      "track": "AI for Agriculture",
+      "why_it_could_win": "Directly impacts regional agricultural productivity in Madhya Pradesh, giving judges a tangible, localized prototype they can immediately test with mobile photos."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "AI-powered clinical triage assistant that prioritizes patient waitlists and auto-translates prescriptions into regional Indian languages.",
+      "problem_statement": "AI for Healthcare & Medical Services",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "title": "ArogyaSync",
+      "track": "AI for Healthcare & Medical Services",
+      "why_it_could_win": "Addresses severe overcrowding in public healthcare settings through a pragmatic workflow optimization engine that hospital administrators and judges instantly understand."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Computer vision pipeline for automated pothole and illegal dumping detection using municipal CCTV feeds.",
+      "problem_statement": "AI for Smart Cities (Urban Development & Infrastructure)",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "NagarVision",
+      "track": "AI for Smart Cities (Urban Development & Infrastructure)",
+      "why_it_could_win": "Tackles municipal governance pain points with a clear, automated ticketing dashboard that local urban bodies would want to pilot immediately."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

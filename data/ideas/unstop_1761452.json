@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-27T08:28:33.293687+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761452",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A local LLM-powered assistant designed specifically for Capture The Flag (CTF) challenges that analyzes binary headers and network pcaps while preventing prompt-injection escalation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Claude",
+        "Vercel AI SDK"
+      ],
+      "title": "Agentic CTF Assistant with Defense-in-Depth Hardening",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced security engineering by applying layered prompt-injection hardening and local tool calling directly tailored for a cybersecurity competition context."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A ZK-gated verification portal that allows verified cybersecurity club members to access sensitive challenge flags without exposing personal institutional credentials.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "React",
+        "Base"
+      ],
+      "title": "Zero-Knowledge Credential Gater for Digital Defence Clubs",
+      "track": "",
+      "why_it_could_win": "Utilizes cryptographic privacy primitives (Noir-lang circuits) which appeals heavily to a specialized audience of cybersecurity enthusiasts and judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python-based CLI tool that scans participant repositories during CTF event teardown to automatically extract, summarize, and report security misconfigurations and hardcoded secrets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AST"
+      ],
+      "title": "RepoSec: Automated Security Insight and Vulnerability Scanner",
+      "track": "",
+      "why_it_could_win": "Solves a concrete operational problem for club organizers holding local security competitions by automating repository risk inspection."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A real-time detection dashboard that filters out malicious phishing payloads and social engineering attack vectors from competition submission channels using a fine-tuned transformer model.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "FastAPI",
+        "Python"
+      ],
+      "title": "BERT-Powered Phishing and Exploit Payload Classifier",
+      "track": "",
+      "why_it_could_win": "Adapts proven spam and threat detection architectures to handle malicious text inputs typical in defensive security scenarios."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A deterministic engagement-gated simulation framework for tactical network recon scripts that enforces strict human-in-the-loop validation before executing exploit payloads.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AWS Bedrock"
+      ],
+      "title": "Edge-Guarded Autonomous Reconnaissance Drone Simulator",
+      "track": "",
+      "why_it_could_win": "Applies defense-tech engineering standards with a clear human-in-the-loop safety boundary that safety-conscious judges appreciate."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

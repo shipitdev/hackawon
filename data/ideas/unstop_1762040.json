@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-09-27T08:28:55.486200+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762040",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A real-time collaborative coding evaluation platform tailored for academic hackathons and online technical challenges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "Docker"
+      ],
+      "title": "TeachPulse Interactive Coding Assessment Engine",
+      "track": "",
+      "why_it_could_win": "Since the hackathon is organized by an engineering college and called Teach Pulse, an educational coding evaluation tool directly mirrors the organizers' core context, appealing heavily to academic judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408",
+        "github:945008026"
+      ],
+      "pitch": "An AI-powered multi-agent mentor and Q&A system that assists students with debugging and coding challenge guidelines.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Flask",
+        "Llama3"
+      ],
+      "title": "PulseRAG Student Support Multi-Agent",
+      "track": "",
+      "why_it_could_win": "Leverages proven multi-agent RAG architecture that won similar student hackathons by providing tangible utility to participants during the event."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:939993991"
+      ],
+      "pitch": "An automated booking platform that matches students with available faculty mentors based on specific technical queries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "EduFlow Automated Appointment and Mentorship Scheduler",
+      "track": "",
+      "why_it_could_win": "Solves a concrete logistical problem for educational institutions with an intuitive workflow and automated communication integrations."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive analytics dashboard that monitors student submission error rates and forecasts debugging bottlenecks using regression models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "CodeTelemetry Incident Forecasting and Analytics",
+      "track": "",
+      "why_it_could_win": "Brings rigorous statistical modeling and predictive evaluation metrics directly to an academic coding challenge context."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A secure submission verification and anti-plagiarism system designed specifically for online student coding competitions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Node.js"
+      ],
+      "title": "SecurePulse Identity and Submission Verifier",
+      "track": "",
+      "why_it_could_win": "Addresses a vital administrative pain point for online hackathons with robust technical verification checks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

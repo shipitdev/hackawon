@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-27T08:28:42.498320+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761884",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1255987686",
+        "github:1068266327"
+      ],
+      "pitch": "An autonomous AI agent that audits legacy enterprise codebases, maps dependencies to cloud-native microservices, and generates verified Pull Requests to refactor them.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "Docker",
+        "GitHub API"
+      ],
+      "title": "Enterprise Cloud Migration Auditor & Code Refactor Agent",
+      "track": "Enterprise Tracks",
+      "why_it_could_win": "Aligns with the 3SVK ecosystem's focus on enterprise tracks and code review processes, highly appealing to core engineering judges looking for practical developer productivity tools."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A continuous telemetry and policy engine that inspects multi-cloud deployments in real-time, detecting idle resources and misconfigurations before they hit enterprise billing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "Kubernetes",
+        "Prometheus",
+        "React"
+      ],
+      "title": "Federated Cloud Cost and Resource Governance Daemon",
+      "track": "Cloud Innovation",
+      "why_it_could_win": "Solves an urgent pain point for cloud administrators and enterprise tech scouts evaluating candidates in the Technical Talent Dossier."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An intelligent service desk agent that ingests raw alerts, correlates them with runbooks in enterprise repositories, and executes safe self-healing scripts automatically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "AI-Driven ITSM Incident Triage and Auto-Remediation Bot",
+      "track": "AI Innovation",
+      "why_it_could_win": "Mirrors winning ITSM automation agents that successfully reduce manual IT overhead, making it an instant hit with enterprise-focused engineering judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A framework where two specialized AI agents simulate zero-day attack vectors against microservice architectures to harden defensive cloud posture without human intervention.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Datadog SDK",
+        "LangGraph",
+        "Terraform"
+      ],
+      "title": "Self-Improving Cloud Security Red Teaming Agent",
+      "track": "AI Innovation",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by implementing autonomous adversarial self-improvement loops similar to award-winning autonomous agent architectures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:670456402",
+        "github:1207207353"
+      ],
+      "pitch": "A semantic search and query tool that lets cloud engineers retrieve live deployment states, database schemas, and metrics simply by chatting in natural language.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Semantic Kernel",
+        "MariaDB",
+        "Streamlit"
+      ],
+      "title": "Natural Language Cloud Infrastructure Query Engine",
+      "track": "Cloud Innovation",
+      "why_it_could_win": "Directly targets developer workflow friction with a live-demo-ready interface that highlights enterprise utility and efficient database integrations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
