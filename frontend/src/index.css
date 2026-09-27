@@ -142,6 +142,20 @@ body {
   background: color-mix(in oklab, var(--color-hero-detail) 34%, var(--color-raised));
 }
 
+/* Amber glass uses the hero palette in both themes, with a solid tint under the blur. */
+.deadline-panel {
+  border: 1px solid color-mix(in oklab, var(--color-hero-detail) 55%, transparent);
+  border-radius: 1rem;
+  background:
+    linear-gradient(135deg, color-mix(in oklab, var(--color-hero-detail) 24%, transparent), transparent 70%),
+    color-mix(in oklab, var(--color-hero) 72%, transparent);
+  box-shadow:
+    inset 0 1px 0 color-mix(in oklab, var(--color-hero-detail) 45%, transparent),
+    0 16px 40px -16px color-mix(in oklab, var(--color-hero-depth) 40%, transparent);
+  -webkit-backdrop-filter: blur(20px) saturate(125%);
+  backdrop-filter: blur(20px) saturate(125%);
+}
+
 /* Original deadline terrain: three clipped CSS layers, no borrowed artwork or image asset. */
 .deadline-terrain {
   background:

@@ -16,6 +16,7 @@ export interface Hackathon {
   url: string;
   tagline: string | null;
   excerpt?: string;
+  eligibility_text?: string | null;
   starts_at: string | null;
   ends_at: string | null;
   reg_opens_at: string | null;

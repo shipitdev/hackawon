@@ -43,6 +43,18 @@ const hackathon: Hackathon = {
 };
 
 describe("hackathon details", () => {
+  it("shows Hack2Skill attribution and optional eligibility", () => {
+    const html = renderToStaticMarkup(
+      <HackathonDetail hackathon={{ ...hackathon, source: "hack2skill", eligibility_text: "Indian students" }} set={null} topics={new Map()} />,
+    );
+    expect(html).toContain("Apply on Hack2Skill");
+    expect(html).toContain("Eligibility");
+    expect(html).toContain("Indian students");
+    const legacy = renderToStaticMarkup(
+      <HackathonDetail hackathon={hackathon} set={null} topics={new Map()} />,
+    );
+    expect(legacy).not.toContain("Eligibility");
+  });
   it("links Apply to the direct event page and shows published problems", () => {
     const html = renderToStaticMarkup(
       <HackathonDetail hackathon={hackathon} set={null} topics={new Map()} />,

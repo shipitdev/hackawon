@@ -115,8 +115,40 @@ class TestStore:
         assert '"unstop:99"' not in (labels / "hackathons.json").read_text(encoding="utf-8")
 
 
-@pytest.mark.parametrize("source", ["devfolio", "unstop", "mlh"])
+@pytest.mark.parametrize("source", ["devfolio", "unstop", "mlh", "hack2skill"])
 def test_every_source_module_exposes_the_contract(source):
     module = __import__(f"app.sources.{source}", fromlist=["NAME"])
     assert isinstance(module.NAME, str)
     assert callable(module.parse) and callable(module.fetch)
+
+
+def test_failed_source_preserves_stored_current_records(monkeypatch, tmp_path):
+    from app import health, store
+    from app.jobs import ingest
+    from app.sources import hack2skill
+
+    monkeypatch.setattr(store, "DATA_DIR", tmp_path)
+    monkeypatch.setattr(health, "HEALTH_PATH", tmp_path / "source_health.json")
+    stored = make(
+        source="hack2skill", source_id="old", reg_deadline=datetime(2099, 1, 1, tzinfo=UTC)
+    )
+    expired = make(source="hack2skill", source_id="expired", reg_deadline=NOW)
+    write_hackathon(stored, tmp_path)
+    write_hackathon(expired, tmp_path)
+    original = (tmp_path / "hackathons/hack2skill/old.json").read_bytes()
+    for module in ingest.SOURCES:
+        monkeypatch.setattr(
+            module, "fetch", lambda: [make(reg_deadline=datetime(2099, 1, 1, tzinfo=UTC))]
+        )
+
+    def fail():
+        raise ValueError("unverified detail")
+
+    monkeypatch.setattr(hack2skill, "fetch", fail)
+    monkeypatch.setattr(ingest, "enrich_problem_sources", lambda _: 0)
+    assert ingest.run(dry_run=True) == 0
+    assert (tmp_path / "hackathons/hack2skill/expired.json").exists()
+    assert not (tmp_path / "source_runs.json").exists()
+    assert ingest.run() == 0
+    assert (tmp_path / "hackathons/hack2skill/old.json").read_bytes() == original
+    assert {r.uid for r in read_hackathons(tmp_path)} == {"hack2skill:old", "devfolio:1"}

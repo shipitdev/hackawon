@@ -38,6 +38,7 @@ class HackathonRecord(BaseModel):
 
     tagline: str | None = None
     description: str | None = None
+    eligibility_text: str | None = None
 
     #: When the hackathon itself runs. Leave None rather than substituting a registration date —
     #: Unstop rarely publishes an event start, and pretending otherwise produced date ranges like

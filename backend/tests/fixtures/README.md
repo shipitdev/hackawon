@@ -15,3 +15,7 @@ scraper breaks, diff the live response against these.
 
 Note: Devfolio's API exposes no winner/prize-to-project mapping — `prizes` was empty on every
 project sampled. See the design doc.
+
+Hack2Skill listing/detail fixtures were captured 2026-09-27 from the endpoints in
+[the source reference](../../../docs/sources.md), trimmed to date/visibility/section fields.
+Hidden-field, non-hackathon, pagination and failure variants are constructed offline in tests.

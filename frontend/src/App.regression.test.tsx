@@ -95,6 +95,12 @@ describe("homepage regression flow", () => {
       (button) => button.textContent === "Travel Hack",
     );
     expect(toolkit).not.toBeNull();
+    expect(host.querySelector('a[href="https://devpost.com/hackathons"]')).not.toBeNull();
+    expect(host.querySelector('a[href="https://www.hackerearth.com/challenges/"]')).not.toBeNull();
+    expect(host.textContent).toContain("These links open external listings.");
+    expect(host.querySelector('option[value="hack2skill"]')).not.toBeNull();
+    expect(host.querySelector('option[value="devpost"]')).toBeNull();
+    expect(host.querySelector('option[value="hackerearth"]')).toBeNull();
     expect(signIn).toBeDefined();
     expect(card).toBeDefined();
 
@@ -108,6 +114,18 @@ describe("homepage regression flow", () => {
     expect(window.location.pathname).toBe("/h/travel-hack/");
     expect(apply?.textContent).toContain("Apply on Unstop");
     expect(apply?.target).toBe("_blank");
+
+    await act(async () => {
+      window.history.replaceState(null, "", "/");
+      window.dispatchEvent(new PopStateEvent("popstate", { state: null }));
+    });
+    expect(host.querySelector("dialog")).toBeNull();
+    await act(async () => {
+      const state = { slug: hackathon.slug };
+      window.history.replaceState(state, "", `/h/${hackathon.slug}/`);
+      window.dispatchEvent(new PopStateEvent("popstate", { state }));
+    });
+    expect(host.querySelector("dialog")?.textContent).toContain("Travel Hack");
 
     await act(async () => root.unmount());
   });

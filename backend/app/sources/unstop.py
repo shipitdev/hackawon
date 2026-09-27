@@ -146,15 +146,16 @@ def parse(payload: dict[str, Any]) -> list[HackathonRecord]:
     return records
 
 
-def fetch(client: PoliteClient | None = None, pages: int = 6) -> list[HackathonRecord]:
-    """Page through currently-open hackathons (~162, so 6 pages of 30 covers them)."""
+def fetch(client: PoliteClient | None = None) -> list[HackathonRecord]:
+    """Traverse the reported page count, retaining source-ID deduplication."""
     owns_client = client is None
     client = client or PoliteClient()
-    records: list[HackathonRecord] = []
-    seen: set[str] = set()
+    records = []
+    seen = set()
+    pages_seen = set()
     try:
-        for page in range(1, pages + 1):
-            response = client.get(
+        for page in range(1, 101):
+            payload = client.get(
                 SEARCH_URL,
                 params={
                     "opportunity": "hackathons",
@@ -163,14 +164,27 @@ def fetch(client: PoliteClient | None = None, pages: int = 6) -> list[HackathonR
                     "per_page": PAGE_SIZE,
                 },
                 headers={"Accept": "application/json"},
-            )
-            batch = parse(response.json())
-            fresh = [r for r in batch if r.source_id not in seen]
-            seen.update(r.source_id for r in fresh)
-            if not fresh:
-                break  # ran past the last page, or the API started repeating itself
-            records.extend(fresh)
-        return records
+            ).json()
+            data = payload.get("data")
+            if not isinstance(data, dict) or not isinstance(data.get("data"), list):
+                raise ValueError("Invalid Unstop search envelope")
+            last_page = data.get("last_page")
+            if type(last_page) is not int or last_page < page:
+                raise ValueError("Invalid Unstop last_page")
+            rows = data["data"]
+            signature = frozenset(str(row.get("id")) for row in rows)
+            if rows and signature in pages_seen:
+                raise ValueError("Repeated Unstop page")
+            if not rows and page < last_page:
+                raise ValueError("Empty Unstop page before last_page")
+            pages_seen.add(signature)
+            for record in parse(payload):
+                if record.source_id not in seen:
+                    records.append(record)
+                    seen.add(record.source_id)
+            if page == last_page:
+                return records
+        raise ValueError("Unstop exceeded 100 pages")
     finally:
         if owns_client:
             client.close()
