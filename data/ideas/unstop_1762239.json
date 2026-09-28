@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-28T08:54:46.073203+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unique-data",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762239",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A real-time data science engine that analyzes QR code scan timestamps, team traversal paths, and bottleneck choke points across the campus to optimize survival strategies in a Hunger Games style hackathon.",
+      "problem_statement": "Data Science track challenges within the Xtract 5.0 campus-wide treasure hunt and coding battle royale.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "ArenaPulse DS: Campus Treasure Hunt Telemetry Engine",
+      "track": "Data Science",
+      "why_it_could_win": "Focuses on the exact operational constraints of the event itself, giving judges a meta-analytical tool built on real-time data from the physical-digital scavenger hunt."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1011077693",
+        "github:680478376"
+      ],
+      "pitch": "A machine learning pipeline that predicts whether a competing team will successfully clear the Data Science -> Machine Learning -> NLP sequence or stall based on early checkpoint telemetry.",
+      "problem_statement": "Machine Learning track challenges within the Xtract 5.0 sequential progression rule.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Scikit-Learn",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "TributeSurvival ML: Predictive Attrition & Task Dropout Analytics",
+      "track": "Machine Learning",
+      "why_it_could_win": "Mirrors proven predictive tabular modeling success at previous hackathons while mapping directly onto the multi-track elimination format of DJS S4DS."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An NLP system designed to parse cryptic Hunger Games style clues found behind physical QR codes, automatically extracting intent, mapping entity relationships, and decoding hints.",
+      "problem_statement": "NLP track challenges within the Xtract 5.0 physical-digital treasure hunt.",
+      "stack": [
+        "Python",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "React"
+      ],
+      "title": "ArenaLingo NLP: Clue Extraction & Cipher Sentiment Analyzer",
+      "track": "NLP",
+      "why_it_could_win": "Leverages text parsing and information extraction tailored specifically to the themed riddle format of the event's preliminary puzzle gates."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A high-speed computer vision pipeline built for the final OpenCV showdown, engineered to instantly detect, validate, and parse marker signals from live video streams.",
+      "problem_statement": "OpenCV finale showdown following the completion of the Data Science, Machine Learning, and NLP tracks.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "PyQt"
+      ],
+      "title": "OpenCV Victor Vision: Automated Campus QR and Target Verification",
+      "track": "OpenCV Finale",
+      "why_it_could_win": "Directly targets the make-or-break final OpenCV hurdle that stands between competing teams and victory in the arena."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1079913400",
+        "github:1079921550"
+      ],
+      "pitch": "A synchronized dashboard tracking team progression across all concurrent tracks (Data Science, Machine Learning, NLP, and the OpenCV finale) with real-time analytics updates.",
+      "problem_statement": "Concurrent multi-track progression management across the DJ Sanghvi College of Engineering campus arena.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "Socket.io",
+        "TailwindCSS"
+      ],
+      "title": "HungerBoards: Live Multi-Track Arena Telemetry & Status HUD",
+      "track": "All Tracks",
+      "why_it_could_win": "Provides an immediate, highly visual demo of all event metrics, which organizers and judges can interact with live during the closing ceremony."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

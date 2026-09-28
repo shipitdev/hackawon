@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-28T08:54:18.842827+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761309",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered AML risk detection and investigation platform combining graph intelligence, Focal LightGBM, and explainable AI specifically tailored for Indian financial compliance data.",
+      "problem_statement": "Cybersecurity & Digital Trust: Fraud Detection & Threat Detection",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "AWS",
+        "FastAPI"
+      ],
+      "title": "AMLGraph Risk Engine",
+      "track": "Cybersecurity & Digital Trust",
+      "why_it_could_win": "Directly targets the Cybersecurity & Digital Trust track using advanced graph intelligence and rigorous machine learning pipelines, a pattern proven by previous winner Bito."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A multi-agent platform for real-time network attack simulation, automated DDoS detection, and 3D threat visualization for enterprise infrastructure.",
+      "problem_statement": "Cybersecurity & Digital Trust: Threat Detection & Secure Systems",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Three.js",
+        "LangGraph"
+      ],
+      "title": "Agentic Network Attack Sim",
+      "track": "Cybersecurity & Digital Trust",
+      "why_it_could_win": "Demonstrates genuinely hard engineering with multi-agent orchestration for live security simulation, replicating the winning architecture of GraphGuard."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:889142131"
+      ],
+      "pitch": "An automated agentic LLM jailbreaker and red-teaming tool designed to audit enterprise LLM guardrails before deployment against prompt injection.",
+      "problem_statement": "Artificial Intelligence & Intelligent Systems: Generative AI & Agentic AI",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "SecureGuard LLM RedTeamer",
+      "track": "Artificial Intelligence & Intelligent Systems",
+      "why_it_could_win": "Focuses on high-stakes AI safety and rigorous red-teaming, mirroring the grand prize-winning methodology of SpectreRedTeaming."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An AI-powered NGINX and server log analysis dashboard with real-time anomaly detection and root-cause explanation for local server deployments.",
+      "problem_statement": "Cybersecurity & Digital Trust: Threat Detection & Reliability",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Gemini API",
+        "NGINX"
+      ],
+      "title": "LogAnom AI",
+      "track": "Artificial Intelligence & Intelligent Systems",
+      "why_it_could_win": "Solves an immediate, high-utility operational pain point with clean full-stack execution, following the hackathon-winning recipe of danphobic."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A multi-agent pipeline using web scraping and multilingual computer vision to detect illegal wildlife trafficking listings across regional digital marketplaces.",
+      "problem_statement": "Artificial Intelligence & Intelligent Systems: Computer Vision & Intelligent Automation",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "OpenCV",
+        "Playwright"
+      ],
+      "title": "WildScan Multi-Agent Pipeline",
+      "track": "Artificial Intelligence & Intelligent Systems",
+      "why_it_could_win": "Combines complex computer vision with multi-agent scraping workflows to address a severe real-world problem, perfectly aligned with WILDSCAN's hackathon-winning formula."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

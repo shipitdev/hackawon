@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-28T08:54:23.632485+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "fintech",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761822",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:969245239"
+      ],
+      "pitch": "A high-performance trading intelligence pipeline that combines causal reasoning with low-latency LLM execution to isolate true market drivers from noisy order-book signals.",
+      "problem_statement": "Markets & Trading Intelligence / Cause & Effect in AI Decisions",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "C++"
+      ],
+      "title": "OptiFlow: Low-Latency Execution & Causal Inference Engine",
+      "track": "Markets & Trading Intelligence",
+      "why_it_could_win": "Targeting the dual themes sponsored by IITB-Optiver AI Innovation Lab, this project directly appeals to quantitative finance judges by addressing real-world alpha decay and causal market impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:969245239",
+        "github:1131796276"
+      ],
+      "pitch": "A competitive multi-agent simulation framework where autonomous LLM agents trade assets under strict liquidity and latency constraints, testing cooperative vs. competitive dynamics.",
+      "problem_statement": "Agents That Compete/Cooperate/Adapt",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Redis"
+      ],
+      "title": "AgentArena: Multi-Agent Algorithmic Negotiation Simulator",
+      "track": "Agents That Compete/Cooperate/Adapt",
+      "why_it_could_win": "Leverages complex multi-agent orchestration patterns proven in prior winning systems, directly hitting the multi-agent coordination track evaluated by IIT Bombay researchers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1131796276",
+        "github:1289086869"
+      ],
+      "pitch": "An enterprise-grade trustworthy AI shield that logs and cryptographically verifies every reasoning step an LLM takes to prevent hallucinations and ensure regulatory compliance in high-stakes decisions.",
+      "problem_statement": "AI You Can Actually Trust",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Zero-Knowledge Proofs",
+        "FastAPI"
+      ],
+      "title": "VeritasLLM: Cryptographically Verifiable AI Decision Trails",
+      "track": "AI You Can Actually Trust",
+      "why_it_could_win": "Provides a mathematically rigorous approach to AI safety and explainability, scoring exceptionally high on the technical depth and rigor required for Round 1 abstract evaluations."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An extremely memory-efficient RAG architecture using custom INT4 quantization and pruned attention heads to run massive domain-specific knowledge bases on resource-constrained edge hardware.",
+      "problem_statement": "Efficient AI at Scale",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "ONNX",
+        "CUDA"
+      ],
+      "title": "QuantizedRAG: Edge-Optimized Neural Retrieval for Efficient Systems",
+      "track": "Efficient AI at Scale",
+      "why_it_could_win": "Solves hardware scaling bottlenecks directly relevant to systems engineers at IITB-Optiver, focusing on raw performance metrics rather than surface-level wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered interactive tutor that diagnoses conceptual misunderstandings in STEM students through rigorous Socratic questioning rather than just giving direct answers.",
+      "problem_statement": "AI That Teaches",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "LangChain"
+      ],
+      "title": "SocraticAI: Multimodal Student Diagnostic & Tutoring Agent",
+      "track": "AI That Teaches",
+      "why_it_could_win": "Directly addresses educational intelligence with a working pedagogical model that academic judges at Techfest IIT Bombay can immediately test and appreciate."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

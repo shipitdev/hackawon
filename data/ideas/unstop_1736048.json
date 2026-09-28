@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-28T08:53:33.126436+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1736048",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Multimodal AI diagnostic assistant for primary healthcare workers to detect early stage pulmonary anomalies from low cost X-rays.",
+      "problem_statement": "Healthcare and Well being covers AI diagnostics, mental health, medical devices, preventive healthcare and hospital workflows.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "Gemini API"
+      ],
+      "title": "AuraDiagnose",
+      "track": "Healthcare and Well being",
+      "why_it_could_win": "Targets the Healthcare and Well being track with a live-working diagnostic interface that solves a real resource gap in rural clinics, scoring high on clear measurable impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "Optimized route-planning and battery swapping scheduling platform for electric vehicle fleets moving agricultural produce in rural supply chains.",
+      "problem_statement": "Sustainability and ClimateTech covers clean energy, EV infrastructure, waste management, water conservation, smart agriculture and circular economy.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Python"
+      ],
+      "title": "AgriRoute EV",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Directly tackles EV infrastructure and smart agriculture under the Sustainability and ClimateTech track, demonstrating a clear economic and environmental metric."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Automated skill verification and credentialing verification engine leveraging multi-agent workflows to validate technical portfolios for campus placement cells.",
+      "problem_statement": "Education Technology covers AI powered learning, skill development, EdTech, campus solutions, accessibility, and assessment and credentialing.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Python"
+      ],
+      "title": "CredLens AI",
+      "track": "Education Technology",
+      "why_it_could_win": "Fits the Education Technology assessment and credentialing priority, utilizing an agentic workflow that impresses judges looking for robust technical execution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "Autonomous incident reporting and dispatch copilot that maps civic complaints to municipal department workflows with automated priority scoring.",
+      "problem_statement": "Smart Cities and CivicTech covers smart mobility, civic technology, public safety, smart infrastructure, and waste and water management.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "LLM APIs"
+      ],
+      "title": "CivicFlow Municipal",
+      "track": "Smart Cities and CivicTech",
+      "why_it_could_win": "Directly addresses civic technology and public infrastructure under Smart Cities and CivicTech, showcasing a live dashboard designed for real municipal use cases."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Decentralized waste management tracking platform providing real-time fill-level telemetry and route optimization for municipal recycling hubs.",
+      "problem_statement": "Sustainability and ClimateTech covers clean energy, EV infrastructure, waste management, water conservation, smart agriculture and circular economy.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BioCycle Mesh",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Provides a tangible waste management solution for the Sustainability and ClimateTech track with a working telemetry simulation dashboard that judges can test live."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

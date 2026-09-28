@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-28T08:53:10.811439+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6991a6b1f55c0f157226ed0b",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A meta-prompting workspace and evaluation harness built specifically for Google Antigravity to automatically benchmark, score, and iteratively refine complex system prompts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Antigravity SDK"
+      ],
+      "title": "Antigravity Prompt Optimizer",
+      "track": "",
+      "why_it_could_win": "Leverages the hackathon's specific focus on Google Antigravity, directly showcasing deep integration with the event's highlighted tooling."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that classifies incoming user prompts and directs them to the optimal specialized LLM endpoint based on intent vectors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "FastAPI"
+      ],
+      "title": "Semantic Prompt Router",
+      "track": "",
+      "why_it_could_win": "Imitates the architecture of a proven winner by applying efficient exemplar-based routing to solve context and model-routing overhead."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An automated pre-deployment risk and logic analyzer for AI-generated code snippets produced via rapid vibe coding workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AST",
+        "LLM Judge"
+      ],
+      "title": "VibeCode Guard",
+      "track": "",
+      "why_it_could_win": "Targets the hackathon's explicit endorsement of vibe coding by solving the critical pain point of governance and reliability in fast-generated code."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "An interactive playground where two distinct prompt-engineered agents debate or negotiate a scenario, writing reflection logs to continuously improve their prompt strategies without manual tuning.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "Self-Improving Agent Arena",
+      "track": "",
+      "why_it_could_win": "Employs the self-improving feedback loop pattern that won the Datadog Self-Improving Agents Hack, demonstrating autonomous optimization."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A local-first terminal tool that intercepts, logs, and analyzes prompt token efficiency and hallucination flags in real-time during local development.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Click",
+        "Rich"
+      ],
+      "title": "PromptLens CLI",
+      "track": "",
+      "why_it_could_win": "Addresses the developer experience angle emphasized in prompt-based challenges by providing immediate, tangible utility for anyone building with AI."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

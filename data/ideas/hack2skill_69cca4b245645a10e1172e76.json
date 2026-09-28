@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-28T08:53:15.918027+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:69cca4b245645a10e1172e76",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "A real-time LLM-driven crowd flow and queue optimization agent for FIFA World Cup 2026 stadiums.",
+      "problem_statement": "Smart Stadiums & Tournament Operations: Build a GenAI-enabled solution that enhances stadium operations and the overall tournament experience for fans, organizers, volunteers, or venue staff during the FIFA World Cup 2026.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "StadeFlow Agent",
+      "track": "Smart Stadiums & Tournament Operations",
+      "why_it_could_win": "Directly targets the prompt-driven workflow requirement and tackles a massive real-world operational challenge with an agentic demo that judges can test live."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An instant multilingual voice-to-text and chat translator tailored for volunteer staff navigating emergency and crowd control protocols at World Cup venues.",
+      "problem_statement": "Smart Stadiums & Tournament Operations: Build a GenAI-enabled solution that enhances stadium operations and the overall tournament experience for fans, organizers, volunteers, or venue staff during the FIFA World Cup 2026.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Web Speech API",
+        "Groq API"
+      ],
+      "title": "PolyAssist Stadium",
+      "track": "Smart Stadiums & Tournament Operations",
+      "why_it_could_win": "Leverages rapid GenAI prompting for fast localization and real-time operational support, perfectly matching the vibe coding requirement."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568",
+        "github:819399001"
+      ],
+      "pitch": "A dynamic semantic LLM router that directs fan inquiries to the most power-efficient and cost-effective local model endpoints deployed at stadium edge servers.",
+      "problem_statement": "Smart Stadiums & Tournament Operations: Build a GenAI-enabled solution that enhances stadium operations and the overall tournament experience for fans, organizers, volunteers, or venue staff during the FIFA World Cup 2026.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen"
+      ],
+      "title": "GreenArena Router",
+      "track": "Smart Stadiums & Tournament Operations",
+      "why_it_could_win": "Combines technically impressive semantic routing with carbon-aware computing principles from previous hackathon winners."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A workflow orchestration agent that diagnoses venue logistics bottlenecks and triggers automated safety protocol check-ins for stadium volunteers.",
+      "problem_statement": "Smart Stadiums & Tournament Operations: Build a GenAI-enabled solution that enhances stadium operations and the overall tournament experience for fans, organizers, volunteers, or venue staff during the FIFA World Cup 2026.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "BPMN Engine"
+      ],
+      "title": "MatchDay Ops BPMN",
+      "track": "Smart Stadiums & Tournament Operations",
+      "why_it_could_win": "Brings rigorous process governance and agentic execution to tournament logistics, an angle that highly impresses technical judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An interactive agentic indoor navigation and spatial routing assistant designed to guide fans and accessibility-impaired attendees through massive stadium complexes.",
+      "problem_statement": "Smart Stadiums & Tournament Operations: Build a GenAI-enabled solution that enhances stadium operations and the overall tournament experience for fans, organizers, volunteers, or venue staff during the FIFA World Cup 2026.",
+      "stack": [
+        "TypeScript",
+        "Mapbox GL",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "PitchNav AI",
+      "track": "Smart Stadiums & Tournament Operations",
+      "why_it_could_win": "Focuses on a tangible user-facing problem with a polished frontend demo that can be proven to work within a 48-hour timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

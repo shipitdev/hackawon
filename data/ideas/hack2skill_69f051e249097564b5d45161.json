@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-28T08:53:19.179512+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:69f051e249097564b5d45161",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "Real-time anomaly detection and operational telemetry pipeline for IBM Z mainframe logs using hybrid isolation forests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "TimescaleDB",
+        "Gemini 2.5"
+      ],
+      "title": "MainframeLog-Sentinel",
+      "track": "",
+      "why_it_could_win": "Mirrors the winning pattern of hard engineering and automated operations seen in iot-smart-home-ai-ops and danphobic, appealing directly to enterprise infrastructure judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "AI-driven bias detection and mitigation pipeline tailored for credit scoring and risk models running on enterprise mainframe environments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "scikit-learn",
+        "Next.js"
+      ],
+      "title": "Z-FairLens",
+      "track": "",
+      "why_it_could_win": "Directly applies the algorithmic fairness methodology that won 3rd place at Place Hackathon, addressing high-stakes enterprise compliance."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "Natural language to legacy database query and visualization engine translating unstructured requests into actionable enterprise dashboards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "PostgreSQL"
+      ],
+      "title": "Mainframe-Query-Bridge",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of combining LLM agents with structured dashboard APIs, similar to the Tableau DataDev Hackathon winner."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A 3-turn metacognition and reasoning evaluation framework specifically measuring LLM accuracy on mainframe architecture and COBOL refactoring tasks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
+      ],
+      "title": "Z-Metacog Benchmark",
+      "track": "",
+      "why_it_could_win": "Replicates the architectural rigor of the Google DeepMind x Kaggle AGI Hackathon grand prize winner."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "Clinical-grade explainability engine using SHAP values to audit machine learning decisions made by legacy financial models migrated from IBM Z.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "SHAP"
+      ],
+      "title": "Cobol-Explain-AI",
+      "track": "",
+      "why_it_could_win": "Combines robust explainability frameworks with predictive analytics, following the winning blueprint of the patient-readmission-prediction project."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

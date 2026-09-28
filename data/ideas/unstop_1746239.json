@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-28T08:53:37.636087+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746239",
+  "ideas": [
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A real-time telemetry and predictive performance tracker for ICPC-style programming contests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "WebSockets"
+      ],
+      "title": "CodeRumble Live Contest Analytics Dashboard",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the organizers and competitive programmers participating in this ICPC Regional-style event by providing instant post-round analytics and submission trajectory visualization."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "An offline-first browser extension that parses competitive programming problem statements and generates live interactive visual memory models for complex graph and DP problems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "HTML Canvas",
+        "Wasm"
+      ],
+      "title": "CP-Visualizer: Algorithmic Step-Through Engine",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the IIITDMJ Programming Club audience and contest judges by solving a daily pain point for competitive coders practicing for regionals."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A rapid local test-case generator and stress-testing runner for offline programming contests that compares naive vs optimized solutions against random inputs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Docker",
+        "Flask",
+        "Bootstrap"
+      ],
+      "title": "Offline Code Sandbox & Stress Tester",
+      "track": "",
+      "why_it_could_win": "Emphasises a real, working, demonstrable engineering tool built specifically for an offline ICPC-style contest environment."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1011077693",
+        "github:1087704265"
+      ],
+      "pitch": "A predictive model analyzing live penalty points and solve-rate velocity during a 5-hour contest to forecast final team standings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "Streamlit"
+      ],
+      "title": "RumbleRank: Automated ICPC Standings Predictor",
+      "track": "",
+      "why_it_could_win": "Leverages rigorous data forecasting patterns similar to winning prediction models, adapted dynamically for a live 5-hour hackathon or contest window."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "An offline portal parsing team submission logs to generate deep insights on teammate workload distribution and time-to-solve bottlenecks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Chart.js"
+      ],
+      "title": "Submissions Heatmap & Team Synergy Tracker",
+      "track": "",
+      "why_it_could_win": "Directly addresses multi-person team coordination challenges during a high-pressure 5-hour competitive programming round."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

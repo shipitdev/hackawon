@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-28T08:53:28.427592+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6a5da99acd0aa5f7151f8d64",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An enterprise multi-cloud operational assistant that automatically diagnoses Kubernetes cluster failures using Google Cloud Vertex AI and live telemetry.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Google Cloud Vertex AI",
+        "Next.js",
+        "Kubernetes API"
+      ],
+      "title": "Gemini CloudOps Copilot",
+      "track": "",
+      "why_it_could_win": "Directly targets Google Cloud judges by leveraging Vertex AI and enterprise infrastructure pain points, aligning with the core theme of the AI Builder Cup."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph intelligence platform built on Google Cloud that maps cross-border supply chain dependencies in the JAPAC region and predicts logistical disruption risks using ML.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Google Cloud BigQuery",
+        "NetworkX",
+        "LightGBM"
+      ],
+      "title": "JAPAC Supply Chain Risk Graph",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the regional JAPAC finale judges in Singapore by solving localized supply chain resilience challenges using advanced graph machine learning."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite and document analysis tool using Google Cloud Vision and Gemini to monitor industrial land and factory emissions compliance across the JAPAC region.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Google Cloud Vision API",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "Vertex ESG Compliance Monitor",
+      "track": "",
+      "why_it_could_win": "Combines multimodal AI with real-world enterprise compliance, echoing winning strategies from regional governance and monitoring hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A safety, bias, and drift forecasting toolkit for enterprises deploying LLMs on Google Cloud, featuring automated poisson regression backtesting for safety incidents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Google Cloud Cloud Run",
+        "scikit-learn"
+      ],
+      "title": "CloudAI Model Governance Guard",
+      "track": "",
+      "why_it_could_win": "Focuses on AI safety and governance, which is a high-priority judging criteria for enterprise-focused Google Cloud competitions."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A HIPAA-compliant patient acquisition and trust engine for specialized medical clinics in Singapore, powered by Google Cloud GenAI and automated localized multilingual intake.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Google Cloud SQL"
+      ],
+      "title": "Vertex Medical Trust Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the local Singapore healthcare market with a production-ready vertical SaaS application built entirely on Google Cloud infrastructure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

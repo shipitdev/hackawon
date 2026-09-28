@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-28T08:54:31.951282+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762158",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1351321536",
+        "github:1334000568"
+      ],
+      "pitch": "A visual orchestration canvas for multi-agent workflows leveraging Inkloom AI credits for localized node generation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "Inkloom AI"
+      ],
+      "title": "AgentFlow Studio",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track while incorporating sponsor tech (Inkloom AI credits) to reduce operational overhead during testing."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that dynamically dispatches incoming user prompts to the most cost-effective and accurate LLM endpoint.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen"
+      ],
+      "title": "QueryMesh Router",
+      "track": "Agentic AI",
+      "why_it_could_win": "Replicates the architectural efficiency of proven routing hacks, appealing to judges looking for production-ready cost optimization."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1171690684",
+        "github:1207207353"
+      ],
+      "pitch": "An automated data-profiling and database integrity rating tool optimized for real-time relational databases.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "SQLAlchemy"
+      ],
+      "title": "SchemaGuardian",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Brings hard engineering in automated data checks and schema validation, matching the technical depth of winning data profiling tools."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A full-stack project generator that automatically provisions a server, configures a free .xyz domain, and deploys a working product skeleton within minutes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Docker",
+        "Node.js"
+      ],
+      "title": "OmniDeploy .xyz",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Cleverly ties in the hackathon's prize perk (complimentary .xyz domains) directly into the core user onboarding workflow."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648",
+        "github:938030912"
+      ],
+      "pitch": "An offline-first code reviewer and bug-fix assistant running locally via lightweight models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ONNX",
+        "TypeScript",
+        "VS Code Extension API"
+      ],
+      "title": "NPU Code Inspector",
+      "track": "Open Innovation",
+      "why_it_could_win": "Solves a challenging local execution problem with high utility for developers, mirroring successful offline AI tool prototypes."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-09-28T08:53:56.943406+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758535",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated Anti-Money Laundering risk detection and transaction graph analysis platform for decentralized finance protocols.",
+      "problem_statement": "Detecting complex money laundering patterns across cross-chain decentralized finance transactions without creating massive false positives for legitimate users.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "NetworkX",
+        "React.js"
+      ],
+      "title": "ChainGuard AML",
+      "track": "FinTech",
+      "why_it_could_win": "Imitates the multi-faceted risk intelligence and graph analysis architecture seen in previous hackathon winners like Bito, directly addressing the FinTech domain with hard backend engineering."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "A privacy-preserving local AI assistant that securely sanitizes internal codebases and sensitive enterprise documents before querying cloud LLMs.",
+      "problem_statement": "Preventing accidental data leaks of proprietary corporate assets and PII when engineering teams leverage external AI coding and text-generation tools.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Transformers",
+        "Docker",
+        "TypeScript"
+      ],
+      "title": "SecureMind AI",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Combines a high-demand enterprise cybersecurity use case with practical local LLM routing, following the winning blueprint of secure infrastructure developer tools."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1188682384",
+        "github:776580131"
+      ],
+      "pitch": "A decentralized patient record auditing platform utilizing zero-knowledge proofs to verify clinical trial eligibility without exposing raw personal medical histories.",
+      "problem_statement": "Protecting patient medical privacy during cross-institutional clinical research data sharing and recruitment verification pipelines.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "MediGraph Health",
+      "track": "HealthTech",
+      "why_it_could_win": "Leverages zero-knowledge privacy mechanisms to solve a stringent HealthTech compliance requirement, inspired by winning architectures that prioritize cryptographic data protection."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:435231380",
+        "github:1022783746"
+      ],
+      "pitch": "An NLP-powered multilingual grievance classification and automated dispatch routing dashboard for municipal public works departments.",
+      "problem_statement": "Sorting, prioritizing, and acting on thousands of unstructured citizen complaints and civic infrastructure failure reports submitted across multiple channels.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "BERT",
+        "TailwindCSS",
+        "React.js"
+      ],
+      "title": "CivicPulse AI",
+      "track": "CivicTech",
+      "why_it_could_win": "Directly tackles a concrete CivicTech operations bottleneck using proven text classification models and an intuitive triage interface reminiscent of award-winning data science solutions."
+    },
+    {
+      "build_hours": 33,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An autonomous multi-agent simulation framework for backtesting and executing automated arbitrage and liquidity strategies on decentralized perpetual exchanges.",
+      "problem_statement": "Designing reliable automated trading strategies that adapt dynamically to volatile market conditions without relying on static, inflexible rule sets.",
+      "stack": [
+        "Python",
+        "Asyncio",
+        "Web3.py",
+        "React.js",
+        "FastAPI"
+      ],
+      "title": "AgenticTrade",
+      "track": "Open Innovation",
+      "why_it_could_win": "Capitalizes on complex agentic workflows and automated financial execution frameworks, mirroring the technical ambition and grand prize success of prior trading bot platforms."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

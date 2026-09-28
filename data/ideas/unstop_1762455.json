@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-28T08:54:59.441694+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762455",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:855084718",
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered pull request review and improvement agent built specifically to contribute high-value code to popular open-source repositories using ByteAsk.",
+      "problem_statement": "Pick an eligible public GitHub repository, make a useful contribution using ByteAsk, and open a pull request with your team.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "ByteAsk API",
+        "GitHub REST API"
+      ],
+      "title": "ByteAsk PR Assistant",
+      "track": "",
+      "why_it_could_win": "Directly hits the core submission requirement of creating a meaningful pull request using ByteAsk for an eligible repo, appealing directly to the challenge maintainers looking for production-ready contributions."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1207207353"
+      ],
+      "pitch": "A training-free semantic code search and indexing tool integrated into ByteAsk to help developers navigate large codebases before submitting PRs.",
+      "problem_statement": "Pick an eligible public GitHub repository, make a useful contribution using ByteAsk, and open a pull request with your team.",
+      "stack": [
+        "Python",
+        "ByteAsk SDK",
+        "FAISS",
+        "Transformers"
+      ],
+      "title": "RepoScope Semantic Indexer",
+      "track": "",
+      "why_it_could_win": "Leverages technical difficulty with semantic routing and code intelligence, a winning pattern seen in previous top-tier hackathon projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An OS-level command runner and operation orchestrator that executes multi-step refactoring tasks across large repositories using ByteAsk.",
+      "problem_statement": "Pick an eligible public GitHub repository, make a useful contribution using ByteAsk, and open a pull request with your team.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "ByteAsk API"
+      ],
+      "title": "ByteAsk OS Orchestrator",
+      "track": "",
+      "why_it_could_win": "Follows the winning blueprint of OS-orchestrated operations, providing judges with a tangible tool that solves real engineering bottlenecks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first code reviewer and bug-fix suggester that integrates local embeddings with ByteAsk to secure open-source contributions.",
+      "problem_statement": "Pick an eligible public GitHub repository, make a useful contribution using ByteAsk, and open a pull request with your team.",
+      "stack": [
+        "Python",
+        "ONNX Runtime",
+        "ByteAsk"
+      ],
+      "title": "Offline Code Guard",
+      "track": "",
+      "why_it_could_win": "Combines robust offline engineering with practical code review automation, matching criteria that frequently win runner-up and first-place titles."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An automated unit test and documentation generator designed to patch missing test coverage in 100+ star GitHub repositories using ByteAsk.",
+      "problem_statement": "Pick an eligible public GitHub repository, make a useful contribution using ByteAsk, and open a pull request with your team.",
+      "stack": [
+        "Python",
+        "Pytest",
+        "ByteAsk"
+      ],
+      "title": "Smart Test Generator for Open Source",
+      "track": "",
+      "why_it_could_win": "Maintainers actively want better test coverage, making a PR that introduces automated test generation extremely attractive for fellowship selection."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

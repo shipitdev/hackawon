@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-28T08:54:55.029191+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762328",
+  "ideas": [
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "An ultra-low-latency, post-training quantized keyword spotting model optimized for ARM Cortex-M microcontrollers to handle continuous on-device audio commands.",
+      "problem_statement": "Edge AI Challenge: Develop, train, validate, and optimize a lightweight machine-learning model for embedded deployment under strict memory and latency constraints.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "CMSIS-NN",
+        "C++"
+      ],
+      "title": "Quantized MobileNetV2 Audio Keyword Spotter",
+      "track": "",
+      "why_it_could_win": "Directly maximizes the scoring rubric by heavily targeting the 45 points for model performance and 20 points for inference latency through aggressive INT8 quantization."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A compressed convolutional model running on microcontrollers to classify hand gestures in real-time from raw accelerometer and gyroscope data.",
+      "problem_statement": "Edge AI Challenge: Develop, train, validate, and optimize a lightweight machine-learning model for embedded deployment under strict memory and latency constraints.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "ONNX Runtime",
+        "C"
+      ],
+      "title": "TinyML Gesture Recognition via MobileNet-Accelerated IMU",
+      "track": "",
+      "why_it_could_win": "Keeps the model footprint exceptionally small (under 25KB RAM usage), securing maximum points in the Model Size / Resource Usage category while ensuring fast execution times."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "A channel-pruned tiny object detection pipeline optimized with structural sparsity for resource-constrained edge vision microcontrollers.",
+      "problem_statement": "Edge AI Challenge: Develop, train, validate, and optimize a lightweight machine-learning model for embedded deployment under strict memory and latency constraints.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow",
+        "FlatBuffers"
+      ],
+      "title": "Pruned Tiny-YOLOv3 Object Detector for Edge Vision",
+      "track": "",
+      "why_it_could_win": "Balances accuracy and speed using structured weight pruning, capturing high points in both the 45-point accuracy bracket and the 15-point resource usage bracket."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autoencoder-based TinyML model optimized for real-time fault detection in industrial rotating machinery running entirely on edge nodes.",
+      "problem_statement": "Edge AI Challenge: Develop, train, validate, and optimize a lightweight machine-learning model for embedded deployment under strict memory and latency constraints.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "TensorFlow Lite for Microcontrollers",
+        "C++"
+      ],
+      "title": "INT8 Quantized Anomaly Detector for IoT Vibration Sensors",
+      "track": "",
+      "why_it_could_win": "Focuses on robust numerical stability during post-training quantization, ensuring the hidden evaluation inputs do not trigger accuracy degradation."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A heavily pruned micro-transformer model for binary intent classification running efficiently on embedded hardware targets with minimal RAM footprints.",
+      "problem_statement": "Edge AI Challenge: Develop, train, validate, and optimize a lightweight machine-learning model for embedded deployment under strict memory and latency constraints.",
+      "stack": [
+        "Python",
+        "Hugging Face Transformers",
+        "ONNX",
+        "MicroTVM"
+      ],
+      "title": "Micro-Transformer Attention Head Pruner for Text Edge Classification",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced compression techniques beyond standard models, earning full points on the technical approach and documentation criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
