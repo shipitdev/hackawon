@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-29T08:54:02.473723+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1735661",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An AI-powered forecasting system that analyzes technical incident telemetry and models risks using Poisson regression and automated backtests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Flask",
+        "Scikit-Learn"
+      ],
+      "title": "IncidentLens",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining predictive modeling with rolling backtests, following the winning pattern of technical rigor seen in AI forecasting hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent auditing system that reviews operational decisions and corporate policies for algorithmic bias using structured LLM validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "FastAPI",
+        "LangChain"
+      ],
+      "title": "PolicyAudit AI",
+      "track": "",
+      "why_it_could_win": "Leverages a proven multi-agent evaluation framework that previously secured first place by focusing on trust, safety, and algorithmic fairness."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated municipal waste classification and routing model combining computer vision and edge analytics to optimize recycling pickup.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "PyTorch",
+        "Streamlit"
+      ],
+      "title": "EcoRoute AI",
+      "track": "",
+      "why_it_could_win": "Addresses a tangible physical sustainability problem with a working vision pipeline, mirroring successful runner-up entries at municipal and AI hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "A localized risk assessment model processing weather and topographical data to predict and visualize regional wildfire escalation probabilities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "XGBoost",
+        "Leaflet.js"
+      ],
+      "title": "WildfireWatch",
+      "track": "",
+      "why_it_could_win": "Tackles a high-impact climate risk problem with quantifiable predictive metrics that appeal directly to judges looking for social and environmental value."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "An immersive language-learning platform that extracts authentic conversational phrases and vocabulary from user-generated short-form video clips.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "OpenAI Whisper"
+      ],
+      "title": "LinguaShorts",
+      "track": "",
+      "why_it_could_win": "Applies a fresh approach to user-generated media and NLP that successfully won university-level hackathons by focusing on practical, engaging consumer utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

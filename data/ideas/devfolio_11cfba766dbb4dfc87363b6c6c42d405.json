@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-29T08:53:58.554487+00:00",
+  "grounding": {
+    "domains": [
+      "edtech",
+      "healthtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 6,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:11cfba766dbb4dfc87363b6c6c42d405",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered training platform for nursing and medical students featuring an interactive patient simulator and real-time CPR posture feedback.",
+      "problem_statement": "Healthcare & Wellness track in CODEARAMBH 2.0",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "MediaPipe",
+        "OpenAI API"
+      ],
+      "title": "ArogyaSim: Interactive Clinical Case Trainer",
+      "track": "Healthcare & Wellness",
+      "why_it_could_win": "Directly mirrors a proven winner by combining LLM-driven medical interviews with computer-vision pose tracking, demonstrating genuinely hard engineering that immediately catches judges' attention."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:672563514",
+        "github:551740108"
+      ],
+      "pitch": "A gamified mobile application that verifies eco-friendly student behaviors on campus and rewards them with redeemable cafeteria perks.",
+      "problem_statement": "Agriculture & Sustainability track in CODEARAMBH 2.0",
+      "stack": [
+        "Java",
+        "Android",
+        "Firebase",
+        "Node.js"
+      ],
+      "title": "EcoAction Campus: Sustainable Habit Tracker",
+      "track": "Agriculture & Sustainability",
+      "why_it_could_win": "Focuses on clear, measurable environmental impact on a college campus, adopting the proven engagement loop of successful sustainability hackathon entries."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A localized web forecasting tool that uses historical water metrics and machine learning to predict water contamination risks for local water bodies.",
+      "problem_statement": "Agriculture & Sustainability track in CODEARAMBH 2.0",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AquaPredict: Regional Algal Bloom Risk Dashboard",
+      "track": "Agriculture & Sustainability",
+      "why_it_could_win": "Delivers concrete, quantifiable predictive insights that judges love, following the architecture of top-placed environmental data hackathon projects."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:230250148"
+      ],
+      "pitch": "An accessible web platform designed to screen for dyslexia indicators and dynamically reformat text layouts with customized fonts and audio-visual support.",
+      "problem_statement": "Education Technology (EdTech) track in CODEARAMBH 2.0",
+      "stack": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "title": "DyslexiaEase: Multi-Sensory Reading Support Portal",
+      "track": "Education Technology (EdTech)",
+      "why_it_could_win": "Addresses an underserved demographic with high social impact, matching the empathetic utility and problem-focused nature of past winning tools."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:163884979"
+      ],
+      "pitch": "A lightweight desktop utility that monitors study fatigue through webcam attention indicators and enforces mandatory stretch and eye-rest breaks.",
+      "problem_statement": "Education Technology (EdTech) track in CODEARAMBH 2.0",
+      "stack": [
+        "Java",
+        "OpenCV",
+        "JavaFX"
+      ],
+      "title": "MicroBreak Study Guard",
+      "track": "Education Technology (EdTech)",
+      "why_it_could_win": "Combines practical student utility with a live-working computer vision demonstration that ensures an engaging and bulletproof 3-minute presentation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

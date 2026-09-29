@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-09-29T08:54:34.459135+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759104",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A real-time synchronization dashboard designed for 4-person teams to split sub-tasks during sudden surprise gauntlet challenges.",
+      "problem_statement": "About the Event Think a hackathon is just pick a problem, open your laptop, and start coding? Think again. Welcome to Zero Hour — a hackathon where coding is only part of the game.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "GauntletSync: Multi-User Collaborative State Relay",
+      "track": "",
+      "why_it_could_win": "Directly targets the core constraint of Zero Hour: coordinating 3 surprise gauntlets assigned to 3 different team members under severe time limits."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1088994743"
+      ],
+      "pitch": "A command-line tool that lets developers rapidly apply pre-configured patch templates to breakages during timed emergency sprints.",
+      "problem_statement": "About the Event Think a hackathon is just pick a problem, open your laptop, and start coding? Think again. Welcome to Zero Hour — a hackathon where coding is only part of the game.",
+      "stack": [
+        "Python",
+        "Click"
+      ],
+      "title": "RapidPatch: Automated Code Hotfix Injector",
+      "track": "",
+      "why_it_could_win": "Solves the exact panic scenario when things stop going according to plan and teams need quick fixes during the 3-hour build window."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A micro-app that locks and unlocks specific workspace tabs for team members depending on whose turn it is in the active gauntlet challenge.",
+      "problem_statement": "About the Event Think a hackathon is just pick a problem, open your laptop, and start coding? Think again. Welcome to Zero Hour — a hackathon where coding is only part of the game.",
+      "stack": [
+        "JavaScript",
+        "React"
+      ],
+      "title": "TaskSwitch: Role-Based Gauntlet Handoff Manager",
+      "track": "",
+      "why_it_could_win": "Appeals directly to judges looking for adherence to the rule that at least 3 different team members must participate in the gauntlet challenges."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "An ultra-minimalist countdown dashboard equipped with an integrated slide generator for the final judge pitch.",
+      "problem_statement": "About the Event Think a hackathon is just pick a problem, open your laptop, and start coding? Think again. Welcome to Zero Hour — a hackathon where coding is only part of the game.",
+      "stack": [
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "TimeAnchor: 3-Hour Sprint Burndown & Defense Timer",
+      "track": "",
+      "why_it_could_win": "Addresses the 'Final Push' requirement by ensuring teams finish coding precisely on time and have a polished defense ready for judges."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A rapid scaffolding tool that injects mystery theme configurations into a modular project template instantly at kickoff.",
+      "problem_statement": "About the Event Think a hackathon is just pick a problem, open your laptop, and start coding? Think again. Welcome to Zero Hour — a hackathon where coding is only part of the game.",
+      "stack": [
+        "Python",
+        "Jinja2"
+      ],
+      "title": "MysteryTheme: Context-Aware Boilerplate Generator",
+      "track": "",
+      "why_it_could_win": "Saves critical minutes during the mystery theme selection kickoff, giving the team an immediate head start in the 3-hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-09-29T08:54:56.807901+00:00",
+  "grounding": {
+    "domains": [
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762162",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A zero-latency modular web application builder designed specifically for rapid prototyping and deployment under strict 12-hour offline hackathon constraints.",
+      "problem_statement": "Cliffesto ’26 Hackathon is a 12-hour offline web development hackathon where participants will work in teams to build a fully functional website based on a problem statement provided at the beginning of the event.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Vercel"
+      ],
+      "title": "Cliffesto Rapid Web Configurator",
+      "track": "",
+      "why_it_could_win": "Functionality accounts for 40% of the judging criteria; judges will heavily favor a fully deployed, completely bug-free web app over overly complex half-finished features."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [],
+      "pitch": "A collaborative problem-solving and ideation dashboard engineered to work seamlessly in offline campus environments with instant local-first state synchronization.",
+      "problem_statement": "Cliffesto ’26 Hackathon is a 12-hour offline web development hackathon where participants will work in teams to build a fully functional website based on a problem statement provided at the beginning of the event.",
+      "stack": [
+        "React",
+        "IndexedDB",
+        "Socket.io"
+      ],
+      "title": "CliffSync Offline-First Realtime Board",
+      "track": "",
+      "why_it_could_win": "Offline environments often suffer from unstable network conditions; building a reliable local-first web app guarantees smooth live demonstrations to judges without internet anxiety."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [],
+      "pitch": "A streamlined web portal enabling teams to cleanly package their code repositories, live deployment links, and embedded final presentation slides into a single evaluator view.",
+      "problem_statement": "Submission Requirements: Each team must submit: Project code Deployment link, if applicable Final presentation",
+      "stack": [
+        "TypeScript",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CliffEval Live Judging & Submission Portal",
+      "track": "",
+      "why_it_could_win": "Directly targets the explicit submission requirements of the event, making it extremely easy for judges to navigate and verify all deliverables instantly."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "An interactive web-based presentation and prototype viewer designed for time-bound 12-hour challenges to pitch solutions smoothly during the preliminary rounds.",
+      "problem_statement": "Teams qualifying through the Preliminary Round will present their solutions to the judges in their respective time slots on the following day.",
+      "stack": [
+        "Vue.js",
+        "TailwindCSS",
+        "Vite"
+      ],
+      "title": "CliffRoute Dynamic Presentation Flow",
+      "track": "",
+      "why_it_could_win": "Presentation skills are explicitly highlighted in the event description; a polished web-native slide deck and live app combo will stand out among traditional static PDF pitches."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "An instant project-scaffolding web tool that helps teams rapidly initialize their chosen tech stack and meet code-structure requirements within minutes of the problem drop.",
+      "problem_statement": "The problem statement will be disclosed at the start of the hackathon. Teams are required to develop a solution that follows the requirements and constraints specified in the problem statement.",
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "Docker"
+      ],
+      "title": "CliffFlow Modular Code Boilerplate Generator",
+      "track": "",
+      "why_it_could_win": "Solving the cold-start problem in a strict 12-hour window saves crucial development hours, ensuring high marks in functionality and completeness."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

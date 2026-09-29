@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-29T08:54:43.431131+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761135",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1034660288"
+      ],
+      "pitch": "An AI-powered logic coach that helps school students break down algorithmic problems using interactive Socratic questioning instead of just giving answers.",
+      "problem_statement": "Overview: NYPO 2026 – National Young Programmers Olympiad is a national-level technology competition testing students on logic, problem-solving, creativity and their ability to build with technology and AI.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI API",
+        "TypeScript"
+      ],
+      "title": "AI Logic Mentor for Young Programmers",
+      "track": "Senior Track",
+      "why_it_could_win": "Aligns with the 'Vibecoding' stage of the competition where students need to demonstrate their ability to build practical tools using AI and code that appeal to educators and young learners."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A beginner-friendly tool for students in Classes 8-10 to explain complex programming and logic concepts by generating animated storyboards from plain text.",
+      "problem_statement": "Overview: NYPO 2026 – National Young Programmers Olympiad is a national-level technology competition testing students on logic, problem-solving, creativity and their ability to build with technology and AI.",
+      "stack": [
+        "React",
+        "HTML5 Canvas",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "CodeCanvas AI: Visual Concept Storyteller",
+      "track": "Junior Track",
+      "why_it_could_win": "Directly targets the Junior Track and the Video Round requirement where students must clearly demonstrate and communicate their approach to an idea."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A quick-play web platform that turns competitive coding aptitude problems into interactive, visual mini-games for school students.",
+      "problem_statement": "Overview: NYPO 2026 – National Young Programmers Olympiad is a national-level technology competition testing students on logic, problem-solving, creativity and their ability to build with technology and AI.",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "AptitudeArena: Gamified Logic Trainer",
+      "track": "Junior Track",
+      "why_it_could_win": "Targets the Coding Aptitude stage of the Olympiad by creating a tool that helps students practice logical thinking and problem-solving through play."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An automated rehearsal companion that evaluates a student's recorded pitch video for clarity, pacing, and completeness against hackathon judging criteria.",
+      "problem_statement": "Overview: NYPO 2026 – National Young Programmers Olympiad is a national-level technology competition testing students on logic, problem-solving, creativity and their ability to build with technology and AI.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "MediaPipe",
+        "OpenAI Whisper"
+      ],
+      "title": "AI Project Pitch & Video Assistant",
+      "track": "Senior Track",
+      "why_it_could_win": "Solves a major pain point for the Video Round of the Olympiad, helping participants communicate their approach effectively to the judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1363148261"
+      ],
+      "pitch": "A lightweight web IDE that allows students with zero prior coding knowledge to build and deploy simple utility web apps entirely using natural language prompts.",
+      "problem_statement": "Overview: NYPO 2026 – National Young Programmers Olympiad is a national-level technology competition testing students on logic, problem-solving, creativity and their ability to build with technology and AI, where no prior coding knowledge is required.",
+      "stack": [
+        "Next.js",
+        "Monaco Editor",
+        "Anthropic Claude API",
+        "Vercel SDK"
+      ],
+      "title": "VibeCode Studio: Natural Language App Creator",
+      "track": "Senior Track",
+      "why_it_could_win": "Directly embodies the 'Vibecoding' concept highlighted in the event rules, proving that students without prior coding experience can use AI to build something real."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-29T08:55:15.157258+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762783",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A robust gradient-boosted decision tree pipeline combined with sentence transformers for zero-shot contradiction detection in multi-character chat logs.",
+      "problem_statement": "Uncover the Deceiver in a 48-Hour AI & NLP Kaggle Challenge: build an AI model to analyze fictional group-chat conversations and verified evidence to identify the lying character.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "Sentence-Transformers",
+        "Pandas"
+      ],
+      "title": "Veritas-Chat-Engine",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on feature engineering and rigorous local cross-validation to maximize the Kaggle classification metric, matching winning Kaggle methodologies."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "Fine-tuning a lightweight DeBERTa-v3 model using Natural Language Inference (NLI) pairs constructed from dialogue utterances and ground-truth evidence.",
+      "problem_statement": "Uncover the Deceiver in a 48-Hour AI & NLP Kaggle Challenge: build an AI model to analyze fictional group-chat conversations and verified evidence to identify the lying character.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "Hugging Face",
+        "PEFT"
+      ],
+      "title": "Deception-NLI-Fine-Tuner",
+      "track": "",
+      "why_it_could_win": "Leverages state-of-the-art transformer architecture adapted specifically for logical entailment and contradiction tasks, giving a strong edge on the private leaderboard."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated stacking ensemble merging syntactic heuristics, temporal message flow analysis, and cross-encoder similarity scores to pinpoint the liar.",
+      "problem_statement": "Uncover the Deceiver in a 48-Hour AI & NLP Kaggle Challenge: build an AI model to analyze fictional group-chat conversations and verified evidence to identify the lying character.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "LightGBM",
+        "Spacy",
+        "Optuna"
+      ],
+      "title": "ChatForensics-Ensemble",
+      "track": "",
+      "why_it_could_win": "Ensembling diverse weak learners and heuristic rule-checkers drastically reduces variance, securing stable performance across unseen test splits."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A retrieval-augmented generation and prompting pipeline that feeds chat turns and evidence into an LLM with strict JSON-formatting constraints to output predictions.",
+      "problem_statement": "Uncover the Deceiver in a 48-Hour AI & NLP Kaggle Challenge: build an AI model to analyze fictional group-chat conversations and verified evidence to identify the lying character.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "OpenAI API",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "LiarDetector-LLM-RAG",
+      "track": "",
+      "why_it_could_win": "Utilizes prompt engineering and systematic benchmarking against validation sets to rapidly yield baseline-beating CSV submissions on Kaggle."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "Constructing dynamic contradiction graphs for characters A, B, C, and D against verified evidence nodes using graph neural network embeddings.",
+      "problem_statement": "Uncover the Deceiver in a 48-Hour AI & NLP Kaggle Challenge: build an AI model to analyze fictional group-chat conversations and verified evidence to identify the lying character.",
+      "stack": [
+        "Python",
+        "PyTorch Geometric",
+        "NetworkX",
+        "Transformers"
+      ],
+      "title": "ClaimVerifier-Graph",
+      "track": "",
+      "why_it_could_win": "Solves the logical constraint problem structurally by mapping explicit conversational dependencies into relational graphs rather than relying purely on sequence classification."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

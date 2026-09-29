@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-09-29T08:54:39.010330+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759133",
+  "ideas": [
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A training simulator built specifically to help teams practice for Round 1 of Triathlon by generating rapid-fire AI-written code snippets with hidden bugs and syntax traps.",
+      "problem_statement": "Round 1: Coding & CS Quiz focusing on predict the output, find the bug, and spotting hidden mistakes in AI-written code.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "Triathlon AI Bug & Output Predictor",
+      "track": "",
+      "why_it_could_win": "Directly targets the exact format of Round 1, helping competitors train under timed constraints to secure a higher starting budget for Round 2."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:945803759"
+      ],
+      "pitch": "A rapid script that analyzes PCPartPicker component lists against strict bottleneck, power consumption, and compatibility rules to instantly resolve faults.",
+      "problem_statement": "Round 2: PC Build Fix & Adapt where teams find and fix mistakes in a faulty PC parts list and rework builds mid-way through.",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "Streamlit"
+      ],
+      "title": "PCPartPicker Constraint Auto-Fixer",
+      "track": "",
+      "why_it_could_win": "Solves the exact bottleneck of Round 2 where speed and compliance with dynamic budget/use-case changes determine the hint points earned for Round 3."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "An all-in-one local toolkit for rapid decryption of simple ciphers, hidden message extraction, and basic web/forensics artifact analysis.",
+      "problem_statement": "Round 3: CTF Puzzle Hunt featuring a Jeopardy-style set of cybersecurity puzzles including hidden messages, simple ciphers, and web/forensics challenges.",
+      "stack": [
+        "Python",
+        "Flask",
+        "CyberChef-CLI"
+      ],
+      "title": "CTF Cipher & Forensics Workbench",
+      "track": "",
+      "why_it_could_win": "Gives competitors an unfair advantage during the high-pressure 50-minute CTF puzzle hunt by automating tedious cipher cracking and file metadata extraction."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A real-time dashboard for teams to calculate risk management, resource allocation of Round 1 budgets, and strategic conversion of Round 2 scores into Round 3 hint points.",
+      "problem_statement": "About the Event: The rounds are linked where what a team earns in one round becomes a resource it spends in the next.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Triathlon Multi-Round Strategy Tracker",
+      "track": "",
+      "why_it_could_win": "Capitalizes on the unique linked-game mechanic of Triathlon, helping multi-member teams optimize their aggregate scores across all three stages."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:988515862",
+        "github:1163393786"
+      ],
+      "pitch": "A testing platform that injects subtle logic flaws and silent regressions into clean code to train developers on spotting AI hallucinations and bugs.",
+      "problem_statement": "Round 1: Coding & CS Quiz including spotting a hidden mistake in AI-written code.",
+      "stack": [
+        "Python",
+        "AST module",
+        "PyQt5"
+      ],
+      "title": "Adversarial Code Mutation Sandbox",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on hard engineering around code parsing and abstract syntax tree manipulation, ensuring a standout live demonstration for judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

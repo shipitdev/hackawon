@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-29T08:55:32.812686+00:00",
+  "grounding": {
+    "domains": [
+      "gaming",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762863",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A lightweight CFR (Counterfactual Regret Minimization) solver optimized for Python 3.11 and NumPy to compute approximate Nash equilibrium strategies within tight memory constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy"
+      ],
+      "title": "CounterfactualRegretMinimizationEngine",
+      "track": "",
+      "why_it_could_win": "Solves the core algorithmic challenge of poker AI under strict 1 vCPU and 1 GB RAM limits by pre-computing or abstracting decision trees efficiently."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An ultra-optimized hand evaluation and equity calculation module leveraging vectorized NumPy operations to score poker hands instantly without exceeding the time bank.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy"
+      ],
+      "title": "FastHandHistoryEvaluator",
+      "track": "",
+      "why_it_could_win": "Directly targets the strict cumulative time bank constraint (~60 seconds for 400 hands) where slower bots will time out and forfeit."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A hybrid poker bot combining rule-based pot-odds calculation with dynamic bluff frequency adjustment based on opponent stack-to-pot ratios and historical action profiling.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy"
+      ],
+      "title": "HeuristicStateBluffer",
+      "track": "",
+      "why_it_could_win": "Outperforms rigid static strategies during the Swiss Qualifier and Round-Robin stages by adapting to opponents' betting patterns within the 1 GB RAM limit."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A local multi-process testing framework that simulates the tournament runner, duplicate deals, and stdin/stdout communication to benchmark bot performance and detect memory leaks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python"
+      ],
+      "title": "StdioProtocolTestHarness",
+      "track": "",
+      "why_it_could_win": "Ensures zero crashes or protocol violations during the automated tournament, preventing accidental forfeiture caused by communication errors."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A decision-tree pruning utility that reduces betting action complexity in custom Texas Hold'em variants to fit within strict memory and compute budgets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy"
+      ],
+      "title": "ActionAbstractionOptimizer",
+      "track": "",
+      "why_it_could_win": "Crucial for handling custom poker variants where full game trees are too large for the 1 GB RAM and 1 vCPU constraints."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-29T08:55:41.888345+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762891",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An intelligent tech stack recommendation engine with architectural reasoning and automated constraint mapping.",
+      "problem_statement": "Overview Engineer an Intelligent Tech Stack Recommendation Engine! Participants must engineer an engine that processes project parameters—including scale, team size, budget, and infrastructure constraints—and outputs an optimal combination of frontend, backend, database, and hosting tools.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "React"
+      ],
+      "title": "StackPulse AI",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the sole core requirement of the StackSense Challenge by providing rigorous architectural reasoning and edge-case handling for a clean PDF project report."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A rules-based and LLM-assisted stack selector that validates compatibility constraints like database scaling and budget limits.",
+      "problem_statement": "Overview Engineer an Intelligent Tech Stack Recommendation Engine! Participants must engineer an engine that processes project parameters—including scale, team size, budget, and infrastructure constraints—and outputs an optimal combination of frontend, backend, database, and hosting tools.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "ArchGuard Engine",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on Input Design & Research (30% weight) by exposing clear telemetry, constraint scoring matrices, and structured trade-off analysis."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "A parameter-driven decision tree combined with an LLM synthesizer to generate custom starter architecture diagrams and tooling guides.",
+      "problem_statement": "Overview Engineer an Intelligent Tech Stack Recommendation Engine! Participants must engineer an engine that processes project parameters—including scale, team size, budget, and infrastructure constraints—and outputs an optimal combination of frontend, backend, database, and hosting tools.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "ConstraintStack",
+      "track": "",
+      "why_it_could_win": "Delivers a robust, flawless 3-minute demo video showing immediate end-to-end interactive parameter tuning and instant stack generation."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An individual-focused stack recommendation system optimized for solo developers handling limited budgets and strict cloud infrastructure limits.",
+      "problem_statement": "Overview Engineer an Intelligent Tech Stack Recommendation Engine! Participants must engineer an engine that processes project parameters—including scale, team size, budget, and infrastructure constraints—and outputs an optimal combination of frontend, backend, database, and hosting tools.",
+      "stack": [
+        "Python",
+        "SQLite",
+        "Flask",
+        "Vue.js"
+      ],
+      "title": "StackForge Solo",
+      "track": "",
+      "why_it_could_win": "Directly targets the strict individual participation rule (strictly individual; no team submissions) by tailoring stack recommendations specifically to solo developer velocity and constraints."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A structured CLI and web interface that ingests multi-variable enterprise constraints and outputs verifiable database and hosting pairings.",
+      "problem_statement": "Overview Engineer an Intelligent Tech Stack Recommendation Engine! Participants must engineer an engine that processes project parameters—including scale, team size, budget, and infrastructure constraints—and outputs an optimal combination of frontend, backend, database, and hosting tools.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Docker"
+      ],
+      "title": "ParametricStack",
+      "track": "",
+      "why_it_could_win": "Maximizes Recommendation Quality (35% criteria weight) through deterministic constraint validation layers paired with LLM-backed qualitative justifications."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-09-29T08:55:05.572049+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 3,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762674",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1235467347"
+      ],
+      "pitch": "Add instant voice and screen-annotation huddles to any existing GitHub repository or PR view using CometChat's MCP integration.",
+      "problem_statement": "Zero to Chat Add chat, voice, or video calling to anything you've built.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "CometChat MCP",
+        "GitHub API"
+      ],
+      "title": "PairPing",
+      "track": "",
+      "why_it_could_win": "Targeting developer ergonomics with an MCP-native implementation directly demonstrates the value of avoiding SDK docs."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1226951926",
+        "github:795808563"
+      ],
+      "pitch": "An embeddable widget that lets users interrupt their AI coding agent mid-task via real-time text chat or voice call powered by CometChat.",
+      "problem_statement": "Zero to Chat Add chat, voice, or video calling to anything you've built.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "CometChat MCP",
+        "WebSockets"
+      ],
+      "title": "AgentIntercom",
+      "track": "",
+      "why_it_could_win": "Combines cutting-edge AI agent control with practical real-time communication, appealing directly to developers using Claude Code or Cursor."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "Transform static open-source documentation sites into collaborative help rooms with integrated video chat for complex troubleshooting.",
+      "problem_statement": "Zero to Chat Add chat, voice, or video calling to anything you've built.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "CometChat MCP",
+        "TailwindCSS"
+      ],
+      "title": "DocChat Live",
+      "track": "",
+      "why_it_could_win": "Addresses a massive pain point for developers trying to debug third-party SDKs without leaving the documentation page."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A VS Code extension sidebar that spins up a ephemeral CometChat video room whenever an automated test failure occurs, inviting available teammates.",
+      "problem_statement": "Zero to Chat Add chat, voice, or video calling to anything you've built.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "CometChat MCP"
+      ],
+      "title": "GitDebug Call",
+      "track": "",
+      "why_it_could_win": "Solves a real friction point in asynchronous remote engineering by turning error logs instantly into collaborative bridge calls."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A lightweight virtual coworking timer for solo hackers that injects a randomized group video table via CometChat when the pomodoro break hits.",
+      "problem_statement": "Zero to Chat Add chat, voice, or video calling to anything you've built.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "CometChat MCP"
+      ],
+      "title": "HackerRoom",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the solo hacker demographic participating in this exact online build challenge."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

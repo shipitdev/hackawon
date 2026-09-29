@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-29T08:55:01.327544+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762222",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An interactive web utility designed to step through complex Data Structures & Algorithms visually to master coding logic and problem-solving fundamentals.",
+      "problem_statement": "Round 1 & 2 problem-solving focus on Data Structures & Algorithms, programming fundamentals, and coding logic.",
+      "stack": [
+        "React",
+        "JavaScript",
+        "TailwindCSS"
+      ],
+      "title": "AlgoTrace DSA Visualizer",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation metrics of the competition by providing a tool that helps participants debug and understand DSA logic interactively."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A lightweight practice platform optimized for virtual coding rounds with automated test case validation and time-complexity profiling.",
+      "problem_statement": "Round 1 consists of basic coding and programming problems designed to test programming fundamentals and problem solving.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Monaco Editor"
+      ],
+      "title": "CodeClash Mock Arena",
+      "track": "",
+      "why_it_could_win": "Addresses the specific platform and round constraints of ICC CodeClash, making it highly relevant to the judging panel's interest in coding proficiency."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1170846981"
+      ],
+      "pitch": "An AI-powered assistant that breaks down competitive programming syntax errors and explains alternative algorithmic approaches in plain language.",
+      "problem_statement": "Testing participants on programming fundamentals, coding logic, problem solving, and logical thinking.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "LogicLoom Syntax Coach",
+      "track": "",
+      "why_it_could_win": "Leans on proven educational AI assistant patterns while remaining tightly scoped to the single-developer constraints of a 24-48 hour window."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A static code analysis utility that estimates time and space complexity of submitted solutions in real-time during competitive coding drills.",
+      "problem_statement": "Focus on Data Structures & Algorithms, coding logic, and implementation.",
+      "stack": [
+        "Python",
+        "AST Parser",
+        "Streamlit"
+      ],
+      "title": "ComplexityMeter",
+      "track": "",
+      "why_it_could_win": "Provides concrete, measurable analytical value to competitive programmers trying to optimize their code for strict execution limits."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "A spaced-repetition and dynamic problem generator tailored for mastering DSA patterns tested in competitive programming rounds.",
+      "problem_statement": "Designed to challenge participants across programming fundamentals, coding logic, problem-solving, and DSA.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "LocalStorage"
+      ],
+      "title": "AlgoFlashcards AI",
+      "track": "",
+      "why_it_could_win": "Combines gamified learning with algorithmic problem patterns, matching successful educational tool patterns from past winning projects."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

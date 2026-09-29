@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-29T08:54:17.058192+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758280",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An IoT and mobile companion app providing real-time audio-haptic navigation and low-floor bus seat availability specifically for wheelchair users and visually impaired commuters.",
+      "problem_statement": "Disability-centric innovation, accessibility, assistive technology, and digital inclusion at SAARTHI'26.",
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "MQTT",
+        "OpenStreetMap API"
+      ],
+      "title": "SaathiCommute: Accessible Public Transit Companion",
+      "track": "",
+      "why_it_could_win": "Directly targets the core disability-centric theme of SAARTHI with tangible social impact and localized public transit integration."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An edge-AI running on a cheap microcontroller or local mobile app that translates dysarthric or impaired speech into clear synthesized speech in real time without needing cloud connectivity.",
+      "problem_statement": "Inclusive, accessible, scalable solutions to real-world challenges supporting persons with disabilities.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "TensorFlow Lite",
+        "React Native"
+      ],
+      "title": "AuraVocal: Offline Edge-AI Speech Clarifier for Cerebral Palsy",
+      "track": "",
+      "why_it_could_win": "Utilizes hard engineering (edge ML model fine-tuning) combined with high-empathy social impact, which stands out heavily to academic and IEEE judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer-vision-based web application that tracks hand signs via standard webcams and provides real-time gamified corrections for teachers and students learning Indian Sign Language (ISL).",
+      "problem_statement": "Inclusive education, accessibility, and disability-centric digital inclusion.",
+      "stack": [
+        "MediaPipe",
+        "Next.js",
+        "TailwindCSS",
+        "Python"
+      ],
+      "title": "EduSign-VR: Interactive Sign Language Learning Bridge",
+      "track": "",
+      "why_it_could_win": "Addresses inclusive education and digital inclusion, directly mirroring previous successful editions of SAARTHI focused on disability-centric solutions."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first triage and preventive care assistant designed for rural and semi-urban hill regions with low connectivity, offering localized health awareness and emergency dispatch hints.",
+      "problem_statement": "Technology-driven, inclusive, accessible, and impactful solutions to real-world healthcare challenges.",
+      "stack": [
+        "TypeScript",
+        "OpenAI Whisper API",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "MedReach-Rural: Multilingual Medical Triage for Mountain Terrains",
+      "track": "",
+      "why_it_could_win": "Directly appeals to the local context of Uttarakhand (mountainous terrain and regional access hurdles) which regional judges at GEHU value deeply."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A student-built IoT sensor rig and mapping dashboard that automatically audits institutional ramps, tactile paving blocks, and elevators for compliance with disability accessibility standards.",
+      "problem_statement": "Assistive technology, accessibility, IoT, and digital inclusion.",
+      "stack": [
+        "ESP32",
+        "Arduino C++",
+        "React",
+        "Leaflet.js"
+      ],
+      "title": "SmartAssist-Campus: IoT Accessibility Auditing Tool",
+      "track": "",
+      "why_it_could_win": "Combines physical IoT prototyping with software dashboards, making it an interactive hardware-software hybrid that is rare and impressive at regional hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-29T08:55:10.633711+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762774",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A PyTorch-based CNN classifier combining spatial and Fast Fourier Transform (FFT) frequency-domain features to catch high-frequency artifacts left by diffusion models.",
+      "problem_statement": "Identify Synthetic Media, Train Robust ML Models, and Safeguard Digital Integrity!",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Scikit-Learn",
+        "Pandas",
+        "NumPy"
+      ],
+      "title": "FreqArtifact: Spectral Deepfake Detector with Attention",
+      "track": "",
+      "why_it_could_win": "Focuses strictly on model robustness and precise prediction CSV generation, which directly targets the quantitative evaluation metrics used by judges in machine learning classification challenges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1339682542"
+      ],
+      "pitch": "An automated pipeline that trains, tunes, and ensembles EfficientNet-B4, ResNet50, and Vision Transformer backbones exclusively on the provided training set.",
+      "problem_statement": "Identify Synthetic Media, Train Robust ML Models, and Safeguard Digital Integrity!",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "TorchVision",
+        "FastAPI"
+      ],
+      "title": "RobustEnsemble: Multi-Architecture Deepfake Benchmark",
+      "track": "",
+      "why_it_could_win": "By adhering strictly to the dataset restriction and producing robust model weights with a clear prediction pipeline, it satisfies all documentation and reproducibility requirements."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A PyTorch deepfake detection model paired with Grad-CAM visualization to highlight precisely which facial regions triggered the fake classification.",
+      "problem_statement": "Identify Synthetic Media, Train Robust ML Models, and Safeguard Digital Integrity!",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit",
+        "Captum",
+        "OpenCV"
+      ],
+      "title": "ExplainDeepfake: XAI-Powered Synthetic Media Investigation Tool",
+      "track": "",
+      "why_it_could_win": "Combines high detection accuracy with transparent model documentation, giving judges clear visual proof of how the model reasons about manipulated media."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1339682542"
+      ],
+      "pitch": "A lightweight quantized MobileNetV3 deepfake detector optimized for local execution and packaged with an automated evaluation script that outputs the required prediction CSV.",
+      "problem_statement": "Identify Synthetic Media, Train Robust ML Models, and Safeguard Digital Integrity!",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "ONNX",
+        "Pandas"
+      ],
+      "title": "FaceShield: Real-Time Local Inference Deepfake Guard",
+      "track": "",
+      "why_it_could_win": "Prizes efficiency and speed alongside accuracy, making it ideal for judges looking for deployable real-world constraints."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A dual-branch PyTorch model checking lip-sync consistency and visual frame artifacts simultaneously to detect sophisticated deepfakes.",
+      "problem_statement": "Identify Synthetic Media, Train Robust ML Models, and Safeguard Digital Integrity!",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Librosa",
+        "OpenCV"
+      ],
+      "title": "AudioVisualSync: Multimodal Deepfake Verification Pipeline",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced technical prowess by tackling complex multi-modal forensic analysis within the tight hackathon timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

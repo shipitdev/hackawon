@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-09-29T08:55:28.850341+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762854",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A custom Linux kernel module that intercepts and logs sensitive system calls in real-time to detect container escape attempts.",
+      "problem_statement": "Operating Systems: Memory management, process scheduling, concurrency, kernel modules.",
+      "stack": [
+        "C",
+        "Linux Kernel",
+        "Makefile",
+        "QEMU",
+        "GDB"
+      ],
+      "title": "KernelGuard: A Lightweight LKM for Real-Time Syscall Interception",
+      "track": "Operating Systems",
+      "why_it_could_win": "Kernel-level programming is intimidating, meaning fewer teams will attempt it. By having a stable, clean, and demonstrably working Loadable Kernel Module (LKM) with a clear exploit-detection benchmark, it stands out against user-space web wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A high-performance custom packet filter and rate limiter leveraging raw sockets and eBPF maps to drop malicious DDoS traffic before it hits userspace.",
+      "problem_statement": "Computer Networks: Custom protocol stacks, raw socket programming, packet filtering.",
+      "stack": [
+        "C",
+        "C++",
+        "eBPF",
+        "libbpf",
+        "Raw Sockets"
+      ],
+      "title": "PktFilterX: User-Space eBPF Packet Filter and Rate Limiter",
+      "track": "Computer Networks",
+      "why_it_could_win": "Demonstrating live network packet injection and packet drop metrics via a CLI benchmark satisfies the requirement for empirical performance metrics and a live functional demonstration."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A miniature single-pass compiler that parses a subset of Python or C into a custom Intermediate Representation (IR), optimizes dead code, and executes it on a custom stack-based virtual machine.",
+      "problem_statement": "Compilers & Language Systems: AST parsing, IR generation, optimization passes, custom runtimes.",
+      "stack": [
+        "C++",
+        "Flex/Bison",
+        "CMake",
+        "Catch2"
+      ],
+      "title": "TinyIR: A Custom AST-to-Bytecode Compiler and Stack VM",
+      "track": "Compilers & Language Systems",
+      "why_it_could_win": "Compilers showcase rigorous computer science fundamentals. A working bytecode execution loop with printed AST dumps and optimization pass comparisons is extremely satisfying for judges to inspect."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A high-throughput, user-space asynchronous file I/O engine built directly on top of Linux io_uring primitives for low-latency database logging.",
+      "problem_statement": "Systems Programming: Low-level file I/O, driver interfaces, hardware acceleration.",
+      "stack": [
+        "C",
+        "Linux io_uring",
+        "liburing",
+        "Make"
+      ],
+      "title": "RingBufferFS: A Lock-Free Async File I/O Engine",
+      "track": "Systems Programming",
+      "why_it_could_win": "Utilizing modern Linux io_uring shows advanced systems programming awareness, and the benchmark demo can directly contrast traditional blocking reads with io_uring throughput metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A lightweight binary analysis tool that parses ELF binaries, identifies Return-Oriented Programming (ROP) gadgets, and simulates basic stack-pivoting mitigations.",
+      "problem_statement": "Low-Level Security: Binary analysis, vulnerability exploitation, mitigation mechanisms.",
+      "stack": [
+        "C++",
+        "ELF parsing",
+        "Capstone Disassembler",
+        "Python"
+      ],
+      "title": "ROPdetector: Automated ROP Gadget Finder and Mitigation Auditor",
+      "track": "Low-Level Security",
+      "why_it_could_win": "Security tracks love practical auditing tools. Providing pre-compiled vulnerable test binaries along with a clear terminal report of discovered gadgets guarantees a smooth and striking live demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
