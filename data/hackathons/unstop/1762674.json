@@ -1,0 +1,340 @@
+{
+  "city": null,
+  "country": null,
+  "description": "Zero to Chat Add chat, voice, or video calling to anything you've built. Your coding agent writes the code, and you post the demo. You have 14 days, and the three best builds win six months of Claude pro along with $1,000 CometChat credits each. What this is: Zero to Chat is a two-week build challenge for developers who want to add real-time communication to an app without spending a weekend reading SDK docs. You connect the CometChat MCP server (or skills pack) to your coding agent once. From then on, the agent reads CometChat's live documentation and builds from verified implementation bundles while you describe what you want. It can be a new project or something you've already shipped. Adding a DM tab to your side project counts. Who can take part: Anyone who writes code with an AI coding agent You can use Claude (Claude Code, Claude Desktop, or claude.ai ), Cursor, VS Code Copilot, Codex, Windsurf, Kiro, or any other MCP-compatible agent. Entry is individual, with one entry per person. Timeline: Opens: 24 September 2026 Build and post: Days 1 to 14 Closes: 7 October 2026 Winners announced: 9 October 2026 Prizes: Top 3 builds: wins six months of Claude pro each, plus $1,000 in CometChat credits. Every valid entry: reposted by @ CometChat on X, so your build gets seen by the developer community. Posting early doesn't give you an advantage. Every valid entry is judged at the close, on what you built. How to get started: Connect your agent. On Claude, add the MCP connector: claude mcp add --transport http cometchat https://mcp.cometchat.com/mcp?ref=z2c On Cursor, Copilot, Codex, Windsurf, Kiro and 30+ other agents, install the skills pack: npx @cometchat/skills add The connector is read-only and needs no sign-up. Sign in and build. Your app needs an App ID, Auth Key, and region. Create a free account at app.cometchat.com (no card required, and the free tier covers 100 monthly active users). Then run this to pull credentials straight into your project: npx @cometchat",
+  "eligibility_text": null,
+  "ends_at": "2026-10-12T00:00:00+05:30",
+  "mode": "online",
+  "organiser": "CometChat",
+  "participants_count": 0,
+  "prize_amount": null,
+  "prize_currency": null,
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Zero to Chat Add chat, voice, or video calling to anything you've built. Your coding agent writes the code, and you post the demo. You have 14 days, and the three best builds win six months of Claude pro along with $1,000 CometChat credits each. What this is: Zero to Chat is a two-week build challenge for developers who want to add real-time communication to an app without spending a weekend reading SDK docs. You connect the CometChat MCP server (or skills pack) to your coding agent once. From then on, the agent reads CometChat's live documentation and builds from verified implementation bundles while you describe what you want. It can be a new project or something you've already shipped. Adding a DM tab to your side project counts. Who can take part: Anyone who writes code with an AI coding agent You can use Claude (Claude Code, Claude Desktop, or claude.ai ), Cursor, VS Code Copilot, Codex, Windsurf, Kiro, or any other MCP-compatible agent. Entry is individual, with one entry per person. Timeline: Opens: 24 September 2026 Build and post: Days 1 to 14 Closes: 7 October 2026 Winners announced: 9 October 2026 Prizes: Top 3 builds: wins six months of Claude pro each, plus $1,000 in CometChat credits. Every valid entry: reposted by @ CometChat on X, so your build gets seen by the developer community. Posting early doesn't give you an advantage. Every valid entry is judged at the close, on what you built. How to get started: Connect your agent. On Claude, add the MCP connector: claude mcp add --transport http cometchat https://mcp.cometchat.com/mcp?ref=z2c On Cursor, Copilot, Codex, Windsurf, Kiro and 30+ other agents, install the skills pack: npx @cometchat/skills add The connector is read-only and needs no sign-up. Sign in and build. Your app needs an App ID, Auth Key, and region. Create a free account at app.cometchat.com (no card required, and the free tier covers 100 monthly active users). Then run this to pull credentials straight into your project: npx @cometchat/skills-cli@3 auth login && npx @cometchat/skills-cli@3 provision run Post your demo. Quote-tweet the official challenge thread on X with a demo video under 90 seconds and a link to your repo. Tag @CometChat LOG and use #ZeroToChat. What to submit: A demo video under 90 seconds showing your build running. Screen recordings are fine, since polish isn't the point. The connector visible in your editor or agent, so we can see it was used. A link to your code, if it's public. This is optional and not scored. How it's judged: The CometChat team judges every entry. There's no points rubric. We look for three things: It runs. The demo shows working software, not a plan for one. It's interesting. It's something we wouldn't have thought to build ourselves. It uses the MCP. The connector did real work in the build. An entry is valid if it runs, the connector is visible, and the demo is under 90 seconds. What you're building with: The CometChat MCP gives your agent four tools: search the live docs, fetch any page, pull an implementation bundle, or list all bundles. There are 10 bundles, each with prerequisites, install commands, configuration, and working code for React, React Native, Flutter, iOS, Android, JavaScript SDK, no-code widget, moderation, multi-tenant chat, and presence/typing. Every bundle carries a last-verified date. FAQs: Do I need to use Claude? No. Any MCP-compatible agent works. Do I need a paid CometChat account? No. The free tier is enough. Can I use other libraries? Yes. Build whatever you want around it. I've never used an MCP server. Run the one command above. That's the entire setup. Where do I ask questions? Reply to the challenge thread on X, or use the Unstop discussion section. Full details: https://www.cometchat.com/hackathon",
+      "title": "Published problem context",
+      "url": null
+    },
+    {
+      "kind": "external",
+      "status": "linked",
+      "text": null,
+      "title": "@CometChat LOG",
+      "url": "https://teamcometchat.slack.com/team/U03KS5V60P5"
+    },
+    {
+      "kind": "external",
+      "status": "linked",
+      "text": null,
+      "title": "https://www.cometchat.com/hackathon",
+      "url": "https://www.cometchat.com/hackathon"
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "",
+      "address_title": "event_location",
+      "addressable_id": 1762674,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "",
+      "city_id": null,
+      "country": null,
+      "country_code": null,
+      "created_at": "2026-09-28T19:11:05+05:30",
+      "deleted_at": null,
+      "id": 1854923,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "",
+      "state_code": null,
+      "updated_at": "2026-09-29T11:10:06+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-09-29 11:10:22 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>Zero to Chat</strong></p>\n<p>Add chat, voice, or video calling to anything you've built. Your coding agent writes the code, and you post the demo. You have 14 days, and the three best builds win six months of Claude pro along with $1,000 CometChat credits each.</p>\n<p><strong>What this is:</strong></p>\n<ul>\n<li>Zero to Chat is a two-week build challenge for developers who want to add real-time communication to an app without spending a weekend reading SDK docs.</li>\n<li>You connect the CometChat MCP server (or skills pack) to your coding agent once.</li>\n<li>From then on, the agent reads CometChat's live documentation and builds from verified implementation bundles while you describe what you want.</li>\n<li>It can be a new project or something you've already shipped.</li>\n<li>Adding a DM tab to your side project counts.</li>\n</ul>\n<p><strong>Who can take part:</strong></p>\n<ul>\n<li>Anyone who writes code with an AI coding agent</li>\n<li>You can use Claude (Claude Code, Claude Desktop, or <a href=\"http://claude.ai/\">claude.ai</a>), Cursor, VS Code Copilot, Codex, Windsurf, Kiro, or any other MCP-compatible agent.</li>\n<li>Entry is individual, with one entry per person.</li>\n</ul>\n<p><strong>Timeline:</strong></p>\n<ul>\n<li>Opens: 24 September 2026</li>\n<li>Build and post: Days 1 to 14</li>\n<li>Closes: 7 October 2026</li>\n<li>Winners announced: 9 October 2026</li>\n</ul>\n<p><strong>Prizes:</strong></p>\n<ul>\n<li><strong>Top 3 builds:</strong> wins six months of Claude pro each, plus $1,000 in CometChat credits.</li>\n<li><strong>Every valid entry:</strong> reposted by @ CometChat on X, so your build gets seen by the developer community.</li>\n<li>Posting early doesn't give you an advantage.</li>\n<li>Every valid entry is judged at the close, on what you built.</li>\n</ul>\n<p><strong>How to get started:</strong></p>\n<ul>\n<li>\n<ul>\n<li><strong>Connect your agent.</strong> On Claude, add the MCP connector: <code>claude mcp add --transport http cometchat </code><a href=\"https://mcp.cometchat.com/mcp?ref=z2c\"><code>https://mcp.cometchat.com/mcp?ref=z2c</code></a> On Cursor, Copilot, Codex, Windsurf, Kiro and 30+ other agents, install the skills pack: <code>npx @cometchat/skills add</code> The connector is read-only and needs no sign-up.</li>\n</ul>\n</li>\n<li>\n<ol start=\"2\">\n<li><strong>Sign in and build.</strong> Your app needs an App ID, Auth Key, and region. Create a free account at <a href=\"http://app.cometchat.com/\">app.cometchat.com</a> (no card required, and the free tier covers 100 monthly active users). Then run this to pull credentials straight into your project: <code>npx @cometchat/skills-cli@3 auth login &amp;&amp; npx @cometchat/skills-cli@3 provision run</code></li>\n</ol>\n</li>\n<li>\n<ol start=\"3\">\n<li><strong>Post your demo.</strong> Quote-tweet the official challenge thread on X with a demo video under 90 seconds and a link to your repo. Tag <a href=\"https://teamcometchat.slack.com/team/U03KS5V60P5\">@CometChat LOG</a> and use #ZeroToChat.</li>\n</ol>\n</li>\n</ul>\n<p><strong>What to submit:</strong></p>\n<ul>\n<li>A demo video under 90 seconds showing your build running. Screen recordings are fine, since polish isn't the point.</li>\n<li>The connector visible in your editor or agent, so we can see it was used.</li>\n<li>A link to your code, if it's public. This is optional and not scored.</li>\n</ul>\n<p><strong>How it's judged:</strong></p>\n<p>The CometChat team judges every entry. There's no points rubric. We look for three things:</p>\n<ul>\n<li><strong>It runs.</strong> The demo shows working software, not a plan for one.</li>\n<li><strong>It's interesting.</strong> It's something we wouldn't have thought to build ourselves.</li>\n<li><strong>It uses the MCP.</strong> The connector did real work in the build.</li>\n</ul>\n<p>An entry is valid if it runs, the connector is visible, and the demo is under 90 seconds.</p>\n<p><strong>What you're building with:</strong></p>\n<p>The CometChat MCP gives your agent four tools: search the live docs, fetch any page, pull an implementation bundle, or list all bundles. There are 10 bundles, each with prerequisites, install commands, configuration, and working code for React, React Native, Flutter, iOS, Android, JavaScript SDK, no-code widget, moderation, multi-tenant chat, and presence/typing. Every bundle carries a last-verified date.</p>\n<p><strong>FAQs:</strong></p>\n<ul>\n<li><em>Do I need to use Claude?</em> No. Any MCP-compatible agent works.</li>\n<li><em>Do I need a paid CometChat account?</em> No. The free tier is enough.</li>\n<li><em>Can I use other libraries?</em> Yes. Build whatever you want around it.</li>\n<li><em>I've never used an MCP server.</em> Run the one command above. That's the entire setup.</li>\n<li><em>Where do I ask questions?</em> Reply to the challenge thread on X, or use the Unstop discussion section.</li>\n</ul>\n<p><strong>Full details:</strong> <a href=\"https://www.cometchat.com/hackathon\">https://www.cometchat.com/hackathon</a></p>",
+    "end_date": "2026-10-12T00:00:00+05:30",
+    "festival": {
+      "abbr": null,
+      "end_date": "2026-10-07 12:00:52+05:30",
+      "footer_type": 0,
+      "header_type": 0,
+      "id": 520033,
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/icons/Competition128.png",
+      "name": "Zero to Chat: CometChat Hackathon",
+      "organisation": {
+        "id": 354849,
+        "logo": null,
+        "name": "CometChat"
+      },
+      "organization_id": 354849,
+      "public_url": "college-fests/zero-to-chat-cometchat-hackathon-cometchat-520033",
+      "regnRequirements": {
+        "allow_coupons": 0,
+        "allow_social_login": 1,
+        "allow_specific_cities": false,
+        "allowed_countries": null,
+        "audio_capture": 0,
+        "can_edit_extended_form": 0,
+        "closed_job_end_date": 0,
+        "college_type": 0,
+        "consent_needed": 0,
+        "core_req_fields": null,
+        "deleted_at": null,
+        "digilocker_verification_service": 1,
+        "display_compatibility_score": null,
+        "driver_for_proctoring": "aws",
+        "eligibility": null,
+        "email_reply_to": 0,
+        "enable_data_transfer_to_SAP": 0,
+        "enable_draft_reg": false,
+        "enable_icsfile": null,
+        "enable_payment": 0,
+        "enable_verifications": null,
+        "end_regn_dt": "2026-10-06T10:40:24+05:30",
+        "experience": null,
+        "extendRegForm": null,
+        "extend_basic_form": null,
+        "extendedFormData": null,
+        "face_detect_driver": "aws",
+        "face_recog_driver": "aws",
+        "festival_id": 520033,
+        "free_webinar_for_unstop_pro": 0,
+        "gender": [
+          "A"
+        ],
+        "gender_diversity": null,
+        "gender_verification": false,
+        "has_compatibility_priority": 0,
+        "id": 2494588,
+        "invitations_allowed": 0,
+        "limit_type": 1,
+        "max_team_size": 1,
+        "min_team_size": 1,
+        "only_official_domains": null,
+        "open_for": 0,
+        "opportunity_id": null,
+        "payment_for": 0,
+        "payout_data": null,
+        "player_extended_form": null,
+        "proctoring": {},
+        "reg_amount": null,
+        "reg_restricted": 0,
+        "reg_status": "STARTED",
+        "registration_config": {
+          "enable_newsletter_subscription": 0
+        },
+        "registration_limit": null,
+        "remain_days": "6 days left",
+        "remainingDaysArray": {
+          "durations": 6,
+          "text": " days left"
+        },
+        "remaining_time": 602487,
+        "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
+        "resume_parser": 0,
+        "same_course": 0,
+        "same_graduation_year": 0,
+        "same_organisation": 0,
+        "same_user_type": 0,
+        "sap_stage_id": null,
+        "screening_round": null,
+        "service_charge_from": 0,
+        "show_deadline": 1,
+        "start_regn_dt": "2026-09-24T10:40:24+05:30",
+        "study_year_filter": 0,
+        "unique_face_verify": false,
+        "vendor_id": null,
+        "verification_service": 2,
+        "verified_aadhaar": 0,
+        "verified_aadhaar_face": 0,
+        "verified_aadhaar_face_via_digilocker": 0,
+        "verified_driving_licence_face": 0,
+        "verified_email": 1,
+        "verified_mobile": 1,
+        "work_location_type": "city"
+      },
+      "regn_open": 2,
+      "start_date": "2026-09-24 00:00:00+05:30",
+      "theme_colour": "deep-purple-dark_un"
+    },
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "all",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
+        "id": 420,
+        "name": "All",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1762674,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aba6dfd368be_logo.png",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg8\",\"text\":\"Zero to Chat: CometChat Hackathon\",\"type\":4,\"banner_data\":[3]}",
+      "id": 1458027,
+      "opportunity_id": 1762674,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 354849,
+      "logoUrl": "",
+      "logoUrl2": "",
+      "name": "CometChat",
+      "official_email_domains": null,
+      "public_url": "c/comet-chat-354849",
+      "show_evaluator_login_link": false,
+      "tier": 3
+    },
+    "organization_id": 354849,
+    "payment_services": [],
+    "prizes": [],
+    "public_url": "hackathons/zero-to-chat-cometchat-hackathon-zero-to-chat-cometchat-hackathon-cometchat-1762674",
+    "region": "online",
+    "registerCount": 0,
+    "regnRequirements": {
+      "eligibility": null,
+      "end_regn_dt": "2026-10-12T00:00:00+05:30",
+      "max_team_size": 1,
+      "min_team_size": 1,
+      "opportunity_id": 1762674,
+      "reg_status": "STARTED",
+      "remain_days": "12 days left",
+      "remainingDaysArray": {
+        "durations": 12,
+        "text": " days left"
+      },
+      "remaining_time": 1082673,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-09-28T00:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 645559,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317096,
+          "subject_id": 645559
+        },
+        "skill": "API Integration",
+        "skill_name": "API Integration"
+      },
+      {
+        "id": 646494,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317097,
+          "subject_id": 646494
+        },
+        "skill": "JavaScript",
+        "skill_name": "JavaScript"
+      },
+      {
+        "id": 645580,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317098,
+          "subject_id": 645580
+        },
+        "skill": "Artificial Intelligence (AI)",
+        "skill_name": "Artificial Intelligence (AI)"
+      },
+      {
+        "id": 646746,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317099,
+          "subject_id": 646746
+        },
+        "skill": "Mobile Application Development",
+        "skill_name": "Mobile Application Development"
+      },
+      {
+        "id": 644778,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317100,
+          "subject_id": 644778
+        },
+        "skill": "React.js",
+        "skill_name": "React.js"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/zero-to-chat-cometchat-hackathon-zero-to-chat-cometchat-hackathon-cometchat-1762674",
+    "short_id": "D7VwjxW",
+    "short_url": "https://unstop.com/o/D7VwjxW",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "Zero to Chat: CometChat Hackathon",
+    "type": "hackathons",
+    "updated_at": "2026-09-29T11:12:26+05:30",
+    "viewsCount": 186,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 2004,
+        "name": "Software Development",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317101,
+          "subject_id": 2004
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      },
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 2014,
+        "name": "Quizzes & Treasure Hunt",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1762674,
+          "id": 6317102,
+          "subject_id": 2014
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-10-12T00:00:00+05:30",
+  "reg_opens_at": "2026-09-28T00:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1762674",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 1,
+  "team_min": 1,
+  "themes": [],
+  "title": "Zero to Chat: CometChat Hackathon",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/zero-to-chat-cometchat-hackathon-zero-to-chat-cometchat-hackathon-cometchat-1762674"
+}
