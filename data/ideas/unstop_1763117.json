@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-30T08:55:14.390193+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763117",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated multi-agent workflow that helps beginner-to-intermediate CTF players rapidly triage digital forensics artifacts and OSINT leads.",
+      "problem_statement": "InIt CTF features Jeopardy-style challenges across categories like Digital Forensics, OSINT, and Web Exploitation, requiring fast investigation under an 8-hour continuous time limit.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Claude API"
+      ],
+      "title": "CTF-Helper Bot: AI-Driven Multi-Agent Pipeline for OSINT and Forensics",
+      "track": "OSINT",
+      "why_it_could_win": "By leveraging a multi-agent pipeline inspired by winning automation architectures, it targets the high-stress, rapid-triage nature of an 8-hour CTF sprint."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A security auditing tool designed specifically to practice, simulate, and understand common Web Exploitation vectors mapped to CTF challenges.",
+      "problem_statement": "InIt CTF includes Web Exploitation challenges ranging from easy to hard difficulty, testing participants on finding vulnerabilities.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Python"
+      ],
+      "title": "PayloadPulse: Automated Web Exploitation Defenses & Exploit Simulation",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Demonstrates deep cybersecurity domain knowledge and fulfills the defense-in-depth principles proven in security-focused hackathon entries."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An interactive web dashboard for beginners that visualizes cryptographic attacks like RSA factoring, XOR cipher analysis, and frequency distributions.",
+      "problem_statement": "InIt CTF includes Cryptography challenges meant to test both beginners and experienced players on solving mathematical and cipher-based puzzles.",
+      "stack": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "SymPy"
+      ],
+      "title": "CryptoCracker Kit: Visual Cryptanalysis and Lattice Reduction Suite",
+      "track": "Cryptography",
+      "why_it_could_win": "Addresses the steep learning curve for beginners in CTF cryptography by providing clear visual feedback and rapid solving scripts."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A streamlined tool for extracting hidden metadata, analyzing memory dumps, and uncovering steganography in CTF forensic challenges.",
+      "problem_statement": "InIt CTF features Digital Forensics challenges where participants must extract flags from corrupted files, packet captures, and disk images.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Volatility",
+        "ExifTool"
+      ],
+      "title": "StegnoScope: Automated Digital Forensics Artifact Inspector",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Saves critical minutes during an 8-hour continuous CTF by automating tedious forensic file-carving tasks."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A real-time shared workspace for CTF teams to sync flag submissions, drop challenge hints, and automatically compile Markdown write-ups.",
+      "problem_statement": "InIt CTF allows teams of 1 to 4 members to collaborate across various technical and non-technical backgrounds during an intense 8-hour window.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "title": "FlagVault: Team Collaboration and Write-up Generator for CTFs",
+      "track": "Misc",
+      "why_it_could_win": "Solves the logistical overhead of team coordination during a tight, time-constrained competition format."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

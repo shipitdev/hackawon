@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-30T08:54:03.871854+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758719",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A Python-based simulation tool implementing the BB84 quantum key distribution protocol with real-time eavesdropping detection and visualization.",
+      "problem_statement": "Teams use a simplified BB84 protocol to establish secure communication while solving an applied quantum cryptography challenge.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "QKD-Guard",
+      "track": "",
+      "why_it_could_win": "Directly targets the core hands-on BB84 protocol challenge with rigorous error rate calculation and clean Qiskit implementation, matching the technical depth of winning engineering projects."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An interceptor dashboard that simulates Man-in-the-Middle eavesdropping on a BB84 quantum channel to demonstrate photon measurement disturbance.",
+      "problem_statement": "Teams use a simplified BB84 protocol to establish secure communication while solving an applied quantum cryptography challenge.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Next.js"
+      ],
+      "title": "QuantumSniffer",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep understanding of quantum mechanics principles (observer effect) during key exchange, giving judges a clear visual proof of security breaches."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight CLI tool for secure message transmission over simulated quantum channels using dynamically generated BB84 keys.",
+      "problem_statement": "Teams use a simplified BB84 protocol to establish secure communication while solving an applied quantum cryptography challenge.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Cryptography"
+      ],
+      "title": "BB84-Net",
+      "track": "",
+      "why_it_could_win": "Solves the complete pipeline from key generation and sifting to encrypted payload transmission, hitting all requirements of the hands-on challenge."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "An automated testing suite for evaluating the security vulnerabilities and bit error rates of custom QKD protocol implementations.",
+      "problem_statement": "Teams use a simplified BB84 protocol to establish secure communication while solving an applied quantum cryptography challenge.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Pytest"
+      ],
+      "title": "EntangleAudit",
+      "track": "",
+      "why_it_could_win": "Judges appreciate robust testing and verification frameworks that prove protocol correctness under simulated noise and eavesdropping conditions."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A dashboard for managing, rotating, and visualizing quantum-generated keys from a simulated BB84 channel for secure API communication.",
+      "problem_statement": "Teams use a simplified BB84 protocol to establish secure communication while solving an applied quantum cryptography challenge.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "React"
+      ],
+      "title": "QuantumKeyManager",
+      "track": "",
+      "why_it_could_win": "Bridges abstract quantum key distribution protocols with practical cryptography use cases, demonstrating end-to-end applied feasibility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

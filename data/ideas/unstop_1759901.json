@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-09-30T08:54:19.194728+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759901",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1083231600"
+      ],
+      "pitch": "A Python-based AI soccer agent trained using the NeuroEvolution of Augmenting Topologies (NEAT) algorithm to automatically evolve optimal scoring and defending behaviors within the 2D arena.",
+      "problem_statement": "Build an Ai Soccer Agent",
+      "stack": [
+        "Python",
+        "NEAT-Python",
+        "NumPy",
+        "Pygame"
+      ],
+      "title": "NEAT-Soccer: Evolutionary 2D Football Agent",
+      "track": "",
+      "why_it_could_win": "Leverages a proven evolutionary algorithm approach from similar high-performing robotics and racing agents, guaranteeing robust handling of randomized obstacles and evaluation seeds."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A deterministic, high-performance rule-based soccer agent using geometric pathfinding and predictive vector math to intercept opponents, block shots, and execute clean counter-attacks.",
+      "problem_statement": "Build an Ai Soccer Agent",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Matplotlib"
+      ],
+      "title": "GoalGuard: Finite State Machine and Heuristic Defensive Bot",
+      "track": "",
+      "why_it_could_win": "In deterministic 2D physics engines with strict time limits, finely tuned heuristic control systems often outperform unstable ML models because they never miss a predictable interception vector."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1052196050"
+      ],
+      "pitch": "An autonomous football agent trained via Proximal Policy Optimization (PPO) using stable-baselines3, customized with a reward function tailored specifically for ball possession, shot accuracy, and defensive positioning.",
+      "problem_statement": "Build an Ai Soccer Agent",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Stable-Baselines3",
+        "Gymnasium"
+      ],
+      "title": "ReinforcementStriker: PPO-Trained Autonomous Football Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuine ML engineering by training a reinforcement learning policy directly inside a simulation loop optimized for head-to-head tournament evaluation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A modular soccer agent structured around behavior trees, enabling dynamic switching between offensive striker modes, defensive wall formations, and panic clearance routines depending on live ball telemetry.",
+      "problem_statement": "Build an Ai Soccer Agent",
+      "stack": [
+        "Python",
+        "Py_Trees",
+        "NumPy"
+      ],
+      "title": "TacticalTree: Behavior Tree Driven Soccer Strategist",
+      "track": "",
+      "why_it_could_win": "Behavior trees offer predictable, easy-to-debug state transitions which prevent common edge-case failures like getting stuck against arena boundaries during chaotic matches."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An intelligent agent that uses A-star grid planning combined with physics-based kinematic prediction to calculate multi-step ball trajectories and outmaneuver opposing bots around random obstacles.",
+      "problem_statement": "Build an Ai Soccer Agent",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "NumPy"
+      ],
+      "title": "A-Star Striker: Pathfinding and Predictive Trajectory Agent",
+      "track": "",
+      "why_it_could_win": "Directly tackles the obstacle navigation and interception sub-problems with rigorous computer science pathfinding algorithms, ensuring reliable execution across hidden evaluation seeds."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

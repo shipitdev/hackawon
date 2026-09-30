@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-30T08:54:29.972662+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "civic",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762441",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A RAG-powered multilingual voice and text platform using Granite LLM to deliver localized preventive health info and detect symptom outbreaks in semi-urban communities.",
+      "problem_statement": "Real-world social challenges in Healthcare aligned with UN Sustainable Development Goal 3 (Good Health and Well-being).",
+      "stack": [
+        "Python",
+        "Granite LLM",
+        "RAG",
+        "FastAPI",
+        "React"
+      ],
+      "title": "ArogyaRAG: Multilingual Rural Health & Outbreak Guard",
+      "track": "Healthcare",
+      "why_it_could_win": "Directly targets the explicit sponsor recommendation for Granite LLM and RAG while mirroring a proven first-prize architecture for social impact healthcare."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1228867095"
+      ],
+      "pitch": "An agentic AI voice application that organizes neighborhood social outings with volunteer drivers while actively intercepting phone and email scams targeting elderly citizens.",
+      "problem_statement": "Social inclusion, welfare, and community support challenges aligned with UN Sustainable Development Goals.",
+      "stack": [
+        "Swift",
+        "Agentic AI",
+        "Cloudflare Workers",
+        "TypeScript"
+      ],
+      "title": "SeniorLink: Multi-Agent AI Companion for Isolation & Scam Protection",
+      "track": "Future of Work",
+      "why_it_could_win": "Leverages Agentic AI—a highlighted technology domain for the hackathon—and follows the grand-prize-winning blueprint of combining senior safety with automated community coordination."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1152489093"
+      ],
+      "pitch": "A computer vision and deep learning application that translates regional sign languages into spoken and text output for medical clinics and public service settings.",
+      "problem_statement": "Healthcare accessibility challenges for marginalized populations aligned with UN Sustainable Development Goals.",
+      "stack": [
+        "Python",
+        "Computer Vision",
+        "Bi-LSTM",
+        "Docker",
+        "ElevenLabs"
+      ],
+      "title": "SignBridge AI: Real-Time Sign Language Triage for Rural Clinics",
+      "track": "Healthcare",
+      "why_it_could_win": "Presents genuinely hard engineering through computer vision models, fulfilling the high-impact feasibility criteria judged in preliminary and final pitches."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An adaptive educational platform utilizing Generative AI to map traditional local work skills to emerging green economy jobs, generating personalized micro-learning paths.",
+      "problem_statement": "Future of Work and Sustainability challenges aligned with UN Sustainable Development Goals 8 (Decent Work and Economic Growth) and 13 (Climate Action).",
+      "stack": [
+        "TypeScript",
+        "Generative AI",
+        "Firebase",
+        "React"
+      ],
+      "title": "EcoSkill: AI-Driven Upskilling & Green Job Transition Planner",
+      "track": "Future of Work",
+      "why_it_could_win": "Bridges two core hackathon domains—Sustainability and Future of Work—giving it broad appeal across multiple judging panels looking for clear, measurable economic transition metrics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage tool featuring browser-based rPPG heart rate estimation and multi-language support to assist resource-constrained community health camps.",
+      "problem_statement": "Healthcare delivery bottlenecks in resource-limited environments aligned with UN Sustainable Development Goals.",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "AI-Triage",
+        "Fullstack Development"
+      ],
+      "title": "MediScan Triage: Multilingual Vital Signs & Medical Triage Assistant",
+      "track": "Healthcare",
+      "why_it_could_win": "Demonstrates a live-working prototype with quantifiable clinical utility, satisfying the crucial 'demo that actually worked live' winning pattern."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

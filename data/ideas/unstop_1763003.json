@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-30T08:54:53.143178+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763003",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A self-improving semantic router using Inkloom AI credits to route multi-step autonomous agent tasks efficiently across microservices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Inkloom AI SDK",
+        "Superlinked",
+        "React"
+      ],
+      "title": "Inkloom AI Agentic Workflow Automator",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly integrates and utilizes the hackathon's sponsor AI credits (Inkloom AI) within an agentic workflow architecture, making it a strong fit for the Agentic AI track."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated data integrity and exploratory data analysis profiling tool that generates deployable static reports hosted directly on .xyz domains.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "OpenAI API",
+        "Docker"
+      ],
+      "title": "DataVeritas .xyz Auto-Profiler",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Leverages the complimentary .xyz domain reward as a core deployment feature, creating a polished, production-ready deliverable for judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1296916648",
+        "github:938030912"
+      ],
+      "pitch": "An offline-first, locally hosted AI code review extension that performs deep AST parsing and semantic bug detection without sending code to external APIs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Python",
+        "ONNX Runtime",
+        "Tree-sitter"
+      ],
+      "title": "EdgeCode: Offline AI Code Reviewer",
+      "track": "Open Innovation",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by running complex model-assisted static analysis locally within a strict 48-hour window, echoing previous hardware/offline hackathon winners."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A zero-migration, native auto-embedding and RAG toolkit that converts relational MariaDB tables into vector-searchable knowledge bases instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "HNSWLib",
+        "FastAPI",
+        "Sentence-Transformers"
+      ],
+      "title": "Seamless-RAG for MariaDB",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Applies a proven hackathon-winning architecture (TOON-Native Auto-Embedding) to solve practical database search limitations under time constraints."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol (MCP) server gateway that securely coordinates specialized enterprise AI agents across distributed nodes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "MCP SDK",
+        "Redis"
+      ],
+      "title": "AgentRegistry MCP Gateway",
+      "track": "Agentic AI",
+      "why_it_could_win": "Tackles complex distributed systems and agent orchestration challenges, aligning with cutting-edge trends in the Agentic AI track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

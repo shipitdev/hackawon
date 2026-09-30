@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-09-30T08:54:09.097234+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758795",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic and structural routing optimizer for quantum circuits targeting NISQ hardware constraints.",
+      "problem_statement": "Develop practical quantum-computing projects using approved software, simulators, cloud platforms and available quantum-hardware resources.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Superlinked",
+        "NetworkX"
+      ],
+      "title": "Q-Route: Quantum Circuit Topology and Noise-Aware Router",
+      "track": "",
+      "why_it_could_win": "Leverages heavy algorithmic routing logic inspired by darwin-router, addressing the core hardware-noise and topology limitations that judges care about most in quantum-computing phases."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:855084718"
+      ],
+      "pitch": "An automated pull-request reviewer for quantum code using Qiskit or Pennylane, identifying entanglement regressions and gate optimization opportunities.",
+      "problem_statement": "Develop practical quantum-computing projects using approved software, simulators, cloud platforms and available quantum-hardware resources.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "GROQ",
+        "Llama 3.1"
+      ],
+      "title": "Quantum-State Diff & PR Reviewer",
+      "track": "",
+      "why_it_could_win": "Adapts the proven PR-AI-Code-Reviewer workflow specifically to quantum circuit development, giving developers immediate feedback on gate-depth bottlenecks."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "An ethical telemetry and governance wrapper for cloud quantum simulator jobs, tracking fidelity degradation, shot-cost efficiency, and simulation drift.",
+      "problem_statement": "Develop practical quantum-computing projects using approved software, simulators, cloud platforms and available quantum-hardware resources.",
+      "stack": [
+        "Go",
+        "Python",
+        "OpenTelemetry",
+        "Qiskit Runtime"
+      ],
+      "title": "Q-Telemetry: Open-Source Execution Governance for Quantum Simulators",
+      "track": "",
+      "why_it_could_win": "Mirrors the guardian ethical telemetry platform win by providing production-grade observability for experimental quantum workloads."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "Automated EDA and data profiling toolkit designed to clean, format, and validate classical datasets before encoding them into quantum state vectors (QRAM).",
+      "problem_statement": "Develop practical quantum-computing projects using approved software, simulators, cloud platforms and available quantum-hardware resources.",
+      "stack": [
+        "Python",
+        "Data-Engineering",
+        "OpenAI API",
+        "Pennylane"
+      ],
+      "title": "DataVeritas-Q: Quantum Dataset Profiler and Integrity Checker",
+      "track": "",
+      "why_it_could_win": "Solves the notorious data-preparation bottleneck for quantum machine learning by incorporating automated data integrity checks and NLP-driven EDA queries."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1138792186"
+      ],
+      "pitch": "A federated Model Context Protocol server exposing real-time quantum simulator backends and cloud execution nodes to AI agents for automated algorithm synthesis.",
+      "problem_statement": "Develop practical quantum-computing projects using approved software, simulators, cloud platforms and available quantum-hardware resources.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "MCP SDK",
+        "Qiskit"
+      ],
+      "title": "Q-MCP: Model Context Protocol for Quantum Hardware APIs",
+      "track": "",
+      "why_it_could_win": "Uses the exact advanced systems architecture that won the MCP & AI Agents Hackathon runner-up spot, applying federated server protocols to quantum backends."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

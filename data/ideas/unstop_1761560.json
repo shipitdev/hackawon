@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-09-30T08:54:22.959957+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761560",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A platform built specifically for B.Tech students to track their syllabus coverage, map missing industry skills against ongoing coursework, and auto-generate personalized study sprints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "B.Tech Academic Progression and Skill Gap Analyzer",
+      "track": "",
+      "why_it_could_win": "Targets the strict B.Tech student demographic requirement of the hackathon directly with immediate utility for university peers and faculty judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A local static analysis tool designed for hackathons and coding contests to run lightweight syntax tree comparison and AST structural hashing before final submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "AST Explorer",
+        "React"
+      ],
+      "title": "Plagiarism Aware Code Submission Verifier",
+      "track": "",
+      "why_it_could_win": "Directly references the hackathon's explicit guideline regarding plagiarism detection, making it an amusing and practical utility for organizers and participants alike."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An offline-first progressive web app designed to help participants navigate the VNR VJIET campus for Round 2, featuring real-time schedule countdowns and room finders.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Service Workers",
+        "Leaflet"
+      ],
+      "title": "VNR VJIET Campus Venue and Event Navigation Utility",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the on-site logistics team and judges at the VNR VJIET campus by solving real physical navigation friction during the 13-hour final round."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A strategy dashboard for competitive programmers that simulates 90-minute online coding rounds, tracking submission timestamp bottlenecks to optimize tie-breaker performance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "Coding Round Time Management and Tie-Breaker Optimizer",
+      "track": "",
+      "why_it_could_win": "Leverages the specific contest rules—specifically the 90-minute format and submission time tie-breaker mechanism—to provide a competitive advantage to users."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A verification portal that validates student B.Tech enrollment status, prevents multi-team registration conflicts, and streamlines check-in for hybrid hackathon rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "PostgreSQL",
+        "Express",
+        "React"
+      ],
+      "title": "Automated Team Registration and Eligibility Checker",
+      "track": "",
+      "why_it_could_win": "Solves the specific eligibility constraints and disqualification risks mentioned in the contest rules with a clean administrative tool."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-09-30T08:54:15.123675+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759851",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An automated inspection pipeline tailored for online hackathons to detect code cloning, unauthorized LLM usage, and repository anomalies during live submissions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Next.js",
+        "AST Parsing"
+      ],
+      "title": "ComfestSecure: Real-Time Code Plagiarism and AI-Generated Code Detector for Online Hackathons",
+      "track": "",
+      "why_it_could_win": "Judges in a 24-hour online hackathon will value practicality and administrative utility; offering an operational tool that solves integrity verification for virtual events directly appeals to jury priorities for technical implementation."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A streamlined web utility that coordinates remote presentation schedules, automatically tracks strict time limits, and indexes jury questions during tight 3-hour presentation blocks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebSockets",
+        "Node.js"
+      ],
+      "title": "StreamPulse: Low-Latency Virtual Presentation Timer and Q&A Queue Manager for Online Judges",
+      "track": "",
+      "why_it_could_win": "Directly addresses the operational bottleneck of the 3-hour presentation phase mentioned in the event format, making it instantly relatable and useful to the organizing committee and judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A rapid pairing platform that deploys during the initial 30-minute briefing window to map participant skills, auto-form balanced hackathon teams, and suggest optimal project scopes based on available time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "NetworkX"
+      ],
+      "title": "SkillMatrix: Dynamic Team Formation and Live Gap Analysis Platform for Briefing Windows",
+      "track": "",
+      "why_it_could_win": "Leverages the unique 30-minute briefing constraint of Comfest26 to solve team formation friction, scoring high on novelty and immediate practicality."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An extensible developer tool that inspects open-source dependencies and licensing flags in real-time, ensuring teams stay safely within allowed open-source usage boundaries during a 24-hour sprint.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Docker",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "AuditLog AI: Automated Compliance and Code Structure Evaluator for Rapid Prototypes",
+      "track": "",
+      "why_it_could_win": "Aligns with the specific hackathon rule permitting open-source libraries as long as licensing rules are respected, impressing technical judges with rigorous implementation of compliance checks."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A smart teleprompter and dynamic slide controller that synchronizes live codebase updates with presentation talking points to prevent demo failures during the critical jury evaluation phase.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "Web Speech API"
+      ],
+      "title": "PitchDeck Sync: AI-Driven Presentation and Live Demo Script Companion for 3-Hour Jury Rounds",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the presentation requirement (3 hours of presentations), giving teams an edge in delivery clarity and technical communication."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

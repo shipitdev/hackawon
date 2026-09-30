@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-09-30T08:55:01.950850+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "ai-ml",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763060",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1185527998"
+      ],
+      "pitch": "An AI-powered intake and matching engine that ingests messy medical records, structures clinical data, and matches international patients with verified overseas hospitals and transparent cost estimates.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace - Patient journey covering discovery, case creation, record upload, AI provider matching, and quote comparison.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Gemini API",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "MediMatch AI: Cross-Border Case Creator & Provider Matcher",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core hackathon mandate of bridging fragmented international healthcare journeys with an automated AI document ingestion and matching workflow, mirroring winning full-stack health projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1289086869"
+      ],
+      "pitch": "A side-by-side quote comparison and travel planning dashboard that breaks down foreign hospital procedure fees, accommodation, and post-op care into unified, verifiable patient estimates.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace - Quote comparison, selection, booking, and treatment planning across borders.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "Python",
+        "SQLite"
+      ],
+      "title": "ClearQuote: Transparent International Medical Cost & Treatment Planner",
+      "track": "",
+      "why_it_could_win": "Judges in medical tourism marketplaces look for financial transparency and trust engines; this solves the anxiety of hidden international hospital costs."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A dedicated international provider-side dashboard featuring lead qualification, automated quote builders, and secure medical record sharing designed for overseas clinic administrators.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace - Provider side: lead inbox, case management, quote builder, appointment management and secure communication.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "TailwindCSS"
+      ],
+      "title": "GlobalCare Provider Portal & Secure Lead Inbox",
+      "track": "",
+      "why_it_could_win": "Most teams only build the patient side; focusing heavily on the provider operations inbox proves a complete end-to-end marketplace ecosystem."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An AI triage and follow-up agent that coordinates post-treatment recovery milestones, translates clinical instructions into native patient languages, and flags complications during remote aftercare.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace - Virtual consultation, treatment, aftercare, review, referral, and AI-supported reminders.",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "title": "MedTravel Assistant: Multilingual Triage & Aftercare Companion",
+      "track": "",
+      "why_it_could_win": "Addresses the high-risk aftercare and language barrier phase of medical tourism, featuring clinical-grade multilingual AI triage that appeals strongly to health-tech judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1289086869"
+      ],
+      "pitch": "A secure patient vault that uses AI to parse, sanitize, and translate scattered PDF medical histories into standardized international clinical summaries acceptable to foreign specialists.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace - AI layer: document organization, qualification, provider matching, quote comparison and reminders.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "PyPDF"
+      ],
+      "title": "DocuMed: Secure Cross-Border Health Records & AI Document Organizer",
+      "track": "",
+      "why_it_could_win": "Solves the painful real-world hurdle of incompatible medical file formats across international borders with a robust, demonstrable file-parsing pipeline."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

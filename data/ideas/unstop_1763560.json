@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-09-30T08:55:27.389314+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763560",
+  "ideas": [
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A Python tool that automatically pulls curriculum details from SkillInf and generates a 5-slide LinkedIn PDF carousel optimized for high dwell-time engagement.",
+      "problem_statement": "Challenge Instructions Create an attractive and original promotional post for SkillInf highlighting its internships, skill development programs, practical learning, and career opportunities.",
+      "stack": [
+        "Python",
+        "Pillow",
+        "ReportLab",
+        "Canva API"
+      ],
+      "title": "Interactive Carousel Infographic Generator",
+      "track": "",
+      "why_it_could_win": "LinkedIn's algorithm heavily favors document/carousel posts for dwell-time; combining automated data scraping of SkillInf's domain list into clean visual assets directly targets the judging priority of content depth."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A web utility where students or marketers can select a SkillInf internship domain (AI, CyberSecurity, etc.) and generate a high-contrast 1200x627 promotional card with custom dynamic typography.",
+      "problem_statement": "Challenge Instructions Create an attractive and original promotional post for SkillInf highlighting its internships, skill development programs, practical learning, and career opportunities.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "html-to-image"
+      ],
+      "title": "Domain-Specific Holographic Badge Generator",
+      "track": "",
+      "why_it_could_win": "Solves the exact layout and dimension requirements (1200x627 px) while providing a striking, modern design that stands out instantly in the LinkedIn feed."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An LLM-backed copywriting helper tuned specifically on viral educational tech hooks, generating tailored LinkedIn captions with exact hashtags for SkillInf.",
+      "problem_statement": "Challenge Instructions Create an attractive and original promotional post for SkillInf highlighting its internships, skill development programs, practical learning, and career opportunities.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "AI-Powered Caption & Hook Optimizer",
+      "track": "",
+      "why_it_could_win": "Judges evaluate creativity, content accuracy, and how effectively you promote SkillInf. Having an exceptionally well-crafted, psychologically optimized caption maximizes reach organically."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An interactive flowchart builder that exports a visual mapping of the 8 SkillInf internship tracks leading directly to job readiness, embedded into a promotional banner.",
+      "problem_statement": "Challenge Instructions Create an attractive and original promotional post for SkillInf highlighting its internships, skill development programs, practical learning, and career opportunities.",
+      "stack": [
+        "JavaScript",
+        "Reactflow",
+        "Canvas API"
+      ],
+      "title": "SkillInf Career Pathway Visualizer Post",
+      "track": "",
+      "why_it_could_win": "Clearly illustrates the concrete economic benefit and career growth promise of SkillInf, satisfying the core promotional requirement through high-value data visualization."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A lightweight dashboard that hooks into the LinkedIn API or helps track real-time impressions, engagement rates, and screenshot submission formatting for the challenge.",
+      "problem_statement": "Challenge Instructions After publishing, take a screenshot of your LinkedIn post analytics showing the impressions/reach.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Puppeteer"
+      ],
+      "title": "Analytics Tracker & Proof-of-Reach Dashboard",
+      "track": "",
+      "why_it_could_win": "Demonstrates rigorous execution and technical polish around the submission requirements, showing judges an organized approach to verifying campaign performance."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

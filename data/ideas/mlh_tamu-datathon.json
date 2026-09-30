@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-30T08:53:31.979131+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:tamu-datathon",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "Real-time energy consumption and anomaly detection dashboard for campus infrastructure using telemetry data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Next.js",
+        "TimescaleDB",
+        "Gemini"
+      ],
+      "title": "AggieGrid Pulse",
+      "track": "",
+      "why_it_could_win": "Follows the winning pattern of building a live, working anomaly detection dashboard for operational logs, highly relevant to local infrastructure challenges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Automated data pipeline lineage tracker and incident response agent for local government open datasets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude",
+        "DataHub",
+        "LangGraph"
+      ],
+      "title": "TexanTrace DataLineage",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of autonomous data engineering and incident response with automated write-backs."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "Clinical readmission risk predictor featuring local patient demographic adjustments and SHAP-based explainability for doctors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "BrazosHealth Explain",
+      "track": "",
+      "why_it_could_win": "Replicates a proven first-place architecture combining high-accuracy gradient boosting with strict clinical interpretability."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "AI-powered satellite imagery monitoring platform to track land usage changes and regulatory compliance in rural Texas.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "PostGIS"
+      ],
+      "title": "SatEye AgCompliance",
+      "track": "",
+      "why_it_could_win": "Mirrors the runner-up strategy of processing geospatial satellite data for actionable industrial and environmental compliance monitoring."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A multi-turn metacognition benchmark framework testing self-correction and reasoning limits across open-source models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "HuggingFace"
+      ],
+      "title": "MetacogEval LLM",
+      "track": "",
+      "why_it_could_win": "Directly adopts the grand prize-winning methodology of building rigorous benchmark tooling for evaluating advanced AI reasoning steps."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

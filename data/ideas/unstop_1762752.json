@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-09-30T08:54:39.562622+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762752",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "An FPGA-accelerated simulation toolkit that evaluates quantum gate fidelity and decoherence parameters in real-time.",
+      "problem_statement": "Quantum hardware, physics, electronics, and related engineering applications.",
+      "stack": [
+        "Verilog",
+        "Python",
+        "Qiskit",
+        "FPGA"
+      ],
+      "title": "QPulse: Quantum Circuit Fidelity Analyzer on FPGA",
+      "track": "Quantum Hardware and Engineering",
+      "why_it_could_win": "Combines hardware acceleration with quantum simulation, echoing the complex engineering depth seen in winning hardware and edge hacks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1069834761"
+      ],
+      "pitch": "A specialized biomedical/industrial IoT system adapted to monitor sub-kelvin dilution refrigerator telemetry and thermal fluctuations.",
+      "problem_statement": "Quantum computing, quantum hardware, physics, electronics, and related engineering applications.",
+      "stack": [
+        "C++",
+        "Python",
+        "IoT Sensors",
+        "MQTT"
+      ],
+      "title": "CryoSense: IoT Monitoring for Quantum Cryostats",
+      "track": "Electronics and IoT Applications",
+      "why_it_could_win": "Presents a robust physical prototype with real-time edge telemetry that addresses a critical practical bottleneck in quantum labs."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "Optimizes quantum state vector multiplications and density matrix calculations by offloading matrix operations to local edge NPUs.",
+      "problem_statement": "Quantum computing, quantum hardware, physics, electronics, and related engineering applications.",
+      "stack": [
+        "Python",
+        "C++",
+        "Snapdragon NPU SDK",
+        "NumPy"
+      ],
+      "title": "QuSim-Edge: NPU-Accelerated Quantum State Evolution",
+      "track": "Quantum Computing & Simulation",
+      "why_it_could_win": "Leverages edge computing hardware to solve heavy physics simulations efficiently, following the pattern of high-performance localized hardware optimization."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI agent workflow that translates microwave engineering parameters into optimized GDSII layouts for superconducting quantum resonators.",
+      "problem_statement": "Quantum computing, quantum hardware, physics, electronics, and related engineering applications.",
+      "stack": [
+        "Python",
+        "Claude API",
+        "Klayout",
+        "PyGDS"
+      ],
+      "title": "ResonatorAI: Automated Superconducting Circuit Designer",
+      "track": "Physics and Circuit Design",
+      "why_it_could_win": "Utilizes autonomous agent loops to generate verifiable engineering artifacts, matching the rigorous technical demands of advanced workflow prizes."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1010199928",
+        "github:496116464"
+      ],
+      "pitch": "A machine learning and sensor fusion system for automated alignment of optical benches and free-space quantum key distribution (QKD) terminals.",
+      "problem_statement": "Quantum computing, quantum hardware, physics, electronics, and related engineering applications.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "C++"
+      ],
+      "title": "OptiPulse: Radar-Based Quantum Optics Alignment",
+      "track": "Quantum Hardware and Engineering",
+      "why_it_could_win": "Delivers an unusual physical hardware build with a live sensor demo that immediately impresses judges looking for tangible engineering solutions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

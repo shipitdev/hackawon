@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-30T08:54:33.879450+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762519",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol server that bridges local SQL databases securely into Anna AI OS, letting users query production databases via natural language safely.",
+      "problem_statement": "Turn an existing AI Agent, Python or Node.js script, MCP server, workflow, open-source project, or SaaS product into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "TypeScript",
+        "Model Context Protocol",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "MCP Database Inspector for Anna AI",
+      "track": "",
+      "why_it_could_win": "Targeting the MCP server integration requirement directly allows solo developers to leverage existing boilerplate and focus on user adoption, which aligns with Anna AI's core monthly grant criteria based on MAU."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An AI agent wrapper converted into an Anna App that monitors failed CI/CD pipelines, analyzes error logs, and automatically opens structured pull request fixes.",
+      "problem_statement": "Turn an existing AI Agent, Python or Node.js script, MCP server, workflow, open-source project, or SaaS product into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "GitLab API",
+        "OpenAI API"
+      ],
+      "title": "GitLab CI Auto-Triage Agent on Anna",
+      "track": "",
+      "why_it_could_win": "Solves a sharp pain point for developers that judges feel daily, making live usage testing trivial and driving organic user retention for the MAU grant tiers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic search and routing microservice adapted as an Anna App to instantly direct developer queries to the correct internal documentation or code module.",
+      "problem_statement": "Turn an existing AI Agent, Python or Node.js script, MCP server, workflow, open-source project, or SaaS product into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Superlinked",
+        "FastAPI"
+      ],
+      "title": "Semantic Codebase Router for Anna",
+      "track": "",
+      "why_it_could_win": "Adapts a proven hackathon-winning architecture (semantic routing) into a plug-and-play user-facing app format that easily hits the 200 MAU threshold."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An automated risk-scoring utility for business workflows migrated into an Anna App to evaluate AI execution paths against enterprise governance standards.",
+      "problem_statement": "Turn an existing AI Agent, Python or Node.js script, MCP server, workflow, open-source project, or SaaS product into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "BPMN Parser",
+        "Node.js",
+        "Anna AI OS SDK"
+      ],
+      "title": "BPMN Compliance Auditor for AI Workflows",
+      "track": "",
+      "why_it_could_win": "Brings governance and risk management into consumer and developer workflows, matching rigorous evaluation criteria required for enterprise-ready Anna Apps."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "A zero-seat IT service desk agent adapted into an Anna App that ingests support tickets, categorizes them, and prompts human-in-the-loop approvals before executing fixes.",
+      "problem_statement": "Turn an existing AI Agent, Python or Node.js script, MCP server, workflow, open-source project, or SaaS product into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "PowerShell",
+        "Node.js",
+        "Microsoft Graph API",
+        "Anna AI OS"
+      ],
+      "title": "ITSM Autonomous Triage Assistant",
+      "track": "",
+      "why_it_could_win": "Focuses on high-utility workflow automation with high viral potential inside teams, maximizing the likelihood of retaining Qualified App MAU to unlock monthly builder grants."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

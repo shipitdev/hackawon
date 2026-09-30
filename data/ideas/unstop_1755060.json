@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-30T08:53:46.913540+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755060",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1200106905",
+        "github:927292639"
+      ],
+      "pitch": "Computer vision and machine learning tool to predict and optimize the bite, chew, and mouthfeel of plant-based meat analogues from image scans and extrusion parameters.",
+      "problem_statement": "About Hack the Fork: Explore how artificial intelligence can help shape the future of food at the intersection of AI, food technology, sustainability, and alternative proteins.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Streamlit",
+        "Scikit-learn"
+      ],
+      "title": "Alt-Protein Texture AI",
+      "track": "",
+      "why_it_could_win": "Directly targets the core focus of the hackathon (alternative proteins and food tech) by solving a major industrial R&D bottleneck using computer vision, appealing directly to NIFTEM food scientists on the judging panel."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "AI-driven bioreactor monitoring dashboard for mycelium and alternative protein biomass cultivation, predicting optimal harvest times and growth rates.",
+      "problem_statement": "About Hack the Fork: Work on real-world challenges at the intersection of AI, food technology, sustainability, and alternative proteins.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Chart.js",
+        "Python"
+      ],
+      "title": "MycoYield",
+      "track": "",
+      "why_it_could_win": "Uses time-series prediction and digital twin concepts which scored 1st place in industrial and tech hackathons, giving judges a familiar yet highly sophisticated technical architecture."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "LLM-powered nutritional and sensory matching assistant for formulating sustainable, complete-amino-acid plant protein blends from local Indian pulses and millets.",
+      "problem_statement": "About Hack the Fork: Explore how artificial intelligence can help shape the future of food and alternative proteins with meaningful local impact.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API",
+        "Supabase"
+      ],
+      "title": "PulseBlend Formulator",
+      "track": "",
+      "why_it_could_win": "Leverages regional relevance (millets/pulses in India) combined with LLM prompt-engineering and constraint solvers, matching the practical commercial viability judges look for."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1299542541"
+      ],
+      "pitch": "Spatial intelligence network to track and predict pesticide or contaminant drift from neighboring farms onto organic or alternative protein crop fields using weather and GIS data.",
+      "problem_statement": "About Hack the Fork: Work on real-world challenges at the intersection of AI, food technology, sustainability, and alternative proteins.",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Leaflet.js",
+        "OpenWeather API",
+        "Python"
+      ],
+      "title": "AgriDrift FoodSafety",
+      "track": "",
+      "why_it_could_win": "Builds upon a proven winning spatial-farm-defense architecture that successfully integrates environmental APIs and geographic mapping for clear risk mitigation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1376189518"
+      ],
+      "pitch": "Computer vision app that scans food processing byproduct streams (like okara or spent brewer's grain) and instantly suggests high-value alternative protein recipes and industrial upcycling pathways.",
+      "problem_statement": "About Hack the Fork: Develop innovative solutions at the intersection of AI, food technology, and sustainability with the potential to create meaningful impact.",
+      "stack": [
+        "Next.js",
+        "Gemini Flash API",
+        "TailwindCSS"
+      ],
+      "title": "UpcycleChef AI",
+      "track": "",
+      "why_it_could_win": "Tackles food waste and circular economy sustainability—a major priority for institutional food tech research—with a fast, demonstrable image-to-recommendation workflow."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

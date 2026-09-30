@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-30T08:53:42.510179+00:00",
+  "grounding": {
+    "domains": [
+      "arvr",
+      "gaming",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "polish",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754985",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An augmented reality web app that overlays real-time 3D anatomical models and stress points onto physical mannequins or users via webcam computer vision.",
+      "problem_statement": "Transforming healthcare education and training through immersive, real-world AR/VR/XR solutions.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Three.js",
+        "MediaPipe",
+        "TailwindCSS"
+      ],
+      "title": "AnatomyAR: Spatial Biomechanics for Medical Training",
+      "track": "Healthcare & Education",
+      "why_it_could_win": "Addresses a high-value domain (healthcare education) with a working computer vision pipeline that directly satisfies the hackathon's focus on practical real-world impact and AR/VR fundamentals."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:985707686"
+      ],
+      "pitch": "A WebXR browser experience that transports users to side-by-side historical and projected 3D reconstructions of disappearing glaciers to drive climate awareness.",
+      "problem_statement": "Exploring the potential of immersive technologies to transform education, tourism, and real-world environmental awareness.",
+      "stack": [
+        "TypeScript",
+        "React Three Fiber",
+        "Three.js",
+        "WebXR API"
+      ],
+      "title": "EcoXR: Immersive Climate Data & Glacier Explorer",
+      "track": "Education & Tourism",
+      "why_it_could_win": "Leverages WebXR for zero-install accessibility, combining high-polish 3D visuals with a compelling emotional narrative that resonates heavily with hackathon judges looking for real-world impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:123678562",
+        "github:609381007"
+      ],
+      "pitch": "An AR movement-tracking game designed for physical therapy patients that turns monotonous rehabilitation exercises into an engaging spatial obstacle challenge.",
+      "problem_statement": "Solving healthcare recovery compliance through innovative, immersive solutions and gamified real-world applications.",
+      "stack": [
+        "C#",
+        "Unity",
+        "AR Foundation",
+        "OpenCV"
+      ],
+      "title": "StepScribe: Immersive AR Rehabilitation Game",
+      "track": "Healthcare & Gaming",
+      "why_it_could_win": "Directly builds on proven winning mechanics of fitness gamification while introducing clinical utility for physical therapy, making it a standout demo for judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:904021682"
+      ],
+      "pitch": "A lightweight WebXR portal allowing users to walk through photogrammetry-scanned historical artifacts and lost cultural heritage sites directly in their browser.",
+      "problem_statement": "Transforming tourism and education through XR by preserving and experiencing inaccessible cultural locations.",
+      "stack": [
+        "TypeScript",
+        "A-Frame",
+        "Three.js",
+        "Node.js"
+      ],
+      "title": "HeritageVessel: WebXR Historical Site Reconstruction",
+      "track": "Tourism & Education",
+      "why_it_could_win": "Focuses on exceptional UX and a seamless live demo that works without expensive headset requirements, hitting the sweet spot of accessibility and technical polish."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:182363623"
+      ],
+      "pitch": "A VR safety training environment built in Unity where industrial workers practice emergency response protocols in high-risk plant scenarios.",
+      "problem_statement": "Transforming industry and workplace safety training using immersive virtual reality solutions.",
+      "stack": [
+        "C#",
+        "Unity",
+        "XR Interaction Toolkit",
+        "Blender"
+      ],
+      "title": "SafeSite XR: Industrial Hazard Training Simulator",
+      "track": "Industry",
+      "why_it_could_win": "Tackles a lucrative enterprise pain point (industrial safety compliance) with a rigorous simulation that showcases deep Unity engine proficiency."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-09-30T08:55:22.953162+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763268",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python-based cryptographic analysis toolkit tailored for CTF cipher challenges, featuring automated frequency analysis, RSA key recovery scripts, and hash identification.",
+      "problem_statement": "Cryptography domain challenges within the 24-hour CTF competition requiring rapid decryption and flag extraction.",
+      "stack": [
+        "Python",
+        "CryptoDome",
+        "SageMath",
+        "pwntools"
+      ],
+      "title": "CryptoFlag Automator",
+      "track": "",
+      "why_it_could_win": "Solves a specific bottleneck in CTF cryptography challenges by automating tedious cryptanalysis, directly aligning with the reverse engineering and crypto domains of Cipher Chase."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A local static analysis wrapper for binary exploitation challenges that flags common memory corruption vulnerabilities like buffer overflows and format string bugs.",
+      "problem_statement": "Binary exploitation and reverse engineering challenges in Cipher Chase requiring fast vulnerability discovery.",
+      "stack": [
+        "Python",
+        "Ghidra API",
+        "pwntools"
+      ],
+      "title": "BinaryAuditor AI",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuine technical depth by combining security analysis workflows with quick tooling, mirroring winning developer tool patterns."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A lightweight HTTP interception and parameter fuzzing proxy designed specifically for rapid web exploitation flags discovery in CTF environments.",
+      "problem_statement": "Web exploitation domain challenges involving hidden parameters, injection vulnerabilities, and broken auth.",
+      "stack": [
+        "Go",
+        "Gorilla/Mux",
+        "SQLite"
+      ],
+      "title": "WebFuzz Proxy",
+      "track": "",
+      "why_it_could_win": "Provides a streamlined, purpose-built testing assistant for high-intensity web challenges where off-the-shelf proxies can be too heavy."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated digital forensics utility that scans PCAP files, memory dumps, and corrupted image formats for hidden data and strings.",
+      "problem_statement": "Forensics domain challenges within Cipher Chase requiring artifact extraction and packet analysis.",
+      "stack": [
+        "Python",
+        "Scapy",
+        "Pillow"
+      ],
+      "title": "StegExractor Suite",
+      "track": "",
+      "why_it_could_win": "Leverages data parsing algorithms to solve tedious forensics tasks instantly, giving competitors an edge on leaderboard scoring."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A command-line session manager for tracking solved challenges, storing team notes, and preventing duplicate flag submissions during the CTFd event.",
+      "problem_statement": "Managing 24 distinct challenges across multiple cybersecurity domains within a strict 24-hour time limit.",
+      "stack": [
+        "Go",
+        "BoltDB",
+        "Charmbracelet Bubble Tea"
+      ],
+      "title": "CTF Flag Vault & Tracker",
+      "track": "",
+      "why_it_could_win": "Focuses on operational efficiency during high-pressure timed competitions, preventing collaboration mistakes and tracking progress cleanly."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

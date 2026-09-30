@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-09-30T08:53:51.180228+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1755980",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered live reviewer that intercepts your local web app build, analyzes accessibility, performance, and UI inconsistencies, and injects fix suggestions directly into your DOM.",
+      "problem_statement": "Building an intelligent, creative, and functional web solution under a single common challenge.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "OpenAI API",
+        "Chrome Extension SDK"
+      ],
+      "title": "FrontendArena Coach",
+      "track": "",
+      "why_it_could_win": "Targeting the judges' core focus on 'problem understanding, AI integration, design, and execution' by actively auditing and fixing the UI while it is being built."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "An individual-focused rapid design-to-code converter that ingests plain-text problem specifications and generates modular, editable frontend code with integrated data visualizations.",
+      "problem_statement": "Building an intelligent, creative, and functional web solution under a single common challenge.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Anthropic Claude API",
+        "Shadcn UI"
+      ],
+      "title": "ComponentCanvas AI",
+      "track": "",
+      "why_it_could_win": "Leverages the solo-developer constraint by maximizing output velocity, turning a common problem statement into a polished web product instantly."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A single-developer dashboard that dynamically ingests raw datasets, applies custom analytical machine learning models, and outputs an interactive, intelligent web experience in minutes.",
+      "problem_statement": "The challenge combines Web Development, AI, Data, and Creative Problem Solving into a unified web application.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Tailwind CSS",
+        "Pandas",
+        "Chart.js"
+      ],
+      "title": "DataPulse Web",
+      "track": "",
+      "why_it_could_win": "Directly hits the data and intelligence requirements emphasized in the event overview, proving strong technical skills within a solo execution."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A self-improving web application template that tests multiple UI/UX variations using lightweight reinforcement learning in real time based on user interaction metrics.",
+      "problem_statement": "Building an intelligent, creative, and functional web solution under a single common challenge with adaptive capabilities.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TensorFlow.js",
+        "Supabase",
+        "Tailwind CSS"
+      ],
+      "title": "AdaptFlow UI",
+      "track": "",
+      "why_it_could_win": "Focuses on genuine hard engineering and advanced AI integration, demonstrating self-improving systems that stand out against standard static entries."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An automated CI/CD pipeline companion built as a web app that stress-tests frontend solutions against performance, accessibility, and functional rules before final submission.",
+      "problem_statement": "Transforming a common problem statement into a creative, functional, and intelligent web solution that ships reliably.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Puppeteer",
+        "OpenAI API",
+        "Express"
+      ],
+      "title": "ShipReady Auditor",
+      "track": "",
+      "why_it_could_win": "Addresses a pain familiar to hackathon organisers and judges—evaluating code quality and functionality rapidly through an automated, intelligent verification dashboard."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

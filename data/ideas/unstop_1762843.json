@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-30T08:54:42.924236+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762843",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated graph-based AML risk detection tool for decentralized finance transactions on EVM-compatible chains.",
+      "problem_statement": "Blockchain & FinTech",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "Ethers.js"
+      ],
+      "title": "CryptoCompliance Graph Inspector",
+      "track": "Blockchain & FinTech",
+      "why_it_could_win": "Adapts the graph intelligence and risk scoring pattern from successful AML platforms like Bito, directly addressing the FinTech theme for judges looking for real-world utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer vision platform utilizing skeletal pose estimation to evaluate physical therapy and rehabilitation movements in real-time.",
+      "problem_statement": "HealthTech",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "PoseCorrect Health AI",
+      "track": "HealthTech",
+      "why_it_could_win": "Leverages proven computer vision tracking pipelines similar to award-winning biomechanics tools, offering an engaging live demo for health-focused judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support platform that dynamically routes queries between pedagogical reasoning engines.",
+      "problem_statement": "EdTech & E-Learning",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "EduAgent Multi-Agent Tutor",
+      "track": "EdTech & E-Learning",
+      "why_it_could_win": "Employs multi-agent orchestration patterns proven to win AI hackathons, providing structured, personalized feedback for learners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive security dashboard that forecasts software security incidents and vulnerabilities using statistical regression models.",
+      "problem_statement": "Cybersecurity",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "Vulnerability Incident Forecaster",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Applies rigorous probabilistic forecasting techniques that stand out among simple rule-based security tools."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated satellite image processing pipeline for detecting unauthorized industrial land usage and environmental compliance breaches.",
+      "problem_statement": "Image Processing",
+      "stack": [
+        "Python",
+        "Rasterio",
+        "PyTorch",
+        "FastAPI"
+      ],
+      "title": "EcoIndustrial Satellite Monitor",
+      "track": "Image Processing",
+      "why_it_could_win": "Tackles high-impact environmental monitoring using geospatial image processing, a proven formula for capturing runner-up and winning placements."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
