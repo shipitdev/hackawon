@@ -1,19 +1,19 @@
 {
   "runs": [
     {
-      "current": 22,
+      "current": 23,
       "error": null,
       "expired_removed": 0,
-      "fetched": 22,
+      "fetched": 23,
       "ok": true,
       "source": "devfolio"
     },
     {
-      "current": 241,
-      "error": null,
-      "expired_removed": 0,
-      "fetched": 241,
-      "ok": true,
+      "current": 0,
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://unstop.com/api/public/opportunity/search-result?opportunity=hackathons&oppstatus=open&page=1&per_page=30'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+      "expired_removed": 3,
+      "fetched": 0,
+      "ok": false,
       "source": "unstop"
     },
     {
@@ -33,5 +33,5 @@
       "source": "hack2skill"
     }
   ],
-  "updated_at": "2026-10-01T06:04:31.815208+00:00"
+  "updated_at": "2026-10-01T13:26:22.713926+00:00"
 }
