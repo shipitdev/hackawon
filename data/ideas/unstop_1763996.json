@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-01T09:19:28.687829+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763996",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A ground station software suite that processes live manual flight logs and telemetry to calculate drop zones and wind compensation for RC aircraft payload drops.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "React"
+      ],
+      "title": "AeroDrop Target Assist",
+      "track": "",
+      "why_it_could_win": "Targeting the Boeing aeromodelling challenge requirements for golf ball payload drops by providing a measurable performance advantage in drop accuracy."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A lightweight onboard data logger tracking G-forces, motor current, and altitude without violating rules against pre-programmed flight assistance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32"
+      ],
+      "title": "WingTelemetry Edge",
+      "track": "",
+      "why_it_could_win": "Aligns with hardware-focused judging criteria by offering a tangible telemetry tool that helps pilots tune their 1kg fixed-wing aircraft manually."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision and weight-distribution checklist app designed to help teams pass the strict pre-flight safety inspections for wingspan and weight limits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "TensorFlow.js",
+        "TailwindCSS"
+      ],
+      "title": "AeroInspector AI",
+      "track": "",
+      "why_it_could_win": "Solves an immediate compliance bottleneck that every team at the Boeing aeromodelling competition faces during safety check-ins."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A mechanical servo-timer release mechanism triggered safely by a manual channel, ensuring precise ball drops after the mandatory 30-second flight time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Hardware"
+      ],
+      "title": "PayloadRelease Actuator",
+      "track": "",
+      "why_it_could_win": "Directly targets the scoring metric of payload efficiency and minimum flight time compliance without using prohibited gyroscopic flight assists."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A desktop tool to parse manual flight recorder logs after landing and render a 3D flight path to review drop zone accuracy and approach angles.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Python"
+      ],
+      "title": "FlightLog 3D Replay",
+      "track": "",
+      "why_it_could_win": "Provides teams with rapid post-flight iteration capability, mimicking professional aerospace debrief tools during a high-stakes zonal selection."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

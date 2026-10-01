@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-10-01T09:18:12.088934+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "security",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759048",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A rapid-response web analysis extension and dashboard built for cyber-escape investigations involving hidden DOM elements, base64 ciphers, and manipulated cricket analytics payloads.",
+      "problem_statement": "Teams participate in a multi-stage cyber-investigation challenge involving HTML, CSS, JavaScript, ciphers, cricket datasets, web analysis, and logical problem-solving.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CipherGuard IPL Web Exploit Inspector",
+      "track": "IPL Technical Escape Room",
+      "why_it_could_win": "Directly targets the skills tested in Round 1 of the Cyber-Escape challenge by automating cipher extraction and DOM inspection."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A live-auction decision support tool for the ₹80 Crores virtual purse that tracks player valuation curves, squad balance constraints, and competitor bidding velocity.",
+      "problem_statement": "Qualified teams enter a simulated IPL Mega Auction environment with a virtual purse of ₹80 Crores and must construct their roster while complying with specified squad constraints.",
+      "stack": [
+        "TypeScript",
+        "NextJS",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "AuctionPulse AI: Real-Time Bidding Optimizer",
+      "track": "Live IPL Mega Auction",
+      "why_it_could_win": "Leverages real-time data analysis to solve complex resource-allocation and constraint-satisfaction problems under intense time pressure during Round 2."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A lightweight local cryptographic ledger to securely lock and verify player purchases made during the high-speed live IPL mega auction without race condition failures.",
+      "problem_statement": "Qualified teams enter a simulated IPL Mega Auction environment with a virtual purse of ₹80 Crores and participate in real-time digital bidding to build a competitive squad.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "CryptoAuction Vault: Secure Squad Registry",
+      "track": "Live IPL Mega Auction",
+      "why_it_could_win": "Applies cryptographic verification patterns to ensure transaction integrity during fast-paced bidding simulations."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A command-line and web toolkit designed to quickly parse, clean, and decode obscured cricket datasets encountered during multi-stage forensic puzzles.",
+      "problem_statement": "Teams participate in a multi-stage cyber-investigation challenge involving HTML, CSS, JavaScript, ciphers, cricket datasets, web analysis, and logical problem-solving.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "DataSleuth Cricket Dataset Decryptor",
+      "track": "IPL Technical Escape Room",
+      "why_it_could_win": "Speeds up data analysis tasks required to clear the early qualification stages of the escape room challenge."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An intelligent bot framework that simulates rival franchise bidding behavior based on historical IPL auction trends to stress-test your ₹80 Crore squad construction strategy.",
+      "problem_statement": "Qualified teams enter a simulated IPL Mega Auction environment with a virtual purse of ₹80 Crores and participate in real-time digital bidding to build a competitive squad.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangChain"
+      ],
+      "title": "AuctionAgent: Automated Strategy Simulator",
+      "track": "Live IPL Mega Auction",
+      "why_it_could_win": "Focuses on rigorous simulation and predictive logic, giving teams an edge in squad valuation prior to the live auction floor."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

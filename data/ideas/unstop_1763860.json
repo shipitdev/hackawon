@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-01T09:18:52.434860+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763860",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:889142131",
+        "github:1069255350"
+      ],
+      "pitch": "An autonomous multi-agent vulnerability discovery pipeline that uses adversarial LLMs to fuzz smart contracts and web apps, capturing flags automatically.",
+      "problem_statement": "Cybersecurity competition involving penetration testing, vulnerability exploitation, and capturing hidden flags.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker"
+      ],
+      "title": "AgenticRedTeam",
+      "track": "",
+      "why_it_could_win": "Leverages the grand prize-winning pattern from SpectreRedTeaming by bringing agentic automation directly to security capture-the-flag competitions, appealing to security judges who value speed and automation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge circuit verification suite designed to solve cryptographic challenges without revealing underlying private keys or plaintext flags.",
+      "problem_statement": "Cybersecurity competition challenging participants across areas such as cryptography and reverse engineering.",
+      "stack": [
+        "TypeScript",
+        "Noir-lang",
+        "Rust",
+        "SnarkJS"
+      ],
+      "title": "CryptoZeroLeak",
+      "track": "",
+      "why_it_could_win": "Directly addresses the cryptography and reverse engineering challenge domains with advanced ZK tooling, matching the technical depth seen in winning ZK hackathon projects like openstoa."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1069255350",
+        "github:1181344931"
+      ],
+      "pitch": "A real-time network traffic topology mapper and attack simulation visualizer for identifying hidden intrusion vectors during live red-team engagements.",
+      "problem_statement": "Cybersecurity competition involving practical security challenges in a simulated real-world environment.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "React",
+        "Three.js"
+      ],
+      "title": "GraphGuard-CTF",
+      "track": "",
+      "why_it_could_win": "Implements complex graph intelligence and visualization inspired by A10 Networks Hackathon winner GraphGuard, providing a visually striking interface for complex security data."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A lightweight automated binary disassembly and decompilation triage assistant that surfaces hidden strings and vulnerability vectors for reverse engineering challenges.",
+      "problem_statement": "The competition will challenge participants across areas such as penetration testing, reverse engineering, cryptography, and vulnerability exploitation.",
+      "stack": [
+        "Python",
+        "Radare2",
+        "Streamlit",
+        "Llama-cpp"
+      ],
+      "title": "BinaryScope",
+      "track": "",
+      "why_it_could_win": "Solves the exact bottleneck of reverse engineering challenges by combining static analysis parsers with local LLM assistance, showcasing genuinely hard engineering in a tight timeframe."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A secure biometric-authenticated credential and flag storage vault utilizing client-side zero-knowledge encryption to securely manage and submit CTF flags.",
+      "problem_statement": "Identify vulnerabilities, apply technical problem-solving skills, and capture hidden flags to score points.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "AES-GCM",
+        "LocalAuthentication"
+      ],
+      "title": "FlagVault",
+      "track": "",
+      "why_it_could_win": "Demonstrates exceptional polish and military-grade privacy similar to CyberVault, providing a robust utility tool for competitors to track and secure their captured flags."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

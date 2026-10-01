@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-10-01T09:18:43.647212+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763814",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "An automated offline Python script validator and submission relay designed to eliminate manual Google Forms bottlenecking during an F1 technical treasure hunt.",
+      "problem_statement": "Tech Grand Prix: On-ground technical treasure hunt where teams solve coding challenges and submit answers under time pressure.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "PitStop Code Validator",
+      "track": "",
+      "why_it_could_win": "Directly targets the operational friction of the event by providing instant offline feedback and structured submissions, aligning with the speed and efficiency theme of an F1-themed race."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A campus-mapping web utility that parses riddles dynamically to provide optimized pedestrian pathfinding between hidden QR codes.",
+      "problem_statement": "Tech Grand Prix: Decode the clue, navigate the campus, and find the QR in an on-ground treasure hunt.",
+      "stack": [
+        "Python",
+        "Leaflet.js",
+        "Flask"
+      ],
+      "title": "RiddleRoute Navigator",
+      "track": "",
+      "why_it_could_win": "Leverages the unique physical layout of the venue and the flexibility of the hunt, directly increasing a team's speed and strategy metrics."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A lightweight team-tracking dashboard that logs scanned QR checkpoint timestamps and calculates split times like an F1 telemetry system.",
+      "problem_statement": "Tech Grand Prix: 10 points to 40 points progression through interconnected technical challenges and QR hunting.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "SQLite"
+      ],
+      "title": "Telemetry QR Tracker",
+      "track": "",
+      "why_it_could_win": "Applies the F1 theme to race strategy, giving teams granular split-time analytics to decide whether to hunt higher-point distant QRs or secure nearby ones."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "An offline Python toolkit with specialized cryptographic and logical reasoning modules tailored for rapid decoding of complex technical riddles.",
+      "problem_statement": "Tech Grand Prix: Pre-requisites include Basics of coding (Python), Logical Reasoning, and General Aptitude for puzzle-based challenges.",
+      "stack": [
+        "Python",
+        "Rich",
+        "PyCryptodome"
+      ],
+      "title": "AeroCipher Decoder",
+      "track": "",
+      "why_it_could_win": "Solves the specific bottleneck of manual cipher breaking during high-stress time constraints, giving a distinct competitive edge in the technical challenges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A rules-based tactical decision engine that helps teams allocate time and prioritize flexible QR tasks based on current points and remaining duration.",
+      "problem_statement": "Tech Grand Prix: Flexible Hunt allowing teams to scan and attempt any task QR they discover along the way with varying point values.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Tkinter"
+      ],
+      "title": "Pitwall Strategy Assistant",
+      "track": "",
+      "why_it_could_win": "Focuses on the high-level strategy and teamwork aspect of the F1 theme, appealing directly to judges evaluating problem-solving efficiency."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

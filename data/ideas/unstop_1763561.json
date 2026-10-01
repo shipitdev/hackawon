@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-01T09:18:29.920388+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763561",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A streamlined platform designed specifically for Brainwaves hackathon participants to structure, format, and auto-generate compliance-ready PPT submissions for Stage 1.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "Brainwaves Prototype Evaluator & Submission Manager",
+      "track": "",
+      "why_it_could_win": "Targeting the specific structural workflow mandated by the organizers (Stage 1 PPT and problem-solution alignment) appeals directly to the evaluators looking for strict adherence to guidelines."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A lightweight dashboard built for 3-4 member hackathon teams to track active git contributions, split feature development, and generate instant demo scripts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Express",
+        "GitHub API"
+      ],
+      "title": "CollabTrack: Team Contribution & Milestone Visualizer",
+      "track": "",
+      "why_it_could_win": "Organizers explicitly stated that teamwork and active contribution from every member are key evaluation criteria; this tool directly visualizes and proves team equity."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An AI-assisted slide deck generator that transforms raw code repositories and project notes into professional judging presentations using the required event template.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "InsightSlide: Automated Hackathon Presentation Builder",
+      "track": "",
+      "why_it_could_win": "Directly targets Stage 1 deliverables (PPT submission), solving a major pain point for teams racing against a 24-48 hour clock."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A collaborative backlog manager tailored for tight hackathon deadlines, featuring live voting on MVP features to prevent scope creep.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Socket.io",
+        "PostgreSQL"
+      ],
+      "title": "ProtoSync: Real-time Feature Triage for Rapid Prototyping",
+      "track": "",
+      "why_it_could_win": "Emphasizes practical software development and robust collaboration, aligning with Brainwaves' core evaluation metrics."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An in-browser recorder that helps teams bundle their working prototype, architecture diagram, and presentation into a single polished submission package.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "WebRTC API",
+        "TailwindCSS"
+      ],
+      "title": "DemoFlow: Instant Video & Artifact Pitch Recorder",
+      "track": "",
+      "why_it_could_win": "Ensures a polished, working live demo presentation—a proven winning pattern at fast-paced software hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

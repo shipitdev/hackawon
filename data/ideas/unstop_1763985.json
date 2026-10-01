@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-01T09:19:10.818182+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763985",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1144331507"
+      ],
+      "pitch": "A real-time telemetry and impact force visualization system for combat robots using edge sensors and wireless mesh transmission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "MQTT",
+        "WebSocket"
+      ],
+      "title": "Arena Telemetry and Impact Diagnostics HUD",
+      "track": "",
+      "why_it_could_win": "Robowars judges evaluate based on damage, aggression, and strategy; providing hard quantitative impact data directly addresses their judging criteria."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1144331507"
+      ],
+      "pitch": "An independent hardware safety overlay that ensures compliance with strict wireless deactivation regulations and detects internal armor structural failures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "RF Transceiver",
+        "Custom PCB"
+      ],
+      "title": "FailSafe-Link: Autonomous Wireless Kill Switch and Armor Monitor",
+      "track": "",
+      "why_it_could_win": "Safety inspections are mandatory and strict at Robowars; a dedicated hardware safety system directly solves tournament clearance bottlenecks."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648",
+        "github:1259981732"
+      ],
+      "pitch": "An edge-processed computer vision overlay that helps operators track opponents inside fast-paced arena matches.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "C++"
+      ],
+      "title": "CombatBot Vision: Autonomous Target Tracking Assist",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced tactical control, matching the judging criteria for combat effectiveness and strategic driving."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1281918590"
+      ],
+      "pitch": "An embedded diagnostic tool for pneumatically-actuated weapon systems to monitor tank pressures and prevent mid-match failures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C",
+        "STM32",
+        "Pressure Sensors",
+        "OLED Display"
+      ],
+      "title": "Pneumatic Pressure Optimizer and Leak Detector",
+      "track": "",
+      "why_it_could_win": "Pneumatic weapon systems are prone to failure; this provides a robust engineering solution that impresses judges looking for hard mechanics."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1144331507"
+      ],
+      "pitch": "A reinforcement reconnaissance bot designed to inspect arena flooring conditions and debris hazards before full robot deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ROS2",
+        "LiDAR",
+        "Python"
+      ],
+      "title": "Arena Obstacle and Damage Mapping Rover",
+      "track": "",
+      "why_it_could_win": "Features an unusual physical hardware build with a live working demo that stands out in a room full of standard software pitches."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

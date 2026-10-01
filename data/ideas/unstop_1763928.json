@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-01T09:19:06.015325+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763928",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An individual offline-first practice environment optimized for 30-minute 60-question quantitative aptitude sprints.",
+      "problem_statement": "Round 1: Online Round Format: Multiple-choice or numerical quantitative aptitude questions (60 questions in 30 minutes)",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "QuantFast Speed-Prep Engine",
+      "track": "",
+      "why_it_could_win": "Addresses the exact individual time-management constraint of Round 1 where participants average 30 seconds per question, providing a live functioning speed-test UI."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An AI-guided mathematical problem solver and step-by-step flash trainer specifically geared toward IIT Kanpur Techkriti Round 2 numeric-answer format.",
+      "problem_statement": "Round 2: Onsite Finale (IIT Kanpur – Techkriti' 27) Format: Numerical/short answer type quantitative mathematical questions (8 questions in 60 minutes)",
+      "stack": [
+        "Python",
+        "SymPy",
+        "Streamlit",
+        "NumPy"
+      ],
+      "title": "Stochastic8 Finalist Simulator",
+      "track": "",
+      "why_it_could_win": "Directly targets the difficult probabilistic and brainstorming math questions of the onsite finale by benchmarking quick-reasoning algorithms."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An individual analytics dashboard to parse historical quantitative test patterns, track pacing bottlenecks, and optimize decision-making under strict time limits.",
+      "problem_statement": "Overview Techkriti' 27 presents Speed Quant: a high-octane challenge that merges mathematical brilliance with rapid problem-solving focusing on making smart choices against the clock.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Chart.js",
+        "PostgreSQL"
+      ],
+      "title": "QuantMatrix Speed Analytics",
+      "track": "",
+      "why_it_could_win": "Focuses intensely on the psychological and tactical pacing aspect of the competition rather than just standard problem-solving algorithms."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A high-performance terminal-based utility providing instant symbolic math evaluation and probability distribution calculation shortcuts for speed-quants.",
+      "problem_statement": "Round 2: Onsite Finale incorporating brainstorming, probabilistic knowledge, and mathematical problem-solving under a 60-minute window.",
+      "stack": [
+        "Python",
+        "Click",
+        "Rich",
+        "SciPy"
+      ],
+      "title": "MathSolver CLI & Rapid Scratchpad",
+      "track": "",
+      "why_it_could_win": "Minimizes keyboard-to-screen latency during high-pressure calculations where typing speed and syntax shortcuts dictate survival."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A fast simulation engine designed to compute analytical approximations and expected values for complex probability word problems instantly.",
+      "problem_statement": "Round 2: Onsite Finale incorporating probabilistic knowledge and mathematical problem-solving across 8 tough questions.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "FastAPI",
+        "Plotly"
+      ],
+      "title": "ProbSim: Probabilistic Shortcut Generator",
+      "track": "",
+      "why_it_could_win": "Provides a robust mental model validation tool for solo developers preparing for advanced quantitative finance and math contests."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

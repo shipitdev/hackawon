@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-01T09:17:54.448879+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746171",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "An AI-powered meta-development environment that instantly restructures its codebase and UI components when a surprise organizer hurdle is injected.",
+      "problem_statement": "Prompt Battle is a fast-paced AI-powered development competition where organizers may introduce a surprise hurdle such as a new requirement, feature, or constraint.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "HurdleAdaptive App Generator",
+      "track": "",
+      "why_it_could_win": "Directly tackles the competition's unique 'surprise hurdle' format, demonstrating exceptional agility and clever utilization of AI-assisted development tools like Cursor or Claude under strict time limits."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A dynamic training-free prompt and model routing engine that dynamically splits sub-tasks between cheap fast models and heavy reasoning models on the fly.",
+      "problem_statement": "Prompt Battle is a fast-paced AI-powered development and prompt-engineering competition where participants receive a problem statement and build a functional solution using Generative AI.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Qwen",
+        "Superlinked"
+      ],
+      "title": "PromptCircuit Semantic Router",
+      "track": "",
+      "why_it_could_win": "Leverages advanced prompt engineering and dynamic model selection, aligning with the evaluation criteria focusing heavily on effective use of AI and prompt mastery."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1171690684"
+      ],
+      "pitch": "An automated pre-deployment compliance and security checker that scans dynamically generated AI agent codebases for sudden logic constraints or safety violations.",
+      "problem_statement": "Prompt Battle is a fast-paced AI-powered development and prompt-engineering competition where participants receive a problem statement and build a functional solution using Generative AI.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "OpenAI OSS"
+      ],
+      "title": "Agentic Rule-Engine Guard",
+      "track": "",
+      "why_it_could_win": "Addresses a critical bottleneck in rapid prompt engineering and AI code generation: ensuring code validity and safety before final submission during live showcases."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1163393786",
+        "github:1214808895"
+      ],
+      "pitch": "A self-improving prompt evaluation arena where two distinct AI instances test and refine prompts against each other to discover edge cases and optimal prompt weights autonomously.",
+      "problem_statement": "Prompt Battle is a fast-paced AI-powered development and prompt-engineering competition where participants are evaluated on their prompt engineering, creativity, and problem-solving ability.",
+      "stack": [
+        "Python",
+        "Anthropic API",
+        "Braintrust",
+        "Docker"
+      ],
+      "title": "Self-Iterating Prompt Crucible",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering by implementing multi-agent adversarial evaluation rather than a simple static wrapper, highly impressing technical judges during Q&A."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1138792186"
+      ],
+      "pitch": "A rapid-configuration tool that instantly spins up custom agentic hooks, system prompts, and MCP tools specifically tailored to sudden hackathon problem statements.",
+      "problem_statement": "Prompt Battle is a fast-paced AI-powered development and prompt-engineering competition where participants receive a problem statement and build a functional solution using Generative AI and AI-assisted development tools.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Claude SDK",
+        "MCP"
+      ],
+      "title": "Claude-Config Quick-Scaffold",
+      "track": "",
+      "why_it_could_win": "Maximizes speed during a tight 24-48 hour window by pre-packaging battle-tested configurations and specialized agent workflows for immediate deployment."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

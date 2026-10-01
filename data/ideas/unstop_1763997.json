@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-01T09:19:33.430623+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763997",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1066546613",
+        "github:1259981732"
+      ],
+      "pitch": "A dual-mode electric hovercraft featuring real-time LiDAR and OpenCV-based lane keeping to maximize points in the racing round.",
+      "problem_statement": "Hovermania Racing Rounds: navigating an obstacle track autonomously for bonus points.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "C++",
+        "Arduino"
+      ],
+      "title": "AeroGuard: Autonomous Obstacle-Avoidance Hovercraft",
+      "track": "",
+      "why_it_could_win": "Targeting the autonomy bonus points explicitly gives this entry a massive mathematical advantage over manual-steering competitors, leveraging the edge-AI robotics patterns seen in past winners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1259981732"
+      ],
+      "pitch": "A reinforced-skirt, high-torque electric hovercraft optimized for stability and lateral pushing force during knockout arena battles.",
+      "problem_statement": "Hovermania Knockout Rounds: pushing opponents off the arena while avoiding inactivity penalties.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Brushless ESCs",
+        "Fusion360"
+      ],
+      "title": "RamBot: Push-Tactics Combat Hovercraft",
+      "track": "",
+      "why_it_could_win": "Focuses purely on the physical mechanics and center-of-gravity tuning needed to survive the aggressive knockout stage, standing out through robust hardware engineering."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1066546613",
+        "github:1259981732"
+      ],
+      "pitch": "An aerodynamic hovercraft equipped with IMU-based dead reckoning and optical flow sensors for rapid checkpoint traversal.",
+      "problem_statement": "Hovermania Racing Rounds: scoring points based on successful track navigation, obstacle avoidance, and minimum time taken.",
+      "stack": [
+        "Python",
+        "ROS2",
+        "ESP32",
+        "MPU6050"
+      ],
+      "title": "ApexHover: Hybrid Speed-Tuned Autonomous Racer",
+      "track": "",
+      "why_it_could_win": "Directly tackles the scoring formula (Total Points minus Time Taken) by combining high-speed manual control with high-precision autonomous checkpoint snapping."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073",
+        "github:1281918590"
+      ],
+      "pitch": "A microcontroller-based thrust-vectoring unit that dynamically balances lift height and forward momentum to prevent drift penalties.",
+      "problem_statement": "Hovermania Rules: maintaining a minimum lift height of 3 cm while avoiding penalties for deviating from the path.",
+      "stack": [
+        "C",
+        "STM32",
+        "Ultrasonic Sensors",
+        "PWM Control"
+      ],
+      "title": "VectorLift: Dynamic Lift and Thrust Control System",
+      "track": "",
+      "why_it_could_win": "Solves the specific compliance and stability constraints of the competition rules, ensuring zero penalty points from lift failure or path deviation."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1066546613"
+      ],
+      "pitch": "A compact onboard camera and processing unit that detects rival hovercrafts and automatically triggers counter-thrust vectors.",
+      "problem_statement": "Hovermania Knockout Rounds: fighting in elimination rounds and avoiding inactivity penalties.",
+      "stack": [
+        "Python",
+        "Edge Impulse",
+        "Raspberry Pi Zero",
+        "OpenCV"
+      ],
+      "title": "SentinelAI: Edge-Powered Knockout Target Lock",
+      "track": "",
+      "why_it_could_win": "Brings smart automation into the combat phase, completely eliminating inactivity penalties by using computer vision to track and engage opponents automatically."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

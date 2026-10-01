@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-01T09:19:19.295834+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763991",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1066546613"
+      ],
+      "pitch": "A precision-engineered autonomous bot built to traverse randomized indoor obstacle courses using sensor fusion and computer vision.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "C++",
+        "ROS",
+        "OpenCV",
+        "Arduino"
+      ],
+      "title": "Autonomous Obstacle-Crossing Rover for Arena Navigation",
+      "track": "",
+      "why_it_could_win": "Directly targets the core judging criteria of IARC (precision in design, fabrication, and intelligent sensor/coding usage) with a working physical build."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648",
+        "github:1066546613"
+      ],
+      "pitch": "A compact autonomous robot utilizing embedded edge hardware to process live camera feeds for real-time path correction without cloud latency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "Raspberry Pi",
+        "C++"
+      ],
+      "title": "Edge AI Dynamic Pathfinding Bot",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of gnuinely hard engineering and a live-working hardware demo under strict time constraints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1140260754"
+      ],
+      "pitch": "A modular telemetry and sensor suite mountable on competitive bots to monitor structural stress, battery health, and wheel slip in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP32",
+        "C++",
+        "MQTT",
+        "Python",
+        "InfluxDB"
+      ],
+      "title": "Precision Sensor-Fused Telemetry Rig",
+      "track": "",
+      "why_it_could_win": "Addresses the judges' focus on precision fabrication and intelligent sensor integration by providing quantifiable performance metrics during the run."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An autonomous chassis equipped with dual-axis LIDAR and wheel encoders to map unknown arena layouts instantly upon deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ROS2",
+        "C++",
+        "Python",
+        "STM32"
+      ],
+      "title": "Automated Line and Surface Mapping Bot",
+      "track": "",
+      "why_it_could_win": "Showcases advanced spatial awareness and software-hardware synergy that consistently stands out in robotics-heavy competitions."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A custom 3D-printed mechanical actuator system with quick-release couplings designed for rapid task execution inside the arena.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "CAD",
+        "Python",
+        "Arduino",
+        "C++"
+      ],
+      "title": "Modular Quick-Swap Payload Mechanism",
+      "track": "",
+      "why_it_could_win": "Wins on the physical design and fabrication precision metric by solving mechanical reliability issues that plague most hackathon bots."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

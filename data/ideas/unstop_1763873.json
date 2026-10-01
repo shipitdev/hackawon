@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-01T09:18:56.906350+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763873",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered developer CLI extension that watches execution logs, detects runtime exceptions locally or in staging, and writes structured repair patches instantly.",
+      "problem_statement": "AI for Everyday Life track focusing on productivity, developer automation, and debugging.",
+      "stack": [
+        "Python",
+        "fastapi",
+        "click",
+        "llm"
+      ],
+      "title": "NovaCLI Autopilot",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Directly leans into Nova CLI, which the hackathon organisers explicitly mandate and highlight for building, iterating, and debugging throughout the event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous study partner that ingests lecture PDFs and code repositories, turning them into adaptive, multi-turn Socratic quizzes with real-time concept gap analysis.",
+      "problem_statement": "AI for Everyday Life track focusing on education and personal organisation.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "title": "NovaStudy Agent",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Targets education and student productivity, which resonates strongly with hackathon judges who are often students or educators themselves."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A local-first wellness and biometric log parser that aggregates wearable exports into an explainable daily recovery dashboard with automated sleep hygiene prompts.",
+      "problem_statement": "AI for Everyday Life track focusing on health and wellness.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "NovaHealth Sync",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Focuses on personal health and practical everyday utility, aligning directly with the track requirement to solve tangible human problems."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An intelligent multi-modal travel planner that factors in real-time disruptions, budget constraints, and personal preferences to build complete day-by-day itineraries.",
+      "problem_statement": "AI for Everyday Life track focusing on travel and communication.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Anthropic SDK"
+      ],
+      "title": "NovaRoute AI",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Demonstrates a consumer-facing AI application with an end-to-end user flow that can be impressively demoed live in under two minutes."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An edge-compute receipt scanner and expense categoriser that flags subscription anomalies and tax-deductible items automatically using local vision models.",
+      "problem_statement": "AI for Everyday Life track focusing on personal finance and automation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Tesseract"
+      ],
+      "title": "NovaFinance Receipt Auditor",
+      "track": "AI for Everyday Life",
+      "why_it_could_win": "Solves a universally experienced personal pain point with a polished UI and a functioning demo that works instantly on sample data."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

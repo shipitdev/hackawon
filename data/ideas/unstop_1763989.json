@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-01T09:19:15.094894+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763989",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A manually controlled wired bot featuring an adaptive mechanical linkage and multi-jaw gripper designed to securely grasp irregular shapes and cubes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Stepper Motors",
+        "Servo Motors",
+        "Acrylic"
+      ],
+      "title": "Shape-Shift Gripper Bot",
+      "track": "Bot Design",
+      "why_it_could_win": "Demonstrates precision physical hardware handling and mechanical ingenuity, aligning with the robotics bot design task."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An add-on module using an ESP32 camera to stream a live top-down alignment view to a driver screen, ensuring precise insertion of blocks into cubic grooves.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ESP32",
+        "Wi-Fi"
+      ],
+      "title": "Groove-Finder Vision Assist",
+      "track": "Bot Design",
+      "why_it_could_win": "Combines mechanical robotics with computer vision feedback, giving the operator an unfair advantage in precision alignment."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A wireless robotic vehicle with a dual-frequency transceiver to avoid interference, built for rapid shape sorting and insertion tasks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "NRF24L01",
+        "Arduino",
+        "PWM Controllers",
+        "LiPo Batteries"
+      ],
+      "title": "Dual-Frequency Quick-Swap Wireless Bot",
+      "track": "Bot Design",
+      "why_it_could_win": "Directly targets the wireless control and range requirements specified in the challenge description with robust fault tolerance."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A custom 3D-printed passive compliance end-effector attached to a manual robot arm that self-aligns blocks into tight grooves without jamming.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Fusion 360",
+        "3D Printing",
+        "DC Motors",
+        "Mechanical Linkages"
+      ],
+      "title": "Compliant Mechanism Insertion End-Effector",
+      "track": "Bot Design",
+      "why_it_could_win": "Solves the mechanical tolerance problem elegantly through smart design rather than complex coding, impressing hardware judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A multi-axis robotic arm with an active cable management spring-spool system that keeps control wires slack and out of the operating arena.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Atmega328",
+        "Custom PCB",
+        "Relays",
+        "Aluminum Extrusion"
+      ],
+      "title": "Tension-Managed Wired Robotic Arm",
+      "track": "Bot Design",
+      "why_it_could_win": "Addresses a common operational failure point in wired robots during tight maneuverability tests."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

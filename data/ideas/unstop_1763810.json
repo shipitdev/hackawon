@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-10-01T09:18:38.775238+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763810",
+  "ideas": [
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:945803759"
+      ],
+      "pitch": "A desktop tool that visually calculates and simulates optimal instruction sequences for pirate grid-navigation challenges.",
+      "problem_statement": "Round 1: Grid Navigation - Teams solve a grid-based logical challenge by determining the correct path or sequence of instructions.",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "NetworkX"
+      ],
+      "title": "GridVoyager: Automated Grid Pathfinding Simulator",
+      "track": "",
+      "why_it_could_win": "Directly tackles the specific Round 1 format by helping teams pre-calculate and test logic sequences rapidly before committing to final pseudocode submissions."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:815266874"
+      ],
+      "pitch": "A decision-support dashboard for tracking team coin balances, calculating point multipliers, and optimizing bids during high-stakes technical auctions.",
+      "problem_statement": "Round 2: Pirate Bidding Battle - Teams receive 10 coins (50 points each) and bid for technical questions with 2x rewards or penalties.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BiddingStrategy Sim: Pirate Auction Risk Engine",
+      "track": "",
+      "why_it_could_win": "Addresses the specific round's risk management constraint where bids must be multiples of 50 and cannot be withdrawn, preventing costly strategic errors."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A fast offline editor that translates flowchart blocks into structured pseudocode tailored for grid navigation constraints.",
+      "problem_statement": "Round 1: Grid Navigation - Solutions must be submitted in pseudocode.",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "HTML5 Canvas"
+      ],
+      "title": "PseudoFlow: Visual Pseudocode Logic Converter",
+      "track": "",
+      "why_it_could_win": "Capitalizes on the strict no-AI rule by providing a structured, syntax-safe way to draft paper-ready pseudocode quickly without violating guidelines."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A rapid-fire trivia and technical challenge simulator designed to sharpen response times under a strict 60-second countdown.",
+      "problem_statement": "Round 2: Pirate Bidding Battle - The highest bidder gets 60 seconds to answer technical questions.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite"
+      ],
+      "title": "PirateTrivia Flash: Technical Knowledge Trainer",
+      "track": "",
+      "why_it_could_win": "Focuses on speed and accuracy under pressure, directly mimicking the high-stress bidding battle format to build team muscle memory."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A live leaderboard and coin calculator tailored for multi-round pirate-themed competitions to track standing and risk exposure.",
+      "problem_statement": "Overview: CODE VOYAGE is a pirate-themed technical challenge testing logic, pseudocode, technical knowledge, and strategy across two rounds.",
+      "stack": [
+        "JavaScript",
+        "Vue.js",
+        "Node.js"
+      ],
+      "title": "Captain's Log: Tactical Scoreboard Tracker",
+      "track": "",
+      "why_it_could_win": "Provides a polished, thematic interface that enhances the event experience and helps competitors manage points across both rounds."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

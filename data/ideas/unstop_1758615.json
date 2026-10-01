@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-10-01T09:18:03.910328+00:00",
+  "grounding": {
+    "domains": [
+      "agritech",
+      "devtools",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758615",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1226951926"
+      ],
+      "pitch": "A split-architecture system where Laptop A runs structured RAG and reasoning agents over agricultural databases, and Laptop B hosts an interactive terminal interface, connected over a local websocket bridge to survive live unseen scenario shifts.",
+      "problem_statement": "Construct TERRAFORM from scratch across two laptops simultaneously: one building the Knowledge Base and the other building the Interface, wired together into a cohesive system.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "WebSockets",
+        "SQLite",
+        "LangChain"
+      ],
+      "title": "Terraform-Sync: Dual-Laptop Distributed Knowledge-Interface Pipeline",
+      "track": "",
+      "why_it_could_win": "Directly hits the core hackathon constraint by building the exact dual-laptop architecture requested, proving that deep structured knowledge reasoning and the user interface can talk to each other seamlessly during live evaluation."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An AI reasoning engine powered by structured knowledge graphs that dynamically recalculates treatment plans when handed unfamiliar, unseen land scenarios instead of relying on hardcoded lookup tables.",
+      "problem_statement": "Each team is assigned one of five distinct land scenarios, and at judging time, they are handed a brand-new, unseen variation of it to test genuine system reasoning.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "OpenAI API",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "AgriReason: Zero-Shot Soil and Crop Adaptation Engine",
+      "track": "",
+      "why_it_could_win": "Addresses the explicit judging trap where judges hand over brand-new, unseen land variations, proving the AI reasons from first principles rather than memorizing pre-baked database templates."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:938030912",
+        "github:1235467347"
+      ],
+      "pitch": "A retro terminal-style interface for Laptop B that parses plain-English distress inputs from a stranded user, queries the Laptop A knowledge backend, and renders actionable step-by-step agricultural commands.",
+      "problem_statement": "Construct the Interface, the face users actually interact with, wired to a deep knowledge base to walk a user from bare soil to a full harvest.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Socket.io",
+        "Node.js"
+      ],
+      "title": "Terraform-CLI: The Command-Line Survival Interface",
+      "track": "",
+      "why_it_could_win": "Delivers a fully working live demo with high thematic polish and zero latency, directly matching the survivalist persona of waking up on unknown land with a single tool."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A structured research database designed for Laptop A that maps soil chemistry, moisture retention, and climate variables into a multi-hop reasoning schema for rapid AI querying.",
+      "problem_statement": "One team building the Knowledge Base — deep, structured research that lets an AI genuinely reason about soil, treatment, and crops.",
+      "stack": [
+        "Python",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "ChromaDB",
+        "FastAPI"
+      ],
+      "title": "SoilGraph: Multi-Hop Knowledge Base for Agronomic Diagnostics",
+      "track": "",
+      "why_it_could_win": "Focuses intensely on the quality of the knowledge foundation, ensuring the reasoning agent has rigorous domain data to draw upon when faced with unexpected judge scenarios."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1163393786",
+        "github:1226951926"
+      ],
+      "pitch": "An end-to-end integration wrapper that synchronizes the knowledge base and interface laptops, converting raw soil sensor inputs or text logs into automated treatment checklists and harvest timelines.",
+      "problem_statement": "Both halves must be wired together by the end, forming a System that can walk a user through diagnosing soil, choosing crops, and guiding them all the way to harvest.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Flask",
+        "Redis",
+        "React"
+      ],
+      "title": "HarvestLoop: Automated Soil-to-Yield Diagnostic Pipeline",
+      "track": "",
+      "why_it_could_win": "Emphasises a flawless live integration demo, ensuring that the critical handoff between the two laptops does not fail during evaluation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

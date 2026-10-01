@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-01T09:18:25.750995+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763393",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An automated prompt-history and repo-evolution visualizer designed specifically to satisfy AI-native judging criteria by auditing the developer's exact prompt trajectory and code changes.",
+      "problem_statement": "Overview: ProtocolX is an AI-powered vibe coding challenge that tests your ability to think, prompt, build, and iterate.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "GitPython"
+      ],
+      "title": "VibeTrace",
+      "track": "",
+      "why_it_could_win": "Directly targets the AI-based evaluation mechanism which specifically analyzes the repository and the exact prompts used throughout development."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A meta-prompting workspace that allows rapid iteration loops by auto-formatting vague natural language ideas into structured, high-context prompts for coding agents.",
+      "problem_statement": "Overview: ProtocolX is an AI-powered vibe coding challenge that tests your ability to think, prompt, build, and iterate.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "PromptRefine",
+      "track": "",
+      "why_it_could_win": "Leverages the core judging metric of prompt engineering skills and rapid iteration speed."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An automated end-to-end testing generator that spins up as a VS Code companion during vibe coding sessions to instantly validate code functionality after every major AI iteration.",
+      "problem_statement": "Overview: ProtocolX is an AI-powered vibe coding challenge that tests quality and functionality of the final solution.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Playwright"
+      ],
+      "title": "VibeTest",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of developer tools that win hackathons by guaranteeing functional stability during rapid code generation."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A lightweight guardrail and pre-deployment sanity checker for autonomous AI coding workflows that detects hallucinations and breaking changes in generated code.",
+      "problem_statement": "Overview: ProtocolX is an AI-powered vibe coding challenge that tests your ability to think, prompt, build, and iterate.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "AST Parsing"
+      ],
+      "title": "AgenticGuard",
+      "track": "",
+      "why_it_could_win": "Applies advanced agent governance patterns that heavily impress technical judges looking for robust engineering in AI tools."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A local CLI tool that monitors a project directory, catches compilation errors on the fly, and uses semantic search to auto-fix broken code states without losing the user's vibe flow.",
+      "problem_statement": "Overview: ProtocolX is an AI-powered vibe coding challenge that tests rapid development and the ability to iterate and improve.",
+      "stack": [
+        "Python",
+        "ChromaDB",
+        "Tree-sitter"
+      ],
+      "title": "SelfHealRepo",
+      "track": "",
+      "why_it_could_win": "Demonstrates sophisticated self-improving agent logic executed within a tight solo hackathon timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

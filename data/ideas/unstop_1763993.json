@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-01T09:19:24.724564+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763993",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1066546613"
+      ],
+      "pitch": "Real-time edge telemetry system mounted on an RC car to measure slip angles, tire temperatures, and lateral G-forces during high-speed drifting and cornering.",
+      "problem_statement": "Techkriti Grand Prix '27 RC car competition focusing on precision, control, and strategy on a challenging track.",
+      "stack": [
+        "Python",
+        "C++",
+        "Arduino",
+        "ESP32",
+        "MPU6050",
+        "MQTT"
+      ],
+      "title": "AeroSlip: RC Telemetry and Slip-Angle Estimation System",
+      "track": "",
+      "why_it_could_win": "Combines physical hardware metrics with an edge-computing setup similar to winning IoT and robotics projects, giving judges clear quantitative data on vehicle performance rather than just raw speed."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1066546613"
+      ],
+      "pitch": "An onboard camera and lightweight micro-controller unit that records track runs and computes the optimal racing line using offline heuristic path-planning.",
+      "problem_statement": "Techkriti Grand Prix '27 RC car competition requiring precision, control, and strategy on the racing track.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi Zero",
+        "C++"
+      ],
+      "title": "PitStop-AI: Computer Vision Track Line-Optimizer",
+      "track": "",
+      "why_it_could_win": "Fulfills the hardware-plus-coding requirement explicitly stated in the competition introduction while delivering a live, working demo of autonomous trajectory tuning."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A wireless telemetry module feeding real-time cell voltage, current draw, and motor temperature to a pit crew dashboard to prevent thermal throttling.",
+      "problem_statement": "Techkriti Grand Prix '27 RC car competition featuring electric and nitro categories where strategy and control matter.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "ESP8266",
+        "INA219",
+        "React"
+      ],
+      "title": "VoltGuard: Live Battery & Thermal Telemetry for Electric RC Cars",
+      "track": "",
+      "why_it_could_win": "Addresses the reliability and strategy aspects of endurance racing, showing judges a practical engineering safety system that directly prevents race-ending failures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "An RFID and IR-beam track-side gate system that feeds instant lap times and sector splits to a central dashboard without manual stopwatch errors.",
+      "problem_statement": "Techkriti Grand Prix '27 RC car competition featuring head-to-head racing where split-second strategy decides the winner.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Arduino",
+        "RC522 RFID",
+        "JavaScript"
+      ],
+      "title": "ApexLap: Automated Lap Counter and Sector Split Timer",
+      "track": "",
+      "why_it_could_win": "Solves an infrastructural need for the competition arena itself, creating an instant live demo that all competitors and judges can immediately use and appreciate."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A compact thermocouple and optical RPM sensor setup optimized for nitro-methanol engines to track tuning parameters live during practice runs.",
+      "problem_statement": "Techkriti Grand Prix '27 RC car competition with a specific Nitro vehicle category requiring deep engineering expertise.",
+      "stack": [
+        "C++",
+        "MAX31855",
+        "Arduino Nano",
+        "OLED Display"
+      ],
+      "title": "NitroSync: Exhaust Temperature & RPM Logger for Nitro RC Cars",
+      "track": "",
+      "why_it_could_win": "Targets the nitro category specifically with hard engineering instrumentation, filling a major technical gap that standard hobbyist builds ignore."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

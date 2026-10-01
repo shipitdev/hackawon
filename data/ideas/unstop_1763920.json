@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-01T09:19:01.046319+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763920",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A hybrid quantum-classical application that solves portfolio optimization problems using the Variational Quantum Eigensolver via IBM Qiskit.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "title": "Qiskit VQE Portfolio Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly leverages IBM's primary ecosystem framework (Qiskit) which aligns well with evaluation preferences in a partnered Qiskit Fall Fest event."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An educational web interface that visually breaks down how Qiskit transpiles high-level quantum gates into native hardware instructions for specific IBM Quantum backends.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "Quantum Circuit Transpiler Visualizer",
+      "track": "",
+      "why_it_could_win": "Judges at IBM-partnered hackathons heavily reward tooling that improves developer experience and demystifies quantum hardware constraints."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A practical simulation of the E91 quantum key distribution protocol using Bell states to detect eavesdropping on simulated noisy quantum channels.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Entanglement-Based Quantum Key Distribution Simulator",
+      "track": "",
+      "why_it_could_win": "Implements a sophisticated cryptographic protocol that demonstrates practical understanding of quantum mechanics beyond basic tutorials."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An interactive dashboard simulating the 3-qubit bit flip code and phase flip code to show real-time syndrome measurement and error correction.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Dash",
+        "NetworkX"
+      ],
+      "title": "Quantum Error Correction Visualizer",
+      "track": "",
+      "why_it_could_win": "Tackles one of the most pressing engineering hurdles in quantum computing with a clean, demonstrable live user interface."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A hybrid quantum-classical neural network using parametrized quantum circuits as a feature map for classifying small-scale image datasets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "PyTorch",
+        "Scikit-learn"
+      ],
+      "title": "Quantum Machine Learning Image Classifier",
+      "track": "",
+      "why_it_could_win": "Combines two high-interest domains—machine learning and quantum computing—showcasing advanced implementation skills within a tight hackathon window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

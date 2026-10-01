@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-01T09:17:31.562792+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:0204a886396a4f5b91f45a99a5209499",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1340275018",
+        "github:1296916648"
+      ],
+      "pitch": "An edge-AI system processing optical satellite tracking data locally on constrained hardware to predict orbital debris conjunctions in real-time.",
+      "problem_statement": "Satellite Systems and Earth Observation tracking challenges",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "title": "AstroShield: Edge-AI Debris Collision Warning",
+      "track": "Hackverse 2026",
+      "why_it_could_win": "Features hard engineering in local ML execution on resource-constrained devices, matching winning patterns for complex edge processing."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A simulated intermittent communication protocol designed for high-latency, packet-loss-heavy CubeSat downlinks using error-correcting codecs.",
+      "problem_statement": "Communication and IoT challenges in space technology",
+      "stack": [
+        "Python",
+        "C++",
+        "WebSockets",
+        "React"
+      ],
+      "title": "OrbitalLink: Resilient Space-to-Ground LoRa Protocol",
+      "track": "Hackverse 2026",
+      "why_it_could_win": "Addresses a fundamental space tech bottleneck with a working network simulator and live telemetry demonstration."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A robotic navigation script combining ultrasonic telemetry and computer vision to map uneven planetary terrain and identify craters autonomously.",
+      "problem_statement": "Robotics and IoT challenges for space exploration",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "ROS2"
+      ],
+      "title": "RegolithRover: Autonomous Surface Hazard Mapping",
+      "track": "Hackverse 2026",
+      "why_it_could_win": "Provides an unusual physical and visual build that stands out in a room full of standard web applications."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent telemetry analysis dashboard powered by lightweight language models and time-series anomaly detection algorithms to flag critical life-support failures.",
+      "problem_statement": "AI/ML and Data challenges in aerospace systems",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "TimescaleDB"
+      ],
+      "title": "CosmoGuard: Spacecraft Telemetry Anomaly Detector",
+      "track": "Hackverse 2026",
+      "why_it_could_win": "Utilizes advanced multi-agent diagnostic patterns that scored high in recent hackathons, ensuring strong technical appeal to judges."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A cryptographic access control system using physical secure elements to prevent unauthorized uplink commands to experimental satellites.",
+      "problem_statement": "Cybersecurity and Satellite Systems challenges",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "Node.js"
+      ],
+      "title": "AeroCrypt: Hardware-Secured Ground Station Auth",
+      "track": "Hackverse 2026",
+      "why_it_could_win": "Integrates hardware security modules with backend validation, mirroring winning anti-counterfeiting and hardware integration designs."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

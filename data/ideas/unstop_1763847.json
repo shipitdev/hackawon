@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-01T09:18:47.532007+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763847",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered companion tool for competitive programmers that visualizes algorithm execution steps and estimates time complexity classes from raw source code.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Monaco Editor"
+      ],
+      "title": "CP-Visualizer & Complexity Predictor",
+      "track": "",
+      "why_it_could_win": "Addresses the pain points of participants in intense competitive programming contests like Code N Compete by offering immediate logic debugging and execution insights."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A localized platform for hosting impromptu speed-coding rounds with automated test case generation and real-time comparative performance analytics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Docker",
+        "Redis"
+      ],
+      "title": "AlgoBattle Matchmaker & Performance Analytics",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the spirit of the high-intensity competitive programming challenges at Techkriti'27, providing an immediate working demo for practice."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An automated code execution tracer that flags potential edge-case failures, infinite loops, and integer overflow issues before submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AST",
+        "Streamlit"
+      ],
+      "title": "CodeTrace AI",
+      "track": "",
+      "why_it_could_win": "Focuses on speed and logic error prevention, which are critical winning metrics in timed 2-hour competitive programming finales."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A multi-platform unified leaderboard and real-time submission parser that aggregates competitive programming standings across multiple problem sets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "ContestHub Live Leaderboard",
+      "track": "",
+      "why_it_could_win": "Delivers a robust, fully working dashboard that handles live data streams efficiently, appealing to judges who value solid technical execution under tight time constraints."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A smart snippet manager for competitive programmers that auto-indexes algorithms, data structures, and boilerplate templates with instant copy-paste hotkeys.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "React"
+      ],
+      "title": "SnippetVault & CP Template Engine",
+      "track": "",
+      "why_it_could_win": "Solves the exact logistical bottleneck of saving time during high-pressure coding rounds where every second counts."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
