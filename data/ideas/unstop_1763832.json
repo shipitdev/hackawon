@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-02T08:51:26.333428+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763832",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An autonomous web extraction tool that monitors municipal tender portals and local grievance redressal forums using TinyFish to aggregate data for citizen journalists.",
+      "problem_statement": "Open innovation track requiring the mandatory integration of TinyFish as a functional component.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TinyFish SDK",
+        "TailwindCSS"
+      ],
+      "title": "TinyFish Web Scraping Agent for Local Governance Monitoring",
+      "track": "Open Innovation Track",
+      "why_it_could_win": "Directly satisfies the mandatory technical requirement of integrating TinyFish while solving a real-world civic tracking problem that appeals to judges looking for social impact."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A real-time dashboard tracking energy consumption across university departments by scraping and synthesizing utility metrics via TinyFish integration.",
+      "problem_statement": "Open innovation track requiring the mandatory integration of TinyFish as a functional component.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TinyFish API",
+        "React",
+        "Chart.js"
+      ],
+      "title": "Campus Energy Audit and Carbon Tracker via TinyFish Data Extraction",
+      "track": "Open Innovation Track",
+      "why_it_could_win": "Combines sustainability metrics with strict adherence to the mandatory TinyFish integration constraint, offering clear, measurable environmental impact."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent research assistant that automatically extracts, indexes, and answers complex queries over distributed academic pre-print archives using TinyFish.",
+      "problem_statement": "Open innovation track requiring the mandatory integration of TinyFish as a functional component.",
+      "stack": [
+        "TypeScript",
+        "LangChain",
+        "TinyFish SDK",
+        "PostgreSQL",
+        "Vector DB"
+      ],
+      "title": "Automated Research Synthesis Pipeline Using TinyFish and RAG",
+      "track": "Open Innovation Track",
+      "why_it_could_win": "Demonstrates advanced software engineering and retrieval-augmented generation paired with seamless TinyFish data extraction, making it technically robust."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A security auditing tool that scrapes open-source package registries and vendor change logs using TinyFish to detect downstream supply chain anomalies.",
+      "problem_statement": "Open innovation track requiring the mandatory integration of TinyFish as a functional component.",
+      "stack": [
+        "Python",
+        "TinyFish API",
+        "Docker",
+        "Next.js"
+      ],
+      "title": "TinyFish-Powered Supply Chain Vulnerability Scanner",
+      "track": "Open Innovation Track",
+      "why_it_could_win": "Targets high-value cybersecurity concerns using hard engineering principles and satisfies the core TinyFish sponsor requirement."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A mobile-first web app that aggregates fragmented regional mandi prices daily using TinyFish scrapers to help farmers negotiate better market rates.",
+      "problem_statement": "Open innovation track requiring the mandatory integration of TinyFish as a functional component.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "TinyFish SDK",
+        "MongoDB"
+      ],
+      "title": "Hyper-Local Agri-Market Price Aggregator",
+      "track": "Open Innovation Track",
+      "why_it_could_win": "Addresses a deeply relevant regional economic problem with tangible utility, while successfully incorporating the mandatory TinyFish SDK."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

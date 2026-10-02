@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-10-02T08:51:17.752791+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763378",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1192028384"
+      ],
+      "pitch": "An autonomous security agent system that detects anomalous log patterns, conducts multi-agent forensic investigations, and isolates compromised endpoints without human intervention.",
+      "problem_statement": "Track 1 — Agentic AI for Cybersecurity: Build an autonomous cybersecurity agent/system capable of detecting, analysing, investigating, and responding to security threats.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "Docker",
+        "OpenAI API"
+      ],
+      "title": "SentinelFlow: Autonomous Multi-Agent SIEM and Incident Response",
+      "track": "Track 1 — Agentic AI for Cybersecurity",
+      "why_it_could_win": "Targeting Track 1 with a multi-agent orchestration workflow provides direct alignment with specialized security judges who value automated reasoning over simple rule-based alerts."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1170846981"
+      ],
+      "pitch": "A healthcare agentic platform that ingests unstructured patient history, cross-references clinical guidelines, and automates discharge summary documentation and triage workflows.",
+      "problem_statement": "Track 2 — Agentic AI for Healthcare: Build an Agentic AI solution that assists with healthcare-related decision support, information management, patient interaction, or workflow automation.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "MediGraph AI: Autonomous Clinical Decision Support and Workflow Agent",
+      "track": "Track 2 — Agentic AI for Healthcare",
+      "why_it_could_win": "Directly tackles hospital administrative and clinical bottlenecks, which appeals to healthcare judges looking for measurable time-saving workflow automation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1213911408"
+      ],
+      "pitch": "An agentic NLP system that autonomously reads complex multilingual regulatory documents, extracts key compliance obligations, and performs cross-lingual legal reasoning.",
+      "problem_statement": "Track 3 — Agentic AI for Natural Language Processing (NLP): Build an Agentic AI system that autonomously performs complex natural language understanding, information extraction, reasoning, generation, or multilingual NLP tasks.",
+      "stack": [
+        "Python",
+        "LlamaIndex",
+        "HuggingFace Transformers",
+        "Streamlit"
+      ],
+      "title": "LexiVerify: Multilingual Autonomous Legal and Policy Information Extraction",
+      "track": "Track 3 — Agentic AI for Natural Language Processing (NLP)",
+      "why_it_could_win": "Leverages advanced multilingual NLP capabilities and structured chain-of-thought verification, demonstrating technical depth beyond standard wrapper applications."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1192028384"
+      ],
+      "pitch": "An open innovation agentic marketplace that monitors global shipping data, runs predictive risk simulations, and automatically negotiates alternative routing via API integrations.",
+      "problem_statement": "Track 4 — Agentic AI for Open Innovation: Build an Agentic AI solution that addresses an open-ended real-world problem using autonomous reasoning, tool use, data, APIs, and/or multi-agent collaboration.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AutoGPT SDK",
+        "TailwindCSS",
+        "Redis"
+      ],
+      "title": "SupplyChainGuardian: Multi-Agent Risk Mitigation and Logistics Dispatch",
+      "track": "Track 4 — Agentic AI for Open Innovation",
+      "why_it_could_win": "Features active API tool use and multi-agent collaboration, creating a compelling live demo that solves a visible, high-stakes economic problem."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A real-time agentic voice assistant that intercepts suspicious communications, analyzes semantic intent for social engineering flags, and alerts vulnerable users before fraud occurs.",
+      "problem_statement": "Track 3 — Agentic AI for Natural Language Processing (NLP): Build an Agentic AI system that autonomously performs complex natural language understanding, information extraction, reasoning, generation, or multilingual NLP tasks.",
+      "stack": [
+        "Swift",
+        "Python",
+        "WebRTC",
+        "OpenAI Realtime API",
+        "FastAPI"
+      ],
+      "title": "PhishShield Agent: Voice-First Senior Scam Detection and Prevention",
+      "track": "Track 3 — Agentic AI for Natural Language Processing (NLP)",
+      "why_it_could_win": "Employs a live voice-first interface which guarantees a memorable, high-impact demonstration for judges during the final evaluation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-02T08:52:43.307599+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764465",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "An edge-computing telemetry logger and real-time dashboard for electric RC cars to track motor temperature, RPM, battery sag, and chassis vibration during high-speed runs.",
+      "problem_statement": "Techkriti Grand Prix '27: Build an RC car from scratch combining engineering, design, and coding expertise with focus on precision, control, and strategy.",
+      "stack": [
+        "C++",
+        "Python",
+        "ESP32",
+        "MQTT",
+        "React"
+      ],
+      "title": "AeroStitch RC Telemetry",
+      "track": "electric",
+      "why_it_could_win": "Hardware judges at RC competitions love measurable telemetry data that helps drivers tune their lap times scientifically rather than by guessing."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:666215867"
+      ],
+      "pitch": "A smart diagnostic rig for nitro RC cars that monitors fuel-air ratio, cylinder head temperature, and clutch engagement to optimize pit stop strategy.",
+      "problem_statement": "Techkriti Grand Prix '27: Build an RC car from scratch combining engineering, design, and coding expertise with focus on precision, control, and strategy.",
+      "stack": [
+        "C",
+        "Arduino",
+        "OLED Display",
+        "Thermocouple Sensors"
+      ],
+      "title": "NitroPulse Pit-Stop Optima",
+      "track": "Nitro",
+      "why_it_could_win": "Focuses on strategic decision-making and reliability, addressing the unique operational challenges of nitro engines."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1066546613",
+        "github:1010199928"
+      ],
+      "pitch": "An onboard micro-camera and co-processor setup for RC cars that logs racing lines and detects track boundaries to help drivers analyze cornering precision post-run.",
+      "problem_statement": "Techkriti Grand Prix '27: Build an RC car from scratch combining engineering, design, and coding expertise with focus on precision, control, and strategy.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi Zero",
+        "C++"
+      ],
+      "title": "VisionDrift AI Navigator",
+      "track": "electric",
+      "why_it_could_win": "Directly leverages the winning pattern of embedding intelligent edge perception systems onto small robotic hardware platforms."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A lightweight 9-DOF IMU and GPS tracking module mounted on the RC car chassis to map track g-forces, slip angles, and racing trajectories.",
+      "problem_statement": "Techkriti Grand Prix '27: Build an RC car from scratch combining engineering, design, and coding expertise with focus on precision, control, and strategy.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MPU6050",
+        "Plotly.js"
+      ],
+      "title": "ChassisSync Inertial Logger",
+      "track": "electric",
+      "why_it_could_win": "Provides concrete performance data that transforms a standard RC build into an engineered racing machine, impressing judges with rigorous hardware instrumentation."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A fail-safe remote kill-switch and health monitoring system using low-latency RF to prevent runaway nitro or electric RC cars during high-speed track events.",
+      "problem_statement": "Techkriti Grand Prix '27: Build an RC car from scratch combining engineering, design, and coding expertise with focus on precision, control, and strategy.",
+      "stack": [
+        "C++",
+        "NRF24L01",
+        "Arduino Nano"
+      ],
+      "title": "PitLink Wireless Safety Cutoff",
+      "track": "Nitro",
+      "why_it_could_win": "Addresses safety and reliability, which are critical constraints when racing high-speed custom-built vehicles in tight arenas."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

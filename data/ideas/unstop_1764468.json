@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-02T08:52:47.271868+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764468",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1066546613"
+      ],
+      "pitch": "An autonomous ground vehicle equipped with depth cameras and onboard compute to traverse unpredictable obstacle courses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ROS2",
+        "OpenCV",
+        "C++",
+        "Arduino"
+      ],
+      "title": "Autonomous Obstacle-Navigating Vision Bot",
+      "track": "",
+      "why_it_could_win": "Aligns with the core judging priority of precision design, fabrication, and intelligent use of sensors for autonomous navigation, mirroring the hardware-focused winners from Quanta and FPT Edu hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A robotic system utilizing lightweight edge AI models on a microcontroller to classify and segregate objects in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "ESP32",
+        "OpenCV"
+      ],
+      "title": "Edge AI Dynamic Object Sorter Bot",
+      "track": "",
+      "why_it_could_win": "Demonstrates a robust, live physical demo combining embedded coding and sensor integration, a proven winning pattern at robotics-focused hardware hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An advanced differential-drive robot utilizing sensor fusion (IMU, wheel encoders, and IR arrays) for high-precision track mapping and dead reckoning.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ROS",
+        "STM32",
+        "MPU6050"
+      ],
+      "title": "Precision Line and Path Mapping Rover",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the precision level in sensor data fusion and coding efficiency, which directly addresses the core evaluation criteria for IARC at Techkriti."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1140260754"
+      ],
+      "pitch": "An autonomous exploration rover equipped with real-time wireless telemetry to monitor chassis health and trigger failsafes on sensor anomalies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "Node.js"
+      ],
+      "title": "Autonomous Telemetry and Safety Lockout Bot",
+      "track": "",
+      "why_it_could_win": "Leverages real-time edge telemetry and fault detection, echoing winning patterns from complex industrial safety and IoT diagnostics hackathon projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1141364034",
+        "github:1010199928"
+      ],
+      "pitch": "A modular autonomous robot designed to pick up, transport, and accurately drop off payloads based on visual or analog markers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "Raspberry Pi",
+        "OpenCV"
+      ],
+      "title": "Smart Logistics Payload Transport Bot",
+      "track": "",
+      "why_it_could_win": "Directly tackles practical task execution under strict timing constraints, impressing judges with a reliable, end-to-end working physical demonstration."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

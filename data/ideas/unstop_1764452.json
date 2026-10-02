@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-10-02T08:52:15.297992+00:00",
+  "grounding": {
+    "domains": [
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764452",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A high-frequency scenario practice platform built specifically for rapid-fire stock market simulations with real-time timers and instant scoring feedback.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Redis"
+      ],
+      "title": "AlphaSpeed Simulator",
+      "track": "",
+      "why_it_could_win": "Since the hackathon features a rapid 2.5-minute decision simulation with tie-breaking based on response speed, building a tool that helps participants train their reaction times and algorithmic indicator-reading gives them a massive edge."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:969245239"
+      ],
+      "pitch": "An LLM-driven financial indicator parser that instantly extracts sentiment and trend implications from raw company updates and market scenarios.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "MacroFlash AI",
+      "track": "",
+      "why_it_could_win": "Judges in a stock market simulation track value automated sentiment and risk analysis under tight pressure, mirroring the multi-agent orchestration pattern seen in winning AI market research tools."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A real-time portfolio risk calculation dashboard that computes volatility and downside metrics instantly during live market scenarios.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "RiskMatrix Pro",
+      "track": "",
+      "why_it_could_win": "Focuses on rigorous quantitative risk analysis, directly addressing the core competencies required to evaluate market fluctuations and make optimal 'Buy', 'Sell', or 'Hold' choices."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A response time and decision accuracy tracking suite that logs simulation decisions down to the millisecond to help teams audit and improve their trading strategies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Express",
+        "PostgreSQL",
+        "Chart.js"
+      ],
+      "title": "TradeLens Telemetry",
+      "track": "",
+      "why_it_could_win": "Ties directly into the event scoring mechanism where average response time breaks ties, giving competitive teams an analytical breakdown of their decision bottlenecks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A custom financial scenario generator that creates dynamic market shocks and company update permutations for advanced trading practice.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "ScenarioForge",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep domain expertise in financial engineering by allowing teams to stress-test their trading instincts against black-swan event models."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

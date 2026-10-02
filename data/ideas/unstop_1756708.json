@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-02T08:51:13.322030+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756708",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684",
+        "github:1228328106"
+      ],
+      "pitch": "An automated data-cleaning, outlier-handling, and feature-engineering pipeline built specifically to rapidly adapt to mid-competition dataset modifications.",
+      "problem_statement": "Round 1: The Online Qualifier | Take on a 30+ hours machine learning challenge on Kaggle using the provided datasets, clean messy data, identify useful features, and adapt when new information changes the task.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "XGBoost",
+        "Optuna"
+      ],
+      "title": "Kaggle Adaptive Pipeline & Residual Modeler",
+      "track": "",
+      "why_it_could_win": "Directly targets the core challenge description emphasizing adaptation under time pressure and data changes on Kaggle leaderboards, leveraging robust feature engineering automation inspired by DataVeritas."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "A rapid diagnostic toolkit that evaluates tabular classification models for disparate impact, data drift, and hidden algorithmic biases before final Kaggle submission.",
+      "problem_statement": "Round 1: The Online Qualifier | A strong model is only the beginning. Can you clean messy data, identify useful features, evaluate your approach and adapt when new information changes the task?",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Fairlearn",
+        "SHAP",
+        "LightGBM"
+      ],
+      "title": "BiasGuard ML: Automated Fairness and Drift Auditor",
+      "track": "",
+      "why_it_could_win": "Addresses robust model evaluation criteria beyond raw accuracy, utilizing evaluation metrics and bias detection patterns from winning entries."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A lightweight local model stacking and automated ensembling dashboard designed to combine diverse gradient boosting models for optimal Kaggle score performance.",
+      "problem_statement": "Round 1: The Online Qualifier | Develop your solution, submit predictions and track your progress on the leaderboard under strict time limits.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "CatBoost",
+        "Scikit-Learn"
+      ],
+      "title": "Leaderboard Ensemble & Meta-Learner Studio",
+      "track": "",
+      "why_it_could_win": "Focuses purely on leaderboard optimization and ensemble strategies which consistently secure top positions in 30-hour Kaggle sprint data competitions."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An interactive EDA tool that flags data leakage, high cardinality anomalies, and missing value patterns instantly to accelerate feature construction during the qualifier.",
+      "problem_statement": "Round 1: The Online Qualifier | Can you clean messy data, identify useful features, evaluate your approach and adapt when new information changes the task?",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "DataIntegrity Profiler & Feature Synthesizer",
+      "track": "",
+      "why_it_could_win": "Replicates the automated data profiling and integrity rating approach of proven winners, saving hours of manual data cleaning during a short-duration datathon."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "An interpretable machine learning dashboard utilizing SHAP values to explain individual predictions and feature contributions for tabular decision-making tasks.",
+      "problem_statement": "Round 1: The Online Qualifier | Develop your solution, submit predictions and track your progress on the leaderboard with sound decision making.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "Clinical Explainability & Risk Factor Scorer",
+      "track": "",
+      "why_it_could_win": "Judges in data science competitions highly value model interpretability alongside raw metric scores, matching the successful pattern of clinical explainability tools."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

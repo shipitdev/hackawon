@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-02T08:52:56.850658+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764470",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1259981732"
+      ],
+      "pitch": "A wireless onboard sensor suite and pit dashboard tracking combat robot motor temperature, battery voltage sag, and structural impact forces in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "MQTT",
+        "WebSocket"
+      ],
+      "title": "Arena Telemetry & Real-Time Stress Monitor",
+      "track": "",
+      "why_it_could_win": "Robowars matches are chaotic and judges look closely at control and strategy. Providing pit crews with hard telemetry helps diagnose failures instantly and showcases high-level hardware engineering similar to hardware and robotics winners like EchoMesh and Rover."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1144331507"
+      ],
+      "pitch": "An independent, redundant RF emergency shutdown transceiver hardware module designed to prevent runaway robot incidents during intense combat rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "NRF24L01",
+        "PCB Design"
+      ],
+      "title": "FailSafe Wireless Kill-Switch & Diagnostics",
+      "track": "",
+      "why_it_could_win": "Safety inspections are mandatory and strict at Robowars. A robust, custom-built hardware safety interlock directly addresses the event's heaviest compliance friction points and appeals to technical judges looking for reliable engineering."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1259981732"
+      ],
+      "pitch": "An electronic control system that monitors and dynamically regulates high-pressure CO2 or nitrogen tanks for pneumatic flipper and axe weapon systems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "STM32",
+        "Solvenoid Control",
+        "Pressure Sensors"
+      ],
+      "title": "Smart Pneumatic Pressure Regulation Valve",
+      "track": "",
+      "why_it_could_win": "Weapon deployment strategy and damage are primary judging criteria in Robowars. Efficient gas management allows a bot to fire its pneumatic weapon consistently throughout the entire 4-minute match without premature pressure loss."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1284625256",
+        "github:1010199928"
+      ],
+      "pitch": "An edge computer vision system mounted near the combat arena that records matches and uses high-speed frame analysis to score kinetic energy transfer and structural deformation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "YOLO",
+        "PyTorch"
+      ],
+      "title": "Arena Impact Vision & Damage Estimator",
+      "track": "",
+      "why_it_could_win": "Tie-breakers in Robowars rely heavily on subjective judging of damage and aggression. Providing an objective, automated visual breakdown of who landed harder hits gives teams an undeniable edge during post-match scoring disputes."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1274691349"
+      ],
+      "pitch": "An IMU-based stabilization assist unit that detects when a combat robot has been flipped upside down and triggers automated mechanical recovery arms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "MPU6050",
+        "Servo Motors"
+      ],
+      "title": "Gyroscopic Auto-Righting Assist Module",
+      "track": "",
+      "why_it_could_win": "Immobilization leads to immediate disqualification in combat robotics. An automated self-righting mechanism dramatically increases match survivability and directly secures points for control and strategy."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

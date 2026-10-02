@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:53:18.628998+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764607",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1329458499"
+      ],
+      "pitch": "An automated supply chain transparency and carbon ledger platform utilizing graph intelligence and data lineage to detect compliance anomalies.",
+      "problem_statement": "Supply Chain transparency and green compliance monitoring.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "VeriSupply AI",
+      "track": "Supply Chain",
+      "why_it_could_win": "Combines advanced data lineage tracking with automated compliance verification, matching the hackathon's focus on technical viability and sustainable commercialization blueprints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A HealthTech platform using graph neural networks and risk scoring algorithms to detect and investigate healthcare insurance fraud and claim anomalies.",
+      "problem_statement": "HealthTech security and fraud detection in medical insurance.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "MediGraph Risk Engine",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly tackles a high-stakes real-world problem using sophisticated network analysis, reflecting the rigorous end-to-end technical approach prized by MalanHack judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An intelligent logistics and cold-chain forecasting agent for AgriTech that optimizes perishables transit using predictive modeling and real-time sensor streams.",
+      "problem_statement": "AgriTech supply chain inefficiencies and food spoilage reduction.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "AgriRoute AI",
+      "track": "AgriTech",
+      "why_it_could_win": "Applies rigorous predictive modeling to minimize agricultural waste, providing both a strong technical core and a clear commercialization strategy."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1329458499"
+      ],
+      "pitch": "An automated carbon credit auditing and green-washing detection tool for CleanTech enterprises leveraging multi-agent document analysis and data lineage.",
+      "problem_statement": "CleanTech verification and transparent corporate carbon accounting.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "CarbonLedger CleanAI",
+      "track": "CleanTech",
+      "why_it_could_win": "Focuses on regulatory compliance and automated verification, aligning with the evaluation criteria emphasizing comprehensive technological blueprints and real-world impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1329458499"
+      ],
+      "pitch": "An Enterprise AI governance and incident forecasting dashboard that tracks automated operational risks and generates verified remediation plans.",
+      "problem_statement": "Enterprise AI governance and automated incident response.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "FastAPI",
+        "React",
+        "Docker"
+      ],
+      "title": "EnterpriseRisk Sentinel",
+      "track": "Enterprise AI",
+      "why_it_could_win": "Directly mirrors winning architectures that blend robust risk forecasting with automated remediation, standing out in an open-theme national sprint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

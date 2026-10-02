@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:52:06.744671+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764446",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A real-time computer vision scoring and telemetry overlay system for Drone Soccer arenas that automatically tracks ball possession and goal entries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "React",
+        "WebSockets"
+      ],
+      "title": "AeroGoal Tracker and Telemetry HUD",
+      "track": "",
+      "why_it_could_win": "Reflects the physical build and live demonstration winning pattern seen in hardware and robotics hackathons like the Rover project, appealing directly to referees and spectators during intense arena matches."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A lightweight ESP32-based sensor pod attached to drone exoskeletons that measures crash G-force and instantly signals restart eligibility for tournament marshals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MPU6050",
+        "BLE",
+        "Arduino"
+      ],
+      "title": "CageGuard: Impact Telemetry & Crash Detection Module",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering and solves a real officiating bottleneck for tournament rules regarding restart windows after crashes."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An auxiliary localized radio communication relay system ensuring zero-latency channel chatter and telemetry backup for drone pilots in steel-reinforced arenas.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP-NOW",
+        "Hardware",
+        "RF Modules"
+      ],
+      "title": "OmniMesh: Low-Latency Pilot Communication Link",
+      "track": "",
+      "why_it_could_win": "Demonstrates robust offline hardware engineering, mirroring the approach that won Best Hardware at ICHack."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A generative design and simulation tool for rapid 3D-printing and testing of lightweight, impact-absorbing protective exoskeletons for custom drone soccer builds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenSCAD",
+        "Three.js",
+        "TypeScript"
+      ],
+      "title": "ExoShield: Aerodynamic Cage Optimization Suite",
+      "track": "",
+      "why_it_could_win": "Directly tackles the mandatory physical exoskeleton rule with a practical tool that teams can use to optimize their builds on-site."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated telemetry log analyzer that processes flight controller black-box data post-match to diagnose motor failures, PID tuning flaws, and battery health.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Betaflight API"
+      ],
+      "title": "FlightLogix: Black-Box Flight Controller Analyzer",
+      "track": "",
+      "why_it_could_win": "Provides high utility for competing teams during the tight match turnaround windows, standing out through practical engineering depth."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

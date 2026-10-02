@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-02T08:50:27.821048+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:9355584ad9e543b5a90f602a27a596b4",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A biometric authentication middleware combining MojoAuth with real-time PPG pulse-rate signals captured from webcam video to verify liveness and presence.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "MojoAuth",
+        "Python",
+        "OpenCV"
+      ],
+      "title": "BioSignal Auth & Access Guard",
+      "track": "",
+      "why_it_could_win": "Leverages the sponsor MojoAuth directly for identity workflows while fitting the BIOS life-and-computation theme perfectly by bridging biological signals with authentication."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An autonomous web agent using Browserbase to continuously extract, structure, and index open-source bioinformatics research papers and clinical trial updates for rapid querying.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Browserbase",
+        "Python",
+        "LLM",
+        "TailwindCSS"
+      ],
+      "title": "Browserbase Bio-Data Scraper",
+      "track": "",
+      "why_it_could_win": "Directly integrates sponsor Browserbase for robust cloud browser automation, addressing the hard engineering pattern by handling dynamic JS-heavy life science portals."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A low-code biological simulation and tracking dashboard built on Momen that models daily caloric burn and fatigue using simple wearable CSV uploads.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Momen",
+        "JavaScript",
+        "Python",
+        "Pandas"
+      ],
+      "title": "Momen Metabolic Twin",
+      "track": "",
+      "why_it_could_win": "Utilizes sponsor Momen for rapid UI and workflow generation, allowing the team to focus on the biological calculation engine and win through speed and clean presentation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A zero-knowledge verifiable credential system for sharing anonymous genetic predisposition summaries securely with researchers without leaking raw DNA data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "NamoID",
+        "Next.js",
+        "Solidity"
+      ],
+      "title": "NamoID Genetic Credential Vault",
+      "track": "",
+      "why_it_could_win": "Integrates sponsor NamoID for identity verification and credential management, addressing hard cryptographic and privacy engineering in bioinformatics."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A lightweight sensor telemetry ingestion pipeline built for Tin Computer hardware that monitors ambient room toxicity and CO2 levels to trigger automated ventilation alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MQTT",
+        "React",
+        "SQLite"
+      ],
+      "title": "Tin-Bio Edge Monitor",
+      "track": "",
+      "why_it_could_win": "Targets hardware sponsor Tin Computer directly by building a functioning physical-to-digital computation bridge, matching the core BIOS life-and-computation theme."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

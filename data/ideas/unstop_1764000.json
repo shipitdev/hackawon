@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-02T08:51:31.065253+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764000",
+  "ideas": [
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:940931560"
+      ],
+      "pitch": "A 1v1 real-time competitive coding platform featuring instant test-case verification and a live tie-breaking leaderboard.",
+      "problem_statement": "ELUCode competitive coding contest platform featuring automated test case evaluation and tie-breaking leaderboards.",
+      "stack": [
+        "TypeScript",
+        "NextJS15",
+        "NodeJS",
+        "Redis",
+        "Docker"
+      ],
+      "title": "AlgoDuels Real-Time Competitive Coding Arena",
+      "track": "",
+      "why_it_could_win": "Directly models the exact infrastructure and scoring logic required by the ELUCode contest, impressing judges with a fully functioning competitive loop and real-time leaderboard inspired by winning combat and racing game projects."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An AI-powered step-by-step code execution visualizer that helps competitive programmers debug algorithmic logic errors instantly.",
+      "problem_statement": "ELUCode competitive coding contest focusing on data structures, algorithms, and logic building.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LangGraph",
+        "Gemini-2-5"
+      ],
+      "title": "CodeTrace AI Logic Debugger",
+      "track": "",
+      "why_it_could_win": "Targets the core pain point of participants in fast-paced coding contests by turning abstract runtime errors into visual step-by-step insights, utilizing an AI-driven analysis pipeline."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A telemetry tool for tracking submission times, first-correct-solution timestamps, and penalty calculations during competitive programming contests.",
+      "problem_statement": "ELUCode tie-breaking system based on the sum of time of the first correct solution for all problems.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "TimescaleDB"
+      ],
+      "title": "SpeedCode Time-to-Solution Analytics Dashboard",
+      "track": "",
+      "why_it_could_win": "Addresses the specific tie-breaking metric of the hackathon rules with a polished dashboard that provides contestants deep analytical insights into their pacing and submission velocity."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An automated problem setter that generates unique algorithmic challenges and hidden test cases of varying difficulty levels.",
+      "problem_statement": "ELUCode curated problems ranging from logical puzzles to algorithmic challenges evaluated against hidden and visible test cases.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pydantic",
+        "React"
+      ],
+      "title": "PuzzleForge Algorithmic Problem Generator",
+      "track": "",
+      "why_it_could_win": "Automates the tedious process of test-case generation and problem curation, offering a demonstrable tool that organizers and contestants can use for practice rounds."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A fast issuance and verification platform for achievement badges and contest certificates within the EduLinkUp ecosystem.",
+      "problem_statement": "ELUCode top performers recognition through special achievement badges and certificates within the EduLinkUp ecosystem.",
+      "stack": [
+        "TypeScript",
+        "NextJS",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "BadgeVerif EduLinkUp Credential Issuer",
+      "track": "",
+      "why_it_could_win": "Completes the contest lifecycle by handling post-event reward distribution seamlessly, demonstrating an end-to-end working product tailored specifically to the host organization's ecosystem."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

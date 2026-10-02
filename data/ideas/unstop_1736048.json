@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-02T08:50:41.003296+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1736048",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Multimodal AI assistant for preliminary medical triage and clinician workflow acceleration.",
+      "problem_statement": "Healthcare and Well being covers AI diagnostics, mental health, medical devices, preventive healthcare and hospital workflows.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "AuraDiagnose",
+      "track": "Healthcare and Well being",
+      "why_it_could_win": "Leverages the winning pattern of deploying specialized AI workflows with clear clinical efficiency gains, appealing directly to industry experts on the judging panel."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Forecasting tool for localized clean energy generation and EV charging load optimization.",
+      "problem_statement": "Sustainability and ClimateTech covers clean energy, EV infrastructure, waste management, water conservation, smart agriculture and circular economy.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "FastAPI"
+      ],
+      "title": "EcoGrid Predict",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Adapts proven regression and forecasting patterns to climate tech, providing quantifiable economic and environmental metrics for incubators."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "AI-powered personalized skill development and competency assessment platform for higher education.",
+      "problem_statement": "Education Technology covers AI powered learning, skill development, EdTech, campus solutions, accessibility, and assessment and credentialing.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Supabase",
+        "React"
+      ],
+      "title": "SkillForge Adaptive",
+      "track": "Education Technology",
+      "why_it_could_win": "Combines RAG-based personalized learning pathways with automated assessment gating, directly targeting campus and incubation adoption goals."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "Real-time civic reporting and municipal issue triage dashboard connecting citizens directly to local infrastructure teams.",
+      "problem_statement": "Smart Cities and CivicTech covers smart mobility, civic technology, public safety, smart infrastructure, and waste and water management.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "CivicPulse Mumbai",
+      "track": "Smart Cities and CivicTech",
+      "why_it_could_win": "Replicates the winning civic-tech model of pairing a localized mobile submission interface with a live administrative control center."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Computer-vision based physical therapy and rehabilitation movement tracker for preventive orthopedic care.",
+      "problem_statement": "Healthcare and Well being covers AI diagnostics, mental health, medical devices, preventive healthcare and hospital workflows.",
+      "stack": [
+        "Python",
+        "MediaPipe Pose",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "BioStride AI",
+      "track": "Healthcare and Well being",
+      "why_it_could_win": "Utilizes browser-based pose estimation to create an interactive, working physical demo that impresses judges looking for tangible execution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

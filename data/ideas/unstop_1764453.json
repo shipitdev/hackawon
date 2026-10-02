@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:52:20.427623+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764453",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first rural health screening and early outbreak detection system tailored for India's semi-urban populations.",
+      "problem_statement": "Healthcare accessibility and preventative education in rural or semi-urban regions across India.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API",
+        "Web Audio API"
+      ],
+      "title": "ArogyaVani",
+      "track": "Healthcare",
+      "why_it_could_win": "Leverages a proven winning pattern from SAGACITY with a localized voice interface, addressing India's pressing healthcare accessibility challenges directly within an open innovation framework."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "AI-powered satellite imagery and compliance monitoring for industrial estates to track environmental violations and waste management.",
+      "problem_statement": "Sustainability and environmental compliance tracking for growing industrial sectors across Indian states.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js",
+        "OpenCV"
+      ],
+      "title": "EcoAudit India",
+      "track": "Sustainability",
+      "why_it_could_win": "Adapts the concrete geospatial monitoring approach of GeoNex-ATLAS to target open sustainability tracks, providing judges with a high-impact visual utility."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Personalized multi-agent AI student support platform combining regional curriculum RAG and adaptive remediation paths.",
+      "problem_statement": "Education and learning outcome disparities in diverse Indian academic environments.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "ShikshaGraph",
+      "track": "Education",
+      "why_it_could_win": "Directly applies the multi-agent student support architecture proven in greennovation-ai-platform, offering a robust technical implementation for education."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Graph intelligence and risk detection platform tailored for detecting suspicious micro-transactions and digital fraud in emerging FinTech.",
+      "problem_statement": "FinTech security and automated Anti-Money Laundering (AML) risk mitigation for peer-to-peer and digital payment systems.",
+      "stack": [
+        "TypeScript",
+        "Neo4j",
+        "LightGBM",
+        "FastAPI",
+        "React"
+      ],
+      "title": "FinShield AML India",
+      "track": "FinTech",
+      "why_it_could_win": "Mirrors the hard engineering and graph intelligence demonstrated by Bito, giving judges an enterprise-grade financial security tool to evaluate."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "Autonomous data quality and incident response pipeline that automatically repairs schema anomalies and logs write-backs.",
+      "problem_statement": "Data engineering reliability and automated error remediation for data-driven enterprises and startups.",
+      "stack": [
+        "Python",
+        "Claude API",
+        "Pandas",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "DataPulse AI",
+      "track": "Data Science",
+      "why_it_could_win": "Employs the autonomous incident response pattern of BlackBox DataHub, showcasing complex autonomous agent workflows that stand out in open innovation hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-02T08:52:38.295019+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764463",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An onboard computer vision and control pipeline that guides a custom-built drone through 5 circular rings at varying heights without manual intervention.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ROS",
+        "C++",
+        "ArduPilot"
+      ],
+      "title": "AeroGate Vision: Autonomous Ring Navigation & Trajectory Optimization",
+      "track": "",
+      "why_it_could_win": "Directly automates the core mechanical requirement of Round 1 of the competition, replacing manual piloting with deterministic edge CV to ensure high-speed, flawless ring traversal."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A precision landing and obstacle avoidance feedback system ensuring the drone lands within the designated scoring zone to avoid failed landing disqualifications.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Raspberry Pi",
+        "Computer Vision",
+        "Mavlink"
+      ],
+      "title": "PrecisionLanding & Scoring Gatekeeper",
+      "track": "",
+      "why_it_could_win": "Focuses on the strict landing and failure penalties outlined in the flight rules, securing points where other manually piloted drones might fail at the finish."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A low-latency telemetry and flight diagnostics web dashboard that monitors custom drone health, IMU orientation, and battery metrics during the 8-minute flight window.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "WebSockets",
+        "Telemetry"
+      ],
+      "title": "KineticTelemetry: Real-Time Drone Flight Diagnostics Dashboard",
+      "track": "",
+      "why_it_could_win": "Provides judges with deep technical visibility into the custom-built drone's internal state, matching the hardware-diagnostics winning pattern seen at hardware hackathons."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1284625256"
+      ],
+      "pitch": "An auxiliary hardware cutoff and fail-safe radio module that overrides manual controls during unstable flight paths or lost signal scenarios.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "RF Modules",
+        "Hardware Relay"
+      ],
+      "title": "FailSafe-Link: Jam-Resilient Emergency Drone Recovery Module",
+      "track": "",
+      "why_it_could_win": "Addresses safety and reliability concerns explicitly highlighted in the flight and conduct rules, demonstrating rigorous engineering for custom hardware."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "An optimized state estimation algorithm using sensor fusion (IMU, barometer, and optical flow) to tightly control altitude variations between 1 meter and 2.5 meters.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "STM32",
+        "Sensor Fusion"
+      ],
+      "title": "RingTrack: Multi-Height Kalman Filter State Estimator",
+      "track": "",
+      "why_it_could_win": "Solves the specific physical challenge of maintaining stable flight across varying ring heights, showcasing elite control systems engineering suitable for a multirotor competition."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

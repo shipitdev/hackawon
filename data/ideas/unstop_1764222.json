@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:51:57.678603+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764222",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1034660288"
+      ],
+      "pitch": "An accessible smartphone assistant tailored for seniors featuring contextual voice guidance and simplified screen navigation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Kotlin",
+        "Android",
+        "OpenAI API",
+        "Jetpack Compose"
+      ],
+      "title": "ElderlyCompanion AI",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of GrandmaHelper by targeting senior accessibility, a universal pain point that deeply resonates with judges on an emotional and practical level."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An interactive clinical simulation platform where medical students interview an AI patient scored on a strict rubric and track CPR posture using computer vision.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "MediaPipe",
+        "LLM API",
+        "TailwindCSS"
+      ],
+      "title": "MedSim AI Trainer",
+      "track": "",
+      "why_it_could_win": "Follows the blueprint of Clinical-Simulator by offering a complete, demonstrable healthcare workflow with real-time pose estimation and scoring that is easy to live-demo."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A hyperlocal civic tech platform featuring a GPS-based walk-to-earn mechanism, an AI marketing copilot for mom-and-pop shops, and a live council engagement dashboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Mapbox GL",
+        "LLM API"
+      ],
+      "title": "CivicPulse Local Copilot",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of Catwalk by addressing local civic and economic impact with a polished, highly visual dashboard that judges can immediately understand."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent that intercepts pipeline failures, runs evidence checks, generates verified code repairs, and opens automated pull requests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Claude API",
+        "FastAPI",
+        "GitHub API"
+      ],
+      "title": "DataGuard Incident Copilot",
+      "track": "",
+      "why_it_could_win": "Directly targets developer pain points with a hard engineering solution similar to blackbox-datahub, appealing strongly to technical judges looking for practical workflow automation."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A smart waste classification pipeline and simulator using computer vision and lightweight ML models to accurately sort recyclables in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Flask",
+        "Arduino"
+      ],
+      "title": "EcoSort Robotics Vision",
+      "track": "",
+      "why_it_could_win": "Combines hardware/simulation integration with clear environmental impact, mimicking the proven approach of ROBOTICS-ai-garbage-classifier with a live visual classifier demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

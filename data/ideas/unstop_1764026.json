@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-02T08:51:35.281057+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764026",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered citizen service router that converts local rural dialects into structured governance tickets using speech-to-text and intent classification.",
+      "problem_statement": "Ai for Bharat & Public Services",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "BhashaSetu: Multilingual Public Grievance Resolver",
+      "track": "Ai for Bharat & Public Services",
+      "why_it_could_win": "Directly targets the AI for Bharat theme by solving a high-friction public service bottleneck that judges evaluating citizen governance can instantly appreciate."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An autonomous multi-agent system using satellite data and weather forecasts to optimize drip irrigation schedules for smallholder rural farmers.",
+      "problem_statement": "Climate, Agriculture & Rural Innovation",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangChain",
+        "OpenWeather API",
+        "TailwindCSS"
+      ],
+      "title": "AgriSustain: Micro-Climate Water Management Agent",
+      "track": "Climate, Agriculture & Rural Innovation",
+      "why_it_could_win": "Combines spatial data analysis with actionable rural utility, mirroring the technical depth seen in winning geospatial monitoring projects."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1275874285"
+      ],
+      "pitch": "A computer vision and symptom-checker app optimized for edge deployment that helps rural health workers rapidly screen pediatric respiratory infections.",
+      "problem_statement": "Health Tech & Human Wellbeing",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "Flutter",
+        "TensorFlow Lite",
+        "FastAPI"
+      ],
+      "title": "ArogyaVision: Low-Bandwidth Pediatric Triage Assistant",
+      "track": "Health Tech & Human Wellbeing",
+      "why_it_could_win": "Focuses on preventive care and accessibility in resource-constrained settings, a priority domain for health tech judging panels."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI career mentor that parses student GitHub profiles and resumes to generate personalized micro-curriculums targeting missing industry competencies.",
+      "problem_statement": "Future of Education & Employability",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Neo4j",
+        "Prisma"
+      ],
+      "title": "SkillMap: Adaptive Technical Employability Engine",
+      "track": "Future of Education & Employability",
+      "why_it_could_win": "Provides an immediate, measurable utility for job seekers and educational institutions, matching the practical evaluation criteria of employability tracks."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "A deep-tech autonomous agent that scans internal microservice logs and pull requests to detect security misconfigurations and instantly write regression tests.",
+      "problem_statement": "Deep Tech, Automation & Emerging Technology",
+      "stack": [
+        "Python",
+        "Docker",
+        "AST Parsing",
+        "LlamaIndex",
+        "Streamlit"
+      ],
+      "title": "GuardAgent: Automated API Vulnerability Remediation Bot",
+      "track": "Deep Tech, Automation & Emerging Technology",
+      "why_it_could_win": "Demonstrates genuine hard engineering by tackling code automation and cybersecurity, appealing strongly to judges looking for deep-tech execution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

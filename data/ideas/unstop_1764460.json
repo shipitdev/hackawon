@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-02T08:52:29.749403+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764460",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1066546613",
+        "github:1259981732"
+      ],
+      "pitch": "An edge-AI navigation system integrating lightweight depth cameras to automatically steer the hovercraft through racing checkpoints without manual control.",
+      "problem_statement": "Hovercraft Design, Racing Rounds, and Autonomy Bonus: Integrate autonomous navigation for extra points by successfully navigating checkpoints or entire track sections without manual control.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Arduino",
+        "C++"
+      ],
+      "title": "AeroGuard AI: Autonomous Obstacle-Dodging Hovercraft",
+      "track": "",
+      "why_it_could_win": "Targeting the Autonomy Bonus directly addresses the scoring system where points are awarded for track navigation and time taken, capturing crucial bonus multipliers that standard manual drivers will miss."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A dual-mode sensor-guided tactical hovercraft equipped with perimeter distance sensors to autonomously detect and push opponents out of the knockout arena while maintaining boundary self-awareness.",
+      "problem_statement": "Match Rules: In knockout rounds, teams must push opponents off the arena, with penalties for inactivity, while leveraging autonomy bonuses.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Ultrasonic Sensors",
+        "IMU"
+      ],
+      "title": "VectorPush: Autonomous Knockout Aggressor",
+      "track": "",
+      "why_it_could_win": "Combines physical defense with automated counter-attacks, giving teams an edge in knockout elimination rounds where inactivity penalties are heavily penalized."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A compact onboard telemetry unit that monitors battery discharge, motor temperature, and lift height dynamically during racing runs to optimize power delivery.",
+      "problem_statement": "Scoring System: Racing points are awarded based on successful track navigation, obstacle avoidance, and time taken, where maximum efficiency determines victory.",
+      "stack": [
+        "C",
+        "ESP32",
+        "MQTT",
+        "WebSockets"
+      ],
+      "title": "HoverTelemetry: Real-Time Motor and Lift Performance Monitor",
+      "track": "",
+      "why_it_could_win": "Judges in hardware-heavy engineering competitions reward precise data-driven tuning that prevents motor burnout and maximizes thrust-to-weight efficiency."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1066546613"
+      ],
+      "pitch": "A high-frequency floor-facing optical flow and IR sensor array designed to keep the hovercraft locked to the racing circuit line even at maximum throttle.",
+      "problem_statement": "Racing rounds: Teams must follow the track, avoiding penalties for obstacles, human intervention, or deviating from the path.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "IR Arrays",
+        "PID Control"
+      ],
+      "title": "LineMaster: High-Speed Optical Track Tracker for Hovercrafts",
+      "track": "",
+      "why_it_could_win": "Minimizes time penalties caused by human steering lag and track deviation, directly improving the final score calculation of Total Points minus Time Taken."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An algorithmic speed-profiling tool that pre-programs thrust vectors for known track layouts to balance high-speed straightaways with tight cornering.",
+      "problem_statement": "Scoring System: Racing points are awarded based on successful track navigation, obstacle avoidance, and time taken, with final scores calculated as Total Points minus Time Taken.",
+      "stack": [
+        "Python",
+        "C++",
+        "Raspberry Pi Pico"
+      ],
+      "title": "ThrustOpt: Dynamic Vectoring and Speed Profiler",
+      "track": "",
+      "why_it_could_win": "Directly mathematical approach to minimizing the time variable in the final score equation, providing a competitive edge over purely reactive manual driving."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

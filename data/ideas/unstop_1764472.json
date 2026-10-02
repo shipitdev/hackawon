@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-02T08:53:04.704193+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764472",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "An automated cryptographic protocol flaw finder targeted at modern CTF challenge binaries.",
+      "problem_statement": "The competition will challenge participants across areas such as penetration testing, reverse engineering, cryptography, and vulnerability exploitation",
+      "stack": [
+        "Python",
+        "SageMath",
+        "CryptoCypher"
+      ],
+      "title": "CryptoFlag Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages advanced cryptographic analysis patterns similar to previous hackathon-winning architectures, giving teams an edge in speed during time-crunch CTFs."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:889142131",
+        "github:1069255350"
+      ],
+      "pitch": "An autonomous agentic vulnerability scanner that identifies web-app and binary misconfigurations to capture hidden flags.",
+      "problem_statement": "Identify vulnerabilities, apply technical problem-solving skills, and capture hidden flags to score points.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI"
+      ],
+      "title": "AgenticRedTeam",
+      "track": "",
+      "why_it_could_win": "Directly automates the manual grunt work of standard CTF challenges using agentic pipelines, mirroring the grand-prize winning automated hacking concepts."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A localized reverse-engineering assistant that maps out control flow graphs and spots obfuscated flag strings in binary blobs.",
+      "problem_statement": "The competition will challenge participants across areas such as penetration testing, reverse engineering, cryptography, and vulnerability exploitation",
+      "stack": [
+        "Python",
+        "Radare2",
+        "NetworkX"
+      ],
+      "title": "RevGuard Decompiler",
+      "track": "",
+      "why_it_could_win": "Solves a notoriously tedious part of reverse engineering competitions by combining graph intelligence with pattern matching."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A privacy-preserving local storage application for capturing and organizing classified CTF flags securely.",
+      "problem_statement": "Identify vulnerabilities, apply technical problem-solving skills, and capture hidden flags to score points.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Rust"
+      ],
+      "title": "ZeroKnow Vault",
+      "track": "",
+      "why_it_could_win": "Brings military-grade zero-knowledge encryption principles to a domain where credential and flag leakage can cost teams the match."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A real-time network topology visualizer and simulation toolkit for testing lateral movement and privilege escalation routes.",
+      "problem_statement": "The competition will challenge participants across areas such as penetration testing, reverse engineering, cryptography, and vulnerability exploitation",
+      "stack": [
+        "Python",
+        "Three.js",
+        "WebSockets"
+      ],
+      "title": "NetSim Attack Path",
+      "track": "",
+      "why_it_could_win": "Visually stunning 3D threat mapping ensures strong presentation scores, echoing previous A10 Networks hackathon-winning mechanics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

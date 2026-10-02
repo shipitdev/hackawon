@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-02T08:52:51.616507+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764469",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349",
+        "github:1259981732"
+      ],
+      "pitch": "A manually controlled dual-frequency remote-operated robot optimized for high-speed block gripping and groove insertion.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "C++",
+        "DC Motors",
+        "Servo Motors",
+        "RF Transceiver"
+      ],
+      "title": "Shape-Fit Precision Bot",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the core robotics challenge of gripping shapes and inserting them into cubic block grooves, winning on mechanical execution and live operational speed."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An interchangeable multi-shape gripper mechanism designed for quick swapping to handle diverse geometric blocks seamlessly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "CAD",
+        "3D Printing",
+        "Python",
+        "Raspberry Pi Zero"
+      ],
+      "title": "GripSync Modular End-Effector",
+      "track": "",
+      "why_it_could_win": "Demonstrates exceptional mechanical flexibility and engineering thoughtfulness when handling various shapes securely during the live arena evaluation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A wired control robot featuring an automated cable-slack management spooling arm to eliminate drag during arena navigation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "AVR",
+        "C",
+        "Stepper Motors",
+        "Limit Switches"
+      ],
+      "title": "Tension-Free Tether Teleop Bot",
+      "track": "",
+      "why_it_could_win": "Directly addresses the strict rule that wired control cables must remain slack and unhindered, a subtle engineering detail judges will heavily reward."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An onboard monocular camera feed transmitting real-time alignment markers to the human operator for pixel-perfect groove insertion.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ESP32-CAM",
+        "Wi-Fi"
+      ],
+      "title": "GrooveAlign Vision-Assist Overlay",
+      "track": "",
+      "why_it_could_win": "Combines manual driver skill with computer vision assistance, providing a clear competitive edge in precision placement speed."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An omnidirectional chassis robot utilizing mecanum wheels paired with a high-torque vertical slide mechanism for rapid block sorting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "STM32",
+        "C++",
+        "Mecanum Wheels",
+        "PWM Controllers"
+      ],
+      "title": "Omni-Grip Maneuver Rig",
+      "track": "",
+      "why_it_could_win": "Superior mobility allows the bot to reposition instantly without complex multi-point turns, maximizing points within the short arena run time."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

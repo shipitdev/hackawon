@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:50:59.494084+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745935",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An offline-capable AI triage and diagnostic assistant designed for remote West Bengal health camps with intermittent connectivity.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools...",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TensorFlow Lite",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "ArogyaNet: Offline-First Rural Health Tele-Triage",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly targets the HealthTech track mandated by the Jadavpur University organizers by solving the acute infrastructure challenge of rural West Bengal connectivity."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A localized speech-to-text and clinical summarization engine that converts rural patient interviews in Bengali and regional dialects into structured medical notes.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools...",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "React",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "MedBhasha: Bengali-First Clinical Voice Scribe",
+      "track": "HealthTech",
+      "why_it_could_win": "Addresses regional healthcare access barriers directly in local languages, highly appealing to local judges from Jadavpur University evaluating social impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A predictive disease surveillance dashboard visualizing vector-borne outbreak patterns across West Bengal districts using environmental and local clinic logs.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools...",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Streamlit",
+        "Deck.gl"
+      ],
+      "title": "SwasthyaGraph: AI-Powered District Epidemic Tracker",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines hard epidemiological modeling with a live-working geographic dashboard, mirroring proven technical execution from forecasting hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A peer-supported, AI-moderated safe space platform tailored for college students in West Bengal facing academic stress and placement anxiety.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools...",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "title": "JatanAI: Empathetic Mental Health Support for Students",
+      "track": "HealthTech",
+      "why_it_could_win": "Appeals directly to the student demographic of the hackathon by solving mental health challenges prevalent in local higher education institutions."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A non-invasive screening tool analyzing conjunctiva and nail bed images via smartphone camera to detect early signs of anemia in rural youth.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools...",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "OpenCV.js",
+        "Node.js"
+      ],
+      "title": "AyurScan: Smartphone-Based Anemia Screening",
+      "track": "HealthTech",
+      "why_it_could_win": "Presents a clear hardware-light diagnostic utility with a robust live-working web demo that judges can test immediately on their own phones."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

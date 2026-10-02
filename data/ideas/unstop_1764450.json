@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-10-02T08:52:11.264978+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764450",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1234067949",
+        "github:923146379"
+      ],
+      "pitch": "An automated portfolio construction and machine learning price forecasting suite tailored for the IIT Kanpur Techkriti Beat The Market challenge.",
+      "problem_statement": "Online Round: Portfolio Building & Analysis and Offline Round: Machine Learning-Based Stock Price Prediction using virtual stocks.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "AlphaESG Portfolio & Time-Series Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets both evaluation phases of the competition by combining fundamental portfolio weighting with robust time-series machine learning forecasting models."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:923146379",
+        "github:435231380"
+      ],
+      "pitch": "A specialized machine learning toolkit designed to forecast stock prices from historical time-series data up to 2026 for the offline round.",
+      "problem_statement": "Offline Round: Machine Learning-Based Stock Price Prediction for the selected stocks.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Prophet",
+        "Jupyter Notebook",
+        "FastAPI"
+      ],
+      "title": "QuantStock ML: Multi-Horizon Price Predictor",
+      "track": "",
+      "why_it_could_win": "Focuses purely on the offline machine learning round by implementing advanced time-series modeling to outperform other predictive models."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:995312246"
+      ],
+      "pitch": "A natural language and quantitative dashboard that ingests financial statements and news to build an optimized 8-stock portfolio while justifying exclusions.",
+      "problem_statement": "Online Round: Portfolio Building & Analysis with ESG factors and exclusion justification.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
+      ],
+      "title": "ESG-Metrics Portfolio Rationale Analyzer",
+      "track": "",
+      "why_it_could_win": "Addresses the specific bonus challenge of justifying excluded stocks and incorporating ESG factors into the portfolio evaluation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A systematic quantitative finance platform that evaluates technical indicators, fundamental statements, and backtests virtual fund allocation.",
+      "problem_statement": "Online Round: Portfolio Building & Analysis and Offline Round: Machine Learning-Based Stock Price Prediction.",
+      "stack": [
+        "Python",
+        "Backtrader",
+        "LightGBM",
+        "Plotly",
+        "Docker"
+      ],
+      "title": "Systematic Equity Backtester and Forecaster",
+      "track": "",
+      "why_it_could_win": "Employs rigorous benchmarking and systematic verification inspired by winning financial engineering strategies."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1234067949",
+        "github:1200106905"
+      ],
+      "pitch": "An end-to-end web application for the Beat The Market challenge that handles portfolio selection, rationale reporting, and ML price forecasting in one interface.",
+      "problem_statement": "Online Round: Portfolio Building & Analysis and Offline Round: Machine Learning-Based Stock Price Prediction.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "Techkriti Market Oracle",
+      "track": "",
+      "why_it_could_win": "Provides an exceptionally polished, end-to-end user experience that makes fundamental rationales and machine learning predictions easy for judges to review."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

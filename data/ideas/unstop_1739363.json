@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-02T08:50:45.975983+00:00",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1739363",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual local health assistant tailored for rural communities to provide preventive care, vaccine tracking, and symptom guidance over basic telephony and low-bandwidth web interfaces.",
+      "problem_statement": "Rural Development: Solutions for agriculture, rural livelihoods, digital/financial inclusion, and rural healthcare access.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Twilio API",
+        "SQLite"
+      ],
+      "title": "ArogyaVani",
+      "track": "Rural Development",
+      "why_it_could_win": "Directly mirrors the exact architecture and social impact patterns of SAGACITY which won first prize by focusing on rural healthcare awareness and localized language support."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1034660288"
+      ],
+      "pitch": "An AI-powered smartphone assistant designed for elderly users featuring large typography, contextual voice navigation, and simplified accessibility support to combat social isolation.",
+      "problem_statement": "Mental Wellbeing & Community Care: Solutions for mental health support, elderly care, accessibility, and stronger, more resilient communities.",
+      "stack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "OpenAI API",
+        "Android Accessibility Services"
+      ],
+      "title": "Sahayak Senior",
+      "track": "Mental Wellbeing & Community Care",
+      "why_it_could_win": "Leverages the winning blueprint of GrandmaHelper by focusing explicitly on demographic accessibility, addressing a felt need for elder-friendly digital infrastructure."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1143576965",
+        "github:1088994743"
+      ],
+      "pitch": "A real-time emergency resource and responder routing platform that aggregates community alerts and dispatches rapid response squads during natural or civic crises.",
+      "problem_statement": "Energy & Sustainability: Ideas around renewable energy, waste management, water conservation, and cleaner cities.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Leaflet.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CrisisRoute",
+      "track": "Energy & Sustainability",
+      "why_it_could_win": "Adopts the proven architecture of Oarfin and HERO, emphasizing live working demonstrations, spatial mapping, and undeniable emergency utility."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1261513376"
+      ],
+      "pitch": "A community-driven safety and resource navigation platform for women and children that routes users away from high-risk zones using calibrated crowd-sourced confidence scores.",
+      "problem_statement": "Women & Child Empowerment: Tools for safety, education, financial independence, and better maternal & child health.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Supabase",
+        "BART-large-MNLI"
+      ],
+      "title": "Suraksha",
+      "track": "Women & Child Empowerment",
+      "why_it_could_win": "Combines the honest AI routing and calibrated confidence pipelines seen in Clearpath AI with a high-impact local safety focus that resonates heavily with judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A hyper-local waste management and recycling tracking platform that rewards citizens for proper segregation while offering municipal dashboards for optimal collection schedules.",
+      "problem_statement": "Energy & Sustainability: Ideas around renewable energy, waste management, water conservation, and cleaner cities.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "Mapbox GL",
+        "Node.js"
+      ],
+      "title": "EcoCycle Hub",
+      "track": "Energy & Sustainability",
+      "why_it_could_win": "Employs the walk-to-earn and live dashboard strategy proven by catwalk, turning municipal waste tracking into an engaging, gamified civic experience."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

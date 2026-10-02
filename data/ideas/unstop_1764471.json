@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-02T08:53:00.306381+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764471",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A high-intensity web training simulator tailored specifically for practicing 60-question, 30-minute rapid quantitative aptitude tests.",
+      "problem_statement": "Round 1: Online Round Format: Multiple-choice or numerical quantitative aptitude questions over 60 questions in 30 minutes.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "QuantAptitudeDrill",
+      "track": "",
+      "why_it_could_win": "Addresses the specific pain point of time management and rapid problem-solving required for Round 1 of Speed Quant."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An algorithmic sandbox and numerical solver for advanced probability and mathematical brainteasers typical of onsite quant finals.",
+      "problem_statement": "Round 2: Onsite Finale (IIT Kanpur – Techkriti' 27) Format: Numerical/short answer type quantitative mathematical questions involving probabilistic knowledge.",
+      "stack": [
+        "Python",
+        "SymPy",
+        "Streamlit",
+        "NumPy"
+      ],
+      "title": "ProbSolveBenchmark",
+      "track": "",
+      "why_it_could_win": "Targets the exact profile of difficult numerical and probabilistic math questions featured in the onsite finale."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A terminal-first calculation and estimation scratchpad optimized for lightning-fast mental math checks and combinatorial expansions.",
+      "problem_statement": "Speed Quant: a high-octane challenge that merges mathematical brilliance with rapid problem-solving and mastering the clock.",
+      "stack": [
+        "Python",
+        "Click",
+        "Rich"
+      ],
+      "title": "SpeedCalcEngine",
+      "track": "",
+      "why_it_could_win": "Focuses on speed and reducing friction during high-pressure quantitative calculations."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A spaced-repetition and flashcard trainer focused entirely on classic quant interview brainteasers, combinatorics, and expected value problems.",
+      "problem_statement": "Round 2: Onsite Finale incorporating brainstorming, probabilistic knowledge, and mathematical problem-solving.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "IndexedDB"
+      ],
+      "title": "QuantFlashDrill",
+      "track": "",
+      "why_it_could_win": "Provides a practical study utility for competitors prepping for the complex final round at IIT Kanpur."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A local telemetry logger and strategy tracker for reviewing speed-test performance anomalies, timing bottlenecks, and error patterns.",
+      "problem_statement": "Round 1: Online Round requiring smart choices and staying ahead of the competition under tight time constraints.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Plotly",
+        "Dash"
+      ],
+      "title": "MathHeuristicsLog",
+      "track": "",
+      "why_it_could_win": "Employs data-driven performance tracking to help solo competitors optimize their test-taking strategy."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

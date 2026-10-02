@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-02T08:50:50.093537+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742226",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447",
+        "github:965357458"
+      ],
+      "pitch": "A defense-in-depth personal AI proxy that intercepts prompt injections and hardens web exploitation entry points in real-time.",
+      "problem_statement": "Web exploitation, cryptography, forensics, reverse engineering, OSINT, steganography, and privilege escalation.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Vercel AI SDK"
+      ],
+      "title": "AgentShield",
+      "track": "",
+      "why_it_could_win": "Leverages technical difficulty and advanced agent defense architecture inspired by winning security and agent platforms."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1196410850",
+        "github:1069255350"
+      ],
+      "pitch": "An automated multi-agent forensic pipeline designed to detect steganography and hidden cryptographic payloads in media files.",
+      "problem_statement": "Web exploitation, cryptography, forensics, reverse engineering, OSINT, steganography, and privilege escalation.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "StegoHunt",
+      "track": "",
+      "why_it_could_win": "Directly targets hard-to-solve CTF domains like steganography and forensics with automated multi-agent tooling."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384",
+        "github:614169755"
+      ],
+      "pitch": "A zero-knowledge proof framework for validating flag capture integrity without revealing the underlying exploit methodology.",
+      "problem_statement": "Web exploitation, cryptography, forensics, reverse engineering, OSINT, steganography, and privilege escalation.",
+      "stack": [
+        "Solidity",
+        "Noir",
+        "TypeScript"
+      ],
+      "title": "CryptoVault ZK",
+      "track": "",
+      "why_it_could_win": "Utilizes genuinely hard ZK engineering which heavily impresses judges evaluating cryptographic and security challenges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1069255350"
+      ],
+      "pitch": "An automated graph intelligence platform for open-source intelligence and footprinting during offensive security assessments.",
+      "problem_statement": "Web exploitation, cryptography, forensics, reverse engineering, OSINT, steganography, and privilege escalation.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "React",
+        "TypeScript"
+      ],
+      "title": "OSINT Grapher",
+      "track": "",
+      "why_it_could_win": "Combines graph intelligence and data visualization to solve complex OSINT tasks quickly under time pressure."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:600524805",
+        "github:1069255350"
+      ],
+      "pitch": "An interactive reverse engineering visualizer that maps binary execution flows and detects privilege escalation vectors.",
+      "problem_statement": "Web exploitation, cryptography, forensics, reverse engineering, OSINT, steganography, and privilege escalation.",
+      "stack": [
+        "HTML",
+        "Python",
+        "Radare2",
+        "FastAPI"
+      ],
+      "title": "RevSimulate",
+      "track": "",
+      "why_it_could_win": "Tackles reverse engineering and privilege escalation with an educational interface built for security analysts."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

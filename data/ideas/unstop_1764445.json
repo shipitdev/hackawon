@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-02T08:52:02.847436+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764445",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A precision-tuned microcontroller robot optimized for maximum speed on the Robo Race track using aggressive PID control and real-time obstacle detection.",
+      "problem_statement": "Robots compete on a designated track featuring turns, obstacles, ramps, and other challenges, needing reliable drive systems and effective control to minimize completion time.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Embedded C",
+        "ROS"
+      ],
+      "title": "SpeedLine Auto-Steer: High-Speed Line Following & Obstacle Avoidance Rover",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on raw mechanical and software execution to slash completion times, matching the primary judging criteria of speed and zero penalties."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An auxiliary onboard sensor telemetry and penalty-avoidance system that tracks checkpoint clearances and alerts the driver of impending boundary violations.",
+      "problem_statement": "Rankings are determined primarily by completion time, with penalties added for violations such as missing checkpoints, leaving the track, or failing to clear designated obstacles.",
+      "stack": [
+        "Python",
+        "MicroPython",
+        "ESP32",
+        "Ultrasonic Sensors"
+      ],
+      "title": "Checkpoint Sentinel: Precision Lap & Obstacle Tracking Telemetry Rig",
+      "track": "",
+      "why_it_could_win": "Directly attacks the penalty-point deduction system, which is often the tie-breaker and the main reason leading teams lose in time trials."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1281918590",
+        "github:1259981732"
+      ],
+      "pitch": "A custom-built mechanical chassis featuring adjustable ground clearance and high-torque motor controllers specifically engineered to conquer steep ramps and rough track obstacles without flipping.",
+      "problem_statement": "The robot must meet the prescribed dimensions, weight, and power requirements, with a focus on reliable drive systems, robust construction, and effective control to navigate ramps and obstacles.",
+      "stack": [
+        "C++",
+        "CAD",
+        "SolidWorks",
+        "STM32"
+      ],
+      "title": "RampRider: Dynamic Center-of-Gravity & Traction Management Rover",
+      "track": "",
+      "why_it_could_win": "Addresses the physical destruction and failure points (flipping on ramps) that plague over 50% of competing hardware builds during live trials."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1179000073",
+        "github:1281918590"
+      ],
+      "pitch": "A mandatory-compliance hardware safety kill-switch and status indicator module ensuring all electronics, motor drivers, and battery packs are protected against short circuits and runaway states.",
+      "problem_statement": "All robots must pass a mandatory safety inspection. Components must be securely mounted, batteries properly protected, and the robot must have a safe and reliable power-control mechanism.",
+      "stack": [
+        "C",
+        "Hardware Relays",
+        "Circuit Design",
+        "Power Management"
+      ],
+      "title": "FailSafe-Link: Hardware Emergency Power Cutoff & Telemetry System",
+      "track": "",
+      "why_it_could_win": "Guarantees immediate clearance through the strict mandatory safety inspection phase where many student teams get disqualified before racing."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1066546613"
+      ],
+      "pitch": "A lightweight Raspberry Pi and camera-based vision module mounted on the race rover to detect track boundaries and dynamically correct steering drift at high speeds.",
+      "problem_statement": "Robots must complete the course within the stipulated time while staying within the track boundaries, avoiding penalties for leaving the track.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Linux"
+      ],
+      "title": "VisionDrift: Edge-AI Assisted Adaptive Path Correction Rover",
+      "track": "",
+      "why_it_could_win": "Leverages an unusual physical build and edge vision processing that stands out from purely analog line-followers in a robotics arena."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

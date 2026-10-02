@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-02T08:53:09.343753+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764474",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A real-time algorithm visualizer and memory tracer specifically built for competitive programming debugging during high-intensity contests.",
+      "problem_statement": "Code N Compete: a high-intensity competitive programming challenge designed to push your logic, speed, and problem-solving skills to the limit.",
+      "stack": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "Canvas"
+      ],
+      "title": "CP-Visualizer & Debugger",
+      "track": "",
+      "why_it_could_win": "Focuses on speed and performance during a fast-paced CP challenge, helping participants dry-run complex code efficiently."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A collaborative workspace for teams of up to 3 coders to simultaneously write, share, and merge algorithm solutions with integrated test-case generators.",
+      "problem_statement": "Code N Compete: a team contest, with each team consisting of up to 3 members.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebSockets"
+      ],
+      "title": "AlgoDuel Team Workspace",
+      "track": "",
+      "why_it_could_win": "Directly tackles team collaboration bottlenecks during a 2-hour onsite finale where efficient time management is critical."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An offline benchmark and stress-testing tool that generates corner cases and randomized tests to quickly catch edge-case bugs in competitive programming solutions.",
+      "problem_statement": "Code N Compete: 5 competitive programming questions, with difficulty increasing according to the index of the question.",
+      "stack": [
+        "Python",
+        "C++"
+      ],
+      "title": "SpeedTest CP Stresser",
+      "track": "",
+      "why_it_could_win": "Solves the exact pain point of failing hidden test cases on difficult index questions by automating stress-testing against a brute-force script."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A live contest strategy dashboard that tracks score allocation, optimal time limits per question index, and team member task distribution.",
+      "problem_statement": "Code N Compete: participants will have a total duration of 2 hours to solve all the questions... manage their time effectively.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS"
+      ],
+      "title": "ContestTactics Time Manager",
+      "track": "",
+      "why_it_could_win": "Addresses the explicit rule about managing time effectively across multiple escalating questions without individual time limits."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A lightning-fast extension and web hub for organizing, searching, and injecting optimized competitive programming data structures and algorithm templates.",
+      "problem_statement": "Code N Compete: push your logic, speed, and problem-solving skills to the limit.",
+      "stack": [
+        "JavaScript",
+        "Electron",
+        "HTML"
+      ],
+      "title": "CP-Snippet Manager & Template Hub",
+      "track": "",
+      "why_it_could_win": "Saves critical minutes during a tight 2-hour onsite finale by eliminating the need to rewrite standard boilerplate graph or tree algorithms."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
