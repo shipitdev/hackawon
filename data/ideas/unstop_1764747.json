@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-03T08:27:43.228181+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764747",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous AI agent that continuously inspects cloud infrastructure configurations against regional data residency regulations and automatically generates pull requests to fix non-compliant security groups.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Claude API",
+        "Boto3",
+        "GitHub API"
+      ],
+      "title": "Agentic Compliance Auditor for Cloud Infrastructure",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track by moving beyond conversational chatbots into autonomous software engineering and remediation, mirroring winning patterns from the DataHub Agent Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A full-stack banking portal that uses alternative data sources like UPI transaction patterns and digital ledger logs to instantly underwrite loans for unbanked small businesses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "Omnichannel Micro-Merchant Credit Assessment Platform",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Leverages the Full-Stack Product Engineering track by building a complete, high-impact fintech workflow with live integrations, directly adopting the winning recipe of the Standard Chartered Hackathon."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "An agentic logistics system that monitors shipping data feeds, detects customs or weather delays autonomously, and negotiates alternative routes with freight partners via automated API calls.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Fetch.ai SDK",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Autonomous Supply Chain Exception Handler",
+      "track": "Agentic AI",
+      "why_it_could_win": "Combines multi-step agent execution with real-world enterprise utility, scoring high on practical business impact for the Agentic AI track."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage app featuring local language voice input, preliminary rPPG heart rate sensing via smartphone camera, and automated routing to regional health resources.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "WebRTC",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "Multilingual Rural Telehealth Triage & Diagnostics",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines clear social impact with advanced browser-based hardware integrations like camera-based vital signs, following the proven trajectory of top-tier health hackathon winners."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "A full-stack productivity hub powered by localized AI agents that synchronize task states, meeting action items, and documentation updates seamlessly across disparate tools like Jira, GitHub, and Notion.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "OpenAI API",
+        "Prisma"
+      ],
+      "title": "Cross-Platform Unified Workspace Sync Agent",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Strong alignment with the Full-Stack Product Engineering track by demonstrating a polished, responsive user interface backed by sophisticated concurrent agent pipelines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

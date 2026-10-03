@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-03T08:27:52.327763+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware",
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764829",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An AI-powered micro-grid load balancer leveraging multi-agent systems to dynamically shift local energy consumption based on real-time campus solar generation and weather patterns.",
+      "problem_statement": "IoT & Smart Infrastructure domain open innovation challenge focusing on energy efficiency and smart campus infrastructure.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Gemini API",
+        "MQTT",
+        "TimescaleDB"
+      ],
+      "title": "AuraGrid",
+      "track": "IoT & Smart Infrastructure",
+      "why_it_could_win": "Leverages an advanced multi-agent closed-loop operational pattern similar to SEAL Hackathon winners, standing out visually on a live leaderboard during technical reviews."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A low-cost edge-computing vital signs anomaly detector for remote health camps using ESP32 microcontrollers and lightweight machine learning models.",
+      "problem_statement": "AI/ML and IoT open innovation challenge addressing rural healthcare access and real-time patient monitoring.",
+      "stack": [
+        "JavaScript",
+        "C++",
+        "ESP32",
+        "TensorFlow Lite",
+        "Node.js"
+      ],
+      "title": "BioEdge Sentinel",
+      "track": "IoT & Smart Infrastructure",
+      "why_it_could_win": "Adopts the successful edge-computing hardware integration strategy seen at HardHack, proving tangible real-world medical utility during live demos."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A physical anti-counterfeiting verification system using conductive ink signatures scanned via custom ESP32 hardware to authenticate official university credentials and asset tags.",
+      "problem_statement": "IoT & Smart Infrastructure and Open Innovation challenges focusing on security and supply chain integrity.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Google Cloud",
+        "Vertex AI",
+        "C++"
+      ],
+      "title": "VeritasTag Campus",
+      "track": "IoT & Smart Infrastructure",
+      "why_it_could_win": "Replicates the unique physical security build approach of Hack-4-Viksit Bharat winners, impressing judges with a tactile hardware-backed proof of authenticity."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated waste segregation rover prototype built with computer vision and Arduino microcontrollers to sort recyclable materials on campus in real time.",
+      "problem_statement": "IoT & Smart Infrastructure open innovation challenge targeting sustainable waste management.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "C++",
+        "TinkerCAD"
+      ],
+      "title": "EcoSort AI",
+      "track": "IoT & Smart Infrastructure",
+      "why_it_could_win": "Combines physical robotics with live AI classification, directly echoing the TechnoMorph Hackathon runner-up approach."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "An edge AI industrial safety compliance monitor that detects missing personal protective equipment and triggers real-time alerts via local camera feeds.",
+      "problem_statement": "AI/ML domain open innovation challenge focusing on workplace safety and automated monitoring.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "YOLOv8",
+        "FastAPI",
+        "React"
+      ],
+      "title": "SafeSite Vision",
+      "track": "AI/ML",
+      "why_it_could_win": "Fulfills the high-demand industrial safety category with a robust, low-latency vision pipeline that can be tested live during technical reviews."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

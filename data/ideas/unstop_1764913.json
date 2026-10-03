@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-10-03T08:28:05.232182+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764913",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated cryptographic vulnerability and weakness scanner built specifically for custom ciphers encountered in CTF challenges.",
+      "problem_statement": "Cryptography",
+      "stack": [
+        "Python",
+        "SageMath",
+        "CryptoDome"
+      ],
+      "title": "CryptoLeak Analyzer",
+      "track": "Cryptography",
+      "why_it_could_win": "Solves something technically difficult under strict time limits, mirroring the hard engineering pattern seen in top hackathon winners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A forensic pipeline leveraging computer vision and frequency analysis to detect hidden payloads and least-significant-bit steganography in images.",
+      "problem_statement": "Steganography",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "NumPy"
+      ],
+      "title": "StegoTrail Vision",
+      "track": "Steganography",
+      "why_it_could_win": "Combines custom algorithmic detection with hard engineering, providing an instant tool for multi-domain CTF competitors."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated intelligence-gathering pipeline that correlates social footprint, metadata, and geolocations into a unified suspect node graph.",
+      "problem_statement": "OSINT",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "FastAPI"
+      ],
+      "title": "OSINT Graph Mapper",
+      "track": "OSINT",
+      "why_it_could_win": "Uses unique data aggregation pipelines to rapidly solve complex investigative puzzles found in high-level CTF competitions."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A specialized proxy and mutation engine designed to bypass modern WAF rules and automate payload generation for injection-based web challenges.",
+      "problem_statement": "Web Security",
+      "stack": [
+        "Go",
+        "Python",
+        "BurpSuite Extensions"
+      ],
+      "title": "WebSec Payload Forge",
+      "track": "Web Security",
+      "why_it_could_win": "Demonstrates advanced defense-in-depth and offensive engineering mastery appealing directly to cybersecurity judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A reverse-engineering assistant plugin that automatically strips control flow flattening and uncovers hardcoded flags in stripped binaries.",
+      "problem_statement": "Reverse Engineering",
+      "stack": [
+        "Python",
+        "Binary Ninja API",
+        "Capstone"
+      ],
+      "title": "Binary Ninja Deobfuscator",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Solves deeply complex binary analysis hurdles through robust programmatic tooling rather than manual tedious debugging."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

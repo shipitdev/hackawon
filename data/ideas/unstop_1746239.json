@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-10-03T08:27:20.034561+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1746239",
+  "ideas": [
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "An offline interactive tool for debugging competitive programming solutions by visually stepping through algorithmic data structures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pygame",
+        "NetworkX"
+      ],
+      "title": "CP-Visualizer",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the ICPC-style programming contest demographic, making it immediately appealing to the judges who run competitive programming clubs."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [],
+      "pitch": "A localized collaborative coding arena allowing teammates to split subtasks of a single complex algorithmic problem over a local network.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "WebSockets",
+        "Monaco Editor"
+      ],
+      "title": "AlgoDuet",
+      "track": "",
+      "why_it_could_win": "Focuses on the team workflow challenges inherent in 5-hour ICPC-style contests, providing a tangible utility for contestants."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A real-time submission statistics and problem difficulty heatmapping tool tailored for short-duration competitive programming contests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Chart.js"
+      ],
+      "title": "CodeRumble Analytics Dashboard",
+      "track": "",
+      "why_it_could_win": "Acts as a valuable internal utility for the contest organizers and participants to analyze bottlenecks during the live 5-hour round."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A high-performance offline edge-case generator for competitive programmers to stress-test greedy and dynamic programming algorithms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "Tkinter"
+      ],
+      "title": "TestCaseGen Pro",
+      "track": "",
+      "why_it_could_win": "Solves a persistent pain point for contestants racing against time to find corner cases before submission."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A lightning-fast offline code snippet manager optimized for ICPC rule-books and team reference documents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Electron",
+        "SQLite",
+        "JavaScript"
+      ],
+      "title": "SnippetVault Offline",
+      "track": "",
+      "why_it_could_win": "Delivers a completely functional, zero-latency local-first application that requires no internet connection, fitting offline contest constraints."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

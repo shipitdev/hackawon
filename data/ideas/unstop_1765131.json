@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-10-03T08:28:14.872874+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765131",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:929936040"
+      ],
+      "pitch": "A rapid drag-and-drop web automation tool built specifically for individual developers to chain APIs during a 7-hour sprint.",
+      "problem_statement": "General web development challenge provided live at the event",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "Express"
+      ],
+      "title": "NeuraTasker: Instant Micro-Workflow Builder",
+      "track": "",
+      "why_it_could_win": "Given the extreme 7-hour time limit, judges will prioritize functional, polished completeness over ambitious vaporware. A working workflow builder with a clean UI directly hits the creativity and technical implementation criteria."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [],
+      "pitch": "A hyper-local web dashboard that aggregates, sanitizes, and displays campus notices and hackathon announcements in real-time.",
+      "problem_statement": "General web development challenge provided live at the event",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "DataPulse: Live University Event Aggregator",
+      "track": "",
+      "why_it_could_win": "Built for Marwadi University venue context, showing immediate practical utility for students and faculty which appeals directly to practical solution criteria."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A single-page web app where users paste a URL and get an instant, actionable breakdown of accessibility flaws and performance fixes.",
+      "problem_statement": "General web development challenge provided live at the event",
+      "stack": [
+        "React",
+        "Cheerio",
+        "Express",
+        "TailwindCSS"
+      ],
+      "title": "QuickAudit: Instant Web Accessibility and SEO Checker",
+      "track": "",
+      "why_it_could_win": "Extremely high perceived utility for web developers, allowing for a polished design and instant value demonstration within the 7-hour window."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [],
+      "pitch": "A lightning-fast local-first code snippet sharing tool with syntax highlighting and instant QR code generation for sharing snippets across devices during offline presentations.",
+      "problem_statement": "General web development challenge provided live at the event",
+      "stack": [
+        "HTML5",
+        "TailwindCSS",
+        "JavaScript",
+        "QRCode.js"
+      ],
+      "title": "CodeSnippet Vault: Peer-to-Peer Code Snippet Exchanger",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical pain point for offline hackathon participants presenting their work to judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "An instant portfolio builder that parses a student's resume text and generates a clean, interactive web portfolio in seconds.",
+      "problem_statement": "General web development challenge provided live at the event",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "jspdf"
+      ],
+      "title": "SkillMatrix: Individual Portfolio Generator for Students",
+      "track": "",
+      "why_it_could_win": "Directly targets student participants and university crowds, making it highly relatable and immediately testable by the judging panel."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

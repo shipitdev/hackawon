@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-03T08:27:57.029872+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764841",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A lightweight, fault-tolerant distributed tracing and chaos injection backend designed for high-availability systems.",
+      "problem_statement": "Cloud Computing & Distributed Systems: Deploy high-availability, fault-tolerant, and horizontally scalable backends on modern cloud infrastructure.",
+      "stack": [
+        "Go",
+        "Docker",
+        "Redis",
+        "React"
+      ],
+      "title": "AstraTrace: Distributed Cloud Fault-Tolerant Tracer",
+      "track": "Cloud Computing & Distributed Systems",
+      "why_it_could_win": "Directly targets the cloud and distributed systems domain with working infrastructure tooling, addressing judges' appreciation for genuine systems engineering over simple UI wrappers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An AI governance and pre-deployment risk diagnosis tool for enterprise workflows orchestrated via BPMN specifications.",
+      "problem_statement": "AI & ML: Transform real-world data into high-impact, intelligent solutions.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "React"
+      ],
+      "title": "AgenticBPMN: Automated AI Workflow Risk Diagnosis",
+      "track": "AI & ML",
+      "why_it_could_win": "Leverages a proven pattern from a winning workflow agent project, focusing heavily on rigorous governance and a robust live demo for judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A tamper-resistant decentralized access control protocol utilizing zero-knowledge proofs for secure multi-tenant cloud storage.",
+      "problem_statement": "Cybersecurity & Blockchain: Engineer robust defensive postures, cryptographic protocols, decentralized apps, and tamper-resistant architectures.",
+      "stack": [
+        "Solidity",
+        "Node.js",
+        "circom",
+        "TypeScript"
+      ],
+      "title": "ChainGuard: Cryptographic Access Protocol & ZK Enclave",
+      "track": "Cybersecurity & Blockchain",
+      "why_it_could_win": "Addresses the cybersecurity domain with hard cryptography, which stands out strongly in a pool dominated by basic web apps."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI-powered code reviewer running locally via hardware-accelerated NPU runtimes to ensure privacy and low-latency feedback.",
+      "problem_statement": "Web & Product Development: Architect sleek, user-first digital experiences and resilient, production-ready web products.",
+      "stack": [
+        "Python",
+        "ONNX Runtime",
+        "TypeScript",
+        "VS Code Extension API"
+      ],
+      "title": "NPU-Reviewer: Offline Edge Code Quality Guard",
+      "track": "Web & Product Development",
+      "why_it_could_win": "Adapts an award-winning offline AI architecture concept to product development, delivering a polished developer-tool extension with zero cloud dependencies."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic routing toolkit combining local embeddings and vector indexing for intelligent query redirection.",
+      "problem_statement": "AI & ML: Transform real-world data into high-impact, intelligent solutions.",
+      "stack": [
+        "Python",
+        "Faiss",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "SemanticRoute-DB: TOON-Native Hybrid Vector Router",
+      "track": "AI & ML",
+      "why_it_could_win": "Replicates a proven competition-winning routing strategy using self-improving semantic exemplars, appealing to judges looking for algorithmic sophistication."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-03T08:28:19.051670+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765142",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered campus navigation and micro-mobility management system that optimizes walking, cycling, and electric cart routes to minimize carbon footprint and traffic congestion around IIIT Delhi.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "EcoRoute IIITD",
+      "track": "",
+      "why_it_could_win": "Leverages a working live demo of GIS mapping combined with localized campus utility, fitting the Entrepreneurship Cell's focus on practical real-world student-centric innovations."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A rapid health-triage kiosk application for university infirmaries featuring multi-language symptom intake and basic rPPG heart rate estimation using standard webcams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "React",
+        "Node.js"
+      ],
+      "title": "CampusCare Triage",
+      "track": "",
+      "why_it_could_win": "Employs hard engineering components like computer-vision rPPG monitoring that stand out immediately during a live demo judging panel."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous IoT diagnostic and anomaly detection dashboard for college computer labs and hardware workshops that predicts power surges and equipment failures using lightweight ML models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "SmartLab Ops",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering via isolation forest anomaly detection applied to local IoT telemetry streams."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent personalized tutoring platform tailored to university curriculum syllabi, using LangGraph and retrieval-augmented generation to guide students through complex debugging assignments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "EduAgent Graph",
+      "track": "",
+      "why_it_could_win": "Applies a proven multi-agent architecture pattern that directly addresses student educational needs at an institute like IIIT Delhi."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge proof credential verification portal for university clubs and hackathons that ensures participants can prove skill achievements without revealing underlying personal data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "VeriCert ZK",
+      "track": "",
+      "why_it_could_win": "Features advanced cryptographic utility (ZK proofs) which impresses technical judges looking for ambitious engineering within tight 24-hour constraints."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

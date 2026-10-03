@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-03T08:27:47.379533+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764749",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered platform matching micro-entrepreneurs and informal sector workers with localized upskilling micro-tasks and gig opportunities.",
+      "problem_statement": "SDG 8: Decent Work and Economic Growth",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "FastAPI",
+        "Supabase",
+        "OpenAI API"
+      ],
+      "title": "MicroSkill-Match",
+      "track": "",
+      "why_it_could_win": "Directly targets SDG 8 with measurable metrics on job matching rates, fitting the exact UN sustainable development goals outlined in the event criteria."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:927292639",
+        "github:1155558847"
+      ],
+      "pitch": "An automated computer vision tool that inspects public infrastructure assets using smartphone imagery to predict maintenance needs for local municipalities.",
+      "problem_statement": "SDG 9: Industry, Innovation, and Infrastructure",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "Streamlit",
+        "OpenCV",
+        "PostgreSQL"
+      ],
+      "title": "InfraAudit-AI",
+      "track": "",
+      "why_it_could_win": "Aligns with SDG 9 infrastructure goals and leverages a proven computer vision inspection pattern that has historically won industrial hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1227086460"
+      ],
+      "pitch": "A vibe-coded supply chain optimization dashboard that helps local manufacturing SMEs track and reduce their carbon footprint and logistics inefficiencies.",
+      "problem_statement": "SDG 9: Industry, Innovation, and Infrastructure",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "TailwindCSS",
+        "Pandas"
+      ],
+      "title": "SupplyChain-Carbon-Copilot",
+      "track": "",
+      "why_it_could_win": "Combines rapid vibe-coding with enterprise resource optimization, directly appealing to judges looking for scalable real-world industry impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1075630497"
+      ],
+      "pitch": "An offline-first mobile app leveraging lightweight image classification to help smallholder farmers diagnose crop diseases instantly and access local market prices.",
+      "problem_statement": "SDG 8: Decent Work and Economic Growth",
+      "stack": [
+        "Flutter",
+        "TensorFlow Lite",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "AgriYield-AI",
+      "track": "",
+      "why_it_could_win": "Directly tackles economic growth for agricultural workers and builds on a proven, award-winning social impact architecture from international UN hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1227086460",
+        "github:923146379"
+      ],
+      "pitch": "An energy anomaly detection and reduction assistant for small businesses and co-working spaces to optimize utility usage and lower operating overhead.",
+      "problem_statement": "SDG 8: Decent Work and Economic Growth",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "React",
+        "Chart.js",
+        "Flask"
+      ],
+      "title": "EcoGrid-SME",
+      "track": "",
+      "why_it_could_win": "Focuses on cost-saving economic viability for small businesses, combining tangible financial metrics with environmental sustainability."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
