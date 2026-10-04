@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-04T08:40:24.733569+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764668",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1282252864"
+      ],
+      "pitch": "An agent built on the event-provided SDK that rapidly introspects unfamiliar API endpoints, writes missing unit tests, catches breaking contracts, and auto-corrects integration errors.",
+      "problem_statement": "Autopilot: Build an Agent. Give It a Mission. Let It Take Over (Agonthon challenge focused on autonomous task execution via a custom SDK and automated judging system)",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker",
+        "Custom SDK"
+      ],
+      "title": "Autonomous API Diagnostic and Self-Healing Agent",
+      "track": "",
+      "why_it_could_win": "Since automated judging systems evaluate your agent against black-box constraints on a leaderboard, building a robust error-recovery and state-checking loop will maximize passing test cases."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1213911408"
+      ],
+      "pitch": "A structured orchestration agent using a multi-agent graph architecture to delegate tasks, synthesize external unstructured data, and generate verifiable final execution payloads.",
+      "problem_statement": "Autopilot: Build an Agent. Give It a Mission. Let It Take Over (Agonthon challenge focused on autonomous task execution via a custom SDK and automated judging system)",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Pydantic",
+        "SQLite",
+        "Custom SDK"
+      ],
+      "title": "Modular Multi-Role Chief of Staff Agent",
+      "track": "",
+      "why_it_could_win": "Automated scoring systems favor modular agents with distinct planning, execution, and verification phases over single monolithic LLM prompts."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A deterministic state-machine-backed agent framework that enforces strict transition rules and step-by-step validation during unpredictable autonomous execution tasks.",
+      "problem_statement": "Autopilot: Build an Agent. Give It a Mission. Let It Take Over (Agonthon challenge focused on autonomous task execution via a custom SDK and automated judging system)",
+      "stack": [
+        "Python",
+        "BPMN-engine",
+        "NetworkX",
+        "Custom SDK"
+      ],
+      "title": "Workflow-Guarded State Machine Agent",
+      "track": "",
+      "why_it_could_win": "Judges and automated evaluators value architectural clarity and control mechanisms that prevent infinite loops or invalid state transitions during the challenge."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1353074073",
+        "github:1341712439"
+      ],
+      "pitch": "A dual-agent loop where one agent attempts to solve the surprise task and a secondary verification agent continuously audits outputs against boundary condition failures and edge cases.",
+      "problem_statement": "Autopilot: Build an Agent. Give It a Mission. Let It Take Over (Agonthon challenge focused on autonomous task execution via a custom SDK and automated judging system)",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "Pytest",
+        "Custom SDK"
+      ],
+      "title": "Adversarial Test Audit and Bias Correction Agent",
+      "track": "",
+      "why_it_could_win": "Incorporating self-correction and automated auditing directly addresses the automated grading system's rigorous output validations."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A lightweight, highly responsive tool-calling agent optimized to discover, index, and call arbitrary SDK endpoints provided at the start of the 6-hour sprint.",
+      "problem_statement": "Autopilot: Build an Agent. Give It a Mission. Let It Take Over (Agonthon challenge focused on autonomous task execution via a custom SDK and automated judging system)",
+      "stack": [
+        "Python",
+        "Instructor",
+        "OpenAI API",
+        "Custom SDK"
+      ],
+      "title": "Rapid-Environment Sandbox Scraping & Tool-Use Agent",
+      "track": "",
+      "why_it_could_win": "In a strict 6-hour timeframe where the prompt is unknown beforehand, winning teams will be those with the fastest bootstrapping framework for dynamic tool registration."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-04T08:40:33.333805+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765154",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:432760864"
+      ],
+      "pitch": "A developer tool and live visualization overlay designed to track typing mechanics, backspace frequency, and paste attempts for anti-cheat verification in 1v1 coding duels.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "TypeLock Telemetry Studio",
+      "track": "",
+      "why_it_could_win": "Directly builds core infrastructure for the tournament's unique anti-cheat and real-time telemetry constraints, making it appealing to the event organizers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An automated casting companion that ingests live match telemetry from competitive programming duels and generates text commentary feeds or timestamped highlights for YouTube VODs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "WebSockets"
+      ],
+      "title": "SpectatorVOD Caster Bot",
+      "track": "",
+      "why_it_could_win": "Directly enhances the esports broadcast and VOD production value emphasized in the hackathon overview."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight, secure multi-language code execution sandbox optimized for sub-second test case feedback loops in rapid 1v1 coding battles.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Docker",
+        "Redis",
+        "FastAPI"
+      ],
+      "title": "DuetSandbox Code Execution Engine",
+      "track": "",
+      "why_it_could_win": "Solves the core technical requirement of instant test case progress bars and reliable execution across C++, Python, Java, and JavaScript under strict time limits."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A client-side browser extension that logs keystroke timings and detects clipboard bypass anomalies to enforce pure manual execution rules in competitive coding duels.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Chrome Extensions API",
+        "React"
+      ],
+      "title": "KbdRhythm Anti-Cheat Monitor",
+      "track": "",
+      "why_it_could_win": "Addresses the tournament's primary rule twist (pure manual execution and no copy-pasting) with a dedicated engineering solution."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:432760864"
+      ],
+      "pitch": "A real-time single-elimination tournament bracket manager featuring synchronized countdown timers, live test case progress telemetry, and instant advancement triggers for 16 players.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "MatchTree 1v1 Bracket Manager",
+      "track": "",
+      "why_it_could_win": "Provides the exact operational software needed to run the 16-player single-elimination tournament smoothly."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

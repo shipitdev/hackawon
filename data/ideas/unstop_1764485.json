@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-04T08:40:15.336138+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764485",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:938030912"
+      ],
+      "pitch": "An intelligent post-assessment review platform that analyzes competitive coding submissions to generate semantic root-cause repair plans and complexity visualizations.",
+      "problem_statement": "TechArena 2026 competitive coding assessment featuring 5 problems of progressive difficulty across algorithms and data structures.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Monaco Editor"
+      ],
+      "title": "AlgoTrace Pro",
+      "track": "",
+      "why_it_could_win": "Directly targets the core pain points of participants after a 90-minute competitive coding assessment by offering instant architectural debugging and runtime analysis inspired by proven automation workflows."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:938030912",
+        "github:1181275893"
+      ],
+      "pitch": "An in-browser interactive visualizer for data structures and algorithms that dynamically traces test cases for competitive programming problems.",
+      "problem_statement": "TechArena 2026 assessment focused on data structures, algorithms, and problem-solving ability.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Web Workers"
+      ],
+      "title": "DataStruct Navigator",
+      "track": "",
+      "why_it_could_win": "Focuses on delivering a flawless, robust live demo that clearly solves a technical barrier for students trying to understand failed test cases."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1226951926"
+      ],
+      "pitch": "A local test harness and performance profiler for multi-language competitive programming solutions with automated edge-case generation.",
+      "problem_statement": "TechArena 2026 online coding challenge supporting multiple programming languages and strict test-case validation.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Rust"
+      ],
+      "title": "SpeedCode Judge Assistant",
+      "track": "",
+      "why_it_could_win": "Provides a genuinely hard engineering utility that speeds up local verification during tight-window online assessments."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A timed training environment built specifically for progressive difficulty logic assessments with real-time performance analytics.",
+      "problem_statement": "TechArena 2026 structured competitive coding assessment with progressive difficulty from Easy to Hard across 1000 marks.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "LogicSprint Benchmark",
+      "track": "",
+      "why_it_could_win": "Solves a problem felt directly by the student community preparing for timed competitive exams, ensuring strong audience resonance."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A polyglot syntax translator and optimization assistant that helps multi-language coders refactor solutions for better time complexity during contests.",
+      "problem_statement": "TechArena 2026 assessment supporting multiple programming languages and testing advanced problem-solving abilities.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API"
+      ],
+      "title": "SyntaxSync AI",
+      "track": "",
+      "why_it_could_win": "Leverages advanced code transformation workflows to offer a highly demonstrable, working tool tailored for multi-language competitive coders."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

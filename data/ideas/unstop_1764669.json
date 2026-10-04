@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-10-04T08:40:28.943406+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764669",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "An automated defense-in-depth security tool designed to harden LLM instructions against multi-turn jailbreaks and prompt injection exploits.",
+      "problem_statement": "Zero Day Apocalypse: How Far Can You Push an AI? What happens when an AI is told not to do something? Your job is to make it do exactly that.",
+      "stack": [
+        "TypeScript",
+        "Vercel AI SDK",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "PromptDefender Studio",
+      "track": "",
+      "why_it_could_win": "Leverages defense-in-depth principles proven in past personal agent challenge winners, addressing the exact inverse of the competition's prompt injection challenge."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1069255350",
+        "github:1196410850"
+      ],
+      "pitch": "A multi-agent autonomous framework that systematically fuzzes target LLM system prompts using evolutionary algorithms and linguistic payloads to find edge-case failures.",
+      "problem_statement": "Zero Day Apocalypse: How Far Can You Push an AI? What happens when an AI is told not to do something? Your job is to make it do exactly that.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Claude API"
+      ],
+      "title": "Adversarial Red-Team Swarm",
+      "track": "",
+      "why_it_could_win": "Employs a multi-agent simulation approach inspired by winning network attack and defense orchestration tools, automating the prompt discovery process for speed."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A real-time behavioral telemetry and monitoring layer that flags when an LLM's output deviates from strict constraint boundaries during adversarial probing.",
+      "problem_statement": "Zero Day Apocalypse: How Far Can You Push an AI? What happens when an AI is told not to do something? Your job is to make it do exactly that.",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "React"
+      ],
+      "title": "SafetyGlass Telemetry",
+      "track": "",
+      "why_it_could_win": "Directly tackles the event's core focus of detecting behavioral changes and policy violations using open-source ethical telemetry patterns."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A linguistic transformation engine that encodes adversarial prompts using rare ciphers, character permutations, and low-resource languages to bypass naive input filters.",
+      "problem_statement": "Zero Day Apocalypse: How Far Can You Push an AI? What happens when an AI is told not to do something? Your job is to make it do exactly that.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "JavaScript"
+      ],
+      "title": "CipherPrompt Obfuscator",
+      "track": "",
+      "why_it_could_win": "Focuses on the core competitive advantage of the event: creative human-to-AI communication and exploiting model generalization across token representations."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A tactical helper extension that parses level constraints, logs successful payload mutations, and visualizes the attack surface for multi-stage LLM challenge platforms.",
+      "problem_statement": "Zero Day Apocalypse: How Far Can You Push an AI? What happens when an AI is told not to do something? Your job is to make it do exactly that.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "LevelHunter Leaderboard Helper",
+      "track": "",
+      "why_it_could_win": "Built specifically for speed and tactical execution on custom competition platforms, maximizing leaderboard score through systematic iteration tracking."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-04T08:40:19.780597+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764596",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A real-time modular state switcher designed to handle sudden mid-hackathon rule changes and twist challenges.",
+      "problem_statement": "Devlympics: 24 Hours. One Theme. Endless Possibilities. Anticipating unexpected challenges and creative constraints.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "ChaosAdapter",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation metric of how well teams adapt to sudden challenges and creative constraints during the event."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A rapid-prototyping assistant optimized for 24-hour sprints that auto-generates UI components from rough whiteboard sketches.",
+      "problem_statement": "Devlympics: 24 Hours. One Theme. Endless Possibilities. Starting from zero with an open-ended theme under a strict 24-hour clock.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenCV",
+        "React"
+      ],
+      "title": "ChronoCraft AI",
+      "track": "",
+      "why_it_could_win": "Emphasizes extreme execution speed and a demo that actually works live under tight time constraints."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "An immersive spatial computing experiment that projects live theme hints and constraint timers into physical space via device cameras.",
+      "problem_statement": "Devlympics: 24 Hours. One Theme. Endless Possibilities. Open-ended theme interpretation and hardware/interactive experience potential.",
+      "stack": [
+        "Swift",
+        "ARKit",
+        "WebRTC"
+      ],
+      "title": "ZeroLag AR Theme Injector",
+      "track": "",
+      "why_it_could_win": "Leverages the open-ended nature of the theme and stands out through a flashy, physical live demo that judges remember."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A peer-to-peer decentralized collaboration canvas for multi-disciplinary hackathon teams to bypass local network limits.",
+      "problem_statement": "Devlympics: 24 Hours. One Theme. Endless Possibilities. Collaboration and coordination under high pressure.",
+      "stack": [
+        "Rust",
+        "WebSockets",
+        "React"
+      ],
+      "title": "SyncMesh",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering by implementing local-first distributed synchronization within a 24-hour window."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An offline-first emergency fallback system using IoT sensors to trigger alerts when venue constraints or internet drops happen.",
+      "problem_statement": "Devlympics: 24 Hours. One Theme. Endless Possibilities. Building hardware experiments or unexpected robust systems under pressure.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "MQTT"
+      ],
+      "title": "EdgePanic",
+      "track": "",
+      "why_it_could_win": "Combines hardware and software elements to address the chaotic nature of live hackathon environments."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

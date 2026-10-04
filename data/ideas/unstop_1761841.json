@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-04T08:40:10.928385+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761841",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1185527998"
+      ],
+      "pitch": "An edge-computed, privacy-first women's safety companion using offline ultrasonic distress signaling and silent wearable triggers.",
+      "problem_statement": "Women's Safety track domain focusing on scalable, user-centric security solutions.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Web Audio API",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "AuraSafe",
+      "track": "Women's Safety",
+      "why_it_could_win": "Targets a sensitive social domain with a robust offline-first fallback mechanism, demonstrating real-world utility that impresses judges over mere cloud wrappers."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A localized clinical-grade health triage platform featuring rPPG remote heart rate estimation via smartphone camera and multi-lingual voice intake.",
+      "problem_statement": "HealthTech track domain addressing accessibility in preliminary medical assessment.",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "PulseTriage India",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly builds on proven health-tech triage execution patterns while tailoring output for local regional languages."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1155558847"
+      ],
+      "pitch": "An enterprise carbon footprint tracking application for micro-logistics fleets utilizing automated emission calculations and verifiable audit logs.",
+      "problem_statement": "Sustainability track domain targeting actionable environmental analytics for businesses.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "GreenLedger Supply",
+      "track": "Sustainability",
+      "why_it_could_win": "Aligns with institutional sustainability metrics by emphasizing concrete, measurable carbon offset reporting rather than high-level dashboard metrics."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An interactive graph intelligence tool to detect anomalous transaction rings and high-risk wallet flows for fintech compliance officers.",
+      "problem_statement": "FinTech and Security track domains focusing on fraud mitigation.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "D3.js",
+        "Python",
+        "LightGBM"
+      ],
+      "title": "FinGraph AML Copilot",
+      "track": "FinTech",
+      "why_it_could_win": "Leverages complex graph traversal visualizations that immediately capture judge interest through sophisticated yet functional data handling."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent personalized tutoring platform utilizing RAG over institutional textbooks to generate tailored quizzes and step-by-step concept explanations.",
+      "problem_statement": "Education track domain aimed at personalized student support systems.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Pinecone",
+        "OpenAI API"
+      ],
+      "title": "EduMentor AI Agent",
+      "track": "Education",
+      "why_it_could_win": "Employs an advanced multi-agent orchestrator model that delivers structured and verifiable academic assistance rather than generic chat outputs."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
