@@ -6,7 +6,7 @@
   "ends_at": "2026-10-31T14:00:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 414,
+  "participants_count": 420,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [],
@@ -52,7 +52,7 @@
     "judges": [],
     "location": "House of Communication, Friedenstraße, Munich, Germany",
     "name": "TUM Blockchain & AI Hackathon",
-    "participants_count": 414,
+    "participants_count": 420,
     "participants_details": [
       {
         "first_name": "Om",
@@ -84,6 +84,13 @@
         "name": "BSV Track",
         "parent_prize_uuid": null,
         "uuid": "401878c9177b45b1afb5d9ac5c06c106"
+      },
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "Cardano Track",
+        "parent_prize_uuid": null,
+        "uuid": "a3aca2e901364fca9afb41de2a63154c"
       }
     ],
     "projects_submitted": 0,
@@ -109,6 +116,20 @@
             "name": "BSV Blockchain",
             "position": 1,
             "uuid": "a197fefe0b4f4654be72699ae5c45e99"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "cardano.org",
+              "logo": null,
+              "name": "Cardano",
+              "uuid": "43813cc9817840b69c1169927a90f2e4",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/sponsors/0598970e55c141a98eedfb825fcd84a4/64.png",
+            "name": "Cardano",
+            "position": 2,
+            "uuid": "0598970e55c141a98eedfb825fcd84a4"
           }
         ],
         "uuid": "6e6c6c9cae954da8bf33e9305a2b7080",
@@ -135,7 +156,8 @@
   "source": "devfolio",
   "source_id": "528f2495b98b4f38ae41139390594a3a",
   "sponsors": [
-    "BSV Blockchain"
+    "BSV Blockchain",
+    "Cardano"
   ],
   "starts_at": "2026-10-30T09:00:00Z",
   "tagline": "The hackathon where Blockchain and AI meet",
@@ -144,7 +166,8 @@
   "themes": [],
   "title": "TUM Blockchain & AI Hackathon",
   "tracks": [
-    "BSV Track"
+    "BSV Track",
+    "Cardano Track"
   ],
   "url": "https://tum.devfolio.co/"
 }
