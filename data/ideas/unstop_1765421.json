@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-05T09:30:05.530292+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765421",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A localized, containerized Attack and Defense simulation sandbox designed specifically to automate flag retrieval and infrastructure hardening during live CTF matches.",
+      "problem_statement": "Ghost Protocol CTF 2.0 Offline Grand Finale combining Jeopardy-style CTF and an Attack & Defense round.",
+      "stack": [
+        "Python",
+        "Docker",
+        "FastAPI",
+        "Bash"
+      ],
+      "title": "AegisNode",
+      "track": "Offline Grand Finale",
+      "why_it_could_win": "Directly targets the Attack & Defense round mechanics by offering automated vulnerability patch generation and automated defense scripts, giving teams an immediate tactical edge in the finale."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated metadata and digital footprint correlation engine for OSINT challenges that aggregates leaked credentials, image geolocation proofs, and domain historical records.",
+      "problem_statement": "Ghost Protocol CTF 2.0 modern cybersecurity challenges involving OSINT and digital forensics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "BeautifulSoup",
+        "NetworkX"
+      ],
+      "title": "OSINT-Trace",
+      "track": "Online Qualification Round",
+      "why_it_could_win": "Solves the tedious manual search bottleneck in OSINT challenges by running multi-source parallel queries, matching the winning pattern of leveraging automated data pipelines."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated cryptographic challenge analyzer that rapidly identifies flawed cipher implementations, weak RSA exponent patterns, and custom XOR/substitution schemes.",
+      "problem_statement": "Ghost Protocol CTF 2.0 cryptography and reverse engineering challenges.",
+      "stack": [
+        "Python",
+        "SageMath",
+        "Flask"
+      ],
+      "title": "CryptoSleuth",
+      "track": "",
+      "why_it_could_win": "Applies hard backend engineering to automate mathematical crypto breaks that typically waste valuable competition hours during a timed CTF."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth prompt and tool-calling hardening gateway designed to intercept adversarial payload injections in LLM-driven infrastructure.",
+      "problem_statement": "Ghost Protocol CTF 2.0 modern cybersecurity challenges and ethical hacking.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Vercel AI SDK",
+        "Docker"
+      ],
+      "title": "SecureGuard Agent",
+      "track": "",
+      "why_it_could_win": "Leverages advanced defense-in-depth architecture patterns from recent winning entries to address modern AI security vulnerabilities."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188643990"
+      ],
+      "pitch": "A zero-knowledge, biometric-authenticated offline document locker designed for secure forensic artifact and flag storage during live competitions.",
+      "problem_statement": "Ghost Protocol CTF 2.0 digital forensics and ethical hacking infrastructure.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Cryptography",
+        "LocalAuthentication"
+      ],
+      "title": "ZeroTrace Vault",
+      "track": "",
+      "why_it_could_win": "Demonstrates exceptional polish and military-grade zero-knowledge local encryption standards, mirroring previous national-level hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

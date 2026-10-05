@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-05T09:29:43.565944+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1761844",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1010199928"
+      ],
+      "pitch": "A compact agricultural rover that navigates crop rows, scans leaf health using computer vision, and measures soil moisture and NPK levels in real time.",
+      "problem_statement": "AgriTech: Technology for modern agriculture and farming",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "ESP32",
+        "OpenCV"
+      ],
+      "title": "AgriSense: Autonomous Crop Disease and Soil Nutrient Rover",
+      "track": "AgriTech",
+      "why_it_could_win": "Combines a custom physical mechanical build with real-time sensor data, following the winning pattern of a physical robot that performs well in a live demonstration."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1069834761"
+      ],
+      "pitch": "A low-power ultrasonic sensor and tilt-monitoring node placed inside city drainage manholes to prevent urban flooding by predicting blockages.",
+      "problem_statement": "Smart City & Civic Tech: Urban infrastructure and governance solutions",
+      "stack": [
+        "C++",
+        "ESP8266",
+        "MQTT",
+        "Node-RED",
+        "Ultrasonic Sensors"
+      ],
+      "title": "SmartDrain: IoT Urban Waterlogging and Silt Monitoring Node",
+      "track": "Smart City & Civic Tech",
+      "why_it_could_win": "Addresses a massive urban civic problem with an actual working circuit prototype that municipal judges can see and interact with live on the table."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A portable mesh communication device for first responders that relays voice packets and GPS coordinates without cellular infrastructure.",
+      "problem_statement": "IoT – Connected devices and intelligent systems",
+      "stack": [
+        "C++",
+        "PlatformIO",
+        "ESP32",
+        "SX1276 LoRa Modules",
+        "OLED Display"
+      ],
+      "title": "AeroMesh: LoRa-Based Off-Grid Emergency Comms Node",
+      "track": "IoT",
+      "why_it_could_win": "Leverages off-grid radio mesh networking, echoing the winning strategy of hardware solutions that prove resilience and functionality in offline environments."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A smart dustbin retrofit featuring a servo-actuated sorting flap driven by a lightweight image classification model running on an edge microcontroller.",
+      "problem_statement": "Sustainability – Climate-conscious and eco-friendly innovations",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "ESP32-CAM",
+        "Servo Motors",
+        "Arduino"
+      ],
+      "title": "EcoBin: Edge-AI Automated Waste Segregator and Fill Tracker",
+      "track": "Sustainability",
+      "why_it_could_win": "Directly tackles waste management with a mechanical working mechanism and live object sorting demo that immediately grabs judges' attention."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1069834761"
+      ],
+      "pitch": "A wearable patient monitoring wristband that tracks pulse rate, blood oxygen, and sudden falls, transmitting emergency alerts via local Wi-Fi to nurses.",
+      "problem_statement": "Open Innovation – Build anything innovative beyond the defined tracks",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MAX30102 Sensor",
+        "MPU6050",
+        "WebSockets"
+      ],
+      "title": "VitalEdge: Post-Operative Biometric IoT Telemetry Band",
+      "track": "Open Innovation",
+      "why_it_could_win": "Implements critical healthcare monitoring with dependable edge telemetry, mimicking award-winning biomedical IoT systems built under tight deadlines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-05T09:30:11.263953+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765533",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1066546613",
+        "github:1259981732"
+      ],
+      "pitch": "A high-efficiency vision-based lane keeping and obstacle avoidance system tailored for scaled autonomous vehicles running on constrained edge hardware.",
+      "problem_statement": "The Urban Autonomous Mobility Challenge: navigating a miniature urban circuit, lane discipline, and pedestrian safety.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "ROS2",
+        "C++"
+      ],
+      "title": "LaneNet-Lite: Edge TPU Scaled Autonomous Lane Keeping",
+      "track": "",
+      "why_it_could_win": "Leverages proven edge AI design patterns from winning JetBot navigation projects combined with robust real-world performance under strict hardware constraints."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1340275018",
+        "github:1066546613"
+      ],
+      "pitch": "An edge-computed safety system using a localized camera feed to instantly detect traffic signals, stop signs, and sudden pedestrian crossings for autonomous braking.",
+      "problem_statement": "The Urban Autonomous Mobility Challenge: handling intersections, pedestrian safety, and dynamic traffic as complexity scales.",
+      "stack": [
+        "Python",
+        "YOLOv8-Nano",
+        "PyTorch",
+        "Jetson Nano",
+        "Robot Operating System"
+      ],
+      "title": "V2X-SignGuard: Ultra-Low Latency Dynamic Traffic Sign & Pedestrian Detector",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on safety-critical edge inference, echoing industrial safety and robotics competition winners that prized absolute reliability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A robust mapping and localization routine enabling the scaled autonomous vehicle to identify vacant parking bays and execute closed-loop parallel parking maneuvers.",
+      "problem_statement": "The Urban Autonomous Mobility Challenge: vehicle parking capabilities in a miniature urban environment.",
+      "stack": [
+        "C++",
+        "ROS2",
+        "LiDAR/Ultrasonic Drivers",
+        "Python"
+      ],
+      "title": "AutoPark-SLAM: Precision Miniature Parallel Parking System",
+      "track": "",
+      "why_it_could_win": "Addresses one of the most notoriously difficult components of scaled autonomous driving competitions with a deterministic, easily demonstrable live routine."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A lightweight remote monitoring dashboard providing real-time telemetry, camera feed streaming, and emergency override capabilities for autonomous delivery pods.",
+      "problem_statement": "The Urban Autonomous Mobility Challenge: navigating complete urban circuits under dynamic conditions with reliability and monitoring.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "MQTT",
+        "WebSockets"
+      ],
+      "title": "FedEx-FleetGrid: Telemetry and Mission Control Dashboard",
+      "track": "",
+      "why_it_could_win": "Aligns with title sponsor branding and practical fleet management requirements, giving judges an interface to view vehicle health during testing runs."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1141364034"
+      ],
+      "pitch": "A decentralized coordination script allowing multiple scaled autonomous vehicles to negotiate right-of-way at unmarked intersections using localized peer-to-peer communication.",
+      "problem_statement": "The Urban Autonomous Mobility Challenge: handling complex intersections and dynamic traffic escalation rounds.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Wi-Fi UDP",
+        "ROS2"
+      ],
+      "title": "IntersecFlow: Multi-Vehicle Intersection Priority Resolver",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced multi-agent coordination capabilities that set top-tier robotics entries apart from basic line-followers."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-05T09:30:14.759093+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765560",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A Qiskit-based application calculating ground-state energy for simple molecular bonds using VQE to demonstrate practical quantum chemistry.",
+      "problem_statement": "Track 1: Quantum Chemistry: From Bonds to Qubits",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Qiskit Nature",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "title": "MolQ-Sim: Variational Quantum Eigensolver for Small Drug Molecules",
+      "track": "Track 1: Quantum Chemistry: From Bonds to Qubits",
+      "why_it_could_win": "Directly targets the published quantum chemistry track using standard Qiskit VQE routines, which judges from CQT IIIT Delhi will immediately understand and appreciate for its clean physical formulation."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A quantum portfolio optimization tool using amplitude estimation to evaluate Value at Risk (VaR) faster than classical Monte Carlo simulations.",
+      "problem_statement": "Track 2: Quantum Finance and Optimization (Inferred from event scope)",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Qiskit Finance",
+        "Pandas"
+      ],
+      "title": "Q-Portfolio: Quantum Amplitude Estimation for Financial Risk",
+      "track": "Quantum Finance and Optimization",
+      "why_it_could_win": "Combines financial computation with quantum speedup claims, matching the hard-engineering pattern seen in past winning systems by benchmarking quantum circuits against classical baselines."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An interactive visualization tool simulating quantum error correction steps and fault-tolerant threshold limits under realistic depolarizing noise models.",
+      "problem_statement": "Track 3: Quantum Error Correction and Fault Tolerance (Inferred)",
+      "stack": [
+        "Python",
+        "Qiskit Aer",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "ErrorGuard: Surface Code Simulation for Noisy Qubits",
+      "track": "Quantum Error Correction and Fault Tolerance",
+      "why_it_could_win": "Solves a notoriously difficult engineering problem in quantum computing—error mitigation—which heavily impresses technical judges looking for rigorous algorithmic depth."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A Qiskit-powered simulator implementing the BB84 quantum key distribution protocol with real-time eavesdropping detection metrics.",
+      "problem_statement": "Track 4: Quantum Cryptography and Communications (Inferred)",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "FastAPI",
+        "React"
+      ],
+      "title": "EntangleNet: Quantum Key Distribution Protocol Visualizer",
+      "track": "Quantum Cryptography and Communications",
+      "why_it_could_win": "Demonstrates clear, measurable security guarantees and practical cybersecurity impact using fundamental quantum mechanics principles."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A hybrid quantum-classical machine learning classifier utilizing quantum feature maps to separate non-linear clinical datasets.",
+      "problem_statement": "Track 5: Quantum Machine Learning (Inferred)",
+      "stack": [
+        "Python",
+        "Qiskit Machine Learning",
+        "Scikit-Learn",
+        "PyTorch"
+      ],
+      "title": "QML-Classifier: Quantum Kernel Methods for Biomedical Data",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Applies cutting-edge Qiskit Machine Learning modules to a practical domain, providing clean comparative metrics against standard scikit-learn models."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

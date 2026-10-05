@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-05T09:30:01.920421+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763976",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1069255350"
+      ],
+      "pitch": "An automated OSINT pipeline that aggregates public metadata, domain records, and social leaks into an interactive threat actor graph.",
+      "problem_statement": "OSINT and Digital Forensics challenges in Pinaka CTF require correlating disparate public data sources manually under tight time constraints.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Neo4j",
+        "React",
+        "NetworkX"
+      ],
+      "title": "OSINT-Graph: Automated Social and Infrastructure Threat Mapping",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Combines advanced graph intelligence patterns from Bito with real-time network attack simulation concepts from GraphGuard, providing judges an automated tool that drastically reduces manual OSINT investigation time."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1004582948",
+        "github:1069255350"
+      ],
+      "pitch": "A local LLM and symbolic execution wrapper that parses stripped ELF binaries, identifies common memory corruption patterns, and suggests Ghidra scripting patches.",
+      "problem_statement": "Reverse Engineering and Binary Exploitation tracks require deep manual assembly analysis and tedious pattern matching.",
+      "stack": [
+        "Python",
+        "Angr",
+        "Ghidra",
+        "Streamlit",
+        "Llama-3"
+      ],
+      "title": "AutoBinary: AI-Assisted Static Binary Analyzer and Exploit Generator",
+      "track": "Binary Exploitation",
+      "why_it_could_win": "Addresses the hardest core technical domain (Binary Exploitation) with genuinely difficult engineering, mimicking the technical depth of GraphGuard and reportr."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A deep learning toolkit designed to detect, extract, and reverse hidden payloads in complex steganographic images, audio files, and network traffic.",
+      "problem_statement": "Steganography and Miscellaneous challenges demand rapid identification of anomalous hidden data carriers hidden within media.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Flask"
+      ],
+      "title": "StegoNet: Neural Steganography Detection and Extraction Suite",
+      "track": "Steganography",
+      "why_it_could_win": "Uses custom detection models and data extraction techniques that solve a notoriously time-consuming CTF bottleneck, aligning with hard engineering win patterns."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An intelligent cryptanalysis workbench that identifies weak padding oracle vulnerabilities, broken custom crypto schemes, and lattice-based key recovery.",
+      "problem_statement": "Cryptography challenges often rely on identifying subtle implementation flaws in custom ciphers or RSA parameter weaknesses.",
+      "stack": [
+        "Python",
+        "SageMath",
+        "SymPy",
+        "FastAPI"
+      ],
+      "title": "CryptoFlow: Automated Cryptanalytic Oracle and Cipher Identifier",
+      "track": "Cryptography",
+      "why_it_could_win": "Solves complex mathematical security challenges with high functional execution, appealing directly to NFSU Chennai's focus on advanced forensic and cryptographic problem-solving."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1196410850",
+        "github:1069255350"
+      ],
+      "pitch": "An autonomous browser-based agent that navigates complex JavaScript single-page apps to uncover hidden API endpoints, CORS misconfigurations, and prototype pollution.",
+      "problem_statement": "Web Exploitation challenges at national CTFs increasingly feature modern JavaScript frameworks and hidden API logic.",
+      "stack": [
+        "TypeScript",
+        "Playwright",
+        "LangChain",
+        "Node.js"
+      ],
+      "title": "WebFuzz-AI: Intelligent DOM-Based Vulnerability Hunting Agent",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Employs multi-agent automated scraping and vulnerability detection workflows similar to WILDSCAN and GraphGuard, making it an exceptionally polished offensive security asset."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
