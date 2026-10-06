@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-06T09:14:52.239663+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762305",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An automated testing agent that parses APK binaries, exercises critical user journeys, identifies consistent UI/functional regressions, and generates evidence logs formatted directly for Mozark's performance platform.",
+      "problem_statement": "Take a real app, test it, fix what breaks, and prove it performs on Mozark's platform, on real devices.",
+      "stack": [
+        "Python",
+        "Appium",
+        "PyTest",
+        "OpenCV"
+      ],
+      "title": "MozarkAPKTestAgent",
+      "track": "",
+      "why_it_could_win": "Directly aligns with Mozark's core scoring criteria of finding consistent user journey breaks and providing rigorous evidence for a 100-point scale leaderboard."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A telemetry-injection toolkit that hooks into Android APKs to isolate hidden performance bottlenecks, memory leaks, and render drops during heavy user flows, mapping them to concrete evidence scores.",
+      "problem_statement": "Take a real app, test it, fix what breaks, and prove it performs on Mozark's platform, on real devices.",
+      "stack": [
+        "Kotlin",
+        "Python",
+        "ADB",
+        "FastAPI"
+      ],
+      "title": "AeroAPK Trace & Fix",
+      "track": "",
+      "why_it_could_win": "Wins by bypassing surface-level UI bugs and hunting for the hard technical performance failures that earn the separate 50-point bonus."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A lightweight diagnostic harness designed to simulate concurrent device runs against custom APKs to filter out minor style quirks and isolate high-severity journey breakers that fail at least 2 out of 3 runs.",
+      "problem_statement": "Take a real app, test it, fix what breaks, and prove it performs on Mozark's platform, on real devices.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Playwright",
+        "Android SDK"
+      ],
+      "title": "JourneySentry",
+      "track": "",
+      "why_it_could_win": "Optimizes strictly for the hackathon's exact scoring metric where bugs must break a key user journey and fail consistently across multiple test runs."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A local emulation runner that intercepts APK network and UI payloads to automatically patch common crash vectors and verify that performance metrics meet real-device threshold requirements.",
+      "problem_statement": "Take a real app, test it, fix what breaks, and prove it performs on Mozark's platform, on real devices.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Frida",
+        "React"
+      ],
+      "title": "PerfValidator Core",
+      "track": "",
+      "why_it_could_win": "Solves the exact verification pain point highlighted by judges: proving an AI-generated or raw app actually works under real-world conditions rather than just looking good."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An evidence collection script and dashboard that systematically logs error traces, execution run counts, and device stability states to maximize points across the fixed 100-point evaluation scale.",
+      "problem_statement": "Take a real app, test it, fix what breaks, and prove it performs on Mozark's platform, on real devices.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "ADB"
+      ],
+      "title": "APK-Health-Inspector",
+      "track": "",
+      "why_it_could_win": "Wins by treating evaluation as a strict data game, ensuring every submitted bug report is backed by indisputable run evidence rather than subjective judgment."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

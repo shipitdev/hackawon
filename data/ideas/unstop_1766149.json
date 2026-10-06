@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-06T09:15:36.586896+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766149",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A real-time strategic helper and time-allocation dashboard designed for 2-person competitive programming teams.",
+      "problem_statement": "Competitive Programming showdown where speed, accuracy, teamwork, and strategy come together across a fast-paced CP round, a non-technical challenge, and the grand CP finale.",
+      "stack": [
+        "React",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "CP-Tactician",
+      "track": "",
+      "why_it_could_win": "Targeting the specific format of a 2-person multi-stage competitive programming showdown by solving team coordination and time management gives an edge during fast-paced rounds."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An interactive practice arena specifically built to simulate 30-minute puzzle and quiz challenges for CP team qualification rounds.",
+      "problem_statement": "Round 2: 30-minute Challenge consisting of puzzles, quizzes, and other challenges where performance influences advantage in the finale.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "QuizWiz-Relay",
+      "track": "",
+      "why_it_could_win": "Directly prepares teams for the secondary puzzle and quiz elimination round, addressing the exact constraint where performance affects finale advantages."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A strategic simulation tool that calculates optimal time distribution and problem selection weighting based on past performance metrics for multi-stage CP competitions.",
+      "problem_statement": "Your performance in the earlier stages can directly influence your advantage in the finale. Every second, every decision, and every problem counts.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Chart.js"
+      ],
+      "title": "CP-Advantage-Calc",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the strategic twist of the event where early round performance grants finale advantages, appealing to the judges' emphasis on strategy."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A collaborative code-sharing and pair-programming scratchpad optimized for rapid syntax checks and test-case verification during high-speed elimination rounds.",
+      "problem_statement": "Round 1: Fast-paced CP round featuring easy-to-medium difficulty problems with strict anti-plagiarism and team collaboration boundaries.",
+      "stack": [
+        "Vue.js",
+        "Firebase",
+        "Monaco Editor"
+      ],
+      "title": "SyncCode-CP",
+      "track": "",
+      "why_it_could_win": "Solves the friction of fast-paced teamwork within the allowed team structure, ensuring rapid iteration without violating sharing rules."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An individual performance tracker and comparative dashboard for split-teammate final rounds.",
+      "problem_statement": "Round 3: Grand CP Finale where both teammates compete individually and strategically use the advantages earned in Round 2.",
+      "stack": [
+        "React",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "Finale-Scout",
+      "track": "",
+      "why_it_could_win": "Addresses the unique dynamics of the Grand Finale where teammates split up to compete individually, providing a clear tactical overview."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

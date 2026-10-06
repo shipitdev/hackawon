@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-06T09:15:33.083990+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unique-data",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766136",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1350419063",
+        "github:969245239"
+      ],
+      "pitch": "An autonomous multi-agent system that ingests public financial filings, earnings call transcripts, and alt-data to surface a non-obvious financial insight and aggressively stress-test it against counter-arguments.",
+      "problem_statement": "Teams receive one company, industry, or financial question and must uncover a non-obvious, evidence-backed financial insight.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Qdrant",
+        "OpenAI API"
+      ],
+      "title": "AlphaThesis: Multi-Agent Financial Research & Falsification Engine",
+      "track": "",
+      "why_it_could_win": "Directly automates the core requirement of uncovering non-obvious, evidence-backed financial insights using adversarial thesis falsification, matching successful patterns from high-level trading and research agent wins."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:995312246"
+      ],
+      "pitch": "A natural language search and semantic analysis tool for retail and manufacturing buyers to uncover hidden margin erosion risks across fragmented public supplier data.",
+      "problem_statement": "Teams receive one company, industry, or financial question and must uncover a non-obvious, evidence-backed financial insight.",
+      "stack": [
+        "TypeScript",
+        "Superlinked",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "SupplySignal: Procurement & Footprint Intelligence",
+      "track": "",
+      "why_it_could_win": "Combines natural language semantic search over unstructured public data to present a rapid, interactive dashboard that judges can query live."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated anomaly detection system that correlates satellite shipping data, port congestion metrics, and macroeconomic indicators to predict supply chain disruptions for specific industries.",
+      "problem_statement": "Teams receive one company, industry, or financial question and must uncover a non-obvious, evidence-backed financial insight.",
+      "stack": [
+        "Python",
+        "TimescaleDB",
+        "Isolation Forest",
+        "FastAPI"
+      ],
+      "title": "MacroAnomaly: IoT & Logistics Supply Chain Stress Detector",
+      "track": "",
+      "why_it_could_win": "Uses hard time-series anomaly detection algorithms to provide rigorous quantitative evidence rather than surface-level LLM summaries."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An analytical platform that evaluates corporate sustainability and financial disclosure reports for greenwashing, linguistic bias, and over-optimistic sentiment skew.",
+      "problem_statement": "Teams receive one company, industry, or financial question and must uncover a non-obvious, evidence-backed financial insight.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "HuggingFace Transformers",
+        "TailwindCSS"
+      ],
+      "title": "BiasAlpha: Financial Sentiment and Disclosures Fairness Audit",
+      "track": "",
+      "why_it_could_win": "Provides a completely unique angle on financial analysis by auditing the reliability and bias of the underlying reporting text."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A 3-turn metacognition harness that tests multiple reasoning models against historical financial shock scenarios to determine which model configuration provides the most reliable signal.",
+      "problem_statement": "Teams receive one company, industry, or financial question and must uncover a non-obvious, evidence-backed financial insight.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "MetaSignal: LLM Reasoning Benchmark for Market Forecasting",
+      "track": "",
+      "why_it_could_win": "Leverages sophisticated multi-turn reasoning benchmarks that impress technical judges looking for rigorous validation methods."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

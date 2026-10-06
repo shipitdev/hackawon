@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-06T09:15:27.838582+00:00",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766040",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A real-time routing and fill-level monitoring system for municipal waste bins in Jammu to optimize garbage truck collection routes.",
+      "problem_statement": "Waste Management",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Leaflet.js",
+        "Supabase"
+      ],
+      "title": "JammuCleanRoute: Dynamic Waste Collection Fleet Optimizer",
+      "track": "Waste Management",
+      "why_it_could_win": "Addresses municipal pain points directly with a working route-optimization dashboard, echoing the real-world impact and live council dashboard pattern seen in winning civic tech hacks."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1261513376"
+      ],
+      "pitch": "An AI-powered geospatial audit tool that analyzes satellite imagery and crowd-sourced geo-tags to assess green space coverage and public park maintenance needs in Jammu.",
+      "problem_statement": "Green Spaces & Public Realm",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailwindCSS",
+        "PostGIS"
+      ],
+      "title": "TawiGreen: Urban Canopy and Public Realm Health Tracker",
+      "track": "Green Spaces & Public Realm",
+      "why_it_could_win": "Combines visual data processing with concrete metrics on urban green cover, aligning with municipal sustainability goals and providing judges with a clear visual demonstration."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1261513376"
+      ],
+      "pitch": "A localized LLM-powered triage platform that clusters citizen-reported urban infrastructure faults and automatically routes them to the correct Jammu municipal ward authority.",
+      "problem_statement": "Urban Planning",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React",
+        "LangChain",
+        "SQLite"
+      ],
+      "title": "JammuUrbanPulse: Citizen-Driven Civic Grievance & Ward Planning Copilot",
+      "track": "Urban Planning",
+      "why_it_could_win": "Leverages agentic workflow patterns and text classification to solve administrative bottlenecks, matching the practical utility prized in civic challenge hackathon winners."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A walk-to-earn mobile web app that incentivizes citizens to report illegal dumping sites and verify neighborhood cleanliness drives through geo-stamped photos.",
+      "problem_statement": "Cleanliness",
+      "stack": [
+        "React Native",
+        "TypeScript",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "CleanJammu Audit: Neighborhood Cleanliness Scoring and Reward App",
+      "track": "Cleanliness",
+      "why_it_could_win": "Replicates the gamified walk-to-earn community engagement model of past real-world impact winners, making local governance interactive for residents."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1143576965"
+      ],
+      "pitch": "A sensor-mocking and predictive dashboard that forecasts urban waterlogging hot spots during heavy rains in Jammu using topographical data and weather APIs.",
+      "problem_statement": "Urban Planning",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "EcoDrain Jammu: Flood and Waterlogging Early Warning System",
+      "track": "Urban Planning",
+      "why_it_could_win": "Applies rigorous time-series forecasting and risk-calibration techniques to real municipal geography, echoing the predictive accuracy valued in top forecasting hacks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

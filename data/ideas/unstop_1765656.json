@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-10-06T09:15:13.325862+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765656",
+  "ideas": [
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A robust, thread-safe configuration management module built against a rigorous test suite for the machine coding round.",
+      "problem_statement": "Machine coding (Easy): build a working module against a real test suite.",
+      "stack": [
+        "Java",
+        "Python"
+      ],
+      "title": "Machine Coding Sandbox Module",
+      "track": "Machine coding",
+      "why_it_could_win": "Focuses strictly on passing 100 percent of the automated test cases under tight time constraints, aligning with the core judging metric of Gronex's auto-grader."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "An extensible low-level design extension for a ride-sharing core codebase, adding multi-stop pooling without breaking legacy interfaces.",
+      "problem_statement": "Low-level design (Hard): extend an existing codebase without breaking what already works.",
+      "stack": [
+        "Java",
+        "C++"
+      ],
+      "title": "LLD Extension Engine",
+      "track": "Low-level design",
+      "why_it_could_win": "Demonstrates clean object-oriented principles, design patterns, and backwards compatibility required to pass strict LLD grading suites."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A rapid log-parsing utility script designed to correlate application, database, and cache timestamps to isolate deadlock conditions during production debugging.",
+      "problem_statement": "Production debugging (Hard): app, database and cache logs from a failing service. Find the root cause and fix the bug that took prod down.",
+      "stack": [
+        "Python",
+        "Node.js"
+      ],
+      "title": "Prod Log Root Cause Analyzer",
+      "track": "Production debugging",
+      "why_it_could_win": "Directly targets the hardest problem type in the contest by systematically parsing distributed logs to pinpoint race conditions and failing queries instantly."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "A local mock runner replicating the browser-based Gronex execution environment to pre-test code modules before final submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Python"
+      ],
+      "title": "Gronex Workspace Test Harness",
+      "track": "",
+      "why_it_could_win": "Gives a competitive edge by eliminating syntax and environment mismatch errors before running against the auto-grader."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "An automated refactoring script that enforces solid design principles across legacy class hierarchies for LLD challenges.",
+      "problem_statement": "Low-level design (Hard): extend an existing codebase without breaking what already works.",
+      "stack": [
+        "Java",
+        "C++"
+      ],
+      "title": "Design Pattern Refactoring Suite",
+      "track": "Low-level design",
+      "why_it_could_win": "Maximizes code maintainability scores by automatically identifying and fixing SOLID violations in unfamiliar codebases."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
