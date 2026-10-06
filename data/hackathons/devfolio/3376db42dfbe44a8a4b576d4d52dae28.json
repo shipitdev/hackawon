@@ -6,7 +6,7 @@
   "ends_at": "2026-10-24T04:30:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 99,
+  "participants_count": 103,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -106,7 +106,7 @@
     "judges": [],
     "location": "Indo Global Colleges, New Chandigarh, Abhipur, Punjab, India",
     "name": "Srijan Setu",
-    "participants_count": 99,
+    "participants_count": 103,
     "participants_details": [
       {
         "first_name": "Radheshyam",
@@ -131,7 +131,22 @@
       }
     ],
     "private": false,
-    "prizes": [],
+    "prizes": [
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "ElevenLabs",
+        "parent_prize_uuid": null,
+        "uuid": "020f9a6d5b464de683e78e482a70a798"
+      },
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "n8n",
+        "parent_prize_uuid": null,
+        "uuid": "b973a60cc0614573a6366ec12b4971e9"
+      }
+    ],
     "projects_submitted": 0,
     "rating": 0,
     "slug": "srijan-setu",
@@ -179,6 +194,20 @@
             "name": "ElevenLabs",
             "position": 1,
             "uuid": "9274d4a7b25f4899a8482c2062130215"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://n8n.io/",
+              "logo": null,
+              "name": "n8n",
+              "uuid": "949875b209314176b8d1649578361a9a",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/3376db42dfbe44a8a4b576d4d52dae28/sponsors/014955fabc084522a7bb827abce173b7/185.png",
+            "name": "n8n",
+            "position": 2,
+            "uuid": "014955fabc084522a7bb827abce173b7"
           }
         ],
         "uuid": "70f87c2d474347eab116a8ed6f158268",
@@ -231,6 +260,7 @@
   "sponsors": [
     "VIZIANE",
     "ElevenLabs",
+    "n8n",
     "Innovation Mission Punjab"
   ],
   "starts_at": "2026-10-23T02:30:00Z",
@@ -239,6 +269,9 @@
   "team_min": 2,
   "themes": [],
   "title": "Srijan Setu",
-  "tracks": [],
+  "tracks": [
+    "ElevenLabs",
+    "n8n"
+  ],
   "url": "https://srijan-setu.devfolio.co/"
 }
