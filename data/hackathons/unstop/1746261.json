@@ -54,7 +54,7 @@
       "sort_order": 1,
       "state": "Maharashtra",
       "state_code": null,
-      "updated_at": "2026-09-30T19:11:03+05:30",
+      "updated_at": "2026-10-06T12:05:47+05:30",
       "zip": null
     },
     "approved_date": "2026-08-30 12:02:03 GMT+0530",
@@ -95,7 +95,7 @@
           },
           "differentlyAbled": {
             "mandatory": false,
-            "required": true
+            "required": false
           },
           "email": {
             "mandatory": true,
@@ -165,10 +165,17 @@
         },
         "reg_amount": null,
         "reg_restricted": 0,
+        "reg_status": "STARTED",
         "registration_config": {
           "enable_newsletter_subscription": 0
         },
         "registration_limit": null,
+        "remain_days": "8 days left",
+        "remainingDaysArray": {
+          "durations": 8,
+          "text": " days left"
+        },
+        "remaining_time": 691462,
         "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
         "resume_parser": 0,
         "same_course": 0,
@@ -355,7 +362,7 @@
       "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[2027,2028,2029,2030,2031],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-10-15T00:00:00+05:30",
       "max_team_size": 4,
-      "min_team_size": 2,
+      "min_team_size": 1,
       "opportunity_id": 1746261,
       "reg_status": "STARTED",
       "remain_days": "8 days left",
@@ -363,7 +370,7 @@
         "durations": 8,
         "text": " days left"
       },
-      "remaining_time": 734728,
+      "remaining_time": 691445,
       "show_deadline": 1,
       "start_regn_dt": "2026-08-31T00:00:00+05:30",
       "work_location_type": "city"
@@ -375,7 +382,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1746261,
-          "id": 6338551,
+          "id": 6430264,
           "subject_id": 646049
         },
         "skill": "Embedded Systems Design",
@@ -386,7 +393,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1746261,
-          "id": 6338552,
+          "id": 6430265,
           "subject_id": 647179
         },
         "skill": "Robotics Kinematics",
@@ -397,7 +404,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1746261,
-          "id": 6338553,
+          "id": 6430266,
           "subject_id": 643296
         },
         "skill": "Autonomous Systems",
@@ -408,7 +415,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1746261,
-          "id": 6338554,
+          "id": 6430267,
           "subject_id": 644845
         },
         "skill": "Robot Operating System (ROS)",
@@ -425,7 +432,7 @@
     "title": "Robo Race",
     "type": "hackathons",
     "updated_at": "2026-09-30T19:11:03+05:30",
-    "viewsCount": 22930,
+    "viewsCount": 23138,
     "visibility": "public",
     "workfunction": [
       {
@@ -437,7 +444,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1746261,
-          "id": 6338555,
+          "id": 6430268,
           "subject_id": 1884
         },
         "updated_at": "2026-02-06T23:31:46+05:30",
@@ -453,7 +460,7 @@
   "starts_at": null,
   "tagline": null,
   "team_max": 4,
-  "team_min": 2,
+  "team_min": 1,
   "themes": [],
   "title": "Robo Race",
   "tracks": [],
