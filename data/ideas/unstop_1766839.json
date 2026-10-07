@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-07T09:05:47.907320+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766839",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data engineering agent that intercepts pipeline breaks, generates verified schema/query fixes via evidence gates, and executes safe write-backs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude",
+        "DataHub",
+        "LangGraph"
+      ],
+      "title": "RobustFlow: Automated Data Pipeline Incident Self-Healing Engine",
+      "track": "",
+      "why_it_could_win": "Code Kernel '26 explicitly focuses on the 'Prove' stage where solutions must survive unseen test cases and changing constraints. Building an autonomous agent with a strict verification gate matches the exact architecture of grand-prize-winning data incident systems."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1234067949"
+      ],
+      "pitch": "A sensor data processing and predictive machine learning platform that forecasts water contamination risks 3-5 days in advance using robust time-series bounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-Learn",
+        "FastAPI"
+      ],
+      "title": "AeroShield: Edge IoT Algal Bloom Early Warning System",
+      "track": "",
+      "why_it_could_win": "Targeting the Build and Prove stages with mathematical rigor (calibrated prediction intervals and rolling backtests) directly appeals to technical judges looking for practical robustness over simple UI prototypes."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AML risk detection platform that combines graph network intelligence with explainable gradient-boosted trees to surface hidden laundering rings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LightGBM",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "GraphAML: Explainable Financial Crime Investigation Workspace",
+      "track": "",
+      "why_it_could_win": "Adopts a hard engineering approach combining graph algorithms with explainable AI, making it defensible during deep technical evaluations and live Q&A sessions."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A local voice-first agent running on edge runtimes that intercepts incoming digital scams and social engineering patterns in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "WebRTC",
+        "Python",
+        "Transformers"
+      ],
+      "title": "ElderGuard Voice Agent: Scam Isolation Shield for Seniors",
+      "track": "",
+      "why_it_could_win": "By creating a live, working multimodal application with a tangible social impact and robust edge execution, the team can ace the rigorous live demo and questioning round."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A decentralized data-trading ledger using verifiable digital credentials to guarantee user ownership and fine-grained access control over telemetry data.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Solana",
+        "Rust",
+        "Corda"
+      ],
+      "title": "DataSovereign Vault: Hybrid Digital Identity and Data Ownership Exchange",
+      "track": "",
+      "why_it_could_win": "Exhibits genuinely hard engineering by bridging hybrid cryptographic identity models with functional data trading workflows, scoring exceptionally well on technical depth."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

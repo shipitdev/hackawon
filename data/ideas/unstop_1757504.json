@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-07T09:05:21.413210+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757504",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A localized mobile-web health triage platform supporting regional languages like Tamil to assess symptoms, track local disease outbreaks, and connect rural patients directly to nearby primary health centers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "GramAarogyam: Multilingual Rural Health Triage & Outbreak Predictor",
+      "track": "",
+      "why_it_could_win": "Directly targets regional healthcare accessibility with local language support and a live outbreak dashboard, matching real-world impact criteria favored by academic panel judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An offline-first mobile web app for local fishermen in coastal regions like Kanniyakumari that provides hyper-local marine weather alerts, wave height predictions, and emergency SOS routing via SMS gateways.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "SQLite",
+        "Twilio API"
+      ],
+      "title": "CoastalCast: Localized Fishermen Weather & Maritime Safety Copilot",
+      "track": "",
+      "why_it_could_win": "Solves an urgent, region-specific coastal safety problem that instantly connects with local university judges from Tamil Nadu."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1393689488"
+      ],
+      "pitch": "A logistics and route optimization dashboard for local farmers cooperatives to schedule transport, track cold-storage truck temperatures in real time, and minimize crop spoilage before reaching regional markets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Vue.js",
+        "Python",
+        "Flask",
+        "Leaflet.js",
+        "PostgreSQL"
+      ],
+      "title": "AgriRoute: Farm-to-Market Cold Chain & Perishable Supply Optimizer",
+      "track": "",
+      "why_it_could_win": "Emphasizes clear economic impact and measurable reduction in agricultural waste, satisfying judging criteria for real-world applicability."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A real-time occupancy and queue-management progressive web app for campus facilities like dining halls and libraries, utilizing Wi-Fi probe requests or quick QR check-ins to display live wait times and load balancing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Firebase",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "CampusQueue: Smart Mess & Facility Crowd-Management System",
+      "track": "",
+      "why_it_could_win": "Highly relatable to the host institution (NICHE) and easy to demonstrate live during the offline finale with actual students scanning QR codes in real time."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1346526259"
+      ],
+      "pitch": "A computer-vision-powered mobile web tool that lets citizens photograph sorted plastic waste at local collection points, automatically verifies material type, and credits digital loyalty tokens redeemable at local partner shops.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Streamlit",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "EcoAudit: Municipal Plastic Waste & Recycling Incentive Tracker",
+      "track": "",
+      "why_it_could_win": "Combines computer vision with civic-tech sustainability, appealing directly to panels looking for scalability and real-world municipal applicability."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

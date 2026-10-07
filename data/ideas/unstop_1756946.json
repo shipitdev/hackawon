@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-07T09:05:16.285416+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1756946",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An IoT-enabled smart energy monitoring and automated load-shedding prototype built specifically for university campuses.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NodeMCU",
+        "MQTT",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CampusIoT EcoGrid",
+      "track": "",
+      "why_it_could_win": "Since the host department focuses heavily on IoT and CS, judges will reward projects that integrate hardware sensors or microcontroller emulators with a clean dashboard."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A lightweight supply chain transparency ledger tailored for tracking perishable laboratory reagents and biotechnology assets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "SQLite",
+        "Express"
+      ],
+      "title": "BioTrace Supply",
+      "track": "",
+      "why_it_could_win": "Directly nods to the organizing Biotechnology (BT) department by solving a domain-specific asset tracking challenge rather than a generic app."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated RFID and computer vision presence logger that monitors lab safety gear compliance for engineering students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "SQLite"
+      ],
+      "title": "SmartLab Attendance & Safety Tracker",
+      "track": "",
+      "why_it_could_win": "Demonstrates immediate, practical utility for university administration, which resonates well with academic-hosted hackathon judging panels."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An open-innovation logistics optimizer that maps local micro-delivery routes for campus student cooperatives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Leaflet.js",
+        "FastAPI"
+      ],
+      "title": "LocalRoute AI Hub",
+      "track": "",
+      "why_it_could_win": "Fits the Open Innovation theme while keeping scope tight enough to build a working prototype within a compressed timeframe."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A low-cost soil moisture and ambient telemetry collector designed for small-scale urban agriculture initiatives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "Streamlit",
+        "InfluxDB"
+      ],
+      "title": "AgriSensor Edge Node",
+      "track": "",
+      "why_it_could_win": "Aligns with the IoT and CS department's focus areas by presenting an end-to-end telemetry pipeline from sensor node to cloud dashboard."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

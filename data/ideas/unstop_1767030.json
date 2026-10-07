@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-07T09:06:01.879359+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "edtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767030",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered training platform for medical and nursing students featuring an interactive AI patient with dynamic vocal sentiment analysis and MediaPipe-based physical exam pose validation.",
+      "problem_statement": "AI for Healthcare",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "MediaPipe",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "Clinical-XR: AI Medical OSCE Training Simulator",
+      "track": "AI for Healthcare",
+      "why_it_could_win": "Leverages proven architectural patterns from top-tier healthcare hackathon winners by combining LLM roleplay with multi-modal physical assessment validation, directly appealing to judges looking for real-world utility over simple text wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent sustainability platform that ingests raw supply chain invoices and utility bills to automatically calculate, audit, and generate ISO-compliant corporate carbon footprint reports.",
+      "problem_statement": "AI for Sustainability",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Supabase",
+        "FastAPI",
+        "Python"
+      ],
+      "title": "EcoAudit AI: Automated Scope 1-3 Carbon Accounting",
+      "track": "AI for Sustainability",
+      "why_it_could_win": "Builds directly on multi-agent RAG workflow paradigms that excel at sustainability competitions, offering judges a fully transparent, verifiable audit trail rather than black-box approximations."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1193031299"
+      ],
+      "pitch": "An educational copilot that ingests unstructured lecture slides and textbooks to dynamically generate multi-tier interactive quizzes, personalized remedial paths, and instant concept maps.",
+      "problem_statement": "AI for Education",
+      "stack": [
+        "JavaScript",
+        "FastAPI",
+        "Google Gemini API",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "SyllabiGen: Adaptive Curriculum & Assessment Suite",
+      "track": "AI for Education",
+      "why_it_could_win": "Adopts the architecture of prize-winning educational tech agents that automate pedagogical workflows, solving real teacher burnout by cutting quiz creation time by over 90%."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An automated business workflow agent that extracts unstructured PDF receipts, matches them against inventory logs, flags anomalies, and auto-generates localized tax compliance documents.",
+      "problem_statement": "AI for Business",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "OpenAI Vision API"
+      ],
+      "title": "InvoSync AI: Autonomous Local Vendor Invoice Reconciler",
+      "track": "AI for Business",
+      "why_it_could_win": "Addresses immediate enterprise pain points with a working end-to-end automation demo that proves tangible economic savings within seconds."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1074933780"
+      ],
+      "pitch": "A productivity workspace tool that auto-summarizes engineering syncs, extracts technical action items, converts them into GitHub issues, and verifies code pull request descriptions.",
+      "problem_statement": "AI Productivity & Automation",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "GitHub API",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "DevPulse AI: Engineering Meeting Triage & PR Copilot",
+      "track": "AI Productivity & Automation",
+      "why_it_could_win": "Focuses on developer workflow friction with deep third-party integrations, scoring high on practical utility and ease of live demonstration."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

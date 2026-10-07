@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-07T09:05:35.392987+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766232",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered Discord community intelligence tool that summarizes server activity, flags unanswered questions, and surfaces high-value discussions for event hosts in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Discord.js",
+        "Gemini API"
+      ],
+      "title": "AdmitiyDiscordPulse",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the Discord hosting format of the hackathon, making event moderation and engagement analysis significantly easier for the organizers."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [],
+      "pitch": "A lightning-fast portfolio and project card generator designed specifically for 12-hour hackathons, allowing participants to package their Discord submissions into interactive live demos with one click.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Vite"
+      ],
+      "title": "VibeShare",
+      "track": "",
+      "why_it_could_win": "Fits the 'Build something worth sharing' tagline perfectly by solving the friction of packaging and submitting projects within a tight 12-hour window."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1193031299",
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent study buddy that ingests reference documents shared in student Discord channels and instantly generates adaptive quizzes and structured revision flashcards.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "title": "StudyVibeAI",
+      "track": "",
+      "why_it_could_win": "Leverages proven patterns from educational tech hackathon winners by combining multi-agent flows with immediate, actionable assessment outputs."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A micro-wellness assistant optimized for intense 12-hour sprints that monitors screen time, prompts healthy stretches, and delivers personalized nutritious snack and meal ideas.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "VibeCheck Health & Wellness",
+      "track": "",
+      "why_it_could_win": "Addresses the immediate physical constraints of a high-intensity 12-hour sprint with an engaging, practical utility tool that judges testing the hackathon can relate to."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "An automated repository compliance checker that inspects submissions for proper license attribution, third-party resource disclosures, and AI usage documentation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "GitHub API"
+      ],
+      "title": "CodeVibeAudit",
+      "track": "",
+      "why_it_could_win": "Directly automates the specific rules and disclosure requirements laid out in the hackathon guidelines, providing immediate utility to event organizers."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

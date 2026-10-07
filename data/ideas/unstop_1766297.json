@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-07T09:05:43.605577+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766297",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1010199928"
+      ],
+      "pitch": "A miniaturized IoT-driven bioreactor prototype that simulates life support nutrient cycling and LED spectrum manipulation for long-duration space missions.",
+      "problem_statement": "Beyond Earth: Ideas related to space exploration, future habitats, satellites, space technology, life beyond Earth, and the future of humanity in space.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "C++",
+        "React"
+      ],
+      "title": "AstroFlora: Closed-Loop Micro-Green Habitat Simulation",
+      "track": "Beyond Earth",
+      "why_it_could_win": "Aligns with the Beyond Earth theme by featuring a tangible physical prototype built with sensors and microcontrollers, directly echoing hardware-winning patterns."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A lightweight web dashboard parsing real-time satellite telemetry to predict collision vectors for low-Earth orbit payloads.",
+      "problem_statement": "Beyond Earth: Ideas related to space exploration, future habitats, satellites, space technology, life beyond Earth, and the future of humanity in space.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Three.js",
+        "Python"
+      ],
+      "title": "OrbitalDebris Radar & Trajectory Visualizer",
+      "track": "Beyond Earth",
+      "why_it_could_win": "Tackles a pressing aerospace problem using live API integration, giving judges a high-utility technical demo within the space theme."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:901472660"
+      ],
+      "pitch": "An offline-first mobile and backend system empowering local civic bodies to track water distribution assets, leakages, and consumption metrics.",
+      "problem_statement": "Smart World, Better Future: Ideas that use technology and innovation to solve real-world problems and improve everyday life.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "AquaGrid: Smart Community Water Asset Manager",
+      "track": "Smart World, Better Future",
+      "why_it_could_win": "Directly mimics a proven national hackathon winner architecture by focusing on localized resource management and operational reliability."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A low-cost RF mesh communication node utilizing off-the-shelf radio modules for resilient data passing when cellular networks fail.",
+      "problem_statement": "Future without Limits: Open-ended innovative ideas that address future challenges and create new possibilities.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Hardware",
+        "Python"
+      ],
+      "title": "AeroMesh: Emergency Offline Mesh Transceiver",
+      "track": "Future without Limits",
+      "why_it_could_win": "Replicates a recent Best Hardware Hack winner by solving communications blackout scenarios with a functional physical prototype."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A microcontroller-driven waste sorting prototype using computer vision to instantly categorize recyclables for automated municipal processing.",
+      "problem_statement": "Smart World, Better Future: Ideas that use technology and innovation to solve real-world problems and improve everyday life.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "TensorFlow Lite"
+      ],
+      "title": "SortAI: Edge-Optimized Waste Classification Bin",
+      "track": "Smart World, Better Future",
+      "why_it_could_win": "Leverages a proven hackathon-winning robotics and AI pattern with a working physical demo that judges can interact with live."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

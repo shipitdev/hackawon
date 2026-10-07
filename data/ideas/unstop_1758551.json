@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-07T09:05:25.567424+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758551",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An AI agent that takes a local merchant's paper invoice or manual workflow and instantly prototypes a full-stack SaaS micro-app using Google Gemini and FastAPI.",
+      "problem_statement": "Stage 02 is exclusively focused on artificial intelligence, encouraging teams to leverage Google Gemini to build intelligent, practical solutions and startup prototypes.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "Streamlit"
+      ],
+      "title": "Gemini-Powered Micro-SaaS Blueprint Generator",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Directly targets the event's stated core mission: moving beyond a basic slide deck to establish a working startup prototype with a clear future roadmap."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:938030912",
+        "github:1226951926"
+      ],
+      "pitch": "An automated evaluation tool that ingests a team's code repository and README, using Gemini to generate a live pitch deck, financial projections, and investor risk assessment.",
+      "problem_statement": "Stage 02 is exclusively focused on artificial intelligence, encouraging teams to leverage Google Gemini to build intelligent, practical solutions and startup prototypes.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Google Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "Auto-Pitch & Startup Validator Agent",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Speaks directly to the judges and mentors in the room who want to see projects transition into Stage 03 (Kurukshetra) as active companies."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A localized IDE extension powered by Google Gemini that explains legacy codebases and refactors them based on local language prompt inputs, easing entry for regional student developers.",
+      "problem_statement": "Stage 02 is exclusively focused on artificial intelligence, encouraging teams to leverage Google Gemini to build intelligent, practical solutions across any focus areas.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Google Gemini API"
+      ],
+      "title": "Gemini-Driven Local Language Code Refactorer for Regional Devs",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Leverages Google Gemini's strong multilingual capabilities to solve a relatable development workflow pain point for local participants."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An intelligent GitHub bot that intercepts runtime error logs from student projects, traces root-cause errors via Gemini, and automatically opens a fully tested pull request.",
+      "problem_statement": "Stage 02 is exclusively focused on artificial intelligence, encouraging teams to leverage Google Gemini to build intelligent, practical solutions and startup prototypes.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Google Gemini API",
+        "GitHub Webhooks"
+      ],
+      "title": "Autonomous AI Bug Triage and Patch Agent",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Demonstrates hard engineering with a working live demo that fixes real developer problems instantly, matching a proven hackathon winning pattern."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A document-processing intelligence platform that scans local regulatory forms using Gemini vision capabilities and highlights legal compliance gaps for small business founders.",
+      "problem_statement": "Stage 02 is exclusively focused on artificial intelligence, encouraging teams to leverage Google Gemini to build intelligent, practical solutions and startup prototypes.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini Vision API",
+        "Pandas"
+      ],
+      "title": "AI-Powered Compliance and Risk Auditor for Local MSMEs",
+      "track": "The Google Gemini Spotlight Track",
+      "why_it_could_win": "Addresses an immediate, real-world business validation need in regional markets, positioning the project as a viable pre-startup candidate for Stage 03."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

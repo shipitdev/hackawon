@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-07T09:05:38.640608+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766285",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A multilingual AI triage and localized outbreak prediction dashboard designed for rural health workers in developing regions.",
+      "problem_statement": "Real-world problem statements releasing at event start focusing on social and health impact prototypes.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "OpenAI API"
+      ],
+      "title": "RuralPulse AI Health Outbreak Tracker",
+      "track": "",
+      "why_it_could_win": "Combines clear measurable social impact with a working prototype demo, a proven winning pattern from SAGACITY."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1213911408"
+      ],
+      "pitch": "A civic-tech GPS tracking platform that rewards citizens with tokens for choosing low-carbon walking and cycling transit routes.",
+      "problem_statement": "Real-world problem statements releasing at event start focusing on sustainability and urban mobility.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Supabase",
+        "Mapbox GL"
+      ],
+      "title": "EcoRoute Community Green Credits",
+      "track": "",
+      "why_it_could_win": "Directly tackles urban environmental issues with gamified civic engagement, matching the success of the catwalk project."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered municipal reporting tool that ingests citizen photos, auto-categorizes civic infrastructure faults, and routes them directly to local council dashboards.",
+      "problem_statement": "Real-world problem statements releasing at event start focusing on community management and real-world impact.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenCV",
+        "PostgreSQL"
+      ],
+      "title": "CivicIssue Auto-Router",
+      "track": "",
+      "why_it_could_win": "Features an immediate working live demo and addresses tangible municipal inefficiencies that judges can easily understand."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-based transaction monitoring dashboard designed to flag illicit supply chain funding loops and anomalies within vendor networks.",
+      "problem_statement": "Real-world problem statements releasing at event start focusing on enterprise logistics and financial transparency.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "SupplyChain AML Risk Radar",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering through graph intelligence and risk scoring, matching the Bito hackathon-winning architecture."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive modeling tool using historical weather and soil data to generate calibrated harvest risk intervals for local farmers.",
+      "problem_statement": "Real-world problem statements releasing at event start focusing on agricultural forecasting and economic resilience.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "Scikit-Learn"
+      ],
+      "title": "AgriCrop Yield Forecast Engine",
+      "track": "",
+      "why_it_could_win": "Implements rigorous statistical prediction intervals and backtesting, mirroring the technical depth of the Apart Research winning project."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-10-07T09:05:56.491660+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766977",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive step-through debugger specifically designed for IOI-style competitive programming problems, letting students visualize graph traversals, DP tables, and segment trees in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Canvas API",
+        "Monaco Editor"
+      ],
+      "title": "IOI Visualizer & Algorithmic Debugger",
+      "track": "",
+      "why_it_could_win": "Targeting an IOI-inspired contest like Procon Jr., judges and participants heavily value deep algorithmic clarity and debugging tools that make complex logic understandable."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A personalized skill gap analyzer that ingests past contest submissions, identifies weak algorithmic paradigms (e.g., dynamic programming vs. greedy), and generates targeted practice sets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "CodeClimb: Competitive Programming Progress Tracker",
+      "track": "",
+      "why_it_could_win": "Aligns with the competitive programming focus of Procon Jr. by addressing the exact preparation needs of school students aiming for IIIT-Delhi admissions."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A lightweight, low-latency live coding duel platform featuring automated test case generation and real-time execution comparisons for school-level coders.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Docker",
+        "Node.js"
+      ],
+      "title": "AlgoDuel: P2P Synchronous Code Battle Platform",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in handling real-time WebSocket communication and secure code sandboxing within a tight timeframe."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A static analysis tool that parses competitive programming submissions to estimate time and space complexities (Big-O notation) and warn students of potential TLE (Time Limit Exceeded) errors before submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AST parsing",
+        "Streamlit"
+      ],
+      "title": "ComplexityCrunch: Static Code Complexity Analyzer",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable pain point for every competitive programmer participating in contests like Procon Jr."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive modeling tool that maps JEE Main percentiles and Procon Jr. bonus points to historical JAC counselling cutoff trends to help students optimize their college preferences.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "JAC-RankPredictor: IIIT-Delhi Admission Calculator",
+      "track": "",
+      "why_it_could_win": "Directly ties into the unique academic benefit of Procon Jr. (bonus points for IIIT-Delhi admissions), making it immediately useful and engaging for every participant and organizer."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
