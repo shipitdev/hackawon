@@ -1,0 +1,271 @@
+{
+  "city": null,
+  "country": null,
+  "description": "Event Name: ARESxShunya Event Format: Pokémon AI Battle Organised By: ARES Robotics, NSUT About the Event: ARESxShunya is a live AI-versus-AI Pokémon-style battle competition where participants build a team of three Pokémon and develop an AI agent to control them autonomously. Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it. The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making. Event Details: Team Size: 1–2 members. Duration: 2.5–3 hours. Venue: Mini Audi. Mode: Offline. Event Structure: Phase 1 – The Team Draft: Participants select exactly three Pokémon from a predefined list. Each Pokémon has a predefined list of permitted moves. Only the Pokémon and moves provided by the organisers can be selected. Teams are designed to minimise extreme type advantages. Final teams are locked before the AI development phase. Phase 2 – The AI Training Ground: Participants receive the battle API and a local simulator. Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms. The AI receives the current battle state and selects a legal move or switches Pokémon. Teams qualify for the live tournament after successfully passing submission/API validation. Phase 3 – The Shunya AI Finale: Submitted AIs compete against each other in fully autonomous live battles. The battle engine controls turns, damage, status effects, switching, and win conditions. Live battles are displayed as animated Pokémon-style AI battles. A tournament bracket or leaderboard tracks the results. Battle Format: AI A vs AI B. Battle state is provided to the AI. AI selects an action. Battle engine executes the action. Updated battle state is provided to the AI. The cycle continues until one team has no remaining Pokémon. Simplified Battle Rules: E",
+  "eligibility_text": null,
+  "ends_at": "2026-10-14T00:00:00+05:30",
+  "mode": "in_person",
+  "organiser": "Netaji Subhas University of Technology (NSUT), Delhi",
+  "participants_count": 19,
+  "prize_amount": 18000,
+  "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Event Name: ARESxShunya Event Format: Pokémon AI Battle Organised By: ARES Robotics, NSUT About the Event: ARESxShunya is a live AI-versus-AI Pokémon-style battle competition where participants build a team of three Pokémon and develop an AI agent to control them autonomously. Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it. The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making. Event Details: Team Size: 1–2 members. Duration: 2.5–3 hours. Venue: Mini Audi. Mode: Offline. Event Structure: Phase 1 – The Team Draft: Participants select exactly three Pokémon from a predefined list. Each Pokémon has a predefined list of permitted moves. Only the Pokémon and moves provided by the organisers can be selected. Teams are designed to minimise extreme type advantages. Final teams are locked before the AI development phase. Phase 2 – The AI Training Ground: Participants receive the battle API and a local simulator. Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms. The AI receives the current battle state and selects a legal move or switches Pokémon. Teams qualify for the live tournament after successfully passing submission/API validation. Phase 3 – The Shunya AI Finale: Submitted AIs compete against each other in fully autonomous live battles. The battle engine controls turns, damage, status effects, switching, and win conditions. Live battles are displayed as animated Pokémon-style AI battles. A tournament bracket or leaderboard tracks the results. Battle Format: AI A vs AI B. Battle state is provided to the AI. AI selects an action. Battle engine executes the action. Updated battle state is provided to the AI. The cycle continues until one team has no remaining Pokémon. Simplified Battle Rules: Each participant has exactly three Pokémon. Only Pokémon from the official event pool can be selected. Only moves from the official event move list can be used. Basic attack and simple status moves form the primary action set. Stats are standardised and simplified wherever possible. No manual decisions are permitted once a match begins. Type matchups are designed to reduce the impact of team selection alone. Exact battle mechanics and permitted actions will be fixed by the organisers. AI Input & Output: Own active Pokémon, HP, and status. Opponent's visible Pokémon, HP, and status. Available moves. Available Pokémon for switching. Current turn and battle information. Previously observed battle results, where applicable. The AI returns a legal action such as using a move or switching Pokémon. Competition Highlights: Build your own three-Pokémon team and hand over control to your AI. Fully autonomous AI-versus-AI battles. Live animated battles for an engaging audience experience. Controlled move pool for simpler and more strategic gameplay. Supports both conventional algorithms and machine-learning approaches. Identical battle engine and rules for all participants. Requirements: Laptop. Basic programming knowledge. Python recommended. Basic understanding of algorithms and probability is helpful. No prior Pokémon competitive-battle expertise is required. Judging Criteria: Battle Wins / Tournament Performance: 45%. Decision-Making & Strategy: 25%. Team Composition: 10%. Algorithm Efficiency / Response Time: 10%. Robustness & Legal Action Handling: 10%.",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "Mini Audi",
+      "address_title": "event_location",
+      "addressable_id": 1766284,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "South West Delhi",
+      "city_id": 134012,
+      "country": {
+        "alpha_2": "in",
+        "alpha_3": "ind",
+        "id": 94,
+        "iso": "IN",
+        "iso3": "IND",
+        "logos": {
+          "large": "https://d8it4huxumps7.cloudfront.net/images/flags/48x48/in.png",
+          "medium": "https://d8it4huxumps7.cloudfront.net/images/flags/32x32/in.png",
+          "small": "https://d8it4huxumps7.cloudfront.net/images/flags/24x24/in.png",
+          "very_small": "https://d8it4huxumps7.cloudfront.net/images/flags/16x16/in.png",
+          "xlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/64x64/in.png",
+          "xxlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/128x128/in.png"
+        },
+        "name": "India",
+        "numcode": 356,
+        "phonecode": "+91   "
+      },
+      "country_code": null,
+      "created_at": "2026-10-05T21:30:42+05:30",
+      "deleted_at": null,
+      "id": 1860513,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "Delhi",
+      "state_code": null,
+      "updated_at": "2026-10-08T23:05:16+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-10-08 23:05:56 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>Event Name:</strong> ARESxShunya</p>\n<p><strong>Event Format:</strong> Pok&eacute;mon AI Battle</p>\n<p><strong>Organised By:</strong> ARES Robotics, NSUT</p>\n<p><strong>About the Event:</strong></p>\n<ul>\n<li>ARESxShunya is a live AI-versus-AI Pok&eacute;mon-style battle competition where participants build a team of three Pok&eacute;mon and develop an AI agent to control them autonomously.</li>\n<li>Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it.</li>\n<li>The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making.</li>\n</ul>\n<p><strong>Event Details:</strong></p>\n<ul>\n<li>Team Size: 1&ndash;2 members.</li>\n<li>Duration: 2.5&ndash;3 hours.</li>\n<li>Venue: Mini Audi.</li>\n<li>Mode: Offline.</li>\n</ul>\n<p><strong>Event Structure:</strong></p>\n<ul>\n<li><strong>Phase 1 &ndash; The Team Draft:</strong>\n<ul>\n<li>Participants select exactly three Pok&eacute;mon from a predefined list.</li>\n<li>Each Pok&eacute;mon has a predefined list of permitted moves.</li>\n<li>Only the Pok&eacute;mon and moves provided by the organisers can be selected.</li>\n<li>Teams are designed to minimise extreme type advantages.</li>\n<li>Final teams are locked before the AI development phase.</li>\n</ul>\n</li>\n<li><strong>Phase 2 &ndash; The AI Training Ground:</strong>\n<ul>\n<li>Participants receive the battle API and a local simulator.</li>\n<li>Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms.</li>\n<li>The AI receives the current battle state and selects a legal move or switches Pok&eacute;mon.</li>\n<li>Teams qualify for the live tournament after successfully passing submission/API validation.</li>\n</ul>\n</li>\n<li><strong>Phase 3 &ndash; The Shunya AI Finale:</strong>\n<ul>\n<li>Submitted AIs compete against each other in fully autonomous live battles.</li>\n<li>The battle engine controls turns, damage, status effects, switching, and win conditions.</li>\n<li>Live battles are displayed as animated Pok&eacute;mon-style AI battles.</li>\n<li>A tournament bracket or leaderboard tracks the results.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Battle Format:</strong></p>\n<ul>\n<li>AI A vs AI B.</li>\n<li>Battle state is provided to the AI.</li>\n<li>AI selects an action.</li>\n<li>Battle engine executes the action.</li>\n<li>Updated battle state is provided to the AI.</li>\n<li>The cycle continues until one team has no remaining Pok&eacute;mon.</li>\n</ul>\n<p><strong>Simplified Battle Rules:</strong></p>\n<ul>\n<li>Each participant has exactly three Pok&eacute;mon.</li>\n<li>Only Pok&eacute;mon from the official event pool can be selected.</li>\n<li>Only moves from the official event move list can be used.</li>\n<li>Basic attack and simple status moves form the primary action set.</li>\n<li>Stats are standardised and simplified wherever possible.</li>\n<li>No manual decisions are permitted once a match begins.</li>\n<li>Type matchups are designed to reduce the impact of team selection alone.</li>\n<li>Exact battle mechanics and permitted actions will be fixed by the organisers.</li>\n</ul>\n<p><strong>AI Input &amp; Output:</strong></p>\n<ul>\n<li>Own active Pok&eacute;mon, HP, and status.</li>\n<li>Opponent's visible Pok&eacute;mon, HP, and status.</li>\n<li>Available moves.</li>\n<li>Available Pok&eacute;mon for switching.</li>\n<li>Current turn and battle information.</li>\n<li>Previously observed battle results, where applicable.</li>\n<li>The AI returns a legal action such as using a move or switching Pok&eacute;mon.</li>\n</ul>\n<p><strong>Competition Highlights:</strong></p>\n<ul>\n<li>Build your own three-Pok&eacute;mon team and hand over control to your AI.</li>\n<li>Fully autonomous AI-versus-AI battles.</li>\n<li>Live animated battles for an engaging audience experience.</li>\n<li>Controlled move pool for simpler and more strategic gameplay.</li>\n<li>Supports both conventional algorithms and machine-learning approaches.</li>\n<li>Identical battle engine and rules for all participants.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Laptop.</li>\n<li>Basic programming knowledge.</li>\n<li>Python recommended.</li>\n<li>Basic understanding of algorithms and probability is helpful.</li>\n<li>No prior Pok&eacute;mon competitive-battle expertise is required.</li>\n</ul>\n<p><strong>Judging Criteria:</strong></p>\n<ul>\n<li>Battle Wins / Tournament Performance: 45%.</li>\n<li>Decision-Making &amp; Strategy: 25%.</li>\n<li>Team Composition: 10%.</li>\n<li>Algorithm Efficiency / Response Time: 10%.</li>\n<li>Robustness &amp; Legal Action Handling: 10%.</li>\n</ul>",
+    "end_date": "2026-10-14T00:00:00+05:30",
+    "festival": null,
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "all",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
+        "id": 420,
+        "name": "All",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1766284,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ac3cb821ec4f_img_8101.jpg",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg6\",\"text\":\"ARESxShunya\",\"type\":5,\"banner_data\":[3]}",
+      "id": 1460703,
+      "opportunity_id": 1766284,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 967,
+      "logoUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners75/5ea43063f26a3_220px-Netaji_Subhas_University_of_Technology.svg.png",
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5ea43063f26a3_220px-Netaji_Subhas_University_of_Technology.svg.png",
+      "name": "Netaji Subhas University of Technology (NSUT), Delhi",
+      "official_email_domains": "@nsut.ac.in",
+      "public_url": "c/netaji-subhas-university-of-technology-nsut-delhi-placement-interview-competitions-articles-videos-967",
+      "show_evaluator_login_link": false,
+      "tier": 1
+    },
+    "organization_id": 967,
+    "payment_services": [],
+    "prizes": [
+      {
+        "cash": 10000,
+        "cash_postfix": null,
+        "certificate": 0,
+        "currency": "fa-rupee",
+        "currencyCode": null,
+        "entity_id": 1766284,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 3861159,
+        "max_cash": null,
+        "others": "",
+        "pre_placement_internship": 0,
+        "pre_placement_opportunity": 0,
+        "rank": "1"
+      },
+      {
+        "cash": 5000,
+        "cash_postfix": null,
+        "certificate": 0,
+        "currency": "fa-rupee",
+        "currencyCode": null,
+        "entity_id": 1766284,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 3861160,
+        "max_cash": null,
+        "others": "",
+        "pre_placement_internship": 0,
+        "pre_placement_opportunity": 0,
+        "rank": "2"
+      },
+      {
+        "cash": 3000,
+        "cash_postfix": null,
+        "certificate": 0,
+        "currency": "fa-rupee",
+        "currencyCode": null,
+        "entity_id": 1766284,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 3861161,
+        "max_cash": null,
+        "others": "",
+        "pre_placement_internship": 0,
+        "pre_placement_opportunity": 0,
+        "rank": "3"
+      }
+    ],
+    "public_url": "hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284",
+    "region": "offline",
+    "registerCount": 19,
+    "regnRequirements": {
+      "eligibility": null,
+      "end_regn_dt": "2026-10-14T00:00:00+05:30",
+      "max_team_size": 2,
+      "min_team_size": 1,
+      "opportunity_id": 1766284,
+      "reg_status": "STARTED",
+      "remain_days": "4 days left",
+      "remainingDaysArray": {
+        "durations": 4,
+        "text": " days left"
+      },
+      "remaining_time": 414345,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-10-05T00:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 645580,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485430,
+          "subject_id": 645580
+        },
+        "skill": "Artificial Intelligence (AI)",
+        "skill_name": "Artificial Intelligence (AI)"
+      },
+      {
+        "id": 647074,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485431,
+          "subject_id": 647074
+        },
+        "skill": "Python",
+        "skill_name": "Python"
+      },
+      {
+        "id": 647130,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485432,
+          "subject_id": 647130
+        },
+        "skill": "Reinforcement Learning",
+        "skill_name": "Reinforcement Learning"
+      },
+      {
+        "id": 645963,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485433,
+          "subject_id": 645963
+        },
+        "skill": "Decision Making",
+        "skill_name": "Decision Making"
+      },
+      {
+        "id": 644689,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485434,
+          "subject_id": 644689
+        },
+        "skill": "Probability Theory",
+        "skill_name": "Probability Theory"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284",
+    "short_id": "SaoZzvV",
+    "short_url": "https://unstop.com/o/SaoZzvV",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "REDLINE - ARES ",
+    "type": "hackathons",
+    "updated_at": "2026-10-08T23:05:56+05:30",
+    "viewsCount": 3165,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-04-09T00:17:10+05:30",
+        "description": "",
+        "id": 2107,
+        "name": "AI Engineering",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1766284,
+          "id": 6485435,
+          "subject_id": 2107
+        },
+        "updated_at": "2026-04-09T00:17:10+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-10-14T00:00:00+05:30",
+  "reg_opens_at": "2026-10-05T00:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1766284",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 2,
+  "team_min": 1,
+  "themes": [],
+  "title": "REDLINE - ARES ",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284"
+}
