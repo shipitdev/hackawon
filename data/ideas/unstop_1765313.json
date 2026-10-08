@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-08T09:20:55.046887+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765313",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An AI-powered security log analysis and anomaly detection dashboard that reasons through complex NGINX and system logs to identify true threats and reduce false positives.",
+      "problem_statement": "Cybersecurity assessment, log analysis, and intelligent decision-making for real-world security challenges.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "SecOps-RAG: AI-Powered Contextual Log Analysis & Threat Intelligence",
+      "track": "",
+      "why_it_could_win": "Directly builds on proven hackathon architectures like the UCC ACM winner while sharpening the focus specifically on cybersecurity automation and contextual analysis as requested by the organizers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-intelligence and ML-powered security platform that maps multi-stage vulnerability assessments and prioritizes remediation risks with explainable reasoning.",
+      "problem_statement": "Analyze information from multiple stages of an assessment, identify and prioritize security risks, and turn technical findings into meaningful outcomes.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "React"
+      ],
+      "title": "RiskGraph AML & Security Assessment Platform",
+      "track": "",
+      "why_it_could_win": "Leverages graph intelligence and explainability, mirroring the winning pattern of the DIGITIMES AI Innovation Hackathon by providing deep, transparent reasoning rather than just executing raw scans."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An automated testing suite that detects, explains, and mitigates security vulnerabilities and bias in machine learning pipelines before deployment.",
+      "problem_statement": "Artificial Intelligence, automation, security tooling, and intelligent data analysis to transform cybersecurity and safety controls.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "scikit-learn",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "SecureBias: AI Model Security & Fairness Auditor",
+      "track": "",
+      "why_it_could_win": "Addresses safety controls and AI security evaluation, hitting the specific judging criteria for robust safety tooling highlighted in the prompt."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "An AI-powered digital twin and telemetry monitoring platform that detects abnormal behavior and potential intrusion attempts in connected edge infrastructure.",
+      "problem_statement": "Reconnaissance & Security Assessment, Data Analysis & Intelligence, and automated security monitoring.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "React",
+        "Vite"
+      ],
+      "title": "SecDigitalTwin: IoT & Edge Infrastructure Security Monitor",
+      "track": "",
+      "why_it_could_win": "Combines backend digital-twin architecture with real-time reactive frontend dashboards, adopting the exact winning stack structure from the Next Stop Station Hackathon."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite and perimeter video intelligence platform that automatically flags unauthorized intrusion or compliance breaches for critical infrastructure sites.",
+      "problem_statement": "Security tooling, contextual analysis, and automated threat identification from unstructured environmental feeds.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "AeroSec-AI: Industrial Land & Perimeter Security Monitoring",
+      "track": "",
+      "why_it_could_win": "Adapts proven satellite and video intelligence patterns to physical and cyber infrastructure convergence, appealing to judges looking for multi-modal security analytics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

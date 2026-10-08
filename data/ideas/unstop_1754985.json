@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-08T09:20:50.473403+00:00",
+  "grounding": {
+    "domains": [
+      "arvr",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1754985",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:182363623"
+      ],
+      "pitch": "An interactive WebAR and mobile-based application that overlays 3D human anatomical models onto real-world surfaces for medical students to practice surgical pathways.",
+      "problem_statement": "Transform education, healthcare, and industry using immersive technologies to solve real-world problems and enhance training.",
+      "stack": [
+        "Unity",
+        "C#",
+        "ARFoundation",
+        "Blender"
+      ],
+      "title": "AnatomyAR: Immersive Surgical Training",
+      "track": "Healthcare & Education",
+      "why_it_could_win": "Targeting high-stakes domains like healthcare with clean AR overlays satisfies the judges' emphasis on real-world impact and technical implementation."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:609381007"
+      ],
+      "pitch": "A WebXR virtual reality experience that reconstructs destroyed historical monuments from archival photographs, letting users walk through lost heritage sites.",
+      "problem_statement": "Explore the potential of immersive technologies to transform tourism, entertainment, and education.",
+      "stack": [
+        "Three.js",
+        "React",
+        "WebXR",
+        "Python"
+      ],
+      "title": "HeritageVR: Rebuilding Lost History",
+      "track": "Tourism & Entertainment",
+      "why_it_could_win": "Delivers an emotional and visually striking VR demo that is easy for judges to test quickly via browser-based WebXR."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:988515862",
+        "github:123678562"
+      ],
+      "pitch": "A computer vision and MediaPipe-powered XR application that guides patients through physical therapy movements with real-time skeletal feedback.",
+      "problem_statement": "Demonstrate how AR/VR/XR can solve problems, enhance experiences, and create meaningful real-world impact in healthcare.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "PyQt5",
+        "Unity"
+      ],
+      "title": "PoseFit XR: Interactive Physical Therapy Trainer",
+      "track": "Healthcare",
+      "why_it_could_win": "Combines hard computer vision engineering with practical healthcare utility, matching winning patterns from motion capture and fitness hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "An immersive AR mobile game that turns local urban environments into interactive water conservation puzzles based on real city watershed data.",
+      "problem_statement": "Explore the potential of immersive technologies to transform education and industry while solving environmental problems.",
+      "stack": [
+        "Unity",
+        "C#",
+        "ARCore",
+        "Blender"
+      ],
+      "title": "EcoQuest AR: Water Conservation Exploration",
+      "track": "Education",
+      "why_it_could_win": "Leverages gamification for social good, drawing inspiration from award-winning educational games that teach resource conservation."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:182363623",
+        "github:609381007"
+      ],
+      "pitch": "A VR training simulation that drops industrial workers into hazardous factory scenarios to test and train safety protocols in a risk-free virtual space.",
+      "problem_statement": "Transform industry and enterprise environments through immersive technologies to improve workplace safety.",
+      "stack": [
+        "Unity",
+        "C#",
+        "OpenXR",
+        "Oculus SDK"
+      ],
+      "title": "IndusVR: Safe Industrial Hazard Simulation",
+      "track": "Industry",
+      "why_it_could_win": "Applies VR directly to enterprise use cases, which judges favor for clear commercial scalability and immediate real-world value."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

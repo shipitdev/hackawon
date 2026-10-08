@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-08T09:21:03.686193+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766721",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1296916648"
+      ],
+      "pitch": "An offline, rule-based static analysis and root-cause visualizer for complex pseudo-code and game systems.",
+      "problem_statement": "Round 1 & Round 2: Pseudo-code debugging and game file functional bug fixing under time pressure.",
+      "stack": [
+        "Python",
+        "Pygame",
+        "AST Module"
+      ],
+      "title": "DebugPulse",
+      "track": "",
+      "why_it_could_win": "Targeting the specific diagnostic and systems thinking requirements of GDA CRCE's competitive debugging format without relying on banned external AI tools for Round 1."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A dependency graph visualizer designed to expose cascading state corruption across interconnected game systems.",
+      "problem_statement": "Final Round: A complex final project containing interconnected systems and cascading bugs.",
+      "stack": [
+        "TypeScript",
+        "Vis.js",
+        "C#"
+      ],
+      "title": "CascadeTrace",
+      "track": "",
+      "why_it_could_win": "Directly tackles the final round's hardest challenge—tracing cascading bugs across deeply coupled architecture—appealing directly to judges testing practical fixability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226530426"
+      ],
+      "pitch": "A lightweight diagnostic dashboard for rapid asset state inspection and memory tracking in game debugging.",
+      "problem_statement": "Round 2: Project/game files containing functional bugs to locate and fix.",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "C++"
+      ],
+      "title": "GlitchLens",
+      "track": "",
+      "why_it_could_win": "Maximizes diagnostic speed during Round 2 by giving the team an intuitive telemetry dashboard tailored to typical game loop failures."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:855084718"
+      ],
+      "pitch": "A local practice harness for multi-file pseudo-code logic tracing and syntax validation.",
+      "problem_statement": "Round 1: Pseudo-code debugging involving multiple problem statements, game visuals, and pseudo-code.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "HTML"
+      ],
+      "title": "PseudoDrill",
+      "track": "",
+      "why_it_could_win": "Addresses the exact constraint of Round 1 where internet access is permitted but AI tools are strictly banned, providing internal verification logic."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A state-rollback and event-sourcing recorder for tracking asynchronous game loop exceptions during stress tests.",
+      "problem_statement": "Final Round: A complex final project containing interconnected systems and cascading bugs.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Canvas"
+      ],
+      "title": "StateReplay",
+      "track": "",
+      "why_it_could_win": "Solves the exact difficulty of late-stage debugging by allowing judges and competitors to step backwards through execution timelines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

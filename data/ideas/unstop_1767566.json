@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-08T09:21:49.191358+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767566",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:855084718"
+      ],
+      "pitch": "An AI-assisted code review and telemetry logger that flags suspicious git diffs, deliberate syntax obfuscation, and malicious comment sabotage during team coding challenges.",
+      "problem_statement": "Tech Mafia: Innocents must complete technical challenges while identifying Mafia members who try to slow down, mislead, and sabotage their team.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "GitPython",
+        "OpenAI API"
+      ],
+      "title": "SabotageSleuth",
+      "track": "",
+      "why_it_could_win": "Directly targets the core game mechanic of Tech Mafia by helping Innocents detect who is sabotaging the codebase, aligning with patterns from winning debugging agents like bobthebuilder."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A controlled playground and prompt-logging wrapper designed to catch Mafia members who inject hallucination-inducing or destructive prompts into shared AI coding assistants.",
+      "problem_statement": "Tech Mafia: Technical social deduction game combining coding, debugging, AI prompting, logical reasoning, and strategy.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "TailwindCSS"
+      ],
+      "title": "PromptDeceiver",
+      "track": "",
+      "why_it_could_win": "Leverages the specific inclusion of AI prompting in the hackathon description, giving Innocents an audit trail of who prompted what and when."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A micro-IDE extension that records granular keystroke and test-running provenance to provide incontrovertible proof of innocence or guilt during team code reviews.",
+      "problem_statement": "Tech Mafia: Across the first two rounds, participants must balance performing well and figuring out who they can trust before the team elimination vote.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "WebSockets"
+      ],
+      "title": "AlibiCode",
+      "track": "",
+      "why_it_could_win": "Solves the exact social deduction pain point of 'he said, she said' accusations in technical rounds with hard telemetry data, matching the functional demo standard of codeboost."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "A real-time team analytics overlay that tracks test suite execution times, commit failure frequencies, and suspicious code reverts to quantify individual sabotage risk.",
+      "problem_statement": "Tech Mafia: The Innocents must work together to complete technical challenges as efficiently as possible while Mafia members mislead and sabotage.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Docker",
+        "Pandas"
+      ],
+      "title": "DeceptionDashboard",
+      "track": "",
+      "why_it_could_win": "Provides a live, working dashboard that judges and players can look at during Round 1 and 2 to make data-backed social deduction accusations."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A speed-coding and rapid-debugging micro-game simulating Round 3's individual survival challenges to help players train for the final elimination round.",
+      "problem_statement": "Tech Mafia: Round 3 eliminates the team element completely, requiring participants to compete individually through a series of technical and mental challenges.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Monaco Editor",
+        "Node.js"
+      ],
+      "title": "RoundThreeTrainer",
+      "track": "",
+      "why_it_could_win": "Anticipates the final round format of the event, appealing directly to the organizers and participants who need to practice for individual survival."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

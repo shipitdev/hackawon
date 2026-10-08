@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-08T09:21:31.049351+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767260",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732",
+        "github:240460106"
+      ],
+      "pitch": "A high-performance autonomous micromouse featuring real-time Flood Fill maze mapping optimized for high-speed diagonal cutting.",
+      "problem_statement": "Micromouse Challenge — Navigate the Maze, Beat the Clock: Build an autonomous robot that can map and solve a 10×10 grid maze on its own.",
+      "stack": [
+        "C++",
+        "Arduino IDE",
+        "PlatformIO",
+        "FreeRTOS"
+      ],
+      "title": "FloodFill-X: Adaptive Speed-Run Micromouse",
+      "track": "",
+      "why_it_could_win": "Follows the winning hardware and robotics pattern by focusing on low-level firmware optimization (Flood Fill algorithm in C++) and reliable dead reckoning within tight physical constraints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A robust Micromouse utilizing sensor fusion between ToF distance sensors and a 6-DoF IMU to prevent wall collisions and dead-reckon through the 10x10 maze.",
+      "problem_statement": "Micromouse Challenge — Navigate the Maze, Beat the Clock: Build an autonomous robot that can map and solve a 10×10 grid maze on its own.",
+      "stack": [
+        "C",
+        "STM32 HAL",
+        "MPU6050",
+        "VL53L0X"
+      ],
+      "title": "IMU-Fusion Wall-Hugger Bot",
+      "track": "",
+      "why_it_could_win": "Addresses the strict wall-collision penalty rule directly by combining infrared distance sensors with inertial measurement unit tracking for ultra-precise turns."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A compact autonomous mouse equipped with an optical flow sensor to eliminate wheel slip and achieve maximum velocity on the speed run.",
+      "problem_statement": "Micromouse Challenge — Navigate the Maze, Beat the Clock: Build an autonomous robot that can map and solve a 10×10 grid maze on its own.",
+      "stack": [
+        "C++",
+        "ESP32-S3",
+        "PMW3901 Optical Flow",
+        "IDF"
+      ],
+      "title": "MicroVision: On-Board Edge Optical Flow Micromouse",
+      "track": "",
+      "why_it_could_win": "Leverages advanced sensor hardware that stands out among standard encoders, providing precise displacement tracking within the 19x19 cm bounding box."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A custom dual-layer PCB design acting as both the structural chassis and the circuit board to maintain the strict under-90mm height limit.",
+      "problem_statement": "Micromouse Challenge — Navigate the Maze, Beat the Clock: Build an autonomous robot that can map and solve a 10×10 grid maze on its own.",
+      "stack": [
+        "KiCad",
+        "C++",
+        "ATmega328P",
+        "Custom PCB"
+      ],
+      "title": "CompactCell: Modular PCB-Chassis Micromouse",
+      "track": "",
+      "why_it_could_win": "Showcases custom hardware fabrication and clean engineering design, directly matching the winning custom electronics pattern."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:240460106"
+      ],
+      "pitch": "A micromouse that stores solved maze geometries in non-volatile memory, allowing instant optimal speed runs across consecutive trials.",
+      "problem_statement": "Micromouse Challenge — Navigate the Maze, Beat the Clock: Build an autonomous robot that can map and solve a 10×10 grid maze on its own.",
+      "stack": [
+        "C++",
+        "Teensyduino",
+        "EEPROM",
+        "Stepper/DC Drivers"
+      ],
+      "title": "QuickMap: Fast-Solver Micromouse with EEPROM Route Persistence",
+      "track": "",
+      "why_it_could_win": "Maximizes points by optimizing the multiple-run format required by the competition rules, jumping straight from search mode to record-breaking speed runs."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

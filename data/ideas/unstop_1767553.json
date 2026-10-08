@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-08T09:21:43.978384+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767553",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that inspects community-submitted bug reports, writes patches, and opens verified pull requests for open-source repositories.",
+      "problem_statement": "Real-world open-source and community challenges from FOSS Forge 2.0 challenge pool.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "GitHub API",
+        "Docker"
+      ],
+      "title": "OpenSourcePR-Agent",
+      "track": "",
+      "why_it_could_win": "Directly targets open-source maintainers' biggest bottlenecks, aligning with FOSS Forge 2.0's core ethos of contributing to real open-source projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A data engineering sync tool and automated incident response agent for non-profit organizations to manage donor records and campaign metrics securely.",
+      "problem_statement": "Tools that non-profit organizations currently need from the FOSS Forge 2.0 challenge pool.",
+      "stack": [
+        "TypeScript",
+        "Supabase",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "NonProfitCRM-Sync",
+      "track": "",
+      "why_it_could_win": "Solves an urgent operational burden for non-profits with a working, production-ready demo that judges from community organizations can immediately test."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An automated debugging and security vulnerability scanner tailored for open-source package repositories with instant fix suggestions.",
+      "problem_statement": "Bug bounty, debugging challenge, and automation task from the FOSS Forge 2.0 challenge pool.",
+      "stack": [
+        "Rust",
+        "Python",
+        "GitHub Actions",
+        "Tree-sitter"
+      ],
+      "title": "FOSS-DependencyScanner",
+      "track": "",
+      "why_it_could_win": "Emphasizes genuinely hard engineering and provides instant measurable value by identifying and patching vulnerabilities automatically."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual AI assistant designed for regional health awareness and vaccination tracking in semi-urban communities.",
+      "problem_statement": "AI/ML problem and community challenge from the FOSS Forge 2.0 challenge pool.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Transformers"
+      ],
+      "title": "CommunityHealth-LLM",
+      "track": "",
+      "why_it_could_win": "Has clear measurable social impact and addresses a localized public health need with a working, localized voice/text interface."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An interactive terminal and web-based CTF platform focusing on advanced Git operations, debugging, and open-source workflows.",
+      "problem_statement": "CTF, bug bounty, and developer ecosystem challenges from FOSS Forge 2.0.",
+      "stack": [
+        "Go",
+        "Next.js",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "title": "GitQuiz-Master",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to developers and event organizers in the room, creating an engaging experience that judges can play live."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

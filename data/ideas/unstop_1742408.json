@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-08T09:20:40.796037+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1742408",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1157485434"
+      ],
+      "pitch": "An interactive logic puzzle and algorithmic workflow visualizer for computer science education.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Canvas API"
+      ],
+      "title": "LogicGraph",
+      "track": "",
+      "why_it_could_win": "Follows the winning pattern of creating educational tools that directly benefit students and teachers, similar to aura."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:946065610"
+      ],
+      "pitch": "A real-time logic rule engine that triggers webhook workflows based on streaming IoT or telemetry events.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "WebSockets"
+      ],
+      "title": "StreamLogic",
+      "track": "",
+      "why_it_could_win": "Focuses on hard backend engineering and a working live demo of low-latency event processing."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:873357022"
+      ],
+      "pitch": "An LLM-as-a-judge microservice designed to automatically evaluate and score hackathon submissions against rubric constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Flask",
+        "Ollama"
+      ],
+      "title": "FlowJudger",
+      "track": "",
+      "why_it_could_win": "Directly applies proven LLM evaluation architectures from winning entries to an automated grading use case."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:716416040"
+      ],
+      "pitch": "A paperless administrative workflow portal for managing university resource requests and inventory tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CampusFlow",
+      "track": "",
+      "why_it_could_win": "Mirrors the practical campus management utility that won major prizes at competitive inter-college hackathons."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "A streamlined onboarding utility that verifies user wallet eligibility and routes transactions via real-time workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "iOS",
+        "TypeScript",
+        "Ethers.js"
+      ],
+      "title": "BaseLogic",
+      "track": "",
+      "why_it_could_win": "Employs an end-to-end worry-free workflow model focused on clean commercial utility and smooth UX."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

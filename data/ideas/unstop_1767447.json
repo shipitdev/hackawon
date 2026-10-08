@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-08T09:21:36.026954+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767447",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1066546613"
+      ],
+      "pitch": "An autonomous PVC-sheet line follower featuring real-time PID tuning via onboard buttons and a state machine capable of mapping junctions, loops, and dead-ends to find the fastest return path.",
+      "problem_statement": "Line-O-Mania robotics contest for navigating a 3cm wide black and white contrast track featuring bends, loops, sharp turns, junctions, dotted lines, and dead-ends in the shortest possible time.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ATmega328P",
+        "QTR-8RC Reflectance Sensor Array",
+        "L298N Motor Driver"
+      ],
+      "title": "Adaptive PID Line Follower with Junction Memory",
+      "track": "",
+      "why_it_could_win": "Focuses on genuine hard engineering and robust live demo performance rather than flashy concepts, directly addressing the core judging criteria of speed and precise navigation."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A high-speed differential drive robot equipped with custom IR arrays and an IMU to maintain trajectory through broken dotted lines and sharp 90-degree bends without losing orientation.",
+      "problem_statement": "Line-O-Mania robotics contest for navigating a 3cm wide black and white contrast track featuring bends, loops, sharp turns, junctions, dotted lines, and dead-ends in the shortest possible time.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "MPU6050 IMU",
+        "Custom PCB",
+        "IR Phototransistors"
+      ],
+      "title": "Dual-Mode Optical Path Finder with Dotted Line Dead Reckoning",
+      "track": "",
+      "why_it_could_win": "Solves the notorious dotted-line and sharp-turn failure points that trap most basic line-following kits, securing an edge in pure reliability."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069834761"
+      ],
+      "pitch": "An autonomous line follower integrated with ultra-short-range ultrasonic and color sensors designed to instantly adapt when mystery on-the-spot track elements or barriers are revealed.",
+      "problem_statement": "Line-O-Mania robotics contest requiring adaptation to a special element introduced and disclosed only on the day of the event alongside standard bends, loops, and junctions.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "HC-SR04 Ultrasonic",
+        "TCS3200 Color Sensor",
+        "DC Geared Motors"
+      ],
+      "title": "Event-Triggered Dynamic Obstacle Re-Router Bot",
+      "track": "",
+      "why_it_could_win": "Directly targets the unannounced special track element, showing judges extreme adaptability and robust edge-case handling under strict hardware constraints."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A completely analog-front-end hybrid digital line follower using high-speed quad comparators feeding directly into a microcontroller interrupt pin to achieve zero-latency line edge detection.",
+      "problem_statement": "Line-O-Mania robotics contest where completely autonomous bots require precise navigation to reach the end point in the shortest possible time on a 3cm contrast line.",
+      "stack": [
+        "C++",
+        "LM339 Quad Comparator",
+        "Arduino Nano",
+        "PCB Design",
+        "IR LED Pairs"
+      ],
+      "title": "Low-Latency Analog-Optimized Comparator Tracker",
+      "track": "",
+      "why_it_could_win": "Leverages unusual physical build techniques and pure hardware optimization to maximize raw speed over software overhead, standing out in a room of standard analog-read loops."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1066546613"
+      ],
+      "pitch": "An autonomous explorer bot that reads intersections on the fly, constructs an internal node map of the PVC track grid, and executes optimal graph traversal algorithms to solve complex loops and dead-ends.",
+      "problem_statement": "Line-O-Mania robotics contest for navigating a black and white contrast track including challenges such as bends, loop, sharp turns, junctions, dotted lines, and dead-ends.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "EEPROM Storage",
+        "Multiplexed IR Sensors",
+        "Pololu Micro Metal Gearmotors"
+      ],
+      "title": "Junction-Mapping Graph Search Robot",
+      "track": "",
+      "why_it_could_win": "Brings advanced algorithmic thinking (BFS/DFS graph pathing) into a hardware robotics competition, demonstrating deep technical competence that judges reward heavily."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

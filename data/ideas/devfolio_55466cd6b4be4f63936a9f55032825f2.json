@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-08T09:20:23.119741+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 9,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:55466cd6b4be4f63936a9f55032825f2",
+  "ideas": [
+    {
+      "build_hours": 120,
+      "inspired_by": [
+        "github:614169755"
+      ],
+      "pitch": "A privacy-preserving identity verifier using zero-knowledge proofs and the Arkiv Web3 database designed for Indian use cases.",
+      "problem_statement": "Best Indian Use Case: A real-world application built on Arkiv that people in India can use.",
+      "stack": [
+        "TypeScript",
+        "Arkiv SDK",
+        "Noir-lang",
+        "Next.js"
+      ],
+      "title": "AadhaarVerify-Arkiv",
+      "track": "Best Indian Use Case",
+      "why_it_could_win": "Targets the $2,000 USDC Best Indian Use Case track directly with a localized real-world application that leverages ZK data patterns seen in winning projects like fact-fortress-dapp."
+    },
+    {
+      "build_hours": 96,
+      "inspired_by": [],
+      "pitch": "A decentralized transaction and data indexer on Arkiv that detects and flags front-running and state censorship attempts on Ethereum rollups.",
+      "problem_statement": "Censorship Resistance (Global): Build a tool promoting censorship resistance on Arkiv.",
+      "stack": [
+        "TypeScript",
+        "Arkiv SDK",
+        "Ethers.js",
+        "Node.js"
+      ],
+      "title": "CensorShield Indexer",
+      "track": "Censorship Resistance (Global)",
+      "why_it_could_win": "Addresses the specific CROPS mandate for censorship resistance, appealing directly to judges looking for robust infrastructure rather than a generic dApp."
+    },
+    {
+      "build_hours": 80,
+      "inspired_by": [],
+      "pitch": "An open-source package and dependency registry built entirely on top of the Arkiv database to ensure immutable and verifiable package states.",
+      "problem_statement": "Open Source (Global): Build open-source utilities or libraries leveraging the Arkiv database.",
+      "stack": [
+        "TypeScript",
+        "@arkiv-network/sdk",
+        "Express",
+        "React"
+      ],
+      "title": "OpenArkiv Registry",
+      "track": "Open Source (Global)",
+      "why_it_could_win": "Directly targets the Open Source global track by offering a critical developer tool utilizing the official npm package @arkiv-network/sdk."
+    },
+    {
+      "build_hours": 110,
+      "inspired_by": [
+        "github:633718399"
+      ],
+      "pitch": "A private data locker leveraging ZK proofs stored on Arkiv, allowing users to share encrypted metadata without exposing plaintext inputs.",
+      "problem_statement": "Privacy (Global): Build applications or protocols upholding the Privacy pillar of CROPS on Arkiv.",
+      "stack": [
+        "TypeScript",
+        "Arkiv SDK",
+        "Circom",
+        "SnarkJS"
+      ],
+      "title": "ZK-Vault Arkiv",
+      "track": "Privacy (Global)",
+      "why_it_could_win": "Combines advanced cryptographic privacy mechanics with hard engineering as demonstrated by winning privacy-focused projects like will-wallet-leading-privacy."
+    },
+    {
+      "build_hours": 100,
+      "inspired_by": [
+        "github:1194893408"
+      ],
+      "pitch": "An autonomous AI agent audit trail and security monitor that writes state execution logs directly to Arkiv to prevent malicious agent tampering.",
+      "problem_statement": "Security (Global): Build security infrastructure on Arkiv to maintain safety and integrity.",
+      "stack": [
+        "TypeScript",
+        "@arkiv-network/sdk",
+        "AgentKit",
+        "Hono"
+      ],
+      "title": "SecureAgent Ledger",
+      "track": "Security (Global)",
+      "why_it_could_win": "Ties into the high-performing AI agent trust architecture pattern from triage-hackathon while focusing specifically on the Security global track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

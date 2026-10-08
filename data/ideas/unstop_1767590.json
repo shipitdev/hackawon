@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-08T09:21:53.546941+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767590",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered real-time journey monitoring application that analyzes pedestrian and transit paths for safety risks, offering dynamic rerouting and automated emergency alerts.",
+      "problem_statement": "Special Winner — Women Safety: In addition to the four main tracks, HERHACK 2026 will recognize top solutions focusing on women safety.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "SafeRoute AI: Women Safety Transit Companion",
+      "track": "ARTIFICIAL INTELLIGENCE (AI)",
+      "why_it_could_win": "Directly targets the special women safety recognition prize at a women-focused national hackathon, ensuring high judge resonance."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A Web3-based verifiable credential exchange platform that enables individuals to securely own, share, and revoke personal data permissions without central intermediaries.",
+      "problem_statement": "WEB3 / BLOCKCHAIN: Build decentralized and trust-driven solutions using blockchain, smart contracts, Web3 infrastructure, decentralized identity, digital assets, and related technologies.",
+      "stack": [
+        "TypeScript",
+        "Solana",
+        "Smart Contracts",
+        "Next.js"
+      ],
+      "title": "TrustVerify: Decentralized Credential & Consent Ledger",
+      "track": "WEB3 / BLOCKCHAIN",
+      "why_it_could_win": "Utilizes decentralized identity primitives (DID) which heavily appeal to the Web3 track judges looking for core blockchain utility beyond basic tokens."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An IoT-enabled sensor network and edge dashboard that monitors indoor air quality, noise levels, and emergency distress signals across campus facilities.",
+      "problem_statement": "INTERNET OF THINGS (IoT): Build connected hardware and software solutions involving sensors, embedded systems, automation, edge computing, smart environments, and IoT platforms.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "React",
+        "Node.js"
+      ],
+      "title": "AuraGuard IoT: Smart Campus Environment Monitor",
+      "track": "INTERNET OF THINGS (IoT)",
+      "why_it_could_win": "Combines physical sensor data with a real-time cloud dashboard, matching the specific requirements of the IoT track."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support and mentorship platform that matches student developers with targeted learning paths and career milestones.",
+      "problem_statement": "STUDENT INNOVATION: Build innovative technology solutions addressing meaningful real-world problems. This is a broad track for ideas that do not naturally fit into the other three technical tracks.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "RAG",
+        "Next.js"
+      ],
+      "title": "SkillBridge AI: Multi-Agent Mentorship and Career Navigator",
+      "track": "ARTIFICIAL INTELLIGENCE (AI)",
+      "why_it_could_win": "Leverages multi-agent orchestration frameworks to provide deeply personalized outputs, following proven winning patterns in AI platforms."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated compliance risk detection tool that analyzes transaction graph structures and flags suspicious financial movements with explainable AI summaries.",
+      "problem_statement": "WEB3 / BLOCKCHAIN: Build decentralized and trust-driven solutions using blockchain, smart contracts, Web3 infrastructure, decentralized identity, digital assets, and related technologies.",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "FastAPI"
+      ],
+      "title": "AuditShield: AI-Driven AML & Risk Investigation Platform",
+      "track": "WEB3 / BLOCKCHAIN",
+      "why_it_could_win": "Brings rigorous graph intelligence and explainable machine learning models into financial and Web3 tracking, standing out for its technical depth."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

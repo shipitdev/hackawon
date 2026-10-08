@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-08T09:20:59.721582+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "unusual-hardware",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765314",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A co-op debugging terminal where three players take distinct roles with fragmented system telemetry to fix a simulated server crash under time pressure.",
+      "problem_statement": "Round 2 takes you into a set of technical challenges where things aren't always as they seem. You have to explore the system, find clues and figure out what went wrong.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSocket",
+        "React",
+        "Docker"
+      ],
+      "title": "Asymmetric SysAdmin",
+      "track": "",
+      "why_it_could_win": "Directly matches the event's core premise of asymmetric information sharing and technical system exploration, leveraging a working live demo of multi-user terminal synchronization."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A multi-player command line decryption game where each team member possesses only one-third of the encryption keys and must verbally coordinate to prevent a simulated data wipe.",
+      "problem_statement": "Round 1 puts your team’s communication to the test. Each person has a different role and access to different information. You will have to rely on each other to understand the clues and move forward.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Socket.IO",
+        "TailwindCSS"
+      ],
+      "title": "Protocol Broken",
+      "track": "",
+      "why_it_could_win": "Focuses intensely on communication mechanics and rapid trust-building, perfectly fitting the mandatory team-sync format of the first challenge round."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "An interactive hardware-software hybrid puzzle box where players must physically plug components into an ESP32 board while communicating circuit states across distributed browser views.",
+      "problem_statement": "Round 2 takes you into a set of technical challenges where things aren't always as they seem. You will have to explore the system, find clues and figure out what went wrong.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MicroPython",
+        "WebSockets",
+        "JavaScript"
+      ],
+      "title": "Silent Circuit",
+      "track": "",
+      "why_it_could_win": "Brings physical hardware into a room likely dominated by pure software applications, instantly standing out to judges through a tangible working prototype."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A collaborative log-analysis interface that deliberately fragments error traces across three distinct dashboard views, requiring all three team members to cross-reference logs to find the root vulnerability.",
+      "problem_statement": "Each person has a different role and access to different information. You will have to rely on each other to understand the clues and move forward.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "LogSplit",
+      "track": "",
+      "why_it_could_win": "Solvers will love the practical application of developer toolings combined with high-stakes communication bottlenecks."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A network routing packet game where players act as different OSI layers, seeing only their designated layer's headers and collaborating to route a corrupted payload through a live proxy.",
+      "problem_statement": "One wrong message can change everything. You have to think fast, communicate better and importantly trust your team.",
+      "stack": [
+        "Go",
+        "WebSockets",
+        "React",
+        "Docker"
+      ],
+      "title": "Blind Trust Router",
+      "track": "",
+      "why_it_could_win": "Employs genuinely hard networking and state-sync engineering while perfectly mapping to the event's strict three-player team constraint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

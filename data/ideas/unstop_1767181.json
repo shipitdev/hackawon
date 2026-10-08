@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-08T09:21:26.316716+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767181",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous multi-agent system that continuously monitors cloud resources, detects configuration drifts, and automatically generates and tests pull requests to fix security vulnerabilities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "Docker",
+        "AWS SDK"
+      ],
+      "title": "Agentic Compliance Auditor for Cloud Infrastructure",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages the Agentic AI track while directly mirroring the winning pattern of BlackBox by executing automated, verified repairs rather than just raising alerts."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An agentic data governance tool that maps healthcare data pipelines, traces anonymized patient records for HIPAA compliance, and autonomously flags data leaks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "DataHub API",
+        "Claude API",
+        "PostgreSQL"
+      ],
+      "title": "MediChain Data Lineage Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Combines advanced data engineering workflows with the Agentic AI track, appealing to judges looking for production-ready reliability and real-world enterprise utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized, voice-first multilingual AI diagnostic triage platform designed for low-bandwidth rural clinics to assess symptoms and schedule preventive care.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "FastAPI",
+        "Whisper API",
+        "IndicTrans"
+      ],
+      "title": "LocalArogya: Multilingual Rural Health Triage",
+      "track": "Open Innovation",
+      "why_it_could_win": "Targets clear measurable social impact by solving a critical last-mile healthcare problem, similar to SAGACITY's winning formula for regional wellness tools."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A full-stack video intelligence platform that processes athlete workout clips using computer vision to evaluate form, score posture confidence, and deliver instant corrective feedback.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "BiomechEdge: Real-time Sport Biomechanics Analyzer",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Delivers genuine hard engineering through complex computer vision processing and classification, mirroring the technical execution of CricketVision_AI."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1193031299"
+      ],
+      "pitch": "A full-stack learning platform that dynamically generates interactive coding and concept assessments tailored to a student's real-time skill gaps using LLMs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Supabase"
+      ],
+      "title": "AdaptiTest: AI-Driven Dynamic Assessment Engine",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Fits squarely into the Full-Stack Product Engineering track with a polished, immediately usable product that solves a real educational bottleneck."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

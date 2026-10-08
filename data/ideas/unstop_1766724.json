@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-08T09:21:08.071683+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766724",
+  "ideas": [
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A rapid prototyping web dashboard built explicitly for the Vibe Coding Challenge constraint of 45 minutes, packing responsive layout generation and live AI tooling integration.",
+      "problem_statement": "Junior Track Vibe Coding Challenge (45 mins): Build a functional, responsive web solution using HTML, CSS, JavaScript, and permitted AI tools.",
+      "stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TailwindCSS"
+      ],
+      "title": "VibeCheck Web Studio",
+      "track": "Junior Track",
+      "why_it_could_win": "Directly targets the 6-mark Functionality and 4-mark Ease of Access evaluation criteria by pre-bundling high-contrast responsive layouts and clean DOM manipulation utilities."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A lightweight local debugging helper designed to instantly parse runtime errors and output structured fix plans for round-one technical qualifiers.",
+      "problem_statement": "Senior Track Round 1 – Technical Qualifier: SE tackles 2 Debugging + 3 Problem-Solving questions under tight time limits.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "JavaScript"
+      ],
+      "title": "DebugPulse AI",
+      "track": "Senior Track",
+      "why_it_could_win": "Solves a problem the judges and competitors feel acutely during the rapid 45-minute debugging round by reducing stacktrace analysis time."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An interactive DSA challenge tracker and code sandbox that helps teams rapidly decode lock digits and practice graph/tree algorithms under escape-room time pressure.",
+      "problem_statement": "Senior Track Round 2 – DSA Escape Challenge: Top 25% qualifying teams solve DSA challenges to uncover lock digits and crack the final escape mechanism.",
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "title": "EscapeLock DSA Visualizer",
+      "track": "Senior Track",
+      "why_it_could_win": "Aligns with the core algorithmic problem-solving theme of CodeStorm by turning raw DSA code testing into a gamified puzzle-solving dashboard."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "A local browser compliance monitor and focus timer built to help participants avoid accidental tab-switch penalties during high-stakes anti-cheating rounds.",
+      "problem_statement": "Rules & Anti-Cheating: Tab-Switching is monitored automatically during SE/TE/BE rounds with strict warnings and disqualification thresholds.",
+      "stack": [
+        "JavaScript",
+        "Chrome Extensions API"
+      ],
+      "title": "TabGuard Pro",
+      "track": "",
+      "why_it_could_win": "Directly addresses the strict anti-cheating rulebook enforced by the organizing committee, providing immediate utility to event participants."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A responsive real-time event portal providing countdown timers, live leaderboard standings, and quick access rules reference for CodeStorm Escape Room attendees.",
+      "problem_statement": "Escape Room is a technical challenge organized by CodeStorm testing coding, algorithmic problem-solving, debugging, and teamwork under time pressure.",
+      "stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "title": "CodeStorm Event Companion",
+      "track": "Junior Track",
+      "why_it_could_win": "Targets the event organisers and participants directly, ensuring high engagement during the live demo presentation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

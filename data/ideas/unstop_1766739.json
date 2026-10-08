@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-08T09:21:12.526826+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766739",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A multi-agent network simulation tool modeling Doctor Doom's infrastructure to help resistance fighters practice automated penetration testing.",
+      "problem_statement": "Doctor Doom has taken over global systems and set a Doomsday countdown. You play the resistance, breaking into his networks.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "NetworkX",
+        "React"
+      ],
+      "title": "DoomNet Simulator",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-agent simulation pattern from successful security hackathon entries, offering a practical tool for training against complex cyber threats."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An intelligent cryptographic hint decoder and phased challenge tracker built for rapid CTF flag acquisition.",
+      "problem_statement": "The challenges are released in phases and get harder as the event goes on. Beginners will find plenty to solve, and experienced players will find a serious final challenge.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "ChronoDecoder",
+      "track": "",
+      "why_it_could_win": "Solves the exact fatigue and time-management bottlenecks of a 24-hour solo CTF by automating pattern recognition across challenge phases."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A secure zero-knowledge credential verification system for the resistance to verify team intelligence without revealing source nodes.",
+      "problem_statement": "You play the resistance, breaking into his networks, decoding his secrets and shutting down his plan before time runs out.",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Ethereum",
+        "MetaMask"
+      ],
+      "title": "ResistLedger",
+      "track": "",
+      "why_it_could_win": "Implements advanced cryptographic patterns suited for secure communication simulation in a sci-fi CTF narrative."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:642839338"
+      ],
+      "pitch": "A browser companion that filters distraction vectors and provides instant reference lookup for common CTF vulnerability classes during competition hours.",
+      "problem_statement": "Doctor Doom has taken over global systems and set a Doomsday countdown. You play the resistance, breaking into his networks, decoding his secrets and shutting down his plan before time runs out.",
+      "stack": [
+        "JavaScript",
+        "Chrome Extension API",
+        "HTML",
+        "CSS"
+      ],
+      "title": "DoomGuard Extension",
+      "track": "",
+      "why_it_could_win": "Directly targets solo competitor productivity and focus based on proven extension-based productivity wins."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:600524805"
+      ],
+      "pitch": "An interactive educational dashboard designed to teach beginner CTF players basic web exploitation and cryptography fundamentals.",
+      "problem_statement": "Beginners will find plenty to solve, and experienced players will find a serious final challenge.",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "Flask"
+      ],
+      "title": "CyberSentinel Academy",
+      "track": "",
+      "why_it_could_win": "Applies proven cybersecurity education frameworks that resonate strongly with judges looking for community value and beginner accessibility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
