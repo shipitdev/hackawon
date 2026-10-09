@@ -1,19 +1,19 @@
 {
   "city": null,
   "country": null,
-  "description": "Event Name: ARESxShunya Event Format: Pokémon AI Battle Organised By: ARES Robotics, NSUT About the Event: ARESxShunya is a live AI-versus-AI Pokémon-style battle competition where participants build a team of three Pokémon and develop an AI agent to control them autonomously. Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it. The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making. Event Details: Team Size: 1–2 members. Duration: 2.5–3 hours. Venue: Mini Audi. Mode: Offline. Event Structure: Phase 1 – The Team Draft: Participants select exactly three Pokémon from a predefined list. Each Pokémon has a predefined list of permitted moves. Only the Pokémon and moves provided by the organisers can be selected. Teams are designed to minimise extreme type advantages. Final teams are locked before the AI development phase. Phase 2 – The AI Training Ground: Participants receive the battle API and a local simulator. Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms. The AI receives the current battle state and selects a legal move or switches Pokémon. Teams qualify for the live tournament after successfully passing submission/API validation. Phase 3 – The Shunya AI Finale: Submitted AIs compete against each other in fully autonomous live battles. The battle engine controls turns, damage, status effects, switching, and win conditions. Live battles are displayed as animated Pokémon-style AI battles. A tournament bracket or leaderboard tracks the results. Battle Format: AI A vs AI B. Battle state is provided to the AI. AI selects an action. Battle engine executes the action. Updated battle state is provided to the AI. The cycle continues until one team has no remaining Pokémon. Simplified Battle Rules: E",
+  "description": "# Event Format: Pokémon AI Battle *Society Name:* ARES Robotics x Google Developer Groups NSUT *ARES × Shunya* is an AI-versus-AI Pokémon battle competition where participants develop and submit their own machine-learning models or algorithmic agents online. The submitted AIs compete autonomously in offline, head-to-head battles using *Pokémon Showdown* as the battle simulation engine. Participants build their strategies, submit their algorithms before the deadline, and watch their AIs compete against each other in live battles. Once a battle begins, no human intervention is permitted. *Theme:* Artificial Intelligence | Robotics | Machine Learning | Strategy | Autonomous Decision-Making ## Event Details •⁠ ⁠*Team Size:* 1–2 members •⁠ ⁠*Duration:* 2.5–3 hours •⁠ ⁠*Venue:* Mini Audi •⁠ ⁠*Mode:* Online algorithm submission + offline live tournament •⁠ ⁠*Simulation Platform:* Pokémon Showdown ## Event Structure & Flow The event is conducted in two stages: online algorithm submission and an offline head-to-head tournament. ### Phase 1: Online AI Submission *Objective:* Develop an autonomous Pokémon battle AI and submit it before the competition deadline. •⁠ ⁠Participants receive the official ruleset, permitted Pokémon and moves, and the required AI interface/API. •⁠ ⁠Participants independently develop their algorithms using heuristics, probability-based strategies, decision trees, machine learning, reinforcement learning, or other permitted approaches. •⁠ ⁠Each AI must make decisions autonomously based on the battle state provided to it. •⁠ ⁠Participants may test and refine their algorithms before submission. •⁠ ⁠Submitted algorithms must comply with the competition rules and interface requirements. •⁠ ⁠Teams must submit their final AI before the announced deadline. •⁠ ⁠Submissions undergo basic validation to ensure they run correctly and return legal actions. *Important:* The submitted AI must be capable of making all in-battle decisions without human assistance. ### P",
   "eligibility_text": null,
-  "ends_at": "2026-10-14T00:00:00+05:30",
+  "ends_at": "2026-10-17T17:00:00+05:30",
   "mode": "in_person",
   "organiser": "Netaji Subhas University of Technology (NSUT), Delhi",
-  "participants_count": 63,
+  "participants_count": 103,
   "prize_amount": 18000,
   "prize_currency": "INR",
   "problem_sources": [
     {
       "kind": "inline",
       "status": "parsed",
-      "text": "Event Name: ARESxShunya Event Format: Pokémon AI Battle Organised By: ARES Robotics, NSUT About the Event: ARESxShunya is a live AI-versus-AI Pokémon-style battle competition where participants build a team of three Pokémon and develop an AI agent to control them autonomously. Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it. The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making. Event Details: Team Size: 1–2 members. Duration: 2.5–3 hours. Venue: Mini Audi. Mode: Offline. Event Structure: Phase 1 – The Team Draft: Participants select exactly three Pokémon from a predefined list. Each Pokémon has a predefined list of permitted moves. Only the Pokémon and moves provided by the organisers can be selected. Teams are designed to minimise extreme type advantages. Final teams are locked before the AI development phase. Phase 2 – The AI Training Ground: Participants receive the battle API and a local simulator. Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms. The AI receives the current battle state and selects a legal move or switches Pokémon. Teams qualify for the live tournament after successfully passing submission/API validation. Phase 3 – The Shunya AI Finale: Submitted AIs compete against each other in fully autonomous live battles. The battle engine controls turns, damage, status effects, switching, and win conditions. Live battles are displayed as animated Pokémon-style AI battles. A tournament bracket or leaderboard tracks the results. Battle Format: AI A vs AI B. Battle state is provided to the AI. AI selects an action. Battle engine executes the action. Updated battle state is provided to the AI. The cycle continues until one team has no remaining Pokémon. Simplified Battle Rules: Each participant has exactly three Pokémon. Only Pokémon from the official event pool can be selected. Only moves from the official event move list can be used. Basic attack and simple status moves form the primary action set. Stats are standardised and simplified wherever possible. No manual decisions are permitted once a match begins. Type matchups are designed to reduce the impact of team selection alone. Exact battle mechanics and permitted actions will be fixed by the organisers. AI Input & Output: Own active Pokémon, HP, and status. Opponent's visible Pokémon, HP, and status. Available moves. Available Pokémon for switching. Current turn and battle information. Previously observed battle results, where applicable. The AI returns a legal action such as using a move or switching Pokémon. Competition Highlights: Build your own three-Pokémon team and hand over control to your AI. Fully autonomous AI-versus-AI battles. Live animated battles for an engaging audience experience. Controlled move pool for simpler and more strategic gameplay. Supports both conventional algorithms and machine-learning approaches. Identical battle engine and rules for all participants. Requirements: Laptop. Basic programming knowledge. Python recommended. Basic understanding of algorithms and probability is helpful. No prior Pokémon competitive-battle expertise is required. Judging Criteria: Battle Wins / Tournament Performance: 45%. Decision-Making & Strategy: 25%. Team Composition: 10%. Algorithm Efficiency / Response Time: 10%. Robustness & Legal Action Handling: 10%.",
+      "text": "# Event Format: Pokémon AI Battle *Society Name:* ARES Robotics x Google Developer Groups NSUT *ARES × Shunya* is an AI-versus-AI Pokémon battle competition where participants develop and submit their own machine-learning models or algorithmic agents online. The submitted AIs compete autonomously in offline, head-to-head battles using *Pokémon Showdown* as the battle simulation engine. Participants build their strategies, submit their algorithms before the deadline, and watch their AIs compete against each other in live battles. Once a battle begins, no human intervention is permitted. *Theme:* Artificial Intelligence | Robotics | Machine Learning | Strategy | Autonomous Decision-Making ## Event Details •⁠ ⁠*Team Size:* 1–2 members •⁠ ⁠*Duration:* 2.5–3 hours •⁠ ⁠*Venue:* Mini Audi •⁠ ⁠*Mode:* Online algorithm submission + offline live tournament •⁠ ⁠*Simulation Platform:* Pokémon Showdown ## Event Structure & Flow The event is conducted in two stages: online algorithm submission and an offline head-to-head tournament. ### Phase 1: Online AI Submission *Objective:* Develop an autonomous Pokémon battle AI and submit it before the competition deadline. •⁠ ⁠Participants receive the official ruleset, permitted Pokémon and moves, and the required AI interface/API. •⁠ ⁠Participants independently develop their algorithms using heuristics, probability-based strategies, decision trees, machine learning, reinforcement learning, or other permitted approaches. •⁠ ⁠Each AI must make decisions autonomously based on the battle state provided to it. •⁠ ⁠Participants may test and refine their algorithms before submission. •⁠ ⁠Submitted algorithms must comply with the competition rules and interface requirements. •⁠ ⁠Teams must submit their final AI before the announced deadline. •⁠ ⁠Submissions undergo basic validation to ensure they run correctly and return legal actions. *Important:* The submitted AI must be capable of making all in-battle decisions without human assistance. ### Phase 2: The Shunya AI Showdown — Offline Tournament *Objective:* Determine the strongest Pokémon battle AI through direct competition. •⁠ ⁠Validated participant AIs compete in head-to-head matches. •⁠ ⁠All battles use Pokémon Showdown as the simulation platform, subject to the final competition ruleset and technical integration. •⁠ ⁠Each AI autonomously chooses its moves and switches according to the information available to it. •⁠ ⁠The battle simulation resolves actions, damage, status effects, knockouts, and win conditions. •⁠ ⁠Battles are displayed live on the main screen for the audience. •⁠ ⁠A tournament bracket tracks match results and determines progression. •⁠ ⁠The final match determines the overall winner of ARES × Shunya. *Battle Flow:* 1.⁠ ⁠AI A faces AI B. 2.⁠ ⁠The simulation provides the available battle state to each AI. 3.⁠ ⁠Each AI returns its selected action. 4.⁠ ⁠Pokémon Showdown resolves the actions and updates the battle. 5.⁠ ⁠The process repeats until the match ends. 6.⁠ ⁠The result determines which AI advances in the tournament. ## Simulation Platform: Pokémon Showdown Pokémon Showdown will serve as the battle simulation platform, providing the battle mechanics and animated battle interface. The organizers will establish the permitted format, Pokémon pool, moves, and other rules before the competition. The AI integration will handle communication between participant algorithms and the simulation. The exact integration method, supported ruleset, and available battle-state information will be announced before submissions open. ## Competition Rules •⁠ ⁠Each team consists of 1–2 members. •⁠ ⁠Only submitted and validated algorithms may participate. •⁠ ⁠All participants compete under the same ruleset and simulation conditions. •⁠ ⁠No manual intervention is allowed after a match begins. •⁠ ⁠AIs must select legal actions and respond within the specified time limit. •⁠ ⁠The permitted Pokémon, moves, format, and battle mechanics are fixed by the organize",
       "title": "Published problem context",
       "url": null
     }
@@ -54,16 +54,122 @@
       "sort_order": 1,
       "state": "Delhi",
       "state_code": null,
-      "updated_at": "2026-10-08T23:05:16+05:30",
+      "updated_at": "2026-10-09T23:56:54+05:30",
       "zip": null
     },
     "approved_date": "2026-10-08 23:05:56 GMT+0530",
     "assignedTag": {
       "tag": null
     },
-    "details": "<p><strong>Event Name:</strong> ARESxShunya</p>\n<p><strong>Event Format:</strong> Pok&eacute;mon AI Battle</p>\n<p><strong>Organised By:</strong> ARES Robotics, NSUT</p>\n<p><strong>About the Event:</strong></p>\n<ul>\n<li>ARESxShunya is a live AI-versus-AI Pok&eacute;mon-style battle competition where participants build a team of three Pok&eacute;mon and develop an AI agent to control them autonomously.</li>\n<li>Once the battle begins, no human intervention is permitted. The AI receives the current battle state, selects an action, and the battle engine executes it.</li>\n<li>The event focuses on Artificial Intelligence, Machine Learning, Robotics, Strategy, and Autonomous Decision-Making.</li>\n</ul>\n<p><strong>Event Details:</strong></p>\n<ul>\n<li>Team Size: 1&ndash;2 members.</li>\n<li>Duration: 2.5&ndash;3 hours.</li>\n<li>Venue: Mini Audi.</li>\n<li>Mode: Offline.</li>\n</ul>\n<p><strong>Event Structure:</strong></p>\n<ul>\n<li><strong>Phase 1 &ndash; The Team Draft:</strong>\n<ul>\n<li>Participants select exactly three Pok&eacute;mon from a predefined list.</li>\n<li>Each Pok&eacute;mon has a predefined list of permitted moves.</li>\n<li>Only the Pok&eacute;mon and moves provided by the organisers can be selected.</li>\n<li>Teams are designed to minimise extreme type advantages.</li>\n<li>Final teams are locked before the AI development phase.</li>\n</ul>\n</li>\n<li><strong>Phase 2 &ndash; The AI Training Ground:</strong>\n<ul>\n<li>Participants receive the battle API and a local simulator.</li>\n<li>Teams develop and test their AI using machine learning, reinforcement learning, probability-based methods, decision trees, heuristics, or other permitted algorithms.</li>\n<li>The AI receives the current battle state and selects a legal move or switches Pok&eacute;mon.</li>\n<li>Teams qualify for the live tournament after successfully passing submission/API validation.</li>\n</ul>\n</li>\n<li><strong>Phase 3 &ndash; The Shunya AI Finale:</strong>\n<ul>\n<li>Submitted AIs compete against each other in fully autonomous live battles.</li>\n<li>The battle engine controls turns, damage, status effects, switching, and win conditions.</li>\n<li>Live battles are displayed as animated Pok&eacute;mon-style AI battles.</li>\n<li>A tournament bracket or leaderboard tracks the results.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Battle Format:</strong></p>\n<ul>\n<li>AI A vs AI B.</li>\n<li>Battle state is provided to the AI.</li>\n<li>AI selects an action.</li>\n<li>Battle engine executes the action.</li>\n<li>Updated battle state is provided to the AI.</li>\n<li>The cycle continues until one team has no remaining Pok&eacute;mon.</li>\n</ul>\n<p><strong>Simplified Battle Rules:</strong></p>\n<ul>\n<li>Each participant has exactly three Pok&eacute;mon.</li>\n<li>Only Pok&eacute;mon from the official event pool can be selected.</li>\n<li>Only moves from the official event move list can be used.</li>\n<li>Basic attack and simple status moves form the primary action set.</li>\n<li>Stats are standardised and simplified wherever possible.</li>\n<li>No manual decisions are permitted once a match begins.</li>\n<li>Type matchups are designed to reduce the impact of team selection alone.</li>\n<li>Exact battle mechanics and permitted actions will be fixed by the organisers.</li>\n</ul>\n<p><strong>AI Input &amp; Output:</strong></p>\n<ul>\n<li>Own active Pok&eacute;mon, HP, and status.</li>\n<li>Opponent's visible Pok&eacute;mon, HP, and status.</li>\n<li>Available moves.</li>\n<li>Available Pok&eacute;mon for switching.</li>\n<li>Current turn and battle information.</li>\n<li>Previously observed battle results, where applicable.</li>\n<li>The AI returns a legal action such as using a move or switching Pok&eacute;mon.</li>\n</ul>\n<p><strong>Competition Highlights:</strong></p>\n<ul>\n<li>Build your own three-Pok&eacute;mon team and hand over control to your AI.</li>\n<li>Fully autonomous AI-versus-AI battles.</li>\n<li>Live animated battles for an engaging audience experience.</li>\n<li>Controlled move pool for simpler and more strategic gameplay.</li>\n<li>Supports both conventional algorithms and machine-learning approaches.</li>\n<li>Identical battle engine and rules for all participants.</li>\n</ul>\n<p><strong>Requirements:</strong></p>\n<ul>\n<li>Laptop.</li>\n<li>Basic programming knowledge.</li>\n<li>Python recommended.</li>\n<li>Basic understanding of algorithms and probability is helpful.</li>\n<li>No prior Pok&eacute;mon competitive-battle expertise is required.</li>\n</ul>\n<p><strong>Judging Criteria:</strong></p>\n<ul>\n<li>Battle Wins / Tournament Performance: 45%.</li>\n<li>Decision-Making &amp; Strategy: 25%.</li>\n<li>Team Composition: 10%.</li>\n<li>Algorithm Efficiency / Response Time: 10%.</li>\n<li>Robustness &amp; Legal Action Handling: 10%.</li>\n</ul>",
-    "end_date": "2026-10-14T00:00:00+05:30",
-    "festival": null,
+    "details": "<p># Event Format: Pok&eacute;mon AI Battle</p>\n<p>*Society Name:* ARES Robotics x Google Developer Groups NSUT&nbsp;</p>\n<p>*ARES &times; Shunya* is an AI-versus-AI Pok&eacute;mon battle competition where participants develop and submit their own machine-learning models or algorithmic agents online. The submitted AIs compete autonomously in offline, head-to-head battles using *Pok&eacute;mon Showdown* as the battle simulation engine.</p>\n<p>Participants build their strategies, submit their algorithms before the deadline, and watch their AIs compete against each other in live battles. Once a battle begins, no human intervention is permitted.</p>\n<p>*Theme:* Artificial Intelligence | Robotics | Machine Learning | Strategy | Autonomous Decision-Making</p>\n<p>## Event Details</p>\n<p>&bull;⁠ &nbsp;⁠*Team Size:* 1&ndash;2 members<br />&bull;⁠ &nbsp;⁠*Duration:* 2.5&ndash;3 hours<br />&bull;⁠ &nbsp;⁠*Venue:* Mini Audi<br />&bull;⁠ &nbsp;⁠*Mode:* Online algorithm submission + offline live tournament<br />&bull;⁠ &nbsp;⁠*Simulation Platform:* Pok&eacute;mon Showdown</p>\n<p>## Event Structure &amp; Flow</p>\n<p>The event is conducted in two stages: online algorithm submission and an offline head-to-head tournament.</p>\n<p>### Phase 1: Online AI Submission</p>\n<p>*Objective:* Develop an autonomous Pok&eacute;mon battle AI and submit it before the competition deadline.</p>\n<p>&bull;⁠ &nbsp;⁠Participants receive the official ruleset, permitted Pok&eacute;mon and moves, and the required AI interface/API.<br />&bull;⁠ &nbsp;⁠Participants independently develop their algorithms using heuristics, probability-based strategies, decision trees, machine learning, reinforcement learning, or other permitted approaches.<br />&bull;⁠ &nbsp;⁠Each AI must make decisions autonomously based on the battle state provided to it.<br />&bull;⁠ &nbsp;⁠Participants may test and refine their algorithms before submission.<br />&bull;⁠ &nbsp;⁠Submitted algorithms must comply with the competition rules and interface requirements.<br />&bull;⁠ &nbsp;⁠Teams must submit their final AI before the announced deadline.<br />&bull;⁠ &nbsp;⁠Submissions undergo basic validation to ensure they run correctly and return legal actions.</p>\n<p>*Important:* The submitted AI must be capable of making all in-battle decisions without human assistance.</p>\n<p>### Phase 2: The Shunya AI Showdown &mdash; Offline Tournament</p>\n<p>*Objective:* Determine the strongest Pok&eacute;mon battle AI through direct competition.</p>\n<p>&bull;⁠ &nbsp;⁠Validated participant AIs compete in head-to-head matches.<br />&bull;⁠ &nbsp;⁠All battles use Pok&eacute;mon Showdown as the simulation platform, subject to the final competition ruleset and technical integration.<br />&bull;⁠ &nbsp;⁠Each AI autonomously chooses its moves and switches according to the information available to it.<br />&bull;⁠ &nbsp;⁠The battle simulation resolves actions, damage, status effects, knockouts, and win conditions.<br />&bull;⁠ &nbsp;⁠Battles are displayed live on the main screen for the audience.<br />&bull;⁠ &nbsp;⁠A tournament bracket tracks match results and determines progression.<br />&bull;⁠ &nbsp;⁠The final match determines the overall winner of ARES &times; Shunya.</p>\n<p>*Battle Flow:*</p>\n<p>1.⁠ ⁠AI A faces AI B.<br />2.⁠ ⁠The simulation provides the available battle state to each AI.<br />3.⁠ ⁠Each AI returns its selected action.<br />4.⁠ ⁠Pok&eacute;mon Showdown resolves the actions and updates the battle.<br />5.⁠ ⁠The process repeats until the match ends.<br />6.⁠ ⁠The result determines which AI advances in the tournament.</p>\n<p>## Simulation Platform: Pok&eacute;mon Showdown</p>\n<p>Pok&eacute;mon Showdown will serve as the battle simulation platform, providing the battle mechanics and animated battle interface.</p>\n<p>The organizers will establish the permitted format, Pok&eacute;mon pool, moves, and other rules before the competition. The AI integration will handle communication between participant algorithms and the simulation.</p>\n<p>The exact integration method, supported ruleset, and available battle-state information will be announced before submissions open.</p>\n<p>## Competition Rules</p>\n<p>&bull;⁠ &nbsp;⁠Each team consists of 1&ndash;2 members.<br />&bull;⁠ &nbsp;⁠Only submitted and validated algorithms may participate.<br />&bull;⁠ &nbsp;⁠All participants compete under the same ruleset and simulation conditions.<br />&bull;⁠ &nbsp;⁠No manual intervention is allowed after a match begins.<br />&bull;⁠ &nbsp;⁠AIs must select legal actions and respond within the specified time limit.<br />&bull;⁠ &nbsp;⁠The permitted Pok&eacute;mon, moves, format, and battle mechanics are fixed by the organizers.<br />&bull;⁠ &nbsp;⁠Any additional restrictions on external tools, pre-trained models, or internet access will be announced before submission.<br />&bull;⁠ &nbsp;⁠Tournament results determine the winners.</p>\n<p>## Winners &amp; Results</p>\n<p>There will be *no separate judging criteria or subjective scoring*. Winners will be determined exclusively by simulation results and tournament performance.</p>\n<p>The tournament bracket will determine the final standings, with the winning AI crowned the *ARES &times; Shunya Pok&eacute;mon AI Champion*.</p>\n<p>## Requirements</p>\n<p>&bull;⁠ &nbsp;⁠Laptop for algorithm development and online submission<br />&bull;⁠ &nbsp;⁠Basic programming knowledge<br />&bull;⁠ &nbsp;⁠Python recommended<br />&bull;⁠ &nbsp;⁠Basic understanding of algorithms, probability, or machine learning is helpful<br />&bull;⁠ &nbsp;⁠No prior competitive Pok&eacute;mon experience is required</p>\n<p>## Competition Highlights</p>\n<p>&bull;⁠ &nbsp;⁠Build your own autonomous Pok&eacute;mon battle AI.<br />&bull;⁠ &nbsp;⁠Submit your algorithm online and compete offline.<br />&bull;⁠ &nbsp;⁠Watch AI agents battle head-to-head on Pok&eacute;mon Showdown.<br />&bull;⁠ &nbsp;⁠Explore machine learning, probability, and strategic decision-making.<br />&bull;⁠ &nbsp;⁠Compete in a tournament where simulation results decide the winners.</p>\n<p>*For further information:*</p>\n<p>Join our WhatsApp group: &nbsp;<br />https://chat.whatsapp.com/JZxlZDFnmVGJbATCITbNnr?mode=gi_t</p>",
+    "end_date": "2026-10-17T17:00:00+05:30",
+    "festival": {
+      "abbr": null,
+      "end_date": "2026-10-18 18:00:31+05:30",
+      "footer_type": 0,
+      "header_type": 0,
+      "id": 520805,
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/festival/logo/150x150/6ac61eb10ab70_component_16.png",
+      "name": "Shunya 2026 ",
+      "organisation": {
+        "id": 1657642,
+        "logo": "new_organisation_image-6tMx9MY7OR913790830trvDDjVbFV.png",
+        "name": "Google Developers Student Clubs - NSUT"
+      },
+      "organization_id": 1657642,
+      "public_url": "college-fests/shunya-2026-google-developers-student-clubs-nsut-520805",
+      "regnRequirements": {
+        "allow_coupons": 0,
+        "allow_social_login": 1,
+        "allow_specific_cities": false,
+        "allowed_countries": null,
+        "audio_capture": 0,
+        "can_edit_extended_form": 0,
+        "closed_job_end_date": 0,
+        "college_type": 0,
+        "consent_needed": 0,
+        "core_req_fields": null,
+        "deleted_at": null,
+        "digilocker_verification_service": 1,
+        "display_compatibility_score": null,
+        "driver_for_proctoring": "aws",
+        "eligibility": null,
+        "email_reply_to": 0,
+        "enable_data_transfer_to_SAP": 0,
+        "enable_draft_reg": false,
+        "enable_icsfile": null,
+        "enable_payment": 0,
+        "enable_verifications": null,
+        "end_regn_dt": "2026-10-08T23:15:31+05:30",
+        "experience": null,
+        "extendRegForm": null,
+        "extend_basic_form": null,
+        "extendedFormData": null,
+        "face_detect_driver": "aws",
+        "face_recog_driver": "aws",
+        "festival_id": 520805,
+        "free_webinar_for_unstop_pro": 0,
+        "gender": [
+          "A"
+        ],
+        "gender_diversity": null,
+        "gender_verification": false,
+        "has_compatibility_priority": 0,
+        "id": 2496224,
+        "invitations_allowed": 0,
+        "limit_type": 1,
+        "linkedin_verification_requirement": "NONE",
+        "max_team_size": null,
+        "min_team_size": null,
+        "only_official_domains": null,
+        "open_for": 0,
+        "opportunity_id": null,
+        "payment_for": 0,
+        "payout_data": null,
+        "player_extended_form": null,
+        "proctoring": {
+          "face": false
+        },
+        "reg_amount": null,
+        "reg_restricted": 0,
+        "reg_status": "FINISHED",
+        "registration_config": {
+          "enable_newsletter_subscription": 0
+        },
+        "registration_limit": null,
+        "remain_days": "Ended",
+        "remainingDaysArray": {
+          "durations": null,
+          "text": "Ended"
+        },
+        "remaining_time": -104229,
+        "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
+        "resume_parser": 0,
+        "same_course": 0,
+        "same_graduation_year": 0,
+        "same_organisation": 1,
+        "same_user_type": 0,
+        "sap_stage_id": null,
+        "screening_round": null,
+        "service_charge_from": 0,
+        "show_deadline": 1,
+        "start_regn_dt": "2026-10-01T23:15:31+05:30",
+        "study_year_filter": 0,
+        "unique_face_verify": false,
+        "vendor_id": null,
+        "verification_service": 2,
+        "verified_aadhaar": 0,
+        "verified_aadhaar_face": 0,
+        "verified_aadhaar_face_via_digilocker": 0,
+        "verified_driving_licence_face": 0,
+        "verified_email": 1,
+        "verified_mobile": 1,
+        "work_location_type": "city"
+      },
+      "regn_open": 0,
+      "start_date": "2026-10-16 10:00:31+05:30",
+      "theme_colour": "blue"
+    },
     "filters": [
       {
         "domain_id": 0,
@@ -149,7 +255,7 @@
     ],
     "public_url": "hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284",
     "region": "offline",
-    "registerCount": 63,
+    "registerCount": 103,
     "regnRequirements": {
       "eligibility": null,
       "end_regn_dt": "2026-10-14T00:00:00+05:30",
@@ -157,12 +263,12 @@
       "min_team_size": 1,
       "opportunity_id": 1766284,
       "reg_status": "STARTED",
-      "remain_days": "4 days left",
+      "remain_days": "3 days left",
       "remainingDaysArray": {
-        "durations": 4,
+        "durations": 3,
         "text": " days left"
       },
-      "remaining_time": 363742,
+      "remaining_time": 330512,
       "show_deadline": 1,
       "start_regn_dt": "2026-10-05T00:00:00+05:30",
       "work_location_type": "city"
@@ -174,7 +280,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485430,
+          "id": 6498799,
           "subject_id": 645580
         },
         "skill": "Artificial Intelligence (AI)",
@@ -185,7 +291,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485431,
+          "id": 6498800,
           "subject_id": 647074
         },
         "skill": "Python",
@@ -196,7 +302,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485432,
+          "id": 6498801,
           "subject_id": 647130
         },
         "skill": "Reinforcement Learning",
@@ -207,7 +313,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485433,
+          "id": 6498802,
           "subject_id": 645963
         },
         "skill": "Decision Making",
@@ -218,7 +324,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485434,
+          "id": 6498803,
           "subject_id": 644689
         },
         "skill": "Probability Theory",
@@ -232,10 +338,10 @@
     "subtype": "online_coding_challenge",
     "tags": [],
     "thumb": null,
-    "title": "REDLINE - ARES ",
+    "title": "REDLINE - ARES x Google Developer Groups NSUT",
     "type": "hackathons",
-    "updated_at": "2026-10-08T23:05:56+05:30",
-    "viewsCount": 26878,
+    "updated_at": "2026-10-09T23:59:34+05:30",
+    "viewsCount": 6812,
     "visibility": "public",
     "workfunction": [
       {
@@ -247,7 +353,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1766284,
-          "id": 6485435,
+          "id": 6498804,
           "subject_id": 2107
         },
         "updated_at": "2026-04-09T00:17:10+05:30",
@@ -265,7 +371,7 @@
   "team_max": 2,
   "team_min": 1,
   "themes": [],
-  "title": "REDLINE - ARES ",
+  "title": "REDLINE - ARES x Google Developer Groups NSUT",
   "tracks": [],
   "url": "https://unstop.com/hackathons/redline-ares-netaji-subhas-university-of-technology-nsut-delhi-1766284"
 }
