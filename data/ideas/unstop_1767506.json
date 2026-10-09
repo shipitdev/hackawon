@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-09T09:29:04.219270+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767506",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated AML risk detection platform combining graph intelligence and explainable machine learning for real-time transaction monitoring.",
+      "problem_statement": "FinTech domain real problem statement focusing on automated risk detection and fraud mitigation.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "React"
+      ],
+      "title": "FinGuard AML Graph",
+      "track": "FinTech",
+      "why_it_could_win": "Demonstrates a hard engineering approach combining graph intelligence and real-time transaction screening which heavily appeals to FinTech judges looking for robust security."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1170846981"
+      ],
+      "pitch": "An AI-powered multi-agent support and RAG platform delivering personalized crop disease diagnosis and localized market price forecasting for rural farmers.",
+      "problem_statement": "AgriTech domain problem statement addressing agricultural information access and supply chain efficiency.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "AgriPulse Multi-Agent Advisory",
+      "track": "AgriTech",
+      "why_it_could_win": "Combines clear social impact with advanced RAG architectures and multi-agent coordination, directly mirroring proven winning strategies from recent hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A voice-first AI agent interface that actively intercepts and analyzes incoming telephone scam audio in real-time to protect elderly users.",
+      "problem_statement": "Cybersecurity domain problem statement focusing on proactive consumer protection against voice phishing and scams.",
+      "stack": [
+        "Swift",
+        "Python",
+        "WebSockets",
+        "OpenAI Whisper"
+      ],
+      "title": "ElderShield Voice Guard",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Focuses on a highly relevant consumer cybersecurity vulnerability with a polished voice-first demo that is easy for judges to interact with and immediately understand."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259514645"
+      ],
+      "pitch": "An Android application utilizing device cameras and computer vision machine learning models to capture and evaluate patient physical therapy poses in real-time.",
+      "problem_statement": "HealthTech domain problem statement targeting accessible remote physiotherapy and patient recovery monitoring.",
+      "stack": [
+        "Java",
+        "Android SDK",
+        "TensorFlow Lite",
+        "OpenCV"
+      ],
+      "title": "HealthSense Pose Rehab",
+      "track": "HealthTech",
+      "why_it_could_win": "Features a live, working mobile camera demo with immediate visual feedback, satisfying the judges' preference for a functional proof-of-concept."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An edge-to-cloud automated data pipeline that ingests IoT hardware sensor alerts and triggers verified autonomous incident response workflows.",
+      "problem_statement": "Hardware / IoT & Robotics domain problem statement addressing real-time hardware telemetry and automated error recovery.",
+      "stack": [
+        "Python",
+        "MQTT",
+        "Node-RED",
+        "FastAPI"
+      ],
+      "title": "GridLock IoT Incident Automator",
+      "track": "Hardware / IoT & Robotics",
+      "why_it_could_win": "Bridges physical IoT hardware telemetry with an automated software pipeline, demonstrating end-to-end execution within the 24-hour offline finale constraint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

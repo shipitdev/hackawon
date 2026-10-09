@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-10-09T09:28:59.606483+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767480",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A virtual simulation of a household renewable energy system that balances solar generation, battery storage, and dynamic load shifting.",
+      "problem_statement": "Electronics Domain: Design sustainable hardware solutions using virtual simulation tools such as Tinkercad, Proteus, ModelSim, or Vivado focusing on energy efficiency.",
+      "stack": [
+        "C",
+        "Proteus",
+        "Arduino"
+      ],
+      "title": "EcoGrid: Solar-Battery Microgrid Energy Optimizer",
+      "track": "Electronics Domain",
+      "why_it_could_win": "Directly aligns with the Electronics Domain focus on energy efficiency and leverages the validated core logic of previous winning energy management systems."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1136086036"
+      ],
+      "pitch": "An Arduino-based greenhouse simulation in Tinkercad that optimizes soil moisture and LED lighting using low-power renewable logic.",
+      "problem_statement": "Electronics Domain: Design sustainable hardware solutions focusing on minimal material use and renewable logic using Arduino or ESP32 platforms.",
+      "stack": [
+        "Arduino",
+        "Tinkercad",
+        "C++"
+      ],
+      "title": "SmartSprout: Automated Eco-Greenhouse Monitor",
+      "track": "Electronics Domain",
+      "why_it_could_win": "Combines plant monitoring mechanics with proven gamified eco-friendly logic that has historically scored high wins."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "A Computational Fluid Dynamics simulation optimizing micro-wind turbine blade geometry for maximum energy capture with minimal material waste.",
+      "problem_statement": "Mechanical Domain: Advance sustainable mechanical design by building CAD models and conducting simulations using Computational Fluid Dynamics (CFD).",
+      "stack": [
+        "ANSYS CFD",
+        "SolidWorks",
+        "Python"
+      ],
+      "title": "FluidFlow: Eco-Friendly Wind Turbine Blade CFD",
+      "track": "Mechanical Domain",
+      "why_it_could_win": "Targeted specifically at the Mechanical Domain requirements, offering visual and mathematically validated efficiency gains that appeal to technical judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A finite element analysis model of a structural automotive bracket redesigned with lattice structures to minimize material usage while maintaining load capacity.",
+      "problem_statement": "Mechanical Domain: Validate and optimize eco-friendly solutions using Finite Element Analysis (FEA) focusing on minimal material use.",
+      "stack": [
+        "Fusion 360",
+        "FEA Tool",
+        "Python"
+      ],
+      "title": "StressMorph: Lightweight Biodegradable Bracket FEA",
+      "track": "Mechanical Domain",
+      "why_it_could_win": "Demonstrates immediate manufacturing resource savings through advanced structural simulation, directly answering the sustainability goals of the track."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A Tinkercad circuit simulation combining an Arduino microcontroller and sensors to sort recyclable materials with high energy efficiency.",
+      "problem_statement": "Electronics Domain: Design sustainable hardware solutions using virtual simulation tools such as Tinkercad built around Arduino or ESP32 platforms.",
+      "stack": [
+        "Arduino",
+        "Tinkercad",
+        "C++"
+      ],
+      "title": "SortAI: Virtual Smart Waste Classifier Circuit",
+      "track": "Electronics Domain",
+      "why_it_could_win": "Adapts a proven robotics and hardware classification winning architecture into a clean, waste-free virtual simulation format."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

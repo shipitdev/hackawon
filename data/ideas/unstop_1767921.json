@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-09T09:29:26.737996+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767921",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A multi-agent system that ingests production alerts, queries logs via MCP, coordinates root-cause analysis, and opens PR fixes autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Docker"
+      ],
+      "title": "Agentic Incident Command",
+      "track": "",
+      "why_it_could_win": "Targeting the developer productivity and autonomous debugging angle proved successful at the IBM Bob Dev Day Hackathon by turning runtime errors into structured repair plans."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An agentic RAG and Model Context Protocol server that indexes and cross-references fragmented college event guidelines, timetables, and academic policies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LlamaIndex",
+        "FastMCP",
+        "PostgreSQL"
+      ],
+      "title": "Federated Campus Doc Agent",
+      "track": "",
+      "why_it_could_win": "Leveraging federated MCP servers creates high architectural complexity that impresses judges looking for deep systems engineering, mirroring the MCP & AI Agents Hackathon runner-up."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An end-to-end IT support agent that ingests Discord or Slack student queries, auto-triages campus IT tickets, runs diagnostic scripts, and requests admin sign-off.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "LangGraph",
+        "Slack API"
+      ],
+      "title": "Autonomous ITSM Triage Bot",
+      "track": "",
+      "why_it_could_win": "Addresses immediate administrative headaches faced by student organisers and college authorities during major fests, following the practical workflow patterns of the Microsoft Agent Academy winner."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first AI code review agent designed to analyze git diffs locally using lightweight models without leaking proprietary student hackathon source code.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Ollama",
+        "Transformers",
+        "GitPython"
+      ],
+      "title": "Edge Agent Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Employs an offline local AI paradigm which aligns with the Qualcomm Snapdragon Multiverse Hackathon winner by emphasizing privacy, speed, and local hardware utilization."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A natural language agent that plans, scaffolds, and generates functional multi-page React or Expo applications on the fly from simple prompt descriptions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "AST Parser"
+      ],
+      "title": "Meta-App Builder Agent",
+      "track": "",
+      "why_it_could_win": "Delivers an impressive live-demo impact where an agent constructs software in real-time, matching the successful strategy of the STRV Hackathon winner."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

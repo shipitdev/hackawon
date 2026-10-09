@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-09T09:29:12.926837+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767624",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A high-performance full-text search engine extension optimized for Bun and Next.js applications, built to solve slow client-side filtering in open-source boilerplate projects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Bun",
+        "SQLite",
+        "Next.js"
+      ],
+      "title": "Bun-Native SQLite FTS5 Extension for Next.js",
+      "track": "",
+      "why_it_could_win": "Targeting open-source contributions to popular ecosystems like Bun and Next.js maximizes real-world impact and technical complexity scores, aligning with the evaluation criteria."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An open-source diagnostic extension for VS Code written in Rust via WebAssembly to detect memory leaks in heavy IDE plugins in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Rust",
+        "WebAssembly",
+        "TypeScript",
+        "VS Code API"
+      ],
+      "title": "Rust-Powered Memory Profiler for VS Code Extensions",
+      "track": "",
+      "why_it_could_win": "Combines high technical complexity with real-world developer impact, hitting the two highest-weighted judging rubrics for code quality and reliability."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An AST-based open-source CLI utility that scans React and Next.js codebases to safely prune unused Tailwind utility classes and custom design tokens.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Babel",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "title": "Tailwind CSS Component Dead-Code Eliminator",
+      "track": "",
+      "why_it_could_win": "Addresses a widespread developer pain point in modern web development with a clean, high-impact pull request that is easy for open-source maintainers to review and merge."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A lightweight eBPF-based metrics exporter for Linux systems that feeds kernel-level block I/O latency directly into Prometheus without user-space overhead.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "C",
+        "eBPF",
+        "Linux Kernel",
+        "Prometheus"
+      ],
+      "title": "Linux Kernel BPF Tracepoint Exporter for Prometheus",
+      "track": "",
+      "why_it_could_win": "Demonstrates extreme technical complexity and systems-level engineering, guaranteeing maximum points under technical complexity and testing/reliability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1329458499"
+      ],
+      "pitch": "An automated GitHub Action powered by local embeddings that checks incoming pull requests against repository-specific contribution guidelines and code style rules.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "GitHub Actions",
+        "Transformers",
+        "FastAPI"
+      ],
+      "title": "Semantic PR Reviewer Bot for Open Source Repositories",
+      "track": "",
+      "why_it_could_win": "Provides immediate real-world value to open-source maintainers struggling with PR quality, scoring high on real-world impact and design."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

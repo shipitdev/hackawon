@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-09T09:28:19.241488+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1759988",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Real-time digital twin for predictive maintenance in smart manufacturing utilizing sensor simulation and anomaly detection.",
+      "problem_statement": "Smart Manufacturing and Digital Twin & Simulation tracks",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AeroTwin-Factory",
+      "track": "Digital Twin & Simulation",
+      "why_it_could_win": "Combines industrial relevance with a live-streamed anomaly dashboard that directly appeals to manufacturing industry partners on the jury."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "Edge computer vision system for detecting crop stress and early pest infestations from drone imagery in agricultural fields.",
+      "problem_statement": "Environment, Health & Safety (EHS) and Sustainability & Green Technologies tracks",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Streamlit"
+      ],
+      "title": "AgriSustain-Vision",
+      "track": "Sustainability & Green Technologies",
+      "why_it_could_win": "Demonstrates clear measurable environmental and agricultural impact with a working image classification pipeline built for speed."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "Voice-enabled clinical triage and symptom checker supporting local Indian languages for rural healthcare clinics.",
+      "problem_statement": "Multilingual AI & Language Technologies and Environment, Health & Safety (EHS) tracks",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Google Gemini API",
+        "Whisper API"
+      ],
+      "title": "MediTriage-Multilingual",
+      "track": "Multilingual AI & Language Technologies",
+      "why_it_could_win": "Directly tackles regional healthcare accessibility challenges, aligning with high-priority themes for academic and industry judges alike."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [],
+      "pitch": "Automated log analyzer and security posture assessment dashboard detecting abnormal privilege escalations in enterprise networks.",
+      "problem_statement": "Cybersecurity & Digital Trust and Defence, Security & Strategic Technologies tracks",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "TypeScript",
+        "Next.js"
+      ],
+      "title": "ShieldGuard-AI",
+      "track": "Cybersecurity & Digital Trust",
+      "why_it_could_win": "Focuses on high-demand enterprise digital trust requirements with a functional simulation of real-time threat detection."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "In-store computer vision analytics tracking customer traffic flow and shelf stocking levels for intelligent retail commerce.",
+      "problem_statement": "Retail & Intelligent Commerce and Computer Vision & Image Processing tracks",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Ultralytics YOLO",
+        "React"
+      ],
+      "title": "RetailFlow-Analytics",
+      "track": "Retail & Intelligent Commerce",
+      "why_it_could_win": "Solves an everyday commercial problem with a live video processing demo that catches the eye of industry retail partners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

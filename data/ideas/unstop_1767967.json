@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-10-09T09:29:31.420758+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767967",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1171690684",
+        "github:938030912"
+      ],
+      "pitch": "An AI-first product engineering co-pilot that automates the transition from wireframe sketches to fully specified engineering component trees and design systems.",
+      "problem_statement": "Tata Elxsi TELIPORT Season 4 Theme: Script your future with an AI-first approach to Design and Product Engineering",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "DesignFlow-AI",
+      "track": "",
+      "why_it_could_win": "Directly aligns with Tata Elxsi's core business of design and product engineering services, giving enterprise judges a tool that bridges the gap between industrial design and software implementation."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1171690684"
+      ],
+      "pitch": "An intelligent requirement parsing tool that ingests unstructured client briefs and automatically generates structured engineering blueprints, test matrices, and architecture diagrams.",
+      "problem_statement": "Tata Elxsi TELIPORT Season 4 Theme: Script your future with an AI-first approach to Design and Product Engineering",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "NetworkX",
+        "Qwen"
+      ],
+      "title": "AutoSpec Engine",
+      "track": "",
+      "why_it_could_win": "Targets a massive pain point for service-based product engineering companies like Tata Elxsi, where translating messy client briefs into formal engineering specifications is entirely manual."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1068266327"
+      ],
+      "pitch": "A domain-specific semantic router that directs engineering queries to specialized CAD automation scripts, FEA simulation parameters, or compliance documentation models.",
+      "problem_statement": "Tata Elxsi TELIPORT Season 4 Theme: Script your future with an AI-first approach to Design and Product Engineering",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "AeroDesign-LLM Router",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced routing architecture similar to top-winning systems, showing technical depth beyond standard wrapper applications."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:965357458",
+        "github:1068266327"
+      ],
+      "pitch": "An automated compliance and ethical telemetry platform that reviews generated product designs and engineering codebases against automotive, medical, and consumer safety standards.",
+      "problem_statement": "Tata Elxsi TELIPORT Season 4 Theme: Script your future with an AI-first approach to Design and Product Engineering",
+      "stack": [
+        "Go",
+        "Python",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "EngiGuard Governance",
+      "track": "",
+      "why_it_could_win": "Applies enterprise-grade safety and governance patterns that resonate strongly with judges from regulated engineering domains like automotive and healthcare."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1255987686",
+        "github:1068266327"
+      ],
+      "pitch": "An autonomous IT service desk and engineering ticket resolution agent that triages client bugs, matches them with past design documents, and auto-generates patch implementations.",
+      "problem_statement": "Tata Elxsi TELIPORT Season 4 Theme: Script your future with an AI-first approach to Design and Product Engineering",
+      "stack": [
+        "PowerShell",
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "React"
+      ],
+      "title": "WorkflowScript ITSM Agent",
+      "track": "",
+      "why_it_could_win": "Replicates proven enterprise autonomous agent workflows that eliminate repetitive internal engineering triage overhead."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

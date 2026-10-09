@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-09T09:28:55.070088+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766284",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A fast decision-tree and minimax-based AI agent that evaluates state spaces and computes optimal damage-to-risk ratios for autonomous Pokémon combat.",
+      "problem_statement": "ARESxShunya Pokémon AI Battle: Develop an AI agent to control a team of three Pokémon autonomously using the battle API and local simulator.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "FastAPI"
+      ],
+      "title": "AlphaMon Heuristic Evaluator",
+      "track": "",
+      "why_it_could_win": "Focuses on deterministic decision-making trees rather than heavy training, ensuring zero timeout latency during live tournament execution."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "A reinforcement learning agent trained on the local simulator using tabular Q-learning to master type matchups, move priorities, and strategic switching.",
+      "problem_statement": "ARESxShunya Pokémon AI Battle: Develop and test an AI agent using machine learning, reinforcement learning, or probability-based methods.",
+      "stack": [
+        "Python",
+        "Gymnasium",
+        "PyTorch"
+      ],
+      "title": "Q-Learning Type-Advantage Bot",
+      "track": "",
+      "why_it_could_win": "Leverages actual ML training within the short hackathon window to outperform naive baseline agents by exploiting state transition probabilities."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A Monte Carlo Tree Search (MCTS) agent that simulates future turn rollouts to select the statistically optimal move under uncertainty.",
+      "problem_statement": "ARESxShunya Pokémon AI Battle: AI receives current battle state, selects an action, and the battle engine executes it autonomously.",
+      "stack": [
+        "Python",
+        "SciPy"
+      ],
+      "title": "Stateful Monte Carlo Pokémon Agent",
+      "track": "",
+      "why_it_could_win": "MCTS excels in turn-based game trees with hidden information or probabilistic move hits, giving a distinct advantage in strategic depth."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A hybrid heuristic agent combining strict defensive type-chart matching with predictive switch triggers when HP thresholds drop below critical levels.",
+      "problem_statement": "ARESxShunya Pokémon AI Battle: The AI receives the current battle state and selects a legal move or switches Pokémon.",
+      "stack": [
+        "Python",
+        "Requests"
+      ],
+      "title": "Rule-Engineered Meta-Switcher",
+      "track": "",
+      "why_it_could_win": "Simple, robust rule sets often crush unstable machine learning agents during rapid 3-hour implementation windows due to zero training overhead."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An ensemble controller that blends a defensive heuristic layer for emergency healing/switching with an aggressive damage-maximization policy network.",
+      "problem_statement": "ARESxShunya Pokémon AI Battle: Develop an AI agent to control them autonomously using machine learning, probability-based methods, or heuristics.",
+      "stack": [
+        "Python",
+        "Pandas"
+      ],
+      "title": "Ensemble State Machine AI",
+      "track": "",
+      "why_it_could_win": "Multi-layered fallback logic prevents catastrophic edge-case failures during the live tournament rounds where simpler scripts lock up."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-09T09:29:22.216284+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767731",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1226951926"
+      ],
+      "pitch": "A tool that uses agentic AI to inspect, validate, and auto-correct full-stack codebases against business logic workflow standards.",
+      "problem_statement": "Agentic AI and autonomous systems",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "n8n",
+        "OpenAI API"
+      ],
+      "title": "AgenticBPMN: Autonomous Workflow Evaluator",
+      "track": "Agentic AI and autonomous systems",
+      "why_it_could_win": "Combines multi-agent debugging patterns with automated process orchestration, directly targeting the Agentic AI track focus."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An autonomous runtime error investigator that traces full-stack exceptions, generates root-cause analysis, and drafts automated test patches.",
+      "problem_statement": "Full-Stack Product Engineering",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "StackPulse: Real-Time Full-Stack Regression Guard",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Solves an immediate, painful developer workflow problem with a live, demonstrable debugging loop that works out-of-the-box."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router using vector indices and local evaluation writebacks to optimize LLM query dispatch cost and latency.",
+      "problem_statement": "Open Innovation and emerging technologies",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "OpenInference: Open-Source LLM Semantic Routing Engine",
+      "track": "Open Innovation and emerging technologies",
+      "why_it_could_win": "Brings rigorous systems engineering and low-latency optimization to open innovation, matching the technical depth seen in winning semantic routing architectures."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "A low-code node integration wrapper that lets developers spawn autonomous multi-agent loops directly inside n8n workflows.",
+      "problem_statement": "Agentic AI and autonomous systems",
+      "stack": [
+        "TypeScript",
+        "n8n API",
+        "Node.js",
+        "OpenAI"
+      ],
+      "title": "n8n-AgentBuilder: Visual Multi-Agent Orchestrator",
+      "track": "Agentic AI and autonomous systems",
+      "why_it_could_win": "Leverages the hackathon sponsor's ecosystem (n8n Pro plans) by building an extension that makes n8n natively agent-aware."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353",
+        "github:1171690684"
+      ],
+      "pitch": "An zero-config auto-embedding toolkit that profiles database schemas and instantly sets up semantic search and data integrity checks.",
+      "problem_statement": "Full-Stack Product Engineering",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "Streamlit"
+      ],
+      "title": "AutoSchema: Autonomous Database RAG and Profiling Toolkit",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Addresses data profiling and integration pain points with high utility for full-stack engineers deploying database-backed AI features."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

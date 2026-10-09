@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-09T09:28:36.752905+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1764178",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A visual platform that generates custom broken chain sequences, difficulty-target mining sandboxes, and tampered block detectors for educational blockchain puzzle hunts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Ethers.js"
+      ],
+      "title": "ChainSleuth: Interactive Blockchain Puzzle Toolkit",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the core mechanics of BlockHunt '26, providing an interactive utility that resonates with event organizers and participants learning hashing and mining."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:614169755"
+      ],
+      "pitch": "A mini-IDE and testing suite featuring live puzzle contracts with hidden flaws, letting students practice cracking smart contracts against simulated exploit conditions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "JavaScript",
+        "Node.js"
+      ],
+      "title": "SmartGuard: Automated Smart Contract Vulnerability Puzzle Trainer",
+      "track": "",
+      "why_it_could_win": "Taps into the smart contract puzzle stage of the hackathon, offering judges an engaging, hands-on tool for security auditing and debugging."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1317530638"
+      ],
+      "pitch": "A lightweight local network visualizer designed to simulate consensus finale mechanics, demonstrating live block validation and fork resolution across multiple devices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "ConsensusSim: Laptop-Based Consensus Protocol Visualizer",
+      "track": "",
+      "why_it_could_win": "Addresses the consensus finale stage explicitly, showcasing genuine distributed systems engineering within a tight timeframe."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A lightweight utility that verifies transaction integrity and highlights altered payloads using Merkle trees, exposing injected blocks in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "CryptoJS"
+      ],
+      "title": "MerkleTrail: Tamper-Evident Chain Inspector",
+      "track": "",
+      "why_it_could_win": "Focuses on the tamper-evidence stage of the event, offering a rigorous cryptographic verification tool that appeals to technical judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An educational web sandbox where participants adjust mining difficulty targets, compute nonces in real-time, and race to mine blocks against a dynamic ledger.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "HTML5",
+        "Web Workers"
+      ],
+      "title": "ProofOfWork Race: Browser-Based Difficulty Mining Sandbox",
+      "track": "",
+      "why_it_could_win": "Aligns with the beginner-friendly yet technically rigorous mining stage, demonstrating clear mastery of hash functions and proof-of-work fundamentals."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

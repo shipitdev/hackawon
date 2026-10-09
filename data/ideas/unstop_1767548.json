@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-09T09:29:09.080415+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767548",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1141364034"
+      ],
+      "pitch": "A low-cost handheld multispectral scanner and offline Edge AI device that diagnoses crop nutrient deficiencies and fungal infections instantly in rural fields without internet connectivity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "ESP32",
+        "Arduino",
+        "C++"
+      ],
+      "title": "KrishiScanner: Offline AI Soil & Leaf Health Diagnostic Node",
+      "track": "Hardware",
+      "why_it_could_win": "Hardware builds naturally stand out in room filled with web apps, and running AI locally on constrained silicon directly mirrors the engineering patterns seen in winning IoT and edge-computing hackathon projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "An automated community water filtration monitoring system that uses real-time pH and turbidity sensors to detect contamination spikes, triggering automated isolation valves and cloud alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Firebase",
+        "ESP32",
+        "MQTT"
+      ],
+      "title": "JalSuraksha: IoT-Enabled Rural Water Quality Telemetry & Auto-Flush System",
+      "track": "Hardware",
+      "why_it_could_win": "Judges prioritize projects targeting core civic infrastructure and public health impacts. Having a physical sensor loop that responds in real-time makes for an undeniable live demo."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:964068655",
+        "github:1341712439"
+      ],
+      "pitch": "An AI-powered system that ingests vernacular customer support audio and government service interactions, running local speech-to-text and sentiment analytics to flag fraud or mis-selling in local dialects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "BhashaAudit: Multimodal Regional Language Compliance & Audio Verification Agent",
+      "track": "Software",
+      "why_it_could_win": "Leverages complex multimodal AI pipelines to solve a uniquely Indian systemic bottleneck, addressing high-impact socio-economic challenges with working code."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A hardware-secured tracking tool combining conductive ink signatures on product packaging with a handheld ESP32 scanner to instantly verify supply chain authenticity and detect counterfeits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Google Cloud",
+        "TypeScript"
+      ],
+      "title": "AyurVerify: Tamper-Evident Supply Chain Tracker for Ayurvedic Formulations",
+      "track": "Hardware",
+      "why_it_could_win": "Directly applies proven anti-counterfeiting hardware architectures that previously won major national hackathons, showing high technical ambition and immediate commercial feasibility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An intelligent energy-monitoring platform that consumes streaming telemetry from regional sub-stations, uses fast unsupervised ML to spot power theft or transformer anomalies, and visualizes fixes on a live map.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TimescaleDB",
+        "FastAPI",
+        "React",
+        "Scikit-Learn"
+      ],
+      "title": "VidyutGrid: Automated Micro-Grid Load Balancing & Anomaly Detection Dashboard",
+      "track": "Software",
+      "why_it_could_win": "Combines robust streaming data backends with rapid anomaly detection models, fulfilling the software track's demand for intelligent systems and automation tools that solve industrial problems."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

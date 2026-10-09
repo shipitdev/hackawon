@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-09T09:28:46.276408+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765224",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video intelligence platform that converts long-form regional startup pitch videos into searchable, structured data and summaries for investors.",
+      "problem_statement": "Indiathon 14-day startup MVP and 2-minute video presentation requirement",
+      "stack": [
+        "Next.js",
+        "Python",
+        "OpenAI Whisper",
+        "TailwindCSS"
+      ],
+      "title": "VidIntel India",
+      "track": "",
+      "why_it_could_win": "Directly tackles the submission bottleneck by helping startup founders automatically organize and polish their video submissions and pitch artifacts into investor-ready formats."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An AI Chief of Staff specifically tailored for student startup teams participating in long-form hackathons to manage task delegation, timeline tracking, and MVP scope creep.",
+      "problem_statement": "Indiathon 14-day startup incubation and MVP building challenge",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "React"
+      ],
+      "title": "FoundersCrew Chief",
+      "track": "",
+      "why_it_could_win": "Leverages proven productivity-agent patterns from recent hackathon winners to keep student teams disciplined over a multi-day timeline, ensuring they ship a working MVP."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A rapid digital branch experience and loan/grant application simulator designed to help student startups package their financial projections and MVP use-cases for judges.",
+      "problem_statement": "Indiathon startup idea to real working MVP transformation",
+      "stack": [
+        "Next.js 15",
+        "Node.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "CapitalCue MVP Builder",
+      "track": "",
+      "why_it_could_win": "Adapts a multi-prize-winning architectural pattern for fintech and grant applications, offering judges a polished interface that looks like a real live product."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "A short-form video language exchange and micro-learning platform tailored for local founders to pitch ideas and learn entrepreneurial terminology in regional Indian languages.",
+      "problem_statement": "Indiathon startup concept demonstration and impact communication",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Cloudinary"
+      ],
+      "title": "MoraLearn Regional",
+      "track": "",
+      "why_it_could_win": "Utilizes engaging short-form video UX which consistently grabs high engagement from judges looking for consumer-ready mobile or web interfaces."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:818729421"
+      ],
+      "pitch": "An empathetic, real-time AI simulation coach that drills startup founders on tough investor questions and stress-tests their pitch before the final 2-minute video recording.",
+      "problem_statement": "Indiathon maximum 2-minute video explaining startup and problem statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI Realtime API",
+        "Twilio"
+      ],
+      "title": "DispatchAI Crisis-Pitch",
+      "track": "",
+      "why_it_could_win": "Applies grand-prize-winning voice and LLM agent architectures to solve the exact pain point of preparing a high-impact competition video under tight deadlines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
