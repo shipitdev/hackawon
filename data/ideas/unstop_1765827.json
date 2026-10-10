@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-10-10T08:49:01.125631+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765827",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A micro-IDE extension designed to train developers for rapid syntax recall and error-free typing under intense time limits.",
+      "problem_statement": "Flash Code surprise mini coding games requiring speed, accuracy, and quick thinking under pressure.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "JavaScript"
+      ],
+      "title": "ReflexType Code Sprint",
+      "track": "",
+      "why_it_could_win": "Directly targets the core judging criteria of speed and accuracy in surprise coding formats, featuring a reliable live demo that works instantly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight browser-based mini-game engine for 1v1 algorithmic mini-challenges with real-time test-case execution.",
+      "problem_statement": "Flash Code surprise mini coding games requiring individual competition and adaptability under pressure.",
+      "stack": [
+        "JavaScript",
+        "WebSockets",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "Algofast Duel Arena",
+      "track": "",
+      "why_it_could_win": "Emphasizes a robust, working live demo that matches the fast-paced, competitive minigame nature of the event."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A CLI and web tool that rapidly injects and scores obfuscated code bugs to test a coder's debugging reflex.",
+      "problem_statement": "Flash Code surprise mini coding games focusing on speed, adaptability, and creativity for solo coders.",
+      "stack": [
+        "Python",
+        "AST",
+        "Flask"
+      ],
+      "title": "BugHunt SpeedRunner",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in parsing and mutating ASTs on the fly, appealing to judges looking for technical depth."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "A rapid puzzle-generation interface that creates constraint-based logic mini-games for quick evaluation.",
+      "problem_statement": "Flash Code surprise mini coding games revealed on event day requiring quick thinkers who can adapt.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Phaser"
+      ],
+      "title": "PuzzleScript Mini",
+      "track": "",
+      "why_it_could_win": "Leverages game development patterns that educate and engage judges instantly, similar to successful visual novel approaches."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "An interactive terminal game testing instant regular expression crafting and string pattern matching under strict time constraints.",
+      "problem_statement": "Flash Code surprise mini coding games prioritizing speed, accuracy, and individual competition.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "SpeedRegex Matcher",
+      "track": "",
+      "why_it_could_win": "Offers a polished, highly responsive interface that showcases a flawless live demo during high-stress judging."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

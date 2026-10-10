@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-10T08:49:14.631338+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767673",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-intelligence-based risk detection and investigation platform tailored for tracking obfuscated crypto transactions and illicit fund routing.",
+      "problem_statement": "Real-world challenges in security, privacy, and digital trust under an adversarial environment.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "Python",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "VeriGraph AML",
+      "track": "",
+      "why_it_could_win": "Directly mirrors a proven architecture that won a major security-focused hackathon by combining graph intelligence with explainable risk scoring, appealing heavily to the ISACA judging panel focused on auditability."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth personal security agent featuring layered prompt-injection hardening and real-time behavioral monitoring to prevent adversarial exploitation of internal APIs.",
+      "problem_statement": "Real-world challenges in security, privacy, and digital trust under an adversarial environment.",
+      "stack": [
+        "TypeScript",
+        "Vercel AI SDK",
+        "Claude API",
+        "Node.js"
+      ],
+      "title": "SentryAgent Guard",
+      "track": "",
+      "why_it_could_win": "Leverages the winning defense-in-depth framework for autonomous agents, directly addressing the core adversarial theme of outsmarting the obvious security flaws in modern agentic pipelines."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A hybrid digital identity and sovereign data ownership exchange platform implementing verifiable credentials for private corporate data sharing.",
+      "problem_statement": "Real-world challenges in security, privacy, and digital trust under an adversarial environment.",
+      "stack": [
+        "TypeScript",
+        "Corda DID",
+        "React",
+        "Solana Web3.js"
+      ],
+      "title": "CordaTrust Data Exchange",
+      "track": "",
+      "why_it_could_win": "Tackles strict data privacy and cryptographic trust requirements using enterprise-grade decentralized identities, satisfying judges looking for rigorous cryptographic guarantees."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A multi-agent platform for real-time network attack simulation, automated DDoS mitigation testing, and 3D threat visualization.",
+      "problem_statement": "Real-world challenges in security, privacy, and digital trust under an adversarial environment.",
+      "stack": [
+        "Python",
+        "Three.js",
+        "WebSockets",
+        "FastAPI",
+        "NetworkX"
+      ],
+      "title": "GraphGuard NetSim",
+      "track": "",
+      "why_it_could_win": "Replicates a proven hackathon-winning multi-agent architecture with visual threat mapping, which immediately captures judges' attention during live pitching."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated security insights and compliance documentation generator that parses repository codebases for exposed secrets, outdated dependencies, and compliance risks.",
+      "problem_statement": "Real-world challenges in security, privacy, and digital trust under an adversarial environment.",
+      "stack": [
+        "Python",
+        "AST Parser",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "RepoSec Auditor",
+      "track": "",
+      "why_it_could_win": "Addresses immediate enterprise security audit workflows valued by ISACA judges by turning static analysis into actionable security reports within seconds."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

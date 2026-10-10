@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-10T08:49:28.665818+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768341",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A web-based interactive tool that compiles and steps through complex data structure operations in real-time, visualizing pointer states and memory allocations.",
+      "problem_statement": "Debug Decrypt 3.0: The Ultimate Algorithm Challenge - Algorithmic Challenge and Final Championship round preparation for efficient implementation and logical reasoning.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Monaco Editor",
+        "WebAssembly",
+        "Canvas API"
+      ],
+      "title": "AlgoTrace: Real-Time Algorithm Execution Visualizer",
+      "track": "",
+      "why_it_could_win": "Aligns with the core focus of the hackathon on data structures, algorithms, and debugging. Judges from competitive programming backgrounds will value an internal tool that makes abstract algorithm execution transparent."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1353074073"
+      ],
+      "pitch": "An AI-powered tool that analyzes suboptimal competitive programming submissions, automatically generates edge-case inputs that cause TLE or WA, and suggests algorithmic optimizations.",
+      "problem_statement": "Debug Decrypt 3.0: The Ultimate Algorithm Challenge - Testing participants' knowledge of Data Structures and Algorithms, programming fundamentals, logical reasoning, and debugging.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Docker",
+        "LLM API"
+      ],
+      "title": "CP-Bench: Automated Competitive Programming Test-Case Generator and Debugger",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on debugging and algorithmic optimization which directly reflects the primary judging criteria of Debug Decrypt 3.0."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A specialized IDE for rapid prototyping and performance benchmarking of graph algorithms under strict time and memory constraints.",
+      "problem_statement": "Debug Decrypt 3.0: The Ultimate Algorithm Challenge - Advanced algorithmic challenges focused on optimization, analytical thinking, and efficient implementation.",
+      "stack": [
+        "Rust",
+        "WebAssembly",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "GraphPath: Interactive Graph Algorithm Playground",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in performance profiling and algorithm visualization, satisfying the working demo and technical difficulty pattern."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An interactive debugger and puzzle platform specifically designed to test and teach pointer arithmetic, memory management, and bit manipulation tricks for competitive programmers.",
+      "problem_statement": "Debug Decrypt 3.0: The Ultimate Algorithm Challenge - Testing programming fundamentals, Data Structures, and logical reasoning.",
+      "stack": [
+        "C++",
+        "Emscripten",
+        "React",
+        "Node.js"
+      ],
+      "title": "BitWise: Low-Level Memory and Pointer Manipulation Tutor",
+      "track": "",
+      "why_it_could_win": "Targets the fundamentals round and programming basics evaluated in the qualification and on-campus rounds of the hackathon."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A static analysis tool that parses source code ASTs to automatically deduce the asymptotic time and space complexity of custom data structure implementations.",
+      "problem_statement": "Debug Decrypt 3.0: The Ultimate Algorithm Challenge - Testing implementation skills, logical thinking, and ability to develop efficient solutions.",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "FastAPI",
+        "React"
+      ],
+      "title": "ComplexityAnalyzer: Static Code Analyzer for Time Complexity Estimation",
+      "track": "",
+      "why_it_could_win": "Solves a concrete problem for competitive programmers and algorithm students by providing instant feedback on code efficiency."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

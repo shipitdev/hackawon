@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-10T08:48:56.375195+00:00",
+  "grounding": {
+    "domains": [
+      "edtech",
+      "arvr"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763829",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:139752049",
+        "github:580573386"
+      ],
+      "pitch": "Low-cost augmented reality chemistry and physics experiments designed to run on budget Android smartphones for rural schools lacking physical lab equipment.",
+      "problem_statement": "Digital/virtual laboratories and VR/AR-based learning for rural and underserved school students.",
+      "stack": [
+        "Unity",
+        "C#",
+        "ARCore",
+        "Firebase"
+      ],
+      "title": "LabInABox AR",
+      "track": "",
+      "why_it_could_win": "Directly targets rural accessibility and low-bandwidth constraints, matching the explicit judging criteria for inclusivity and impact."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A 2D web-based RPG that teaches high school biology and chemistry through interactive cellular and molecular puzzle-solving.",
+      "problem_statement": "Gamified STEM education and experiential learning in biology and chemistry.",
+      "stack": [
+        "React",
+        "Phaser.js",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "BioQuest Gamified",
+      "track": "",
+      "why_it_could_win": "Features an engaging, fully functional live demo that captivates judges during the 2 progress reviews."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1074933780"
+      ],
+      "pitch": "An AI-powered voice assistant that guides struggling rural students through step-by-step mathematical problem solving using vernacular speech recognition.",
+      "problem_statement": "Interactive STEM learning in mathematics for underserved school students.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Web Speech API",
+        "OpenAI API"
+      ],
+      "title": "FormulaFlow Voice Math",
+      "track": "",
+      "why_it_could_win": "Solves a major language and accessibility barrier for rural students, appealing heavily to the accessibility and social impact judging criteria."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1152129601"
+      ],
+      "pitch": "A browser-based drag-and-drop physics circuit simulator with real-time AI feedback explaining why circuits fail or succeed.",
+      "problem_statement": "Technology-enabled STEM learning and digital laboratories for physics education.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "HTML5 Canvas",
+        "TailwindCSS"
+      ],
+      "title": "CircuitCraft Web",
+      "track": "",
+      "why_it_could_win": "Extremely practical for schools with no hardware budget, providing immediate visual proof of concept during live judging."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:139752049",
+        "github:117371109"
+      ],
+      "pitch": "A cardboard VR-compatible ecosystem simulator where students manipulate environmental variables to study biology and ecology impacts.",
+      "problem_statement": "VR/AR-based learning and experiential biology education for rural schools.",
+      "stack": [
+        "A-Frame",
+        "JavaScript",
+        "Three.js"
+      ],
+      "title": "EcoHabitat VR Lite",
+      "track": "",
+      "why_it_could_win": "Leverages immersive VR technology on low-cost Google Cardboard, showing high innovation while maintaining practical classroom feasibility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

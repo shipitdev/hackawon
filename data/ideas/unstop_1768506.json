@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-10T08:49:37.078746+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768506",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A real-time auction simulation and strategy optimization platform built for Code Auction competitors to test bidding algorithms and token allocation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BidCraft Engine",
+      "track": "",
+      "why_it_could_win": "Code Auction is entirely focused on strategy and resource allocation during competitive programming; a platform that lets teams backtest their bidding strategies against simulated opponents directly targets the core meta of this hackathon."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A tactical overlay and tracking app designed to manage token currency, Power Card cooldonws, and optimal problem-value calculations in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "NextJS",
+        "TailwindCSS",
+        "Supabase"
+      ],
+      "title": "PowerCard Tracker & Analytics",
+      "track": "",
+      "why_it_could_win": "Since teams must strategically manage virtual currency between programming problems and Power Cards like Extra Time, Hint, Double Points, and Steal, a dedicated tactical companion app gives a tangible competitive edge during the live event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A dynamic pricing engine that predicts problem point-to-cost ratios using historical auction data and difficulty metrics to guide real-time team bidding.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "CodeMarket Simulator",
+      "track": "",
+      "why_it_could_win": "Leverages advanced statistical modeling akin to forecasting winners to solve the economic optimization problem of when to bid high versus save tokens for Power Cards."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An LLM-powered assistant trained on competitive programming problem types to instantly estimate solution difficulty and recommend optimal token bids.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Node.js",
+        "React"
+      ],
+      "title": "AuctionStrat AI",
+      "track": "",
+      "why_it_could_win": "Directly assists with the auction-based decision-making aspect of the event, offering teams an automated second opinion on whether a problem is worth buying or if they should save currency for a Steal card."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A collaborative command center for 4-person teams to split problem coding tasks, monitor token balances, and coordinate Power Card deployments on a single screen.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Socket.io",
+        "React",
+        "Express"
+      ],
+      "title": "TeamSync WarRoom",
+      "track": "",
+      "why_it_could_win": "Focuses on frictionless team coordination, ensuring that members can efficiently communicate problem progress and resource constraints during a high-pressure 24-48 hour live event."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

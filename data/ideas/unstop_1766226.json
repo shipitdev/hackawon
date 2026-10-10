@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-10T08:49:05.685921+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766226",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI agent that inspects Kubernetes logs, Prometheus metrics, and traces upon an alert trigger to instantly generate a precise Root Cause Analysis (RCA) report and pull request fix.",
+      "problem_statement": "An alert just fired. Checkout is failing. Can your team find out why before the clock runs out?",
+      "stack": [
+        "Python",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "Claude API"
+      ],
+      "title": "KubeDrift: Autonomous Kubernetes Root Cause Analysis Agent",
+      "track": "Sharpest RCA",
+      "why_it_could_win": "Directly targets the core challenge of Keep Alive '26 by automating incident triage on microservices, mimicking the exact workflow of the 'Sharpest RCA' award criteria."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A lightweight log and metric replay engine that simulates checkout cascade failures in local Docker environments to train students for live incident response.",
+      "problem_statement": "An alert just fired. Checkout is failing. Can your team find out why before the clock runs out?",
+      "stack": [
+        "Python",
+        "Docker",
+        "Prometheus",
+        "Grafana"
+      ],
+      "title": "AlertSleuth: Automated Microservice Observability Replay Tool",
+      "track": "",
+      "why_it_could_win": "Addresses the practical learning curve of incident response platforms like Panic at the Pod by giving teams a reproducible testing playground."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A real-time anomaly detection service that hooks into Prometheus and Grafana webhooks to flag abnormal latency spikes in checkout microservices before total failure occurs.",
+      "problem_statement": "An alert just fired. Checkout is failing. Can your team find out why before the clock runs out?",
+      "stack": [
+        "Python",
+        "Prometheus",
+        "FastAPI",
+        "React.js"
+      ],
+      "title": "PodPulse: Prometheus Metric Anomaly Detector for E-commerce Checkouts",
+      "track": "",
+      "why_it_could_win": "Solves a painful developer and DevOps problem by moving from reactive alerting to proactive anomaly detection using standard metrics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A GitOps-driven pipeline that listens to Kubernetes crash loops, maps them to specific deployment manifest errors, and automatically opens a corrected pull request via ArgoCD.",
+      "problem_statement": "An alert just fired. Checkout is failing. Can your team find out why before the clock runs out?",
+      "stack": [
+        "Go",
+        "Kubernetes",
+        "ArgoCD",
+        "Docker"
+      ],
+      "title": "GitOpsIncidentFixer: Automated Remediation PRs for K8s Failures",
+      "track": "",
+      "why_it_could_win": "Combines cloud-native orchestration with automated remediation, which appeals heavily to judges looking for deep Linux, Docker, and Kubernetes execution."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A lightweight Jaeger and OpenTelemetry trace visualizer tailored specifically to trace multi-service checkout bottlenecks and database connection pool exhaustion.",
+      "problem_statement": "An alert just fired. Checkout is failing. Can your team find out why before the clock runs out?",
+      "stack": [
+        "JavaScript",
+        "React.js",
+        "OpenTelemetry",
+        "Node.js"
+      ],
+      "title": "TraceLens: Distributed Tracing Visualizer for Broken Checkout Flows",
+      "track": "",
+      "why_it_could_win": "Provides an intuitive UI for parsing complex distributed traces, addressing the exact telemetry debugging required during the national championship finale."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

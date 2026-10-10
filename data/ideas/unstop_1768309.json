@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-10T08:49:23.652718+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768309",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual local dialect AI health assistant tailored for rural health workers in Assam to assess symptoms and check vaccine schedules offline-first.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "Assam Rural Health Copilot",
+      "track": "",
+      "why_it_could_win": "Directly hits the real-world impact evaluation criteria emphasised by ADTU judges by addressing regional healthcare access in Assam using proven multilingual patterns."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:935702069",
+        "github:1346526259"
+      ],
+      "pitch": "A GIS-enabled real-time flood risk mapping tool that aggregates local sensor feeds and crowdsourced inputs to generate safe evacuation routes for rural communities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Leaflet.js",
+        "FastAPI",
+        "PostGIS"
+      ],
+      "title": "Brahmaputra Flood Early Warning & Evacuation Map",
+      "track": "",
+      "why_it_could_win": "Demonstrates high technical feasibility and immediate local relevance to Guwahati and Assam, scoring well on the practical problem-solving rubric."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1182199849",
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision mobile web tool that grades tea leaves by quality and detects early blight disease using smartphone camera imagery.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Flutter",
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite"
+      ],
+      "title": "Smart Tea Leaf Grading System",
+      "track": "",
+      "why_it_could_win": "Leverages computer vision for a dominant regional industry in Assam, providing clear economic benefit and high novelty for university judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A zero-commission hyperlocal e-commerce platform for Assamese handicraft makers featuring instant voice-to-text product listing in local languages.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "Supabase",
+        "Whisper API",
+        "Stripe Test mode"
+      ],
+      "title": "Local Artisan Direct Marketplace",
+      "track": "",
+      "why_it_could_win": "Combines practical social impact with a working demo that solves local economic hurdles, satisfying the 25% proposed solution criterion."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1259981732"
+      ],
+      "pitch": "An IoT and dashboard solution monitoring campus electricity and smart bin fill levels to optimise university utility costs and waste collection routes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP32",
+        "Arduino",
+        "Node.js",
+        "React"
+      ],
+      "title": "Campus Energy & Waste Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly applicable to the host institution (ADTU campus), giving evaluators an immediate tangible use case with measurable cost savings."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

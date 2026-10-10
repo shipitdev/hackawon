@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-10T08:49:41.349672+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768545",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A data-driven attribution engine that estimates Delhi's PM2.5 sources and translates exposure into quantified health costs using CPCB and satellite data.",
+      "problem_statement": "PS1: The Pollution Blame Ledger: Source Attribution with Health Cost",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "Pandas"
+      ],
+      "title": "Pollution Ledger & Health Impact Engine",
+      "track": "Health & Well-Being",
+      "why_it_could_win": "Directly tackles the premier published problem statement for Delhi's pollution crisis, combining complex multi-source data ingestion with clear evidence-based dashboard visualization."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1213911408"
+      ],
+      "pitch": "Satellite and IoT data fusion platform tracking industrial land compliance and urban micro-climate pollution sources for smart city administration.",
+      "problem_statement": "PS1: The Pollution Blame Ledger: Source Attribution with Health Cost",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Geopandas"
+      ],
+      "title": "EcoSource Urban Monitor",
+      "track": "Sustainability & Smart Cities",
+      "why_it_could_win": "Leverages geospatial analytics patterns that excel in sustainability and smart city evaluation tracks, providing immediate visual proof of compliance failures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An auditing and mitigation tool designed to uncover performance disparities across demographics, languages, and genders in clinical AI assistants.",
+      "problem_statement": "PS2: Break the AI Doctor: Detect Bias, Then Fix It",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit",
+        "Scikit-learn"
+      ],
+      "title": "AI Health Bias Auditor",
+      "track": "AI4Impact",
+      "why_it_could_win": "Addresses critical algorithmic fairness issues in healthcare AI, presenting a mathematically rigorous evaluation methodology that stands out to technical judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A decentralized women safety mapping and alert application utilizing local crowd-sourced incident data and secure real-time location sharing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "Community SafeSpace Mesh",
+      "track": "Social Impact & Women Safety",
+      "why_it_could_win": "Fits the Social Impact & Women Safety track perfectly by addressing high-priority community vulnerabilities with an actionable, easy-to-deploy mobile-first web interface."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An explainable graph-intelligence platform for detecting anomalous financial transactions and preventing money laundering in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "FinGraph AML Risk Analyzer",
+      "track": "FinTech",
+      "why_it_could_win": "Uses high-complexity graph algorithms and explainable AI techniques matching successful fintech and risk-detection architectures seen in top-tier hackathon wins."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
