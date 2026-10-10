@@ -1,0 +1,367 @@
+{
+  "city": null,
+  "country": null,
+  "description": "Introduction Teams must engineer an autonomous robot (MicroMouse) that can find the shortest path in a 16×16 maze from a specified start square to the destination square of the maze. Robots must map, learn, and optimize their path to the destination in the least time possible. Objective In this competition, the mission of the autonomous robot is to negotiate a maze from specified corner to its center in the shortest possible time. Technical Inspection and Registration The robot needs to pass technical inspection before the competition. The robot technical inspection is based on paragraphs “6.” and “9.”. During the inspection, it is checked whether the robot or the operator who is handling the robot meets the paragraphs requirements. Only one team member with a robot (the currently selected robot operator) can come to the technical inspection. The purpose of this is to guarantee a smooth course of the competition and technical inspection. Contest Eligibility Team size: 1–5 members. One operator and up to four assistants may be registered for each robot (maximum of five team members in total). The team may change the designated operator in accordance with the competition rules. Rules for the Robot The robot must be autonomous (no remote controls allowed). The robot must not leave any part of its body behind whilst solving the maze. The robot is not allowed to jump over, fly over, climb, scratch, cut, burn, mark, damage, or destroy the walls of the maze. The Robot must not be larger, either in length or in width, than 16 centimeters. The dimensions of a robot that changes its parameters during a run cannot expand larger than 16 cm × 16 cm. The height of the robot should be under 10cm. Power: Onboard batteries only, not exceeding 15V. The use of cameras or any device to scan or memorize the maze is strictly prohibited. No harmful mechanisms, pneumatics, hydraulics. Any violation of these rules will constitute immediate disqualification. Rules for the Maze The maze is co",
+  "eligibility_text": null,
+  "ends_at": "2026-10-26T16:00:00+05:30",
+  "mode": "in_person",
+  "organiser": "Indian Institute of Information Technology (IIIT), Nagpur",
+  "participants_count": 6,
+  "prize_amount": null,
+  "prize_currency": null,
+  "problem_sources": [],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "Indian Institute Of Information Technology Nagpur ",
+      "address_title": "event_location",
+      "addressable_id": 1767543,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "Nagpur",
+      "city_id": 133116,
+      "country": {
+        "alpha_2": "in",
+        "alpha_3": "ind",
+        "id": 94,
+        "iso": "IN",
+        "iso3": "IND",
+        "logos": {
+          "large": "https://d8it4huxumps7.cloudfront.net/images/flags/48x48/in.png",
+          "medium": "https://d8it4huxumps7.cloudfront.net/images/flags/32x32/in.png",
+          "small": "https://d8it4huxumps7.cloudfront.net/images/flags/24x24/in.png",
+          "very_small": "https://d8it4huxumps7.cloudfront.net/images/flags/16x16/in.png",
+          "xlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/64x64/in.png",
+          "xxlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/128x128/in.png"
+        },
+        "name": "India",
+        "numcode": 356,
+        "phonecode": "+91   "
+      },
+      "country_code": null,
+      "created_at": "2026-10-07T23:51:35+05:30",
+      "deleted_at": null,
+      "id": 1862354,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "Maharashtra",
+      "state_code": null,
+      "updated_at": "2026-10-09T22:44:07+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-10-09 17:52:52 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>Introduction</strong></p>\n<p>Teams must engineer an autonomous robot (MicroMouse) that can find the shortest path in a 16&times;16 maze from a specified start square to the destination square of the maze. Robots must map, learn, and optimize their path to the destination in the least time possible.</p>\n<p><strong>Objective</strong></p>\n<p>In this competition, the mission of the autonomous robot is to negotiate a maze from specified corner to its center in the shortest possible time.</p>\n<p><strong>Technical Inspection and Registration</strong></p>\n<p>The robot needs to pass technical inspection before the competition. The robot technical inspection is based on paragraphs &ldquo;6.&rdquo; and &ldquo;9.&rdquo;. During the inspection, it is checked whether the robot or the operator who is handling the robot meets the paragraphs requirements. Only one team member with a robot (the currently selected robot operator) can come to the technical inspection. The purpose of this is to guarantee a smooth course of the competition and technical inspection.</p>\n<p><strong>Contest Eligibility</strong></p>\n<ul>\n<li>Team size: 1&ndash;5 members.</li>\n<li>One operator and up to four assistants may be registered for each robot (maximum of five team members in total). The team may change the designated operator in accordance with the competition rules.</li>\n</ul>\n<p><strong>Rules for the Robot</strong></p>\n<ul>\n<li>The robot must be autonomous (no remote controls allowed).</li>\n<li>The robot must not leave any part of its body behind whilst solving the maze.</li>\n<li>The robot is not allowed to jump over, fly over, climb, scratch, cut, burn, mark, damage, or destroy the walls of the maze.</li>\n<li>The Robot must not be larger, either in length or in width, than 16 centimeters. The dimensions of a robot that changes its parameters during a run cannot expand larger than 16 cm &times; 16 cm. The height of the robot should be under 10cm.</li>\n<li>Power: Onboard batteries only, not exceeding 15V.</li>\n<li>The use of cameras or any device to scan or memorize the maze is strictly prohibited.</li>\n<li>No harmful mechanisms, pneumatics, hydraulics.</li>\n<li>Any violation of these rules will constitute immediate disqualification.</li>\n</ul>\n<p><strong>Rules for the Maze</strong></p>\n<ul>\n<li>The maze is composed of 18 cm &times; 18 cm unit squares and comprises up to 16 &times; 16 squares. The walls of the maze are 7 cm high and 1.2 cm thick (assume 5 % tolerance). The distance from wall to wall within a square is 16.8 cm. The outside wall encloses the entire maze.</li>\n<li>The sides of the maze walls are white, the tops of the walls may be red, and the floor is black, finished with matt colour.</li>\n<li>The walls may not be uniformly white, the tops of the walls may not be uniformly red, and the floor may not be uniformly black. Fading can occur, and parts from different mazes may be used. Also, the floor may not provide a consistent level of friction.</li>\n<li>The start of the maze is located at one of the four corners. The start square is bordered with walls on three sides. The start line is located between the first and the second square. The goal is to reach the target square located in the centre of the maze, which consists of an area made up of four 18 cm &times; 18 cm squares. The finish line is at the entrance of the target square.</li>\n<li>There are multiple paths to the target square, and contestants are expected to use them. The target square has only one entrance and it will be positioned so that a wall-hugging robot will not be able to find it.</li>\n</ul>\n<p><strong>Rules for the Competition</strong></p>\n<ul>\n<li>Each contesting robot is allocated a total of 20 minutes of access to the final maze. Any time used to adjust a robot between runs is included in the 20 minutes. Each run (from the start cell to the centre zone) in which a robot successfully reaches the target square is given a run time. The minimum run time shall be the official result of the robot. First place goes to the robot with the shortest official time. Second place to the next shortest, and so on. Robots that do not finish the maze will be ranked by how close they got to the destination square.</li>\n<li>Each run shall be made from the starting square. The operator may abort a run at any time. If an operator touches the robot during a run, it is deemed aborted, and the robot must be removed from the maze. If the robot has already crossed the finish line, it may be removed at any time without affecting the time of said run.</li>\n<li>After the maze is disclosed, the operator cannot feed information of the maze into their robot.</li>\n<li>The contestants are allowed to:\n<ul>\n<li>Change switch positions.</li>\n<li>Adjust sensors.</li>\n<li>Make repairs in case the robot breaks down.</li>\n</ul>\n</li>\n</ul>\n<p>The run timer will start when the front edge of the robot crosses the start line and stops when the front edge of the robot crosses the finish line.</p>\n<p><strong>Run Duration and Timing</strong></p>\n<ul>\n<li>Total Competition Duration: Each team will be allotted a total of 20 minutes for their attempt.</li>\n<li>Number of Runs: Teams may perform as many runs as required within the allotted 20-minute competition duration.</li>\n<li>Final Recorded Time: The fastest successful run (lowest time in run timer) completed by the team during the allotted time will be considered their final recorded time.</li>\n<li>Timing System: Two separate timers will be used:\n<ul>\n<li>Overall Timer: Tracks the team's total allotted competition time of 20 minutes.</li>\n<li>Run Timer: Records the duration of the team's current run.</li>\n</ul>\n</li>\n<li>Penalty After Three Runs: After the completion of the team's third run, a penalty of 1 minute will be added to the recorded time of each subsequent run.</li>\n<li>Touching the Robot: If a team member touches or physically intervenes with the robot while a run is in progress, the current run will be considered terminated immediately. The run will be recorded as completed at the moment of intervention, and the robot must be reset before commencing another run.</li>\n<li>If the bot does not solve the maze and reach the centre in the allotted time, the nearest distance from the centre will be considered for judging.</li>\n</ul>\n<p><strong>General Rules</strong></p>\n<ul>\n<li>Damaging the maze will result in penalty/disqualification.</li>\n<li>Bot leaving the maze area will result in restart from starting square.</li>\n<li>Judge&rsquo;s decision is final and binding.</li>\n<li>Misbehaviour may cause disqualification.</li>\n</ul>\n<p><strong>Delay of the Competition</strong></p>\n<p>When competitions start to delay, organizers have the authority to act in accordance with rules to minimize the delays and bring the competition back on schedule. The competition will continue as smoothly as possible, eliminating any rematches or any moments that could cause delays, and instead using a less time-consuming judging system based on rules. Any objections will not be accepted during the delay, and competition will not be delayed to resolve the objections.</p>\n<p><strong>Organizing</strong></p>\n<ul>\n<li>The robot must be registered before the competition. The registration process includes technical inspection of the robot and marking the robot with a number sticker.</li>\n<li>Technical inspection must be completed by the time that is specified by the organizers.</li>\n<li>The decisions of the referees are not subject to appeals. Complaints must be submitted during or immediately after the match. If no settlement is reached with the referee, claims must be submitted immediately to the Head referee. Any later complaints will not be accepted. In case of any conflicts or disputes, the final word will be said by the referees and/or the organisers. NB! Rude behaviour is not tolerated and the team who does not respect the referees / head referees decisions can be disqualified by the head referee and/or event organisers.</li>\n</ul>\n<p><strong>Changes and Cancellations in the Rules</strong></p>\n<p>Changes and cancellations made to the rules are adopted by the main organiser of the competition, according to the regulations of the regulatory committee of the competition.</p>\n<p><strong>Team Details</strong></p>\n<ul>\n<li>Team size: 2&ndash;5 members</li>\n<li>Each team must have a unique team name.</li>\n<li>Up to 1 member is allowed at the maze table during runs.</li>\n<li>Team Leader must be present and act as the primary contact.</li>\n</ul>\n<p><strong>Who Can Participate?</strong></p>\n<p>Open to all college students from any institute. No prior robotics experience required &mdash; innovation and learning are encouraged.</p>\n<p><strong>Rewards and Prizes</strong></p>\n<ul>\n<li>Total Prize Pool: ₹30,000</li>\n<li>Winner: ₹15,000</li>\n<li>First Runner-Up: ₹9,000</li>\n<li>Second Runner-Up: ₹6,000</li>\n</ul>\n<p><strong>Note: Rules may be subjected to change according to the circumstances</strong></p>",
+    "end_date": "2026-10-26T16:00:00+05:30",
+    "festival": {
+      "abbr": null,
+      "end_date": "2026-10-26 22:00:50+05:30",
+      "footer_type": 0,
+      "header_type": 0,
+      "id": 521405,
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/festival/logo/150x150/6ac3f7d0c76f9_asset_35_2x-removebg-preview.png",
+      "name": "TantraFiesta'26",
+      "organisation": {
+        "id": 105898,
+        "logo": "5c63af29caa5d_A.png",
+        "name": "Indian Institute of Information Technology (IIIT), Nagpur"
+      },
+      "organization_id": 105898,
+      "public_url": "college-fests/tantrafiesta26-indian-institute-of-information-technology-iiit-nagpur-521405",
+      "regnRequirements": {
+        "allow_coupons": 0,
+        "allow_social_login": 1,
+        "allow_specific_cities": false,
+        "allowed_countries": null,
+        "audio_capture": 0,
+        "can_edit_extended_form": 0,
+        "closed_job_end_date": 0,
+        "college_type": 0,
+        "consent_needed": 0,
+        "core_req_fields": null,
+        "deleted_at": null,
+        "digilocker_verification_service": 1,
+        "display_compatibility_score": null,
+        "driver_for_proctoring": "aws",
+        "eligibility": null,
+        "email_reply_to": 0,
+        "enable_data_transfer_to_SAP": 0,
+        "enable_draft_reg": false,
+        "enable_icsfile": null,
+        "enable_payment": 0,
+        "enable_verifications": null,
+        "end_regn_dt": "2026-10-11T22:21:51+05:30",
+        "experience": null,
+        "extendRegForm": null,
+        "extend_basic_form": null,
+        "extendedFormData": null,
+        "face_detect_driver": "aws",
+        "face_recog_driver": "aws",
+        "festival_id": 521405,
+        "free_webinar_for_unstop_pro": 0,
+        "gender": [
+          "A"
+        ],
+        "gender_diversity": null,
+        "gender_verification": false,
+        "has_compatibility_priority": 0,
+        "id": 2497465,
+        "invitations_allowed": 0,
+        "limit_type": 1,
+        "linkedin_verification_requirement": "NONE",
+        "max_team_size": null,
+        "min_team_size": null,
+        "only_official_domains": null,
+        "open_for": 0,
+        "opportunity_id": null,
+        "payment_for": 0,
+        "payout_data": null,
+        "player_extended_form": null,
+        "proctoring": {
+          "face": false
+        },
+        "reg_amount": null,
+        "reg_restricted": 0,
+        "registration_config": {
+          "enable_newsletter_subscription": 0
+        },
+        "registration_limit": null,
+        "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
+        "resume_parser": 0,
+        "same_course": 0,
+        "same_graduation_year": 0,
+        "same_organisation": 1,
+        "same_user_type": 0,
+        "sap_stage_id": null,
+        "screening_round": null,
+        "service_charge_from": 0,
+        "show_deadline": 1,
+        "start_regn_dt": "2026-10-04T22:21:51+05:30",
+        "study_year_filter": 0,
+        "unique_face_verify": false,
+        "vendor_id": null,
+        "verification_service": 2,
+        "verified_aadhaar": 0,
+        "verified_aadhaar_face": 0,
+        "verified_aadhaar_face_via_digilocker": 0,
+        "verified_driving_licence_face": 0,
+        "verified_email": 1,
+        "verified_mobile": 1,
+        "work_location_type": "city"
+      },
+      "regn_open": 0,
+      "start_date": "2026-10-25 09:00:50+05:30",
+      "theme_colour": "pink_un"
+    },
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1767543,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ac54a2d1236c_asset_35_2x-removebg-preview.png",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg3\",\"text\":\"The Lost Pathways (A Micromouse Event)\",\"type\":3,\"banner_data\":[14]}",
+      "id": 1461617,
+      "opportunity_id": 1767543,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 105898,
+      "logoUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners75/5c63af29caa5d_A.png",
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5c63af29caa5d_A.png",
+      "name": "Indian Institute of Information Technology (IIIT), Nagpur",
+      "official_email_domains": null,
+      "public_url": "c/indian-institute-of-information-technology-iiit-nagpur-placement-interview-competitions-articles-videos-105898",
+      "show_evaluator_login_link": false,
+      "tier": 2
+    },
+    "organization_id": 105898,
+    "payment_services": [],
+    "prizes": [],
+    "public_url": "hackathons/the-lost-pathways-a-micromouse-event-tantrafiesta26-iiitn-1767543",
+    "region": "offline",
+    "registerCount": 6,
+    "regnRequirements": {
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[\"allCourses\",{\"course\":\"btech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mtech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"integrated\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"engOthers\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"bca\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mca\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"mca1\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mcm\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdEng\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"diploma\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":0}],\"bSchools\":[\"allCourses\",{\"course\":\"mba1\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":1},{\"course\":\"mba2\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bba\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"bSchoolOthers\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"bcom\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mcom\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bhm\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ca\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"cs\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"pgdm\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"execMba\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":1},{\"course\":\"ipm\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"phdManagement\",\"type\":\"bSchools\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3}],\"arts\":[\"allCourses\",{\"course\":\"bsc\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"msc\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"ba\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ma\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"artsOthers\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mdes\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"march\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bdes\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"barch\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"bftech\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bplan\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mplan\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdArts\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"mftech\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bfa\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mfa\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bs\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ms\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bed\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"med\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"beled\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bped\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2}],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
+      "end_regn_dt": "2026-10-20T00:00:00+05:30",
+      "max_team_size": 5,
+      "min_team_size": 1,
+      "opportunity_id": 1767543,
+      "reg_status": "STARTED",
+      "remain_days": "9 days left",
+      "remainingDaysArray": {
+        "durations": 9,
+        "text": " days left"
+      },
+      "remaining_time": 798733,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-10-10T12:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 644849,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497804,
+          "subject_id": 644849
+        },
+        "skill": "Robotics Path Planning",
+        "skill_name": "Robotics Path Planning"
+      },
+      {
+        "id": 643296,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497805,
+          "subject_id": 643296
+        },
+        "skill": "Autonomous Systems",
+        "skill_name": "Autonomous Systems"
+      },
+      {
+        "id": 644956,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497806,
+          "subject_id": 644956
+        },
+        "skill": "Sensor Integration",
+        "skill_name": "Sensor Integration"
+      },
+      {
+        "id": 644847,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497807,
+          "subject_id": 644847
+        },
+        "skill": "Robotics Control Systems",
+        "skill_name": "Robotics Control Systems"
+      },
+      {
+        "id": 646049,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497808,
+          "subject_id": 646049
+        },
+        "skill": "Embedded Systems Design",
+        "skill_name": "Embedded Systems Design"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/the-lost-pathways-a-micromouse-event-tantrafiesta26-iiitn-1767543",
+    "short_id": "pcbuxdD",
+    "short_url": "https://unstop.com/o/pcbuxdD",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "The Lost Pathways (A Micromouse Event)",
+    "type": "hackathons",
+    "updated_at": "2026-10-10T00:25:52+05:30",
+    "viewsCount": 9694,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1882,
+        "name": "Embedded Systems Engineer",
+        "pivot": {
+          "ai_generated": false,
+          "entity_id": 1767543,
+          "id": 6497809,
+          "subject_id": 1882
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      },
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1884,
+        "name": "Robotics Engineer",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1767543,
+          "id": 6497810,
+          "subject_id": 1884
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-10-20T00:00:00+05:30",
+  "reg_opens_at": "2026-10-10T12:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1767543",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 5,
+  "team_min": 1,
+  "themes": [],
+  "title": "The Lost Pathways (A Micromouse Event)",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/the-lost-pathways-a-micromouse-event-tantrafiesta26-iiitn-1767543"
+}
