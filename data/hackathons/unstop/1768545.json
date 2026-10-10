@@ -1,0 +1,247 @@
+{
+  "city": null,
+  "country": null,
+  "description": "Overview HACK@BVP 8.0 is the flagship 24-hour hackathon organized by the Department of Computer Science and Engineering, Bharati Vidyapeeth’s College of Engineering (BVCOE), New Delhi, as part of BVEST XIII, the college’s annual technical fest. With an exciting prize pool of ₹30 Lakhs+, the hackathon invites passionate developers, innovators, designers, and problem-solvers to collaborate, think beyond conventional boundaries, and develop impactful, technology-driven solutions to real-world challenges. Event Timeline: Online Round (Discord) : 18 October 2026 Offline Round (On-Campus) : 22 October 2026 Problem Domains Participants can explore a diverse range of domains and develop innovative solutions to address real-world challenges: Health & Well-Being: Innovate to improve healthcare, mental well-being, and quality of life. Social Impact & Women Safety: Develop solutions that empower communities, promote inclusivity, and create safer spaces. Sustainability & Smart Cities: Build sustainable technologies for smarter, greener, and more efficient urban environments. AI4Impact: Leverage artificial intelligence to solve meaningful real-world problems and drive positive change. FinTech: Transform financial services through innovative, secure, and accessible technology. Internet of Things (IoT): Create connected, intelligent solutions using smart devices, sensors, and real-time data. Robotics & Hardware: Design and develop innovative hardware systems, robotics applications, and tangible technological solutions. Click here for domains and their problem statements Whether you are an aspiring developer or an experienced innovator, HACK@BVP 8.0 is your platform to experiment, build, and create solutions that matter. 24 Hours. Big Ideas. Massive Rewards. Register now and be part of the innovation revolution at HACK@BVP 8.0 – Build Beyond Boundaries!",
+  "eligibility_text": null,
+  "ends_at": "2026-10-22T20:00:00+05:30",
+  "mode": "hybrid",
+  "organiser": "Bharati Vidyapeeth's College of Engineering",
+  "participants_count": 3,
+  "prize_amount": null,
+  "prize_currency": null,
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Overview HACK@BVP 8.0 is the flagship 24-hour hackathon organized by the Department of Computer Science and Engineering, Bharati Vidyapeeth’s College of Engineering (BVCOE), New Delhi, as part of BVEST XIII, the college’s annual technical fest. With an exciting prize pool of ₹30 Lakhs+, the hackathon invites passionate developers, innovators, designers, and problem-solvers to collaborate, think beyond conventional boundaries, and develop impactful, technology-driven solutions to real-world challenges. Event Timeline: Online Round (Discord) : 18 October 2026 Offline Round (On-Campus) : 22 October 2026 Problem Domains Participants can explore a diverse range of domains and develop innovative solutions to address real-world challenges: Health & Well-Being: Innovate to improve healthcare, mental well-being, and quality of life. Social Impact & Women Safety: Develop solutions that empower communities, promote inclusivity, and create safer spaces. Sustainability & Smart Cities: Build sustainable technologies for smarter, greener, and more efficient urban environments. AI4Impact: Leverage artificial intelligence to solve meaningful real-world problems and drive positive change. FinTech: Transform financial services through innovative, secure, and accessible technology. Internet of Things (IoT): Create connected, intelligent solutions using smart devices, sensors, and real-time data. Robotics & Hardware: Design and develop innovative hardware systems, robotics applications, and tangible technological solutions. Click here for domains and their problem statements Whether you are an aspiring developer or an experienced innovator, HACK@BVP 8.0 is your platform to experiment, build, and create solutions that matter. 24 Hours. Big Ideas. Massive Rewards. Register now and be part of the innovation revolution at HACK@BVP 8.0 – Build Beyond Boundaries!",
+      "title": "Published problem context",
+      "url": null
+    },
+    {
+      "kind": "google_doc",
+      "status": "parsed",
+      "text": "﻿PROBLEM STATEMENTS (HACK@BVP 8.0) DOMAIN 1: Health & Well Being 1. PS1: The Pollution Blame Ledger: Source Attribution with Health Cost Problem Statement Delhi’s PM2.5 pollution comes from multiple sources such as stubble burning, vehicles, construction, industry, and weather conditions. However, determining how much each source contributes to a specific pollution episode remains difficult. Build a data-driven system that estimates the contribution of different pollution sources to Delhi’s PM2.5 levels and quantifies their estimated health impact. What We Need Develop an attribution engine using open data such as satellite fire detections, weather and wind data, CPCB air-quality readings, traffic indicators, and source-location data. The system should: * Estimate the contribution of each major pollution source. * Provide uncertainty or confidence for its estimates. * Convert pollution exposure into estimated health impacts using published research. * Present results through a simple, evidence-based dashboard that clearly communicates what the model can and cannot determine. * Demonstrate how the attribution changes when tested on a new pollution event provided during judging. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 11 – Sustainable Cities and Communities * SDG 13 – Climate Action * SDG 16 – Peace, Justice and Strong Institutions 2. PS2: Break the AI Doctor: Detect Bias, Then Fix It Problem Statement AI health assistants can appear accurate overall while performing poorly for specific groups, languages, age groups, genders, or communication styles. Build a system that systematically identifies hidden biases in a black-box AI health assistant, statistically validates the findings, and reduces the identified bias without significantly reducing overall performance. What We Need Develop a testing and mitigation framework that: * Identifies groups and situations where the AI performs differently. * Uses statistical evidence to distinguish real bias from random variation. * Applies a model-independent wrapper or mitigation technique to reduce unfair outcomes. * Compares fairness and overall accuracy before and after the fix. * Demonstrates whether the approach can detect and handle a new, unseen bias introduced by the organizers. SDGs Covered * SDG 10 – Reduced Inequalities * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 16 – Peace, Justice and Strong Institutions 3. PS3: The Resistance Radar: City-Scale Antibiotic Resistance Intelligence Problem Statement Antimicrobial resistance is making common infections increasingly difficult to treat. Hospitals often lack a clear, up-to-date view of which antibiotics remain effective locally. Build a system that combines laboratory culture and antibiotic-sensitivity data from multiple hospitals to monitor resistance patterns and identify emerging changes. What We Need Develop an intelligence system that: * Generates hospital- and ward-level antibiograms from structured and semi-structured data. * Estimates how key drug–bacteria resistance patterns may change over the coming quarter. * Detects unusual resistance spikes that could indicate emerging outbreaks. * Provides evidence-based empirical antibiotic options with clear confidence levels. * Handles missing data, reporting delays, and differences in testing patterns between hospitals. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 10 – Reduced Inequalities 4. PS4:The Nutri-Equity Engine: Affordable Nutrition Optimization Problem Statement Low-income households often struggle to maintain nutritious diets because of food prices, seasonal availability, household needs, and access to subsidized food. Build a system that creates affordable, nutritionally adequate, and culturally practical weekly meal plans based on household characteristics, local food prices, and available food entitlements. What We Need Develop an optimization system that: * Generates the lowest-cost nutritionally adequate weekly meal plan. * Considers household size, age, dietary preferences, cooking constraints, and local food availability. * Incorporates PDS entitlements and changing food prices. * Detects price changes and automatically adjusts meal plans. * Estimates potential changes in anemia risk based on nutritional adequacy. * Provides the results through a simple, low-literacy and vernacular-friendly interface. SDGs Covered * SDG 2 – Zero Hunger * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 1 – No Poverty 5. PS5: The Mother-Watch Planner: Maternal Care Prioritization Problem Statement Missed antenatal visits and delayed identification of high-risk pregnancies can lead to preventable complications, while frontline health workers have limited time and resources. Build a system that identifies pregnancies requiring greater attention and creates efficient weekly visit plans for frontline workers. What We Need Develop a system that: * Identifies women at higher risk of missing antenatal care or developing complications. * Creates optimized weekly visit schedules based on risk and travel effort. * Clearly explains why each case is prioritized. * Accounts for limited workforce and geographic constraints. * Audits the scheduling process to identify potential bias against specific communities. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 10 – Reduced Inequalities 6. PS6: The Stockout Shield: Essential Medicine Supply Optimization Problem Statement Essential medicines can run out at some healthcare facilities while excess stock at others expires unused. Build a system that helps healthcare facilities anticipate medicine demand, identify stockout and expiry risks, and efficiently redistribute available supplies. What We Need Develop a system that: * Forecasts medicine-level demand for each facility. * Detects upcoming stockout and expiry risks. * Accounts for seasonal trends, outbreaks, and sudden demand changes. * Recommends inter-fac",
+      "title": "Click here for domains and their problem statements",
+      "url": "https://docs.google.com/document/d/1AkVjTx2ctKGG8y955y9G2w1qQk32OH8QoJ2_zFa_9F0/edit?usp=sharing"
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "Bharati Vidyapeeth's College of Engineering",
+      "address_title": "event_location",
+      "addressable_id": 1768545,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "New Delhi",
+      "city_id": 133210,
+      "country": {
+        "alpha_2": "in",
+        "alpha_3": "ind",
+        "id": 94,
+        "iso": "IN",
+        "iso3": "IND",
+        "logos": {
+          "large": "https://d8it4huxumps7.cloudfront.net/images/flags/48x48/in.png",
+          "medium": "https://d8it4huxumps7.cloudfront.net/images/flags/32x32/in.png",
+          "small": "https://d8it4huxumps7.cloudfront.net/images/flags/24x24/in.png",
+          "very_small": "https://d8it4huxumps7.cloudfront.net/images/flags/16x16/in.png",
+          "xlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/64x64/in.png",
+          "xxlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/128x128/in.png"
+        },
+        "name": "India",
+        "numcode": 356,
+        "phonecode": "+91   "
+      },
+      "country_code": null,
+      "created_at": "2026-10-10T00:07:18+05:30",
+      "deleted_at": null,
+      "id": 1863947,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "Delhi",
+      "state_code": null,
+      "updated_at": "2026-10-10T11:03:06+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-10-10 11:02:40 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>Overview</strong></p>\n<p>HACK@BVP 8.0 is the flagship 24-hour hackathon organized by the Department of Computer Science and Engineering, Bharati Vidyapeeth&rsquo;s College of Engineering (BVCOE), New Delhi, as part of BVEST XIII, the college&rsquo;s annual technical fest.</p>\n<p>With an exciting prize pool of ₹30 Lakhs+, the hackathon invites passionate developers, innovators, designers, and problem-solvers to collaborate, think beyond conventional boundaries, and develop impactful, technology-driven solutions to real-world challenges.</p>\n<p><strong>Event Timeline: </strong></p>\n<ul>\n<li>Online Round (Discord) : 18 October 2026</li>\n<li>Offline Round (On-Campus) : 22 October 2026</li>\n</ul>\n<p><strong>Problem Domains</strong></p>\n<p>Participants can explore a diverse range of domains and develop innovative solutions to address real-world challenges:</p>\n<ul>\n<li><strong>Health &amp; Well-Being:</strong> Innovate to improve healthcare, mental well-being, and quality of life.</li>\n<li><strong>Social Impact &amp; Women Safety:</strong> Develop solutions that empower communities, promote inclusivity, and create safer spaces.</li>\n<li><strong>Sustainability &amp; Smart Cities: </strong>Build sustainable technologies for smarter, greener, and more efficient urban environments.</li>\n<li><strong>AI4Impact:</strong> Leverage artificial intelligence to solve meaningful real-world problems and drive positive change.</li>\n<li><strong>FinTech:</strong> Transform financial services through innovative, secure, and accessible technology.</li>\n<li><strong>Internet of Things (IoT):</strong> Create connected, intelligent solutions using smart devices, sensors, and real-time data.</li>\n<li><strong>Robotics &amp; Hardware: </strong>Design and develop innovative hardware systems, robotics applications, and tangible technological solutions.</li>\n</ul>\n<p><a href=\"https://docs.google.com/document/d/1AkVjTx2ctKGG8y955y9G2w1qQk32OH8QoJ2_zFa_9F0/edit?usp=sharing\">Click here for domains and their problem statements</a></p>\n<p>Whether you are an aspiring developer or an experienced innovator, HACK@BVP 8.0 is your platform to experiment, build, and create solutions that matter.</p>\n<p>24 Hours. Big Ideas. Massive Rewards.</p>\n<p>Register now and be part of the innovation revolution at <strong>HACK@BVP 8.0 &ndash; Build Beyond Boundaries!</strong></p>",
+    "end_date": "2026-10-22T20:00:00+05:30",
+    "festival": null,
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "all",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
+        "id": 420,
+        "name": "All",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1768545,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ac933d88668e_hackbvp8_0_logo.png",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg6\",\"text\":\"HACK@BVP 8.0\",\"type\":3,\"banner_data\":[14]}",
+      "id": 1462380,
+      "opportunity_id": 1768545,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 943045,
+      "logoUrl": "",
+      "logoUrl2": "",
+      "name": "Bharati Vidyapeeth's College of Engineering",
+      "official_email_domains": null,
+      "public_url": "c/bharati-vidyapeeth-deemed-to-be-university-college-of-engineering-pune-943045",
+      "show_evaluator_login_link": false,
+      "tier": null
+    },
+    "organization_id": 943045,
+    "payment_services": [],
+    "prizes": [],
+    "public_url": "hackathons/hack-at-bvp-80-bharati-vidyapeeths-college-of-engineering-1768545",
+    "region": "hybrid",
+    "registerCount": 3,
+    "regnRequirements": {
+      "eligibility": null,
+      "end_regn_dt": "2026-10-16T19:00:00+05:30",
+      "max_team_size": 4,
+      "min_team_size": 2,
+      "opportunity_id": 1768545,
+      "reg_status": "STARTED",
+      "remain_days": "6 days left",
+      "remainingDaysArray": {
+        "durations": 6,
+        "text": " days left"
+      },
+      "remaining_time": 545517,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-10-09T22:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 645580,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1768545,
+          "id": 6501155,
+          "subject_id": 645580
+        },
+        "skill": "Artificial Intelligence (AI)",
+        "skill_name": "Artificial Intelligence (AI)"
+      },
+      {
+        "id": 644111,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1768545,
+          "id": 6501156,
+          "subject_id": 644111
+        },
+        "skill": "Internet of Things (IoT)",
+        "skill_name": "Internet of Things (IoT)"
+      },
+      {
+        "id": 1373,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1768545,
+          "id": 6501157,
+          "subject_id": 1373
+        },
+        "skill": "Problem Solving",
+        "skill_name": "Problem Solving"
+      },
+      {
+        "id": 647074,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1768545,
+          "id": 6501158,
+          "subject_id": 647074
+        },
+        "skill": "Python",
+        "skill_name": "Python"
+      },
+      {
+        "id": 646049,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1768545,
+          "id": 6501159,
+          "subject_id": 646049
+        },
+        "skill": "Embedded Systems Design",
+        "skill_name": "Embedded Systems Design"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/hack-at-bvp-80-bharati-vidyapeeths-college-of-engineering-1768545",
+    "short_id": "odOaLzm",
+    "short_url": "https://unstop.com/o/odOaLzm",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "Hack@BVP 8.0",
+    "type": "hackathons",
+    "updated_at": "2026-10-10T11:02:40+05:30",
+    "viewsCount": 839,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 2004,
+        "name": "Software Development",
+        "pivot": {
+          "ai_generated": false,
+          "entity_id": 1768545,
+          "id": 6501160,
+          "subject_id": 2004
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      },
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1941,
+        "name": "Learning & Development",
+        "pivot": {
+          "ai_generated": false,
+          "entity_id": 1768545,
+          "id": 6501161,
+          "subject_id": 1941
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-10-16T19:00:00+05:30",
+  "reg_opens_at": "2026-10-09T22:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1768545",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 4,
+  "team_min": 2,
+  "themes": [],
+  "title": "Hack@BVP 8.0",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/hack-at-bvp-80-bharati-vidyapeeths-college-of-engineering-1768545"
+}
