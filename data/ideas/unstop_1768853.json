@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-10-11T09:12:14.809936+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768853",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated cryptographic puzzle solver and flag extractor designed specifically for CTF cryptography categories, leveraging custom lattice and modular arithmetic reduction routines.",
+      "problem_statement": "NEXPLOIT CTF — Cryptography challenge category",
+      "stack": [
+        "Python",
+        "SageMath",
+        "CryptoDome"
+      ],
+      "title": "CryptoFlag Auditor",
+      "track": "Cryptography",
+      "why_it_could_win": "Aligns directly with the CTF's Cryptography category by offering high performance in solving flawed RSA implementations and weak curves faster than manual scripting."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A reverse engineering assistant that ingests compiled binaries, decompiles bytecode via Ghidra headless integration, and uses local LLMs to suggest descriptive variable names and flag locations.",
+      "problem_statement": "NEXPLOIT CTF — Reverse Engineering challenge category",
+      "stack": [
+        "Python",
+        "Ghidra",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "title": "Deobfuscate-AI",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Leverages heavy engineering like automated binary analysis pipelines, matching the pattern of genuinely hard engineering seen in top hackathon winners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An advanced digital forensics pipeline that performs automated entropy analysis, file-carving, and hidden bitstream extraction across corrupted disk images and media files.",
+      "problem_statement": "NEXPLOIT CTF — Digital Forensics challenge category",
+      "stack": [
+        "Python",
+        "Flask",
+        "ExifTool",
+        "Steghide"
+      ],
+      "title": "StegTrail Forensics",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Targets the Digital Forensics track directly by automating tedious multi-step hex and metadata inspection tasks that usually cost teams precious hours during timed CTFs."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A real-time web exploitation interceptor and sandbox that detects SQLi, XSS, and SSRF anomalies using AST-based payload parsing rather than brittle regex signatures.",
+      "problem_statement": "NEXPLOIT CTF — Web Exploitation challenge category",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Babel Parser",
+        "Express"
+      ],
+      "title": "PayloadShield WAF",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Adopts a defense-in-depth approach inspired by winning security agents, proving deep technical competence in application security and web vulnerability analysis."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A collaborative graph visualization tool for logical problem-solving and multi-stage CTF challenges that maps dependency trees, shared clues, and team hypotheses in real time.",
+      "problem_statement": "NEXPLOIT CTF — Logical Problem-Solving challenge category",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "LogicGraph CTF Navigator",
+      "track": "Logical Problem-Solving",
+      "why_it_could_win": "Solves the friction of team coordination during fast-paced online CTF events, providing a clear workflow advantage that impresses judges looking for practical utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

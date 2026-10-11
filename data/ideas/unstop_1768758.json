@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-11T09:12:10.620743+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768758",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous AI agent framework that continuously monitors cloud resources, detects misconfigurations, and automatically opens pull requests with verified security fixes.",
+      "problem_statement": "Agentic AI track focused on practical autonomous workflows.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "AWS SDK",
+        "FastAPI"
+      ],
+      "title": "Agentic Compliance Auditor for Cloud Infrastructure",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages the Agentic AI track and mimics the autonomous repair pattern seen in winning agent projects like blackbox-datahub, focusing on real engineering output rather than chat wrappers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1329458499"
+      ],
+      "pitch": "A multi-agent system that simulates supply chain disruptions, coordinates with local inventory databases, and autonomously executes risk mitigation strategies.",
+      "problem_statement": "Agentic AI track focusing on operational optimization and autonomous decision making.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "OpenAI API",
+        "Streamlit"
+      ],
+      "title": "SupplyChain Agent Graph",
+      "track": "Agentic AI",
+      "why_it_could_win": "Applies graph intelligence and risk detection patterns directly to enterprise logistics, appealing heavily to judges looking for deep domain agent workflows."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A comprehensive full-stack platform that visualizes microservice dependencies, logs error traces, and deploys localized code patches via an integrated dashboard.",
+      "problem_statement": "Full-Stack Product Engineering track focused on developer tooling and application reliability.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Docker",
+        "PostgreSQL"
+      ],
+      "title": "Full-Stack Microservices Telemetry & Incident Auto-Fixer",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Combines robust full-stack engineering with automated remediation, standing out in the Full-Stack Product Engineering track through sheer technical utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A web-based video analytics tool that processes runner movements via browser-based pose estimation to detect injury risks and output corrective posture drills.",
+      "problem_statement": "Full-Stack Product Engineering track targeting health tech and high-performance client-side data rendering.",
+      "stack": [
+        "JavaScript",
+        "MediaPipe",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Edge-Optimized Biomechanical Gait Analyzer",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Directly adapts computer vision biomechanical tracking architectures to web technologies, demonstrating high-performance frontend data processing."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An open-source platform that ingests multi-lingual municipal grievances from social channels, automatically categorizes severity using LLMs, and maps actionable tickets for local authorities.",
+      "problem_statement": "Open Innovation track addressing local community infrastructure and public administration bottlenecks.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Next.js",
+        "HuggingFace"
+      ],
+      "title": "OpenInnovate Civic Incident Triaging Platform",
+      "track": "Open Innovation",
+      "why_it_could_win": "Targets the Open Innovation track with clear measurable social and economic impact for local governance, resonating strongly with incubator and internship judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

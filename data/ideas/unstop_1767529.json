@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-10-11T09:11:38.918131+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767529",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "A web-based toolkit that automates heuristic evaluations and user journey friction analysis for UI/UX case studies.",
+      "problem_statement": "Round 1 Online Case Study Submission requiring research-driven design projects, heuristic evaluations, and critique of design flaws.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Figma API"
+      ],
+      "title": "CaseCraft UI: Interactive Design Critique & Heuristic Testing Suite",
+      "track": "",
+      "why_it_could_win": "Directly targets the judging rubric of Round 1 case study requirements by providing structured, data-backed research findings and heuristic scores that judges can interact with live."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An accessibility testing overlay that evaluates contrast, touch target sizes, and screen-reader flows in real time.",
+      "problem_statement": "Creating designs that are functional, inclusive, and impactful, balancing creativity with functionality and inclusivity.",
+      "stack": [
+        "React Native",
+        "JavaScript",
+        "Accessibility APIs"
+      ],
+      "title": "AccessFlow: Inclusive Design Auditor for Mobile Interfaces",
+      "track": "",
+      "why_it_could_win": "Addresses the explicit requirement for inclusivity and accessibility, proving through live metrics that the interface is usable for individuals with diverse physical needs."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A design workspace tool that aggregates survey inputs into live, interactive user personas with dynamic journey maps.",
+      "problem_statement": "Creating user personas and conducting research-driven design projects for realistic, case-driven environments.",
+      "stack": [
+        "Next.js",
+        "Python",
+        "Pandas",
+        "TailwindCSS"
+      ],
+      "title": "PersonaPulse: Real-Time Dynamic User Persona Generator for Case Studies",
+      "track": "",
+      "why_it_could_win": "Demonstrates rigorous upfront UX research methodology which is heavily prized by design club organizers in time-bound hackathon rounds."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping tool designed specifically to help teams adapt to surprise constraints and sudden design brief pivots.",
+      "problem_statement": "Participants ready to take on surprise challenges and constraints, adapting flexibly while maintaining design quality.",
+      "stack": [
+        "Vue.js",
+        "Canvas API",
+        "Node.js"
+      ],
+      "title": "TwistUI: Dynamic Constraint-Driven Design Prototyper",
+      "track": "",
+      "why_it_could_win": "Directly solves the specific hackathon challenge of pivoting under pressure when organizers drop unexpected twists during the event."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "A companion tool for UI designers to record, analyze, and benchmark micro-interaction latency and cognitive load across screens.",
+      "problem_statement": "Delivering seamless, intuitive, and thoughtful user journeys under time-bound hackathon rounds.",
+      "stack": [
+        "Framer Motion",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "FlowTrace: Micro-Interaction UX Journey Debugger",
+      "track": "",
+      "why_it_could_win": "Shifts the judging focus from static mockups to deeply analyzed motion and micro-interactions, standing out visually and functionally against standard slide presentations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

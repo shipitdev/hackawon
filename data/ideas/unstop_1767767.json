@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-11T09:11:48.298576+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767767",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered automated code and security audit pipeline tailored for student hackathon submissions, leveraging Trainzex AI models to detect vulnerabilities, code duplication, and license violations in real time.",
+      "problem_statement": "General AI/ML and Cybersecurity track for SPHINX'26 featuring technical partner Trainzex AI",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Trainzex AI SDK",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "Trainzex AI Campus Compliance Guardian",
+      "track": "Cybersecurity & AI/ML",
+      "why_it_could_win": "Directly integrates technical partner Trainzex AI's offerings into the core workflow, which judges love for sponsor alignment, while executing a robust security model inspired by production-grade analyzers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer vision mobile web app that records a fast bowler's action using MediaPipe Pose on device and instantly computes biomechanical strain and delivery classification.",
+      "problem_statement": "IoT, Mobile & App Development and Emerging Technologies focus at SPHINX'26",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "Streamlit",
+        "XGBoost",
+        "OpenCV"
+      ],
+      "title": "BioKinetic MNIT Cricket Pitch Analyzer",
+      "track": "Web & App Development",
+      "why_it_could_win": "Mirrors a proven hackathon winner by combining on-device computer vision with real-time classification, offering a flashy, interactive physical demo that stands out to judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-driven nutritional scanner and meal planner optimized for Indian hostel messes, analyzing thali photos to provide macro breakdowns and personalized dietary corrections.",
+      "problem_statement": "AI/ML and Generative AI focus for student wellness and lifestyle solutions at SPHINX'26",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "React Native",
+        "TailwindCSS"
+      ],
+      "title": "MessNutriAI",
+      "track": "Generative AI",
+      "why_it_could_win": "Resolves a hyper-local, relatable campus problem for MNIT students while replicating the exact winning formula of a localized nutrition assistant hackathon project."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A zero-knowledge simplified micro-escrow and lending platform built for college student freelance projects and group expense settling using lightweight smart contracts.",
+      "problem_statement": "FinTech and Blockchain track at SPHINX'26",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "TypeScript",
+        "Next.js",
+        "Ethers.js"
+      ],
+      "title": "FinChain Peer-to-Peer Micro-Escrow",
+      "track": "FinTech & Blockchain",
+      "why_it_could_win": "Combines practical campus utility with clean FinTech execution, hitting both blockchain and financial inclusion judging criteria without getting bogged down by overly complex tokenomics."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An IoT and AI dashboard simulating smart-building energy consumption across VLTC lecture halls, predicting peak load surges and automating load shedding recommendations.",
+      "problem_statement": "IoT, Sustainability and Emerging Technologies track at SPHINX'26",
+      "stack": [
+        "Python",
+        "MQTT",
+        "Node.js",
+        "React",
+        "Chart.js"
+      ],
+      "title": "CampusGrid IoT Energy Optimizer",
+      "track": "IoT & Emerging Technologies",
+      "why_it_could_win": "Directly targets institutional sustainability themes relevant to MNIT Jaipur, utilizing live sensor simulation data for a compelling, live-updating dashboard demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

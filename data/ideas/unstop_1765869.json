@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-11T09:11:12.166359+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765869",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An edge-deployable computer vision tool that evaluates cricket player biomechanics using pose estimation to provide automated coaching feedback.",
+      "problem_statement": "Artificial Intelligence theme focusing on innovative applications of AI/ML",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CognitionBiomech: Cricket Shot Analytics for AI Coaching",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Directly targets the Artificial Intelligence theme with heavy domain-specific computer vision modeling, mirroring successful past CV projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized multilingual conversational AI agent designed for semi-urban and rural health workers to track symptoms, vaccinations, and potential outbreaks.",
+      "problem_statement": "Artificial Intelligence theme focusing on innovative applications of AI/ML",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangChain",
+        "VectorDB"
+      ],
+      "title": "CognitionMed: Multilingual Rural Health Outbreak AI",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Appeals directly to judges looking for impactful societal use cases powered by LLMs and multilingual retrieval-augmented generation."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "An AI-powered workspace and research lab management platform that optimizes equipment usage, predicts peak capacity, and automates slot bookings.",
+      "problem_statement": "Artificial Intelligence theme focusing on innovative applications of AI/ML",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "CognitionSpace: Intelligent Campus Workspace and Lab Allocator",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Solves an immediate, relatable operational pain point experienced by students and faculty within engineering colleges like VJTI."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A probabilistic forecasting tool utilizing Generalized Additive Models and regression to predict and calibrate likelihood scores for system failure incidents.",
+      "problem_statement": "Artificial Intelligence theme focusing on innovative applications of AI/ML",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "CognitionSafety: AI Incident and System Risk Forecaster",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Demonstrates advanced data science and statistical rigor rather than just wrapper-based API integrations, catching the eye of technical judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced lost-and-found portal featuring multimodal item matching via vision models and real-time geolocation mapping for college campuses.",
+      "problem_statement": "Artificial Intelligence theme focusing on innovative applications of AI/ML",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini API",
+        "TomTom Maps API"
+      ],
+      "title": "CognitionFind: Multimodal Campus Lost-and-Found AI",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Combines practical utility for university students with modern multimodal AI capabilities, offering high polish within a short timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

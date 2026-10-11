@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-10-11T09:12:06.124506+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768744",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A local diagnostic and execution tracing tool built specifically to analyze Python and Java code against hidden test cases under tight time limits.",
+      "problem_statement": "Overview Date: 13 October 2026 Venue: IT Lab The coding event will consist of two compulsory rounds. Round 1: Debugging Duration: 45 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants will be given erroneous code and must identify and fix the errors. Round 2: Coding Duration: 60 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants must write their own code to solve the given problems.",
+      "stack": [
+        "Python",
+        "Java"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Addresses the exact constraints of the competition rounds by speeding up local verification of visible and hidden test cases without internet access."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A minimal offline development environment plugin enforcing strict global timers, local test execution, and zero external assistance restrictions.",
+      "problem_statement": "Overview Date: 13 October 2026 Venue: IT Lab The coding event will consist of two compulsory rounds. Round 1: Debugging Duration: 45 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants will be given erroneous code and must identify and fix the errors. Round 2: Coding Duration: 60 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants must write their own code to solve the given problems.",
+      "stack": [
+        "Python",
+        "C"
+      ],
+      "title": "StrictTime IDE Plugin",
+      "track": "",
+      "why_it_could_win": "Solves a problem the organizers and judges feel directly by helping enforce and manage strict round-based timing and compliance rules."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A command-line diff and patch utility designed for rapid identification and correction of erroneous code snippets during short-duration debugging rounds.",
+      "problem_statement": "Overview Date: 13 October 2026 Venue: IT Lab The coding event will consist of two compulsory rounds. Round 1: Debugging Duration: 45 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants will be given erroneous code and must identify and fix the errors. Round 2: Coding Duration: 60 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants must write their own code to solve the given problems.",
+      "stack": [
+        "C",
+        "Python"
+      ],
+      "title": "QuickDiff Debugger",
+      "track": "",
+      "why_it_could_win": "Targets the 45-minute debugging round pressure by minimizing context switching and syntax correction overhead."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A lightweight standalone runner for Java, C, Go, and Python that executes multiple visible and hidden test cases instantly with detailed timing metrics.",
+      "problem_statement": "Overview Date: 13 October 2026 Venue: IT Lab The coding event will consist of two compulsory rounds. Round 1: Debugging Duration: 45 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants will be given erroneous code and must identify and fix the errors. Round 2: Coding Duration: 60 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants must write their own code to solve the given problems.",
+      "stack": [
+        "Go",
+        "Python"
+      ],
+      "title": "TestCase Runner CLI",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the evaluation criteria emphasizing score obtained, number of questions attempted, and time taken."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An offline static analysis checker tailored for Java, C, Go, and Python that flags common syntax pitfalls and infinite loops before submission.",
+      "problem_statement": "Overview Date: 13 October 2026 Venue: IT Lab The coding event will consist of two compulsory rounds. Round 1: Debugging Duration: 45 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants will be given erroneous code and must identify and fix the errors. Round 2: Coding Duration: 60 minutes Questions: 2 Easy, 1 Medium, 1 Hard Participants must write their own code to solve the given problems.",
+      "stack": [
+        "Java",
+        "C"
+      ],
+      "title": "CodeConstraint Linter",
+      "track": "",
+      "why_it_could_win": "Provides genuinely hard engineering value under the strict constraint of having no internet access or external assistance."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

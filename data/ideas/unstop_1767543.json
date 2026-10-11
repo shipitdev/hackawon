@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-11T09:11:43.725356+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767543",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A hardware-in-the-loop dashboard that visualizes a Micromouse robot's internal Flood Fill algorithm state and sensor telemetry over a high-speed serial link in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "Qt",
+        "PlatformIO",
+        "ESP32"
+      ],
+      "title": "FloodFill-Visualizer: Real-Time Maze Mapping & Path Optimization",
+      "track": "",
+      "why_it_could_win": "Addresses the core technical challenge of Micromouse competitions—debugging and optimizing search algorithms—while providing a live, working demo that judges can watch in real-time."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A rapid prototyping and simulation tool for Micromouse teams to test turn-rate PID loops and search heuristics on virtual 16x16 mazes before burning code to physical hardware.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pygame",
+        "C++"
+      ],
+      "title": "WallHugger-Sim: Hardware-in-the-Loop Micromouse Simulator",
+      "track": "",
+      "why_it_could_win": "Solves the primary bottleneck of robot hacking: hardware breakages and lack of test tracks. A robust simulation tool enables safer, faster iteration under tight hackathon timeframes."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A companion calibration station that uses optical gates and IMU telemetry logging to auto-tune motor PWM limits and sensor thresholds for precise cell-to-cell navigation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "Matplotlib"
+      ],
+      "title": "MicroScan: Inertial & IR Calibration Rig for Micromouse",
+      "track": "",
+      "why_it_could_win": "Focuses on rigorous engineering precision and tuning, which directly translates to winning runs in speed-run phases of Micromouse tournaments."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An ultra-lightweight onboard data logger utilizing SPI flash to record microsecond-level encoder counts, gyro rates, and wall-sensor states during high-speed maze runs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "STM32Cube",
+        "Python"
+      ],
+      "title": "SpeedRun-Telemetry: Black Box Flight Recorder for Micromouse",
+      "track": "",
+      "why_it_could_win": "Provides judges with hard, empirical proof of algorithmic optimization and hardware reliability during post-run analysis, separating elite robots from struggling prototypes."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A desktop utility that generates valid competition-standard 16x16 mazes and exports wall layout configurations directly to robot EEPROM over Bluetooth.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Electron",
+        "BluetoothLE"
+      ],
+      "title": "MazeGen: Automated 16x16 Maze Validator and Configurator",
+      "track": "",
+      "why_it_could_win": "Addresses the practical infrastructure needs of running and testing against diverse maze configurations during a high-stakes robotics event."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

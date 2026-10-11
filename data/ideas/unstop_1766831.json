@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-11T09:11:29.798765+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766831",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An edge-computed air quality and localized pollution forecasting dashboard tailored for urban micro-climates in Bengaluru.",
+      "problem_statement": "Develop technology-driven solutions that contribute towards sustainability, accessibility, community welfare, or meaningful social impact.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AuraScope AI",
+      "track": "Sustainability & Social Impact",
+      "why_it_could_win": "Addresses the Sustainability & Social Impact track with clear, actionable environmental analytics that judges can immediately visualize via a live working prototype."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "A mobile-first crowd-sourced navigation app mapping wheelchair ramps, elevators, and blind-friendly pathways across college campuses.",
+      "problem_statement": "Develop technology-driven solutions that contribute towards sustainability, accessibility, community welfare, or meaningful social impact.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Leaflet",
+        "Node.js"
+      ],
+      "title": "SmartCampus Accessibility Mapper",
+      "track": "Sustainability & Social Impact",
+      "why_it_could_win": "Directly targets the accessibility portion of the social impact track, solving a hyper-local campus problem that every judge can relate to."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1213911408"
+      ],
+      "pitch": "An instant retrieval-augmented generation assistant allowing rural students to query complex engineering syllabi in local Indian languages.",
+      "problem_statement": "Build intelligent solutions that address real-world problems using Artificial Intelligence, Machine Learning, Generative AI, Computer Vision, NLP, or related technologies.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "ChromaDB"
+      ],
+      "title": "EduQuery Multilingual RAG",
+      "track": "AI & ML",
+      "why_it_could_win": "Leverages the proven success of multilingual educational tools while hitting the AI & ML track with a practical NLP pipeline."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1182199849"
+      ],
+      "pitch": "A real-time computer vision webcam monitor that detects slumping and ergonomic strain during long coding sessions, giving audio-visual corrections.",
+      "problem_statement": "Build intelligent solutions that address real-world problems using Artificial Intelligence, Machine Learning, Generative AI, Computer Vision, NLP, or related technologies.",
+      "stack": [
+        "JavaScript",
+        "MediaPipe",
+        "HTML5 Canvas",
+        "TailwindCSS"
+      ],
+      "title": "PostureGuard AI",
+      "track": "AI & ML",
+      "why_it_could_win": "Employs client-side MediaPipe for instant, zero-latency computer vision performance that wows judges during a live demo."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A high-efficiency web app for college departments to manage equipment checkouts, lab seat reservations, and hardware maintenance status.",
+      "problem_statement": "Create useful and impactful web or mobile applications that solve practical problems and improve user experiences.",
+      "stack": [
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS"
+      ],
+      "title": "LabSlot Inventory & Booking Engine",
+      "track": "Web & App Development",
+      "why_it_could_win": "Solves an everyday administrative bottleneck faced directly by engineering colleges, ensuring high perceived utility from faculty judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
