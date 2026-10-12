@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-12T09:37:14.682069+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769121",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A visual multi-agent workflow orchestrator designed specifically to automate complex document processing pipelines for Indian SMEs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "AgentFlow Studio",
+      "track": "Agents",
+      "why_it_could_win": "Directly targets the Agents track with a clear visual output and practical business utility that judges can easily evaluate in a short video demo."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "An autonomous background agent that monitors customer support emails and automatically updates CRM records, triggers Slack alerts, and drafts replies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Celery"
+      ],
+      "title": "AutoSync CRM Agent",
+      "track": "Automation",
+      "why_it_could_win": "Focuses on the Automation track by delivering a tangible productivity gain with a live working demo of automated background tasks."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An enterprise-grade localized RAG toolkit tailored for legal and compliance documents with automated citation verification and confidence scoring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "ChromaDB",
+        "Streamlit"
+      ],
+      "title": "DocuPulse LLM",
+      "track": "LLM apps",
+      "why_it_could_win": "Fits the LLM apps track by solving a high-friction enterprise problem with verifiable output accuracy, appealing directly to technical judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "An autonomous multi-agent procurement watcher that simulates market price fluctuations and flags supply chain anomalies in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "AutoGen",
+        "React"
+      ],
+      "title": "SupplyWatch AI",
+      "track": "Agents",
+      "why_it_could_win": "Employs an adversarial multi-agent approach proven successful in past hackathons, showing high technical depth within the Agents track."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An intelligent zero-setup document extraction pipeline that ingests messy unstructured invoices and outputs structured ledger entries automatically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PydanticAI",
+        "FastAPI",
+        "Next.js"
+      ],
+      "title": "InvoiceParser Pro",
+      "track": "Automation",
+      "why_it_could_win": "Solves a universal operational bottleneck for Indian businesses, hitting the Automation track sweet spot with a polished, working end-to-end demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

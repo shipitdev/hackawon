@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-12T09:36:34.370049+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1757858",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A real-time 1v1 competitive programming arena where coders face off on live algorithmic problems with instant WebSocket-based test case evaluation.",
+      "problem_statement": "Round 1 – Easy-Level Coding Challenge & Round 2 – Advanced Coding Challenge",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "WebSockets",
+        "Docker"
+      ],
+      "title": "AlgoDuel: Real-Time 1v1 Competitive Programming Platform",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the hackathon's focus on competitive programming and algorithmic thinking by providing a platform specifically designed for head-to-head coding battles."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent system that analyzes a programmer's failed submission history and generates personalized, dynamic algorithmic learning paths and optimized code templates.",
+      "problem_statement": "Round 1 – Easy-Level Coding Challenge & Round 2 – Advanced Coding Challenge",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "CP-PathFinder: AI-Powered Competitive Programming Learning Roadmap",
+      "track": "",
+      "why_it_could_win": "Combines the hackathon's emphasis on continuous learning and algorithmic problem-solving with targeted AI code analysis, showcasing strong practical utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A developer tool that parses submitted code, detects suboptimal time and space complexities, and interactively visualizes execution bottlenecks across test cases.",
+      "problem_statement": "Round 2 – Advanced Coding Challenge",
+      "stack": [
+        "Python",
+        "AST",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "OptiCode: Algorithmic Complexity Visualizer and Optimizer",
+      "track": "",
+      "why_it_could_win": "Directly targets the advanced challenge requirement for efficient algorithms and optimized solutions, appealing to judges looking for deep logical reasoning tools."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A CLI and web utility that automatically generates diverse, edge-case heavy test suites from natural language problem statements to stress-test algorithmic solutions.",
+      "problem_statement": "Round 1 – Easy-Level Coding Challenge & Round 2 – Advanced Coding Challenge",
+      "stack": [
+        "Python",
+        "Flask",
+        "Docker",
+        "JavaScript"
+      ],
+      "title": "TestBench-CI: Automated CP Test Case Generator and Verifier",
+      "track": "",
+      "why_it_could_win": "Addresses the evaluation criteria of correctness and test case passing by giving competitive programmers an instant framework to validate their solutions rigorously."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An interactive step-through visualizer for recursive and dynamic programming algorithms that maps variable states and memory changes in real time.",
+      "problem_statement": "Round 2 – Advanced Coding Challenge",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Monaco Editor",
+        "Web Workers"
+      ],
+      "title": "CodeTrace: Step-by-Step Logic and Execution Debugger for CP",
+      "track": "",
+      "why_it_could_win": "Delivers a genuinely hard engineering demo that makes complex algorithmic debugging intuitive, satisfying judges who value advanced logical reasoning."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-12T09:37:01.821529+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769011",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An AI-powered log analysis and intrusion detection dashboard that parses NGINX web server logs in real-time to surface stealthy application-layer attacks.",
+      "problem_statement": "Cybersecurity and Ethical Hacking track: Need for automated threat detection in modern web deployments.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "AegisLog: Real-Time NGINX Security Anomaly Dashboard",
+      "track": "Cybersecurity and Ethical Hacking",
+      "why_it_could_win": "Directly targets the cybersecurity track and mirrors a proven architecture that won the UCC ACM Hackathon by delivering tangible operational utility."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A lightweight developer platform that automatically scans tabular machine learning models for demographic and feature bias, offering explainable remediation.",
+      "problem_statement": "Artificial Intelligence and Machine Learning track: Ensuring ethical and robust artificial intelligence systems.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-Learn",
+        "Next.js"
+      ],
+      "title": "FairCheck AI: ML Model Bias Auditor & Mitigator",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Judges value responsible AI tools; this replicates a solo-built winning entry that scored points for solving a complex ethical and technical bottleneck."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated monitoring platform that compares periodic satellite imagery of industrial zones to detect unauthorized land use changes and zoning violations.",
+      "problem_statement": "Data Science and Analytics track: Transforming complex spatial data into actionable environmental and industrial insights.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Leaflet.js",
+        "FastAPI"
+      ],
+      "title": "GeoCompliance: Satellite Industrial Land Monitor",
+      "track": "Data Science and Analytics",
+      "why_it_could_win": "Combines spatial data science with real-world compliance monitoring, following the blueprint of a successful runner-up project at IIIT Naya Raipur."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1339682542",
+        "github:1340275018"
+      ],
+      "pitch": "A computer vision pipeline that processes CCTV RTSP streams locally to detect missing PPE (helmets, vests) on factory floors and instantly alert supervisors.",
+      "problem_statement": "Internet of Things (IoT) and Robotics track: Enhancing workplace safety through edge-computed sensor and visual intelligence.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "Node.js"
+      ],
+      "title": "SafeVision: Edge AI Industrial Safety Compliance",
+      "track": "Internet of Things (IoT) and Robotics",
+      "why_it_could_win": "Tackles an immediate, high-stakes industrial safety problem with real-time video inference, matching multiple hackathon-winning architectures."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A transaction monitoring and network graph visualization tool that flags suspicious financial transfer patterns for anti-money laundering compliance.",
+      "problem_statement": "Open Innovation and Technology Solutions track: Solving complex institutional challenges using advanced data pipelines.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "TransAction: AML Graph Risk Intelligence Platform",
+      "track": "Open Innovation and Technology Solutions",
+      "why_it_could_win": "Leverages graph network intelligence and explainable risk scoring, directly echoing a 1st place winning project at the DIGITIMES AI Innovation Hackathon."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

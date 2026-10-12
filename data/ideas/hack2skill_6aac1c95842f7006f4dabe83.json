@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-12T09:36:21.080333+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6aac1c95842f7006f4dabe83",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1022783746",
+        "github:995518925"
+      ],
+      "pitch": "A browser extension and mobile companion that intercepts social engineering attempts, analyzes suspicious emails and SMS, and provides instant risk breakdowns.",
+      "problem_statement": "AI Scam Shield: Detect, Explain & Prevent Digital Scams",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Python",
+        "Hugging Face"
+      ],
+      "title": "PhishGuard AI",
+      "track": "",
+      "why_it_could_win": "Directly tackles the published problem statement with a tangible, user-facing artifact that judges can test immediately on their own devices."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:995518925",
+        "github:1022783746"
+      ],
+      "pitch": "An AI-powered multi-lingual SMS and WhatsApp scam detector built for regional languages to protect vulnerable demographics from fraudulent financial offers.",
+      "problem_statement": "AI Scam Shield: Detect, Explain & Prevent Digital Scams",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "LLMs"
+      ],
+      "title": "ScamSleuth SMS",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of Myth-Chaser by handling localized regional nuances, which appeals strongly to judges looking for local social impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:995518925"
+      ],
+      "pitch": "An instant URL and QR code auditing tool that crawls deceptive websites, analyzes DOM structures with computer vision and LLMs, and flags phishing traps.",
+      "problem_statement": "AI Scam Shield: Detect, Explain & Prevent Digital Scams",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Playwright"
+      ],
+      "title": "VeriSite",
+      "track": "",
+      "why_it_could_win": "Provides clear, quantifiable risk scores and visual explanations that fulfill the hackathon's exact criteria for actionable guidance."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1068856633",
+        "github:995518925"
+      ],
+      "pitch": "A conversational AI auditor where users can forward suspicious job offers or investment emails to receive a transparent, plain-language risk breakdown.",
+      "problem_statement": "AI Scam Shield: Detect, Explain & Prevent Digital Scams",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "LangChain"
+      ],
+      "title": "FraudExplain",
+      "track": "",
+      "why_it_could_win": "Combines prompt engineering creativity with consumer protection, aligning perfectly with the core focus of PromptWars."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1034660288",
+        "github:882328412"
+      ],
+      "pitch": "A simplified accessibility-first assistant that sits on a senior citizen's phone to warn them before they interact with known fraudulent callers or links.",
+      "problem_statement": "AI Scam Shield: Detect, Explain & Prevent Digital Scams",
+      "stack": [
+        "Kotlin",
+        "TypeScript",
+        "Python"
+      ],
+      "title": "ElderShield AI",
+      "track": "",
+      "why_it_could_win": "Leverages the proven winning pattern of vulnerability-focused accessibility aids like GrandmaHelper and Haven to secure emotional resonance with judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
