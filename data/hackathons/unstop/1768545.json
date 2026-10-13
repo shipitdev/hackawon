@@ -6,7 +6,7 @@
   "ends_at": "2026-10-22T20:00:00+05:30",
   "mode": "hybrid",
   "organiser": "Bharati Vidyapeeth's College of Engineering",
-  "participants_count": 382,
+  "participants_count": 437,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -19,8 +19,8 @@
     },
     {
       "kind": "google_doc",
-      "status": "parsed",
-      "text": "﻿PROBLEM STATEMENTS (HACK@BVP 8.0) DOMAIN 1: Health & Well Being 1. PS1: The Pollution Blame Ledger: Source Attribution with Health Cost Problem Statement Delhi’s PM2.5 pollution comes from multiple sources such as stubble burning, vehicles, construction, industry, and weather conditions. However, determining how much each source contributes to a specific pollution episode remains difficult. Build a data-driven system that estimates the contribution of different pollution sources to Delhi’s PM2.5 levels and quantifies their estimated health impact. What We Need Develop an attribution engine using open data such as satellite fire detections, weather and wind data, CPCB air-quality readings, traffic indicators, and source-location data. The system should: * Estimate the contribution of each major pollution source. * Provide uncertainty or confidence for its estimates. * Convert pollution exposure into estimated health impacts using published research. * Present results through a simple, evidence-based dashboard that clearly communicates what the model can and cannot determine. * Demonstrate how the attribution changes when tested on a new pollution event provided during judging. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 11 – Sustainable Cities and Communities * SDG 13 – Climate Action * SDG 16 – Peace, Justice and Strong Institutions 2. PS2: Break the AI Doctor: Detect Bias, Then Fix It Problem Statement AI health assistants can appear accurate overall while performing poorly for specific groups, languages, age groups, genders, or communication styles. Build a system that systematically identifies hidden biases in a black-box AI health assistant, statistically validates the findings, and reduces the identified bias without significantly reducing overall performance. What We Need Develop a testing and mitigation framework that: * Identifies groups and situations where the AI performs differently. * Uses statistical evidence to distinguish real bias from random variation. * Applies a model-independent wrapper or mitigation technique to reduce unfair outcomes. * Compares fairness and overall accuracy before and after the fix. * Demonstrates whether the approach can detect and handle a new, unseen bias introduced by the organizers. SDGs Covered * SDG 10 – Reduced Inequalities * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 16 – Peace, Justice and Strong Institutions 3. PS3: The Resistance Radar: City-Scale Antibiotic Resistance Intelligence Problem Statement Antimicrobial resistance is making common infections increasingly difficult to treat. Hospitals often lack a clear, up-to-date view of which antibiotics remain effective locally. Build a system that combines laboratory culture and antibiotic-sensitivity data from multiple hospitals to monitor resistance patterns and identify emerging changes. What We Need Develop an intelligence system that: * Generates hospital- and ward-level antibiograms from structured and semi-structured data. * Estimates how key drug–bacteria resistance patterns may change over the coming quarter. * Detects unusual resistance spikes that could indicate emerging outbreaks. * Provides evidence-based empirical antibiotic options with clear confidence levels. * Handles missing data, reporting delays, and differences in testing patterns between hospitals. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 10 – Reduced Inequalities 4. PS4:The Nutri-Equity Engine: Affordable Nutrition Optimization Problem Statement Low-income households often struggle to maintain nutritious diets because of food prices, seasonal availability, household needs, and access to subsidized food. Build a system that creates affordable, nutritionally adequate, and culturally practical weekly meal plans based on household characteristics, local food prices, and available food entitlements. What We Need Develop an optimization system that: * Generates the lowest-cost nutritionally adequate weekly meal plan. * Considers household size, age, dietary preferences, cooking constraints, and local food availability. * Incorporates PDS entitlements and changing food prices. * Detects price changes and automatically adjusts meal plans. * Estimates potential changes in anemia risk based on nutritional adequacy. * Provides the results through a simple, low-literacy and vernacular-friendly interface. SDGs Covered * SDG 2 – Zero Hunger * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 1 – No Poverty 5. PS5: The Mother-Watch Planner: Maternal Care Prioritization Problem Statement Missed antenatal visits and delayed identification of high-risk pregnancies can lead to preventable complications, while frontline health workers have limited time and resources. Build a system that identifies pregnancies requiring greater attention and creates efficient weekly visit plans for frontline workers. What We Need Develop a system that: * Identifies women at higher risk of missing antenatal care or developing complications. * Creates optimized weekly visit schedules based on risk and travel effort. * Clearly explains why each case is prioritized. * Accounts for limited workforce and geographic constraints. * Audits the scheduling process to identify potential bias against specific communities. SDGs Covered * SDG 3 – Good Health and Well-Being * SDG 5 – Gender Equality * SDG 10 – Reduced Inequalities 6. PS6: The Stockout Shield: Essential Medicine Supply Optimization Problem Statement Essential medicines can run out at some healthcare facilities while excess stock at others expires unused. Build a system that helps healthcare facilities anticipate medicine demand, identify stockout and expiry risks, and efficiently redistribute available supplies. What We Need Develop a system that: * Forecasts medicine-level demand for each facility. * Detects upcoming stockout and expiry risks. * Accounts for seasonal trends, outbreaks, and sudden demand changes. * Recommends inter-fac",
+      "status": "linked",
+      "text": null,
       "title": "Click here for domains and their problem statements",
       "url": "https://docs.google.com/document/d/1AkVjTx2ctKGG8y955y9G2w1qQk32OH8QoJ2_zFa_9F0/edit?usp=sharing"
     }
@@ -180,7 +180,7 @@
     ],
     "public_url": "hackathons/hack-at-bvp-80-bharati-vidyapeeths-college-of-engineering-1768545",
     "region": "hybrid",
-    "registerCount": 382,
+    "registerCount": 437,
     "regnRequirements": {
       "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-10-16T19:00:00+05:30",
@@ -193,7 +193,7 @@
         "durations": 2,
         "text": " days left"
       },
-      "remaining_time": 256298,
+      "remaining_time": 225597,
       "show_deadline": 1,
       "start_regn_dt": "2026-10-09T22:00:00+05:30",
       "work_location_type": "city"
@@ -266,7 +266,7 @@
     "title": "Hack@BVP 8.0",
     "type": "hackathons",
     "updated_at": "2026-10-11T12:35:48+05:30",
-    "viewsCount": 27923,
+    "viewsCount": 27074,
     "visibility": "public",
     "workfunction": [
       {
