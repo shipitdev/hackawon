@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-13T09:40:39.646742+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability",
+      "civic",
+      "healthtech",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769022",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A real-time civic issue reporter and auto-routing dashboard tailored for Nagpur municipal authorities.",
+      "problem_statement": "Smart Cities & Civic Innovation",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "Supabase",
+        "Leaflet.js"
+      ],
+      "title": "NagpurNagrikCivicAI",
+      "track": "Smart Cities & Civic Innovation",
+      "why_it_could_win": "Directly targets the Smart Cities & Civic Innovation track with a working local interface that mirrors successful municipal dashboard wins."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An AI-powered matching platform connecting local farmers having crop stubble with nearby biomass and paper recycling plants in Nagpur.",
+      "problem_statement": "Sustainability & Environment",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "PostgreSQL",
+        "Pandas"
+      ],
+      "title": "VidarbhaAgroWasteMapper",
+      "track": "Sustainability & Environment",
+      "why_it_could_win": "Focuses on the regional stubble-burning issue in Vidarbha, providing judges with a clear, measurable environmental impact and local relevance."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first health triage assistant for rural clinics around Nagpur offering local dialect symptom screening and vaccination tracking.",
+      "problem_statement": "Healthcare & Social Impact",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI Whisper",
+        "LangChain",
+        "SQLite"
+      ],
+      "title": "GraminSwasthyaAI",
+      "track": "Healthcare & Social Impact",
+      "why_it_could_win": "Leverages proven multilingual health agent patterns to address rural healthcare gaps in Maharashtra, which heavily resonates with local judging panels."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight browser extension and scanner that detects localized phishing campaigns and fraudulent WhatsApp financial scams targeting local small businesses.",
+      "problem_statement": "Cyber Security",
+      "stack": [
+        "JavaScript",
+        "Chrome Extensions API",
+        "Python",
+        "Flask",
+        "Scikit-learn"
+      ],
+      "title": "PhishGuardNagpurSME",
+      "track": "Cyber Security",
+      "why_it_could_win": "Attacks the Cyber Security track with an immediate, tangible product that small business owners in Nagpur can test live during the judging round."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:927292639"
+      ],
+      "pitch": "An AI computer vision dashboard estimating carbon congestion penalties and vehicle density from Nagpur traffic camera feeds to aid green signal optimization.",
+      "problem_statement": "AI & Emerging Technology",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "NagpurTrafficCarbonAI",
+      "track": "AI & Emerging Technology",
+      "why_it_could_win": "Combines computer vision with the AI & Emerging Technology track using a hard-to-ignore visual demo of live traffic analytics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

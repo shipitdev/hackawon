@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-13T09:40:21.310902+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1767954",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "Real-time institutional resource allocation and infrastructure fault-reporting platform powered by automated severity scoring.",
+      "problem_statement": "General real-world problem solving and campus infrastructure management.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "title": "CampusPulse",
+      "track": "",
+      "why_it_could_win": "Directly targets pain points familiar to university judges and IEEE organizers by quantifying operational impact and administrative efficiency."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "Energy consumption monitoring and AI-driven load forecasting system designed to reduce university power wastage.",
+      "problem_statement": "General real-world problem solving with a focus on institutional sustainability.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Chart.js"
+      ],
+      "title": "EcoGrid Campus",
+      "track": "",
+      "why_it_could_win": "Aligns with institutional sustainability goals and uses clear, measurable energy-saving metrics that appeal directly to academic judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "Multilingual AI assistant tailored for rural educational outreach and localized academic resource access.",
+      "problem_statement": "General real-world problem solving focusing on societal impact and accessibility.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "Google Gemini API"
+      ],
+      "title": "EduBridge AI",
+      "track": "",
+      "why_it_could_win": "Combines high social impact with localized accessibility, scoring high on the originality and feasibility criteria highlighted by IEEE judges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "Automated computer vision system for monitoring safety compliance and equipment usage in academic and engineering laboratories.",
+      "problem_statement": "General real-world problem solving emphasizing campus safety and technical implementation.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "React"
+      ],
+      "title": "LabGuard AI",
+      "track": "",
+      "why_it_could_win": "Demonstrates technical depth through computer vision implementation while directly solving safety compliance issues on campus."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "Automated student project and portfolio auditing tool that matches peer competencies for collaborative multidisciplinary capstone teams.",
+      "problem_statement": "General real-world problem solving geared towards student academic workflows.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "SkillScout",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical problem for students and faculty alike, emphasizing feasibility and clear expected impact."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

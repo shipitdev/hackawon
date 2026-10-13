@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-13T09:40:44.144952+00:00",
+  "grounding": {
+    "domains": [
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769112",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "An AI-powered news verification engine that cross-references breaking market feeds with past sentiment and insider chatter to flag fake finfluencer news before trades are executed.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Next.js"
+      ],
+      "title": "VeritasNews: Fake News & Insider Threat Radar for Simulated Markets",
+      "track": "",
+      "why_it_could_win": "Targeting the specific theme of the trading competition where news sources include unreliable finfluencers and insiders, providing a clear edge in sentiment analysis."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1183964401",
+        "github:1350419063"
+      ],
+      "pitch": "A Python-based trading bot platform equipped with market impact models designed to simulate institutional order flows that move virtual prices during the institutional phase.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "WebSockets",
+        "Streamlit"
+      ],
+      "title": "ApexOrder: Institutional Impact & Market Maker Bot Platform",
+      "track": "",
+      "why_it_could_win": "Leverages the unique dual-phase nature of the event by providing advanced algorithmic trading tools tailored for the institutional tier where large orders move prices."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "An autonomous multi-agent advisory council that debates long and short market theses through adversarial falsification before executing trades on the simulation platform.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangChain",
+        "TailwindCSS"
+      ],
+      "title": "CouncilTrade: Multi-Agent Adversarial Trading Syndicate",
+      "track": "",
+      "why_it_could_win": "Mirrors proven winning architectures from similar trading hackathons by emphasizing rigorous risk gates and multi-agent thesis testing rather than simple random prompts."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A high-performance charting and order book visualization extension that aggregates retail data, charting patterns, and breaking feed updates into a single low-latency dashboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Chart.js",
+        "Node.js"
+      ],
+      "title": "BazaarPulse: Real-Time Order Book & Chart Intelligence Suite",
+      "track": "",
+      "why_it_could_win": "Focuses on a live-working, high-utility UI that helps retail investors react instantly to second-by-second price changes during intense timed trading sessions."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "A strict risk-management overlay that monitors open positions, enforces maximum allocation limits, and automatically cuts exposure during extreme market volatility.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Redis",
+        "Chart.js"
+      ],
+      "title": "RiskSentinel: Deterministic Portfolio Guardrails for Virtual Capital",
+      "track": "",
+      "why_it_could_win": "Applies proven risk-gate engineering patterns to prevent catastrophic drawdowns in high-pressure simulated trading competitions where emotional trading ruins portfolios."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-13T09:39:40.800061+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6991a6b1f55c0f157226ed0b",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An automated meta-prompting tool built specifically for Google Antigravity that refines prompts through iterative semantic testing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Antigravity API"
+      ],
+      "title": "Antigravity Prompt Optimizer",
+      "track": "",
+      "why_it_could_win": "Targeting the specific tooling of the host venue (Google Office in Gurugram and Google Antigravity) guarantees high relevance to judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1351321536",
+        "github:1296916648"
+      ],
+      "pitch": "A solo developer guardrail agent that reviews, tests, and refactors messy prompt-generated codebases before production deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Cursor API",
+        "FastAPI"
+      ],
+      "title": "VibeCode CI",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable pain point for 'vibe coders' and rapid AI application builders in the room."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that dynamically dispatches incoming user prompts to the most cost-effective local or cloud LLM.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen"
+      ],
+      "title": "PromptRouter Local",
+      "track": "",
+      "why_it_could_win": "Replicates the technical depth of the Superlinked x Qwen winning pattern by optimizing inference performance and cost directly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A natural language to BPMN visual workflow generator with built-in pre-deployment safety and risk diagnosis for multi-agent systems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "BPMN.io",
+        "LangGraph"
+      ],
+      "title": "AgentFlow BPMN Designer",
+      "track": "",
+      "why_it_could_win": "Leverages structural workflow orchestration and risk governance, mirroring proven winning strategies in agentic hackathons."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An automated engineering lifecycle intelligence tool that captures tribal knowledge from conversational prompts and docs before engineers leave.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma",
+        "FastAPI",
+        "LangGraph"
+      ],
+      "title": "KnowledgeCapture AI",
+      "track": "",
+      "why_it_could_win": "Directly targets a high-value enterprise problem recognized by judges as critical for team sustainability."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

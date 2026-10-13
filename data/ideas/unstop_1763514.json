@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-13T09:40:16.961697+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "unusual-hardware",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763514",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An AI-powered institutional knowledge management system that captures and indexes internal technical documentation, project reports, and club handovers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "TypeScript"
+      ],
+      "title": "CampusFlow Knowledge Engine",
+      "track": "",
+      "why_it_could_win": "Targets an organizational pain point familiar to academic clubs like Club Ellusion managing recurring team handovers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "An AI-driven room and lab booking platform for college campuses that automates event planning and real-time equipment availability tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "CampusSpace Workspace Optimizer",
+      "track": "",
+      "why_it_could_win": "Solves a concrete logistics problem faced daily by students and administrators organising hackathons and campus events."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "A voice-enabled RAG assistant configured with institutional guidelines, syllabus data, and placement guidelines to answer complex student queries accurately.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Llama3",
+        "SpeechRecognition"
+      ],
+      "title": "VocalQuery Campus Assistant",
+      "track": "",
+      "why_it_could_win": "Features an impressive live voice-to-text interaction that appeals to judges looking for functional, end-to-end AI applications."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1074933780"
+      ],
+      "pitch": "An AI-powered career mentorship platform designed for engineering and management students that merges academic performance with real-time job market predictions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "CareerRoadmap AI Mentor",
+      "track": "",
+      "why_it_could_win": "Directly benefits the student demographic in the room, making the value proposition instantly resonant for the judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A web-based digital kiosk platform featuring secure identity verification and automated document processing for student tuition loan applications.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "OpenCV"
+      ],
+      "title": "SmartLoan Digital Branch",
+      "track": "",
+      "why_it_could_win": "Demonstrates a complete full-stack workflow mimicking professional fintech systems, aligning with multi-disciplinary engineering and MBA scopes."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

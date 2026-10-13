@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-13T09:40:53.335070+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769184",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:600524805"
+      ],
+      "pitch": "A gamified incident response platform that feeds live security alerts and digital clues to teams under strict countdown timers.",
+      "problem_statement": "Cybersecurity-themed challenges, digital clues, system vulnerabilities, and time-sensitive problems under pressure.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "BreachTime: Real-Time Incident Triage & Digital Clue Simulator",
+      "track": "",
+      "why_it_could_win": "Directly matches the high-energy, time-sensitive simulation format of Kill Switch, testing judges' criteria of decision-making under pressure."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1208011447",
+        "github:1004582948"
+      ],
+      "pitch": "An AI-powered security agent that monitors LLM tool calls and logs for prompt injections and unauthorized data exfiltration attempts in real time.",
+      "problem_statement": "System vulnerabilities, security scenarios, and identifying potential risks when every second counts.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Vercel AI SDK",
+        "FastAPI"
+      ],
+      "title": "AgenticArmor: Defensive Prompt-Injection & Log Scraper",
+      "track": "",
+      "why_it_could_win": "Leverages advanced defense-in-depth patterns from successful hackathon agent projects to tackle modern software attack vectors."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid code analysis tool that scans repositories for security misconfigurations and generates immediate executive risk reports.",
+      "problem_statement": "Analyze available information, identify potential risks, and determine the correct course of action.",
+      "stack": [
+        "Python",
+        "AST Parser",
+        "Streamlit"
+      ],
+      "title": "VulnerabilityPulse: Automated Repository Security Insights",
+      "track": "",
+      "why_it_could_win": "Replicates the winning formula of automated repository auditing and reporting tools that secure high placements at technical hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A localized NLP tool that rapidly analyzes suspicious call transcripts, SMS logs, and email payloads to detect phishing attempts instantly.",
+      "problem_statement": "Technical challenges involving security scenarios, digital clues, and system vulnerabilities.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "BERT"
+      ],
+      "title": "PhishGuard: BERT-Powered Multi-Channel Threat Detector",
+      "track": "",
+      "why_it_could_win": "Adapts proven award-winning ML spam detection architectures into an agile, real-time security triage assistant."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:600524805"
+      ],
+      "pitch": "A fast forensic workspace that ingests raw server logs, correlates anomalies, and visualizes attack paths for quick root-cause deduction.",
+      "problem_statement": "Logical reasoning and analysis of digital clues to solve time-bound security tasks.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "SecOps LogDecoder: Digital Forensics & Log Puzzle Solver",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the competition's emphasis on logical reasoning and handling time-bound digital clue analysis."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
