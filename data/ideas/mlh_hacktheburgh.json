@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-14T07:54:50.344722+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hacktheburgh",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "Low-latency AR navigation for Edinburgh's historic Old Town that routes wheelchair users and delivery carts around cobblestones, steep inclines, and construction zones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "ARKit",
+        "CoreLocation",
+        "OpenStreetMap API"
+      ],
+      "title": "EdinburghCobblestoneNav",
+      "track": "",
+      "why_it_could_win": "Adopts the real-time AR and low-latency execution strategy from BaseScanning, solving a hyper-local, highly relatable problem for anyone trying to navigate Edinburgh's challenging geography."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Computer vision tool for Edinburgh tenement housing surveyors to instantly detect and classify dry rot, damp patterns, and sandstone weathering from smartphone videos.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React Native"
+      ],
+      "title": "HearthCheck",
+      "track": "",
+      "why_it_could_win": "Directly appeals to local judges by targeting a ubiquitous problem in historic Scottish stone buildings, combining a working computer vision demo with high local economic relevance."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Real-time energy forecasting dashboard predicting local Scottish wind farm curtailment and grid carbon intensity using Poisson regression models and live Met Office weather feeds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Statsmodels",
+        "Streamlit"
+      ],
+      "title": "ClydeGridCarbon",
+      "track": "",
+      "why_it_could_win": "Employs the rigorous statistical forecasting methodology and backtesting seen in AI-incident-forecasting, which appeals to technical judges looking for genuine data science rather than wrapper apps."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized nutrition scanner tailored to traditional Scottish ingredients and local supermarket inventory, generating culturally resonant meal plans with calibrated micronutrient tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API"
+      ],
+      "title": "HaggisHealthNut",
+      "track": "",
+      "why_it_could_win": "Takes the winning formula of E-Foodiee-AI-Nutrition-Assistant and injects localized regional relevance, making the demo instantly charming and memorable for local judges."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Decentralized performer-to-venue matching and crowd-flow predictor for Edinburgh Festival Fringe organizers to optimize temporary stage allocations and reduce bottleneck congestion.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "FringeVenueSync",
+      "track": "",
+      "why_it_could_win": "Taps into Edinburgh's cultural identity while presenting a hard graph-intelligence and forecasting challenge that demonstrates impressive technical depth within a 30-hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

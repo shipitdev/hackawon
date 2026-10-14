@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-14T07:55:03.849760+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768100",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "A predictive AI simulation tool built for Mission 01 (The fireline) that models real-time wildfire spread across dense Nilgiri forest topographies using weather data and vegetation density.",
+      "problem_statement": "Mission 01 - The fireline: Predict the Unpredictable. Contain the Uncontrollable in forest ecosystems.",
+      "stack": [
+        "Python",
+        "Next.js",
+        "Leaflet.js",
+        "Scikit-Learn",
+        "FastAPI"
+      ],
+      "title": "NilgiriGuard Wildfire Early Warning & Spread Simulator",
+      "track": "Predictive AI",
+      "why_it_could_win": "Directly tackles Mission 01 with a high-stakes environmental focus, mirroring the winning approach of the Sacramento State AI Hackathon wildfire model while adapting it to local Nilgiri topography."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:694390550",
+        "github:1376189518"
+      ],
+      "pitch": "A computer vision pipeline that processes remote trail-camera feeds in Ooty to identify endangered endemic species and track human-wildlife conflict zones.",
+      "problem_statement": "Forest Intelligence and Wildlife Technology challenges involving computer vision and advanced machine learning in the Nilgiris.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Streamlit"
+      ],
+      "title": "FaunaVision: Automated Wildlife Corridor Monitor",
+      "track": "Computer Vision",
+      "why_it_could_win": "Leverages computer vision for high-impact local conservation, directly addressing the biodiversity preservation priorities of judges familiar with the Nilgiri landscape."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1079913400"
+      ],
+      "pitch": "An intelligent simulation platform modeling the microclimate and hydrological health of Ooty's endangered Shola forests to predict environmental degradation risks.",
+      "problem_statement": "Intelligent Simulation and Forest Intelligence challenges for transforming complex environmental problems.",
+      "stack": [
+        "React",
+        "Three.js",
+        "Python",
+        "Pandas"
+      ],
+      "title": "EcoSim Shola: Forest Canopy Digital Twin",
+      "track": "Intelligent Simulation",
+      "why_it_could_win": "Applies a digital twin and simulation framework similar to winning energy and battery monitoring hacks, translating complex ecological telemetry into an actionable dashboard for forest rangers."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A predictive water-quality monitoring dashboard that forecasts algal blooms and pollution risks in Ooty lake ecosystems using machine learning on sensor data.",
+      "problem_statement": "Predictive AI and Advanced Machine Learning for real-world environmental challenges in the Nilgiris.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "TailwindCSS",
+        "XGBoost"
+      ],
+      "title": "BioBloom Nilgiris: Aquatic Ecosystem Predictor",
+      "track": "Predictive AI",
+      "why_it_could_win": "Uses proven predictive pipelines from water-focused hackathon winners to deliver quantified early-warning metrics that appeal directly to environmental science judges."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-deployable computer vision classification tool to detect non-biodegradable waste accumulation along trekking routes and sensitive wildlife zones in Ooty.",
+      "problem_statement": "Wildlife Technology, Computer Vision, and Advanced Machine Learning in the Nilgiris.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "React Native",
+        "Flask"
+      ],
+      "title": "TerraVision: Automated Forest Litter & Plastic Classifier",
+      "track": "Wildlife Technology",
+      "why_it_could_win": "Combines hardware-ready waste classification patterns with urgent local ecological cleanup priorities, echoing the practical utility of winning smart-garbage classification systems."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

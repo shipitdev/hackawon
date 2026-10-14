@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-10-14T07:55:07.608988+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769180",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A Python and LTspice automation script that instantly checks simulated circuit outputs against ideal theoretical transfer functions for rapid round-2 debugging.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LTspice",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "title": "LTspice Automated Waveform Validator",
+      "track": "",
+      "why_it_could_win": "Speeds up simulation rounds drastically, following the pattern of building tools for hard engineering tasks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A portable multimeter companion app that guides students through systematic node-by-node continuity and voltage drop checks during hardware debugging.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "WebSerial"
+      ],
+      "title": "Breadboard Fault Injector & Diagnostic Guide",
+      "track": "",
+      "why_it_could_win": "Directly targets the final breadboard hardware debugging round with a practical, methodical diagnostic workflow."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A mobile web tool that uses computer vision to read tiny resistor color bands and SMD component codes instantly during high-stress component sorting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "HTML5"
+      ],
+      "title": "Passive Component OCR Scanner",
+      "track": "",
+      "why_it_could_win": "Solves an immediate physical friction point for students working under tight time limits in hardware rounds."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "An educational simulation assistant that calculates exact gain, bandwidth, and phase margin for complex op-amp configurations before breadboard assembly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "SymPy",
+        "Dash"
+      ],
+      "title": "Op-Amp Circuit Generator and Stability Analyzer",
+      "track": "",
+      "why_it_could_win": "Bridges the gap between theory rounds and simulation rounds by enforcing rigorous mathematical validation."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A fast digital logic simulator that takes boolean expressions, minimizes Karnaugh maps, and generates verification testbenches for digital circuit rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Verilog"
+      ],
+      "title": "Logic Gate Minimizer and Testbench Generator",
+      "track": "",
+      "why_it_could_win": "Provides rock-solid verification capability, aligning with the hardware testing and validation evaluation criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

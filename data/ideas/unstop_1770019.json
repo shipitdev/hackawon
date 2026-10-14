@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-14T07:55:44.234064+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770019",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent agricultural intelligence platform that combines drone/mobile imagery with local soil sensor time-series data to diagnose crop stress and trigger closed-loop irrigation plans.",
+      "problem_statement": "Healthcare, agriculture, education, and community-focused solutions",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Gemini 2.5",
+        "FastAPI",
+        "TimescaleDB"
+      ],
+      "title": "AgriSense AI: Autonomous Crop Disease & Irrigation Diagnostic Agent",
+      "track": "",
+      "why_it_could_win": "Leverages a proven multi-agent diagnostic architecture similar to winning IoT and AI platform projects, addressing a critical local economic sector directly relevant to regional judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1194555365"
+      ],
+      "pitch": "An AI-powered municipal issue triage system that ingests citizen complaints via text or voice, categorizes urgency using graph intelligence, and auto-routes them to appropriate local departments.",
+      "problem_statement": "Social innovations and solutions to everyday challenges",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "CivicPulse Gwalior: Community Resource & Grievance Routing Engine",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable pain for municipal organizers and judges who experience everyday civic inefficiencies firsthand."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent student support platform that analyzes project submission histories to construct custom learning pathways and multi-agent tutoring nodes for under-resourced classrooms.",
+      "problem_statement": "Healthcare, agriculture, education, and community-focused solutions",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Qdrant",
+        "Next.js"
+      ],
+      "title": "EduMentor AI: Personalized Skill-Gap Remediation Platform",
+      "track": "",
+      "why_it_could_win": "Adopts the successful multi-agent RAG workflow of top educational hackathon winners, highly appealing to a student and academic-heavy judging panel."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1213911408"
+      ],
+      "pitch": "A digital supply chain ledger and carbon-accounting platform that uses lightweight machine learning models to forecast emission hotspots in regional manufacturing and logistics.",
+      "problem_statement": "Sustainable products and environmental innovations",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "EcoTrace Gwalior: Localized Carbon Footprint & Supply Chain Auditing Tool",
+      "track": "",
+      "why_it_could_win": "Combines rigorous forecasting methodology with clear, quantifiable environmental impact metrics that sustainability judges prioritize."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An institutional risk-investigation platform combining graph intelligence and gradient boosting to detect anomalous insurance claims and medical billing fraud in real time.",
+      "problem_statement": "Healthcare, agriculture, education, and community-focused solutions",
+      "stack": [
+        "TypeScript",
+        "LightGBM",
+        "Neo4j",
+        "FastAPI"
+      ],
+      "title": "MediGraph: Explainable AML and Fraud Detection for Healthcare Billing",
+      "track": "",
+      "why_it_could_win": "Replicates the high-performance graph intelligence and explainable machine learning architecture of major fintech and risk-detection hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

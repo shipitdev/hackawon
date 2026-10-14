@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-10-14T07:54:58.346950+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758799",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A Python utility implementing Zero-Noise Extrapolation (ZNE) and measurement error mitigation to optimize Variational Quantum Eigensolver runs on noisy simulators.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within specified constraints and scoring rules.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy",
+        "SciPy"
+      ],
+      "title": "Qiskit Error-Mitigated VQE Solver",
+      "track": "",
+      "why_it_could_win": "Solves something technically difficult with real code that directly maximizes score on test cases, aligning with the individual programming competition format."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An executable Qiskit pipeline for classical classification tasks utilizing parameterized quantum circuits as a quantum kernel.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within specified constraints and scoring rules.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Scikit-Learn",
+        "Qiskit-Machine-Learning"
+      ],
+      "title": "Quantum Kernel SVM Pipeline",
+      "track": "",
+      "why_it_could_win": "Combines machine learning with quantum circuits in clean, modular Python, ensuring robust test-case evaluation performance."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "An optimized implementation of the Quantum Approximate Optimization Algorithm (QAOA) specifically tailored for graph Max-Cut problems using Qiskit primitives.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within specified constraints and scoring rules.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NetworkX"
+      ],
+      "title": "QAOA Max-Cut Optimization Tool",
+      "track": "",
+      "why_it_could_win": "Directly tackles algorithmic efficiency and optimization hurdles typical of advanced programming challenges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A lightweight Python script analyzing syndrome measurements and error correction thresholds using Qiskit's stabilizer simulation tools.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within specified constraints and scoring rules.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "SymPy"
+      ],
+      "title": "Fault-Tolerant Surface Code Simulator",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep conceptual mastery of quantum error correction under strict time and technical constraints."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An automated testing suite for executing quantum teleportation and entanglement swapping circuits with automated fidelity scoring.",
+      "problem_statement": "Solving quantum-computing problems using Python and IBM Qiskit within specified constraints and scoring rules.",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "PyTest"
+      ],
+      "title": "Entanglement Teleportation Benchmark Runner",
+      "track": "",
+      "why_it_could_win": "Provides a clean, well-tested codebase with high verification accuracy, directly targeting the technical verification phase."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

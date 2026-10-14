@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-14T07:54:53.963915+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:junction",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "Probabilistic forecasting engine for regional Nordic micro-grid energy loads using Poisson GAMs and rolling backtests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Statsmodels",
+        "FastAPI"
+      ],
+      "title": "NordicGrid-Forecast",
+      "track": "",
+      "why_it_could_win": "Follows the exact pattern of hard engineering and probabilistic modeling that won 1st place at the Apart Research AI Forecasting Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "Real-time AR spatial mapping and low-latency asset placement tool optimized for localized indoor navigation in Finnish exhibition halls.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "ARKit",
+        "Metal",
+        "TypeScript"
+      ],
+      "title": "AuraScan-AR",
+      "track": "",
+      "why_it_could_win": "Leverages high-performance client-side rendering and mobile sensors to deliver a live, glitch-free physical demonstration that judges remember."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Computer-vision winter sports biomechanics analyzer evaluating cross-country skiing posture and stride efficiency via pose estimation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "OpenCV"
+      ],
+      "title": "BioStride-Nordic",
+      "track": "",
+      "why_it_could_win": "Directly applies proven computer vision confidence-gating techniques to a culturally relevant regional sport, winning on niche domain execution."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite imagery pipeline combining multi-spectral raster data with change detection models to track urban land compliance in the Uusimaa region.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Rasterio",
+        "PostGIS"
+      ],
+      "title": "EcoMonitor-Helsinki",
+      "track": "",
+      "why_it_could_win": "Mirrors runner-up wins by integrating heavy remote-sensing data processing into an intuitive, polished mapping dashboard."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Explainable graph intelligence engine for real-time transaction risk scoring and anomaly detection tailored for Nordic fintech compliance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "Next.js"
+      ],
+      "title": "GraphAML-Nordic",
+      "track": "",
+      "why_it_could_win": "Combines complex graph traversal with explainable machine learning, satisfying enterprise judges looking for commercial utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
