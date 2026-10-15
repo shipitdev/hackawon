@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-15T07:41:07.621337+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770284",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized, voice-enabled multilingual AI assistant providing preventive care, outbreak alerts, and vaccine tracking tailored to semi-urban and rural demographics.",
+      "problem_statement": "Education Technology and Healthcare (from themes: Education Technology, Artificial Intelligence and Machine Learning)",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "ArogyaSetu-Rural: Multilingual Preventive Health Assistant",
+      "track": "Education Technology",
+      "why_it_could_win": "Leverages a proven winning pattern of solving localized public health education with a multi-language interface, directly addressing community health impact which judges heavily favor in institutional hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An IoT and computer vision dashboard that tracks and forecasts institutional resource wastage across campus facilities to drive institutional sustainability.",
+      "problem_statement": "Web and Mobile Application Development (from themes: Web and Mobile Application Development, Artificial Intelligence and Machine Learning)",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenCV"
+      ],
+      "title": "SmartCampus Energy & Waste Monitor",
+      "track": "Web and Mobile Application Development",
+      "why_it_could_win": "Combines a clean, highly demonstrable web interface with actionable environmental monitoring, appealing directly to the engineering college hosting environment."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student tutor leveraging RAG and LangGraph to generate tailored study roadmaps and explain difficult engineering concepts interactively.",
+      "problem_statement": "Education Technology (from themes: Education Technology)",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Supabase"
+      ],
+      "title": "EduAgent-Graph: Personalized Multi-Agent Student Support Platform",
+      "track": "Education Technology",
+      "why_it_could_win": "Utilizes sophisticated agentic orchestration workflows which demonstrates advanced technical competence well beyond a standard wrapper application."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A browser extension and API backend that uses lightweight NLP classification to score incoming phishing URLs and malicious emails in real time.",
+      "problem_statement": "Cybersecurity and Digital Safety (from themes: Cybersecurity and Digital Safety)",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "Scikit-Learn",
+        "Chrome Extension APIs"
+      ],
+      "title": "PhishGuard AI: Real-Time Digital Safety & Phishing Triage",
+      "track": "Cybersecurity and Digital Safety",
+      "why_it_could_win": "Directly hits the cybersecurity track with a tangible, working client-side demo that judges can immediately install and test live during presentations."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A cross-platform mobile application utilizing lightweight computer vision models to diagnose crop leaf infections instantly and forecast regional yield risks.",
+      "problem_statement": "Artificial Intelligence and Machine Learning (from themes: Artificial Intelligence and Machine Learning, Web and Mobile Application Development)",
+      "stack": [
+        "Flutter",
+        "Python",
+        "TensorFlow Lite",
+        "FastAPI"
+      ],
+      "title": "AgriVision-Crop: Mobile Disease Diagnosis & Yield Forecaster",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Focuses on high-impact agricultural problem solving using on-device mobile machine learning, offering high practical utility for local agrarian economies."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
