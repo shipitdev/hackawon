@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-16T07:27:14.082315+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769664",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "An embedded firmware package for ESP32 and Arduino that detects the transition from line tracking (Zone A) to maze solving (Zone B) using optical sensor fusion and instant state-switching.",
+      "problem_statement": "Zone A Line Tracking followed by Zone B Maze Solving in one continuous run without human intervention.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "PID",
+        "Sensor Fusion"
+      ],
+      "title": "HybridSwitch: Seamless Zone Transition Controller",
+      "track": "",
+      "why_it_could_win": "Demonstrates robust real-time state machine switching between PID line tracking and flood-fill maze solving, targeting the core technical bottleneck of the hybrid challenge."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A hardware-software co-designed mouse featuring infrared proximity arrays and an optimized C-based flood-fill algorithm that memorizes maze layouts for high-speed secondary runs.",
+      "problem_statement": "Navigate a walled maze with no guiding line, retain map information, and execute faster subsequent runs to achieve the lowest final score.",
+      "stack": [
+        "C",
+        "Microcontrollers",
+        "IR Sensors",
+        "Stepper Motors"
+      ],
+      "title": "FloodFill-X: Adaptive Maze Mapping Micro-Mouse",
+      "track": "",
+      "why_it_could_win": "Leverages unusual physical build mechanics and an efficient pathfinding algorithm directly tied to the scoring metric of lowest final time plus penalties."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A computer vision and line-detection overlay module that identifies checkpoint markers on the 3 cm black line, allowing instant autonomous recovery and error-free restarts.",
+      "problem_statement": "Zone A Line Tracking involving 3 cm-wide black lines on a white floor with checkpoint markers used for restarts.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi Zero",
+        "Camera Module"
+      ],
+      "title": "CheckpointGuard: Autonomous Restart & Recovery Module",
+      "track": "",
+      "why_it_could_win": "Minimizes time penalties from human intervention during restarts by automating checkpoint localization via onboard sensors."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A custom-routed PCB and embedded driver suite combining QTR line sensors and VL53L0X time-of-flight distance sensors into a single unified navigation stream.",
+      "problem_statement": "An autonomous robot capable of completing two navigation challenges (line tracking and maze solving) in one continuous run.",
+      "stack": [
+        "KiCad",
+        "C++",
+        "STM32",
+        "I2C"
+      ],
+      "title": "DualNav: Unified Sensor Fusion Board for Hybrid Tracks",
+      "track": "",
+      "why_it_could_win": "Showcases exceptionally clean hardware integration and custom sensor layout, standing out among standard kit builds in a robotics competition."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An ESP-NOW wireless telemetry bridge that streams sensor states, battery levels, and run-timer penalties to a sideline dashboard for real-time debugging.",
+      "problem_statement": "The winner is determined by the lowest final score, calculated as run time plus applicable penalties.",
+      "stack": [
+        "TypeScript",
+        "ESP-NOW",
+        "WebSockets",
+        "React"
+      ],
+      "title": "MicroTelemetry: Live Run Diagnostics and Scoring Predictor",
+      "track": "",
+      "why_it_could_win": "Provides judges with an immediate, transparent view of robot performance metrics and penalty breakdowns during live runs."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-16T07:27:53.844292+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770730",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447",
+        "github:889142131"
+      ],
+      "pitch": "An automated cryptographic vulnerability scanner specifically tuned for custom non-standard primitives and RSA padding oracle flaws found in CTFs.",
+      "problem_statement": "Cryptography domain challenges in OBLIVION 2026 CTF",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SageMath",
+        "LangChain"
+      ],
+      "title": "CryptoRAG-Auditor",
+      "track": "Cryptography",
+      "why_it_could_win": "Leverages agentic hardening and pipeline techniques seen in winning security agents, providing a distinct advantage in rapid puzzle decryption under time constraints."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:642839338"
+      ],
+      "pitch": "A Chrome extension and static analysis pipeline designed to rapidly map out DOM-based XSS and prototype pollution vectors in complex web challenge applications.",
+      "problem_statement": "Web Exploitation domain challenges in OBLIVION 2026 CTF",
+      "stack": [
+        "JavaScript",
+        "TypeScript",
+        "Chrome Extension APIs",
+        "Node.js"
+      ],
+      "title": "DOMPath-Tracer",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Combines browser extension automation with deep source analysis, making it an invaluable accelerator during competitive Web Exploitation runs."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "An automated forensic toolkit utilizing multi-layer spectral analysis and LSB entropy mapping to instantly reveal hidden payloads in images and audio files.",
+      "problem_statement": "Forensics & Steganography domain challenges in OBLIVION 2026 CTF",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "StegoNet-Inspector",
+      "track": "Forensics & Steganography",
+      "why_it_could_win": "Solves the most time-consuming manual bottleneck in forensics CTF challenges through targeted algorithmic inspection."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1208011447",
+        "github:889142131"
+      ],
+      "pitch": "An LLM-driven binary analysis copilot that correlates stripped ARM/x86 function signatures with known vulnerability patterns and custom patching templates.",
+      "problem_statement": "Reverse Engineering domain challenges in OBLIVION 2026 CTF",
+      "stack": [
+        "Python",
+        "Ghidra API",
+        "Claude SDK",
+        "SQLite"
+      ],
+      "title": "BinaryDiff-Agent",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Applies advanced agentic code navigation to reverse engineering tasks, drastically cutting down assembly disassembly interpretation time."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated intelligence-gathering pipeline that correlates social footprints, metadata traces, and deep web footprints into a unified entity resolution graph.",
+      "problem_statement": "OSINT & Miscellaneous domain challenges in OBLIVION 2026 CTF",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "FastAPI",
+        "Playwright"
+      ],
+      "title": "OSINT-Grapher",
+      "track": "OSINT & Miscellaneous",
+      "why_it_could_win": "Combines multi-agent scraping workflows with real-time entity mapping, providing a definitive edge in complex multi-step OSINT tracks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

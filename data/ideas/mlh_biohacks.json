@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-16T07:26:43.892202+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:biohacks",
+  "ideas": [
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Real-time biomechanical walking gait analyzer using MediaPipe and posture classification for early neurological disorder screening in clinical settings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "XGBoost",
+        "FastAPI"
+      ],
+      "title": "BioGait AI",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of hard engineering combined with computer vision demonstrated in CricketVision_AI, directly addressing clinical relevance for a bioinformatics hackathon."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized dietary recommendation web app that adjusts macro goals based on simulated metabolic biomarker panels.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Gemini API"
+      ],
+      "title": "NutriGene AI",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the successful nutrition and wellness assistant execution seen in E-Foodiee-AI-Nutrition-Assistant, appealing to health judges with a polished, consumer-facing demo."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "Bilingual emergency symptom triage platform featuring rPPG contactless heart rate estimation and automated severity scoring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "React",
+        "Node.js",
+        "WebRTC"
+      ],
+      "title": "MediTriage Multi",
+      "track": "",
+      "why_it_could_win": "Combines vital sign extraction and multi-language triage as proven by the 2nd place winner mediscan-ai, proving immediate utility for healthcare workflows."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "Interactive clinical simulation training app providing real-time camera-based feedback on chest compression rate and depth.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "MediaPipe",
+        "TailwindCSS"
+      ],
+      "title": "SimPatient CPR",
+      "track": "",
+      "why_it_could_win": "Follows the Cornell AI Hackathon grand prize winner Clinical-Simulator by utilizing pose estimation for actionable physical training feedback that judges can test live."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered patient onboarding and trust verification platform designed for specialized biomedical clinics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Prisma"
+      ],
+      "title": "BioClinic Trust Engine",
+      "track": "",
+      "why_it_could_win": "Adapts the fast-turnaround workflow model of Global-Smile, delivering a clean enterprise healthcare interface with demonstrable business logic within a short sprint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

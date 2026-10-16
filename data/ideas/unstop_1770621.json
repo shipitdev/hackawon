@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-16T07:27:29.733476+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770621",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259",
+        "github:927292639"
+      ],
+      "pitch": "A localized voice-first mobile app that helps smallholder farmers diagnose crop diseases using offline computer vision and connects them directly with verified micro-cold storage units to reduce post-harvest loss.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Flutter",
+        "Python",
+        "TensorFlow Lite",
+        "FastAPI"
+      ],
+      "title": "KrishiKavach",
+      "track": "Agriculture",
+      "why_it_could_win": "Targets the Agriculture theme directly with a measurable economic benefit (reduced crop waste and increased farmer income) and leverages an offline-first working demo, matching the proven pattern of winning real-world impact apps."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1346526259",
+        "github:901472660"
+      ],
+      "pitch": "An automated micro-insurance and income-smoothing platform tailored for gig workers and delivery partners, using local weather and traffic APIs to instantly disburse payouts during extreme weather disruptions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "PostgreSQL",
+        "Stripe API"
+      ],
+      "title": "GigSuraksha",
+      "track": "Migrants Livelihood",
+      "why_it_could_win": "Focuses heavily on the Migrants Livelihood theme by solving a visible financial vulnerability for urban and semi-urban gig workers, aligning with the hackathon's mission of funding high-impact startups."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1143576965",
+        "github:901472660"
+      ],
+      "pitch": "A low-bandwidth, offline-capable diagnostic relay kit interface for rural ASHA workers, allowing rapid vitals syncing and AI-assisted triage when connected to intermittent cellular networks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Python",
+        "SQLite",
+        "WebRTC"
+      ],
+      "title": "GramTeleMed",
+      "track": "Rural Healthcare",
+      "why_it_could_win": "Addresses Rural Healthcare by empowering frontline health workers with tangible tools, combining a working software prototype with clear, quantifiable metrics on diagnostic speed and referral accuracy."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259",
+        "github:781211861"
+      ],
+      "pitch": "A transparent digital ledger and dynamic pricing aggregator for local agricultural produce that bypasses multiple intermediaries, ensuring farmers receive fair market value in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "MandiChain",
+      "track": "Agriculture",
+      "why_it_could_win": "Directly tackles the core objective of increasing farmers' income under the Agriculture theme by delivering a complete transaction workflow that judges can test live."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:901472660",
+        "github:1346526259"
+      ],
+      "pitch": "An interoperable electronic health record and predictive triage app for rural community health centers that tracks regional outbreak patterns and medicine inventory in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "SwasthyaSahayak",
+      "track": "Rural Healthcare",
+      "why_it_could_win": "Appeals to the Rural Healthcare theme by providing a comprehensive administrative dashboard for small-town clinics, directly mirroring successful civic-tech architecture from past hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-16T07:27:38.332442+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770690",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An open-source documentation assistant that turns raw codebases into living, self-updating markdown wikis using automated AST parsing.",
+      "problem_statement": "CodeSprint 2026 open-source building challenge: Idea to MVP to Open Source.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Tree-sitter"
+      ],
+      "title": "OpenDoc Engine",
+      "track": "Best Open Source Project",
+      "why_it_could_win": "Targets the Best Open Source Project track by solving an immediate, painful maintenance task for open-source maintainers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A transparent, open-source resource allocator and tracker connecting local NGOs in Uttarakhand with real-time surplus food and medical supplies.",
+      "problem_statement": "CodeSprint 2026 open-source building challenge: Idea to MVP to Open Source.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "CommunityCare Hub",
+      "track": "Best Social Welfare Project",
+      "why_it_could_win": "Directly targets the Best Social Welfare Project track by addressing regional community needs with a clean, deployable MVP."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "An open-source design token synchronizer that automatically extracts Figma variables and converts them into production-ready Tailwind configurations.",
+      "problem_statement": "CodeSprint 2026 open-source building challenge: Idea to MVP to Open Source.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Figma API"
+      ],
+      "title": "PixelSync UI",
+      "track": "Best UI/UX",
+      "why_it_could_win": "Aligns with the Best UI/UX award by offering a visually polished tool that frontend developers and designers will actively want to use during the demo."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1169394966"
+      ],
+      "pitch": "An interactive, gamified onboarding extension that explains complex pull request feedback line-by-line for beginner developers.",
+      "problem_statement": "CodeSprint 2026 open-source building challenge: Idea to MVP to Open Source.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "GitHub API"
+      ],
+      "title": "GitMentor Junior",
+      "track": "Best Beginner Team",
+      "why_it_could_win": "Aims at the Best Beginner Team award by building an open-source tool tailored specifically to lower the barrier of entry for new software contributors."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight, local-first code security and style checker optimized to run quickly on edge environments and low-spec developer machines.",
+      "problem_statement": "CodeSprint 2026 open-source building challenge: Idea to MVP to Open Source.",
+      "stack": [
+        "Python",
+        "Rust",
+        "FastAPI"
+      ],
+      "title": "EdgeReviewer",
+      "track": "Best Innovation",
+      "why_it_could_win": "Strong contender for Best Innovation due to its focus on performance and offline-friendly developer tooling."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

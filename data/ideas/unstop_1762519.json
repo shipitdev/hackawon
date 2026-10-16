@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-16T07:27:02.642408+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762519",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol (MCP) server integration toolkit designed natively for the Anna AI OS framework, letting developers wrap existing local tools into user-facing Anna apps.",
+      "problem_statement": "Build or migrate an AI App, including an MCP server, into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "Node.js",
+        "TypeScript",
+        "Anna AI OS SDK"
+      ],
+      "title": "Anna MCP Bridge",
+      "track": "",
+      "why_it_could_win": "Targeting the specific MCP support mentioned in the Anna documentation allows solo builders to quickly leverage existing codebases to hit user adoption tiers for monthly builder grants."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering team lifecycle intelligence platform migrated directly as a user-facing productivity app onto the Anna AI OS ecosystem.",
+      "problem_statement": "Turn an existing open-source project or SaaS product into a fully functional user-facing App on Anna AI OS and grow verified user adoption.",
+      "stack": [
+        "FastAPI",
+        "Chroma",
+        "LangGraph",
+        "Python"
+      ],
+      "title": "DevFlow Anna Migration",
+      "track": "",
+      "why_it_could_win": "Leverages a proven hackathon-winning architecture and adapts it directly to the Anna ecosystem, providing immediate utility to developer judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An AI debugging agent that turns runtime errors into structured repair plans, packaged as a plug-and-play user-facing app on Anna AI OS.",
+      "problem_statement": "Build or migrate an AI Agent, Python or Node.js script into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Anna AI OS SDK"
+      ],
+      "title": "BobTheBuilder Anna Agent",
+      "track": "",
+      "why_it_could_win": "Solves an acute developer pain point with a functioning live demo, perfectly aligned with the mandate for real user adoption and app review submission."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router built as an LLM utility app for developers using the Anna AI OS framework.",
+      "problem_statement": "Turn an existing AI Agent, Python script, or open-source project into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "Anna AI OS SDK"
+      ],
+      "title": "Semantic Anna Router",
+      "track": "",
+      "why_it_could_win": "Employs genuinely hard semantic indexing and optimization engineering that stands out to technical reviewers while easily meeting Anna app publication criteria."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A TOON-native auto-embedding and RAG toolkit packaged as an interactive assistant application inside the Anna AI OS app marketplace.",
+      "problem_statement": "Build or migrate a workflow, open-source project, or completely new idea into a fully functional user-facing App on Anna AI OS.",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "HNSW",
+        "Anna AI OS SDK"
+      ],
+      "title": "SeamlessRAG Anna Widget",
+      "track": "",
+      "why_it_could_win": "Provides a robust, database-backed knowledge retrieval utility that appeals directly to users looking for scalable information management on the platform."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

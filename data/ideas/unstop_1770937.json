@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-16T07:28:03.331181+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770937",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An automated cryptographic puzzle solver that breaks classical ciphers, frequency-analysis anomalies, and common RSA padding flaws instantly.",
+      "problem_statement": "Decode encrypted information and solve cryptographic puzzles.",
+      "stack": [
+        "Python",
+        "SymPy",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CryptoCracker Pro",
+      "track": "Cryptography",
+      "why_it_could_win": "Directly tackles the cryptography challenge category with hard algorithmic engineering instead of relying on generic prompts."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated open-source intelligence gathering toolkit that aggregates metadata, EXIF data, and public social traces into an interactive geospatial investigation board.",
+      "problem_statement": "Investigate publicly available information to discover clues.",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "Leaflet.js",
+        "Node.js"
+      ],
+      "title": "OSINT-Map Explorer",
+      "track": "OSINT",
+      "why_it_could_win": "Combines a hard data-scraping and multi-source pipeline with an intuitive detective UI, standing out in the OSINT track."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A digital forensics and steganography workbench that detects hidden payloads in images and audio using LSB analysis and discrete Fourier transforms.",
+      "problem_statement": "Find hidden information concealed within files or digital media.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "StegaVision Analyzer",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Delivers genuine technical depth in steganography and forensics, solving the exact problem criteria judges will test against."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An automated web exploitation scanner and visualizer that identifies SQLi, XSS, and broken access controls in vulnerable sandbox web apps.",
+      "problem_statement": "Identify and solve security-related challenges in web applications.",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "TailwindCSS",
+        "Docker"
+      ],
+      "title": "WebVuln Hunter",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Adopts the high-impact security telemetry pattern from winning infrastructure apps to impress judges evaluating web exploitation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A real-time collaborative CTF operations platform featuring shared flag submission tracking, automated Docker sandbox instances, and integrated write-up generators.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "WebSockets"
+      ],
+      "title": "CTF Team Intel Hub",
+      "track": "",
+      "why_it_could_win": "Solves the actual operational bottleneck of competing in a CTF event, giving teams a competitive edge with exceptional workflow polish."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

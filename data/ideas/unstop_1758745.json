@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-16T07:26:57.763972+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758745",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1403783376",
+        "github:1181344931"
+      ],
+      "pitch": "Real-time scam and fraud prevention platform for mobile money services featuring automated mule-ring graph detection and localized regional language explanations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "NetworkX",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "FinGuard AI",
+      "track": "FinTech",
+      "why_it_could_win": "Directly applies winning architectural patterns from fraud detection hackathons by combining graph analysis with explainable AI, targeting the FinTech and AI domains."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "Zero-knowledge gated community portal where verified human users and autonomous AI agents can safely interact and execute private tasks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Noir",
+        "Base"
+      ],
+      "title": "SecureAgent Stoa",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Brings advanced cryptographic privacy and agentic workflows together, appealing strongly to judges looking for novel technical depth in the AI and Cybersecurity domains."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1183964401"
+      ],
+      "pitch": "Multi-agent autonomous trading council that uses adversarial thesis falsification and strict deterministic risk gates for execution.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Alpaca API",
+        "Streamlit"
+      ],
+      "title": "Apex Trade Council",
+      "track": "AI",
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration with risk management safeguards, hitting the sweet spot for judges evaluating complex practical AI automation."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1339682542",
+        "github:1161237076"
+      ],
+      "pitch": "Edge AI system that detects industrial safety violations in real-time video streams and instantly logs incidents for compliance officers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "FastAPI"
+      ],
+      "title": "SafeSite Vision",
+      "track": "HealthTech",
+      "why_it_could_win": "Solves a concrete, high-impact operational safety problem with measurable real-world benefits, appealing heavily to judges in HealthTech and CivicTech."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "CivicTech intelligence tool that aggregates municipal complaint data, clusters duplicate infrastructure problems, and maps corruption or response bottlenecks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Plotly",
+        "Streamlit"
+      ],
+      "title": "CivicIssue Graph",
+      "track": "CivicTech",
+      "why_it_could_win": "Addresses local community pain points directly with actionable data science pipelines that judges can immediately understand and validate."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
