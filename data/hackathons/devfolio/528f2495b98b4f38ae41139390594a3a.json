@@ -6,7 +6,7 @@
   "ends_at": "2026-10-31T14:00:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 534,
+  "participants_count": 554,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [],
@@ -52,7 +52,7 @@
     "judges": [],
     "location": "House of Communication, Friedenstraße, Munich, Germany",
     "name": "TUM Blockchain & AI Hackathon",
-    "participants_count": 534,
+    "participants_count": 554,
     "participants_details": [
       {
         "first_name": "Om",
@@ -91,6 +91,13 @@
         "name": "Cardano Track",
         "parent_prize_uuid": null,
         "uuid": "a3aca2e901364fca9afb41de2a63154c"
+      },
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "API3",
+        "parent_prize_uuid": null,
+        "uuid": "ed111f45a5094d46b55e1b7fc2ec4771"
       }
     ],
     "projects_submitted": 0,
@@ -112,7 +119,7 @@
               "uuid": "2a59ed883a3148f6a2fe15310930a637",
               "verified": false
             },
-            "logo": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/sponsors/a197fefe0b4f4654be72699ae5c45e99/69.png",
+            "logo": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/sponsors/a197fefe0b4f4654be72699ae5c45e99/399.jpeg",
             "name": "BSV Blockchain",
             "position": 1,
             "uuid": "a197fefe0b4f4654be72699ae5c45e99"
@@ -128,8 +135,22 @@
             },
             "logo": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/sponsors/0598970e55c141a98eedfb825fcd84a4/64.png",
             "name": "Cardano",
-            "position": 2,
+            "position": 3,
             "uuid": "0598970e55c141a98eedfb825fcd84a4"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://api3.org/",
+              "logo": null,
+              "name": "API3",
+              "uuid": "50c0ebf73bb44f7fba42d11cc422e6d0",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/528f2495b98b4f38ae41139390594a3a/sponsors/3fd9e7e156cb4a33b9e1030cab4e5700/683.png",
+            "name": "API3",
+            "position": 2,
+            "uuid": "3fd9e7e156cb4a33b9e1030cab4e5700"
           }
         ],
         "uuid": "6e6c6c9cae954da8bf33e9305a2b7080",
@@ -157,7 +178,8 @@
   "source_id": "528f2495b98b4f38ae41139390594a3a",
   "sponsors": [
     "BSV Blockchain",
-    "Cardano"
+    "Cardano",
+    "API3"
   ],
   "starts_at": "2026-10-30T09:00:00Z",
   "tagline": "The hackathon where Blockchain and AI meet",
@@ -167,7 +189,8 @@
   "title": "TUM Blockchain & AI Hackathon",
   "tracks": [
     "BSV Track",
-    "Cardano Track"
+    "Cardano Track",
+    "API3"
   ],
   "url": "https://tum.devfolio.co/"
 }
