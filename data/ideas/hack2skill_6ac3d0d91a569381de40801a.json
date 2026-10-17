@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-17T07:07:49.143668+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 11,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6ac3d0d91a569381de40801a",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1170846981"
+      ],
+      "pitch": "A privacy-first, low-friction web app allowing men to assess metabolic and reproductive health risks via lifestyle inputs, translating findings into actionable local care options without stigma.",
+      "problem_statement": "[Fertility] Male Reproductive Health: How can we identify and address male reproductive health risks earlier, reduce barriers to assessment, and connect men to appropriate care before infertility is diagnosed?",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API"
+      ],
+      "title": "MaleGuard",
+      "track": "Fertility",
+      "why_it_could_win": "Directly targets a major cultural and preventive health gap in Abu Dhabi with an anonymous frontend, appealing heavily to public health priorities and scoring well on the concrete social impact winning pattern."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A privacy-preserving, values-sensitive communication tool that explains pre-marital genetic carrier screening results in plain language and guides couples through confidential counselling options.",
+      "problem_statement": "[Fertility] Understanding and Reducing Inherited Disease Risk: How might we help individuals, families and health systems identify, understand and reduce inherited disease risks associated with consanguinity through innovative, culturally appropriate and privacy, preserving technologies?",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Encryption.js"
+      ],
+      "title": "ConsangLink",
+      "track": "Fertility",
+      "why_it_could_win": "Tackles a high-priority regional demographic issue using plain-language risk explanation, aligning with the criteria for culturally appropriate and privacy-first design."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An interoperable workflow bridge that tracks actionable screening results across disparate providers, eliminating lost referrals and ensuring completed follow-ups with automated clinician alerts.",
+      "problem_statement": "[Population Health] Closing the Screening-to-Care Loop: How might we use innovative, low-friction approaches to ensure that every actionable screening result leads to timely communication, rapid patient-to-clinician or clinician-to-clinician consultation, appropriate confirmation and follow-up...",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "title": "LoopClose",
+      "track": "Population Health",
+      "why_it_could_win": "Solves an expensive operational bottleneck for healthcare systems, prioritizing hard engineering and demonstrated clinical workflow efficiency."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1370167028"
+      ],
+      "pitch": "A dynamic heat-risk assessment tool combining local weather API data with shift context and optional consented worker parameters to output graded, multilingual safety warnings for outdoor crews.",
+      "problem_statement": "[Population Health] Climate-Resilient Worker Health: How might we protect workers exposed to extreme heat and other climate-related occupational risks through earlier warning, personalized prevention and safer operational decisions?",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenWeatherMap API",
+        "Pandas"
+      ],
+      "title": "ThermalShield Worker",
+      "track": "Population Health",
+      "why_it_could_win": "Combines environmental data with actionable field warnings, directly mirroring the hard-working live demo pattern seen in regional climate and industrial safety hacks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An adaptive behavior-change web app that adjusts healthy lifestyle routines based on personal setbacks, dynamically modifying micro-goals for sleep, movement, and nutrition.",
+      "problem_statement": "[Wellness] Sustaining Healthy Behaviors: How might we help people start, start, maintain and recover healthier behaviors through support that adapts to their goals, circumstances, motivation and setbacks over time?",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "title": "HabitRecover",
+      "track": "Wellness",
+      "why_it_could_win": "Builds directly on the proven engagement mechanics of award-winning wellness apps while focusing on the complex challenge of setback recovery rather than generic daily reminders."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

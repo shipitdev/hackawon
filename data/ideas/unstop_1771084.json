@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-17T07:08:42.202832+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771084",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A localized automated scanner specifically tuned to detect OWASP Top 10 web vulnerabilities and output proof-of-concept exploit scripts for CTF challenges.",
+      "problem_statement": "Web Security: Identify vulnerabilities and solve web-based security challenges.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "BeautifulSoup",
+        "Playwright"
+      ],
+      "title": "DaemonInspect Web Vulnerability Automator",
+      "track": "Web",
+      "why_it_could_win": "Addresses the specific Web Security track by combining automated scanning heuristics with code analysis, heavily decreasing solver time during a high-speed CTF event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated cryptographic puzzle solver leveraging frequency analysis, customized factorization scripts, and known-plaintext attack heuristics for CTF challenges.",
+      "problem_statement": "Cryptography: Decode encrypted messages and uncover hidden flags.",
+      "stack": [
+        "Python",
+        "SymPy",
+        "gmpy2",
+        "SageMath"
+      ],
+      "title": "CryptAnalysis Toolkit",
+      "track": "",
+      "why_it_could_win": "Directly targets cryptographic challenges by integrating automated solvers for classical ciphers and weak RSA implementations, letting single players bypass tedious manual decoding."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated memory dump and file metadata analyzer that extracts hidden strings, uncovers deleted fragments, and plots temporal event timelines for CTF forensic flags.",
+      "problem_statement": "Digital Forensics: Investigate files, metadata, and digital evidence.",
+      "stack": [
+        "Python",
+        "Volatility3",
+        "ExifRead",
+        "Streamlit"
+      ],
+      "title": "ForensicTimeline Investigator",
+      "track": "",
+      "why_it_could_win": "Solves the Digital Forensics bottleneck by parsing deep file structures, exif data, and raw hex streams much faster than manual command-line inspection."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An open-source intelligence aggregation pipeline that crawls public metadata, username footprint registries, and geolocation artifacts to map hidden digital footprints.",
+      "problem_statement": "OSINT (Open-Source Intelligence): Analyze publicly available information to uncover clues.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "NetworkX",
+        "Puppeteer"
+      ],
+      "title": "OSINT Graph Mapper",
+      "track": "",
+      "why_it_could_win": "Utilizes automated API scrapers and graph intelligence to correlate scattered online data points into clear visual connection paths for investigative flags."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated reverse-engineering helper that disassembles binaries, flags dangerous control flow patterns, and drafts human-readable pseudocode explanations.",
+      "problem_statement": "Reverse Engineering: Analyze programs and uncover their underlying logic.",
+      "stack": [
+        "Python",
+        "Rizin",
+        "Capstone",
+        "Flask"
+      ],
+      "title": "BinaryBytecode Decompiler Assistant",
+      "track": "",
+      "why_it_could_win": "Speeds up the grueling manual process of analyzing compiled binaries and obfuscated code structures during tight individual CTF deadlines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

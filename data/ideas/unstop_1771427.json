@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-17T07:08:51.257823+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771427",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An agentic knowledge-capture system that intercepts developer offboarding friction by indexing commits, pull requests, and Slack decisions into a LangGraph agent that automatically trains new engineers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "Streamlit"
+      ],
+      "title": "Agentic Engineer Lifecycle Knowledge Base",
+      "track": "",
+      "why_it_could_win": "Targets a universally felt developer pain point and builds on proven architecture from similar hackathon winners like devflow."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An agentic IT service desk workflow that automatically triages incoming support tickets, pulls logs from GitHub/Datadog, runs diagnostic tools, and drafts fixes without human intervention.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "title": "Autonomous ITSM Triage and Resolution Agent",
+      "track": "",
+      "why_it_could_win": "Applies enterprise automation patterns that judges immediately recognize as high-value, similar to winning ITSM copilot solutions."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agent that intercepts stack traces or runtime logs from an application, traces the root cause across multiple repository files, writes a patch, and generates unit tests automatically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Tree-sitter",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "Runtime Error to Multi-File Repair Agent",
+      "track": "",
+      "why_it_could_win": "Focuses on deep, practical developer tooling with a crystal-clear live demo of fixing a broken test suite in seconds."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic routing layer that dynamically selects the best tool or API for an autonomous agent using kNN over an exemplar index with LLM-judge writeback.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen",
+        "Chroma"
+      ],
+      "title": "Self-Improving Semantic Router for Agent Tools",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering and algorithmic optimization rather than just wrapping a basic LLM prompt."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A lightweight agentic registry that coordinates specialized medical-data AI agents across isolated databases using model context protocols and secure tool-sharing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Model Context Protocol",
+        "Docker",
+        "SQLite"
+      ],
+      "title": "Federated Medical Data Agent Registry",
+      "track": "",
+      "why_it_could_win": "Tackles complex distributed agent architectures which score exceptionally well in technical evaluation criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

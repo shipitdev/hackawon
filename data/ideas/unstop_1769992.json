@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-17T07:08:28.713773+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769992",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated sorting bin that uses a low-cost camera and edge AI to classify recyclable vs. organic waste in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "TensorFlow Lite"
+      ],
+      "title": "RoboSorter: AI Garbage Classifier",
+      "track": "",
+      "why_it_could_win": "Leverages the unusual physical build and practical robotics demonstration pattern, which stands out strongly at automation and robotics school venues."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A compact tracked rover equipped with ultrasonic sensors and SLAM-lite path planning to navigate complex indoor obstacle courses autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ROS2",
+        "ESP32",
+        "PlatformIO"
+      ],
+      "title": "LineBot Nav: Autonomous Obstacle-Avoiding Rover",
+      "track": "",
+      "why_it_could_win": "Directly targets the core domain of the University School of Automation & Robotics by showcasing precise sensor integration and live mobility."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1010199928"
+      ],
+      "pitch": "A 3D-printed robotic arm controlled in real-time via hand-tracking webcams using kinematics mapping.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "Servo Motors",
+        "Arduino"
+      ],
+      "title": "GestureArm: Computer Vision Robotic Manipulator",
+      "track": "",
+      "why_it_could_win": "Combines a visually striking mechanical build with an intuitive, interactive live demo that judges can personally test during evaluation."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A mini-tractor robot designed for precise grid-based seed dropping and soil moisture logging.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Stepper Motors",
+        "Soil Moisture Sensor"
+      ],
+      "title": "AgriBot: Automated Seed Planting Mechanism",
+      "track": "",
+      "why_it_could_win": "Addresses real-world agricultural automation challenges with a hardware-first approach that appeals to engineering faculty judges."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An ESP32-based telemetry dashboard that streams live motor current, RPM, and temperature metrics to a local web client over WebSockets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "ESP32",
+        "WebSockets",
+        "TailwindCSS"
+      ],
+      "title": "IoT Telemetry Rig: Real-time Robotic Diagnostics",
+      "track": "",
+      "why_it_could_win": "Bridges low-level hardware debugging with modern software tooling, proving robustness and reliability in automated systems."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

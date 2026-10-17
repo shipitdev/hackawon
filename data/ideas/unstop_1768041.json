@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-17T07:08:05.790919+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768041",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1376189518"
+      ],
+      "pitch": "A deepfake and document tampering detection dashboard built for institutional compliance and cybersecurity verification.",
+      "problem_statement": "AI, Cybersecurity & Digital Trust",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenCV"
+      ],
+      "title": "TrustVerify AI",
+      "track": "T1: AI, Cybersecurity & Digital Trust",
+      "why_it_could_win": "Aligns directly with track T1 by solving a critical enterprise security problem with a live, demonstrable dashboard."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "An edge-computing digital twin for smart campus infrastructure that monitors local power grids and detects anomalies.",
+      "problem_statement": "Smart Infrastructure & IOT",
+      "stack": [
+        "Node.js",
+        "Python",
+        "MQTT",
+        "React"
+      ],
+      "title": "GridPulse IoT",
+      "track": "T2: Smart Infrastructure & IOT",
+      "why_it_could_win": "Taps into the Smart Infrastructure track with an end-to-end IoT sensor simulation and data visualization UI."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1376189518"
+      ],
+      "pitch": "A computer vision mobile web app that identifies early-stage crop diseases and recommends precise organic treatments.",
+      "problem_statement": "Sustainability, AgriTech & Social Impact",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TensorFlow.js",
+        "TailwindCSS"
+      ],
+      "title": "CropShield AgriVision",
+      "track": "T3: Sustainability, AgriTech & Social Impact",
+      "why_it_could_win": "Addresses AgriTech sustainability with a tangible camera-to-diagnosis flow that judges can test live."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A civic route-optimization and carbon-tracking platform that helps local municipal fleets minimize emissions.",
+      "problem_statement": "Sustainability, AgriTech & Social Impact",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "Leaflet.js"
+      ],
+      "title": "EcoRoute Municipal",
+      "track": "T3: Sustainability, AgriTech & Social Impact",
+      "why_it_could_win": "Features clear, quantifiable environmental impact metrics, directly mirroring winning civic-tech project patterns."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "An automated compliance auditing tool that scans smart contracts and API endpoints for identity leakage and vulnerabilities.",
+      "problem_statement": "AI, Cybersecurity & Digital Trust",
+      "stack": [
+        "Python",
+        "Flask",
+        "JavaScript",
+        "Docker"
+      ],
+      "title": "SecureNode Trust",
+      "track": "T1: AI, Cybersecurity & Digital Trust",
+      "why_it_could_win": "Targets digital trust and cybersecurity with an automated, utility-driven code analysis report format."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-17T07:08:15.309914+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769404",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An offline-first, mobile-friendly Python application combining computer vision and regression models to detect early-stage crop stress and forecast yields for smallholder Indian farmers.",
+      "problem_statement": "Green Planet: AgriTech",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "PyTorch",
+        "OpenCV",
+        "pandas"
+      ],
+      "title": "AgriYield AI: Localized Crop Disease & Yield Predictor",
+      "track": "Green Planet",
+      "why_it_could_win": "Addresses an urgent, highly visible socio-economic issue in India with a clear measurable impact on agriculture, aligning with the Green Planet track evaluated by JNTUH judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A localized speech-to-text and NLP triage platform designed for rural clinics, translating symptoms in regional Indian languages into structured pre-diagnosis reports for doctors.",
+      "problem_statement": "Human Impact: Healthcare AI",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper",
+        "Hugging Face Transformers",
+        "SQLite"
+      ],
+      "title": "RuralMed: Multilingual AI Triage and Health Navigator",
+      "track": "Human Impact",
+      "why_it_could_win": "Directly builds upon proven multilingual health awareness frameworks while targeting an immediate healthcare accessibility gap recognized by academic and regional judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A data ingestion pipeline and analytics dashboard that parses utility bills, transport logs, and waste reports to calculate and forecast institutional carbon emissions.",
+      "problem_statement": "Green Planet: Carbon Tracking",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-Learn",
+        "Plotly",
+        "Pandas"
+      ],
+      "title": "CampusCarbon: Automated Carbon Footprint Tracker for Universities",
+      "track": "Green Planet",
+      "why_it_could_win": "Solves a real organizational problem that the JNTUH evaluating panel and university administrators experience firsthand regarding campus sustainability metrics."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1181028879"
+      ],
+      "pitch": "A specialized GenAI agent that analyzes student Python repositories for code smells, security anti-patterns, and optimization bottlenecks, providing actionable inline feedback.",
+      "problem_statement": "Future Tech: AI Agents",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "AST Module",
+        "React"
+      ],
+      "title": "CodeMentor AI: Autonomous Code Reviewer for Student Submissions",
+      "track": "Future Tech",
+      "why_it_could_win": "Targets student and academic pain points with a working AI agent demo that professors and engineering evaluators will instantly appreciate during judging."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A lightweight computer vision system using pose estimation to translate basic sign language gestures into regional Indian text and speech for classroom inclusion.",
+      "problem_statement": "Human Impact: Accessibility",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "Streamlit",
+        "gTTS"
+      ],
+      "title": "SignBridge: Real-Time Sign Language to Regional Text Translator",
+      "track": "Human Impact",
+      "why_it_could_win": "Delivers a live, working computer vision demo with profound societal impact under the Human Impact track, scoring high on empathy and technical execution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

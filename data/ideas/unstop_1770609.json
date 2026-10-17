@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-17T07:08:37.662935+00:00",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770609",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A browser extension that acts as a trust and misinformation scanner for local community blogs and student journalism.",
+      "problem_statement": "Truth in the Digital Age: Develop solutions addressing misinformation, digital literacy, online trust, and responsible information sharing.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "VeritasFeed",
+      "track": "Truth in the Digital Age",
+      "why_it_could_win": "Addresses information integrity directly with a working extension rather than a conceptual platform, appealing strongly to judges looking for tangible digital literacy tools."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An interactive digital platform that visualizes local municipal budgets and allows youth to co-propose community improvements.",
+      "problem_statement": "Democracy, Dialogue & Diplomacy: Build tools that encourage constructive dialogue, civic participation, collaboration, and peaceful problem-solving.",
+      "stack": [
+        "Next.js",
+        "Supabase",
+        "Chart.js",
+        "TailwindCSS"
+      ],
+      "title": "CivicCanvas",
+      "track": "Democracy, Dialogue & Diplomacy",
+      "why_it_could_win": "Follows the proven civic-tech hackathon win pattern by providing a live dashboard and immediate community utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An interactive web archive that preserves endangered regional dialects and folklore through community-submitted audio and AI translation.",
+      "problem_statement": "Digital Creativity & Culture: Use technology to preserve culture, empower creative expression, and make digital experiences more meaningful.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Web Audio API"
+      ],
+      "title": "FolkloreLingua",
+      "track": "Digital Creativity & Culture",
+      "why_it_could_win": "Directly targets cultural preservation with an emotionally resonant demo that connects strongly with writing- and arts-focused hackathon organizers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:888089285"
+      ],
+      "pitch": "A customizable web reader that transforms complex public policy documents into dyslexia-friendly, simplified formats with read-aloud functionality.",
+      "problem_statement": "Opportunity Without Barriers: Create inclusive digital solutions that improve accessibility and expand opportunities for underserved communities.",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Speech API"
+      ],
+      "title": "AccessRead",
+      "track": "Opportunity Without Barriers",
+      "why_it_could_win": "Leverages the proven accessibility hackathon winning strategy of solving a friction point that judges experience firsthand when reading dense text."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A moderated peer-to-peer dialogue app that structures online arguments with AI-assisted premise mapping to encourage constructive consensus.",
+      "problem_statement": "Democracy, Dialogue & Diplomacy: Build tools that encourage constructive dialogue, civic participation, collaboration, and peaceful problem-solving.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Socket.io",
+        "React"
+      ],
+      "title": "VerseDebate",
+      "track": "Democracy, Dialogue & Diplomacy",
+      "why_it_could_win": "Focuses heavily on constructive online discourse, aligning with the core mission of Writers' Haven and the dialogue track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
