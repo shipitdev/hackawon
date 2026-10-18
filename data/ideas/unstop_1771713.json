@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-18T07:23:44.707444+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771713",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1170846981"
+      ],
+      "pitch": "An offline-first clinical triage assistant combining rPPG heart rate extraction through standard webcams and multilingual clinical triage for rural health camps.",
+      "problem_statement": "Healthcare track under Open Innovation",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "BioTriage AI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines non-contact vital sign monitoring with clinical-grade multilingual triage, directly mirroring a proven hackathon-winning architecture while solving a concrete resource-constrained healthcare problem."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1213911408"
+      ],
+      "pitch": "An agentic AI orchestration platform that automates multi-jurisdictional financial AML risk detection and graph-based entity resolution.",
+      "problem_statement": "Finance and Artificial Intelligence tracks",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "LightGBM",
+        "Next.js"
+      ],
+      "title": "Agentic Compliance Grid",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Utilizes Agentic AI Orchestration to target high-stakes AML risk detection, showing deep technical execution far beyond a simple wrapper application."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Automated satellite imagery monitoring pipeline to detect industrial land-use violations and environmental compliance infractions in real-time.",
+      "problem_statement": "Sustainable Development track under Open Innovation",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "PostGIS"
+      ],
+      "title": "EcoSat Industrial Monitor",
+      "track": "Open Innovation",
+      "why_it_could_win": "Provides concrete, measurable environmental impact using computer vision and satellite telemetry, a pattern that consistently wins rigorous panel reviews."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A privacy-preserving decentralized data ownership exchange utilizing zero-knowledge identity primitives and verifiable credential tokens on Solana.",
+      "problem_statement": "Web3 track: Blockchain and decentralized applications",
+      "stack": [
+        "TypeScript",
+        "Solana",
+        "Rust",
+        "Corda",
+        "Next.js"
+      ],
+      "title": "ConsentLedger Data Marketplace",
+      "track": "Web3",
+      "why_it_could_win": "Addresses data sovereignty using sophisticated cryptographic architecture rather than superficial tokenomics, winning over technical judges in the Web3 track."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An autonomous AI safety and incident forecasting engine that models systemic failure risks using Poisson regression and calibrated uncertainty bounds.",
+      "problem_statement": "Agentic AI Orchestration, Generative AI and AI/ML track",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "FastAPI",
+        "Scikit-Learn",
+        "TailwindCSS"
+      ],
+      "title": "SafetyNet Agent",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Brings rigorous statistical modeling (Poisson GAMs and calibrated prediction intervals) into an AI governance agent, standing out in an AI-heavy track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

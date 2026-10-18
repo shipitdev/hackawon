@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-18T07:23:13.340110+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771496",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:381419131"
+      ],
+      "pitch": "A localized web application that allows institutions to conduct quizzes and exams in a fully offline campus environment without internet connectivity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "AcharyaCampus Offline Quiz & Assessment Platform",
+      "track": "",
+      "why_it_could_win": "Addresses a logistical pain point frequently experienced by college faculty and judges in campus settings, following the proven runner-up pattern of building robust offline-first educational tools."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:855192292"
+      ],
+      "pitch": "An interactive web-based visual novel and simulation game educating students on water management systems within the Acharya Institute campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Ren'Py",
+        "Flask",
+        "HTML5"
+      ],
+      "title": "Campus Water Conservation VR/Interactive Simulator",
+      "track": "",
+      "why_it_could_win": "Combines gamified education with institutional sustainability, following the prize-winning pattern of engaging educational narratives used in prior hackathon winners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "An AI-powered voice assistant loaded with Acharya Institute handbook data and event schedules, using RAG to provide instant spoken answers to student queries.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Llama3",
+        "LangChain",
+        "SpeechRecognition"
+      ],
+      "title": "Voice-Enabled Student Inquiry RAG Assistant",
+      "track": "",
+      "why_it_could_win": "Demonstrates practical local RAG implementation with a fully working live voice demo, matching the most accurate winning project archetype."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1393689488"
+      ],
+      "pitch": "A fullstack booking and tour guide management portal for campus facilities, labs, and sports complexes tailored for visitors and prospective students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS"
+      ],
+      "title": "Smart Campus Tour & Booking System",
+      "track": "",
+      "why_it_could_win": "Presents a clean, production-ready fullstack solution that university administrators can immediately deploy, leaning on the success of past booking platform winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A digital portal that assists students in navigating institutional financial aid and loan applications through automated document verification and conversational guidance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "OpenAI API",
+        "MongoDB"
+      ],
+      "title": "AI-Powered Student Loan & Scholarship Assistant",
+      "track": "",
+      "why_it_could_win": "Solves a complex bureaucratic workflow with an intuitive digital-branch experience, directly mirroring the strategy of standard-setting financial hackathon champions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

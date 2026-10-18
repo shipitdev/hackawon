@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-18T07:22:05.671416+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:235fc76a63434ffe9b5aa63dea440833",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An intelligent IDE extension that captures developer intent and contextual codebase knowledge during building to eliminate the onboarding gap.",
+      "problem_statement": "IDE for your code",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Chroma",
+        "LangGraph",
+        "VS Code Extension API"
+      ],
+      "title": "DevSync AI",
+      "track": "Version Beta Winners",
+      "why_it_could_win": "Targets developers and judges directly by solving their own daily knowledge-management pain points, matching the winning pattern of solving a problem judges feel themselves."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A real-time IDE extension for detecting hidden logic flaws and memory leaks using lightweight local embedding retrieval and AST parsing.",
+      "problem_statement": "IDE for your code",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "LightGBM",
+        "Monaco Editor"
+      ],
+      "title": "CodeRefine ML",
+      "track": "Version Beta Winners",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining AST code analysis with localized graph intelligence inside an IDE workspace."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1193031299"
+      ],
+      "pitch": "An IDE plugin that automatically generates interactive debugging quizzes and skill-assessment challenges from the developer's recent commit history.",
+      "problem_statement": "IDE for your code",
+      "stack": [
+        "JavaScript",
+        "FastAPI",
+        "LLM",
+        "JetBrains Plugin SDK"
+      ],
+      "title": "SnippetQuiz",
+      "track": "Version Beta Winners",
+      "why_it_could_win": "Binds educational tech directly into the coding environment, appealing to hackathon organizers and university judges focused on developer learning."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1034660288"
+      ],
+      "pitch": "An IDE companion tool that audits frontend codebases in real-time for elderly and visually impaired accessibility flaws, providing instant contextual fixes.",
+      "problem_statement": "IDE for your code",
+      "stack": [
+        "TypeScript",
+        "Kotlin",
+        "AST Parser",
+        "React"
+      ],
+      "title": "AccessibilityCode",
+      "track": "Version Beta Winners",
+      "why_it_could_win": "Combines developer tooling with accessibility support, mirroring multi-award-winning designs that prioritize social impact and contextual guidance."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An IDE extension that calculates and optimizes the carbon footprint and computational energy waste of written algorithms on the fly.",
+      "problem_statement": "IDE for your code",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Node.js",
+        "AST Explorer"
+      ],
+      "title": "EcoIDE Metrics",
+      "track": "Version Beta Winners",
+      "why_it_could_win": "Applies green technology metrics directly to the development lifecycle, aligning with high-scoring specialized hackathon themes."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-18T07:22:59.417593+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1768093",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1341712439"
+      ],
+      "pitch": "A low-power agricultural IoT sensor node using LoRa for remote soil monitoring and automated irrigation control.",
+      "problem_statement": "Hardware Track",
+      "stack": [
+        "Arduino",
+        "C++",
+        "LoRa",
+        "ESP32",
+        "MQTT"
+      ],
+      "title": "AgriSense IoT Node",
+      "track": "Hardware Track",
+      "why_it_could_win": "Addresses the Hardware Track by delivering a functional embedded prototype that solves a real-world agrarian problem, following the physical build success pattern."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1259981732"
+      ],
+      "pitch": "An edge-computed computer vision waste classifier that automatically sorts dry and wet waste using a microcontroller.",
+      "problem_statement": "Hardware Track",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "TensorFlow Lite"
+      ],
+      "title": "SmartBin AI",
+      "track": "Hardware Track",
+      "why_it_could_win": "Directly builds on a proven winning pattern of combining physical robotics with AI classification for an engaging live hardware demo."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1341712439"
+      ],
+      "pitch": "A local edge-computing patient health telemetry monitor that detects anomalies and triggers instant local buzzer/SMS alerts.",
+      "problem_statement": "Hardware Track",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Pulse Sensors",
+        "NodeJS"
+      ],
+      "title": "MedWatch Edge",
+      "track": "Hardware Track",
+      "why_it_could_win": "Mirrors hard-engineering biomedical IoT wins by showcasing real-time edge telemetry with practical medical utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An acoustic and peer-to-peer Wi-Fi Direct messaging app that operates completely offline during local network outages.",
+      "problem_statement": "Software Track",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "WebRTC",
+        "Bluetooth Low Energy"
+      ],
+      "title": "CampusMesh Offline Chat",
+      "track": "Software Track",
+      "why_it_could_win": "Demonstrates complex networking without relying on internet infrastructure, appealing to judges looking for technical depth in software."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A timescale-powered energy consumption analytics dashboard with automated anomaly detection for smart buildings.",
+      "problem_statement": "Software Track",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TimescaleDB",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "GridPulse Analytics",
+      "track": "Software Track",
+      "why_it_could_win": "Leverages advanced time-series data storage and isolation forest anomaly detection similar to top hackathon-winning analytics pipelines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

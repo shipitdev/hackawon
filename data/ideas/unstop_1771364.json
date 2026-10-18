@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-18T07:23:08.496729+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771364",
+  "ideas": [
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous multi-agent workflow that coordinates local microgrid energy distribution using decentralized LLM routing for rural Indian communities.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Qwen"
+      ],
+      "title": "AuraNet Agent",
+      "track": "SDG and Social Impact",
+      "why_it_could_win": "Directly targets the SDG and Social Impact track by addressing UN Goal 7 (Affordable and Clean Energy) with practical local relevance."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-capable AI crop disease and yield prediction agent running locally to assist smallholder farmers without relying on continuous cloud connectivity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Streamlit",
+        "Chroma"
+      ],
+      "title": "AgriGuard Vision",
+      "track": "SDG and Social Impact",
+      "why_it_could_win": "Aligns with the SDG and Social Impact track (Zero Hunger) while leaning into local agricultural contexts familiar to judges in Sonipat."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An agentic feedback parser that automatically aggregates, categorizes, and routes local municipal grievances from public social channels to correct civic departments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "CivicPulse Agent",
+      "track": "AI After Dark: Agentic AI",
+      "why_it_could_win": "Fulfills the Agentic AI theme while solving an acute local governance pain point that judges experience daily."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An autonomous multilingual tutoring agent that dynamically generates vernacular remedial exercises for students falling behind in foundational math and science.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "EduMentor AI",
+      "track": "SDG and Social Impact",
+      "why_it_could_win": "Targets SDG Goal 4 (Quality Education) and uses robust agentic workflows that stand out in the 12-hour sprint window."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1207207353"
+      ],
+      "pitch": "A federated clinical triage agent that assists community health workers in remote clinics by matching symptoms against verified medical protocols via secure local embeddings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Chroma",
+        "FastAPI"
+      ],
+      "title": "HealthRoute Agent",
+      "track": "SDG and Social Impact",
+      "why_it_could_win": "Combines high-impact social utility under SDG Goal 3 (Good Health and Well-being) with complex agent architecture."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-18T07:23:31.555860+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "agritech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771537",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1200106905",
+        "github:1075630497"
+      ],
+      "pitch": "An AI-powered agriculture platform offering crop disease detection, yield prediction, and offline SMS alerts for farmers with low connectivity.",
+      "problem_statement": "AgroTech (SDG 2, 12, 13, 15) - Turning raw agricultural data into working prototypes that address sustainable food production and climate resilience.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "TensorFlow Lite",
+        "Azure",
+        "Twilio API"
+      ],
+      "title": "AgriConnect Offline SMS",
+      "track": "AgroTech",
+      "why_it_could_win": "Directly builds on a proven winning project pattern by combining high-accuracy computer vision with low-bandwidth offline accessibility, addressing a massive real-world sustainability challenge."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite monitoring system for tracking industrial land compliance and environmental degradation using geospatial datasets.",
+      "problem_statement": "Urban Tech (SDG 6, 7, 9, 11) - Leveraging urban and environmental data to monitor sustainable industrial expansion and land usage.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Google Earth Engine API",
+        "PostGIS",
+        "React"
+      ],
+      "title": "GeoNex Industrial Land Monitor",
+      "track": "Urban Tech",
+      "why_it_could_win": "Uses unique geospatial data sources that stand out to judges, following the pattern of leveraging hard-to-get datasets for high environmental impact."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "Power BI and Python-backed carbon footprint optimization platform for analyzing and minimizing emissions in supply chain logistics.",
+      "problem_statement": "Urban Tech (SDG 6, 7, 9, 11) - Innovating around sustainable infrastructure, clean energy integration, and smart urban logistics.",
+      "stack": [
+        "Python",
+        "Power BI",
+        "Pandas",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "LogiCarbon Logistics Optimizer",
+      "track": "Urban Tech",
+      "why_it_could_win": "Mirrors a recent enterprise hackathon winner by presenting complex supply chain data through interactive, decision-ready analytics dashboards."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213154728"
+      ],
+      "pitch": "A full-stack transparency tool connecting residents to local power generation data, linking municipal energy usage to specific coal and renewable sources.",
+      "problem_statement": "Urban Tech (SDG 6, 7, 9, 11) - Providing transparent access to clean energy adoption metrics and resource consumption tracking.",
+      "stack": [
+        "Python",
+        "Snowflake",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "PowerGrid Supply Trace",
+      "track": "Urban Tech",
+      "why_it_could_win": "Integrates complex federal and local open datasets into an intuitive consumer-facing application, aligning with proven developer weekend winning criteria."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:984086555"
+      ],
+      "pitch": "A direct-to-consumer marketplace connecting local organic farmers with urban buyers to eliminate middlemen and reduce food waste.",
+      "problem_statement": "AgroTech (SDG 2, 12, 13, 15) - Responsible consumption and production through localized agricultural supply chain optimization.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React"
+      ],
+      "title": "KisanBazar Organic Direct",
+      "track": "AgroTech",
+      "why_it_could_win": "Replicates a validated hackathon-winning full-stack architecture with clear economic and social metrics that resonate strongly with judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
