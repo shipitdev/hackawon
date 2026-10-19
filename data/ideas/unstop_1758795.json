@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-19T08:00:49.958111+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1758795",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A quantum-classical variational eigensolver pipeline tailored for rapid ligand-protein binding energy estimation using IBM Qiskit.",
+      "problem_statement": "Quantum algorithms and optimization solutions domain under Project Q",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "NumPy",
+        "SciPy",
+        "FastAPI"
+      ],
+      "title": "Qiskit Hybrid VQE Molecular Docking Engine",
+      "track": "Quantum Algorithms & Optimization",
+      "why_it_could_win": "Targeting the IBM Qiskit Fall Fest theme directly appeals to the organizing judges who value actual Qiskit circuit construction over generic wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An interactive web dashboard simulating BB84 and E91 quantum key distribution protocols with simulated channel noise and eavesdropping detection.",
+      "problem_statement": "Quantum-safe cryptography domain under Project Q",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "React",
+        "TailwindCSS",
+        "Flask"
+      ],
+      "title": "Entangled QKD Simulator & Network Visualizer",
+      "track": "Quantum-Safe Cryptography",
+      "why_it_could_win": "Combines deep cryptography theory with a clean web visualizer, making complex quantum mechanics easily graspable and visually striking for judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A quantum machine learning classification model utilizing quantum kernels via Qiskit Machine Learning to optimize urban traffic signal timings.",
+      "problem_statement": "Quantum machine learning domain under Project Q",
+      "stack": [
+        "Python",
+        "Qiskit Machine Learning",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "Quantum Kernel SVM Traffic Flow Optimizer",
+      "track": "Quantum Machine Learning",
+      "why_it_could_win": "Demonstrates the practical application of QML to a real-world infrastructure problem, satisfying judges looking for tangible societal impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A Quantum Approximate Optimization Algorithm implementation to solve max-cut graph representations of power grid distribution nodes.",
+      "problem_statement": "Optimization solutions domain under Project Q",
+      "stack": [
+        "Python",
+        "Qiskit Optimization",
+        "NetworkX",
+        "Matplotlib"
+      ],
+      "title": "QAOA Power Grid Load Balancer",
+      "track": "Optimization Solutions",
+      "why_it_could_win": "Leans into genuinely hard engineering by solving an NP-hard graph problem using QAOA, matching the pattern of technical depth seen in winning hackathon projects."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A developer tool that statically analyzes Qiskit quantum circuits to detect gate depth inefficiencies, entanglement bottlenecks, and noise vulnerabilities.",
+      "problem_statement": "Quantum software development domain under Project Q",
+      "stack": [
+        "Python",
+        "Qiskit",
+        "Streamlit",
+        "AST"
+      ],
+      "title": "Qiskit Circuit Bug Hunter & Fidelity Profiler",
+      "track": "Quantum Software Development",
+      "why_it_could_win": "Solves a pain point familiar to quantum developers and judges alike, following the developer-tools winning pattern by providing immediate utility to other hackers."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

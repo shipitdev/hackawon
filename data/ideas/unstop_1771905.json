@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-19T08:01:25.767774+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771905",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An AI-powered institutional memory platform tailored for open-source communities and university tech clubs.",
+      "problem_statement": "Open-source-focused hackathon organised by Open Circle at Maharaja Agrasen Institute of Technology (MAIT)",
+      "stack": [
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "Python"
+      ],
+      "title": "OpenCircle Knowledge Mesh",
+      "track": "Open Innovation",
+      "why_it_could_win": "Directly targets the organizing club's open-source ethos by solving the problem of contributor drop-off and lost project context."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A decentralized verification ledger for tracking open-source code contributions and license compliance in student projects.",
+      "problem_statement": "Open-source-focused hackathon organised by Open Circle at Maharaja Agrasen Institute of Technology (MAIT)",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "Next.js",
+        "Ethers.js"
+      ],
+      "title": "AuditChain",
+      "track": "Blockchain",
+      "why_it_could_win": "Fits the blockchain track while maintaining high relevance to the core open-source theme of the event."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated pre-commit security scanner that detects hardcoded API secrets, vulnerable dependencies, and malicious pull requests.",
+      "problem_statement": "Open-source-focused hackathon organised by Open Circle at Maharaja Agrasen Institute of Technology (MAIT)",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "OpenAI API"
+      ],
+      "title": "GitGuard AI",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Addresses critical maintainer pain points in open-source repositories using a targeted cybersecurity approach."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1169394966"
+      ],
+      "pitch": "An autonomous AI agent that automatically triages GitHub issues, labels incoming PRs, and runs initial code reviews for open-source maintainers.",
+      "problem_statement": "Open-source-focused hackathon organised by Open Circle at Maharaja Agrasen Institute of Technology (MAIT)",
+      "stack": [
+        "Python",
+        "LangChain",
+        "GitHub API",
+        "Streamlit"
+      ],
+      "title": "AgentMaintainer",
+      "track": "AI/ML",
+      "why_it_could_win": "Levearges agentic workflows which have proven highly successful at recent developer tooling hackathons."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A federated peer-matching platform that connects student developers across colleges based on complementary tech stacks and open-source interests.",
+      "problem_statement": "Inter-college and inter-specialisation teams are permitted.",
+      "stack": [
+        "Next.js",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS"
+      ],
+      "title": "CampusCollab Graph",
+      "track": "Open Innovation",
+      "why_it_could_win": "Directly enables the multi-college collaboration rules emphasized by the organizers, showing deep understanding of the participant demographic."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

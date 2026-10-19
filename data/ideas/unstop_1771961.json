@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-19T08:01:39.501213+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771961",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1181275893",
+        "github:1169394966"
+      ],
+      "pitch": "An automated prompt-to-app pipeline that takes a plain English problem description and scaffolds a fully deployed MVP with built-in test suites.",
+      "problem_statement": "Build, test, and deploy a functional Minimum Viable Product (MVP) from a problem statement revealed at the event using approved AI tools.",
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "OpenAI API",
+        "Vercel API"
+      ],
+      "title": "PromptCircuit",
+      "track": "",
+      "why_it_could_win": "Directly hits the core hackathon mandate of prompt engineering, rapid deployment, and verifiable prompt-to-product execution."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:938030912",
+        "github:1171690684"
+      ],
+      "pitch": "A live prompt history visualizer and iterative debugger that records how prompts evolved into working code during a constrained build session.",
+      "problem_statement": "Key prompt history demonstrating iteration and debugging as part of submission requirements.",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "PromptTrace",
+      "track": "",
+      "why_it_could_win": "Fulfills the explicit submission requirement for prompt iteration history while giving judges an interactive tool to replay the team's build process."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1171690684"
+      ],
+      "pitch": "An automated pre-deployment security and functionality scanner designed specifically for AI-generated codebases.",
+      "problem_statement": "Demonstrating smart prompt engineering, building a usable product, and delivering a successful deployment.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AST Parser",
+        "Docker"
+      ],
+      "title": "AuditPrompt",
+      "track": "",
+      "why_it_could_win": "Addresses the common failure mode of rushed hackathon MVPs—broken deployments and security holes—which judges will appreciate."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A collaborative prompt workspace that lets team members concurrently test and merge prompt variants into a unified deployment script.",
+      "problem_statement": "Team Formation: Teams must consist of 2–3 participants collaborating to transform an idea into a working product.",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "Next.js",
+        "Redis"
+      ],
+      "title": "PromptSync",
+      "track": "",
+      "why_it_could_win": "Optimizes team workflow specifically for 2-3 person teams under strict time limits, ensuring no duplicate effort on prompt tuning."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1181275893"
+      ],
+      "pitch": "An automated QA agent that walks through a newly deployed live product URL and grades its alignment with the initial problem statement.",
+      "problem_statement": "Each team must submit a publicly accessible live product URL and a short screen-recorded demo.",
+      "stack": [
+        "Playwright",
+        "Python",
+        "OpenAI Vision",
+        "Streamlit"
+      ],
+      "title": "InstantEval",
+      "track": "",
+      "why_it_could_win": "Solves the exact judging bottleneck of evaluating multiple rapid MVPs by providing an instant automated demo walkthrough."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

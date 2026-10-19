@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-10-19T08:01:12.165878+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771801",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A real-time competitive programming platform featuring automated multi-language code judging and speed analytics.",
+      "problem_statement": "CodeQuest - Coding and problem-solving challenges that test your logic, programming skills and speed.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "Docker"
+      ],
+      "title": "CodeSprint Duel",
+      "track": "CodeQuest",
+      "why_it_could_win": "Directly targets the core skills tested in CodeQuest by offering judges a live, high-speed demonstration of algorithmic problem-solving under tight time limits."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:611784301"
+      ],
+      "pitch": "An interactive web app that steps through complex data structures and sorting algorithms line-by-line to teach logic and speed.",
+      "problem_statement": "CodeQuest - Coding and problem-solving challenges that test your logic, programming skills and speed.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "TechBytes",
+      "why_it_could_win": "Caters to the technical knowledge focus of TechBytes and the logic testing of CodeQuest with a fully functional, highly visual frontend component that works reliably live."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A gamified trivia and rapid-fire technical assessment platform focused on modern IT trends, computer architecture, and programming paradigms.",
+      "problem_statement": "TechBytes - Exciting technical rounds on computers, programming, technology and the latest trends in IT.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "IT Trends QuizArena",
+      "track": "TechBytes",
+      "why_it_could_win": "Implements exact technical rounds and rapid-fire evaluation criteria expected in TechBytes, making it immediately engaging for judges to test out."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A lightweight coding speed and syntax accuracy benchmark tool tailored for rapid typing of boilerplate and debugging snippets.",
+      "problem_statement": "CodeQuest - Coding and problem-solving challenges that test your logic, programming skills and speed.",
+      "stack": [
+        "Python",
+        "Flask",
+        "HTML5"
+      ],
+      "title": "SyntaxSpeed Benchmarker",
+      "track": "CodeQuest",
+      "why_it_could_win": "Focuses heavily on raw programming speed and quick thinking, matching the evaluation parameters outlined in the CodeQuest brief."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "An interactive diagramming tool that challenges users to correctly configure and debug microservice topologies and IT networks.",
+      "problem_statement": "TechBytes - Exciting technical rounds on computers, programming, technology and the latest trends in IT.",
+      "stack": [
+        "JavaScript",
+        "Canvas API",
+        "Vue.js"
+      ],
+      "title": "DevStack Architecture Simulator",
+      "track": "TechBytes",
+      "why_it_could_win": "Demonstrates deep knowledge of computer networks, programming frameworks, and latest IT trends with a working, interactive demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

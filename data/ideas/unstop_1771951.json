@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-19T08:01:30.596322+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771951",
+  "ideas": [
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A command-line tool for competitive programmers to local-test code against custom test cases and benchmark execution time instantly.",
+      "problem_statement": "Timed competitive programming challenge by solving a set of algorithmic problems of increasing difficulty using C, C++, Java, and Python.",
+      "stack": [
+        "Python",
+        "Click",
+        "Rich"
+      ],
+      "title": "CP-Helper CLI",
+      "track": "",
+      "why_it_could_win": "Focuses on speed and developer ergonomics during high-pressure timed contests where shaving seconds off testing saves leaderboard penalties."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An interactive tool to visualize graph traversals, sorting steps, and dynamic programming state transitions for practice.",
+      "problem_statement": "Problems will cover arrays, strings, sorting, greedy algorithms, graphs, and dynamic programming.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Algorithmic Complexity Visualizer",
+      "track": "",
+      "why_it_could_win": "Solves a genuinely hard engineering problem of stepping backward through state spaces for DP and graph algorithms, helping contestants debug logic."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A linter and visual debugger specifically designed to catch off-by-one errors and base case flaws in dynamic programming memoization tables.",
+      "problem_statement": "Problems will cover arrays, strings, sorting, greedy algorithms, graphs, and dynamic programming.",
+      "stack": [
+        "Python",
+        "Ast",
+        "Flask"
+      ],
+      "title": "DP State Transition Debugger",
+      "track": "",
+      "why_it_could_win": "Targets the exact problem category that causes the most incorrect submission penalties in competitive programming contests."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A lightweight local dashboard that simulates ICPC-style penalty calculations and predicts rank shifts during a timed contest.",
+      "problem_statement": "Rankings will be determined by the number of problems solved, followed by total time, including penalties for incorrect submissions.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Express"
+      ],
+      "title": "Contest Leaderboard Tracker",
+      "track": "",
+      "why_it_could_win": "Leverages a working live demo that directly maps to the exact scoring criteria of the hackathon's judging platform."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An instant scratchpad for building, testing, and verifying network flow, shortest path, and MST algorithms against custom edge cases.",
+      "problem_statement": "Problems will cover arrays, strings, sorting, greedy algorithms, graphs, and dynamic programming.",
+      "stack": [
+        "TypeScript",
+        "Canvas API",
+        "Vite"
+      ],
+      "title": "Graph Algorithm Playground",
+      "track": "",
+      "why_it_could_win": "Provides a rock-solid, working demo for graph problems that typically stump contestants under time pressure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

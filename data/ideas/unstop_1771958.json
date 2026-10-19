@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-19T08:01:35.231734+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771958",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated digital forensics tool designed to rapidly extract hidden payloads from steganographic images and audio files during CTF challenges.",
+      "problem_statement": "Digital forensics, reverse engineering, OSINT, steganography, and other cybersecurity-related challenges.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pillow",
+        "OpenCV"
+      ],
+      "title": "SteganoSleuth AI",
+      "track": "",
+      "why_it_could_win": "Addresses a high-friction category in CTFs (steganography and digital forensics) by automating multi-layered LSB extraction and metadata analysis, directly saving valuable competition time."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:783172279"
+      ],
+      "pitch": "A modular cryptographic puzzle solver specifically tailored for classic and modern CTF ciphers, including automated frequency analysis and RSA weak-key attacks.",
+      "problem_statement": "Cryptography, reverse engineering, OSINT, steganography, and other cybersecurity-related challenges.",
+      "stack": [
+        "Python",
+        "SageMath",
+        "Flask"
+      ],
+      "title": "CryptoBreaker Toolkit",
+      "track": "",
+      "why_it_could_win": "Provides an unfair speed advantage in cryptography challenges by instantly performing lattice reductions and factorization attacks on common CTF puzzle configurations."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "A specialized web exploitation reconnaissance dashboard that automatically fingerprints vulnerable endpoints, SQLi parameters, and SSRF entry points for CTF web challenges.",
+      "problem_statement": "Web exploitation, cryptography, digital forensics, reverse engineering, OSINT, steganography, and other cybersecurity-related challenges.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "BeautifulSoup"
+      ],
+      "title": "WebVuln Recon Suite",
+      "track": "",
+      "why_it_could_win": "Web exploitation challenges require fast enumeration; this tool automates payload fuzzing and parameter discovery cleanly within a unified interface."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated intelligence-gathering and link-analysis tool for OSINT challenges that aggregates social footprints, metadata leaks, and geolocation clues into a visual graph.",
+      "problem_statement": "OSINT, steganography, and other cybersecurity-related challenges.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Streamlit",
+        "ExifRead"
+      ],
+      "title": "OSINT Grapher",
+      "track": "",
+      "why_it_could_win": "OSINT challenges are notorious for unstructured data chaos; a visual connection grapher immediately highlights hidden entity relationships and flags."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid static analysis helper for reverse engineering CTF challenges that parses binary headers, extracts strings, and flags suspicious packed sections or hardcoded keys.",
+      "problem_statement": "Reverse engineering, steganography, and other cybersecurity-related challenges.",
+      "stack": [
+        "Python",
+        "LIEF",
+        "Capstones",
+        "FastAPI"
+      ],
+      "title": "BinaryInspector",
+      "track": "",
+      "why_it_could_win": "Cuts down initial reverse engineering setup time by instantly displaying decompiled hints, architecture details, and embedded flags in a single dashboard."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
