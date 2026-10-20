@@ -134,7 +134,7 @@
           "durations": 4,
           "text": " days left"
         },
-        "remaining_time": 374828,
+        "remaining_time": 351292,
         "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
         "resume_parser": 0,
         "same_course": 0,
@@ -165,10 +165,64 @@
     "filters": [
       {
         "domain_id": 0,
-        "file_name": "all",
-        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
-        "id": 420,
-        "name": "All",
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4023,
+        "name": "Medical",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4024,
+        "name": "Law",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
         "subtype": null,
         "type": "eligible"
       }
@@ -257,7 +311,7 @@
     "region": "offline",
     "registerCount": 11,
     "regnRequirements": {
-      "eligibility": null,
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-10-26T18:33:26+05:30",
       "max_team_size": 1,
       "min_team_size": 1,
@@ -268,7 +322,7 @@
         "durations": 6,
         "text": " days left"
       },
-      "remaining_time": 571321,
+      "remaining_time": 547831,
       "show_deadline": 1,
       "start_regn_dt": "2026-10-17T00:00:00+05:30",
       "work_location_type": "city"
@@ -341,7 +395,7 @@
     "title": "Syntax Sprint",
     "type": "hackathons",
     "updated_at": "2026-10-19T21:02:20+05:30",
-    "viewsCount": 1888,
+    "viewsCount": 10601,
     "visibility": "public",
     "workfunction": [
       {
