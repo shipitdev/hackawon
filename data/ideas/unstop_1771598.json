@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-20T07:51:33.996923+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771598",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "Real-time leaderboard visualizer with historical rating trajectory graphs during competitive programming contests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "Codeforces Live Rank Visualizer",
+      "track": "",
+      "why_it_could_win": "Targeted directly at the Codeforces platform context of the contest, providing instant utility for spectators and participants."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An offline-first browser extension for competitive programmers to quickly search, filter, and copy pre-written algorithm templates.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Chrome Extension API"
+      ],
+      "title": "CP Algorithm Cheat Sheet and Snippet Manager",
+      "track": "",
+      "why_it_could_win": "Addresses a tangible friction point for participants in offline coding contests needing fast access to data structure templates."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A local CLI tool that automates generating edge-case random test cases and cross-checks two competing script outputs against each other.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Click",
+        "Subprocess"
+      ],
+      "title": "Contest Submission Stress Tester",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering and reliability, giving competitive programmers an edge in catching bugs before submission."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "A lightweight app that analyzes a participant's recent Codeforces submissions and recommends weak-topic practice problems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Requests"
+      ],
+      "title": "Algorithmic Problem Recommender",
+      "track": "",
+      "why_it_could_win": "Leverages the Codeforces API to deliver an immediately working demo with practical utility for algorithmic training."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A live web scoreboard specifically tailored for managing and displaying individual knockout match standings for final rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebSockets"
+      ],
+      "title": "Knockout Match Bracket Tracker",
+      "track": "",
+      "why_it_could_win": "Solves the logistical need for transparent tournament progression tracking during the final knockout stage."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

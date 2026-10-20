@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-20T07:51:57.445794+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "web3",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772235",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-AI computer vision garbage classification system deployed on low-cost IoT nodes that routes recyclable data to municipal dashboards.",
+      "problem_statement": "Promote Social and Environmental Sustainability by developing innovative approaches that support healthy, sustainable, and thriving communities through environmental innovation.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Arduino",
+        "Node.js"
+      ],
+      "title": "EcoSort AI: Smart Municipal Waste Segregation Network",
+      "track": "environmental innovation",
+      "why_it_could_win": "Aligns directly with the hackathon's core mandate on environmental sustainability and social impact while demonstrating a physical, working prototype similar to past hardware-software hackathon winners."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent LLM framework that processes remote IoT sensor data and drone imagery to autonomously diagnose soil anomalies and trigger precision irrigation protocols.",
+      "problem_statement": "Solve Real-World Problems Work on meaningful challenges that address real issues affecting society, industry, and the environment through IoT and AI.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Gemini API",
+        "TimescaleDB",
+        "Python"
+      ],
+      "title": "AgriDiag: Autonomous Multi-Agent Crop Disease & Irrigation Ops",
+      "track": "Artificial Intelligence (AI)",
+      "why_it_could_win": "Leverages advanced multi-agent orchestration which impresses technical judges, tackling critical agricultural challenges prevalent across India."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1188682384",
+        "github:776580131"
+      ],
+      "pitch": "A zero-knowledge gated medical collaboration platform allowing rural health workers to share patient symptom data securely without violating privacy regulations.",
+      "problem_statement": "Innovate and Grow Gain valuable experience through mentorship and hands-on exploration of emerging technologies such as HealthTech.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Base",
+        "React",
+        "Solidity"
+      ],
+      "title": "MedChain ZK: Privacy-Preserving HealthTech Records",
+      "track": "HealthTech",
+      "why_it_could_win": "Tackles high-stakes data privacy in the HealthTech domain using cryptographic primitives, offering a level of technical depth that stands out to judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:929166887"
+      ],
+      "pitch": "An on-chain verifiable credential issuing platform utilizing lightweight federated learning to assess student practical coding submissions without exposing raw user data.",
+      "problem_statement": "Empowering participants to transform their ideas into practical solutions that create a meaningful impact on education and industry.",
+      "stack": [
+        "Python",
+        "Solidity",
+        "Flare Data Connector",
+        "FastAPI"
+      ],
+      "title": "EduLearn Sync: Decentralized Credential & Skill Verification",
+      "track": "education",
+      "why_it_could_win": "Combines education tech with decentralized data integrity, targeting both societal impact and novel web3 architectural patterns."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous operations platform that ingests live energy meter time-series data, runs anomaly detection models, and flags grid failure risks before outages happen.",
+      "problem_statement": "Solve Real-World Problems Work on meaningful challenges that address real issues affecting society, industry, and the environment.",
+      "stack": [
+        "Python",
+        "Isolation Forest",
+        "FastAPI",
+        "React",
+        "TimescaleDB"
+      ],
+      "title": "GridPulse IoT: Predictive Micro-Grid Maintenance Agent",
+      "track": "Internet of Things (IoT)",
+      "why_it_could_win": "Focuses on hard engineering and robust anomaly detection pipelines that guarantee a tangible, working live demo for the evaluation panel."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

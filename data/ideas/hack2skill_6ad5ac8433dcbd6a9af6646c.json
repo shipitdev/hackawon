@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-10-20T07:50:59.350269+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "arvr"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 4,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6ad5ac8433dcbd6a9af6646c",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:988515862"
+      ],
+      "pitch": "A lightweight eye-gaze and head-pose tracking interface built with webcams to allow developers with motor disabilities to navigate and edit code hands-free.",
+      "problem_statement": "Human-Machine Interfaces (HMI): Build intuitive, adaptive, and accessible ways for people to interact with computers and intelligent systems beyond traditional keyboards, mice, and touchscreens.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Electron",
+        "JavaScript"
+      ],
+      "title": "GazeScroll: Accessible Hands-Free Code Navigation",
+      "track": "",
+      "why_it_could_win": "Addresses accessibility which resonates heavily with academic judges, and utilizes a robust local computer vision pipeline similar to winning pose-estimation architectures."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A decentralized service discovery and automated micro-settlement network where idle local AI agents negotiate and trade vector database queries over lightweight HTTP endpoints.",
+      "problem_statement": "Autonomous Economy: Create systems, coordination mechanisms, or applications where autonomous AI agents, machines, and digital entities can discover services, negotiate terms, allocate resources, and carry out automated transactions.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "SQLite",
+        "Pydantic"
+      ],
+      "title": "AgentMarket: Autonomous Micro-Compute Broker",
+      "track": "",
+      "why_it_could_win": "Focuses on genuine multi-agent orchestration and machine-to-machine coordination without relying on standard blockchain buzzwords, matching complex multi-agent system patterns."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An automated local log parser that ingests raw firewall and access logs from small clinic routers, translating complex alerts into clear, receptionist-friendly action items.",
+      "problem_statement": "Accessible Cybersecurity: Build an automated, intuitive security solution that gives small, non-technical organizations the threat visibility and decision-making clarity of a dedicated security operations team.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Ollama",
+        "Scapy",
+        "Pandas"
+      ],
+      "title": "ClinicShield: Plain-English Security Operations Agent",
+      "track": "",
+      "why_it_could_win": "Solves a relatable, highly practical SMB problem and strips away technical jargon, appealing directly to judges looking for real-world utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A web dashboard that lets developers compile, flash, and debug ESP32 microcontrollers connected to a central lab machine over a secure WebSocket bridge with live serial telemetry.",
+      "problem_statement": "Hardware & Embedded Innovation: Build platforms and collaborative tools that enable developers, students, and engineers to remotely access, program, execute, monitor, and debug code on embedded devices.",
+      "stack": [
+        "Node.js",
+        "WebSockets",
+        "ESP32",
+        "C++",
+        "React",
+        "Docker"
+      ],
+      "title": "CloudPi: Remote Browser-Based ESP32 Flashing Pipeline",
+      "track": "",
+      "why_it_could_win": "Involves an unusual physical build and hardware integration which always stands out in a room full of standard web applications."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "An edge-computing prototype that monitors simulated medical sensor streams on an ESP32, running local anomaly detection and forwarding encrypted alerts to a cloud dashboard.",
+      "problem_statement": "Hardware & Embedded Innovation: Build platforms and collaborative tools that enable developers, students, and engineers to remotely access, program, execute, monitor, and debug code on embedded devices.",
+      "stack": [
+        "Python",
+        "C++",
+        "ESP32",
+        "MQTT",
+        "InfluxDB",
+        "React"
+      ],
+      "title": "BioEdge: Post-Operative IoT Telemetry & Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Replicates the winning formula of combining embedded hardware with edge-based anomaly detection and a slick live-working demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

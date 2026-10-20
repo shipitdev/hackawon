@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-20T07:51:43.947265+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771949",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A voice-first, vernacular medical triage and preventive care assistant designed specifically for rural healthcare access in Eastern Uttar Pradesh.",
+      "problem_statement": "Need for innovative solutions for real-world socio-economic and public health challenges in semi-urban and rural regions.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API",
+        "Web Speech API"
+      ],
+      "title": "RuralMed Multilingual Health Copilot",
+      "track": "Open Innovation",
+      "why_it_could_win": "Directly addresses regional public health needs, earning high marks for problem understanding, practical utility, and social impact as seen in winning community health projects."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An IoT and dashboard solution for monitoring real-time power consumption and waste management bins across large university campuses like MMMUT.",
+      "problem_statement": "Open Innovation challenge focusing on institutional efficiency, smart campus initiatives, and sustainable resource management.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ESP32",
+        "React",
+        "Chart.js"
+      ],
+      "title": "CampusPulse IoT Energy Grid & Waste Tracker",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages live local utility metrics and an interactive dashboard, scoring well on technical implementation and working prototype functionality."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1393689488"
+      ],
+      "pitch": "A peer-to-peer marketplace and route-optimization tool connecting local farmers directly with urban vendors to minimize agricultural supply chain waste.",
+      "problem_statement": "Solving agricultural inefficiencies and bridging the gap between rural producers and urban markets.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Leaflet.js"
+      ],
+      "title": "AgroStream Local Produce & Cold-Chain Logistics",
+      "track": "Open Innovation",
+      "why_it_could_win": "Strong economic utility and clear measurable impact on local farmer livelihoods, matching judge criteria for scalability and practical value."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A mobile app utilizing device accelerometers and computer vision to automatically detect road damage and file geotagged municipal repair tickets.",
+      "problem_statement": "Urban infrastructure monitoring and citizen-to-government grievance redressal automation.",
+      "stack": [
+        "Flutter",
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "CivicEye Autonomous Pothole & Road Hazard Detector",
+      "track": "Open Innovation",
+      "why_it_could_win": "High practical utility for municipal authorities with a fully demonstrable mobile prototype that scores exceptionally high on functionality and live demo execution."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [],
+      "pitch": "A lightweight cryptographic credential verification system for academic institutions to instantly authenticate degree certificates and transcripts.",
+      "problem_statement": "Combating academic credential fraud and securing institutional document verification pipelines.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "TailwindCSS",
+        "SHA-256 Hashing"
+      ],
+      "title": "EduVerify Exam Credential & Certificate Ledger",
+      "track": "Open Innovation",
+      "why_it_could_win": "Integrates robust technical implementation and cryptographic validation, appealing directly to the technical depth and innovation criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

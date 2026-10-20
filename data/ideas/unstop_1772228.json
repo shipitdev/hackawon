@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-20T07:51:52.834137+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772228",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1183964401",
+        "github:1185920891"
+      ],
+      "pitch": "An autonomous AI agent that executes risk-adjusted yield rebalancing strategies across decentralized finance protocols using smart contracts.",
+      "problem_statement": "Smart Contracts and DeFi: Practical blockchain applications and decentralized financial tools.",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "OpenAI API",
+        "Ethers.js"
+      ],
+      "title": "AgenticDeFi Yield Rebalancer",
+      "track": "Smart Contracts and DeFi",
+      "why_it_could_win": "Combines autonomous agents with DeFi protocols, echoing winning patterns from AI-agent hackathons where automated execution was a key judge priority."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A decentralized application enabling academic institutions to issue verifiable credentials that students can prove possession of without revealing underlying grades.",
+      "problem_statement": "Blockchain and Web3: Decentralized applications, on-chain verification, digital identity, and trust infrastructure.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "Solidity"
+      ],
+      "title": "ZK-Cred: Zero-Knowledge Student Credential Verifier",
+      "track": "Blockchain and Web3",
+      "why_it_could_win": "Taps directly into the trust infrastructure track and implements hard engineering via ZK proofs, scoring high on technical difficulty and real-world applicability."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:929936040"
+      ],
+      "pitch": "An autonomous supply chain tracking assistant that records milestone checkpoints on-chain and triggers automated dispute resolutions via smart contracts.",
+      "problem_statement": "Real-World Applications: Solutions for education, governance, supply chains, healthcare administration, and other meaningful problems.",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "ChainAgent Supply Tracker",
+      "track": "Real-World Applications",
+      "why_it_could_win": "Addresses the real-world applications track with a concrete enterprise problem, making it highly appealing for judges looking for practical utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A developer tool SDK and CLI that analyzes Solidity smart contracts before deployment to suggest and auto-patch high-gas operation patterns.",
+      "problem_statement": "Developer Tools: SDKs, APIs, infrastructure, and tools that simplify blockchain development.",
+      "stack": [
+        "TypeScript",
+        "AST Parser",
+        "Node.js"
+      ],
+      "title": "DevGas: Gas Optimization Linter SDK",
+      "track": "Developer Tools",
+      "why_it_could_win": "Targets the developer tools track by solving an immediate developer pain point, making the utility instantly demonstrable to technical judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "A decentralized marketplace where autonomous AI agents negotiate sub-tasks and settle payments securely using smart contract escrows.",
+      "problem_statement": "AI and Autonomous Agents: AI-powered applications, agentic workflows, and intelligent automation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Solidity",
+        "Web3.py"
+      ],
+      "title": "OnChain Multi-Agent Task Escrow",
+      "track": "AI and Autonomous Agents",
+      "why_it_could_win": "Merges AI agents with on-chain settlement, replicating the exact architectural win patterns seen in recent top-tier agentic hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

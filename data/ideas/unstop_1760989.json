@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-10-20T07:51:08.027196+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1760989",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1092573500",
+        "github:929936040"
+      ],
+      "pitch": "An autonomous research agent built using TinyFish that continuously scrapes, cleans, and structures domain-specific web data into vector databases for LLM fine-tuning.",
+      "problem_statement": "AI/ML Track - Open Innovation (Must use TinyFish)",
+      "stack": [
+        "TypeScript",
+        "TinyFish SDK",
+        "Python",
+        "FastAPI",
+        "Pinecone",
+        "LangChain"
+      ],
+      "title": "TinyFish Automated Web Research Agent for AI/ML Pipelines",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Directly satisfies the mandatory TinyFish integration requirement while targeting the AI/ML Open Innovation track with a practical data-engineering solution that judges will instantly understand."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1092573500"
+      ],
+      "pitch": "A Web3 intelligence agent powered by TinyFish that monitors protocol forums, governance proposals, and security disclosures in real-time to alert DAOs of emerging exploits.",
+      "problem_statement": "Web3 Track - Open Innovation (Must use TinyFish)",
+      "stack": [
+        "TypeScript",
+        "TinyFish SDK",
+        "Solidity",
+        "Ethers.js",
+        "Node.js"
+      ],
+      "title": "TinyFish Web3 Sentinel for Smart Contract Exploit Monitoring",
+      "track": "Web3 Track",
+      "why_it_could_win": "Combines the Web3 track with the mandatory TinyFish integration, addressing a critical security pain point for decentralized protocols."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1209618925",
+        "github:929936040"
+      ],
+      "pitch": "An AI-powered market intelligence dashboard that uses TinyFish to scrape competitor product changes, pricing updates, and feature rollouts daily.",
+      "problem_statement": "AI/ML Track - Open Innovation (Must use TinyFish)",
+      "stack": [
+        "Python",
+        "TinyFish SDK",
+        "Streamlit",
+        "OpenAI API",
+        "Pandas"
+      ],
+      "title": "TinyFish Competitive Intelligence Concierge for Enterprise AI",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Solves a high-value business problem using advanced data extraction via TinyFish, making it an appealing project for the professional category in the AI/ML track."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1188682384"
+      ],
+      "pitch": "A Web3 evaluation assistant that uses TinyFish to aggregate external project updates and GitHub metrics to help DAOs automatically assess milestone completion for grant recipients.",
+      "problem_statement": "Web3 Track - Open Innovation (Must use TinyFish)",
+      "stack": [
+        "TypeScript",
+        "TinyFish SDK",
+        "Next.js",
+        "Hardhat",
+        "Viem"
+      ],
+      "title": "TinyFish On-Chain Grant Evaluator and Scraper",
+      "track": "Web3 Track",
+      "why_it_could_win": "Bridges off-chain web activity with on-chain accountability using TinyFish, offering a unique workflow tool for Web3 organizations."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1092573500",
+        "github:929936040"
+      ],
+      "pitch": "An AI/ML compliance monitoring agent that uses TinyFish to track global AI safety guidelines, legal filings, and research papers, summarizing impacts for enterprise legal teams.",
+      "problem_statement": "AI/ML Track - Open Innovation (Must use TinyFish)",
+      "stack": [
+        "Python",
+        "TinyFish SDK",
+        "PostgreSQL",
+        "Transformers",
+        "Flask"
+      ],
+      "title": "TinyFish Automated Regulatory Compliance Tracker for AI",
+      "track": "AI/ML Track",
+      "why_it_could_win": "Tackles a timely enterprise challenge while prominently showcasing a deep and functional integration of TinyFish during the pitch demonstration."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

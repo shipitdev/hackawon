@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-20T07:52:01.475865+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772304",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data pipeline incident resolution agent that detects schema drift and automatically generates and tests corrective pull requests using DataHub lineage.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "DataHub API",
+        "GitHub API",
+        "FastAPI"
+      ],
+      "title": "AgenticDataFlow",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly leverages the Agentic AI track using advanced multi-step agent architecture, mirroring the grand-prize-winning pattern from data agent hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1170846981"
+      ],
+      "pitch": "A clinical-grade triage assistant featuring webcam-based rPPG heart rate estimation and multi-lingual emergency response routing for rural clinics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "OpenCV.js",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "VitalSync AI",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Combines cutting-edge computer vision (rPPG) with real-world social impact, aligning with winning healthcare projects that emphasize live-working diagnostic demos."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A real-time cricket and sports biomechanics feedback engine using MediaPipe pose estimation to classify batting flaws and suggest mechanical corrections.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "Streamlit",
+        "OpenCV"
+      ],
+      "title": "SportBiomech Edge",
+      "track": "Open Innovation",
+      "why_it_could_win": "Provides a high-performance computer vision demo with instant visual feedback, following the exact technical patterns of top-tier sports AI winners."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "An agentic disaster response coordinator that aggregates unstructured local reports from social media and automatically dispatches prioritized tasks to relief teams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "OpenAI API",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "CrisisAgent Dispatch",
+      "track": "Agentic AI",
+      "why_it_could_win": "Demonstrates multi-agent coordination under high-stress constraints, satisfying judges looking for robust, autonomous agent workflows in emergency scenarios."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "An AI-powered document verification and facial authentication platform that delivers a fully automated branch-like digital onboarding experience for retail loans.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js 15",
+        "Node.js",
+        "face-api.js",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "LoanCue Digital Branch",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Targets high-value enterprise fintech workflows with a complete, production-grade user interface and robust identity verification steps."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

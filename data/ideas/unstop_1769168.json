@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-20T07:51:21.216991+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769168",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A Python static analysis and runtime configuration validator designed specifically to catch incorrect configurations, port binding collisions, and connection string errors before applications start.",
+      "problem_statement": "Round 1: Find the Bug - Incorrect configuration, port-related problems, and database connection issues.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Ast"
+      ],
+      "title": "PyTrace Config Auditor",
+      "track": "",
+      "why_it_could_win": "Targeting the exact hands-on debugging challenges of Round 1 with a standalone Python utility makes the tool extremely relatable to judges reviewing server failure logs."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A lightweight diagnostic utility for Java backend applications that ingests messy stack traces, missing authentication error codes, and API failures, outputting structured root-cause fix plans.",
+      "problem_statement": "Round 1 & 2: API failure, authentication failures, and code bugs in Java server environments.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Jackson"
+      ],
+      "title": "JavaStack Root Cause Tracer",
+      "track": "",
+      "why_it_could_win": "Since teams must work in Java or Python, building an intelligent helper specifically for Java error tracking directly addresses the core skill being tested."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1329458499"
+      ],
+      "pitch": "A command-line tool that parses broken Python server environments, identifies missing database drivers or incorrect port bindings, and automatically generates patch files and test validations.",
+      "problem_statement": "Round 2: Debug the Server - investigating malfunctioning applications and attempting to fix underlying problems.",
+      "stack": [
+        "Python",
+        "Click",
+        "Subprocess"
+      ],
+      "title": "ServerMedic Automated Repair CLI",
+      "track": "",
+      "why_it_could_win": "It mirrors the exact winning pattern of turning runtime errors into structured repair plans and multi-file fixes, highly appealing for a server debugging competition."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A local log aggregation and anomaly detection dashboard built in Python that quickly surfaces silent database timeout exceptions, bad port configurations, and authentication token rejections from raw server logs.",
+      "problem_statement": "Round 1: Find the Bug - identifying intentional problems across application server logs and database connections.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite"
+      ],
+      "title": "LogSleuth Server Inspector",
+      "track": "",
+      "why_it_could_win": "Builds directly on proven log management systems that win technical hackathons by providing instant visual clarity during server investigations."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "A testing harness for Python and Java APIs that deliberately breaks endpoints, injects latency, invalidates auth tokens, and then verifies automated recovery sequences.",
+      "problem_statement": "Round 1 & 2: API failure, authentication failures, and server environment troubleshooting.",
+      "stack": [
+        "Python",
+        "Requests",
+        "Pydantic"
+      ],
+      "title": "API Fault Injector & Doctor",
+      "track": "",
+      "why_it_could_win": "Demonstrates a deep mastery of server failure modes by not just fixing bugs, but proactively simulating and diagnosing them during rigorous competition evaluations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
