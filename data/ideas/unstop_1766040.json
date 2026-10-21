@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-21T08:00:18.820431+00:00",
+  "grounding": {
+    "domains": [
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1766040",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An offline-first, location-aware AR audio guide and heritage trail planner for Jammu's historic temples and Mubarak Mandi complex.",
+      "problem_statement": "Tourism, Heritage & Culture",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Leaflet.js",
+        "TailwindCSS",
+        "Web Speech API"
+      ],
+      "title": "JammuTrek AI Heritage Guide",
+      "track": "Tourism, Heritage & Culture",
+      "why_it_could_win": "Directly targets Jammu's tourism development goals and provides a polished, working mobile-web demo with zero friction for foreign or domestic pilgrims."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1346526259",
+        "github:769262834"
+      ],
+      "pitch": "A real-time IoT waste bin fill-level monitoring and dynamic truck routing dashboard for Jammu municipal workers.",
+      "problem_statement": "Cleanliness, Waste Management & Sustainability",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Leaflet.js",
+        "MQTT"
+      ],
+      "title": "CleanJammu Municipal Smart Bin Network",
+      "track": "Cleanliness, Waste Management & Sustainability",
+      "why_it_could_win": "Solves an urgent everyday civic headache in Jammu with clear, quantifiable efficiency metrics that appeal directly to municipal evaluators."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1143576965",
+        "github:933310408",
+        "github:1261513376"
+      ],
+      "pitch": "A real-time disaster management and crowd-sourced safe shelter routing platform tailored for Jammu's monsoon and hilly terrain risks.",
+      "problem_statement": "Urban Resilience & Disaster Management",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "JammuTawi Flood & Landslide Early Warning",
+      "track": "Urban Resilience & Disaster Management",
+      "why_it_could_win": "Leverages proven patterns from award-winning disaster response apps by pairing live data ingestion with clear, actionable evacuation instructions for citizens."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259",
+        "github:936954849"
+      ],
+      "pitch": "A unified commuter dashboard and crowdsourced feeder-bus tracker addressing Jammu's suburban and intra-city transit bottlenecks.",
+      "problem_statement": "Digital Governance, Mobility & Smart Infrastructure",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Mapbox GL",
+        "Firebase"
+      ],
+      "title": "Jammu Mobility Transit Connect",
+      "track": "Digital Governance, Mobility & Smart Infrastructure",
+      "why_it_could_win": "Focuses on everyday transit infrastructure, giving judges an immediately testable tool for local commuter optimization."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered satellite and street-level imagery analysis tool to track urban green space health and plan neighborhood afforestation in Jammu.",
+      "problem_statement": "Urban Planning, Green Spaces & Public Realm",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Leaflet.js",
+        "OpenCV"
+      ],
+      "title": "GreenJammu Canopy Mapper",
+      "track": "Urban Planning, Green Spaces & Public Realm",
+      "why_it_could_win": "Combines environmental sustainability metrics with a sleek geospatial dashboard, making it highly attractive for municipal green policy planners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

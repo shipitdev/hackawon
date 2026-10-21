@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-21T08:00:49.822058+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771520",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A real-time algorithm visualizer specifically designed to trace execution paths for complex data structure operations during high-pressure contests.",
+      "problem_statement": "Praajwalan - 2K26 competitive programming contest organized by ACM Student Chapter, Ramdeobaba University requiring fast logical debugging in a 2-hour window.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AlgoVisualizer Competitive Programming Assistant",
+      "track": "",
+      "why_it_could_win": "Addresses a direct pain point for competitive programmers dealing with 5 mandatory algorithmic problems under extreme time constraints."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A lightweight extension for competitive programmers to auto-generate boilerplate code, stress-test solutions against brute-force scripts, and parse problem statements instantly.",
+      "problem_statement": "Praajwalan - 2K26 competitive programming contest organized by ACM Student Chapter, Ramdeobaba University requiring fast submission workflows for 6 questions.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "VSCode API"
+      ],
+      "title": "CP-Helper VSCode Extension",
+      "track": "",
+      "why_it_could_win": "Solves a problem the judges and participants feel directly during the contest: wasting precious seconds on boilerplate and manual test case validation."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A post-contest analysis dashboard that benchmarks individual algorithmic solutions against optimal time and space complexities using static code analysis.",
+      "problem_statement": "Praajwalan - 2K26 competitive programming contest organized by ACM Student Chapter, Ramdeobaba University testing DSA and logical problem-solving skills.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Chart.js"
+      ],
+      "title": "ContestAnalytics Performance Tracker",
+      "track": "",
+      "why_it_could_win": "Applies automated data profiling techniques similar to runner-up winners to give competitors deep insights into their code efficiency."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered voice and text sparring partner that quizzes students on data structures and algorithms patterns using interactive hints instead of direct answers.",
+      "problem_statement": "Praajwalan - 2K26 competitive programming contest organized by ACM Student Chapter, Ramdeobaba University focused on sharpening knowledge of DSA.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Streamlit"
+      ],
+      "title": "DSA Mock Interviewer Bot",
+      "track": "",
+      "why_it_could_win": "Leverages multi-agent student support concepts from winning projects to deliver an interactive pedagogical tool for algorithmic mastery."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A lightning-fast, offline-first searchable repository of optimized template code for graph algorithms, dynamic programming, and number theory.",
+      "problem_statement": "Praajwalan - 2K26 competitive programming contest organized by ACM Student Chapter, Ramdeobaba University featuring 6 problems ranging from easy to hard.",
+      "stack": [
+        "JavaScript",
+        "IndexedDB",
+        "React"
+      ],
+      "title": "SpeedCode Snippet Vault",
+      "track": "",
+      "why_it_could_win": "Provides a practical, working utility that individuals can rely on immediately during a high-stakes 2-hour coding sprint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
