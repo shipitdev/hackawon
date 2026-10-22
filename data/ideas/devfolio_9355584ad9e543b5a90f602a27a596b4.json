@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-22T07:51:28.604281+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:9355584ad9e543b5a90f602a27a596b4",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent autonomous system powered by n8n and advanced LLMs that crawls open-access biomedical repositories, extracts wet-lab experimental parameters, and synthesizes protocol gaps for computational biology researchers.",
+      "problem_statement": "FRONTIER: Advanced AI, systems and research work at BIOS V2.",
+      "stack": [
+        "TypeScript",
+        "n8n",
+        "Python",
+        "LangGraph",
+        "Browserbase"
+      ],
+      "title": "BioScribe AI: Automated Multi-Agent Biomedical Research Synthesizer",
+      "track": "FRONTIER",
+      "why_it_could_win": "Targets the FRONTIER track with demanding systems and AI engineering while directly leveraging n8n as a workflow sponsor, fitting the pattern of genuinely hard engineering and multi-agent architecture."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1087704265"
+      ],
+      "pitch": "An enterprise-grade risk detection and investigation platform combining graph intelligence and gradient-boosted decision trees to monitor DNA synthesis orders for dual-use biological hazards.",
+      "problem_statement": "FRONTIER: Advanced AI, systems and research work at BIOS V2.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "Neo4j",
+        "MojoAuth"
+      ],
+      "title": "GeneGraph AML: Graph-Intelligence Platform for Synthetic Biology Supply Chains",
+      "track": "FRONTIER",
+      "why_it_could_win": "Combines high-stakes biosecurity domain knowledge with rigorous machine learning models, aligning with the pattern of tackling technically difficult problems and clear measurable safety impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1170846981"
+      ],
+      "pitch": "A real-time computer vision and multimodal symptom-analysis mobile app designed for rural and semi-urban health triage, utilizing lightweight quantized models running close to the edge.",
+      "problem_statement": "CORE: College Students track approachable AI and digital health solutions.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "TypeScript",
+        "Browserbase",
+        "MojoAuth"
+      ],
+      "title": "MediCell AI: Multimodal Edge-Inference Companion for Campus Health",
+      "track": "CORE",
+      "why_it_could_win": "Adopts a clear, quantifiable social benefit pattern combined with robust multimodal computer vision architectures that guarantee a working live demo."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An end-to-end forecasting platform using Poisson regression and automated workflow pipelines to model campus bio-waste management and energy consumption optimization.",
+      "problem_statement": "CORE: College Students track emerging builder solutions.",
+      "stack": [
+        "Python",
+        "n8n",
+        "Jupyter Notebook",
+        "Webdock"
+      ],
+      "title": "EcoCell: Automated Carbon Footprint and Biomass Forecasting Engine",
+      "track": "CORE",
+      "why_it_could_win": "Leverages statistical modeling backed by automated n8n workflows, hitting the pattern of clear measurable environmental impact and robust backtested predictions."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered developer tool built with CodeCrafters principles that auto-generates, tests, and refactors computational biology scripts and sequence-alignment pipelines directly in the browser.",
+      "problem_statement": "FORGE: Industry Partnerships and developer tooling problem statements.",
+      "stack": [
+        "TypeScript",
+        "CodeCrafters SDK",
+        "Python",
+        "Webdock"
+      ],
+      "title": "BioForge CodeCraft: Automated Bio-Python Code Generation Agent",
+      "track": "FORGE",
+      "why_it_could_win": "Directly targets the FORGE partner track by building developer tooling that integrates CodeCrafters challenges and showcases practical engineering utility for corporate sponsors."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

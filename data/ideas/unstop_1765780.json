@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-22T07:51:45.526573+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765780",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1138792186",
+        "github:1169394966"
+      ],
+      "pitch": "A rapid prototyping tool that instantly transforms on-the-spot hackathon challenge prompts into modular boilerplate web applications using local LLMs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "SpotBuild AI",
+      "track": "",
+      "why_it_could_win": "Addresses the exact friction point judges care about in surprise-prompt hackathons: execution speed and rapid scaffolding."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering lifecycle and knowledge intelligence platform capturing developer context in real time to instantly onboard team members.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "React"
+      ],
+      "title": "OnboardFlow AI",
+      "track": "",
+      "why_it_could_win": "Mirrors a proven first-place architectural pattern from recent AI hackathons focusing on developer tooling and knowledge management."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:938030912",
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first AI code reviewer and security guardrail designed for edge deployment during tight live-coding constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "ONNX Runtime",
+        "VS Code Extension API"
+      ],
+      "title": "CodeShield AI",
+      "track": "",
+      "why_it_could_win": "Directly targets developer pain points with local automated testing, bug-fixing GUI, and code completion features."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1010255318",
+        "github:1214808895"
+      ],
+      "pitch": "A dynamic LLM routing system that intelligently sends sub-tasks to the most cost-effective and accurate open-source or commercial models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "LiteLLM"
+      ],
+      "title": "QueryRouter AI",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep system engineering and cost optimization, which technical judges heavily reward over simple UI wrappers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A zero-config auto-embedding and RAG toolkit tailored for relational databases to make immediate unstructured data searchable.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "HNSWLib",
+        "Streamlit"
+      ],
+      "title": "DocEmbed RAG",
+      "track": "",
+      "why_it_could_win": "Applies a proven podium-finishing architecture that solves data retrieval bottlenecks cleanly within a limited timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

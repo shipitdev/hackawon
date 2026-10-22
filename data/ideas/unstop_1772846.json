@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-22T07:52:03.292476+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772846",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A secure, verified peer-to-peer resource sharing and note indexing platform built exclusively for college students to bypass messy Google Drive folders.",
+      "problem_statement": "Solve real problems related to college life.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "title": "CampusHive: Decentralized Peer-to-Peer Notes and Exam Archive",
+      "track": "Build for Campus",
+      "why_it_could_win": "Addresses a universal daily friction point for students across India, making judging evaluation straightforward and relatable."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An intelligent agent that predicts student attendance for hostel meals based on academic schedules and canteen preferences to minimize food waste.",
+      "problem_statement": "Solve real problems related to college life.",
+      "stack": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "MessMeter: AI-Powered Hostel Mess Menu & Food Waste Optimizer",
+      "track": "Build for Campus",
+      "why_it_could_win": "Combines a practical campus-level problem with clear economic and social impact metrics."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI agent and automation tool designed for college professors to check student assignment submissions for both traditional plagiarism and unallowed LLM generation.",
+      "problem_statement": "Build AI agents, automation tools, or LLM-based applications.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "title": "ProctorGuard: Lightweight LLM-Driven Code Plagiarism & AI-Assist Detector",
+      "track": "AI in Action",
+      "why_it_could_win": "Leverages the hot AI track with a practical utility tool that faculty evaluators instantly recognize as valuable."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A specialized voice-enabled AI agent that conducts technical viva-voce mock examinations for engineering students in regional languages.",
+      "problem_statement": "Build AI agents, automation tools, or LLM-based applications.",
+      "stack": [
+        "React",
+        "FastAPI",
+        "Web Speech API",
+        "Groq SDK"
+      ],
+      "title": "VivaPrep: Multilingual Mock Viva Voice Agent",
+      "track": "AI in Action",
+      "why_it_could_win": "Applies cutting-edge multimodal and speech-to-text LLM workflows to a high-stress academic scenario."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An open innovation platform that uses semantic embeddings to parse developer portfolios and automatically form balanced, multi-college hackathon teams.",
+      "problem_statement": "Create any bold and innovative solution.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Superlinked",
+        "PostgreSQL"
+      ],
+      "title": "SkillSync: Autonomous Inter-College Project Matchmaker",
+      "track": "Open Innovation",
+      "why_it_could_win": "Targets the exact demographic of the hackathon—student developers looking for teammates—with a self-referential utility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-22T07:51:32.792505+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:f44c56bf94b24a3ab794a5955b9e7927",
+  "ideas": [
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A lightweight routing layer that dynamically selects between GPT-4o, GPT-4o-mini, and smaller open weights based on prompt complexity to slash costs during high-volume API usage.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Semantic Router"
+      ],
+      "title": "OpenAI API Cost and Latency Router",
+      "track": "",
+      "why_it_could_win": "Leverages OpenAI as the primary sponsor and addresses an immediate, painful cost bottleneck that every developer and judge in the room faces when building AI apps."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A fast local daemon that intercepts terminal commands and git commits to automatically build a searchable graph of project decisions before engineers rotate off.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "SQLite",
+        "OpenAI Embeddings"
+      ],
+      "title": "DevContext: Local Knowledge Capture for Handoffs",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact pattern of developer-tool winners that solve acute team lifecycle problems felt directly by engineering mentors and judges."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A lightweight execution harness that automatically rewrites and tests system prompts using an LLM-judge feedback loop until passing unit tests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "Pydantic"
+      ],
+      "title": "PromptSelfImprove: Self-Correcting LLM Loop",
+      "track": "",
+      "why_it_could_win": "Directly aligns with OpenAI's focus on advanced agentic reasoning workflows and demonstrates genuine algorithmic engineering within a tight 6-hour window."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An automated project scaffolding and context-injection CLI tool optimized specifically for AI code editors to prevent hallucinated imports and missing file references.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Commander.js"
+      ],
+      "title": "CursorContext CLI",
+      "track": "",
+      "why_it_could_win": "Targets developers using modern AI tooling in the room, making it instantly relatable and practical for hackathon judges evaluating workflow enhancements."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1207207353",
+        "github:1296916648"
+      ],
+      "pitch": "A local SQLite-backed caching layer with semantic embedding distance matching to instantly serve cached responses for recurring semantic queries without hitting OpenAI API limits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "SQLite",
+        "Sentence-Transformers",
+        "FastAPI"
+      ],
+      "title": "Offline-First Prompt Cache and Fallback",
+      "track": "",
+      "why_it_could_win": "Combines practical utility for high-frequency API consumers with a clean, demonstrable offline-first architecture that judges can test instantly."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-22T07:52:17.616672+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773211",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A real-time voice assistant built on Agora SDK that helps Bengaluru commuters navigate complex traffic, metro delays, and flooded underpasses using live voice conversational loops.",
+      "problem_statement": "AI for Bengaluru: Develop AI-powered solutions addressing everyday urban challenges.",
+      "stack": [
+        "Agora RTC SDK",
+        "Python",
+        "FastAPI",
+        "OpenAI Realtime API",
+        "Google Maps API"
+      ],
+      "title": "NammaRoute Voice: Bengaluru Commute & Traffic AI Agent",
+      "track": "AI for Bengaluru",
+      "why_it_could_win": "Directly targets local judges' daily pain points in Bengaluru traffic, making the demo instantly relatable and memorable."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An agentic voice shopping assistant that communicates over live Agora audio streams to negotiate prices and check local inventory from street vendors in real-time.",
+      "problem_statement": "Voice-First Commerce: Reimagine shopping and customer experiences through natural voice interactions.",
+      "stack": [
+        "Agora Voice SDK",
+        "LangGraph",
+        "Next.js",
+        "Groq",
+        "PostgreSQL"
+      ],
+      "title": "AuraShop: Voice-First E-Commerce Negotiator",
+      "track": "Voice-First Commerce",
+      "why_it_could_win": "Demonstrates deep integration of Agora's real-time streaming alongside low-latency tool-use execution, fulfilling the voice-first commerce track perfectly."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A browser-based multiplayer mini-game where players command units and coordinate actions using natural speech streamed directly through Agora RTC channels.",
+      "problem_statement": "Real-Time Multiplayer & Gaming: Create interactive gaming experiences powered by real-time voice and communication technologies.",
+      "stack": [
+        "Agora Web SDK",
+        "Socket.io",
+        "Phaser.js",
+        "Node.js",
+        "Whisper STT"
+      ],
+      "title": "SquadCall: Real-Time Voice-Controlled Multiplayer Strategy",
+      "track": "Real-Time Multiplayer & Gaming",
+      "why_it_could_win": "Judges in the gaming track love low-latency interactive demos that show off Agora's core audio routing capabilities combined with live game states."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An autonomous agent that answers emergency support calls over Agora audio, diagnoses software or hardware failures, and triggers automated remediation workflows via APIs.",
+      "problem_statement": "Agentic AI: Develop AI agents that use tools, APIs, and automated workflows to solve real-world problems.",
+      "stack": [
+        "Agora RTC SDK",
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "Twilio API"
+      ],
+      "title": "AutoFix Agent: Autonomous Customer Support Voice Bot",
+      "track": "Agentic AI",
+      "why_it_could_win": "Combines robust agentic tool-use with live telephony/WebRTC audio, matching the enterprise automation trends seen in winning hackathon projects."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An intelligent conversational voice partner built on Agora that helps newcomers practice conversational Kannada in real-time with instant pronunciation corrections.",
+      "problem_statement": "Voice AI & Conversational AI: Build intelligent voice assistants and conversational agents that understand and respond naturally.",
+      "stack": [
+        "Agora Voice SDK",
+        "React",
+        "OpenAI Whisper",
+        "ElevenLabs API"
+      ],
+      "title": "BalaBhasha: Vernacular Voice Tutor for Kannada Dialects",
+      "track": "Voice AI & Conversational AI",
+      "why_it_could_win": "Focuses on regional localization which deeply connects with a Bengaluru-based developer and judge audience."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
