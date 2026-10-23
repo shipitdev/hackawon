@@ -6,7 +6,7 @@
   "ends_at": "2026-10-25T03:30:00Z",
   "mode": "online",
   "organiser": null,
-  "participants_count": 1019,
+  "participants_count": 1092,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -67,7 +67,7 @@
     "judges": [],
     "location": null,
     "name": "Syntax Error 2026",
-    "participants_count": 1019,
+    "participants_count": 1092,
     "participants_details": [
       {
         "first_name": "Pradhumn",
@@ -92,7 +92,29 @@
       }
     ],
     "private": false,
-    "prizes": [],
+    "prizes": [
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "Open Track - Development",
+        "parent_prize_uuid": null,
+        "uuid": "7cd5ddacce634752b2950963f8587bc8"
+      },
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "Open Track - Design",
+        "parent_prize_uuid": null,
+        "uuid": "503e8e36e15f4b8980c74ccbd9221dac"
+      },
+      {
+        "desc": "",
+        "is_sponsor_prize": false,
+        "name": "Freshman Track",
+        "parent_prize_uuid": null,
+        "uuid": "7cda2ade452646138ec4d3764fb3de56"
+      }
+    ],
     "projects_submitted": 0,
     "rating": 0,
     "slug": "syntax-error-6",
@@ -364,6 +386,10 @@
   "team_min": 1,
   "themes": [],
   "title": "Syntax Error 2026",
-  "tracks": [],
+  "tracks": [
+    "Open Track - Development",
+    "Open Track - Design",
+    "Freshman Track"
+  ],
   "url": "https://syntax-error-6.devfolio.co/"
 }
