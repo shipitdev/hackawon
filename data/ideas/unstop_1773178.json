@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-10-23T07:50:53.815132+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773178",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-AI powered smart waste sorting mechanism using computer vision to classify and segregate dry, wet, and hazardous waste on a conveyor belt in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "Raspberry Pi",
+        "C++"
+      ],
+      "title": "SmartBins AI: Edge-Powered Dynamic Garbage Sorting Robot",
+      "track": "",
+      "why_it_could_win": "Hardware hackathons heavily reward physical prototypes that have a working sensor-to-actuator closed loop, directly replicating the success of proven robotics projects."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "A hardware-software digital twin platform that monitors cell voltage, temperature, and current of lithium-ion battery packs, predicting degradation and preventing thermal incidents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Express",
+        "React",
+        "ESP32",
+        "MQTT",
+        "TailwindCSS"
+      ],
+      "title": "VoltTwin: IoT Battery Health & Thermal Runaway Monitor",
+      "track": "",
+      "why_it_could_win": "Combines physical sensor telemetry with an intuitive digital dashboard, echoing the architecture of multi-award-winning industrial IoT systems."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A hybrid monitoring system combining satellite data verification with on-site IoT air and soil sensors to flag environmental violations around industrial zones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js",
+        "ESP8266"
+      ],
+      "title": "GeoSentinel: Satellite & IoT Industrial Land Compliance Tracker",
+      "track": "",
+      "why_it_could_win": "Applies geospatial multi-modal validation to real-world infrastructure problems, following the exact blueprint of recent top-tier hackathon winners."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A low-power ESP32-based mesh network of agricultural sensor pods that automates drip irrigation valves using local machine learning thresholds for optimal water retention.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "MicroPython",
+        "ESP32",
+        "LoRa",
+        "React",
+        "InfluxDB"
+      ],
+      "title": "AgriGuard: Autonomous Soil Moisture & Micro-Irrigation Node",
+      "track": "",
+      "why_it_could_win": "Solves an urgent agricultural automation problem with low-cost microcontrollers, ensuring high impact and practical deployment potential for judges."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated electrical circuit breaker diagnostic board that uses multi-sensor anomaly detection to isolate short circuits and report exact fault coordinates over an MQTT broker.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "LangGraph",
+        "Node.js"
+      ],
+      "title": "SafeGrid: Multi-Agent Electrical Fault Isolation System",
+      "track": "",
+      "why_it_could_win": "Demonstrates real-time hardware safety intervention with instant software feedback, fulfilling the core criteria of a robust engineering prototype."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-10-23T07:50:43.681173+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773100",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "An autonomous agentic workflow manager that monitors local campus server networks and automatically triages and patches security misconfigurations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AgenticOps Raipur",
+      "track": "Agentic AI",
+      "why_it_could_win": "Targeting the Agentic AI and Cybersecurity tracks simultaneously; judges at brief 8-hour hackathons value working agent loops over generic automation."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A lightweight blockchain-based verifiable credential issuing and instant verification portal for college project submissions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Solidity",
+        "Next.js",
+        "Hardhat",
+        "TailwindCSS"
+      ],
+      "title": "BlockTrust Student Credential Layer",
+      "track": "Blockchain",
+      "why_it_could_win": "Directly hits the Blockchain theme with a concrete use case tailored for a college fest context (Avesh at CGIT), making it instantly relevant to local judges."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "A real-time network security sniffer that visualizes unauthorized packet anomalies on an interactive web dashboard for campus IT admins.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Scapy",
+        "TypeScript",
+        "WebSockets"
+      ],
+      "title": "CampusNet Sentry",
+      "track": "Network Security",
+      "why_it_could_win": "Combines Network Security and Web Development tracks with a live, demonstrable working demo showing active packet analysis during the 8-hour window."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Edge-optimized computer vision system using lightweight models to detect agricultural crop diseases from low-resolution smartphone captures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Streamlit"
+      ],
+      "title": "AgriSplat AI Monitor",
+      "track": "AI/ML",
+      "why_it_could_win": "Leverages proven computer-vision classification patterns from past winners like CricketVision_AI, tailored for regional utility in Chhattisgarh."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "An offline-first, low-bandwidth GPS and IoT tracker for intra-campus transport utilizing minimal local hardware nodes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Node.js",
+        "Leaflet.js"
+      ],
+      "title": "OpenInnovate Campus Shuttle Tracker",
+      "track": "Hardware",
+      "why_it_could_win": "Addresses the Hardware and Miscellaneous open innovation track with a practical problem faced directly by students attending the CGIT campus."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

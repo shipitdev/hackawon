@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-23T07:50:21.143430+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:hack-western-13",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Real-time occupancy and arrival time estimator for university shuttles using roadside edge cameras and lightweight object detection.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CampusShuttle Vision",
+      "track": "",
+      "why_it_could_win": "Focuses on a tangible campus pain point for students at Western University with a live computer vision demo, echoing the live-working-demo pattern from winning hackathon entries."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Crowdsourced and sensor-verified library and study space availability tracker across Western University's campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "StudySpot AI",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, relatable problem for hackathon judges and students who struggle to find quiet places to study during midterms."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "AI-powered ticket routing and severity classifier for university residence maintenance requests using natural language processing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "ResLife Maintenance Prioritizer",
+      "track": "",
+      "why_it_could_win": "Applies enterprise workflow automation to a university administration problem, appealing to judges looking for practical operational efficiency tools."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Real-time lecture summarization and interactive mind-map generator for students attending fast-paced university lectures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "React Flow"
+      ],
+      "title": "LectureLens",
+      "track": "",
+      "why_it_could_win": "Leverages generative AI to produce a visually compelling frontend demo that students and academic judges can immediately test on their own notes."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "Automated expense auditing and receipt categorization tool specifically tailored for student union clubs and organizations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Tesseract OCR",
+        "Pandas"
+      ],
+      "title": "CampusClub Budget Guardian",
+      "track": "",
+      "why_it_could_win": "Targets student councils and club executives with a concrete financial utility, demonstrating clear commercial and organizational viability."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

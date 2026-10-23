@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-23T07:50:30.694120+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769646",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A real-time predictive analytics platform that models urban drainage stress and flood risks using municipal geospatial data and IoT sensor feeds.",
+      "problem_statement": "Sustainability and Climate",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "GeoPandas",
+        "Scikit-Learn"
+      ],
+      "title": "EcoDrain: AI-Powered Urban Flood & Drainage Predictive Intelligence",
+      "track": "Sustainability and Climate",
+      "why_it_could_win": "Combines high-impact climate sustainability with practical geospatial data visualization, echoing successful spatial monitoring platforms like GeoNex-ATLAS."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An intelligent multi-agent diagnostic platform that detects vaccine cold-chain anomalies and predicts medical equipment failure using time-series sensor data.",
+      "problem_statement": "Healthcare and Social Impact",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "Gemini API",
+        "TimescaleDB"
+      ],
+      "title": "BioTrace: Autonomous Agentic IoT Healthcare Asset & Cold-Chain Diagnostic Ops",
+      "track": "Healthcare and Social Impact",
+      "why_it_could_win": "Leverages advanced multi-agent LangGraph workflows and anomaly detection pipelines, matching the technical depth of top-tier hackathon winners like iot-smart-home-ai-ops."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A data science toolkit that audits financial credit-scoring models for demographic bias, generating automated mitigation pipelines and compliance reports.",
+      "problem_statement": "Generative AI and Responsible AI",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Fairlearn",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "FairCredit: Automated Bias Detection and Mitigation for Lending Models",
+      "track": "Generative AI and Responsible AI",
+      "why_it_could_win": "Directly targets the crucial judging priority of Responsible AI and algorithmic fairness, modeled on proven solo-built bias mitigation winners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "A real-time digital twin backend and visualization frontend that monitors industrial battery degradation and forecasts remaining operational lifespan.",
+      "problem_statement": "Data Engineering and Business Intelligence",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "React",
+        "Chart.js"
+      ],
+      "title": "GridTwin: Industrial Battery Health & Predictive Digital Twin Dashboard",
+      "track": "Data Engineering and Business Intelligence",
+      "why_it_could_win": "Replicates a proven first-place architecture pairing a robust Node.js/Express REST backend with an interactive React predictive data visualization dashboard."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video indexing tool that transforms unstructured corporate meeting and webinar recordings into searchable, queryable knowledge graphs.",
+      "problem_statement": "Artificial Intelligence and Machine Learning",
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "FAISS",
+        "FastAPI",
+        "HTML5"
+      ],
+      "title": "OmniSearch: Multimodal Video Intelligence Platform for Enterprise Archives",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Applies cutting-edge multimodal unstructured data transformation to solve a universal enterprise productivity problem, echoing LibrAI's winning formula."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
