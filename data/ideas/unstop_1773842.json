@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-24T07:32:00.711177+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773842",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A real-time traffic congestion prediction and dynamic signal optimization platform built for smart cities.",
+      "problem_statement": "Smart Cities",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Next.js",
+        "Leaflet.js"
+      ],
+      "title": "UrbanFlow-AI",
+      "track": "Smart Cities",
+      "why_it_could_win": "Addresses a critical smart city challenge with a live-working demo and clear metrics, echoing the geo-spatial monitoring pattern seen in successful civic tech hacks."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An enterprise-grade browser extension and API pipeline that analyzes DOM anomalies and zero-day phishing indicators using lightweight classification models.",
+      "problem_statement": "Cybersecurity and Network Security",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "TypeScript",
+        "Chrome Extensions API"
+      ],
+      "title": "PhishingShield-ML",
+      "track": "Cybersecurity and Network Security",
+      "why_it_could_win": "Focuses on hard engineering and a robust, end-to-end working demo that judges can immediately install and test live during presentations."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated AI safety and incident forecasting dashboard that processes system logs to predict and log potential model drift or failure cascades.",
+      "problem_statement": "Artificial Intelligence and Generative AI",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "GenAI-IncidentPredict",
+      "track": "Artificial Intelligence and Generative AI",
+      "why_it_could_win": "Directly applies rigorous forecasting and predictive modeling to AI governance, mirroring the exact methodology of the top-winning forecasting hackathon projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An IoT and smart automation simulator that optimizes micro-grid energy distribution based on real-time weather and load forecasts.",
+      "problem_statement": "Smart Cities",
+      "stack": [
+        "Python",
+        "Node.js",
+        "React",
+        "MQTT"
+      ],
+      "title": "GridOptima",
+      "track": "Smart Cities",
+      "why_it_could_win": "Leverages measurable economic and environmental impact, matching the criteria valued in sustainability and smart infrastructure hackathon wins."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "A contextual zero-trust network access verification tool that evaluates behavioral biometrics and network telemetry before granting endpoint permissions.",
+      "problem_statement": "Cybersecurity and Network Security",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "React",
+        "JWT"
+      ],
+      "title": "ZeroTrust-AccessGuard",
+      "track": "Cybersecurity and Network Security",
+      "why_it_could_win": "Tackles a complex, highly relevant enterprise security problem with a demonstrable, working prototype."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

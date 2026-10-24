@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-24T07:32:06.377981+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1774071",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An AI-powered root-cause analysis tool that tracks down conflicting dependency regressions in chaotic, multi-branch codebases.",
+      "problem_statement": "Software & Developer Tools: improve an existing system or handle chaotic code changes.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AST Parser",
+        "OpenAI API"
+      ],
+      "title": "ChaosTrace",
+      "track": "Software & Developer Tools",
+      "why_it_could_win": "Focuses on Software & Developer Tools with a highly demonstrable working prototype, matching the pattern of building genuinely hard engineering systems that solve developer pain points."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual, low-bandwidth voice-first AI health triage and outbreak warning assistant for remote communities.",
+      "problem_statement": "Healthcare & Wellbeing: choose a problem you care about or improve access to health services.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "React"
+      ],
+      "title": "VitalPulse Rural",
+      "track": "Healthcare & Wellbeing",
+      "why_it_could_win": "Leverages a proven social impact winning formula by targeting rural health awareness, offering clear, measurable social impact that judges love to reward."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "An interactive supply chain optimization dashboard that dynamically recalculates shipping routes to minimize carbon emissions.",
+      "problem_statement": "Mobility & Urban Systems: create a product for logistics or environmental impact.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "CarbonRoute AI",
+      "track": "Mobility & Urban Systems",
+      "why_it_could_win": "Combines clear measurable environmental impact with an interactive analytics interface, directly echoing a proven hackathon-winning logistics optimization strategy."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-driven multi-agent student tutor that customizes learning pathways using dynamic RAG over course materials.",
+      "problem_statement": "Education & Learning: explore an entirely new idea or improve an existing learning system.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "SkillForge Multi-Agent",
+      "track": "Education & Learning",
+      "why_it_could_win": "Implements an advanced multi-agent architecture using LangGraph, demonstrating technically difficult engineering that stands out in the Education track."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A rapid graph-based transaction risk analyzer that detects anomalous financial flows in decentralized commerce.",
+      "problem_statement": "Finance & Commerce: improve an existing financial system or build a fraud detection tool.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "TailwindCSS"
+      ],
+      "title": "RiskGraph AML",
+      "track": "Finance & Commerce",
+      "why_it_could_win": "Applies graph intelligence and explainable models to financial compliance, securing high marks for practical utility in Finance & Commerce."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

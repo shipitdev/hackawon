@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-24T07:32:10.256943+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1774085",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous agent that captures architectural decisions and code contexts from PR reviews and developer chats to instantly onboard new engineers during chaotic hackathons or tight dev sprints.",
+      "problem_statement": "Overview Date: 31st October 2026 (Saturday) - Building an agentic AI solution to a practical, real-world challenge involving independent task execution and tool integration.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "ChromaDB",
+        "OpenAI API"
+      ],
+      "title": "AgentDev Lifecycle Intelligence",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of past developer-tools winners like devflow by solving a sharp pain point that hackathon judges and software teams experience daily."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agentic debugging companion that intercepts application runtime crashes, traces root causes across multi-file repositories, generates targeted patches, and opens tested pull requests automatically.",
+      "problem_statement": "Overview Date: 31st October 2026 (Saturday) - Building AI agents that can reason, make decisions, interact with tools, and execute tasks independently.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AI Agents",
+        "GitHub API",
+        "Docker"
+      ],
+      "title": "AutoDebug Bob: Runtime Error Repair Agent",
+      "track": "",
+      "why_it_could_win": "Directly builds on the winning formula of bobthebuilder by delivering a flashy, highly practical live demo that saves hours of human debugging time."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure, federated Model Context Protocol (MCP) server integration that routes medical data queries across isolated databases for specialized clinical AI agents without leaking sensitive PHI.",
+      "problem_statement": "Overview Date: 31st October 2026 (Saturday) - Conceptualize, build, and demonstrate an agentic AI solution to a practical, real-world challenge utilizing tools and APIs.",
+      "stack": [
+        "Python",
+        "Model Context Protocol",
+        "Kubernetes",
+        "FastAPI",
+        "LangChain"
+      ],
+      "title": "MCP Clinical Federated Agent",
+      "track": "",
+      "why_it_could_win": "Leverages advanced architecture patterns seen in runner-up MCP platform entries, impressing judges with enterprise-grade protocol adherence and security mindfulness."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An end-to-end autonomous IT service desk agent that receives IT support tickets via chat, performs triage, requests manager approvals through webhooks, and executes system provisioning tasks independently.",
+      "problem_statement": "Overview Date: 31st October 2026 (Saturday) - Core focus on building AI agents that can reason, make decisions, interact with tools, and execute tasks independently.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Microsoft Copilot Studio APIs",
+        "Slack API",
+        "PostgreSQL"
+      ],
+      "title": "ITSM Autonomous Copilot Desk",
+      "track": "",
+      "why_it_could_win": "Appeals to enterprise business judges by demonstrating clear cost savings and automated workflow orchestration without heavy human intervention."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "A reinforcement-learning-backed prompt optimization engine that iteratively refines agent prompts and execution traces to dramatically reduce token usage and reasoning errors.",
+      "problem_statement": "Overview Date: 31st October 2026 (Saturday) - Design the system architecture, integrate tools and APIs, and build a functional end product driven by reasoning agents.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenAI API",
+        "Streamlit",
+        "LangChain"
+      ],
+      "title": "HyperReasoning Prompt Optimizer",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering by focusing on underlying model efficiency and reinforcement loops, capturing the technical rigor of past OpenAI hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

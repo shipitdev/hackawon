@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-10-24T07:31:56.271376+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773725",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1163393786"
+      ],
+      "pitch": "A robust local simulation and benchmarking framework for developing and testing algorithmic agents against adversarial Warden conditions.",
+      "problem_statement": "Participants will develop algorithm-driven agents that compete against one another in a shared, evolving simulation challenged by an adversarial system known as The Warden.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "WebSockets",
+        "Docker"
+      ],
+      "title": "WardenGuard Arena Framework",
+      "track": "AGENT ARENA",
+      "why_it_could_win": "Directly targets the core final round mechanic of DEADLOCK '26 by giving other teams a testing harness while proving elite multi-agent execution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1208011447"
+      ],
+      "pitch": "An automated strategy-generation and code-mutation engine for competitive programmers to rapidly adapt agent logic during fast-paced rounds.",
+      "problem_statement": "Participants will develop algorithm-driven agents that compete against one another in a shared, evolving simulation. Alongside competing agents, an adversarial system known as The Warden will challenge their strategies.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "OpenAI API",
+        "Redis"
+      ],
+      "title": "StrategySynthesizer AI",
+      "track": "AGENT ARENA",
+      "why_it_could_win": "Solves the specific pressure-cooker time constraints of AGENT ARENA with a deterministic risk-gated execution loop."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A reinforcement learning agent designed for game-theory simulations that dynamically shifts heuristics when faced with adversarial Warden injections.",
+      "problem_statement": "Alongside competing agents, an adversarial system known as The Warden will challenge their strategies, forcing them to adapt, optimize, and make decisions under pressure.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "NumPy"
+      ],
+      "title": "Adaptive Nash Equilibrium Agent",
+      "track": "AGENT ARENA",
+      "why_it_could_win": "Leverages hard algorithmic reinforcement learning to out-maneuver static opponent heuristics in the final arena."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A rapid prototyping compiler wrapper and test-case generator for mastering time-limited competitive programming qualifiers.",
+      "problem_statement": "A competitive programming qualifier testing logical reasoning, algorithmic thinking, and problem-solving skills. Participants will solve coding challenges within a fixed time limit.",
+      "stack": [
+        "Rust",
+        "Python",
+        "CLI"
+      ],
+      "title": "CodeSprint Automated Optimizer",
+      "track": "CODE SPRINT",
+      "why_it_could_win": "Provides a demonstrable, hard-engineering solution to streamline algorithmic problem solving under strict time constraints."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1350419063"
+      ],
+      "pitch": "An adversarial testing framework that simulates multi-agent trade-offs and attacks agent strategies with unexpected game-state mutations.",
+      "problem_statement": "Participants will develop algorithm-driven agents that compete against one another in a shared, evolving simulation. Alongside competing agents, an adversarial system known as The Warden will challenge their strategies.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Streamlit"
+      ],
+      "title": "Multi-Agent Warden Falsification Sandbox",
+      "track": "AGENT ARENA",
+      "why_it_could_win": "Demonstrates complex multi-agent orchestration and rigorous adversarial thesis falsification under live simulation pressure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
