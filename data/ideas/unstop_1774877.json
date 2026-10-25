@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-10-25T07:45:53.761605+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "data",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1774877",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213154728",
+        "github:1177555968"
+      ],
+      "pitch": "An interactive web dashboard that visualizes atmospheric and spectroscopic data from NASA's Exoplanet Archive to predict potential habitable zones and biological markers.",
+      "problem_statement": "The Next Frontier: challenges related to Earth, space, science, technology and humanity's future using NASA's open data.",
+      "stack": [
+        "React",
+        "Python",
+        "FastAPI",
+        "Chart.js",
+        "NASA Exoplanet Archive API"
+      ],
+      "title": "AstroFlora: Exoplanet Biosignature Mapper",
+      "track": "",
+      "why_it_could_win": "Leverages complex scientific data and turns it into an intuitive visual dashboard, mirroring the winning approach of transforming raw public datasets into engaging public awareness tools."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213154728",
+        "github:1283554494"
+      ],
+      "pitch": "A predictive spatial tool combining NASA GRACE satellite hydrology data with local well sensors to monitor and forecast regional groundwater stress.",
+      "problem_statement": "The Next Frontier: challenges related to Earth, space, science, technology and humanity's future using NASA's open data.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "GeoPandas",
+        "NASA GRACE Open Data"
+      ],
+      "title": "AquaSentinel: Groundwater Depletion Tracker",
+      "track": "",
+      "why_it_could_win": "Focuses on high-impact environmental monitoring with a live, functioning demo that clearly quantifies resource depletion."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1143576965",
+        "github:1079921550"
+      ],
+      "pitch": "A real-time space weather monitoring system that parses NASA ACE and SOHO satellite telemetry to predict geomagnetic storms and power grid risks.",
+      "problem_statement": "The Next Frontier: challenges related to Earth, space, science, technology and humanity's future using NASA's open data.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TailwindCSS",
+        "NASA Space Weather API"
+      ],
+      "title": "SolarFlare AI: Grid Vulnerability Early Warning",
+      "track": "",
+      "why_it_could_win": "Tackles a critical infrastructure threat using real-time NASA telemetry feeds, appealing directly to judges looking for tangible real-world risk mitigation."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1346526259",
+        "github:733257937"
+      ],
+      "pitch": "A mapping platform using Landsat thermal infrared imagery to calculate neighborhood-level heat stress and recommend optimal tree-planting zones.",
+      "problem_statement": "The Next Frontier: challenges related to Earth, space, science, technology and humanity's future using NASA's open data.",
+      "stack": [
+        "React",
+        "Leaflet.js",
+        "Python",
+        "Rasterio",
+        "NASA Landsat Open Data"
+      ],
+      "title": "UrbanCanopy: Satellite Urban Heat Island Analyzer",
+      "track": "",
+      "why_it_could_win": "Combines public earth observation data with actionable civic tech outcomes, a proven formula for municipal and hackathon success."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1079913400",
+        "github:1177555968"
+      ],
+      "pitch": "A simulation and tracking dashboard that uses NASA Mars orbital data to model dust storm trajectories for future rover and habitat site planning.",
+      "problem_statement": "The Next Frontier: challenges related to Earth, space, science, technology and humanity's future using NASA's open data.",
+      "stack": [
+        "JavaScript",
+        "Three.js",
+        "Express",
+        "NASA Planetary Data System"
+      ],
+      "title": "AeroDust: Planetary Dust Storm Predictor",
+      "track": "",
+      "why_it_could_win": "Aligns squarely with deep space exploration themes while delivering an interactive simulation that looks impressive in a live demo presentation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

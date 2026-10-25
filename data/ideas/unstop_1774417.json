@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-25T07:45:30.823994+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1774417",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1155558847"
+      ],
+      "pitch": "A lightweight edge-device anomaly classifier trained using Adaption platform for micro-grid power monitoring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Adaption Platform",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AdaptionModel Studio: Custom Edge Classifier for Smart Local Grids",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the hackathon theme of 'Own Your AI: Train a Model That Solves a Real Problem' while emphasizing custom model generation via Adaption's platform."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1275874285"
+      ],
+      "pitch": "An agriculture diagnostic tool using a custom-trained image classification model to detect early-stage crop nutrient deficiencies.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Adaption Platform",
+        "TensorFlow Lite",
+        "Streamlit"
+      ],
+      "title": "CropShield AI: Custom Plant Disease & Stress Predictor",
+      "track": "",
+      "why_it_could_win": "Leverages real-world problem-solving with custom model training, a core focus of the hackathon's scoring rubric regarding practical utility."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1183964401"
+      ],
+      "pitch": "A localized inventory demand forecasting model trained on synthetic micro-retail datasets using Adaption's training tools.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Adaption Platform",
+        "Pandas",
+        "Plotly"
+      ],
+      "title": "SupplyPulse: Custom Demand Forecasting Engine",
+      "track": "",
+      "why_it_could_win": "Demonstrates rigorous mathematical modeling and data preparation within the strict 48-hour window, similar to top-performing forecasting hacks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1192028384"
+      ],
+      "pitch": "A custom text classification model that categorizes and prioritizes citizen-submitted municipal complaints by urgency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Adaption Platform",
+        "Scikit-Learn",
+        "Next.js"
+      ],
+      "title": "CivicLog: Automated Municipal Issue Triage Model",
+      "track": "",
+      "why_it_could_win": "Addresses an obvious civic pain point with a clear end-to-end ML pipeline, emphasizing data curation and model training over generic wrappers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1195808191"
+      ],
+      "pitch": "A localized computer vision model trained to identify road hazards (potholes, unlit paths) from dashcam imagery.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Adaption Platform",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "SafeRoute AI: Custom Urban Hazard Detection Pipeline",
+      "track": "",
+      "why_it_could_win": "Combines computer vision with a demonstrable custom model workflow, making it stand out among teams relying on pre-built generic LLM API wrappers."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

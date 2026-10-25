@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-25T07:45:22.118403+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773675",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "An off-grid acoustic and RF mesh network designed to maintain reliable telemetry links for low-earth-orbit ground stations and remote atmospheric balloon probes.",
+      "problem_statement": "Hardware Track: Space-related communication and ground-station redundancy.",
+      "stack": [
+        "TypeScript",
+        "C++",
+        "ESP32",
+        "LoRa",
+        "React"
+      ],
+      "title": "AstroMesh: LoRa-Based Decentralized Telemetry Relay for CubeSats",
+      "track": "Hardware Track",
+      "why_it_could_win": "Targeting the Hardware Track Winner prize with a physical RF build; draws heavily from the EchoMesh winning pattern of creating functional off-grid hardware communication."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A real-time edge processing pipeline that ingests TLE satellite data and optical tracking feeds to compute high-risk conjunction warnings using automated trajectory clustering.",
+      "problem_statement": "Software Track: Space traffic management and orbital debris tracking.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "CesiumJS",
+        "Scikit-learn"
+      ],
+      "title": "OrbitalDebris-Net: AI-Driven Conjunction Assessment & Collision Avoidance",
+      "track": "Software Track",
+      "why_it_could_win": "Addresses a critical real-world aerospace safety issue, featuring a live interactive data visualization demo that appeals directly to industry expert judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1010199928"
+      ],
+      "pitch": "An edge-computed navigation and telemetry anomaly detection engine for micro-rovers operating in GPS-denied environments like lunar craters.",
+      "problem_statement": "Hardware Track: Robotics and autonomous systems for space exploration.",
+      "stack": [
+        "Python",
+        "C++",
+        "Arduino",
+        "OpenCV",
+        "Isolation Forest"
+      ],
+      "title": "LunarRover-Edge: Autonomous Fault-Tolerant Navigation for Surface Explorers",
+      "track": "Hardware Track",
+      "why_it_could_win": " Combines custom embedded hardware logic with automated sensor anomaly detection, matching the proven winning pattern of unusual physical builds with hard engineering."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent telemetry and automated recovery monitoring platform for simulated space habitat life support systems tracking CO2 scrubbers and power grids.",
+      "problem_statement": "Software Track: Closed-loop habitat automation and telemetry analysis.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Gemini API",
+        "TimescaleDB",
+        "Next.js"
+      ],
+      "title": "SpaceHab-Telemetry: Closed-Loop Environmental Life Support Diagnostics",
+      "track": "Software Track",
+      "why_it_could_win": "Directly targets the Software Track Winner prize by leveraging a sophisticated multi-agent pipeline and live anomaly diagnosis dashboard that judges can interact with instantly."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A custom 3D-printed spectrometer attachment paired with an embedded microcontroller and web UI for real-time spectral analysis of light sources and atmospheric pollution.",
+      "problem_statement": "Hardware Track: Low-cost scientific instrumentation for space research and astronomy.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Python",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AstroSpec: Compact Low-Cost Stellar Spectroscopy Sensor Kit",
+      "track": "Hardware Track",
+      "why_it_could_win": "Competes for the Best Innovation prize by demonstrating a tangible, low-cost hardware prototype built from scratch during the hackathon window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

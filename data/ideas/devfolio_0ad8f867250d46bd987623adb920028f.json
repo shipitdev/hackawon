@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-25T07:44:59.319005+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:0ad8f867250d46bd987623adb920028f",
+  "ideas": [
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1170846981"
+      ],
+      "pitch": "An autonomous AI agent designed specifically for Surat's textile traders to handle multi-lingual supplier negotiations, order tracking, and inventory reconciliation over WhatsApp.",
+      "problem_statement": "Build an AI-powered application or agent that solves a real problem.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Twilio API",
+        "OpenAI API"
+      ],
+      "title": "SuratTextile-Agent",
+      "track": "First Place",
+      "why_it_could_win": "Targets a localized, multi-billion-dollar pain point familiar to business owners and judges in Surat, scoring high on real-world value."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A computer vision and generative AI agent that helps Surat diamond artisans and small-scale polishers automatically document and appraise cut quality and inclusions from smartphone photos.",
+      "problem_statement": "Build an AI-powered application or agent that solves a real problem.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenCV",
+        "Gemini Flash API"
+      ],
+      "title": "DiamondGrade-AI",
+      "track": "First Place",
+      "why_it_could_win": "Leverages domain-specific relevance to Surat's dominant industry, instantly capturing the local judges' attention."
+    },
+    {
+      "build_hours": 17,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering team intelligence platform capturing local IT agency context and code patterns before developers churn, delivering it instantly to new hires.",
+      "problem_statement": "Build an AI-powered application or agent that solves a real problem.",
+      "stack": [
+        "FastAPI",
+        "ChromaDB",
+        "LangGraph",
+        "TypeScript"
+      ],
+      "title": "DevTransfer-Surat",
+      "track": "Second Place",
+      "why_it_could_win": "Directly mirrors a proven national hackathon winner pattern by solving a pain point felt by tech employers and engineering managers judging the event."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1245565654"
+      ],
+      "pitch": "A resume-driven mock interview agent customized for students in Surat preparing for local tech and textile-tech startup placements, featuring localized feedback.",
+      "problem_statement": "Build an AI-powered application or agent that solves a real problem.",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "CampusCoach-Surat",
+      "track": "Third Place",
+      "why_it_could_win": "Targeting student employability is an easy win for an audience primarily composed of university students and local educational institutions."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A voice-first, multilingual Gujarati and Hindi AI health triage agent for semi-urban clinics around Surat to log symptoms and map preventive care protocols.",
+      "problem_statement": "Build an AI-powered application or agent that solves a real problem.",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "FastAPI",
+        "React"
+      ],
+      "title": "GujaratiHealth-Agent",
+      "track": "First Place",
+      "why_it_could_win": "Demonstrates clear, quantified social impact and localized language capability that stands out in regional hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

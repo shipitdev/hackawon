@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-25T07:45:12.758218+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772753",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1075630497",
+        "github:1155558847"
+      ],
+      "pitch": "Early pest and disease outbreak prediction platform using multi-spectral satellite imagery and farmer crowd-sourced image reporting for rural cooperatives.",
+      "problem_statement": "Agriculture, Food and Rural development",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Dart",
+        "Flutter",
+        "PyTorch"
+      ],
+      "title": "CropShield AI",
+      "track": "Agriculture, Food and Rural development",
+      "why_it_could_win": "Directly tackles the Agriculture, Food and Rural development theme with proven computer vision execution similar to past UN hackathon winners, giving rural committees actionable early warnings."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:783172279",
+        "github:901472660"
+      ],
+      "pitch": "Immutable ledger for tracking allocation of funds and material distribution under rural development schemes to eliminate intermediary corruption.",
+      "problem_statement": "Cybersecurity & Blockchain",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "Hardhat",
+        "React",
+        "Node.js"
+      ],
+      "title": "AuditChain Rural",
+      "track": "Cybersecurity & Blockchain",
+      "why_it_could_win": "Combines the Cybersecurity & Blockchain track with a high-impact administrative use case, mirroring the success of secure voting and ledger projects at regional hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:901472660"
+      ],
+      "pitch": "Offline-first bookkeeping and automated credit scoring app for micro-entrepreneurs and street vendors operating in semi-urban and rural markets.",
+      "problem_statement": "Fintech",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "title": "MicroLedger Sync",
+      "track": "Fintech",
+      "why_it_could_win": "Targets the Fintech theme with a high-utility local economic problem, focusing on underserved merchants rather than generic consumer wallets."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "IoT-backed microgrid automation tool that dynamically balances power distribution across agricultural pumps and rural households to minimize blackouts.",
+      "problem_statement": "Smart Automation",
+      "stack": [
+        "Python",
+        "MQTT",
+        "Flask",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "GridFlow Smart Energy",
+      "track": "Smart Automation",
+      "why_it_could_win": "Addresses Smart Automation with tangible infrastructure utility, appealing directly to judges looking for scalable regional impact rather than simple consumer software."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "Automated engineering offboarding platform that crawls codebase commits, pull requests, and internal documentation to generate instant context summaries for incoming developers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "FastAPI",
+        "LangChain",
+        "Chroma",
+        "TypeScript",
+        "React"
+      ],
+      "title": "DevTransfer Knowledge Guard",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to every technical judge and engineering student in the room, mirroring the developer-tool success seen at prominent university hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

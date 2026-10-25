@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-10-25T07:45:57.338208+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775195",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated local enumeration script tuned for beginner CTFs to quickly parse linpeas outputs and map privilege escalation vectors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Bash"
+      ],
+      "title": "Auto-Pwn Companion for Boot2Root",
+      "track": "",
+      "why_it_could_win": "Genuinely hard engineering applied to automation, saving crucial minutes during a tight 24-48 hour window."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A secure local TUI application to track captured flags, store write-up notes in markdown, and map attack trees during a CTF.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Rust",
+        "Ratatui"
+      ],
+      "title": "FlagVault Local Manager",
+      "track": "",
+      "why_it_could_win": "Solves an operational headache for teams racing against the clock on a local VM."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1161237076"
+      ],
+      "pitch": "A lightweight local database and fuzzy matcher that cross-references kernel versions found on target VMs with known local privilege escalation exploits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "SQLite"
+      ],
+      "title": "Kernel Exploit Matcher",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core challenge of boot2root VMs—identifying the correct kernel exploit path quickly."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A specialized network mapper tailored for local OVA targets to instantly visualize open ports, services, and default credentials.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "Nmap API"
+      ],
+      "title": "Subdomain and Service Topology Mapper",
+      "track": "",
+      "why_it_could_win": "Improves reconnaissance speed, which is critical for winning beginner-friendly CTFs under time pressure."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An offline-capable command-line tool that takes terminal command histories and generates a clean, structured penetration testing report.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain"
+      ],
+      "title": "CTF Writeup Generator Agent",
+      "track": "",
+      "why_it_could_win": "Leverages developer tooling automation patterns seen in top-tier hackathon winners to deliver immediate utility after capturing flags."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
