@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-10-26T08:01:46.126180+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware",
+      "impact"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1776892",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1341712439"
+      ],
+      "pitch": "A lightweight browser-based IoT dashboard and anomaly-detection engine that simulates continuous patient vitals and triggers multi-channel alerts for home caregivers.",
+      "problem_statement": "Build a Hospital That Fits Inside a Bedroom: Sense → Understand → Predict → Alert → Respond",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TimescaleDB",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "WardZero Edge: Simulated ICU Telemetry & Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Directly maps to the mandatory five-stage core mission (Sense through Respond) and leverages proven edge anomaly detection patterns from past winners."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:128498473",
+        "github:1195808191"
+      ],
+      "pitch": "A webcam-based simulator that tracks patient bed occupancy, posture stability, and medication compliance without physical hardware sensors.",
+      "problem_statement": "Build a Hospital That Fits Inside a Bedroom: Sense → Understand → Predict → Alert → Respond",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BedsideVision: Computer-Vision Fall & Pillbox Monitor",
+      "track": "",
+      "why_it_could_win": "Visually arresting live demo featuring real-time video simulation and computer vision, standing out against generic text dashboards."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:964068655",
+        "github:1170846981"
+      ],
+      "pitch": "A voice-activated conversational health triage agent for family caregivers that translates ambiguous home symptoms into structured clinical urgency scores.",
+      "problem_statement": "Build a Hospital That Fits Inside a Bedroom: Sense → Understand → Predict → Alert → Respond",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "FastAPI",
+        "React",
+        "Web Speech API"
+      ],
+      "title": "AuraWard: Multilingual Voice & Triage Companion",
+      "track": "",
+      "why_it_could_win": "Addresses the real-world caregiver bottleneck by offering instant multilingual triage, hitting the exact accessibility sweet spot judges love."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An automated escalation protocol engine that routes simulated abnormal vitals through WhatsApp, SMS, and backup family channels based on risk severity.",
+      "problem_statement": "Build a Hospital That Fits Inside a Bedroom: Sense → Understand → Predict → Alert → Respond",
+      "stack": [
+        "Node.js",
+        "Express",
+        "Twilio API",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "WardSync: Closed-Loop Family Care Escalation Network",
+      "track": "",
+      "why_it_could_win": "Solves the critical 'Respond' part of the mission with concrete notification integrations that make the project feel production-ready during judging."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A web-app utility using browser video streams to measure remote photoplethysmography (rPPG) heart rate estimation for continuous non-contact bedroom monitoring.",
+      "problem_statement": "Build a Hospital That Fits Inside a Bedroom: Sense → Understand → Predict → Alert → Respond",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "Chart.js"
+      ],
+      "title": "MedPulse rPPG: Contactless Heart Rate Ward Monitor",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard software engineering by extracting physiological metrics directly from video frames without wearable hardware."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-26T08:01:23.482478+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773166",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An automated evaluation platform built with the MERN stack that grades and diagnoses complex, real-world full-stack architecture case studies submitted by students.",
+      "problem_statement": "MERN Stack Development and Real-World Case-Based Questions",
+      "stack": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js"
+      ],
+      "title": "MERN-Guard: Real-World Case & Architecture Evaluator",
+      "track": "",
+      "why_it_could_win": "Directly targets the core domains of TechFusion's MERN Stack and case-based competition focus by offering a tool judges can immediately test with real code submissions."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:670456402"
+      ],
+      "pitch": "An interactive AI-powered learning and assessment platform focusing on core computer science subjects and MERN stack debugging.",
+      "problem_statement": "Artificial Intelligence and Machine Learning and Core Computer Science Subjects",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Python"
+      ],
+      "title": "CodeMentor AI: MERN & CS Fundamentals Copilot",
+      "track": "",
+      "why_it_could_win": "Combines AI/ML concepts with core CS fundamentals, directly addressing two distinct testing domains of the hackathon in a single integrated web app."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A MERN-based competitive aptitude and logical reasoning trainer featuring custom problem generation and instant step-by-step analytical breakdowns.",
+      "problem_statement": "Aptitude and Logical Reasoning",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "title": "AptitudeFlow: Real-Time Logic & Reasoning Trainer",
+      "track": "",
+      "why_it_could_win": "Solves the specific problem of practicing analytical thinking and numerical ability by providing an interactive web-based testing suite."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A full-stack MERN application that inspects Node/Express/React codebases for anti-patterns, security vulnerabilities, and architectural bottlenecks.",
+      "problem_statement": "MERN Stack Development",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "title": "StackAudit: Automated MERN Code Quality & Security Analyzer",
+      "track": "",
+      "why_it_could_win": "Solves a problem judges and developers feel themselves by providing instant code reviews and actionable optimization tips for MERN projects."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:670456402"
+      ],
+      "pitch": "An AI-driven case study generator that creates custom real-world business and technical scenarios with automated evaluation rubrics for student practice.",
+      "problem_statement": "Real-World Case-Based Questions",
+      "stack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "OpenAI API"
+      ],
+      "title": "CaseSolver AI: Intelligent Case-Based Problem Generator",
+      "track": "",
+      "why_it_could_win": "Directly tackles the real-world case-based problem statement using generative AI to create dynamic, unique technical challenges on demand."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

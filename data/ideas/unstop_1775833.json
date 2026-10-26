@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-26T08:01:27.515041+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775833",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A high-performance algorithmic duel platform built in C++ featuring real-time socket-based competitive programming clashes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Boost.Asio",
+        "PostgreSQL"
+      ],
+      "title": "AlgoDuel Matchmaker",
+      "track": "",
+      "why_it_could_win": "Code Clash strictly forbids AI assistance and limits languages to C++, Java, and Python. A pure C++ high-performance competitive programming platform directly matches the strict no-AI, algorithmic-heavy spirit of the event."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A lightweight concurrency and memory profiling tool for Java applications executing under strict time and memory limits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java",
+        "JVM Tool Interface",
+        "JavaFX"
+      ],
+      "title": "JavaThread Profiler",
+      "track": "",
+      "why_it_could_win": "Judges in traditional algorithm and code-focused hackathons prioritize execution efficiency, strict time-limit compliance, and memory optimization."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An advanced constraint satisfaction problem solver and interactive visualizer written in pure Python.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Tkinter",
+        "NetworkX"
+      ],
+      "title": "PyConstraint Solver Visualizer",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on hard engineering and rigorous algorithmic problem-solving rather than wrapper applications, aligning with the contest's allowed language set."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "A secure, sandboxed execution environment for untrusted C++ submissions with automated leak detection.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Docker API",
+        "Linux cgroups"
+      ],
+      "title": "MemoryGrid C++ Sandbox",
+      "track": "",
+      "why_it_could_win": "Directly tackles the infrastructural needs of the contest platform itself, demonstrating deep systems-level programming expertise without relying on forbidden AI tools."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A modular bytecode disassembler and optimization analyzer for Java class files.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java",
+        "ASM Library",
+        "Swing"
+      ],
+      "title": "ByteCode Inspector",
+      "track": "",
+      "why_it_could_win": "Showcases complex, low-level technical execution that stands out in a hackathon where AI generation is banned and code craftsmanship is paramount."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-26T08:01:36.438159+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1776294",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline AI-powered code reviewer running locally on client hardware to catch security anti-patterns before commits.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ONNX",
+        "Transformers"
+      ],
+      "title": "LocalDev Guard",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact technical architecture of DevMesh which won 2nd place at the Qualcomm Snapdragon Multiverse Hackathon, appealing to judges looking for high-performance edge AI tooling."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering lifecycle intelligence platform that ingests repository activity and pull requests to automatically build searchable team knowledge graphs for new hires.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma",
+        "LangGraph",
+        "FastAPI"
+      ],
+      "title": "OnboardFlow AI",
+      "track": "",
+      "why_it_could_win": "Directly replicates the winning pattern of devflow by solving a painful developer onboarding bottleneck that hackathon judges experience firsthand."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free, self-improving semantic router using kNN over an exemplar index to dynamically route user queries to the cheapest and most accurate LLM endpoint.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Semantic-Router",
+        "Superlinked"
+      ],
+      "title": "SemanticRouter Hub",
+      "track": "",
+      "why_it_could_win": "Leverages the proven high-performance architecture of darwin-router, offering judges immediate cost-saving utility for production AI systems."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual BPMN-orchestrated pre-deployment risk diagnosis tool that validates multi-agent AI execution paths and catches compliance violations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AI-Agents",
+        "BPMN",
+        "Human-in-the-loop"
+      ],
+      "title": "AgentWorkflow BPMN Guard",
+      "track": "",
+      "why_it_could_win": "Adapts the prize-winning methodology of fde-agent-uipath, focusing heavily on enterprise AI governance and risk management which impresses technical judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A zero-config auto-embedding and RAG toolkit tailored natively for MariaDB to instantly transform database documentation into a searchable context engine.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Embeddings",
+        "HNSW",
+        "MariaDB"
+      ],
+      "title": "AutoRAG MariaDB Toolkit",
+      "track": "",
+      "why_it_could_win": "Applies the successful recipe of seamless-rag, targeting database developers with a turnkey utility that solves a common data retrieval pain point."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-10-26T08:01:50.525416+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1777334",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python and LLM-powered assistant designed specifically for Capture The Flag events to quickly analyze binary files, web endpoints, and scripts to suggest potential vulnerabilities and flag vectors.",
+      "problem_statement": "Overview This is a Capture The Flag (CTF): a set of security puzzles built to be solved. Each challenge hides a secret text called a flag.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "OpenAI API"
+      ],
+      "title": "CTF Automator and Automated Exploit Generator",
+      "track": "",
+      "why_it_could_win": "Leverages technical execution inspired by high-performing security intelligence tools like reportr, giving players a critical speed advantage in a time-limited competition."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A local security workspace designed for web exploitation challenges that parses HTTP request traffic, auto-injects fuzzing payloads, and visualizes response differences to isolate hidden flags.",
+      "problem_statement": "Overview This is a Capture The Flag (CTF): a set of security puzzles built to be solved. Each challenge hides a secret text called a flag.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "title": "WebSec Visualizer and Payload Tester",
+      "track": "",
+      "why_it_could_win": "Solves the tedious manual work of tracking request states during rapid web hacking challenges, allowing competitors to solve challenges faster."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A modular CLI and web utility tool that rapidly chains together common CTF cryptographic primitives, obfuscations, and multi-layered encodings to uncover hidden strings.",
+      "problem_statement": "Overview This is a Capture The Flag (CTF): a set of security puzzles built to be solved. Each challenge hides a secret text called a flag.",
+      "stack": [
+        "Python",
+        "Click",
+        "Streamlit"
+      ],
+      "title": "Crypto and Encoding Decryption Pipeline",
+      "track": "",
+      "why_it_could_win": "Targets the most repetitive bottleneck in cryptography and forensics challenges by instantly brute-forcing common encoding layers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A real-time collaborative documentation platform tailored for CTF players to share file drops, terminal logs, command snippets, and flag submissions seamlessly between teammates.",
+      "problem_statement": "Overview This is a Capture The Flag (CTF): a set of security puzzles built to be solved. Each challenge hides a secret text called a flag.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "CTF Team Note-Taking and Writeup Hub",
+      "track": "",
+      "why_it_could_win": "Addresses team coordination issues during high-pressure 24-48 hour hacking sprints where keeping track of clues and flags is paramount."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated file analysis tool that extracts hidden payloads, checks file headers, inspects trailing bytes, and scans multimedia files for embedded hidden text flags.",
+      "problem_statement": "Overview This is a Capture The Flag (CTF): a set of security puzzles built to be solved. Each challenge hides a secret text called a flag.",
+      "stack": [
+        "Python",
+        "Pillow",
+        "Flask"
+      ],
+      "title": "Steganography and File Carving Detective",
+      "track": "",
+      "why_it_could_win": "Automates complex forensic carving workflows that normally require multiple standalone command-line utilities."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

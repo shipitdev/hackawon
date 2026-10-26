@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-26T08:01:55.339913+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1777504",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An agentic compliance officer for financial operations that uses explicit BPMN workflows with mandatory human-in-the-loop checkpoints before executing high-stakes transactions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "BPMN engine",
+        "SQLite"
+      ],
+      "title": "GuardRail BPMN: Autonomous Compliance Enforcer",
+      "track": "Governance & Safety",
+      "why_it_could_win": "Directly targets the core judging criteria of failure modes, human oversight, intervention, and reversibility, which are heavily weighted by the governance experts on the judging panel."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "An IT support agent for remote monitoring and management that takes destructive actions on customer machines while automatically generating instant system restore points and dry-run diffs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "OpenAI API",
+        "Redis"
+      ],
+      "title": "RollbackAgent: Automated Undo for Enterprise RMM",
+      "track": "General Agentic AI",
+      "why_it_could_win": "Wins by demonstrating flawless 'reversibility'—allowing a human to instantly roll back agent mistakes with a single click, addressing the exact failure scenarios judges are looking for."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A semantic gateway proxy that sits between customer-facing AI agents and external APIs, intercepting anomalous tool-calls using a self-improving kNN exemplar index before execution occurs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen",
+        "Semantic Router"
+      ],
+      "title": "CircuitBreaker AI: Real-Time Hallucination Interception",
+      "track": "Technical Innovation",
+      "why_it_could_win": "Leverages the training-free semantic routing architecture that won the Superlinked x Qwen Hackathon, proving high technical execution in managing agent failure modes."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol server aggregator for clinical workflows that requires multi-party human sign-off on sensitive patient data writes and flags confidence drops in real time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MCP SDK",
+        "Kubernetes",
+        "FastAPI",
+        "LangGraph"
+      ],
+      "title": "Clinical Guard: MCP-Orchestrated Medical Agent Oversight",
+      "track": "Real-World Impact",
+      "why_it_could_win": "Combines high-utility real-world domain focus (healthcare) with rigorous oversight mechanics, scoring high on usefulness to real people and intervention quality."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous agent that monitors exiting software engineers' terminal commands and PRs to construct interactive runbooks, preventing critical tribal knowledge loss.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ChromaDB",
+        "FastAPI",
+        "LangGraph",
+        "Docker"
+      ],
+      "title": "DevOffboard: Engineering Knowledge Capture Agent",
+      "track": "Developer Tools",
+      "why_it_could_win": "Solves an acute, relatable pain point for technical judges and student organisers, following the winning pattern of targeting problems the judges feel themselves."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

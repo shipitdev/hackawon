@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-26T08:01:32.822639+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775961",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered personalized mentor platform providing adaptive learning paths and peer collaboration matching for women in STEM.",
+      "problem_statement": "Education and artificial intelligence domains focused on inclusive learning and skill development.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "LangGraph",
+        "Supabase",
+        "OpenAI API"
+      ],
+      "title": "AuraEdu",
+      "track": "Education",
+      "why_it_could_win": "Leverages multi-agent architectures similar to recent hackathon winners, directly addressing the education and AI domains specified in the event themes."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1283554494",
+        "github:1346526259"
+      ],
+      "pitch": "A carbon footprint optimizer and secure transit planner for female professionals and students utilizing micro-mobility.",
+      "problem_statement": "Sustainability and urban mobility challenges for women.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Leaflet.js",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "EcoRoute Women",
+      "track": "Sustainability",
+      "why_it_could_win": "Combines sustainability metrics with practical personal safety and efficiency metrics, fulfilling both the sustainability domain and practical utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1259514645"
+      ],
+      "pitch": "A non-invasive health triage and wellness tracking tool using remote photoplethysmography (rPPG) via standard smartphone cameras.",
+      "problem_statement": "Healthcare technology and practical wellness solutions for everyday users.",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "FastAPI",
+        "Python"
+      ],
+      "title": "VitaScan",
+      "track": "Healthcare",
+      "why_it_could_win": "Demonstrates a hard engineering feat with a live-working webcam demo that captures real biological data, directly mirroring high-placing health tech prototypes."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "A multimodal lost-and-found portal utilizing computer vision to match lost items with community reports on an interactive map.",
+      "problem_statement": "Software development for community problem-solving and campus logistics.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Firebase",
+        "Gemini AI API",
+        "TomTom Maps"
+      ],
+      "title": "CampusFind AI",
+      "track": "Software Development",
+      "why_it_could_win": "Integrates multimodal AI matching with location intelligence, proving immediate utility and a bulletproof live demo."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-driven grievance redressing and community feedback dashboard designed for women-led municipal initiatives.",
+      "problem_statement": "Civic tech and community-driven software development for real-world impact.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "LLM API",
+        "TailwindCSS"
+      ],
+      "title": "CivicVoice AI",
+      "track": "Civic Tech",
+      "why_it_could_win": "Provides measurable community impact and a live administrative dashboard that local organizers and judges can interact with instantly."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
