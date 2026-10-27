@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-27T08:15:27.600957+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775867",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "An automated reconnaissance and vulnerability chaining CLI tailored for multi-machine lab penetration testing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Rich",
+        "Requests",
+        "Docker"
+      ],
+      "title": "Multiverse AutoPwn CLI",
+      "track": "",
+      "why_it_could_win": "Demonstrates a hard engineering approach to automating security enumeration, drawing from the technically difficult pattern seen in winning cybersecurity tooling."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A visual relationship mapper that tracks discovered web endpoints, credentials, and pivot paths across multi-machine cyber labs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Cytoscape.js",
+        "FastAPI"
+      ],
+      "title": "LabGraph Topology Mapper",
+      "track": "",
+      "why_it_could_win": "Solves a complex organizational problem during active penetration testing, aligning with the graph intelligence approach used in winning analytics platforms."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A local traffic interception proxy designed to discover broken object level authorization (BOLA) flaws in modern lab APIs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "SQLite",
+        "Proxy"
+      ],
+      "title": "API Fuzzing Guard",
+      "track": "",
+      "why_it_could_win": "Targets high-value web and API vulnerabilities directly emphasized in the hackathon description, ensuring relevance to security judges."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "An offline, searchable repository of privilege escalation vectors equipped with instant command generation for Linux and Windows targets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "TailwindCSS",
+        "Electron"
+      ],
+      "title": "PrivEsc Checklist & Exploit Vault",
+      "track": "",
+      "why_it_could_win": "Delivers an immediately useful utility for competitors tackling timed lab machines, prioritizing practical execution and speed."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A tool to analyze web application input sanitization filters and dynamically generate bypass strings for common injection vectors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "BeautifulSoup"
+      ],
+      "title": "Payload Diff & Warden",
+      "track": "",
+      "why_it_could_win": "Employs a defense-in-depth and red-team mindset similar to winning security agent submissions, appealing to deep technical evaluators."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-27T08:15:36.818418+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1777958",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A real-time login anomaly detector that breaks down impossible travel, ASN anomalies, and device fingerprint shifts into human-readable risk reports.",
+      "problem_statement": "Smart Login Guardian",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "Scikit-Learn"
+      ],
+      "title": "AuthLogix: Explainable Risk Signals for Smart Login Guardian",
+      "track": "",
+      "why_it_could_win": "Directly targets a published challenge area with reproducible log analysis and explainability, leveraging patterns from proven log-analysis winners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An automated traffic analysis dashboard that ingests synthetic API request logs to instantly flag DDoS precursors, credential stuffing, and unusual traffic spikes.",
+      "problem_statement": "API Traffic Watch",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Gemini"
+      ],
+      "title": "LogSentry: NGINX and API Traffic Spike Detector",
+      "track": "",
+      "why_it_could_win": "Fits the exact focus on working prototypes and reproducible results using synthetic request metrics."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "A lightweight parser and LLM wrapper that ingests raw, cryptic SIEM alerts and converts them into prioritized remediation playbooks for junior engineers.",
+      "problem_statement": "Explain My Security Alert",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js"
+      ],
+      "title": "AlertInterpreter: Structured Security Alert Plain-Language Converter",
+      "track": "",
+      "why_it_could_win": "Delivers immediate utility for cybersecurity practitioners by turning noisy technical alerts into actionable advice."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A time-series anomaly detection pipeline that analyzes synthetic CPU, memory, and latency metrics to forecast system outages before thresholds are breached.",
+      "problem_statement": "Predict the Outage",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Scikit-Learn"
+      ],
+      "title": "MetricPulse: Early Warning Outage Predictor",
+      "track": "",
+      "why_it_could_win": "Combines robust statistical metric tracking with a clear, functional dashboard matching the judges' priority on technical understanding."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An isolated diagnostic tool that combs through synthetic system measurement dumps to flag out-of-bounds metrics and structural anomalies.",
+      "problem_statement": "Find the Anomaly",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Tailwind CSS"
+      ],
+      "title": "AutoAudit: Automated System Health and Anomaly Scanner",
+      "track": "",
+      "why_it_could_win": "Features an isolated, easily demonstrable ingestion pipeline that proves technical rigor within a short 24-48 hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-27T08:15:55.044426+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1778599",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An edge-AI clinical triage assistant tailored for medical device workflows, integrating computer vision for automated preliminary patient screening.",
+      "problem_statement": "Bio-Rad's AI Initiatives",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "BioMed Vision Triage",
+      "track": "Bio-Rad AI Initiatives",
+      "why_it_could_win": "Directly aligns with Bio-Rad Medisys's AI initiatives by solving a tangible clinical diagnostic triage problem with a working computer vision prototype, matching a proven winning pattern from Mediscan AI."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1201373661"
+      ],
+      "pitch": "An interactive digital twin and spatial annotation tool designed for industrial project visualisation and remote collaboration.",
+      "problem_statement": "Ethosh's Projects",
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Node.js",
+        "WebRTC"
+      ],
+      "title": "Ethosh XR Workflow Assistant",
+      "track": "Ethosh Projects",
+      "why_it_could_win": "Tailored specifically to Ethosh's core domain of digital projects and immersive tech solutions, offering judges a direct application for enterprise client interactions."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:939993991"
+      ],
+      "pitch": "An intelligent diagnostic reagent and assay recommendation agent that matches patient symptom panels with clinical lab testing kits.",
+      "problem_statement": "Bio-Rad's AI Initiatives",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "LabSpec AI Matcher",
+      "track": "Bio-Rad AI Initiatives",
+      "why_it_could_win": "Focuses on high-value B2B healthcare logistics and diagnostic assay selection, a practical domain-specific workflow that appeals directly to medical device stakeholders."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1201373661"
+      ],
+      "pitch": "A generative, interactive presentation platform that turns static technical project briefs into dynamic 3D explainer experiences.",
+      "problem_statement": "Ethosh's Projects",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Three.js",
+        "OpenAI API"
+      ],
+      "title": "Interactive Immersive Pitch Deck",
+      "track": "Ethosh Projects",
+      "why_it_could_win": "Leans heavily into Ethosh's expertise in creative visual communication and enterprise presentation tech, ensuring high visual engagement during the final pitch."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A real-time remote patient monitoring dashboard featuring webcam-based rPPG heart rate detection and anomaly alerting.",
+      "problem_statement": "Bio-Rad's AI Initiatives",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "Socket.io"
+      ],
+      "title": "BioSignal Vital Edge",
+      "track": "Bio-Rad AI Initiatives",
+      "why_it_could_win": "Replicates the proven winning formula of Mediscan AI by delivering a working hardware-adjacent software demo that judges can interact with live using their own laptops."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

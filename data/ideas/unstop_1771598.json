@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-27T08:15:08.917178+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771598",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "Real-time visualization tool for competitive programming knockout matches showing memory, execution traces, and submission race conditions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "WebSockets"
+      ],
+      "title": "Codeforces Algorithmic Duel Visualizer",
+      "track": "",
+      "why_it_could_win": "Since this hackathon is specifically an offline competitive programming contest and knockout tournament on Codeforces organised by PYC Club, a tool that enhances the live spectator and debugging experience for knockout matches directly serves the event's core focus."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "Personalized machine learning recommendation engine that analyzes a Codeforces handle's submission history and suggests optimal upsolving problems.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Streamlit",
+        "Codeforces API"
+      ],
+      "title": "CP Upsolve Recommender",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the competitive programmers participating in Syntax Sprint by using algorithmic data analysis on Codeforces stats to improve rating growth."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "Lightweight terminal-based local testing environment that simulates Codeforces time and memory limits with instant local grading for multiple languages.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Go",
+        "Docker",
+        "CLI"
+      ],
+      "title": "Submitspeed Offline Testing Sandbox",
+      "track": "",
+      "why_it_could_win": "Solves a concrete workflow pain point for contestants racing against the clock in an offline 3-hour competitive coding environment."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "Offline-first leaderboard and performance tracking dashboard for monitoring the Syntax Sprint live contest standings and participant stats.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "CP Streak & Rating Tracker Dashboard",
+      "track": "",
+      "why_it_could_win": "Provides immediate utility for event organizers and participants tracking the knockout matches and live rankings."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "AI-powered tool that parses complex Codeforces problem editorials and breaks them down into intuitive algorithmic intuition steps and pseudocode.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Markdown"
+      ],
+      "title": "Codeforces Editorial Summarizer",
+      "track": "",
+      "why_it_could_win": "Directly helps participants learn faster during post-contest upsolving by transforming dense editorial text into clear visual logic."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

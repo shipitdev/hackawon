@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-10-27T08:15:20.499609+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775217",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An AI-powered operational log anomaly detection dashboard that transforms messy server and supply chain logs into real-time operational intelligence.",
+      "problem_statement": "AI for Operational Intelligence Case Challenge: Analyzing real-world operational bottlenecks and root causes using AI.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "FastAPI",
+        "Gemini API"
+      ],
+      "title": "OpsLogix AI",
+      "track": "",
+      "why_it_could_win": "Directly tackles the core theme of 'AI for Operational Intelligence' by providing a concrete anomaly detection dashboard modelled after proven real-time log analyzers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A solo-built operational fairness and bias auditing platform designed to detect and mitigate workflow bottlenecks and human resource allocation biases.",
+      "problem_statement": "AI for Operational Intelligence Case Challenge: Responsible use of AI in corporate and industrial operations.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "EquiProcess AI",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the 'responsible use of AI' evaluation criterion required by the organizers, mimicking successful solo bias-detection platforms."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "An AI Battery Intelligence and Digital Twin platform providing predictive maintenance and health diagnostics for industrial equipment.",
+      "problem_statement": "AI for Operational Intelligence Case Challenge: Designing feasible, data-informed operational solutions.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "React",
+        "Vite"
+      ],
+      "title": "AssetTwin Ops",
+      "track": "",
+      "why_it_could_win": "Reuses proven hackathon-winning backend architectures for digital twin monitoring, translating directly to industrial operations use cases."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent closed-loop diagnostic operations platform that monitors sensor data streams to automatically trigger root-cause analysis for supply chain machinery.",
+      "problem_statement": "AI for Operational Intelligence Case Challenge: Problem-solving and root cause analysis for operational challenges.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Qdrant",
+        "Gemini 2.5"
+      ],
+      "title": "AutoDiag IoT Ops",
+      "track": "",
+      "why_it_could_win": "Demonstrates sophisticated automated root-cause analysis which directly satisfies the case challenge requirement to analyze root causes."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:993038682"
+      ],
+      "pitch": "A customer feedback intelligence dashboard that converts unstructured support tickets into actionable operational metrics and competitive benchmarks.",
+      "problem_statement": "AI for Operational Intelligence Case Challenge: Data-driven decision-making and transforming unstructured text into insights.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "SentimentOps Benchmarker",
+      "track": "",
+      "why_it_could_win": "Applies a popular, highly polished user dashboard template that judges easily understand and evaluate within a 72-hour presentation format."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

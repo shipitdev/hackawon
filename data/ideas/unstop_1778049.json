@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-10-27T08:15:46.262803+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1778049",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A CLI and web interface designed to rapidly compile, format, and structure professional bug bounty reports for Cyberhunt 2077 scenarios.",
+      "problem_statement": "Cyberhunt 2077: Investigate scenarios, identify vulnerabilities, and write up professional bug reports covering overview, root cause, mechanism, attack path, impact, and proof of concept.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Markdown",
+        "TailwindCSS"
+      ],
+      "title": "SecReportGen",
+      "track": "",
+      "why_it_could_win": "Addresses the specific judging weightage on comprehensive and accurate documentation by minimizing friction in structuring professional security disclosures under time constraints."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated triage assistant that analyzes target source snippets and configuration files to flag high-probability injection points and broken authorization logic.",
+      "problem_statement": "Cyberhunt 2077: You'll receive a set of scenarios/targets: vulnerable apps, code snippets, configs, or system descriptions to investigate.",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "Streamlit"
+      ],
+      "title": "VulnerableTargetTriage",
+      "track": "",
+      "why_it_could_win": "Solves the solo time-crunch bottleneck by accelerating code snippet and configuration auditing during a rapid 24-48 hour challenge."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A reproducible payload and PoC sandbox manager that helps solo security hunters capture screenshots, cURL commands, and execution steps seamlessly.",
+      "problem_statement": "Cyberhunt 2077: Submit a bug report including proof of concept with screenshots, payloads, or code that back up each claim.",
+      "stack": [
+        "TypeScript",
+        "Playwright",
+        "Express"
+      ],
+      "title": "ProofForge",
+      "track": "",
+      "why_it_could_win": "Directly targets the grading weight placed on reproducibility and concrete evidence in security write-ups."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A specialized node graph visualizer mapping out access control matrices and authorization logic from target app descriptions to spot privilege escalation paths.",
+      "problem_statement": "Cyberhunt 2077: Identify vulnerabilities such as broken authorization or injection, detailing the underlying flaw and where it sits in the logic.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Cytoscape.js"
+      ],
+      "title": "AuthFlawMapper",
+      "track": "",
+      "why_it_could_win": "Offers a clear visual advantage in tracing complex authorization logic flaws, aligning directly with the core root-cause analysis requirements."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A centralized dashboard for solo participants to track target investigation status, notes, submission timers, and report validation checklists.",
+      "problem_statement": "Cyberhunt 2077: Investigate each scenario, identify the vulnerability, work out its real impact, and submit a bug report for each finding through the platform.",
+      "stack": [
+        "Python",
+        "Flask",
+        "SQLite",
+        "Bootstrap"
+      ],
+      "title": "BountyTracker 2077",
+      "track": "",
+      "why_it_could_win": "Maximizes efficiency for solo participants facing multiple concurrent security scenarios within a strict 24-48 hour timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

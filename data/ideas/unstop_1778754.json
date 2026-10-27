@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-27T08:15:59.904524+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1778754",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1004582948",
+        "github:1181028879"
+      ],
+      "pitch": "A Python and FastAPI tool designed to ingest raw bug reports, parse reproduction steps, and automatically cross-reference them against common software vulnerability patterns to help bug hunters submit cleaner documentation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Chroma",
+        "LangGraph"
+      ],
+      "title": "F-Cube Vulnerability Triage and Report Assistant",
+      "track": "",
+      "why_it_could_win": "Targeting the core requirement of the F-Cube Bug Bounty by streamlining the exact report documentation process judges will be reviewing."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A developer-focused tool that maps authorized F-Cube application endpoints and checks payload parameters for missing authentication headers and authorization token exposures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "F-Cube API Security Scope Checker",
+      "track": "",
+      "why_it_could_win": "Directly aids participants in discovering valid bugs within the authorized scope of the F-Cube application."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "A lightweight telemetry logger that monitors request-response latency across F-Cube application actions to flag performance bottlenecks and UI stutter during bug testing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TypeScript"
+      ],
+      "title": "F-Cube Performance Regression Analyzer",
+      "track": "",
+      "why_it_could_win": "Aligns with the event goal to improve app performance and user experience alongside pure security bugs."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid prototyping tool that turns manual click-paths and API calls captured during F-Cube exploratory testing into automated reproduction scripts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI"
+      ],
+      "title": "F-Cube Bug Reproducibility Script Generator",
+      "track": "",
+      "why_it_could_win": "Solves the exact friction point for bug bounty judges who need clear, reproducible evidence for every submitted vulnerability."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1334000568"
+      ],
+      "pitch": "A semantic clustering utility that groups similar bug and vulnerability reports submitted by hunters to prevent duplicate triage overhead for Oronzo LLP organizers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma"
+      ],
+      "title": "F-Cube Issue Deduplication Engine",
+      "track": "",
+      "why_it_could_win": "Directly benefits the event organizers by solving the administrative nightmare of managing overlapping bug submissions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

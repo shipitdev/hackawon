@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-27T08:15:00.268536+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1736048",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1241231621"
+      ],
+      "pitch": "An edge-computed triage and diagnostic support system designed specifically for rural hospital workflows and preventative healthcare screening.",
+      "problem_statement": "Healthcare and Well being track: AI diagnostics, mental health, medical devices, preventive healthcare and hospital workflows.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "MediaPipe",
+        "PyTorch"
+      ],
+      "title": "AuraCare AI Diagnostics and Triage",
+      "track": "Healthcare and Well being",
+      "why_it_could_win": "Aligns directly with the Healthcare track and leverages a working computer-vision and confidence-gating pipeline inspired by proven winning patterns."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1283554494",
+        "github:1213911408"
+      ],
+      "pitch": "A supply chain emission monitoring and route optimization dashboard tailored for local manufacturing and urban logistics in Mumbai.",
+      "problem_statement": "Sustainability and ClimateTech track: clean energy, EV infrastructure, waste management, water conservation, smart agriculture and circular economy.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Power BI API",
+        "PostgreSQL"
+      ],
+      "title": "EcoLogiTrack Carbon Footprint Optimizer",
+      "track": "Sustainability and ClimateTech",
+      "why_it_could_win": "Focuses on concrete, quantifiable environmental impact and enterprise dashboarding, a proven winning formula at sustainability hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered assessment and credentialing platform that maps student project contributions to verified skill badges for campus placement cells.",
+      "problem_statement": "Education Technology track: AI powered learning, skill development, EdTech, campus solutions, accessibility, and assessment and credentialing.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "SkillMatrix AI Campus Assessment",
+      "track": "Education Technology",
+      "why_it_could_win": "Directly targets the campus solutions and credentialing sub-theme, providing immediate utility to the organizing engineering college's placement cell."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An offline emergency disaster communication bridge for smart cities using ESP32, LoRa, and BLE mesh for localized municipal alerts during network outages.",
+      "problem_statement": "Smart Cities and CivicTech track: smart mobility, civic technology, public safety, smart infrastructure, and waste and water management.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa",
+        "JavaScript",
+        "React Native"
+      ],
+      "title": "MeshPrahari Civic Emergency Network",
+      "track": "Smart Cities and CivicTech",
+      "why_it_could_win": "Features hard engineering with physical hardware components that make live demos unforgettable and highly engaging for judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-driven nutrition and wellness recommendation platform tailored for hospital post-operative recovery workflows and preventive care.",
+      "problem_statement": "Healthcare and Well being track: AI diagnostics, mental health, medical devices, preventive healthcare and hospital workflows.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "NutriFlow AI Clinical Nutrition Engine",
+      "track": "Healthcare and Well being",
+      "why_it_could_win": "Combines clinical utility with a polished user experience, echoing strategies from previous food and health hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
