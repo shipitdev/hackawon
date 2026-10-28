@@ -1,0 +1,279 @@
+{
+  "city": null,
+  "country": null,
+  "description": "About the Event Gliomas are among the most aggressive brain tumours, and outlining them accurately on MRI is central to diagnosis, surgical planning and treatment monitoring. Doing it by hand is slow, and different radiologists often draw the boundaries differently. Pixels to Prognosis asks you to build an AI system that does this automatically. Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions: active (enhancing) tumour, necrotic core, and surrounding edema. The event combines neuroscience, MRI physics and computer vision. You’ll need more than a model with a good leaderboard score. You’ll also need to understand what the scans show, why models fail, and how to make one that holds up on real clinical data. Who Can Participate Open to undergraduate and postgraduate students from any college and any stream Especially suited to students in Biotechnology & Biomedical Engineering, Computer Science, and AI & Data Science Teams of 1 to 3 members . Cross-disciplinary teams are encouraged. Competition Structure Round 1: Online Quiz (Screening) This is a case-based quiz on: How MRI machines work and the basics of MRI imaging The biology of brain gliomas and how they appear on MRI scans Artificial Intelligence, Deep Learning and Image Processing The questions reward reasoning over memorisation. The quiz is meant to sharpen your problem-solving for the later rounds. Round 2: Model Submission Round Shortlisted teams train a segmentation model on a curated glioma dataset we provide, [derived from the BraTS 2021 challenge]. Each patient has four MRI modalities: T1-weighted, post-contrast T1-weighted (T1ce), T2-weighted and T2-FLAIR. Your model must segment three regions: Whole Tumour, Tumour Core and Enhancing Tumour. Models are ranked on a hidden patient-level test set . Rules: Train only on the dataset provided. No external data. All learnable parameters must start from random initialisation . Pretrained weights are no",
+  "eligibility_text": null,
+  "ends_at": "2027-01-04T18:01:00+05:30",
+  "mode": "online",
+  "organiser": "Indian Institute of Technology (IIT), Madras",
+  "participants_count": 5,
+  "prize_amount": 35000,
+  "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "About the Event Gliomas are among the most aggressive brain tumours, and outlining them accurately on MRI is central to diagnosis, surgical planning and treatment monitoring. Doing it by hand is slow, and different radiologists often draw the boundaries differently. Pixels to Prognosis asks you to build an AI system that does this automatically. Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions: active (enhancing) tumour, necrotic core, and surrounding edema. The event combines neuroscience, MRI physics and computer vision. You’ll need more than a model with a good leaderboard score. You’ll also need to understand what the scans show, why models fail, and how to make one that holds up on real clinical data. Who Can Participate Open to undergraduate and postgraduate students from any college and any stream Especially suited to students in Biotechnology & Biomedical Engineering, Computer Science, and AI & Data Science Teams of 1 to 3 members . Cross-disciplinary teams are encouraged. Competition Structure Round 1: Online Quiz (Screening) This is a case-based quiz on: How MRI machines work and the basics of MRI imaging The biology of brain gliomas and how they appear on MRI scans Artificial Intelligence, Deep Learning and Image Processing The questions reward reasoning over memorisation. The quiz is meant to sharpen your problem-solving for the later rounds. Round 2: Model Submission Round Shortlisted teams train a segmentation model on a curated glioma dataset we provide, [derived from the BraTS 2021 challenge]. Each patient has four MRI modalities: T1-weighted, post-contrast T1-weighted (T1ce), T2-weighted and T2-FLAIR. Your model must segment three regions: Whole Tumour, Tumour Core and Enhancing Tumour. Models are ranked on a hidden patient-level test set . Rules: Train only on the dataset provided. No external data. All learnable parameters must start from random initialisation . Pretrained weights are not allowed. You may use published architectures such as U-Net variants. The Colab notebook runtime must be 9 hours or less . Submission requirements: Complete source code (.py / .ipynb) Final trained weights (.pt / .keras) Training logs, including loss and validation curves, config and seed used (.csv) A technical report (.pdf) covering your thought process, pipeline, architecture details and the compute you used Evaluation: Segmentation quality is measured with the Dice score and 95th-percentile Hausdorff distance for each tumour region. Scoring also covers anatomical consistency, false-positive control, and the quality of your technical report. Finals: Offline Round at IIT Madras Finalists come to campus and receive a new set of MRI scans with real-world problems. These can include motion artefacts, missing modalities, or pathologies your model has never seen. Each team must: Work out what is wrong with the data and why it happened Adapt the model through preprocessing, retraining or other corrective strategies Present the problems they found, the medical reasoning behind them, and how they handled them Evaluation criteria: Problem identification and medical reasoning Model adaptation strategy and outcome Clarity of presentation and understanding Knowing when your model should not be trusted counts in your favour. Flagging an unreliable case for expert review is part of good clinical AI. Prizes & Recognition Cash prizes for the top 3 teams [prize pool: ₹35000] Special Awards for Best Robust Model and Best Diagnostic Reasoning Certificates of Merit for the winners(Hard Copy) Certificates of Merit for all finalists(Soft Copy) Certificates of Participation for all Round 2 participants Important Dates Registration closes: 28th December, 2026 Round 1 (Online Quiz): 5th December, 2026 Round 2 submission window: 9th - 16th December, 2026 Finals at IIT Madras: 4th January, 2027",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "",
+      "address_title": "event_location",
+      "addressable_id": 1781358,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "",
+      "city_id": null,
+      "country": null,
+      "country_code": null,
+      "created_at": "2026-10-28T02:43:58+05:30",
+      "deleted_at": null,
+      "id": 1879643,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "",
+      "state_code": null,
+      "updated_at": "2026-10-28T12:04:37+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-10-28 12:05:09 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>About the Event</strong></p>\n<p>Gliomas are among the most aggressive brain tumours, and outlining them accurately on MRI is central to diagnosis, surgical planning and treatment monitoring. Doing it by hand is slow, and different radiologists often draw the boundaries differently.</p>\n<p><strong>Pixels to Prognosis</strong> asks you to build an AI system that does this automatically. Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions: <strong>active (enhancing) tumour, necrotic core, and surrounding edema.</strong></p>\n<p>The event combines neuroscience, MRI physics and computer vision. You&rsquo;ll need more than a model with a good leaderboard score. You&rsquo;ll also need to understand what the scans show, why models fail, and how to make one that holds up on real clinical data.</p>\n<p><strong>Who Can Participate</strong></p>\n<ul dir=\"ltr\">\n<li>Open to <strong>undergraduate and postgraduate students</strong> from any college and any stream</li>\n<li>Especially suited to students in Biotechnology &amp; Biomedical Engineering, Computer Science, and AI &amp; Data Science</li>\n<li>Teams of <strong>1 to 3 members</strong>. Cross-disciplinary teams are encouraged.</li>\n</ul>\n<p><strong>Competition Structure</strong></p>\n<p><strong>Round 1: Online Quiz (Screening)</strong></p>\n<p>This is a case-based quiz on:</p>\n<ul dir=\"ltr\">\n<li>How MRI machines work and the basics of MRI imaging</li>\n<li>The biology of brain gliomas and how they appear on MRI scans</li>\n<li>Artificial Intelligence, Deep Learning and Image Processing</li>\n</ul>\n<p>The questions reward reasoning over memorisation. The quiz is meant to sharpen your problem-solving for the later rounds.</p>\n<p><strong>Round 2: Model Submission Round</strong></p>\n<p>Shortlisted teams train a segmentation model on a curated glioma dataset we provide, [derived from the BraTS 2021 challenge]. Each patient has four MRI modalities: <strong>T1-weighted, post-contrast T1-weighted (T1ce), T2-weighted and T2-FLAIR.</strong></p>\n<p>Your model must segment three regions: <strong>Whole Tumour, Tumour Core and Enhancing Tumour.</strong> Models are ranked on a <strong>hidden patient-level test set</strong>.</p>\n<p><strong>Rules:</strong></p>\n<ul dir=\"ltr\">\n<li>Train only on the dataset provided. No external data.</li>\n<li>All learnable parameters must start from <strong>random initialisation</strong>. Pretrained weights are not allowed. You may use published architectures such as U-Net variants.</li>\n<li>The Colab notebook runtime must be <strong>9 hours or less</strong>.</li>\n</ul>\n<p><strong>Submission requirements:</strong></p>\n<ul dir=\"ltr\">\n<li>Complete source code (.py / .ipynb)</li>\n<li>Final trained weights (.pt / .keras)</li>\n<li>Training logs, including loss and validation curves, config and seed used (.csv)</li>\n<li>A technical report (.pdf) covering your thought process, pipeline, architecture details and the compute you used</li>\n</ul>\n<p><strong>Evaluation:</strong> Segmentation quality is measured with the Dice score and 95th-percentile Hausdorff distance for each tumour region. Scoring also covers anatomical consistency, false-positive control, and the quality of your technical report.</p>\n<p>Finals: Offline Round at IIT Madras</p>\n<p>Finalists come to campus and receive a new set of MRI scans with real-world problems. These can include motion artefacts, missing modalities, or pathologies your model has never seen.</p>\n<p>Each team must:</p>\n<ul dir=\"ltr\">\n<li>Work out what is wrong with the data and why it happened</li>\n<li>Adapt the model through preprocessing, retraining or other corrective strategies</li>\n<li>Present the problems they found, the medical reasoning behind them, and how they handled them</li>\n</ul>\n<p><strong>Evaluation criteria:</strong></p>\n<ul dir=\"ltr\">\n<li>Problem identification and medical reasoning</li>\n<li>Model adaptation strategy and outcome</li>\n<li>Clarity of presentation and understanding</li>\n</ul>\n<p>Knowing when your model <em>should not</em> be trusted counts in your favour. Flagging an unreliable case for expert review is part of good clinical AI.</p>\n<p><strong>Prizes &amp; Recognition</strong></p>\n<ul dir=\"ltr\">\n<li>Cash prizes for the <strong>top 3 teams</strong> [prize pool: ₹35000]</li>\n<li>Special Awards for <strong>Best Robust Model</strong> and <strong>Best Diagnostic Reasoning</strong></li>\n<li>Certificates of Merit for the winners(Hard Copy)</li>\n<li>Certificates of Merit for all finalists(Soft Copy)</li>\n<li>Certificates of Participation for all Round 2 participants</li>\n</ul>\n<p><strong>Important Dates</strong></p>\n<ul dir=\"ltr\">\n<li>Registration closes: 28th December, 2026</li>\n<li>Round 1 (Online Quiz): 5th December, 2026</li>\n<li>Round 2 submission window: 9th - 16th December, 2026</li>\n<li>Finals at IIT Madras: 4th January, 2027</li>\n</ul>",
+    "end_date": "2027-01-04T18:01:00+05:30",
+    "festival": null,
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4023,
+        "name": "Medical",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4024,
+        "name": "Law",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1781358,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae1977d6a103_iitmlogo120.png",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg7\",\"text\":\"Pixels To Prognosis\",\"type\":4,\"banner_data\":[3]}",
+      "id": 1474279,
+      "opportunity_id": 1781358,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 606,
+      "logoUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners75/5d0e0759acbbe_iitmlogo120.png",
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/5d0e0759acbbe_iitmlogo120.png",
+      "name": "Indian Institute of Technology (IIT), Madras",
+      "official_email_domains": "@smail.iitm.ac.in,@iitm.ac.in,@ds.study.iitm.ac.in,@es.study.iitm.ac.in, @ge.iitm.ac.in",
+      "public_url": "c/indian-institute-of-technology-iit-madras-placement-interview-competitions-articles-videos-606",
+      "show_evaluator_login_link": false,
+      "tier": 1
+    },
+    "organization_id": 606,
+    "payment_services": [],
+    "prizes": [
+      {
+        "cash": 35000,
+        "cash_postfix": null,
+        "certificate": 0,
+        "currency": "fa-rupee",
+        "currencyCode": null,
+        "entity_id": 1781358,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 3868693,
+        "max_cash": null,
+        "others": "",
+        "pre_placement_internship": 0,
+        "pre_placement_opportunity": 0,
+        "prize_type": "cash",
+        "rank": "Prize Pool - Top 3 Teams"
+      }
+    ],
+    "public_url": "hackathons/pixels-to-prognosis-iit-madras-1781358",
+    "region": "online",
+    "registerCount": 5,
+    "regnRequirements": {
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
+      "end_regn_dt": "2026-11-28T00:00:00+05:30",
+      "max_team_size": 3,
+      "min_team_size": 1,
+      "opportunity_id": 1781358,
+      "reg_status": "STARTED",
+      "remain_days": "30 days left",
+      "remainingDaysArray": {
+        "durations": 30,
+        "text": " days left"
+      },
+      "remaining_time": 2611836,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-10-28T00:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 644038,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693541,
+          "subject_id": 644038
+        },
+        "skill": "Image Segmentation",
+        "skill_name": "Image Segmentation"
+      },
+      {
+        "id": 646688,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693542,
+          "subject_id": 646688
+        },
+        "skill": "Medical Imaging Interpretation (MRI)",
+        "skill_name": "Medical Imaging Interpretation (MRI)"
+      },
+      {
+        "id": 646809,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693543,
+          "subject_id": 646809
+        },
+        "skill": "Neural Networks",
+        "skill_name": "Neural Networks"
+      },
+      {
+        "id": 647078,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693544,
+          "subject_id": 647078
+        },
+        "skill": "PyTorch",
+        "skill_name": "PyTorch"
+      },
+      {
+        "id": 646365,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693545,
+          "subject_id": 646365
+        },
+        "skill": "Image Analysis",
+        "skill_name": "Image Analysis"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/pixels-to-prognosis-iit-madras-1781358",
+    "short_id": "AzBGbeP",
+    "short_url": "https://unstop.com/o/AzBGbeP",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "Pixels To Prognosis",
+    "type": "hackathons",
+    "updated_at": "2026-10-28T16:48:33+05:30",
+    "viewsCount": 1,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1859,
+        "name": "Computer Vision",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1781358,
+          "id": 6693546,
+          "subject_id": 1859
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-11-28T00:00:00+05:30",
+  "reg_opens_at": "2026-10-28T00:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1781358",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 3,
+  "team_min": 1,
+  "themes": [],
+  "title": "Pixels To Prognosis",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/pixels-to-prognosis-iit-madras-1781358"
+}
