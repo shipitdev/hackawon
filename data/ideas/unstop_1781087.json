@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-28T08:53:05.016770+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1781087",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1066546613"
+      ],
+      "pitch": "A lightweight onboard computer vision pipeline for drone navigation through complex obstacle course hoops including diagonal split and hanging circles.",
+      "problem_statement": "Round 1: Obstacle Course Challenge - navigating semicircular, quarter, diagonal split rectangular, and freely hanging circular hoops.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ArduPilot",
+        "Raspberry Pi OS",
+        "C++"
+      ],
+      "title": "HoopFlow Vision: Monocular Autonomous Hooping for SARC",
+      "track": "",
+      "why_it_could_win": "Directly targets the core time-based scoring criteria of the obstacle course by replacing manual pilot latency with automated high-speed hoop detection."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A custom 3D-printed payload mounting cradle with dynamic ballast compensation to maintain stable hover and 90-degree turns while carrying 50g.",
+      "problem_statement": "Round 0: Preliminary Submission - stable flight while carrying a 50 g payload and executing a precise 90 degree turn.",
+      "stack": [
+        "SolidWorks",
+        "Arduino",
+        "C++",
+        "MPU6050",
+        "Python"
+      ],
+      "title": "PayloadGuard 50g: Precision Balance and Drop System",
+      "track": "",
+      "why_it_could_win": "Addresses the strict Round 0 evaluation metric for weight management and payload stability during aggressive maneuvers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A rapid mobile and desktop telemetry tuning utility designed to adjust stability and PID gains dynamically between obstacle course trial runs.",
+      "problem_statement": "Round 1: Obstacle Course Challenge - maintaining stable, low-altitude flight through sharp 90 degree turns and T-rod obstacles.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Flask",
+        "MAVLink"
+      ],
+      "title": "AeroTuner: Real-time PID Tuning App for SARC Drones",
+      "track": "",
+      "why_it_could_win": "Saves critical competition time by letting teams calibrate flight stability in seconds without rewriting onboard firmware."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1069834761"
+      ],
+      "pitch": "An independent hardware safety override and telemetry logger that guarantees safe landing protocol execution at the designated landing point.",
+      "problem_statement": "Round 0 and Round 1: Safe landing at the designated point and safety mechanisms documentation.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa",
+        "FreeRTOS"
+      ],
+      "title": "SafeLanding Telemetry & Emergency Cutoff Box",
+      "track": "",
+      "why_it_could_win": "Judges prioritize safety compliance; an independent fail-safe hardware cutoff prevents disqualification and protects expensive drone builds."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A simulation environment using physics-based modeling to pre-calculate optimal trajectory paths for crossover and split semicircular hoops.",
+      "problem_statement": "Round 1: Obstacle Course Challenge - completing the obstacle sequence and crossing the finish line based on time bonuses.",
+      "stack": [
+        "Python",
+        "Gazebo",
+        "ROS2",
+        "NumPy"
+      ],
+      "title": "SARC Sim-to-Real Obstacle Trajectory Planner",
+      "track": "",
+      "why_it_could_win": "Provides a distinct competitive advantage in time-based scoring by optimizing flight paths before touching the physical course."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

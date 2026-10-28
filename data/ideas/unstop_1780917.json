@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-28T08:52:59.870264+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1780917",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An AI-powered lease and sublet agreement analyzer that uncovers predatory hidden clauses, illegal fees, and tenant rights violations that students and young professionals blindly sign.",
+      "problem_statement": "Hidden inefficiencies in everyday routines and systems",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "TailwindCSS",
+        "LangChain"
+      ],
+      "title": "SubletShield",
+      "track": "",
+      "why_it_could_win": "Targets an extremely common, painful everyday problem with immediate utility, aligning with the Hack the Unseen theme by exposing legal traps hidden in plain sight."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1283554494"
+      ],
+      "pitch": "A pedestrian navigation and micro-audit web app that maps poorly lit streets, missing sidewalks, and broken ramps using crowd-sourced sensor data and street view imagery.",
+      "problem_statement": "Accessibility challenges that often go unnoticed",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Leaflet.js",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "AuraRoute",
+      "track": "",
+      "why_it_could_win": "Directly addresses civic accessibility and public safety with a clear, measurable community impact that appeals strongly to judging panels looking for real-world utility."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1423023064",
+        "github:1200926140"
+      ],
+      "pitch": "An automated household inventory tracker using edge computer vision on cheap ESP32 cameras to detect and alert users about expiring food items before they become kitchen waste.",
+      "problem_statement": "Sustainability and waste problems hidden",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "SQLite",
+        "React"
+      ],
+      "title": "PantryPulse",
+      "track": "",
+      "why_it_could_win": " Combines hardware/edge perception with a relatable household problem, demonstrating a live-working prototype that solves hidden food waste."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A browser extension that intercepts and analyzes deceptive URL shorteners, QR codes in public spaces, and hidden affiliate redirects before a user lands on a malicious site.",
+      "problem_statement": "Digital safety, fraud detection, privacy, and online threats",
+      "stack": [
+        "JavaScript",
+        "TypeScript",
+        "TailwindCSS",
+        "FastAPI",
+        "Python"
+      ],
+      "title": "PhishLens",
+      "track": "",
+      "why_it_could_win": "Tackles modern digital threats that people overlook every day, offering tangible protection with a slick, instantly demonstrable browser UI."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A lightweight, low-bandwidth digital token and queue management system designed specifically for local neighborhood clinics and small public dispensaries that still rely on chaotic paper registers.",
+      "problem_statement": "Making essential services more accessible and efficient",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "PWA"
+      ],
+      "title": "MedQueue",
+      "track": "",
+      "why_it_could_win": "Solves an invisible inefficiency in local grassroots healthcare services with an ultra-low friction deployment model that judges can immediately appreciate."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

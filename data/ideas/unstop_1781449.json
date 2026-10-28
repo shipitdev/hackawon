@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-10-28T08:53:08.838740+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1781449",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A robust signal processing and XGBoost pipeline for EEG emotion classification featuring SHAP-based frequency band explainability.",
+      "problem_statement": "Build a complete pipeline to classify human emotions using signal processing and machine learning from EEG datasets.",
+      "stack": [
+        "Python",
+        "MNE-Python",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "NeuroAffective-XGB: Explainable EEG Emotion Classifier",
+      "track": "",
+      "why_it_could_win": "Leverages the proven SHAP explainability pattern from past winning projects, directly addressing judges' criteria for interpretability in neural signals."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A live-inferencing web dashboard that ingests EEG sliding windows to classify emotional valence and arousal states for clinical triage.",
+      "problem_statement": "Build a complete pipeline to classify human emotions using signal processing and machine learning from EEG datasets.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Flask",
+        "FastAPI",
+        "Pandas"
+      ],
+      "title": "WaveBand-Audio-Triage: Real-time EEG Valence-Arousal Mapping",
+      "track": "",
+      "why_it_could_win": "Focuses on a live-working demonstration rather than static notebooks, a key winning pattern in tight 24-hour hackathons."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "An AI agent system that evaluates deployed EEG emotion classification models for demographic and feature-extraction bias.",
+      "problem_statement": "Build a complete pipeline to classify human emotions using signal processing and machine learning from EEG datasets.",
+      "stack": [
+        "Python",
+        "Gemini API",
+        "Google ADK",
+        "PyTorch"
+      ],
+      "title": "CognitiveBias-EEG: Multi-Agent Audit for Neural Emotion Models",
+      "track": "",
+      "why_it_could_win": "Applies an award-winning multi-agent auditing framework to neuroscience, impressing judges looking for rigorous validation pipelines."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Combines motion-capture posture metrics with EEG bandpower features to measure cognitive fatigue and stress during physical tasks.",
+      "problem_statement": "Build a complete pipeline to classify human emotions using signal processing and machine learning from EEG datasets.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "SciPy"
+      ],
+      "title": "SyncPulse-EEG: Biomechanical Brainwave Correlation Engine",
+      "track": "",
+      "why_it_could_win": "Combines complex feature extraction with confidence gating, mirroring previous championship-winning biomechanical analytics architectures."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:504196992"
+      ],
+      "pitch": "An interactive dashboard predicting emotional fatigue trends across multi-subject EEG public datasets over time.",
+      "problem_statement": "Build a complete pipeline to classify human emotions using signal processing and machine learning from EEG datasets.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "MNE"
+      ],
+      "title": "NeuroPulse-Dashboard: Regional EEG Biomarker Forecasting",
+      "track": "",
+      "why_it_could_win": "Adopts the clean visualization and forecasting layout that won runner-up at major virtual hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

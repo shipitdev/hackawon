@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-28T08:52:46.750240+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "fintech",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772496",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1289086869"
+      ],
+      "pitch": "A computer vision and multi-agent logistics platform that ingests live social media posts and aerial footage during disasters to predict supply chain bottlenecks and allocate relief assets dynamically.",
+      "problem_statement": "Develop innovative, real-world solutions in domains such as Disaster Management.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenCV",
+        "LangChain",
+        "React"
+      ],
+      "title": "SentinelAI: Disaster Resource Triage and Bottleneck Predictor",
+      "track": "Disaster Management",
+      "why_it_could_win": "Addresses a high-impact, life-or-death domain (Disaster Management) heavily favored by regional institutional hackathons, featuring a concrete demo that parses unstructured inputs into actionable logistics."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated auditing tool that evaluates small-business agricultural suppliers against environmental regulations using satellite imagery and IoT metrics to generate verifiable sustainability scores.",
+      "problem_statement": "Develop innovative, real-world solutions in domains such as Environment & Sustainability.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "AgriGuard: Carbon and Climate Risk Ledger for Regional Supply Chains",
+      "track": "Environment & Sustainability",
+      "why_it_could_win": "Combines concrete environmental impact metrics with clear utility for local regulatory compliance, matching the Environment & Sustainability track."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1289086869",
+        "github:1353074073"
+      ],
+      "pitch": "An agentic AI system that audits rejected medical insurance claims for rural patients by cross-referencing diagnostic data with the insurer's policy clauses to generate legally grounded appeal packets.",
+      "problem_statement": "Develop innovative, real-world solutions in domains such as Health Tech.",
+      "stack": [
+        "TypeScript",
+        "ai-agents",
+        "FastAPI",
+        "Gemini API"
+      ],
+      "title": "AuraClaim: Agentic Health Insurance Denials Auditor for Rural Clinics",
+      "track": "Health Tech",
+      "why_it_could_win": "Directly builds on proven winning architectures from healthcare and insurance auditing hackathons, solving a universally frustrating real-world financial and medical pain point."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A mobile-first web app providing real-time crowdsourced safety heatmaps and offline-capable distress alert routing using low-latency multi-language voice commands.",
+      "problem_statement": "Develop innovative, real-world solutions in domains such as Women Empowerment.",
+      "stack": [
+        "React",
+        "Node.js",
+        "WebSockets",
+        "Leaflet.js"
+      ],
+      "title": "SakhiSafe: Multilingual Safety Routing and Distress Companion",
+      "track": "Women Empowerment",
+      "why_it_could_win": "Tackles a deeply personal and urgent problem in the Women Empowerment track, featuring an intuitive, high-empathy UI that judges can easily test live."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1181344931"
+      ],
+      "pitch": "An autonomous multi-agent financial auditing engine that runs adversarial stress tests on micro-loan applications and automated portfolios to enforce strict regulatory risk gates.",
+      "problem_statement": "Develop innovative, real-world solutions in domains such as FinTech.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Alpaca API",
+        "LangGraph"
+      ],
+      "title": "Autonomous FinGuard: Adversarial Risk Gateway for Micro-Fintech",
+      "track": "FinTech",
+      "why_it_could_win": "Demonstrates genuinely hard engineering through multi-agent adversarial simulation and deterministic risk gates tailored specifically to the FinTech track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

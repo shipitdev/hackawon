@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-28T08:52:55.399076+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1780735",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Edge-computed pose estimation and machine learning model to analyze cricket batting techniques and injury risks using standard webcams.",
+      "problem_statement": "AI & Applications",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "OpenCV",
+        "FastAPI"
+      ],
+      "title": "BioMetrics-Edge: Real-Time Biomechanical Cricket Shot Analyzer",
+      "track": "AI & Applications",
+      "why_it_could_win": "Directly builds upon the winning pattern of CricketVision_AI by adapting MediaPipe and XGBoost for localized sports analytics, which appeals strongly to judges looking for tangible computer vision applications in cricket-obsessed India."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered anti-money laundering risk detection and investigation platform combining graph intelligence and LightGBM for regional fintech security.",
+      "problem_statement": "Cybersecurity",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "PostgreSQL"
+      ],
+      "title": "GraphGuard: Automated AML Risk Detection & Graph Intelligence",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Emulates the technical depth of Bito by incorporating complex graph algorithms and explainable machine learning, satisfying the rigorous technical standards expected in cybersecurity tracks."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1194555365"
+      ],
+      "pitch": "An automated web application that securely groups nearby seniors into social outings and coordinates volunteer drivers using optimized routing.",
+      "problem_statement": "Open Innovation",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "SeniorLink: AI-Powered Community Outreach & Mobility Coordinator",
+      "track": "Open Innovation",
+      "why_it_could_win": "Leverages the proven social-impact formula of Outreach by solving a clear demographic problem with measurable community benefit, highly favored in open innovation tracks."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A hyper-localized nutritional intelligence platform generating culturally tailored meal recommendations and real-time dietary insights.",
+      "problem_statement": "Web/App Dev",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
+      ],
+      "title": "NutriPulse: Personalized AI Nutrition and Meal Planning Assistant",
+      "track": "Web/App Dev",
+      "why_it_could_win": "Mirrors the successful product execution of E-Foodiee-AI-Nutrition-Assistant by delivering an immediately functional, consumer-facing application with clear health benefits."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A browser-based tool that transforms unstructured video feeds into searchable, queryable text databases using multi-modal embeddings.",
+      "problem_statement": "AI & Applications",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "OpenAI Whisper",
+        "ChromaDB"
+      ],
+      "title": "DataSift: AI-Powered Unstructured Video Intelligence Platform",
+      "track": "AI & Applications",
+      "why_it_could_win": "Adopts the architecture of LibrAI, providing judges with a polished, high-utility developer tool that solves data retrieval bottlenecks efficiently within the 24-hour timeframe."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
