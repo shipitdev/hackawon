@@ -1,0 +1,85 @@
+{
+  "city": null,
+  "country": null,
+  "description": "/* Import Premium Web Fonts */ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap'); /* Scoped CSS - Strictly confined to this wrapper */ .tlc-ultra-compact-wrapper { --font-heading: 'Outfit', sans-serif; --font-body: 'Plus Jakarta Sans', sans-serif; /* Colors */ --titan-bg: #ffffff; --titan-black: #0f172a; --titan-blue: #1b6df9; --titan-cyan: #00d2ff; --titan-text: #475569; position: relative; /* Minimized wrapper padding */ padding: 1.5rem 1rem; display: flex; justify-content: center; align-items: center; background: var(--titan-bg); overflow: hidden; z-index: 1; } /* Decorative Background Faded Numbers */ .tlc-ultra-compact-wrapper::before { content: '21 08 5'; position: absolute; top: 50%; right: -5%; transform: translateY(-50%); font-family: var(--font-heading); font-size: 22vw; font-weight: 900; color: rgba(0, 0, 0, 0.02); line-height: 0.8; word-spacing: -3vw; white-space: nowrap; z-index: -1; pointer-events: none; } /* Ultra-Compact Main Container */ .tlc-compact-container { max-width: 850px; width: 100%; position: relative; z-index: 2; background: #ffffff; /* Distinct cyan left border */ border-left: 4px solid var(--titan-cyan); border-radius: 6px; /* Minimized inner padding for tight whitespace */ padding: 1.5rem 1.8rem; box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05); opacity: 0; animation: tlcCardEnter 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; transition: all 0.3s ease; } /* Interactive Hover Effect */ .tlc-compact-container:hover { box-shadow: 0 10px 30px -10px rgba(0, 210, 255, 0.15); border-left-width: 8px; /* Border expands on hover */ transform: translateX(2px); } /* Typography */ .tlc-about-intro { font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; color: var(--titan-black); margin: 0 0 1rem 0; text-transform: uppercase; letter-spacing: 0.2px; line-height: 1.5; } /* Shimmering Tagline Accent */ .tlc-tagline-accent { display: block; font-fam",
+  "eligibility_text": null,
+  "ends_at": null,
+  "mode": "online",
+  "organiser": null,
+  "participants_count": null,
+  "prize_amount": null,
+  "prize_currency": null,
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis condimentum leo. Fusce ac magna ac arcu condimentum dictum et eu odio. Ut sollicitudin semper suscipit.",
+      "title": "Watch Face Design Challenge 2026",
+      "url": null
+    },
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "/* Import Premium Web Fonts */ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap'); /* Scoped CSS - Strictly confined to this wrapper */ .tlc-ultra-compact-wrapper { --font-heading: 'Outfit', sans-serif; --font-body: 'Plus Jakarta Sans', sans-serif; /* Colors */ --titan-bg: #ffffff; --titan-black: #0f172a; --titan-blue: #1b6df9; --titan-cyan: #00d2ff; --titan-text: #475569; position: relative; /* Minimized wrapper padding */ padding: 1.5rem 1rem; display: flex; justify-content: center; align-items: center; background: var(--titan-bg); overflow: hidden; z-index: 1; } /* Decorative Background Faded Numbers */ .tlc-ultra-compact-wrapper::before { content: '21 08 5'; position: absolute; top: 50%; right: -5%; transform: translateY(-50%); font-family: var(--font-heading); font-size: 22vw; font-weight: 900; color: rgba(0, 0, 0, 0.02); line-height: 0.8; word-spacing: -3vw; white-space: nowrap; z-index: -1; pointer-events: none; } /* Ultra-Compact Main Container */ .tlc-compact-container { max-width: 850px; width: 100%; position: relative; z-index: 2; background: #ffffff; /* Distinct cyan left border */ border-left: 4px solid var(--titan-cyan); border-radius: 6px; /* Minimized inner padding for tight whitespace */ padding: 1.5rem 1.8rem; box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05); opacity: 0; animation: tlcCardEnter 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; transition: all 0.3s ease; } /* Interactive Hover Effect */ .tlc-compact-container:hover { box-shadow: 0 10px 30px -10px rgba(0, 210, 255, 0.15); border-left-width: 8px; /* Border expands on hover */ transform: translateX(2px); } /* Typography */ .tlc-about-intro { font-family: var(--font-body); font-size: 0.95rem; font-weight: 700; color: var(--titan-black); margin: 0 0 1rem 0; text-transform: uppercase; letter-spacing: 0.2px; line-height: 1.5; } /* Shimmering Tagline Accent */ .tlc-tagline-accent { display: block; font-family: var(--font-heading); font-size: 2rem; margin-top: 0.4rem; font-weight: 900; letter-spacing: -0.5px; text-transform: none; /* Keeps the tagline in standard casing */ background: linear-gradient(90deg, var(--titan-black) 0%, var(--titan-blue) 50%, var(--titan-black) 100%); background-size: 200% auto; -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: tlcTextShine 4s linear infinite; } /* Tightly spaced paragraphs */ .tlc-compact-container p.tlc-tight-text { font-family: var(--font-body); font-size: 1.05rem; line-height: 1.6; color: var(--titan-text); margin: 0 0 0.8rem 0; transition: color 0.3s ease, transform 0.3s ease; } .tlc-compact-container p.tlc-tight-text:last-child { margin-bottom: 0; /* Remove bottom margin from the last paragraph */ } .tlc-compact-container p.tlc-tight-text:hover { color: var(--titan-black); transform: translateX(4px); } /* Staggered text animations */ .tlc-anim-1 { animation: tlcTextSlideUp 0.5s ease forwards 0.2s; opacity: 0; } .tlc-anim-2 { animation: tlcTextSlideUp 0.5s ease forwards 0.3s; opacity: 0; } .tlc-anim-3 { animation: tlcTextSlideUp 0.5s ease forwards 0.4s; opacity: 0; } .tlc-anim-4 { animation: tlcTextSlideUp 0.5s ease forwards 0.5s; opacity: 0; } /* Keyframe Animations */ @keyframes tlcCardEnter { 0% { opacity: 0; transform: translateX(-20px); } 100% { opacity: 1; transform: translateX(0); } } @keyframes tlcTextSlideUp { 0% { opacity: 0; transform: translateY(10px); } 100% { opacity: 1; transform: translateY(0); } } @keyframes tlcTextShine { to { background-position: 200% center; } } /* Mobile Adaptability */ @media (max-width: 600px) { .tlc-ultra-compact-wrapper { padding: 1rem 0.5rem; } .tlc-compact-container { padding: 1.25rem 1rem; border-left-width: 4px; } .tlc-tagline-accent { font-size: 1.6rem; } .tlc-compact-container p.tlc-tight-text { font-size: 0.95rem; } } Welcome to the Watch Face Design Challenge — a premier design initiative powered by Hack2skill. Design Time Your Way The Titan",
+      "title": "Published challenge",
+      "url": null
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "_id": "6accc56533dcbd6a9ae74556",
+    "detail": {
+      "sections": [
+        {
+          "category": "TITLE",
+          "item": {
+            "content": [],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis condimentum leo. Fusce ac magna ac arcu condimentum dictum et eu odio. Ut sollicitudin semper suscipit.",
+            "title": "Watch Face Design Challenge 2026"
+          },
+          "section": "OVERVIEW"
+        },
+        {
+          "category": "ELIGIBILTY",
+          "item": {
+            "eligibility": "",
+            "prize": ""
+          },
+          "section": "OVERVIEW"
+        },
+        {
+          "category": "",
+          "item": {
+            "content": [],
+            "description": "<div class=\"tlc-ultra-compact-wrapper\">\n  <style>\n    /* Import Premium Web Fonts */\n    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');\n\n    /* Scoped CSS - Strictly confined to this wrapper */\n    .tlc-ultra-compact-wrapper {\n      --font-heading: 'Outfit', sans-serif;\n      --font-body: 'Plus Jakarta Sans', sans-serif;\n      \n      /* Colors */\n      --titan-bg: #ffffff;\n      --titan-black: #0f172a;\n      --titan-blue: #1b6df9;\n      --titan-cyan: #00d2ff;\n      --titan-text: #475569;\n      \n      position: relative;\n      /* Minimized wrapper padding */\n      padding: 1.5rem 1rem; \n      display: flex;\n      justify-content: center;\n      align-items: center;\n      background: var(--titan-bg);\n      overflow: hidden;\n      z-index: 1;\n    }\n\n    /* Decorative Background Faded Numbers */\n    .tlc-ultra-compact-wrapper::before {\n      content: '21 08 5';\n      position: absolute;\n      top: 50%;\n      right: -5%;\n      transform: translateY(-50%);\n      font-family: var(--font-heading);\n      font-size: 22vw;\n      font-weight: 900;\n      color: rgba(0, 0, 0, 0.02);\n      line-height: 0.8;\n      word-spacing: -3vw;\n      white-space: nowrap;\n      z-index: -1;\n      pointer-events: none;\n    }\n\n    /* Ultra-Compact Main Container */\n    .tlc-compact-container {\n      max-width: 850px;\n      width: 100%;\n      position: relative;\n      z-index: 2;\n      background: #ffffff;\n      /* Distinct cyan left border */\n      border-left: 4px solid var(--titan-cyan); \n      border-radius: 6px; \n      /* Minimized inner padding for tight whitespace */\n      padding: 1.5rem 1.8rem; \n      box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);\n      opacity: 0;\n      animation: tlcCardEnter 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;\n      transition: all 0.3s ease;\n    }\n\n    /* Interactive Hover Effect */\n    .tlc-compact-container:hover {\n      box-shadow: 0 10px 30px -10px rgba(0, 210, 255, 0.15);\n      border-left-width: 8px; /* Border expands on hover */\n      transform: translateX(2px);\n    }\n\n    /* Typography */\n    .tlc-about-intro {\n      font-family: var(--font-body);\n      font-size: 0.95rem;\n      font-weight: 700;\n      color: var(--titan-black);\n      margin: 0 0 1rem 0;\n      text-transform: uppercase;\n      letter-spacing: 0.2px;\n      line-height: 1.5;\n    }\n\n    /* Shimmering Tagline Accent */\n    .tlc-tagline-accent {\n      display: block;\n      font-family: var(--font-heading);\n      font-size: 2rem;\n      margin-top: 0.4rem;\n      font-weight: 900;\n      letter-spacing: -0.5px;\n      text-transform: none; /* Keeps the tagline in standard casing */\n      background: linear-gradient(90deg, var(--titan-black) 0%, var(--titan-blue) 50%, var(--titan-black) 100%);\n      background-size: 200% auto;\n      -webkit-background-clip: text;\n      -webkit-text-fill-color: transparent;\n      animation: tlcTextShine 4s linear infinite;\n    }\n\n    /* Tightly spaced paragraphs */\n    .tlc-compact-container p.tlc-tight-text {\n      font-family: var(--font-body);\n      font-size: 1.05rem;\n      line-height: 1.6;\n      color: var(--titan-text);\n      margin: 0 0 0.8rem 0; \n      transition: color 0.3s ease, transform 0.3s ease;\n    }\n\n    .tlc-compact-container p.tlc-tight-text:last-child {\n      margin-bottom: 0; /* Remove bottom margin from the last paragraph */\n    }\n\n    .tlc-compact-container p.tlc-tight-text:hover {\n      color: var(--titan-black);\n      transform: translateX(4px);\n    }\n\n    /* Staggered text animations */\n    .tlc-anim-1 { animation: tlcTextSlideUp 0.5s ease forwards 0.2s; opacity: 0; }\n    .tlc-anim-2 { animation: tlcTextSlideUp 0.5s ease forwards 0.3s; opacity: 0; }\n    .tlc-anim-3 { animation: tlcTextSlideUp 0.5s ease forwards 0.4s; opacity: 0; }\n    .tlc-anim-4 { animation: tlcTextSlideUp 0.5s ease forwards 0.5s; opacity: 0; }\n\n    /* Keyframe Animations */\n    @keyframes tlcCardEnter {\n      0% { opacity: 0; transform: translateX(-20px); }\n      100% { opacity: 1; transform: translateX(0); }\n    }\n\n    @keyframes tlcTextSlideUp {\n      0% { opacity: 0; transform: translateY(10px); }\n      100% { opacity: 1; transform: translateY(0); }\n    }\n\n    @keyframes tlcTextShine {\n      to { background-position: 200% center; }\n    }\n\n    /* Mobile Adaptability */\n    @media (max-width: 600px) {\n      .tlc-ultra-compact-wrapper { padding: 1rem 0.5rem; }\n      .tlc-compact-container { padding: 1.25rem 1rem; border-left-width: 4px; }\n      .tlc-tagline-accent { font-size: 1.6rem; }\n      .tlc-compact-container p.tlc-tight-text { font-size: 0.95rem; }\n    }\n  </style>\n\n  <div class=\"tlc-compact-container\">\n    \n    <div class=\"tlc-about-intro tlc-anim-1\">\n      Welcome to the Watch Face Design Challenge — a premier design initiative powered by Hack2skill.\n      <span class=\"tlc-tagline-accent\">Design Time Your Way</span>\n    </div>\n    \n    <p class=\"tlc-tight-text tlc-anim-2\">The Titan Watch Face Design Challenge 2026 invites you to create an original, innovative and user-friendly smartwatch face.</p>\n    \n    <p class=\"tlc-tight-text tlc-anim-3\">Bring your creativity to the wrist and explore new ways to make time look and feel better.</p>\n    \n    <p class=\"tlc-tight-text tlc-anim-4\">More than a design competition, the Watch Face Design Challenge is an opportunity to shape the future of everyday human-computer interaction. Collaborate with fellow innovators, showcase your user experience (UX) and visual design expertise, and build impactful watch face concepts that redefine how people connect with technology right on their wrists.</p>\n    \n  </div>\n</div>",
+            "title": ""
+          },
+          "section": "ABOUT"
+        }
+      ],
+      "teamSize": {
+        "max": 1,
+        "min": 1
+      },
+      "type": "HACKATHON"
+    },
+    "eventUrl": "watchfacedesignchallenge2026",
+    "mode": "VIRTUAL",
+    "registrationEnd": "2026-12-06T18:29:00.000Z",
+    "registrationStart": "2026-10-28T05:27:00.000Z",
+    "title": "Watch Face Design Challenge 2026"
+  },
+  "reg_deadline": "2026-12-06T18:29:00Z",
+  "reg_opens_at": "2026-10-28T05:27:00Z",
+  "source": "hack2skill",
+  "source_id": "6accc56533dcbd6a9ae74556",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 1,
+  "team_min": 1,
+  "themes": [],
+  "title": "Watch Face Design Challenge 2026",
+  "tracks": [],
+  "url": "https://hack2skill.com/event/watchfacedesignchallenge2026/"
+}
