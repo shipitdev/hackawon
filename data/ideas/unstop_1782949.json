@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-29T08:47:10.706998+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1782949",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "An automated symbolic execution and input-output test case generator that reconstructs hidden mathematical functions from black-box evaluation outputs.",
+      "problem_statement": "Reverse CodingX – Shaastra 2027: Reverse Coding questions where participants will be expected to code a program that gives a correct output for the question based on logical reasoning and number systems.",
+      "stack": [
+        "Python",
+        "z3-solver",
+        "FastAPI"
+      ],
+      "title": "ReverseInfer",
+      "track": "",
+      "why_it_could_win": "Directly targets the core mechanical challenge of the reverse-coding contest by leveraging constraint solvers and deterministic logic to deduce code structure, echoing the technical difficulty pattern seen in top hackathon wins."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A visual pattern-spotting debugger that matches input-output sequences against common algorithmic templates like modular arithmetic, bitwise operations, and recursive series.",
+      "problem_statement": "Reverse CodingX – Shaastra 2027: Spot the patterns and crack the logic behind the code using logical reasoning and number systems.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python"
+      ],
+      "title": "LogicTrace",
+      "track": "",
+      "why_it_could_win": "Provides an individual competitor with a live, highly useful utility to rapidly test hypotheses against multi-testcase outputs during intense time constraints."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "An AST-based synthesis engine that takes a series of execution traces and generates a syntactically valid C or Python script passing all hidden test cases.",
+      "problem_statement": "Reverse CodingX – Shaastra 2027: Participants will be expected to code a program that gives a correct output for the question.",
+      "stack": [
+        "Python",
+        "AST",
+        "Docker"
+      ],
+      "title": "CodeReconstructor",
+      "track": "",
+      "why_it_could_win": "Focuses on building a fully functional and demonstrable utility that automates the precise output-to-code workflow required by the hackathon's final round."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An interactive playground for rapid prototyping of number system transformations, sequence identification, and logical puzzle solving.",
+      "problem_statement": "Reverse CodingX – Shaastra 2027: Each prelim will comprise logical and programming-based questions involving some basic concepts on logical reasoning, number systems.",
+      "stack": [
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "PatternMatrix",
+      "track": "",
+      "why_it_could_win": "Solves an immediate pain point for participants dealing with tricky number theory and sequence puzzles under strict time limits."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "A reinforcement learning guided search tool that explores parameter spaces to reverse-engineer obfuscated mathematical functions from sparse telemetry.",
+      "problem_statement": "Reverse CodingX – Shaastra 2027: Crack the code, spot the patterns, and prove your mettle as the ultimate logic champion by working backwards from an output.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "PyTorch"
+      ],
+      "title": "BlindSynth",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by combining heuristic search with constraint propagation to solve black-box code challenges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

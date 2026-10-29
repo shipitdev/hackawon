@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-10-29T08:47:51.216762+00:00",
+  "grounding": {
+    "domains": [
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1783135",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A rapid pixel-matching boilerplate and component library tailored for sudden UI recreation challenges.",
+      "problem_statement": "Beginner Segment – Website Recreation: Participants will recreate a reference website revealed by the organisers at the beginning of the competition.",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "JavaScript"
+      ],
+      "title": "PrecisionClone",
+      "track": "Beginner",
+      "why_it_could_win": "Focuses intensely on visual accuracy and CSS layout speed, aligning with the primary grading rubric of the beginner segment."
+    },
+    {
+      "build_hours": 4,
+      "inspired_by": [],
+      "pitch": "A streamlined diagnostic toolkit for rapidly tracing console errors, broken hooks, and misconfigured backend endpoints.",
+      "problem_statement": "Advanced Segment – Debug and Deploy: Participants will receive a pre-written codebase containing bugs, incomplete features, and backend issues.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "title": "DebugExpress",
+      "track": "Advanced",
+      "why_it_could_win": "Directly targets the efficiency required in the debug-and-deploy track by minimizing time spent searching for common state and routing bugs."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A micro-state management utility designed to instantly patch broken prop-drilling and unhandled promise rejections in unfamiliar React codebases.",
+      "problem_statement": "Advanced Segment – Debug and Deploy: Participants will receive a pre-written codebase containing bugs, incomplete features, and backend issues.",
+      "stack": [
+        "JavaScript",
+        "React"
+      ],
+      "title": "StateDrill",
+      "track": "Advanced",
+      "why_it_could_win": "Addresses the most common category of hidden bugs in hackathon starter repos—broken async data flows and rendering loops."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A pre-configured CSS Grid and Flexbox layout scaffolding generator optimized for instant responsiveness across device viewports.",
+      "problem_statement": "Beginner Segment – Website Recreation: Participants will recreate a reference website revealed by the organisers at the beginning of the competition, focusing on visual accuracy, responsiveness, and functionality.",
+      "stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "title": "LayoutGrid Pro",
+      "track": "Beginner",
+      "why_it_could_win": "Maximizes score points on responsiveness and visual alignment under extreme time pressure."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [],
+      "pitch": "A lightweight mock API wrapper and proxy handler to instantly stabilize missing or failing backend endpoints in incomplete challenge repos.",
+      "problem_statement": "Advanced Segment – Debug and Deploy: Participants will receive a pre-written codebase containing bugs, incomplete features, and backend issues.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "JavaScript"
+      ],
+      "title": "EndpointPatch",
+      "track": "Advanced",
+      "why_it_could_win": "Ensures the frontend demo works live even if the original backend code is unfixable within the time limit."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

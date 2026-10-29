@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-29T08:46:42.966238+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1781358",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A 3D U-Net brain tumor segmentation platform with built-in SHAP/Grad-CAM overlays to explain why the model boundaries deviate from inter-rater variance.",
+      "problem_statement": "Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions: active tumour, necrotic core, and edema.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "MONAI",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "GliomaXAI: Explainable BraTS Subregion Segmentation",
+      "track": "",
+      "why_it_could_win": "Judges explicitly noted they want to see understanding of why models fail on real clinical data, making visual explainability and error heatmaps a major differentiator."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A lightweight web-based viewer that allows radiologists to review multimodal MRI scans side-by-side with automated AI segmentation masks and manually correct boundary disagreement areas.",
+      "problem_statement": "Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions: active tumour, necrotic core, and edema.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Cornerstone.js",
+        "Python",
+        "Flask"
+      ],
+      "title": "NeuroSlice: Interactive Clinical DICOM/NIfTI Viewer & Editor",
+      "track": "",
+      "why_it_could_win": "Addresses the real-world pain point that different radiologists draw boundaries differently by offering an interactive correction tool that judges can test live."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A performance-optimized, quantized 3D segmentation pipeline running on edge hardware to deliver subregion outlines in under 10 seconds during surgical planning.",
+      "problem_statement": "Outlining them accurately on MRI is central to diagnosis, surgical planning and treatment monitoring. Doing it by hand is slow.",
+      "stack": [
+        "Python",
+        "ONNX Runtime",
+        "TensorRT",
+        "Docker",
+        "PyQt"
+      ],
+      "title": "BraTS-Edge: Quantized Inference for Intraoperative MRI",
+      "track": "",
+      "why_it_could_win": "Combines hard engineering optimization (quantization, fast inference) with real-world surgical utility, echoing previous hardware and edge-computing hackathon winners."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A multimodal fusion pipeline that takes segmented tumor subregion volumes (edema, core, active) and predicts patient survival metrics using clinical-grade tabular ML models.",
+      "problem_statement": "Pixels to Prognosis asks you to build an AI system that does this automatically. Using multimodal brain MRI scans, your model has to locate a glioma and separate it into its three subregions.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "GliomaGrade Prognosis Simulator",
+      "track": "",
+      "why_it_could_win": "Directly hits the naming theme of the hackathon ('Pixels to Prognosis') by extending raw computer vision segmentation into clinical survival outcome prediction."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An automated preprocessing tool that detects motion artifacts, scanner noise, and skull-stripping failures in multi-parametric MRI before passing them to the segmentation model.",
+      "problem_statement": "The event combines neuroscience, MRI physics and computer vision. You’ll need to understand what the scans show, why models fail, and how to make one that holds up on real clinical data.",
+      "stack": [
+        "Python",
+        "Nibabel",
+        "OpenCV",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "MRI-Physics-Guard: Artifact Detection & Preprocessing Suite",
+      "track": "",
+      "why_it_could_win": "Shows deep comprehension of MRI physics and data quality control—directly answering the prompt's warning about understanding why models fail on clinical data."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-29T08:47:05.047822+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "judge-pain",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1782942",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1410907844"
+      ],
+      "pitch": "A telemetry viewer that records 1v1 coding duel performance metrics under pressure, providing post-match replay graphs of syntax changes, compilation failures, and time-to-solution.",
+      "problem_statement": "CodeHive Community Duel Night: Live 1v1 coding duels — challenge another developer and solve coding problems head-to-head.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "WebSocket"
+      ],
+      "title": "DuelAnalyzer: Real-Time Code Battle Telemetry",
+      "track": "",
+      "why_it_could_win": "Targeting a pain familiar to developers in the room by analyzing how people perform under high-pressure competitive conditions, similar to NFL data analysis wins."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "An independent matchmaking and community Elo ranking companion web app for CodeHive duels, tracking historical head-to-head matchups and preferred languages.",
+      "problem_statement": "CodeHive Community Duel Night: Real-time coding — compete directly on CodeHive and meet fellow developers.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "PeerRank: Elo Rating & Matchmaking Companion",
+      "track": "",
+      "why_it_could_win": "Solves a concrete scheduling and community engagement problem for event participants, featuring an interface that works reliably live."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1393689488"
+      ],
+      "pitch": "A shared real-time whiteboard and code snippet diff tool designed for duelists to review alternative solutions immediately after a match concludes.",
+      "problem_statement": "CodeHive Community Duel Night: Meet fellow developers — connect with people who enjoy coding and problem-solving.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Socket.io",
+        "Monaco Editor"
+      ],
+      "title": "DuelNotes: Collaborative Post-Match Whiteboard",
+      "track": "",
+      "why_it_could_win": "Demonstrates a working, real-time collaboration tool that directly enhances the post-duel social learning experience."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A lightweight micro-problem practice app customized with rapid-fire syntax drills to help participants prepare before entering a live CodeHive duel.",
+      "problem_statement": "CodeHive Community Duel Night: Complete a test duel before the event so you're familiar with the platform.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma"
+      ],
+      "title": "KataDrill: Pre-Duel Warmup & Syntax Trainer",
+      "track": "",
+      "why_it_could_win": "Directly targets the participant onboarding workflow, focusing on a polished experience that judges can test instantly."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A lightweight browser overlay and dashboard that displays active 1v1 match progress, test case pass rates, and live code diffs for community event streaming.",
+      "problem_statement": "CodeHive Community Duel Night: Live 1v1 coding duels — challenge another developer and solve coding problems head-to-head.",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "WebRTC"
+      ],
+      "title": "DuelCast: Live Spectator Stream Overlay",
+      "track": "",
+      "why_it_could_win": "Transforms solo viewing into an engaging spectator sport, providing immediate visual impact for live judging demonstrations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

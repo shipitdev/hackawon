@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-29T08:46:27.406990+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1780955",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1273399666",
+        "github:1144331507"
+      ],
+      "pitch": "An offline emergency communication mesh network utilizing ESP32 and LoRa modules for disaster response zones where cellular infrastructure has failed.",
+      "problem_statement": "Nexusgrid",
+      "stack": [
+        "ESP32",
+        "LoRa SX1276",
+        "C++",
+        "Arduino IDE",
+        "OLED Display"
+      ],
+      "title": "AeroMesh LoRa Grid",
+      "track": "Nexusgrid",
+      "why_it_could_win": "Directly mirrors a proven winner that secured 2nd place at the Nepal Police Hackathon by solving a critical real-world infrastructure and disaster response problem using resilient RF hardware."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A biomedical IoT edge computing device for continuous post-operative patient vital sign monitoring with real-time local anomaly alerting.",
+      "problem_statement": "Neuronix",
+      "stack": [
+        "ESP32",
+        "MAX30102 Pulse Oximeter",
+        "LM35 Temperature Sensor",
+        "Node.js",
+        "MQTT"
+      ],
+      "title": "BioEdge Post-Op Guard",
+      "track": "Neuronix",
+      "why_it_could_win": "Aligns with the HardHack Forge winning pattern by delivering a tangible biomedical edge computing solution with immediate clinical relevance and safety benefits."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated garbage classification and sorting bin powered by a lightweight computer vision model running on Raspberry Pi and Arduino actuators.",
+      "problem_statement": "Silicore",
+      "stack": [
+        "Raspberry Pi 4",
+        "Raspberry Pi Camera Module",
+        "Python",
+        "TensorFlow Lite",
+        "Arduino Nano",
+        "Servo Motors"
+      ],
+      "title": "EcoSort AI Bin",
+      "track": "Silicore",
+      "why_it_could_win": "Leverages the proven runner-up pattern from TechnoMorph Hackathon by combining a live-working mechanical prototype with real-time computer vision classification."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1069834761"
+      ],
+      "pitch": "An intelligent post-accident vehicle collision detection and automatic emergency dispatch hardware module utilizing accelerometer data and GPS.",
+      "problem_statement": "Circutshield",
+      "stack": [
+        "Arduino Uno",
+        "MPU6050 Accelerometer",
+        "NEO-6M GPS Module",
+        "GSM SIM800L",
+        "C++"
+      ],
+      "title": "AutoSOS Incident Responder",
+      "track": "Circutshield",
+      "why_it_could_win": "Directly follows the Techavishkar 1st-prize winning pattern of an automotive safety IoT hardware build that solves a high-impact everyday safety challenge."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "An inline micro-hydroelectric generator and smart telemetry meter that tracks local water flow rates and generates micro-power for off-grid sensors.",
+      "problem_statement": "Wavenex",
+      "stack": [
+        "Water Flow Sensor",
+        "ESP8266",
+        "Micro-hydro turbine",
+        "LCD 1602",
+        "Blynk IoT"
+      ],
+      "title": "HydroPulse Energy Monitor",
+      "track": "Wavenex",
+      "why_it_could_win": "Focuses on sustainable resource management, targeting hardware integration and real-world utility which appeals directly to judges looking for cost-effective green innovations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
