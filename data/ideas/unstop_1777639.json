@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-30T08:52:41.244440+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1777639",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "An AI-powered log analysis and server health assistant built specifically to monitor deployments on Rack'Em cloud infrastructure and instantly diagnose bottlenecks.",
+      "problem_statement": "Developer Tools & Infra theme requiring live, real-world deployment on Rack'Em cloud hosting by the final whistle.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "RackMetrics AI: Automated Server Health & Log Triage for Rack'Em",
+      "track": "Developer Tools & Infra",
+      "why_it_could_win": "Directly showcases Rack'Em hosting servers by putting a real DevOps monitoring app live on their infrastructure, appealing heavily to the cloud-hosting sponsor judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A progressive web app connecting campus micro-vendors and student-run stalls with real-time inventory management and UPI ordering.",
+      "problem_statement": "Local Business & Commerce and Student Life & Learning themes focusing on everyday Indian student and vendor needs.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "CampusCart Local: Hyper-Local Student Commerce & Inventory Sync",
+      "track": "Local Business & Commerce",
+      "why_it_could_win": "Solves a hyper-local, highly relatable problem for judges from Bengaluru and student organisers, aligning with the AI for Everyday India and Student Life themes."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An AI study companion that ingests regional-language lecture notes and syllabus PDFs to generate interactive flashcards and concept maps.",
+      "problem_statement": "AI for Everyday India and Student Life & Learning themes.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "IndicStudy: Multilingual AI Flashcard & Peer Knowledge Graph Generator",
+      "track": "Student Life & Learning",
+      "why_it_could_win": "Leverages regional language support which resonates strongly with Indian hackathon judges looking for everyday practical utility beyond generic English-only wrappers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1423778544"
+      ],
+      "pitch": "An agentic CLI and web dashboard that automatically indexes student hackathon git commits, READMEs, and architecture decisions into a queryable knowledge base before final code freeze.",
+      "problem_statement": "Developer Tools & Infra theme focusing on team productivity and engineering lifecycle intelligence.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Claude API",
+        "GitHub Webhooks"
+      ],
+      "title": "DevOffboard: Autonomous Knowledge Capture for Student Engineering Teams",
+      "track": "Developer Tools & Infra",
+      "why_it_could_win": "Mirrors the exact engineering intelligence and lifecycle architecture of winning agentic developer tools, targeting developer pain points directly experienced by hackathon judges."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "A mobile-friendly web app that uses multimodal AI to parse handwritten bills or voice orders in Indian languages and log transactions accurately.",
+      "problem_statement": "AI for Everyday India and Local Business & Commerce themes.",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "Google Gemini API"
+      ],
+      "title": "VyaparSathi: AI Invoice & GST Compliance Copilot for Local Kirana Stores",
+      "track": "AI for Everyday India",
+      "why_it_could_win": "Targets an immediate, real-world economic pain point for local small business owners in India with an impactful multimodal interface."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

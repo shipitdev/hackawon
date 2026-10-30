@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-30T08:52:54.609754+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1783202",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A compact computer vision module using a webcam and microcontroller to sort recyclable waste in real-time, built specifically for Crescent Institute campus waste bins.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Arduino"
+      ],
+      "title": "CobotVision: Edge AI Garbage Classifier for Campus Sustenance",
+      "track": "",
+      "why_it_could_win": "Follows the winning pattern of practical robotics and computer vision builds like ROBOTICS-ai-garbage-classifier, targeting a tangible campus utility that judges can test immediately."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1069834761"
+      ],
+      "pitch": "A low-cost IoT accelerometer and GPS hardware prototype attached to campus buggies or two-wheelers that automatically dispatches emergency coordinates upon impact detection.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MPU6050",
+        "Firebase"
+      ],
+      "title": "AutoSOS-Crescent: ESP32 Post-Accident Campus Vehicle Alert",
+      "track": "",
+      "why_it_could_win": "Replicates the winning formula of physical IoT hardware and accident detection seen in Auto-SOS-Smart-post-accident-detection-and-response-system, standing out instantly against software-only web apps in an in-person room."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1259981732",
+        "github:1066546613"
+      ],
+      "pitch": "A miniature differential-drive rover utilizing camera line-following and obstacle avoidance to transport small documents between department offices on campus.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ROS",
+        "Raspberry Pi",
+        "Python"
+      ],
+      "title": "CrescentFleet: Autonomous Indoor Delivery Rover Prototype",
+      "track": "",
+      "why_it_could_win": "Leverages the physical robotics execution style of International Hackathon winners, giving judges a physical machine to watch move around the presentation desk."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:936954849"
+      ],
+      "pitch": "A secure IoT lab equipment locker system with an ESP8266 microcontroller, physical solenoid lock, and a real-time web dashboard tracking student check-outs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "NodeMCU",
+        "MQTT",
+        "React"
+      ],
+      "title": "SmartLock-Crescent: RFID and App-Based Lab Asset Tracker",
+      "track": "",
+      "why_it_could_win": "Adopted from BoilerMake XII winning smart lock systems, providing a utilitarian physical demo that solves a real college-level resource management problem."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An edge-computing sensor node monitoring lab temperature, humidity, and power draw, running a lightweight isolation forest algorithm to flag anomalies before equipment fails.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "ESP8266",
+        "DHT11"
+      ],
+      "title": "LabGuard-AI: IoT Energy and Environment Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Translates the multi-agent IoT diagnostic logic from SEAL Hackathon winners into a streamlined, low-overhead hardware anomaly detector built for 24-hour feasibility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

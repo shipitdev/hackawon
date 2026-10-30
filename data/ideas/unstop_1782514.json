@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-30T08:52:49.589961+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1782514",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An offline emergency disaster communication bridge utilizing LoRa and ESP-NOW mesh networking for remote rescue operations.",
+      "problem_statement": "Disaster Management",
+      "stack": [
+        "JavaScript",
+        "ESP32",
+        "LoRa",
+        "Mesh Network"
+      ],
+      "title": "DisasterPrahari",
+      "track": "Disaster Management",
+      "why_it_could_win": "Directly tackles disaster management with tangible offline hardware integration, mimicking a proven multi-prize-winning architecture."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Computer-vision and IoT-driven early disease detection and localized soil health monitoring system for precision agriculture.",
+      "problem_statement": "Agriculture",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Raspberry Pi"
+      ],
+      "title": "CropShield AI",
+      "track": "Agriculture",
+      "why_it_could_win": "Combines hardware sensors with computer vision models for an immediately demoable, high-impact rural utility."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient triage and trust engine designed for rural clinics to streamline intake and verify health records securely.",
+      "problem_statement": "HealthTech",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "MedTrust AI",
+      "track": "HealthTech",
+      "why_it_could_win": "Focuses on patient acquisition and clinical trust, directly drawing from a proven hackathon winner in healthcare AI."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent renewable energy balancing platform that forecasts local solar and wind output to optimize microgrid storage distribution.",
+      "problem_statement": "Renewable Energy",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "TailwindCSS"
+      ],
+      "title": "EcoGrid Optimizer",
+      "track": "Renewable Energy",
+      "why_it_could_win": "Leverages advanced multi-agent workflows and forecasting algorithms to address critical green tech infrastructure challenges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Real-time carbon footprint calculation and route optimization engine for multi-modal logistics and fleet management.",
+      "problem_statement": "Transportation & Logistics",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenStreetMap API"
+      ],
+      "title": "CarbonRoute",
+      "track": "Transportation & Logistics",
+      "why_it_could_win": "Solves an enterprise-scale logistical problem with clear quantitative efficiency metrics that appeal to industry judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-10-30T08:52:32.316902+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "judge-pain",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770559",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A high-performance order matching engine written strictly in C++20 focusing on cache locality, low-latency data structures, and deterministic execution.",
+      "problem_statement": "Build your own order-matching engine in a single file (engine.cpp) using the C++20 standard library to process limit, market, cancel, FOK, IOC orders, and self-trade prevention with minimal latency.",
+      "stack": [
+        "C++20",
+        "STL"
+      ],
+      "title": "Cache-Optimized C++20 Order Matching Engine",
+      "track": "",
+      "why_it_could_win": "Solves the exact core systems-programming challenge set by the organizers with a focus on latency benchmarking, which directly dictates the live leaderboard ranking."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An auxiliary compliance module designed for high-frequency trading engines to instantly detect and prevent self-trades without locking order books.",
+      "problem_statement": "Implement self-trade prevention rules alongside limit and market order matching inside a single-file C++20 engine harness.",
+      "stack": [
+        "C++20"
+      ],
+      "title": "Deterministic Self-Trade Prevention Module",
+      "track": "",
+      "why_it_could_win": "Addresses edge-case correctness requirements that evaluation harnesses test heavily before moving to pure speed benchmarks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A custom allocator-free limit order book data structure using contiguous memory vectors to eliminate dynamic allocation overhead during live event streaming.",
+      "problem_statement": "Match reference matching engine behavior on hidden order streams efficiently while minimizing latency on the live leaderboard.",
+      "stack": [
+        "C++20"
+      ],
+      "title": "Zero-Allocation Limit Order Book",
+      "track": "",
+      "why_it_could_win": "Applies genuine low-latency systems engineering techniques like avoiding heap allocations in the hot path, satisfying the judges' focus on cache optimization and C++20 proficiency."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [],
+      "pitch": "Optimized conditional order execution paths for Fill-Or-Kill (FOK) and Immediate-Or-Cancel (IOC) orders inside a high-throughput matching loop.",
+      "problem_statement": "An evaluation harness streams order events into your engine including fill-or-kill and IOC orders that require rapid conditional parsing.",
+      "stack": [
+        "C++20"
+      ],
+      "title": "IOC and FOK Specialized Execution Handler",
+      "track": "",
+      "why_it_could_win": "Focuses on correctness for complex order types, ensuring high scores on visible unit tests and hidden test streams before latency optimization."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A lightweight diagnostic utility to capture, record, and replay malformed or high-frequency order streams against the engine for rapid regression testing.",
+      "problem_statement": "Pass the visible unit tests and match the reference matching engine on a hidden order stream under strict time constraints.",
+      "stack": [
+        "C++20",
+        "Python"
+      ],
+      "title": "Low-Latency Event Stream Replay Debugger",
+      "track": "",
+      "why_it_could_win": "Provides exceptional developer tooling polish during a intense hands-on systems programming session, allowing rapid iteration speed against the evaluation harness."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

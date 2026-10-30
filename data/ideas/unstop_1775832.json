@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-30T08:52:36.670832+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "unique-data",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1775832",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated Jeopardy-style CTF challenge analyzer and solver pipeline built specifically for the Secureops platform.",
+      "problem_statement": "Participants will solve more than 50 Jeopardy-style challenges across web security, cryptography, binary exploitation, reverse engineering, digital forensics, OSINT, steganography, networking, and mobile security on Secureops.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pwntools",
+        "BeautifulSoup"
+      ],
+      "title": "SecureOps CTF AutoSolver Bot",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of hard engineering and tool automation to drastically speed up score acquisition during an intense individual 8-hour on-site CTF."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1069255350",
+        "github:1181344931"
+      ],
+      "pitch": "An automated reconnaissance and digital forensics correlation engine that parses disk images, PCAPs, and OSINT metadata into an interactive attack graph.",
+      "problem_statement": "Participants will solve more than 50 Jeopardy-style challenges across web security, cryptography, binary exploitation, reverse engineering, digital forensics, OSINT, steganography, networking, and mobile security on Secureops.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Volatility3",
+        "Streamlit"
+      ],
+      "title": "OSINT-Scope Forensics",
+      "track": "",
+      "why_it_could_win": "Directly targets multiple challenge categories (forensics, OSINT, networking) by automating complex manual correlation steps, matching the winning pattern of utilizing specialized domain-specific data extraction tools."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A modular cryptographic weakness scanner and automated decryption toolkit designed for custom ciphers, RSA padding attacks, and classical crypto challenges.",
+      "problem_statement": "Participants will solve more than 50 Jeopardy-style challenges across web security, cryptography, binary exploitation, reverse engineering, digital forensics, OSINT, steganography, networking, and mobile security on Secureops.",
+      "stack": [
+        "Python",
+        "SageMath",
+        "SymPy"
+      ],
+      "title": "CryptoCracker Suite",
+      "track": "",
+      "why_it_could_win": "Fills a critical speed gap in crypto challenges by providing immediate mathematical script generation, embodying the winning pattern of genuinely hard backend engineering."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A unified binary analysis and steganography detection interface that runs heuristic checks against hidden payloads in images, audio, and compiled binaries.",
+      "problem_statement": "Participants will solve more than 50 Jeopardy-style challenges across web security, cryptography, binary exploitation, reverse engineering, digital forensics, OSINT, steganography, networking, and mobile security on Secureops.",
+      "stack": [
+        "Python",
+        "Rizin",
+        "Pillow",
+        "Flask"
+      ],
+      "title": "Steghide & BinExport Analyzer",
+      "track": "",
+      "why_it_could_win": "Combines steganography, reverse engineering, and binary exploitation into a single rapid-triage dashboard, prioritizing execution speed and technical depth."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A targeted web vulnerability fuzzer optimized for rapid discovery of common CTF web flaws like SQLi, SSTI, and insecure deserialization.",
+      "problem_statement": "Participants will solve more than 50 Jeopardy-style challenges across web security, cryptography, binary exploitation, reverse engineering, digital forensics, OSINT, steganography, networking, and mobile security on Secureops.",
+      "stack": [
+        "Go",
+        "Colly",
+        "HTML/JS"
+      ],
+      "title": "WebSec Payload Injector & Fuzzer",
+      "track": "",
+      "why_it_could_win": "Targets web security challenges, which typically make up a large percentage of CTF points, by providing instant attack vector generation and payload rendering."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-10-30T08:53:16.806528+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1784631",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first preventive health assistant built for rural frontline health workers to automate vaccination schedules and outbreak tracking.",
+      "problem_statement": "New platforms and approaches to support mental health and low-cost tools and technologies for healthcare delivery in rural areas.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI Whisper",
+        "Twilio",
+        "Supabase"
+      ],
+      "title": "AshaVoice",
+      "track": "Low-cost tools and technologies for healthcare delivery",
+      "why_it_could_win": "Directly targets underserved communities with a zero-friction voice interface, mirroring proven rural health impact patterns."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade rPPG contactless heart rate and stress monitoring web app that runs entirely on low-end smartphones without extra hardware.",
+      "problem_statement": "Low-cost tools and technologies for healthcare delivery and tools that use health data analytics to identify and predict health risks.",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "MediaPipe",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "VitalPulse Edge",
+      "track": "Low-cost tools and technologies for healthcare delivery",
+      "why_it_could_win": "Combines advanced computer vision with zero-cost deployment, fulfilling the need for accessible tech in resource-constrained environments."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An AI-powered risk stratification tool that analyzes longitudinal patient vital metrics to predict and flag early indicators of mental health crises.",
+      "problem_statement": "Tools that use health data analytics to identify and predict health risks and new platforms and approaches to support mental health.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Scikit-Learn",
+        "React"
+      ],
+      "title": "NeuroGuard AI",
+      "track": "Tools that use health data analytics to identify and predict health risks",
+      "why_it_could_win": "Focuses heavily on predictive health analytics, a core stated priority for Johns Hopkins collaboration judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent LLM system designed to audit insurance prior authorization denials for systemic bias against low-income patient demographics.",
+      "problem_statement": "Applications of Artificial Intelligence (AI) in healthcare to reduce costs and improve administrative accessibility.",
+      "stack": [
+        "Python",
+        "Google Gemini API",
+        "LangChain",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "ClaimAudit Agent",
+      "track": "Applications of Artificial Intelligence (AI) in healthcare",
+      "why_it_could_win": "Applies cutting-edge agentic workflows to a real administrative bottleneck, matching winning patterns from top-tier health hackathons."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:964068655"
+      ],
+      "pitch": "An emotion-aware speech-to-speech conversational platform providing immediate, low-latency coping strategies and psychological triage for remote users.",
+      "problem_statement": "New platforms and approaches to support mental health.",
+      "stack": [
+        "TypeScript",
+        "Web Speech API",
+        "Next.js",
+        "OpenAI Realtime API",
+        "TailwindCSS"
+      ],
+      "title": "MindBridge Speech",
+      "track": "New platforms and approaches to support mental health",
+      "why_it_could_win": "Delivers an empathetic, real-time voice experience that directly addresses the global mental health access gap."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

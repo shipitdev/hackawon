@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-30T08:52:27.132877+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1765597",
+  "ideas": [
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A hardened personal AI assistant with zero-trust prompt-injection defense layers specifically built for live evaluation challenges.",
+      "problem_statement": "PromptWars 2026 prompt engineering and Generative AI challenge",
+      "stack": [
+        "TypeScript",
+        "Vercel AI SDK",
+        "Claude API"
+      ],
+      "title": "PromptGuard SafeAgent",
+      "track": "",
+      "why_it_could_win": "Directly targets the core skills tested in a prompt engineering competition by showcasing advanced prompt-injection hardening and defensive prompting strategies."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A lightweight benchmarking utility that tests custom prompt structures against standardized logic puzzles to find optimal LLM execution paths.",
+      "problem_statement": "PromptWars 2026 prompt engineering and Generative AI challenge",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google Gemini API"
+      ],
+      "title": "LLMBenchmark Proxy",
+      "track": "",
+      "why_it_could_win": "Leverages the winning strategy of using proxy tasks for systematic prompt and model evaluation under strict time constraints."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent auditing system that systematically detects and flags logical biases or hallucinations in zero-shot LLM reasoning outputs.",
+      "problem_statement": "PromptWars 2026 prompt engineering and Generative AI challenge",
+      "stack": [
+        "Python",
+        "LangChain",
+        "OpenAI API"
+      ],
+      "title": "BiasAudit MultiAgent",
+      "track": "",
+      "why_it_could_win": "Demonstrates sophisticated orchestration of multiple prompts and agent roles, impressing judges looking for deep understanding of Generative AI limitations."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A rapid knowledge-management platform for engineering teams to capture, test, and version-control complex system prompts before deployment.",
+      "problem_statement": "PromptWars 2026 prompt engineering and Generative AI challenge",
+      "stack": [
+        "FastAPI",
+        "ChromaDB",
+        "React"
+      ],
+      "title": "PromptFlow Lifecycle Hub",
+      "track": "",
+      "why_it_could_win": "Solves a real workflow bottleneck for developers working extensively with prompt engineering and LLM orchestration."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1259514645"
+      ],
+      "pitch": "An edge-computed computer vision analyzer that evaluates physical posture and movement accuracy via real-time camera feeds.",
+      "problem_statement": "PromptWars 2026 prompt engineering and Generative AI challenge",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe"
+      ],
+      "title": "PoseMetric AI",
+      "track": "",
+      "why_it_could_win": "Delivers a completely functional, highly visual live demo that immediately captures judge attention through hardware-integrated machine learning."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
