@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-31T08:42:13.679330+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1783838",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1171690684"
+      ],
+      "pitch": "An interactive data profiling tool that automates exploratory data analysis, checks data validity, and scans for hidden machine learning bias.",
+      "problem_statement": "Your proposed solution using AI, machine learning, statistics, or data analytics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Scikit-learn"
+      ],
+      "title": "DataVeritas ML: Automated Data Integrity & Bias Profiler",
+      "track": "",
+      "why_it_could_win": "Directly incorporates winning patterns from automated data profiling and bias detection tools, making it highly attractive to judges looking for practical utility and rigorous statistical methods."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:504196992"
+      ],
+      "pitch": "An ML-based forecasting dashboard that predicts regional dengue cases using historical incidence rates, weather data, and statistical correlation.",
+      "problem_statement": "The everyday problem and intended users involving health risks and predictive analytics.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Jupyter Notebook"
+      ],
+      "title": "AeroDengue: Regional Outbreak Forecasting Dashboard",
+      "track": "",
+      "why_it_could_win": "Addresses a high-impact everyday public health problem with a clear dashboard and practical statistical modeling that scores high on practical usefulness."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An intelligent log analysis platform that ingests server logs, flags behavioral anomalies using statistical thresholds, and queries logs using natural language.",
+      "problem_statement": "Your proposed solution using AI, machine learning, statistics, or data analytics to process complex system logs.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "LogAnomalix: AI-Powered Log Intelligence & Anomaly Detection",
+      "track": "",
+      "why_it_could_win": "Follows the exact architecture of proven hackathon winners by combining log ingestion with machine learning anomaly detection and a clean operational dashboard."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:680478376"
+      ],
+      "pitch": "A machine learning dashboard that predicts human capital attrition risks for organizations using employee engagement data and historical retention statistics.",
+      "problem_statement": "Your proposed solution using AI, machine learning, statistics, or data analytics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "XGBoost"
+      ],
+      "title": "AttritionSight: Human Capital Risk Predictor",
+      "track": "",
+      "why_it_could_win": "Directly tackles enterprise workforce analytics—a category with a proven track record in data science hackathons—featuring a functional prototype dashboard for HR teams."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1011077693"
+      ],
+      "pitch": "A predictive analytics dashboard that processes travel survey datasets to score passenger satisfaction and highlight key drivers of travel experience.",
+      "problem_statement": "Your proposed solution using AI, machine learning, statistics, or data analytics.",
+      "stack": [
+        "Python",
+        "Scikit-learn",
+        "Plotly",
+        "Streamlit"
+      ],
+      "title": "TransitSatisfaction: Shinkansen Passenger Experience Predictor",
+      "track": "",
+      "why_it_could_win": "Leverages a proven dataset classification challenge structure, allowing the team to focus on high-scoring evaluation metrics, clean visualizations, and actionable business insights."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-31T08:42:32.513153+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1785430",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered graph intelligence platform that scans healthcare infrastructure and patient data flows to detect privacy vulnerabilities and AML risks.",
+      "problem_statement": "Healthcare & MedTech: Healthcare data security and compliance monitoring",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "AWS",
+        "LightGBM"
+      ],
+      "title": "MediGraph AI: Automated Healthcare Compliance and Patient Data Risk Detector",
+      "track": "Healthcare & MedTech",
+      "why_it_could_win": "Adapts the graph intelligence and AML risk detection architecture from Bito, addressing the critical judging priority of healthcare data privacy and security."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring platform that tracks agricultural land usage changes, environmental compliance, and crop health anomalies in real time.",
+      "problem_statement": "Internet of Things (IoT) & AI/ML: Smart devices, automation, connected systems, and predictive analytics",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Google Earth Engine API",
+        "TailwindCSS"
+      ],
+      "title": "AgriPulse AI: Satellite-Based Industrial Land and Crop Compliance Monitor",
+      "track": "Artificial Intelligence & Machine Learning (AI/ML)",
+      "why_it_could_win": "Mirrors the hard engineering approach of GeoNex-ATLAS, combining geospatial data processing with predictive analytics to impress judges looking for scalable real-world impact."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer vision platform utilizing MediaPipe Pose and XGBoost to analyze physical therapy and athletic movements in real-time, providing instant biomechanical feedback.",
+      "problem_statement": "Healthcare & MedTech: Healthcare application and rehabilitation monitoring",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "OpenCV",
+        "Flask"
+      ],
+      "title": "PoseFix: Biomechanical Sports Injury Prevention and Form Correction Platform",
+      "track": "Healthcare & MedTech",
+      "why_it_could_win": "Directly builds on the proven architecture of CricketVision_AI, offering judges a tangible, highly technical computer-vision demo that works instantly on a webcam feed."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1245565654",
+        "github:1213911408"
+      ],
+      "pitch": "A personalized AI interview coach that parses resumes using RAG and LangGraph to generate hyper-specific mock technical interviews and intelligent feedback.",
+      "problem_statement": "Web Development: Innovative websites, web applications, SaaS platforms, and digital solutions",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "SkillSync AI: Resume-Driven Technical Interview Coach with Dynamic RAG",
+      "track": "Web Development",
+      "why_it_could_win": "Combines the multi-agent RAG patterns of greennovation-ai-platform with the career coaching focus of HireSenseAi to deliver a polished, investor-ready SaaS product within a tight timeline."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered nutrition and wellness platform built for clinics to deliver automated personalized meal plans, dietary insights, and recovery tracking.",
+      "problem_statement": "Healthcare & MedTech: Healthcare application and wellness guidance",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS",
+        "Prisma"
+      ],
+      "title": "NutriFlow AI: Personalized Meal Planning and Micronutrient Tracker for Clinics",
+      "track": "Healthcare & MedTech",
+      "why_it_could_win": "Replicates the successful rapid-prototype recipe of E-Foodiee-AI-Nutrition-Assistant, focusing on clean UI, Gemini API integration, and immediate practical utility for health practitioners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

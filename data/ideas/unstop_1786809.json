@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-10-31T08:42:40.003183+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1786809",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite and drone imagery processing pipeline for monitoring industrial land and detecting unauthorized environmental degradation in Chhattisgarh.",
+      "problem_statement": "Sustainability and industrial compliance monitoring challenges in regional contexts.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Next.js",
+        "Leaflet.js",
+        "PyTorch"
+      ],
+      "title": "EcoIndustrial-Monitor",
+      "track": "Sustainability",
+      "why_it_could_win": "Leverages the exact architectural pattern of regional winners like GeoNex-ATLAS by applying computer vision to satellite data for tangible local industrial compliance."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A lightweight automated threat-detection and vulnerability-scoring dashboard tailored for local municipal web infrastructure and small businesses.",
+      "problem_statement": "Cybersecurity vulnerabilities in emerging digital infrastructure.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CyberShield Local",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Fills a major gap by targeting cybersecurity—one of the explicitly named domains—with an interactive dashboard demonstrating live vulnerability remediation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1075630497"
+      ],
+      "pitch": "A localized crop yield and disease risk prediction platform combining historical weather feeds with smartphone leaf-image classification.",
+      "problem_statement": "Agricultural resilience and food security in rural India.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Python",
+        "TensorFlow Lite"
+      ],
+      "title": "AgriPredict AI",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Combines high-impact domain utility with a proven winning blueprint of image classification and localized machine learning pipelines."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "An ML-based energy consumption forecasting and anomaly detection pipeline designed to optimize power grid loads for institutional campuses.",
+      "problem_statement": "Energy efficiency and smart grid management challenges.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit"
+      ],
+      "title": "GridPulse Analytics",
+      "track": "Sustainability",
+      "why_it_could_win": "Adapts proven time-series forecasting pipelines from energy hackathons to provide immediate, measurable cost-saving utility for campus infrastructure."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1376189518"
+      ],
+      "pitch": "A computer vision mobile web tool that diagnoses broken public infrastructure from user photos and automatically routes repair priority and instructions to municipal workers.",
+      "problem_statement": "Real-world civic maintenance and urban governance bottlenecks.",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "CivicFix AI",
+      "track": "Web Development",
+      "why_it_could_win": "Employs a working computer vision model with a polished live demo that judges can test instantly on their own phones."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

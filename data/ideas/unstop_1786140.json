@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-10-31T08:42:35.217124+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1786140",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A Python utility that automatically profiles and optimizes custom scikit-learn and NumPy pipelines against latency limits under tight 45-minute constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "RapidML Algorithm Speed Profiler",
+      "track": "",
+      "why_it_could_win": "Targets individual ML coding competition efficiency by delivering immediate performance telemetry, aligning with the fast-paced evaluation format."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A rapid decision-support wrapper that automatically selects the correct regression or classification baseline model based on feature distributions in seconds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Scikit-Learn"
+      ],
+      "title": "AutoML Fallback Strategy Selector",
+      "track": "",
+      "why_it_could_win": "Solves the exact time-crunch pressure of a 45-minute multi-problem coding test by instantly routing inputs to robust baseline algorithms."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A lightweight AST-based static analyzer that scans candidate Python machine learning scripts for accidental training-test data leakage before submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Ast",
+        "Unittest"
+      ],
+      "title": "DataLeakage Sentinel for Python",
+      "track": "",
+      "why_it_could_win": "Addresses a common hidden pitfall in automated ML evaluation environments, preventing silent score degradation from faulty validation splits."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "A modular Python script implementing high-performance matrix factorization and KNN-based imputation optimized for missing values in randomized benchmark questions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Pandas"
+      ],
+      "title": "Tabular Missing-Value Imputation Matrix",
+      "track": "",
+      "why_it_could_win": "Provides a robust, reusable module for handling dirty data distributions frequently encountered in algorithmic machine learning question banks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A fast blending script that uses grid search on out-of-fold predictions to optimize ensemble weights against unknown test constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Scikit-Learn"
+      ],
+      "title": "Ensemble Weight Optimizer for Hidden Tests",
+      "track": "",
+      "why_it_could_win": "Leverages proven competitive machine learning strategies to maximize metric scores under strict hidden test case evaluations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

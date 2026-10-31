@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-31T08:42:17.904766+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1784543",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A Python and constraint-solver tool to compute optimal center of gravity, wing area, and golf ball payload distribution for fixed-wing RC aircraft.",
+      "problem_statement": "Boeing–IIT National Aeromodelling Competition 2025–26: design and operate an RC fixed-wing aircraft capable of maximum payload relative to its weight and accurate drop delivery.",
+      "stack": [
+        "Python",
+        "Constraint Solver",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "AeroPayload Optimizer & CG Calculator",
+      "track": "",
+      "why_it_could_win": "Solves the exact heavy-lift aero math required for the Boeing-IIT competition, aligning directly with the core scoring metric of payload-to-aircraft weight ratio."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1144331507",
+        "github:1010199928"
+      ],
+      "pitch": "An Arduino-based servo release mechanism with automated altitude and distance triggers using onboard IMU and ultrasonic sensors to accurately drop golf ball payloads.",
+      "problem_statement": "Boeing–IIT National Aeromodelling Competition 2025–26: deliver the payload accurately to a designated drop zone.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Servo Motors",
+        "MPU6050 IMU"
+      ],
+      "title": "DropZone Precision Release Actuator",
+      "track": "",
+      "why_it_could_win": "Features an unusual physical build and hardware demonstration that stands out to judges evaluating the drop accuracy round."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1144331507"
+      ],
+      "pitch": "A real-time telemetry dashboard transmitting flight velocity, battery voltage, and payload compartment status from the RC aircraft to a ground station via ESP32 Wi-Fi/Radio.",
+      "problem_statement": "Boeing–IIT National Aeromodelling Competition 2025–26: technical details of the aircraft, including dimensions, wing area, and velocity, plus safe flight demonstration.",
+      "stack": [
+        "ESP32",
+        "PlatformIO",
+        "WebSockets",
+        "React"
+      ],
+      "title": "AeroTelemetry Live Link",
+      "track": "",
+      "why_it_could_win": "Provides hard quantitative telemetry data during the flight rounds, impressing judges with professional-grade monitoring systems."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A lightweight finite element method (FEM) script to simulate lift stress and structural weak points on balsa wood or foam wing spars before physical construction.",
+      "problem_statement": "Boeing–IIT National Aeromodelling Competition 2025–26: design abstract submission documenting construction and technical details addressing the problem statement.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Matplotlib",
+        "FEA"
+      ],
+      "title": "Airframe Finite Element Stress Analyzer",
+      "track": "",
+      "why_it_could_win": "Applies rigorous engineering simulation, directly aiding the Stage 1 Design Abstract screening process by providing quantified structural safety proofs."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:496116464"
+      ],
+      "pitch": "An edge-computer vision system mounted near the payload bay to detect and log the exact instant the aircraft passes over the target drop zone circle.",
+      "problem_statement": "Boeing–IIT National Aeromodelling Competition 2025–26: deliver it accurately to a designated drop zone.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi Zero",
+        "Camera Module"
+      ],
+      "title": "AeroVision Drop Zone Target Tracker",
+      "track": "",
+      "why_it_could_win": "Brings advanced computer vision and hardware integration into an aeromodelling context, matching the pattern of genuinely hard engineering."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

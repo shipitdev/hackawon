@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-10-31T08:42:04.490388+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 3,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6ae481dc31468ea831fc347c",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI study companion that ingests photos of handwritten lecture notes and textbook pages to automatically generate interactive multimodal quizzes.",
+      "problem_statement": "Best Use Of Gemma4",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Gemini API"
+      ],
+      "title": "Gemma Vision Study Guide",
+      "track": "Best Use Of Gemma4",
+      "why_it_could_win": "Directly targets the Gemma 4 sponsor track by leveraging multimodal text and image capabilities for a focused educational productivity tool, giving it high win potential with fewer competing teams."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A lightweight local-first open-weight model harness that automatically catches and patches common security vulnerabilities in pull requests before merge.",
+      "problem_statement": "Best Open-Source AI Project",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Llama-3",
+        "Docker"
+      ],
+      "title": "OpenModel Code Harness",
+      "track": "Best Open-Source AI Project",
+      "why_it_could_win": "Fits the Best Open-Source AI Project track by building a practical model harness using open-weight language models, solving a painful daily problem for student and open-source developers."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1034660288",
+        "github:945008026"
+      ],
+      "pitch": "A conversational voice-controlled campus accessibility guide powered by ElevenLabs that gives real-time auditory navigation instructions for visually impaired students.",
+      "problem_statement": "Best Project Built with ElevenLabs",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "ElevenLabs API",
+        "Web Speech API"
+      ],
+      "title": "VoiceFirst Campus Navigator",
+      "track": "Best Project Built with ElevenLabs",
+      "why_it_could_win": "Wins the ElevenLabs sponsor track by delivering a working, meaningful voice AI implementation focused on accessibility, which heavily appeals to judges looking for social impact."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1341712439"
+      ],
+      "pitch": "A developer tool that ingests both architecture diagrams and codebase files simultaneously via Gemma 4 to detect architectural antipatterns and security flaws.",
+      "problem_statement": "Best Use Of Gemma4",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API"
+      ],
+      "title": "Gemma Multimodal Code Reviewer",
+      "track": "Best Use Of Gemma4",
+      "why_it_could_win": "Leverages Gemma 4's multimodal intelligence on a technical domain where judges can immediately test it live with their own code and architecture sketches during demo."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "An open-source children's storybook generator that uses an open-weight LLM for narrative generation and ElevenLabs for dynamic character voice switching.",
+      "problem_statement": "Best Project Built with ElevenLabs",
+      "stack": [
+        "Python",
+        "React",
+        "Flask",
+        "ElevenLabs API",
+        "Mistral-7B"
+      ],
+      "title": "StoryVoice Interactive Narrator",
+      "track": "Best Project Built with ElevenLabs",
+      "why_it_could_win": "Combines both open-source AI and ElevenLabs voice generation to create an engaging, highly visual and auditory live demo that stands out during judging."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
