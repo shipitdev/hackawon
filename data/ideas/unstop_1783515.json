@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-01T09:32:13.452728+00:00",
+  "grounding": {
+    "domains": [
+      "gaming",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1783515",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A Python-based simulation utility and controller engine that maps unseen battlefields, calculates optimal A* routing around hidden hazards, and dynamically optimizes resource gathering for turn-based rover strategy games.",
+      "problem_statement": "Develop autonomous rover controllers to explore unfamiliar terrain, gather resources, defend territory, and outmanoeuvre rival teams in a turn-based strategy game.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Pygame",
+        "NetworkX"
+      ],
+      "title": "A* Pathfinding and Hazard-Avoidance Visualizer for Rover Fleet",
+      "track": "",
+      "why_it_could_win": "Solves the core algorithmic bottleneck of the competition with robust pathfinding and decision trees, matching the winning pattern of genuinely hard engineering."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An intelligent decision-making agent built using Minimax search with Alpha-Beta pruning to evaluate tactical combat tradeoffs, enemy vault raids, and resource-driven upgrades under uncertainty.",
+      "problem_statement": "Program your rovers to explore the map, mine resources, raid enemy vaults, engage in combat, and manage upgrades to maximise their score.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "Minimax-AlphaBeta Rover Combat Controller",
+      "track": "",
+      "why_it_could_win": "Outsmarts heuristic-based rivals in head-to-head turn-based matches by anticipating opponent moves several turns ahead, leveraging algorithmic superiority for live dominance."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:940931560"
+      ],
+      "pitch": "A real-time monitoring dashboard that hooks into the rover simulation backend to display fleet health, resource accumulation rates, predictive territory defense scores, and match win-probability analytics.",
+      "problem_statement": "Design intelligent controllers to explore unfamiliar terrain, gather resources, defend their territory, and outmanoeuvre rival teams.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "WebSockets"
+      ],
+      "title": "RoverTelemetry Live Ops Dashboard",
+      "track": "",
+      "why_it_could_win": "Judges in live offline finals love a visually compelling tactical command center that makes autonomous decisions transparent and easy to demonstrate."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:280704133",
+        "github:682938717"
+      ],
+      "pitch": "An Arduino-based physical control pad allowing manual override and tactical targeting inputs during the live finals exhibition, integrating hardware controls with autonomous algorithms.",
+      "problem_statement": "On-site interactive competition conducted at IIT Madras featuring a free-for-all format where participants program rovers to explore, mine, and engage in combat.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "SerialCommunication",
+        "Python"
+      ],
+      "title": "Hardware-In-The-Loop Joystick Controller for Rover Targeting",
+      "track": "",
+      "why_it_could_win": "Directly channels the physical build pattern from previous winners, making an immediate unforgettable impression in an offline room dominated by software-only entries."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A lightweight Q-learning agent designed to adapt rover upgrade strategies on the fly when unexpected dynamic in-game events alter the balance of the battlefield.",
+      "problem_statement": "Manage upgrades to maximise their score while adapting to dynamic in-game events and hidden hazards that shift the balance of the game.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Gymnasium"
+      ],
+      "title": "Reinforcement Learning State-Action Optimizer for Dynamic In-Game Events",
+      "track": "",
+      "why_it_could_win": "Adapts autonomously to unpredictable game mechanics introduced in the finals stage, showcasing advanced machine learning application under uncertainty."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

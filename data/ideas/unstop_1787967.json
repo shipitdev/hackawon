@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-01T09:32:27.157753+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1787967",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1182199849",
+        "github:1259514645"
+      ],
+      "pitch": "An on-device computer vision application that tracks student posture during long coding sessions and provides instant haptic and audio corrections to prevent musculoskeletal strain.",
+      "problem_statement": "Healthcare & Assistive Technology",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "Streamlit",
+        "FastAPI"
+      ],
+      "title": "AuraCare: Real-Time Assistive Posture & Ergonomics Coach",
+      "track": "Healthcare & Assistive Technology",
+      "why_it_could_win": "Leverages the proven live-demo pattern from MediaPipe-based winners, directly appealing to judges looking for tangible health impact within an assistive tech track."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1346526259"
+      ],
+      "pitch": "A hyper-local campus platform that pairs students needing immediate help in specific computer science modules with senior peers available for quick micro-sessions.",
+      "problem_statement": "Smart Education & EdTech",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Supabase"
+      ],
+      "title": "EduSync: Localized Peer Skill Exchange and Micro-Mentorship Platform",
+      "track": "Smart Education & EdTech",
+      "why_it_could_win": "Addresses an immediate, relatable pain point for college students at Kalindi College and University of Delhi, guaranteeing strong local empathy from the evaluation panel."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A lightweight FinTech portal using verifiable smart contracts to track crowdfunding donations and milestone-based fund releases for college-level innovation projects.",
+      "problem_statement": "FinTech & Web3 / Blockchain",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "AgriChain Ledger: Transparent Micro-Sponsorship for Student Projects",
+      "track": "FinTech & Web3 / Blockchain",
+      "why_it_could_win": "Brings transparency to academic project funding, hitting the sweet spot of a Web3 application that solves a real institutional administrative problem rather than dealing in abstract finance."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1234067949"
+      ],
+      "pitch": "An IoT and computer vision system designed for campus cafeterias and administrative blocks to monitor live congestion and stream predictive wait times to student mobile devices.",
+      "problem_statement": "AI / Machine Learning & Automation",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "Flask",
+        "React Native"
+      ],
+      "title": "CampusFlow: Automated Crowd & Queue Management with Edge AI",
+      "track": "AI / Machine Learning & Automation",
+      "why_it_could_win": "Combines hard edge-AI processing with a crystal-clear, measurable operational efficiency metric that judges can verify on campus immediately."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An open-innovation mapping tool that calculates the lowest-emission public transit and walking routes across Delhi by aggregating real-time air quality metrics and local metro feeds.",
+      "problem_statement": "Open Innovation",
+      "stack": [
+        "TypeScript",
+        "Mapbox GL",
+        "Express.js",
+        "PostgreSQL"
+      ],
+      "title": "EcoRoute Delhi: Dynamic Carbon-Optimized Commute Planner",
+      "track": "Open Innovation",
+      "why_it_could_win": "Tackles a hyper-relevant environmental crisis in Delhi with concrete, quantifiable social impact metrics that resonate strongly with academic evaluation panels."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
