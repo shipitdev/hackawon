@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-02T09:49:22.449930+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unique-data",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1789982",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1228328106",
+        "github:680478376"
+      ],
+      "pitch": "A robust end-to-end data pipeline combining automated feature engineering, hyperparameter-tuned LightGBM/XGBoost models, and SHAP-based business interpretation designed specifically for the Kaggle-hosted Project LastMile prediction challenge.",
+      "problem_statement": "Project LastMile is an analytics and machine learning challenge designed to test participants' ability to analyse data, identify key drivers, develop predictive models, and derive actionable business insights evaluated on ROC-AUC.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "LightGBM",
+        "SHAP",
+        "Pandas",
+        "Jupyter Notebook"
+      ],
+      "title": "LastMileXGB: Optimized ROC-AUC Pipeline with SHAP Business Driver Extraction",
+      "track": "",
+      "why_it_could_win": "Directly optimizes for the hackathon's exact evaluation metric (ROC-AUC) while providing clear SHAP-based feature importance plots that fulfill Round 2's requirement for actionable business recommendations."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1228328106",
+        "github:147707253"
+      ],
+      "pitch": "An accelerated ensemble learning framework that blends gradient boosted trees, neural networks, and linear models using out-of-fold predictions to maximize Kaggle leaderboard standing for Round 1 qualification.",
+      "problem_statement": "Project LastMile is an analytics and machine learning challenge designed to test participants' ability to analyse data, identify key drivers, develop predictive models, and derive actionable business insights evaluated on ROC-AUC.",
+      "stack": [
+        "Python",
+        "Optuna",
+        "CatBoost",
+        "XGBoost",
+        "Scikit-Learn"
+      ],
+      "title": "AutoLastMile: Automated Stacking Ensemble for High ROC-AUC Performance",
+      "track": "",
+      "why_it_could_win": "Utilizes rigorous cross-validation stacking strategies that consistently outperform single models on tabular data challenges, securing a top-8 spot for Round 2 presentations."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1228328106",
+        "github:1079913400"
+      ],
+      "pitch": "A companion analytical suite that ingests the competition training dataset, automatically detects multicollinearity and anomalous data points, and exports structured, data-backed insights ready for the 8-slide presentation requirement.",
+      "problem_statement": "Project LastMile is an analytics and machine learning challenge designed to test participants' ability to analyse data, identify key drivers, develop predictive models, and derive actionable business insights evaluated on ROC-AUC.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Matplotlib",
+        "Seaborn"
+      ],
+      "title": "LastMileInsights: 8-Slide Automated Presentation Generator and Feature Inspector",
+      "track": "",
+      "why_it_could_win": "Solves the acute time constraint of Round 2 by pre-formatting analytical outputs into clean visual summaries aligned with the strict 8-slide presentation limit."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An auditing tool applied alongside the predictive model to detect demographic or subgroup bias in the training data, ensuring model fairness and robust generalization across hidden evaluation splits.",
+      "problem_statement": "Project LastMile is an analytics and machine learning challenge designed to test participants' ability to analyse data, identify key drivers, develop predictive models, and derive actionable business insights evaluated on ROC-AUC.",
+      "stack": [
+        "Python",
+        "Fairlearn",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "LastMileFair: Bias Detection and Mitigation for Equitable Predictive Analytics",
+      "track": "",
+      "why_it_could_win": "Judges in corporate analytics challenges highly value fairness and robustness checks beyond raw predictive accuracy, reducing the risk of edge-case failures on hidden datasets."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A fully scripted, single-command machine learning pipeline with fixed random seeds, automated dependency pinning, and verification scripts to guarantee compliance with the strict reproducibility rules.",
+      "problem_statement": "Project LastMile is an analytics and machine learning challenge designed to test participants' ability to analyse data, identify key drivers, develop predictive models, and derive actionable business insights evaluated on ROC-AUC.",
+      "stack": [
+        "Python",
+        "Docker",
+        "Bash",
+        "Jupyter Notebook"
+      ],
+      "title": "LastMileReproducer: Containerized End-to-End Pipeline with Guaranteed Reproducibility",
+      "track": "",
+      "why_it_could_win": "Directly mitigates the rule specifying that failure to reproduce results leads to disqualification, giving judges 100% confidence in the submission's integrity."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-02T09:49:04.593095+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1782683",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth local runner and prompt-injection analyzer for evaluating autonomous agent tool-calling security.",
+      "problem_statement": "Web Exploitation and Binary Exploitation categories for security training and defense.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Docker",
+        "FastAPI"
+      ],
+      "title": "Agentic Sandbox Hardening Suite",
+      "track": "Web Exploitation",
+      "why_it_could_win": "Demonstrates layered defense principles and secure agent sandboxing, leveraging proven architecture from successful security and agent challenge entries."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1196410850"
+      ],
+      "pitch": "An automated intelligence-gathering pipeline that correlates public metadata across decentralized endpoints to build threat graphs.",
+      "problem_statement": "OSINT and Forensics categories for intelligence collection.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Streamlit",
+        "BeautifulSoup"
+      ],
+      "title": "OSINT Graph Tracer",
+      "track": "OSINT",
+      "why_it_could_win": "Combines graph intelligence with automated data ingestion, directly mirroring the robust mechanics of award-winning analytical platforms."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge proof verification protocol for sharing capture-the-flag payloads and sensitive vulnerability notes anonymously.",
+      "problem_statement": "Cryptography and Reverse Engineering categories for secure cryptographic verification.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Hardhat"
+      ],
+      "title": "ZK-Gated Secret Exchange",
+      "track": "Cryptography",
+      "why_it_could_win": "Applies advanced cryptographic circuits and zero-knowledge proofs to solve secure sharing, aligning with top-tier crypto hackathon wins."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "An automated binary analysis tool that compares compiled functions to detect known vulnerabilities and patch anomalies instantly.",
+      "problem_statement": "Binary Exploitation and Reverse Engineering categories for executable analysis.",
+      "stack": [
+        "Python",
+        "Rizin",
+        "CapStone"
+      ],
+      "title": "Binary Diffing Assistant",
+      "track": "Reverse Engineering",
+      "why_it_could_win": "Solves a technically rigorous, highly specific binary analysis problem that appeals directly to CTF organizers and low-level judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A rapid memory dump parsing tool that isolates injected DLLs and malicious hooks using automated heuristic patterns.",
+      "problem_statement": "Forensics category for digital artifact analysis and incident response.",
+      "stack": [
+        "Python",
+        "Volatility",
+        "Flask",
+        "Chart.js"
+      ],
+      "title": "Memory Forensics Visualizer",
+      "track": "Forensics",
+      "why_it_could_win": "Provides an immediately demonstrable, highly functional dashboard for memory dumping that saves hours of manual analysis during live finals."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
