@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-03T09:52:41.033820+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1790269",
+  "ideas": [
+    {
+      "build_hours": 1,
+      "inspired_by": [],
+      "pitch": "An instant web app that takes event details and generates a structured pitch website with live AI speech pacing feedback.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "Tailwind CSS",
+        "Web Speech API",
+        "OpenAI API"
+      ],
+      "title": "AIPitchDeck Generator & Rehearsal Coach",
+      "track": "",
+      "why_it_could_win": "Targeting a pain familiar to students and organisers in the room who struggle with rapid presentation creation and delivery during short-format events."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1138792186"
+      ],
+      "pitch": "A rapid website scaffolding tool that translates raw text prompts into functional HTML/CSS templates within minutes for fast hackathon deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Claude API"
+      ],
+      "title": "InstantLayout AI Wireframer",
+      "track": "",
+      "why_it_could_win": "Leverages speed and direct utility, matching the ultra-short 90-minute building constraint where execution velocity is the judges' primary metric."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A real-time multiplayer code snippet curator and sharing portal built specifically for fast-paced 4-person team collaboration.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "Monaco Editor"
+      ],
+      "title": "CollabSnippet Live Code Sync",
+      "track": "",
+      "why_it_could_win": "Addresses team workflow coordination during high-pressure, time-constrained multi-developer events."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated web auditing utility that scans landing pages and instantly flags accessibility and semantic HTML errors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Cheerio",
+        "Express",
+        "Tailwind CSS"
+      ],
+      "title": "QuickAudit Web Accessibility Checker",
+      "track": "",
+      "why_it_could_win": "Solves a technical quality assurance issue that judges immediately recognise and value in web development projects."
+    },
+    {
+      "build_hours": 1,
+      "inspired_by": [
+        "github:855084718",
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight web tool that runs security and syntax vulnerability checks on AI-generated frontend code snippets.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Groq API"
+      ],
+      "title": "PromptShield AI Code Guard",
+      "track": "",
+      "why_it_could_win": "Applies rigorous developer-focused tooling principles similar to successful code review and assistant platforms."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
