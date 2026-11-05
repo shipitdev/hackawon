@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-05T09:46:58.043292+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1781454",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1170846981"
+      ],
+      "pitch": "An AI-powered clinical triage and health data analytics platform optimized for low-bandwidth rural settings, featuring rPPG vital sign extraction via standard smartphone cameras.",
+      "problem_statement": "Low-cost tools and technologies for healthcare delivery; Application of Artificial Intelligence (AI) in healthcare solutions",
+      "stack": [
+        "React Native",
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "AshaPulse: Offline-First Multilingual Rural Health Triage",
+      "track": "Low-cost tools and technologies for healthcare delivery",
+      "why_it_could_win": "Combines rPPG camera sensing and multilingual triage with offline-first capabilities, directly mirroring architectures that win healthcare hackathons like mediscan-ai."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1241231621"
+      ],
+      "pitch": "An AI agent platform that aggregates local senior health data and mental health indicators to coordinate social micro-outings and match volunteer drivers.",
+      "problem_statement": "New ways and platforms to support mental health; Tools leveraging health data analytics to identify and predict health risks",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "MindBridge AI: Community Senior Health & Mental Outing Coordinator",
+      "track": "New ways and platforms to support mental health",
+      "why_it_could_win": "Wins by targeting social isolation among seniors with an actionable, demonstrated matching engine, utilizing the exact architectural concept of Vanderbilt Global Good winner Outreach."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1370167028"
+      ],
+      "pitch": "A smartphone-based posture and mobility screening tool that uses computer vision pose estimation to detect early musculoskeletal and neurological risks in children.",
+      "problem_statement": "Tools leveraging health data analytics to identify and predict health risks; Low-cost tools and technologies for healthcare delivery",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "Flutter",
+        "FastAPI"
+      ],
+      "title": "VisionRisk: Pediatric Postural & Biomechanical Risk Screener",
+      "track": "Tools leveraging health data analytics to identify and predict health risks",
+      "why_it_could_win": "Leverages heavy computer vision engineering (MediaPipe Pose + XGBoost) analogous to CricketVision_AI, proving deep technical execution within a tight window."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent AI system that audits electronic health record summaries and insurance pre-authorizations to prevent care denial bias in underserved populations.",
+      "problem_statement": "Application of Artificial Intelligence (AI) in healthcare solutions; Tools leveraging health data analytics to identify and predict health risks",
+      "stack": [
+        "Python",
+        "Google GenAI SDK",
+        "Streamlit",
+        "LangChain"
+      ],
+      "title": "ClaimAudit: Multi-Agent Insurance Authorization & Bias Auditor",
+      "track": "Application of Artificial Intelligence (AI) in healthcare solutions",
+      "why_it_could_win": "Directly builds on Google Code Cure winner architecture (claim-bias-evaluator), appealing to judges looking for complex agentic workflows and algorithmic fairness."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-interactive AI chatbot that maps symptom queries from rural callers to predict localized disease outbreaks and schedule community immunizations.",
+      "problem_statement": "Low-cost tools and technologies for healthcare delivery; Tools leveraging health data analytics to identify and predict health risks",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI Whisper API",
+        "Leaflet.js",
+        "Supabase"
+      ],
+      "title": "GramVani: Voice-First Rural Outbreak & Vaccination Tracker",
+      "track": "Low-cost tools and technologies for healthcare delivery",
+      "why_it_could_win": "Scales the proven rural health awareness pattern of SAGACITY into an active predictive outbreak dashboard that health administrators can visualize live."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

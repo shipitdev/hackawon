@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-05T09:47:51.503725+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "web3",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1789849",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1181028879"
+      ],
+      "pitch": "An enterprise-grade automation platform tailored for Goa's hospitality and tourism industry, orchestrating bookings, permits, and vendor payments through hierarchical AI agents.",
+      "problem_statement": "Automating everyday workflows and exploring AI agents in tourism-heavy regional economies.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "GoaWorkflows: Autonomous Multi-Agent Tourism Workflow Automation",
+      "track": "",
+      "why_it_could_win": "Targeting local business workflows resonates immediately with judges in the region, combining practical utility with advanced multi-agent execution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A localized AI agent that captures engineering team knowledge directly from git commits, PR discussions, and local documentation to instantly onboard new developers.",
+      "problem_statement": "Web development, software engineering and emerging technology developer tooling challenges.",
+      "stack": [
+        "Python",
+        "ChromaDB",
+        "FastAPI",
+        "LangGraph",
+        "TypeScript"
+      ],
+      "title": "GitContext: Developer Knowledge Archival and Onboarding Agent",
+      "track": "",
+      "why_it_could_win": "Leverages the proven winning pattern of solving developer and engineering team lifecycle pain points that hackathon judges experience daily."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A blazing-fast, training-free semantic routing system using kNN over exemplar indices to dynamically route user queries to the cheapest, most effective local or cloud LLM.",
+      "problem_statement": "Exploring AI agents and emerging technologies efficiently with constrained compute.",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "SemanticRouterGoa: Training-Free Query Router for Regional LLM Cost Reduction",
+      "track": "",
+      "why_it_could_win": "Employs hard systems engineering and optimization techniques directly demonstrated in top-tier recent hackathon wins."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline, privacy-first code reviewer running entirely on hardware NPUs to perform instant AST parsing and lint-fix suggestions without hitting external APIs.",
+      "problem_statement": "Software engineering, rapid prototyping, and experimenting with emerging hardware and AI capabilities.",
+      "stack": [
+        "Python",
+        "Qualcomm Snapdragon SDK",
+        "ONNX Runtime",
+        "Streamlit"
+      ],
+      "title": "NPU-Reviewer: Offline Code Quality Guard for Snapdragon Devices",
+      "track": "",
+      "why_it_could_win": "Showcases offline edge-AI capability and hardware utilization, appealing directly to technical judges looking for complex local execution."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol (MCP) server architecture designed to securely orchestrate medical-data AI agents across isolated hospital nodes.",
+      "problem_statement": "Web development, software engineering, and practical problem-solving using emerging protocols.",
+      "stack": [
+        "Python",
+        "Kubernetes",
+        "Go",
+        "MCP SDK",
+        "ArgoCD"
+      ],
+      "title": "MedAgent Federation: Secure Clinical Multi-Agent Registry on Kubernetes",
+      "track": "",
+      "why_it_could_win": "Tackles complex distributed systems integration and secure agent communication, aligning with high-difficulty engineering winning patterns."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-05T09:48:20.443153+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1790680",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A real-time security log analysis dashboard built specifically to detect zero-day web attacks and abnormal traffic spikes in NGINX logs using lightweight local LLMs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "FastAPI",
+        "Google Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "AegisLog: AI-Powered NGINX Log Threat Intelligence and Anomaly Dashboard",
+      "track": "Cybersecurity and Ethical Hacking",
+      "why_it_could_win": "Leverages direct inspiration from a proven hackathon winner (github:985196561) in the Cybersecurity and Ethical Hacking track, offering high visual impact and immediate utility for system administrators."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered anti-money laundering platform that combines graph intelligence networks with explainable machine learning models to trace suspicious financial transactions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LightGBM",
+        "NetworkX",
+        "React"
+      ],
+      "title": "GraphGuard: AML Risk Detection and Investigation Platform",
+      "track": "Data Science and Analytics",
+      "why_it_could_win": "Adopts the architecture of a first-place fintech hackathon winner (github:1181344931), combining complex graph visualization with explainable AI which appeals strongly to judges looking for enterprise-grade depth."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A solo-friendly developer toolkit that scans uploaded machine learning datasets and trained models to detect demographic bias and automatically apply mitigation techniques.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-learn",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "FairAudit: Automated Bias Detection and Mitigation for ML Models",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Replicates the winning formula of a solo-built project (github:1266090747) targeting AI ethics and fairness, a rapidly growing evaluation priority for technical judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An automated system that processes multi-temporal satellite imagery using computer vision to detect unauthorized industrial expansion and land-use violations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "Next.js",
+        "Leaflet.js"
+      ],
+      "title": "GeoCompliance: Satellite Monitoring for Industrial Land Regulations",
+      "track": "Internet of Things (IoT) and Robotics",
+      "why_it_could_win": "Mirrors a runner-up winner (github:1155558847) in industrial monitoring and environmental compliance, combining remote sensing data with actionable visualization."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A platform that indexes unstructured corporate and educational video recordings, transforming them into fully searchable, time-stamped text transcripts using local Whisper and vision models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "OpenAI Whisper",
+        "FAISS"
+      ],
+      "title": "VideoLibrarian: Multimodal Video Intelligence and Semantic Search Engine",
+      "track": "Open Innovation and Technology Solutions",
+      "why_it_could_win": "Follows a first-prize and people's choice winner (github:1200926140) focused on transforming unstructured media into accessible data, guaranteeing high engagement during live demo presentations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

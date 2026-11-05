@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-05T09:46:40.663781+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1779479",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent system built with LangGraph that monitors simulated factory sensor telemetry, detects anomalies, and automatically generates and dispatches maintenance repair workflows.",
+      "problem_statement": "Autonomous AI Agents for Intelligent Real-World Decision-Making",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Gemini 2.5",
+        "TimescaleDB"
+      ],
+      "title": "Agentic IoT Factory Maintenance Crew",
+      "track": "Track 1 – Software: Agentic AI",
+      "why_it_could_win": "Combines multi-agent reasoning with industrial telemetry, mirroring the exact architecture that won the SEAL Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1100461811"
+      ],
+      "pitch": "A vision-language robotic task planner where natural language commands translate directly into kinematic pick-and-place trajectories using an open-source simulation model.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "Python",
+        "ROS2",
+        "OpenCV",
+        "LLMs"
+      ],
+      "title": "Embodied LLM Robotic Arm Picker",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Directly tackles the physical track with embodied AI reasoning, following the blueprint of the Robotics Collective Hackathon winner."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "A computer vision edge agent that processes live CCTV streams to instantly detect missing hardhats and vests in industrial environments, triggering automated incident alerts.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "TypeScript"
+      ],
+      "title": "Edge-AI PPE & Safety Violation Guard",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Solves an immediate, high-value enterprise problem with a robust edge-AI implementation that judges can test instantly via webcam."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A differential drive rover utilizing depth cameras and SLAM navigation algorithms to autonomously map debris-heavy zones and execute cleaning paths.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "C++",
+        "ROS",
+        "Python",
+        "LiDAR simulation"
+      ],
+      "title": "Autonomous Indoor Sanitation Rover",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Features an unusual physical hardware build and live autonomous navigation that stands out in a room full of standard web apps."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A collaborative team of planning agents that ingest multi-page regulatory PDF reports, cross-reference them against live policy databases, and synthesize automated audit scorecards.",
+      "problem_statement": "Autonomous AI Agents for Intelligent Real-World Decision-Making",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Qdrant",
+        "FastAPI"
+      ],
+      "title": "Agentic Multi-Document Compliance Auditor",
+      "track": "Track 1 – Software: Agentic AI",
+      "why_it_could_win": "Utilizes multi-agent planning and reasoning frameworks that directly showcase advanced digital decision-making capabilities."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

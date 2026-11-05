@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-05T09:51:01.991942+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1793030",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A centralized open-source repository and smart semantic search engine specifically designed for CSVTU engineering curriculum materials, past exam papers, and faculty lecture transcripts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "ChromaDB"
+      ],
+      "title": "CSV-Insight: Localized Academic Resource Hub",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to the organizing university (CSVTU) and its students, making the utility immediately obvious to judges in the room."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1213911408",
+        "github:923146379"
+      ],
+      "pitch": "A lightweight web dashboard for university departments to track and optimize power consumption of computer labs and smart classrooms in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "CampusGreen Track: Localized Energy Footprint Tracker",
+      "track": "",
+      "why_it_could_win": "Addresses operational sustainability on a university campus, appealing directly to institutional judges looking for practical infrastructure utility."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A lightning-fast QR check-in and automated certificate generation system built specifically for handling high-volume cultural and technical fest events.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQLite"
+      ],
+      "title": "Kaushalya Event Pass & Attendance Copilot",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical nightmare for festival organizers who are sitting right on the judging panel."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [],
+      "pitch": "An inventory tracking web application that logs equipment checkouts, flags missing hardware in engineering labs, and predicts maintenance needs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "Bootstrap"
+      ],
+      "title": "SmartLab Asset & Equipment Monitor",
+      "track": "",
+      "why_it_could_win": "Demonstrates high practical value for university asset management with zero fluff, scoring high on feasibility and real-world deployment potential."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A localized platform connecting junior students with senior project mentors based on verified tech stacks and past hackathon project contributions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "TailwindCSS"
+      ],
+      "title": "UniMentor: Peer-to-Peer Skill Graph",
+      "track": "",
+      "why_it_could_win": "Leverages graph-based connection modeling to solve student collaboration hurdles within the university ecosystem."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

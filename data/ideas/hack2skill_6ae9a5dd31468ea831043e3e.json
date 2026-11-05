@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-05T09:44:36.140307+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6ae9a5dd31468ea831043e3e",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An agentic compliance checker that ingests complex BPMN workflow diagrams and validates them against regulatory compliance texts using Gemini 1.5 Pro's massive context window.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "Streamlit",
+        "xml.etree"
+      ],
+      "title": "Gemini Multimodal BPMN Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages Gemini's signature 2-million token context window to process entire enterprise compliance handbooks alongside complex workflow diagrams in a single shot, fitting the pattern of solving hard engineering problems."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that dynamically directs incoming user queries to the optimal Gemini model tier (Flash vs. Pro) based on query complexity, cutting API costs by 40%.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "FastAPI",
+        "Gemini SDK"
+      ],
+      "title": "Semantic Doc-Router for Gemini API Calls",
+      "track": "",
+      "why_it_could_win": "Mirrors a proven winning architecture by optimizing LLM routing and cost-efficiency, which immediately appeals to technical judges who appreciate production-ready engineering hacks."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An intelligent repository indexing tool that uses Gemini to auto-generate interactive onboarding guides and architecture flowcharts for newly joined developers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "ChromaDB"
+      ],
+      "title": "Gemini-Powered Legacy Codebase Onboarding Agent",
+      "track": "",
+      "why_it_could_win": "Solves a universal pain point that software engineering judges feel daily, directly mirroring the engineering team lifecycle intelligence strategy that won previous developer tools tracks."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure offline-first clinical assistant that uses Gemini's native audio understanding to transcribe doctor-patient conversations and instantly output structured FHIR medical JSON resources.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Gemini 1.5 Pro",
+        "FastAPI",
+        "Pydantic"
+      ],
+      "title": "Multimodal Clinical Audio-to-FHIR Pipeline",
+      "track": "",
+      "why_it_could_win": "Showcases Gemini's superior native multimodal audio processing capabilities on a high-value, complex domain-specific workflow that stands out from generic text chat interfaces."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1214808895"
+      ],
+      "pitch": "An agentic QA pipeline that takes UI screenshots and user journey descriptions, uses Gemini Vision to identify interactive elements, and outputs executable Playwright test scripts with automatic retry logic.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Playwright",
+        "Gemini API",
+        "LangGraph"
+      ],
+      "title": "Self-Correcting Multimodal Test Case Generator",
+      "track": "",
+      "why_it_could_win": "Combines multimodal vision analysis with closed-loop agentic execution, demonstrating advanced tool use that heavily impresses hackathon judges looking for functional autonomy."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

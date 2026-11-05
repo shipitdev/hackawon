@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-05T09:47:32.271782+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1786997",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "Decentralized zero-trust network access (ZTNA) gateway enforcing continuous device posture assessment for remote university and enterprise endpoints.",
+      "problem_statement": "Cybersecurity: Protecting networks, ensuring data integrity, and securing digital infrastructure.",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "eBPF",
+        "Tailscale"
+      ],
+      "title": "AegisNode",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Addresses cybersecurity infrastructure directly, appealing strongly to a faculty evaluation panel looking for rigorous technical depth rather than superficial UI wraps."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered automated anti-money laundering (AML) graph analytics engine for real-time transaction monitoring and anomaly investigation.",
+      "problem_statement": "FinTech: Engineering disruptive digital banking, payment solutions, and wealth-tech platforms.",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "Neo4j",
+        "FastAPI"
+      ],
+      "title": "LedgerLens AI",
+      "track": "FinTech",
+      "why_it_could_win": "Directly mirrors the architecture of proven financial crime detection winners, leveraging graph intelligence and explainable ML features that impress finance judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient triage and trust verification engine tailored for regional multi-specialty clinics.",
+      "problem_statement": "Healthcare: Empowering medicine, diagnostics, and patient care through technology.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "MediGraph Trust",
+      "track": "Healthcare",
+      "why_it_could_win": "Focuses on clinical trust acquisition and operational efficiency, providing a tangible product demonstration that healthcare panelists can easily test."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "Real-time biomechanical movement analyzer using pose estimation models to evaluate physical therapy and athletic form accuracy.",
+      "problem_statement": "Healthcare: Empowering medicine, diagnostics, and patient care through technology.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "OpenCV"
+      ],
+      "title": "BioKinematics",
+      "track": "Healthcare",
+      "why_it_could_win": "Combines robust computer vision inference with confidence gating, delivering a standout live demo that requires actual engineering effort."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "Emergency offline disaster communication bridge operating via LoRa and BLE mesh networks for resilient campus and urban safety.",
+      "problem_statement": "Cybersecurity: Protecting networks, ensuring data integrity, and securing digital infrastructure.",
+      "stack": [
+        "JavaScript",
+        "ESP32",
+        "LoRa",
+        "C++"
+      ],
+      "title": "MeshPrahari",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Proves hardware-software integration capability with physical device demonstrations, securing high scores for real-world resilience."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

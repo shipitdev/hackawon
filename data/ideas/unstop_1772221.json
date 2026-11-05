@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-05T09:46:13.421404+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772221",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A hyper-fast semantic routing middleware built in 3 hours that classifies student queries and routes them to correct university departments using local embeddings.",
+      "problem_statement": "VibeForge – National-Level Hackathon NIMS University STEM Department challenge to transform innovative ideas into functional prototypes within a three-hour time limit.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Sentence-Transformers",
+        "FAISS"
+      ],
+      "title": "VibeRouter: 3-Hour Semantic Router for Student Support Portals",
+      "track": "",
+      "why_it_could_win": "Leverages the training-free semantic routing pattern proven at the Superlinked x Qwen Hackathon, making it realistic to build within the extreme 3-hour limit while showing sophisticated ML architecture."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A rapid knowledge-capture and retrieval web tool that ingests READMEs and code snippets and answers questions for incoming team members.",
+      "problem_statement": "VibeForge – National-Level Hackathon NIMS University STEM Department challenge to transform innovative ideas into functional prototypes within a three-hour time limit.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "Streamlit"
+      ],
+      "title": "CampusDevFlow: Instant Onboarding Knowledge Vault for Hackathon Teams",
+      "track": "",
+      "why_it_could_win": "Directly targets a pain familiar to students and hackathon organizers in the room who constantly onboard new team members or evaluate code quickly."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A lightweight browser-based utility that instantly profiles CSV or JSON student datasets, calculates integrity metrics, and auto-generates data quality scores.",
+      "problem_statement": "VibeForge – National-Level Hackathon NIMS University STEM Department challenge to transform innovative ideas into functional prototypes within a three-hour time limit.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "QuickDataVeritas: Automated EDA & Data Integrity Tool for University Datasets",
+      "track": "",
+      "why_it_could_win": "Mirrors the runner-up architecture of DataVeritas, packing heavy automated profiling into an interactive UI that is extremely easy for judges to test live within 3 hours."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A lightweight code completion and error-checking assistant extension designed to help student developers write cleaner code during fast-paced coding sessions.",
+      "problem_statement": "VibeForge – National-Level Hackathon NIMS University STEM Department challenge to transform innovative ideas into functional prototypes within a three-hour time limit.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Node.js"
+      ],
+      "title": "CodeBoost-Lite: Fast VS Code Extension for Student Developers",
+      "track": "",
+      "why_it_could_win": "Follows the Google Girl Hackathon runner-up pattern by delivering a tangible developer-productivity tool with an immediate GUI feedback loop."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A plug-and-play RAG toolkit backed by lightweight local storage that indexes university circulars and instantly answers student regulatory inquiries.",
+      "problem_statement": "VibeForge – National-Level Hackathon NIMS University STEM Department challenge to transform innovative ideas into functional prototypes within a three-hour time limit.",
+      "stack": [
+        "Python",
+        "SQLite",
+        "HNSWlib",
+        "Flask"
+      ],
+      "title": "SeamlessMariaRAG: Zero-Setup Document Assistant for Campus Archives",
+      "track": "",
+      "why_it_could_win": "Uses proven auto-embedding RAG patterns that can be cleanly scaffolded and demonstrated live to judges in a strict 3-hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

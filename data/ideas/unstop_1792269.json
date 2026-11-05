@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-05T09:49:32.241199+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1792269",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous agentic workflow runner that intercepts CI/CD pipeline failures, diagnoses root causes via git diffs and logs, writes a fix, and opens a functional pull request.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "GitHub Actions API"
+      ],
+      "title": "AgentFlow-CI",
+      "track": "",
+      "why_it_could_win": "Directly targets the debugging pain point seen in winning projects like bobthebuilder by showing multi-file fixes and automated PR creation that judges can test immediately on a broken repo."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An enterprise knowledge graph builder that ingests internal Slack threads, PR comments, and legacy docs to create an interactive onboarding agent for new engineering hires.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma",
+        "FastAPI",
+        "LangGraph"
+      ],
+      "title": "OnboardAgent",
+      "track": "",
+      "why_it_could_win": "Replicates the exact team lifecycle intelligence strategy that won first place at devflow by solving institutional knowledge loss in a way technical judges instantly appreciate."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol server integrated with local medical databases that allows autonomous AI agents to query patient records safely with role-based schema validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ai-agents",
+        "FastAPI",
+        "MCP SDK"
+      ],
+      "title": "MCP-MedicalGate",
+      "track": "",
+      "why_it_could_win": "Leverages the powerful architectural patterns seen in winning MCP implementations, appealing strongly to judges looking for deep systems integration over basic wrapper prompts."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that dynamically selects the most cost-effective local or hosted LLM for incoming agent tool-calls using a kNN exemplar index.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "SemanticRoute-Eval",
+      "track": "",
+      "why_it_could_win": "Adopts the self-improving semantic routing mechanism that won top prizes at the Superlinked × Qwen Hackathon by offering quantifiable cost-saving metrics."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An autonomous IT service desk agent that reads incoming email tickets, queries internal SharePoint runbooks, performs automated triage, and posts approval requests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "Microsoft Graph API"
+      ],
+      "title": "AutoITSM-Agent",
+      "track": "",
+      "why_it_could_win": "Emulates the successful enterprise automation pattern from the Microsoft Agent Academy winner by targeting tedious IT workflows that eliminate SaaS overhead."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

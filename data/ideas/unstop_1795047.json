@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-05T09:55:29.728754+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1795047",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "A text-to-SQL application that converts natural language queries directly into complex IBM Db2 queries, instantly executing them and generating visual data dashboards on the fly.",
+      "problem_statement": "Text-to-SQL applications and AI-powered data analytics",
+      "stack": [
+        "IBM Db2",
+        "LangChain",
+        "Python",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "Db2Text2Dash: Natural Language to Enterprise SQL and Analytics",
+      "track": "",
+      "why_it_could_win": "Directly targets the text-to-SQL and data analytics suggested directions while echoing the live demo success and API orchestration of past winners like the Tableau DataDev project."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An intelligent document processing and semantic search platform that ingests messy enterprise PDFs, extracts structured tables into IBM Db2, and powers a context-aware RAG search engine.",
+      "problem_statement": "Document intelligence systems and AI-powered RAG applications",
+      "stack": [
+        "IBM Db2",
+        "LlamaIndex",
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Db2DocIntel: Enterprise Document Intelligence & Semantic Vault",
+      "track": "",
+      "why_it_could_win": "Combines vector search with structured relational storage in IBM Db2, fulfilling the document intelligence track requirement with a clear, demonstrable workflow."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent system powered by CrewAI that continuously inspects database performance, checks for anomalies in IBM Db2 logs, and autonomously generates optimization queries.",
+      "problem_statement": "Intelligent AI agents and AI-powered data analytics",
+      "stack": [
+        "IBM Db2",
+        "CrewAI",
+        "LangChain",
+        "Python",
+        "Node.js"
+      ],
+      "title": "Db2AgentOps: Autonomous Multi-Agent Database Auditor",
+      "track": "",
+      "why_it_could_win": "Leverages multi-agent coordination frameworks like CrewAI, mirroring the autonomous diagnostic success seen in recent multi-agent hackathon winners."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1171690684"
+      ],
+      "pitch": "An automated data profiling and validation tool that inspects tables in IBM Db2 for data integrity issues, schema inconsistencies, and demographic biases in stored records.",
+      "problem_statement": "AI-powered data analytics and semantic search",
+      "stack": [
+        "IBM Db2",
+        "Python",
+        "Pandas",
+        "Langflow",
+        "Streamlit"
+      ],
+      "title": "Db2SchemaGuard: Automated Database Bias & Data Integrity Profiler",
+      "track": "",
+      "why_it_could_win": "Combines automated data profiling with database inspection, drawing directly from the data profiling and bias detection patterns of recent runner-up and winning projects."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "A conversational AI assistant that acts as a digital twin for corporate operations, maintaining long-term conversational memory and operational state inside IBM Db2 vector tables.",
+      "problem_statement": "Database-powered chatbots and semantic search and vector search",
+      "stack": [
+        "IBM Db2",
+        "Haystack",
+        "Python",
+        "FastAPI",
+        "Next.js"
+      ],
+      "title": "Db2TwinChat: Enterprise Digital Twin Chatbot with Vector Memory",
+      "track": "",
+      "why_it_could_win": "Directly implements vector search capabilities with IBM Db2, offering a highly polished conversational interface that appeals to judges looking for practical enterprise utilities."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
