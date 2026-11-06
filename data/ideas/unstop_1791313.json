@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-06T09:41:33.508455+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1791313",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1391289010",
+        "github:933310408"
+      ],
+      "pitch": "A swarm of specialized AI agents that autonomously analyze pull requests, build an AST dependency graph, spot security vulnerabilities, and push automated refactoring commits.",
+      "problem_statement": "Agentic AI",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Docker",
+        "Next.js"
+      ],
+      "title": "AstraGraph: Autonomous Multi-Agent Code Review & Refactoring Engine",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track using a complex multi-agent DAG workflow inspired by winning taskflow automation agents."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "An agentic AI medical triage system that evaluates patient vitals and symptoms via voice or text, performs multilingual intake, and autonomously routes emergency alerts to local clinics.",
+      "problem_statement": "Agentic AI",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "MediAgent: Clinical Triage & Autonomous Referral Copilot",
+      "track": "Agentic AI",
+      "why_it_could_win": "Combines high-impact healthcare triage workflows with autonomous agent decision-making, highly appealing to incubator judges looking for real-world PPO potential."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "An autonomous agent system that monitors off-chain data streams, triggers smart contract execution workflows, and dynamically resolves state discrepancies across nodes.",
+      "problem_statement": "Agentic AI",
+      "stack": [
+        "Solidity",
+        "Python",
+        "FastAPI",
+        "Web3.py"
+      ],
+      "title": "ChainAgent: Autonomous Decentralized Task Dispatcher",
+      "track": "Agentic AI",
+      "why_it_could_win": "Demonstrates advanced hard engineering in distributed system state coordination and agent autonomy within the specified Agentic AI track."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140",
+        "github:933310408"
+      ],
+      "pitch": "An agentic RAG platform where multiple sub-agents crawl unstructured enterprise document repos, debate conflicting policies, and synthesize compliance reports with citation mapping.",
+      "problem_statement": "Agentic AI",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "ChromaDB",
+        "Streamlit"
+      ],
+      "title": "DocuFlow Agent: Intelligent Knowledge Base and Synthesis Swarm",
+      "track": "Agentic AI",
+      "why_it_could_win": "Focuses on solving an enterprise productivity pain point with a polished, working multi-agent demo."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1034660288"
+      ],
+      "pitch": "An agentic chatbot and routing engine tailored for universities that coordinates administrative queries, schedules appointments, and autonomously flags student distress signals.",
+      "problem_statement": "Agentic AI",
+      "stack": [
+        "Node.js",
+        "Next.js",
+        "Vector Embeddings",
+        "TailwindCSS"
+      ],
+      "title": "CampusPulse AI: Autonomous Student Support & Resource Dispatcher",
+      "track": "Agentic AI",
+      "why_it_could_win": "Targets an organizational and community problem that hackathon judges and student mentors immediately recognize and value."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

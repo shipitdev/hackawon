@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-06T09:43:36.807231+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1793796",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "A hybrid IoT sensor node and software dashboard providing real-time soil analytics and autonomous valve control using offline mesh networks for remote farmlands.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP32",
+        "LoRa",
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AgriMesh Hybrid: LoRa-Enabled Smart Irrigation and Soil Health Monitoring",
+      "track": "Hardware + Software Integration",
+      "why_it_could_win": "Combines a physical hardware prototype with software dashboards, fitting the exact Hardware + Software mandate of VYOM while mirroring the mesh-network and offline resilience focus of winning projects like HACKATHON-prahari-link-TEAM-SB."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A deterministic local resource governor and vibration anomaly detector that monitors industrial motors and triggers emergency shutoffs without cloud dependency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Python",
+        "Isolation Forest"
+      ],
+      "title": "Industrial Edge Guard: Anomaly Detection on Arduino Ventuno for Machine Health",
+      "track": "Industrial Automation",
+      "why_it_could_win": "Demonstrates hard engineering and deterministic edge-processing directly on hardware components, satisfying engineering judges who appreciate functional local safety systems."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A dual-component system featuring ESP32-based GPS and ultrasonic passenger counters on campus shuttles feeding a live prediction engine for students.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP32",
+        "GPS",
+        "Node.js",
+        "Leaflet.js"
+      ],
+      "title": "Campus Transit Dispatcher: IoT Bus Tracker and Crowd Density Estimator",
+      "track": "Smart Campus Solutions",
+      "why_it_could_win": "Solves an immediate, relatable campus logistics pain point for the organizers and students attending Government College of Engineering, Chhatrapati Sambhajinagar."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An embedded computer vision classification mechanism integrated with a sorting conveyor prototype to automatically segregate dry and wet waste.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Arduino"
+      ],
+      "title": "EcoSort AI: Low-Power Edge Garbage Segregation Prototype",
+      "track": "CleanTech / Sustainability",
+      "why_it_could_win": "Directly links hardware actuation with computer vision classification, leveraging proven concepts from past robotics hackathon winners."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent telemetry framework monitoring hazardous gas levels, temperature anomalies, and power fluctuations in institutional chemistry and engineering labs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "ESP8266",
+        "Sensors",
+        "Python",
+        "TimescaleDB",
+        "Telegram Bot API"
+      ],
+      "title": "LabGuard IoT: Autonomous Multi-Sensor Laboratory Safety and Diagnostics",
+      "track": "IoT & Embedded Systems",
+      "why_it_could_win": "Implements automated diagnostic responses and alerts, matching the multi-agent operational rigor found in winning IoT operations solutions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

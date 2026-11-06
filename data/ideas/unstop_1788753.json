@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-11-06T09:41:29.298365+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "unusual-hardware",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1788753",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1296916648",
+        "github:1259981732"
+      ],
+      "pitch": "An offline-first deep-tech edge AI system running on localized hardware to detect micro-cracks and structural stress on railway tracks using acoustic emissions and computer vision.",
+      "problem_statement": "Advanced Technology & Deep-Tech Development",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "OpenCV",
+        "C++",
+        "Raspberry Pi"
+      ],
+      "title": "DeepEdge Rail Anomaly Detector",
+      "track": "Advanced Technology & Deep-Tech Development",
+      "why_it_could_win": "Aligns with the deep-tech innovation focus of the event and features a hard physical/edge computing build, mirroring the winning pattern of unusual physical builds."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A deep-learning digital twin framework that simulates soil nutrient depletion and predicts irrigation anomalies using multi-spectral edge telemetry sensors.",
+      "problem_statement": "Advanced Technology & Deep-Tech Development",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "TimescaleDB",
+        "React"
+      ],
+      "title": "AgriSense Soil Micro-Biome Neural Twin",
+      "track": "Advanced Technology & Deep-Tech Development",
+      "why_it_could_win": "Utilizes a localized ML model coupled with sensor hardware to tackle a massive agricultural challenge relevant to Central India, appealing to incubation judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:964068655",
+        "github:1140260754"
+      ],
+      "pitch": "A low-cost brain-computer interface telemetry processing pipeline that translates motor-imagery EEG signals into assistive feedback for stroke rehabilitation.",
+      "problem_statement": "Advanced Technology & Deep-Tech Development",
+      "stack": [
+        "Python",
+        "MNE-Python",
+        "Scikit-Learn",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "MedFlux BCI Rehabilitation Agent",
+      "track": "Advanced Technology & Deep-Tech Development",
+      "why_it_could_win": "Employs complex biosignal processing (BCI) which showcases genuine hard engineering, directly matching the winning pattern from biomedical and neural hackathons."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous multi-agent operational framework powered by lightweight local LLMs and anomaly detection to predict micro-grid failures before transformer overloads occur.",
+      "problem_statement": "Advanced Technology & Deep-Tech Development",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Ollama",
+        "Qdrant",
+        "FastAPI"
+      ],
+      "title": "GridShield Autonomous Substation Diagnostics",
+      "track": "Advanced Technology & Deep-Tech Development",
+      "why_it_could_win": "Brings complex multi-agent system design and predictive isolation forest models into industrial infrastructure, directly addressing deep-tech operational resilience."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An edge-deployed acoustic signature analyzer that listens to underground water distribution networks to isolate cavitation and pipe bursts in real-time without cloud dependency.",
+      "problem_statement": "Advanced Technology & Deep-Tech Development",
+      "stack": [
+        "Python",
+        "Librosa",
+        "NumPy",
+        "PyTorch",
+        "MQTT"
+      ],
+      "title": "DeepWater Acoustic Pipeline Leak Predictor",
+      "track": "Advanced Technology & Deep-Tech Development",
+      "why_it_could_win": "Solves a critical infrastructural resource problem using localized digital signal processing and machine learning, fulfilling the core expectation of deep-tech innovation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

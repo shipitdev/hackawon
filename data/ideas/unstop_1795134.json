@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-06T09:43:59.395925+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1795134",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1066546613"
+      ],
+      "pitch": "An automated calibration pipeline that optimizes PID control loops for the ReRo Lab line follower arena using visual telemetry.",
+      "problem_statement": "Round 2: Line Follower and Maze Solver arenas using physical bots via ReRo Lab platform.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ROS",
+        "NumPy"
+      ],
+      "title": "Adaptive PID Tuning Assistant for Remote Line Followers",
+      "track": "Line Follower",
+      "why_it_could_win": "Targeting the core mechanics of the hackathon—PID control and navigation accuracy—which judges will prioritize during the limited 20-minute bot testing slots."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A robust maze-solving algorithm combining right-wall-following heuristics with flood-fill optimization tailored for latency constraints over remote API connections.",
+      "problem_statement": "Round 2: Line Follower and Maze Solver arenas using physical bots via ReRo Lab platform.",
+      "stack": [
+        "C++",
+        "Python",
+        "ROS"
+      ],
+      "title": "Edge-Optimized Wall Follower and Shortest Path Maze Solver",
+      "track": "Maze Solver",
+      "why_it_could_win": "Solves the specific bottleneck of remote command latency by computing path logic locally before execution on the physical ReRo Lab bots."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A lightweight diagnostic layer that monitors motor current spikes and wheel slip in real-time during remote runs to prevent bot stalls.",
+      "problem_statement": "Round 2: Line Follower and Maze Solver arenas using physical bots via ReRo Lab platform.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TimescaleDB",
+        "Scikit-Learn"
+      ],
+      "title": "Telemetry-Driven Anomaly Detector for Remote Robot Actuators",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of gnuinely hard engineering and operational awareness, impressing judges with proactive error recovery during limited slot access."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:694390550"
+      ],
+      "pitch": "A look-ahead vision preprocessing module that detects sharp turns and intersections ahead of time to dynamically adjust robot velocity.",
+      "problem_statement": "Round 2: Line Follower and Maze Solver arenas using physical bots via ReRo Lab platform.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "ROS"
+      ],
+      "title": "Computer Vision Junction Anticipator for High-Speed Line Tracking",
+      "track": "Line Follower",
+      "why_it_could_win": "Brings advanced perception to standard line-following tracks, directly addressing the speed versus stability trade-off that judges look for."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A real-time mapping tool that constructs an adjacency matrix of the physical maze as the robot explores, ensuring optimal return paths.",
+      "problem_statement": "Round 2: Line Follower and Maze Solver arenas using physical bots via ReRo Lab platform.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "ROS"
+      ],
+      "title": "Graph-Based Memory Mapper for Unknown Remote Mazes",
+      "track": "Maze Solver",
+      "why_it_could_win": "Demonstrates algorithmic depth beyond basic reactive driving, setting the project apart in the maze-solving challenge."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

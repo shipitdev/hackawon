@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-06T09:44:03.121219+00:00",
+  "grounding": {
+    "domains": [
+      "civic",
+      "agritech",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1795775",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981",
+        "github:101018869"
+      ],
+      "pitch": "A multilingual voice-first health assistant delivering localized preventive care and outbreak tracking for rural communities.",
+      "problem_statement": "Health Care",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "OpenAI API",
+        "Twilio"
+      ],
+      "title": "ArogyaDoot",
+      "track": "Health Care",
+      "why_it_could_win": "Directly targets a major hackathon domain and aligns with proven winning patterns of measurable health impact and multilingual accessibility in low-connectivity settings."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:897010293"
+      ],
+      "pitch": "Early pest outbreak and localized weather disruption warning system using SMS and voice IVR for marginal farmers.",
+      "problem_statement": "Agriculture",
+      "stack": [
+        "Node.js",
+        "Express",
+        "Python",
+        "Exotel API",
+        "PostgreSQL"
+      ],
+      "title": "AgriSanket",
+      "track": "Agriculture",
+      "why_it_could_win": "Addresses a critical agricultural domain pain point with an emphasis on economic viability and low-bandwidth accessibility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:657473662",
+        "github:897010293"
+      ],
+      "pitch": "Emergency resource matching platform connecting verified local first-aid volunteers with disaster response teams during floods and urban calamities.",
+      "problem_statement": "Disaster Managment",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "MongoDB",
+        "Leaflet.js",
+        "Socket.io"
+      ],
+      "title": "SahayakNet",
+      "track": "Disaster Managment",
+      "why_it_could_win": "Focuses on high-urgency disaster management with clear feasibility, drawing from successful real-time emergency coordination apps."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "Document forgery detection and secure land record verification tool using lightweight cryptographic hashing on a private ledger.",
+      "problem_statement": "Land Management",
+      "stack": [
+        "Next.js",
+        "Solidity",
+        "Hardhat",
+        "IPFS",
+        "TailwindCSS"
+      ],
+      "title": "GovVerify",
+      "track": "Cyber Security and Blockchain",
+      "why_it_could_win": "Hits the Cyber Security and Blockchain domain while solving a deeply practical government and land management administrative problem."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "Energy consumption anomaly detection and automated reduction recommendations for municipal smart buildings.",
+      "problem_statement": "Energy Conservation",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Scikit-learn",
+        "Plotly"
+      ],
+      "title": "EcoGrid Predictor",
+      "track": "Energy Conservation",
+      "why_it_could_win": "Targets the Energy Conservation and Smart Cities domains with a quantifiable economic and carbon-reduction metric that appeals to judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

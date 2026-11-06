@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-06T09:43:27.807019+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1793112",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:569668622"
+      ],
+      "pitch": "A practice and simulation platform tailored to the exact format of the QueryQuest SQL challenge to help solo competitors build muscle memory and speed under 100-minute time limits.",
+      "problem_statement": "QueryQuest is a technical competition consisting of 10 questions (4 Basic, 3 Intermediate, 1 Advanced, 2 MCQs) within 100 minutes with a time-based tie-breaker.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "QueryQuest Trainer & Speed-Drill Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the unique format and time constraints of the event by training competitors on speed and execution, matching the solo hacker format perfectly."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1171690684",
+        "github:569668622"
+      ],
+      "pitch": "An interactive web utility that parses complex SQL queries written during competitive exams, instantly rendering execution plans and relational schemas to debug performance bottlenecks.",
+      "problem_statement": "QueryQuest is designed to test participants' SQL knowledge, database concepts, and problem-solving abilities across various difficulty levels.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SQLAlchemy",
+        "Graphviz",
+        "React"
+      ],
+      "title": "SQL Schema Visualizer & Execution Planner",
+      "track": "",
+      "why_it_could_win": "Focuses on deep database concepts and query optimization, which separates top-ranking competitors in HackerRank-style SQL challenges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A lightweight local testing harness that ingests custom table schemas and generates random edge-case test suites to thoroughly validate SQL queries before submission.",
+      "problem_statement": "All submitted SQL solutions must satisfy the given problem requirements and test cases within the HackerRank platform constraints.",
+      "stack": [
+        "Python",
+        "PostgreSQL",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "QueryLog: Automated SQL Problem Auto-Grader & Test Case Generator",
+      "track": "",
+      "why_it_could_win": "Addresses the common pitfall of missing edge cases in SQL constraints (like NULL handling and joins) which cost crucial points in timed coding rounds."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A specialized review suite focused on database theory, indexing strategies, normalization, and advanced SQL multiple-choice questions.",
+      "problem_statement": "The competition includes SQL Multiple Choice Questions (MCQs) alongside practical coding problems.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "SQL-Drill MCQ and Conceptual Concept Flashcards",
+      "track": "",
+      "why_it_could_win": "Competitors often neglect the MCQ component, making a high score on theory questions the differentiator for podium placements."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A tool that tracks time spent per question during practice runs, highlighting where competitors lose time across basic, intermediate, and advanced tiers.",
+      "problem_statement": "If two or more participants achieve the same score, the participant who completes the assessment in the shortest time will be ranked higher.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Chart.js",
+        "LocalStorage"
+      ],
+      "title": "SpeedQuery Analytics: Post-Assessment Performance Replay",
+      "track": "",
+      "why_it_could_win": "Directly targets the time-based tie-breaker rule by offering actionable analytics on question pacing and bottlenecks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

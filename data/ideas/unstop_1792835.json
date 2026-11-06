@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-06T09:43:23.197558+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1792835",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:938030912",
+        "github:1423778544"
+      ],
+      "pitch": "An autonomous AI coding agent extension that leverages ML.ai to instantly convert natural language business requirement tickets directly into multi-file test-driven feature implementations.",
+      "problem_statement": "Real-world challenges involving AI, automation, and business solutions",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "FastAPI",
+        "ML.ai SDK"
+      ],
+      "title": "ShiftAgent",
+      "track": "Open Innovation",
+      "why_it_could_win": "Directly integrates with the event's required technology partner platform, ML.ai, showing deep utilization of the sponsor's tech stack during an extremely short 8-hour sprint."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An offline runtime error analysis tool that captures live stack traces from local test runs and utilizes ML.ai to generate structured root-cause patches and automated test suites.",
+      "problem_statement": "Real-world challenges involving AI, automation, and business solutions",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "ML.ai API"
+      ],
+      "title": "InfraDebug",
+      "track": "Open Innovation",
+      "why_it_could_win": "Solves an immediate pain point for every developer in the room—debugging—and heavily features the event's tech partner ML.ai for code generation."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering lifecycle intelligence agent that indexes local repository codebases and instantly spins up interactive onboarding guides and contextual architecture maps for new team members.",
+      "problem_statement": "Real-world challenges involving AI, automation, and business solutions",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "ChromaDB",
+        "ML.ai"
+      ],
+      "title": "OnboardFlow AI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Mirrors the exact architecture and problem space of a proven hackathon winner by targeting engineering team knowledge retention."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A meta-application builder powered by ML.ai that takes high-level user prompts and scaffolds fully functional, production-ready frontend and backend project boilerplates in seconds.",
+      "problem_statement": "Real-world challenges involving AI, automation, and business solutions",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "ML.ai SDK"
+      ],
+      "title": "AppGen Infra",
+      "track": "Open Innovation",
+      "why_it_could_win": "High-impact visual live demo that showcases the speed and capabilities of the ML.ai coding agent in real-time."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:795808563"
+      ],
+      "pitch": "A multi-agent orchestration wrapper that spawns parallel specialized ML.ai worker instances to concurrently refactor, write unit tests, and security-audit separate modules of a target repository.",
+      "problem_statement": "Real-world challenges involving AI, automation, and business solutions",
+      "stack": [
+        "Python",
+        "Docker",
+        "FastAPI",
+        "ML.ai"
+      ],
+      "title": "DevFleet Orchestrator",
+      "track": "Open Innovation",
+      "why_it_could_win": "Showcases advanced agent orchestration techniques using the event's designated ML.ai platform, appealing to judges looking for complex agentic workflows."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

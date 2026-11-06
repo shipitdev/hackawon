@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-06T09:43:45.426273+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1794889",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "Real-time threat intelligence and automated log analysis dashboard tailored for detecting unauthorized API access vectors during security audits.",
+      "problem_statement": "Cybersecurity",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "AegisNode",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Cybersecurity projects stand out in general-track hackathons because most teams build superficial CRUD apps. Judges will reward functional anomaly detection over generic templates."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered meal recommendation and nutritional compliance platform that generates personalized diet plans using local grocery inventory data.",
+      "problem_statement": "Open Innovation",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
+      ],
+      "title": "NutriRoute AI",
+      "track": "Artificial Intelligence & Machine Learning",
+      "why_it_could_win": "Follows the proven formula of winning health-tech hacks by focusing on actionable, hyper-personalized outputs rather than generic conversational interfaces."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer-vision-based biomechanical workout form analyzer that provides live audio-visual corrections during physical exercises.",
+      "problem_statement": "App Development",
+      "stack": [
+        "React Native",
+        "MediaPipe",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "title": "PoseFit Coach",
+      "track": "App Development",
+      "why_it_could_win": "Leverages real-time client-side machine learning inference which consistently impresses hackathon judges with its immediate interactivity and technical flair."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847",
+        "github:1213911408"
+      ],
+      "pitch": "Satellite imagery and multi-agent compliance tracking dashboard to monitor industrial land use changes and environmental policy violations.",
+      "problem_statement": "Artificial Intelligence & Machine Learning",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangGraph",
+        "Leaflet.js"
+      ],
+      "title": "EcoGraph AI",
+      "track": "Artificial Intelligence & Machine Learning",
+      "why_it_could_win": "Combines spatial data visualization with modern LLM-driven agents, matching the exact winning blueprint of successful environmental tech hackathon projects."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A distributed, zero-config collaborative development workspace manager that syncs local environment state across remote team members instantly.",
+      "problem_statement": "Web Development",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "WebSockets",
+        "React"
+      ],
+      "title": "DevSync Ledger",
+      "track": "Web Development",
+      "why_it_could_win": "Solves an authentic developer pain point with solid systems-level engineering instead of building yet another wrapper around a public API."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

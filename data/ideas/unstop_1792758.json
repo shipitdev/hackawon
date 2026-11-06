@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-06T09:41:43.087869+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "ai-ml",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unique-data",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1792758",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "An interactive exploratory dashboard and machine learning ranking system designed to evaluate and surface the top 10 youngest uncapped domestic cricket players.",
+      "problem_statement": "Round 1: Find the Youngest Uncapped Stars Analyse the data pack of uncapped domestic players, along with public data, and submit your top 10 picks and rationale as a PDF, PPT or dashboard.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "RoyalsScout: Uncapped Domestic Talent Matrix",
+      "track": "",
+      "why_it_could_win": "Directly answers Round 1 requirements by combining the exclusive RR dataset with advanced predictive aging models, mimicking the exact workflow that successfully surfaced Vignesh Puthur in Season 1."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A quantitative valuation tool that simulates auction bidding dynamics and player performance regression for uncapped domestic prospects.",
+      "problem_statement": "Round 1: Find the Youngest Uncapped Stars Analyse the data pack of uncapped domestic players, along with public data, and submit your top 10 picks and rationale as a PDF, PPT or dashboard.",
+      "stack": [
+        "Python",
+        "Plotly",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "AuctionAlpha: Dynamic Valuation and Risk Engine",
+      "track": "",
+      "why_it_could_win": "Leverages a rigorous quantitative approach inspired by systematic trading engines, helping scouts understand not just raw talent, but true auction value under pressure."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A scouting analytics dashboard that explicitly detects and adjusts for regional tournament scoring biases when evaluating uncapped domestic talent.",
+      "problem_statement": "Round 1: Find the Youngest Uncapped Stars Analyse the data pack of uncapped domestic players, along with public data, and submit your top 10 picks and rationale as a PDF, PPT or dashboard.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "SciPy"
+      ],
+      "title": "ScoutLens: Bias-Free Domestic Player Evaluator",
+      "track": "",
+      "why_it_could_win": "Judges in sports analytics war rooms heavily value metrics that correct for surface-level selection bias across different domestic state leagues."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:680478376"
+      ],
+      "pitch": "A machine learning pipeline that matches uncapped domestic players' micro-stats to Rajasthan Royals' specific squad architecture and tactical gaps.",
+      "problem_statement": "Round 1: Find the Youngest Uncapped Stars Analyse the data pack of uncapped domestic players, along with public data, and submit your top 10 picks and rationale as a PDF, PPT or dashboard.",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "Pandas",
+        "Dash"
+      ],
+      "title": "RoyalsMatch: Multi-Parameter Role Fit Scorer",
+      "track": "",
+      "why_it_could_win": "Goes beyond raw stats to demonstrate tactical fit for specific franchise needs, showing Kumar Sangakkara and Giles Lindsay how a player directly slots into their XI."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:969245239"
+      ],
+      "pitch": "A retrieval-augmented generation and multi-agent system that synthesizes qualitative match reports with quantitative domestic data packs for top 10 selection rationale.",
+      "problem_statement": "Round 1: Find the Youngest Uncapped Stars Analyse the data pack of uncapped domestic players, along with public data, and submit your top 10 picks and rationale as a PDF, PPT or dashboard.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenAI API",
+        "Next.js"
+      ],
+      "title": "TalentGraph: AI Scouting Assistant for RR War Room",
+      "track": "",
+      "why_it_could_win": "Multi-agent orchestration allows for deep cross-referencing of match contexts, providing an exceptionally thorough and polished rationale package for the final submission."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

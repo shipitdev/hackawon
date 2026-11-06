@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-06T09:44:07.749800+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1797543",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An AI-powered patient triage and rPPG vital signs estimator built for rapid remote health assessments.",
+      "problem_statement": "Healthcare open innovation challenge focused on accessibility and triage.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "AuraCare",
+      "track": "Healthcare",
+      "why_it_could_win": "Directly mirrors a proven winner by incorporating rPPG heart rate sensing and clinical-grade multi-language triage."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent that generates verified schema repairs and auto-opens pull requests.",
+      "problem_statement": "Automation and data engineering challenge under open innovation.",
+      "stack": [
+        "Python",
+        "Claude API",
+        "FastAPI",
+        "Pandas"
+      ],
+      "title": "DataPulse Agent",
+      "track": "Automation",
+      "why_it_could_win": "Leverages the Claude API which aligns directly with the hackathon winner's reward prize, impressing judges with high technical utility."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "A multimodal lost-and-found item matching portal integrated with real-time geolocation.",
+      "problem_statement": "EdTech open innovation challenge improving student life.",
+      "stack": [
+        "TypeScript",
+        "Firebase",
+        "Gemini AI",
+        "React"
+      ],
+      "title": "CampusFinder AI",
+      "track": "EdTech",
+      "why_it_could_win": "Demonstrates a clean, highly practical use case using multimodal AI for image-to-text item matching."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A walk-to-earn civic engagement app that features an AI marketing copilot for neighborhood small businesses.",
+      "problem_statement": "Sustainability and local community development challenge.",
+      "stack": [
+        "TypeScript",
+        "Supabase",
+        "React",
+        "LLM API"
+      ],
+      "title": "LocalLIFT",
+      "track": "Sustainability",
+      "why_it_could_win": "Combines gamified physical movement with immediate, tangible utility for local merchants, fitting real-world impact criteria."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An API-driven graph intelligence risk detection and investigation platform for identifying suspicious financial transactions.",
+      "problem_statement": "FinTech open innovation challenge addressing transaction fraud.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "Next.js"
+      ],
+      "title": "GraphGuard AML",
+      "track": "FinTech",
+      "why_it_could_win": "Features hard engineering through graph intelligence and risk scoring, making it stand out in technical execution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
