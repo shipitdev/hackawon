@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-07T09:04:55.556915+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "polish",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799767",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "A real-time data structures and algorithms execution visualizer that steps through memory pointers, recursion stacks, and graph traversals line-by-line.",
+      "problem_statement": "Expanding Horizon 8.0 – Software objective to evaluate and strengthen understanding of Data Structures and Algorithms and algorithmic problem-solving under time constraints.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Graphviz"
+      ],
+      "title": "AlgoTrace Engine",
+      "track": "",
+      "why_it_could_win": "Directly aligns with MNNIT Allahabad's SMP focus on preparing students for internship technical assessments by helping them debug complex pointer and graph logic visually."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An automated competitive programming test-case runner and complexity analyzer that mimics major software internship recruitment platforms.",
+      "problem_statement": "Expanding Horizon 8.0 – Software objective to assess technical preparation for software engineering internships and problem-solving abilities.",
+      "stack": [
+        "TypeScript",
+        "Docker",
+        "Node.js",
+        "Monaco Editor"
+      ],
+      "title": "InternPrep MockJudge",
+      "track": "",
+      "why_it_could_win": "Targets the exact pain point of students preparing for upcoming internship recruitment tests by providing instant time/space complexity analysis."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "An algorithmic problem sandbox focused strictly on directed acyclic graph scheduling, cycle detection, and topological sorting problems common in internship tests.",
+      "problem_statement": "Expanding Horizon 8.0 – Software objective to evaluate participants' programming skills, data structures and algorithms, and logical reasoning.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "dag",
+        "graph-algorithms"
+      ],
+      "title": "DAG-Schedule Practice Lab",
+      "track": "",
+      "why_it_could_win": "Leverages advanced graph algorithm implementations that stand out against basic brute-force solutions submitted by typical solo participants."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A strict timed-assessment simulation environment that tracks coding fluency, logs compilation errors, and generates post-test diagnostic reports.",
+      "problem_statement": "Expanding Horizon 8.0 – Software objective to develop the ability to solve problems efficiently under time constraints.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CodeConstraint Timer",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the time-management and execution constraints emphasized in the hackathon guidelines."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A static analysis tool designed to catch common logical fallacies, edge-case failures, and memory leaks in student-written sorting and searching algorithms.",
+      "problem_statement": "Expanding Horizon 8.0 – Software objective to improve logical thinking and algorithmic problem-solving.",
+      "stack": [
+        "Python",
+        "AST",
+        "FastAPI"
+      ],
+      "title": "RecruitCode Linter",
+      "track": "",
+      "why_it_could_win": "Acts as an automated mentor that helps engineering students fix bad algorithmic habits before facing real recruiter evaluations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

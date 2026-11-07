@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-07T09:04:50.720476+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799765",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:600524805"
+      ],
+      "pitch": "An interactive web-based cybersecurity training platform designed to teach secure coding and common web vulnerabilities through guided CTF challenges.",
+      "problem_statement": "Crackhunt cybersecurity-based gaming event focusing on problem-solving and security challenges",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "title": "SecuLearn CTF Academy",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the core educational and problem-solving goals of the ISDF Club event, reminiscent of uOttaHack 5 CSE category winners."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:260492725"
+      ],
+      "pitch": "A lightweight web security scanner that inspects headers, dependencies, and basic injection vectors on developer applications.",
+      "problem_statement": "Crackhunt cybersecurity-based gaming event focusing on problem-solving and security challenges",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "BeautifulSoup"
+      ],
+      "title": "VulnScan Lite",
+      "track": "",
+      "why_it_could_win": "Leverages the modular website scanning framework approach from National Hackathon winners to provide immediate, tangible utility for security enthusiasts."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python CLI utility that parses codebases to flag hardcoded secrets, misconfigurations, and outdated vulnerable dependencies.",
+      "problem_statement": "Crackhunt cybersecurity-based gaming event focusing on problem-solving and security challenges",
+      "stack": [
+        "Python",
+        "Regex",
+        "Click"
+      ],
+      "title": "RepoSec Audit Tool",
+      "track": "",
+      "why_it_could_win": "Applies the repo-summary and security insights pattern that won Microsoft's Global Intern Hackathon, tailored specifically for CTF and security code audits."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A proxy layer designed to sanitize inputs and enforce defense-in-depth principles against prompt injection and injection exploits.",
+      "problem_statement": "Crackhunt cybersecurity-based gaming event focusing on problem-solving and security challenges",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Zod"
+      ],
+      "title": "DefenseGuard Prompt Shield",
+      "track": "",
+      "why_it_could_win": "Mirrors the defense-in-depth architecture of BitGN Personal Agent Challenge winning entries, focusing on robust input validation and hardening."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1064476986"
+      ],
+      "pitch": "A quick 2D pixel-art browser game where players navigate a network topology, patching vulnerabilities and stopping simulated attacks.",
+      "problem_statement": "Crackhunt cybersecurity-based gaming event focusing on problem-solving and security challenges",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "CSS"
+      ],
+      "title": "CyberHunt Mini-Game",
+      "track": "",
+      "why_it_could_win": "Combines the fast-paced 2D pixel game build pattern of Daydream Kathmandu winners with cybersecurity education themes."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

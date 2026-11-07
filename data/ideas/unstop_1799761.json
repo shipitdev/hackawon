@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-07T09:04:46.329346+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799761",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:819399001"
+      ],
+      "pitch": "An intelligent SQL query tuning and performance explanation tool that analyzes execution plans and suggests optimal indexing.",
+      "problem_statement": "Solve industry-inspired problem statements using SQL queries within a fixed time limit with emphasis on accuracy, efficiency, optimization, and clean query structuring.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "SQLAlchemy"
+      ],
+      "title": "SQLQueryOptimizer AI",
+      "track": "Database Management Systems (DBMS)",
+      "why_it_could_win": "Directly targets the core judging criteria of query optimization and efficiency, filling a practical gap for competitive SQL participants."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A visual tool that parses complex relational database schemas and tracks dependencies across tables and views for data engineers.",
+      "problem_statement": "Reflecting real-world backend development and data engineering scenarios by working on structured relational databases.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "NetworkX",
+        "PostgreSQL"
+      ],
+      "title": "DataSchema Lineage Tracker",
+      "track": "Data Analytics",
+      "why_it_could_win": "Leverages data engineering concepts proven to win data-focused hackathons by offering automated lineage insights."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1079921550"
+      ],
+      "pitch": "A lightweight browser-based SQL execution sandbox that scores queries based on execution time, index usage, and syntax efficiency.",
+      "problem_statement": "Evaluate participants' database knowledge, analytical thinking, and real-world query writing skills within a fixed time limit.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "RelationalDB Sandbox & Benchmarker",
+      "track": "Software Engineering",
+      "why_it_could_win": "Matches the exact evaluation mechanics of a competitive SQL event, appealing directly to organizers looking for robust testing environments."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "Instantly generates comprehensive data profiling reports, cardinality checks, and anomaly detection for any connected relational database.",
+      "problem_statement": "Solve industry-inspired problem statements reflecting real-world backend development and data engineering scenarios.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "SQLAlchemy",
+        "Flask"
+      ],
+      "title": "Automated EDA Profiler for Relational Stores",
+      "track": "Data Analytics",
+      "why_it_could_win": "Adapts proven data profiling architectures into a clean, rapid-fire tool tailored for data analysts and database engineers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A utility that translates raw ORM calls into optimized native SQL queries and verifies correctness against relational schemas.",
+      "problem_statement": "Reflecting real-world backend development scenarios through clean query structuring and optimization.",
+      "stack": [
+        "Python",
+        "SQLGlot",
+        "FastAPI"
+      ],
+      "title": "Backend Query Migration Assistant",
+      "track": "Backend Development",
+      "why_it_could_win": "Solves a persistent pain point for backend developers dealing with inefficient ORM-generated database queries."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

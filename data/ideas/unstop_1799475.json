@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-07T09:04:28.397826+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799475",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agentic debugging tool that intercepts runtime logs, isolates root causes across multi-file codebases, runs regression tests, and submits functional pull requests autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker"
+      ],
+      "title": "AgentTrace: Real-Time Autonomous Debugging and Patch Agent",
+      "track": "",
+      "why_it_could_win": "Directly mirrors the winning strategy of solving hard developer pain points with a working autonomous loop, matching the hackathon requirement of an agent that thinks, uses tools, and executes tasks independently."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A background agent that monitors repository activity, pull request discussions, and commit notes to automatically maintain an up-to-date, queryable knowledge base for incoming developers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Chroma",
+        "LangGraph"
+      ],
+      "title": "GitContext: Autonomous Engineering Knowledge Capture Agent",
+      "track": "",
+      "why_it_could_win": "Leverages the proven winning pattern of building engineering team lifecycle intelligence tools that directly target problems hackathon judges and technical leads face daily."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "An agentic healthcare workflow assistant connected to secure Model Context Protocol servers to query patient records and summarize clinical notes while ensuring strict data privacy.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MCP SDK",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "ClinicMCP: Federated Medical Data Agent with Model Context Protocol",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced architectural integration of multi-tool agent systems, fulfilling the requirement for complex system architecture and real-world tool interaction."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A self-improving semantic routing proxy that categorizes incoming prompts and dynamically directs them to the optimal open-source or commercial LLM based on cost and complexity constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "FastAPI",
+        "Qwen"
+      ],
+      "title": "SelfRouter: Training-Free Semantic Query Router for LLMs",
+      "track": "",
+      "why_it_could_win": "Hits the sweet spot of high-performance technical engineering and cost optimization, aligning with winning entries that feature self-improving evaluation loops."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An end-to-end IT support agent that ingests employee helpdesk tickets, triages severity, executes automated system permission resets, and requests manager approvals via webhook integrations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Slack API",
+        "PostgreSQL"
+      ],
+      "title": "AutoITSM: Autonomous IT Service Desk Agent",
+      "track": "",
+      "why_it_could_win": "Tackles practical enterprise workflow automation, satisfying the core hackathon focus on building independent agents capable of handling multi-step real-world operational tasks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

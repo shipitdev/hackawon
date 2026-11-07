@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-07T09:04:05.920155+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1773842",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered digital twin and real-time anomaly detection system for smart city traffic and public utility infrastructure.",
+      "problem_statement": "Smart Cities and Sustainable Development",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js",
+        "PostGIS"
+      ],
+      "title": "UrbanFlow Grid",
+      "track": "Smart Cities",
+      "why_it_could_win": "Leverages heavy data processing and real-time visualization, aligning with the Smart Cities theme and demonstrating genuine systems engineering."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "A localized network traffic analyzer and phishing link detector combining NLP heuristic checks with passive DNS telemetry.",
+      "problem_statement": "Cybersecurity and Network Security",
+      "stack": [
+        "JavaScript",
+        "Python",
+        "Scapy",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "PhishGuard Enterprise",
+      "track": "Cybersecurity and Network Security",
+      "why_it_could_win": "Targets the Cybersecurity theme directly with a functional prototype that judges can test immediately via a live web extension."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1213911408"
+      ],
+      "pitch": "An automated auditing tool for generative AI models to detect prompt injection vulnerabilities and data leakage risks before deployment.",
+      "problem_statement": "Artificial Intelligence and Generative AI",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "Hugging Face Transformers"
+      ],
+      "title": "AegisAI Governance",
+      "track": "Artificial Intelligence and Generative AI",
+      "why_it_could_win": "Combines cutting-edge GenAI usage with rigorous safety evaluation, following patterns from top-performing AI governance hackathon projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1195808191"
+      ],
+      "pitch": "A multilingual, offline-capable agricultural advisory app using quantized small language models to diagnose crop diseases from leaf photos.",
+      "problem_statement": "Agriculture and Rural Technology",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "React Native",
+        "FastAPI"
+      ],
+      "title": "AgriScribe Edge",
+      "track": "",
+      "why_it_could_win": "Addresses rural technological inclusion with a compelling social impact angle and a working computer vision inference pipeline."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage assistant featuring rPPG contactless heart rate estimation and multilingual symptom intake for rural health camps.",
+      "problem_statement": "Healthcare and Digital Well-being",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "MedTriage AI Hub",
+      "track": "",
+      "why_it_could_win": "Replicates proven hackathon-winning architecture by combining biometric sensor processing with practical medical triage workflows."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

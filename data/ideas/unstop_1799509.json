@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-07T09:04:33.249205+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799509",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An agentic knowledge-capture system that interviews departing engineers, indexes their undocumented workflows into a local vector store, and acts as an interactive onboarding agent for new hires.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "ChromaDB",
+        "React"
+      ],
+      "title": "AgentLifecycle: Autonomous Onboarding & Knowledge Transfer Agent",
+      "track": "",
+      "why_it_could_win": "Targets a universal developer and engineering manager pain point with multi-agent orchestration, directly mirroring winning patterns from similar agentic workflow hackathons."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agentic GitHub app that triggers on build failures or runtime exceptions, traces the root cause across multiple files, generates unit tests, and submits a verified pull request.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "GitHub API",
+        "Docker",
+        "LangChain"
+      ],
+      "title": "GitMedic: Autonomous CI/CD and Runtime Error Repair Agent",
+      "track": "",
+      "why_it_could_win": "Demonstrates real-world utility by saving hours of developer debugging time, scoring high on practical execution and live-demo impact."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A self-improving semantic routing proxy that categorizes incoming agent queries using kNN exemplar matching, dynamically directing them to the most cost-effective local or frontier model with automated LLM-judge writebacks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI",
+        "Redis"
+      ],
+      "title": "SemanticRoute AI: Training-Free Adaptive LLM Gateway",
+      "track": "",
+      "why_it_could_win": "Combines high-performance systems engineering with tangible cost-saving metrics, appealing directly to technical judges looking for clever optimization hacks."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol (MCP) server architecture that securely connects disparate clinical databases to specialized AI agents while enforcing strict data governance and audit trails.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MCP SDK",
+        "Kubernetes",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "K-Agent Clinical: Federated Multi-Agent Medical Data Router",
+      "track": "",
+      "why_it_could_win": "Tackles complex enterprise architecture and privacy compliance, setting the project apart from standard wrapper apps through deep systems integration."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An autonomous database companion agent that inspects relational schemas, auto-generates semantic embeddings for unstructured text columns, and translates natural language business queries into optimized SQL operations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "TOON-SQL: Auto-Embedding RAG & Query Agent for Relational Databases",
+      "track": "",
+      "why_it_could_win": "Delivers immediate, tangible value for database administrators and data analysts by bridging natural language interfaces with production relational backends."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

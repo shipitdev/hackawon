@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-07T09:04:42.446789+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799543",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "An end-to-end data analysis pipeline built in Python and Power BI that ingests raw supply chain datasets to identify high-emission shipping routes and optimize carrier allocation for carbon reduction.",
+      "problem_statement": "Perform end-to-end data analysis on provided datasets to extract patterns, trends, and business recommendations.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Power BI",
+        "Streamlit"
+      ],
+      "title": "Logistics Carbon & Cost Optimization Engine",
+      "track": "",
+      "why_it_could_win": "Aligns with the pattern of clear measurable environmental and economic impact seen in winning logistics analytics projects."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "A machine learning and exploratory data analysis dashboard that predicts patient readmission risks using tabular health records and surfaces clinical explainability using SHAP values.",
+      "problem_statement": "Perform quantitative and statistical analysis on a real-world dataset to build meaningful visualizations and actionable recommendations.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "XGBoost",
+        "SHAP",
+        "Streamlit"
+      ],
+      "title": "Clinical Readmission Risk Profiler",
+      "track": "",
+      "why_it_could_win": "Utilizes rigorous statistical feature analysis and explainable ML, ensuring high technical depth for data judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An automated data profiling tool that runs cardinality, consistency, and validity checks on raw CSV datasets provided by organizers, instantly generating comprehensive data health reports.",
+      "problem_statement": "Cleaning, transforming, and preparing raw datasets to identify key insights and business problems.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "Automated EDA & Data Integrity Auditor",
+      "track": "",
+      "why_it_could_win": "Directly tackles the foundational data cleaning and exploratory data analysis criteria required by the hackathon rubric."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An analytics dashboard that processes server access logs to uncover traffic anomalies, peak load timings, and error rate patterns using statistical thresholding.",
+      "problem_statement": "Exploring patterns, trends, and relationships within raw operational datasets to drive data-driven decisions.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Pandas",
+        "Next.js"
+      ],
+      "title": "Server Log Anomaly Detection & KPI Dashboard",
+      "track": "",
+      "why_it_could_win": "Features an instantly demonstrable, working live dashboard that handles messy operational log data gracefully."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1410907844"
+      ],
+      "pitch": "A quantitative sports analytics pipeline that parses player tracking data to evaluate performance metrics under high-pressure scenarios.",
+      "problem_statement": "Performing quantitative and statistical analysis to turn raw data into meaningful insights and recommendations.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Tableau",
+        "SQL"
+      ],
+      "title": "Sports Performance Improviser Analytics",
+      "track": "",
+      "why_it_could_win": "Leverages advanced statistical aggregation and metric derivation, showcasing deep analytical rigor beyond basic aggregations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

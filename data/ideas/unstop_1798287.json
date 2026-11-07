@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-07T09:04:10.436921+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1798287",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An ambient audio-first operating layer for smart home automation that replaces visual dashboards with contextual conversational triggers.",
+      "problem_statement": "No Screens",
+      "stack": [
+        "Python",
+        "Web Audio API",
+        "FastAPI",
+        "OpenAI Whisper"
+      ],
+      "title": "AuraVoice",
+      "track": "No Screens",
+      "why_it_could_win": "Directly tackles the 'No Screens' challenge track, appealing to judges looking for novel HCI solutions that eliminate visual screen fatigue."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A multi-agent autonomous framework where specialized LLM agents debate, critique, and execute complex code refactoring tasks collaboratively.",
+      "problem_statement": "Chain of Command",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangGraph",
+        "Docker"
+      ],
+      "title": "NexusSwarm",
+      "track": "Chain of Command",
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration and inter-agent communication protocols, aligning with the 'Chain of Command' challenge."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A real-time behavioral firewall and automatic kill switch that detects rogue agent loops and unauthorized API calls before execution.",
+      "problem_statement": "The Kill Switch",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Redis",
+        "Regex Guardrails"
+      ],
+      "title": "CircuitBreaker",
+      "track": "The Kill Switch",
+      "why_it_could_win": "Addresses critical AI safety and governance requirements, tapping into the rising demand for reliable fail-safes in autonomous systems ('The Kill Switch' track)."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [],
+      "pitch": "A spatial haptic feedback controller interface for hands-free industrial automation monitoring via wearable audio and tactile responses.",
+      "problem_statement": "No Screens",
+      "stack": [
+        "Python",
+        "WebSockets",
+        "Arduino",
+        "SpeechRecognition"
+      ],
+      "title": "HapticField",
+      "track": "No Screens",
+      "why_it_could_win": "Combines hardware-adjacent peripheral interactions with screenless computing, giving judges a tangible, physical prototype to experience."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A decentralized voting and conflict-resolution protocol for hierarchical AI agent swarms to achieve zero-hallucination task planning.",
+      "problem_statement": "Chain of Command",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "Streamlit",
+        "CrewAI"
+      ],
+      "title": "SyntacticConsensus",
+      "track": "Chain of Command",
+      "why_it_could_win": "Leverages rigorous mathematical consensus checks among autonomous agents, winning over technical judges looking for robust engineering over simple prompt wrappers."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

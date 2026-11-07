@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-07T09:04:37.884749+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799510",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agentic AI tool that reads runtime errors, traces root causes across multi-file codebases, generates a fix, creates tests, and drafts a PR autonomously.",
+      "problem_statement": "Build an agentic AI solution that can reason, make decisions, interact with tools, and execute tasks independently for a practical challenge.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "GitPython",
+        "OpenAI API"
+      ],
+      "title": "Agentic Incident Post-Mortem & Fixer",
+      "track": "",
+      "why_it_could_win": "Directly mirrors a proven winner by solving a grueling developer pain point with fully autonomous multi-file editing and tool usage, which heavily impresses judges looking for real agentic autonomy rather than simple chat wrappers."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An enterprise knowledge agent that monitors senior developer communications and PRs to capture architectural decisions before they leave, serving it back interactively to new joiners.",
+      "problem_statement": "Build an agentic AI solution that can reason, make decisions, interact with tools, and execute tasks independently for a practical challenge.",
+      "stack": [
+        "Python",
+        "ChromaDB",
+        "FastAPI",
+        "LangGraph",
+        "Streamlit"
+      ],
+      "title": "Agentic Knowledge Onboarding Vault",
+      "track": "",
+      "why_it_could_win": "Addresses engineering team lifecycle intelligence which won major hackathons previously by proving concrete utility for companies struggling with developer churn and knowledge silos."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A zero-config toolkit that ingests raw documents, automatically computes embeddings, and sets up local HNSW vector indices within MariaDB for fast, native retrieval-augmented generation.",
+      "problem_statement": "Build an agentic AI solution that can reason, make decisions, interact with tools, and execute tasks independently for a practical challenge.",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Sentence-Transformers",
+        "FastAPI"
+      ],
+      "title": "Auto-RAG Document Toolkit for MariaDB",
+      "track": "",
+      "why_it_could_win": "Replicates a proven database-ecosystem hackathon winner by offering an immediate plug-and-play developer tool that extends database utility directly into the AI era."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An end-to-end M365-integrated agent that takes IT support tickets, triages urgency, requests manager approvals via tool calls, and executes resolution tasks automatically without human intervention.",
+      "problem_statement": "Build an agentic AI solution that can reason, make decisions, interact with tools, and execute tasks independently for a practical challenge.",
+      "stack": [
+        "PowerShell",
+        "Microsoft Graph API",
+        "LangChain",
+        "FastAPI"
+      ],
+      "title": "Autonomous IT Service Desk Agent",
+      "track": "",
+      "why_it_could_win": "Wins by showcasing heavy workflow automation and direct business cost savings, a category that consistently scores high with judges evaluating real-world practicality."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A Model Context Protocol (MCP) server cluster deployed via containers that federates fragmented clinical records to give medical AI agents secure, real-time access to patient context.",
+      "problem_statement": "Build an agentic AI solution that can reason, make decisions, interact with tools, and execute tasks independently for a practical challenge.",
+      "stack": [
+        "Python",
+        "Docker",
+        "FastAPI",
+        "MCP SDK",
+        "PostgreSQL"
+      ],
+      "title": "Federated MCP Medical Data Agent",
+      "track": "",
+      "why_it_could_win": "Leverages advanced architecture patterns (MCP and containerized agent routing) that stand out for technical rigor and complexity in short-format hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
