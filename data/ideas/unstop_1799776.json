@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-08T09:22:24.067179+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799776",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated computer vision and simulation-based checker for analog and digital circuit diagrams that flags logical and design rule flaws instantly.",
+      "problem_statement": "Strengthen fundamentals of electronic circuits and devices, and evaluate knowledge of Analog and Digital Electronics.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "CircuitInspector AI",
+      "track": "",
+      "why_it_could_win": "Directly targets the core theme of the ECE-focused hackathon by combining automated circuit verification with practical problem-solving for student internships."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "An interactive browser-based oscilloscope and signal processing lab for visualizing Fourier transforms, modulation, and demodulation in real time.",
+      "problem_statement": "Assess understanding of Signals and Systems, and test concepts related to Communication Systems.",
+      "stack": [
+        "TypeScript",
+        "WebAudio API",
+        "Canvas",
+        "TailwindCSS"
+      ],
+      "title": "SignalScope Web",
+      "track": "",
+      "why_it_could_win": "Provides an interactive, highly visual demo that helps students master core communication systems principles directly matching the mentor program's learning objectives."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A software-based communication link emulator that models noise, attenuation, and BER (Bit Error Rate) for various modulation schemes.",
+      "problem_statement": "Test concepts related to Communication Systems and encourage analytical thinking.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "CommLink Simulator",
+      "track": "",
+      "why_it_could_win": "Solves a core pedagogical requirement of the ECE department event with rigorous simulation logic and a clear analytical output dashboard."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A browser-based drag-and-drop digital logic simulator with built-in truth table generation and timing diagram analysis for students.",
+      "problem_statement": "Evaluate knowledge of Analog and Digital Electronics and strengthen fundamentals of electronic circuits.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Konva.js"
+      ],
+      "title": "LogicGate Playground",
+      "track": "",
+      "why_it_could_win": "Delivers an educational tool that directly helps students prepare for internship tests in fundamental digital electronics."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "An analytical web tool that takes transfer function coefficients and plots magnitude and phase Bode plots with automatic stability margin calculations.",
+      "problem_statement": "Assess understanding of Signals and Systems, and encourage analytical thinking and application-based problem-solving.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Matplotlib",
+        "Flask"
+      ],
+      "title": "BodePlotter Pro",
+      "track": "",
+      "why_it_could_win": "Targets core analytical coursework in ECE curricula with clean mathematical modeling and immediate visual validation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

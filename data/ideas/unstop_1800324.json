@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-08T09:23:09.062848+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800324",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1181028879"
+      ],
+      "pitch": "An overnight code review and automated regression remediation agent that intercepts pull requests, runs safety verification, and opens self-tested patches.",
+      "problem_statement": "Developer Workflow track: Reviewing code and handling complex workflows autonomously without continuous human intervention.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Docker",
+        "GitHub API"
+      ],
+      "title": "NightOps DevGuard",
+      "track": "Developer Workflow",
+      "why_it_could_win": "Directly hits the hackathon core challenge of leaving an agent running overnight, and applies the root-cause triage pattern seen in past winning debugging agents."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1255987686"
+      ],
+      "pitch": "An email and calendar agent that parses incoming administrative chaos, cross-references calendar availability, drafts tentative bookings, and executes multi-step scheduling workflows.",
+      "problem_statement": "Inbox & Calendar track: Managing emails and schedules from trigger to result with built-in safety guardrails.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Model Context Protocol",
+        "Gmail API",
+        "Google Calendar API"
+      ],
+      "title": "InboxZero Autonomous Negotiator",
+      "track": "Inbox & Calendar",
+      "why_it_could_win": "Applies human-in-the-loop approval workflows which judges look for when evaluating autonomous reliability and safety guardrails."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A browser automation agent that autonomously navigates academic databases, extracts multi-page research documents, parses data tables, and compiles structured literature review notes.",
+      "problem_statement": "Research & Study track: Conducting research, navigating websites, and handling complex external inputs reliably.",
+      "stack": [
+        "Python",
+        "Playwright",
+        "LangChain",
+        "ChromaDB",
+        "FastAPI"
+      ],
+      "title": "ScholarScout Web Synthesizer",
+      "track": "Research & Study",
+      "why_it_could_win": "Leverages robust browser automation with a clear termination condition so judges see an agent that knows when to stop rather than looping infinitely."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1423778544"
+      ],
+      "pitch": "An autonomous life admin agent that handles multi-platform bookings, form fillings, and subscription cancellations by securely interacting with web interfaces using local MCP tools.",
+      "problem_statement": "LifeAdmin track: Taking meaningful actions across real systems and external inputs without continuous human intervention.",
+      "stack": [
+        "TypeScript",
+        "MCP SDK",
+        "Puppeteer",
+        "SQLite",
+        "OpenAI API"
+      ],
+      "title": "LifeAdmin Executive Assistant",
+      "track": "Life Admin",
+      "why_it_could_win": "Emphasizes strict safety guardrails and explicit permission checkpoints, directly earning the safety bonus points outlined in the hackathon rules."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A general-purpose DOM-navigation agent that takes high-level user goals, converts them into secure browser actions, handles unexpected captchas or errors, and verifies task completion before stopping.",
+      "problem_statement": "Browser Agent track: Navigating websites and executing complete workflows from trigger to result.",
+      "stack": [
+        "Python",
+        "Playwright",
+        "Anthropic API",
+        "Redis",
+        "FastAPI"
+      ],
+      "title": "OmniDOM Browser Dispatcher",
+      "track": "Browser Agent",
+      "why_it_could_win": "Solves the difficult reliability problem of web agents getting stuck in infinite loops by implementing a hard timeout and state validation monitor."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-08T09:21:20.676643+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1778710",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1100461811"
+      ],
+      "pitch": "An embodied AI agent that accepts natural language task instructions via microphone and translates them into precise multi-axis coordinate trajectories for a desktop robotic arm.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "ROS2",
+        "ESP32",
+        "OpenAI Whisper"
+      ],
+      "title": "Voice-Controlled Mobile Robotic Arm for Lab Automation",
+      "track": "Hardware & Physical Systems",
+      "why_it_could_win": "Combines an unusual physical build with embodied AI task planning, directly targeting judges in the Hardware & Physical Systems track looking for integrated software-hardware solutions."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "A camera-equipped conveyor prototype powered by an ESP32-CAM and a local Python classification model that sorts recyclables while detecting hardware jams using sensor telemetry.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "TensorFlow Lite"
+      ],
+      "title": "Edge-AI Smart Waste Sorter with Local Anomaly Alerting",
+      "track": "Hardware & Physical Systems",
+      "why_it_could_win": "Directly mirrors a proven winner at hardware-focused hackathons by pairing a live physical sorting mechanism with real-time computer vision and operational logging."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A real-time 3D simulation dashboard built on Three.js that mirrors and predicts automated guided vehicle paths, optimizing traffic flow in warehouse layouts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "Digital Twin Simulator for Automated AGV Fleet Operations",
+      "track": "Software & Intelligent Systems",
+      "why_it_could_win": "Addresses the Simulation, Digital Twins & Virtual Robotics track with a working graphical representation that judges can interact with live during the demo."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "A differential-drive robot equipped with LIDAR and wheel encoders that autonomously maps an unfamiliar room and streams telemetry back to a local dashboard.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ROS",
+        "Python",
+        "Raspberry Pi"
+      ],
+      "title": "Autonomous Indoor Mapping Rover with Sensor Fusion",
+      "track": "Hardware & Physical Systems",
+      "why_it_could_win": "Demonstrates genuinely hard engineering through SLAM algorithms and autonomous navigation running entirely on embedded hardware within a tight hackathon timeframe."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous diagnostic dashboard that ingests live sensor telemetry from an ESP32 micro-climate rig, runs anomaly detection, and proposes automated remediation steps using an LLM agent graph.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "TimescaleDB"
+      ],
+      "title": "Multi-Agent IoT Operations and Diagnostic Copilot",
+      "track": "Software & Intelligent Systems",
+      "why_it_could_win": "Leverages advanced multi-agent workflows adapted from a proven hackathon winner, providing a polished and comprehensive closed-loop software solution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

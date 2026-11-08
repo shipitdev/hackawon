@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-08T09:22:50.382285+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799790",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An interactive web simulator for predicting the structural and functional consequences of single nucleotide polymorphisms in molecular biology.",
+      "problem_statement": "Evaluate fundamentals of Molecular Biology and Genetics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "BioPython",
+        "Pandas"
+      ],
+      "title": "GeneMutate-Predict",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation objective of molecular biology fundamentals while providing an engaging visual interface that appeals to judges assessing scientific understanding."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A predictive dashboard for monitoring and optimizing fermentation kinetics and bioprocess engineering variables in real time.",
+      "problem_statement": "Evaluate understanding of Bioprocess Engineering.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "BioProcess-Optimize",
+      "track": "",
+      "why_it_could_win": "Tackles bioprocess engineering with a quantitative, data-driven approach that demonstrates applied biological principles and analytical abilities."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "A computational tool for modeling enzyme-substrate interactions, Michaelis-Menten kinetics, and biochemical pathways.",
+      "problem_statement": "Assess understanding of Biochemistry and Microbiology.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Matplotlib",
+        "Flask"
+      ],
+      "title": "EnzymeKinetics-Sim",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep interdisciplinary biochemical understanding through working simulation models that judges can interact with live."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "An interactive cell biology platform simulating checkpoint regulations, mitosis phases, and cellular responses to stressors.",
+      "problem_statement": "Test concepts related to Cell Biology.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "TailwindCSS"
+      ],
+      "title": "CellCycle-Visualizer",
+      "track": "",
+      "why_it_could_win": "Translates complex cell biology concepts into a clear, demonstrable visual application showcasing strong scientific reasoning."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A genetic engineering utility for planning restriction enzyme digests, ligation strategies, and vector map generation.",
+      "problem_statement": "Strengthen knowledge of Genetic Engineering and Biotechnology.",
+      "stack": [
+        "Python",
+        "Biopython",
+        "Streamlit"
+      ],
+      "title": "PlasmidDesign-Assistant",
+      "track": "",
+      "why_it_could_win": "Solves a practical workflow problem for genetic engineering students, combining software engineering with applied biotechnology."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

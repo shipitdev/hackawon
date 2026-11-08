@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-11-08T09:22:55.082912+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799791",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An interactive web app for automated chemical process calculations and mass-energy balancing designed for engineering students.",
+      "problem_statement": "Evaluate fundamentals of Chemical Process Calculations.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "NumPy",
+        "Pandas"
+      ],
+      "title": "ChemoSolve Process Calculator",
+      "track": "",
+      "why_it_could_win": "Directly targets the core evaluation objective of the MNNIT Allahabad mentorship assessment, appealing to academic judges who want to see engineering rigor combined with practical software tools."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A browser-based visualization tool for computing pressure drops, Reynolds numbers, and friction factors in complex pipe networks.",
+      "problem_statement": "Assess understanding of Fluid Mechanics.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Chart.js",
+        "TailwindCSS"
+      ],
+      "title": "FluidSim Pipeline Analyzer",
+      "track": "",
+      "why_it_could_win": "Solves a specific pedagogical pain point in fluid mechanics courses by making abstract textbook calculations interactive and verifiable."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A thermodynamic property calculator and cycle simulator for Rankine, Brayton, and refrigeration cycles.",
+      "problem_statement": "Evaluate understanding of Thermodynamics.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Plotly"
+      ],
+      "title": "ThermoState Engine",
+      "track": "",
+      "why_it_could_win": "Appeals to professors and student mentors evaluating internship readiness by automating tedious steam table lookups and efficiency calculations."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "A simulation sandbox for batch, CSTR, and PFR reactors to analyze conversion rates, residence times, and temperature profiles.",
+      "problem_statement": "Strengthen knowledge of Chemical Reaction Engineering.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "SciPy.js",
+        "Canvas"
+      ],
+      "title": "KineticLab Reactor Model",
+      "track": "",
+      "why_it_could_win": "Bridges the gap between theoretical chemical kinetics and applied problem-solving, fitting the core theme of the MNNIT Allahabad evaluation."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A process control simulator for tuning PID controllers, analyzing step responses, and evaluating stability criteria like Bode plots.",
+      "problem_statement": "Assess concepts of Process Control and Process Equipment Design.",
+      "stack": [
+        "Python",
+        "Dash",
+        "Plotly",
+        "ControlPy"
+      ],
+      "title": "ControlLoop PID Tuner",
+      "track": "",
+      "why_it_could_win": "Focuses on process control—a notoriously difficult subject for chemical engineering students—providing an intuitive tool that judges will immediately recognize as useful."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

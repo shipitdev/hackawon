@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-08T09:23:18.245862+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800395",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1289086869"
+      ],
+      "pitch": "An enterprise AI agent that automatically ingests wrongful insurance or B2B SaaS vendor contract denials and generates legally grounded counter-arguments referencing the vendor's exact own documentation.",
+      "problem_statement": "Enterprise SaaS & FinTech Automation: High-availability platforms solving critical B2B bottlenecks, compliance, billing, and workflow optimization.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "LangGraph",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "AegisPolicy: Automated Enterprise Insurance Claim Denial Rebuttal Agent",
+      "track": "Enterprise SaaS & FinTech Automation",
+      "why_it_could_win": "Directly mirrors a proven winner pattern (Overturn at RAISE Summit) by tackling high-value B2B friction with deterministic policy-grounded multi-agent reasoning, directly fitting the enterprise SaaS mandate."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A developer tool that hooks into Slack, GitHub, and Jira to automatically capture deep engineering decisions before engineers leave and instantly delivers context when new developers onboard.",
+      "problem_statement": "Developer Velocity & Cloud Infrastructure: DevOps automation, API ecosystems, security frameworks, and deep-work tooling.",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Chroma",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "NexusDevSync: Autonomous Engineering Knowledge Capture & Lifecycle Intelligence",
+      "track": "Developer Velocity & Cloud Infrastructure",
+      "why_it_could_win": "Targets a painful engineering bottleneck that every technical judge experiences firsthand, building directly on the proven playbook of Northeastern AI Hackathon winner devflow."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "An autonomous multi-agent financial research council that runs adversarial thesis falsification, applies deterministic risk gates, and executes live paper trades via broker APIs.",
+      "problem_statement": "Enterprise SaaS & FinTech Automation: High-availability platforms solving critical B2B bottlenecks, compliance, billing, and workflow optimization.",
+      "stack": [
+        "TypeScript",
+        "Alpaca API",
+        "Python",
+        "FastAPI",
+        "OpenAI API"
+      ],
+      "title": "AlphaCouncil: Autonomous Multi-Agent Trading & Risk Gate Engine",
+      "track": "Enterprise SaaS & FinTech Automation",
+      "why_it_could_win": "Adapts the winning formula from Lablab.ai's Alpaca hackathon by showcasing robust multi-agent adversarial validation paired with strict numerical risk guardrails, matching the Fintech automation track."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A visual BPMN-orchestrated risk diagnosis engine that simulates enterprise AI workflows, tests boundary conditions, and outputs compliance and safety guarantees prior to deployment.",
+      "problem_statement": "Autonomous AI & Multi-Agent Systems: Self-directed workflows, enterprise copilots, and intelligent orchestration engines capable of complex reasoning and execution.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "React",
+        "BPMN.io"
+      ],
+      "title": "BpmnGuard: Pre-Deployment Risk Diagnosis for Autonomous AI Workflows",
+      "track": "Autonomous AI & Multi-Agent Systems",
+      "why_it_could_win": "Leverages the UiPath AgentHack winning framework for BPMN-orchestrated AI governance, appealing directly to enterprise judges looking for production-grade safety controls."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An AI debugging agent that intercepts production runtime errors, performs root-cause tracing across multiple codebase files, generates localized unit tests, and drafts clean pull requests automatically.",
+      "problem_statement": "Developer Velocity & Cloud Infrastructure: DevOps automation, API ecosystems, security frameworks, and deep-work tooling.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "GitHub API",
+        "Tree-sitter",
+        "LangChain"
+      ],
+      "title": "GitMedic: Runtime-to-Repair Autonomous Debugging Agent",
+      "track": "Developer Velocity & Cloud Infrastructure",
+      "why_it_could_win": "Replicates the exact mechanics of the IBM Bob Dev Day Hackathon winner by addressing an immediate, high-frequency developer pain point with a fully working, demonstrable end-to-end demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

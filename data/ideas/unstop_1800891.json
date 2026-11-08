@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-08T09:23:27.676468+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800891",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous agent that intercepts git commits and pull requests, interviews departing engineers via chat to extract tacit knowledge, and injects it into a LangGraph RAG vector store for onboarding newcomers.",
+      "problem_statement": "Overview: Conceptualize, build, and launch a complete agentic AI solution that can think, make decisions, interact with tools, and execute tasks independently for real-world engineering challenges.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "ChromaDB",
+        "GitPython"
+      ],
+      "title": "AgentSync: Engineering Lifecycle Knowledge Capture Agent",
+      "track": "",
+      "why_it_could_win": "Directly targets developer pain points with autonomous execution loops, mirroring the success of top-tier knowledge management workflow winners by providing clear operational utility within tight timeframes."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A real-time voice-interactive desktop agent running on lightweight local LLMs that listens to incoming calls or browser audio streams to detect social engineering and email phishing tactics targeting elderly users.",
+      "problem_statement": "Overview: Conceptualize, build, and launch a complete agentic AI solution that can think, make decisions, interact with tools, and execute tasks independently for real-world challenges.",
+      "stack": [
+        "Python",
+        "WebSockets",
+        "OpenAI Whisper",
+        "GLM API"
+      ],
+      "title": "SeniorShield: Voice-First Scam Detection Agent",
+      "track": "",
+      "why_it_could_win": "Focuses on social impact and high-utility agentic workflow behavior with immediate real-world safety benefits, following patterns of previous award-winning voice agent architectures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An agentic health awareness platform featuring voice and chat interfaces in regional languages that parses local symptom descriptions, verifies vaccination schedules, and alerts communities to outbreak patterns.",
+      "problem_statement": "Overview: Conceptualize, build, and launch a complete agentic AI solution that can think, make decisions, interact with tools, and execute tasks independently for practical, real-world challenges.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "RuralMed: Multilingual Preventive Healthcare Triage Agent",
+      "track": "",
+      "why_it_could_win": "Delivers concrete social benefit and clear, quantifiable community impact, aligning with winning projects that solve accessibility gaps for underserved populations."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent academic concierge that coordinates student schedules, university resource allocation, and carbon footprint tracking on campus by autonomously calling institutional APIs and synthesizing documents.",
+      "problem_statement": "Overview: Conceptualize, build, and launch a complete agentic AI solution that can think, make decisions, interact with tools, and execute tasks independently.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Supabase",
+        "OpenAI API"
+      ],
+      "title": "EcoSupport: Multi-Agent Student Success & Campus Resource Orchestrator",
+      "track": "",
+      "why_it_could_win": "Demonstrates multi-agent orchestration and complex tool-calling patterns that impress judges looking for robust, production-ready system architectures rather than simple wrappers."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An agentic video intelligence pipeline that ingests raw lecture or meeting recordings, performs multi-modal frame analysis, transcribes audio, and exposes a tool-calling RAG interface for precise semantic searching.",
+      "problem_statement": "Overview: Conceptualize, build, and launch a complete agentic AI solution that can think, make decisions, interact with tools, and execute tasks independently for practical, real-world challenges.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper API",
+        "ChromaDB",
+        "HTML5"
+      ],
+      "title": "VideoMind: Unstructured Video Intelligence & Query Agent",
+      "track": "",
+      "why_it_could_win": "Tackles heavy unstructured data processing in real-time, matching the high technical bar set by previous data intelligence hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-08T09:21:29.951561+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1794529",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A Python-based automated signal processing pipeline designed specifically to extract hidden audio steganography, perform spectral filtering, and decode hidden flags from audio files.",
+      "problem_statement": "Challenges on real world signals: Audio, biomedical, radar and sensor data, with puzzles that need real signal processing, not guesswork.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "Streamlit",
+        "Librosa"
+      ],
+      "title": "AudioSpectra CTF Toolkit",
+      "track": "Audio Processing",
+      "why_it_could_win": "Directly targets the CTF-style audio decoding format of the event with a tangible GUI that judges can use to upload a wav file and instantly view spectrograms and decoded flags."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An interactive dashboard for analyzing biomedical signals like ECG to denoise signals using wavelet transforms and extract hidden modulation patterns containing CTF flags.",
+      "problem_statement": "Challenges on real world signals: Audio, biomedical, radar and sensor data, with puzzles that need real signal processing, not guesswork.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "SciPy",
+        "Plotly"
+      ],
+      "title": "BioSignal Anomaly & Flag Extractor",
+      "track": "Biomedical Signals",
+      "why_it_could_win": "Focuses on biomedical signal processing which is a core listed challenge domain, offering a clean dashboard with live anomaly detection metrics."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A radar and sensor data analysis tool that performs FFT spectral analysis, pulse compression, and demodulation to extract concealed digital flags from noisy sensor streams.",
+      "problem_statement": "Challenges on real world signals: Audio, biomedical, radar and sensor data, with puzzles that need real signal processing, not guesswork.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Matplotlib",
+        "Flask"
+      ],
+      "title": "Radar Pulse & Sensor Micro-Decoder",
+      "track": "Radar Signals",
+      "why_it_could_win": "Applies advanced signal processing techniques like pulse compression which judges in a signal processing competition will instantly appreciate."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An automated pipeline that ingests mixed time-series sensor logs, handles multi-channel filtering, and identifies recurring hidden patterns or embedded flag strings using machine learning.",
+      "problem_statement": "Challenges on real world signals: Audio, biomedical, radar and sensor data, with puzzles that need real signal processing, not guesswork.",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "FastAPI"
+      ],
+      "title": "Multi-Sensor Signal Fusion CTF Engine",
+      "track": "Sensor Data",
+      "why_it_could_win": "Combines traditional ML anomaly detection with physical sensor data processing, echoing successful multi-agent monitoring architectures."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [],
+      "pitch": "A modular framework that ingests arbitrary challenge datasets, automatically classifies the signal type using spectral features, and applies the correct demodulation chain to output flags.",
+      "problem_statement": "Challenges on real world signals: Audio, biomedical, radar and sensor data, with puzzles that need real signal processing, not guesswork.",
+      "stack": [
+        "Python",
+        "PyQt",
+        "SciPy",
+        "NumPy"
+      ],
+      "title": "SignalX Automated CTF Solver",
+      "track": "",
+      "why_it_could_win": "Provides an all-in-one utility tool that saves time during a competitive time-bound CTF, proving high utility for the competition format."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

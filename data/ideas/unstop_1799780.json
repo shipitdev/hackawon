@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-08T09:22:36.996661+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799780",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A web-based interactive power system fault analysis and load flow simulator built for electrical engineering students to test contingency scenarios.",
+      "problem_statement": "Strengthen understanding of Power Systems.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Flask",
+        "JavaScript",
+        "Chart.js"
+      ],
+      "title": "GridSim Live",
+      "track": "",
+      "why_it_could_win": "Directly targets the core electrical engineering fundamentals evaluated by MNNIT Allahabad's SMP assessment by offering a practical simulation tool that proves deep conceptual understanding of power flow and fault currents."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An online browser-based virtual laboratory simulator for testing speed-torque characteristics and armature reaction of DC machines.",
+      "problem_statement": "Evaluate fundamentals of Electrical Machines.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "HTML5 Canvas",
+        "TailwindCSS"
+      ],
+      "title": "MachineLab Virtual DC",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of a working live demo, translating complex theoretical equations of electrical machines into an instantly testable web simulator."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A quick-computation tool for control systems engineers to instantly derive transfer functions, stability margins, and root locus plots from network parameters.",
+      "problem_statement": "Test concepts related to Control Systems.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Streamlit",
+        "Matplotlib"
+      ],
+      "title": "BodePlotter Pro",
+      "track": "",
+      "why_it_could_win": "Solves a tedious mathematical pain point for electrical engineering students during rigorous technical assessments by providing immediate, visually verifiable feedback."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A lightweight browser-based circuit netlist parser and waveform visualizer tailored for transient analysis in power electronics converters.",
+      "problem_statement": "Evaluate understanding of Power Electronics.",
+      "stack": [
+        "JavaScript",
+        "WebAssembly",
+        "Rust",
+        "D3.js"
+      ],
+      "title": "PowerSpice Viewer",
+      "track": "",
+      "why_it_could_win": "Emphasises Genuinely hard engineering by implementing a real-time numerical parsing engine for electrical circuits entirely within client-side code."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An algorithmic step-by-step solver for complex AC/DC circuits using Thevenin, Norton, and Maximum Power Transfer theorems with nodal analysis visualization.",
+      "problem_statement": "Assess knowledge of Electrical Circuits and Network Theory.",
+      "stack": [
+        "Python",
+        "SymPy",
+        "FastAPI",
+        "React"
+      ],
+      "title": "NetworkTheorem Solver",
+      "track": "",
+      "why_it_could_win": "Provides exact academic utility for an engineering assessment event by double-checking student problem sets with clear intermediate node-voltage calculations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

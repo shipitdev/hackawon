@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-08T09:22:32.723644+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799778",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An AI-powered automated PCB schematic and analog circuit troubleshooting assistant for ECE students.",
+      "problem_statement": "Strengthen fundamentals of electronic circuits and devices, and evaluate knowledge of Analog and Digital Electronics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenCV",
+        "NetworkX"
+      ],
+      "title": "CircuitGuard-AI",
+      "track": "",
+      "why_it_could_win": "Directly targets the core ECE curriculum focus of MNNIT Allahabad's mentorship program, appealing to judges looking for educational utility in core electronics."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1144331507"
+      ],
+      "pitch": "A web-based interactive signals and systems visualizer for real-time Fourier transforms and convolution mapping.",
+      "problem_statement": "Assess understanding of Signals and Systems.",
+      "stack": [
+        "JavaScript",
+        "WebAudio API",
+        "Canvas API",
+        "TailwindCSS"
+      ],
+      "title": "SignalScope-JS",
+      "track": "",
+      "why_it_could_win": "Provides an immediate, working browser-based interactive demo that makes abstract mathematical concepts visually obvious to engineering evaluators."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A lightweight browser-based communication systems simulator demonstrating ASK, FSK, and PSK modulation schemes with noise injection.",
+      "problem_statement": "Test concepts related to Communication Systems.",
+      "stack": [
+        "TypeScript",
+        "Chart.js",
+        "Web Worker API"
+      ],
+      "title": "ModemSim-Core",
+      "track": "",
+      "why_it_could_win": "Addresses communication engineering fundamentals with a working simulation that allows real-time parameter tweaking during evaluation."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A digital electronics truth table generator, Karnaugh map simplifier, and combinational logic verifier tool.",
+      "problem_statement": "Evaluate knowledge of Analog and Digital Electronics.",
+      "stack": [
+        "Python",
+        "PyQt",
+        "SymPy"
+      ],
+      "title": "LogicVerify-CLI",
+      "track": "",
+      "why_it_could_win": "Solves an everyday pain point for engineering students verifying lab assignments quickly and accurately."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An Arduino-based data acquisition dashboard for measuring real-world RC circuit transient responses and graphing time constants.",
+      "problem_statement": "Strengthen fundamentals of electronic circuits and devices.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "Matplotlib"
+      ],
+      "title": "SensorLink-Lab",
+      "track": "",
+      "why_it_could_win": "Leverages physical hardware integration, which consistently stands out and scores well in engineering assessments over purely software-only submissions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

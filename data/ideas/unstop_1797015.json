@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-08T09:21:34.156942+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1797015",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An automated engineering team lifecycle intelligence platform that indexes code repositories, PRs, and Slack conversations to capture tribal knowledge before team members depart.",
+      "problem_statement": "Web Development / Open Track",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Chroma",
+        "LangGraph",
+        "Python"
+      ],
+      "title": "DevKnowledge Capture Platform",
+      "track": "Web Development",
+      "why_it_could_win": "Targeting engineering team knowledge retention directly addresses a pain point experienced by technical judges and university student dev clubs, similar to devflow's success."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that classifies student queries and routes them to the correct academic, administrative, or hostel management micro-service without hitting slow backend databases.",
+      "problem_statement": "AI / Machine Learning",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Qwen",
+        "Superlinked"
+      ],
+      "title": "Semantic Multi-Source Router for Campus Portals",
+      "track": "AI / Machine Learning",
+      "why_it_could_win": "Leverages a lightweight kNN exemplar index and LLM-judge writeback to optimize query performance, following the architecture of darwin-router."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered VS Code extension that provides inline code auto-completion, autonomous bug identification, GUI-based fix application, and automated test generation for students.",
+      "problem_statement": "Web Development / Open Track",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "VS Code AI Assistant and Automated Testing Extension",
+      "track": "Web Development",
+      "why_it_could_win": "Developer-tool extensions are immediately relatable to hackathon judges who write code daily, directly matching codeboost's proven strategy."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A zero-configuration RAG toolkit optimized for relational databases that automatically chunks, embeds, and indexes college circulars, notices, and syllabi for instant conversational retrieval.",
+      "problem_statement": "AI / Machine Learning",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "HNSWlib",
+        "Embeddings"
+      ],
+      "title": "Auto-Embedding & RAG Toolkit for Campus Documentation",
+      "track": "AI / Machine Learning",
+      "why_it_could_win": "Solves an acute operational headache for academic institutions like NIT Agartala, aligning with the practical database-centric design of seamless-rag."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "A mobile application integrated with local campus infrastructure to automate IT support ticket triage, auto-approval workflows, and equipment repair requests without requiring enterprise SaaS fees.",
+      "problem_statement": "Mobile Development",
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "Python",
+        "PostgreSQL"
+      ],
+      "title": "Autonomous IT Service Desk Mobile Companion",
+      "track": "Mobile Development",
+      "why_it_could_win": "Brings the autonomous agent ticket-to-execution workflow proven in copilot-studio-itsm-agent directly to a mobile-first student interface."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

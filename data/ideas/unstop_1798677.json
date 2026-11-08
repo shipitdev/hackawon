@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-08T09:21:48.404435+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1798677",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1273399666",
+        "github:1144331507"
+      ],
+      "pitch": "Emergency offline disaster communication bridge using ESP32, LoRa, and BLE mesh for areas with down cellular infrastructure.",
+      "problem_statement": "Defence and disaster response hardware communication resilience during blackouts.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa",
+        "BLE",
+        "JavaScript"
+      ],
+      "title": "MeshComm Field Bridge",
+      "track": "Defence and Disaster Response",
+      "why_it_could_win": "Follows the exact pattern of the Nepal Police Hackathon winner by building a robust, low-cost decentralized mesh device that solves a critical local emergency scenario."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1140260754"
+      ],
+      "pitch": "A biomedical IoT system for continuous post-operative patient vital sign monitoring with real-time edge anomaly alerts.",
+      "problem_statement": "Healthcare monitoring systems for rural or remote post-operative recovery tracking.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Pulse Sensor",
+        "Node.js",
+        "TimescaleDB"
+      ],
+      "title": "BioEdge Post-Op Telemetry Unit",
+      "track": "Healthcare",
+      "why_it_could_win": "Mirrors the HardHack winning project by combining edge computing telemetry with actionable predictive health alerts that directly appeal to medical and engineering judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated conveyor belt sorting module powered by computer vision and microcontrollers to segregate industrial scrap material.",
+      "problem_statement": "Industrial automation and sustainable manufacturing waste management.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "Servo Motors",
+        "C++"
+      ],
+      "title": "AutoSort Industrial Waste Classifier",
+      "track": "Industrial Automation",
+      "why_it_could_win": "Builds on the TechnoMorph runner-up pattern by delivering a working physical demo with a live sensor-to-actuator control loop instead of just a software simulation."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An intelligent hardware relay monitor that detects line anomalies and isolates electrical grid faults instantly at the edge.",
+      "problem_statement": "Energy distribution networks and electrical grid safety automation.",
+      "stack": [
+        "Python",
+        "Current Sensors",
+        "Arduino Mega",
+        "ESP8266",
+        "MQTT"
+      ],
+      "title": "GridPulse Substation Fault Isolation",
+      "track": "Energy",
+      "why_it_could_win": "Directly targets the electrical engineering department's core focus at FCRIT by showcasing power system protection logic implemented on physical hardware."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:936954849"
+      ],
+      "pitch": "An IoT-enabled smart locking and telemetry module designed for localized campus electric bicycle sharing networks.",
+      "problem_statement": "Smart campus mobility and sustainable intra-city transport infrastructure.",
+      "stack": [
+        "Dart",
+        "ESP32",
+        "RFID",
+        "Solenoide Locks",
+        "Firebase"
+      ],
+      "title": "SmartLock BikeFleet Station",
+      "track": "",
+      "why_it_could_win": "Replicates the BoilerMake Grand Prize winning architecture by integrating secure hardware locking mechanisms with cloud telemetry and instant user verification."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

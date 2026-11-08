@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-08T09:21:16.702043+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1771952",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A digital tracking and compliance system tailored for industrial zones like Boisar to monitor hazardous waste disposal safely.",
+      "problem_statement": "Real-world industrial environmental and waste management problems in manufacturing hubs.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "Node.js"
+      ],
+      "title": "EcoNav: Industrial Waste Traceability & Compliance Platform",
+      "track": "",
+      "why_it_could_win": "Targets a local, real-world issue heavily relevant to judges and regulators in Boisar, Maharashtra, emphasizing practical feasibility over abstract concepts."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A multilingual local health triage bridge using lightweight AI and low-bandwidth capabilities for remote communities near Maharashtra.",
+      "problem_statement": "Accessibility challenges in local community health triage and primary care.",
+      "stack": [
+        "JavaScript",
+        "FastAPI",
+        "OpenCV",
+        "TailwindCSS"
+      ],
+      "title": "GraminMed: Offline-First Rural Health Triage Assistant",
+      "track": "",
+      "why_it_could_win": "Combines a working offline demo with a high-impact social cause, directly addressing local healthcare access gaps that judges care about."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An ESP32 and BLE-based offline mesh networking tool for rapid emergency coordination during communication blackouts.",
+      "problem_statement": "Emergency disaster response and reliable communication during infrastructure failure.",
+      "stack": [
+        "JavaScript",
+        "C++",
+        "ESP32",
+        "BLE"
+      ],
+      "title": "Sahayak: Low-Bandwidth Emergency Mesh Network",
+      "track": "",
+      "why_it_could_win": "Features genuinely hard engineering with hardware integration (ESP32/BLE) that stands out dramatically in a room full of standard web apps."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An internal knowledge graph and RAG system for local educational institutions to preserve and transfer project documentation across graduating batches.",
+      "problem_statement": "Knowledge retention and project continuity challenges faced by students and academic institutions.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "LangGraph"
+      ],
+      "title": "VidyaGraph: Local Academic Knowledge Transfer Engine",
+      "track": "",
+      "why_it_could_win": "Solves a pain familiar directly to students and academic organizers in the room, backed by a working LangGraph/RAG implementation."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "A transparent supply chain platform tracking local agricultural produce from farms to markets in Maharashtra to eliminate middleman margins.",
+      "problem_statement": "Inefficiencies and fair-pricing problems in local agricultural supply chains.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "KrishiLink: Direct Farmer-to-Consumer Supply Chain Ledger",
+      "track": "",
+      "why_it_could_win": "Directly tackles regional economic problems with an emphasis on practical feasibility and a polished local demo presentation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

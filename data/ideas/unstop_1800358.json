@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-08T09:23:13.745277+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "polish",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800358",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1208011447",
+        "github:1004582948"
+      ],
+      "pitch": "A local AI security assistant hardened against prompt injection that helps players analyze pcap files, binaries, and crypto challenges without leaking the raw flag.",
+      "problem_statement": "About HierroCTF 2026: Capture The Flag competition designed to challenge participants' technical knowledge, analytical thinking, and problem-solving abilities through cybersecurity-oriented challenges.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Vercel AI SDK",
+        "Docker"
+      ],
+      "title": "CTF-Companion AI: Autonomous Hint and Exploit Synthesizer",
+      "track": "",
+      "why_it_could_win": "Leverages defense-in-depth patterns and agentic tool-calling proven in security-focused hackathons, appealing directly to CTF organizers and participants who value technical utility over generic wrappers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1188682384",
+        "github:1188643990"
+      ],
+      "pitch": "A biometric-secured and ZK-gated credential manager that allows CTF team members to securely share sensitive container keys and API tokens without central server exposure.",
+      "problem_statement": "About HierroCTF 2026: Capture The Flag competition designed to challenge participants' technical knowledge, analytical thinking, and problem-solving abilities through cybersecurity-oriented challenges.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Noir",
+        "TypeScript"
+      ],
+      "title": "ZeroTrace: Zero-Knowledge Credential and Artifact Vault for CTF Teams",
+      "track": "",
+      "why_it_could_win": "Combines national-level zero-knowledge architecture with practical team utility, matching the rigorous cryptographic engineering expected by cybersecurity judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python utility that parses CTF challenge source code, identifies missing security controls or buffer overflows, and instantly generates remediation reports and proof-of-concept exploits.",
+      "problem_statement": "About HierroCTF 2026: Capture The Flag competition designed to challenge participants' technical knowledge, analytical thinking, and problem-solving abilities through cybersecurity-oriented challenges.",
+      "stack": [
+        "Python",
+        "AST",
+        "Flask",
+        "ReportLab"
+      ],
+      "title": "SecuriLog: Automated Vulnerability Patching & Exploit Report Generator",
+      "track": "",
+      "why_it_could_win": "Replicates the exact automated analysis and reporting success factors of past global hackathon winners, proving deep mastery of secure software development."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1051575008"
+      ],
+      "pitch": "A lightweight face-recognition and behavioral monitoring agent designed to ensure single-player integrity during solo cybersecurity competitions.",
+      "problem_statement": "About HierroCTF 2026: Capture The Flag competition designed to challenge participants' technical knowledge, analytical thinking, and problem-solving abilities through cybersecurity-oriented challenges.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TensorFlow.js",
+        "MongoDB"
+      ],
+      "title": "BioGuard CTF: Anti-Spoofing Proctoring and Identity Verification Agent",
+      "track": "",
+      "why_it_could_win": "Addresses the operational integrity needs of competitive cybersecurity events using battle-tested computer vision and anti-spoofing heuristics."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:783172279",
+        "github:614169755"
+      ],
+      "pitch": "A high-performance smart contract framework that guarantees cryptographically verifiable, race-condition-free flag captures and scoring transparency for live CTF events.",
+      "problem_statement": "About HierroCTF 2026: Capture The Flag competition designed to challenge participants' technical knowledge, analytical thinking, and problem-solving abilities through cybersecurity-oriented challenges.",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "TypeScript",
+        "Ethers.js"
+      ],
+      "title": "ChainGuard: Decentralized Immutable CTF Flag Submission Ledger",
+      "track": "",
+      "why_it_could_win": "Implements rigorous cryptographic state verification and decentralized ledger patterns that score exceptionally high on technical complexity and platform trust."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-08T09:21:56.888360+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799143",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An AWS-powered anti-money laundering risk detection and investigation platform combining graph intelligence and explainable machine learning for FinTech compliance teams.",
+      "problem_statement": "FinTech & Cybersecurity",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AWS",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "AegisGraph: AML Risk Investigation Platform",
+      "track": "FinTech & Cybersecurity",
+      "why_it_could_win": "Leverages heavy graph intelligence and explainable ML, directly emulating a major regional hackathon winning architecture to impress enterprise judges from Thoughtworks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual AI voice chatbot that tracks rural symptom clusters, delivers preventive care awareness, and automates vaccination scheduling for semi-urban healthcare workers.",
+      "problem_statement": "HealthTech & Social Impact",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "OpenAI API",
+        "Twilio"
+      ],
+      "title": "SwasthyaVani: Multilingual Rural Health Outbreak Sentinel",
+      "track": "HealthTech & Social Impact",
+      "why_it_could_win": "Directly tackles a high-impact social problem with localized multilingual delivery, mirroring past grand-prize winning patterns for community-focused AI applications."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered no-code trading bot builder and copy-trading platform for executing automated risk strategies on decentralized perpetuals exchanges.",
+      "problem_statement": "Blockchain & Web3",
+      "stack": [
+        "Python",
+        "Solidity",
+        "Next.js",
+        "Ethers.js"
+      ],
+      "title": "PacificaCopy: No-Code Perpetuals Trading Bot Builder",
+      "track": "Blockchain & Web3",
+      "why_it_could_win": "Combines practical Web3 financial tooling with generative AI workflows, targeting the exact formula that secured first place at the Pacifica Hackathon."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student and administrator support platform combining RAG and LangGraph to track, analyze, and optimize campus carbon footprints.",
+      "problem_statement": "Physical AI, Robotics & IoT",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Pinecone",
+        "Next.js"
+      ],
+      "title": "EcoRAG: Multi-Agent Campus Sustainability Assistant",
+      "track": "Physical AI, Robotics & IoT",
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration architecture using LangGraph, fulfilling the hard-engineering criteria that judges look for in technical tracks."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent with an evidence gate and verified repair workflows that generates automated pull requests for corrupted database pipelines.",
+      "problem_statement": "Open Innovation",
+      "stack": [
+        "Python",
+        "Claude API",
+        "LangChain",
+        "PostgreSQL",
+        "GitHub API"
+      ],
+      "title": "DataGuard: Autonomous Data Incident Response Agent",
+      "track": "Open Innovation",
+      "why_it_could_win": "Implements autonomous agent workflows with verifiable repair mechanisms, directly replicating a proven grand-prize winning data-engineering project pattern."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

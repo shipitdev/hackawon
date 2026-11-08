@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-11-08T09:23:31.000670+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800924",
+  "ideas": [
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:940931560"
+      ],
+      "pitch": "A real-time algorithm visualization tool that steps through data structures during competitive programming execution.",
+      "problem_statement": "ELUCode competitive coding contest focusing on data structures, algorithms, and logic building.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Monaco Editor",
+        "TailwindCSS"
+      ],
+      "title": "AlgoTrace Visualizer & Live Debugger",
+      "track": "",
+      "why_it_could_win": "Addresses the core competitive programming theme by helping participants debug complex algorithmic challenges visually, appealing to the contest's educational and fast-paced nature."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:940931560"
+      ],
+      "pitch": "A 1-on-1 real-time competitive coding arena where developers race to solve curated algorithmic puzzles under strict time limits.",
+      "problem_statement": "ELUCode competitive coding contest focusing on algorithmic challenges and coding speed.",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "WebSockets",
+        "Redis"
+      ],
+      "title": "CP-Duel Matchmaking Platform",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the fast-paced 2-hour competitive coding format of ELUCode, providing an engaging companion platform for peer practice."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A lightweight command-line tool that statically analyzes Python and JavaScript code snippets to estimate time and space complexity during a contest.",
+      "problem_statement": "ELUCode competitive coding contest testing efficient coding practices and algorithm optimization.",
+      "stack": [
+        "Python",
+        "AST",
+        "Click"
+      ],
+      "title": "ComplexityAnalyzer CLI",
+      "track": "",
+      "why_it_could_win": "Solves the exact bottleneck competitive programmers face regarding efficiency and constraints before submitting solutions."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "An automated verification and leaderboard dashboard that issues dynamic achievement badges based on test case performance.",
+      "problem_statement": "ELUCode competitive coding contest featuring automated test case evaluation and leaderboard ranking.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "EduLinkUp Badge & Scorecard Generator",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact achievement system and leaderboard mechanics highlighted in the event overview, making it immediately relevant to organizers."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A local testcase generator for competitive programmers to stress-test their solutions against randomized edge cases.",
+      "problem_statement": "ELUCode competitive coding contest evaluating submissions against hidden and visible test cases.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "Testcase-Forge",
+      "track": "",
+      "why_it_could_win": "Focuses on correctness and robustness under hidden test cases, a critical pain point in fast-paced coding contests."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

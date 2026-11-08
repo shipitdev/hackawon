@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-08T09:22:01.725770+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unique-data",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799281",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A specialized pipeline leveraging Adaption platform credits to automatically detect, clean, and mitigate demographic bias in raw tabular classification datasets.",
+      "problem_statement": "Improve one dataset using Adaption, then show the before and after on an evaluation agreed with Adaption.",
+      "stack": [
+        "Python",
+        "Adaption SDK",
+        "Pandas",
+        "Scikit-Learn",
+        "FastAPI"
+      ],
+      "title": "AdaptionBiasCleaner",
+      "track": "",
+      "why_it_could_win": "Directly integrates mandatory Adaption platform tools while adopting proven architectural patterns from top-tier bias detection hackathon winners."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent system that runs data quality checks on messy real-world datasets, executes automated repairs using Adaption, and generates validation diffs.",
+      "problem_statement": "Improve one dataset using Adaption, then show the before and after on an evaluation agreed with Adaption.",
+      "stack": [
+        "Python",
+        "Adaption SDK",
+        "LangChain",
+        "Streamlit",
+        "DuckDB"
+      ],
+      "title": "AgenticDataRepair",
+      "track": "",
+      "why_it_could_win": "Combines autonomous agent data remediation loops with strict before-and-after evaluation metrics, perfectly satisfying the core challenge prompt."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A benchmarking dashboard that evaluates LLM reasoning degradation across raw datasets versus Adaption-enhanced clean datasets over multi-turn prompts.",
+      "problem_statement": "Improve one dataset using Adaption, then show the before and after on an evaluation agreed with Adaption.",
+      "stack": [
+        "Python",
+        "Adaption SDK",
+        "HuggingFace",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "AdaptionMetacognitionEval",
+      "track": "",
+      "why_it_could_win": "Leverages advanced benchmark-style evaluation methodologies that successfully won major ML progression hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A time-series anomaly cleaning pipeline that takes noisy sensor data streams, uses Adaption to normalize drift and impute missing frames, and validates operational integrity.",
+      "problem_statement": "Improve one dataset using Adaption, then show the before and after on an evaluation agreed with Adaption.",
+      "stack": [
+        "TypeScript",
+        "Adaption SDK",
+        "TimescaleDB",
+        "Node.js",
+        "Chart.js"
+      ],
+      "title": "IoTDriftAdapt",
+      "track": "",
+      "why_it_could_win": "Shows tangible, high-impact data transformation on complex operational time-series data with clear before-and-after visualization."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An unstructured video metadata extraction and cleanup tool that converts messy video transcripts into a structured, high-accuracy training dataset using Adaption.",
+      "problem_statement": "Improve one dataset using Adaption, then show the before and after on an evaluation agreed with Adaption.",
+      "stack": [
+        "Python",
+        "Adaption SDK",
+        "OpenCV",
+        "Whisper API",
+        "Streamlit"
+      ],
+      "title": "VideoDataRefinery",
+      "track": "",
+      "why_it_could_win": "Tackles unstructured multimedia data conversion which historically resonates strongly with judges looking for high-utility data transformations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

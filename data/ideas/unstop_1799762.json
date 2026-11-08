@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-08T09:22:19.840262+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799762",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "An AI-powered urban canopy health monitor that uses computer vision and satellite imagery to calculate local carbon sequestration and detect urban heat islands in real-time.",
+      "problem_statement": "Environment, sustainability, and smart cities domain challenge focusing on AI-driven ecological impact.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "PyTorch",
+        "TailwindCSS"
+      ],
+      "title": "AeroFlora-AI",
+      "track": "environment and sustainability",
+      "why_it_could_win": "Aligns with the environment and sustainability track, offering quantifiable ecological impact metrics that judges prefer over abstract dashboards."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An automated offline-first educational grading and rubric generation assistant for rural teachers that converts handwritten worksheets into structured performance insights.",
+      "problem_statement": "Education domain challenge addressing resource-constrained social welfare and teaching accessibility.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Streamlit",
+        "Tesseract",
+        "Scikit-Learn"
+      ],
+      "title": "EduScribe-ML",
+      "track": "education",
+      "why_it_could_win": "Targets the education domain with a concrete local community problem, maximizing practical impact for resource-limited classrooms."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "A multilingual voice-based healthcare triage assistant designed for community health workers to quickly log symptoms and prioritize urgent patient queues.",
+      "problem_statement": "Healthcare domain challenge focusing on AI integration for medical accessibility and social welfare.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Whisper API",
+        "TailwindCSS",
+        "Supabase"
+      ],
+      "title": "MediTriage-Voice",
+      "track": "healthcare",
+      "why_it_could_win": "Demonstrates a working live demo using speech-to-text integration, directly addressing the healthcare domain with measurable efficiency gains."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An intelligent civic issue parser that automatically clusters and prioritizes municipal complaints from social media text and geotagged photos for local city councils.",
+      "problem_statement": "Smart cities and social welfare domain challenge improving local community infrastructure management.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "Pandas",
+        "Leaflet.js"
+      ],
+      "title": "CivicPulse-AI",
+      "track": "smart cities",
+      "why_it_could_win": "Directly tackles the smart cities domain by delivering a live dashboard with clear real-world accountability metrics for local administrators."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-deployable computer vision classification system that automatically sorts organic, plastic, and electronic waste using low-cost camera modules.",
+      "problem_statement": "Environment and sustainability domain challenge targeting automated waste management solutions.",
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "OpenCV",
+        "Flask",
+        "Arduino"
+      ],
+      "title": "EcoBin-Vision",
+      "track": "environment",
+      "why_it_could_win": "Features hard engineering with a working computer vision classification demo that judges can interact with live during the presentation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

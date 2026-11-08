@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-08T09:21:51.784116+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799092",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "A visual debugging and benchmarking playground for prompt engineering pipelines.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "PromptCircuit",
+      "track": "",
+      "why_it_could_win": "Addresses an immediate pain point for developers in the PromptWars context, mimicking the rigorous evaluation approach of PointChessEngine."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent autonomous student support platform tailored for hackathon organizers and participants.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "Firebase"
+      ],
+      "title": "AgenticVibe",
+      "track": "",
+      "why_it_could_win": "Directly targets the workflow and collaboration struggles of students and developers participating in community-driven events like Echo Engineers."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "Engineering team lifecycle intelligence platform that records context from live terminal activity and prompt workflows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "FastAPI",
+        "ChromaDB",
+        "LangGraph",
+        "TypeScript"
+      ],
+      "title": "KnowledgeCapture",
+      "track": "",
+      "why_it_could_win": "Solves real-world developer lifecycle friction, echoing the architecture and winning strategy of devflow."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:945008026",
+        "github:1132337467"
+      ],
+      "pitch": "A low-latency, multimodal RAG voice assistant for real-time technical troubleshooting and query resolution.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Gemini API",
+        "WebSockets"
+      ],
+      "title": "VibeRAG Voice",
+      "track": "",
+      "why_it_could_win": "Combines multimodal capabilities with ultra-fast retrieval, matching the precision expected by technical judges in AI hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced geolocation and resource finder for hybrid events, mapping resources and participant inquiries instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TomTom Maps API",
+        "Gemini AI"
+      ],
+      "title": "CampusPulse",
+      "track": "",
+      "why_it_could_win": "Solves an immediate logistical problem for event organizers and attendees in hybrid formats using real-time APIs."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-11-08T09:22:46.169770+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799788",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A Python tool for thermodynamic cycle analysis, specifically targeting Rankine and Brayton cycle optimization under varying heat transfer constraints.",
+      "problem_statement": "Assess understanding of Thermodynamics and Heat Transfer.",
+      "stack": [
+        "Python",
+        "SciPy",
+        "Matplotlib",
+        "NumPy"
+      ],
+      "title": "ThermoCycle Python Optimizer",
+      "track": "",
+      "why_it_could_win": "Leverages differentiable programming patterns to model complex engineering systems, showing advanced mathematical modeling suited for mechanical engineering faculty judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An interactive web utility for four-bar linkage synthesis and instant Grashof condition checking, tailored for theory of machines homework and design validation.",
+      "problem_statement": "Evaluate understanding of Theory of Machines and Machine Design.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "TailwindCSS"
+      ],
+      "title": "Kinematic Mechanism Synthesizer",
+      "track": "",
+      "why_it_could_win": "Directly targets the core mechanical theory curriculum at MNNIT, offering immediate utility for mechanical students and clear visual verification for judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A robust CLI and web calculator implementing the Hardy Cross method for pipe network analysis in fluid distribution systems.",
+      "problem_statement": "Test knowledge of Fluid Mechanics.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "FluidFlow Pipe Network Solver",
+      "track": "",
+      "why_it_could_win": "Solvers that automate tedious iterative engineering hand calculations are universally loved by mechanical engineering evaluators for their practicality."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "A finite element analysis browser tool for 1D beam bending, shear force, and bending moment diagrams under complex load configurations.",
+      "problem_statement": "Evaluate fundamentals of Engineering Mechanics.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Math.js"
+      ],
+      "title": "MechSim FEA Beam Deflection Visualizer",
+      "track": "",
+      "why_it_could_win": "Genuinely hard engineering implemented in a lightweight browser package that demonstrates deep command over structural mechanics principles."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A manufacturing process optimization tool applying Chvorinov's rule to compute solidification time and design optimal risers for sand casting.",
+      "problem_statement": "Strengthen concepts in Manufacturing Processes.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Bootstrap"
+      ],
+      "title": "Casting Yield and Riser Calculator",
+      "track": "",
+      "why_it_could_win": "Focuses on a niche manufacturing principle that directly reflects the syllabus and practical workshop considerations taught in mechanical departments."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

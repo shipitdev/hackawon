@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-08T09:23:22.328403+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800857",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1289086869"
+      ],
+      "pitch": "An acoustic-first debt collection agent that estimates paralinguistic distress cues from raw audio and safely triggers human handoffs.",
+      "problem_statement": "Theme 1, Debt Collections - Paralinguistic State Detection from Voice, Not Transcript",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Librosa",
+        "PyTorch",
+        "WebSockets"
+      ],
+      "title": "AuraVoice Collect",
+      "track": "Debt Collections",
+      "why_it_could_win": "Directly hits the core problem statement by proving real-time acoustic signal parsing combined with strict safety guardrails for distressed callers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1181344931"
+      ],
+      "pitch": "A real-time monitoring and anomaly detection system that fingerprints AI agent sessions to prevent rogue automated financial actions.",
+      "problem_statement": "Theme 2, Fraud Detection & Prevention - Know Your Agent (KYA)",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Redis",
+        "LightGBM"
+      ],
+      "title": "AgentGuard KYA",
+      "track": "Fraud Detection & Prevention",
+      "why_it_could_win": "Leverages the winning pattern of high-rigor engineering and deterministic risk gates to tackle emerging threats in agentic banking."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A dual-layer voice analytics pipeline that measures borrower arousal and valence in real time to enforce ethical recovery protocols.",
+      "problem_statement": "Theme 1, Debt Collections - Paralinguistic State Detection from Voice, Not Transcript",
+      "stack": [
+        "Python",
+        "SpeechRecognition",
+        "Transformers",
+        "Streamlit"
+      ],
+      "title": "EmpathDebt Router",
+      "track": "Debt Collections",
+      "why_it_could_win": "Focuses on robust acoustic feature extraction and a deterministic policy layer that guarantees vulnerable users are never pressured."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:969245239"
+      ],
+      "pitch": "An automated behavioral audit engine that tracks downstream API calls and decision trees of third-party AI agents in financial institutions.",
+      "problem_statement": "Theme 2, Fraud Detection & Prevention - Know Your Agent (KYA)",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "CredAgent Verifier",
+      "track": "Fraud Detection & Prevention",
+      "why_it_could_win": "Provides an immediately testable live demo showing live detection and blocking of adversarial agent transactions."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An edge-ready speech analyzer that classifies commitment credibility and emotional valence without relying on vulnerable speech-to-text transcripts.",
+      "problem_statement": "Theme 1, Debt Collections - Paralinguistic State Detection from Voice, Not Transcript",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TorchAudio",
+        "React"
+      ],
+      "title": "ParalinguaSafe",
+      "track": "Debt Collections",
+      "why_it_could_win": "Solves the specific technical constraint of analyzing raw audio attributes directly, impressing judges looking for deep AI engineering."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
