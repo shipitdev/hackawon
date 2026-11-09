@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-11-09T10:07:16.059156+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1801200",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A local C++ code optimization assistant that analyzes competitive programming solutions for time complexity bottlenecks and suggest inline replacements.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "CLI"
+      ],
+      "title": "OptiC++ Sprint Engine",
+      "track": "",
+      "why_it_could_win": "Code Red focuses heavily on problem-solving, aptitude, and C++ performance under time pressure. A tool that helps contestants catch sub-optimal loops or memory leaks directly addresses the core spirit of the hackathon."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A lightweight parser and visualizer that renders data structures and pointer movements for C++ code execution in real-time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "TypeScript",
+        "HTML5 Canvas"
+      ],
+      "title": "AlgoTrace C++ Visualizer",
+      "track": "",
+      "why_it_could_win": "Since judges value optimal code and problem-solving speed, a live visualization utility for C++ debugging matches the rigorous evaluation criteria of passing all test cases."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "An automated unit test generator that reads C++ function signatures and generates edge-case stress test suites to ensure zero runtime failures.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Python",
+        "Bash"
+      ],
+      "title": "TestGen C++ Harness",
+      "track": "",
+      "why_it_could_win": "Contestants lose points for failing edge test cases. Providing an automated harness targeting C++ guarantees higher accuracy during competitive sprints."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A localized IDE extension tailored for competitive programmers offering algorithmic hints and time-management telemetry during intense coding sprints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "C++"
+      ],
+      "title": "SpeedCode Timer & Hint Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the 'sprinting against the time' rule of the hackathon, prioritizing practical utility for solo developers."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [],
+      "pitch": "A comparative benchmarking tool that profiles C++ solutions against alternative STL implementations to find the absolute lowest execution time.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Make",
+        "Python"
+      ],
+      "title": "CP-Benchmark Suite",
+      "track": "",
+      "why_it_could_win": "Appeals to the optimization aspect of Code Red, giving solo participants a competitive edge in CPU cycles and memory usage."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

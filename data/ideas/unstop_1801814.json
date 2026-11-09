@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-11-09T10:07:20.627485+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1801814",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A local competitive programming sandbox designed specifically for Java developers to practice and dry-run code against edge-case test suites offline.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java",
+        "Swing"
+      ],
+      "title": "JavaAlgoArena",
+      "track": "",
+      "why_it_could_win": "Since the contest strictly mandates Java or Python on provided offline machines, a tailored sandbox tool for high-performance Java execution aligns perfectly with the target audience's core need."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [],
+      "pitch": "An offline interpreter utility that parses Python code snippets and generates real-time step-by-step memory and execution state diagrams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Tkinter"
+      ],
+      "title": "PythonSnippetVisualizer",
+      "track": "",
+      "why_it_could_win": "Leverages the permitted Python stack to solve a tangible pain point for students debugging complex logic during timed individual coding contests."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "A resource usage monitor that profiles Java and Python solutions locally to flag memory leaks and time-limit-exceeded risks before submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Java"
+      ],
+      "title": "OfflineCPProfiler",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering constraints like time and space complexity, appealing directly to judges evaluating pure algorithmic efficiency."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [],
+      "pitch": "A fast boilerplate generator that scaffolds competitive programming file structures, custom fast I/O templates, and test harnesses for Java and Python.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python"
+      ],
+      "title": "ContestTemplateGenerator",
+      "track": "",
+      "why_it_could_win": "Maximizes speed during a short individual contest by eliminating repetitive setup boilerplate, demonstrating high practical utility."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A lightweight diff tool built for offline environments to compare expected versus actual outputs of custom test cases during coding rounds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Java"
+      ],
+      "title": "LocalDiffComparator",
+      "track": "",
+      "why_it_could_win": "Addresses an immediate practical bottleneck in offline competitive programming environments where internet access is restricted."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
