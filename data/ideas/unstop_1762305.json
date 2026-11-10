@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-10T10:14:57.773057+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1762305",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1199751414",
+        "github:938030912"
+      ],
+      "pitch": "An autonomous AI agent using the Model Context Protocol (MCP) to systematically discover and reproduce critical bugs on Mozark's real-device testing platform.",
+      "problem_statement": "AI can build an app in minutes. Proving it works is the real skill: take a real app, test it, fix what breaks, and prove it performs on Mozark's platform on real devices.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MCP",
+        "Mozark API",
+        "Playwright"
+      ],
+      "title": "Mozark MCP BugHunter Agent",
+      "track": "MCP",
+      "why_it_could_win": "Directly targets Mozark's core scoring rubric by automating the detection of reproducible user-journey failures that pass the 2-of-3 run consistency test."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "A telemetry pipeline designed for Mozark's Infra starter org to monitor latency bottlenecks and infrastructural drop-offs during real-device execution.",
+      "problem_statement": "AI can build an app in minutes. Proving it works is the real skill: take a real app, test it, fix what breaks, and prove it performs on Mozark's platform on real devices.",
+      "stack": [
+        "Python",
+        "OpenTelemetry",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "InfraTrace Performance Profiler",
+      "track": "Infra",
+      "why_it_could_win": "Earns points on evidence rather than activity by producing rigorous performance profiling and telemetry reports directly consumable by Mozark admins."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "Test Case Management (TCM) suite extension that automatically maps AI-generated user journeys to real-device execution traces on Mozark.",
+      "problem_statement": "AI can build an app in minutes. Proving it works is the real skill: take a real app, test it, fix what breaks, and prove it performs on Mozark's platform on real devices.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Mozark TCM SDK",
+        "Jest"
+      ],
+      "title": "TCM Journey Guardian",
+      "track": "TCM",
+      "why_it_could_win": "Focuses on breaking key user journeys consistently, aligning with the strict bug-validation rules defined in the challenge guidelines."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A CLI and web dashboard that verifies and packages test logs, device screenshots, and failure evidence to maximize scoring on the 100-point scale.",
+      "problem_statement": "AI can build an app in minutes. Proving it works is the real skill: take a real app, test it, fix what breaks, and prove it performs on Mozark's platform on real devices.",
+      "stack": [
+        "Python",
+        "Click",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "Mozark Evidence Auditor",
+      "track": "",
+      "why_it_could_win": "Addresses the specific rule that every point is earned on evidence, giving judges undeniable proof of reproducible bugs."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:938030912",
+        "github:1181028879"
+      ],
+      "pitch": "An agentic feedback loop that takes failed real-device test runs from Mozark, diagnoses the root cause, and generates clean code patches.",
+      "problem_statement": "AI can build an app in minutes. Proving it works is the real skill: take a real app, test it, fix what breaks, and prove it performs on Mozark's platform on real devices.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "OpenAI API",
+        "GitPython"
+      ],
+      "title": "AutoFixer Agent for Mozark Apps",
+      "track": "MCP",
+      "why_it_could_win": "Covers both halves of the challenge prompt: testing what fails and actively fixing what breaks with evidence of subsequent performance."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

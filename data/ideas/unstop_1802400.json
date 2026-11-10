@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-10T10:15:25.437064+00:00",
+  "grounding": {
+    "domains": [
+      "civic",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1802400",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A hyper-local coordination PWA that matches restaurant and bakery surplus food with nearby volunteers and low-income households for safe, timed distribution.",
+      "problem_statement": "Restaurants, bakeries, supermarkets and households regularly have surplus food, while people nearby may struggle to afford meals. The challenge is often coordination, timing and safe distribution.",
+      "stack": [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "Supabase"
+      ],
+      "title": "SurplusSync",
+      "track": "",
+      "why_it_could_win": "Directly tackles the published online round problem statement with a functioning PWA, matching the proven pattern of clear measurable social impact and a live working demo."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:769262834",
+        "github:769127191"
+      ],
+      "pitch": "A spatial mapping web app that logs unrecorded informal waste pickers' routes and informal sorting hubs to quantify city-level recycling that never hits official databases.",
+      "problem_statement": "The Invisible City: Waste nobody counts and people who keep everything working but never appear in any database.",
+      "stack": [
+        "Leaflet.js",
+        "TypeScript",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "GhostAudit",
+      "track": "",
+      "why_it_could_win": "Aligns tightly with the core theme of 'The Invisible City' by bringing invisible workers and uncounted waste into a visible dashboard, highly appealing to jury members looking for original thinking."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An audio-first collection portal that records, translates, and clusters vernacular voice complaints from street vendors and sanitation staff into structured municipal tickets.",
+      "problem_statement": "The Invisible City: Voices no system understands and needs nobody says out loud.",
+      "stack": [
+        "React",
+        "Web Speech API",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "VoiceLane",
+      "track": "",
+      "why_it_could_win": "Leverages audio processing and simple UI to solve a painfully real city communication gap, winning on problem sharpness and sound execution within a 7-hour build window."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1143576965",
+        "github:901472660"
+      ],
+      "pitch": "An offline-first peer support and emergency alert network designed specifically for gig workers and night-shift urban service providers operating in blind spots.",
+      "problem_statement": "The Invisible City: People who keep everything working but never appear in any database.",
+      "stack": [
+        "React Native",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "title": "ShiftLink",
+      "track": "",
+      "why_it_could_win": "Focuses on human empathy and real-world utility for marginalized urban workers, directly hitting the jury's criteria of explaining why the idea matters to a real user."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:781211861",
+        "github:611784301"
+      ],
+      "pitch": "A crowdsourced hazard logger built for informal settlements to map localized waterlogging and blocked drainage channels that municipal maps miss.",
+      "problem_statement": "The Invisible City: Finding something real that the city overlooks, and building technology that makes it heard, seen, counted or said.",
+      "stack": [
+        "Next.js",
+        "TailwindCSS",
+        "Supabase"
+      ],
+      "title": "DrainWatch",
+      "track": "",
+      "why_it_could_win": "Features an immediately testable photo-upload and map-pinning flow that lets judges test the live demo right from their phones during the pitch."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

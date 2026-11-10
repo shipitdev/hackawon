@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-10T10:15:10.976595+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "edtech",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1800629",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An offline-first voice biomarker and triage assistant for rural ASHA workers running on low-cost Android devices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Kotlin",
+        "SQLite",
+        "Python",
+        "Whisper-tiny"
+      ],
+      "title": "AshaConnect",
+      "track": "Health and Rural Empowerment",
+      "why_it_could_win": "Directly aligns with the rural empowerment and healthcare themes by solving a real workflow bottleneck for frontline health workers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:163884979"
+      ],
+      "pitch": "A peer-to-peer mesh network content-sharing app enabling rural schools to cache educational video content via local Wi-Fi hotspots without active internet.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "WebRTC",
+        "Express"
+      ],
+      "title": "GramVani AudioHub",
+      "track": "Education and Rural Empowerment",
+      "why_it_could_win": "Addresses the severe connectivity limitation in rural education with an innovative, working prototype using local hardware protocols."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981",
+        "github:230250148"
+      ],
+      "pitch": "A vernacular voice-activated diagnostic tool for crop diseases that reads local agricultural advisories aloud in regional dialects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Flutter",
+        "FastAPI",
+        "TensorFlow Lite",
+        "Python"
+      ],
+      "title": "KrishiBhasha AI",
+      "track": "Rural Empowerment",
+      "why_it_could_win": "Combines cutting-edge local ML inference with immediate economic utility for farmers, hitting the core Tech for Humanity mandate."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An IoT-based low-cost water contamination and turbidity monitor using ESP32 that sends SMS alerts to village panchayats.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Node.js",
+        "React"
+      ],
+      "title": "JalSuraksha IoT",
+      "track": "Health and Rural Empowerment",
+      "why_it_could_win": "Demonstrates full-stack hardware and software integration which always stands out in technical university hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:163884979"
+      ],
+      "pitch": "An offline-capable adaptive quiz generator for school children in rural areas that dynamically adjusts difficulty based on local curriculum patterns.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "IndexedDB",
+        "TailwindCSS"
+      ],
+      "title": "SikshaSetu",
+      "track": "Education",
+      "why_it_could_win": "Provides a quantifiable learning improvement metric that judges can easily test during judging rounds."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-10T10:15:06.801185+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1794884",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A rigorous code screening tool built for solo hiring assessments that evaluates candidate submissions using Abstract Syntax Tree (AST) comparison and algorithmic complexity profiling.",
+      "problem_statement": "Round 1 & Finalist Coding Challenges for Solo Hiring Hackathon",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Tree-sitter",
+        "Next.js"
+      ],
+      "title": "RecruitAI Screen: Automated Code Quality & AST Diff Analyzer",
+      "track": "",
+      "why_it_could_win": "Since this is a hiring hackathon organized by WorkElate, building a tool that helps recruiters instantly grade and screen code submissions targets the exact pain point of the organizing company."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered cybersecurity assistant that scans incoming pull requests for OWASP Top 10 vulnerabilities and instantly generates validated secure code patches.",
+      "problem_statement": "Cybersecurity and Software Engineering Competency Evaluation",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Semgrep",
+        "React",
+        "Docker"
+      ],
+      "title": "SecGuard AI: Automated Vulnerability Remediation Agent",
+      "track": "",
+      "why_it_could_win": "Cybersecurity is explicitly highlighted as a key specialization for eligible candidates, and judges from a tech hiring platform will appreciate practical code-safety tooling."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A streamlined machine learning assistant that takes raw CSV datasets, automatically handles missing values, detects feature drift, and builds baseline predictive models in minutes.",
+      "problem_statement": "Data Science and AI/ML Specialization Assessment",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit",
+        "FastAPI"
+      ],
+      "title": "DataFlow ML: Automated Feature Engineering Pipeline for Tabular Data",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the Data Science and AI/ML graduation criteria by demonstrating rigorous end-to-end data processing rather than a generic prompt wrapper."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An interactive technical skill verification dashboard that aggregates candidate GitHub metrics, algorithmic problem-solving speed, and verified project contributions into a unified hiring profile.",
+      "problem_statement": "Screening and Technical Skill Assessment for Emerging Talent",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "SkillMatrix: Real-Time Technical Competency Mapping Engine",
+      "track": "",
+      "why_it_could_win": "Directly aligns with WorkElate's core mission of identifying and filtering emerging software engineering talent through comprehensive technical profiling."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A lightweight log-ingestion and anomaly detection dashboard that flags suspicious access patterns and unauthorized endpoints using rolling statistical thresholds.",
+      "problem_statement": "Cybersecurity and Systems Monitoring Evaluation",
+      "stack": [
+        "Python",
+        "Node.js",
+        "Redis",
+        "Chart.js",
+        "WebSockets"
+      ],
+      "title": "LogSentinel: Real-Time Network Threat Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Demonstrates deep systems knowledge and handles a complex problem domain within the tight constraints of a solo overnight coding challenge."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

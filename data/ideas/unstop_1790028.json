@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-10T10:15:03.241680+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1790028",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1181028879"
+      ],
+      "pitch": "A secure medical-data agent platform running on AWS using federated retrieval to assist doctors with clinical guidelines without exposing patient data.",
+      "problem_statement": "AI for Healthcare",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AWS Bedrock",
+        "LangGraph",
+        "Chroma"
+      ],
+      "title": "MediGraph AWS: Federated Clinical Knowledge Agent",
+      "track": "AI for Healthcare",
+      "why_it_could_win": "Directly targets the AI for Healthcare domain with strong AWS cloud integration, appealing heavily to the AWS Student Community Day and judges looking for secure, production-grade architectures."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1169394966",
+        "github:855084718"
+      ],
+      "pitch": "An autonomous coding tutor tailored for university labs that watches git commits and automatically generates progressive pedagogical challenges and explanations.",
+      "problem_statement": "AI for Education",
+      "stack": [
+        "Python",
+        "Groq API",
+        "Llama 3",
+        "Streamlit",
+        "Docker"
+      ],
+      "title": "AgentEd: Agentic Software Engineering Mentor for Students",
+      "track": "AI for Education",
+      "why_it_could_win": "Solves an educational problem with advanced agentic workflows that judges in the AI for Education track will recognize as cutting-edge for modern computer science curricula."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An automated compliance checker that analyzes cloud deployment templates against security frameworks using a BPMN-orchestrated agent pipeline.",
+      "problem_statement": "AI for Security",
+      "stack": [
+        "Python",
+        "AWS Lambda",
+        "OpenAI API",
+        "BPMN Engine"
+      ],
+      "title": "SecureGuard BPMN: Pre-Deployment AI Risk Auditor",
+      "track": "AI for Security",
+      "why_it_could_win": "Leverages rigorous compliance auditing workflows that satisfy enterprise judges looking for practical security governance in cloud infrastructures."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A high-speed semantic router that directs incoming emergency patient symptoms to the correct specialist department at half the LLM query cost.",
+      "problem_statement": "AI for Healthcare",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Qwen",
+        "FastAPI"
+      ],
+      "title": "SemRoute Health: Training-Free Semantic Triage Router",
+      "track": "AI for Healthcare",
+      "why_it_could_win": "Demonstrates hard engineering with a training-free exemplar index that slashes latency and cost, a metric judges always reward in high-stakes domains."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A cloud-native proctoring assistant that uses lightweight computer vision and local audio classification to flag anomalies without violating student privacy.",
+      "problem_statement": "AI for Security",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "AWS S3",
+        "PyTorch"
+      ],
+      "title": "SecureClassroom AI: Automated Exam Integrity Monitor",
+      "track": "AI for Security",
+      "why_it_could_win": "Addresses the intersection of security and education with a privacy-first architecture deployable on AWS infrastructure."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

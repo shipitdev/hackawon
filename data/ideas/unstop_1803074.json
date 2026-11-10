@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-10T10:15:32.658243+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "healthtech",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1803074",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1200106905"
+      ],
+      "pitch": "An offline-first crop disease and yield prediction platform tailored for rural farmers with low connectivity, delivering actionable alerts via SMS.",
+      "problem_statement": "Smart Agriculture & Food Security",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Twilio API",
+        "TensorFlow.js"
+      ],
+      "title": "AgriGuard SMS",
+      "track": "Smart Agriculture & Food Security",
+      "why_it_could_win": "Aligns with UN SDG 2 (Zero Hunger) and directly mirrors a proven winning pattern of integrating offline SMS alerts for practical rural utility."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1234067949"
+      ],
+      "pitch": "A predictive web platform forecasting harmful algal bloom risks days in advance using lightweight machine learning models.",
+      "problem_statement": "Water Conservation & Resource Management",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Flask",
+        "React"
+      ],
+      "title": "AquaPredict Bay",
+      "track": "Water Conservation & Resource Management",
+      "why_it_could_win": "Targets environmental sustainability with clear predictive metrics, matching the judging preference for quantified ecological impact."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered satellite monitoring tool identifying urban heat islands and optimal zones for green infrastructure placement.",
+      "problem_statement": "Sustainable Urban Living & Smart Infrastructure",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Leaflet.js",
+        "Python"
+      ],
+      "title": "UrbanCool Infrastructure Mapping",
+      "track": "Sustainable Urban Living & Smart Infrastructure",
+      "why_it_could_win": "Leverages geospatial data visualisation which consistently scores high among judges evaluating smart city scalability."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A crowd-sourced safety mapping and navigation web app highlighting well-lit paths and community-vetted safe spaces for women and vulnerable groups.",
+      "problem_statement": "Women's Empowerment & Community Safety",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Firebase",
+        "TailwindCSS"
+      ],
+      "title": "SafeRoute Community",
+      "track": "Women's Empowerment & Community Safety",
+      "why_it_could_win": "Addresses an urgent social challenge directly aligned with UN SDG 5 (Gender Equality) and community safety priorities."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:984086555"
+      ],
+      "pitch": "A full-stack transparent marketplace connecting local smallholder farmers directly with urban consumers to eliminate middlemen markups.",
+      "problem_statement": "Smart Food Systems & Zero-Waste Communities",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+      ],
+      "title": "KisanBazaar Direct",
+      "track": "Smart Food Systems & Zero-Waste Communities",
+      "why_it_could_win": "Replicates a proven hackathon-winning architecture while solving a tangible economic problem for agricultural communities."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-11-10T10:15:20.659852+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "unique-data",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1802169",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered digital property valuation engine that combines satellite imagery analysis with local real estate transaction records for instant, explainable collateral valuation.",
+      "problem_statement": "AI-Powered Digital Property Valuation Engine",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "Leaflet.js",
+        "PyTorch",
+        "PostGIS"
+      ],
+      "title": "GeoProp AI",
+      "track": "AI-Powered Digital Property Valuation Engine",
+      "why_it_could_win": "Leverages geospatial intelligence patterns similar to GeoNex-ATLAS, providing a tangible computer-vision and map-based dashboard that financial institution judges can instantly test with live coordinates."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1341712439"
+      ],
+      "pitch": "A fully automated mortgage underwriting platform featuring deterministic risk gates, automated document verification, and instant compliance checks for Home Loans and Loans Against Property.",
+      "problem_statement": "Digitally Automated Mortgage Underwriting Engine",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangGraph",
+        "Tesseract OCR",
+        "PostgreSQL"
+      ],
+      "title": "UnderwriteFlow",
+      "track": "Digitally Automated Mortgage Underwriting Engine",
+      "why_it_could_win": "Mirrors the multi-agent risk gate architectures seen in Should-AI-Buy, offering judges strict compliance guardrails and transparent automated credit decisioning logs rather than a black-box model."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph-intelligence platform connecting property attributes, historical transaction data, and micro-market trends to detect valuation anomalies and real estate fraud for Hero Housing Finance.",
+      "problem_statement": "AI-Powered Digital Property Valuation Engine",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Neo4j",
+        "LightGBM",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "ValuGraph India",
+      "track": "AI-Powered Digital Property Valuation Engine",
+      "why_it_could_win": "Applies graph intelligence and explainable machine learning techniques directly to real estate valuation, matching the technical depth of the Bito winning solution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1341712439"
+      ],
+      "pitch": "An intelligent document processing and fraud detection engine built specifically for parsing property deeds, bank statements, and KYC forms in Indian mortgage workflows.",
+      "problem_statement": "Digitally Automated Mortgage Underwriting Engine",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Pandas",
+        "SQLAlchemy"
+      ],
+      "title": "DocuVerify AI",
+      "track": "Digitally Automated Mortgage Underwriting Engine",
+      "why_it_could_win": "Addresses the tedious document verification bottleneck in housing finance with a working live demo that extracts unstructured text into validated structured schemas."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "An end-to-end risk scoring and loan-against-property underwriting sandbox featuring adversarial stress-testing of borrower cash flows and collateral liquidation values.",
+      "problem_statement": "Digitally Automated Mortgage Underwriting Engine",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Scikit-Learn",
+        "Docker"
+      ],
+      "title": "RiskGate LAP",
+      "track": "Digitally Automated Mortgage Underwriting Engine",
+      "why_it_could_win": "Incorporates adversarial thesis falsification and rigorous risk gates, giving financial underwriters confidence in the system's ability to handle edge-case defaults."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
