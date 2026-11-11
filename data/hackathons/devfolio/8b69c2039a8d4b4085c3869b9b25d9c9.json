@@ -6,7 +6,7 @@
   "ends_at": "2026-11-22T17:00:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 542,
+  "participants_count": 574,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -66,7 +66,7 @@
     "judges": [],
     "location": null,
     "name": "Lean In Hacks 8.0",
-    "participants_count": 542,
+    "participants_count": 574,
     "participants_details": [
       {
         "first_name": "Ayan",
@@ -91,7 +91,36 @@
       }
     ],
     "private": false,
-    "prizes": [],
+    "prizes": [
+      {
+        "desc": "Celebrating the most promising first-time innovators who turn fresh ideas into extraordinary possibilities!",
+        "is_sponsor_prize": false,
+        "name": "Best Beginner's Team",
+        "parent_prize_uuid": null,
+        "uuid": "9c54d8b168484bac9a8c22124a71ece3"
+      },
+      {
+        "desc": "Recognizing the most impactful idea driving meaningful change towards a greener, more sustainable future!",
+        "is_sponsor_prize": false,
+        "name": "Sustainability Champion",
+        "parent_prize_uuid": null,
+        "uuid": "f826b67ec67b410c977804d4e69362e5"
+      },
+      {
+        "desc": "Celebrating the most original and imaginative solution that pushes boundaries and brings fresh perspectives to real-world challenges!",
+        "is_sponsor_prize": false,
+        "name": "Innovation Visionary",
+        "parent_prize_uuid": null,
+        "uuid": "329b07dfe1cf40538080d405457730fb"
+      },
+      {
+        "desc": "Recognizing the most innovative application of emerging technologies to create solutions that redefine what's possible!",
+        "is_sponsor_prize": false,
+        "name": "FutureTech Pioneer",
+        "parent_prize_uuid": null,
+        "uuid": "95b5798d9b2348ed8f4665cd7857faa7"
+      }
+    ],
     "projects_submitted": 0,
     "rating": 0,
     "slug": "lean-in-hacks-8",
@@ -100,22 +129,8 @@
         "about": "",
         "height": null,
         "name": "Bronze",
-        "position": 1,
+        "position": 3,
         "sponsors": [
-          {
-            "about": null,
-            "company": {
-              "domain": "codingblocks.com",
-              "logo": null,
-              "name": "Coding Blocks",
-              "uuid": "bacb810f0a204ae5aa7ee1c539e8be2e",
-              "verified": false
-            },
-            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/dc76b5259f9e46e19ae20edbf1af5af1/302.png",
-            "name": "Coding Blocks",
-            "position": 1,
-            "uuid": "dc76b5259f9e46e19ae20edbf1af5af1"
-          },
           {
             "about": null,
             "company": {
@@ -127,11 +142,115 @@
             },
             "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/65778fcbbe754bfbbb31832d77d2171b/394.png",
             "name": "Give My Certificate",
-            "position": 2,
+            "position": 1,
             "uuid": "65778fcbbe754bfbbb31832d77d2171b"
           }
         ],
         "uuid": "a6b1ee6ab1714a70a06e34b07563aa8a",
+        "width": 200
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": "Gold",
+        "position": 1,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "https://systemdesignmaster.ai/",
+              "logo": null,
+              "name": "System Design Master",
+              "uuid": "1cbd1932aab046c6a1754267991668f9",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/34a1f03c563d4f77b68375133aaf010a/173.jpeg",
+            "name": "System Design Master",
+            "position": 2,
+            "uuid": "34a1f03c563d4f77b68375133aaf010a"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "devfolio.co",
+              "logo": null,
+              "name": "Devfolio",
+              "uuid": "89b098bdc57d448badcd5667ba31dcd7",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/bf00466fcd1147d19a05c46b29454e84/305.jpeg",
+            "name": "Devfolio",
+            "position": 1,
+            "uuid": "bf00466fcd1147d19a05c46b29454e84"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://adaptionlabs.ai/",
+              "logo": null,
+              "name": "Adaption Labs",
+              "uuid": "1c109087fa53464bb6ce39bdaff643cb",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/c441bc934e60477d91ee42ccfa189c42/878.jpeg",
+            "name": "Adaption",
+            "position": 3,
+            "uuid": "c441bc934e60477d91ee42ccfa189c42"
+          }
+        ],
+        "uuid": "bafbc441599549cea41a9dd0b97264d7",
+        "width": 200
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": "Silver",
+        "position": 2,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "https://osen.live/",
+              "logo": null,
+              "name": "OSEN",
+              "uuid": "e58899adc1c749f98685038653bbbf65",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/41b7e86c8073425ca3c01395e636f4f9/206.jpeg",
+            "name": "OSEN",
+            "position": 1,
+            "uuid": "41b7e86c8073425ca3c01395e636f4f9"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "elevenlabs.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/elevenlabs.io.png",
+              "name": "ElevenLabs",
+              "uuid": "a46baa7955334325926ef81ba2f77b42",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/05d988819a8d4f4a8e0feea2cd1b3293/899.png",
+            "name": "ElevenLabs",
+            "position": 2,
+            "uuid": "05d988819a8d4f4a8e0feea2cd1b3293"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://craftora.tech/",
+              "logo": null,
+              "name": "Craftora",
+              "uuid": "3cac6c6e57674111a61840304f06a6ff",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/8b69c2039a8d4b4085c3869b9b25d9c9/sponsors/91f6c2df7e554c989d85d1c5e8a85ef8/565.png",
+            "name": "Craftora",
+            "position": 3,
+            "uuid": "91f6c2df7e554c989d85d1c5e8a85ef8"
+          }
+        ],
+        "uuid": "d010041475cb43e9b71d25f4f0cc6dbe",
         "width": 200
       }
     ],
@@ -155,8 +274,13 @@
   "source": "devfolio",
   "source_id": "8b69c2039a8d4b4085c3869b9b25d9c9",
   "sponsors": [
-    "Coding Blocks",
-    "Give My Certificate"
+    "Give My Certificate",
+    "System Design Master",
+    "Devfolio",
+    "Adaption",
+    "OSEN",
+    "ElevenLabs",
+    "Craftora"
   ],
   "starts_at": "2026-11-19T18:30:00Z",
   "tagline": "Lean In IGDTUW's Flagship Hackathon",
@@ -164,6 +288,11 @@
   "team_min": 1,
   "themes": [],
   "title": "Lean In Hacks 8.0",
-  "tracks": [],
+  "tracks": [
+    "Best Beginner's Team",
+    "Sustainability Champion",
+    "Innovation Visionary",
+    "FutureTech Pioneer"
+  ],
   "url": "https://lean-in-hacks-8.devfolio.co/"
 }
