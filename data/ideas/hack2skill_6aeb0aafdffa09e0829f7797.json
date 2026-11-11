@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-11T09:44:20.664067+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6aeb0aafdffa09e0829f7797",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that directs enterprise queries to optimal specialized language models and data stores based on exemplar indexing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Superlinked",
+        "Qwen",
+        "Semantic-Router"
+      ],
+      "title": "Innodata Knowledge Router",
+      "track": "",
+      "why_it_could_win": "Directly applies the training-free self-improving semantic router pattern that won the Superlinked x Qwen Hackathon, satisfying enterprise judges looking for efficient cost-routing."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering lifecycle intelligence platform that automatically captures contextual knowledge when technical team members leave and surfaces it to new hires.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma",
+        "FastAPI",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "Offboarding Intelligence Hub",
+      "track": "",
+      "why_it_could_win": "Targets an acute operational pain point that enterprise and engineering judges experience directly, mirroring the winning strategy of the devflow project."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1189359296"
+      ],
+      "pitch": "A multi-turn testing harness designed to evaluate metacognitive depth and self-correction across various open-source language models.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "HuggingFace",
+        "Streamlit"
+      ],
+      "title": "Metacognitive Benchmarker for Enterprise LLMs",
+      "track": "",
+      "why_it_could_win": "Leans into the rigorous evaluation framework pattern seen in the Google DeepMind x Kaggle Grand Prize winner, appealing to technical judges who value quantitative benchmarking."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "A seamless RAG integration tool that performs auto-embedding and vector indexing directly inside relational database environments.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "Embeddings",
+        "HNSW",
+        "FastAPI"
+      ],
+      "title": "Database-Native Auto-Embedding RAG Toolkit",
+      "track": "",
+      "why_it_could_win": "Follows the database-native tooling win condition by offering a drop-in architectural efficiency that database and data infrastructure judges instantly appreciate."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "An AI-powered voice assistant utilizing local Llama models and vector search to retrieve precise enterprise document answers with low latency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Whisper",
+        "Llama3",
+        "ChromaDB"
+      ],
+      "title": "Voice-First Enterprise Data Retrieval Assistant",
+      "track": "",
+      "why_it_could_win": "Combines robust voice processing with accurate RAG retrieval, following the winning pattern of high-accuracy specialized voice bots in enterprise contexts."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

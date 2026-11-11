@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-11T09:44:44.587306+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1803912",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An AI-powered visual discovery engine for D2C e-commerce stores that lets shoppers find products using uploaded photos and returns style-matched alternatives with zero latency.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "CLIP",
+        "Pinecone",
+        "TailwindCSS"
+      ],
+      "title": "CartGenius VisionSearch",
+      "track": "Product Discovery and Personalised Shopping",
+      "why_it_could_win": "Aligns directly with the core theme of product discovery and uses a high-performance computer vision stack similar to CricketVision_AI, proving technical depth within a tight buildathon window."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated pricing intelligence platform for online marketplace sellers that analyzes competitor pricing graphs and demand signals to optimize real-time inventory pricing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Neo4j",
+        "LightGBM",
+        "React",
+        "Node.js"
+      ],
+      "title": "DynamicPricing Graph Engine",
+      "track": "Seller Tools, Pricing and Inventory",
+      "why_it_could_win": "Targeting seller tools directly addresses B2B pain points for e-commerce merchants, and leveraging graph intelligence mirrors the winning architecture of Bito."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated e-commerce fraud and fake review detection engine using multi-modal sentiment and behavioral graph tracking to secure online checkout flows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "HuggingFace Transformers",
+        "PostgreSQL"
+      ],
+      "title": "TrustVerify AI",
+      "track": "Fraud Detection and Customer Support",
+      "why_it_could_win": "Tackles fraud detection, a high-value priority for online stores and marketplaces, while showcasing robust data modeling techniques proven in winner circles."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An autonomous AI shopping assistant agent that builds hyper-personalized capsule wardrobes for individual shoppers based on past purchases, body types, and contextual browsing.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS",
+        "Prisma"
+      ],
+      "title": "AuraFit Personal Stylist",
+      "track": "Product Discovery and Personalised Shopping",
+      "why_it_could_win": "Appeals directly to the personalized shopping theme by integrating a seamless user-facing experience reminiscent of the winning E-Foodiee Nutrition Assistant."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An intelligent delivery and returns logistics coordinator that predicts regional fulfillment bottlenecks and optimizes last-mile routing for e-commerce sellers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Scikit-Learn",
+        "PostgreSQL"
+      ],
+      "title": "LogiRoute AI",
+      "track": "Logistics and Operations",
+      "why_it_could_win": "Focuses on operational logistics, a major real-world pain point for e-commerce, utilizing statistical forecasting calibrated for prediction intervals similar to AI Incident Forecasting."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

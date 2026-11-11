@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-11T09:44:36.773316+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "unusual-hardware"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1799091",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:356385160"
+      ],
+      "pitch": "An intelligent queuing and inventory reservation system for electric vehicle battery swapping stations to minimize wait times and balance grid draw.",
+      "problem_statement": "Battery swapping and operational efficiency",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "title": "SwapQueue AI: Predictive Battery Swapping Station Load Balancer",
+      "track": "",
+      "why_it_could_win": "Directly tackles Battery Smart's core operational pain point of station congestion and battery availability using algorithms, matching a proven pattern of energy efficiency software wins."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A lightweight telemetry analysis tool that reads EV battery management system (BMS) data streams to flag failing cells before thermal events occur.",
+      "problem_statement": "Technology-driven solutions and automation in electric mobility",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "Node.js",
+        "InfluxDB",
+        "MQTT"
+      ],
+      "title": "CellHealth: Edge-AI Battery Degradation & Thermal Runaway Early Warning",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering and safety-critical machine learning tailored explicitly to EV infrastructure, appealing strongly to battery industry judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928",
+        "github:208268505"
+      ],
+      "pitch": "A physical hardware prototype using microcontrollers and RFID readers to simulate automated, keyless battery swapping lockers for delivery fleets.",
+      "problem_statement": "Battery swapping and operational efficiency",
+      "stack": [
+        "C++",
+        "Arduino",
+        "ESP32",
+        "Python",
+        "MQTT"
+      ],
+      "title": "SmartSwap IoT: Automated RFID & Smart-Lock Station Kiosk Prototype",
+      "track": "",
+      "why_it_could_win": "Provides an unusual physical build that stands out in a room full of standard web apps, leveraging a hardware-demo pattern proven at previous hackathons."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:853494172"
+      ],
+      "pitch": "A routing dashboard optimized for electric two-wheelers that plans delivery sequences factoring in real-time battery state-of-charge and nearest swap station locations.",
+      "problem_statement": "Operational efficiency and technology-driven solutions",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "OSRM",
+        "PostGIS"
+      ],
+      "title": "FleetRoute EV: Multi-Stop Range & Swapping Optimizer for Delivery Fleets",
+      "track": "",
+      "why_it_could_win": "Solves an immediate commercial bottleneck for B2B logistics fleets operating on Battery Smart infrastructure with a polished, working live map demo."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "A C-based energy management program that coordinates solar input, local grid pricing, and charging schedules for battery swapping station hubs.",
+      "problem_statement": "Battery swapping and operational efficiency",
+      "stack": [
+        "C",
+        "Python",
+        "SQLite"
+      ],
+      "title": "GridBuffer: V2G Swapping Station Energy Management System",
+      "track": "",
+      "why_it_could_win": "Mirrors the exact technical architecture of proven energy management winning entries, showcasing rigorous algorithmic resource allocation."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
