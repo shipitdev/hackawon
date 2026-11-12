@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-12T10:05:46.060394+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1763060",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered patient acquisition and trust engine specifically built for international clinics and prosthodontic/orthopedic cross-border care.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "GlobalSmile Health Marketplace",
+      "track": "",
+      "why_it_could_win": "Adapts a proven 1st-place winning architecture (Global-Smile) directly to the medical tourism marketplace track, giving judges a rock-solid, production-ready frontend and AI pipeline."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade medical record organizer and multi-language symptom triage tool that standardizes patient files before sending them to international hospitals.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace",
+      "stack": [
+        "JavaScript",
+        "OpenCV",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "MediScan Cross-Border Triage & Records",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-language triage and medical data management patterns from a top-2 winner, directly solving the document organization and record-sharing friction for patients."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An AI-assisted telehealth and video simulation portal that helps patients prepare for virtual consultations with international specialists using rubric-scored interview guides.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace",
+      "stack": [
+        "TypeScript",
+        "Gemini",
+        "MediaPipe",
+        "WebRTC"
+      ],
+      "title": "Clinical-Sim Virtual Consult & Prep",
+      "track": "",
+      "why_it_could_win": "Applies award-winning camera and audio interaction tech to virtual consultations, ensuring clear diagnostic handoffs between patients and overseas doctors."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "A multi-agent AI system that evaluates international hospital treatment quotes and insurance estimates for markup bias, hidden fees, and treatment discrepancies.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace",
+      "stack": [
+        "Python",
+        "AI Agents",
+        "Gemini",
+        "FastAPI"
+      ],
+      "title": "ClaimBias Medical Quote Auditor",
+      "track": "",
+      "why_it_could_win": "Translates a 1st-place multi-agent auditing pattern into quote comparison, addressing the massive consumer trust and cost transparency problem in medical tourism."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1228328106"
+      ],
+      "pitch": "An AI-driven post-treatment recovery and aftercare coordinator that predicts complication risks and coordinates follow-ups between foreign providers and local doctors.",
+      "problem_statement": "EthAum Medical Tourism Hackathon: Build an AI-Powered International Healthcare Marketplace",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "XGBoost",
+        "SHAP"
+      ],
+      "title": "ReadmitGuard Recovery & Aftercare Planner",
+      "track": "",
+      "why_it_could_win": "Uses high-accuracy predictive modelling and clinical explainability (SHAP) to solve the critical aftercare gap that medical tourism platforms traditionally ignore."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

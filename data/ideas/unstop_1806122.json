@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-12T10:06:03.774590+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1806122",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185920891",
+        "github:220460323"
+      ],
+      "pitch": "An autonomous AI agent that automatically rebalances user liquidity across high-yield DeFi pools on Base using flash loans and decentralized vaults.",
+      "problem_statement": "DeFi yield fragmentation and high manual gas overhead for liquidity providers.",
+      "stack": [
+        "Solidity",
+        "TypeScript",
+        "Viem",
+        "Foundry"
+      ],
+      "title": "YieldOptimizer Agent",
+      "track": "Defi",
+      "why_it_could_win": "Combines autonomous agents with DeFi protocols, mirroring the architecture of past winning agents and leveraging the core DeFi track."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:541080273",
+        "github:107811247"
+      ],
+      "pitch": "A milestone-based public goods funding platform using smart contract streaming to release grant money only when verifiable GitHub milestones or deliverables are met.",
+      "problem_statement": "Lack of transparent, outcome-driven funding allocation for open-source public goods.",
+      "stack": [
+        "Solidity",
+        "React",
+        "Node.js",
+        "Ethers.js"
+      ],
+      "title": "ImpactStream",
+      "track": "Public goods",
+      "why_it_could_win": "Directly targets the Public Goods track with a practical business-oriented solution that appeals to DAO judges wanting accountability."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:980599492"
+      ],
+      "pitch": "A self-custodial credential and credit scoring protocol backed by decentralized identity standards for undercollateralized micro-loans.",
+      "problem_statement": "Underprivileged students and entrepreneurs lack traditional credit histories to access decentralized finance.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Solidity",
+        "TailwindCSS"
+      ],
+      "title": "CredPass Identity",
+      "track": "Open innovation",
+      "why_it_could_win": "Aligns with the Open Innovation track while incorporating winning credit and self-custodial patterns from recent major hackathons."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1185920891"
+      ],
+      "pitch": "An escrow-as-a-service platform tailored for decentralized freelance gig economies with multi-signature dispute resolution.",
+      "problem_statement": "Trust and payment security issues in peer-to-peer decentralized freelance and service arrangements.",
+      "stack": [
+        "Solidity",
+        "React",
+        "Express",
+        "PostgreSQL"
+      ],
+      "title": "Aura Escrow",
+      "track": "Open innovation",
+      "why_it_could_win": "Emphasizes the business-oriented entrepreneurial requirement of DeFy'27 by solving a real invoicing and payment friction point."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1131796276"
+      ],
+      "pitch": "A zero-knowledge proof verification pipeline that allows public goods donors to prove fund allocation compliance without exposing sensitive recipient metadata.",
+      "problem_statement": "Privacy leaks and bureaucratic auditing overhead in decentralized public goods grant distribution.",
+      "stack": [
+        "Circom",
+        "SnarkJS",
+        "Solidity",
+        "React"
+      ],
+      "title": "ZeroGrant ZK-Verifier",
+      "track": "Public goods",
+      "why_it_could_win": "Introduces hard engineering through ZK circuits which strongly stands out in the Public goods track."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

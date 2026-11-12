@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-12T10:05:59.040172+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1805946",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A multilingual local-first Android app for rural health triage and preventative care awareness, optimized for low-bandwidth devices.",
+      "problem_statement": "Design, develop, and present innovative Android applications that solve real-world problems.",
+      "stack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Room Database",
+        "WorkManager"
+      ],
+      "title": "ArogyaVani Android",
+      "track": "",
+      "why_it_could_win": "Focuses on high-impact social utility with a multilingual interface, echoing patterns of successful healthcare and public service hacks."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "On-device garbage classification app using lightweight TFLite models to assist local waste segregation directly from smartphone cameras.",
+      "problem_statement": "Design, develop, and present innovative Android applications that solve real-world problems.",
+      "stack": [
+        "Kotlin",
+        "CameraX",
+        "TensorFlow Lite",
+        "Material Design 3"
+      ],
+      "title": "EcoSort Mobile",
+      "track": "",
+      "why_it_could_win": "Leverages real-time on-device machine learning with TFLite, showing strong technical execution and practical utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A lightweight mobile data lineage and incident response tracker allowing on-call engineers to inspect pipeline failures from Android.",
+      "problem_statement": "Design, develop, and present innovative Android applications that solve real-world problems.",
+      "stack": [
+        "Kotlin",
+        "Retrofit",
+        "Jetpack Navigation",
+        "Coroutines"
+      ],
+      "title": "DataLine Mobile",
+      "track": "",
+      "why_it_could_win": "Addresses a specialized developer-tooling pain point with a clean, functional mobile interface, demonstrating hard systems integration."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1350419063"
+      ],
+      "pitch": "A personal paper-trading app featuring strict deterministic risk gates and client-side alert notifications for volatile market simulations.",
+      "problem_statement": "Design, develop, and present innovative Android applications that solve real-world problems.",
+      "stack": [
+        "Kotlin",
+        "MPAndroidChart",
+        "Firebase Cloud Messaging",
+        "Hilt"
+      ],
+      "title": "TradeGuard Android",
+      "track": "",
+      "why_it_could_win": "Features deterministic safety constraints and clear financial risk management logic, appealing to judges looking for robust execution."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An offline-first Android app that indexes local device videos using on-device embedding searches for rapid accessibility and retrieval.",
+      "problem_statement": "Design, develop, and present innovative Android applications that solve real-world problems.",
+      "stack": [
+        "Kotlin",
+        "Media3",
+        "Room",
+        "ONNX Runtime Mobile"
+      ],
+      "title": "VideoInsite AI",
+      "track": "",
+      "why_it_could_win": "Solves complex unstructured media retrieval entirely on mobile, standing out through difficult technical execution."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
