@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-13T09:52:49.134770+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1806984",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561",
+        "github:119544861"
+      ],
+      "pitch": "An autonomous agentic workflow that extracts non-standard enterprise procurement rules from unstructured contracts and instantly configures accurate quotes.",
+      "problem_statement": "Enterprise SaaS: Automating complex configure-price-quote workflows without manual sales engineering overhead.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "fastapi",
+        "gemini"
+      ],
+      "title": "AgenticCPQ - Automated Complex Quote Generation System",
+      "track": "AI & Agentic AI",
+      "why_it_could_win": "Targets enterprise workflow automation directly, showcasing complex multi-step agent execution that appeals heavily to judges looking for enterprise productivity gains."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:147707253"
+      ],
+      "pitch": "An AI-powered recruitment agent that validates applicant GitHub commits and past project architectures to generate objective skill competency scores.",
+      "problem_statement": "HR Tech & Recruitment: Eliminating bias and inefficiencies in initial technical candidate screening.",
+      "stack": [
+        "Python",
+        "Next.js",
+        "gemini",
+        "fastapi"
+      ],
+      "title": "ResumeSifter AI - Automated Technical Hiring & Skill Verification Agent",
+      "track": "HR Tech & Recruitment",
+      "why_it_could_win": "Solves a universal HR pain point with concrete code-level analysis rather than simple keyword matching, satisfying enterprise requirements for hiring accuracy."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A real-time DevOps dashboard that ingests cloud server logs, clusters error signatures, and triggers autonomous remediation scripts.",
+      "problem_statement": "Cloud & DevOps: Reducing mean-time-to-resolution (MTTR) for complex distributed cloud infrastructure failures.",
+      "stack": [
+        "TypeScript",
+        "fastapi",
+        "gemini",
+        "nginx"
+      ],
+      "title": "LogSentry - AI-Driven Cloud Infrastructure Anomaly Detector",
+      "track": "Cloud & DevOps",
+      "why_it_could_win": "Directly builds on proven log-analysis architectures with real-time dashboards that judges can test instantly during the live demo."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A multimodal platform that indexes internal company video recordings, PDFs, and slide decks into a unified, semantically searchable knowledge graph.",
+      "problem_statement": "Data & Analytics: Turning siloed, unstructured enterprise multimedia into accessible, actionable insights.",
+      "stack": [
+        "Python",
+        "HTML",
+        "gemini",
+        "fastapi"
+      ],
+      "title": "DataPulse - Unstructured Enterprise Data Search & Intelligence Hub",
+      "track": "Data & Analytics",
+      "why_it_could_win": "Combines multimodal data processing with a clean UI, mirroring award-winning data intelligence applications that excel in usability and real-world value."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-trust audit tool that verifies software bill of materials (SBOM) authenticity and flags unauthorized dependency tampering using cryptographic ledgers.",
+      "problem_statement": "Cybersecurity & Digital Trust: Securing modern software supply chains against malicious dependency injection.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "fastapi"
+      ],
+      "title": "TrustVerify - Cryptographic Supply Chain Integrity Auditor",
+      "track": "Cybersecurity & Digital Trust",
+      "why_it_could_win": "Addresses critical enterprise digital trust and security constraints required by modern compliance frameworks, offering genuine hard engineering."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

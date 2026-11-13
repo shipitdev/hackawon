@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-13T09:53:28.956625+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1807297",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "An intelligent practice portal built specifically for Java competitive coding sprints with automated test-case generators and algorithmic feedback.",
+      "problem_statement": "Round 2: Java Coding Sprint - 2-3 Algorithmic Coding Problems (Easy to Medium) in Java.",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Docker",
+        "React"
+      ],
+      "title": "CodeByte Automated Evaluator and Java Sandbox",
+      "track": "",
+      "why_it_could_win": "Directly targets the core format of the second round, providing a utility tool that student organisers and participants can use to test Java snippets and algorithmic efficiency."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A step-by-step execution tracer and memory visualizer for data structures and foundational logic problems designed for preliminary assessment prep.",
+      "problem_statement": "Round 1: Preliminary Assessment Window covering Programming Fundamentals, Data Structures, and Logical Reasoning.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Flow",
+        "Tailwind CSS"
+      ],
+      "title": "AlgoTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Solves the exact educational bottlenecks tested in Round 1, helping students grasp algorithmic logic visually rather than just memorizing code syntax."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "An AI-powered mock assessment generator that creates custom competitive programming questions tailored to Java syntax and standard data structures.",
+      "problem_statement": "Round 2: Java Coding Sprint (Qualified Participants Only) focusing on algorithmic problem-solving under tight constraints.",
+      "stack": [
+        "Java",
+        "LangChain4j",
+        "PostgreSQL",
+        "Next.js"
+      ],
+      "title": "SprintTest AI",
+      "track": "",
+      "why_it_could_win": "Employs structured LLM orchestration to generate valid test inputs and constraints, mimicking the exact format of competitive coding platform rounds."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A code review and complexity analysis extension that flags common anti-patterns in C++, Java, and Python during timed programming assessments.",
+      "problem_statement": "Round 1: Preliminary Assessment Window focusing on Programming Fundamentals, Data Structures, and Logical Reasoning.",
+      "stack": [
+        "Python",
+        "AST module",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "title": "LogicJudge Analyzer",
+      "track": "",
+      "why_it_could_win": "Addresses time-management and logic optimization challenges faced by participants during high-pressure 30-minute screening windows."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A streamlined practice hub and live status tracker for multi-round coding competitions with integrated countdowns and submission analytics.",
+      "problem_statement": "Multi-round competitive coding battle hosted on Unstop testing foundational logic and algorithm design.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "title": "CodeByte Arena Dashboard",
+      "track": "",
+      "why_it_could_win": "Creates an immediate utility tool for participants navigating multi-stage online competitions, reducing friction between preliminary assessments and coding sprints."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

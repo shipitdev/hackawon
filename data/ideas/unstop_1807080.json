@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-13T09:53:02.601038+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1807080",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "An automated pipeline that detects and mitigates socioeconomic bias in tabular predictive models used for automated loan approvals or hiring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "Scikit-learn",
+        "SHAP"
+      ],
+      "title": "FairLens ML: Bias Detection and Mitigation Engine",
+      "track": "AI & ML Problem-Solving",
+      "why_it_could_win": "Demonstrates rigorous applied research and fairness evaluation, matching the technical depth expected by the Applied Research & AI/ML Club organizers."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered computer vision and satellite imagery pipeline that detects unauthorized land use changes and environmental violations around industrial zones.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "GeoPandas",
+        "Streamlit"
+      ],
+      "title": "GeoNex-Sat: Satellite Monitoring for Industrial Land Compliance",
+      "track": "AI & ML Problem-Solving",
+      "why_it_could_win": "Solves a real-world environmental monitoring challenge with concrete visual outputs, making the demo extremely compelling for judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous multi-agent diagnostic system powered by isolation forests and LLM reasoning to detect anomalies and trigger closed-loop remediation in industrial IoT telemetry.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "Qdrant"
+      ],
+      "title": "IoT-Smart-Ops: Multi-Agent Edge Diagnostic Platform",
+      "track": "AI & ML Problem-Solving",
+      "why_it_could_win": "Combines fast traditional machine learning for anomaly detection with modern agentic workflows, showcasing advanced system architecture."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1228328106",
+        "github:680478376"
+      ],
+      "pitch": "A machine learning solution that predicts workforce churn risks from employee operational data and generates actionable retention strategies using SHAP explanations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "XGBoost",
+        "SHAP",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "Human Capital Attrition Predictor and Retention Advisor",
+      "track": "AI & ML Problem-Solving",
+      "why_it_could_win": "Targets a universal enterprise pain point with high economic impact and clear, interpretable model outputs that non-technical judges can easily grasp."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1079921550"
+      ],
+      "pitch": "A predictive maintenance backend and digital twin platform that monitors electric vehicle battery degradation rates and forecasts failure windows.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "Python",
+        "Chart.js"
+      ],
+      "title": "VoltTwin: AI Battery Health Intelligence and Digital Twin",
+      "track": "AI & ML Problem-Solving",
+      "why_it_could_win": "Focuses on clean-tech infrastructure, providing real-time telemetry simulations and robust API design that appeals to engineering-focused evaluators."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
