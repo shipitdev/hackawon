@@ -6,7 +6,7 @@
   "ends_at": "2026-12-05T12:30:00Z",
   "mode": "in_person",
   "organiser": null,
-  "participants_count": 140,
+  "participants_count": 171,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -67,7 +67,7 @@
     "judges": [],
     "location": "VIT Chennai, Kelambakkam - Vandalur Road, Chennai, Tamil Nadu, India",
     "name": "Clash of Commits",
-    "participants_count": 140,
+    "participants_count": 171,
     "participants_details": [
       {
         "first_name": "Aman",
@@ -90,7 +90,122 @@
     "projects_submitted": 0,
     "rating": 0,
     "slug": "clash-of-commits",
-    "sponsor_tiers": [],
+    "sponsor_tiers": [
+      {
+        "about": "",
+        "height": null,
+        "name": null,
+        "position": 1,
+        "sponsors": [
+          {
+            "about": "Institutional Partner",
+            "company": {
+              "domain": "vit.ac.in",
+              "logo": null,
+              "name": "Vellore Institute of Technology",
+              "uuid": "1d168f85181a4f02bea7d3122c585e11",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/ad9b934ba1f54c9e9fc871e5f5f57022/469.png",
+            "name": "Vellore Institute of Technology",
+            "position": 1,
+            "uuid": "ad9b934ba1f54c9e9fc871e5f5f57022"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "devfolio.co",
+              "logo": null,
+              "name": "Devfolio",
+              "uuid": "89b098bdc57d448badcd5667ba31dcd7",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/483bfc3e6f854a7f884e7407918c73df/694.png",
+            "name": "Devfolio",
+            "position": 2,
+            "uuid": "483bfc3e6f854a7f884e7407918c73df"
+          }
+        ],
+        "uuid": "842242b0c0f743bb923d0d228cd96ef4",
+        "width": 300
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": null,
+        "position": 3,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "codecrafters.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/codecrafters.io.png",
+              "name": "CodeCrafters",
+              "uuid": "6c6fbb0ae7b34e8885e942e914e517c1",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/59bab548aeac4d92aa34dfacd1fe75cd/501.png",
+            "name": "CodeCrafters",
+            "position": 2,
+            "uuid": "59bab548aeac4d92aa34dfacd1fe75cd"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "https://gemini.google.com/",
+              "logo": null,
+              "name": "Google Gemini",
+              "uuid": "f4166ab75b3441f893024591565d156f",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/db64d304d72a4e1bb87bdb44ba6b3df5/637.jpeg",
+            "name": "Google Gemini",
+            "position": 1,
+            "uuid": "db64d304d72a4e1bb87bdb44ba6b3df5"
+          },
+          {
+            "about": null,
+            "company": {
+              "domain": "adaption-it.nl",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/adaption-it.nl.png",
+              "name": "Adaption",
+              "uuid": "4be9580089f94b67a23ee756aec1d051",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/bb632ff190414c9290168212e3f358a5/955.png",
+            "name": "Adaption",
+            "position": 3,
+            "uuid": "bb632ff190414c9290168212e3f358a5"
+          }
+        ],
+        "uuid": "47468d1b50fb4cc99d266ec868665ee4",
+        "width": 200
+      },
+      {
+        "about": "",
+        "height": null,
+        "name": null,
+        "position": 2,
+        "sponsors": [
+          {
+            "about": null,
+            "company": {
+              "domain": "elevenlabs.io",
+              "logo": "https://api.devfolio.co/api/miscellaneous/logo/elevenlabs.io.png",
+              "name": "ElevenLabs",
+              "uuid": "a46baa7955334325926ef81ba2f77b42",
+              "verified": false
+            },
+            "logo": "https://assets.devfolio.co/hackathons/2689d878c21e4cf1a61a50f5104587f0/sponsors/e3514027392a405fb75c2b7770af3ee9/105.png",
+            "name": "ElevenLabs",
+            "position": 1,
+            "uuid": "e3514027392a405fb75c2b7770af3ee9"
+          }
+        ],
+        "uuid": "a541688862d545a48e266cc9106a4b90",
+        "width": 200
+      }
+    ],
     "starts_at": "2026-12-04T04:30:00+00:00",
     "state": "Tamil Nadu",
     "status": "publish",
@@ -110,7 +225,14 @@
   "reg_opens_at": null,
   "source": "devfolio",
   "source_id": "2689d878c21e4cf1a61a50f5104587f0",
-  "sponsors": [],
+  "sponsors": [
+    "Vellore Institute of Technology",
+    "Devfolio",
+    "CodeCrafters",
+    "Google Gemini",
+    "Adaption",
+    "ElevenLabs"
+  ],
   "starts_at": "2026-12-04T04:30:00Z",
   "tagline": "Every commit is a battle!",
   "team_max": 5,
