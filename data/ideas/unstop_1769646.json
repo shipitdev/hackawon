@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-14T09:16:24.651765+00:00",
+  "grounding": {
+    "domains": [
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1769646",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "A Power BI and Python-powered carbon footprint optimization dashboard tailored for global supply chain logistics.",
+      "problem_statement": "DataNova 2026 – Global Data-thon: Turning Data Into Decisions / Building Solutions That Matter (Supply Chain & Logistics Data)",
+      "stack": [
+        "Python",
+        "Power BI",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "LogiCarbon AI",
+      "track": "",
+      "why_it_could_win": "Combines concrete business impact (emissions reduction) with an executive-friendly interactive Power BI dashboard, matching successful data-visualization winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data pipeline incident response agent that detects schema drift and bad entries, performs a verified repair, and pushes a real PR.",
+      "problem_statement": "DataNova 2026 – Global Data-thon: Turning Data Into Decisions / Building Solutions That Matter (Data Engineering & Operations)",
+      "stack": [
+        "Python",
+        "Claude API",
+        "DataHub",
+        "FastAPI"
+      ],
+      "title": "AgenticData Incident Response",
+      "track": "",
+      "why_it_could_win": "Leverages autonomous AI agents solving a heavy enterprise data-ops problem, echoing grand-prize winning patterns for automated data systems."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "A solo-built AI platform that detects, explains, and automatically mitigates bias in tabular machine learning models used for scoring.",
+      "problem_statement": "DataNova 2026 – Global Data-thon: Turning Data Into Decisions / Building Solutions That Matter (Responsible AI & Fairness)",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-learn",
+        "React"
+      ],
+      "title": "FairLens ML Auditor",
+      "track": "",
+      "why_it_could_win": "Directly tackles ethical and regulatory concerns in AI decision-making with a clean, demonstrable bias-mitigation interface."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent IoT diagnostic platform powered by Gemini and LangGraph that autonomously spots time-series anomalies and triggers self-healing routines.",
+      "problem_statement": "DataNova 2026 – Global Data-thon: Turning Data Into Decisions / Building Solutions That Matter (IoT & Smart Infrastructure Data)",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "LangGraph",
+        "TimescaleDB",
+        "Qdrant"
+      ],
+      "title": "IoT-Ops Autonomous Diagnostician",
+      "track": "",
+      "why_it_could_win": "Uses advanced multi-agent workflows backed by real-time time-series telemetry processing, highly attractive to technical judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video intelligence and semantic search platform that transforms unstructured corporate meeting or training videos into queryable data.",
+      "problem_statement": "DataNova 2026 – Global Data-thon: Turning Data Into Decisions / Building Solutions That Matter (Unstructured Data Analytics)",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "Whisper",
+        "Vector DB"
+      ],
+      "title": "VideoIntelliSearch",
+      "track": "",
+      "why_it_could_win": "Delivers an impressive multimedia UI with immediate practical enterprise utility, mimicking recent first-prize hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

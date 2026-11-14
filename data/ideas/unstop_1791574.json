@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-14T09:16:43.961115+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1791574",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python and web-based utility designed to instantly decode, reverse-engineer, and generate automated investigation reports for digital forensics and cryptography challenges.",
+      "problem_statement": "Participants will solve a series of security-related challenges involving areas such as cryptography, web security, digital forensics, reverse engineering, and other cybersecurity concepts.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "CyberChef API"
+      ],
+      "title": "CryptoScope CTF Automated Writeup & Forensics Engine",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of hard engineering and tool creation seen in successful security hackathon projects, directly accelerating technical analysis during the competition."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A multi-agent platform for real-time web vulnerability simulation and automated penetration testing flag discovery.",
+      "problem_statement": "Participants will solve a series of security-related challenges involving areas such as cryptography, web security, digital forensics, reverse engineering, and other cybersecurity concepts.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Docker",
+        "Node.js"
+      ],
+      "title": "NetSimulate: Multi-Agent Network Attack & Web CTF Sandbox",
+      "track": "",
+      "why_it_could_win": "Directly targets complex web security and threat simulation mechanics using a proven multi-agent architecture approach."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1188682384",
+        "github:614169755"
+      ],
+      "pitch": "A cryptographic zero-knowledge proof verification platform enabling players to prove they found a challenge flag without revealing the raw flag string to public scoreboards.",
+      "problem_statement": "Each challenge contains hidden flags that participants must discover and submit to earn points.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "Solidity"
+      ],
+      "title": "ZeroFlag ZK-Based Flag Verification Portal",
+      "track": "",
+      "why_it_could_win": "Utilizes advanced zero-knowledge proof frameworks that appeal strongly to technical security judges looking for rigorous protocol design."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth AI helper built with layered prompt-injection hardening and local binary analysis tools to assist in reverse engineering compiled binaries.",
+      "problem_statement": "Participants will solve a series of security-related challenges involving areas such as cryptography, web security, digital forensics, reverse engineering, and other cybersecurity concepts.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Ghidra API",
+        "Vercel AI SDK"
+      ],
+      "title": "GuardAgent: Hardened AI Assistant for Reverse Engineering",
+      "track": "",
+      "why_it_could_win": "Applies a proven secure agent architecture designed specifically to handle untrusted binary analysis inputs safely."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A graph intelligence platform that ingests forensic network logs and trace data to map out attacker infrastructure and expose hidden relationships.",
+      "problem_statement": "Participants will solve a series of security-related challenges involving areas such as cryptography, web security, digital forensics, reverse engineering, and other cybersecurity concepts.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "NetworkX",
+        "React"
+      ],
+      "title": "AML-CTF Transaction Flow Analyzer",
+      "track": "",
+      "why_it_could_win": "Combines graph intelligence with forensic analytics to give judges a visually impressive and mathematically rigorous investigative tool."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

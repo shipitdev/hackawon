@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-14T09:17:02.510527+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1809486",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1226951926"
+      ],
+      "pitch": "An autonomous multi-agent engineering platform that captures developer knowledge before team turnover and automatically resolves runtime errors by generating pull requests.",
+      "problem_statement": "Autonomous AI agents that plan, reason, use tools, and take action to solve real-world problems.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "Docker"
+      ],
+      "title": "AgenticCodeLifecycle",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to developers and technical judges directly, following the proven success pattern of devflow and bobthebuilder."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1255987686"
+      ],
+      "pitch": "An autonomous IT service desk agent that ingests internal documentation, triages incoming support tickets, and executes automated fixes without human intervention.",
+      "problem_statement": "Autonomous AI agents that plan, reason, use tools, and take action to solve real-world problems.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "PostgreSQL",
+        "Slack API",
+        "OpenAI API"
+      ],
+      "title": "AgenticITSMDesk",
+      "track": "",
+      "why_it_could_win": "Demonstrates immediate practical utility for enterprise operations, aligning with the winning approach of copilot-studio-itsm-agent."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure, federated Model Context Protocol (MCP) server network that routes specialized medical data queries to compliant autonomous diagnostic agents.",
+      "problem_statement": "Autonomous AI agents that plan, reason, use tools, and take action to solve real-world problems.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "MCP SDK",
+        "Kubernetes",
+        "Redis"
+      ],
+      "title": "ClinicalMCPRouter",
+      "track": "",
+      "why_it_could_win": "Features genuinely hard engineering around protocol federation and strict data boundaries, echoing the architecture of mcp-clinical-platform."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1207207353"
+      ],
+      "pitch": "An autonomous database-native auto-embedding and RAG agent that translates natural language into optimized SQL queries and self-heals schema mismatches.",
+      "problem_statement": "Autonomous AI agents that plan, reason, use tools, and take action to solve real-world problems.",
+      "stack": [
+        "Python",
+        "MariaDB",
+        "HNSWLib",
+        "FastAPI",
+        "LlamaIndex"
+      ],
+      "title": "TOONDatabaseAgent",
+      "track": "",
+      "why_it_could_win": "Delivers a robust live demo with tangible performance benchmarks, mirroring the strategy of seamless-rag."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1138792186"
+      ],
+      "pitch": "A customized agentic CLI tool featuring specialized hooks, automated testing loops, and local MCP servers to accelerate agent-driven software development.",
+      "problem_statement": "Autonomous AI agents that plan, reason, use tools, and take action to solve real-world problems.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Anthropic API",
+        "Commander.js"
+      ],
+      "title": "ClaudeDevAssistant",
+      "track": "",
+      "why_it_could_win": "Solved a meta-problem for developers building software with agents, matching the successful formula of everything-claude-code."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

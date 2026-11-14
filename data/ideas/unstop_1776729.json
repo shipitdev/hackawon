@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-14T09:16:29.566045+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1776729",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A supply chain provenance platform using verifiable zero-knowledge proofs and hardware telemetry to track sensitive shipments without leaking proprietary supplier metadata.",
+      "problem_statement": "Supply Chain, Logistics & Product Authenticity Security",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Solidity",
+        "Noir-lang"
+      ],
+      "title": "SecureTrail",
+      "track": "Supply Chain, Logistics & Product Authenticity Security",
+      "why_it_could_win": "Directly hits the mandated security integration requirement by applying cryptographic supply-chain security, appealing heavily to the evaluation criteria of government and institutional judges like MeitY and ISEA."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An offline-first emergency disaster response communication node utilizing ESP32 LoRa and BLE mesh networks with automated end-to-end encrypted packet routing.",
+      "problem_statement": "Environment, Disaster Management & Disaster Response Security",
+      "stack": [
+        "C++",
+        "ESP32",
+        "React Native",
+        "Node.js"
+      ],
+      "title": "ResilientMesh Guard",
+      "track": "Environment, Disaster Management & Disaster Response Security",
+      "why_it_could_win": "Leverages proven hardware-software mesh patterns that guarantee a working live demo during judging even if internet connectivity drops, scoring high on field-deployable utility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An explainable anti-money laundering risk detection and investigation dashboard combining transaction graph intelligence with localized gradient-boosted models.",
+      "problem_statement": "FinTech, Fraud & Financial Security",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "LightGBM"
+      ],
+      "title": "FinGraph AML",
+      "track": "FinTech, Fraud & Financial Security",
+      "why_it_could_win": "Directly aligns with the enterprise focus of sponsors like Temenos by solving financial fraud detection with transparent, explainable machine learning outputs tailored for institutional compliance."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A zero-knowledge patient data privacy gateway allowing medical researchers to query sensitive health databases securely without exposing patient personally identifiable information.",
+      "problem_statement": "Health, Privacy & MedTech Security",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "MediVault ZK",
+      "track": "Health, Privacy & MedTech Security",
+      "why_it_could_win": "Tackles strict regulatory privacy compliance head-on using modern cryptographic proofs, impressing judges who prioritize data sovereignty and patient confidentiality."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1284625256",
+        "github:1339682542"
+      ],
+      "pitch": "An edge AI anomaly detection system for critical energy substation infrastructure that flags SCADA network intrusions and physical safety violations locally.",
+      "problem_statement": "Critical Infrastructure, Energy & Grid Security",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "PyTorch",
+        "MQTT"
+      ],
+      "title": "GridShield AI",
+      "track": "Critical Infrastructure, Energy & Grid Security",
+      "why_it_could_win": "Focuses on national critical infrastructure protection—a primary objective of the Ministry of Electronics and Information Technology (MeitY) and ISEA security initiatives."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
