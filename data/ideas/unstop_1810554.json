@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-15T09:47:40.416013+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1810554",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879",
+        "github:938030912"
+      ],
+      "pitch": "An AI-powered codebase visualization and architecture mapping tool designed specifically for rapid comprehension of unfamiliar repositories during live engineering assessments.",
+      "problem_statement": "Round 2: AI Code Comprehension Challenge (In-person) - Shortlisted teams will be provided with an unfamiliar codebase. Teams must analyse the codebase, understand its architecture and execution flow, and identify and fix bugs.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "React",
+        "LangGraph"
+      ],
+      "title": "LegacyLens",
+      "track": "",
+      "why_it_could_win": "Directly targets the exact requirements of Round 2 by giving judges an interactive GUI to visualize execution flow and pinpoint architectural bottlenecks in an unfamiliar codebase."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An agentic debugging companion that ingests runtime stack traces, performs root-cause analysis across multiple files in an unfamiliar repo, and generates structured pull requests with unit tests.",
+      "problem_statement": "Round 2: AI Code Comprehension Challenge (In-person) - Shortlisted teams will be provided with an unfamiliar codebase. Teams must analyse the codebase, understand its architecture and execution flow, and identify and fix bugs.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AI Agents",
+        "AST Parsing"
+      ],
+      "title": "AutoFixer Agent",
+      "track": "",
+      "why_it_could_win": "Mirrors a proven hackathon winner by automating the exact multi-file bug fixing and test generation task required in the competition's core evaluation criteria."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1169394966"
+      ],
+      "pitch": "An interactive prompt engineering sandbox and evaluation suite designed to test, benchmark, and optimize prompts against edge-case code generation scenarios.",
+      "problem_statement": "Round 1: Build with AI - Interested students will have the opportunity to attend an offline workshop covering Prompt Engineering, Git & GitHub, and Agentic AI tools, followed by a quiz.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "PromptGuard Studio",
+      "track": "",
+      "why_it_could_win": "Aligns with the core workshop curriculum of Mantrastra (Prompt Engineering and Agentic AI), offering a tangible tool that helps developers systematically refine and evaluate their prompts."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1171690684"
+      ],
+      "pitch": "An automated code diff comprehension tool that explains architectural changes, detects unintended side effects, and summarizes complex pull requests for rapid code reviews.",
+      "problem_statement": "Round 2: AI Code Comprehension Challenge (In-person) - Shortlisted teams will be provided with an unfamiliar codebase. Teams must analyse the codebase, understand its architecture and execution flow, and identify and fix bugs.",
+      "stack": [
+        "Python",
+        "GitPython",
+        "Streamlit",
+        "LangChain"
+      ],
+      "title": "RepoDiff Insight",
+      "track": "",
+      "why_it_could_win": "Solves the pain point of understanding unfamiliar code quickly by turning raw git diffs and unfamiliar modules into structured, human-readable summaries and dependency maps."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:938030912",
+        "github:1138792186"
+      ],
+      "pitch": "An integrated VS Code extension that provides intelligent auto-completion, real-time bug explanation, and GUI-driven fix implementation for unfamiliar software engineering tasks.",
+      "problem_statement": "Round 2: AI Code Comprehension Challenge (In-person) - Shortlisted teams will be provided with an unfamiliar codebase. Teams must analyse the codebase, understand its architecture and execution flow, and identify and fix bugs.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Webview UI",
+        "FastAPI"
+      ],
+      "title": "AgenticCode Pilot",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of an AI-based IDE extension with a fully functional GUI that judges can interact with live during their evaluation of code comprehension and debugging speed."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-15T09:48:11.278909+00:00",
+  "grounding": {
+    "domains": [
+      "data",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "impact",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1811085",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "Real-time logistics route optimization using Condense streaming to minimize both delivery time and carbon emissions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Condense",
+        "PostGIS",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CondenseRoute: Carbon-Aware Fleet Routing",
+      "track": "Logistics and last-mile optimization",
+      "why_it_could_win": "Directly tackles logistics optimization while mirroring the carbon footprint optimization strategies that won prior competitions like the IBM Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1079921550",
+        "github:1079913400"
+      ],
+      "pitch": "An edge-to-cloud streaming digital twin that monitors EV cell temperature, voltage anomalies, and predicts remaining battery life using Condense.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Condense",
+        "FastAPI",
+        "React",
+        "Chart.js"
+      ],
+      "title": "TwinCell: Real-Time EV Battery Digital Twin",
+      "track": "EV battery and charging intelligence",
+      "why_it_could_win": "Builds directly on proven 1st-place battery intelligence backend architectures while utilizing real-time streaming infrastructure."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1155558847",
+        "github:863792791"
+      ],
+      "pitch": "A real-time geofencing engine processing live vehicle coordinate streams via Condense to trigger automated logistics dwell-time and perimeter alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Condense",
+        "Turf.js",
+        "Leaflet",
+        "Express"
+      ],
+      "title": "GeoFencePulse: Instant Depot Perimeter Alerts",
+      "track": "Geofencing and real-time alerts",
+      "why_it_could_win": "Leverages high-frequency geospatial processing patterns similar to winning maritime and industrial monitoring systems."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:863792791"
+      ],
+      "pitch": "A streaming analytics pipeline that ingests raw telematics to flag harsh braking, rapid acceleration, and driver fatigue indicators instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Condense",
+        "Pandas",
+        "WebSockets",
+        "React"
+      ],
+      "title": "SafeSteer: Real-Time Driver Harsh-Event Detector",
+      "track": "Driver behaviour and safety",
+      "why_it_could_win": "Addresses driver safety with immediate, actionable anomaly detection that appeals directly to Bosch's focus on mobility platforms."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:569668622"
+      ],
+      "pitch": "Early-warning maintenance dashboard utilizing streaming engine sensor metrics through Condense to predict component failures before they happen.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Node.js",
+        "Condense",
+        "TimescaleDB",
+        "React",
+        "D3.js"
+      ],
+      "title": "FleetPulse: Predictive Maintenance Telemetry Stream",
+      "track": "Vehicle health and predictive maintenance",
+      "why_it_could_win": "Solves a high-value industrial problem for fleet operators with clear economic impact and robust real-time data flow."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
