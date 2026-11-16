@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-16T10:02:18.214973+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1811240",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1350419063",
+        "github:1349346531"
+      ],
+      "pitch": "An autonomous multi-agent options risk management council that stress-tests retail F&O positions against extreme market volatility and enforces deterministic stop-loss gates before execution.",
+      "problem_statement": "SEBI found that 87.7% of individual equity-derivatives traders made net losses, necessitating advanced risk controls beyond simple trailing stops in Delta Exchange's AlgoHub.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Delta Exchange API",
+        "React"
+      ],
+      "title": "DeltaShield Options Risk Council",
+      "track": "",
+      "why_it_could_win": "Leverages the multi-agent thesis-falsification pattern from winning autonomous trading projects, appealing directly to judges looking to protect retail traders from catastrophic F&O drawdowns."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1183964401",
+        "github:995312246"
+      ],
+      "pitch": "A natural-language options strategy constructor and backtester specifically tailored for multi-leg derivative spreads, translating conversational intents into executable Algo Builder schemas.",
+      "problem_statement": "F&O traders struggle with complex multi-leg strategy construction and lack intuitive AI interfaces within current Algo Marketplace and Algo Builder tools.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "Python",
+        "Delta Exchange Trade Data"
+      ],
+      "title": "OptionsAlpha Copilot",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on an active, working live demo that transforms complex options mathematics into simple natural language execution, fulfilling the core challenge brief of building beyond current Delta Exchange features."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1220411239",
+        "github:1349346531"
+      ],
+      "pitch": "An algorithmic execution bot that detects and automatically capitalizes on implied versus realized volatility discrepancies across Delta Exchange's options order books.",
+      "problem_statement": "Retail derivatives traders fail due to poor execution timing and a lack of sophisticated quantitative arbitrage tools in standard retail trading bots.",
+      "stack": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Delta Exchange Trading Bot SDK",
+        "WebSockets"
+      ],
+      "title": "VolArb Sentinel",
+      "track": "",
+      "why_it_could_win": "Brings institutional-grade quant execution and deterministic risk guards to a retail hackathon, standing out through rigorous mathematical backing."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185920891",
+        "github:1183964401"
+      ],
+      "pitch": "A decentralized algorithmic strategy marketplace featuring verifiable track records and zero-knowledge or transparent performance audits before users copy-trade strategies.",
+      "problem_statement": "Retail copy-traders face immense losses by subscribing to unverified, high-risk trading bots in existing strategy marketplaces without transparent historical stress-testing.",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "Next.js",
+        "Delta Exchange API"
+      ],
+      "title": "AlgoTrust Marketplace Escrow",
+      "track": "",
+      "why_it_could_win": "Combines verifiable performance tracking with secure execution flows, adopting marketplace architecture proven in previous hackathon wins."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1349346531"
+      ],
+      "pitch": "A real-time analytics dashboard parsing Delta Exchange trade data streams to visualize aggregate F&O trader positioning, gamma exposure, and liquidation heatmaps.",
+      "problem_statement": "Individual equity-derivatives traders lack granular, real-time visibility into market-wide positioning and institutional order flow imbalances.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "Delta Exchange Trade Data APIs"
+      ],
+      "title": "GreeksPulse Trade Data Intelligence",
+      "track": "",
+      "why_it_could_win": "Delivers an immediately useful data-visualization tool that directly addresses why retail traders lose money—flying blind without market microstructure insights."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

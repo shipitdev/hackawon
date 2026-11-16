@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-16T10:02:13.710254+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1811016",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1193031299"
+      ],
+      "pitch": "An automated local static analysis tool tailored for solo developers to catch edge cases, race conditions, and anti-patterns before final submission.",
+      "problem_statement": "Codathon 1.0 Finals: Solo participants build, deploy, and submit a working prototype within the given timeline under strict integrity guidelines.",
+      "stack": [
+        "TypeScript",
+        "AST Parser",
+        "FastAPI",
+        "React"
+      ],
+      "title": "SoloAudit: AI-Powered Code Logic & Cleanliness Linter",
+      "track": "",
+      "why_it_could_win": "Addresses the extreme solo-execution time crunch by preventing silly bugs and ensuring code quality, matching the fast execution focus of Forge & Ship."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1393689488"
+      ],
+      "pitch": "A streamlined deployment dashboard that lets solo developers spin up full-stack prototypes with single-click configurations to meet submission deadlines instantly.",
+      "problem_statement": "Codathon 1.0 Finals: Solo participants build, deploy, and submit a working prototype within the given timeline.",
+      "stack": [
+        "Go",
+        "Docker",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "RapidDeploy: Instant Multi-Cloud Container Provisioner",
+      "track": "",
+      "why_it_could_win": "Solves deployment friction, a major bottleneck for solo coders who lose precious minutes setting up cloud infrastructure manually under a tight timer."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1193031299"
+      ],
+      "pitch": "An interactive web app that takes raw algorithmic code and instantly generates animated visual flowcharts and complexity breakdowns for rapid learning and testing.",
+      "problem_statement": "Codathon 1.0: Technical Assessment and Build phases focusing on Data Structures, Algorithms (DSA), and problem-solving speed.",
+      "stack": [
+        "JavaScript",
+        "HTML5 Canvas",
+        "Python",
+        "Flask"
+      ],
+      "title": "Algorhythm: Real-Time DSA Visualizer & Explanation Engine",
+      "track": "",
+      "why_it_could_win": "Taps into the core technical DNA of the contest (DSA and algorithmic challenges) by turning abstract code into a polished, working demo."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1393689488"
+      ],
+      "pitch": "Instantly generates functional mock endpoints and clean Markdown documentation from raw database schemas or controller files to speed up backend testing.",
+      "problem_statement": "Codathon 1.0 Finals: Rapid execution and submission of working prototypes within a high-intensity multi-level individual hackathon.",
+      "stack": [
+        "TypeScript",
+        "Express",
+        "Swagger UI",
+        "Next.js"
+      ],
+      "title": "QuickSpec: Automated API Mocking & Documentation Generator",
+      "track": "",
+      "why_it_could_win": "Emphasises extreme execution speed, allowing solo developers to skip boilerplate writing and focus entirely on core business logic."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [],
+      "pitch": "A lightweight desktop utility designed to track individual stamina, block distractions, and auto-generate progress logs during high-intensity 24-48 hour sprints.",
+      "problem_statement": "Codathon 1.0: A high-intensity, multi-level individual hackathon designed to test your logic, technical skills, and rapid execution.",
+      "stack": [
+        "Electron",
+        "React",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "FocusFlow: Minimalist Pomodoro & Git Commit Tracker for Solo Hackathons",
+      "track": "",
+      "why_it_could_win": "Directly targets the unique psychological and time-management constraints of solo 24-48 hour hackathons where stamina management is critical."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

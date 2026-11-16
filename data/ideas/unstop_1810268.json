@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-16T10:02:08.327722+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "judge-pain",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1810268",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:923146379",
+        "github:1092255844"
+      ],
+      "pitch": "A real-time telemetry ingestion and predictive maintenance pipeline built on cloud-native tools for EV fleet operators.",
+      "problem_statement": "Niveus Technologies Dedicated Company Track",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "React",
+        "Docker"
+      ],
+      "title": "Niveus EV Fleet Telemetry & Cloud Analytics Pipeline",
+      "track": "Niveus Technologies",
+      "why_it_could_win": "Aligns directly with the Niveus Technologies company track where enterprise cloud and telemetry data processing is valued, minimizing competition against general track teams."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1185527998",
+        "github:923146379"
+      ],
+      "pitch": "An edge-to-cloud diagnostic web application predicting EV battery degradation and remaining range using dynamic ride profiles.",
+      "problem_statement": "Simple Energy Dedicated Company Track",
+      "stack": [
+        "Node.js",
+        "TypeScript",
+        "Express",
+        "MongoDB",
+        "Chart.js"
+      ],
+      "title": "Simple Energy Battery Health & Range Predictor",
+      "track": "Simple Energy",
+      "why_it_could_win": "Targets the Simple Energy track with an application that solves real EV range anxiety and battery health tracking concerns felt directly by domain judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1181028879"
+      ],
+      "pitch": "An automated visual inspection workflow agent using computer vision to flag manufacturing defects on assembly lines.",
+      "problem_statement": "Agnes AI Dedicated Company Track",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "Agnes AI Multimodal Quality Assurance Vision Agent",
+      "track": "Agnes AI",
+      "why_it_could_win": "Showcases practical industrial AI automation under the Agnes AI track, featuring a live-working webcam anomaly detection demo."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:1092255844",
+        "github:1143576965"
+      ],
+      "pitch": "A web-based control panel and sensor fusion dashboard for monitoring autonomous robotic navigation and telemetry.",
+      "problem_statement": "XP Robotis Dedicated Company Track",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebSockets",
+        "Node.js"
+      ],
+      "title": "XP Robotis Teleoperation & Sensor Dashboard",
+      "track": "XP Robotis",
+      "why_it_could_win": "Tailored for the XP Robotis track judges looking for tangible robotic software interfaces and clean telemetry stream visualization."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1092255844",
+        "github:901472660"
+      ],
+      "pitch": "An intelligent dispatch system optimizing path planning and task allocation for autonomous mobile robots in fulfillment centers.",
+      "problem_statement": "Startup Track - Think Robotics",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "Think Robotics Automated Warehouse Task Dispatcher",
+      "track": "Startup Track",
+      "why_it_could_win": "Addresses operational bottlenecks for Think Robotics within the Startup Track by demonstrating end-to-end task optimization workflows."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

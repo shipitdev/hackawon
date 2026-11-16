@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-16T10:02:24.911633+00:00",
+  "grounding": {
+    "domains": [
+      "devtools",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1811493",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:410048624"
+      ],
+      "pitch": "An automated scaffolding CLI and web builder that lets solo developers instantly bootstrap ELU Store-compatible micro-SaaS applications with pre-configured auth, billing, and UI components.",
+      "problem_statement": "About ELUBuild ELUBuild is the flagship solo product-building challenge by EduLinkUp . Over the course of the buildathon, individual builders pitch innovative software ideas, and once approved, build, document, and ship real-world SaaS applications from the ground up.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "ELU Store Companion: Micro-SaaS Template Generator",
+      "track": "",
+      "why_it_could_win": "Directly aligns with the core goal of the hackathon—integration into the ELU Store platform—by making it trivial for solo builders to ship production-ready, standardized SaaS templates."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1331302398",
+        "github:1181028879"
+      ],
+      "pitch": "A tool designed for solo builders in 24-48 hour hackathons that parses your git repository and README drafts to instantly generate professional project documentation, feature breakdown, and demo-ready pitch transcripts.",
+      "problem_statement": "Over the course of the buildathon, individual builders pitch innovative software ideas, and once approved, build, document, and ship real-world SaaS applications from the ground up.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "React"
+      ],
+      "title": "DocuShip: Instant Documentation & Pitch Generator for Solo Devs",
+      "track": "",
+      "why_it_could_win": "Addresses the explicit requirement in ELUBuild to not only build and ship, but thoroughly 'document' within a tight solo timeframe."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:543804354"
+      ],
+      "pitch": "A companion utility and preview simulator that ensures solo builders meet all technical, metadata, and asset requirements before submitting their SaaS products to the ELU Store and Google Play pipeline.",
+      "problem_statement": "Exceptional projects will be selected for integration into the ELU Store platform, with opportunities for direct deployment, hosting, and potential publishing on the Google Play Store on behalf of EduLinkUp.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Node.js"
+      ],
+      "title": "EduLinkUp Mobile Submission Validator",
+      "track": "",
+      "why_it_could_win": "Solves a major friction point for the organizing team by pre-vetting app readiness, reducing integration headaches for ELU Store deployment."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A lightweight, drop-in telemetry and error-monitoring dashboard built specifically for solo developers to track real-world user engagement and uptime post-launch.",
+      "problem_statement": "The mission of ELUBuild is to discover and empower solo builders to create sustainable, user-ready digital products.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "SQLite",
+        "Chart.js"
+      ],
+      "title": "SaaS Pulse: Real-World Usage & Health Tracker for Solo Founders",
+      "track": "",
+      "why_it_could_win": "Proves sustainability and user-readiness beyond just a prototype, giving judges confidence that the product can survive in the wild."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1169394966"
+      ],
+      "pitch": "An AI-powered orchestrator that takes a GitHub repo and generates a structured, high-conversion explanatory video script and slide deck outline for hackathon submissions.",
+      "problem_statement": "Submit your idea proposal (project name, problem statement, target users, proposed solution, anticipated tech stack, solo buildability feasibility, and an explanatory video link).",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API"
+      ],
+      "title": "AgenticPitch: AI Video Script & Demo Reel Builder",
+      "track": "",
+      "why_it_could_win": "Directly assists solo builders in creating the mandatory explanatory video link with professional polish, saving precious hours during a frantic build window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
