@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-17T10:59:07.638495+00:00",
+  "grounding": {
+    "domains": [
+      "agritech",
+      "hardware",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1792152",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A localized, low-latency voice assistant running on edge devices that translates spoken regional queries into exact pesticide and fertilizer measurements.",
+      "problem_statement": "A voice assistant that answers a farmer in their own language.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Whisper",
+        "React Native",
+        "SQLite"
+      ],
+      "title": "VoiceKisan: Multilingual Offline Voice Assistant for Pesticide Dosage",
+      "track": "",
+      "why_it_could_win": "Judges in the previous edition favored physical or practical implementations like Team Snack Overflow's automated sprinkler; a voice assistant directly tackling vernacular language barriers solves an immediate accessibility problem in rural farming."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1101795832",
+        "github:1259981732"
+      ],
+      "pitch": "An autonomous mini-rover utilizing computer vision on a Raspberry Pi to detect localized crop stress and pest infestations, applying pesticides only where needed.",
+      "problem_statement": "Rovers that spray with precision.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Arduino",
+        "C++"
+      ],
+      "title": "CropShield: Edge AI Rover for Targeted Spot-Spraying",
+      "track": "",
+      "why_it_could_win": "Mirrors the success of past hardware winners by building a working physical prototype that cuts down chemical waste, which instantly appeals to agricultural judges looking for sustainability and hardware grit."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1006075023"
+      ],
+      "pitch": "An optimized, low-latency plant disease identification model designed to run smoothly on budget smartphones with zero or intermittent internet connectivity.",
+      "problem_statement": "Drones that spot-crop stress.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "Flutter",
+        "Flask"
+      ],
+      "title": "Niraamaya: Lightweight CNN Plant Disease Classifier for Mobile",
+      "track": "",
+      "why_it_could_win": "Directly builds on proven architectures that won contests like CONIA Hackathon 2025 by optimizing CNN inference times for field deployment."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1101795832",
+        "github:1341712439"
+      ],
+      "pitch": "An integrated IoT sensor suite and multi-agent diagnostic loop that automatically regulates humidity, drip irrigation, and ventilation inside polyhouses.",
+      "problem_statement": "24 hours. One real farm problem. One room full of people trying to solve it.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TimescaleDB",
+        "ESP32",
+        "MQTT"
+      ],
+      "title": "PolySense: Automated Polyhouse Climate & Soil Closed-Loop Ops",
+      "track": "",
+      "why_it_could_win": "Combines robust sensor telemetry with automated closed-loop operations, matching the multi-agent diagnostic design that scored high at SEAL Hackathon."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1010199928",
+        "github:1259981732"
+      ],
+      "pitch": "A miniature conveyor belt prototype that uses computer vision to grade harvested produce by size, ripeness, and surface blemishes in real time.",
+      "problem_statement": "24 hours. One real farm problem. One room full of people trying to solve it.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "Stepper Motors"
+      ],
+      "title": "AgriSort: Edge-CV Sorting and Grading Conveyor Prototype",
+      "track": "",
+      "why_it_could_win": "A physical, moving mechanical demo always stands out in a crowded exhibition room of software-only web dashboards, matching the crowd-pleasing nature of hardware builds."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

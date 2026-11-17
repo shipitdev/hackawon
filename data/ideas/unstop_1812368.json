@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-17T10:59:20.816121+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1812368",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1228328106"
+      ],
+      "pitch": "An edge-AI platform utilizing local sensor telemetry and drone imagery to predict crop stress and yield anomalies instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TensorFlow Lite",
+        "React"
+      ],
+      "title": "AgriSensor-ML: Real-time Crop Disease and Soil Anomaly Detection",
+      "track": "",
+      "why_it_could_win": "Leverages heavy AI/ML focus from the hosting CSE (AI & ML and Data Science) departments with a robust, working demo combining sensor data and image classification."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1341712439",
+        "github:985196561"
+      ],
+      "pitch": "A localized IoT dashboard that monitors campus power consumption, detects anomalies using fast ML, and automates energy-saving routines.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "Isolation Forest",
+        "TimescaleDB"
+      ],
+      "title": "SmartCampus Energy Ops: Autonomous IoT Power Grid Diagnostic",
+      "track": "",
+      "why_it_could_win": "Features hard systems engineering with real-time anomaly detection and a functional dashboard that judges can interact with live."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An AI-powered video intelligence platform that indexes campus lecture recordings, making spoken content, slides, and code searchable instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "FAISS",
+        "HTML",
+        "FastAPI"
+      ],
+      "title": "EduLens AI: Unstructured Lecture Video Search & Intelligence",
+      "track": "",
+      "why_it_could_win": "Directly targets institutional utility at an engineering college by solving the common student problem of navigating massive video archives."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1266090747",
+        "github:1228328106"
+      ],
+      "pitch": "An explainable AI platform designed for college placement cells to detect, explain, and mitigate bias in automated candidate shortlisting algorithms.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Scikit-learn",
+        "SHAP",
+        "TailwindCSS"
+      ],
+      "title": "FairHiring AI: Bias Detection in Student Placement Resumes",
+      "track": "",
+      "why_it_could_win": "Applies cutting-edge fairness and interpretability techniques (SHAP/bias scoring) to a high-stakes domain relevant to every engineering college student."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1026027777"
+      ],
+      "pitch": "An agentic data tool that converts raw CSV datasets uploaded by students into fully interactive analytics dashboards in seconds via text prompts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "LangChain",
+        "Chart.js"
+      ],
+      "title": "DataViz-Gen: Text-to-Analytics Dashboard Generator",
+      "track": "",
+      "why_it_could_win": "Showcases impressive agentic workflows and automated UI generation that yields an instantly demonstrable, flashy working product."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

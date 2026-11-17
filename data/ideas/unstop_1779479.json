@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-17T10:58:49.725943+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "unusual-hardware",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1779479",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "An autonomous multi-agent system that monitors real-time IoT sensor streams, detects equipment anomalies, and executes automated remediation workflows via LangGraph and LLM reasoning.",
+      "problem_statement": "Autonomous AI Agents for Intelligent Real-World Decision-Making",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Gemini 2.5",
+        "TimescaleDB",
+        "Qdrant"
+      ],
+      "title": "Agentic Multi-Agent IoT Diagnostic & Closed-Loop Ops Platform",
+      "track": "Track 1 – Software: Agentic AI",
+      "why_it_could_win": "Leverages the proven architecture of a multi-agent IoT diagnostic platform that won 3rd place at SEAL Hackathon 2026, targeting judges who value complex autonomous reasoning and practical workflow automation."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1100461811"
+      ],
+      "pitch": "A natural language interface for robotic arms and rover units that translates unstructured spoken or typed user commands into executable, sequence-checked ROS2 navigation and manipulation paths.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "ROS2",
+        "OpenAI API",
+        "WebSockets"
+      ],
+      "title": "Embodied AI Robotic Task Planner and Conversational Copilot",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Builds directly on the winning pattern of 'Chat-with-your-robot' from the Robotics Collective Hackathon, giving software teams bridging into hardware a massive edge in human-robot interaction."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1186899824"
+      ],
+      "pitch": "An AI-assisted pre-flight mission planning and safety layer for autonomous drones that parses airspace regulations, checks sensor telemetry, and generates verified flight scripts.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "TypeScript",
+        "Convex",
+        "Python",
+        "MavLink",
+        "LLM Agents"
+      ],
+      "title": "Autonomous Drone Pre-Flight Safety & Regulatory Compliance Daemon",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Replicates the winning formula of the TechnoFest Hackathon winner 'Airguard-Daemons', demonstrating immediate commercial utility in drone safety and autonomous flight governance."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "A real-time computer vision system running on edge hardware that detects industrial safety breaches, missing PPE, and hazard zones, triggering instant automated supervisor alerts.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "Node.js"
+      ],
+      "title": "Edge AI Industrial Safety Violation & PPE Detection System",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Applies proven edge-AI methodology from hackathon-winning industrial safety projects, appealing heavily to judges looking for immediate real-world enterprise deployment viability."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1259981732"
+      ],
+      "pitch": "An intelligent ground rover built with LIDAR and camera feeds that autonomously navigates unmapped indoor environments, dynamically re-planning paths around sudden physical obstacles.",
+      "problem_statement": "Intelligent Autonomous Machines for Real-World Physical Challenges",
+      "stack": [
+        "C++",
+        "Python",
+        "ROS",
+        "OpenCV",
+        "Arduino"
+      ],
+      "title": "Autonomous Indoor Mapping & Obstacle-Avoidance Rover",
+      "track": "Track 2 – Hardware: Robotics & Autonomous Systems",
+      "why_it_could_win": "Follows the exact hardware validation blueprint of the Quanta International Hackathon first-prize winning rover, ensuring a captivating live physical demonstration for the judging panel."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
