@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-18T10:31:05.389963+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security",
+      "fintech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817389",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1073244675",
+        "github:1022783746"
+      ],
+      "pitch": "Real-time browser extension that detects cloned AI voices on WhatsApp Web and phone call audio streams using acoustic fingerprinting.",
+      "problem_statement": "Fraud Shield: Fighting AI-Powered Scams - impersonation using AI-generated voices.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "WebAudio API",
+        "React"
+      ],
+      "title": "VeriVoice AI",
+      "track": "",
+      "why_it_could_win": "Targets an extremely relevant scam vector in India (voice cloning grandparent/banker scams) and leverages automated evaluation for real-time accuracy scoring."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:950564513",
+        "github:1403783376"
+      ],
+      "pitch": "A Telegram and WhatsApp bot that instantly analyzes incoming video notes and profile pictures for deepfake artifacts and generative manipulation.",
+      "problem_statement": "Fraud Shield: Fighting AI-Powered Scams - fraudsters impersonating trusted people using AI faces.",
+      "stack": [
+        "Node.js",
+        "Next.js",
+        "Gemini Multimodal",
+        "TailwindCSS"
+      ],
+      "title": "DeepfakeShield WhatsApp Gateway",
+      "track": "",
+      "why_it_could_win": "Addresses the exact theme of visual impersonation scams with a high-utility interface that judges can test live on their phones within seconds."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1403783376",
+        "github:1181344931"
+      ],
+      "pitch": "An AI-powered transaction safety interceptor that reads UPI payment gateway request screens and flags high-risk mule accounts and fraudulent merchant handles.",
+      "problem_statement": "Fraud Shield: Fighting AI-Powered Scams - scams in India where institutions and trusted entities are impersonated.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Regex Patterns"
+      ],
+      "title": "UPI-Guard AI",
+      "track": "",
+      "why_it_could_win": "Directly targets the Indian financial ecosystem (UPI), making the impact instantly intuitive and urgent for local judges."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1403783376"
+      ],
+      "pitch": "A rapid link and contact analyzer that maps out known phishing clusters, fake UPI handles, and deepfake distribution networks in a visual node graph.",
+      "problem_statement": "Fraud Shield: Fighting AI-Powered Scams - protecting people from AI-powered scams and impersonation.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Vis.js",
+        "Gemini API"
+      ],
+      "title": "ScamTrace Graph",
+      "track": "",
+      "why_it_could_win": "Incorporates graph intelligence patterns from winning AML projects, showcasing deeper technical complexity in a 3-hour window."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1022783746"
+      ],
+      "pitch": "An intelligent SMS scanner and semantic firewall that catches sophisticated AI-crafted phishing text messages before users click malicious links.",
+      "problem_statement": "Fraud Shield: Fighting AI-Powered Scams - protecting users from AI-generated text and phishing scams.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React.js",
+        "Gemini API"
+      ],
+      "title": "Aegis SMS & OTP Guardian",
+      "track": "",
+      "why_it_could_win": "Fulfills the automated evaluation metrics by providing a clean, measurable accuracy score on a live test suite of Indian banking scam messages."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

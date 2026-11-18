@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-18T10:30:32.712493+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:931ca9149c46417bb0526ce1eb44b920",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A localized hardware monitoring node using Arduino UNO Q to detect mechanical vibrations and thermal anomalies in factory settings.",
+      "problem_statement": "MakerSpark hardware-only hackathon focused on embedded systems, sensing technologies, and physical computing.",
+      "stack": [
+        "Arduino",
+        "C++",
+        "Accelerometer",
+        "Temperature Sensor",
+        "OLED Display"
+      ],
+      "title": "Arduino-Based Industrial IoT Anomaly Detector",
+      "track": "Prize Pool",
+      "why_it_could_win": "Directly uses the mandated Arduino UNO Q boards provided at the event, fulfilling the hardware-only constraint with a practical industrial application that appeals to IEEE Sensors judges."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An offline emergency disaster response sensor node using Arduino and LoRa modules for communication when local infrastructure fails.",
+      "problem_statement": "MakerSpark hardware-only hackathon focused on embedded systems, sensing technologies, and physical computing.",
+      "stack": [
+        "Arduino UNO Q",
+        "LoRa Module",
+        "C++",
+        "Emergency Push Button"
+      ],
+      "title": "LoRa-Mesh Emergency Sensor Node",
+      "track": "Prize Pool",
+      "why_it_could_win": "Leverages physical computing and sensing technology to solve a critical real-world disaster response problem within a tight 8-hour timeframe."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated sorting bin powered by an Arduino UNO Q that detects and classifies metal versus non-metal waste using inductive and optical sensors.",
+      "problem_statement": "MakerSpark hardware-only hackathon focused on embedded systems, sensing technologies, and physical computing.",
+      "stack": [
+        "Arduino UNO Q",
+        "Servo Motor",
+        "IR Sensor",
+        "Inductive Proximity Sensor",
+        "C++"
+      ],
+      "title": "Smart Waste Classification Bin Prototype",
+      "track": "Prize Pool",
+      "why_it_could_win": "Combines physical actuation with multiple sensor inputs, providing a highly visual, working live demo that judges can interact with instantly."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A compact hardware telemetry tracker designed for small vessels using Arduino UNO Q to monitor fuel and engine health deterministically.",
+      "problem_statement": "MakerSpark hardware-only hackathon focused on embedded systems, sensing technologies, and physical computing.",
+      "stack": [
+        "Arduino UNO Q",
+        "GPS Module",
+        "Fuel Sensor",
+        "C++"
+      ],
+      "title": "Deterministic Marine Resource Governor Node",
+      "track": "Prize Pool",
+      "why_it_could_win": "Directly builds upon proven architecture patterns used in maritime hardware challenges adapted for the Arduino UNO Q platform."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "An edge-based acoustic detection node using Arduino UNO Q and microphone sensors to identify low-altitude drone signatures.",
+      "problem_statement": "MakerSpark hardware-only hackathon focused on embedded systems, sensing technologies, and physical computing.",
+      "stack": [
+        "Arduino UNO Q",
+        "Sound Sensor",
+        "Buzzer",
+        "LED Matrix",
+        "C++"
+      ],
+      "title": "Edge Counter-UAS Acoustic Warning System",
+      "track": "Prize Pool",
+      "why_it_could_win": "Tackles a high-interest defense-tech sensing application using strict edge hardware with zero cloud dependencies, appealing to IEEE Sensors Council evaluators."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

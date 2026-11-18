@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-18T10:30:40.766239+00:00",
+  "grounding": {
+    "domains": [
+      "web3",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1810370",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An enterprise knowledge management platform capturing technical lifecycle workflows and documentation to accelerate developer onboarding, tailored for CSM Technologies enterprise clients.",
+      "problem_statement": "Web2 Track - CSM Technologies pre-placement interview opportunity",
+      "stack": [
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "Next.js"
+      ],
+      "title": "CSM Enterprise Workflow Intelligence",
+      "track": "Web2",
+      "why_it_could_win": "Directly targets CSM Technologies' business domain by solving enterprise documentation and knowledge-loss issues, maximizing chances for the Pre-Placement Interview (PPI) opportunity."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:715831295"
+      ],
+      "pitch": "A distributed background compute marketplace allowing developers to offload intensive tasks to idle browser nodes via WebAssembly and NEAR protocol integration.",
+      "problem_statement": "Web3 Track - Decentralized infrastructure solutions",
+      "stack": [
+        "Rust",
+        "JavaScript",
+        "NEAR Protocol",
+        "Jupyter Notebook"
+      ],
+      "title": "NearCompute Distributed Task Marketplace",
+      "track": "Web3",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in distributed systems and Web3 infrastructure, echoing past hackathon-winning architectures."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:498010715"
+      ],
+      "pitch": "A decentralized social media indexing and moderation dashboard built on Substrate and IPFS for transparent on-chain relationship visualization.",
+      "problem_statement": "Web3 Track - Decentralized social tooling and data integrity",
+      "stack": [
+        "Next.js",
+        "FastAPI",
+        "IPFS",
+        "Substrate"
+      ],
+      "title": "Substrate Social Graph Inspector",
+      "track": "Web3",
+      "why_it_could_win": "Brings together robust decentralized storage and clean frontend data visualization, a proven winning formula for Web3 tooling tracks."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:176698259"
+      ],
+      "pitch": "An interactive smart contract dependency and call-graph visualizer using D3.js to instantly audit contract security and architecture during hackathon reviews.",
+      "problem_statement": "Web3 Track - Developer tooling for smart contracts",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "D3.js",
+        "Node.js"
+      ],
+      "title": "Solidity Architecture Visualizer",
+      "track": "Web3",
+      "why_it_could_win": "Solves an acute pain point for smart contract developers and judges evaluating complex protocol logic quickly."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated repository analysis tool tailored for CSM Technologies pipelines that generates executive summaries, architectural reports, and security vulnerability insights.",
+      "problem_statement": "Web2 Track - CSM Technologies enterprise workflow optimization",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TailwindCSS",
+        "Docker"
+      ],
+      "title": "RepoPulse Enterprise Audit Suite",
+      "track": "Web2",
+      "why_it_could_win": "Aligns with enterprise digital transformation priorities and directly impresses corporate judges from CSM Technologies looking for productivity tools."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

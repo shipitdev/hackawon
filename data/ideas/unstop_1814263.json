@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-18T10:31:00.409686+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1814263",
+  "ideas": [
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A lightweight performance profiler optimized for evaluating edge AI hardware execution bottlenecks.",
+      "problem_statement": "Hardware for AI Frontier",
+      "stack": [
+        "Python",
+        "C++",
+        "Verilog",
+        "PyTorch"
+      ],
+      "title": "TensorTrace AI: On-Chip Accelerator Profiler",
+      "track": "Hardware for AI Frontier",
+      "why_it_could_win": "Directly targets the Hardware for AI track with an emphasis on low-level system performance profiling, appealing directly to hardware judges and sponsor interests."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A high-throughput digital signal processing pipeline implemented for real-time radio frequency anomaly detection.",
+      "problem_statement": "Signal Processing Frontier",
+      "stack": [
+        "Verilog",
+        "Python",
+        "Vivado",
+        "NumPy"
+      ],
+      "title": "SigFlow: Real-Time FPGA Spectrum Analyzer",
+      "track": "Signal Processing Frontier",
+      "why_it_could_win": "Leverages genuine RTL and DSP design principles, directly matching the core criteria of the Signal Processing track."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "An automated simulation and layout validation assistant for mixed-signal sensor front-ends.",
+      "problem_statement": "Analog Frontier",
+      "stack": [
+        "Python",
+        "SPICE",
+        "TypeScript"
+      ],
+      "title": "NanoSync: Low-Power Analog Sensor Interface",
+      "track": "Analog Frontier",
+      "why_it_could_win": "Tackles the notoriously difficult Analog Frontier track with a practical tool that helps automate analog component sizing and verification."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An AI-powered pre-silicon verification agent that catches common timing and clock domain crossing bugs in Verilog code.",
+      "problem_statement": "Digital Frontier",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Verilog",
+        "LangGraph"
+      ],
+      "title": "RTL-Linter Agent: Autonomous Verilog Code Reviewer",
+      "track": "Digital Frontier",
+      "why_it_could_win": "Combines software LLM automation with hardware design workflows, providing immediate practical utility for digital design engineers."
+    },
+    {
+      "build_hours": 23,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A compiler framework that maps deep learning weights into low-bit quantized representations for tinyML hardware accelerators.",
+      "problem_statement": "Hardware for AI Frontier",
+      "stack": [
+        "Python",
+        "C++",
+        "ONNX",
+        "TVM"
+      ],
+      "title": "EdgeQuant: Mixed-Precision Neural Network Compiler",
+      "track": "Hardware for AI Frontier",
+      "why_it_could_win": "Showcases a complete end-to-end pipeline from high-level neural networks down to hardware constraints, which heavily impresses hardware judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-18T10:30:36.434690+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1794480",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998",
+        "github:939993991"
+      ],
+      "pitch": "An AI-powered clinical triage system specifically tailored for medical device telemetry and patient data intake, aligning with Bio-Rad's healthcare AI initiatives.",
+      "problem_statement": "Bio-Rad's AI Initiatives and Healthcare Diagnostics",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "TailwindCSS",
+        "OpenCV"
+      ],
+      "title": "BioTriage AI",
+      "track": "Healthcare AI",
+      "why_it_could_win": "Directly targets the host company's focus on healthcare and diagnostics, appealing to judges from Bio-Rad by solving a practical clinical workflow bottleneck."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1201373661"
+      ],
+      "pitch": "A 3D digital twin and interactive visualization platform designed for industrial enterprise workflows, matching Ethosh's project engineering paradigms.",
+      "problem_statement": "Ethosh's Enterprise Project Initiatives",
+      "stack": [
+        "TypeScript",
+        "Three.js",
+        "Next.js",
+        "Node.js"
+      ],
+      "title": "Ethosh Interactive Workspace",
+      "track": "Enterprise Solutions",
+      "why_it_could_win": "Addresses Ethosh's core domain of enterprise digital solutions and immersive visualization, ensuring high relevance for the organizing partner."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1370167028",
+        "github:678395515"
+      ],
+      "pitch": "A computer-vision-based inspection system for automated quality control of biomedical device manufacturing lines.",
+      "problem_statement": "Bio-Rad Medisys Manufacturing & Quality Assurance",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Flask"
+      ],
+      "title": "MedEquip Vision",
+      "track": "Industrial AI",
+      "why_it_could_win": "Leverages computer vision to solve a hard manufacturing inspection problem relevant to Biorad Medisys' physical venue and domain."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:939993991"
+      ],
+      "pitch": "An intelligent voice- and text-driven assistant that helps laboratory technicians query complex medical assay protocols and safety guidelines instantly.",
+      "problem_statement": "Bio-Rad's AI Initiatives and Laboratory Workflow Efficiency",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "ChromaDB"
+      ],
+      "title": "LabAssist AI",
+      "track": "Lab Automation",
+      "why_it_could_win": "Focusses on operational efficiency inside a biotech lab, providing immediate utility that appeals directly to Biorad's operational judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1259514645",
+        "github:1195808191"
+      ],
+      "pitch": "A pose-estimation tool designed to monitor and optimize laboratory technician ergonomics during delicate pipetting and microscope operations.",
+      "problem_statement": "Ethosh and Bio-Rad Workplace Wellness and Safety",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "React",
+        "FastAPI"
+      ],
+      "title": "BioMetric Ergonomics",
+      "track": "Computer Vision",
+      "why_it_could_win": "Combines advanced pose estimation with practical workplace safety, showcasing technical execution that stands out in a multi-domain hackathon."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
