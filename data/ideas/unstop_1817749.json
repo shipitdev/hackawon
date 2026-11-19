@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-19T10:39:20.665896+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817749",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An autonomous multi-agent system that monitors codebases, API contracts, and database migrations for compliance failures and automatically submits tested patches.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "TypeScript",
+        "React"
+      ],
+      "title": "Agentic Compliance Audit & Workflow Automator",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track with sophisticated multi-agent orchestration rather than a simple wrapper, appealing strongly to developer-focused judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1193031299"
+      ],
+      "pitch": "A meta-development platform that instantly scaffolds production-ready, highly secure full-stack applications complete with database schemas, auth, and pre-integrated AI endpoints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Prisma",
+        "TypeScript"
+      ],
+      "title": "FullStack Multi-Tenant SaaS Boilerplate Generator with Embedded AI",
+      "track": "Full Stack Development",
+      "why_it_could_win": "Combines robust Full Stack Development execution with practical utility that every developer values, ensuring a flawless live demo of code generation."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1228867095"
+      ],
+      "pitch": "An agentic AI assistant that monitors real-time logistics data, flags inventory bottlenecks, and negotiates with suppliers via automated API actions to resolve shipment delays.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "CrewAI",
+        "FastAPI",
+        "PostgreSQL",
+        "React"
+      ],
+      "title": "Autonomous Supply Chain Exception Handler Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Leverages autonomous workflows within the Agentic AI track to solve measurable business problems, aligning with enterprise-grade judging criteria."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A full-stack web application allowing frontend and backend teams to co-create, mock, and test REST and GraphQL endpoints with automatic stateful simulation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Socket.io",
+        "React",
+        "MongoDB"
+      ],
+      "title": "Real-Time Collaborative API Mocking & Contract Testing Suite",
+      "track": "Full Stack Development",
+      "why_it_could_win": "Focuses heavily on the Full Stack Development track with zero AI hype, relying instead on clean architecture, WebSockets, and flawless execution."
+    },
+    {
+      "build_hours": 44,
+      "inspired_by": [
+        "github:1200926140",
+        "github:1228867095"
+      ],
+      "pitch": "An intelligent pipeline of specialized AI agents that parses legacy monolithic codebases, refactors them into modern micro-services, and generates integration tests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "TypeScript",
+        "Next.js",
+        "Docker"
+      ],
+      "title": "Agentic Code Migration & Refactoring Assistant",
+      "track": "Agentic AI",
+      "why_it_could_win": "Fuses both hackathon tracks (Agentic AI and Full Stack Development) into a high-utility engineering tool that impresses technical judges with complex graph-based routing."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

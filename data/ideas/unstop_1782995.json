@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-19T10:38:32.358384+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1782995",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1434989874",
+        "github:1325616578"
+      ],
+      "pitch": "An interactive transpiler that rewrites standard C++ or Python code into hyper-minified golfed versions using AST transformations and alternative primitive loops.",
+      "problem_statement": "Code Golfing",
+      "stack": [
+        "Python",
+        "C++",
+        "AST",
+        "FastAPI"
+      ],
+      "title": "CodeGolfOptimizer",
+      "track": "Code Golfing",
+      "why_it_could_win": "Targets the exact Code Golfing category of the event with a high-utility developer tool, mirroring the hard engineering seen in winning compiler and code transformation projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1434989874",
+        "github:828511314"
+      ],
+      "pitch": "A specialized interactive debugger visualizer that traces complex memory bounds errors, segmentation faults, and off-by-one errors in competitive programming snippets.",
+      "problem_statement": "Debugging",
+      "stack": [
+        "TypeScript",
+        "React",
+        "WebAssembly",
+        "C++"
+      ],
+      "title": "DebugLens",
+      "track": "Debugging",
+      "why_it_could_win": "Directly tackles the Debugging round format by giving users a tangible tool that solves a pain point every competitive programmer faces under time pressure."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1434989874"
+      ],
+      "pitch": "A lightweight local runner and benchmarking sandbox that profiles time and memory complexity of competitive programming solutions against edge-case test generators.",
+      "problem_statement": "Competitive Programming",
+      "stack": [
+        "C++",
+        "Python",
+        "Docker",
+        "Flask"
+      ],
+      "title": "CPBenchAnalyzer",
+      "track": "Competitive Programming",
+      "why_it_could_win": "Focuses heavily on precise algorithmic execution and performance metrics, appealing directly to competitive programming judges who value speed and correctness."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1434989874",
+        "github:1325616578"
+      ],
+      "pitch": "A custom esoteric scripting layer designed specifically for ultra-short token counts to solve competitive programming string and array manipulation challenges.",
+      "problem_statement": "Code Golfing",
+      "stack": [
+        "Rust",
+        "WASM",
+        "JavaScript"
+      ],
+      "title": "GolfScriptEngine",
+      "track": "Code Golfing",
+      "why_it_could_win": "Leverages genuine engineering creativity in language design to win over judges looking for unique approaches to code golfing constraints."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An automated regression and fault-localization utility that compares passing and failing test outputs to pinpoint logical branches responsible for runtime exceptions.",
+      "problem_statement": "Debugging",
+      "stack": [
+        "Python",
+        "Rich",
+        "Click",
+        "AST"
+      ],
+      "title": "FaultTrace",
+      "track": "Debugging",
+      "why_it_could_win": "Delivers an exceptionally polished solution for the debugging track with an interactive live demo that works out of the box."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

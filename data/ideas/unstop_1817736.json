@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-19T10:39:06.323652+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817736",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An offline emergency disaster communication bridge and intrusion detection system using LoRa and ESP32 mesh networks.",
+      "problem_statement": "Distributed Wireless Network Security",
+      "stack": [
+        "C++",
+        "Python",
+        "ESP32",
+        "LoRa",
+        "BLE"
+      ],
+      "title": "MeshGuard",
+      "track": "Distributed Wireless Network Security",
+      "why_it_could_win": "Directly builds on a proven winning pattern of handling offline mesh networking hardware (ESP32/LoRa) that can be demonstrated live in front of the jury."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A governable, jam-resilient cooperative counter-UAS security node for connected devices at the edge.",
+      "problem_statement": "Emerging Security Challenges in Connected Devices",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "AWS Bedrock",
+        "C++"
+      ],
+      "title": "EdgeC-UAS Shield",
+      "track": "Emerging Security Challenges in Connected Devices",
+      "why_it_could_win": "Addresses defense-tech and edge resilience, appealing heavily to the MeitY/ISEA security focus by showing deterministic engagement gates without relying on cloud availability."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A multi-agent platform for real-time IoT network attack simulation, anomaly detection, and 3D threat visualization.",
+      "problem_statement": "Internet of Things (IoT) Security",
+      "stack": [
+        "Python",
+        "Three.js",
+        "FastAPI",
+        "MQTT"
+      ],
+      "title": "IoT GraphGuard",
+      "track": "Internet of Things (IoT) Security",
+      "why_it_could_win": "Features an eye-catching 3D visualization dashboard that makes complex network threat detection immediately clear to a panel of expert judges."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "A lightweight cryptographic attestation and zero-trust framework for authenticating connected systems in wireless environments.",
+      "problem_statement": "Secure Connected Systems",
+      "stack": [
+        "Rust",
+        "Go",
+        "Python"
+      ],
+      "title": "SecureNode Trust",
+      "track": "Secure Connected Systems",
+      "why_it_could_win": "Tackles a hard engineering problem in distributed cryptography that aligns perfectly with the national cybersecurity mandate of the ISEA Project Phase III."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated security scanner and compliance report generator tailored for firmware repositories and connected device configurations.",
+      "problem_statement": "Cybersecurity Innovation",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AegisReportr IoT",
+      "track": "Cybersecurity Innovation",
+      "why_it_could_win": "Solves the documentation and auditing bottleneck for hardware and firmware developers, scoring high on practical utility for government-backed security audits."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

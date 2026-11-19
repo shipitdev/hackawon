@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-19T10:38:55.637228+00:00",
+  "grounding": {
+    "domains": [
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1814270",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1227086460",
+        "github:1423023064"
+      ],
+      "pitch": "An AI-powered 3D digital twin platform for real-time campus energy anomaly detection and visualization.",
+      "problem_statement": "AI, Data Science & Digital Innovation / Smart Infrastructure & Environmental Sustainability",
+      "stack": [
+        "Python",
+        "Three.js",
+        "FastAPI",
+        "Scikit-Learn"
+      ],
+      "title": "Campus3D Twin",
+      "track": "Smart Infrastructure & Environmental Sustainability",
+      "why_it_could_win": "Directly mirrors the architecture of CampusPulse, leveraging an isolation forest model combined with 3D visualization to secure high marks from technical judges valuing hard engineering."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "A logistics emissions monitoring and route optimization dashboard powered by Power BI and Python telemetry.",
+      "problem_statement": "Clean Energy & Sustainable Engineering",
+      "stack": [
+        "Python",
+        "Power BI",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "LogiCarbon BI",
+      "track": "Clean Energy & Sustainable Engineering",
+      "why_it_could_win": "Adopts the exact winning pattern of the IBM carbon footprint project, prioritizing an interactive live-working analytics dashboard that gives corporate judges clear, measurable environmental metrics."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-computed smart garbage classification system combining computer vision with an Arduino-based sorting mechanism.",
+      "problem_statement": "IoT, Embedded Systems & Smart Technologies",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Arduino",
+        "TensorFlow Lite"
+      ],
+      "title": "EcoSort AI",
+      "track": "IoT, Embedded Systems & Smart Technologies",
+      "why_it_could_win": "Follows the blueprint of the TechnoMorph runner-up by delivering a tangible hardware-software integrated demo that works live during judging."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:901472660"
+      ],
+      "pitch": "A mobile-friendly asset management and consumable tracking application tailored for rural water sustainability schemes.",
+      "problem_statement": "Smart Infrastructure & Environmental Sustainability",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "title": "JalAsset Panchayat",
+      "track": "Smart Infrastructure & Environmental Sustainability",
+      "why_it_could_win": "Replicates the Smart India Hackathon runner-up JalSetu strategy, offering immediate civic-tech utility that appeals heavily to academic and civil engineering organizers."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:923146379"
+      ],
+      "pitch": "A machine learning pipeline predicting renewable energy grid fluctuations using localized weather and load datasets.",
+      "problem_statement": "Clean Energy & Sustainable Engineering",
+      "stack": [
+        "Python",
+        "Jupyter",
+        "XGBoost",
+        "Flask"
+      ],
+      "title": "GridPredict ML",
+      "track": "Clean Energy & Sustainable Engineering",
+      "why_it_could_win": "Matches the proven pipeline approach of the UT Austin Energy AI Hackathon winner, demonstrating robust predictive capability directly targeted at sustainability tracks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

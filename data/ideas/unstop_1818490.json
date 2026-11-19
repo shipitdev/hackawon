@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-19T10:39:34.167514+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1818490",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered syntax error auto-fixer and real-time collaboration tool tailored for competitive programming and coding challenges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Monaco Editor",
+        "FastAPI"
+      ],
+      "title": "SyntaxSync AI",
+      "track": "",
+      "why_it_could_win": "Aligns with the 'Syntax Squad' naming of the challenge by directly targeting syntax debugging efficiency and real-time code collaboration."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A gamified platform for pitting LLM prompt strategies against adversarial test cases to evaluate robustness in coding challenges.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "LangChain"
+      ],
+      "title": "PromptArena Duelist",
+      "track": "",
+      "why_it_could_win": "Directly plays on the 'Prompt War' theme of the hackathon, providing a unique interactive utility for testing prompt engineering under pressure."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1434989874"
+      ],
+      "pitch": "An automated syntax and prompt evaluation assistant that parses complex coding problem constraints and generates unit tests instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "CodeClause Navigator",
+      "track": "",
+      "why_it_could_win": "Combines both themes ('Prompt War' and 'Syntax Squad') into a single tool that helps developers write better prompts and error-free code."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "A command-line interface that translates natural language prompts into complex syntax-verified shell and build commands.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Click",
+        "OpenAI API"
+      ],
+      "title": "QueryForge CLI",
+      "track": "",
+      "why_it_could_win": "Delivers a fast, highly functional developer tool with a working live demo that appeals directly to hackathon judges looking for practical utility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An automated log parser and semantic error visualizer that explains obscure compiler syntax errors in plain English.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python"
+      ],
+      "title": "SyntaxError Analyzer",
+      "track": "",
+      "why_it_could_win": "Solves a universal developer pain point with a polished, easy-to-demonstrate interface that works entirely offline or with light API calls."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

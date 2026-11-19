@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-19T10:38:27.105850+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1770707",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An AI-powered security posture manager specifically tailored to detect vulnerabilities in cloud-native microservices during rapid CI/CD deployment pipelines.",
+      "problem_statement": "Cloud-Native Development and DevSecOps domain challenges under SSH-2027.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "LangChain",
+        "React"
+      ],
+      "title": "SkillSec Guard",
+      "track": "Cloud-Native Development and DevSecOps",
+      "why_it_could_win": "Targets the Cloud-Native Development and DevSecOps domain explicitly, addressing real engineering pain points familiar to technical judges who deal with infrastructure security daily."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1245565654"
+      ],
+      "pitch": "A multi-agent autonomous learning assistant that tracks student progress in applied sciences and dynamically generates personalized remedial modules.",
+      "problem_statement": "EdTech and Generative AI / Agentic AI domain challenges under SSH-2027.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Next.js",
+        "PostgreSQL"
+      ],
+      "title": "AgenticED Mentor",
+      "track": "EdTech",
+      "why_it_could_win": "Combines Agentic AI with EdTech, directly resonating with the organizing university's academic focus and leveraging multi-agent patterns proven in recent hackathons."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [],
+      "pitch": "An IoT and physical AI telemetry aggregator that monitors smart greenhouse metrics and automatically triggers microcontroller responses for optimal water conservation.",
+      "problem_statement": "IoT and Robotics, Physical AI domain challenges under SSH-2027.",
+      "stack": [
+        "Python",
+        "MQTT",
+        "ESP32",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "AgriSensor Edge",
+      "track": "IoT and Robotics, Physical AI",
+      "why_it_could_win": "Focuses on tangible hardware-software integration which immediately stands out among standard web app submissions during offline physical judging."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A zero-knowledge verifiable provenance ledger for local manufacturer certifications, securing supply chain data integrity against tampering.",
+      "problem_statement": "Blockchain and Web3 domain challenges under SSH-2027.",
+      "stack": [
+        "Solidity",
+        "Hardhat",
+        "React",
+        "Ethers.js"
+      ],
+      "title": "SupplyChain AuditBlock",
+      "track": "Blockchain and Web3",
+      "why_it_could_win": "Applies Web3 technology to solve a practical regional industrial compliance issue, giving judges a clear real-world economic benefit to evaluate."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "An augmented reality medical training simulation providing real-time vital sign overlays and procedural guidance for emergency responders.",
+      "problem_statement": "AR/VR and Extended Reality (XR) and Data Science domain challenges under SSH-2027.",
+      "stack": [
+        "Unity",
+        "C#",
+        "Python",
+        "WebSockets"
+      ],
+      "title": "MedTriage XR",
+      "track": "AR/VR and Extended Reality (XR)",
+      "why_it_could_win": "Leverages immersive XR tech to address a high-stakes emergency scenario, combining high visual impact with a live working prototype."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
