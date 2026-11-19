@@ -1,0 +1,311 @@
+{
+  "city": null,
+  "country": null,
+  "description": "About Anveshak: Open-World Object Detection for Remote Sensing is a national computer vision competition by Techfest, IIT Bombay. Earth-observation systems support disaster response, maritime and defence surveillance, urban planning, agriculture, and climate monitoring, yet three problems limit them in practice: imagery always contains unknown objects the taxonomy does not cover, new classes arrive gradually with only a few examples, and learning new categories can quietly degrade performance on old ones. Teams build one remote sensing detector that handles all three while keeping the same model throughout, trained entirely from random initialisation with no pretrained weights of any kind. Take on the challenge at Techfest, IIT Bombay, Asia's largest science and technology festival. Structure The competition has an online Round 1, an on-site Round 2, and an on-site Finale at Techfest, IIT Bombay. Eligibility: Open to all students with a valid ID from their educational institution. Cross-institutional teams are encouraged. Team size: Maximum 4 members per team. The Challenge: Design and train one remote sensing detector that learns in two rounds and keeps the same model throughout. It must detect 40 known classes in Round 1, flag unknown objects as unknown rather than forcing them into known classes, learn 10 new classes from a small number of images each without forgetting the base classes, and then learn 10 fresh classes in Round 2 while still flagging unknowns. Key constraints: Every model is trained from random initialisation, with no ImageNet, COCO, self-supervised (e.g. DINOv2), remote sensing, or other pretrained weights. Open-source detection frameworks are allowed with pretrained-weight loading switched off; open-vocabulary models are not permitted as the detector. The model must remain one lineage: train on Set A, continue on Set B, then continue into Round 2, with the same architecture and no retraining from scratch or replacement. Round 1 - Online Teams r",
+  "eligibility_text": null,
+  "ends_at": "2026-11-30T00:01:00+05:30",
+  "mode": "in_person",
+  "organiser": "Indian Institute of Technology (IIT), Bombay",
+  "participants_count": 3,
+  "prize_amount": 150000,
+  "prize_currency": "INR",
+  "problem_sources": [
+    {
+      "kind": "inline",
+      "status": "parsed",
+      "text": "About Anveshak: Open-World Object Detection for Remote Sensing is a national computer vision competition by Techfest, IIT Bombay. Earth-observation systems support disaster response, maritime and defence surveillance, urban planning, agriculture, and climate monitoring, yet three problems limit them in practice: imagery always contains unknown objects the taxonomy does not cover, new classes arrive gradually with only a few examples, and learning new categories can quietly degrade performance on old ones. Teams build one remote sensing detector that handles all three while keeping the same model throughout, trained entirely from random initialisation with no pretrained weights of any kind. Take on the challenge at Techfest, IIT Bombay, Asia's largest science and technology festival. Structure The competition has an online Round 1, an on-site Round 2, and an on-site Finale at Techfest, IIT Bombay. Eligibility: Open to all students with a valid ID from their educational institution. Cross-institutional teams are encouraged. Team size: Maximum 4 members per team. The Challenge: Design and train one remote sensing detector that learns in two rounds and keeps the same model throughout. It must detect 40 known classes in Round 1, flag unknown objects as unknown rather than forcing them into known classes, learn 10 new classes from a small number of images each without forgetting the base classes, and then learn 10 fresh classes in Round 2 while still flagging unknowns. Key constraints: Every model is trained from random initialisation, with no ImageNet, COCO, self-supervised (e.g. DINOv2), remote sensing, or other pretrained weights. Open-source detection frameworks are allowed with pretrained-weight loading switched off; open-vocabulary models are not permitted as the detector. The model must remain one lineage: train on Set A, continue on Set B, then continue into Round 2, with the same architecture and no retraining from scratch or replacement. Round 1 - Online Teams receive Dataset A, Dataset B, unlabelled Round 1 test images, the class list, and a validator script. They train on Dataset A first, then continue on Dataset B with the same model; training images may contain unlabelled objects of unknown classes. Teams submit one Google Drive folder containing a predictions CSV for the Round 1 test images, the Round 1 checkpoint (weights after Set A then Set B), training and inference code with a README, and a 5-7 slide methodology PPT (problem understanding, methodology, first implementation, Round 2 plan, and team roles). Screening is on the OE-Score, computed on the full Round 1 test set, plus checkpoint reproduction: organisers re-run the checkpoint on the Round 1 test images and its predictions must match the submitted CSV within tolerance. The PPT is also checked for completeness. Round 2 - On-site, 16th December 2026 Held at Techfest, IIT Bombay. The Round 2 dataset and unlabelled test images are released at the start of the Round 2 window. Teams learn 10 fresh classes from a small number of images, starting from their verified Round 1 checkpoint (no other starting weights are permitted), without forgetting earlier classes and while still flagging unknowns. Round 2 training images may contain unlabelled objects of base, few-shot, and unknown classes. Teams train on the Round 2 dataset plus data released in earlier rounds only. The window closes at a fixed time to be announced on the day; teams may submit at any point within the window. The deliverable is a predictions CSV for the Round 2 test images. Outcome: shortlisting for the Finale. Finale - On-site, 17th December 2026 Organisers re-run inference for each shortlisted team on the Round 2 test images. Shortlisted teams submit code, weights, and a two-page technical note, present their approach to the panel, and answer questions. Outcome: final ranking. Scoring Primary score is the OE-Score = 100 x 2 x mAP_K x U-F1 / (mAP_K + U-F1), built from known-class detection (mAP_K) ",
+      "title": "Published problem context",
+      "url": null
+    }
+  ],
+  "projects_submitted": null,
+  "raw": {
+    "address_with_country_logo": {
+      "address": "Techfest ,IIT Bombay ",
+      "address_title": "event_location",
+      "addressable_id": 1818894,
+      "addressable_type": "App\\Model\\Opportunity",
+      "city": "Powai",
+      "city_id": 133484,
+      "country": {
+        "alpha_2": "in",
+        "alpha_3": "ind",
+        "id": 94,
+        "iso": "IN",
+        "iso3": "IND",
+        "logos": {
+          "large": "https://d8it4huxumps7.cloudfront.net/images/flags/48x48/in.png",
+          "medium": "https://d8it4huxumps7.cloudfront.net/images/flags/32x32/in.png",
+          "small": "https://d8it4huxumps7.cloudfront.net/images/flags/24x24/in.png",
+          "very_small": "https://d8it4huxumps7.cloudfront.net/images/flags/16x16/in.png",
+          "xlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/64x64/in.png",
+          "xxlarge": "https://d8it4huxumps7.cloudfront.net/images/flags/128x128/in.png"
+        },
+        "name": "India",
+        "numcode": 356,
+        "phonecode": "+91   "
+      },
+      "country_code": null,
+      "created_at": "2026-11-19T10:22:46+05:30",
+      "deleted_at": null,
+      "id": 1916367,
+      "lat": null,
+      "lng": null,
+      "sort_order": 1,
+      "state": "Maharashtra",
+      "state_code": null,
+      "updated_at": "2026-11-19T14:25:10+05:30",
+      "zip": null
+    },
+    "approved_date": "2026-11-19 14:25:47 GMT+0530",
+    "assignedTag": {
+      "tag": null
+    },
+    "details": "<p><strong>About</strong></p>\n<p>Anveshak: Open-World Object Detection for Remote Sensing is a national computer vision competition by Techfest, IIT Bombay. Earth-observation systems support disaster response, maritime and defence surveillance, urban planning, agriculture, and climate monitoring, yet three problems limit them in practice: imagery always contains unknown objects the taxonomy does not cover, new classes arrive gradually with only a few examples, and learning new categories can quietly degrade performance on old ones. Teams build one remote sensing detector that handles all three while keeping the same model throughout, trained entirely from random initialisation with no pretrained weights of any kind. Take on the challenge at Techfest, IIT Bombay, Asia's largest science and technology festival.</p>\n<p><strong>Structure</strong></p>\n<p>The competition has an online Round 1, an on-site Round 2, and an on-site Finale at Techfest, IIT Bombay.</p>\n<ul>\n<li>\n<div>\n<div>Eligibility: Open to all students with a valid ID from their educational institution. Cross-institutional teams are encouraged.</div>\n</div>\n</li>\n<li>\n<div>\n<div>Team size: Maximum 4 members per team.</div>\n</div>\n</li>\n<li>\n<div>\n<div>The Challenge: Design and train one remote sensing detector that learns in two rounds and keeps the same model throughout. It must detect 40 known classes in Round 1, flag unknown objects as unknown rather than forcing them into known classes, learn 10 new classes from a small number of images each without forgetting the base classes, and then learn 10 fresh classes in Round 2 while still flagging unknowns.</div>\n</div>\n</li>\n<li>\n<div>\n<div>Key constraints: Every model is trained from random initialisation, with no ImageNet, COCO, self-supervised (e.g. DINOv2), remote sensing, or other pretrained weights. Open-source detection frameworks are allowed with pretrained-weight loading switched off; open-vocabulary models are not permitted as the detector. The model must remain one lineage: train on Set A, continue on Set B, then continue into Round 2, with the same architecture and no retraining from scratch or replacement.</div>\n</div>\n</li>\n</ul>\n<p><strong>Round 1 - Online</strong></p>\n<p>Teams receive Dataset A, Dataset B, unlabelled Round 1 test images, the class list, and a validator script. They train on Dataset A first, then continue on Dataset B with the same model; training images may contain unlabelled objects of unknown classes. Teams submit one Google Drive folder containing a predictions CSV for the Round 1 test images, the Round 1 checkpoint (weights after Set A then Set B), training and inference code with a README, and a 5-7 slide methodology PPT (problem understanding, methodology, first implementation, Round 2 plan, and team roles). Screening is on the OE-Score, computed on the full Round 1 test set, plus checkpoint reproduction: organisers re-run the checkpoint on the Round 1 test images and its predictions must match the submitted CSV within tolerance. The PPT is also checked for completeness.</p>\n<p><strong>Round 2 - On-site, 16th December 2026</strong></p>\n<p>Held at Techfest, IIT Bombay. The Round 2 dataset and unlabelled test images are released at the start of the Round 2 window. Teams learn 10 fresh classes from a small number of images, starting from their verified Round 1 checkpoint (no other starting weights are permitted), without forgetting earlier classes and while still flagging unknowns. Round 2 training images may contain unlabelled objects of base, few-shot, and unknown classes. Teams train on the Round 2 dataset plus data released in earlier rounds only. The window closes at a fixed time to be announced on the day; teams may submit at any point within the window. The deliverable is a predictions CSV for the Round 2 test images. Outcome: shortlisting for the Finale.</p>\n<p><strong>Finale - On-site, 17th December 2026</strong></p>\n<p>Organisers re-run inference for each shortlisted team on the Round 2 test images. Shortlisted teams submit code, weights, and a two-page technical note, present their approach to the panel, and answer questions. Outcome: final ranking.</p>\n<p><strong>Scoring</strong></p>\n<p>Primary score is the OE-Score = 100 x 2 x mAP_K x U-F1 / (mAP_K + U-F1), built from known-class detection (mAP_K) and unknown-object handling (U-F1, the harmonic mean of unknown recall and precision). All matching uses IoU 0.5. Ranking is by OE-Score on the full test set; tie-breaks in both rounds are higher mAP_K, then higher U-F1, then earlier submission time.</p>\n<p><strong>Timeline</strong></p>\n<ul>\n<li>\n<div>\n<div>Registration closes - 30th November 2026, 11:59 PM</div>\n</div>\n</li>\n<li>\n<div>\n<div>Round 1 submission deadline - 30th November 2026, 11:59 PM</div>\n</div>\n</li>\n<li>\n<div>\n<div>Round 1 results announcement - 3rd December 2026</div>\n</div>\n</li>\n<li>\n<div>\n<div>Round 2 (On-site) - 16th December 2026</div>\n</div>\n</li>\n<li>\n<div>\n<div>Finale (On-site) - 17th December 2026</div>\n</div>\n</li>\n</ul>\n<p><strong>Rewards and Prizes</strong></p>\n<ul>\n<li>\n<div>\n<div>INR 1,50,000 for the top 3 winners.</div>\n</div>\n</li>\n<li>\n<div>\n<div>Certificates for all participants who qualify for Round 2</div>\n</div>\n</li>\n</ul>",
+    "end_date": "2026-11-30T00:01:00+05:30",
+    "festival": null,
+    "filters": [
+      {
+        "domain_id": 0,
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4023,
+        "name": "Medical",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4024,
+        "name": "Law",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
+        "subtype": null,
+        "type": "eligible"
+      }
+    ],
+    "id": 1818894,
+    "isPaid": false,
+    "locations": [],
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6afeb96e9d03a_",
+    "opportunity_config": {
+      "banner_config": "{\"color\":\"color-bg3\",\"text\":\"Anveshak: Open-World Object Detection for Remote Sensing by IITB-HRTI\",\"type\":3,\"banner_data\":[14]}",
+      "id": 1517267,
+      "opportunity_id": 1818894,
+      "show_impressions": 1,
+      "show_region": 1,
+      "show_registrations_count": 1,
+      "show_team_size": 1
+    },
+    "organisation": {
+      "id": 604,
+      "logoUrl": "https://d8it4huxumps7.cloudfront.net/images/partners/partners75/53216e16ef1e8.jpg",
+      "logoUrl2": "https://d8it4huxumps7.cloudfront.net/images/partners/partners125/53216e16ef1e8.jpg",
+      "name": "Indian Institute of Technology (IIT), Bombay",
+      "official_email_domains": "@iitb.ac.in",
+      "public_url": "c/indian-institute-of-technology-iit-bombay-placement-interview-competitions-articles-videos-604",
+      "show_evaluator_login_link": false,
+      "tier": 1
+    },
+    "organization_id": 604,
+    "payment_services": [],
+    "prizes": [
+      {
+        "cash": 150000,
+        "cash_postfix": null,
+        "certificate": 0,
+        "currency": "fa-rupee",
+        "currencyCode": "INR",
+        "entity_id": 1818894,
+        "entity_type": "App\\Model\\Opportunity",
+        "id": 3889760,
+        "max_cash": null,
+        "others": "",
+        "pre_placement_internship": 0,
+        "pre_placement_opportunity": 0,
+        "prize_type": "cash",
+        "rank": "Top 3 Winners"
+      }
+    ],
+    "public_url": "hackathons/anveshak-open-world-object-detection-for-remote-sensing-iit-bombay-1818894",
+    "region": "offline",
+    "registerCount": 3,
+    "regnRequirements": {
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
+      "end_regn_dt": "2026-11-30T00:01:00+05:30",
+      "max_team_size": 4,
+      "min_team_size": 1,
+      "opportunity_id": 1818894,
+      "reg_status": "STARTED",
+      "remain_days": "9 days left",
+      "remainingDaysArray": {
+        "durations": 9,
+        "text": " days left"
+      },
+      "remaining_time": 856221,
+      "show_deadline": 1,
+      "start_regn_dt": "2026-11-19T00:00:00+05:30",
+      "work_location_type": "city"
+    },
+    "regn_open": 1,
+    "required_skills": [
+      {
+        "id": 644806,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921273,
+          "subject_id": 644806
+        },
+        "skill": "Remote sensing and digital Image processing",
+        "skill_name": "Remote sensing and digital Image processing"
+      },
+      {
+        "id": 646368,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921274,
+          "subject_id": 646368
+        },
+        "skill": "Image Recognition",
+        "skill_name": "Image Recognition"
+      },
+      {
+        "id": 646619,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921275,
+          "subject_id": 646619
+        },
+        "skill": "Machine Learning Concepts",
+        "skill_name": "Machine Learning Concepts"
+      },
+      {
+        "id": 646912,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921276,
+          "subject_id": 646912
+        },
+        "skill": "Pattern Recognition",
+        "skill_name": "Pattern Recognition"
+      },
+      {
+        "id": 645580,
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921277,
+          "subject_id": 645580
+        },
+        "skill": "Artificial Intelligence (AI)",
+        "skill_name": "Artificial Intelligence (AI)"
+      }
+    ],
+    "seo_url": "https://unstop.com/hackathons/anveshak-open-world-object-detection-for-remote-sensing-iit-bombay-1818894",
+    "short_id": "qta6UJR",
+    "short_url": "https://unstop.com/o/qta6UJR",
+    "status": "LIVE",
+    "subtype": "online_coding_challenge",
+    "tags": [],
+    "thumb": null,
+    "title": "Anveshak: Open-World Object Detection for Remote Sensing",
+    "type": "hackathons",
+    "updated_at": "2026-11-19T14:25:47+05:30",
+    "viewsCount": 2842,
+    "visibility": "public",
+    "workfunction": [
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1857,
+        "name": "Model Training & Evaluation",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921283,
+          "subject_id": 1857
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      },
+      {
+        "batch_id": 11,
+        "created_at": "2026-02-06T23:31:46+05:30",
+        "description": "",
+        "id": 1859,
+        "name": "Computer Vision",
+        "pivot": {
+          "ai_generated": true,
+          "entity_id": 1818894,
+          "id": 6921284,
+          "subject_id": 1859
+        },
+        "updated_at": "2026-02-06T23:31:46+05:30",
+        "work_function_name": null
+      }
+    ]
+  },
+  "reg_deadline": "2026-11-30T00:01:00+05:30",
+  "reg_opens_at": "2026-11-19T00:00:00+05:30",
+  "source": "unstop",
+  "source_id": "1818894",
+  "sponsors": [],
+  "starts_at": null,
+  "tagline": null,
+  "team_max": 4,
+  "team_min": 1,
+  "themes": [],
+  "title": "Anveshak: Open-World Object Detection for Remote Sensing",
+  "tracks": [],
+  "url": "https://unstop.com/hackathons/anveshak-open-world-object-detection-for-remote-sensing-iit-bombay-1818894"
+}
