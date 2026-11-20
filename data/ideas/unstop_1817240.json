@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-20T10:19:23.690775+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817240",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "An edge AI system that performs real-time classification and anomaly detection on optical spectrometer outputs from the UEMK Space Observatory.",
+      "problem_statement": "AI & Intelligent Systems: Deploy ultra-low latency neural architectures and computer vision algorithms for real-time sensor intelligence.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AstroSpectra: AI-Powered Astronomical Spectral Line Identifier",
+      "track": "AI & Intelligent Systems",
+      "why_it_could_win": "Directly ties into the UEMK Space Observatory collaboration and leverages computer vision/classification models proven to win technical hackathons like NeuroForge."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "A hardware-software prototype transmitting high-speed digital data through modulated LED light sources using Arduino and photodiode receivers.",
+      "problem_statement": "Photonics & Optical Innovation: Build real-world solutions using optical sensors, lasers, fiber-optic communication, smart displays, or optical imaging systems.",
+      "stack": [
+        "C++",
+        "Arduino",
+        "Python",
+        "ESP32"
+      ],
+      "title": "Li-Fi CommBridge: Low-Latency Optical Wireless Data Link",
+      "track": "Photonics & Optical Innovation",
+      "why_it_could_win": "Matches the specialized SPIE OPTICA Student Chapter organizer profile by focusing heavily on light-based optical communication rather than generic software."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An optical imaging and computer vision tool that detects micro-cracks and busbar failures in solar cells using electroluminescence imaging.",
+      "problem_statement": "Photonics & Optical Innovation: Build real-world solutions using optical sensors, lasers, fiber-optic communication, smart displays, solar devices, or optical imaging systems.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite",
+        "Flask"
+      ],
+      "title": "SolarCell Vision: Automated Micro-Defect Inspector for Photovoltaic Panels",
+      "track": "Photonics & Optical Innovation",
+      "why_it_could_win": "Combines green technology with practical optical imaging, mimicking industrial computer vision pipelines that score high with hardware and domain-expert judges."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "A low-power mesh network of ESP32 sensor nodes that communicate environmental telemetry offline during network blackouts.",
+      "problem_statement": "Robotics & IoT (Hardware Track): Bring hardware to life. Build autonomous robots, smart gadgets, automated control systems, and connected IoT devices.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa",
+        "Node.js",
+        "MQTT"
+      ],
+      "title": "EdgeMesh IoT: LoRa-Powered Autonomous Environmental Sensor Node",
+      "track": "Robotics & IoT (Hardware Track)",
+      "why_it_could_win": "Features robust offline edge networking hardware with a working physical demo, mirroring proven hardware-heavy winners at regional hackathons."
+    },
+    {
+      "build_hours": 25,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A real-time edge application that extracts heart rate and blood oxygen estimations from facial video streams using ambient optical reflections.",
+      "problem_statement": "AI & Intelligent Systems: Deploy ultra-low latency neural architectures, computer vision algorithms, and local edge inference models.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "OpenCV",
+        "MediaPipe"
+      ],
+      "title": "OptiScan rPPG: Contactless Vital Signs Monitor via Smartphone Camera",
+      "track": "AI & Intelligent Systems",
+      "why_it_could_win": "Demonstrates advanced signal processing and computer vision running locally on the edge, matching the winning criteria of health-tech and AI fusion tracks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

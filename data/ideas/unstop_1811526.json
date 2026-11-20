@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-20T10:19:14.654061+00:00",
+  "grounding": {
+    "domains": [
+      "hardware",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1811526",
+  "ideas": [
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1179000073",
+        "github:356385160"
+      ],
+      "pitch": "A C-based embedded energy optimization unit that calculates renewable energy mix ratios and dynamically sheds non-critical microgrid loads.",
+      "problem_statement": "Theme 1 (CX01): Powering a Sustainable Future - Build energy, environment and resource solutions.",
+      "stack": [
+        "C",
+        "Arduino",
+        "ESP32",
+        "Power Sensors"
+      ],
+      "title": "SolarEdge Microgrid Dispatcher",
+      "track": "Theme 1 (CX01)",
+      "why_it_could_win": "Demonstrates pure embedded engineering efficiency and directly aligns with the IEEE Power and Energy Society organizing body's core evaluation priorities."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An edge-computed ultrasonic and camera-driven bin monitor that classifies dry vs wet waste locally using lightweight vision models.",
+      "problem_statement": "Theme 2 (CX02): Embedded Intelligence - Design sensor-driven embedded systems that monitor, decide and respond in the real world.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi Zero",
+        "Ultrasonic Sensors"
+      ],
+      "title": "Smart Campus Segregated Waste Node",
+      "track": "Theme 2 (CX02)",
+      "why_it_could_win": "Combines hardware sensors with computer vision, matching the winning pattern of a physical live demo that works reliably under harsh time constraints."
+    },
+    {
+      "build_hours": 14,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1423023064"
+      ],
+      "pitch": "A real-time accelerometer monitoring rig running deterministic threshold algorithms to detect motor bearing anomalies before failure occurs.",
+      "problem_statement": "Theme 2 (CX02): Embedded Intelligence - Design sensor-driven embedded systems that monitor, decide and respond in the real world.",
+      "stack": [
+        "C++",
+        "MPU6050 Accelerometer",
+        "ESP8266",
+        "MQTT"
+      ],
+      "title": "Industrial Vibration Anomaly Sentinel",
+      "track": "Theme 2 (CX02)",
+      "why_it_could_win": "Solves a real industrial monitoring challenge with low-latency edge calculations, which appeals heavily to judges from the IEEE Circuits and Systems Society."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:853494172"
+      ],
+      "pitch": "An automated tank level and flow rate sensor network that stops overflow leaks and optimizes overhead pump runtimes during off-peak power hours.",
+      "problem_statement": "Theme 1 (CX01): Powering a Sustainable Future - Build energy, environment and resource solutions.",
+      "stack": [
+        "NodeMCU",
+        "Water Flow Sensors",
+        "Relay Modules",
+        "Blynk Dashboard"
+      ],
+      "title": "IoT Campus Water Reservoir Automator",
+      "track": "Theme 1 (CX01)",
+      "why_it_could_win": "Provides a tangible, highly applicable civic resource conservation solution that judges can instantly evaluate on a physical prototype bench setup."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:356385160",
+        "github:1179000073"
+      ],
+      "pitch": "A localized relay controller that senses room occupancy via PIR and current draw, automatically cutting standby power to idle lab equipment.",
+      "problem_statement": "Theme 1 (CX01): Powering a Sustainable Future - Build energy, environment and resource solutions.",
+      "stack": [
+        "Arduino Uno",
+        "PIR Sensor",
+        "Current Sensor SCT-013",
+        "Relay"
+      ],
+      "title": "Smart Lab Energy Lockdown Unit",
+      "track": "Theme 1 (CX01)",
+      "why_it_could_win": "Directly tackles institutional energy waste on college campuses, giving BMSITM judges an immediately relatable and deployable prototype."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

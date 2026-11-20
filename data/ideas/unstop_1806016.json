@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-20T10:19:10.136452+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1806016",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An ESP32 and LoRa-powered decentralized mesh communication system designed for emergency services during total cellular and power blackouts in remote terrains.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "C++",
+        "ESP32 Arduino",
+        "LoRa SX1276",
+        "React Native",
+        "Node.js"
+      ],
+      "title": "AeroMesh IoT: Offline Disaster Mesh Network for First Responders",
+      "track": "IoT",
+      "why_it_could_win": "Directly targets the core judging criterion of practical problem-solving for India's infrastructure challenges, following the exact pattern of hardware-software integration seen in HACKATHON-prahari-link-TEAM-SB."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered platform utilizing multi-spectral satellite imagery and computer vision models to detect early crop stress and unauthorized land usage changes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "OpenCV",
+        "React"
+      ],
+      "title": "AgriSentry AI: Satellite Monitoring for Agricultural Land and Crop Stress",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Leverages geospatial data analysis which is highly attractive to national-level judges looking for impactful societal applications, mirroring the success of GeoNex-ATLAS."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A real-time computer vision tool using MediaPipe Pose to analyze worker posture in industrial environments and flag repetitive strain injury risks instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "XGBoost",
+        "OpenCV",
+        "Streamlit"
+      ],
+      "title": "PoseGuard: Biomechanical Workplace Ergonomic & Injury Prevention System",
+      "track": "Machine Learning",
+      "why_it_could_win": "Combines lightweight machine learning with immediate utility, following the proven architecture of CricketVision_AI by running inference locally without expensive cloud dependencies."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An anti-money laundering risk scoring platform that merges graph neural networks with gradient boosting to flag suspicious financial transfer chains.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "LightGBM",
+        "AWS Lambda",
+        "Next.js"
+      ],
+      "title": "FinGraph AML: AWS-Powered Graph Intelligence for Transaction Risk Detection",
+      "track": "Software Development",
+      "why_it_could_win": "Employs complex data structures and explainable AI models, satisfying judges who look for high technical depth similar to the Bito platform."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A localized security information and event management tool that ingests network packet captures and forecasts future breach probabilities using statistical regression.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Scikit-Learn",
+        "Pandas",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "SafeChain: Real-Time Cybersecurity Threat Log Aggregator and Incident Forecaster",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Brings rigorous statistical forecasting into cybersecurity operations, aligning with the predictive modeling precision demonstrated in the AI-incident-forecasting winner."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

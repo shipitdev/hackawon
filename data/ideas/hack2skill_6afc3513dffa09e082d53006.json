@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-20T10:19:05.054634+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo"
+    ],
+    "problem_source_count": 5,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6afc3513dffa09e082d53006",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1241231621"
+      ],
+      "pitch": "A clinical-grade AI triage and multilingual patient intake web application tailored for rural and urban healthcare coordination.",
+      "problem_statement": "PS-01: AI/ML in Healthcare Systems",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "OpenCV"
+      ],
+      "title": "MediTriage AI",
+      "track": "Artificial Intelligence",
+      "why_it_could_win": "Focuses on a working live demo and multilingual usability which directly addresses manual hospital workflows."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1353074073"
+      ],
+      "pitch": "An intelligent supply chain conversational assistant that parses messy vendor CSV datasets and highlights fulfillment bottlenecks instantly.",
+      "problem_statement": "PS-02: Generative AI for Supply Chain Management",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Gemini API",
+        "Pandas"
+      ],
+      "title": "SupplySync GenAI Assistant",
+      "track": "Industry 5.0",
+      "why_it_could_win": "Solves complex decision-making bottlenecks with an intuitive chat interface that non-technical supply chain managers can test live."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1182199849"
+      ],
+      "pitch": "An AI-powered mock interview and skill assessment platform that generates custom rubrics and real-time feedback for engineering students.",
+      "problem_statement": "PS-03: AI-Driven Training & Placement Support System",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "MediaPipe",
+        "Gemini API"
+      ],
+      "title": "PlacementReady AI",
+      "track": "Education",
+      "why_it_could_win": "Directly targets college placement cells and leverages a rubric-scored evaluation model proven to win academic hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A human-centric computer vision safety monitoring system that alerts factory floors when ergonomic strain or safety compliance thresholds are breached.",
+      "problem_statement": "PS-04: Applied AI Solutions for Industry 5.0",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "ErgoSafe Industry 5.0",
+      "track": "Industry 5.0",
+      "why_it_could_win": "Emphasizes human-AI collaboration and safety, aligning with Industry 5.0 principles instead of replacing workers."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An open-innovation personalized nutrition and dietary wellness assistant designed for institutional mess halls and local health tracking.",
+      "problem_statement": "PS-10: AI-Driven Drug Repurposing & Personalized Pharmacogenomics",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "OpenAI API",
+        "SQLite"
+      ],
+      "title": "NutriPulse AI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Delivers immediate end-user value through personalized meal generation and high-impact visual dashboards."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

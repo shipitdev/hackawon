@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-20T10:19:45.600984+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1818968",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A decentralized internal engineering documentation and onboarding platform built on AWS serverless tech, inspired by lifecycle intelligence tools.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon Bedrock",
+        "ChromaDB"
+      ],
+      "title": "AWS Campus Knowledge Mesh",
+      "track": "AWS Technologies",
+      "why_it_could_win": "Directly leverages AWS serverless infrastructure (Lambda, DynamoDB, Bedrock) while solving an acute team knowledge retention problem, aligning with AWS sponsor judging criteria."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent that monitors AWS S3 and RDS pipelines, generates verifiable fixes, and opens GitHub pull requests.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Amazon S3",
+        "Amazon RDS",
+        "AWS Bedrock",
+        "GitHub API"
+      ],
+      "title": "CloudData-Lineage Agent",
+      "track": "AWS Technologies",
+      "why_it_could_win": "Translates a proven Grand Prize-winning data-engineering agent pattern directly to native AWS services, showcasing high technical depth."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router deployed on AWS ECS that routes incoming user prompts to the most cost-effective AWS Bedrock model based on vector similarity.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Superlinked",
+        "Amazon ECS",
+        "AWS Bedrock",
+        "FastAPI"
+      ],
+      "title": "Semantic Cloud Router",
+      "track": "AWS Technologies",
+      "why_it_could_win": "Replicates a first-prize winning architecture (Superlinked x Qwen) adapted for cloud cost optimization, which resonates heavily with enterprise AWS judges."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A pre-deployment risk diagnosis agent that verifies AWS CloudFormation and Terraform templates against enterprise BPMN workflow rules using LangGraph and AWS APIs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "BPMN",
+        "AWS CloudFormation",
+        "AWS Bedrock"
+      ],
+      "title": "BPMN Cloud Compliance Guard",
+      "track": "AWS Technologies",
+      "why_it_could_win": "Combines enterprise compliance workflows with AWS infrastructure-as-code scanning, hitting the sweet spot of practical cloud governance."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A federated Model Context Protocol server deployment on Amazon EKS using AWS App Mesh and GitOps for secure multi-tenant medical data retrieval.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "HTML",
+        "Kubernetes",
+        "Amazon EKS",
+        "ArgoCD",
+        "AWS App Mesh"
+      ],
+      "title": "Federated Clinical MCP on EKS",
+      "track": "AWS Technologies",
+      "why_it_could_win": "Demonstrates advanced Kubernetes and container networking skills on AWS (EKS), standing out through genuine infrastructure complexity."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

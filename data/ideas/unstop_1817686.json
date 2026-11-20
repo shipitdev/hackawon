@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-20T10:19:28.565198+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817686",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A Python-based reconnaissance tool tailored for the MyOnne platform to map endpoints, discover hidden parameters, and chain low-severity bugs into high-impact RCE or IDOR vulnerabilities.",
+      "problem_statement": "MyOnne National Bug Bounty Challenge 2026: 48-hour application testing and vulnerability reporting in an authorised environment.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "NetworkX",
+        "Playwright"
+      ],
+      "title": "BountyGraph: Automated Attack Surface Mapper & Vulnerability Chaining Tool",
+      "track": "",
+      "why_it_could_win": "Leverages the Reportr winning pattern by generating structured, high-grade technical vulnerability insights and reports automatically, saving hours of manual documentation during a tight 48-hour window."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A defense-in-depth security proxy intercepting web traffic and application requests during security research testing to log injection attempts and prevent unintended exploit propagation.",
+      "problem_statement": "MyOnne National Bug Bounty Challenge 2026: 48-hour application testing and vulnerability reporting in an authorised environment.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Docker",
+        "Redis"
+      ],
+      "title": "SecureGuard: Real-Time Prompt Injection & Payload Defense Gateway",
+      "track": "",
+      "why_it_could_win": "Builds on the BitGN personal agent challenge winning pattern of defense-in-depth and payload hardening, demonstrating deep technical comprehension of application-layer security barriers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:965357458"
+      ],
+      "pitch": "An open-source tamper-evident logging framework that records every HTTP request, payload, and tool execution made during the bug bounty challenge to prove responsible disclosure compliance.",
+      "problem_statement": "MyOnne National Bug Bounty Challenge 2026: 48-hour application testing and vulnerability reporting in an authorised environment.",
+      "stack": [
+        "Go",
+        "SQLite",
+        "SQLite-Crypt",
+        "CLI"
+      ],
+      "title": "AegisLog: Ethical Telemetry and Audit Trail for Bug Hunters",
+      "track": "",
+      "why_it_could_win": "Adapts the Guardian winning pattern of ethical telemetry and governance, giving judges confidence that all testing actions performed within the MyOnne platform were strictly accountable and authorised."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An analytical dashboard that aggregates reported vulnerabilities, computes contextual risk scores using graph intelligence, and visualizes multi-step exploit vectors on the target app.",
+      "problem_statement": "MyOnne National Bug Bounty Challenge 2026: 48-hour application testing and vulnerability reporting in an authorised environment.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Neo4j",
+        "Python"
+      ],
+      "title": "RiskFlow: Graph-Powered CVSS Scoring and Exploit Path Visualizer",
+      "track": "",
+      "why_it_could_win": "Employs the Bito AI Innovation Hackathon winning pattern of combining graph intelligence with explainable risk analytics to help triage security findings rapidly."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A zero-knowledge proof generator that allows security researchers to cryptographically prove they discovered a specific bug hash or endpoint condition without leaking the underlying exploit payload before verification.",
+      "problem_statement": "MyOnne National Bug Bounty Challenge 2026: 48-hour application testing and vulnerability reporting in an authorised environment.",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "SnarkJS"
+      ],
+      "title": "ZeroTrace: ZK-Verified Vulnerability Submission Proofport",
+      "track": "",
+      "why_it_could_win": "Utilizes the Synthesis Hackathon winning pattern of ZK circuits and noir-lang to ensure trustless, confidential verification of security research findings."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

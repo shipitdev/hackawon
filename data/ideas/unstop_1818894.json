@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-20T10:19:41.934448+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "data",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1818894",
+  "ideas": [
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:694390550"
+      ],
+      "pitch": "A single object detector built from random initialization that detects 40 base classes, flags unknown objects, and incrementally learns new classes without catastrophic forgetting.",
+      "problem_statement": "Design and train one remote sensing detector that learns in two rounds, detects 40 known classes, flags unknowns, and incrementally learns new classes without pretrained weights.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "TorchVision",
+        "OpenCV",
+        "NumPy"
+      ],
+      "title": "AeroGuard-OWOD: Open-World Remote Sensing Detector",
+      "track": "",
+      "why_it_could_win": "Directly targets the core technical requirements of Anveshak by solving catastrophic forgetting under zero pretrained weight constraints, which is the exact hard engineering challenge judges will evaluate."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1266090747"
+      ],
+      "pitch": "An auxiliary energy-based outlier detection head coupled with a lightweight CNN trained from scratch to isolate unknown objects in overhead high-resolution tiles.",
+      "problem_statement": "Imagery always contains unknown objects the taxonomy does not cover and requires flagging them rather than forcing them into known classes.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Scikit-Learn",
+        "Rasterio"
+      ],
+      "title": "SatNovelty: Zero-Shot Unknown Object Flagging in Satellite Imagery",
+      "track": "",
+      "why_it_could_win": "Judges will test edge cases with out-of-distribution objects; an explicit energy-bounded novelty scoring mechanism provides a mathematically sound solution for unknown classification."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1075630497"
+      ],
+      "pitch": "A parameter-efficient architectural extension for scratch-trained detectors using exemplar memory buffers and prototype-based distillation to assimilate new classes rapidly.",
+      "problem_statement": "New classes arrive gradually with only a few examples, and learning new categories can quietly degrade performance on old ones.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Albumentations",
+        "Pandas"
+      ],
+      "title": "IncGeo-Prompt: Few-Shot Incremental Learning for Earth Observation",
+      "track": "",
+      "why_it_could_win": "Addresses the incremental few-shot adaptation constraint without relying on forbidden ImageNet or COCO backbone pre-training weights."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1079913400",
+        "github:1079921550"
+      ],
+      "pitch": "A web-based interface for visualizing real-time remote sensing detections, highlighting confidence scores for known classes, and flagging novel unknown objects on geospatial maps.",
+      "problem_statement": "Design and train one remote sensing detector that learns in two rounds and keeps the same model throughout.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "FastAPI",
+        "Leaflet.js",
+        "TailwindCSS"
+      ],
+      "title": "GeoWatch-Dashboard: Interactive Open-World Object Inspection UI",
+      "track": "",
+      "why_it_could_win": "Provides a polished, demonstrable live UI that showcases model outputs clearly, a proven pattern from winning hackathon entries that helps non-technical judges grasp backend performance."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A memory-efficient episodic data storage and rehearsal pipeline designed to prevent catastrophic forgetting when training vision detectors from scratch on multi-round remote sensing data.",
+      "problem_statement": "Learning new categories can quietly degrade performance on old ones while training entirely from random initialization with no pretrained weights.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "SQLite",
+        "FastAPI"
+      ],
+      "title": "Remotesense-Replay: Dynamic Replay Buffer Manager for Scratch Networks",
+      "track": "",
+      "why_it_could_win": "Solves the specific data-management bottleneck of incremental learning under strict random initialization rules, demonstrating deep systems and algorithmic understanding."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
