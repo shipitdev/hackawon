@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-21T10:03:51.589184+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1772221",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1181028879",
+        "github:938030912"
+      ],
+      "pitch": "A rapid developer scaffolding CLI that instantly wires up FastAPI endpoints, database schemas, and AI code review hooks for hyper-short hackathons.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "LangGraph"
+      ],
+      "title": "RapidPrototype Flow",
+      "track": "",
+      "why_it_could_win": "Targets a pain familiar to developers, students or organisers in the room who are struggling with a restrictive three-hour time limit."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1334000568",
+        "github:1207207353"
+      ],
+      "pitch": "An offline-first university campus query router that uses local embeddings to instantly direct student inquiries to the correct department office.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Chroma",
+        "FastAPI",
+        "Embeddings"
+      ],
+      "title": "Smart Campus Assistant",
+      "track": "",
+      "why_it_could_win": "Solved a problem the judges feel themselves by automating university administrative queries directly relevant to NIMS University staff and students."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:855084718",
+        "github:1296916648"
+      ],
+      "pitch": "A lightweight local code integrity checker built specifically for rapid three-hour prototype submissions to catch syntax errors before final deployment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "GROQ",
+        "Llama"
+      ],
+      "title": "VibeCheck Code Reviewer",
+      "track": "",
+      "why_it_could_win": "Genuinely hard engineering executed under tight constraints, echoing proven pull-request review tools that secure runner-up placements."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1171690684"
+      ],
+      "pitch": "An instant dataset profiling and integrity rating utility for student data science projects to automate exploratory data analysis on the fly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "DataVeritas Lite",
+      "track": "",
+      "why_it_could_win": "Directly appeals to the STEM Department judges by automating data profiling tasks required in academic research projects."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A minimalist BPMN-inspired workflow visualizer that maps out multi-agent execution steps for real-time risk assessment.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React"
+      ],
+      "title": "Agentic Workflow Orchestrator",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced technical execution and clear visual communication of real-world applications within a strict time limit."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
