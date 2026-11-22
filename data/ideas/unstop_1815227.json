@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-22T10:06:47.819643+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1815227",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1075630497",
+        "github:935702069"
+      ],
+      "pitch": "An AI-powered agricultural advisory tool using satellite and climate data to optimize local irrigation scheduling for water conservation under UN SDG 6.",
+      "problem_statement": "UN SDG linked real-world agricultural water scarcity problem",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "FastAPI",
+        "OpenWeatherMap API"
+      ],
+      "title": "AquaCrop Advisor",
+      "track": "",
+      "why_it_could_win": "Directly aligns with UN SDG 6 on clean water and sanitation, featuring clear measurable impact on water savings and efficient execution using free-tier weather APIs and pretrained LLM reasoning."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1075630497",
+        "github:927292639"
+      ],
+      "pitch": "A mobile web app that classifies urban recyclables using a pretrained computer vision model to promote correct waste segregation for UN SDG 11.",
+      "problem_statement": "UN SDG linked sustainable cities and communities waste management problem",
+      "stack": [
+        "React",
+        "TensorFlow.js",
+        "TailwindCSS"
+      ],
+      "title": "EcoBin Vision",
+      "track": "",
+      "why_it_could_win": "Leverages a pretrained MobileNet model for instant image classification, addressing urban waste management with tangible environmental impact metrics favored by judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [],
+      "pitch": "A localized multilingual RAG assistant that matches open-source educational resources to regional curricula for underserved students under UN SDG 4.",
+      "problem_statement": "UN SDG linked quality education accessibility problem",
+      "stack": [
+        "Python",
+        "LangChain",
+        "ChromaDB",
+        "Streamlit"
+      ],
+      "title": "EduBridge RAG",
+      "track": "",
+      "why_it_could_win": "Utilizes Retrieval-Augmented Generation (RAG) with local vector search, hitting the exact technical recommendation in the hackathon guidelines while solving education inequality."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:923146379",
+        "github:1079913400"
+      ],
+      "pitch": "A dashboard predicting community solar microgrid output using historical weather prompts and rule-based logic to support UN SDG 7.",
+      "problem_statement": "UN SDG linked affordable and clean energy transition problem",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Plotly",
+        "Flask"
+      ],
+      "title": "CleanEnergy Localizer",
+      "track": "",
+      "why_it_could_win": "Addresses clean energy goals with a quantitative forecasting dashboard, following the proven win pattern of energy optimization and clear metric visualization."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1079921550"
+      ],
+      "pitch": "A lightweight procurement evaluation prompt tool that estimates and suggests sustainable supply chain alternatives for local businesses under UN SDG 12.",
+      "problem_statement": "UN SDG linked responsible consumption and production problem",
+      "stack": [
+        "Node.js",
+        "Express",
+        "OpenAI API",
+        "HTML5"
+      ],
+      "title": "GreenPath Carbon Estimator",
+      "track": "",
+      "why_it_could_win": "Combines structured prompt engineering with a clean API interface to deliver immediate economic and carbon-reduction insights within the tight 8-hour constraint."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-22T10:07:52.643758+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1822546",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "A Python decision engine that models risk-adjusted return on investment for data packs, dynamically bidding on data only when the marginal information gain exceeds the auction price.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Jupyter Notebook"
+      ],
+      "title": "NovaCredit Budget Optimizer Agent",
+      "track": "",
+      "why_it_could_win": "Wins on the Smart Spending and Portfolio Profit criteria by treating data acquisition as a knapsack problem with uncertainty, directly addressing the core tension of the challenge."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1181344931",
+        "github:680478376"
+      ],
+      "pitch": "A risk-scoring pipeline built with LightGBM and SHAP values to generate the required one-page memo, ensuring credit decisions are mathematically justified and demonstrably fair.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LightGBM",
+        "SHAP",
+        "Matplotlib"
+      ],
+      "title": "FairLend Explainability Wrapper",
+      "track": "",
+      "why_it_could_win": "Directly targets the Memo judging criterion by automatically generating clear, audit-ready fairness metrics and variable importance charts for the judges."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1434989874"
+      ],
+      "pitch": "A Monte Carlo simulation tool to test credit card assignment strategies against rival bidding behaviors and hidden default probabilities before locking in final choices.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "NumPy",
+        "SciPy",
+        "Pandas"
+      ],
+      "title": "Adverse Selection Simulation Engine",
+      "track": "",
+      "why_it_could_win": "Maximizes Portfolio Profit by stress-testing the lending portfolio against worst-case hidden default distributions rather than relying on simple averages."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:272409903"
+      ],
+      "pitch": "A rapid prototyping script that evaluates the incremental predictive power of each available data pack against its auction cost using cross-validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "title": "Dynamic Data Pack ROI Calculator",
+      "track": "",
+      "why_it_could_win": "Wins Smart Spending by mathematically proving which data packs were treasure and which were traps, providing the exact justification needed for the memo."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:435231380"
+      ],
+      "pitch": "An end-to-end pipeline that ingests baseline and purchased datasets, trains a tiered risk model, maps applicants to optimal card tiers, and compiles the final submission package.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "ReportLab"
+      ],
+      "title": "Automated Credit Policy Generator",
+      "track": "",
+      "why_it_could_win": "Ensures all deliverables (card decisions, notebook, and one-page memo) are fully automated and error-free within the tight 4-hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

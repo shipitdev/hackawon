@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-22T10:06:56.293360+00:00",
+  "grounding": {
+    "domains": [
+      "healthtech",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1819682",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An AI-enabled document parser that converts scattered medical records, prescriptions, and lab reports into a structured, searchable timeline for patients and physicians.",
+      "problem_statement": "AI-Assisted Personal Health Record Organisation",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Next.js",
+        "Google Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "MedVault AI",
+      "track": "AI-Assisted Personal Health Record Organisation",
+      "why_it_could_win": "Directly targets Track 1 with a functioning end-to-end processing pipeline that judges can test live with their own sample PDF uploads."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A proactive patient tracking system that monitors missed follow-up visits and overdue diagnostic tests, automatically alerting both patients and care coordinators.",
+      "problem_statement": "Patient Follow-Up and Care Continuity",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "Twilio API"
+      ],
+      "title": "CareContinuum",
+      "track": "Patient Follow-Up and Care Continuity",
+      "why_it_could_win": "Solves Track 2's specific adherence problem by combining automated SMS/WhatsApp triggers with a clear clinical dashboard that highlights at-risk patients."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A data-driven risk stratification engine that generates personalized preventive health screening roadmaps based on user lifestyle data, age, and regional disease prevalence.",
+      "problem_statement": "Preventive Healthcare Assessment & Awareness",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Scikit-Learn",
+        "Pandas"
+      ],
+      "title": "VitaRisk AI",
+      "track": "Preventive Healthcare Assessment & Awareness",
+      "why_it_could_win": "Aligns with Track 3 by demonstrating clear preventive health impact with quantifiable risk scores and actionable wellness recommendations."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage and monitoring assistant featuring rPPG heart rate sensing via smartphone camera and multi-lingual voice support for post-hospitalisation check-ins.",
+      "problem_statement": "Post-hospitalisation Recovery & Patient Monitoring",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "React",
+        "Web Speech API",
+        "Node.js"
+      ],
+      "title": "MediScan Triage",
+      "track": "Post-Hospitalisation Recovery",
+      "why_it_could_win": "Replicates the winning formula of hard engineering and live camera-based biometrics seen in the hackathon examples."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [],
+      "pitch": "An enterprise-grade document and data interoperability middleware designed in collaboration with AssistHealth to unify disparate health data silos into standard HL7 FHIR formats.",
+      "problem_statement": "AI-Assisted Personal Health Record Organisation",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "PostgreSQL",
+        "FHIR SDK"
+      ],
+      "title": "AssistHealth Bridge",
+      "track": "AI-Assisted Personal Health Record Organisation",
+      "why_it_could_win": "Directly leverages AssistHealth's mentorship and industry challenges by solving a real-world integration bottleneck faced by their platform."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

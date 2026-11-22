@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-11-22T10:08:08.611365+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "polish",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1822884",
+  "ideas": [
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "A high-performance local judge and test-case runner specifically optimized for competitive programming contests.",
+      "problem_statement": "ELUCode competitive coding contest involving algorithmic challenges and hidden test-case evaluations.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "AlgoBench",
+      "track": "",
+      "why_it_could_win": "Addresses the immediate pain point of participants needing fast local verification before submitting to automated graders, aligning with the competitive programming focus of the event."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "A specialized leaderboard and tie-breaking engine that computes cumulative first-solve times precisely.",
+      "problem_statement": "ELUCode competitive coding contest where ties are broken based on the sum of time of the first correct solution.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Redis"
+      ],
+      "title": "TimeTie",
+      "track": "",
+      "why_it_could_win": "Directly solves the exact ranking and tie-breaking criteria stated by the organizers, showing deep alignment with contest mechanics."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A lightweight syntax and logic suggestion helper tailored for rapid debugging during fast-paced 2-hour coding sprints.",
+      "problem_statement": "ELUCode fast-paced 2-hour competitive coding contest challenging algorithmic thinking and coding speed.",
+      "stack": [
+        "TypeScript",
+        "VS Code API"
+      ],
+      "title": "SpeedDebug",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of solving a problem judges and participants feel directly in the room—namely, shaving seconds off debugging time."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "An instant verification tool for top performers to showcase EduLinkUp ecosystem achievement badges and certificates.",
+      "problem_statement": "ELUCode competitive coding contest where top performers are recognized through special achievement badges and certificates.",
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "TailwindCSS"
+      ],
+      "title": "EduBadge Verify",
+      "track": "",
+      "why_it_could_win": "Enhances the ecosystem value for organizers by streamlining the reward distribution and verification process."
+    },
+    {
+      "build_hours": 2,
+      "inspired_by": [],
+      "pitch": "A terminal-based utility to instantly generate, test, and analyze logical puzzles and edge-case inputs for algorithmic problems.",
+      "problem_statement": "ELUCode competitive coding contest with problems ranging from logical puzzles to algorithmic challenges.",
+      "stack": [
+        "Python"
+      ],
+      "title": "LogicPuzzle CLI",
+      "track": "",
+      "why_it_could_win": "Targets the exact skill set tested by the contest—logic building and efficient coding practices—with exceptional execution speed."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

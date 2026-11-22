@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-22T10:07:14.118033+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1821954",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1074933780",
+        "github:1331302398"
+      ],
+      "pitch": "An AI-driven platform that analyses GitHub profiles, resumes, and coding activity to automatically assess current skill levels and map them directly to targeted job descriptions.",
+      "problem_statement": "Where do I currently stand in terms of my skills and what skills do I need to develop for my desired career?",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Gemini API"
+      ],
+      "title": "SkillGapAI",
+      "track": "Skill Assessment and Gap Analysis",
+      "why_it_could_win": "Directly answers the core challenge questions set by UnsaidTalks Education by focusing heavily on automated skill discovery and actionable gap analysis using structured LLM extraction."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1193031299",
+        "github:1331302398"
+      ],
+      "pitch": "A dynamic milestone generator that takes a student's career goal and builds a hyper-personalized project-based learning roadmap with embedded auto-graded quizzes.",
+      "problem_statement": "What should I do next to achieve my career goals and build a portfolio?",
+      "stack": [
+        "JavaScript",
+        "FastAPI",
+        "Pydantic",
+        "LangChain"
+      ],
+      "title": "RoadmapGen",
+      "track": "AI-Powered Learning Roadmaps",
+      "why_it_could_win": "Combines personalized learning paths with dynamic assessment generation, mimicking proven winning formats from educational-tech hackathons."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1245565654",
+        "github:1074933780"
+      ],
+      "pitch": "A resume-driven mock interview simulator that generates role-specific technical and behavioral questions, giving real-time structured feedback to boost career readiness.",
+      "problem_statement": "Career Discovery and Role Recommendations and Progress Tracking",
+      "stack": [
+        "JavaScript",
+        "React",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "HirePrep Coach",
+      "track": "Career Discovery and Role Recommendations",
+      "why_it_could_win": "Leverages proven patterns from mock interview and coaching applications that successfully won national AI hackathons."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent student support platform utilizing LangGraph to guide users through career exploration, resume auditing, and micro-learning modules.",
+      "problem_statement": "Core Focus Areas: Artificial Intelligence and Personalisation and Career Discovery",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "title": "AgenticCareerPath",
+      "track": "Artificial Intelligence and Personalisation",
+      "why_it_could_win": "Utilizes multi-agent orchestration architectures that heavily appeal to technical judges looking for complex agentic workflows."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1152129601",
+        "github:1034488175"
+      ],
+      "pitch": "An intelligent portfolio builder that parses static student project repositories and transforms them into interactive, recruiters-ready case studies with automated skill tagging.",
+      "problem_statement": "Project-Based Learning and Portfolio Development",
+      "stack": [
+        "React",
+        "Python",
+        "Django",
+        "Gemini API"
+      ],
+      "title": "PortfolioForge",
+      "track": "Project-Based Learning and Portfolio Development",
+      "why_it_could_win": "Solves the documentation and presentation bottleneck for student job seekers, directly aligning with the hackathon's portfolio development focus."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

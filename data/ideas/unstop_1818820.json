@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-22T10:06:53.298097+00:00",
+  "grounding": {
+    "domains": [
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1818820",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:940931560",
+        "github:1433746747"
+      ],
+      "pitch": "A web-based interactive puzzle chase platform explicitly styled after the Chernobyl 1986 lockdown, featuring multi-domain engineering riddles.",
+      "problem_statement": "Operation Blackout is a high-stakes, timed puzzle chase set in the frozen universe of Wormwood at 1:23 a.m. on 26 April 1986, requiring teams to solve sequential engineering and scientific challenges.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "Wormwood 1986 Chrono-Puzzle Engine",
+      "track": "",
+      "why_it_could_win": "Directly targets the core event theme and mechanics of Operation Blackout, offering organizers an engaging companion or training platform for their timed puzzle chase format."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1022921066",
+        "github:1163393786"
+      ],
+      "pitch": "An AI-guided terminal assistant that parses messy engineering constraints, circuit diagrams, and genetic sequences under tight time limits.",
+      "problem_statement": "Operation Blackout requires teams to think like an alchemist, circuit designer, signal engineer, and gene hunter within minutes under a shared 90-minute countdown.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "Streamlit"
+      ],
+      "title": "Prima Materia Alchemical Solver Assistant",
+      "track": "",
+      "why_it_could_win": "Leverages the winning pattern of high-utility live-demo tools by solving the exact high-pressure multi-disciplinary puzzle constraints of the hackathon theme."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:940931560"
+      ],
+      "pitch": "A rapid-fire circuit and signal debugging mini-game that trains participants to bypass corrupted systems before the reactor core overloads.",
+      "problem_statement": "Operation Blackout challenges teams with circuit design and signal engineering hurdles under extreme time pressure and penalty clocks for wrong turns.",
+      "stack": [
+        "TypeScript",
+        "Canvas API",
+        "WebAudio",
+        "React"
+      ],
+      "title": "Reactor 4 Circuit & Signal Simulator",
+      "track": "",
+      "why_it_could_win": "Focuses on a fully functional, highly polished live demo that matches the specific engineering branches highlighted in the Wormwood scenario."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:928533631"
+      ],
+      "pitch": "An agentic dashboard tracking multiple parallel timeline states and penalty countdown timers for teams navigating the multi-world puzzle chase.",
+      "problem_statement": "Operation Blackout takes place in the Multiverse of Matter where thousands of parallel worlds exist, tracked through a rigorous and unforgiving 90-minute game countdown.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "Multiverse of Matter Parallel World Tracker",
+      "track": "",
+      "why_it_could_win": "Employs an agentic architecture pattern proven to win fast-paced hackathons, tailored specifically to the narrative scale of Wormwood's parallel realities."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1433746747"
+      ],
+      "pitch": "A specialized string-matching and biological sequence puzzle utility designed to quickly decode rogue scientist logs and genetic lock codes.",
+      "problem_statement": "Operation Blackout requires teams to act as gene hunters to unlock the sequence protecting the stolen Prima Materia before time runs out.",
+      "stack": [
+        "Python",
+        "Flask",
+        "BioPython",
+        "TailwindCSS"
+      ],
+      "title": "Gene Hunter Sequence Decoder",
+      "track": "",
+      "why_it_could_win": "Delivers an impeccably working, domain-specific tool that directly addresses one of the four core pillars of the event's multidisciplinary challenge."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

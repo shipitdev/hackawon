@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-22T10:07:00.907217+00:00",
+  "grounding": {
+    "domains": [
+      "fintech",
+      "web3",
+      "data"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820715",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:220460323"
+      ],
+      "pitch": "A lightning-fast automated arbitrage bot utilizing flash loans to capitalize on instantaneous price discrepancies across decentralized exchanges.",
+      "problem_statement": "Segment D – Arbitrage: Build strategies that identify and exploit price differences across markets or exchanges.",
+      "stack": [
+        "JavaScript",
+        "Solidity",
+        "Ethers.js",
+        "Node.js"
+      ],
+      "title": "CrossDEX FlashArb Bot",
+      "track": "Segment D – Arbitrage",
+      "why_it_could_win": "Mirrors the exact architecture and execution strategy of proven flash loan arbitrage bots that won major Web3 hackathons by demonstrating instant capital efficiency."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "An AI-powered systematic trading terminal that fetches quantitative market signals and executes programmatic perp trades on orderbook DEXs.",
+      "problem_statement": "Segment B – Systematic: Build rule-based, algorithmic trading strategies using quantitative models and market data.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "FastAPI",
+        "WebSockets"
+      ],
+      "title": "Pacifica Alpha Copier",
+      "track": "Segment B – Systematic",
+      "why_it_could_win": "Leverages the automated strategy execution framework seen in winning AI trading platforms while focusing heavily on rigorous quantitative backtesting metrics."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1434989874"
+      ],
+      "pitch": "A high-frequency market making engine designed to manage orderbook spread, provide continuous liquidity, and mitigate inventory risk in crypto orderbooks.",
+      "problem_statement": "Segment C – MM/HFT (Market Making / High-Frequency Trading): Develop algorithms for liquidity provision, spread management, and high-speed trading.",
+      "stack": [
+        "C++",
+        "Python",
+        "AsyncIO",
+        "ZeroMQ"
+      ],
+      "title": "SpreadMaster HFT Engine",
+      "track": "Segment C – MM/HFT (Market Making / High-Frequency Trading)",
+      "why_it_could_win": "Demonstrates genuinely hard low-latency engineering and robust risk-management logic, which appeals directly to quantitative fund judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:980599492"
+      ],
+      "pitch": "An automated DEX vault strategy that dynamically rebalances token holdings based on real-time on-chain metrics and decentralized oracle data feeds.",
+      "problem_statement": "Segment E – DEX / On-Chain: Develop automated trading strategies using decentralized exchanges and blockchain-based protocols.",
+      "stack": [
+        "TypeScript",
+        "Solidity",
+        "Hardhat",
+        "The Graph"
+      ],
+      "title": "OnChain Sentiment Vault",
+      "track": "Segment E – DEX / On-Chain",
+      "why_it_could_win": "Combines robust on-chain data querying with smart contract execution, fulfilling the core mandate of building autonomous alpha generation protocols."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:680478376"
+      ],
+      "pitch": "A structured trading decision-support platform that aggregates real-time sentiment, orderbook depth, and volatility models to streamline discretionary human trades.",
+      "problem_statement": "Segment A – Discretionary: Develop trading strategies based on market analysis, human judgment, and decision-making.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Plotly",
+        "CCXT"
+      ],
+      "title": "AlphaMetric Discretionary Dashboard",
+      "track": "Segment A – Discretionary",
+      "why_it_could_win": "Provides judges with a polished, highly intuitive dashboard that turns chaotic market data into clean, actionable decision metrics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

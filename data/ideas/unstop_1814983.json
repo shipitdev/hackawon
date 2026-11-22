@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-22T10:06:33.009780+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1814983",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1140260754",
+        "github:1341712439"
+      ],
+      "pitch": "An edge-computed IoT sensor network for monitoring campus environmental parameters and lab equipment safety in real time.",
+      "problem_statement": "Department of ECE real-world campus challenge for automation and smart infrastructure.",
+      "stack": [
+        "Python",
+        "ESP32",
+        "MQTT",
+        "React"
+      ],
+      "title": "CampusPulse IoT",
+      "track": "",
+      "why_it_could_win": "Organized by the Department of Electronics and Communication Engineering, judges will appreciate a tangible physical prototype that utilizes hardware and real-time edge telemetry."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1273399666",
+        "github:1144331507"
+      ],
+      "pitch": "An offline emergency disaster communication bridge using ESP-NOW and BLE mesh for campus safety during network outages.",
+      "problem_statement": "Real-world infrastructure resiliency challenge for emergency response.",
+      "stack": [
+        "JavaScript",
+        "ESP32",
+        "BLE",
+        "HTML"
+      ],
+      "title": "MeshPrahari Campus",
+      "track": "",
+      "why_it_could_win": "Features an unusual physical build and robust offline networking capabilities that stand out during live judging demonstrations."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated garbage classification bin using a microcontroller and computer vision to sort dry and wet waste instantly.",
+      "problem_statement": "Real-world sustainability and automated waste management challenge.",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV"
+      ],
+      "title": "EcoBin Smart Sorter",
+      "track": "",
+      "why_it_could_win": "A live hardware demonstration with physical sorting appeals directly to an ECE department organizing committee looking for practical prototypes."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:936954849",
+        "github:853494172"
+      ],
+      "pitch": "An IoT-enabled smart lock and peer-to-peer bike-sharing platform tailored for large university campuses.",
+      "problem_statement": "Smart mobility and internal campus transportation challenge.",
+      "stack": [
+        "Dart",
+        "Python",
+        "Django",
+        "Bluetooth"
+      ],
+      "title": "CampusLink Bike Share",
+      "track": "",
+      "why_it_could_win": "Builds upon a proven grand prize-winning architecture by integrating physical smart locks with a functional management web dashboard."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1341712439"
+      ],
+      "pitch": "A multi-agent IoT diagnostic framework powered by local LLMs and time-series anomaly detection to monitor lab power consumption.",
+      "problem_statement": "Smart energy utilization and laboratory hardware maintenance challenge.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "FastAPI",
+        "TimescaleDB"
+      ],
+      "title": "AutoLab Diagnostics",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering in a 24-hour window by combining automated diagnostics with telemetry pipelines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

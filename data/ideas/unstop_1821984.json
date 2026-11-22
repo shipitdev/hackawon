@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-22T10:07:27.832437+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "agritech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1821984",
+  "ideas": [
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1328346693",
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-first AI advisory agent built for farmers in Bihar to make instant decisions on crop selection and irrigation using Gemini.",
+      "problem_statement": "Theme: AgriTech Bihar: Empowering Farmers Through Technology - Helping farmers make decisions on what to sow, when to irrigate, who to sell to, and at what price.",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "BiharKisan Voice-First Advisory",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the localized AgriTech Bihar theme and leverages Gemini AI for quick deployment, matching patterns from successful multilingual rural AI tools."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1200106905"
+      ],
+      "pitch": "A real-time AI pricing and market matching app helping local farmers find the best mandi prices across Bihar districts.",
+      "problem_statement": "Theme: AgriTech Bihar: Empowering Farmers Through Technology - Every season, a farmer in Bihar makes hundreds of decisions with incomplete information regarding pricing and selling.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Google AI Studio"
+      ],
+      "title": "MandiPrice Predictor Bihar",
+      "track": "",
+      "why_it_could_win": "Targets direct economic impact for farmers with quantified metrics, directly addressing the core pain point of incomplete market information."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1200106905",
+        "github:1075630497"
+      ],
+      "pitch": "An AI crop disease detector that works via text descriptions or image classification and outputs actionable advice via offline SMS simulation.",
+      "problem_statement": "Theme: AgriTech Bihar: Empowering Farmers Through Technology - Empowering farmers through technology with low-connectivity considerations.",
+      "stack": [
+        "Dart",
+        "Flutter",
+        "Gemini Vision API"
+      ],
+      "title": "FasalCheck Offline SMS Agronomist",
+      "track": "",
+      "why_it_could_win": "Combines image classification with practical local delivery mechanisms, echoing past winning AgriTech designs."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1328346693"
+      ],
+      "pitch": "An AI-powered soil health remediation planner that analyzes soil test reports and recommends precise fertilizer usage for Bihar's agro-climatic zones.",
+      "problem_statement": "Theme: AgriTech Bihar: Empowering Farmers Through Technology - Helping farmers make informed input decisions like irrigation and soil management.",
+      "stack": [
+        "TypeScript",
+        "Gemini AI",
+        "Next.js"
+      ],
+      "title": "Bihar Soil Doctor",
+      "track": "",
+      "why_it_could_win": "Provides concrete, measurable agronomic recommendations that directly reduce input costs and increase crop yield."
+    },
+    {
+      "build_hours": 3,
+      "inspired_by": [
+        "github:1132337467",
+        "github:1328346693"
+      ],
+      "pitch": "A single-interface multi-modal assistant for Bihar farmers to upload leaf photos, check weather conditions, and get voice answers in local dialects.",
+      "problem_statement": "Theme: AgriTech Bihar: Empowering Farmers Through Technology - Empowering farmers through technology with multi-faceted decision support.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Gemini Multimodal API"
+      ],
+      "title": "KisanSahayak Multi-Modal Companion",
+      "track": "",
+      "why_it_could_win": "Utilizes multimodal capabilities of Google's AI models to provide an all-in-one companion app executable within a tight 3-hour window."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

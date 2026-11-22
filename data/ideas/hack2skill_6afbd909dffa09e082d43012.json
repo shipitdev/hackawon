@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-11-22T10:06:26.854400+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6afbd909dffa09e082d43012",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "A lightweight monitoring agent designed for hybrid infrastructure that tracks anomalies locally and syncs insights over intermittent connections.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Go",
+        "SQLite"
+      ],
+      "title": "HybridEdge Monitor",
+      "track": "",
+      "why_it_could_win": "Addresses the hybrid nature of the event directly with a working infrastructure tool that appeals to technical judges looking for robust systems engineering."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A streamlined asset management dashboard for solo creators to organize media assets locally and push updates instantly across hybrid storage providers.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "QuickSync Asset Manager",
+      "track": "",
+      "why_it_could_win": "Focuses on a polished, working demo that solves an immediate workflow bottleneck for individual developers and creators."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "A speed-first Markdown note-taking application featuring zero-config hybrid sync using peer-to-peer data channels for absolute reliability during offline sessions.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "SQLite",
+        "WebRTC"
+      ],
+      "title": "LocalFirst Notes",
+      "track": "",
+      "why_it_could_win": "Showcases genuinely hard engineering in local-first data synchronization and offline-first state management within a short timeframe."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A rapid time-series analysis tool built to ingest local telemetry data and output probabilistic trend forecasts using lightweight statistical regression.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Pandas"
+      ],
+      "title": "SignalPulse Forecast",
+      "track": "",
+      "why_it_could_win": "Replicates the analytical depth of the Apart Research AI Forecasting win by delivering calibrated prediction intervals in a clean notebook interface."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191",
+        "github:1155558847"
+      ],
+      "pitch": "A computer vision utility that processes local video feeds to detect structural compliance anomalies on-device with high frame-rate performance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe"
+      ],
+      "title": "EdgeMetrics Vision",
+      "track": "",
+      "why_it_could_win": "Leverages the proven winning pattern of computer vision automation applied to industrial and physical monitoring tasks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
