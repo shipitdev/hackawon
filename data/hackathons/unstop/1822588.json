@@ -4,9 +4,9 @@
   "description": "An elite algorithmic problem-solving contest , designed to test analytical limits, data structure mastery, and computational complexity optimization under strict time constraints. Participants tackle multi-tiered problems ranging from dynamic programming to graph theory on standard ICPC scoring. Rules: Participants can be from any recognized university or college. Participants must connect to the contest server; plagiarism and AI-assisted code generation will lead to immediate disqualification. Standard ICPC-style rules apply: ranking is determined by total solved problems and penalty time . Languages permitted: C++, C, Java, and Python 3 . Finalists must carry valid student ID cards for onsite verification. Format: Round 1: Online Preliminary Qualifier A 1 hour algorithmic coding challenge hosted on the live contest platform . Top 75 will advance to the on-campus Grand Finale . Round 2: On-Campus Grand Finale A high-intensity 3-hour onsite showdown with hidden evaluation test cases. Scoreboard will be frozen during the final 60 minutes to heighten suspense.",
   "eligibility_text": null,
   "ends_at": "2026-12-20T14:00:00+05:30",
-  "mode": "hybrid",
+  "mode": "in_person",
   "organiser": "Department of Information Technology, Jadavpur University",
-  "participants_count": 32,
+  "participants_count": 47,
   "prize_amount": 6000,
   "prize_currency": "INR",
   "problem_sources": [
@@ -21,7 +21,7 @@
   "projects_submitted": null,
   "raw": {
     "address_with_country_logo": {
-      "address": "Jadavpur University Salt Lake Campus",
+      "address": "SMCC Building, Jadavpur University Salt Lake Campus",
       "address_title": "event_location",
       "addressable_id": 1822588,
       "addressable_type": "App\\Model\\Opportunity",
@@ -54,7 +54,7 @@
       "sort_order": 1,
       "state": "West Bengal",
       "state_code": null,
-      "updated_at": "2026-11-22T21:08:09+05:30",
+      "updated_at": "2026-11-24T00:54:27+05:30",
       "zip": null
     },
     "approved_date": "2026-11-21 23:51:32 GMT+0530",
@@ -132,11 +132,18 @@
         },
         "reg_amount": null,
         "reg_restricted": 0,
+        "reg_status": "FINISHED",
         "registration_config": {
           "enable_newsletter_subscription": 0,
           "one_click_registration": 1
         },
         "registration_limit": null,
+        "remain_days": "Ended",
+        "remainingDaysArray": {
+          "durations": null,
+          "text": "Ended"
+        },
+        "remaining_time": -115998,
         "resume_match_config": "[{\"key\": \"work_experience\", \"label\": \"Work Experience\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"skills\", \"label\": \"Skills\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"education\", \"label\": \"Education\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"achievements\", \"label\": \"Achievements\", \"include\": true, \"is_custom\": false, \"weightage\": 17, \"weight_level\": 1}, {\"key\": \"certifications\", \"label\": \"Certifications\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}, {\"key\": \"projects\", \"label\": \"Projects\", \"include\": true, \"is_custom\": false, \"weightage\": 16, \"weight_level\": 1}]",
         "resume_parser": 0,
         "same_course": 0,
@@ -167,10 +174,64 @@
     "filters": [
       {
         "domain_id": 0,
-        "file_name": "all",
-        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
-        "id": 420,
-        "name": "All",
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4022,
+        "name": "Management",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4023,
+        "name": "Medical",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4024,
+        "name": "Law",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
         "subtype": null,
         "type": "eligible"
       }
@@ -178,7 +239,7 @@
     "id": 1822588,
     "isPaid": false,
     "locations": [],
-    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6b030c618f112_organisation_image-nwHViswrbk101038566M3xsTPmPi9.png",
+    "logoUrl2": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6b0492e95b9c5_mogoj_dholai_600x600.png",
     "opportunity_config": {
       "banner_config": "{\"color\":\"color-bg2\",\"text\":\"Mogoj Dholai\",\"type\":4,\"banner_data\":[3]}",
       "id": 1521529,
@@ -231,7 +292,7 @@
         "pre_placement_internship": 0,
         "pre_placement_opportunity": 0,
         "prize_type": "cash",
-        "rank": "Runners Up"
+        "rank": "1st Runner Up"
       },
       {
         "cash": 1000,
@@ -251,11 +312,11 @@
       }
     ],
     "public_url": "hackathons/mogoj-dholai-kernel-10-department-of-information-technology-jadavpur-university-1822588",
-    "region": "hybrid",
-    "registerCount": 32,
+    "region": "offline",
+    "registerCount": 47,
     "regnRequirements": {
-      "eligibility": null,
-      "end_regn_dt": "2026-12-09T23:59:00+05:30",
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[],\"bSchools\":[],\"arts\":[],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
+      "end_regn_dt": "2026-12-10T23:59:00+05:30",
       "max_team_size": 1,
       "min_team_size": 1,
       "opportunity_id": 1822588,
@@ -265,7 +326,7 @@
         "durations": 16,
         "text": " days left"
       },
-      "remaining_time": 1420960,
+      "remaining_time": 1449021,
       "show_deadline": 1,
       "start_regn_dt": "2026-11-21T00:00:00+05:30",
       "work_location_type": "city"
@@ -277,7 +338,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1822588,
-          "id": 6956332,
+          "id": 6972670,
           "subject_id": 643611
         },
         "skill": "Data Structures and Algorithms",
@@ -288,7 +349,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1822588,
-          "id": 6956333,
+          "id": 6972671,
           "subject_id": 643952
         },
         "skill": "Graph Theory",
@@ -299,7 +360,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1822588,
-          "id": 6956334,
+          "id": 6972672,
           "subject_id": 1373
         },
         "skill": "Problem Solving",
@@ -315,8 +376,8 @@
     "thumb": null,
     "title": "Mogoj Dholai",
     "type": "hackathons",
-    "updated_at": "2026-11-22T21:08:09+05:30",
-    "viewsCount": 14506,
+    "updated_at": "2026-11-24T00:37:05+05:30",
+    "viewsCount": 19224,
     "visibility": "public",
     "workfunction": [
       {
@@ -328,7 +389,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1822588,
-          "id": 6956335,
+          "id": 6972673,
           "subject_id": 2004
         },
         "updated_at": "2026-02-06T23:31:46+05:30",
@@ -343,7 +404,7 @@
         "pivot": {
           "ai_generated": true,
           "entity_id": 1822588,
-          "id": 6956336,
+          "id": 6972674,
           "subject_id": 2014
         },
         "updated_at": "2026-02-06T23:31:46+05:30",
@@ -351,7 +412,7 @@
       }
     ]
   },
-  "reg_deadline": "2026-12-09T23:59:00+05:30",
+  "reg_deadline": "2026-12-10T23:59:00+05:30",
   "reg_opens_at": "2026-11-21T00:00:00+05:30",
   "source": "unstop",
   "source_id": "1822588",
