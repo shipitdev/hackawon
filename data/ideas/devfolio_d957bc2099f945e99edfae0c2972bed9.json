@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-23T11:03:10.810941+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:d957bc2099f945e99edfae0c2972bed9",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1088994743",
+        "github:935702069"
+      ],
+      "pitch": "A real-time safety and incident monitoring dashboard tailored for late-night city navigation in Kolkata during large events and festivals.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Leaflet.js"
+      ],
+      "title": "NightWatch Kolkata: Real-Time Urban Safety Heatmap",
+      "track": "",
+      "why_it_could_win": "Leverages local context of Kolkata and incorporates real-time geospatial data pipelines which appeal heavily to judges looking for practical urban impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI-powered log auditing agent that automatically detects application anomalies, creates evidence-backed summaries, and opens verified pull requests for fixes.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Claude API",
+        "Docker"
+      ],
+      "title": "PhantomLog: Autonomous Nighttime Error and Incident Triage",
+      "track": "",
+      "why_it_could_win": "Follows the proven grand prize winning pattern of building autonomous data incident response agents with rigorous evidence gating."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1284625256"
+      ],
+      "pitch": "A deterministic local sensor telemetry monitor that operates under intermittent network conditions with strict human-in-the-loop controls.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "SQLite"
+      ],
+      "title": "ShadowStrike: Edge-Based Threat Detection and Response",
+      "track": "",
+      "why_it_could_win": "Focuses on hard engineering constraints like low-latency local execution and deterministic safety engagement gates."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1235467347"
+      ],
+      "pitch": "A submission-to-prototype generator that takes structural concept PPTs and rapidly spins up boilerplate frontends for fast hackathon validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "SpectreForm: Instant PPT to Working UI Generator",
+      "track": "",
+      "why_it_could_win": "Directly targets the event workflow where teams must pitch via PPT and quickly spin up working proof-of-concepts for the offline round."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A computer vision utility leveraging pose estimation to analyze sports mechanics with high-confidence gating and instant feedback.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "XGBoost"
+      ],
+      "title": "GhoulMetrics: Automated Biomechanical Pitch & Form Analyzer",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced computer vision integration with real-time confidence scoring, a proven winner at engineering hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

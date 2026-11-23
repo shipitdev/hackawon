@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-23T11:03:29.886921+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820425",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "An interactive dashboard and route optimizer to monitor and minimize carbon emissions in regional agricultural logistics.",
+      "problem_statement": "Food Security: Develop solutions addressing agricultural innovation, food preservation, storage, cold-chain management and food security.",
+      "stack": [
+        "Python",
+        "Power BI",
+        "Flask",
+        "Pandas"
+      ],
+      "title": "EcoLogix Carbon Supply",
+      "track": "Food Security",
+      "why_it_could_win": "Demonstrates clear measurable impact with concrete environmental and economic benefits, leveraging patterns from proven logistics and carbon optimization winners."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "Satellite and computer vision-powered monitoring platform for industrial and municipal waste accumulation and illegal dumping detection.",
+      "problem_statement": "Waste Processing: Explore solutions for smart waste management, waste segregation, recycling, resource recovery and sustainable waste processing.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "OpenCV",
+        "Node.js"
+      ],
+      "title": "GeoWaste AI",
+      "track": "Waste Processing",
+      "why_it_could_win": "Features a live, working demo utilizing geospatial mapping that directly solves a critical municipal waste tracking challenge."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1092255844"
+      ],
+      "pitch": "IoT-enabled real-time cold-chain monitoring system with predictive temperature failure alerts to prevent food spoilage in storage.",
+      "problem_statement": "Food Security: Develop solutions addressing agricultural innovation, food preservation, storage, cold-chain management and food security.",
+      "stack": [
+        "Python",
+        "React",
+        "MQTT",
+        "TailwindCSS"
+      ],
+      "title": "AgriCold Guard",
+      "track": "Food Security",
+      "why_it_could_win": "Focuses on high-priority agricultural preservation needs with quantifiable reduction in food waste, impressing government and scientific judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A community-driven mobile app featuring GPS tracking to report overflowing waste bins and reward citizens for recycling participation.",
+      "problem_statement": "Waste Processing: Explore solutions for smart waste management, waste segregation, recycling, resource recovery and sustainable waste processing.",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "Supabase",
+        "TailwindCSS"
+      ],
+      "title": "EcoCivic Walk",
+      "track": "Waste Processing",
+      "why_it_could_win": "Applies a proven civic-tech engagement model with real-world impact metrics tailored directly for local municipal governance."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered environmental monitoring and climate resilience data aggregator providing early insights for local ecological changes.",
+      "problem_statement": "Climate Change: Develop innovative solutions addressing environmental challenges, climate resilience, sustainability and environmental monitoring.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "Next.js"
+      ],
+      "title": "ClimateResilient AI",
+      "track": "Climate Change",
+      "why_it_could_win": "Integrates multi-agent RAG analysis for complex ecological datasets, fulfilling the DST mandate for practical, technology-enabled scientific solutions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

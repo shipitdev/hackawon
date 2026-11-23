@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-11-23T11:04:11.732847+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1823841",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1340275018",
+        "github:235959722"
+      ],
+      "pitch": "A dashcam-mounted computer vision system that instantly detects illegal lane weaving, tailgating, and improper overtaking on Indian roads, rewarding compliant drivers.",
+      "problem_statement": "Urban mobility challenges such as traffic congestion, poor lane discipline, unsafe driving practices, driver fatigue, and distracted driving impacting road safety and travel efficiency.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "YOLOv8",
+        "FastAPI",
+        "React Native"
+      ],
+      "title": "LaneGuard AI: Real-Time Edge Lane Discipline & Violation Detection",
+      "track": "",
+      "why_it_could_win": "Directly addresses the hackathon's core challenge regarding poor lane discipline and unsafe driving practices while using a proven computer vision and edge AI approach similar to winning industrial safety systems."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:235959722",
+        "github:1140260754"
+      ],
+      "pitch": "Low-cost smart intersection nodes using cheap microphones for emergency vehicle siren detection and computer vision for real-time queue length estimation to dynamically alter traffic lights.",
+      "problem_statement": "Smarter traffic management in Indian cities, smart traffic signal & congestion management, IoT-based systems to monitor traffic density and identify congestion hotspots in real time.",
+      "stack": [
+        "Python",
+        "Raspberry Pi",
+        "Node.js",
+        "MQTT",
+        "React"
+      ],
+      "title": "AeroSignal: IoT Acoustic & Vision Adaptive Traffic Synchronization",
+      "track": "",
+      "why_it_could_win": "Combines physical IoT sensors with real-time algorithmic execution, creating a tangible hardware-software demonstration that stands out among standard web apps."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1340275018",
+        "github:1140260754"
+      ],
+      "pitch": "An in-cabin edge AI monitoring tool utilizing facial landmark tracking to detect micro-sleeps and smartphone distraction, providing immediate auditory warnings and logging telemetry for fleet managers.",
+      "problem_statement": "Driver fatigue, distracted driving, and unsafe driving practices continuing to impact road safety and the overall mobility experience.",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "PyTorch",
+        "Streamlit",
+        "Twilio"
+      ],
+      "title": "FatigueLens: Driver Drowsiness & Distraction Alert System",
+      "track": "",
+      "why_it_could_win": "Solves an urgent safety issue with a live webcam demo that judges can immediately interact with and test out during judging rounds."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1346526259"
+      ],
+      "pitch": "A predictive traffic dashboard that ingests crowd-sourced reports and historical congestion metrics to forecast traffic choke points hours in advance using statistical models.",
+      "problem_statement": "How can emerging technologies be leveraged to develop an integrated intelligent urban mobility solution that reduces traffic congestion and enables smarter traffic management?",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "FastAPI",
+        "Next.js"
+      ],
+      "title": "TransitPulse: Multi-Modal Urban Congestion & Incident Forecasting",
+      "track": "",
+      "why_it_could_win": "Applies rigorous statistical forecasting models to urban data, mirroring the architecture of award-winning AI incident forecasting solutions."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:235959722",
+        "github:1346526259"
+      ],
+      "pitch": "A mobile application that uses smartphone accelerometers and GPS to automatically log severe road bumps and potholes, generating a live municipal repair priority map.",
+      "problem_statement": "Challenges such as poor infrastructure, unsafe driving practices, and fragmented traffic ecosystems impacting road safety, travel efficiency, and the overall mobility experience.",
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "PostgreSQL",
+        "PostGIS",
+        "Leaflet.js"
+      ],
+      "title": "PotholeMapping: Crowdsourced Road Quality & Hazard Index",
+      "track": "",
+      "why_it_could_win": "Features clear, quantifiable civic impact with a mobile sensor pipeline that is easy to demo live by shaking a phone in front of judges."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

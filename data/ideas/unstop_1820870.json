@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-23T11:03:37.923217+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820870",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A real-time serverless website monitoring and alert dashboard built natively on AWS for student projects.",
+      "problem_statement": "Main Challenge — building a website using AWS services and sharing your project journey with the developer community.",
+      "stack": [
+        "AWS Lambda",
+        "Amazon DynamoDB",
+        "Amazon CloudWatch",
+        "React",
+        "AWS Amplify"
+      ],
+      "title": "CloudMetrics Live",
+      "track": "",
+      "why_it_could_win": "Directly targets the core AWS Winter League main challenge requirement of building and deploying a live website utilizing cloud services, making it immediately reviewable by judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A developer blog platform with automated daily project journey logs published directly to LinkedIn.",
+      "problem_statement": "Main Challenge — building a website using AWS services and sharing your project journey with the developer community.",
+      "stack": [
+        "Amazon S3",
+        "AWS Lambda",
+        "Amazon SES",
+        "Next.js",
+        "LinkedIn API"
+      ],
+      "title": "ServerlessDev Journal",
+      "track": "",
+      "why_it_could_win": "Aligns with the secondary challenge aspect of professional community engagement on LinkedIn and project storytelling."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An AI-powered assistant that generates compliant AWS CloudFormation templates from plain-English website architecture descriptions.",
+      "problem_statement": "Main Challenge — building a website using AWS services and sharing your project journey with the developer community.",
+      "stack": [
+        "Amazon Bedrock",
+        "AWS CloudFormation",
+        "FastAPI",
+        "React"
+      ],
+      "title": "AWS Configurator AI",
+      "track": "",
+      "why_it_could_win": "Solves a real pain point for cloud beginners participating in the AWS Winter League by automating complex infrastructure deployment."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:754481130"
+      ],
+      "pitch": "A web application built on AWS that tracks, visualizes, and caps student sandbox account spending in real-time.",
+      "problem_statement": "Main Challenge — building a website using AWS services and sharing your project journey with the developer community.",
+      "stack": [
+        "AWS Cost Explorer API",
+        "Amazon SNS",
+        "AWS Lambda",
+        "TailwindCSS",
+        "Vue.js"
+      ],
+      "title": "CloudCost Guardian",
+      "track": "",
+      "why_it_could_win": "Solves a universal problem for student cloud developers who risk accidentally overspending their free tier limits during hackathons."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A centralized peer-review and portfolio-sharing website for AWS Winter League participants to showcase their hosted projects.",
+      "problem_statement": "Main Challenge — building a website using AWS services and sharing your project journey with the developer community.",
+      "stack": [
+        "Amazon DynamoDB",
+        "AWS AppSync",
+        "React",
+        "AWS Amplify"
+      ],
+      "title": "PeerCloud Showcase",
+      "track": "",
+      "why_it_could_win": "Leverages community engagement and provides direct utility for all participants in the league to discover and vote on each other's work."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

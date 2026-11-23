@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-23T11:03:14.412237+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:fd0e448aac74401697c00e7e41745383",
+  "ideas": [
+    {
+      "build_hours": 180,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An intelligent repository onboarding agent that indexes open-source codebases to auto-generate interactive architecture maps and personalized first-issue paths for new contributors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma",
+        "TypeScript"
+      ],
+      "title": "OpenSource Onboarding Copilot",
+      "track": "",
+      "why_it_could_win": "Aligns with the core open-source contribution mission of Winter of Code and mirrors the engineering team lifecycle intelligence pattern from devflow."
+    },
+    {
+      "build_hours": 160,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "An automated proposal scoring and feedback engine for open-source mentor organizations to evaluate student project applications against historical successfully merged PRs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Superlinked",
+        "FastAPI"
+      ],
+      "title": "GSoC Proposal Evaluator",
+      "track": "",
+      "why_it_could_win": "Directly targets the GSoC-inspired format of Winter of Code by solving a major organizational bottleneck during mentor review phases."
+    },
+    {
+      "build_hours": 120,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An offline-first local AI commit message and code quality reviewer running on local models to enforce contribution standards before push.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Transformers",
+        "GitPython",
+        "Click"
+      ],
+      "title": "GitCommit Quality Gate",
+      "track": "",
+      "why_it_could_win": "Applies the offline AI code review pattern from DevMesh directly to the 'every commit counts' tagline of Winter of Code 6.0."
+    },
+    {
+      "build_hours": 200,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous agent that triages incoming GitHub issues, labels them, links duplicate bug reports, and drafts reproducible test cases.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Claude API",
+        "PyGithub",
+        "DataHub"
+      ],
+      "title": "OS Maintainer Autonomous Triage Agent",
+      "track": "",
+      "why_it_could_win": "Leverages the autonomous incident response pattern from BlackBox to solve a universally felt pain for the open-source maintainers reviewing Winter of Code PRs."
+    },
+    {
+      "build_hours": 150,
+      "inspired_by": [
+        "github:1351321536"
+      ],
+      "pitch": "A real-time visualizer mapping cross-repository dependencies and contributor impact metrics across multi-project open-source organizations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Neo4j",
+        "GraphQL"
+      ],
+      "title": "RepoDependency Graph Visualizer",
+      "track": "",
+      "why_it_could_win": "Delivers genuine hard engineering visualization that helps organizers track complex student contributions during the three-month initiative."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

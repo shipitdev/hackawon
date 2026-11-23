@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-23T11:03:00.731128+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "unusual-hardware",
+      "working-demo",
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:cd4f5f7185d34287a43a12910978e19d",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "Real-time edge AI surveillance system detecting PPE violations and manufacturing floor hazards on low-power hardware.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenCV",
+        "TensorFlow Lite"
+      ],
+      "title": "SmartEdge Industrial Safety Guardian",
+      "track": "hardware & smart systems",
+      "why_it_could_win": "Aligns with patterns from successful hardware-adjacent and edge-AI safety systems by using local computer vision processing to minimize latency, highly appealing to industrial judges."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An AI-powered smart waste classification unit using computer vision and Arduino microcontrollers to automatically segregate recyclables.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "OpenCV",
+        "C++"
+      ],
+      "title": "EcoSort Autonomous Bin",
+      "track": "hardware & smart systems",
+      "why_it_could_win": "Features an unusual physical build with a live working demo, directly mirroring past robotic classification competition wins."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A biomedical IoT telemetry device for tracking patient recovery metrics remotely with edge-computed anomaly detection.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "ESP32",
+        "Firebase",
+        "Python"
+      ],
+      "title": "BioLog IoT Post-Op Monitor",
+      "track": "interdisciplinary engineering",
+      "why_it_could_win": "Tackles genuine hard engineering in medical telemetry and edge computing, a proven combination that captures top prizes at technical hackathons."
+    },
+    {
+      "build_hours": 19,
+      "inspired_by": [
+        "github:1296916648"
+      ],
+      "pitch": "An on-device static analysis and code review agent optimized for local neural processing units to ensure secure local builds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ONNX Runtime",
+        "FastAPI"
+      ],
+      "title": "NexusNPU Offline Code Reviewer",
+      "track": "software engineering",
+      "why_it_could_win": "Focuses on hard systems engineering by processing code locally without reliance on external cloud APIs, impressing judges with architectural depth."
+    },
+    {
+      "build_hours": 21,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "A hardware-secured supply chain verification tool using analog ink signatures and microcontrollers to prevent counterfeiting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Google Cloud",
+        "TypeScript"
+      ],
+      "title": "SecureChain Supply Authenticator",
+      "track": "hardware & smart systems",
+      "why_it_could_win": "Combines physical sensor input with cloud validation, standing out through a tangible, hardware-backed security workflow."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
