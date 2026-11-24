@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-24T12:49:50.891325+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "gaming"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 4,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6b005935dffa09e082e06bb3",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1022921066"
+      ],
+      "pitch": "A web-based interactive simulation featuring Vice City NPCs that remember past player actions, possess persistent moods, and talk back via WebRTC voice streaming.",
+      "problem_statement": "AI-Powered NPC Interaction System",
+      "stack": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "ElevenLabs",
+        "TailwindCSS"
+      ],
+      "title": "ViceDialog: Real-Time Voice Chat with Procedural NPC Memories",
+      "track": "The Living City",
+      "why_it_could_win": "Directly targets the core track requirement while adopting the winning formula from loremaster by adding real-time voice integration, making the live demo extraordinarily memorable for judges."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An interactive dispatch dashboard that ingests simulated player crimes, calculates a 1-5 star wanted level using structured LLM reasoning, and generates escalating police response units.",
+      "problem_statement": "AI-Powered Wanted Level and Police Response Simulator",
+      "stack": [
+        "React",
+        "Node.js",
+        "Groq API",
+        "TailwindCSS",
+        "Chart.js"
+      ],
+      "title": "SirenAI: Dynamic Wanted Level and Incident Forecasting Dashboard",
+      "track": "Wanted: Vice City",
+      "why_it_could_win": "Uses probabilistic event generation inspired by winning forecasting systems, presenting a clean live dashboard that visually demonstrates scaling system complexity."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A web platform that dynamically crafts open-world missions with custom objectives, timers, and difficulty levels, complete with JSON-driven validation and player state tracking.",
+      "problem_statement": "AI-Powered Dynamic Mission Generator",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "PostgreSQL",
+        "Prisma"
+      ],
+      "title": "ViceQuest: Procedural Storyline and Mission Generator",
+      "track": "Side Quest Generator",
+      "why_it_could_win": "Relies on robust structured JSON schema enforcement via LLMs, ensuring zero demo-breaking runtime errors during the live judging walkthrough."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1163393786"
+      ],
+      "pitch": "A multi-agent social simulation where two Vice City informants negotiate or betray each other based on hidden AI-driven incentives and player-triggered pressure points.",
+      "problem_statement": "AI-Powered NPC Interaction System",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "OpenAI GPT-4o"
+      ],
+      "title": "Syndicate: Adversarial Informant Deception Simulator",
+      "track": "The Living City",
+      "why_it_could_win": "Applies advanced multi-agent psychological game dynamics proven in top-tier self-improving agent hackathon wins, showcasing genuine technical depth beyond basic prompt wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1083231600"
+      ],
+      "pitch": "An AI simulation that optimizes police pursuit vectors and road-block placements in real time as the player's wanted level escalates across a grid map.",
+      "problem_statement": "AI-Powered Wanted Level and Police Response Simulator",
+      "stack": [
+        "Python",
+        "Pygame",
+        "FastAPI",
+        "NetworkX"
+      ],
+      "title": "HeatMap: Evolutionary Pursuit Route Planner",
+      "track": "Wanted: Vice City",
+      "why_it_could_win": "Brings rigorous algorithmic pathfinding and evolutionary logic to a gaming problem, satisfying the judging priority for hard engineering work."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-24T12:53:57.775684+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "healthtech",
+      "sustainability"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1823604",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A multilingual voice-first diagnostic intake and health awareness assistant for rural community health workers.",
+      "problem_statement": "The application of Artificial Intelligence in rural development and economic empowerment",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI Whisper API",
+        "Gemini API",
+        "TailwindCSS"
+      ],
+      "title": "AshaVoice",
+      "track": "Application of Artificial Intelligence in rural development",
+      "why_it_could_win": "Directly tackles rural healthcare accessibility using multi-language voice triage, matching the winning pattern of SAGACITY by addressing local health literacy barriers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1185527998",
+        "github:1010199928"
+      ],
+      "pitch": "A lightweight cold-chain and inventory verification platform using local computer vision to flag spoiled agricultural produce at transit hubs.",
+      "problem_statement": "Agricultural supply chain management",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "OpenCV",
+        "React"
+      ],
+      "title": "AgriTrace Supply",
+      "track": "Agricultural supply chain management",
+      "why_it_could_win": "Provides concrete economic impact by reducing spoilage waste, directly fitting the open innovation theme for agricultural logistics with a working visual classifier."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1370167028",
+        "github:1259514645"
+      ],
+      "pitch": "An offline-first computer vision fall detection and emergency alert system utilizing existing webcams for elderly care homes.",
+      "problem_statement": "Healthcare for the elderly",
+      "stack": [
+        "Java",
+        "Python",
+        "MediaPipe",
+        "Android SDK"
+      ],
+      "title": "ElderCare Radar",
+      "track": "Healthcare for the elderly",
+      "why_it_could_win": "Leverages local pose estimation models via a built-in camera, echoing the Qualcomm Hack4Soc winning pattern for offline edge-based action recognition."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "A satellite and raster-based data dashboard estimating localized carbon sink absorption rates and industrial emissions for rural micro-regions.",
+      "problem_statement": "Global carbon emission reduction",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Python",
+        "FastAPI",
+        "Leaflet.js"
+      ],
+      "title": "EcoScope Carbon",
+      "track": "Global carbon emission reduction",
+      "why_it_could_win": "Adapts the geospatial monitoring pattern of GeoNex-ATLAS to environmental tracking, giving judges a data-rich, visual dashboard with clear environmental value."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1170846981"
+      ],
+      "pitch": "An automated micro-loan readiness and financial literacy copilot tailored for rural self-help groups using simplified local dialect generation.",
+      "problem_statement": "The application of Artificial Intelligence in rural development and economic empowerment",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "PostgreSQL"
+      ],
+      "title": "GraminFin AI",
+      "track": "Application of Artificial Intelligence in rural development",
+      "why_it_could_win": "Addresses economic empowerment through transparent, accessible AI tools that can be demonstrated live with realistic mock financial profiles."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

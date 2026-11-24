@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-24T12:54:28.252011+00:00",
+  "grounding": {
+    "domains": [
+      "security",
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1824394",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "An automated prompt-fuzzing and multi-turn jailbreak harness designed specifically to systematically probe tool-use LLM agents for guardrail failures.",
+      "problem_statement": "About Starlight Arena Starlight Arena is an online AI red teaming competition hosted by Parsewave. You get access to AI agents that have real tools and strict rules they are not supposed to break.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Streamlit"
+      ],
+      "title": "PromptGuardian Red-Team Automation Toolkit",
+      "track": "",
+      "why_it_could_win": "Directly automates the core mechanic of the Starlight Arena competition by scaling up prompt mutation attacks, mirroring the technical complexity seen in winning network attack simulation tools."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A visual debugging middleware that intercepts tool calls made by target agents during prompt-injection campaigns to map out hidden execution paths.",
+      "problem_statement": "About Starlight Arena Starlight Arena is an online AI red teaming competition hosted by Parsewave. You get access to AI agents that have real tools and strict rules they are not supposed to break.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "TailwindCSS"
+      ],
+      "title": "AgentTrace Tool-Use Inspector",
+      "track": "",
+      "why_it_could_win": "Addresses the unique challenge of agents with 'real tools' by providing superior visibility into state transitions and parameter tampering during red-teaming attempts."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1175183165"
+      ],
+      "pitch": "A specialized command-line utility for generating semantic-preserving prompt variations using latent space perturbations to bypass static token filters.",
+      "problem_statement": "About Starlight Arena Starlight Arena is an online AI red teaming competition hosted by Parsewave. You get access to AI agents that have real rules and strict rules they are not supposed to break.",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "Click"
+      ],
+      "title": "PayloadMorph Latent Space Inversion CLI",
+      "track": "",
+      "why_it_could_win": "Applies advanced mechanistic interpretation and adversarial perturbation concepts directly to text prompts, showcasing genuinely hard engineering."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1208011447",
+        "github:1196410850"
+      ],
+      "pitch": "A soft goal-reinforcement agent designed to persistently guide target conversational agents away from their safety policies across deep interaction trees.",
+      "problem_statement": "About Starlight Arena Starlight Arena is an online AI red teaming competition hosted by Parsewave. You get access to AI agents that have real tools and strict rules they are not supposed to break.",
+      "stack": [
+        "TypeScript",
+        "Vercel AI SDK",
+        "OpenAI API",
+        "Zod"
+      ],
+      "title": "SGR-Fuzz Multi-Turn Jailbreak Engine",
+      "track": "",
+      "why_it_could_win": "Leverages sophisticated defense-in-depth and multi-agent pipeline patterns adapted for offensive red-teaming strategy."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [],
+      "pitch": "A dashboard that aggregates public leaderboard shifts and categorizes challenge vectors to recommend optimal attack trajectories for individual players.",
+      "problem_statement": "About Starlight Arena Starlight Arena is an online AI red teaming competition hosted by Parsewave. You get access to AI agents that have real tools and strict rules they are not supposed to break.",
+      "stack": [
+        "Python",
+        "BeautifulSoup",
+        "Pandas",
+        "Streamlit"
+      ],
+      "title": "Leaderboard Scraper & Strategy Recommender",
+      "track": "",
+      "why_it_could_win": "Provides tactical meta-analysis for an ongoing multi-week competition where climbing the public leaderboard is the primary metric of success."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
