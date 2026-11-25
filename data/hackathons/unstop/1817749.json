@@ -6,7 +6,7 @@
   "ends_at": "2026-12-13T10:00:00+05:30",
   "mode": "online",
   "organiser": "HackWithPune",
-  "participants_count": 474,
+  "participants_count": 509,
   "prize_amount": null,
   "prize_currency": null,
   "problem_sources": [
@@ -50,10 +50,37 @@
     "filters": [
       {
         "domain_id": 0,
-        "file_name": "all",
-        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/all.svg",
-        "id": 420,
-        "name": "All",
+        "file_name": "engineering",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/engineering.svg",
+        "id": 422,
+        "name": "Engineering Students",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "postgraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/postgraduate.svg",
+        "id": 424,
+        "name": "Postgraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": "undergraduate",
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/undergraduate.svg",
+        "id": 426,
+        "name": "Undergraduate",
+        "subtype": null,
+        "type": "eligible"
+      },
+      {
+        "domain_id": 0,
+        "file_name": null,
+        "icon_url": "https://d8it4huxumps7.cloudfront.net/images/icons/color_icons/.svg",
+        "id": 4025,
+        "name": "Arts, Commerce, Sciences & Others",
         "subtype": null,
         "type": "eligible"
       }
@@ -151,9 +178,9 @@
     ],
     "public_url": "hackathons/codeunited-india-national-hackathon-hackwithpune-1817749",
     "region": "online",
-    "registerCount": 474,
+    "registerCount": 509,
     "regnRequirements": {
-      "eligibility": null,
+      "eligibility": "{\"sector\":[\"students\"],\"engineering\":[\"allCourses\",{\"course\":\"btech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mtech\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"integrated\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"engOthers\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"bca\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mca\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"mca1\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mcm\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdEng\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"diploma\",\"type\":\"engineering\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":0}],\"bSchools\":[],\"arts\":[\"allCourses\",{\"course\":\"bsc\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"msc\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"ba\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ma\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"artsOthers\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"mdes\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"march\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bdes\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"barch\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"bftech\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bplan\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mplan\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"phdArts\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":5},{\"course\":\"mftech\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bfa\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"mfa\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bs\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":3},{\"course\":\"ms\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"bed\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"med\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2},{\"course\":\"beled\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":4},{\"course\":\"bped\",\"type\":\"arts\",\"programme\":[\"all\"],\"passoutYear\":[\"all\"],\"specialization\":[\"all\"],\"duration\":2}],\"medicine\":[],\"law\":[],\"others\":[\"all\"],\"experience\":[\"all\"],\"studentPassoutYearsSelected\":[\"all\"],\"fresherPassoutYearsSelected\":[\"all\"],\"schoolFilteredClasses\":[\"all\"],\"minMarks\":{\"high_school_perc\":0,\"high_school_cgpa\":0},\"locations\":[],\"location_type\":\"all\",\"professionalEligibility\":null,\"fresherEligibility\":null}",
       "end_regn_dt": "2026-12-02T13:00:48+05:30",
       "max_team_size": 6,
       "min_team_size": 1,
@@ -164,7 +191,7 @@
         "durations": 6,
         "text": " days left"
       },
-      "remaining_time": 600585,
+      "remaining_time": 553489,
       "show_deadline": 1,
       "start_regn_dt": "2026-11-17T18:30:52+05:30",
       "work_location_type": "city"
@@ -258,8 +285,8 @@
     "thumb": null,
     "title": "CodeUnited India - National Hackathon",
     "type": "hackathons",
-    "updated_at": "2026-11-24T16:15:00+05:30",
-    "viewsCount": 36960,
+    "updated_at": "2026-11-25T19:52:21+05:30",
+    "viewsCount": 39126,
     "visibility": "public",
     "workfunction": [
       {
