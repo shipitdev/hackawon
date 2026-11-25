@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-11-25T11:35:42.332902+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "sustainability",
+      "civic"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "working-demo",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:4d73b335011e473e9b40c05d28d5c8dc",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:927292639"
+      ],
+      "pitch": "A mobile computer vision app that automatically detects road defects and civic infrastructure damage from a mounted smartphone camera and logs them for municipal action.",
+      "problem_statement": "Sustainability & Social Impact track: Addressing urban infrastructure and civic management challenges in Bengaluru.",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Python",
+        "YOLOv11",
+        "FastAPI"
+      ],
+      "title": "Bengaluru Pothole & Civic Eye Inspector",
+      "track": "Winners or 1st prize",
+      "why_it_could_win": "Leverages a proven computer vision inspection pattern from railway and industrial monitoring wins, delivering clear, quantified municipal impact that appeals directly to judges looking for local social utility."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1376189518",
+        "github:1200106905"
+      ],
+      "pitch": "An AI-powered offline-first agricultural assistant that diagnoses crop diseases from leaf photographs and provides local market pricing via SMS and voice in Kannada.",
+      "problem_statement": "AI/ML & Generative AI track: Building practical generative AI and computer vision applications for rural and agricultural upliftment.",
+      "stack": [
+        "React Native",
+        "Node.js",
+        "Gemini API",
+        "SQLite",
+        "Twilio"
+      ],
+      "title": "Kannada AgriDoctor & Market Link",
+      "track": "Winners or 1st prize",
+      "why_it_could_win": "Directly builds upon the success of Udaya 1.0 winners by combining crop disease detection with localized language accessibility, guaranteeing high relevance to the Dayananda Sagar organizing committee."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1194555365",
+        "github:1228867095"
+      ],
+      "pitch": "A lightweight voice-first AI agent that intercepts suspicious phone calls in local languages and alerts elderly family members or designated guardians before financial fraud occurs.",
+      "problem_statement": "AI/ML & Generative AI track: Developing agentic AI solutions that solve critical human vulnerability and safety issues.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "WebRTC",
+        "OpenAI Whisper",
+        "LangChain"
+      ],
+      "title": "VridhaGuard Voice Scam Shield",
+      "track": "Runners Up",
+      "why_it_could_win": "Replicates the architectural success of agentic voice assistants that protect vulnerable populations, providing a deeply emotional and technically impressive demo in a 12-hour window."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1194555365"
+      ],
+      "pitch": "A community-driven delivery coordination app that groups nearby errands and neighborhood deliveries into low-emission walking or cycling routes using volunteer groups.",
+      "problem_statement": "Sustainability & Social Impact track: Reducing carbon footprints and fostering community collaboration for hyper-local logistics.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Leaflet.js",
+        "TailwindCSS"
+      ],
+      "title": "LocalLoop Hyper-Local Eco-Rider",
+      "track": "Runners Up",
+      "why_it_could_win": "Focuses on community coordination with a clear carbon-saving metric, aligning with judges' preference for quantifiable environmental benefits demonstrated via a live map interface."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "An open innovation IoT dashboard that aggregates real-time power consumption data across institutional buildings and gamifies energy saving targets for student departments.",
+      "problem_statement": "Open Innovation track: Building creative smart-campus solutions using IoT data streams and collaborative software.",
+      "stack": [
+        "Vue.js",
+        "Chart.js",
+        "Node.js",
+        "Express",
+        "MQTT"
+      ],
+      "title": "CampusPlug Open Energy Tracker",
+      "track": "Runners Up",
+      "why_it_could_win": "Fits the Open Innovation track perfectly by providing an instantly deployable dashboard for educational campuses, maximizing local utility and immediate live-demo feasibility."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

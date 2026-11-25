@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-25T11:35:51.245290+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:92cc2d2e2fb34353962958ed0258c2ab",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A lightweight, offline-first progressive web app for campus navigation at GEC Challakere, utilizing local Wi-Fi triangulation and pre-cached topological vectors.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "Service Workers"
+      ],
+      "title": "CampusNav: Offline Rural College Map and Navigator",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, hyper-local logistical pain point for a rural campus setting where cellular connectivity can be spotty, appealing directly to college authorities and judges."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:918466502"
+      ],
+      "pitch": "A localized web tool that provides instant agricultural market rates and fertilizer schedules based on voice queries spoken in regional dialects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Flask",
+        "Web Speech API",
+        "SQLite"
+      ],
+      "title": "AgriYield local: Kannada Voice-Enabled Crop Advisory Tool",
+      "track": "",
+      "why_it_could_win": "Demonstrates clear socio-economic benefit for the surrounding agricultural community of Challakere rural region, making its real-world impact instantly relatable to judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1346526259"
+      ],
+      "pitch": "A zero-cost asset tracker using dynamic QR codes pasted on laboratory instruments to monitor student issuance, return status, and maintenance needs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Supabase",
+        "html5-qrcode"
+      ],
+      "title": "LabEquip Track: QR-Based Smart Inventory Management for College Labs",
+      "track": "",
+      "why_it_could_win": "Provides an administrative tool that GEC Challakere department heads can immediately deploy post-hackathon to solve an actual operational bottleneck."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An Arduino and Python-simulated bin monitoring dashboard that alerts campus housekeeping staff when organic versus plastic bins reach capacity thresholds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Arduino",
+        "Streamlit",
+        "PySerial"
+      ],
+      "title": "SmartBin GEC: Automated Waste Segregation Monitor",
+      "track": "",
+      "why_it_could_win": "Combines hardware prototyping concepts with a clean software dashboard, mirroring successful environmental IoT projects from similar regional hackathons."
+    },
+    {
+      "build_hours": 5,
+      "inspired_by": [
+        "github:1343779693"
+      ],
+      "pitch": "A secure web portal that records student attendance inside college lecture halls by verifying local router subnet footprints to eliminate proxy attendance.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "HTML5",
+        "TailwindCSS"
+      ],
+      "title": "AttendEase: Geofenced Wi-Fi Attendance Logger",
+      "track": "",
+      "why_it_could_win": "Delivers a fully functional MVP within the tight 8-hour window that solves a daily administrative annoyance for professors."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

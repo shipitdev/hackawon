@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-25T11:39:04.161342+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools",
+      "healthtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1826157",
+  "ideas": [
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1370167028"
+      ],
+      "pitch": "An edge-AI routing system that rebalances urban e-scooters based on real-time computer vision passenger density analysis.",
+      "problem_statement": "Mobility & Urban Systems",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React",
+        "Leaflet.js"
+      ],
+      "title": "KinetiScale: Edge-AI Micro-Mobility Load Balancer",
+      "track": "Mobility & Urban Systems",
+      "why_it_could_win": "Combines hardware-adjacent computer vision with a working live map dashboard, following the winning live demo pattern."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A local RAG pipeline that automatically ingests legacy internal documentation and code comments to generate interactive onboarding paths for new software engineers.",
+      "problem_statement": "Software & Developer Tools",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "LangGraph",
+        "Next.js"
+      ],
+      "title": "OnboardFlow: Institutional Developer Knowledge Graph",
+      "track": "Software & Developer Tools",
+      "why_it_could_win": "Targets a pain point every technical judge feels themselves (developer onboarding and knowledge retention)."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A contactless web-camera vital sign detector using remote photoplethysmography combined with multilingual triage for urgent care centers.",
+      "problem_statement": "Healthcare & Wellbeing",
+      "stack": [
+        "JavaScript",
+        "OpenCV.js",
+        "Python",
+        "Flask",
+        "TailwindCSS"
+      ],
+      "title": "VitaPulse: rPPG Vital Triage and Clinic Router",
+      "track": "Healthcare & Wellbeing",
+      "why_it_could_win": "Implements genuinely hard engineering with rPPG signal processing that judges can test live via their laptop webcams."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A finance and commerce ledger tool that parses unstructured supplier invoices and automatically allocates scope-3 carbon emissions alongside financial costs.",
+      "problem_statement": "Finance & Commerce",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "OpenAI API"
+      ],
+      "title": "ClearLedger: Automated Supply Chain Carbon & Cost Splitter",
+      "track": "Finance & Commerce",
+      "why_it_could_win": "Delivers clear, measurable economic and environmental impact with a structured data extraction workflow."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A privacy-preserving multi-agent system that queries decentralized hospital database mockups using federated Model Context Protocol servers.",
+      "problem_statement": "Cybersecurity & Privacy",
+      "stack": [
+        "Python",
+        "MCP SDK",
+        "Docker",
+        "FastAPI",
+        "Streamlit"
+      ],
+      "title": "QueryMesh: Federated Clinical Multi-Agent RAG",
+      "track": "Cybersecurity & Privacy",
+      "why_it_could_win": "Leverages cutting-edge distributed agent architectures and privacy-focused design directly aligned with complex systems tracks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

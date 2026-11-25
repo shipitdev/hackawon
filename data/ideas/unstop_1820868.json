@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-25T11:37:38.368024+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820868",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1346526259",
+        "github:1010199928"
+      ],
+      "pitch": "An AI-powered municipal waste management and logistics optimizer designed for Indian urban local bodies to slash fuel consumption and carbon footprints.",
+      "problem_statement": "National-level real-world industry-based problem statements focusing on urban governance and sustainability under TECHNEX-26.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "Supabase",
+        "Leaflet.js"
+      ],
+      "title": "EcoRoute India: Municipal Waste Logistics & Carbon Tracking Platform",
+      "track": "",
+      "why_it_could_win": "Aligns with sustainable smart city initiatives and features clear, measurable economic and environmental impact metrics favored by judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:935702069"
+      ],
+      "pitch": "A mobile-first decision support system for regional farmers that diagnoses crop diseases via image upload and predicts yields using regional soil and weather data.",
+      "problem_statement": "National-level real-world industry-based problem statements focusing on agriculture and rural development under TECHNEX-26.",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "React Native",
+        "Flask",
+        "PostgreSQL"
+      ],
+      "title": "AgriYield AI: Localized Crop Disease & Yield Forecaster",
+      "track": "",
+      "why_it_could_win": "Directly tackles a critical sector in the Indian economy with a working live demo that judges can interact with instantly via smartphone."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1192028384",
+        "github:1346526259"
+      ],
+      "pitch": "An automated citizen reporting tool that uses computer vision to categorize pothole and streetlight failures, clustering complaints for municipal work crews.",
+      "problem_statement": "National-level real-world industry-based problem statements focusing on civic tech and e-governance under TECHNEX-26.",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "OpenCV",
+        "MongoDB"
+      ],
+      "title": "CivicPulse: Real-Time Public Infrastructure Grievance Triage",
+      "track": "",
+      "why_it_could_win": "Demonstrates practical utility for local government bodies with a working end-to-end pipeline from mobile report to admin dashboard."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A lightweight audit trail system for rural clinics to securely verify and transfer patient referral histories without compromising privacy.",
+      "problem_statement": "National-level real-world industry-based problem statements focusing on healthcare data security under TECHNEX-26.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "TailwindCSS"
+      ],
+      "title": "MedChain India: Interoperable Health Records Verification",
+      "track": "",
+      "why_it_could_win": "Solves a complex institutional data-sharing problem with a clean security architecture that appeals to technical judges."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A streaming analytics dashboard that monitors manufacturing plant power feeds to flag efficiency losses and equipment failure risks in real time.",
+      "problem_statement": "National-level real-world industry-based problem statements focusing on industrial automation and energy under TECHNEX-26.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "Plotly",
+        "WebSockets"
+      ],
+      "title": "GridWatch: Industrial Power Consumption Anomaly Detector",
+      "track": "",
+      "why_it_could_win": "Features rigorous technical engineering with statistical forecasting models and a live-updating dashboard that proves robustness under load."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

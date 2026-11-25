@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-25T11:37:07.373854+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820502",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A robust support agent answering from live store policies and order databases with built-in evaluation guardrails and human hand-off mechanisms.",
+      "problem_statement": "AI Engineer: Support agent that answers from store policies and live order data, and hands risky questions to a human, with reliability and guardrails.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Chroma"
+      ],
+      "title": "PolicyAgentGuard",
+      "track": "AI Engineer",
+      "why_it_could_win": "Directly targets the explicit AI Engineer track requirements, scoring high on judgment regarding how guardrails and fallback policies are implemented under hidden test questions."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering team lifecycle intelligence platform capturing context before developers transition and delivering it automatically during onboarding.",
+      "problem_statement": "AI Engineer: Building reliable AI-driven workflows and engineering knowledge retrieval systems.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "chroma"
+      ],
+      "title": "FlowKnowledgeKeeper",
+      "track": "AI Engineer",
+      "why_it_could_win": "Solves an acute, relatable pain point for technical judges and engineering managers evaluating practical software engineering tooling."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A forecasting system using Poisson regression and calibrated 90% prediction intervals to predict future software or AI system incidents.",
+      "problem_statement": "Scale: Make an unreliable agent or predictive pipeline reliable with robust statistical evaluations and guardrails.",
+      "stack": [
+        "Jupyter Notebook",
+        "Python",
+        "scikit-learn"
+      ],
+      "title": "IncidentForecastCalibrator",
+      "track": "Scale",
+      "why_it_could_win": "Employs rigorous statistical evaluation and calibration, matching winning patterns from predictive data science hackathons."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated pre-deployment risk diagnosis tool for evaluating and validating AI agent workflows before they go live.",
+      "problem_statement": "Scale: Design robust evaluation and verification layers for complex, multi-step AI agent systems.",
+      "stack": [
+        "Python",
+        "bpmn-js",
+        "FastAPI"
+      ],
+      "title": "AIBPMNRiskAuditor",
+      "track": "Scale",
+      "why_it_could_win": "Addresses enterprise compliance and governance concerns which heavily appeal to judges looking for production-ready engineering depth."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1245565654"
+      ],
+      "pitch": "An AI interview coach providing resume-driven mock interview sessions with intelligent, granular feedback for career growth.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "HireSenseAI Mock Interviewer",
+      "track": "Build",
+      "why_it_could_win": "Targets the exact domain of career assessment and talent evaluation that aligns with the hiring incentives of the contest organizer, AccioJob."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-25T11:38:59.891947+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1825938",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A sleek, local web dashboard built on top of CoMemor's SQLite store to visualize repository error history, fix success rates, and quarantined injection attempts in real-time.",
+      "problem_statement": "Memory Console & Developer Experience: Enhance the local Memory Console UI, IDE setup workflows, cross-platform Windows/macOS/Linux compatibility, and documentation.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "SQLite",
+        "Vite"
+      ],
+      "title": "CoMemor Visual Memory Console",
+      "track": "Memory Console & Developer Experience",
+      "why_it_could_win": "Targeting the developer experience and UI track provides an immediate visual demo that judges can interact with instantly, fitting the pattern of a working demo that solves a pain they feel daily."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "An advanced security hardening module that introduces AST-based sanitization and heuristic prompt-injection quarantines specifically designed for CoMemor's MCP server ingestion pipeline.",
+      "problem_statement": "Security, Hardening & Testing: Strengthen secret-redaction patterns, prompt-injection heuristics, Vitest unit/integration tests, and retrieval benchmarks.",
+      "stack": [
+        "TypeScript",
+        "Vitest",
+        "Babel",
+        "Node.js"
+      ],
+      "title": "PromptGuard Extension for CoMemor",
+      "track": "Security, Hardening & Testing",
+      "why_it_could_win": "Focuses directly on the security and hardening track where robust unit testing and defensive engineering stand out for core maintainers looking for production-ready PRs."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An automated evaluation harness that measures token savings and context-retrieval accuracy across Claude Code, Cursor, and Windsurf when powered by CoMemor's MCP memory layer.",
+      "problem_statement": "Security, Hardening & Testing: Strengthen secret-redaction patterns, prompt-injection heuristics, Vitest unit/integration tests, and retrieval benchmarks.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "Vitest",
+        "SQLite FTS5"
+      ],
+      "title": "CoMemor Cross-Agent Benchmark Suite",
+      "track": "Security, Hardening & Testing",
+      "why_it_could_win": "Organizers value rigorous benchmarks that prove performance gains, making this a high-signal contribution that directly appeals to the core engineering team."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1207207353",
+        "github:1226951926"
+      ],
+      "pitch": "An enhancement to CoMemor's retrieval engine that uses embedding-assisted clustering alongside SQLite FTS5 lexical search to group recurring build and runtime errors by root cause.",
+      "problem_statement": "Core MCP Engine & Retrieval: Improve TypeScript modules, SQLite FTS5 ranking, error normalization, and find_fix / record_failure / verify_fix edge cases.",
+      "stack": [
+        "TypeScript",
+        "SQLite FTS5",
+        "Node.js"
+      ],
+      "title": "Semantic Error Cluster Mapper",
+      "track": "Core MCP Engine & Retrieval",
+      "why_it_could_win": "Tackles genuine hard engineering within the core retrieval engine, directly improving the core MCP functionality that the maintainers care about most."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1423778544"
+      ],
+      "pitch": "A streamlined diagnostic CLI command ('npx comemor doctor') that verifies local dependencies, tests SQLite FTS5 health, and auto-configures MCP JSON settings across macOS, Windows, and Linux.",
+      "problem_statement": "Memory Console & Developer Experience: Enhance the local Memory Console UI, IDE setup workflows, cross-platform Windows/macOS/Linux compatibility, and documentation.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Commander.js",
+        "Chalk"
+      ],
+      "title": "CoMemor CLI Quickstart & Cross-Platform Doctor",
+      "track": "Memory Console & Developer Experience",
+      "why_it_could_win": "Solves onboarding friction for new users and developers, ensuring a flawless setup experience that judges can test immediately on their own machines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-25T11:40:09.731820+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1827287",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1155558847"
+      ],
+      "pitch": "An AI-powered logistics routing engine that optimizes multi-modal freight transport for minimal carbon emissions and maximum fuel efficiency in real-time.",
+      "problem_statement": "Supply chain optimization and last-mile delivery innovations with a focus on efficiency and sustainability",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Python",
+        "PostGIS",
+        "TailwindCSS"
+      ],
+      "title": "EcoRoute AI: Dynamic Carbon-Aware Freight Dispatch",
+      "track": "",
+      "why_it_could_win": "Directly addresses the hackathon's core stated focus on sustainability and supply chain optimization for logistics judges."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A real-time edge computer vision dashboard that tracks container movement bottlenecks, equipment dwell times, and yard congestion anomalies from CCTV feeds.",
+      "problem_statement": "Developing innovative solutions addressing key logistics challenges with a focus on efficiency",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "FastAPI",
+        "React",
+        "Docker"
+      ],
+      "title": "PortPulse: Computer Vision Container Yard Monitor",
+      "track": "",
+      "why_it_could_win": "Demonstrates hard engineering in computer vision applied directly to a classic, highly visible port and terminal logistics bottleneck."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An offline-first mobile web app for last-mile delivery drivers in low-connectivity urban zones that synchronizes proof-of-delivery and reroutes via peer-to-peer device mesh.",
+      "problem_statement": "Last-mile delivery innovations and technology-driven solutions for urban logistics",
+      "stack": [
+        "TypeScript",
+        "React Native",
+        "SQLite",
+        "Node.js"
+      ],
+      "title": "LastMile Mesh: Offline-First Delivery P2P Sync",
+      "track": "",
+      "why_it_could_win": "Solves a genuine, highly relatable operational pain point for Indian urban last-mile delivery agents experiencing spotty network coverage."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A simulated IoT telemetry platform that predicts perishable food and pharmaceutical spoilage risks during transit using live environmental sensor inputs and ML regression.",
+      "problem_statement": "Technology-driven solutions for supply chain integrity and reducing spoilage in transit",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "MQTT",
+        "Plotly"
+      ],
+      "title": "ColdChain Guard: IoT Predictive Temperature Risk Engine",
+      "track": "",
+      "why_it_could_win": "Combines practical IoT data simulation with actionable risk-mitigation insights that industry mentors and judges care deeply about."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An intelligent triage platform for reverse logistics that automates return item disposition, refurbishment scoring, and secondary market routing to minimize waste.",
+      "problem_statement": "Supply chain optimization, sustainability, and social impact in logistics",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "title": "ReverseFlow: Circular Supply Chain Return Router",
+      "track": "",
+      "why_it_could_win": "Focuses on reverse logistics, an often-overlooked sector of the supply chain that offers massive untapped cost-saving potential for enterprises."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

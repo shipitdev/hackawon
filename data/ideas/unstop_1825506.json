@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-11-25T11:38:56.412658+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1825506",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "Automated security sandbox and network packet inspector for validating web and API pentesting flags without leaking environment secrets.",
+      "problem_statement": "Web Application Pentesting and API Pentesting challenge validation security",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Docker",
+        "Scapy"
+      ],
+      "title": "CTFFence",
+      "track": "Web Application Pentesting",
+      "why_it_could_win": "Directly tackles the core infrastructure needs of a CTF by providing secure, isolated testing environments inspired by real-world network attack simulations."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An automated intelligence-gathering pipeline that correlates social media footprints, DNS histories, and exposed API keys into an interactive graph.",
+      "problem_statement": "OSINT and Digital Forensics challenge automation",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Neo4j",
+        "Streamlit"
+      ],
+      "title": "OSINT-Chain",
+      "track": "OSINT",
+      "why_it_could_win": "Leverages multi-agent pipelines to automate tedious intelligence gathering, ensuring a polished live demo for judges."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A rapid memory forensics assistant that parses raw RAM dumps for injected DLLs, hidden processes, and cryptographic keys using heuristic pattern matching.",
+      "problem_statement": "Digital Forensics challenge analysis",
+      "stack": [
+        "Python",
+        "Volatility3",
+        "Rust",
+        "FastAPI"
+      ],
+      "title": "MemDump-AI",
+      "track": "Digital Forensics",
+      "why_it_could_win": "Solves a notoriously time-consuming forensics problem with high-performance parsing and clear visual summaries, meeting the bar for genuinely hard engineering."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An automated cryptographic cipher identifier and attack-vector runner for weak RSA, custom XOR schemes, and broken padding oracles.",
+      "problem_statement": "Cryptography challenge automated solving",
+      "stack": [
+        "Python",
+        "SageMath",
+        "Flask"
+      ],
+      "title": "CryptoBreaker-X",
+      "track": "Cryptography",
+      "why_it_could_win": "Provides an instant toolkit for tackling complex math and implementation flaws during a high-pressure 24-hour CTF window."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "Real-time API schema validator and automated fuzzer that detects broken object level authorization (BOLA) and parameter tampering flaws.",
+      "problem_statement": "API Pentesting vulnerability discovery",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "React"
+      ],
+      "title": "API-Shield",
+      "track": "API Pentesting",
+      "why_it_could_win": "Focuses on modern API attack surfaces which are often heavily weighted in contemporary security competitions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

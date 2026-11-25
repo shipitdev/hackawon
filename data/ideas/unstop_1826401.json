@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-25T11:39:56.843808+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1826401",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1423778544"
+      ],
+      "pitch": "An autonomous AI agent that reads complex git diffs, traces dependency trees across multiple files, and generates complete, tested pull requests for large-scale codebase migrations.",
+      "problem_statement": "AI CodeStorm 2026 challenge focusing on autonomous AI agents and AI-powered coding tools for software development, automation, and productivity.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "TypeScript",
+        "OpenAI API"
+      ],
+      "title": "AgentGit: Autonomous Multi-File Refactoring Agent",
+      "track": "",
+      "why_it_could_win": "Directly tackles the agentic software development theme prioritized by judges, following the multi-file fix pattern from successful debugging agents like bobthebuilder."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879",
+        "github:1171690684"
+      ],
+      "pitch": "A developer productivity tool that ingests legacy enterprise codebases, runs automated static profiling, and generates living architecture documentation and interactive sequence diagrams.",
+      "problem_statement": "AI CodeStorm 2026 challenge focusing on software development automation and productivity using Large Language Models.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "React",
+        "AST parser",
+        "LangChain"
+      ],
+      "title": "DocuMorph: Automated Legacy Code-to-Modern Specification Pipeline",
+      "track": "",
+      "why_it_could_win": "Combines automated data profiling with LLMs to solve an immediate, painful bottleneck for engineering teams trying to onboard onto unmaintainable legacy repositories."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1226951926"
+      ],
+      "pitch": "An AI-powered security agent that hooks into CI/CD pipelines, analyzes static analysis security testing (SAST) reports, verifies false positives via code execution sandbox, and auto-commits security patches.",
+      "problem_statement": "AI CodeStorm 2026 challenge addressing cybersecurity, software automation, and productivity through AI agents.",
+      "stack": [
+        "Python",
+        "Docker API",
+        "FastAPI",
+        "Claude API"
+      ],
+      "title": "SecuAgent: Automated Code Vulnerability Triage and Patching Agent",
+      "track": "",
+      "why_it_could_win": "Targets the high-stakes domain of cybersecurity with an autonomous, end-to-end workflow rather than a simple wrapper chat interface."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:938030912",
+        "github:1169394966"
+      ],
+      "pitch": "A specialized IDE extension and web portal that observes student coding sessions, detects conceptual misconceptions in real-time, and scaffolds hints using Socratic questioning rather than just giving away answers.",
+      "problem_statement": "AI CodeStorm 2026 challenge addressing education and AI-assisted coding tools for developers and learners.",
+      "stack": [
+        "TypeScript",
+        "VS Code Extension API",
+        "Next.js",
+        "OpenAI API"
+      ],
+      "title": "EduCode: Real-Time AI Pair Programming Tutor for Students",
+      "track": "",
+      "why_it_could_win": "Addresses the education domain explicitly called out in the prompt with a pedagogical approach that stands out from simple code-completion tools."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1199751414"
+      ],
+      "pitch": "A secure, multi-agent platform designed to ingest unstructured clinical trial notes, normalize data formats, and cross-reference them against medical database standards using federated AI agents.",
+      "problem_statement": "AI CodeStorm 2026 challenge focusing on healthcare, Large Language Models, and autonomous AI agents for real-world problem solving.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "PostgreSQL",
+        "FastAPI"
+      ],
+      "title": "MedAgent Hub: Federated Clinical Data Verification Pipeline",
+      "track": "",
+      "why_it_could_win": "Tackles a high-complexity industry (healthcare) with a sophisticated multi-agent system architecture reminiscent of winning enterprise-grade submissions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

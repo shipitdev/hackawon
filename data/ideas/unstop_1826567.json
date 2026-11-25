@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-25T11:40:00.408244+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "judge-pain"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1826567",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous engineering team lifecycle knowledge capture agent that automatically documents tribal knowledge from pull requests and Slack threads.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "FastAPI",
+        "LangGraph",
+        "Python",
+        "ChromaDB"
+      ],
+      "title": "AgentFlow",
+      "track": "Agentic AI",
+      "why_it_could_win": "Targets the Agentic AI track directly and solves a pain felt intensely by technical judges and engineering managers."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "An autonomous data incident response agent that detects broken data pipelines, traces lineage, verifies fixes, and opens GitHub PRs automatically.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "DataHub API",
+        "GitHub API"
+      ],
+      "title": "DataGuard Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Demonstrates advanced agentic orchestration with real-world utility, appealing strongly to judges looking for autonomous execution rather than chat wrappers."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A multilingual voice-enabled agent for rural health workers providing instant, offline-first triage, vaccination schedules, and outbreak early warnings.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "Whisper API",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "HealthVenture AI",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Combines clear social impact with localized voice technology, which consistently resonates well with judges looking for real-world India-centric utility."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "An agentic disaster response coordination platform that ingests unstructured SOS feeds, categorizes emergencies, and dispatches verified resource alerts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "React",
+        "OpenAI API"
+      ],
+      "title": "CrisisSync Agent",
+      "track": "Agentic AI",
+      "why_it_could_win": "Employs multi-agent coordination for high-stakes problem domains, showing complex logic and impressive real-time dashboarding."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A full-stack digital branch platform with biometric face verification and real-time document validation for instantaneous loan underwriting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js 15",
+        "Node.js",
+        "PostgreSQL",
+        "Face-API.js"
+      ],
+      "title": "LoanFlow Portal",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Delivers a polished, production-grade fintech experience that satisfies the Full-Stack Product Engineering track requirements with high visual and functional finish."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

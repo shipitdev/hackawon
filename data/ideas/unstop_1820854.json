@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-25T11:37:20.055153+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unique-data"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820854",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1208011447",
+        "github:965357458"
+      ],
+      "pitch": "A decentralized honeypot telemetry and automated defense agent tailored for multi-domain CTF simulations.",
+      "problem_statement": "Apex CTF multi-domain cybersecurity Capture The Flag competition challenges participants to uncover vulnerabilities and investigate digital evidence.",
+      "stack": [
+        "Go",
+        "Python",
+        "FastAPI",
+        "Docker"
+      ],
+      "title": "AegisNode",
+      "track": "",
+      "why_it_could_win": "Aligns with the cybersecurity theme and mirrors the defense-in-depth architecture seen in winning agentic projects."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A real-time network attack surface mapper and threat visualization tool for investigating CTF digital forensics evidence.",
+      "problem_statement": "Apex CTF multi-domain cybersecurity Capture The Flag competition challenges participants to decode clues and uncover vulnerabilities.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "React",
+        "TailwindCSS"
+      ],
+      "title": "GraphTrace",
+      "track": "",
+      "why_it_could_win": "Judges in a cybersecurity competition value real-time visualization of complex network attack paths, similar to GraphGuard."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1196410850"
+      ],
+      "pitch": "An autonomous multi-agent penetration testing workflow coordinator that automates enumeration for CTF challenges.",
+      "problem_statement": "Apex CTF multi-domain cybersecurity Capture The Flag competition challenges participants to decode clues, uncover vulnerabilities, and solve technical puzzles.",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Claude API",
+        "FastAPI"
+      ],
+      "title": "AgentRed",
+      "track": "",
+      "why_it_could_win": "Demonstrates advanced multi-agent orchestration pipelines that solve computationally intensive enumeration tasks."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated evidence analyzer and flag documentation tool that parses command histories and generates structured penetration testing reports.",
+      "problem_statement": "Apex CTF multi-domain cybersecurity Capture The Flag competition challenges participants to investigate digital evidence and solve technical puzzles.",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Regex",
+        "ReportLab"
+      ],
+      "title": "SecReportr",
+      "track": "",
+      "why_it_could_win": "Leverages a proven hackathon-winning architecture optimized for turning raw command outputs and logs into structured summaries."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1208011447"
+      ],
+      "pitch": "A smart prompt-injection detection proxy and guardrail layer built specifically to secure AI-driven CTF challenge environments.",
+      "problem_statement": "Apex CTF multi-domain cybersecurity Capture The Flag competition challenges participants to uncover vulnerabilities.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "Redis"
+      ],
+      "title": "SanitizerX",
+      "track": "",
+      "why_it_could_win": "Tackles modern LLM security vulnerabilities which are increasingly relevant in multi-domain cybersecurity competitions."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

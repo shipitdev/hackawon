@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-25T11:39:13.212244+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "technical-depth",
+      "judge-pain",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1826211",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A clinical-grade triage and rPPG health monitoring platform built specifically to integrate with AWS managed AI services for fast rural healthcare assessment.",
+      "problem_statement": "Healthcare Domain Use Case: AI-driven patient triage and remote health monitoring.",
+      "stack": [
+        "TypeScript",
+        "AWS Lambda",
+        "Amazon Bedrock",
+        "OpenCV",
+        "React"
+      ],
+      "title": "MediTriage AWS AI Clinical Gateway",
+      "track": "Healthcare",
+      "why_it_could_win": "Leverages AWS Student Community Day momentum and incorporates the proven architecture of mediscan-ai to deliver a working clinical frontend during the 2-day hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An automated AML risk detection and investigation platform combining graph intelligence and gradient boosting for instant BFSI transaction auditing.",
+      "problem_statement": "BFSI Domain Use Case: Real-time anti-money laundering and risk detection in banking transactions.",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "NetworkX",
+        "LightGBM",
+        "FastAPI"
+      ],
+      "title": "GraphGuard AML: AWS Financial Fraud Detector",
+      "track": "BFSI (Banking, Financial Services & Insurance)",
+      "why_it_could_win": "Directly mirrors the technical stack and rigorous graph-based approach of Bito, which won 1st place in a major financial AI hackathon."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent retail inventory assistant that forecasts stock trends using calibrated probabilistic models and local store data.",
+      "problem_statement": "Retail Domain Use Case: Intelligent supply chain and automated demand forecasting.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "LangGraph",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "RetailGraph Inventory & Demand Copilot",
+      "track": "Retail",
+      "why_it_could_win": "Utilizes statistically robust prediction intervals inspired by apart research winners, appealing strongly to judges looking for mathematical rigor rather than simple wrappers."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "A secure, low-latency voice assistant utilizing RAG to help patients navigate hospital policies and retrieve clinical records in regional languages.",
+      "problem_statement": "Healthcare Domain Use Case: Multilingual patient query resolution and hospital navigation.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Llama-3",
+        "ChromaDB",
+        "WebAudio API"
+      ],
+      "title": "CareAgent Voice: Multilingual Hospital RAG",
+      "track": "Healthcare",
+      "why_it_could_win": "Focuses on hard voice-to-text accuracy and localized retrieval, mirroring the exact winning mechanics of Voz-AI."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated insurance claim risk analyzer that forecasts payout anomalies and flags fraudulent claims using Poisson regression models.",
+      "problem_statement": "BFSI Domain Use Case: Automated insurance claim risk modeling and anomaly detection.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Scikit-Learn",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "InsurGuard AI Incident & Claim Forecaster",
+      "track": "BFSI (Banking, Financial Services & Insurance)",
+      "why_it_could_win": "Applies rigorous probabilistic forecasting that stands out among standard LLM wrapper projects in financial tracks."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

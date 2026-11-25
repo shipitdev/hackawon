@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-25T11:37:11.754939+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "working-demo",
+      "unusual-hardware",
+      "sponsor-tech",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820851",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1140260754"
+      ],
+      "pitch": "A wearable biomedical IoT vest for real-time post-operative patient monitoring with edge-computed anomaly alerts.",
+      "problem_statement": "Healthcare & Assistive Technology: Develop hardware-based solutions for healthcare monitoring, patient assistance, rehabilitation, biomedical instrumentation, and wearable health devices.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "Node.js",
+        "React",
+        "MAX30102 Sensor"
+      ],
+      "title": "VitalsGuard: Post-Operative Bio-Telemetry Vest",
+      "track": "Healthcare & Assistive Technology",
+      "why_it_could_win": "Leverages proven biomedical IoT architectures and edge computing that judges can physically see working via a live sensor dashboard during the demo."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1069834761"
+      ],
+      "pitch": "An automotive safety hardware prototype combining steering wheel biometric sensors and cabin computer vision to prevent driver-fatigue accidents.",
+      "problem_statement": "Smart Mobility & Automotive Technology: Build innovative solutions for electric vehicles, intelligent transportation, vehicle safety, autonomous mobility, smart traffic management, and automotive electronics.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Raspberry Pi",
+        "Arduino",
+        "Pulse Sensor"
+      ],
+      "title": "LaneGuard: Intelligent Driver Fatigue and Drowsiness Interceptor",
+      "track": "Smart Mobility & Automotive Technology",
+      "why_it_could_win": "Addresses critical automotive safety needs with tangible hardware components mounted directly onto a physical steering mock-up for immediate live testing."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1341712439",
+        "github:1340275018"
+      ],
+      "pitch": "An industrial IoT monitoring unit using accelerometer arrays and acoustic sensors to detect pipeline anomalies and preemptively shut off mechanical valves.",
+      "problem_statement": "Industrial Automation: Explore automation, control systems, smart monitoring, industrial processes, and intelligent manufacturing solutions.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "MPU6050 Accelerometer",
+        "MQTT",
+        "Python"
+      ],
+      "title": "AutoValve: Industrial Pipeline Leak & Vibration Diagnostics Node",
+      "track": "Industrial Automation",
+      "why_it_could_win": "Directly targets industrial automation priorities with rugged embedded hardware and an automated mechanical actuator response that makes for a high-impact physical demo."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "A solar-powered agricultural sensor node communicating via LoRa mesh to optimize irrigation scheduling and drive remote water pumps autonomously.",
+      "problem_statement": "Agriculture & Environment: Build technology-driven solutions addressing agricultural challenges, resource management, environmental monitoring, and sustainability.",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa SX1276",
+        "Soil Moisture Sensors",
+        "Relay Module"
+      ],
+      "title": "AquaSense: LoRa-Enabled Precision Soil Moisture & Pump Controller",
+      "track": "Agriculture & Environment",
+      "why_it_could_win": "Employs robust low-power wireless mesh protocols suited for rural agricultural deployment, ensuring judges see a self-contained, long-range embedded system."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [
+        "github:1141364034"
+      ],
+      "pitch": "An anti-counterfeiting and safety transit tag featuring conductive ink analog signatures and secure cloud telemetry to instantly alert supply chain tampering.",
+      "problem_statement": "Safety & Disaster Management: No published statement",
+      "stack": [
+        "Python",
+        "ESP32",
+        "Google Cloud",
+        "Analog Resistance Sensors"
+      ],
+      "title": "TamperTrace: Hardware-Secured Logistics Transit Tag",
+      "track": "",
+      "why_it_could_win": "Combines physical anti-tampering electronics with cloud verification to solve high-value supply chain security challenges in a neat handheld form factor."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
