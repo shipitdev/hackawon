@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-26T11:20:15.937036+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "unusual-hardware",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1814263",
+  "ideas": [
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A custom out-of-order RISC-V vector co-processor implemented in Verilog designed for low-latency edge AI inference on FPGA.",
+      "problem_statement": "Hardware for AI Frontier",
+      "stack": [
+        "Verilog",
+        "SystemVerilog",
+        "Vivado",
+        "Python",
+        "Cocotb"
+      ],
+      "title": "TensorRT-Accelerated RISC-V Neural Accelerator Core",
+      "track": "Hardware for AI Frontier",
+      "why_it_could_win": "Targeting the Hardware for AI Frontier track with a rigorous Verilog-based FPGA implementation directly mimics winning hardware projects like riscv-ooo-core, impressing judges with genuine RTL design."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1281918590"
+      ],
+      "pitch": "A precision analog circuit simulation and prototype featuring instrumentation amplifiers and active filters for high-fidelity biomedical signal acquisition.",
+      "problem_statement": "Signal Processing Frontier",
+      "stack": [
+        "LTspice",
+        "KiCad",
+        "Python",
+        "Arduino"
+      ],
+      "title": "MEMS-Based Low-Noise Analog Front-End for EEG Signals",
+      "track": "Signal Processing Frontier",
+      "why_it_could_win": "Fits the Signal Processing Frontier track by delivering a rigorous analog design that appeals to hardware-focused sponsors like Tenstorrent and IEEE judges looking for domain depth."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1325616578"
+      ],
+      "pitch": "An automated inverse-design tool using automatic differentiation to optimize phase shifter doping profiles for silicon photonic circuits.",
+      "problem_statement": "Analog Frontier",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "JAX",
+        "Meep"
+      ],
+      "title": "Differentiable Silicon Photonic Phase Shifter Optimizer",
+      "track": "Analog Frontier",
+      "why_it_could_win": "Leverages advanced differentiable programming concepts proven in past computational hardware wins, offering judges a sophisticated mathematical solution to next-generation chip design."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A pipelined MAC (Multiply-Accumulate) array in Verilog optimized for quantized convolutional neural network layer execution.",
+      "problem_statement": "Digital Frontier",
+      "stack": [
+        "Verilog",
+        "Python",
+        "ModelSim",
+        "Xilinx ISE"
+      ],
+      "title": "Ultra-Low Power Digital CNN Accelerator on FPGA",
+      "track": "Digital Frontier",
+      "why_it_could_win": "Addresses the Digital Frontier track with a clean, fully synthesizable RTL architecture that stands out among software-heavy submissions."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:1274691349"
+      ],
+      "pitch": "A hardware-software co-designed adaptive FIR filter pipeline implemented on an FPGA for multi-microphone directional audio enhancement.",
+      "problem_statement": "Signal Processing Frontier",
+      "stack": [
+        "VHDL",
+        "Python",
+        "MATLAB",
+        "Vivado"
+      ],
+      "title": "Real-Time Edge Audio Beamforming and Noise Cancellation Processor",
+      "track": "Signal Processing Frontier",
+      "why_it_could_win": "Combines real-time digital signal processing algorithms with hardware description languages, directly matching the Signal Processing Frontier track criteria."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

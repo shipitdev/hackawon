@@ -1,0 +1,101 @@
+{
+  "generated_at": "2026-11-26T11:21:50.496486+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1828678",
+  "ideas": [
+    {
+      "build_hours": 10,
+      "inspired_by": [],
+      "pitch": "A real-time voice-to-code compiler that translates spoken architectural commands into clean, boilerplate-free TypeScript functions within a 12-hour web IDE.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Web Speech API",
+        "TailwindCSS"
+      ],
+      "title": "VoiceCode IDE Assistant",
+      "track": "",
+      "why_it_could_win": "In a frantic 12-hour sprint, judges reward tools that save developers tangible time; a snappy, working voice-coding extension will immediately impress live demo audiences."
+    },
+    {
+      "build_hours": 9,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An instantaneous semantic diff tool that analyzes a candidate's resume against a live job description and auto-generates optimized bullet points in seconds.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "ResumeDiff AI",
+      "track": "",
+      "why_it_could_win": "Addresses an everyday universal pain point for developers and job hunters, ensuring immediate relatability and a high 'I would use this' factor among judges."
+    },
+    {
+      "build_hours": 11,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "A lightning-fast, offline-first voice ordering kiosk for local street food vendors built with local audio models and lightweight local storage.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "React",
+        "IndexedDB",
+        "WebAudio API",
+        "Node.js"
+      ],
+      "title": "QuickKiosk POS",
+      "track": "",
+      "why_it_could_win": "Focuses on high-utility local economic impact, a theme that consistently scores well with panel judges looking for real-world commercial viability."
+    },
+    {
+      "build_hours": 8,
+      "inspired_by": [],
+      "pitch": "An automated git commit and release note generator that reads repository diffs and produces standardized, readable markdown updates without manual intervention.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Git CLI",
+        "OpenAI API"
+      ],
+      "title": "CommitZen AI",
+      "track": "",
+      "why_it_could_win": "Extremely tight scope makes it fully buildable and polished within 12 hours, ensuring zero bugs during the live demonstration."
+    },
+    {
+      "build_hours": 10,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An automated lecture-to-flashcard generator that ingests recorded audio or rough notes and extracts high-yield spaced repetition quizzes instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "FAISS"
+      ],
+      "title": "StudySprint Flash",
+      "track": "",
+      "why_it_could_win": "Appeals directly to the student demographic of the hackathon, providing a hyper-practical utility tool that everyone in the room understands and appreciates."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

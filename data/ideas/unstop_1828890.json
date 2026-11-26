@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-26T11:22:08.321139+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1828890",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A multi-agent system where specialized AI agents manage campus facility bookings, IT help desk ticketing, and event scheduling autonomously.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "React"
+      ],
+      "title": "MultiAgent-CampusOps",
+      "track": "",
+      "why_it_could_win": "Solves an administrative pain point familiar to student and university judges alike, utilizing a collaborative multi-agent architecture emphasized in the event overview."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864"
+      ],
+      "pitch": "A BPMN-orchestrated multi-agent governance platform that diagnoses pre-deployment risks in automated workflows with human-in-the-loop validation.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "UiPath Maestro",
+        "BPMN",
+        "FastAPI"
+      ],
+      "title": "AgentFlow-BPMN",
+      "track": "",
+      "why_it_could_win": "Demonstrates enterprise-grade AI governance and structured workflow planning, a high-value technical angle for judging panels."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An engineering team lifecycle intelligence agent that captures codebase tribal knowledge from git history and PRs, answering queries when new developers join.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "Chroma",
+        "FastAPI"
+      ],
+      "title": "DevKnowledge-Agent",
+      "track": "",
+      "why_it_could_win": "Directly targets a developer pain point with a working knowledge-management system, echoing successful engineering tool hacks."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "A voice-first autonomous agent that analyzes incoming communication streams in real-time to protect elderly users from sophisticated social engineering and email scams.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "Cloudflare Workers",
+        "Z.AI GLM API"
+      ],
+      "title": "ScamGuard-VoiceAgent",
+      "track": "",
+      "why_it_could_win": "Focuses on high-impact consumer protection with a live, demonstrable voice interface that captures judges' attention."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1132337467"
+      ],
+      "pitch": "An AI-enhanced lost-and-found portal featuring multimodal item matching via vision models and real-time geolocation mapping for recovered campus items.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Gemini AI",
+        "Firebase"
+      ],
+      "title": "CampusFind-Multimodal",
+      "track": "",
+      "why_it_could_win": "Features an extremely reliable, easy-to-demo product with immediate utility for university students."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

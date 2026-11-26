@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-26T11:19:53.254433+00:00",
+  "grounding": {
+    "domains": [
+      "hardware"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "devfolio:931ca9149c46417bb0526ce1eb44b920",
+  "ideas": [
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1423023064"
+      ],
+      "pitch": "A deterministic resource governor and local sensor-fusion safety node running on the Arduino UNO Q for small autonomous vessels.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino UNO Q",
+        "Python",
+        "C++",
+        "Constraint Solver"
+      ],
+      "title": "Vessel-Edge: Deterministic Resource Governor for Autonomous Marine Craft",
+      "track": "Industry 2.0 – The Future of Automation",
+      "why_it_could_win": "Directly showcases the mandatory Arduino UNO Q board running a deterministic control system, matching a proven winning pattern from maritime dual-use hackathons."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:666215867"
+      ],
+      "pitch": "An intelligent nebulizer adherence and dosage verification tracking node built on the Arduino UNO Q with local sensor analytics.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino UNO Q",
+        "C",
+        "Flow Sensors",
+        "MQTT"
+      ],
+      "title": "Smart-Nebulizer Edge: IoT Respiratory Therapy Monitor",
+      "track": "HealthTech – Beyond Boundaries",
+      "why_it_could_win": "Addresses the HealthTech track with a tangible hardware-focused medical compliance device, mirroring past health hackathon grand prize winners."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1340275018"
+      ],
+      "pitch": "An edge-computed physical safety monitor using the Arduino UNO Q and local sensors to immediately halt machinery when PPE violations occur.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino UNO Q",
+        "TypeScript",
+        "OpenCV",
+        "Relay Modules"
+      ],
+      "title": "Industrial-Safe-Net: Edge AI Safety Violation Detector",
+      "track": "Industry 2.0 – The Future of Automation",
+      "why_it_could_win": "Fits the Industry 2.0 track by solving an urgent factory floor safety problem with a working hardware prototype."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1179000073"
+      ],
+      "pitch": "An embedded power management system running on the Arduino UNO Q that computes real-time renewable energy mix ratios and sustainability scores.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino UNO Q",
+        "C",
+        "Current Sensors",
+        "OLED Display"
+      ],
+      "title": "Eco-Grid Micro-Monitor: Renewable Energy Mix Analyzer",
+      "track": "Utopia – Envisioning a Better World",
+      "why_it_could_win": "Targets the Utopia track by delivering clear, quantifiable environmental impact metrics straight from a microcontroller."
+    },
+    {
+      "build_hours": 7,
+      "inspired_by": [
+        "github:1010199928"
+      ],
+      "pitch": "An automated sorting bin that classifies waste items using proximity sensors and local classifiers hosted on the Arduino UNO Q.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Arduino UNO Q",
+        "Python",
+        "Servo Motors",
+        "Proximity Sensors"
+      ],
+      "title": "Bin-Intel: Physical AI-Powered Waste Segregation Node",
+      "track": "Odyssey – A Journey to Limitless Possibilities",
+      "why_it_could_win": "Combines physical hardware automation with the Odyssey track's focus on emerging tech, providing a crowd-pleasing live demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

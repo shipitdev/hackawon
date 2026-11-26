@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-26T11:20:11.176444+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "mlh:workday-internal-hackathon",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "An internal graph-intelligence platform mapping employee skills, career aspirations, and project histories to recommend internal mobility paths and project teams instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Neo4j",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "Workday SkillGraph & Mobility Engine",
+      "track": "",
+      "why_it_could_win": "Targeted directly at Workday's core business value proposition of HR tech, enterprise talent management, and internal mobility, making it immediately appealing to internal employee-judges."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "An automated policy and compliance risk checker for internal HR documents, compensation adjustments, and organizational restructuring plans.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "Workday AuditGuard AI",
+      "track": "",
+      "why_it_could_win": "Leverages advanced compliance monitoring patterns similar to winning enterprise governance tools, directly addressing corporate risk management needs."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1388327521"
+      ],
+      "pitch": "An end-to-end receipt parsing and policy-checking iOS workflow that instantly verifies corporate expense claims against enterprise spend policies before submission.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Swift",
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "Workday ExpenseReceipt OCR & Policy Copilot",
+      "track": "",
+      "why_it_could_win": "Focuses on a highly tangible, working mobile workflow that every corporate employee and finance team uses daily, ensuring a relatable live demo."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive employee retention and engagement dashboard providing 90-day sentiment forecasting and proactive intervention alerts for new hires.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Scikit-Learn",
+        "Streamlit",
+        "Pandas"
+      ],
+      "title": "Workday OnboardPulse Analytics",
+      "track": "",
+      "why_it_could_win": "Employs robust statistical forecasting and calibrated prediction intervals, bringing rigorous data science directly to enterprise HR analytics."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An enterprise calendar analytics plugin that computes real-time meeting costs based on attendee compensation tiers and suggests actionable schedule optimizations.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express"
+      ],
+      "title": "Workday MeetingROI & Time Audit Assistant",
+      "track": "",
+      "why_it_could_win": "Solves an immediate, universally understood corporate pain point with an interactive dashboard that will make every judge smile during the live demo."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

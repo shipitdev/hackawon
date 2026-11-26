@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-26T11:20:20.513507+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "judge-pain",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1820895",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An autonomous multi-agent system that plans, simulates, and optimizes mammalian cell culture fed-batch parameters for recombinant protein production.",
+      "problem_statement": "Biotechnology & Life Sciences domain optimization problem for bioprocess engineering.",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "NumPy",
+        "Streamlit"
+      ],
+      "title": "BioAgent CellLine",
+      "track": "Biotechnology & Life Sciences",
+      "why_it_could_win": "Solves a genuinely hard engineering problem in bioprocess modeling rather than wrapping a simple API call, impressing judges with rigorous domain logic."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1192028384"
+      ],
+      "pitch": "An agentic constellation scheduler that dynamically re-targets low-earth orbit imaging satellites when natural disaster anomalies are detected in telemetry streams.",
+      "problem_statement": "SpaceTech & Aerospace domain problem regarding autonomous satellite tasking and mission planning.",
+      "stack": [
+        "Python",
+        "CrewAI",
+        "Skyfield",
+        "PostGIS",
+        "React"
+      ],
+      "title": "AeroConstellation Agent",
+      "track": "SpaceTech & Aerospace",
+      "why_it_could_win": "Targets the SpaceTech track where few teams have aerospace domain expertise, giving a specialized agent architecture a massive competitive advantage."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "A hierarchical agentic working memory layer that prevents context degradation and catastrophic forgetting during multi-hour complex reasoning tasks.",
+      "problem_statement": "AI & Cognitive Systems domain challenge focusing on agent memory architectures and context window management.",
+      "stack": [
+        "TypeScript",
+        "LlamaIndex",
+        "Qdrant",
+        "Next.js",
+        "Redis"
+      ],
+      "title": "Cognitive Memory Mesh",
+      "track": "AI & Cognitive Systems",
+      "why_it_could_win": "Focuses on core agentic cognitive infrastructure—a pain point every technical judge working with LLMs experiences daily."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A decentralized fault-tolerance agent network that monitors ROS2 robotic nodes in real time, isolates compromised behaviors, and patches navigation waypoints.",
+      "problem_statement": "Robotics & Automation domain challenge regarding robust autonomous navigation and fault recovery.",
+      "stack": [
+        "Python",
+        "ROS2",
+        "ZeroMQ",
+        "Docker",
+        "Plotly"
+      ],
+      "title": "RoboGuard Swarm Agent",
+      "track": "Robotics & Automation",
+      "why_it_could_win": "Combines physical robotics simulation with agentic self-healing, demonstrating end-to-end execution that stands out in a crowded room."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1220411239"
+      ],
+      "pitch": "An autonomous security agent that executes safe, sandboxed multi-step penetration testing playbooks against mock cloud microservices and generates remediation reports.",
+      "problem_statement": "Cybersecurity domain problem focusing on automated vulnerability assessment and threat mitigation.",
+      "stack": [
+        "Python",
+        "AutoGen",
+        "Docker API",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "CyberRed Teaming Agent",
+      "track": "Cybersecurity",
+      "why_it_could_win": "Tackles a high-stakes security workflow with strict guardrails, demonstrating rigorous safety constraints that appeal to technical evaluators."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

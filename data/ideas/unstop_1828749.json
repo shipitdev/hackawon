@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-11-26T11:21:59.526168+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1828749",
+  "ideas": [
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1434989874"
+      ],
+      "pitch": "An interactive algorithmic visualization tool tailored for students participating in statewide competitive programming contests in Bihar, mapping custom test cases step-by-step.",
+      "problem_statement": "Statewide competitive programming contest designed to promote problem-solving, algorithmic thinking, and collaboration within Bihar's growing technology community.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "WebWorkers"
+      ],
+      "title": "BiharCP Visualizer & Algorithm Trainer",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on algorithmic thinking and clear visual test-case execution, directly mirroring the automated test-case-based evaluation criteria of the contest."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "A solo performance tracking platform for competitive programmers to analyze speed, accuracy, and weak data structure topics across simulated 6-problem contest formats.",
+      "problem_statement": "Statewide competitive programming contest designed to promote problem-solving, algorithmic thinking, and collaboration within Bihar's growing technology community.",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "PostgreSQL",
+        "Chart.js"
+      ],
+      "title": "CP-Progress Analytics Dashboard",
+      "track": "",
+      "why_it_could_win": "Addresses individual growth and performance metrics which resonates with judges looking for tools that improve student competitiveness across universities."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:938030912"
+      ],
+      "pitch": "A browser-based development environment with pre-implemented boilerplate for complex data structures optimized for rapid competitive programming.",
+      "problem_statement": "Statewide competitive programming contest designed to promote problem-solving, algorithmic thinking, and collaboration within Bihar's growing technology community.",
+      "stack": [
+        "TypeScript",
+        "Monaco Editor",
+        "WebAssembly"
+      ],
+      "title": "Contest-Ready Data Structures Sandbox",
+      "track": "",
+      "why_it_could_win": "Provides a genuinely practical utility for individual participants during preparation phases, ensuring high practical value."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:945008026"
+      ],
+      "pitch": "A lightweight practice platform enabling students across universities in Bihar to test their problem-solving skills locally with instant automated grading scripts.",
+      "problem_statement": "Statewide competitive programming contest designed to promote problem-solving, algorithmic thinking, and collaboration within Bihar's growing technology community.",
+      "stack": [
+        "Python",
+        "Flask",
+        "Docker",
+        "SQLite"
+      ],
+      "title": "Offline-First Competitive Programming Hub",
+      "track": "",
+      "why_it_could_win": "Solves infrastructure friction for students with unstable internet connections, making it highly relevant to a statewide audience."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1329458499"
+      ],
+      "pitch": "A static analysis tool that parses submitted code to estimate time and space complexity before running against strict test-case time limits.",
+      "problem_statement": "Statewide competitive programming contest designed to promote problem-solving, algorithmic thinking, and collaboration within Bihar's growing technology community.",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "FastAPI"
+      ],
+      "title": "Algorithmic Complexity Estimator",
+      "track": "",
+      "why_it_could_win": "Tackles a deep technical challenge in parsing code semantics accurately, fitting the hard engineering success pattern."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

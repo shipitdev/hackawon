@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-26T11:21:42.876037+00:00",
+  "grounding": {
+    "domains": [
+      "agritech",
+      "healthtech",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "impact",
+      "technical-depth"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1828382",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A mobile-first computer vision app for smallholder farmers to diagnose crop nutrient deficiencies and pest stress using smartphone leaf photos, paired with localized yield forecasting.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React Native",
+        "TensorFlow Lite"
+      ],
+      "title": "AgriVision Yield & Soil Health Predictor",
+      "track": "Agriculture",
+      "why_it_could_win": "Directly targets the Agriculture domain with high social impact and clear economic metrics for farmers, satisfying key evaluation criteria for social impact and feasibility."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A lightweight invoice and ledger app for micro-merchants that automatically generates verifiable creditworthiness reports based on digital transaction histories.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "CommerceTrust MSME Ledger & Credit Scorer",
+      "track": "Commerce",
+      "why_it_could_win": "Aligns with the Commerce domain by solving real financial inclusion problems for small merchants, scoring high on scalability and feasibility."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "An offline-first multilingual voice assistant that helps rural health workers triage symptoms, log patient histories, and receive preliminary AI-driven diagnostic suggestions in regional languages.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Whisper API",
+        "React",
+        "SQLite"
+      ],
+      "title": "ArogyaVoice Rural Health Triaging",
+      "track": "Health",
+      "why_it_could_win": "Builds on proven health-tech patterns by incorporating multilingual support and addressing critical healthcare delivery gaps in rural populations."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:230250148"
+      ],
+      "pitch": "An open-source web application for underfunded schools that assesses student mastery in core math and science concepts and dynamically generates customized remedial exercises.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "SkillBridge Adaptive Learning Companion",
+      "track": "Education",
+      "why_it_could_win": "Focuses on the Education domain with a strong social impact angle, making it highly appealing to judges evaluating real-world utility and educational equity."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A logistics and pricing transparency platform connecting local agricultural producers directly with urban retail buyers to eliminate middlemen markups and reduce food waste.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Express",
+        "MongoDB"
+      ],
+      "title": "KrishiMarket Direct Farmer-Buyer Link",
+      "track": "Agriculture",
+      "why_it_could_win": "Combines Agriculture and Commerce domains with measurable economic benefit for producers, satisfying the high-priority judging criteria for concrete social and economic impact."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

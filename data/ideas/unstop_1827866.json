@@ -1,0 +1,114 @@
+{
+  "generated_at": "2026-11-26T11:21:36.390861+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "impact",
+      "judge-pain",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1827866",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1329458499",
+        "github:1181028879"
+      ],
+      "pitch": "An autonomous multi-agent pipeline builder that inspects GitHub repositories and generates self-healing integration test agents.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "React",
+        "Docker"
+      ],
+      "title": "AgentFlow Studio",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly targets the Agentic AI track with production-grade engineering rather than a wrapper, mirroring the architecture that won the DataHub Agent Hackathon."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "Engineering team lifecycle intelligence platform that captures unspoken codebase context from commit history and PR comments before developers leave.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Next.js",
+        "Python",
+        "ChromaDB",
+        "FastAPI",
+        "TailwindCSS"
+      ],
+      "title": "DevHandover OS",
+      "track": "Full-Stack Product Engineering",
+      "why_it_could_win": "Targets the Full-Stack Product Engineering track by solving an immediate, painful problem for engineering managers and judges who experience constant team churn."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1170846981",
+        "github:1185527998"
+      ],
+      "pitch": "A multilingual voice and text clinical triage assistant providing rural health workers with offline-first symptom analysis and localized outbreak tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Next.js",
+        "OpenCV",
+        "Whisper API",
+        "TailwindCSS"
+      ],
+      "title": "RuralMed Multi-Agent Triage",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines high-impact social utility with clear, demonstrable real-world metrics, following the blueprint of multi-prize-winning regional health platforms."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:950564513"
+      ],
+      "pitch": "An AI-powered autonomous loan underwriting agent that cross-references bank statements, face-detection identity verification, and real-time risk scoring.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "OpenAI API",
+        "PostgreSQL"
+      ],
+      "title": "AgenticLoan Branch",
+      "track": "Agentic AI",
+      "why_it_could_win": "Directly applies proven financial tech hackathon patterns to the Agentic AI track, impressing judges with a secure, regulated digital branch experience."
+    },
+    {
+      "build_hours": 34,
+      "inspired_by": [
+        "github:933310408"
+      ],
+      "pitch": "Agentic disaster response platform that aggregates live social data feeds, automatically prioritizes rescue dispatches, and coordinates relief resources.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "LangChain",
+        "Leaflet.js"
+      ],
+      "title": "CrisisMesh AI",
+      "track": "Open Innovation",
+      "why_it_could_win": "Fits the Open Innovation track by showcasing complex agent orchestration solving a life-and-death coordination problem with a live interactive dashboard."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
