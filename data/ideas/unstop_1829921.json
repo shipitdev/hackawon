@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-11-27T11:14:08.299543+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1829921",
+  "ideas": [
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A terminal-based rapid practice environment designed to simulate the 25-minute Python DSA dry-run challenge with instant complexity checks.",
+      "problem_statement": "Can you predict what a recursive function returns without running it? Spot why one loop is O(n log n)? Pick the right data structure in a second?",
+      "stack": [
+        "Python",
+        "Rich",
+        "Typer"
+      ],
+      "title": "DryRunTrainer CLI",
+      "track": "",
+      "why_it_could_win": "Aligns perfectly with the exact rapid-fire assessment format, helping participants train for the exact cognitive patterns tested in the competition."
+    },
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "An offline, text-based tool that parses simple Python recursive functions and generates stack-frame progression trees without running an interpreter.",
+      "problem_statement": "Can you predict what a recursive function returns without running it?",
+      "stack": [
+        "Python",
+        "Ast"
+      ],
+      "title": "RecursionTrace Visualizer",
+      "track": "",
+      "why_it_could_win": "Directly tackles the hardest category of questions in the challenge by breaking down recursion trace mechanics into static textual steps."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "A static code analyzer focused on identifying loop structures, pointer increments, and logarithmic steps in Python snippets to instantly determine time complexity.",
+      "problem_statement": "Spot why one loop is O(n log n)?",
+      "stack": [
+        "Python",
+        "Graphviz"
+      ],
+      "title": "BigO Pattern Spotter",
+      "track": "",
+      "why_it_could_win": "Solves the specific bottleneck of identifying non-obvious algorithmic complexities under strict time pressure."
+    },
+    {
+      "build_hours": 12,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A high-speed decision-tree flashcard application mapping access, insertion, and traversal profiles to optimal data structures in seconds.",
+      "problem_statement": "Pick the right data structure in a second?",
+      "stack": [
+        "Python",
+        "FastAPI"
+      ],
+      "title": "StructSelector Flashcards",
+      "track": "",
+      "why_it_could_win": "Focuses on building the immediate subconscious recall required for rapid objective-style data structure questions."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A timed, zero-IDE constraint simulation platform featuring multiple-choice Python code snippets, strict 25-minute timers, and automated scoring.",
+      "problem_statement": "Can you predict what a recursive function returns without running it? Spot why one loop is O(n log n)? Pick the right data structure in a second?",
+      "stack": [
+        "Python",
+        "Pydantic",
+        "FastAPI"
+      ],
+      "title": "DryRun Mock Exam Engine",
+      "track": "",
+      "why_it_could_win": "Provides the exact simulated stress-test environment mirroring the official challenge rules and guidelines."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

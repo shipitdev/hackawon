@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-11-27T11:13:50.625710+00:00",
+  "grounding": {
+    "domains": [
+      "web3"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 2,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1828645",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An immersive, interactive 3D WebGL-based digital headquarters for the InteractUp youth organization featuring spatial navigation and real-time community graphs.",
+      "problem_statement": "Explore www.interactup.in and reimagine it by building an exceptional UI/UX experience with immersive 3D elements, animations, and interactive storytelling.",
+      "stack": [
+        "Next.js",
+        "Three.js",
+        "TailwindCSS",
+        "Framer Motion"
+      ],
+      "title": "InteractUp 3D Nexus Universe",
+      "track": "",
+      "why_it_could_win": "Directly hits the prompt's explicit call for 3D elements, immersive storytelling, and creative navigation that separates it from standard flat website redesigns."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A personalized web platform that dynamically morphs its UI, case studies, and pathways based on whether the visitor is a Student, College Institution, or Corporate Partner.",
+      "problem_statement": "Your website should be designed keeping multiple audiences in mind, including students, educational institutions, companies, and aspiring entrepreneurs.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "GSAP"
+      ],
+      "title": "InteractUp Multi-Audience Dynamic Portal",
+      "track": "",
+      "why_it_could_win": "Addresses the exact multi-stakeholder requirement in the prompt by providing tailored interactive value propositions for every single target audience mentioned."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:929936040"
+      ],
+      "pitch": "An interactive AI-powered narrative guide on the landing page that interviews visitors and builds a customized roadmap of events, community chapters, and opportunities for them.",
+      "problem_statement": "Reimagine www.interactup.in with innovative features, unique layouts, and interactive experiences that students want to explore and find genuinely useful.",
+      "stack": [
+        "Next.js",
+        "OpenAI API",
+        "LangChain",
+        "Framer Motion"
+      ],
+      "title": "InteractUp AI Storyteller & Event Curator",
+      "track": "",
+      "why_it_could_win": "Leverages interactive agentic workflow concepts similar to award-winning projects to provide practical utility rather than static brochureware."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:706794838",
+        "github:1077481559"
+      ],
+      "pitch": "A credential verification and gamified milestone platform for youth organization members to showcase achievements, event participation badges, and verified skills.",
+      "problem_statement": "Redesign, develop and deploy your own version of the InteractUp website, creating an exceptional UI/UX experience that is intuitive, interactive and genuinely useful.",
+      "stack": [
+        "Solidity",
+        "React",
+        "TailwindCSS",
+        "Ethers.js"
+      ],
+      "title": "InteractUp Decentralized Chapter Passports",
+      "track": "",
+      "why_it_could_win": "Applies proven gamification and decentralized ledger verification patterns from past hackathon winners to youth organizational credentialing."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "A high-performance scrollytelling web experience that uses kinetic typography and SVG path animations to narrate the impact of the national youth organization.",
+      "problem_statement": "Think beyond conventional websites by experimenting with animations, interactive storytelling, creative navigation, and innovative features.",
+      "stack": [
+        "React",
+        "Lenis Scroll",
+        "GSAP ScrollTrigger",
+        "TailwindCSS"
+      ],
+      "title": "InteractUp Kinetic Kinetic StoryBrand Engine",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on elite frontend execution, polish, and animation smoothness, which guarantees high scores in UI/UX judging rubrics."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

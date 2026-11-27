@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-27T11:13:41.446866+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo",
+      "impact",
+      "sponsor-tech"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1825414",
+  "ideas": [
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A rapid graph intelligence and risk scoring platform tailored for financial transactions.",
+      "problem_statement": "FinTech House: Financial management or digital payment solution",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Neo4j",
+        "LightGBM"
+      ],
+      "title": "FinGraph AML Investigator",
+      "track": "FinTech House",
+      "why_it_could_win": "Adapts proven graph intelligence and risk detection patterns from winning fintech projects to appeal directly to judges in the FinTech House."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent advisory system combining local crop data and agricultural RAG for localized farming support.",
+      "problem_statement": "AgriTech House: Agricultural technology and farming solutions",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "AgriYield Multi-Agent Advisor",
+      "track": "AgriTech House",
+      "why_it_could_win": "Leverages multi-agent architecture patterns that have won sustainability and AI hackathons, providing structured, reliable insights for AgriTech judges."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1331302398"
+      ],
+      "pitch": "A dynamic business operations and micro-assessment generator for SaaS workflows with strict contract validation.",
+      "problem_statement": "SaaS House: Software-as-a-service and business efficiency tools",
+      "stack": [
+        "JavaScript",
+        "FastAPI",
+        "Pydantic",
+        "OpenAI API",
+        "React"
+      ],
+      "title": "SaaSMetric Contract-First Orchestrator",
+      "track": "SaaS House",
+      "why_it_could_win": "Focuses on robust contract-first Pydantic orchestration and rapid SaaS utility, mirroring proven patterns from successful structured assessment tools."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1185527998"
+      ],
+      "pitch": "A fast multimodal triage and summarization engine that processes unstructured documents and voice inputs into prioritized action items.",
+      "problem_statement": "Generative AI House: Generative AI applications and models",
+      "stack": [
+        "JavaScript",
+        "Node.js",
+        "OpenCV",
+        "TailwindCSS",
+        "LLM API"
+      ],
+      "title": "GenAI Multimodal Triage Assistant",
+      "track": "Generative AI House",
+      "why_it_could_win": "Employs practical multimodal handling and real-time structured output that guarantees a functional live demo for judges under strict time constraints."
+    },
+    {
+      "build_hours": 6,
+      "inspired_by": [
+        "github:1170846981"
+      ],
+      "pitch": "A localized multilingual awareness and instant incident reporting tool tailored for campus communities.",
+      "problem_statement": "Student Innovation House: Student-centric solutions and campus innovations",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQLite",
+        "i18next"
+      ],
+      "title": "CampusPeer Multilingual Health & Safety Hub",
+      "track": "Student Innovation House",
+      "why_it_could_win": "Targets direct student utility with a polished multilingual interface, matching the community-impact priority seen in top prize winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

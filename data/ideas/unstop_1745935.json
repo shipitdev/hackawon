@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-27T11:13:28.452489+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1745935",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "A low-bandwidth, offline-first triage and telemedicine PWA optimized for rural West Bengal clinics with intermittent internet connectivity.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "IndexedDB",
+        "TailwindCSS",
+        "Gemini Nano"
+      ],
+      "title": "ArogyaNet: Offline-First Rural Telemedicine & Triage",
+      "track": "HealthTech",
+      "why_it_could_win": "Targeting the HealthTech track with a pragmatic architectural approach (offline-first PWA with local symptom embeddings) directly addresses rural healthcare access bottlenecks in West Bengal, making it deeply relevant to Jadavpur University judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered peer support matching and sentiment monitoring platform supporting Bengali and regional dialects for localized mental healthcare.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "LangChain",
+        "HuggingFace Transformers"
+      ],
+      "title": "Sahayika: Regional Dialect Mental Health Peer Support Engine",
+      "track": "HealthTech",
+      "why_it_could_win": "Mental health platforms rarely cater to regional Indian languages. Incorporating localized dialect processing appeals strongly to the local pride and contextual relevance criteria set by Jadavpur University evaluators."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1283554494",
+        "github:1155558847"
+      ],
+      "pitch": "A computer vision and ledger platform verifying the quality grading and carbon footprint of West Bengal's jute agricultural supply chain.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health.",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "TensorFlow.js",
+        "PostgreSQL",
+        "Power BI"
+      ],
+      "title": "JuteTrace: AI Supply Chain Carbon & Quality Verifier",
+      "track": "",
+      "why_it_could_win": "By tying the solution directly to West Bengal's staple agricultural economy (jute) while tracking carbon metrics, it creates undeniable localized economic and environmental impact that judges prioritize."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1155558847"
+      ],
+      "pitch": "A mobile web app utilizing smartphone camera magnification and computer vision to verify packaging watermarks and detect counterfeit medicines common in remote districts.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health.",
+      "stack": [
+        "Python",
+        "OpenCV",
+        "Flask",
+        "Flutter"
+      ],
+      "title": "MedVerify: Counterfeit Drug Detection via Mobile Microscopy",
+      "track": "HealthTech",
+      "why_it_could_win": "Tackling spurious drug distribution is a severe public health crisis in eastern India. A technical implementation solving a life-or-death verification problem guarantees strong judging scores on impact."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1181344931"
+      ],
+      "pitch": "A spatial-temporal clustering dashboard that aggregates anonymized syndromic logs from local pharmacies to predict regional disease outbreaks in West Bengal.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health.",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Plotly",
+        "FastAPI",
+        "Leaflet.js"
+      ],
+      "title": "VaidyaPulse: Predictive Outbreak Monitoring for Local Dispensaries",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines epidemiological forecasting with actionable public health infrastructure, replicating the rigorous predictive modeling approach seen in top-tier hackathon winners."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

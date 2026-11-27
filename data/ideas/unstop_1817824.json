@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-11-27T11:13:36.865474+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1817824",
+  "ideas": [
+    {
+      "build_hours": 20,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "An automated security testing framework that generates edge-case adversarial prompts to test and harden enterprise LLM applications against prompt injection and jailbreaks.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Gemini API",
+        "Next.js"
+      ],
+      "title": "PromptShield Evaluator",
+      "track": "",
+      "why_it_could_win": "Aligns with Google for Developers ecosystem goals around safe and responsible AI development, targeting enterprise deployment readiness."
+    },
+    {
+      "build_hours": 18,
+      "inspired_by": [
+        "github:1245565654"
+      ],
+      "pitch": "A visual prompt-chaining and optimization workspace for developers to iteratively test, benchmark, and compile complex LLM workflows into production prompts.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "React",
+        "TailwindCSS",
+        "OpenAI API"
+      ],
+      "title": "QueryCrafter Studio",
+      "track": "",
+      "why_it_could_win": "Directly targets the core theme of prompt engineering and developer tooling, making it instantly relatable to judges."
+    },
+    {
+      "build_hours": 16,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A zero-setup local document intelligence pipeline that automatically generates optimal retrieval and summarization prompts based on the semantic structure of uploaded PDFs.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "Streamlit",
+        "ChromaDB"
+      ],
+      "title": "DocuPrompt Agent",
+      "track": "",
+      "why_it_could_win": "Solves an everyday pain point for students and professionals using GenAI, prioritizing immediate practical utility and clean UX."
+    },
+    {
+      "build_hours": 22,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An intelligent repository reviewer that uses dynamic prompt templates to audit legacy codebases for architectural anti-patterns and generates step-by-step refactoring guides.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "Monaco Editor"
+      ],
+      "title": "CodeLens AI",
+      "track": "",
+      "why_it_could_win": "Leverages AI-assisted development tools and prompt orchestration to deliver clear, quantifiable productivity gains for engineering teams."
+    },
+    {
+      "build_hours": 15,
+      "inspired_by": [
+        "github:1183964401"
+      ],
+      "pitch": "A rapid hackathon co-pilot that ingests raw problem statements and instantly outputs structured system architectures, tech stacks, and prompt templates for the build phase.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Groq API",
+        "NetworkX"
+      ],
+      "title": "IdeaSynth MVP",
+      "track": "",
+      "why_it_could_win": "Meta-hackathon utility that resonates strongly with student organizers and judges who appreciate high-speed rapid prototyping tools."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

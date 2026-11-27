@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-11-27T11:14:04.284130+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "judge-pain",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1829674",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A visual debugging and state-inspection UI built on top of the starter agent source file to reveal hidden agent loops and memory limits.",
+      "problem_statement": "Participants must analyse the provided agent, understand its architecture and existing functionalities, and further develop, enhance, or extend its functionalities.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "LangChain"
+      ],
+      "title": "AgentFlow Extension",
+      "track": "",
+      "why_it_could_win": "Judges will evaluate how deeply teams understand the provided starter code; an explicit debugging and visualization layer makes code comprehension instantly transparent during the live demo."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "Extends the starter single-agent file into a multi-agent safety pipeline that catches hallucinations and API injection attempts before execution.",
+      "problem_statement": "Participants must analyse the provided agent, understand its architecture and existing functionalities, and further develop, enhance, or extend its functionalities to create a more efficient and intelligent AI-powered solution.",
+      "stack": [
+        "Python",
+        "Pydantic",
+        "OpenAI API"
+      ],
+      "title": "MultiAgent Guardrail Injector",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on architectural enhancement and production-readiness, directly answering the criteria of making the provided agent more efficient and robust."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1181028879"
+      ],
+      "pitch": "Upgrades the starter agent's basic context window with a persistent semantic graph store to prevent long-context amnesia during complex workflows.",
+      "problem_statement": "Develop and enhance the agent with additional capabilities, identifying limitations and opportunities for improvement in the starter source file.",
+      "stack": [
+        "Python",
+        "NetworkX",
+        "ChromaDB"
+      ],
+      "title": "AgentMemory Graph Bridge",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard engineering by solving context degradation, scoring high on technical difficulty and performance metrics."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1228867095"
+      ],
+      "pitch": "An enhancement module for the starter agent that writes, sandboxes, and registers missing Python helper functions on the fly when facing unknown tasks.",
+      "problem_statement": "Participants are encouraged to demonstrate their technical skills, creativity, problem-solving abilities, and understanding of autonomous AI agents by introducing innovative features.",
+      "stack": [
+        "Python",
+        "Docker SDK",
+        "AST module"
+      ],
+      "title": "Autonomous Tool-Synthesizer",
+      "track": "",
+      "why_it_could_win": "Provides a high-impact 'wow' factor during live demonstration by showing the agent dynamically adapting beyond its original hardcoded toolset."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "An automated evaluation and stress-testing harness designed to benchmark the performance improvements made to the starter agent source file.",
+      "problem_statement": "Test and validate the developed solution, focusing on how effectively participants implement improvements and demonstrate the performance of their developed agents.",
+      "stack": [
+        "Python",
+        "pytest",
+        "Streamlit"
+      ],
+      "title": "AgentBench Suite",
+      "track": "",
+      "why_it_could_win": "Judges prioritize concrete performance validation over hand-wavy claims; providing rigorous comparative benchmarks proves the enhancement works."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

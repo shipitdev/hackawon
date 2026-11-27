@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-27T11:13:59.504890+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1829639",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1195808191"
+      ],
+      "pitch": "A real-time computer vision platform using pose estimation to detect musculoskeletal strain risks during remote desk work.",
+      "problem_statement": "Healthcare and Education",
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "OpenCV",
+        "FastAPI",
+        "React"
+      ],
+      "title": "BioKinetic: Ergonomic Workplace Posture AI",
+      "track": "Healthcare and Education",
+      "why_it_could_win": "Follows the pattern of CricketVision_AI by combining MediaPipe and a classification model to solve a real biomechanical safety challenge."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "An interactive supply chain dashboard that ingests logistics parameters to calculate and optimize transport carbon footprints.",
+      "problem_statement": "Sustainability and Social Impact",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "Pandas"
+      ],
+      "title": "SupplyRoute Carbon Optimizer",
+      "track": "Sustainability and Social Impact",
+      "why_it_could_win": "Replicates the winning formula of the IBM carbon footprint project by giving judges concrete, visualized environmental metrics."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931"
+      ],
+      "pitch": "A transaction graph analyzer that highlights suspicious money-laundering clusters using lightweight graph intelligence.",
+      "problem_statement": "FinTech and Business Solutions",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "D3.js",
+        "PostgreSQL"
+      ],
+      "title": "FinGraph AML: Entity Network Risk Screener",
+      "track": "FinTech and Business Solutions",
+      "why_it_could_win": "Leverages complex data visualization to impress judges with enterprise-grade financial crime prevention mechanics."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1200926140"
+      ],
+      "pitch": "An automated video indexing tool that extracts keyframes, transcribes audio, and makes long lecture or seminar archives searchable.",
+      "problem_statement": "Artificial Intelligence and Machine Learning",
+      "stack": [
+        "HTML",
+        "JavaScript",
+        "Python",
+        "Whisper API",
+        "Vector Embeddings"
+      ],
+      "title": "DocuPulse AI: Unstructured Video Intelligence",
+      "track": "Artificial Intelligence and Machine Learning",
+      "why_it_could_win": "Mirrors LibrAI's award-winning approach of transforming unstructured video archives into clean, highly searchable data assets."
+    },
+    {
+      "build_hours": 35,
+      "inspired_by": [],
+      "pitch": "A simulated IoT dashboard tracking live power grid metrics with predictive anomaly alerts for urban energy consumption.",
+      "problem_statement": "IoT and Hardware Innovation",
+      "stack": [
+        "TypeScript",
+        "React",
+        "MQTT.js",
+        "Node.js",
+        "InfluxDB"
+      ],
+      "title": "EcoGrid IoT: Smart Energy Monitoring Node",
+      "track": "IoT and Hardware Innovation",
+      "why_it_could_win": "Fulfills the IoT innovation domain with a working live-stream demo of sensor telemetry and automated threshold alerts."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

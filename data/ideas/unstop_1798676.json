@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-11-27T11:13:33.102150+00:00",
+  "grounding": {
+    "domains": [
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1798676",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "A static and dynamic analysis tool designed to inspect Signal Protocol implementations for common cryptographic implementation flaws, weak PRNG seeds, and key-leakage vectors.",
+      "problem_statement": "Secure Communication Protocol: Could you spot a weakened random-number generator or a quietly leaked key hidden in thousands of lines of code?",
+      "stack": [
+        "Python",
+        "Rust",
+        "AST",
+        "FastAPI"
+      ],
+      "title": "SignalAudit: Automated Cryptographic Side-Channel and Implementation Analyzer",
+      "track": "Hackathon",
+      "why_it_could_win": "Directly attacks the core cybersecurity evaluation criteria of Protocol Zero by finding the exact implementation bugs (like weak RNGs and side-channels) that judges from IIT Madras and IIITDM will be testing against your code."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1273399666"
+      ],
+      "pitch": "An encrypted off-grid mesh messaging client running on ESP32/LoRa hardware implementing a lightweight variant of the Double Ratchet algorithm with post-quantum lattice-based key exchange.",
+      "problem_statement": "Secure Communication Protocol: Could you build a messaging system that holds up even when someone is actively trying to break it?",
+      "stack": [
+        "C++",
+        "ESP32",
+        "LoRa",
+        "Python",
+        " liboqs"
+      ],
+      "title": "MeshGuard: Post-Quantum LoRa Secure Mesh Messaging Protocol",
+      "track": "Hackathon",
+      "why_it_could_win": "Combines physical/hardware-level secure networking with advanced applied cryptography, showing extreme technical depth that stands out in an attack-defense oriented hackathon."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1069255350"
+      ],
+      "pitch": "A security monitoring daemon that sits between messaging clients and transport layers to detect session state divergence, out-of-order skipped key exhaustion, and active MITM tampering in Signal-like protocols.",
+      "problem_statement": "Secure Communication Protocol: Break Vulnerabilities. Engineer Trust. Secure Communication Protocol Zero focuses on the security of modern communication systems.",
+      "stack": [
+        "Go",
+        "TypeScript",
+        "gRPC",
+        "React"
+      ],
+      "title": "RatchetHound: Real-Time Double Ratchet State Leakage & MITM Detector",
+      "track": "Hackathon",
+      "why_it_could_win": "Simulates the exact threat vectors evaluated during the final Attack-Defence CTF phase, providing proactive telemetry for secure messaging integrity."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1077481559"
+      ],
+      "pitch": "A secure communication layer that uses Zero-Knowledge proofs to verify that participants have securely purged past session keys and ephemeral secrets without revealing message contents.",
+      "problem_statement": "Secure Communication Protocol: Billions of messages are protected every day by end-to-end encryption. But what happens when the cryptography is sound and the code around it is not?",
+      "stack": [
+        "Rust",
+        "Circom",
+        "Node.js",
+        "WebSockets"
+      ],
+      "title": "ZeroTrace: Verifiable Ephemeral Key Exchange Protocol with ZK Audits",
+      "track": "Hackathon",
+      "why_it_could_win": "Brings cutting-edge cryptographic guarantees (ZK-proofs for secure state erasure) to classical E2EE protocols, matching the rigorous applied cryptography focus of the bootcamp."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1004582948"
+      ],
+      "pitch": "An automated code-auditing pipeline that flags suspicious bitwise manipulation, hidden backdoors, and hardcoded entropy reduction routines introduced into cryptographic libraries.",
+      "problem_statement": "Secure Communication Protocol: A six-week challenge focused on secure implementation, backdoor design and backdoor detection.",
+      "stack": [
+        "Python",
+        "Tree-sitter",
+        "FastAPI",
+        "React"
+      ],
+      "title": "BackdoorDetector: ML-Assisted AST Diffing for Cryptographic Backdoors",
+      "track": "Hackathon",
+      "why_it_could_win": "Directly hits the explicit 'backdoor detection' sub-theme of the hackathon with a working, demonstrable static analysis engine."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

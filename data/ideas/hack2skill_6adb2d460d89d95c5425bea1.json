@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-27T11:13:23.506412+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "agritech",
+      "edtech"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "sponsor-tech",
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "hack2skill:6adb2d460d89d95c5425bea1",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1006075023"
+      ],
+      "pitch": "An offline-first mobile web app for farmers across Asia Pacific to diagnose plant diseases instantly using compressed CNNs running on device via TensorFlow Lite, combined with local language audio advice.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "TensorFlow Lite",
+        "React Native",
+        "FastAPI"
+      ],
+      "title": "CropDoc Mobile",
+      "track": "",
+      "why_it_could_win": "Aligns directly with the hackathon theme of applying Google AI to regional agricultural challenges, following the exact architecture of proven low-latency classification wins."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1193031299",
+        "github:1104248361"
+      ],
+      "pitch": "A multimodal voice assistant tailored for overcrowded classrooms in APAC to record teacher lectures, automatically generate localized quizzes, and explain concepts in regional dialects.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "JavaScript",
+        "Gemini API",
+        "Express",
+        "Vue.js"
+      ],
+      "title": "ClassroomVoice AI",
+      "track": "",
+      "why_it_could_win": "Combines audio transcription with dynamic assessment generation, leveraging the multimodal patterns seen in top educational tech hackathon wins."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1034488175",
+        "github:1213911408"
+      ],
+      "pitch": "An intelligent document platform that ingests local agricultural extension officer guides and regional farming policies, turning static PDFs into an interactive knowledge base for rural cooperatives.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "LangChain",
+        "FastAPI",
+        "Gemini API"
+      ],
+      "title": "Agrisense RAG",
+      "track": "",
+      "why_it_could_win": "Applies proven document intelligence and RAG patterns to a high-impact regional domain that judges in the Asia Pacific region will immediately recognize as valuable."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1245565654",
+        "github:1074933780"
+      ],
+      "pitch": "A localized career mentor and resume-driven mock interview coach designed for vocational graduates entering emerging tech and gig economies across Asia Pacific.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Gemini API",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "SkillBridge APAC",
+      "track": "",
+      "why_it_could_win": "Replicates the winning formula of structured career roadmaps and real-time interview feedback tailored specifically to regional workforce development goals."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An AI-powered multi-agent student support platform designed for remote eco-schools, combining personalized tutoring agents with environmental data tracking.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "EcoAgent Classroom",
+      "track": "",
+      "why_it_could_win": "Leverages advanced multi-agent orchestration frameworks that score exceptionally high on technical complexity while serving a socially impactful theme."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

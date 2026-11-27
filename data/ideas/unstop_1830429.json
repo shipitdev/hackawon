@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-11-27T11:14:12.991467+00:00",
+  "grounding": {
+    "domains": [
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "judge-pain",
+      "polish"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1830429",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "A real-time visualizer for 1v1 DSA battles that renders competitor ASTs and execution traces side-by-side on a DAG graph.",
+      "problem_statement": "CodeHive Rivalry Night #2 – Real-Time DSA Coding Battles",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "D3.js",
+        "WebSockets"
+      ],
+      "title": "AlgoDuel Replay Engine",
+      "track": "",
+      "why_it_could_win": "Leverages graph-algorithms and visualization techniques reminiscent of award-winning engineering projects like taskflow-pro, appealing directly to competitive programmers and event organizers looking for engaging spectating tools."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1391289010"
+      ],
+      "pitch": "An isolated, microVM-based code execution sandbox optimized for sub-millisecond AST parsing and parallel test-case validation in 1v1 duels.",
+      "problem_statement": "CodeHive Rivalry Night #2 – Real-Time DSA Coding Battles",
+      "stack": [
+        "Go",
+        "Docker",
+        "gRPC",
+        "Redis"
+      ],
+      "title": "Synapse Code Evaluator",
+      "track": "",
+      "why_it_could_win": "Focuses on genuinely hard infrastructure engineering and low-latency execution, directly solving the reliability and speed requirements of real-time competitive coding platforms."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1334000568"
+      ],
+      "pitch": "A training-free semantic router that classifies incoming DSA problem queries against historical failure modes to hint participants without giving away solutions.",
+      "problem_statement": "CodeHive Rivalry Night #2 – Real-Time DSA Coding Battles",
+      "stack": [
+        "Python",
+        "Qwen",
+        "Superlinked",
+        "FastAPI"
+      ],
+      "title": "Rivalry AI Second-Opinion",
+      "track": "",
+      "why_it_could_win": "Adapts proven semantic routing patterns from hackathon winners to create a low-cost, high-utility assistant tailored for real-time pressure testing."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "A keystroke and syntax telemetry analyzer that measures developer cognitive load and typing rhythm during high-pressure 1v1 coding duels.",
+      "problem_statement": "CodeHive Rivalry Night #2 – Real-Time DSA Coding Battles",
+      "stack": [
+        "TypeScript",
+        "WebSockets",
+        "TailwindCSS",
+        "Node.js"
+      ],
+      "title": "DuelMetrics Telemetry Hub",
+      "track": "",
+      "why_it_could_win": "Solves a problem the judges feel themselves—understanding how developers actually perform and panic under competitive coding constraints."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1273910052"
+      ],
+      "pitch": "An automated problem generator that uses recursive self-improvement principles to synthesize variant DSA test cases based on previous duel outcomes.",
+      "problem_statement": "CodeHive Rivalry Night #2 – Real-Time DSA Coding Battles",
+      "stack": [
+        "Python",
+        "LangGraph",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "DSA Kata Recursive Trainer",
+      "track": "",
+      "why_it_could_win": "Applies cutting-edge recursive self-improvement workflow frameworks to create a dynamic challenge repository that keeps the platform engaging for repeat participants."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
