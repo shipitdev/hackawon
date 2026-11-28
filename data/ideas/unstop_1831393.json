@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-11-28T10:45:36.005411+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1831393",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "A voice-first, vernacular diagnostic and triage assistant designed for rural primary health centres in Bihar with intermittent internet connectivity.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record management, w",
+      "stack": [
+        "Next.js",
+        "Python",
+        "FastAPI",
+        "Whisper-tiny",
+        "SQLite",
+        "TailwindCSS"
+      ],
+      "title": "ArogyaSetu-Rural: Low-Bandwidth AI Tele-Diagnostics & Voice Triage for Bihar Primary Health Centres",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly targets the HealthTech track with a hyper-localized problem relevant to Bihar's rural infrastructure, utilizing offline-first AI models that impress technical judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "An interoperable electronic health record management system with automated specialty referral matching and voice-to-text case summarization in Hindi and Bhojpuri.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record management, w",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "PostgreSQL",
+        "Gemini API"
+      ],
+      "title": "JeevanSutra: Multi-Lingual EHR & Automated Referral Matchmaker for District Hospitals",
+      "track": "HealthTech",
+      "why_it_could_win": "Solves patient record management friction which is a massive bottleneck in state-run district hospitals, scoring high on practical social impact."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A culturally adapted mental health screening tool and smart queue manager for connecting distressed individuals with verified counselors across Bihar.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record management, w",
+      "stack": [
+        "React",
+        "Express.js",
+        "MongoDB",
+        "TailwindCSS"
+      ],
+      "title": "Manas-Sahayak: Regional Language Mental Health Screening and Tele-Counseling Queue",
+      "track": "HealthTech",
+      "why_it_could_win": "Addresses mental health tools within the HealthTech track using regional linguistic nuances, standing out from generic medical dashboards."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1283554494"
+      ],
+      "pitch": "A predictive logistics and inventory optimization tool that forecasts drug shortages and vaccine cold-chain failures in remote district medical stores.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record management, w",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Plotly",
+        "Scikit-Learn"
+      ],
+      "title": "SwasthyaSupply: Predictive Inventory & Cold-Chain Expiry Tracker for Rural Pharmacies",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines healthcare efficiency with logistics forecasting, leveraging predictive modeling techniques proven in winning logistics projects."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1155558847"
+      ],
+      "pitch": "A mobile-friendly web application allowing frontline Anganwadi workers to screen children for common nutritional deficiencies using smartphone camera images.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record management, w",
+      "stack": [
+        "Next.js",
+        "TensorFlow.js",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "AyushScan: Computer Vision Based Nutritional Deficiency Screening for Anganwadi Workers",
+      "track": "HealthTech",
+      "why_it_could_win": "Provides direct, measurable impact on grassroots healthcare delivery in Bihar, appealing strongly to evaluators looking for real-world deployment potential."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-28T10:45:26.726048+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1831389",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered diagnostic triage tool designed for low-connectivity rural health centers in Madhya Pradesh, supporting local languages and offline model caching.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics.",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Gemini API",
+        "IndexedDB"
+      ],
+      "title": "ArogyaNet: Offline-First Rural Health Triage",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly targets the HealthTech track with a hyper-local angle relevant to Madhya Pradesh's rural demographics, satisfying judges looking for real-world impact and high problem-solving approach."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "A mobile web application using computer vision and local botanical datasets to verify medicinal plants and traditional AYUSH remedies common in central India.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TensorFlow Lite",
+        "React Native"
+      ],
+      "title": "AyurScan: Traditional Herb and Remedy Authenticator",
+      "track": "HealthTech",
+      "why_it_could_win": "Bridges indigenous regional knowledge with modern AI computer vision, appealing directly to IIIT Bhubaneswar and regional judges who value localized cultural and technical integration."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1087704265"
+      ],
+      "pitch": "A predictive wait-time and queue management system for district hospitals in Madhya Pradesh to minimize patient congestion and improve healthcare efficiency.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare.",
+      "stack": [
+        "Python",
+        "Jupyter Notebook",
+        "Streamlit",
+        "PostgreSQL"
+      ],
+      "title": "SwasthyaQueue: Predictive OPD Flow Management",
+      "track": "HealthTech",
+      "why_it_could_win": "Leverages statistical modeling and clear operational metrics, taking inspiration from winning regression and forecasting architectures to demonstrate immediate efficiency gains."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1283554494"
+      ],
+      "pitch": "A lightweight tracking dashboard for state-level distribution of pharmaceuticals, preventing counterfeiting and cold-chain failures in rural primary health centers.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Power BI"
+      ],
+      "title": "MediChain MP: Supply Chain Integrity for Essential Drugs",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines log analytics with data visualization similar to winning enterprise analytics entries, offering clear economic and social impact metrics for judges."
+    },
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An interactive voice and text agent helping rural citizens navigate state and central healthcare schemes, eligibility criteria, and benefit enrollment in Hindi and regional dialects.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare.",
+      "stack": [
+        "TypeScript",
+        "LangGraph",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "Sahayak AI: Multilingual Health Scheme Assistant",
+      "track": "HealthTech",
+      "why_it_could_win": "Uses multi-agent RAG architectures to solve administrative hurdles, aligning with winning architectures that emphasize accessible student and citizen support platforms."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

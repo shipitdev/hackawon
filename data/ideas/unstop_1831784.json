@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-11-28T10:45:44.481685+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "working-demo"
+    ],
+    "problem_source_count": 0,
+    "status": "limited",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1831784",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [],
+      "pitch": "An interactive execution visualizer designed specifically for the DSA WAR core concepts, showing memory states, pointer manipulations, and recursion trees step-by-step.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Monaco Editor"
+      ],
+      "title": "AlgoTrace: Real-time DSA Execution Visualizer",
+      "track": "",
+      "why_it_could_win": "Aligns with the core focus of the hackathon on mastering data structures, helping competitors immediately debug their mental models of arrays, trees, and graphs during quizzes."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A platform that maps difficult coding round problems to abstract underlying patterns like sliding window, two pointers, and monotonic stacks to accelerate competitor learning.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL"
+      ],
+      "title": "PatternForge: Reusable DSA Pattern Recognition Engine",
+      "track": "",
+      "why_it_could_win": "Directly tackles the hackathon's stated goal of teaching patterns you can reuse in interviews and placements, providing immediate utility to participants."
+    },
+    {
+      "build_hours": 24,
+      "inspired_by": [],
+      "pitch": "A lightweight linter and analyzer that predicts the time and space complexity of user-submitted code snippets under strict time pressure constraints.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "AST Parser",
+        "Streamlit"
+      ],
+      "title": "ComplexityMeter: Automated Static Code Complexity Analyzer",
+      "track": "",
+      "why_it_could_win": "Focuses heavily on the complexity analysis component of Round 1, offering a genuinely hard technical utility that works reliably in a live demo."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [],
+      "pitch": "A zero-config diagnostic tool that captures recursive function execution paths and generates real-time call trees to debug stack overflows instantly.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "D3.js",
+        "Node.js"
+      ],
+      "title": "RecursionTree: Visual Call-Stack Tracer",
+      "track": "",
+      "why_it_could_win": "Solves a notoriously difficult visualization problem for recursion and sorting algorithms, mirroring the pattern of winning projects that solve genuinely hard engineering tasks."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [],
+      "pitch": "An end-to-end simulation environment combining timed quizzes and progressive coding rounds that mimics real placement tests under a strict clock.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Prisma",
+        "Docker"
+      ],
+      "title": "MockWar: Solo Timed Placement Simulator",
+      "track": "",
+      "why_it_could_win": "Fulfills the hackathon's promise of practicing the way placements actually work, giving a solo developer a complete, highly polished product by the end of the weekend."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

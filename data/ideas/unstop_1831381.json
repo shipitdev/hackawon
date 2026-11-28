@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-11-28T10:45:22.463487+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1831381",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1275874285",
+        "github:1241231621"
+      ],
+      "pitch": "An AI-powered diagnostic screening assistant tailored for rural health workers in Andhra Pradesh to assess preliminary vitals and symptoms without reliable internet.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "SQLite",
+        "Python",
+        "FastAPI"
+      ],
+      "title": "ArogyaNet: Offline-First Rural Health Diagnostics",
+      "track": "HealthTech",
+      "why_it_could_win": "Addresses the specific HealthTech track by solving a hard last-mile connectivity constraint common in rural Andhra Pradesh, earning high scores on local social impact."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1241231621"
+      ],
+      "pitch": "A multilingual telemedicine platform supporting Telugu and English, using automated symptom extraction to route patients efficiently to the nearest primary health center.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "WebRTC",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "title": "TelePulse AP: Regional Telemedicine Triaging Engine",
+      "track": "HealthTech",
+      "why_it_could_win": "Focuses squarely on the telemedicine aspect of the HealthTech track with localized language support that instantly resonates with state-level judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1283554494"
+      ],
+      "pitch": "A lightweight supply-chain ledger ensuring rural clinics in Andhra Pradesh can verify the authenticity of critical pharmaceutical drugs.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React"
+      ],
+      "title": "MedChain Trace: Essential Drug Authentication",
+      "track": "HealthTech",
+      "why_it_could_win": "Brings rigorous backend transparency to the HealthTech track, showcasing technical implementation depth that stands out in a crowded field."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1283554494"
+      ],
+      "pitch": "A data dashboard utilizing predictive models to forecast regional medical supply needs and hospital bed utilization across Andhra Pradesh districts.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Scikit-Learn",
+        "Plotly"
+      ],
+      "title": "VaidyaInsight: Health Resource Allocator Dashboard",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines predictive analytics with clear administrative impact, leveraging the exact data-driven forecasting success pattern from past wins."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1213911408",
+        "github:1275874285"
+      ],
+      "pitch": "An ambient voice-to-text clinical documentation tool that transcribes rural doctor-patient consultations in regional dialects and auto-populates electronic health records.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "React",
+        "Whisper API",
+        "TailwindCSS"
+      ],
+      "title": "SwasthyaVoice: Automated Clinical Scribe for PHCs",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly attacks administrative overhead in primary healthcare clinics, appealing heavily to judges looking for high practical efficiency gains."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

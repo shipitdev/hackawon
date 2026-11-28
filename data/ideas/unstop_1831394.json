@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-11-28T10:45:40.311214+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1831394",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "A localized telemedicine and AI symptom triage platform tailored for rural Punjab healthcare centers with low bandwidth.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record manage",
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Python",
+        "FastAPI",
+        "SQLite"
+      ],
+      "title": "MediPulse Punjab: Offline-First Rural Health Tele-Triage",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly targets the HealthTech track with a region-specific constraint (low bandwidth rural connectivity in Punjab), solving a clear accessibility problem that local judges will instantly recognize."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1275874285"
+      ],
+      "pitch": "An OCR and NLP pipeline that extracts structured patient data from handwritten prescription slips in English, Punjabi, and Hindi.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record manage",
+      "stack": [
+        "React",
+        "Python",
+        "Tesseract OCR",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "title": "ArogyaRec: Multilingual Patient Record Digitization for Punjab PHCs",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines local language relevance (Punjabi/Hindi OCR) with patient record management, making it highly practical for Primary Health Centers (PHCs) across Punjab."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "An anonymous, AI-moderated peer support and crisis management web app designed specifically for students in Punjab colleges.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record manage",
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "Socket.io",
+        "OpenAI API",
+        "TailwindCSS"
+      ],
+      "title": "MindSanjh: Punjabi Youth Mental Health Peer Support Network",
+      "track": "HealthTech",
+      "why_it_could_win": "Addresses the mental health domain mentioned in the track prompt while targeting the exact demographic of the hackathon (college students in Punjab)."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1181344931",
+        "github:1275874285"
+      ],
+      "pitch": "A web-based diagnostic assistant that uses lifestyle inputs and smartphone camera PPG signals to estimate early cardiovascular risk.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record manage",
+      "stack": [
+        "React",
+        "TensorFlow.js",
+        "Python",
+        "Flask",
+        "Chart.js"
+      ],
+      "title": "PulseAI: Low-Cost Cardiovascular Risk Screener",
+      "track": "HealthTech",
+      "why_it_could_win": "Focuses on the diagnostics sub-theme of the HealthTech track with an implementation that requires zero specialized hardware beyond a standard smartphone."
+    },
+    {
+      "build_hours": 26,
+      "inspired_by": [],
+      "pitch": "An integrated database and interaction checker for combining traditional Ayurvedic treatments common in Punjab with modern pharmaceuticals.",
+      "problem_statement": "HealthTech: Build solutions that improve access, quality, or efficiency of healthcare. Think about diagnostics, telemedicine platforms, mental health tools, patient record manage",
+      "stack": [
+        "Vue.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "TailwindCSS"
+      ],
+      "title": "AyurTrack: Traditional Medicine & Herb Drug Interaction Checker",
+      "track": "HealthTech",
+      "why_it_could_win": "Presents a culturally relevant healthcare angle specific to North India, combining traditional practices with safety checks that appeal strongly to regional evaluation panels."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

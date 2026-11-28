@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-11-28T10:45:08.905774+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "devtools"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "judge-pain",
+      "working-demo",
+      "technical-depth"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1829467",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1226951926",
+        "github:1181028879"
+      ],
+      "pitch": "An AI-native cloud control plane built specifically on Infriqa to monitor, trace, and auto-heal deployed multi-agent workflows.",
+      "problem_statement": "Infriqa: Design. Build. Operate. Challenge - Build the Next Generation of AI Applications from Architecture to Production across the complete engineering lifecycle.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Infriqa API",
+        "LangGraph",
+        "React"
+      ],
+      "title": "AgentOps Lifecycle Manager",
+      "track": "",
+      "why_it_could_win": "Directly targets the 'Operate' pillar (accounting for 35% of judging) by showcasing production-grade monitoring and automated remediation that standard hackathon prototypes completely ignore."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1282252864",
+        "github:1423778544"
+      ],
+      "pitch": "Translates high-level system architecture diagrams directly into provisioned cloud infrastructure templates and functional AI service deployments.",
+      "problem_statement": "Infriqa: Design. Build. Operate. Challenge - Translate an idea into a scalable application and cloud architecture—defining agents, APIs, data pipelines, and infrastructure dependencies.",
+      "stack": [
+        "TypeScript",
+        "Python",
+        "OpenAI API",
+        "Terraform",
+        "Infriqa CLI"
+      ],
+      "title": "ArchToDeploy: Automated Cloud Architect",
+      "track": "",
+      "why_it_could_win": "Wins on the 'Design' and 'Build' pillars by automating the exact architectural translation judges look for, reducing hours of manual setup into a single workflow."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [
+        "github:1181275893",
+        "github:1207207353"
+      ],
+      "pitch": "Spins up isolated cloud staging environments on Infriqa, runs automated QA route checks, and has an AI agent validate your RAG pipelines before production release.",
+      "problem_statement": "Infriqa: Design. Build. Operate. Challenge - Experience the complete engineering lifecycle: designing scalable architecture, building functional software, deploying it to the cloud, and operating it in production.",
+      "stack": [
+        "TypeScript",
+        "Docker",
+        "Infriqa API",
+        "PostgreSQL",
+        "LangChain"
+      ],
+      "title": "ProdRAG: Ephemeral Staging for AI Apps",
+      "track": "",
+      "why_it_could_win": "Leverages the winning formula of Q-Labs by providing an automated pre-deployment QA agent that makes the live demo exceptionally easy and foolproof for judges to evaluate."
+    },
+    {
+      "build_hours": 42,
+      "inspired_by": [
+        "github:1199751414",
+        "github:1282252864"
+      ],
+      "pitch": "A Kubernetes and ArgoCD-backed agent deployment pipeline that syncs repository changes directly to Infriqa cloud runtimes with integrated risk analysis.",
+      "problem_statement": "Infriqa: Design. Build. Operate. Challenge - Turn your architecture into working software using modern AI engineering, backend development, and repeatable CI/CD deployments.",
+      "stack": [
+        "Go",
+        "ArgoCD",
+        "Kubernetes",
+        "Python",
+        "Infriqa SDK"
+      ],
+      "title": "GitOps Agentic Pipeline for Infriqa",
+      "track": "",
+      "why_it_could_win": "Demonstrates genuinely hard infrastructure engineering combined with cloud-native tooling, perfectly satisfying the rigorous production-operations focus of the Infriqa platform."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1181028879"
+      ],
+      "pitch": "An internal developer intelligence platform that captures architecture decisions, deployment logs, and runbook updates, converting them into searchable context for incoming engineers.",
+      "problem_statement": "Infriqa: Design. Build. Operate. Challenge - Build the Next Generation of AI Applications from Architecture to Production while managing technical operations and documentation.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "ChromaDB",
+        "React",
+        "Infriqa API"
+      ],
+      "title": "DevKnowledge Infriqa Sync",
+      "track": "",
+      "why_it_could_win": "Modeled after a 1st-place winner that solved a real developer pain point; judges who manage engineering teams immediately connect with the problem of lost tribal knowledge during cloud migrations."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-11-28T10:45:04.229649+00:00",
+  "grounding": {
+    "domains": [],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "impact"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1735451",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:1241231621",
+        "github:1275874285"
+      ],
+      "pitch": "An AI-powered diagnostic and triage assistant designed for rural clinics in Chhattisgarh with intermittent connectivity, utilizing edge AI and local language translation.",
+      "problem_statement": "HealthTech: Build solutions that improve access",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "SQLite",
+        "TailwindCSS",
+        "ONNX Runtime"
+      ],
+      "title": "ArogyaMesh: Offline-First Rural Health Triage",
+      "track": "HealthTech",
+      "why_it_could_win": "Directly targets the HealthTech track with a hyper-local, practical solution for Chhattisgarh's rural healthcare needs, making it deeply relevant to state-level judges."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1213911408"
+      ],
+      "pitch": "A computer vision and RAG pipeline that helps document, verify, and cross-reference indigenous medicinal plants and traditional remedies used by tribal communities in Chhattisgarh.",
+      "problem_statement": "HealthTech: Build solutions that improve access",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "ChromaDB",
+        "React"
+      ],
+      "title": "Vananchal Swasthya: Tribal Herbal Medicine Digitizer",
+      "track": "HealthTech",
+      "why_it_could_win": "Combines cutting-edge RAG architecture with regional cultural heritage, scoring high on local relevance and technical execution."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "A mobile-first platform providing immutable provenance tracking and digital certificates for traditional Dhokra and iron craft artisans in Bastar.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "Ethers.js",
+        "Polygon",
+        "IPFS"
+      ],
+      "title": "BastarArt Authenticator: Blockchain-Backed Craft Provenance",
+      "track": "",
+      "why_it_could_win": "Leverages the local identity of Chhattisgarh (Bastar art) to appeal directly to the state qualifier judges looking for regional socio-economic impact."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:1087704265",
+        "github:1155558847"
+      ],
+      "pitch": "A predictive dashboard using machine learning and sensor inputs to forecast groundwater contamination risks across districts in Chhattisgarh.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "Python",
+        "Pandas",
+        "Scikit-Learn",
+        "Streamlit",
+        "Plotly"
+      ],
+      "title": "JalSuraksha: Rural Water Quality & Contamination Predictor",
+      "track": "",
+      "why_it_could_win": "Follows the proven data-forecasting pattern seen in winning infrastructure and resource-monitoring hacks, presenting clear, quantifiable public health benefits."
+    },
+    {
+      "build_hours": 38,
+      "inspired_by": [
+        "github:1245565654"
+      ],
+      "pitch": "An AI-driven career guidance and skill-gap analyzer tailored for rural students in Chhattisgarh, supporting Hindi and Chhattisgarhi dialects for resume-building and job matching.",
+      "problem_statement": "No published statement",
+      "stack": [
+        "TypeScript",
+        "Next.js",
+        "OpenAI API",
+        "TailwindCSS",
+        "PostgreSQL"
+      ],
+      "title": "ShikshaSetu: Multilingual Vocational Skill Matcher",
+      "track": "",
+      "why_it_could_win": "Tackles employment and education accessibility with localized language support, impressing judges with direct socio-economic utility for students."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}

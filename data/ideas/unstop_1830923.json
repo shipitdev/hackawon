@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-28T10:45:17.601847+00:00",
+  "grounding": {
+    "domains": [
+      "ai-ml",
+      "security"
+    ],
+    "exemplar_count": 8,
+    "patterns": [
+      "technical-depth",
+      "sponsor-tech",
+      "working-demo"
+    ],
+    "problem_source_count": 1,
+    "status": "problem_grounded",
+    "thin": false
+  },
+  "hackathon_uid": "unstop:1830923",
+  "ideas": [
+    {
+      "build_hours": 36,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "An automated pipeline analyzer that flags malicious code injections and hidden dependency risks in real-time.",
+      "problem_statement": "Software Supply Chain Security & Policy Enforcement",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "Next.js",
+        "Gemini API"
+      ],
+      "title": "SupplyChainGuard: AI-Powered Software Bill of Materials (SBOM) Risk & Vulnerability Auditor",
+      "track": "Software Supply Chain Security & Policy Enforcement",
+      "why_it_could_win": "Directly targets a specific high-priority track and solves a real enterprise DevOps compliance pain point with demonstrable speed."
+    },
+    {
+      "build_hours": 30,
+      "inspired_by": [],
+      "pitch": "An intelligent SDLC assistant that prevents insecure code patterns from reaching production repositories.",
+      "problem_statement": "Secure Software Development Lifecycle (SDLC)",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "OpenAI API"
+      ],
+      "title": "SecDevOps-Copilot: Automated Security Linter and Compliance Enforcer for CI/CD Pipelines",
+      "track": "Secure Software Development Lifecycle (SDLC)",
+      "why_it_could_win": "Focuses on the Secure SDLC track by integrating directly into developer workflows, making it immediately appealing to security-conscious judges."
+    },
+    {
+      "build_hours": 32,
+      "inspired_by": [
+        "github:985196561"
+      ],
+      "pitch": "A real-time log analysis dashboard that isolates zero-day brute-force attempts and anomalous traffic spikes.",
+      "problem_statement": "AI-Powered Cybersecurity",
+      "stack": [
+        "TypeScript",
+        "FastAPI",
+        "Python",
+        "Next.js",
+        "TailwindCSS"
+      ],
+      "title": "LogSentry AI: NGINX and Security Log Threat Hunter with Automated Anomaly Clustering",
+      "track": "AI-Powered Cybersecurity",
+      "why_it_could_win": "Builds directly on proven hackathon-winning architectures for log anomaly detection while adding actionable threat intelligence."
+    },
+    {
+      "build_hours": 28,
+      "inspired_by": [],
+      "pitch": "An intelligent auditing tool that continuously checks cloud infrastructure configurations against evolving data protection frameworks.",
+      "problem_statement": "Governance, Risk & Compliance (GRC)",
+      "stack": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "PostgreSQL"
+      ],
+      "title": "RegulAI: Automated Regulatory Compliance Mapper for Cloud Infrastructure Policies",
+      "track": "Governance, Risk & Compliance (GRC)",
+      "why_it_could_win": "Addresses enterprise GRC needs with a working prototype that automates hours of manual compliance paperwork into seconds."
+    },
+    {
+      "build_hours": 40,
+      "inspired_by": [
+        "github:1188682384"
+      ],
+      "pitch": "A cryptographic access control layer ensuring autonomous AI agents only execute authorized system commands.",
+      "problem_statement": "Open Innovation",
+      "stack": [
+        "TypeScript",
+        "Noir",
+        "Next.js",
+        "Python"
+      ],
+      "title": "ZeroTrust Agent: ZK-Verified Permission Gateway for Multi-Agent AI Systems",
+      "track": "Open Innovation",
+      "why_it_could_win": "Combines cutting-edge ZK primitives with agentic security, matching complex technical winning standards seen at recent security-focused hackathons."
+    }
+  ],
+  "prompt_version": 2,
+  "provider": "gemini",
+  "taxonomy_version": 2
+}
